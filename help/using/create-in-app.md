@@ -32,15 +32,47 @@ Once you [created a message](create-message.md) with the In-App channel selected
 
     For more information on this, refer to Create a custom In-App message.
 
+## Content tab {#content-tab}
 
+### Close button {#close-button}
 
-## Add media {#add-media}
+Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]** between **[!UICONTROL Simple]** or **[!UICONTROL Circle]**.
 
-## Title and Body {#title-body}
+If the Advanced formatting mode is switched on, you can choose the colors and opacity of your button. 
 
-To compose your message, click the Title and [!UICONTROL Body] fields. Use the Expression Editor to define content and personalization data. Learn more about personalization in the Expression Editor in this section
+### Media {#add-media}
 
-Use the device preview section to visualize how the push notification displays on iOS and Android devices.
+The **[!UICONTROL Media]** field allows you to add media to your In-App message to create a compelling experience for end user.
+
+Clicking the **[!UICONTROL Select Assets]** icon, you can directly add assets stored in the Assets library to your In-App message. [Learn more about asset management]().
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
+
+### Header and Body {#title-body}
+
+To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor in this section
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Color]**
+* the **[!UICONTROL Alignement]**
+
+#### Advanced formatting mode {#title-body-advanced}
+
+### Buttons {#buttons}
+
+#### Advanced formatting mode {#buttons-advanced}
+
+## Settings tab {#settings-tab}
+
+### Preview {#preview-tab}
+
+### Message {#message}
+
+#### Advanced formatting mode {#message-advanced}
+
 
 **Related topics**
 
