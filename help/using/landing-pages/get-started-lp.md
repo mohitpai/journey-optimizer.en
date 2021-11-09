@@ -7,7 +7,12 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
-# Get started with messages {#get-sarted-lp}
+# Get started with landing pages {#get-sarted-lp}
+
+For now 3 use cases:
+Subscription to a service
+Opt-in
+Opt-out
 
 Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
 
