@@ -7,17 +7,9 @@ role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
-# Create an email {#configure-email}
+# Create a landing page {#create-lp}
 
-Once you [created a message](create-message.md), use the **[!UICONTROL Email]** tab to define the settings and content for the email channel.
-
-![](assets/emails-configuration.png)
-
->[!NOTE]
->
->The **[!UICONTROL From email]** and **[!UICONTROL From name]** are read-only and determined by the **[!UICONTROL Preset]** that has been selected when [creating the message](create-message.md).
-
-The steps to configure an email are as follows:
+The steps to configure a landing page are as follows:
 
 1. Specify the email subject in the **[!UICONTROL Subject line]** field. To do this, click the button on the right-hand side to open the Expression editor and compose the email subject. Learn how to add personalization in [this section](personalization/personalize.md)
 
