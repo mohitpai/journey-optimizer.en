@@ -76,11 +76,3 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 
 **Related topics**
 
-<!--
-* [Understand push notification flow](push-gs.md)
--->
-
-* [Configure push channel](push-gs.md)
-* [Create a new message](create-message.md)
-* [Add a message in a journey](building-journeys/journeys-message.md)
-
