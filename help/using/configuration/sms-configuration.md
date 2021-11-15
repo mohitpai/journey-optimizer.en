@@ -25,6 +25,9 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
     >
     > Sinch requires special API credentials. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account, 
 
+1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
+
+After creating and configuring your API credential, you now need to create a message preset for SMS messages.
 
 ## Create a message preset for SMS messages {#message-preset-sms}
 
