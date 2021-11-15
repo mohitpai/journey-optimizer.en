@@ -16,22 +16,21 @@ Opt-out
 
 Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.
 
-**What is a Landing Page?**
-A landing page is a standalone web page that a person "lands" on after clicking through from an email, an ad, or other digital location. The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.
+**What is a landing page?**
+A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location. The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.
 
 **What's the audience of a landing page?**
 Consumers who can opt-in, opt-out , subscribe to the brand offering.
 
 **Objective**
-* Enable marketers to build beautiful landing pages without the help of IT to drive the best conversion.
-* Enable marketers to set-up Opt-in /opt-out flows very quickly and seamlessly
+Use [!DNL Journey Optimizer] to:
+* Easily build landing pages to make users subscribe to your communications.
+* Set up opt-in and opt-out flows quickly and seamlessly.
+<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
 
-Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
-
-* Leverage [!DNL Journey Optimizer] **content designing capabilities** to create responsive landing pages.
-
+**Usage**
+* Leverage [!DNL Journey Optimizer] content designing capabilities to create responsive landing pages.
 * Create subscription lists to enable users to subscribe to a service.
-
 * Enable your customers to opt-in or opt-out from your communications.
 
 <table>

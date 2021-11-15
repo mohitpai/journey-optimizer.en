@@ -21,6 +21,18 @@ The steps to create a landing page are as follows.
 
 1. Click **[!UICONTROL Create]**.
 
-## Define the primary page
+1. Design the content of the primary page. See [here](#design-lp-content)
 
-1. 
+1. Click the + icon to add a subpage.
+
+## Design the landing page content {#design-lp-content}
+
+1. Click **[!UICONTROL Open Designer]**. The Email Designer opens and enables you to design content. [Learn more](../../design-emails.md) on designing content with the [!DNL Journey Optimizer] Email/content Designer.
+
+1. Use the landing page-specific **[!UICONTROL Form]** component from the left palette to add checkboxes.
+
+***
+
+**Questions**
+
+* Will the name Email Designer be kept if you can also design LP with the same tool?
