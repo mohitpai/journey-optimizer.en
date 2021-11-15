@@ -19,9 +19,6 @@ Landing pages are online forms that are used by marketers to capture information
 **What is a Landing Page?**
 A landing page is a standalone web page that a person "lands" on after clicking through from an email, an ad, or other digital location. The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.
 
-**What is a Subscription List?**
-Subscription service refers to marketing goods and services provided to customers who have opted-in on an ongoing basis. A subscription service can be a newsletter “Running series”, an event “Summit 2021” or a Webinar.
-
 **What's the audience of a landing page?**
 Consumers who can opt-in, opt-out , subscribe to the brand offering.
 
