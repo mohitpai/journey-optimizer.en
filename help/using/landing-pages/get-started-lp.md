@@ -57,11 +57,17 @@ Use [!DNL Journey Optimizer] to:
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign.
 
-1. You create the registration landing pages: welcome page and thank you page.
+1. You create the event registration's subscription list.
 
-1. You run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page.
+1. You create the registration landing pages: welcome page and thank you page. You insert the link to the subscription list in the registration landing page.
 
-1. You create the event registration's subscription list in order to track the profiles who registered and to send them targeted event updates.
+1. You run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page. You create the email and insert the link to the registration landing page. You send the email as part of a journey.
+
+1. Users receive the email and click the link to the landing page.
+
+1. The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.
+
+![](../assets/lp_subscription-uc.png)
 
 
 
