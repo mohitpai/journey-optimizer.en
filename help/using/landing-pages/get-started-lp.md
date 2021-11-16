@@ -51,3 +51,17 @@ Use [!DNL Journey Optimizer] to:
 
 * Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.
 
+***
+
+## Use case
+
+For example, let's say you organize an event next month and you want to launch an event registration campaign.
+
+1. You create the registration landing pages: welcome page and thank you page.
+
+1. You run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page.
+
+1. You create the event registration's subscription list in order to track the profiles who registered and to send them targeted event updates.
+
+
+
