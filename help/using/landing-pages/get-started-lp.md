@@ -9,18 +9,13 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with landing pages {#get-sarted-lp}
 
-For now 3 use cases:
-Subscription to a service
-Opt-in
-Opt-out
-
 Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.
 
 **What is a landing page?**
 A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location. The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.
 
 **What's the audience of a landing page?**
-Consumers who can opt-in, opt-out , subscribe to the brand offering.
+Consumers who can opt-in, opt-out, or subscribe to the brand offering.
 
 **Objective**
 Use [!DNL Journey Optimizer] to:
@@ -53,15 +48,22 @@ Use [!DNL Journey Optimizer] to:
 
 ***
 
-## Use case
+## Use cases
+
+The main use cases are:
+* Subscription to a service
+* Opt-in
+* Opt-out
+
+### Subscription to a service
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign.
 
-1. You create the event registration's subscription list.
+1. Create the event registration's subscription list.
 
-1. You create the registration landing pages: welcome page and thank you page. You insert the link to the subscription list in the registration landing page.
+1. Create the registration landing pages: welcome page and thank you page. You insert the link to the subscription list in the registration landing page.
 
-1. You run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page. You create the email and insert the link to the registration landing page. You send the email as part of a journey.
+1. Run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page. You create the email and insert the link to the registration landing page. You send the email as part of a journey.
 
 1. Users receive the email and click the link to the landing page.
 
