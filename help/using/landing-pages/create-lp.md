@@ -1,6 +1,6 @@
 ---
-title: Create an email
-description: Learn how to create an email in Journey Optimizer
+title: Create a landing page
+description: Learn how to create a landing page in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,6 +10,10 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 # Create a landing page {#create-lp}
 
 To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
+
+>[!CAUTION]
+>
+>The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 ![](../assets/lp_access-list.png)
 
@@ -39,7 +43,7 @@ The steps to create a landing page are as follows.
 
 1. You can change the page name, which is **[!UICONTROL Primary page]** by default.
 
-1. Edit the content of your page using the content designer. Hover the mouse over the primary page and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette. Learn how to design landing page content [here]((#design-lp-content)
+1. Edit the content of your page using the content designer. Hover the mouse over the primary page and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette. Learn how to design landing page content [here](#design-lp-content)
 
     ![](../assets/lp_open-designer.png)
 
@@ -67,20 +71,69 @@ The steps to create a landing page are as follows.
 
 ## Design the landing page content {#design-lp-content}
 
-1. Click **[!UICONTROL Open Designer]**. The Content Designer opens and enables you to design content. [Learn more](../design-emails.md) on designing content with the [!DNL Journey Optimizer] Content Designer. You can:
+1. Click **[!UICONTROL Open Designer]** to start creating content for your landing page. [Learn more](../design-emails.md) on designing content with [!DNL Journey Optimizer]. You can:
 
     * **Design your landing page from scratch** through the content designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
 
-    * **Code or paste raw HTML** directly in the content designer. Learn how to code your own content [in this section](../existing-content.md#import-raw-html-code).
+    * **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../existing-content.md#import-raw-html-code).
 
     * **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../existing-content.md#import-html-content-from-file).
 
-1. Use the landing page-specific **[!UICONTROL Form]** component from the left palette to add checkboxes.
+1. Drag and drop the landing page-specific **[!UICONTROL Form]** component from the left palette into the main workspace.
 
     ![](../assets/lp_designer-form-component.png)
+
+1. Select it. The **[!UICONTROL Form content]** tab displays in the right palette to let you to edit the different fields of the form.
+
+    ![](../assets/lp_designer-form-content-options.png)
+
+1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
+
+1. Define if this checkbox is to opt users in or out. This means that if they check the box, do they agree to receive communications or do they ask not to be contacted any more?
+
+    ![](../assets/lp_designer-form-update.png)
+
+1. Choose what will be updated between the three following options:
+
+    ![](../assets/lp_designer-form-update-options.png)
+
+    * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects the checkbox.
+
+        ![](../assets/lp_designer-form-subs-list.png)
+
+    * **[!UICONTROL Channel (email)]**: applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from your communications.
+
+    * **[!UICONTROL Email entity]**: only applies to the email address that was used to access the landing page. For example, if a profile has two email addresses, only the one that was used to opted in will receive communications from your brand.
+
+1. Click **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** to add another checkbox. Repeat the steps above to define its properties.
+
+    ![](../assets/lp_designer-form-checkbox-2.png)
+
+1. Click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button of the **[!UICONTROL Form]** component.
+
+    ![](../assets/lp_designer-form-call-to-action.png)
+
+1. Define what will happen upon clicking the button:
+
+    * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
+    * **[!UICONTROL Confirmation text]**: Type the confirmation text that will be displayed.
+    * **[!UICONTROL Link to a subpage]**: Configure a subpage and select it from the drop-down list that displays. Learn more [here](#configure-subpages)
+
+    ![](../assets/lp_designer-form-confirmation-action.png)
+
+1. Define what will happen upon clicking the button in case an error occurs:
+
+    * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
+    * **[!UICONTROL Error text]**: Type the error text that will be displayed. You can preview the error text by selection the corresponding checkbox.
+
+        ![](../assets/lp_designer-form-error-preview.png)
+
+    * **[!UICONTROL Link to a subpage]**: Configure a subpage and select it from the drop-down list that displays. Learn more [here](#configure-subpages)
+
+1. If you want to make additionnal updates upon submitting the form, select **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
 
 ***
 
 **Questions**
 
-* Will the name Email Designer be kept if you can also design LP with the same tool?
+* Will the name Email Designer be kept if you can also design LP with the same tool? > Modify 

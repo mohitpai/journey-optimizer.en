@@ -9,6 +9,10 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with landing pages {#get-sarted-lp}
 
+>[!CAUTION]
+>
+>The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+
 Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.
 
 **What is a landing page?**
@@ -30,11 +34,11 @@ Use [!DNL Journey Optimizer] to:
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="create-lp.md">About landing pages</a></p></td>
-<td><img src="assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
-<td><img src="assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="create-lp.md">Create subscription</a></p></td>
-<td><img src="assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="create-lp.md">Opt-in and opt-out</a></p></td>
-<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="consent.md">Manage opt-out</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="create-lp.md">About landing pages</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
+<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="create-lp.md">Create subscription</a></p></td>
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="create-lp.md">Opt-in and opt-out</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="consent.md">Manage opt-out</a></p></td>
 </tr>
 </table>
 
