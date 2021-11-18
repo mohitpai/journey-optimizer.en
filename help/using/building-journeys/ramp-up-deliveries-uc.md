@@ -7,6 +7,7 @@ role: User
 level: Intermediate
 ---
 
+<!--
 # Use case: ramp up your deliveries
 
 If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
@@ -25,7 +26,7 @@ The purpose of this use case is to create a journey to ramp up your email delive
 
    1. Set the **[!UICONTROL Limit]** field to the maximum number of recipients for this delivery.
 
-    ![](../assets/profile-limiter-activity.png)
+    ![](../assets/profile-cap-condition.png)
 
       You can gradually increase this limit up to the total number of your subscribers.
 
@@ -39,7 +40,7 @@ The purpose of this use case is to create a journey to ramp up your email delive
 
 After your IP has warmed up, you can remove this condition.
 
-
+-->
 
 
 

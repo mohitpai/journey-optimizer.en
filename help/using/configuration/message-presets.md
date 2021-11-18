@@ -151,11 +151,118 @@ If one of these errors occurs, contact the [Adobe Customer Care Support Team](ht
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding preset
     * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
 
-## Edit message presets
+## Edit a message preset {#edit-message-preset}
 
-To edit a message preset, you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working). You then need to duplicate the message preset to create a new version that you will use to create new messages:
+To edit a message preset, follow the steps below.
 
-1. Access the message presets list, then de-activate the message preset that you want to edit.
+>[!NOTE]
+>
+>You cannot edit the **[!UICONTROL Push notification settings]**. If a message preset is only configured for the Push notification channel, it is not editable.
+
+1. From the list, click a message preset name to open it.
+
+    ![](../assets/preset-name.png)
+
+1. Edit its properties as desired.
+
+    >[!NOTE]
+    >
+    >If a message preset has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
+
+1. Click **[!UICONTROL Submit]** to confirm your changes.
+
+    ![](../assets/preset-confirm-update.png)
+
+    >[!NOTE]
+    >
+    >You can also save the message preset as draft and resume update later on.
+
+Once the changes are submitted, the message preset will go through a validation cycle similar to the one in place when [creating a preset](#create-message-preset).
+
+>[!NOTE]
+>
+>If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+
+For message presets that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+
+* Click the **[!UICONTROL Recent update]** icon that is displayed next to the active preset name.
+
+    ![](../assets/preset-recent-update-icon.png)
+
+* You can also access the update details from an active message preset while update is in progress.
+    
+    ![](../assets/preset-view-update-details.png)
+
+On the **[!UICONTROL Recent update]** screen, you can see information such as the update status,<!--the approximate remaining time before completion (if validation is in progress)--> and the list of requested changes.
+
+![](../assets/preset-recent-update-screen.png)
+
+### Update statuses {#update-statuses}
+
+A message preset update can have the following statuses:
+
+* **[!UICONTROL Processing]**: The message preset update has been submitted and is going through several verifications steps.
+* **[!UICONTROL Success]**: The updated message preset has been verified and can be selected to create messages.
+* **[!UICONTROL Failed]**: One or several checks have failed during the message preset update verification.
+
+Each status is detailed below.
+
+### Processing
+
+Several deliverability checks will be performed to verify that the preset has been updated properly.
+
+>[!NOTE]
+>
+>If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+
+The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
+
+If you edit a preset that was already active:
+
+* Its status remains **[!UICONTROL Active]** while the validation process is in progress.
+
+* The **[!UICONTROL Recent update]** icon displays next to the name of the preset in the message presets list.
+
+* During the validation process, the messages configured using this preset are still using the older version of the preset.
+
+>[!NOTE]
+>
+>You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
+
+### Success
+
+Once the validation process is successful, the new version of the preset is automatically used in all messages using this preset. However, you may have to wait:
+* a few minutes before it is consumed by the unitary messages,
+* until the next batch for the preset to be effective in batch messages.
+
+<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
+
+### Failed
+
+If the validation process fails, the older version of the preset will still be used.
+
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
+
+Learn more on the possible failure reasons in [this section](#monitor-message-presets).
+
+Upon update failing, the preset becomes editable again. You can click its name and update the settings that need to be fixed.
+
+## Deactivate a message preset {#deactivate-preset}
+
+To make an **[!UICONTROL Active]** message preset unavailable to create new messages, you can deactivate it. However, the published messages using this preset will not be affected and will continue working.
+
+>[!NOTE]
+>
+>You cannot deactivate a message preset while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing message presets](#edit-message-preset) and on the [update statuses](#update-statuses).
+
+1. Access the message presets list.
+
+1. For the active preset of your choice, click the **[!UICONTROL More actions]** button.
+
+1. Select **[!UICONTROL Deactivate]**.
 
     ![](../assets/preset-deactivate.png)
 

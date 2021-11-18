@@ -47,7 +47,23 @@ The **[!UICONTROL Event executed over the last 24 hours]**, **[!UICONTROL Events
 
 * **[!UICONTROL Actions successfully executed]**: Total number of actions successfully executed for a journey.
 
-* **[!UICONTROL Error in action]**: Total number of errors that occurred for actions.
+* **[!UICONTROL Error in actions]**: Total number of errors that occurred for actions.
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Email tab {#email-live}
 

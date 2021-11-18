@@ -19,16 +19,15 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * New limitations added to the **Decision Management API developer guide** on offer constraints not supported with the mobile [!DNL Experience Edge] workflows. [Read more](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * New **Create simulations** section. [Read more](offers/offer-activities/simulation.md)
 * Updated **Add decision scopes** section. [Read more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Updated **Define content for your representations** section. [Read more](offers/offer-library/creating-personalized-offers.md#content)
-* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+* Updated **Define content for your representations** section, including a new [subsection](offers/offer-library/creating-personalized-offers.md#custom-text) on how to define and personalize custom text. [Read more](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 
-* The following function pages have been updated: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* The following function pages have been updated: [sethours](building-journeys/functions/functionsethours.md), [getListItem](building-journeys/functions/functiongetlistitem.md), [inSegment](building-journeys/functions/functioninsegment.md)
 
-* The following functions have been added: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* The following functions have been added: [filter](building-journeys/functions/functionfilter.md), [intersect](building-journeys/functions/functionintersect.md), [toDateOnly](building-journeys/functions/functiontodateonly.md)
 
-* The dateOnly date type has been added in the expression editor documentation. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* The dateOnly date type has been added in the expression editor documentation. [Read more](building-journeys/expression/data-types.md)
 
 * Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 

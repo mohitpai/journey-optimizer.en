@@ -19,7 +19,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
@@ -27,20 +27,20 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Journeys - Counter condition</strong><br/></th>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>When using a Condition activity in a journey, you can now define a counter condition. This new condition type allows you to define a capping on how many times it can get executed. This allows you to optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -68,7 +68,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and segments, using the same expression editor component found throughout Journey Optimizer UI. </p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#custom-text">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 * **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md)
     <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
-* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys. 
 * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
 * **Lists** - Lists screens have been improved for journeys, events, actions, data sources.
@@ -91,7 +91,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Reporting**
 
 * **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](message-monitoring.md)
-* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
@@ -147,7 +147,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
 <p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
 <p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
-<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> functions.</p>
+<p>Consult the documentation on the <a href="building-journeys/functions/functionfilter.md">filter</a> and <a href="building-journeys/functions/functionintersect.md">intersect</a> functions.</p>
 </td>
 </tr>
 </tbody>
