@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 ---
 # Condition activity{#section_e2n_pft_dgb}
 
-Various types of conditions are available:
+These types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
 * [Time condition](#time_condition) 
@@ -95,7 +95,7 @@ This allows you to define a different flow based on the date. For example, if th
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
 
-You can use this condition type to ramp up the volume of your deliveries. Learn more with this [use case](ramp-up-deliveries-uc.md).
+You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
 The default cap is 1000. You can set an integer value from 1 to 20,000.
 
