@@ -95,7 +95,7 @@ This allows you to define a different flow based on the date. For example, if th
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
 
-You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+You can use this condition type to ramp up the volume of your deliveries. Learn more with this [use case](ramp-up-deliveries-uc.md).
 
 The default cap is 1000. You can set an integer value from 1 to 20,000.
 
