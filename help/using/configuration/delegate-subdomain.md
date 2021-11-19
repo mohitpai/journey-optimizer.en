@@ -35,11 +35,11 @@ By delegating a subdomain for use with [!DNL Journey Optimizer], clients can rel
 
 To delegate a new subdomain, follow the steps below:
 
-1. Access the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
 
     ![](../assets/subdomain-delegate.png)
 
-1. Select **[!UICONTROL Full subdomain delegation]**? from the **[!UICONTROL Set up method]** list.
+1. Select **[!UICONTROL Full subdomain delegation]** from the **[!UICONTROL Set up method]** list.
 
 1. Specify the name of the subdomain to delegate.
 
@@ -67,27 +67,31 @@ To delegate a new subdomain, follow the steps below:
 
     Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).
 
+    >[!NOTE]
+    >
+    >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
+
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
 
     <!-- later on, users will be notified in Pulse -->
 
     ![](../assets/subdomain-notification.png)
 
-Once a subdomain is delegated in Adobe [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) ?
+Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md)
 
 ## CNAME subdomain delegation {#cname-subdomain-delegation}
 
-In case you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
+If you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
 
 CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.
 
 >[!CAUTION]
 >
->This method is recommended if your organization policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
+>This method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
 To delegate a subdomain using CNAMEs, follow the steps below:
 
-1. Access the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
 
 1. Select **[!UICONTROL CNAME subdomain delegation]** from the **[!UICONTROL Set up method]** list.
 
@@ -109,11 +113,11 @@ To delegate a subdomain using CNAMEs, follow the steps below:
     >
     >You can create the records later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation at this stage by opening it from the subdomains list.
 
-1. Wait until Adobe verifies that these records are generated without errors on your hosting solution. This process can take up to 2 minutes. (different from full delegation?)
+1. Wait until Adobe verifies that these records are generated without errors on your hosting solution. This process can take up to 2 minutes.
 
     >[!NOTE]
     >
-    >Any missing records, i.e. the records not yet created on your hosting solution, will be listed out.
+    >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
 
 1. Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
@@ -131,17 +135,21 @@ To delegate a subdomain using CNAMEs, follow the steps below:
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
-Upon validating the record and installing the certificate, Adobe automatically creates the PTR record for the CNAME subdomain [Learn more](ptr-records.md) ?
+Upon validating the record and installing the certificate, Adobe automatically creates the PTR record for the CNAME subdomain. [Learn more](ptr-records.md)
 
-***
+<!--
 
 **Questions**
 
-* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but it only take 2 minutes (vs 3 hours for all validation checks for full delegation) > confirmed?
+* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but I can see in the mocks that generating the record can take up to 2 minutes only vs 3 hours to validate record when using full delegation method, such as described here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html?lang=en. Do you confirm?
 
-* Same validation steps as for full delegation (see [below](#subdomain-validation))? Is it 3 hours or 72 hours as seen in mocks (because more to validate)?
+* One you submit the CNAME subdomain delegation, do you go through the same validation steps as for full delegation (see here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation)? In that case, can it take up to 72 hours as seen in mocks vs up to 3 hours when using full delegation method?
 
-* A PTR record is created for each CNAME subdomain? Is it different when fully delegating subdomain? i.e. Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain. (see [below](#subdomain-validation))
+* Is a PTR record created for each CNAME subdomain? Is it different when fully delegating subdomain?
+
+* Question on existing documentation: I can read here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation that "Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain.": Does it mean "Adobe creates PTR records only when you delegate a subdomain for the first time"? If so, I'll change this sentence as I find it a bit confusing. Otherwise please advise.
+
+-->
 
 ## Subdomain validation {#subdomain-validation}
 
@@ -170,4 +178,4 @@ The checks and actions below will be performed until the subdomain is verified a
 
 1. **Create forward DNS**: if this is the first subdomain that you are delegating, Adobe will create the forward DNS which is required to create PTR records - one for each of your IPs.
 
-1. **Create PTR record**: PTR record, also known as reverse DNS record, is required by the ISPs so that they do not mark the emails as spam. Gmail also recommends having PTR records for each IP. Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain. For example, if the IP is *192.1.2.1* and the subdomain is *email.example.com*, the PTR record will be: *192.1.2.1  PTR r1.email.example.com*. You can update the PTR record afterwards to point to the new delegated domain. [Learn more on PTR records](ptr-records.md)
+1. **Create PTR record**: PTR record, also known as reverse DNS record, is required by the ISPs so that they do not mark the emails as spam. Gmail also recommends having PTR records for each IP. Adobe creates PTR records only when you delegate a subdomain for the first time, one for each IP, all IPs pointing that subdomain. For example, if the IP is *192.1.2.1* and the subdomain is *email.example.com*, the PTR record will be: *192.1.2.1  PTR r1.email.example.com*. You can update the PTR record afterwards to point to the new delegated domain. [Learn more on PTR records](ptr-records.md)
