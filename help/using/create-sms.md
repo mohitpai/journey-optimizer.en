@@ -29,5 +29,10 @@ To start personalizing your SMS message, follow these steps:
 
 1. Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action will publish the new version of the message that will be used for the next executions in your journeys.
 
+Your SMS message can now be used in a journey. [Learn how to create journeys](building-journeys/journey-gs.md).
 
+**Related topics**
 
+* [Configure SMS channel](configuration/sms-configuration.md)
+* [Create a new message](create-message.md)
+* [Add a message in a journey](building-journeys/journeys-message.md)
