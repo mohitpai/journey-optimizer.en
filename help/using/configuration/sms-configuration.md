@@ -3,7 +3,6 @@ title: SMS configuration
 description: Learn how to configure your environment to send SMS messages with Journey Optimizer
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 ---
 # Configure SMS channel {#sms-configuration}
 
