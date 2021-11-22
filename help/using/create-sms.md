@@ -9,6 +9,10 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an SMS message {#create-sms}
 
+>[!CAUTION]
+>
+> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+
 Once you [created a message](create-message.md), use the **[!UICONTROL SMS]** tab to define the settings and content for the SMS channel.
 
 ![](assets/sms_1.png)
