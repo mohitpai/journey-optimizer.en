@@ -47,4 +47,4 @@ You are now ready to send SMS messages with Journey Optimizer.
 **Related topics**
 
 * [Create an SMS message](../create-sms.md)
-* [Add a message in a journey](building-journeys/journeys-message.md)
+* [Add a message in a journey](../building-journeys/journeys-message.md)
