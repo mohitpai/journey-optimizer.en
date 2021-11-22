@@ -101,6 +101,8 @@ To create a message preset, follow these steps:
 
 1. Configure the **SMS** settings.
 
+     ![](../assets/preset-sms.png)
+
     * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
     
     * Select the **[!UICONTROL SMS configuration]** to associate with the preset.

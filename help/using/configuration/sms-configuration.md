@@ -7,6 +7,11 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 ---
 # Configure SMS channel {#sms-configuration}
 
+>[!CAUTION]
+>
+> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+
+
 [!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. 
 
 ## Create new API credential {#create-api}
@@ -14,6 +19,8 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 To configure your SMS vendor with Journey Optimizer, follow these steps:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** menu, then click **[!UICONTROL Create API credential]**.
+
+    ![](assets/sms_4.png)
 
 1. Select your **[!UICONTROL SMS vendor]**.
 
@@ -24,6 +31,8 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
     >[!NOTE]
     >
     > Sinch requires special API credentials. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account, 
+
+    ![](assets/sms_5.png)
 
 1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
 
