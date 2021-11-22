@@ -37,7 +37,7 @@ To create a new message, follow the steps below:
     
     * Enter a **[!UICONTROL Title]** (mandatory) and a **[!UICONTROL Description]**. 
 
-    * Select the **[!UICONTROL Message category]**: Marketing or Transactional. [Learn more about frequency rules](../using/).
+    * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
 
     * Select the **[!UICONTROL Preset]** to use for the message.
         
