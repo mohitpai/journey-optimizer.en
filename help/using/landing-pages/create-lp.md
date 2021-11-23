@@ -64,14 +64,18 @@ The steps to define the primary page settings are detailed below.
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to when the page expires.
-    * **[!UICONTROL Custom page]**: Configure a subpage and select it from the drop-down list that displays. Learn more [here](#configure-subpages)
+    * **[!UICONTROL Custom page]**: [Configure a subpage](#configure-subpages) and select it from the drop-down list that displays.
     * **[!UICONTROL Browser error]**: Type the error text that will be displayed instead of the page.
 
     ![](../assets/lp_expiry-date.png)
 
-1. In the **[!UICONTROL Additional data]** section, (you can define how the data entered in the landing page is managed once it has been submitted by a user)??
+1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**.<!--you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. You can create a journey to send a confirmation message to users when they submit the form from this page. Click **[!UICONTROL Create journey]** to start configuring this journey from here. You will be redirected to the **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** list. Learn more on [building journeys](../building-journeys/journey-gs.md#jo-build).
+1. From the landing page, you can directly create a journey that will send a confirmation message to users when they submit the form.
+
+    ![](../assets/lp_create-journey.png)
+
+    Click **[!UICONTROL Create journey]** to start configuring this journey. You will be redirected to the **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** list. Learn more on [building journeys](../building-journeys/journey-gs.md#jo-build).
 
 ## Configure subpages {#configure-subpages}
 
@@ -142,4 +146,7 @@ The steps to define the primary page settings are detailed below.
 
 **Questions**
 
-* Will the name Email Designer be kept if you can also design LP with the same tool? > Modify 
+* Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer
+
+* Please clarify what Additional data section is for. What do you need to add in the Key and Parameter value fields?
+
