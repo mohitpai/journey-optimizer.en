@@ -50,7 +50,7 @@ To create a message preset, follow these steps:
 
 1. Enter a name and a description (optional) for the preset, then select the SMS channel.
 
-    ![](../assets/preset-general.png)
+    ![](../assets/sms_preset.png)
 
     >[!NOTE]
     >
@@ -70,7 +70,7 @@ To create a message preset, follow these steps:
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
-    ![](../assets/preset-submit.png)
+    ![](../assets/sms_preset_2.png)
 
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
