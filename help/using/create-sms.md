@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
 # Create an SMS message {#create-sms}
 

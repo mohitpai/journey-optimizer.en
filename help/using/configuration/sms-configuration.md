@@ -3,6 +3,8 @@ title: SMS configuration
 description: Learn how to configure your environment to send SMS messages with Journey Optimizer
 role: Admin
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Configure SMS channel {#sms-configuration}
 
@@ -46,7 +48,7 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the preset, then select the channel(s) to configure.
+1. Enter a name and a description (optional) for the preset, then select the SMS channel.
 
     ![](../assets/preset-general.png)
 
@@ -73,16 +75,6 @@ To create a message preset, follow these steps:
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
     During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
-
-    These checks include deliverability tests that are performed by Adobe deliverability team:
-
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
 
     >[!NOTE]
     >
