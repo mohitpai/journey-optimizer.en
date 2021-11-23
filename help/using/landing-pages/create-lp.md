@@ -17,7 +17,9 @@ To access the landing page list, select **[!UICONTROL Journey Management]** > **
 
 ![](../assets/lp_access-list.png)
 
-The **[!UICONTROL Landing Pages]** list displays all the landing pages created. You can filter them based on their status or modification date.
+The **[!UICONTROL Landing Pages]** list displays all the created items. You can filter them based on their status or modification date.
+
+![](../assets/lp_access-list-filter.png)
 
 ## Create the landing page
 
@@ -33,7 +35,7 @@ The steps to create a landing page are as follows.
 
 1. Click **[!UICONTROL Create]**.
 
-1. The landing primary page and its properties display. Configure the primary page. See [here](#design-lp-content)
+1. The primary page and its properties display. Configure the page settings. Learn more [here](#design-lp-content)
 
     ![](../assets/lp_primary-page.png)
 
@@ -41,9 +43,13 @@ The steps to create a landing page are as follows.
 
 ## Configure the primary page {#configure-primary-page}
 
+The primary page is the page that is immediately displayed to the users when they click the link to your landing page, such as from an email or a website.
+
+The steps to define the primary page settings are detailed below.
+
 1. You can change the page name, which is **[!UICONTROL Primary page]** by default.
 
-1. Edit the content of your page using the content designer. Hover the mouse over the primary page and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette. Learn how to design landing page content [here](#design-lp-content)
+1. Edit the content of your page using the content designer. Hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette. Learn how to design landing page content [here](#design-lp-content).
 
     ![](../assets/lp_open-designer.png)
 
@@ -53,7 +59,7 @@ The steps to create a landing page are as follows.
 
     >[!NOTE]
     >
-    >The first part is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+    >The first part is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
