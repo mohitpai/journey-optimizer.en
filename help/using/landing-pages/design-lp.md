@@ -90,10 +90,6 @@ To define landing-page specific content, follow the steps below.
 
     ![](../assets/lp_designer-form-save.png)
 
-***
-
-**Questions**
-
-* Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer
+<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
 
 

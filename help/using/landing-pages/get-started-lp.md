@@ -54,7 +54,7 @@ To move to RN-->
 
 ***
 
-## Use cases
+## Use case
 
 <!--The main use cases are:
 * Subscription to a service
@@ -67,9 +67,15 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Create the event registration's subscription list.
 
-1. Create the registration landing pages: welcome page and thank you page. You insert the link to the subscription list in the registration landing page.
+1. Create a registration landing page including the link to the subscription list.
 
-1. Run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page. You create the email and insert the link to the registration landing page. You send the email as part of a journey.
+1. Create a thank you page.
+
+1. Run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page.
+
+1. You create the email and insert the link to the registration landing page.
+
+1. You send the email as part of a journey.
 
 1. Users receive the email and click the link to the landing page.
 
