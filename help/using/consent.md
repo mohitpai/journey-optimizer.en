@@ -37,11 +37,9 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 To add an unsubscribe link, follow the steps below:
 
-1. Build your unsubscription landing page. [Learn more](landing-pages/create-lp.md).
+1. Build your unsubscription landing page.
 
-    >[!NOTE]
-    >
-    >You can also build your own landing page and host it on the third-party system of your choice.<!--to keep?-->
+1. Host it on the third-party system of your choice.
 
 1. [Create a message](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
