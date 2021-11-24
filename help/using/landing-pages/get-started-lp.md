@@ -44,26 +44,18 @@ To move to RN-->
 
 <!--Easily build attractive/efficient landing pages to drive the best conversion.-->
 
-***
+## Use cases
 
-**Questions**
-
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.
-
-***
-
-## Use case
+Below are examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
 
 <!--The main use cases are:
 * Subscription to a service
 * Opt-in
 * Opt-out-->
 
-### Subscription to a service
+### Subscription to a service {#subscription-to-a-service}
 
-For example, let's say you organize an event next month and you want to launch an event registration campaign.
+For example, let's say you organize an event next month and you want to launch an event registration campaign to keep your interested customers updated on that event.
 
 1. Create the event registration's subscription list.
 
@@ -73,9 +65,9 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Run an email campaign to announce registration is now open for your event and to drive traffic to the registration landing page.
 
-1. You create the email and insert the link to the registration landing page.
+1. Create the email message and insert the link to the registration landing page.
 
-1. You send the email as part of a journey.
+1. Send the email as part of a journey.
 
 1. Users receive the email and click the link to the landing page.
 
@@ -83,5 +75,14 @@ For example, let's say you organize an event next month and you want to launch a
 
 ![](../assets/lp_subscription-uc.png)
 
+## Opting out {#opt-out}
 
+To enable your recipients to unsubscribe from your communications, you can include a link to an unsubscription landing page into your emails.
 
+The steps to implement this are detailed in [this section](manage-op-out.md#add-unsubscribe-link)
+
+<!--**Questions**
+
+* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
+
+* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->

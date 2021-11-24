@@ -31,6 +31,10 @@ To define landing-page specific content, follow the steps below.
 
     ![](../assets/lp_designer-form-component.png)
 
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Form]** component can only be used once on the same page.
+
 1. Select it. The **[!UICONTROL Form content]** tab displays in the right palette to let you to edit the different fields of the form.
 
     ![](../assets/lp_designer-form-content-options.png)

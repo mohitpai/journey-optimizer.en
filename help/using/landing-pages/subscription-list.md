@@ -11,21 +11,41 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 
 ## What is a subscription list?
 
-Subscription service refers to marketing goods and services provided to customers who have opted-in to receive communications on a specific subject, event, etc. on an ongoing basis. A subscription service can be a newsletter “Running series”, an event “Summit 2021” or a Webinar.
+A subscription service refers to marketing goods and services provided to customers who have opted in to receive communications on a specific subject/event/interest/etc. on an ongoing basis. In [!DNL Journey Optimizer], these opted-in customers are gathered into a subscription list.
+
+A subscription service can be:
+
+* a newsletter, for example “Running series”,
+* an event, for example “Summit 2021”,
+* a webinar, for example "Learn more about crypto",
+* an interest on a particular product/sport/service/etc., for example "Interested to buy a house in the next 12 months",
+* a preference on how to be notified, for example "Receive new song notifications on email"
+
+The profiles can be added to a subscription list through a [landing page](create-lp.md). An example is presented in [this section](get-started-lp.md#subscription-to-a-service).
 
 ## Create a subscription list {#create-subscription-list}
 
-To access the list of subscription lists, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+To create a subscription list, follow the steps below.
+
+1. To access the subscription list, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+
+    ![](../assets/lp_subscription-lists.png)
 
 1. From the subscription list, click **[!UICONTROL Create subscription]** list.
 
-1. Add a name and a description.
+    ![](../assets/lp_create-subscription-list.png)
+
+1. Add a name and a description. These fields are mandatory.
 
 1. You can define a start date and end date.
+
+    ![](../assets/lp_subscription-list-dates.png)
 
 1. Click **[!UICONTROL Save]**.
 
 The list displays all the subscription lists created. You can filter them based on the creation date or modification date.
+
+![](../assets/lp_subscription-filters.png)
 
 The possible statuses are as follows:
 
@@ -33,10 +53,10 @@ The possible statuses are as follows:
 * **[!UICONTROL Live]**: The subscription list has a start date and end date that includes the current day, or you did not defined end/start dates, which means the subscription list is always live.
 * **[!UICONTROL Expired]**: The end date is passed, the subscription list is not valid anymore. Any profile subscribed to this list will not receive any more communications relating to this subscription list.
 
-Once the subscription list is created, you can use them in a landing page so that the profiles can susbcribe to it through a form. Learn more [here](create-lp.md#design-lp-content)
+Once the subscription list is created, you can use it in a landing page so that the profiles can opt in through a form and be added to the list. [Learn more](design-lp-content.md)
 
 
-***
+<!--
 
 **Questions**
 
@@ -49,3 +69,5 @@ Once the subscription list is created, you can use them in a landing page so tha
 * What else can you currently do with subscription lists apart from attach them to a landing page?
 
 * Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
+
+-->

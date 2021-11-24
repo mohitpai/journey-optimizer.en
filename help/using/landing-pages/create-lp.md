@@ -59,6 +59,10 @@ To define the primary page settings, follow the steps below.
 
 1. Define your landing page URL.
 
+    >[!CAUTION]
+    >
+    >The landing page URL must be unique.  
+
     ![](../assets/lp_access-url.png)
 
     >[!NOTE]
@@ -93,13 +97,13 @@ To define a subpage settings, follow the steps below.
 
 1. You can change the page name, which is **[!UICONTROL Subpage 1]** by default.
 
-1. Edit the content of your page using the content designer. Hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette. Learn how to design landing page content [here](#design-lp-content).
+1. Edit the content of your page using the content designer. Learn how to design landing page content [here](#design-lp-content).
 
-1. Define your landing page URL.
+1. Define your landing page URL. The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
-    >[!NOTE]
+    >[!CAUTION]
     >
-    >The first part is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+    >The landing page URL must be unique.  
 
 ![](../assets/lp_subpage-settings.png)
 
