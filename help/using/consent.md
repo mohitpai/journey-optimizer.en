@@ -91,7 +91,8 @@ Once the recipient has opted out by clicking the unsubscribe link, an Adobe I/O 
 
 This Adobe I/O POST call is as follows:
 
-Endpoint: cjm.adobe.io/imp/consent/preferences
+Endpoint: platform.adobe.io/journey/imp/consent/preferences
+<!--This is the new AEP specific AEP for consent instead of the AJO consent API that was previously used: cjm.adobe.io/imp/consent/preferences-->
 
 Query parameters:
 
