@@ -15,7 +15,6 @@ These types of conditions are available:
 * [Time condition](#time_condition) 
 * [Percentage split](#percentage_split) 
 * [Date condition](#date_condition)
-* [Profile cap](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -90,20 +89,6 @@ This allows you to define a different flow based on the date. For example, if th
 >The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [this page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
-
-## Profile cap {#profile_cap}
-
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
-
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
-
-The default cap is 1000. You can set an integer value from 1 to 20,000.
-
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
-
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
-
-![](../assets/profile-cap-condition.png)
 
 ## Using segments in conditions {#using-a-segment}
 
