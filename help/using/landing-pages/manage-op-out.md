@@ -57,13 +57,13 @@ To add an unsubscribe link into your messages using a landing page, follow the s
 
 1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
 
-1. Send your message with the link to your landing page through a [journey](building-journeys/journey.md).
+1. Send your message through a [journey](building-journeys/journey.md).
 
 1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
 
     ![](../assets/opt-out-lp-example.png)
 
-1. If the recipient clicks the opt-out button in the landing page (here, the **Unsubscribe** button), the profile data is updated (through an [Adobe I/O call](#opt-out-api)).
+1. If the recipient clicks the opt-out button in the landing page (here, the **Unsubscribe** button), the profile data is updated.
 
     The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.
 
