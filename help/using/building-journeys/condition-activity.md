@@ -94,7 +94,6 @@ This allows you to define a different flow based on the date. For example, if th
 ![](../assets/journey53.png)
 
 <!--
-
 ## Profile cap {#profile_cap}
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
@@ -108,7 +107,6 @@ The counter applies only to the selected journey version. The counter is reset t
 The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
 
 ![](../assets/profile-cap-condition.png)
-
 -->
 
 ## Using segments in conditions {#using-a-segment}
