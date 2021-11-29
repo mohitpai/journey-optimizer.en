@@ -9,11 +9,13 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create and publish landing pages {#create-lp}
 
-To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
-
 >[!CAUTION]
 >
 >The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+
+## Access landing pages
+
+To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
 
 ![](../assets/lp_access-list.png)
 
@@ -43,7 +45,7 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_add-subpage.png)
 
-Once you configured and designed the primary page and the subpages if any, you can [test] and [publish] your landing page.
+Once you configured and designed the [primary page](#configure-primary-page) and the [subpages](#configure-subpages) if any, you can [test](#test) and [publish](#publish) your landing page.
 
 ## Configure the primary page {#configure-primary-page}
 
@@ -65,9 +67,7 @@ To define the primary page settings, follow the steps below.
 
     ![](../assets/lp_access-url.png)
 
-    >[!NOTE]
-    >
-    >The first part is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+    The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
@@ -99,32 +99,23 @@ To define a subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to design landing page content [here](#design-lp-content).
 
-1. Define your landing page URL. The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL.
+
+    The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     >[!CAUTION]
     >
-    >The landing page URL must be unique.  
+    >The landing page URL must be unique.
 
 ![](../assets/lp_subpage-settings.png)
 
-## Test the landing page
+## Test the landing page {#test}
 
 Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. 
->
->Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
-
-To test your message content, you need to:
-
-* [select test profiles](#select-test-profiles)
-* [check the message preview](#preview-your-messages)
-
->[!CAUTION]
->
->When previewing a landing page, only profile personalization data is displayed. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
+>You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
 
 1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 
@@ -156,7 +147,7 @@ Alerts are displayed on top right of the screen, as shown below:
 
 Two types of alerts can happen:
 
-* **Warnings** refer to recommendations and best practices. For example, a message will display if 
+* **Warnings** refer to recommendations and best practices. <!--For example, a message will display if -->
 
 * **Errors** prevent you from publishing the message as long as they are not resolved. For example, a message will warn you that the primary page URL is missing.
 
@@ -193,4 +184,4 @@ Once your landing page is ready, you can publish it to make it available for use
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and the link to it ready to be used in a message or anywhere else.
+It is now live and the link to it ready to be used in a [message](../create-message.md) and sent through a [journey](../building-journeys/journey.md).

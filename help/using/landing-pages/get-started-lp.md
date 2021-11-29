@@ -71,7 +71,7 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
 
-1. Send your message through a [journey](building-journeys/journey.md) to announce registration is now open for your event and to drive traffic to the registration landing page.
+1. Send your message through a [journey](../building-journeys/journey.md) to announce registration is now open for your event and to drive traffic to the registration landing page.
 
 Once they receive the email, if your recipients click the link to the landing page, they will be directed to the thank you page and they will be added to the subscription list.
 
