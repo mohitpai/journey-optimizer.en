@@ -26,7 +26,7 @@ You can use this condition type to ramp up the volume of your deliveries. See th
 
 The default cap is 1000. You can set an integer value from 1 to 20,000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+The counter applies only to the selected journey version. The counter is reset to zero after one month. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
 The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
 
