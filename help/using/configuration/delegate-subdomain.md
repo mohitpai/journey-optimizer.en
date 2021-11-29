@@ -35,11 +35,13 @@ By delegating a subdomain for use with [!DNL Journey Optimizer], clients can rel
 
 To delegate a new subdomain, follow the steps below:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 
     ![](../assets/subdomain-delegate.png)
 
-1. Select **[!UICONTROL Full subdomain delegation]** from the **[!UICONTROL Set up method]** list.
+1. Select **[!UICONTROL Fully delegated]** from the **[!UICONTROL Set up method]** section.
+
+    ![](../assets/subdomain-method-full.png)
 
 1. Specify the name of the subdomain to delegate.
 
@@ -75,8 +77,6 @@ To delegate a new subdomain, follow the steps below:
 
     <!-- later on, users will be notified in Pulse -->
 
-    ![](../assets/subdomain-notification.png)
-
 Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md)
 
 ## CNAME subdomain delegation {#cname-subdomain-delegation}
@@ -91,9 +91,11 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 
 To delegate a subdomain using CNAMEs, follow the steps below:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 
 1. Select **[!UICONTROL CNAME subdomain delegation]** from the **[!UICONTROL Set up method]** list.
+
+    ![](../assets/subdomain-method-cname.png)
 
     <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
@@ -107,7 +109,9 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
-1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Continue]**.
+1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
+
+    ![](../assets/subdomain-submit.png)
 
     >[!NOTE]
     >
