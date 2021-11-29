@@ -127,7 +127,7 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Once the CNAME subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
-    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 72 hours. Learn more in [this section](#subdomain-validation).
+    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which usually takes 2 to 3 hours. Learn more in [this section](#subdomain-validation).
 
 1. Once the checks are successful (i.e Adobe validates the record you created and installs it), the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
 
@@ -157,7 +157,7 @@ The checks and actions below will be performed until the subdomain is verified a
     
 >[!NOTE]
 >
->These steps are performed by Adobe and can take up to 3 hours.
+>These steps are performed by Adobe and can take up to 3 hours. (In rare occasions, it can take longer, but no more than 72 hours.)
 
 1. **Pre-validate**: Adobe checks whether the subdomain has been delegated to Adobe DNS (NS record, SOA record, Zone setup, ownership record). If the pre-validation step fails, an error is returned along with the corresponding reason, otherwise Adobe proceeds to the next step.
 
