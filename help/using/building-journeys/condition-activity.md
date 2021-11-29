@@ -15,6 +15,9 @@ These types of conditions are available:
 * [Time condition](#time_condition) 
 * [Percentage split](#percentage_split) 
 * [Date condition](#date_condition)
+<!--
+* [Profile cap](#profile_cap)
+-->
 
 ![](../assets/journey49.png)
 
