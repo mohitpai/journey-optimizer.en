@@ -67,7 +67,11 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Create the email message and insert the link to the registration landing page.
 
-1. Send the email as part of a journey.
+1. Click **[!UICONTROL Save]**.
+
+1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
+
+1. Send your message through a [journey](building-journeys/journey.md).
 
 1. Users receive the email and click the link to the landing page.
 

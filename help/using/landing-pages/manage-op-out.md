@@ -45,11 +45,11 @@ To add an unsubscribe link into your messages using a landing page, follow the s
 
     ![](../assets/opt-out-insert-link.png)
 
-1. Select **[!UICONTROL Unsubscription link]** from the **[!UICONTROL Link type]** drop-down list.
+1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list.
 
     ![](../assets/opt-out-link-type.png)
 
-1. In the **[!UICONTROL Link]** field, paste the link to your landing page. This is the link that you defined when configuring your landing page. [Learn more](landing-pages/create-lp.md#configure-primary-page)
+1. Select the [landing page](landing-pages/create-lp.md#configure-primary-page) that you created for opting out.
 
     ![](../assets/opt-out-link-url.png)
 
