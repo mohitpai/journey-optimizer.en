@@ -90,6 +90,24 @@ This allows you to define a different flow based on the date. For example, if th
 
 ![](../assets/journey53.png)
 
+<!--
+
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+
+You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You can set an integer value from 1 to 20,000.
+
+The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+
+The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+
+-->
+
 ## Using segments in conditions {#using-a-segment}
 
 This section explains how to use a segment in a journey condition. For more on segments and how to build them, refer to [this section](../segment/about-segments.md).
