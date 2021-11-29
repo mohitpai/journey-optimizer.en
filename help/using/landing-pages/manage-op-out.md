@@ -39,7 +39,7 @@ To add an unsubscribe link into your messages using a landing page, follow the s
     >
     >You can also build your own landing page and host it on the third-party system of your choice.<!--to keep?-->
 
-1. [Create a message](../../help/using/create-message.md) in [!DNL Journey Optimizer].
+1. [Create a message](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Select text in your content and insert a link using the contextual toolbar.
 
