@@ -9,60 +9,41 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 ---
 # Subscription report {#subscription-report}
 
-The subscription report displays details about the activity of all subscribers. Two reports types are available:
+The subscription report displays details about the activity of your subscribers. Two reports types are available:
 
-* The **[!UICONTROL Live report]** to measure and visualize your deliveries' subscriptions and unsubscriptions  over the last 24 hours only.
+* The **[!UICONTROL Live report]** to measure and visualize your deliveries' subscriptions and unsubscriptions over the last 24 hours only.
 
 * The **[!UICONTROL Global report]** to measure and visualize your deliveries' subscriptions and unsubscriptions over a selected time period.
 
 ## Subscription live report {#subscription-live}
 
-Current user KPI
+![](../assets/subscription_report_3.png)
 
-No. of subscribers overtime graph
+The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscriptions by journey]** /**[!UICONTROL Unsubscribes by journey]** tables detail the main information relative to your user's engagement with your landing page. The tables and KPIs contain the data available related to your landing page, such as:
 
-Subscription performance KPI + graph
+* **[!UICONTROL Subscribes]**: Total number of subscribers in the last 24 hours.
 
-* Number of subscription over the last 24 hours.
+* **[!UICONTROL Unsubscribes]**: Number of unsubscriptions in the last 24 hours.
 
-Subscription by journey table
+The **[!UICONTROL Subscription performance]** graph shows the evolution of subscriptions in the last 24 hours.
 
-* Unsubscriber: Number of recipients who clicked on the subscription link by journey.
+![](../assets/subscription_report_4.png)
 
-Unsubscribes by journey table
-
-* Unsubscriber: Number of recipients who clicked on the unsubscription link by journey.
-
-Subscriptions - Breakdown by journey graph
-
-* Number of recipients who clicked on the subscription link depending on the message type.
-
-Unsubscriptions - Breakdown by journey graph
-
-* Number of recipients who clicked on the unsubscription link depending on the message type.
+**Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of people who subscribed or unsubscribed in the last 24 hours by messages, landing pages and channels.
 
 ## Subscription global report {#subscription-global}
 
-Current user KPI
-No. of subscribers overtime graph
+![](../assets/subscription_report_1.png)
 
-Subscription performance KPI + graph
+The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscriptions by journey]** /**[!UICONTROL Unsubscribes by journey]** tables detail the main information relative to your user's engagement with your landing page. The tables and KPIs contain the data available related to your landing page, such as:
 
-* Number of subscription over the selected time period.
+* **[!UICONTROL Subscribes]**: Total number of subscribers for the concerned period.
 
-Subscription by journey table
+* **[!UICONTROL Unsubscribes]**: Number of unsubscriptions for the concerned period.
 
-* Unsubscriber: Number of recipients who clicked on the subscription link by journey.
+The **[!UICONTROL Subscription performance]** graph shows the evolution of subscriptions for the concerned period.
 
-Unsubscribes by journey table
+![](../assets/subscription_report_2.png)
 
-* Unsubscriber: Number of recipients who clicked on the unsubscription link by journey.
-
-Subscriptions - Breakdown by journey graph
-
-* Number of recipients who clicked on the subscription link depending on the message type.
-
-Unsubscriptions - Breakdown by journey graph
-
-* Number of recipients who clicked on the unsubscription link depending on the message type.
+**Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of people who subscribed or unsubscribed for the concerned period by messages, landing pages and channels.
 
