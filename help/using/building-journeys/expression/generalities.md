@@ -1,13 +1,13 @@
 ---
-product: adobe campaign
-title: Generalities
-description: Learn about advanced expression generalities
+product: Journey Optimizer
+title: Syntax
+description: Learn about the advanced expression editor
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 ---
-# Generalities {#concept_rcy_qj5_dgb}
+# Advanced expression editor syntax {#syntax}
 
 ## Parentheses and expression priority{#section_edf_fks_bgb}
 
