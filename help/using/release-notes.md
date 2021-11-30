@@ -7,6 +7,25 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation Updates](documentation-updates.md).
 
+## November 2021 Release
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports CNAMEs. A CNAME, or Canonical Name record, is a record that points to another domain address rather than an IP address. You can use CNAMEs rather than delegate a subdomain to Adobe: Adobe will provide the records to be placed in the client DNS servers and will configure the corresponding values in Adobe DNS servers.</p>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## October 2021 Release {#oct-2021-release}
 
 <!--table>
@@ -75,7 +94,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </table>
 
 
-See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"} for more changes.
+See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} for more changes.
 
 ### Improvements
 
