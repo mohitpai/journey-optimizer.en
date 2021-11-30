@@ -107,7 +107,7 @@ To create a message preset, follow these steps:
 
     During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
 
-    These checks include deliverability tests that are performed by Adobe deliverability team:
+    These checks include configuration and technical tests that are performed by the Adobe team:
 
     * SPF validation
     * DKIM validation

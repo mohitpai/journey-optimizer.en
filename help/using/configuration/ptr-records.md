@@ -18,7 +18,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records
 
-Once a subdomain is delegated in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](../assets/ptr-records.png)
 
@@ -33,6 +33,10 @@ You can open a PTR record from the list to display the associated subdomain name
 ## Edit a PTR record {#edit-ptr-record}
 
 You can modify a PTR record to edit the subdomain associated with an IP address.
+
+>[!CAUTION]
+>
+>You cannot modify a PTR record associated with a subdomain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. From the list, click a PTR record name to open it.
 
