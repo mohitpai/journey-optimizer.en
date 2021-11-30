@@ -31,7 +31,6 @@ By delegating a subdomain for use with [!DNL Journey Optimizer], clients can rel
 >
 >By default, [!DNL Journey Optimizer] license contract allows you to delegate up to 10 subdomains. Reach out to your Adobe contact if you want to increase this limitation.
 >
->The use of CNAMEs for subdomain delegation is currently not supported by Journey Optimizer.
 
 To delegate a new subdomain, follow the steps below:
 
