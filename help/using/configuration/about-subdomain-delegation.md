@@ -51,4 +51,4 @@ The table below provides a summary of how these methods work, as well as the imp
 
 Additional information on domain configuration is available in [this documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-If you have any question regarding subdomain configuration methods, reach out to Adobe Deliverability team, or eventually contact Customer Care to request Deliverability consulting.
+If you have any question regarding subdomain configuration methods, reach out to Adobe, or eventually contact Customer Care to request Deliverability consulting.

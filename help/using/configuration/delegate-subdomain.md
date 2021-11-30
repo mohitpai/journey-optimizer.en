@@ -177,6 +177,7 @@ The checks and actions below will be performed until the subdomain is verified a
     * **SPF record**: Sender Policy Framework record - Lists the mail servers' IPs that can send emails from the subdomain.
     * **DKIM record**: DomainKeys Identified Mail standard record - Uses public-private key encryption to authenticate the message to avoid spoofing.
     * **A**: Default IP mapping.
+    * **CNAME**: A Canonical Name or CNAME record is a type of DNS record that maps an alias name to a true or canonical domain name. 
 
 1. **Create tracking and mirror URLs**: if the domain is email.example.com, the tracking/mirror domain will be data.email.example.com. It is secured by installing the SSL certificate.
 
