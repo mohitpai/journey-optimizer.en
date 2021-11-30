@@ -15,6 +15,10 @@ The subscription report displays details about the activity of your subscribers.
 
 * The **[!UICONTROL Global report]** to measure and visualize your deliveries' subscriptions and unsubscriptions over a selected time period.
 
+To access your reports, select **Live** or **[!UICONTROL Global report]** from the advanced menu of your selected subscription list.
+
+![](../assets/subscription_report_6.png)
+
 ## Subscription live report {#subscription-live}
 
 ![](../assets/subscription_report_3.png)
@@ -23,7 +27,7 @@ The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscri
 
 * **[!UICONTROL Subscribes]**: Total number of subscribers in the last 24 hours.
 
-* **[!UICONTROL Unsubscribes]**: Number of unsubscriptions in the last 24 hours.
+* **[!UICONTROL Unsubscribes]**: Total number of unsubscriptions in the last 24 hours.
 
 The **[!UICONTROL Subscription performance]** graph shows the evolution of subscriptions in the last 24 hours.
 
@@ -39,7 +43,7 @@ The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscri
 
 * **[!UICONTROL Subscribes]**: Total number of subscribers for the concerned period.
 
-* **[!UICONTROL Unsubscribes]**: Number of unsubscriptions for the concerned period.
+* **[!UICONTROL Unsubscribes]**: Total number of unsubscriptions for the concerned period.
 
 The **[!UICONTROL Subscription performance]** graph shows the evolution of subscriptions for the concerned period.
 
