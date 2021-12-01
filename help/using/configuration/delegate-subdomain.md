@@ -96,7 +96,7 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 
-1. Select **[!UICONTROL CNAME subdomain delegation]** from the **[!UICONTROL Set up method]** list.
+1. Select the **[!UICONTROL CNAME set up]** method.
 
     ![](../assets/subdomain-method-cname.png)
 
@@ -114,7 +114,7 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...".
 
-    ![](../assets/subdomain-submit.png)
+    ![](../assets/subdomain-create-dns-confirm.png)
 
     >[!NOTE]
     >
@@ -166,7 +166,7 @@ The checks and actions below will be performed until the subdomain is verified a
     
 >[!NOTE]
 >
->These steps are performed by Adobe and can take up to 3 hours. (In rare occasions, it can take longer, but no more than 72 hours.)
+>These steps are performed by Adobe and can take up to 3 hours.
 
 1. **Pre-validate**: Adobe checks whether the subdomain has been delegated to Adobe DNS (NS record, SOA record, Zone setup, ownership record). If the pre-validation step fails, an error is returned along with the corresponding reason, otherwise Adobe proceeds to the next step.
 
