@@ -1,7 +1,7 @@
 ---
 title: Landing page use cases
 description: Discover the most common use cases with landing pages in Journey Optimizer
-feature: Landing page
+feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate

@@ -1,7 +1,7 @@
 ---
 title: Create a landing page
 description: Learn how to configure and publish a landing page in Journey Optimizer
-feature: Landing page
+feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner

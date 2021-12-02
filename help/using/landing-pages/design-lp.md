@@ -1,7 +1,7 @@
 ---
 title: Design a landing page
 description: Learn how to design the content of a landing page in Journey Optimizer
-feature: Landing page
+feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
