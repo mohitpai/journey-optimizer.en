@@ -7,6 +7,26 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation Updates](documentation-updates.md).
 
+## November 2021 Release
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME subdomain delegation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports CNAMEs. A CNAME, or Canonical Name record, is a record that points to another domain address rather than an IP address. CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.</p>
+<p>This method is recommended if your organization's policies restrict the full subdomain delegation method.</p>
+<p>Learn more on CNAME subdomain delegation in the <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## October 2021 Release {#oct-2021-release}
 
 <!--table>
@@ -75,7 +95,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </table>
 
 
-See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"} for more changes.
+See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} for more changes.
 
 ### Improvements
 
