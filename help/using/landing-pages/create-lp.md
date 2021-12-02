@@ -110,11 +110,11 @@ To define a subpage settings, follow the steps below.
 
 ## Test the landing page {#test}
 
-Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
+Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
+>You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](../../building-journeys/creating-test-profiles.md).
 
 1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 

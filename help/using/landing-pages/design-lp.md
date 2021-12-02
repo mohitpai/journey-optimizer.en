@@ -14,7 +14,7 @@ To start creating content from your landing [primary page](create-lp.md#configur
 
 From there, you can:
 
-* **Design your landing page from scratch** through the content designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
+* **Design your landing page from scratch** through the content designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
 
 * **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../existing-content.md#import-raw-html-code).
 
@@ -48,11 +48,11 @@ To define landing-page specific content, follow the steps below.
 
     ![](../assets/lp_designer-form-update-options.png)
 
-    * **[!UICONTROL Subscription list]**: You must select the [subscription list](using/landing-pages/subscription-list.md) that will be updated if the profile selects this checkbox.
+    * **[!UICONTROL Subscription list]**: You must select the [subscription list](subscription-list.md) that will be updated if the profile selects this checkbox.
 
         >[!NOTE]
         >
-        >Learn how to create a subscription list in [this section](using/landing-pages/subscription-list.md#create-subscription-list).
+        >Learn how to create a subscription list in [this section](subscription-list.md#create-subscription-list).
 
         ![](../assets/lp_designer-form-subs-list.png)
 

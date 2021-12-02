@@ -33,13 +33,13 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Create an email message. Learn more on [creating messages](../create-message.md)
 
-1. [Insert a link](../message-tracking.md#insert-links) to your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](landing-pages/create-lp.md#configure-primary-page) that you created for registration.
+1. [Insert a link](../message-tracking.md#insert-links) to your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](../assets/lp_subscription-uc-link.png)
 
-1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
+1. Save your content and [publish your message](../publish-manage-message.md).
 
-1. Send your message through a [journey](../building-journeys/journey.md) to announce registration is now open for your event and to drive traffic to the registration landing page.
+1. Send your message through a [journey](../../building-journeys/journey.md) to announce registration is now open for your event and to drive traffic to the registration landing page.
 
     Once they receive the email, if your recipients click the link to the landing page, they will be directed to the thank you page and they will be added to the subscription list.
 
@@ -78,13 +78,13 @@ To enable the recipients of a message to unsubscribe from your communications th
 
 1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list.
 
-1. Select the [landing page](landing-pages/create-lp.md#configure-primary-page) that you created for opting out.
+1. Select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
     ![](../assets/lp_opt-out-landing-page.png)
 
 1. Click **[!UICONTROL Save]**.
 
-1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
+1. Save your content and [publish your message](../publish-manage-message.md).
 
 1. Send your message through a [journey](building-journeys/journey.md).
 
