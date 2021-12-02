@@ -33,7 +33,7 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. Create an email message. Learn more on [creating messages](../create-message.md)
 
-1. [Insert a link](../message-tracking.md#insert-links) to your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
+1. [Insert a link](../message-tracking.md#insert-links) in your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](../assets/lp_subscription-uc-link.png)
 

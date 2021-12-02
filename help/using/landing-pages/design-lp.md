@@ -22,7 +22,7 @@ From there, you can:
 
 >[!NOTE]
 >
->Learn more on designing content with [!DNL Journey Optimizer] [here](../design-emails.md).
+>The landing page content designer is mostly similar to the email designer. Learn more on designing content with [!DNL Journey Optimizer] [here](../design-emails.md).
     
 To define landing-page specific content, follow the steps below.
 
@@ -48,11 +48,7 @@ To define landing-page specific content, follow the steps below.
 
     ![](../assets/lp_designer-form-update-options.png)
 
-    * **[!UICONTROL Subscription list]**: You must select the [subscription list](subscription-list.md) that will be updated if the profile selects this checkbox.
-
-        >[!NOTE]
-        >
-        >Learn how to create a subscription list in [this section](subscription-list.md#create-subscription-list).
+    * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on subscription lists in [this section](subscription-list.md).
 
         ![](../assets/lp_designer-form-subs-list.png)
 

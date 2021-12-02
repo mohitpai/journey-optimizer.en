@@ -54,7 +54,7 @@ To define the primary page settings, follow the steps below.
 
 1. You can change the page name, which is **[!UICONTROL Primary page]** by default.
 
-1. Edit the content of your page using the content designer. Learn how to design landing page content [here](#design-lp-content).
+1. Edit the content of your page using the content designer. Learn how to design landing page content [here](design-lp.md).
 
     ![](../assets/lp_open-designer.png)
 
@@ -96,7 +96,7 @@ To define a subpage settings, follow the steps below.
 
 1. You can change the page name, which is **[!UICONTROL Subpage 1]** by default.
 
-1. Edit the content of your page using the content designer. Learn how to design landing page content [here](#design-lp-content).
+1. Edit the content of your page using the content designer. Learn how to design landing page content [here](design-lp.md).
 
 1. Define your landing page URL.
 
@@ -173,7 +173,7 @@ Two types of alerts can happen:
 
 ## Publish the landing page {#publish}
 
-Once your landing page is ready, you can publish it to make it available for use in a message or a website.
+Once your landing page is ready, you can publish it to make it available for use in a message or on a website.
 
 ![](../assets/lp_publish.png)
 
