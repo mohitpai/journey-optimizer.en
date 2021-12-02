@@ -1,11 +1,10 @@
 ---
 title: Create a landing page
-description: Learn how to create a landing page in Journey Optimizer
-feature: Overview
+description: Learn how to configure and publish a landing page in Journey Optimizer
+feature: Landing pages
 topic: Content Management
 role: User
 level: Beginner
-exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create and publish landing pages {#create-lp}
 

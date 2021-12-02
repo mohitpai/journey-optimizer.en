@@ -1,11 +1,10 @@
 ---
 title: Landing page use cases
-description: Learn how to manage opt-out and privacy
-feature: Journeys
+description: Discover the most common use cases with landing pages in Journey Optimizer
+feature: Landing pages
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 ---
 # Landing page use cases
 
@@ -104,7 +103,9 @@ To check that the corresponding profile's choice has been updated, go to Experie
 ![](../assets/lp_opt-out-profile-choice.png)
 
 In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
-<!-->
+
+<!--
+
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.

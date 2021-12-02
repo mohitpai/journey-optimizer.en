@@ -1,11 +1,10 @@
 ---
-title: Create an email
-description: Learn how to create an email in Journey Optimizer
-feature: Overview
+title: Create a subscription list
+description: Learn how to set up a subscription list in Journey Optimizer
+feature: Landing pages
 topic: Content Management
 role: User
 level: Beginner
-exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create a subscription list {#create-subscription-list}
 
@@ -23,11 +22,11 @@ A subscription service can be:
 
 The profiles can be added to a subscription list through a [landing page](create-lp.md). An example is presented in [this section](get-started-lp.md#subscription-to-a-service).
 
-## Create a subscription list {#create-subscription-list}
+## Define a subscription list {#define-subscription-list}
 
 To create a subscription list, follow the steps below.
 
-1. To access the subscription list, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+1. To access the subscription lists, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
     ![](../assets/lp_subscription-lists.png)
 

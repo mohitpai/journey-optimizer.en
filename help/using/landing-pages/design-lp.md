@@ -1,11 +1,10 @@
 ---
 title: Design a landing page
-description: Learn how to create a landing page in Journey Optimizer
-feature: Overview
+description: Learn how to design the content of a landing page in Journey Optimizer
+feature: Landing pages
 topic: Content Management
 role: User
 level: Beginner
-exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Design the landing page content {#design-lp-content}
 

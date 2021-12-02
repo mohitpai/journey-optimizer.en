@@ -1,11 +1,10 @@
 ---
 title: Get started with landing pages
-description: Learn how to create messages in Journey Optimizer
-feature: Overview
+description: Learn about landing pages in Journey Optimizer
+feature: Landing pages
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with landing pages {#get-sarted-lp}
 
