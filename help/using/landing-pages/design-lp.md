@@ -1,5 +1,5 @@
 ---
-title: Create a landing page
+title: Design a landing page
 description: Learn how to create a landing page in Journey Optimizer
 feature: Overview
 topic: Content Management

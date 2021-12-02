@@ -1,5 +1,5 @@
 ---
-title: Get started with messages
+title: Get started with landing pages
 description: Learn how to create messages in Journey Optimizer
 feature: Overview
 topic: Content Management

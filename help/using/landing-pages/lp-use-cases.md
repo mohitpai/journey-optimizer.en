@@ -1,5 +1,5 @@
 ---
-title: Manage opt-out
+title: Landing page use cases
 description: Learn how to manage opt-out and privacy
 feature: Journeys
 topic: Content Management
