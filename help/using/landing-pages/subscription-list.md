@@ -1,7 +1,7 @@
 ---
 title: Create a subscription list
 description: Learn how to set up a subscription list in Journey Optimizer
-feature: Landing pages
+feature: Landing page
 topic: Content Management
 role: User
 level: Beginner

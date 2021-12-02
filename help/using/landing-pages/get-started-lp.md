@@ -1,7 +1,7 @@
 ---
 title: Get started with landing pages
 description: Learn about landing pages in Journey Optimizer
-feature: Landing pages
+feature: Landing page
 topic: Content Management
 role: User
 level: Beginner

@@ -1,7 +1,7 @@
 ---
 title: Create a landing page
 description: Learn how to configure and publish a landing page in Journey Optimizer
-feature: Landing pages
+feature: Landing page
 topic: Content Management
 role: User
 level: Beginner
@@ -128,7 +128,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 1. Click the **[!UICONTROL Preview]** tab to test your landing page.
 
-    ![](../assets/lp_preview.png)
+    <!--![](../assets/lp_preview.png)-->
 
 1. Personalized elements are replaced by the selected test profile data. Select other test profiles to preview the rendering for each variant of your landing page.
 
