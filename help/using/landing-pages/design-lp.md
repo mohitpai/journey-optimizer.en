@@ -41,7 +41,7 @@ To define landing-page specific content, follow the steps below.
 
 1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
 
-1. Define if this checkbox is to opt users in or out: if they check the box, do they agree to receive communications or do they ask not to be contacted any more?
+1. Define if this checkbox is to opt users in or out: do they agree to receive communications or do they ask not to be contacted any more?
 
     ![](../assets/lp_designer-form-update.png)
 
@@ -57,7 +57,7 @@ To define landing-page specific content, follow the steps below.
 
         ![](../assets/lp_designer-form-subs-list.png)
 
-    * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from your communications.
+    * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from all your communications.
 
     * **[!UICONTROL Email entity]**: The opt-in or opt-out only applies to the email address that was used to access the landing page. For example, if a profile has two email addresses, only the one that was used to opt in will receive communications from your brand.
 

@@ -129,9 +129,10 @@ solution: Journey Optimizer
   + [Create a landing page](using/landing-pages/create-lp.md)
   + [Design a landing page](using/landing-pages/design-lp.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Manage opt-out](using/landing-pages/manage-op-out.md)
-  + [Landing page reporting](using/landing-pages/lp-report.md)
-  + [Subscription list reporting](using/landing-pages/subscription-report.md)
+  + [Use cases](using/landing-pages/lp-use-cases.md)
+  + Reporting {#lp-reporting}
+    + [Landing page reporting](using/landing-pages/lp-report.md)
+    + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)

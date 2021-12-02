@@ -38,52 +38,11 @@ To move to RN-->
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Design landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="manage-op-out.md">Manage opt-out</a></p></td>
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-uses-cases.md">Use cases</a></p></td>
 </tr>
 </table>
 
 <!--Easily build attractive/efficient landing pages to drive the best conversion.-->
-
-## Use cases
-
-Below are examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
-
-### Subscription to a service {#subscription-to-a-service}
-
-For example, let's say you organize an event next month and you want to launch an event registration campaign to keep your customers that are interested updated on that event.
-
-1. Create the event registration's subscription list. [Learn more on subscription lists](subscription-list.md)
-
-1. [Create a landing page](create-lp.md), which will enable your recipients to register to your event.
-
-1. Configure and design the registration landing page, including the link to the subscription list. [Learn more on building primary landing page](create-lp.md#configure-primary-page)
-
-1. Create a thank you page that will be displayed to your recipients once they submit the registration form. [Learn more on landing subpages](create-lp.md#configure-subpages)
-
-1. Create an email message. [Learn more on creating messages](../create-message.md)
-
-1. [Insert a link](../message-tracking.md#insert-links) to your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](landing-pages/create-lp.md#configure-primary-page) that you created for registration.
-
-1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
-
-1. Send your message through a [journey](../building-journeys/journey.md) to announce registration is now open for your event and to drive traffic to the registration landing page.
-
-Once they receive the email, if your recipients click the link to the landing page, they will be directed to the thank you page and they will be added to the subscription list.
-
-The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.
-
-![](../assets/lp_subscription-uc.png)
-
-### Opting out {#opt-out}
-
-To enable your recipients to unsubscribe from your communications, you can include a link to an unsubscription landing page into your emails.
-
-The steps to implement this are detailed in [this section](manage-op-out.md#add-unsubscribe-link).
 
 <!--**Questions**
 

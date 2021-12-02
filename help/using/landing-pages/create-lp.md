@@ -139,7 +139,7 @@ While you are creating your landing page, alerts warn you when you need to take 
 
 Alerts are displayed on top right of the screen, as shown below:
 
-![](../assets/lp-alerts.png)
+![](../assets/lp_alerts.png)
 
 >[!NOTE]
 >
