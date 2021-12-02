@@ -1,6 +1,6 @@
 ---
 title: Landing page report
-description: Learn how to use data from your subscription services
+description: Learn how to use data from your landing pages
 feature: Journeys
 topic: Content Management
 role: User
@@ -16,75 +16,78 @@ The subscription report displays details about the activity of your subscribers.
 
 To access your reports, select **Live** or **[!UICONTROL Global report]** from the advanced menu of your selected landing page.
 
-![](../assets/subscription_report_5.png)
+![](../assets/landing_page_report_1.png)
 
 ## Landing page live report {#lp-live}
 
-Landing page performance
+![](../assets/landing_page_report_2.png)
 
-* **[!UICONTROL Total visits]**: Total number of visits to your landing page, including multiple visits of one recipient. **(ask if correct)** **difference between total visits and visits**
+The **[!UICONTROL Landing page performance]** widget details the main information relative to your message through KPIs:
 
-* **[!UICONTROL Average visit duration]**: Average length of time recipients interact or stays on the landing page. **(stay ou interact)**
+* **[!UICONTROL Total visits]**: Total number of visits to your landing page from your journey or other sources, including multiple visits of one recipient. 
 
-* **[!UICONTROL Conversions]**: Number of persons who interacted with the landing page **??**
+* **[!UICONTROL Conversions]**: Number of persons who interacted with the landing page, e.g. subscribed to a form. 
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Number of persons who didn't interact with the landing page and didn't complete the action of subscribing.
 
-Visit sources
+The **[!UICONTROL Visit sources]** widget represents how visitors are accessing your landing page:
 
-* **[!UICONTROL Journey(s)]**
-* **[!UICONTROL Other sources]**
+* **[!UICONTROL Journey(s)]**: Number of visits to your landing page coming from a journey.
 
-Top clicked links
+* **[!UICONTROL Other sources]**: Number of visits to your landing page coming from an external source instead of a journey.
+
+The **[!UICONTROL Top clicked links]** identifies your recipients’ interaction with the delivery:
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
-Journey(s)
+![](../assets/landing_page_report_3.png)
 
-* **[!UICONTROL Visits]**: Number of visits to your landing page, including multiple visits of one recipient.
+The **[!UICONTROL Journey(s)]** widget represents the number of visits to your landing page from a journey.
 
-Other sources
+The **[!UICONTROL Other sources]** widget represents the number of visits to your landing page from an external source instead of a journey.
 
-* **[!UICONTROL Visits]**: Number of visits to your landing page, including multiple visits of one recipient.
+The **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** depending on the message
 
-Visits by messages / Conversions by messages
-
-Visits by channels / Conversions by channels
+The **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** depending on the channel 
 
 ## Landing page global report {#lp-global}
 
-Number of visits / Number of visits over time
+![](../assets/landing_page_report_4.png)
 
-* **[!UICONTROL Total visits]**: Total number of visits to your landing page, including multiple visits of one recipient. **(ask if correct)** **difference between total visits and visits**
+Number of visits and Number of visits over time
 
-* **[!UICONTROL Unique visitors]**: Number of targeted recipients who visited your landing page, multiple visits of one recipient are not taken into account. **(ask if correct)**
+* **[!UICONTROL Total visits]**: Total number of visits to your landing page coming from journeys and external sources, including multiple visits of one recipient.
 
-Landing page performance
+* **[!UICONTROL Unique visitors]**: Number of visitors who visited your landing page, multiple visits of one recipient are not taken into account.
 
-* **[!UICONTROL Average visit duration]**: Average length of time recipients interact or stays on the landing page. **(stay ou interact)**
+The **[!UICONTROL Landing page performance]** widget details the main information relative to your message through KPIs:
 
-* **[!UICONTROL Conversion rate]**: number of persons who interacted with the landing page / displayed all steps of a navigation path. **????**
+* **[!UICONTROL Conversion rate]**: Number of persons who interacted with the landing page, e.g. subscribed to a form, in relation to the total number of visits.
 
-* **[!UICONTROL Bounce rate]**: Percentage of emails that bounced compared to emails sent.
+* **[!UICONTROL Bounce rate]**: Number of persons who didn't interact with the landing page and didn't complete the action of subscribing, in relation to the total number of visits.
 
+![](../assets/landing_page_report_5.png)
 
-Visit sources
+The **[!UICONTROL Visit sources]** widget represents how visitors are accessing your landing page:
 
-* Journey(s)
-* Other sources
+* **[!UICONTROL Journey(s)]**: Number of visits to your landing page coming from a journey.
 
-Top clicked links
+* **[!UICONTROL Other sources]**: Number of visits to your landing page coming from an external source instead of a journey.
 
-* **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
+The **[!UICONTROL Top clicked links]** identifies your recipients’ interaction with the delivery:
 
-Journey(s)
+* **[!UICONTROL Clicks]**: Number of times a content was clicked on in a delivery.
+
+* **[!UICONTROL Click rate]**: Percentage of clicks in a delivery.
+
+The **[!UICONTROL Journey(s)]** widget represents the number of visits to your landing page from a journey: 
 
 * **[!UICONTROL Visits]**: Number of visits to your landing page, including multiple visits of one recipient.
 
-Other sources
+The **[!UICONTROL Other sources]** widget represents the number of visits to your landing page from an external source instead of a journey.
 
-* **[!UICONTROL Visits]**: Number of visits to your landing page, including multiple visits of one recipient.
+![](../assets/landing_page_report_6.png)
 
-Visits by messages / Conversions by messages
+The **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** depending on the message
 
-Visits by channels / Conversions by channels
+The **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** depending on the channel 
