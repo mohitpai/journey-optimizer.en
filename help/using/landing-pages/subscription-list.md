@@ -52,7 +52,7 @@ The possible statuses are as follows:
 * **[!UICONTROL Live]**: The subscription list has a start date and end date that includes the current day, or you did not defined end/start dates, which means the subscription list is always live.
 * **[!UICONTROL Expired]**: The end date is passed, the subscription list is not valid anymore. Any profile subscribed to this list will not receive any more communications relating to this subscription list.
 
-Once the subscription list is created, you can use it in a landing page so that the profiles can opt in through a form and be added to the list. [Learn more](design-lp-content.md)
+Once the subscription list is created, you can use it in a landing page so that the profiles can opt in through a form and be added to the list. [Learn more](design-lp.md)
 
 
 <!--
