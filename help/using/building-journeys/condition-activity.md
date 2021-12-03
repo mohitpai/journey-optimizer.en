@@ -9,12 +9,15 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 ---
 # Condition activity{#section_e2n_pft_dgb}
 
-Four types of conditions are available:
+These types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
 * [Time condition](#time_condition) 
 * [Percentage split](#percentage_split) 
-* [Date condition](#date_condition) 
+* [Date condition](#date_condition)
+<!--
+* [Profile cap](#profile_cap)
+-->
 
 ![](../assets/journey49.png)
 
@@ -46,15 +49,15 @@ If you're using the [Adobe Experience Platform Segmentation Service](https://exp
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Adobe Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Adobe Journey Orchestration documentation](expression/expressionadvanced.md).
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
-In the simple editor, you will also find the Journey Properties category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. For more information, see [Adobe Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target="_blank"}
+In the simple editor, you will also find the Journey Properties category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. For more information, see [Adobe Journey Orchestration documentation](expression/journey-properties.md)
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Adobe Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}. Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Adobe Journey Orchestration documentation](expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -93,15 +96,15 @@ This allows you to define a different flow based on the date. For example, if th
 <!--
 ## Profile cap {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
 
-You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+The default cap is 1000. You can set an integer value from 1 to 20,000.
 
-The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
-The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
 
 ![](../assets/profile-cap-condition.png)
 -->

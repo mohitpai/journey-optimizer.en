@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 ---
 # Send a message to the subscribers of a list
 
@@ -26,7 +27,7 @@ To configure this journey, follow these steps:
 
       To be able to modify the email address, you must have previously published the message.
 
-   1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+   1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](expression/expressionadvanced.md).
 
       This example shows an expression that includes references to map fields:
 
@@ -43,7 +44,7 @@ To configure this journey, follow these steps:
 
       In this example, the subscription list is named `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
 
-      Read more about [references to fields](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) in expressions.
+      Read more about [references to fields](expression/field-references.md) in expressions.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -52,7 +53,3 @@ To configure this journey, follow these steps:
       ![](../assets/message-to-subscribers-uc-3.png)
 
 1. End the journey with an **[!UICONTROL End]** activity.
-
-
-
-
