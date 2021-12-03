@@ -28,6 +28,7 @@ solution: Journey Optimizer
     + [Create a message](using/create-message.md)
     + [Create an email](using/create-email.md)
     + [Create a push notification](using/create-push.md)
+    + [Create an SMS message](using/create-sms.md)
   + [Add and manage assets](using/assets-essentials.md)
   + Design emails {#email-designer} 
     + [Get started with email design](using/design-emails.md)
@@ -213,6 +214,12 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
     + [Allowed list](using/allow-list.md)
++ Landing pages {#landing-pages}
+  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
+  + [Create a landing page](using/landing-pages/create-lp.md)
+  + [Design a landing page](using/landing-pages/design-lp.md)
+  + [Create a subscription list](using/landing-pages/subscription-list.md)
+  + [Use cases](using/landing-pages/lp-use-cases.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -314,6 +321,7 @@ solution: Journey Optimizer
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
       + [Change email primary address](using/configuration/primary-email-addresses.md)
+    + [Configure SMS channel](using/configuration/sms-configuration.md) 
     + [Create message presets](using/configuration/message-presets.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
