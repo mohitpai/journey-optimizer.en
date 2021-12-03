@@ -60,7 +60,7 @@ To create a message preset, follow these steps:
 
      ![](../assets/preset-sms.png)
 
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**. flag => selon ce que tu selectionnes au moment où tu crées le message tu dois renseigner ça va filtrer par preset
     
     * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -73,8 +73,6 @@ To create a message preset, follow these steps:
     ![](../assets/sms_preset_2.png)
 
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
-
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
 
     >[!NOTE]
     >

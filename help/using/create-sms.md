@@ -9,7 +9,7 @@ hide: yes
 hidefromtoc: yes
 ---
 # Create an SMS message {#create-sms}
-
+Pas plus de 160 caractères
 >[!CAUTION]
 >
 > The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
@@ -25,6 +25,10 @@ To start personalizing your SMS message, follow these steps:
     ![](assets/sms_3.png)
 
 1. Use the Expression Editor to define content and personalization data. Learn more about personalization in the Expression Editor in [this section](personalization/personalize.md)
+
+    >[!NOTE]
+    >
+    > SMS messages are limited to a length of 160 characters.
 
     ![](assets/sms_2.png)
 
