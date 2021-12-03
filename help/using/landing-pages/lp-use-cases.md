@@ -5,6 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: yes
+hide: yes
 ---
 # Landing page use cases
 

@@ -5,6 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: yes
+hide: yes
 ---
 # Design the landing page content {#design-lp-content}
 

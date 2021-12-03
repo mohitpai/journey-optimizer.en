@@ -5,6 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: yes
+hide: yes
 ---
 # Create a subscription list {#create-subscription-list}
 

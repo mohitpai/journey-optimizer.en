@@ -5,6 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: yes
+hide: yes
 ---
 # Create and publish landing pages {#create-lp}
 
