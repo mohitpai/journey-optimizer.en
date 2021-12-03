@@ -14,10 +14,10 @@ A subscription service refers to marketing goods and services provided to custom
 
 A subscription service can be:
 
-* a newsletter, for example “Running series”,
-* an event, for example “Summit 2021”,
-* a webinar, for example "Learn more about crypto",
-* an interest on a particular product/sport/service/etc., for example "Interested to buy a house in the next 12 months",
+* a newsletter, for example “Running series”
+* an event, for example “Summit 2021”
+* a webinar, for example "Learn more about crypto"
+* an interest on a particular product/sport/service/etc., for example "Interested to buy a house in the next 12 months"
 * a preference on how to be notified, for example "Receive new song notifications on email"
 
 The profiles can be added to a subscription list through a [landing page](create-lp.md). An example is presented in [this section](get-started-lp.md#subscription-to-a-service).
@@ -49,7 +49,7 @@ The list displays all the subscription lists created. You can filter them based 
 The possible statuses are as follows:
 
 * **[!UICONTROL Not started]**: You defined a start date that is later than the current day. The profiles subscribed to this list will not receive yet communications relating to this subscription list.
-* **[!UICONTROL Live]**: The subscription list has a start date and end date that includes the current day, or you did not defined end/start dates, which means the subscription list is always live.
+* **[!UICONTROL Live]**: The current day is comprised between the subscription list start date and end date, or you did not defined end/start dates, which means the subscription list is always live.
 * **[!UICONTROL Expired]**: The end date is passed, the subscription list is not valid anymore. Any profile subscribed to this list will not receive any more communications relating to this subscription list.
 
 Once the subscription list is created, you can use it in a landing page so that the profiles can opt in through a form and be added to the list. [Learn more](design-lp.md)
