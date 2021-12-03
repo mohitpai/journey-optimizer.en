@@ -24,7 +24,7 @@ To access your reports, select **Live** or **[!UICONTROL Global report]** from t
 
 The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscriptions by journey]** /**[!UICONTROL Unsubscribes by journey]** tables detail the main information relative to your user's engagement with your landing page. The tables and KPIs contain the data available related to your landing page, such as:
 
-* **[!UICONTROL Subscribes]**: Total number of subscribers in the last 24 hours.
+* **[!UICONTROL Subscribes]**: Total number of subscriptions in the last 24 hours.
 
 * **[!UICONTROL Unsubscribes]**: Total number of unsubscriptions in the last 24 hours.
 
@@ -32,7 +32,7 @@ The **[!UICONTROL Subscription performance]** graph shows the evolution of subsc
 
 ![](../assets/subscription_report_4.png)
 
-**Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of people who subscribed or unsubscribed in the last 24 hours by messages, landing pages and channels.
+The **Subscriptions - Breakdown** and **Unsubscribes - Breakdown by message** graphs represent the total number of persons who subscribed or unsubscribed in the last 24 hours depending on the messages, landing pages and channels.
 
 ## Subscription global report {#subscription-global}
 
@@ -40,7 +40,7 @@ The **[!UICONTROL Subscription performance]** graph shows the evolution of subsc
 
 The **[!UICONTROL Subscription performance]** KPIs and the **[!UICONTROL Subscriptions by journey]** /**[!UICONTROL Unsubscribes by journey]** tables detail the main information relative to your user's engagement with your landing page. The tables and KPIs contain the data available related to your landing page, such as:
 
-* **[!UICONTROL Subscribes]**: Total number of subscribers for the concerned period.
+* **[!UICONTROL Subscribes]**: Total number of subscriptions for the concerned period.
 
 * **[!UICONTROL Unsubscribes]**: Total number of unsubscriptions for the concerned period.
 
@@ -48,5 +48,5 @@ The **[!UICONTROL Subscription performance]** graph shows the evolution of subsc
 
 ![](../assets/subscription_report_2.png)
 
-**Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of people who subscribed or unsubscribed for the concerned period by messages, landing pages and channels.
+The **Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of persons who subscribed or unsubscribed for the concerned period depending on the messages, landing pages and channels.
 
