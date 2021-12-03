@@ -54,6 +54,7 @@ The possible statuses are as follows:
 
 Once the subscription list is created, you can use it in a landing page so that the profiles can opt in through a form and be added to the list. [Learn more](design-lp.md)
 
+You can also use subscription lists as segments when building journeys and personalization.
 
 <!--
 
