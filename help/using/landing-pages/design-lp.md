@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hidefromtoc: yes
 hide: yes
+exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 ---
 # Design the landing page content {#design-lp-content}
 
@@ -92,5 +93,3 @@ To define landing-page specific content, follow the steps below.
     ![](../assets/lp_designer-form-save.png)
 
 <!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
-
