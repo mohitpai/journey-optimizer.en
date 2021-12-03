@@ -22,7 +22,7 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
     ![](../assets/sms_4.png)
 
-1. Select your **[!UICONTROL SMS vendor]**.
+1. Select Sinch as your **[!UICONTROL SMS vendor]**.
 
 1. Enter a **[!UICONTROL Name]** for your API Credential.
 
@@ -60,7 +60,7 @@ To create a message preset, follow these steps:
 
      ![](../assets/preset-sms.png)
 
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**. flag => selon ce que tu selectionnes au moment où tu crées le message tu dois renseigner ça va filtrer par preset
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
     
     * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
