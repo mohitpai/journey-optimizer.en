@@ -9,7 +9,7 @@ hide: yes
 hidefromtoc: yes
 ---
 # Create an SMS message {#create-sms}
-Pas plus de 160 caractères
+
 >[!CAUTION]
 >
 > The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
