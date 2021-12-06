@@ -53,11 +53,11 @@ For example, let's say you organize an event next month and you want to launch a
 
 You can send a confirmation email to the recipients who registered for your event. To do so, follow the steps below.
 
-1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](using/landing-pages/create-lp.md#configure-primary-page)
+1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
 
     ![](../assets/lp_subscription-uc-create-journey.png)
 
-1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Learn more [here](using/building-journeys/segment-qualification-events.md)
+1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
 
    ![](../assets/segment5.png)
 
