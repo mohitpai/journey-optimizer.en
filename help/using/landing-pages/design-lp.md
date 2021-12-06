@@ -8,13 +8,13 @@ level: Beginner
 ---
 # Design the landing page content {#design-lp-content}
 
-To start creating content from your landing [primary page](create-lp.md#configure-primary-page) or [subpage](create-lp.md#configure-subpages), hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette.
+To start creating content for your landing [primary page](create-lp.md#configure-primary-page) or [subpage](create-lp.md#configure-subpages), hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette.
 
 ![](../assets/lp_open-designer.png)
 
 From there, you can:
 
-* **Design your landing page from scratch** through the content designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
+* **Design your landing page from scratch** through the content designer's interface, and leverage images from [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
 
 * **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../existing-content.md#import-raw-html-code).
 
@@ -22,7 +22,7 @@ From there, you can:
 
 >[!NOTE]
 >
->The landing page content designer is mostly similar to the email designer. Learn more on designing content with [!DNL Journey Optimizer] [here](../design-emails.md).
+>The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../design-emails.md).
     
 To define landing-page specific content, follow the steps below.
 
@@ -48,7 +48,7 @@ To define landing-page specific content, follow the steps below.
 
     ![](../assets/lp_designer-form-update-options.png)
 
-    * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on subscription lists in [this section](subscription-list.md).
+    * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on [subscription lists](subscription-list.md).
 
         ![](../assets/lp_designer-form-subs-list.png)
 
@@ -75,7 +75,7 @@ To define landing-page specific content, follow the steps below.
 1. Define what will happen upon clicking the button in case an error occurs:
 
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
-    * **[!UICONTROL Error text]**: Type the error text that will be displayed. You can preview the error text by selection the corresponding checkbox.
+    * **[!UICONTROL Error text]**: Type the error text that will be displayed. You can preview the error text by selecting the corresponding checkbox.
 
         ![](../assets/lp_designer-form-error-preview.png)
 

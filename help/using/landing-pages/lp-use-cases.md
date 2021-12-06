@@ -21,19 +21,25 @@ The main steps to make your recipients subscribe to a service are presented belo
 
 ![](../assets/lp_subscription-uc.png)
 
-For example, let's say you organize an event next month and you want to launch an event registration campaign to keep your customers that are interested updated on that event.
+For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->.
 
-1. Create the event registration's subscription list. Learn more on [subscription lists](subscription-list.md)
+1. Create the event registration's subscription list, which will store the registered users. Learn more on [subscription lists](subscription-list.md)
 
-1. [Create a landing page](create-lp.md), which will enable your recipients to register to your event.
+    ![](../assets/lp_subscription-uc-list.png)
 
-1. Configure and design the registration landing page, including the link to the subscription list. Learn more on building the [primary landing page](create-lp.md#configure-primary-page)
+1. [Create and configure a landing page](create-lp.md) to enable your recipients to register for your event.
 
-1. Create a thank you page that will be displayed to your recipients once they submit the registration form. Learn more on [landing subpages](create-lp.md#configure-subpages)
+1. Design the registration landing page. Select the subscription list that you created so that it will be updated with the profiles who check the corresponding box. Learn more on building the [primary landing page](create-lp.md#configure-primary-page)
 
-1. Create an email message. Learn more on [creating messages](../create-message.md)
+    ![](../assets/lp_subscription-uc-lp-list.png)
 
-1. [Insert a link](../message-tracking.md#insert-links) in your message. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
+1. Create a 'thank you' page that will be displayed to your recipients once they submit the registration form. Learn more on [landing subpages](create-lp.md#configure-subpages)
+
+1. [Publish](create-lp.md#publish) the landing page.
+
+1. Create an email message that you will send to your customers to invite them to register for your event. Learn more on [creating messages](../create-message.md)
+
+1. [Insert a link](../message-tracking.md#insert-links) in your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](../assets/lp_subscription-uc-link.png)
 
@@ -43,7 +49,21 @@ For example, let's say you organize an event next month and you want to launch a
 
     Once they receive the email, if your recipients click the link to the landing page, they will be directed to the thank you page and they will be added to the subscription list.
 
-1. You can send a confirmation email to the recipients who registered for your event. To do so, send it through another journey using the **[!UICONTROL Segment qualification]** event and select the subscription list that you created as the segment.
+### Confirmation email
+
+You can send a confirmation email to the recipients who registered for your event. To do so, follow the steps below.
+
+1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
+
+    ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+
+   ![](../assets/segment5.png)
+
+1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
+
+1. Create the confirmation email of your choice and send it through the journey.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
