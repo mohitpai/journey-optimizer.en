@@ -22,22 +22,20 @@ A landing page is a standalone web page that a user is directed to after clickin
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] allows you to:
-
-* Leverage [!DNL Journey Optimizer] content design capabilities to easily build responsive landing pages.
-* Create subscription lists to enable users to subscribe to a service.
-* Enable your customers to opt-in or opt-out from your communications.
-* Provide your recipients with the capability to unsubscribe from receiving your communications.
+* Leverage [!DNL Journey Optimizer] content design capabilities to easily build **responsive landing pages**.
+* Set up **opt-in and opt-out flows** quickly and seamlessly.
+* Create subscription lists to enable users to **subscribe to a service**. [Read more](lp-use-cases.md#subscription-to-a-service)
+* Provide your recipients with the **capability to unsubscribe** from receiving your communications. [Read more](lp-use-cases.md#opt-out)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Design landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-use-cases.md">Reporting</a></p></td>
 </tr>
 </table>
 
@@ -47,4 +45,8 @@ To move to RN-->
 
 * Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
 
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.
+
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+
+-->
