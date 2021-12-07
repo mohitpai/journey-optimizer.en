@@ -37,39 +37,45 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_create-lp-details.png)
 
+1. Select a preset.
+
+    ![](../assets/lp_create-lp-presets.png)
+
+    >[!NOTE]
+    >
+    >To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+
 1. Click **[!UICONTROL Create]**.
 
-1. The primary page and its properties display. Learn how to configure the page settings [here](#configure-primary-page).
+1. The primary page and its properties display. Learn how to configure the primary page settings [here](#configure-primary-page).
 
     ![](../assets/lp_primary-page.png)
 
-1. Click the + icon to add a subpage. Learn how to configure its settings [here](#configure-subpages).
+1. Click the + icon to add a subpage. Learn how to configure the subpage settings [here](#configure-subpages).
 
     ![](../assets/lp_add-subpage.png)
 
-Once you configured and designed the [primary page](#configure-primary-page) and the [subpages](#configure-subpages) if any, you can [test](#test) and [publish](#publish) your landing page.
+Once you configured and designed the [primary page](#configure-primary-page), and the [subpages](#configure-subpages) if any, you can [test](#test) and [publish](#publish) your landing page.
 
 ## Configure the primary page {#configure-primary-page}
 
-The primary page is the page that is immediately displayed to the users when they click the link to your landing page, such as from an email or a website.
+The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website.
 
 To define the primary page settings, follow the steps below.
 
 1. You can change the page name, which is **[!UICONTROL Primary page]** by default.
 
-1. Edit the content of your page using the content designer. Learn how to design landing page content [here](design-lp.md).
+1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
     ![](../assets/lp_open-designer.png)
 
-1. Define your landing page URL.
+1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     >[!CAUTION]
     >
     >The landing page URL must be unique.  
 
     ![](../assets/lp_access-url.png)
-
-    The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
@@ -81,29 +87,27 @@ To define the primary page settings, follow the steps below.
 
     <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. If you selected one or more subscription lists for the primary page, they display in the **[!UICONTROL Subscription list]** section.
+1. If you selected one or more subscription lists when [designing the primary page](design-lp.md), they display in the **[!UICONTROL Subscription list]** section.
 
     ![](../assets/lp_subscription-list.png)
 
-1. From the landing page, you can directly create a journey that will send a confirmation message to users when they submit the form.
+1. From the landing page, you can directly [create a journey](../building-journeys/journey-gs.md#jo-build) that will send a confirmation message to users when they submit the form. Learn how to build such a journey at the end of this [use case](lp-use-cases.md#subscription-to-a-service).
 
     ![](../assets/lp_create-journey.png)
 
-    Click **[!UICONTROL Create journey]** to start [configuring this journey](../building-journeys/journey-gs.md#jo-build). You will be redirected to the **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** list.
+    Click **[!UICONTROL Create journey]** to be redirected to the **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** list.
 
 ## Configure subpages {#configure-subpages}
 
-You can add as many subpages as needed. For example, you can create a thank you page that will displayed once the users submit the form. You can also define an error page that will be called when an error occurs with the landing page.
+You can add up to 2 subpages. For example, you can create a 'thank you' page that will display once the users submit the form, and you can define an error page that will be called if a problem occurs with the landing page.
 
-To define a subpage settings, follow the steps below.
+To define the subpage settings, follow the steps below.
 
 1. You can change the page name, which is **[!UICONTROL Subpage 1]** by default.
 
-1. Edit the content of your page using the content designer. Learn how to design landing page content [here](design-lp.md).
+1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
-1. Define your landing page URL.
-
-    The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     >[!CAUTION]
     >
@@ -117,23 +121,31 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](../building-journeys/creating-test-profiles.md).
+>You need to have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
 
-1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
+1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 
     ![](../assets/lp_preview-button.png)
 
-1. Select one or more test profiles.
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Preview]** button is also accessible from the content designer.
+
+1. From the **[!UICONTROL Preview & test]** screen, select one or more test profiles.
 
     ![](../assets/lp_test-profiles.png)
 
     The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../preview.md#select-test-profiles).
 
-1. Click the **[!UICONTROL Preview]** tab to test your landing page.
+1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
-    <!--![](../assets/lp_preview.png)-->
+    ![](../assets/lp_open-preview.png)
 
-1. Personalized elements are replaced by the selected test profile data. Select other test profiles to preview the rendering for each variant of your landing page.
+1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
+
+    ![](../assets/lp_preview.png)
+
+1. Select other test profiles to preview the rendering for each variant of your landing page.
 
 ## Check alerts {#alerts}
 
@@ -151,7 +163,7 @@ Two types of alerts can happen:
 
 * **Warnings** refer to recommendations and best practices. <!--For example, a message will display if -->
 
-* **Errors** prevent you from publishing the message as long as they are not resolved. For example, a message will warn you that the primary page URL is missing.
+* **Errors** prevent you from publishing the message as long as they are not resolved. For example, you will get a warning if the primary page URL is missing.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -176,7 +188,7 @@ Two types of alerts can happen:
 
 ## Publish the landing page {#publish}
 
-Once your landing page is ready, you can publish it to make it available for use in a message or on a website.
+Once your landing page is ready, you can publish it to make it available for use in a message.
 
 ![](../assets/lp_publish.png)
 
@@ -186,4 +198,9 @@ Once your landing page is ready, you can publish it to make it available for use
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and the link to it ready to be used in a [message](../create-message.md) and sent through a [journey](../building-journeys/journey.md).
+It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>You can monitor your landing page impacts through specific reports. [Learn more](lp-report.md)
+
