@@ -196,3 +196,8 @@ Once your landing page is ready, you can publish it to make it available for use
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
 It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>You can monitor your landing page impacts through specific reports. [Learn more](lp-report.md)
+
