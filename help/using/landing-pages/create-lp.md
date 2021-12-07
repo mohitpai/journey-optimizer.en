@@ -34,6 +34,12 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_create-lp-details.png)
 
+1. Select a preset.
+
+    >[!NOTE]
+    >
+    >To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+
 1. Click **[!UICONTROL Create]**.
 
 1. The primary page and its properties display. Learn how to configure the primary page settings [here](#configure-primary-page).
@@ -58,7 +64,7 @@ To define the primary page settings, follow the steps below.
 
     ![](../assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     >[!CAUTION]
     >
@@ -88,7 +94,7 @@ To define the primary page settings, follow the steps below.
 
 ## Configure subpages {#configure-subpages}
 
-You can add as many subpages as needed. For example, you can create a 'thank you' page that will display once the users submit the form. You can also define an error page that will be called if a problem occurs with the landing page.
+You can add up to 2 subpages. For example, you can create a 'thank you' page that will display once the users submit the form, and you can define an error page that will be called if a problem occurs with the landing page.
 
 To define the subpage settings, follow the steps below.
 
@@ -96,7 +102,7 @@ To define the subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
-1. Define your landing page URL. The first part of the URL is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     >[!CAUTION]
     >
@@ -112,7 +118,7 @@ Once your landing page settings and content have been defined, you can use test 
 >
 >You need to have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
 
-1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
+1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview]** button to access the test profile selection.
 
     ![](../assets/lp_preview-button.png)
 
@@ -122,11 +128,15 @@ Once your landing page settings and content have been defined, you can use test 
 
     The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../preview.md#select-test-profiles).
 
-1. Click the **[!UICONTROL Preview]** tab to test your landing page.
+1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
-    <!--![](../assets/lp_preview.png)-->
+    ![](../assets/lp_open-preview.png)
 
-1. Personalized elements are replaced by the selected test profile data. Select other test profiles to preview the rendering for each variant of your landing page.
+1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
+
+    ![](../assets/lp_preview.png)
+
+1. Select other test profiles to preview the rendering for each variant of your landing page.
 
 ## Check alerts {#alerts}
 
@@ -169,7 +179,7 @@ Two types of alerts can happen:
 
 ## Publish the landing page {#publish}
 
-Once your landing page is ready, you can publish it to make it available for use in a message or on a website.
+Once your landing page is ready, you can publish it to make it available for use in a message.
 
 ![](../assets/lp_publish.png)
 
