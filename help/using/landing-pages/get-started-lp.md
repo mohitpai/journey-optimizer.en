@@ -29,6 +29,7 @@ To move to RN-->
 * Set up **opt-in and opt-out flows** quickly and seamlessly.
 * Create subscription lists to enable users to **subscribe to a service**. [Read more](lp-use-cases.md#subscription-to-a-service)
 * Provide your recipients with the **capability to unsubscribe** from receiving your communications. [Read more](lp-use-cases.md#opt-out)
+* Send a **confirmation email** upon opt-in or opt-out [Read more](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>

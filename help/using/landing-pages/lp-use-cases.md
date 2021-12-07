@@ -23,6 +23,8 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.
 
+### Set up landing page
+
 1. Create the event registration's subscription list, which will store the registered users. Learn how to create a subscription list [here](subscription-list.md#define-subscription-list).
 
     ![](../assets/lp_subscription-uc-list.png)
@@ -55,7 +57,7 @@ For example, let's say you organize an event next month and you want to launch a
 
     Once they receive the email, if your recipients click the link to the landing page, they will be directed to the 'thank you' page and they will be added to the subscription list.
 
-### Confirmation email
+### Send a confirmation email {#send-confirmation-email}
 
 Additionally, you can send a confirmation email to the recipients who registered for your event. To do so, follow the steps below.
 
