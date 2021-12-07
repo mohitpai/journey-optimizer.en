@@ -5,7 +5,6 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-exl-id: 
 ---
 
 # Create simulations
