@@ -5,6 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: yes
+hide: yes
 ---
 # Landing page report {#lp-report}
 

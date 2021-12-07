@@ -5,6 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: yes
+hide: yes
 ---
 # Subscription report {#subscription-report}
 
