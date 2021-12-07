@@ -8,7 +8,7 @@ level: Beginner
 ---
 # Design the landing page content {#design-lp-content}
 
-To start creating content for your landing [primary page](create-lp.md#configure-primary-page) or [subpage](create-lp.md#configure-subpages), hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**, or click the corresponding button from the right palette.
+To start creating content for your landing [primary page](create-lp.md#configure-primary-page) or [subpage](create-lp.md#configure-subpages), hover the mouse over the primary page content and click **[!UICONTROL Open Designer]**. You can also click the corresponding button from the right palette.
 
 ![](../assets/lp_open-designer.png)
 
@@ -54,7 +54,7 @@ To define landing-page specific content, follow the steps below.
 
     * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from all your communications.
 
-    * **[!UICONTROL Email entity]**: The opt-in or opt-out only applies to the email address that was used to access the landing page. For example, if a profile has two email addresses, only the one that was used to opt in will receive communications from your brand.
+    * **[!UICONTROL Email identity]**: The opt-in or opt-out only applies to the email address that was used to access the landing page. For example, if a profile has two email addresses, only the one that was used to opt in will receive communications from your brand.
 
 1. Click **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** to add another checkbox. Repeat the steps above to define its properties.
 
