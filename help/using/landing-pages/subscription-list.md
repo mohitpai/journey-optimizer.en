@@ -56,17 +56,15 @@ Once the subscription list is created, you can use it in a landing page. The pro
 
 You can also use subscription lists as segments when [building journeys](../building-journeys/journey-gs.md#jo-build) and adding personalization.
 
+>[!NOTE]
+>
+>You can monitor your subscription list impacts through specific reports. [Learn more](subscription-report.md)
+
 <!--
 
 **Questions**
 
 * Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* How do you handle the different statuses? Live, Not started, Expired? Is it only through start/end dates?
-
-* What does it mean when a subscription list is expired or not started? You can't use it in a LP? And if a user is subscribed to this service, then he won't receive communications any more?
-
-* What else can you currently do with subscription lists apart from attach them to a landing page?
 
 * Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
 
