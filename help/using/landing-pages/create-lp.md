@@ -36,6 +36,8 @@ The steps to create a landing page are as follows.
 
 1. Select a preset.
 
+    ![](../assets/lp_create-lp-presets.png)
+
     >[!NOTE]
     >
     >To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
@@ -118,11 +120,15 @@ Once your landing page settings and content have been defined, you can use test 
 >
 >You need to have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
 
-1. From the landing page interface or in the content designer, click the **[!UICONTROL Preview]** button to access the test profile selection.
+1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 
     ![](../assets/lp_preview-button.png)
 
-1. Select one or more test profiles.
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Preview]** button is also accessible from the content designer.
+
+1. From the **[!UICONTROL Preview & test]** screen, select one or more test profiles.
 
     ![](../assets/lp_test-profiles.png)
 
