@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hidefromtoc: yes
 hide: yes
+exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 ---
 # Design the landing page content {#design-lp-content}
 
@@ -124,8 +125,4 @@ To define specific content that will enable users to select and submit their cho
 1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponing option to preview the error text on the form.
 
     ![](../assets/lp_designer-form-error-preview.png)
-
-
-
-
 
