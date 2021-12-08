@@ -28,6 +28,7 @@ solution: Journey Optimizer
     + [Create a message](using/create-message.md)
     + [Create an email](using/create-email.md)
     + [Create a push notification](using/create-push.md)
+    + [Create an SMS message](using/create-sms.md)
   + [Add and manage assets](using/assets-essentials.md)
   + Design emails {#email-designer} 
     + [Get started with email design](using/design-emails.md)
@@ -323,6 +324,7 @@ solution: Journey Optimizer
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
       + [Change email primary address](using/configuration/primary-email-addresses.md)
+    + [Configure SMS channel](using/configuration/sms-configuration.md) 
     + [Create message presets](using/configuration/message-presets.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)

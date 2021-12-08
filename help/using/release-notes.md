@@ -5,7 +5,93 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation Updates](documentation-updates.md).
+This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
+
+## January 2022 Release
+
+<table>
+<thead>
+<tr>
+<th><strong>Create and publish landing pages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create online forms to capture information on audiences, offer subscriptions to a service, display data and grow customer database. Use Adobe Journey Optimizer to design and publish landing pages, and allow individuals to join the profile audience and promote conversion. Dedicated reports let you monitor subscriptions and measure the impact of your landing pages.</p>
+<p>Learn more about landing pages in the <a href="landing-pages/get-started-lp.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Send SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a delivery of simple text message at 1500 req/sec in your customer journeys.</p>
+<p>Learn how to create and send SMS in the <a href="create-sms.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Counter Condition in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a Condition activity in a journey, you can now define a counter condition. Use this new type of condition to define a capping on how many times it can get executed. You can then optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Support of Delta on segment trigger</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution. </p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## November 2021 Release
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME subdomain delegation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports CNAMEs. A CNAME, or Canonical Name record, is a record that points to another domain address rather than an IP address. CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.</p>
+<p>This method is recommended if your organization's policies restrict the full subdomain delegation method.</p>
+<p>Learn more on CNAME subdomain delegation in the <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## November 2021 Release
 

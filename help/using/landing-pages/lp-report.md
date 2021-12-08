@@ -5,6 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: yes
+hide: yes
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
 ---
 # Landing page report {#lp-report}
 
