@@ -11,7 +11,7 @@ exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
 ---
 # Landing page report {#lp-report}
 
-The subscription report displays details about the impact of your landing pages. Two report types are available:
+The landing page report displays details about the impact of your landing pages. Two report types are available:
 
 * The **[!UICONTROL Live report]** to measure and visualize your landing pages' success over the last 24 hours only.
 
