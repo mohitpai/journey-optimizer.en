@@ -25,7 +25,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -41,7 +40,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -91,7 +89,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
 
 ## October 2021 Release {#oct-2021-release}
 
