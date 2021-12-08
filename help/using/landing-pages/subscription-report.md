@@ -7,6 +7,7 @@ role: User
 level: Intermediate
 hidefromtoc: yes
 hide: yes
+exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
 ---
 # Subscription report {#subscription-report}
 
@@ -51,4 +52,3 @@ The **[!UICONTROL Subscription performance]** graph shows the evolution of subsc
 ![](../assets/subscription_report_2.png)
 
 The **Subscriptions - Breakdown** and **Unsubscribes - Breakdown** represent the total number of persons who subscribed or unsubscribed over the selected time period depending on the messages, landing pages and channels.
-
