@@ -65,7 +65,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution of the journey. For example, you can decide to only retrieve all the customers who entered the VIP segment since the last time the journey was execution, last week. Only the new VIP customers will be targeted. Customers who received last week's communication will be excluded.</p>
+<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution of the journey. For example, you can decide to only retrieve all the customers who entered the VIP segment since the last time the journey was executed, last week. Only the new VIP customers will be targeted. Customers who received last week's communication will be excluded.</p>
 </td>
 </tr>
 </tbody>
