@@ -44,13 +44,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Counter Condition in journeys</strong><br/></th>
+<th><strong>Optimize your IP ramp up with Profile cap conditions</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>When using a Condition activity in a journey, you can now define a counter condition. Use this new type of condition to define a capping on how many times it can get executed. You can then optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>When using a Condition activity in a journey, you can now set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. You can use this condition type to ramp up the volume of your deliveries (IP ramp up). For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
 </td>
 </tr>
 </tbody>
@@ -59,13 +59,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Support of Delta on segment trigger</strong><br/></th>
+<th><strong>Leverage segment entrances and exits in Read segment</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution. </p>
+<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution of the journey. For example, you can decide to only retrieve all the customers who entered the VIP segment since the last time the journey was executed, last week. Only the new VIP customers will be targeted. Customers who received last week's communication will be excluded.</p>
 </td>
 </tr>
 </tbody>
