@@ -34,7 +34,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a delivery of simple text message at 1500 req/sec in your customer journeys.</p>
+<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a simple text message delivery at 1500 req/sec in your customer journeys.</p>
 <p>Learn how to create and send SMS in the <a href="create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -50,7 +50,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. This allows you to ramp up the volume of your deliveries (IP ramp up). For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>When configuring a <strong>Condition</strong> activity in a journey, you can now define a profile cap. This new condition type allows you to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. This allows you to ramp up the volume of your deliveries (IP ramp up). For example, you may want to ramp up your deliveries on a domain to 50 million by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
 <p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
 </td>
 </tr>
@@ -66,7 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now configure the Read Segment activity to target only the individuals who entered or exited a specific segment since the last execution of the journey. For example, you can decide to only retrieve all the customers who entered the VIP segment since the last time the journey was executed, last week. Only the new VIP customers will be targeted. Customers who received last week's communication will be excluded.</p>
+    <p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p>
 </td>
 </tr>
 </tbody>
