@@ -34,7 +34,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a delivery of simple text message at 1500 req/sec in your customer journeys.</p>
+<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a simple text message delivery at 1500 req/sec in your customer journeys.</p>
 <p>Learn how to create and send SMS in the <a href="create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
