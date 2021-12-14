@@ -117,7 +117,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     >[!NOTE]
     >
-    >Make sure you reference the subpage in the **[!UICONTROL Form]** component's **[!UICONTROL Call to action]** section of the primary page. [Learn more](design-lp.md)
+    >Make sure you reference the subpage in the primary page's **[!UICONTROL Call to action]** section of the **[!UICONTROL Form]** component. [Learn more](design-lp.md)
 
 1. Once you configured and defined the content of your pages, [publish](create-lp.md#publish) the landing page.
 
@@ -141,7 +141,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](../assets/lp_opt-out-submit-form.png)
 
-1. On the landing page, if the recipient checks the box and submits the form:
+    If the recipient checks the box and submits the form:
 
     * The opted-out recipient is redirected to the confirmation message screen.
 
