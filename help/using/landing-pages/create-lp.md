@@ -25,7 +25,7 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](../assets/lp_access-list-filter.png)
 
-## Create a landing page
+## Create a landing page {#create-a-lp}
 
 The steps to create a landing page are as follows.
 
