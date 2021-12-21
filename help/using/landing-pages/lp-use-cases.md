@@ -99,39 +99,53 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 ### Configure opt-out {#configure-opt-out}
 
-To enable the recipients of a message to unsubscribe from your communications through a landing page, follow the steps below.
+To enable the recipients of an email to unsubscribe from your communications through a landing page, follow the steps below.
 
-1. Build your [landing page](create-lp.md). Use the landing page-specific **[!UICONTROL Form]** component, define an **[!UICONTROL Opt-out]** checkbox and choose to update **[!UICONTROL Channel (email)]**: the profile that checks the opt-out box on your landing page will be opted out from all your communications. [Learn more](design-lp.md)
+1. Create your landing page. [Learn more](create-lp.md)
+
+1. Define the primary page. [Learn more](create-lp.md#configure-primary-page)
+
+1. [Design](design-lp.md) the primary page content: use the landing page-specific **[!UICONTROL Form]** component, define an **[!UICONTROL Opt-out]** checkbox and choose to update **[!UICONTROL Channel (email)]**: the profile that checks the opt-out box on your landing page will be opted out from all your communications.
+
+    ![](../assets/lp_opt-out-primary-lp.png)
 
     <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Create a message](../create-message.md) in [!DNL Journey Optimizer].
+1. Add a confirmation [subpage](create-lp.md#configure-subpages) that will be displayed to the users who submit the form.
+
+    ![](../assets/lp_opt-out-subpage.png)
+
+    >[!NOTE]
+    >
+    >Make sure you reference the subpage in the primary page's **[!UICONTROL Call to action]** section of the **[!UICONTROL Form]** component. [Learn more](design-lp.md)
+
+1. Once you configured and defined the content of your pages, [publish](create-lp.md#publish) the landing page.
+
+    ![](../assets/lp_opt-out-publish.png)
+
+1. [Create an email message](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Select text in your content and [insert a link](../message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
 
     ![](../assets/lp_opt-out-insert-link.png)
 
-1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list.
-
-1. Select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
+1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list and select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
     ![](../assets/lp_opt-out-landing-page.png)
 
-1. Click **[!UICONTROL Save]**.
-
 1. Save your content and [publish your message](../publish-manage-message.md).
 
-1. Send your message through a [journey](../building-journeys/journey.md).
+1. Send your message through a journey. [Learn more](../building-journeys/journey.md).
 
-1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
+1. Once the message is received, if a recipient clicks the unsubscribe link in the email, your landing page is displayed.
 
-    <!--![](../assets/lp_opt-out-lp-example.png)-->
+    ![](../assets/lp_opt-out-submit-form.png)
 
-1. If the recipient clicks the opt-out link in the landing page, the profile data is updated and will not receive communications from your brand unless subscribed again.
+    If the recipient checks the box and submits the form:
 
-    <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+    * The opted-out recipient is redirected to the confirmation message screen.
 
-    <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+    * The profile data is updated and will not receive communications from your brand unless subscribed again.
 
 To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
