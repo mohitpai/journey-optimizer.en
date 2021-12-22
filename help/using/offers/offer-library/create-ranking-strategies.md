@@ -26,6 +26,33 @@ For example, you can select a ranking strategy for the email channel and another
 
 Once a ranking strategy has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
+### Auto-optimization model {#auto-optimization}
+
+Currently in [!DNL Journey Optimizer] the only supported model type for AI ranking is **auto-optimization**.
+
+An auto-optimization model aims to serve offers that maximize the return, based on the Key performance indicators (KPIs) that you set. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->At this point, auto-optimization focuses on optimizing offer clicks with offer conversion as the target.
+
+>[!NOTE]
+>
+>The auto-optimization model does not use any contextual or user profile data. It optimizes results based on global performance of the offers.
+
+With auto-optimization, the challenge is to balance exploratory learning and exploitation of that learning. This principle is known as **"multi-armed bandit" approach**.
+
+To tackle this challenge, the auto-optimization model uses the **Thompson Sampling** method, which allows to identify which option to pursue to maximize the expected rewards. In other words, Thompson Sampling is a type of reinforcement learning technique for solving the exploration-exploitation dilemma in a multi-armed bandit problem. 
+<!--
+Basically, here is how Thompson Sampling.
+
+During each round (or turn), we choose one option and record whether we received a reward or not.
+
+To choose which option to pursue for the current/next round: 
+1. For each available option, we take a random draw from beta distribution (probability distribution) whose shape is defined by: 
+    * How many times we previously received a reward for choosing that option. 
+    * How many times we did not previously receive a reward after choosing that option. 
+1. We pursue whichever option has the highest beta value.
+-->
+
+The Thompson Sampling method also enables to handle challenges such as the "cold start" problem, i.e. when a new offer is introduced in the campaign, it does not have any history that it could train from.
+
 ## Create a ranking strategy {#create-ranking-strategy}
 
 To create a ranking strategy, follow the steps below:
@@ -44,7 +71,7 @@ To create a ranking strategy, follow the steps below:
 
     * **[!UICONTROL Name]**: Unique name that you must provide.
 
-    * **[!UICONTROL Model type]**: Currently the only supported model type is **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+    * **[!UICONTROL Model type]**: Currently the only supported model type is **[!UICONTROL Auto-optimization]**. [Learn more](#auto-optimization) <!--More will be supported in the future so the drop-down list will be enabled.-->
 
     * **[!UICONTROL Optimization metric]**:
     
