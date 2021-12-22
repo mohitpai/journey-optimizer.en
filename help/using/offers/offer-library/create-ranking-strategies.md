@@ -161,17 +161,64 @@ To be able to send in event types, here are the schema requirements you need to 
 
 **Scenario:** Offer displayed
 **Event type:** `decisioning.propositionDisplay`
-**Source:** `rWeb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
+**Source:** `Web.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
 **Sample payload:**
-`decisioning.propositionDisplay` | `rWeb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`  | `{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionDisplay",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{`<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4",`<br>`},`<br>`{`<br>`"xdm:id":`<br>`"personalized-offer:f67bab756ed6ee5",`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”`<br>`}`<br>`]`<br>`}`
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionDisplay",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                }
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+        }
+    ]
+}
+```
 
 **Scenario:** Offer clicked
 **Event type:** `decisioning.propositionInteract`
-**Source:** `eb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
+**Source:** `Web.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
 **Sample payload:**
-`decisioning.propositionInteract` | `eb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion` | <br>`{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionInteract",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{ `<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4"`<br>`},`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee5"`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id`<br>`}`<br>`]`<br>`}`
 
-<!--## Using a ranking strategy {#using-ranking}
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionInteract",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
+                },
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+        }
+    ]
+}
+```
+
+<!--
+## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
