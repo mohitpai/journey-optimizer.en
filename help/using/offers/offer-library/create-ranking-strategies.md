@@ -161,7 +161,7 @@ To be able to send in event types, here are the schema requirements you need to 
 
 **Scenario:** Offer displayed
 **Event type:** `decisioning.propositionDisplay`
-**Source:** `Web.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
+**Source:** Web.sdk/Allo.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 **Sample payload:**
 
 ```
@@ -190,7 +190,7 @@ To be able to send in event types, here are the schema requirements you need to 
 
 **Scenario:** Offer clicked
 **Event type:** `decisioning.propositionInteract`
-**Source:** `Web.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`
+**Source:** Web.sdk/Allo.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 **Sample payload:**
 
 ```
