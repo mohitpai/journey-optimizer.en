@@ -44,7 +44,7 @@ Availability date: Jan 5, 2022
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Leverage segment entrances and exits in Read segment</strong><br/></th>
@@ -57,7 +57,7 @@ Availability date: Jan 5, 2022
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ## November 2021 Release
 
