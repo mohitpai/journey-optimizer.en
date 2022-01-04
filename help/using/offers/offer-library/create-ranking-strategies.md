@@ -175,20 +175,20 @@ At this point, you must have:
 
 Now each time an offer is displayed and/or clicked, you want the corresponding event to be automatically captured by the **[!UICONTROL Experience Event - Proposition Interactions]** field group using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK.
 
-To be able to send in event types, here are the schema requirements you need to implement:
+To be able to send in event types, here are the schema requirements you need to implement into your JavaScript code:
 
 <!--
 
 | Scenario | Event type | Source | Sample payload |
 |--- |--- |--- |--- |
-| Offer displayed | `decisioning.propositionDisplay` | `rWeb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`  | `{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionDisplay",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{`<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4",`<br>`},`<br>`{`<br>`"xdm:id":`<br>`"personalized-offer:f67bab756ed6ee5",`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”`<br>`}`<br>`]`<br>`}` |
-| Offer clicked | `decisioning.propositionInteract` | `eb.sdk/Allo.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion` | <br>`{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionInteract",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{ `<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4"`<br>`},`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee5"`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id`<br>`}`<br>`]`<br>`}` |
+| Offer displayed | `decisioning.propositionDisplay` | `rWeb.sdk/Alloy.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`  | `{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionDisplay",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{`<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4",`<br>`},`<br>`{`<br>`"xdm:id":`<br>`"personalized-offer:f67bab756ed6ee5",`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”`<br>`}`<br>`]`<br>`}` |
+| Offer clicked | `decisioning.propositionInteract` | `eb.sdk/Alloy.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion` | <br>`{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionInteract",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{ `<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4"`<br>`},`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee5"`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id`<br>`}`<br>`]`<br>`}` |
 
 -->
 
 **Scenario:** Offer displayed
 **Event type:** `decisioning.propositionDisplay`
-**Source:** Web.sdk/Allo.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 **Sample payload:**
 
 ```
@@ -217,7 +217,7 @@ To be able to send in event types, here are the schema requirements you need to 
 
 **Scenario:** Offer clicked
 **Event type:** `decisioning.propositionInteract`
-**Source:** Web.sdk/Allo.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 **Sample payload:**
 
 ```
