@@ -9,21 +9,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## January 2022 Release
 
-<table>
-<thead>
-<tr>
-<th><strong>Create and publish landing pages</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create online forms to capture information on audiences, offer subscriptions to a service, display data and grow customer database. Use Adobe Journey Optimizer to design and publish landing pages, and allow individuals to join the profile audience and promote conversion. Dedicated reports let you monitor subscriptions and measure the impact of your landing pages.</p>
-<p>Learn more about landing pages in the <a href="landing-pages/get-started-lp.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+Availability date: Jan 5, 2022
 
 <table>
 <thead>
@@ -34,8 +20,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send a simple text message delivery at 1500 req/sec in your customer journeys.</p>
-<p>Learn how to create and send SMS in the <a href="create-sms.md">detailed documentation</a>.</p>
+<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send simple text message deliveries in your customer journeys.</p>
+<p>Learn more in the <a href="create-sms.md">detailed documentation</a>.</p>
+<P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +53,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-    <p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p>
+<p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p>
 </td>
 </tr>
 </tbody>
@@ -104,23 +91,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
 <p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
 </td>
 </tr>
 </tbody>
