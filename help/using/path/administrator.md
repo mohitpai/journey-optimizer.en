@@ -27,8 +27,10 @@ Learn about access management in the following pages:
 
 1. **Set permissions** for product profiles, including **Sandboxes**, and give access to your team members by assigning them to different product profiles. This step is performed in the [Admin Console](https://adminconsole.adobe.com/){_blank}. Permissions are unitary rights that allow you to define the authorizations assigned to **[!UICONTROL Product profile]**. Each permission is gathered under capabilities, e.g. Journey, Messages or Offers, which represents the different functionalities or objects in [!DNL Journey Optimizer]. Learn more in the [Permission levels](../administration/high-low-permissions.md) section.
 
+In addition, you must add users who need access to Assets Essentials to the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
 
-In addition, you must **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+>[!NOTE]
+>For Journey Optimizer products obtained before January 6, 2022, you must deploy [!DNL Adobe Experience Manager Assets Essentials] for your organization. Learn more in the [Deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"} section.
 
 When accessing [!DNL Journey Optimizer] for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 
