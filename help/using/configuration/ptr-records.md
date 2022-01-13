@@ -34,9 +34,13 @@ You can open a PTR record from the list to display the associated subdomain name
 
 You can modify a PTR record to edit the subdomain associated with an IP address.
 
->[!CAUTION]
+>[!NOTE]
 >
->You cannot modify a PTR record associated with a subdomain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation).
+>You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
+
+### Flly delegated subdomains
+
+To edit a PTR record associated with a subdomain that was [fully delegated](delegate-subdomain.md#full-subdomain-delegation) to Adobe, follow the steps below.
 
 1. From the list, click a PTR record name to open it.
 
@@ -46,11 +50,27 @@ You can modify a PTR record to edit the subdomain associated with an IP address.
 
     ![](../assets/ptr-record-subdomain.png)
 
-    >[!NOTE]
-    >
-    >You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
-
 1. Click **[!UICONTROL Save]** to confirm your changes.
+
+### Delegated subdomains using the CNAME method
+
+To edit PTR record associated with a subdomain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation), follow the steps below.
+
+1. From the list, click a PTR record name to open it.
+
+    ![](../assets/ptr-record-select.png)
+
+1. Select another subdomain from the list.
+
+    ![](../assets/ptr-record-subdomain-xxx.png)
+
+1. You need to create a new forward DNS record on your hosting platform. Once done, check the box "I confirm...".
+
+    ![](../assets/ptr-record-subdomain-yyy.png)
+
+1. Click **[!UICONTROL Update]** to confirm your changes.
+
+## Check PTR record update details
 
 An **[!UICONTROL Updating]** icon displays next to the name of the PTR record in the list.
 
@@ -64,7 +84,7 @@ You can see information such as the update status, and the requested changes.
 
 ![](../assets/ptr-record-updates.png)
 
-## Update statuses
+## PTR record update statuses
 
 A PTR record update can have the following statuses:
 
