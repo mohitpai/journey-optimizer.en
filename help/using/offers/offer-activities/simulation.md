@@ -97,8 +97,32 @@ Now select the offer decisions that you want to simulate on your test profiles.
     >[!NOTE]
     >
     >Even if you define several decision scopes, only one API request is simulated.
+
+## Define simulation settings
+
+1. Click **[!UICONTROL Settings]**.
+
+1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
+
+    >[!NOTE]
     >
-    >All De-duplication flags are enabled by default for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
+    >All Deduplication flags are enabled by default for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
+
+1. In the **[!UICONTROL Simulation response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata to include.
+
+    >[!NOTE]
+    >
+    >When turning on the option, all items are selected by default.
+
+1. In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
+
+1. In the **[!UICONTROL Context data]** section, you can add as many elements as needed.
+
+    >[!NOTE]
+    >
+    >This section is hidden if you select Edge API in the section above.
+
+1. Click **[!UICONTROL Save]**.
 
 ## View simulation results
 
@@ -114,6 +138,8 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     ![](../../assets/offers_simulation-offer-details.png)
 
+1. Click **[!UICONTROL View code]** to display the request and response payloads.
+
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
 1. You can add, remove or update the decision scopes as many times as needed.
@@ -121,6 +147,7 @@ Once you added a decision scope and selected a test profile, you can view the re
 >[!NOTE]
 >
 >Each time you change profiles or update decision scopes, you need to refresh the results using the **[!UICONTROL View results]** button.
+
 
 <!--Questions
 
