@@ -121,8 +121,6 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Personalization**
 
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
-
-* **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](personalization/personalize.md#fav)
  
 
 **Decision Management**
