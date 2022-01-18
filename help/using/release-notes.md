@@ -69,11 +69,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* To optimize performance and prevent obsolete resource usage, all journeys in test mode that haven't been triggered for a week will now switch back to the draft status.
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
 
 **Offer Decisioning**
 
 * When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations.
+
+**Administration**
+
+* Administrators can now edit PTR records for a CNAME set up subdomain. [Learn more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 **Personalization**
 
@@ -84,15 +88,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
 * Deliveries can now be filtered depending on their status:
 
-    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
-    * From your Live/Global reports, you can choose to exclude test events.
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list
+    * From your Live/Global reports, you can choose to exclude journey test events
     
 * From your reports, you can now see if the Send-Time Optimization option has been activated for a given delivery.
-
-
-**Administration**
-
-* Administrators can now edit PTR records for a CNAME set up subdomain.
 
 
 
