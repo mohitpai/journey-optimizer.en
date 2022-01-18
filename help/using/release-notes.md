@@ -9,29 +9,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## January 2022 Release
 
-Availability date: Jan 5, 2022
+### New capabilities 
+
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Send SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now leverage SMS channel for building omni-channel campaigns in Adobe Journey Optimizer. Through the integration with <a href="https://www.sinch.com/">Sinch</a>, use Adobe Journey Optimizer to create, personalize and send simple text message deliveries in your customer journeys.</p>
-<p>Learn more in the <a href="create-sms.md">detailed documentation</a>.</p>
-<P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Optimize your IP ramp up with Profile cap conditions</strong><br/></th>
+<th><strong>Journeys - Optimize your IP ramp up with Profile cap conditions</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -47,7 +32,7 @@ Availability date: Jan 5, 2022
 <table>
 <thead>
 <tr>
-<th><strong>Leverage segment entrances and exits in Read segment</strong><br/></th>
+<th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -58,6 +43,58 @@ Availability date: Jan 5, 2022
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration with Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The integration between Adobe Journey Optimizer and <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a> has been improved. In the built-in Journey Step Event schema, the profileID field has been changed from identityMap to identity. This change allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys in separate namespaces.</p>
+<p>Learn more in the <a href="reports/sharing-overview.md">detailed documentation</a>.</p>
+<!--P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Performances**
+
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+
+**Journeys**
+
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that haven't been triggered for a week will now switch back to the draft status.
+
+**Offer Decisioning**
+
+* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations.
+
+**Personalization**
+
+* **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](personalization/personalize.md#fav)
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude test events.
+    
+* From your reports, you can now see if the Send-Time Optimization option has been activated for a given delivery.
+
+
+**Administration**
+
+* Administrators can now edit PTR records for a CNAME set up subdomain.
+
+
 
 ## November 2021 Release
 
@@ -136,7 +173,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Journeys**
 
 * **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md)
-    <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys. 
 * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)

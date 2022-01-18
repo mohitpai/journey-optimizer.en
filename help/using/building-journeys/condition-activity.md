@@ -97,7 +97,7 @@ Use this condition type to set a maximum number of profiles for a journey path. 
 
 You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+The default cap is 1000.
 
 The counter applies only to the selected journey version. The counter is reset to zero after one month. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 

@@ -9,13 +9,13 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Create message presets
 
-With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more. 
+With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email, SMS and push notification message: email type, sender email and name, mobile apps, and more. 
 
 >[!CAUTION]
 >
 > * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * You must perform Email configuration and [Push configuration](../push-configuration.md) steps before creating message presets.
+> * You must perform Email configuration, [SMS configuration](sms-configuration.md) and [Push configuration](../push-configuration.md) steps before creating message presets.
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
@@ -99,7 +99,6 @@ To create a message preset, follow these steps:
         
       For more on how to configure your environment to send push notifications, refer to [this section](../push-gs.md).
 
-<!--
 1. Configure the **SMS** settings.
 
      ![](../assets/preset-sms.png)
@@ -111,7 +110,6 @@ To create a message preset, follow these steps:
       For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
     * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
