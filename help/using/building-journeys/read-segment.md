@@ -59,6 +59,9 @@ The steps to configure the Read Segment activity are as follows:
     >
     >The overall throttling rate per sandbox is set to 20,000 messages per second. Therefore, the throttling rate of all the read segments that run simultaneously in the same sandbox add up to at most 20,000 messages per second. You cannot modify this cap.
 
+1. If you want to only target individuals who entered or exited the segment, activate the **Segment Filters**. Refer to this [section](read-segment.md#segment-filters).
+
+
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
     ![](../assets/read-segment-schedule.png)
@@ -70,6 +73,16 @@ The steps to configure the Read Segment activity are as follows:
     >Note that the **[!UICONTROL Schedule]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
 
     ![](../assets/read-segment-schedule-list.png)
+
+### Segment filters {#segment-filters}
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 ### Test and publish the journey {#testing-publishing}
 
