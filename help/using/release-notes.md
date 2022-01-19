@@ -11,8 +11,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities 
 
-
-
 <table>
 <thead>
 <tr>
@@ -88,11 +86,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
 * Deliveries can now be filtered depending on their status:
 
-    * From the Message Execution list, you can now exclude proofs from your deliveries' list
-    * From your Live/Global reports, you can choose to exclude journey test events
-    
-* From your reports, you can now see if the Send-Time Optimization option has been activated for a given delivery.
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
 
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+
+### Fixes
 
 
 ## November 2021 Release
@@ -131,6 +133,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table-->
+
+### New capabilities 
 
 <table>
 <thead>
