@@ -76,6 +76,11 @@ The steps to configure the Read Segment activity are as follows:
 
 ### Segment filters {#segment-filters}
 
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 
 To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
