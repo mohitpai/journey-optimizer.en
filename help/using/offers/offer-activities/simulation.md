@@ -102,27 +102,36 @@ Now select the offer decisions that you want to simulate on your test profiles.
 
 1. Click **[!UICONTROL Settings]**.
 
+    ![](../../assets/offers_simulation-settings.png)
+
 1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
+
+    ![](../../assets/offers_simulation-settings-deduplication.png)
 
     >[!NOTE]
     >
-    >All Deduplication flags are enabled by default for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
+    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
 
-1. In the **[!UICONTROL Simulation response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata to include.
+1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata to include.
+
+    ![](../../assets/offers_simulation-settings-response-format.png)
 
     >[!NOTE]
     >
     >When turning on the option, all items are selected by default.
 
-1. In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
+1. Click **[!UICONTROL Save]**.
 
-1. In the **[!UICONTROL Context data]** section, you can add as many elements as needed.
+<!--
+
+In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
+
+In the **[!UICONTROL Context data]** section, you can add as many elements as needed.
 
     >[!NOTE]
     >
     >This section is hidden if you select Edge API in the section above.
-
-1. Click **[!UICONTROL Save]**.
+-->
 
 ## View simulation results
 
@@ -139,6 +148,12 @@ Once you added a decision scope and selected a test profile, you can view the re
     ![](../../assets/offers_simulation-offer-details.png)
 
 1. Click **[!UICONTROL View code]** to display the request and response payloads.
+
+    To use the request payload outside of [!DNL Journey Optimizer] for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
+
+>[!NOTE]
+>
+>You can only copy the request payload.
 
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
