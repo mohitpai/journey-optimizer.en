@@ -305,6 +305,16 @@ It includes the following low-level permissions:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
+### Manage PTR records permission {#manage-ptr}
+
+The **[!UICONTROL Manage PTR records]** high-level permission allows users to read, create, edit, and delete PTR records that have been configured based on the subdomain.
+
+It includes the following low-level permissions:
+
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
+
 ### View PTR records permission {#view-ptr}
 
 The **[!UICONTROL View PTR records]** high-level permission allows users to view PTR records that have been configured based on the subdomain.
