@@ -112,7 +112,7 @@ Now select the offer decisions that you want to simulate on your test profiles.
     >
     >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
 
-1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata to include.
+1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
 
     ![](../../assets/offers_simulation-settings-response-format.png)
 
@@ -125,15 +125,20 @@ Now select the offer decisions that you want to simulate on your test profiles.
 <!--
 
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
+Hub and Edge are two different end points for simulation data.
 
 In the **[!UICONTROL Context data]** section, you can add as many elements as needed.
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+
+Context data allows the user to add contextual data that could affect the simulation score.
+For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
+
 -->
 
-## View simulation results
+## View simulation results {#simulation-results}
 
 Once you added a decision scope and selected a test profile, you can view the results.
 
@@ -149,11 +154,11 @@ Once you added a decision scope and selected a test profile, you can view the re
 
 1. Click **[!UICONTROL View code]** to display the request and response payloads.
 
-    To use the request payload outside of [!DNL Journey Optimizer] for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
+    To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
 
->[!NOTE]
->
->You can only copy the request payload.
+    >[!NOTE]
+    >
+    >You can only copy the request payload.
 
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
