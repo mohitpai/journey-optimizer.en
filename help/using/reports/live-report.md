@@ -24,17 +24,21 @@ Data are available in the **[!UICONTROL Live report]** as soon as your delivery 
 
 Each reporting dashboard can be modified by resizing or removing widgets. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
-1. From your live report, click **[!UICONTROL Modify]**.
+1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
 
-    ![](../assets/report_modify_1.png)
+    ![](../assets/report_modify_6.png)
+
+1. To resize or remove widgets, click **[!UICONTROL Modify]**.
+
+    ![](../assets/report_modify_7.png)
 
 1. Adjust the widgets size by dragging its bottom-right corner.
 
-    ![](../assets/report_modify_2.png)
+    ![](../assets/report_modify_8.png)
 
-1. Click **[!UICONTROL Remove]** to remove other widgets that you don't need to track bounces.
+1. Click **[!UICONTROL Remove]** to remove any widget you don't need.
 
-    ![](../assets/report_modify_3.png)
+    ![](../assets/report_modify_9.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
 

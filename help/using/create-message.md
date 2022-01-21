@@ -43,7 +43,7 @@ To create a new message, follow the steps below:
         
         Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](configuration/message-presets.md).
         
-    * Select the channel(s) you want to use for that message: Email, SMS and/or Push notification. You must select at least one channel to be able to create the message.
+    * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
     Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
 
@@ -57,7 +57,6 @@ To create a new message, follow the steps below:
 
     * [Create an email](create-email.md)
     * [Create a push notifications](create-push.md)
-    * [Create an SMS message](create-sms.md)
 
     >[!NOTE]
     >   

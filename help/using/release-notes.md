@@ -94,9 +94,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
 
 
-### Fixes
-
-
 ## November 2021 Release
 
 <table>
