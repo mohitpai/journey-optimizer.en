@@ -52,7 +52,7 @@ To edit a PTR record with a subdomain that is [fully delegated](delegate-subdoma
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
 
-### Delegated subdomains using the CNAME method
+### Delegated subdomains using the CNAME method {#edit-ptr-subdomains-cname}
 
 To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation), follow the steps below.
 

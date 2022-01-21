@@ -77,7 +77,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/ptr-records.md#edit-ptr-record#edit-ptr-subdomains-cname)
 
 **Personalization**
 
