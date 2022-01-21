@@ -60,12 +60,12 @@ solution: Journey Optimizer
     + [Object functions](using/personalization/functions/objects.md)
     + [String functions](using/personalization/functions/string.md) 
   + [Add personalized offers](using/deliver-personalized-offers.md)  
-+ Segments, profiles and identity{#segment}
++ Segments, profiles and identities{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
   + [Profiles](using/get-started-profiles.md)
-  + [Identity](using/get-started-identity.md)
+  + [Identities](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
