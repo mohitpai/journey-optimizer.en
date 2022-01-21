@@ -51,7 +51,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>The integration between Adobe Journey Optimizer and <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a> has been improved. In the built-in Journey Step Event schema, the profileID field has been changed from identityMap to identity. This change allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys in separate namespaces.</p>
+<p>Journey Optimizer is now integrated with <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a>. This integration allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys. To make this work, the **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. This allows you to select datasets in Customer Journey Analitics and choose the right ID as the Person ID. </p>
 <p>Learn more in the <a href="reports/sharing-overview.md">detailed documentation</a>.</p>
 <!--P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p-->
 </td>
