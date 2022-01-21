@@ -73,7 +73,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md)
 
-* When offers referenced in a published message are updated (i.e. changing their priorities), the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](offers/offers-e2e.md#insert-decision-in-email)
+* When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](offers/offers-e2e.md#insert-decision-in-email)
 
 **Administration**
 
