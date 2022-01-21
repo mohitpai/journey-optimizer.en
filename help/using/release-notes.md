@@ -51,7 +51,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>The integration between Adobe Journey Optimizer and <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a> has been improved. In the built-in Journey Step Event schema, the profileID field has been changed from identityMap to identity. This change allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys in separate namespaces.</p>
+<p>Journey Optimizer is now integrated with <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a>. This integration allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys. To make this work, the **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. This allows you to select datasets in Customer Journey Analitics and choose the right ID as the Person ID. </p>
 <p>Learn more in the <a href="reports/sharing-overview.md">detailed documentation</a>.</p>
 <!--P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p-->
 </td>
@@ -71,11 +71,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Offer Decisioning**
 
-* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations.
+* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md)
+
+* When offers referenced in a published message are updated (i.e. changing their priorities), the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](offers/offers-e2e.md#insert-decision-in-email)
 
 **Administration**
 
-* Administrators can now edit PTR records for a CNAME set up subdomain. [Learn more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/ptr-records.md#edit-ptr-record#edit-ptr-subdomains-cname)
 
 **Personalization**
 
