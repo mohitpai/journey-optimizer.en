@@ -63,9 +63,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### Improvements
 
+<!--
+
 **Performances**
 
 * The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+
+-->
 
 <!--
 	
