@@ -194,6 +194,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Personalization**
 
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
+ 
 
 **Decision Management**
 
