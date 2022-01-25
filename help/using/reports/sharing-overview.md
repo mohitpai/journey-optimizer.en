@@ -27,8 +27,6 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 
 Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps. The integration with Adobe Customer Journey Analytics allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys. To make this work, the profileID field, in the built-in Journey Step Event schema, is defined as an identity field. This allows you to select datasets in Customer Journey Analitics and choose the right ID as the Person ID.
 
-
-
 The following schemas are created:
 
 * Journey Step Profile Event schema for [!DNL Journey Orchestration] – Experience Events for steps taken in a Journey along with an Identity Map to be used for mapping to an individual Journey Participant.
