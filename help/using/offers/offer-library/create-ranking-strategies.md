@@ -60,7 +60,7 @@ To create a ranking strategy, follow the steps below:
 
     * **[!UICONTROL Name]**: Unique name that you must provide.
 
-    * **[!UICONTROL Model type]**: Currently the only supported model type is **[!UICONTROL Auto-optimization]**. [Learn more](#auto-optimization) <!--More will be supported in the future so the drop-down list will be enabled.-->
+    * **[!UICONTROL Model type]**: Currently the only supported model type is **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
 
     * **[!UICONTROL Optimization metric]**:
     
@@ -76,7 +76,7 @@ To create a ranking strategy, follow the steps below:
 
         All selected impression events and/or conversion events will be automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-    * **[!UICONTROL Dataset ID]**: For collecting interaction data, you need to select a dataset where events are stored. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+    * **[!UICONTROL Dataset ID]**: For conversion, you need to provide a dataset where events are collected by selecting it from the drop-down list. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
     ![](../../assets/ai-ranking-dataset-id.png)
     
@@ -92,9 +92,7 @@ It is now ready to be used in a decision to rank eligible offers for a placement
 
 ## Create a dataset to collect events {#create-dataset}
 
-You need to create a dataset where the user interaction data (such as an offer displayed or an offer clicked on a web page) will be collected.
-
-Start by creating the schema that will be used in your dataset:
+You need to create a dataset where conversion events will be collected. Start by creating the schema that will be used in your dataset:
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
 
@@ -240,5 +238,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+-->
 
