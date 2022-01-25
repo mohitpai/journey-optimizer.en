@@ -39,17 +39,6 @@ An auto-optimization model aims to serve offers that maximize the return, based 
 With auto-optimization, the challenge is to balance exploratory learning and exploitation of that learning. This principle is known as **"multi-armed bandit" approach**.
 
 To tackle this challenge, the auto-optimization model uses the **Thompson Sampling** method, which allows to identify which option to pursue to maximize the expected rewards. In other words, Thompson Sampling is a type of reinforcement learning technique for solving the exploration-exploitation dilemma in a multi-armed bandit problem. 
-<!--
-Basically, here is how Thompson Sampling.
-
-During each round (or turn), we choose one option and record whether we received a reward or not.
-
-To choose which option to pursue for the current/next round: 
-1. For each available option, we take a random draw from beta distribution (probability distribution) whose shape is defined by: 
-    * How many times we previously received a reward for choosing that option. 
-    * How many times we did not previously receive a reward after choosing that option. 
-1. We pursue whichever option has the highest beta value.
--->
 
 The Thompson Sampling method also enables to handle challenges such as the "cold start" problem, i.e. when a new offer is introduced in the campaign, it does not have any history that it could train from.
 
@@ -175,16 +164,7 @@ At this point, you must have:
 
 Now each time an offer is displayed and/or clicked, you want the corresponding event to be automatically captured by the **[!UICONTROL Experience Event - Proposition Interactions]** field group using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK.
 
-To be able to send in event types, here are the schema requirements you need to implement into your JavaScript code:
-
-<!--
-
-| Scenario | Event type | Source | Sample payload |
-|--- |--- |--- |--- |
-| Offer displayed | `decisioning.propositionDisplay` | `rWeb.sdk/Alloy.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion`  | `{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionDisplay",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{`<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4",`<br>`},`<br>`{`<br>`"xdm:id":`<br>`"personalized-offer:f67bab756ed6ee5",`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”`<br>`}`<br>`]`<br>`}` |
-| Offer clicked | `decisioning.propositionInteract` | `eb.sdk/Alloy.js (sendEvent command -> xdm : {eventType, interactionMixin}) or batch ingestion` | <br>`{`<br>`"@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",`<br>`"xdm:timestamp": "2020-09-26T15:52:25+00:00",`<br>`"xdm:eventType": "decisioning.propositionInteract",`<br>`"https://ns.adobe.com/experience/decisioning/propositions":`<br>`[`<br>`{ `<br>`"xdm:items":`<br>`[`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee4"`<br>`},`<br>`{`<br>`"xdm:id": "personalized-offer:f67bab756ed6ee5"`<br>`}`<br>`],`<br>`"xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id`<br>`"xdm:scope": "scope:12cfc3fa94281acb", //decision scope id`<br>`}`<br>`]`<br>`}` |
-
--->
+To be able to send in event types (offer displayed or offer clicked), you must set the correct value for each event type in an experience event that is sent into Adobe Experience Platform. Below are the schema requirements you need to implement into your JavaScript code:
 
 **Scenario:** Offer displayed
 **Event type:** `decisioning.propositionDisplay`
