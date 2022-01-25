@@ -45,37 +45,18 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Integration with Customer Journey Analytics</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer is now integrated with <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html">Adobe Customer Journey Analytics</a>. This integration allows you to ingest any dataset from Adobe Journey Optimizer into Adobe Customer Journey Analytics and begin analyzing journeys. To make this work, the **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. This allows you to select datasets in Customer Journey Analitics and choose the right ID as the Person ID. </p>
-<p>Learn more in the <a href="reports/sharing-overview.md">detailed documentation</a>.</p>
-<!--P>Note: This capability is available for early adopters only. To have it implemented in your environment, contact your Adobe account executive.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Improvements
 
 <!--
-
 **Performances**
-
 * The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
-
 -->
 
-<!--
-	
 **Journeys**
 
+* Journey Optimizer step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](reports/sharing-overview.md)
+
+<!--
 * To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
 -->
 
