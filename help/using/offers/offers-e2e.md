@@ -255,7 +255,7 @@ After saving your changes and once the message is published, your offers are rea
 
 >[!NOTE]
 >
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
 
 **Related topics:**
 
