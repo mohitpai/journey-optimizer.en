@@ -253,6 +253,10 @@ Use the **[!UICONTROL Offers]** section or the content components arrows (right 
 
 After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
 
+>[!NOTE]
+>
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
+
 **Related topics:**
 
 * Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).

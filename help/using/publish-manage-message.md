@@ -24,6 +24,10 @@ Once your message is published, it is added to the message list with the **[!UIC
 
 It is now ready to be triggered by one or more [journeys](building-journeys/journey.md).
 
+>[!NOTE]
+>
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more on offers](offers/get-started/starting-offer-decisioning.md)
+
 ## Update a read-only message {#modify-message}
 
 After publication, a message is in read-only mode. You can still update it by creating a new draft of that message.
