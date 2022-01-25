@@ -108,7 +108,7 @@ For live journeys, here are the thresholds to consider to ensure the limit is re
 * For a cap greater than 10000, the number of distinct profiles to be injected must be at least 1.3 times the cap.
 * For a cap below 10000, the number of distinct profiles to be injected must 1000 plus the cap.
 
-In test mode, results are random.
+Profile cap is not taken into account in test mode.
 
 ![](../assets/profile-cap-condition.png)
 
