@@ -93,7 +93,7 @@ This allows you to define a different flow based on the date. For example, if th
 
 ## Profile cap {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. This ensures that your journeys will never exceed the limit defined. 
 
 You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
@@ -102,6 +102,13 @@ The default cap is 1000.
 The counter applies only to the selected journey version. The counter is reset to zero after one month. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
 The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+
+For live journeys, here are the thresholds to consider to ensure the limit is reached:
+
+* For a cap greater than 10000, the number of distinct profiles to be injected must be at least 1.3 times the cap.
+* For a cap below 10000, the number of distinct profiles to be injected must 1000 plus the cap.
+
+In test mode, results are random.
 
 ![](../assets/profile-cap-condition.png)
 
