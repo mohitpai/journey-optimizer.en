@@ -100,6 +100,8 @@ Now select the offer decisions that you want to simulate on your test profiles.
 
 ## Define simulation settings {#define-simulation-settings}
 
+To edit the default settings for your simulations, follow the steps below.
+
 1. Click **[!UICONTROL Settings]**.
 
     ![](../../assets/offers_simulation-settings.png)
