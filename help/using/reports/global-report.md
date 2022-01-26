@@ -21,28 +21,26 @@ Use the **[!UICONTROL Global report]** to measure the impact of your journeys an
 
 ## Customize dashboard {#modify-dashboard}
 
-Each reporting dashboard can be modified by changing the time period and resizing or removing widgets. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default.
+Each reporting dashboard can be modified by resizing or removing widgets or changing the targeted time frame. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
-1. From your Global report, select a Start and End time to target specific data.
+1. From your **[!UICONTROL Global report]** dashboard, click the scheduler button.
 
-    ![](../assets/report_modify_1.png)
+1. Select the start and end dates. You can further fine-tune your reports by selecting a **[!UICONTROL Start time]** and **[!UICONTROL End time]**.
 
-1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
+    ![](../assets/global_report_6.png)
 
-    ![](../assets/report_modify_2.png)
+1. click **[!UICONTROL Modify]**.
 
-1. Click **[!UICONTROL Modify]** to start customizing your dashboard.
-
-    ![](../assets/report_modify_3.png)
+    ![](../assets/global_report_8.png)
 
 1. Adjust the widgets size by dragging its bottom-right corner.
 
-    ![](../assets/report_modify_4.png)
+    ![](../assets/global_report_9.png)
 
-1. Click **[!UICONTROL Remove]** to remove any widget you don't need.
+1. Click **[!UICONTROL Remove]** to remove other widgets that you don't need to track bounces.
 
-    ![](../assets/report_modify_5.png)
+    ![](../assets/global_report_10.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
 
-Your dashboard is now saved. Your different changes will be reapplied for a later use of your live reports. If needed, use the **[!UICONTROL Reset]** option to restore the default widgets and widgets' order.
+Your dashboard is now saved. Your different changes will be reapplied for a later use of your global reports. If needed, use the **[!UICONTROL Reset]** option to restore the default widgets and widgets' order.

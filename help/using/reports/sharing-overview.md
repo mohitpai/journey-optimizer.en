@@ -25,7 +25,7 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 >
 >Datasets cannot not be turned on for real time profile service. Please make sure that the **[!UICONTROL Profile]** toggle is turned off.
 
-Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
+Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps. 
 
 The following schemas are created:
 
@@ -51,3 +51,12 @@ The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 * [Legacy step event fields](../reports/sharing-legacy-fields.md)
 
 For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.
+
+## Integration with Customer Journey Analitycs{#integration-cja}
+
+Journey Optimizer step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Here is the general workflow:
+
+* Customer Journey Analytics ingests the "Journey Step Event" dataset.
+* The **profileID** field in the associated "Journey Step Event schema for Journey Orchestration" is defined as an Identity field. In Customer Journey Analytics, you can then link this dataset to any other dataset that has the same value as the person based identifier.
+* If you would like to use this dataset in Customer Journey Analytics, for cross-channel journey analysis, refer to this [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+
