@@ -70,7 +70,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/ptr-records.md#edit-ptr-subdomains-cname)-->
 
-**Personalization**
+<!-- **Personalization**
 
 * **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](personalization/personalize.md#fav)
 
@@ -86,6 +86,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
 
+-->
 
 ## November 2021 Release
 
