@@ -11,9 +11,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
 
-* The Offer decisioning AI rankings section has been updated with a more detailed description of the auto-optimization model. [Read more](offer-library/create-ranking-strategies.md#auto-optimization)
+* The Offer decisioning AI rankings section has been updated with a more detailed description of the auto-optimization model. [Read more](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
-* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](offer-library/create-ranking-strategies.md#auto-optimization)
+* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## November 2021
 
