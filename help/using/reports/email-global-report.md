@@ -85,7 +85,6 @@ The **[!UICONTROL Open vs Click]** identifies your recipients' interaction with 
 
 * **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
 
-<!--
 ![](../assets/global_report_20.png)
 
 >[!NOTE]
@@ -111,7 +110,7 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
 * **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
+
 >[!NOTE]
 >
 >The profiles with **[!UICONTROL Suppressed]** or **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
