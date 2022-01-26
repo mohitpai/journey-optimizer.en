@@ -56,7 +56,7 @@ For more information on step events reporting to Adobe Experience Platform, watc
 
 Journey Optimizer step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Here is the general workflow:
 
-* Customer Journey Analytics ingests the dataset corresponding to the following Journey Optimizer schema: Journey Step Event schema for Journey Orchestration.
-* The **profileID** field in this schema is defined as an identity field. In Customer Journey Analytics, you then link this dataset to another dataset that uses the same idendity.
+* Customer Journey Analytics ingests the "Journey Step Event" dataset.
+* The **profileID** field in the associated "Journey Step Event schema for Journey Orchestration" is defined as an Identity field. In Customer Journey Analytics, you can then link this dataset to any other dataset that has the same value as the person based identifier.
 * If you would like to use this dataset in Customer Journey Analytics, for cross-channel journey analysis, refer to this [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
 
