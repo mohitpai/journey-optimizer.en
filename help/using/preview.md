@@ -40,10 +40,6 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >id="ac_preview_testprofiles"
 >title="Preview and test your messages"
 >abstract="Once your message content has been defined, you can use test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Email rendering"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Preview"
-
-
 
 Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
 
