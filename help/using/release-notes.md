@@ -62,13 +62,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Offer Decisioning**
 
-* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
 
 * When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](offers/offers-e2e.md#insert-decision-in-email)
 
-**Administration**
+<!--**Administration**
 
-* Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/ptr-records.md#edit-ptr-record#edit-ptr-subdomains-cname)
+* Administrators can now edit PTR records with a CNAME set up subdomain. [Learn more](configuration/ptr-records.md#edit-ptr-subdomains-cname)-->
 
 **Personalization**
 

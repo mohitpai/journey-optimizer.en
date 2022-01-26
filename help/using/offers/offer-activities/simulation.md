@@ -97,6 +97,10 @@ Now select the offer decisions that you want to simulate on your test profiles.
     >[!NOTE]
     >
     >Even if you define several decision scopes, only one API request is simulated.
+    >
+    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+
+<!--SIMULATIONS V2
 
 ## Define simulation settings {#define-simulation-settings}
 
@@ -122,9 +126,9 @@ To edit the default settings for your simulations, follow the steps below.
     >
     >When turning on the option, all items are selected by default.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.-->
 
-<!--
+<!--NOT FOR SIMULATIONS V2
 
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
@@ -137,7 +141,6 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
-
 -->
 
 ## View simulation results {#simulation-results}
@@ -154,7 +157,9 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     ![](../../assets/offers_simulation-offer-details.png)
 
-1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)
+    <!--
+    SIMULATIONS V2
+    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
 
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
@@ -163,6 +168,9 @@ Once you added a decision scope and selected a test profile, you can view the re
 >[!NOTE]
 >
 >Each time you change profiles or update decision scopes, you need to refresh the results using the **[!UICONTROL View results]** button.
+
+<!--
+SIMULATIONS V2
 
 ## View code {#view-code}
 
@@ -218,5 +226,5 @@ Below is an example of code view:
 
 >[!NOTE]
 >
->When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.
+>When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
 
