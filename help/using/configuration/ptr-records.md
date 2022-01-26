@@ -78,7 +78,7 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
 
 ## Check PTR record update details
 
-An **[!UICONTROL Updating]** icon displays next to the name of the PTR record in the list.
+A **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -94,9 +94,9 @@ You can see information such as the update status, and the requested changes.
 
 A PTR record update can have the following statuses:
 
-* **[!UICONTROL Processing]**: The PTR record update has been submitted and is going through a verification process.
-* **[!UICONTROL Success]**: The updated PTR record has been verified and the new subdomain is now associated with the IP address.
-* **[!UICONTROL Failed]**: One or several checks have failed during the PTR record update verification.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: The PTR record update has been submitted and is going through a verification process.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: The updated PTR record has been verified and the new subdomain is now associated with the IP address.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: One or several checks have failed during the PTR record update verification.
 
 ### Processing
 
