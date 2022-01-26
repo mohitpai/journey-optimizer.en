@@ -59,9 +59,6 @@ The steps to configure the Read Segment activity are as follows:
     >
     >The overall throttling rate per sandbox is set to 20,000 messages per second. Therefore, the throttling rate of all the read segments that run simultaneously in the same sandbox add up to at most 20,000 messages per second. You cannot modify this cap.
 
-1. If you want to only target individuals who entered or exited the segment, activate the **Segment Filters**. Refer to this [section](read-segment.md#segment-filters).
-
-
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
     ![](../assets/read-segment-schedule.png)
