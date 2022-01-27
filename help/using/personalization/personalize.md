@@ -109,7 +109,6 @@ In the following example, the expression editor lets you select the profiles tha
 
  ![](assets/perso_ee2.png)
 
-<!--
 ### Add to favorites{#fav}
 
 Adding different attributes to your favorites menu provides quick access to your most frequency used items. To add an attribute to your favorites click the ellipse menu and choose **[!UICONTROL Add to favorites]**.
@@ -127,8 +126,6 @@ From this list you can quickly add the personalization object to your current ex
 If you wish to no longer see an item in your favorites list you can remove from favorites.
 
 ![](assets/favorite-remove.png)
-
--->
 
 ## How-to videos{#video-perso}
 
