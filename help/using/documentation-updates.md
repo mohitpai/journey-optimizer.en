@@ -7,11 +7,18 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## January 2022
+
+* All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
+
+* The Offer decisioning AI rankings section has been updated with a more detailed description of the auto-optimization model. [Read more](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## November 2021
 
 * A full description of the advanced expression editor used in journeys is now available. [Read more](building-journeys/expression/expressionadvanced.md)
-* New CNAME subdomain delegation method. [Read more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* A new section on CNAME subdomain delegation method has been added. [Read more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## October 2021
 

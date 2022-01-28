@@ -189,7 +189,7 @@ The result is "token_1".
 This expression returns the last push notification token associated with mobile applications for which the version is 1.0.
 
    ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
    ```
 
    The result is "token_2".

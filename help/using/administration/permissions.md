@@ -97,7 +97,7 @@ If needed, you can also create new product profile with specific permissions. Fo
 
 For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
-In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!UICONTROL Decision management]** or **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!DNL  Decision management]** or **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
@@ -119,7 +119,7 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. To add permissions for users to access different features, select the **[!UICONTROL Permissions]** tab.
 
-1. Select between the different capabilities such as **[!UICONTROL Messages]**, **[!UICONTROL Segments]** or **[!UICONTROL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
+1. Select between the different capabilities such as **[!DNL Messages]**, **[!DNL Segments]** or **[!DNL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
     
     Here we select the **[!UICONTROL Journeys]** capability.
 
@@ -127,7 +127,7 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon.
 
-    Here we select **[!UICONTROL View journeys]** and **[!UICONTROL View journeys event, data sources, actions]**.
+    Here we select **[!DNL View journeys]** and **[!DNL View journeys event, data sources, actions]**.
 
     ![](../assets/do-not-localize/access_control_12.png)
 

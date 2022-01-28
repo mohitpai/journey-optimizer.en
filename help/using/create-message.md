@@ -61,7 +61,6 @@ To create a new message, follow the steps below:
     >[!NOTE]
     >   
     >You can personalize your messages using profiles' data using the Expression Editor. For more on personalization, refer to [this section](personalization/personalize.md).
-    
 
 1. Control the rendering of your messages, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](preview.md).
 
