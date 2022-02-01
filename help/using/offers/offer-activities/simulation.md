@@ -97,10 +97,6 @@ Now select the offer decisions that you want to simulate on your test profiles.
     >[!NOTE]
     >
     >Even if you define several decision scopes, only one API request is simulated.
-    >
-    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
-
-<!--SIMULATIONS V2
 
 ## Define simulation settings {#define-simulation-settings}
 
@@ -126,7 +122,7 @@ To edit the default settings for your simulations, follow the steps below.
     >
     >When turning on the option, all items are selected by default.
 
-1. Click **[!UICONTROL Save]**.-->
+1. Click **[!UICONTROL Save]**.
 
 <!--NOT FOR SIMULATIONS V2
 
@@ -157,9 +153,9 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     ![](../../assets/offers_simulation-offer-details.png)
 
-    <!--
-    SIMULATIONS V2
-    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
+1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)
+
+    ![](../../assets/offers_simulation-view-code.png)
 
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
@@ -169,62 +165,27 @@ Once you added a decision scope and selected a test profile, you can view the re
 >
 >Each time you change profiles or update decision scopes, you need to refresh the results using the **[!UICONTROL View results]** button.
 
-<!--
-SIMULATIONS V2
-
 ## View code {#view-code}
 
-To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
+1. Use the **[!UICONTROL View code]** button to display the request and response payloads.
+
+    ![](../../assets/offers_simulation-view-code.png)
+
+    The code view shows the developer information for the current user. By default, the **[!UICONTROL Response payload]** is displayed.
+
+    ![](../../assets/offers_simulation-request-payload.png)
+
+1. Click **[!UICONTROL Response payload]** or **[!UICONTROL Request payload]** to navigate between the two tabs.
+
+    ![](../../assets/offers_simulation-response-payload.png)
+
+1. To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, copy it using the **[!UICONTROL Copy to clipboard]** button on top of the code view.
+
+    ![](../../assets/offers_simulation-copy-payload.png)
     
->[!NOTE]
->
->You cannot copy the response payload.
+    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 
-Below is an example of code view:
-
-    ```
-    curl -X POST \
-    'https://platform.adobe.io/data/core/ode/{CONTAINER_ID}/decisions' \
-    -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
-    -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"' \
-    -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEtc3RnMS1rZXktMS5jZXIifQ.eyJpZCI6IjE2NDMxMzg3NDMxODlfOTIzY2ZjZjgtOWVkYy00MjE1LWJjODgtYmEyYTY2ZGIyYmMyX3VlMSIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjbGllbnRfaWQiOiJhY3BfdWlfcGxhdGZvcm0iLCJ1c2VyX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJzdGF0ZSI6IntcInNlc3Npb25cIjpcImh0dHBzOi8vaW1zLW5hMS1zdGcxLmFkb2JlbG9naW4uY29tL2ltcy9zZXNzaW9uL3YxL1l6azNNakE0TXpNdFpXVTVaUzAwTVdOaExUZ3pNamd0TmpFM1pqZ3lOak5qTmpSakxTMDBPRVExTnpRM1FUWXdOemMyUkVSRk1FRTBPVFF3TVVSQVFXUnZZbVZKUkFcIn0iLCJhcyI6Imltcy1uYTEtc3RnMSIsImFhX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJjdHAiOjAsImZnIjoiV0VQQTNUSUY0UjRaQTZEWlBDUk1BMklBQ1U9PT09PT0iLCJzaWQiOiIxNjQzMDYwMDg0NzI2XzYzNGJkNDEzLWMwYTktNDA0NS1iNTM3LWRmMzgzYzU5ZGIxY191ZTEiLCJydGlkIjoiMTY0MzEzODc0MzE4OV9lYWMxOWY5Yi00ZjhhLTQ1NWMtOWVmMi1mNjYwNmQ0ODY4N2ZfdWUxIiwibW9pIjoiYmVjOTQzYzIiLCJwYmEiOiIiLCJvYyI6InJlbmdhKm5hMXItc3RnMSoxN2U5MmIzNzYzNCo2MEJEVjBGUlhOMFlRMkdHSkRON0E5Tk1HOCIsInJ0ZWEiOiIxNjQ0MzQ4MzQzMTg5IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiJvcGVuaWQsc2Vzc2lvbixyZWFkX29yZ2FuaXphdGlvbnMsYWRkaXRpb25hbF9pbmZvLnByb2plY3RlZFByb2R1Y3RDb250ZXh0LGFkZGl0aW9uYWxfaW5mby5yb2xlcyxhdWRpZW5jZW1hbmFnZXJfYXBpLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTY0MzEzODc0MzE4OSJ9.TgZ998KHA4Zeoyq7b_NbPv8aPHb2cs9GgP3uJKrTbzosylKKRYqLpj_8HkloI-bFVQFCBCOWbCwtJtkcRIvFlQFruTr5bpMatPV8izEUVutO6smkYBFoGFYyEGuN5Xe97uOJZEHzFSWguGZtgttSrNhXr-j0hFloofjXDJXPB_911dzXALp5s15sd3HLH9XWTwwlqF_a5SMNDXaSj1800RxsB9bJ8_YL0x4pqQwjYJxRGMhiy7Y9IOpwogSBEiqCQitlKYgaO7yaJzFwhfyisnqM7_MWX2ETn-kGFEOoBHxXDTx9P2OPojzb8ChWQgmGf7Expyvtc1ke3nJkppzrxg' \
-    -H 'x-api-key: {API_KEY}' \
-    -H 'x-gw-ims-org-id: 5D1328435BF324E90A49402A@AdobeOrg' \
-    -H 'x-sandbox-name: prod' \
-    -D '{
-      "xdm:propositionRequests": [
-            {
-                  "xdm:placementId": "xcore:offer-placement:1416f4109d9d292c",
-                  "xdm:activityId": "xcore:offer-activity:1416f4aad9fd99d7",
-                  "xdm:itemCount": 2
-            }
-      ],
-      "xdm:profiles": [
-            {
-                  "xdm:identityMap": {
-                        "email": [
-                              {
-                                    "xdm:id": "poyfair@adobe.com"
-                              }
-                        ]
-                  }
-            }
-      ],
-      "xdm:allowDuplicatePropositions": {
-            "xdm:acrossActivities": true,
-            "xdm:acrossPlacements": true
-      },
-      "xdm:responseFormat": {
-            "xdm:includeMetadata": {
-                  "xdm:activity": [],
-                  "xdm:option": [],
-                  "xdm:placement": []
-            }
-      }
-    }'
-    ```
-
->[!NOTE]
->
->When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
+    >[!NOTE]
+    >
+    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with correct values.
 
