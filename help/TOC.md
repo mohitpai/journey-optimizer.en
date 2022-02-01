@@ -48,7 +48,6 @@ solution: Journey Optimizer
   + Work with the Expression Editor {#expression-editor}
     + [Build personalization expressions](using/personalization/personalization-build-expressions.md)
     + [Personalization validation](using/personalization/personalization-validation.md)
-    + [Add code fragments to the Expression Library](using/personalization/personalization-add-library.md)
   + Use cases{#personalization-use-cases}    
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
