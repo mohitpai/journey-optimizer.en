@@ -15,9 +15,7 @@ These types of conditions are available:
 * [Time condition](#time_condition) 
 * [Percentage split](#percentage_split) 
 * [Date condition](#date_condition)
-<!--
 * [Profile cap](#profile_cap)
--->
 
 ![](../assets/journey49.png)
 
@@ -93,21 +91,26 @@ This allows you to define a different flow based on the date. For example, if th
 
 ![](../assets/journey53.png)
 
-<!--
 ## Profile cap {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. This ensures that your journeys will never exceed the limit defined. 
 
 You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+The default cap is 1000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+The counter applies only to the selected journey version. The counter is reset to zero after one month. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
 The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
 
+For live journeys, here are the thresholds to consider to ensure the limit is reached:
+
+* For a cap greater than 10000, the number of distinct profiles to be injected must be at least 1.3 times the cap.
+* For a cap below 10000, the number of distinct profiles to be injected must 1000 plus the cap.
+
+Profile cap is not taken into account in test mode.
+
 ![](../assets/profile-cap-condition.png)
--->
 
 ## Using segments in conditions {#using-a-segment}
 

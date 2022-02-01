@@ -71,6 +71,27 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](../assets/read-segment-schedule-list.png)
 
+    The **Incremental read** option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members. This option is only available for recurring **Read segment** activities. 
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### Test and publish the journey {#testing-publishing}
 
 The **[!UICONTROL Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
@@ -96,7 +117,6 @@ Once the tests are successful, you can publish your journey (see [Publishing the
 >[!NOTE]
 >
 >For recurring segment-based journeys, the journey will automatically close once its last occurrence is executed. If no end date/time has been specified, you will have to close the journey to new entrances manually to end it.
-
 
 ## Audience targeting in segment-based journeys
 

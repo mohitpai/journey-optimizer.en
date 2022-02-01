@@ -70,7 +70,7 @@ solution: Journey Optimizer
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
   + [Profiles](using/get-started-profiles.md)
-  + [Identity](using/get-started-identity.md)
+  + [Identities](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -189,9 +189,7 @@ solution: Journey Optimizer
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
     + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
-    <!--
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
