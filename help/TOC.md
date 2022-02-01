@@ -46,7 +46,7 @@ solution: Journey Optimizer
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
   + Work with the Expression Editor {#expression-editor}
-    + [Build personalization expressions](using/personalization/build-expressions.md)
+    + [Build personalization expressions](using/personalization/personalization-build-expressions.md)
     + [Personalization validation](using/personalization/personalization-validation.md)
     + [Add code fragments to the Expression Library](using/personalization/personalization-add-library.md)
   + Use cases{#personalization-use-cases}    
