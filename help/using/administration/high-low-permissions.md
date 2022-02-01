@@ -308,7 +308,7 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage PTR records] permission {#manage-ptr}
 
-The **[!DNL Manage PTR records]** high-level permission allows users to read, create, edit, and delete PTR records that have been configured based on the subdomain.
+The **[!DNL Manage PTR records]** high-level permission allows users to read and edit PTR records that have been configured based on the subdomain.
 
 It includes the following low-level permissions:
 
