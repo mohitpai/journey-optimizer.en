@@ -124,6 +124,10 @@ To edit the default settings for your simulations, follow the steps below.
 
 1. Click **[!UICONTROL Save]**.
 
+>[!NOTE]
+>
+>Currently for simulation data you can only use the **[!UICONTROL Hub]** API.
+
 <!--NOT FOR SIMULATIONS V2
 
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
