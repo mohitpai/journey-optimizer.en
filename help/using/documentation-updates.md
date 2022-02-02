@@ -15,6 +15,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
+* The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](personalization/personalize.md)
+
 ## November 2021
 
 * A full description of the advanced expression editor used in journeys is now available. [Read more](building-journeys/expression/expressionadvanced.md)
