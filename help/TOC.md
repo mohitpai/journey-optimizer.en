@@ -46,13 +46,10 @@ solution: Journey Optimizer
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
   + Work with the Expression Editor {#expression-editor}
-    + [Build personalization expressions](using/personalization/personalization-build-expressions.md)
+    + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
     + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
     + [Personalization validation](using/personalization/personalization-validation.md)
-  + Use cases{#personalization-use-cases}    
-    + [Order status notification](using/personalization/personalization-use-case.md)
-    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
-  + Personalization syntax & helper functions {#syntax-helper-functions}
+  + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
@@ -65,6 +62,9 @@ solution: Journey Optimizer
       + [Map functions](using/personalization/functions/maps.md)
       + [Object functions](using/personalization/functions/objects.md)
       + [String functions](using/personalization/functions/string.md) 
+  + Use cases{#personalization-use-cases}    
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
