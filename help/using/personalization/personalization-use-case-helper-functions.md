@@ -1,6 +1,6 @@
 ---
 title: Personalization use case&colon; cart abandonment email
-description: Learn how to personalize a message using helper functions
+description: Learn how to personalize a message using helper functions.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
