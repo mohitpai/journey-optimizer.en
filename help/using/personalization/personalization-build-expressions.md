@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 ---
 # About the Expression Editor {#build-personalization-expressions}
 
