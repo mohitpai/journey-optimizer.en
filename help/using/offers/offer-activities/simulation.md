@@ -159,8 +159,6 @@ Once you added a decision scope and selected a test profile, you can view the re
 
 1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)
 
-    ![](../../assets/offers_simulation-view-code.png)
-
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
 1. You can add, remove or update the decision scopes as many times as needed.
@@ -191,5 +189,5 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     >[!NOTE]
     >
-    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with correct values.
+    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with valid values.
 
