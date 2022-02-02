@@ -1,13 +1,13 @@
 ---
-title: Build personalization expressions
-description: Learn how to build personalization expressions using the Expression Editor.
+title: About the Expression Editor
+description: Learn how to work with the Expression Editor.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
-# Build personalization expressions {#build-personalization-expressions}
+# About the Expression Editor {#build-personalization-expressions}
 
 The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
 
