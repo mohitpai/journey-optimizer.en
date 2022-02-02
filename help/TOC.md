@@ -30,6 +30,7 @@ solution: Journey Optimizer
     + [Create a push notification](using/create-push.md)
     + [Create an SMS message](using/create-sms.md)
   + [Add and manage assets](using/assets-essentials.md)
+  + [Add personalized offers](using/deliver-personalized-offers.md)  
   + Design emails {#email-designer} 
     + [Get started with email design](using/design-emails.md)
     + [Design your email content in the UI](using/create-email-content.md)
@@ -44,12 +45,12 @@ solution: Journey Optimizer
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
+  + Work with the Expression Editor {#expression-editor}
+    + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+    + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
+    + [Personalization validation](using/personalization/personalization-validation.md)
   + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression Editor {#expression-editor}
-      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
-      + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
       + [Aggregation functions](using/personalization/functions/aggregation.md)
@@ -64,19 +65,7 @@ solution: Journey Optimizer
   + Use cases{#personalization-use-cases}    
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
-  + Helper functions{#functions}
-    + [Get started with helper functions](using/personalization/functions/functions.md)
-    + [Aggregation functions](using/personalization/functions/aggregation.md)
-    + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-    + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-    + [Date functions](using/personalization/functions/dates.md)
-    + [Boolean and comparison functions](using/personalization/functions/operators.md)
-    + [Helpers](using/personalization/functions/helpers.md)
-    + [Map functions](using/personalization/functions/maps.md)
-    + [Object functions](using/personalization/functions/objects.md)
-    + [String functions](using/personalization/functions/string.md) 
-  + [Add personalized offers](using/deliver-personalized-offers.md)  
-+ Segments, profiles and identities{#segment}
++ Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
