@@ -1,17 +1,15 @@
 ---
-title: Personalization syntax
-description: Learn how to
+title: Build personalization expressions
+description: Learn how to build personalization expressions using the Expression Editor.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
-# Build personalization expressions {#}
+# Build personalization expressions {#build-personalization-expressions}
 
-The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer].
-
-It is available in every context where you need to define personalization like emails, push and offers.
+The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
 
 In the expression editor interface, you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
@@ -34,25 +32,11 @@ On selection, the reference is added in the editor.
 >[!NOTE]
 >
 >The info icon next to "+" icon opens up a tooltip providing more details for each variable.
+>
+>You can add your most frequency used attributes to favorites. Learn more in [this section](personalization-favorites.md).
 
 In the following example, the expression editor lets you select the profiles that have their birthday today then complete the customization by inserting a specific offer corresponding to this day.
 
  ![](assets/perso_ee2.png)
 
-### Add to favorites{#fav}
-
-Adding different attributes to your favorites menu provides quick access to your most frequency used items. To add an attribute to your favorites click the ellipse menu and choose **[!UICONTROL Add to favorites]**.
-
-![](assets/favorite-option.png)
-
-To access items you have favorited use the **[!UICONTROL Favorites]** menu option in the drop-down menu.
-
-![](assets/favorite-menu.png)
-
-From this list you can quickly add the personalization object to your current expression.
-
-![](assets/favorite-list.png)
-
-If you wish to no longer see an item in your favorites list you can remove from favorites.
-
-![](assets/favorite-remove.png)
+Once your personalization expression is ready, you need to have it validated by the Expression Editor. Learn more in [this section](personalization-validation.md).
