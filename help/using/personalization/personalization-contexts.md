@@ -1,6 +1,6 @@
 ---
 title: Personalization syntax
-description: Learn how xxxx
+description: Learn more about the ways you can personalize the content and display of your messages. 
 feature: Personalization
 topic: Personalization
 role: Data Engineer

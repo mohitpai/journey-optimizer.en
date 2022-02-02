@@ -47,6 +47,7 @@ solution: Journey Optimizer
   + [Personalization contexts](using/personalization/personalization-contexts.md)
   + Work with the Expression Editor {#expression-editor}
     + [Build personalization expressions](using/personalization/personalization-build-expressions.md)
+    + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
     + [Personalization validation](using/personalization/personalization-validation.md)
   + Use cases{#personalization-use-cases}    
     + [Order status notification](using/personalization/personalization-use-case.md)
