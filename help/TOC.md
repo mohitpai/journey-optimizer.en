@@ -45,12 +45,12 @@ solution: Journey Optimizer
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
-  + Work with the Expression Editor {#expression-editor}
-    + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-    + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
-    + [Personalization validation](using/personalization/personalization-validation.md)
   + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression Editor {#expression-editor}
+      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
+      + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
       + [Aggregation functions](using/personalization/functions/aggregation.md)
