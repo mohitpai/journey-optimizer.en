@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 ---
-# Deliver offers using the Decisions API
+# Deliver offers using the Decisions API {#deliver-offers-using-decisions-api}
 
 With Decision Management, you can create and deliver end-user personalized offer experiences, across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
 
@@ -17,7 +17,7 @@ This tutorial requires a working understanding of APIs, specifically with regard
 
 ➡️  [Discover this feature in video](#video)
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 
@@ -197,6 +197,6 @@ The following video is intended to support your understanding of the components 
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
-## Next steps
+## Next steps {#next-steps}
 
 By following this API guide, you have created and delivered offers using the [!DNL Decisions] API. For more information, see the [overview on Decision Management](../../../offers/get-started/starting-offer-decisioning.md).
