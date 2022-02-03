@@ -7,7 +7,8 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
-## January 2022 Release
+
+## January 2022 Release {#january-2022-release}
 
 ### New capabilities 
 
@@ -90,7 +91,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 -->
 
-## November 2021 Release
+## November 2021 Release {#november-2021-release}
 
 <table>
 <thead>
@@ -108,6 +109,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
+
 
 ## October 2021 Release {#oct-2021-release}
 
@@ -201,6 +203,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 * Fixed an issue which led to a 404 error when navigating in the **Administration** menu.
 * Fixed an issue which triggered other live journeys when testing a journey using a business event.
 
+
 ## September 2021 Release {#september-2021-release}
 
 ### New capabilities
@@ -241,8 +244,6 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 </tbody>
 </table>
 
-
-
 ### Improvements
 
 **Journeys**
@@ -255,6 +256,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Email configuration**
 
 * When an IP pool has been associated with a message preset, you can now edit it, the update being asynchronous. You can also check each IP pool update status. [Learn more](configuration/ip-pools.md#edit-ip-pool)
+
 
 ## August 2021 Release {#august-2021-release}
 

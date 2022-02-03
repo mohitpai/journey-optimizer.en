@@ -7,7 +7,8 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
-## January 2022
+
+## January 2022 {#january-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
 
@@ -17,12 +18,14 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](personalization/personalize.md)
 
-## November 2021
+
+## November 2021 {#november-2021}
 
 * A full description of the advanced expression editor used in journeys is now available. [Read more](building-journeys/expression/expressionadvanced.md)
 * A new section on CNAME subdomain delegation method has been added. [Read more](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
-## October 2021
+
+## October 2021 {#october-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added **Date time function** list. [Read more](personalization/functions/dates.md)
@@ -35,7 +38,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated **Add decision scopes** section. [Read more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Updated **Define content for your representations** section, including a new [subsection](offers/offer-library/creating-personalized-offers.md#custom-text) on how to define and personalize custom text. [Read more](offers/offer-library/creating-personalized-offers.md#content)
 
-## September 2021
+
+## September 2021 {#september-2021}
 
 * The following function pages have been updated: [sethours](building-journeys/functions/functionsethours.md), [getListItem](building-journeys/functions/functiongetlistitem.md), [inSegment](building-journeys/functions/functioninsegment.md)
 
@@ -63,7 +67,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added a subsection on how to edit IP pools. [Read more](configuration/ip-pools.md#edit-ip-pool)
 
-## August 2021
+
+## August 2021 {#august-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Updated Decision management permissions. [Read more](administration/ootb-product-profiles.md)
@@ -83,7 +88,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The new flow to add and configure representations when creating an offer has been documented. [Read more](offers/offer-library/creating-personalized-offers.md#representations)
 
 
-## July 2021
+## July 2021 {#july-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] July '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
