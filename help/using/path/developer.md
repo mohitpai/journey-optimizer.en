@@ -6,11 +6,11 @@ hide: yes
 hidefromtoc: yes
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 ---
-# Get Started for Developers
+# Get Started for Developers {#get-started-developers}
 
 ![developer](assets/do-not-localize/user-3.png) 
 
-## Integrate your mobile app
+## Integrate your mobile app {#integrate-mobile-app}
 
 As a Developer, you need to **configure your mobile app** to be able to send push notifications with [!DNL Adobe Journey Optimizer].
 
@@ -18,7 +18,7 @@ As a Developer, you need to **configure your mobile app** to be able to send pus
 
 Steps to configure the push notification channel and test your mobile app integration are detailed in [this page](../push-configuration.md). 
 
-## Work with APIs
+## Work with APIs {#work-apis}
 
 You can also perform multiple actions with **[!DNL Adobe Journey Optimizer] APIs**.
 

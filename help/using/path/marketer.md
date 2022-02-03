@@ -4,7 +4,7 @@ description: As a Journey Practicioner, learn more how to work with Journey Opti
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 ---
-# Get started for Marketers
+# Get started for Marketers {#get-started-marketers}
 
 ![marketer](assets/do-not-localize/user-3.png) 
 
