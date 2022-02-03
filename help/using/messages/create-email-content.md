@@ -75,7 +75,7 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_5.png)
 
-1. Add personalization fields to customize the content from your profiles data. [Learn more about content personalization](personalization/personalize.md).
+1. Add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
 
     ![](assets/email_designer_6.png)
 
