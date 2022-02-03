@@ -249,7 +249,7 @@ If you edit a preset that was already active:
 >
 >You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
-### Success
+### Success {#success}
 
 Once the validation process is successful, the new version of the preset is automatically used in all messages using this preset. However, you may have to wait:
 * a few minutes before it is consumed by the unitary messages,
@@ -257,7 +257,7 @@ Once the validation process is successful, the new version of the preset is auto
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-### Failed
+### Failed {#failed}
 
 If the validation process fails, the older version of the preset will still be used.
 

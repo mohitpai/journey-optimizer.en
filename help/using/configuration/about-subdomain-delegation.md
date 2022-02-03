@@ -1,8 +1,6 @@
 ---
-title: Delegate subdomains
+title: Subdomain delegation in [!DNL Journey Optimizer]
 description: Learn how to delegate your subdomains
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin

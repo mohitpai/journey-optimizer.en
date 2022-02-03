@@ -1,16 +1,6 @@
 ---
-title: Delegate subdomains
-description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Access delegated subdomains
+description: Learn how to access delegated subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin

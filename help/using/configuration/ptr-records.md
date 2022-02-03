@@ -1,7 +1,6 @@
 ---
 title: PTR records
 description: Learn how to manage PTR records
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,13 +9,13 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
 # PTR records {#ptr-records}
 
-## About PTR records
+## About PTR records {#about-ptr-records}
 
 A pointer record (PTR) is a type of Domain Name System (DNS) record that provides the domain name linked to an IP address.
 
 With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names with which the servers connect.
 
-## Access your subdomains' PTR records
+## Access your subdomains' PTR records {#access-ptr-records}
 
 Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
@@ -38,7 +37,7 @@ You can modify a PTR record to edit the subdomain associated with an IP address.
 >
 >You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
-### Fully delegated subdomains
+### Fully delegated subdomains {#fully-delegated-subdomains}
 
 To edit a PTR record with a subdomain that is [fully delegated](delegate-subdomain.md#full-subdomain-delegation) to Adobe, follow the steps below.
 
@@ -76,7 +75,7 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
 
-## Check PTR record update details
+## Check PTR record update details {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
 
@@ -90,7 +89,7 @@ You can see information such as the update status, and the requested changes.
 
 ![](../assets/ptr-record-updates.png)
 
-## PTR record update statuses
+## PTR record update statuses {#ptr-record-update-statuses}
 
 A PTR record update can have the following statuses:
 
@@ -98,7 +97,7 @@ A PTR record update can have the following statuses:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: The updated PTR record has been verified and the new subdomain is now associated with the IP address.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: One or several checks have failed during the PTR record update verification.
 
-### Processing
+### Processing {#processing}
 
 Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
 
@@ -108,11 +107,11 @@ Several deliverability checks will be performed to verify that the new subdomain
 
 During the validation process, the old subdomain is still associated with the IP address.
 
-### Success
+### Success {#success}
 
 Once the validation process is successful, the new subdomain is automatically associated with the IP address.
 
-### Failed
+### Failed {#failes}
 
 If the validation process fails, the older PTR record is displayed. The valid subdomain that was previously associated with the IP address remains unchanged.
 

@@ -17,7 +17,7 @@ role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
-# Create IP pools
+# Create IP pools {#create-ip-pools}
 
 ## About IP pools {#about-ip-pools}
 

@@ -1,6 +1,6 @@
 ---
-title: General message settings
-description: Learn how to set email addresses
+title: Change the primary email addresses 
+description: Learn how to determine which email address to use from the profile service.
 page-status-flag: never-activated
 uuid: 
 contentOwner: 

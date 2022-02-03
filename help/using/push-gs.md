@@ -15,7 +15,7 @@ This page will help you setup and understand key services and workflows involved
 
 Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed in [this page](push-configuration.md).
 
-## Push Notifications and [!DNL Adobe Journey Optimizer]
+## Push Notifications and [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
 The following pictorial shows the systems and services involved with associated data flows highlighting how push notifications are delivered from an end-to-end service standpoint.
 
@@ -34,7 +34,7 @@ The following pictorial shows the systems and services involved with associated 
 1. Push notifications are delivered to end-user devices
 1. End-user push notification interactions are send in as Experience Events from the end-user client via SDK integration
 
-## Roles of Key Services in Push Notifications
+## Roles of Key Services in Push Notifications {#roles-of-key-services}
 
 * **Push notification service providers** are the core component web services that deliver notifications from remote servers to mobile apps.
     
@@ -54,7 +54,7 @@ The following pictorial shows the systems and services involved with associated 
 
 * **[!DNL Adobe Journey Optimizer]** : once your mobile app integrations with above mentioned components are in place and your customer profiles in Adobe Experience Platform, you may author and orchestrate push notifications in [!DNL Adobe Journey Optimizer] to engage with your users.
 
-## Push Technical Setup and Practitioner Workflows
+## Push Technical Setup and Practitioner Workflows {#push-technical-setup}
 
 The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 

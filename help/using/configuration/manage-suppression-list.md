@@ -1,16 +1,6 @@
 ---
 title: Manage the suppression list
 description: Learn how to access and manage the Journey Optimizer suppression list
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
