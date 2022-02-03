@@ -1,15 +1,15 @@
 ---
 title: Create simulations
-description: Learn how to create simulations
+description: Learn how to simulate which offers will be delivered for a given placement in order to validate your decisioning logic
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 ---
-# Create simulations
+# Create simulations {#create-simulations}
 
-## About simulation
+## About simulation {#about-simulation}
 
 To validate your decisioning logic, you can simulate which offers will be delivered to a test profile for a given placement.
 
@@ -29,7 +29,7 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Select test profiles
+## Select test profiles {#select-test-profiles}
 
 First you need to select the test profiles that you are going to use for simulation.
 
@@ -59,7 +59,7 @@ First you need to select the test profiles that you are going to use for simulat
 
 <!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
 
-## Add decision scopes
+## Add decision scopes {#add-decision-scopes}
 
 Now select the offer decisions that you want to simulate on your test profiles.
 
