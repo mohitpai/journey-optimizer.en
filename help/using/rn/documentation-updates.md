@@ -57,7 +57,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added a new **Limitations** page. [Read more](../limitations.md)
 
-* Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
+* Improved the **Quick start** page with steps for different personas. [Read more](../quick-start.md)
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](../offers/get-started/starting-offer-decisioning.md)
 
