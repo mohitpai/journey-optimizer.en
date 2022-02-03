@@ -23,9 +23,9 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 ### General actions {#general-actions}
 
-* There is no sending throttling. 
-* Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
-* The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
+* There is no sending throttling.
+* Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received.
+* The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](../building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * You cannot place two actions in parallel, you must add them one after the other.
 
 ### Message action {#message-action}
@@ -39,22 +39,22 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 * The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Segment** cannot start with another event in next versions.
- 
-### Custom actions {#custom-actions}
 
-* The custom action URL does not support dynamic parameters. 
-* Only POST and PUT call methods are supported. 
-* The name of the query parameter or header must not start with "." or "$". 
-* IP addresses are not allowed. 
+### Custom actions {#custom-actions}
+
+* The custom action URL does not support dynamic parameters.
+* Only POST and PUT call methods are supported
+* The name of the query parameter or header must not start with "." or "$"
+* IP addresses are not allowed
 * Internal Adobe addresses (.adobe.) are not allowed.
- 
+
 ### Events {#events}
 
-* For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
- 
+* For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
+
 ### Data sources {#data-sources}
 
-* External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
+* External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
 ### Journeys starting at the same time as a profile creation {#journeys-limitation-profile-creation}
  

@@ -21,4 +21,4 @@ The **[!UICONTROL Preview dataset]** button allows you to display the most recen
 
 ![](../../assets/dataset-preview.png)
 
-For more information on how to browse and use datasets, refer to [this page](../../get-started-datasets.md).
+For more information on how to browse and use datasets, refer to [this page](../../start/get-started-datasets.md).

@@ -13,15 +13,15 @@ solution: Journey Optimizer
   + [Release notes](using/rn/release-notes.md)
   + [Latest updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
-  + [What is Journey Optimizer](using/get-started.md)
+  + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
-    + [Overview](using/quick-start.md)
-    + [Get Started as a Marketer](using/path/marketer.md)
-    + [Get Started as a Data engineer](using/path/data-engineer.md)
-    + [Get Started as an Administrator](using/path/administrator.md)
-    + [Get Started as a Developer](using/path/developer.md)
-  + [User interface](using/user-interface.md)
-  + [Limitations](using/limitations.md)
+    + [Overview](using/start/quick-start.md)
+    + [Get Started as a Marketer](using/start/path/marketer.md)
+    + [Get Started as a Data engineer](using/start/path/data-engineer.md)
+    + [Get Started as an Administrator](using/start/path/administrator.md)
+    + [Get Started as a Developer](using/start/path/developer.md)
+  + [User interface](using/start/user-interface.md)
+  + [Limitations](using/start/limitations.md)
 + Messages {#messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
@@ -69,8 +69,8 @@ solution: Journey Optimizer
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
-  + [Profiles](using/get-started-profiles.md)
-  + [Identities](using/get-started-identity.md)
+  + [Profiles](using/start/get-started-profiles.md)
+  + [Identities](using/start/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -306,9 +306,9 @@ solution: Journey Optimizer
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Data management {#data-management}
-  + [Schemas](using/get-started-schemas.md)
-  + [Datasets](using/get-started-datasets.md)
-  + [Queries](using/get-started-queries.md)
+  + [Schemas](using/start/get-started-schemas.md)
+  + [Datasets](using/start/get-started-datasets.md)
+  + [Queries](using/start/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}

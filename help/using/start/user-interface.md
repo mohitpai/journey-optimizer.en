@@ -13,7 +13,7 @@ Connect to [Adobe Experience Cloud](http://experience.adobe.com) and browse to [
 
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} for more details.
 
-Components and capabilities available in the user interface depend on your [permissions](administration/permissions.md) and on your [licencing package](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. For any question, reach out to your Adobe Customer Success Manager.
+Components and capabilities available in the user interface depend on your [permissions](../administration/permissions.md) and on your [licencing package](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. For any question, reach out to your Adobe Customer Success Manager.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Components and capabilities available in the user interface depend on your [perm
 
 Use the links on the left to browse capabilities.
 
-![](assets/ajo-home.png)
+![](../assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](create-message.md)
+* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../create-message.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
-* **[!UICONTROL Offers]** - Access your recent sources and datasets from this menu. Use this section to create new offers. [Learn more](offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offers]** - Access your recent sources and datasets from this menu. Use this section to create new offers. [Learn more](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - Create placements, rules and tags. [Learn more](offers/offer-library/key-steps.md)
+* **[!UICONTROL Components]** - Create placements, rules and tags. [Learn more](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -68,7 +68,7 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions and leverage them into your journeys. [Learn more](segment/about-segments.md)
+* **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions and leverage them into your journeys. [Learn more](../segment/about-segments.md)
 
 * **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](get-started-profiles.md)
 
@@ -76,9 +76,9 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - Use this menu to configure [events](event/about-events.md), [data sources](datasource/about-data-sources.md) and [actions](action/action.md) to use in your journeys.
+* **[!UICONTROL Journey Administration]** - Use this menu to configure [events]../event/about-events.md), [data sources](../datasource/about-data-sources.md) and [actions](../action/action.md) to use in your journeys.
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more](administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more](../administration/sandboxes.md)
 
 <!--
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
@@ -88,11 +88,11 @@ You can find below the full list of services and capabilities available in the l
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Available use cases are:
 
-* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](../building-journeys/creating-test-profiles.md#use-case-1).
 * **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
 * **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
@@ -284,7 +284,7 @@ In most of the lists, a search bar allows you to search for a specific item and 
 
 Filters can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
 
-In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](building-journeys/using-the-journey-designer.md).
+In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -292,12 +292,12 @@ In the list of journeys, you can filter journeys according to their status, type
 
 Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
 
-![](assets/filter-journeys.png)
+![](../assets/filter-journeys.png)
 
 In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
-![](assets/journey4.png)
+![](../assets/journey4.png)

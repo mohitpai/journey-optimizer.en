@@ -29,7 +29,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added **Date time function** list. [Read more](../personalization/functions/dates.md)
-* New **Get Started sections per user persona**. Take your own path to get to your goals faster! [Read more](../quick-start.md)
+* New **Get Started sections per user persona**. Take your own path to get to your goals faster! [Read more](../start/quick-start.md)
 * New **Edit a message preset** section. [Read more](../configuration/message-presets.md#edit-message-preset)
 * New **Edit a PTR record** section. [Read more](../configuration/ptr-records.md#edit-ptr-record)
 * New **Deactivate a message preset** section. [Read more](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
@@ -55,9 +55,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added commonly used examples to query Journey Step Events in Data Lake. [Read more](../reports/query-examples.md)
 
-* Added a new **Limitations** page. [Read more](../limitations.md)
+* Added a new **Limitations** page. [Read more](../start/limitations.md)
 
-* Improved the **Quick start** page with steps for different personas. [Read more](../quick-start.md)
+* Improved the **Quick start** page with steps for different personas. [Read more](../start/quick-start.md)
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](../offers/get-started/starting-offer-decisioning.md)
 
@@ -74,7 +74,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated Decision management permissions. [Read more](../administration/ootb-product-profiles.md)
 * Updated Email designer screenshots with latest UI.
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/about-custom-action-configuration.md#url-configuration)
-* Added a section about accessibility features and shortcuts. [Read more](../user-interface.md#accessibility)
+* Added a section about accessibility features and shortcuts. [Read more](../start/user-interface.md#accessibility)
 * Added a section about segment evaluation methods. [Read more](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/email-global-report.md)
 * Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../allow-list.md#reporting)
@@ -101,7 +101,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](../personalization/personalization-use-case-helper-functions.md)
 * Updated the Read segment documentation to reflect materialized segment impacts. [Read more](../building-journeys/read-segment.md)
-* Updated the Journey limitations. [Read more](../limitations.md)
+* Updated the Journey limitations. [Read more](../start/limitations.md)
 * Updated the Configure offers selection in decisions section. [Read more](../offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documented the Decision Management new **[!UICONTROL Overview]** tab. [Read more](../offers/get-started/user-interface.md#overview)

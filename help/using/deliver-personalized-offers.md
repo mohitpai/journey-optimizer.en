@@ -74,7 +74,7 @@ To display the different offers that are part of the decision with a customer pr
 
     >[!NOTE]
     >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md).
+    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](start/get-started-identity.md).
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 

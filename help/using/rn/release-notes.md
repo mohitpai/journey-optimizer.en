@@ -376,7 +376,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **User interface**
 
-* **Search** - On every page, you can now search business objects and help articles directly from the Unified Experience Cloud search field. [Learn more](../user-interface.md#unified-search)
+* **Search** - On every page, you can now search business objects and help articles directly from the Unified Experience Cloud search field. [Learn more](../start/user-interface.md#unified-search)
 * **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](../action/about-custom-action-configuration.md#passing-collection)
 
 **Content Design**
@@ -451,7 +451,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 * The **Cache duration** field has been removed from the data source configuration pane. [Read more](../datasource/about-data-sources.md)
 * For external data sources, a capping rule of 15 calls per second is now automatically defined. [Read more](../configuration/external-systems.md#capping)
 * For live journeys, the journey properties screen now displays the publication date and the name of the user who published the journey. [Read more](../building-journeys/journey-gs.md#change-properties)
-* In the journey list screen, the journey type filter has been added. [Read more](../user-interface.md#filter-lists)
+* In the journey list screen, the journey type filter has been added. [Read more](../start/user-interface.md#filter-lists)
 * The **[!UICONTROL Throttling rate]** parameter has been added in the Read segment activity. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Preview and test messages**

@@ -18,7 +18,7 @@ Learn how to build schemas in [this documentation](https://experienceleague.adob
 
 The **Schemas** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to manage Experience Data Model (XDM) resources, including schemas, classes, schema field groups, and data types. You can view and explore core resources provided by Adobe, and create custom resources and schemas for your organization.
 
-![](assets/schemas-home.png)
+![](../assets/schemas-home.png)
 
 Learn how to use Schemas user interface in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
@@ -33,7 +33,7 @@ Learn how to create a schema, add field groups, create, and configure custom fie
 
 **See also**
 
-* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
+* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](../building-journeys/creating-test-profiles.md)
 * [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}
 * [Best practices for data modeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
 * [Create a schema using the Schema Registry API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}

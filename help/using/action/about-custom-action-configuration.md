@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 
 If you're using a third-party system to send messages or if you want journeys to send API calls to a third-party system, this is where you configure its connection to journeys. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-journey-activities.md#action-activities). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Slack, Adobe.io, Firebase, etc.
 
-Limitations are listed in [this page](../limitations.md).
+Limitations are listed in [this page](../start/limitations.md).
 
 You can pass collections dynamically using custom actions. Refer to this [use case](../building-journeys/collections.md).
 

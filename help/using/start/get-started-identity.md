@@ -14,7 +14,7 @@ Personally Identifiable Information (PII) such as email address and phone number
 
 In [!DNL Adobe Journey Optimizer], **Identities** link consumers across devices and channels, the result is an [identity graph](#id-graph). The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.
 
-![](assets/identities-home.png)
+![](../assets/identities-home.png)
 
 Learn more about **Identity Service** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
 

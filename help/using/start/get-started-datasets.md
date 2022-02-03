@@ -17,7 +17,7 @@ Adding data to Adobe Experience Platform is the foundation to building a Profile
 
 The **Datasets** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to explore data and create datasets. 
 
-![](assets/datasets-home.png)
+![](../assets/datasets-home.png)
 
 Learn how to use Datasets UI in the [Data Ingestion overview documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
@@ -32,6 +32,6 @@ Learn how to create a dataset, map it to a schema, add data to it, and confirm t
 
 **See also**
 
-* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
+* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](../building-journeys/creating-test-profiles.md)
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}
 * [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
