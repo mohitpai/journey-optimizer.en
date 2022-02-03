@@ -17,7 +17,7 @@ role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 ---
-# Add a Google TXT record to a subdomain
+# Add a Google TXT record to a subdomain {#google-txt-record}
 
 TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources.
 

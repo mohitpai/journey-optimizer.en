@@ -11,7 +11,7 @@ feature: Application Settings
 topic: Administration
 ---
 
-# Get started with [!DNL Journey Optimizer] configuration
+# Get started with [!DNL Journey Optimizer] configuration {#start-optimizer-configuration}
 
 When accessing [!DNL Journey Optimizer] for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 

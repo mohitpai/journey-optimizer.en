@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
-# PTR records
+# PTR records {#ptr-records}
 
 ## About PTR records
 

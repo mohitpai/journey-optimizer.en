@@ -17,7 +17,7 @@ role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 ---
-# Access delegated subdomains
+# Access delegated subdomains {#access-delegated-subdomains}
 
 All your delegated subdomains display in the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Filters are available to help you refine the list (delegation date, user or status).
 

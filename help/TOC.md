@@ -22,7 +22,7 @@ solution: Journey Optimizer
     + [Get Started as a Developer](using/path/developer.md)
   + [User interface](using/user-interface.md)
   + [Limitations](using/limitations.md)
-+ Messages {#create-messages}
++ Messages {#messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
     + [Create a message](using/create-message.md)
@@ -37,7 +37,7 @@ solution: Journey Optimizer
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
   + [Add links and track messages](using/message-tracking.md)
-  + Validate and publish {#create-message}
+  + Validate and publish {#validate}
     + [Preview and proofs](using/preview.md)
     + [Check alerts](using/alerts.md)
     + [Publish messages](using/publish-manage-message.md)
@@ -227,7 +227,7 @@ solution: Journey Optimizer
     + [Landing page reporting](using/landing-pages/lp-report.md)
     + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Decision management {#offer-decisioniong}
-  + Get started with Decision management {#get-started}
+  + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
     + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
@@ -309,13 +309,13 @@ solution: Journey Optimizer
   + [Schemas](using/get-started-schemas.md)
   + [Datasets](using/get-started-datasets.md)
   + [Queries](using/get-started-queries.md)
-+ Configuration{#get-started}
++ Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
-  + Configure messages {#configuration}
+  + Configure messages {#configuration-message}
     + Push notification configuration{#push-config}
       + [Get started with push configuration](using/push-gs.md)
       + [Configure push notification channel](using/push-configuration.md)
-    + Email configuration {#email-config}
+    + Email configuration {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
         + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
@@ -350,7 +350,7 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
   + [Sources](using/get-started-sources.md)
-+ Access control {#administration}
++ Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
   + [Manage users and product profiles](using/administration/permissions.md)

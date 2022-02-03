@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 ---
-# Configure journeys
+# Configure journeys {#configure-journeys}
 
 In order to send messages with journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**.
 

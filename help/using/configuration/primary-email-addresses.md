@@ -17,7 +17,7 @@ role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 ---
-# Change the primary email addresses
+# Change the primary email addresses {#change-primary-email}
 
 When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).
 

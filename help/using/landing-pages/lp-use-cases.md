@@ -9,7 +9,7 @@ hidefromtoc: yes
 hide: yes
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 ---
-# Landing page use cases
+# Landing page use cases {#lp-use-cases}
 
 Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
 
