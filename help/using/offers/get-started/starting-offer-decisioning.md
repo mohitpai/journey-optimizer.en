@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 ---
-# About Decision Management {#about-offer-decision}
+# About Decision Management {#about-decision-management}
 
 Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers.
 
@@ -30,7 +30,7 @@ Benefits include:
 
 ➡️ [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
 
-## About offers and decisions {#offers-offer-activities}
+## About offers and decisions {#about-offers-and-decisions}
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
@@ -42,7 +42,7 @@ Once the Offer Library has been enriched with offers, you can integrate your off
 
 Decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 
-## Common use cases
+## Common use cases {#common-use-cases}
 
 Decision Management capabilities and integration with Adobe Experience Platform allow you to cover numerous use cases to help you increase customers' engagement and conversion.
 

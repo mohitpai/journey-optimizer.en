@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 ---
-# Create decision rules {#creating-decision-rules}
+# Create decision rules {#create-decision-rules}
 
 You can create offer decision rules based on data available in Adobe Experience Platform. Decision rules determine to whom an offer can be shown.
 

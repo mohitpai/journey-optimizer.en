@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 ---
-# Create fallback offers {#creating-fallback-offers}
+# Create fallback offers {#create-fallback-offers}
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 

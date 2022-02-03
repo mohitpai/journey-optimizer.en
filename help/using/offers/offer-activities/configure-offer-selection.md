@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 ---
-# Configure offers selection in decisions {#offers-selection-in-activities}
+# Configure offers selection in decisions {#offers-selection-in-decisions}
 
 If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision (previously known as offer activity). You can rank offers by:
 * Offer priority
@@ -16,7 +16,7 @@ If several offers are eligible for a given placement, you can choose the method 
 
 ![](../../assets/offer-rank-by.png)
 
-## Offer priority {#about-offers-priority}
+## Offer priority {#offer-priority}
 
 By default, when several offers are eligible for a given placement in a decision (previously known as offer activity), the offers with the highest **priority** will be delivered to the customers first.
 

@@ -21,14 +21,14 @@ The most recent successful batch in the dataset is displayed on the right. The h
 
 Here is the list of all the fields that can be used in the **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
-## Identifier
+## Identifier {#identifier}
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Field:** _experience
 **Type:** object
@@ -173,7 +173,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Field:** _repo
 **Type:** object

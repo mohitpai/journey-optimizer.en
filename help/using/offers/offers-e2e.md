@@ -11,7 +11,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
-## Main steps
+## Main steps {#main-steps}
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
