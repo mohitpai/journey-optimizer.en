@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 ---
-# Send a message to the subscribers of a list
+# Send a message to the subscribers of a list{#send-a-message-to-the-subscribers-of-a-list}
 
 The purpose of this use case is to create a journey to send a message to the subscribers of a list.
 
