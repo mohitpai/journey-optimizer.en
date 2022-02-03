@@ -17,6 +17,7 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 * You cannot add attachments to an email with [!DNL Journey Optimizer].
 * Email BCC is not supported in [!DNL Journey Optimizer].
+* You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
 ## Limitations in journeys {#limitations-journeys}
 
