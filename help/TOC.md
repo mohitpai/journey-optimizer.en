@@ -23,25 +23,25 @@ solution: Journey Optimizer
   + [User interface](using/start/user-interface.md)
   + [Limitations](using/start/limitations.md)
 + Messages {#messages}
-  + [Get started with messages](using/get-started-content.md)
+  + [Get started with messages](using/messages/get-started-content.md)
   + Create messages {#create-message}
-    + [Create a message](using/create-message.md)
-    + [Create an email](using/create-email.md)
-    + [Create a push notification](using/create-push.md)
-    + [Create an SMS message](using/create-sms.md)
-  + [Add and manage assets](using/assets-essentials.md)
-  + [Add personalized offers](using/deliver-personalized-offers.md)  
+    + [Create a message](using/messages/create-message.md)
+    + [Create an email](using/messages/create-email.md)
+    + [Create a push notification](using/messages/create-push.md)
+    + [Create an SMS message](using/messages/create-sms.md)
+  + [Add and manage assets](using/messages/assets-essentials.md)
+  + [Add personalized offers](using/messages/deliver-personalized-offers.md)  
   + Design emails {#email-designer} 
-    + [Get started with email design](using/design-emails.md)
-    + [Design your email content in the UI](using/create-email-content.md)
-    + [Import or code your email content](using/existing-content.md)
-    + [Use email designer content components](using/content-components.md)
-  + [Add links and track messages](using/message-tracking.md)
+    + [Get started with email design](using/messages/design-emails.md)
+    + [Design your email content in the UI](using/messsages/create-email-content.md)
+    + [Import or code your email content](using/messages/existing-content.md)
+    + [Use email designer content components](using/messages/content-components.md)
+  + [Add links and track messages](using/messages/message-tracking.md)
   + Validate and publish {#validate}
-    + [Preview and proofs](using/preview.md)
-    + [Check alerts](using/alerts.md)
-    + [Publish messages](using/publish-manage-message.md)
-  + [Manage opt-out](using/consent.md)
+    + [Preview and proofs](using/messages/preview.md)
+    + [Check alerts](using/messages/alerts.md)
+    + [Publish messages](using/messages/publish-manage-message.md)
+  + [Manage opt-out](using/messages/consent.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
@@ -191,7 +191,7 @@ solution: Journey Optimizer
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
-  + [Message monitoring](using/message-monitoring.md)
+  + [Message monitoring](using/messages/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
@@ -214,9 +214,9 @@ solution: Journey Optimizer
         + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
-    + [Get started with deliverability](using/deliverability.md)
-    + [Suppression list](using/suppression-list.md)
-    + [Allowed list](using/allow-list.md)
+    + [Get started with deliverability](using/messages/deliverability.md)
+    + [Suppression list](using/messages/suppression-list.md)
+    + [Allowed list](using/messages/allow-list.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
@@ -313,8 +313,8 @@ solution: Journey Optimizer
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}
     + Push notification configuration{#push-config}
-      + [Get started with push configuration](using/push-gs.md)
-      + [Configure push notification channel](using/push-configuration.md)
+      + [Get started with push configuration](using/messages/push-gs.md)
+      + [Configure push notification channel](using/messages/push-configuration.md)
     + Email configuration {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)

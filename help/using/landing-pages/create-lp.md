@@ -135,7 +135,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](../assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../messages/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
@@ -198,7 +198,7 @@ Once your landing page is ready, you can publish it to make it available for use
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
+It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../messages/create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
 
 >[!NOTE]
 >

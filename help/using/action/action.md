@@ -17,7 +17,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 
 Actions are connections through which you deliver personalized, real-time experiences to customers such as push notifications, email, SMS, or any other means of digital engagement you use in your business.
 
-[!DNL Journey Optimizer] comes with built-in message capability. Refer to [this section](../get-started-content.md).
+[!DNL Journey Optimizer] comes with built-in message capability. Refer to [this section](../messages/get-started-content.md).
 
 If you have Adobe Campaign v7 or v8, an integration is available upon request. Refer to [this page](../action/acc-action.md).
 

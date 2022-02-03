@@ -44,7 +44,7 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL External link]**: Insert a link to an external URL.
 
-    * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](landing-pages/get-started-lp.md)
+    * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
     * **[!UICONTROL Unsubscription link]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
 
@@ -54,7 +54,7 @@ To insert links into your email content, follow the steps below:
 
     ![](assets/message-tracking-links.png)
 
-1. You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md#perso-urls).
+1. You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md#perso-urls).
 
 1. Save your changes.
 
@@ -109,7 +109,7 @@ To add an opt-out link in your email, follow the steps below.
 
     ![](assets/message-tracking-opt-out-confirmation.png)
 
-    You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md).
+    You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md).
 
 1. Save your changes.
 
@@ -141,4 +141,4 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
 
 The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](message-monitoring.md).
 
-Reporting on openings and clicks is available in the [Email Live report](reports/email-live-report.md) and in the [Email Global report](reports/email-global-report.md).
+Reporting on openings and clicks is available in the [Email Live report](../reports/email-live-report.md) and in the [Email Global report](../reports/email-global-report.md).

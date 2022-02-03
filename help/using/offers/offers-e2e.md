@@ -219,7 +219,7 @@ The detailed steps to create and configure a decision are described in [this sec
 
 Now that your decision is live, you can insert it into an email message. To do so, follow the steps below:
 
-1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
+1. Create your email, then open the [Email Designer](../../using/messages/design-emails.md) to configure its content.
 
 1. Add a structure component from the left palette.
 
@@ -255,13 +255,13 @@ After saving your changes and once the message is published, your offers are rea
 
 >[!NOTE]
 >
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/messages/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
 
 **Related topics:**
 
-* Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).
+* Learn how to check the message preview in [this section](../../using/messages/preview.md#preview-your-messages).
 
-* Learn how to publish messages in [this section](../../using/publish-manage-message.md).
+* Learn how to publish messages in [this section](../../using/messages/publish-manage-message.md).
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
 

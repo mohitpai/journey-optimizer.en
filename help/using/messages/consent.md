@@ -41,7 +41,7 @@ To add an unsubscribe link, follow the steps below:
 
 1. Host it on the third-party system of your choice.
 
-1. [Create a message](../../help/using/create-message.md) in [!DNL Journey Optimizer].
+1. [Create a message](create-message.md) in [!DNL Journey Optimizer].
 
     <!--The link to your landing page should contain a static URL and the profile ID.-->
 
@@ -59,13 +59,13 @@ To add an unsubscribe link, follow the steps below:
 
 1. Click **[!UICONTROL Save]**.
 
-1. Save your content and [publish your message](../../help/using/publish-manage-message.md).
+1. Save your content and [publish your message](publish-manage-message.md).
 
     >[!NOTE]
     >
     >Your third-party landing page URL will include three parameters that will be used to update the profiles' preferences through an Adobe I/O call.​ [Learn more in this section](#consent-service-api).
 
-1. Send your message with the link to your landing page through a [journey](building-journeys/journey.md).
+1. Send your message with the link to your landing page through a [journey](../building-journeys/journey.md).
 
 1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
 
@@ -139,7 +139,7 @@ As many customers look for an easier process to unsubscribe, you can also add a 
 
 Learn how to add an opt-out link to your message content in [this section](message-tracking.md#one-click-opt-out-link).
 
-Once your message is sent through a [journey](building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
+Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
 ## Unsubscribe link in header {#unsubscribe-email}
 

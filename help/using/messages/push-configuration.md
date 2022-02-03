@@ -347,9 +347,9 @@ Your event will be triggered and you will receive your push notification to your
 
 Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a message preset to be able to send push notifications from **[!DNL Journey Optimizer]**.
 
-Learn how to create and configure a message preset in [this section](configuration/message-presets.md).
+Learn how to create and configure a message preset in [this section](../configuration/message-presets.md).
 
 You are now ready to send push notifications with Journey Optimizer.
 
 * Learn how to create a push message in [this page](create-push.md).
-* Learn how to send add a message in a journey in [this section](building-journeys/journeys-message.md).
+* Learn how to send add a message in a journey in [this section](../building-journeys/journeys-message.md).

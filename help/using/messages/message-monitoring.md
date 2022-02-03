@@ -15,13 +15,13 @@ To access this list, from the **[!DNL Journey Optimizer]** home page, select **[
 
 This tab provides two views: **[!UICONTROL Live view]** and **[!UICONTROL Global view]**.
 
-* The **[!UICONTROL Live view]** tab provides a **real-time overview of all the executed messages** triggered by one or more [journeys](building-journeys/journey.md) **over the last 24 hours only**.
+* The **[!UICONTROL Live view]** tab provides a **real-time overview of all the executed messages** triggered by one or more [journeys](../building-journeys/journey.md) **over the last 24 hours only**.
 
   ![](assets/message-execution-tab-live.png)
 
   This list auto-refreshes every sixty seconds. If no execution occurred in the last 24 hours for a specific message, all columns will display null values (0) for that message.
 
-* The **[!UICONTROL Global view]** tab provides an **overview of all the executed messages** triggered by one or more [journeys](building-journeys/journey.md) **since the message start date**.
+* The **[!UICONTROL Global view]** tab provides an **overview of all the executed messages** triggered by one or more [journeys](../building-journeys/journey.md) **since the message start date**.
 
   ![](assets/message-execution-tab-global.png)
 
@@ -45,7 +45,7 @@ By default, the messages are displayed starting from the most recent execution d
 
 ![](assets/message-execution-tab-filters.png)
 
-The <!--**[!UICONTROL Quick action]**-->second column enables to open the corresponding [message](create-message.md) and to access the [Live Report](reports/live-report.md) if you are in the **[!UICONTROL Live view]**, or the [Global Report](reports/global-report.md) if you are in the **[!UICONTROL Global view]**.
+The <!--**[!UICONTROL Quick action]**-->second column enables to open the corresponding [message](create-message.md) and to access the [Live Report](../reports/live-report.md) if you are in the **[!UICONTROL Live view]**, or the [Global Report](../reports/global-report.md) if you are in the **[!UICONTROL Global view]**.
 
 ![](assets/message-execution-open-live-report.png)
 

@@ -21,11 +21,11 @@ Once your message has been created, you can publish it to make it available for 
 
 Once your message is published, it is added to the message list with the **[!UICONTROL Published]** status.
 
-It is now ready to be triggered by one or more [journeys](building-journeys/journey.md).
+It is now ready to be triggered by one or more [journeys](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more on offers](offers/get-started/starting-offer-decisioning.md)
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more on offers](../offers/get-started/starting-offer-decisioning.md)
 
 ## Update a read-only message {#modify-message}
 

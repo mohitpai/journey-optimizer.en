@@ -35,7 +35,7 @@ Use the **[!UICONTROL Code your own]** mode to can import raw HTML and/or code y
 
 1. Enter or paste your raw HTML code. 
 
-1. Use the left pane to leverage [!DNL Journey Optimizer] personalization capabilities. For more on this, refer to [this section](personalization/personalize.md).
+1. Use the left pane to leverage [!DNL Journey Optimizer] personalization capabilities. For more on this, refer to [this section](../personalization/personalize.md).
 
     ![](assets/code-editor.png)
 

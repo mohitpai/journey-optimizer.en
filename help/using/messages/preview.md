@@ -9,7 +9,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 ---
 # Preview and test your messages{#preview-and-proof}
 
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data.
+Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data.
 
 To detect possible errors in email content or personalization settings, send proofs to test profiles. A proof should be sent each time a change is made, to validate latest content. 
 
@@ -17,7 +17,7 @@ To detect possible errors in email content or personalization settings, send pro
 >
 >You need to have test profiles available to be able to preview your messages and send proofs. 
 >
->Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
+>Learn how to create test profiles in [this page](../building-journeys/creating-test-profiles.md). 
 
 To test your message content, you need to:
 
@@ -30,7 +30,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 
 >[!CAUTION]
 >
->When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
+>When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](../personalization/personalization-use-case.md).
 
 ➡️ [Learn how to preview, proof, and publish your email in this video](#video-preview)
 
@@ -43,7 +43,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Email rendering"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Preview"
 
-Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
+Use [Test profiles](../building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
 
 To select test profiles, follow the steps below: 
 
@@ -55,7 +55,7 @@ To select test profiles, follow the steps below:
 
     ![](assets/previewselect-namespace.png)
 
-    Learn more about Adobe Experience Platform identity namespaces [in this section](start/get-started-identity.md){target="_blank"}.
+    Learn more about Adobe Experience Platform identity namespaces [in this section](../start/get-started-identity.md).
     
     In the example below, we will use the **Email** namespace.
 

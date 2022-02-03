@@ -13,9 +13,9 @@ In [!DNL Journey Optimizer] email messages, you can insert decisions (previously
 
 For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
-For more on how to create and manage offers, refer to [this section](offers/get-started/starting-offer-decisioning.md).
+For more on how to create and manage offers, refer to [this section](../offers/get-started/starting-offer-decisioning.md).
 
-For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
+For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Learn how to add offers as personalization in this video](#video-offers)
 
@@ -23,7 +23,7 @@ For a **full end-to-end example** showing how to configure offers, use them in a
 
 >[!CAUTION]
 >
->Before starting, you must [define an offer decision](offers/offer-activities/create-offer-activities.md).
+>Before starting, you must [define an offer decision](../offers/offer-activities/create-offer-activities.md).
 
 To insert a decision into an email message, follow the steps below:
 
@@ -41,7 +41,7 @@ To insert a decision into an email message, follow the steps below:
 
 1. In the window that displays, select the placement corresponding to the offers that you want to display.
 
-    [Placements](offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
+    [Placements](../offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
 
 1. Select the offer activity to use in the content component, then click **[!UICONTROL Add]**.
 
@@ -68,13 +68,13 @@ To display the different offers that are part of the decision with a customer pr
 
     >[!NOTE]
     >
-    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](building-journeys/creating-test-profiles.md).
+    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
 
 1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
 
     >[!NOTE]
     >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](start/get-started-identity.md).
+    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../start/get-started-identity.md).
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 

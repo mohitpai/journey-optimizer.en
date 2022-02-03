@@ -67,9 +67,9 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](personalization/personalize.md).
+    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
 
-1. For a better user experience, you can add personalization fields to target your audience. For more on this, refer to this [section](personalization/personalize.md).
+1. For a better user experience, you can add personalization fields to target your audience. For more on this, refer to this [section](../personalization/personalize.md).
 
 1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
 
@@ -177,5 +177,5 @@ Use the **[!UICONTROL Offer decision]** component to insert decisions (previousl
 
 Related topics:
 
-* [Get started with Decision Management](offers/get-started/starting-offer-decisioning.md).
+* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md).
 * [Add personalized offers into messages](deliver-personalized-offers.md).

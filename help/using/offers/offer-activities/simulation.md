@@ -57,7 +57,7 @@ First you need to select the test profiles that you are going to use for simulat
 
 1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Add decision scopes
 

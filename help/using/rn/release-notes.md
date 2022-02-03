@@ -31,14 +31,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
 <th><strong>Journeys - Read segment improvement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
 <p>The <strong>Incremental read</strong> option has been added to recurring <strong>Read Segment</strong> activities. This option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
@@ -48,22 +46,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### Improvements
 
-<!--
-**Performances**
-* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
--->
-
 **Journeys**
 
 * Journey Optimizer step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../reports/sharing-overview.md#integration-cja)
 
-<!--
-* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
--->
 
 **Offer Decisioning**
-
-<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
 
 * When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](../offers/offers-e2e.md#insert-decision-in-email)
 
@@ -74,22 +62,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Personalization**
 
 * **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](../personalization/personalize.md#fav)
-
-<!--
-
-**Reporting**
-
-* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
-* Deliveries can now be filtered depending on their status:
-
-    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
-    * From your Live/Global reports, you can choose to exclude journey test events.
-
-    [Learn more](../message-monitoring.md)
-
-* From your reports, you can now see if the [Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
-
--->
 
 ## November 2021 Release {#november-2021-release}
 
@@ -112,22 +84,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 
 ## October 2021 Release {#oct-2021-release}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="../building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### New capabilities 
 
@@ -180,7 +136,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Reporting**
 
 * **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](../message-monitoring.md)
-<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
+
 
 **Administration**
 
@@ -219,7 +175,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <td>
 <p>New metrics are available in reporting: Targeted and Excluded for email & push messages are visible in both live and global reports. </br> To have access to the latest metrics, please note that you will have to reset the different reporting dashboards for each channel and reporting type. For more information on dashboard customization, refer to the <a href="../reports/live-report.md">detailed documentation.</a></p>
 <p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
-<p>For more information, refer to the <a href="../message-monitoring.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../messages/message-monitoring.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -346,25 +302,6 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Customer Alerts</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now subscribe to event-based alerts regarding Adobe Journey Optimizer activities. The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules.</p>
-<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
-</p>
-<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Adobe Experience Platform documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 ### Improvements
 
@@ -381,8 +318,8 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Content Design**
 
-* **Background** - Background images are now supported in live preview. [Learn more](../preview.md)
-* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+* **Background** - Background images are now supported in live preview. [Learn more](../messages/preview.md)
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 **Personalization**
 
@@ -456,9 +393,9 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Preview and test messages**
 
-* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../preview.md#preview-your-messages)
+* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../messages/preview.md#preview-your-messages)
 * The number of test emails for proofs is now restricted to 10.
-* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../preview.md#send-proofs)
+* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../messages/preview.md#send-proofs)
 
 **Personalization expression editor**
 

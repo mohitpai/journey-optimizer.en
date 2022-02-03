@@ -35,7 +35,7 @@ The email **[!UICONTROL Global report]** is divided into different widgets detai
 
 * **[!UICONTROL Spam Complaint Rate]**: Percentage of emails that were marked as spam by recipients compared to the delivered messages. For more information on complaints, refer to the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target="_blank"}.
 
-* **[!UICONTROL Unsubscribe Rate]**: Percentage of unique unsubscriptions compared to the number of delivered messages. This indicator does not rely on the number of clicks on the unsubscription link but is based on the number of unsubscriptions initiated by recipients. Learn more about unsubscriptions in this [page](../consent.md).
+* **[!UICONTROL Unsubscribe Rate]**: Percentage of unique unsubscriptions compared to the number of delivered messages. This indicator does not rely on the number of clicks on the unsubscription link but is based on the number of unsubscriptions initiated by recipients. Learn more about unsubscriptions in this [page](../messages/consent.md).
 
 The **[!UICONTROL Email - Tracking statistics]** contains the available data for recipient activity for your delivery:
 
@@ -69,7 +69,7 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as out of office, or a technical error, for example if the sender type is postmaster.
 
-For more information on bounces, refer to the [Suppression list](../suppression-list.md) page.
+For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
@@ -116,4 +116,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >The profiles with **[!UICONTROL Suppressed]** or **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
->Learn more on the [Suppression list](../suppression-list.md) and [Allowed list](../allow-list.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>Learn more on the [Suppression list](../messages/suppression-list.md) and [Allowed list](../allow-list.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.

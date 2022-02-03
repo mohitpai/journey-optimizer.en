@@ -31,26 +31,26 @@ Email addresses are added to the suppression list as follows:
 
 * All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** <!--and temporary **ignored** errors--> do not immediately send an email address to the suppression list, but they increment an error counter. Several [retries](configuration/retries.md) are then performed, and when the error counter reaches the threshold, the address is added to the suppression list.
+* **Soft bounces** <!--and temporary **ignored** errors--> do not immediately send an email address to the suppression list, but they increment an error counter. Several [retries](../configuration/retries.md) are then performed, and when the error counter reaches the threshold, the address is added to the suppression list.
 
-* You can also [**manually** add an address or a domain](configuration/manage-suppression-list.md#add-addresses-and-domains) to the suppression list.
+* You can also [**manually** add an address or a domain](../configuration/manage-suppression-list.md#add-addresses-and-domains) to the suppression list.
 
 Learn more on hard bounces and soft bounces in [this section](#delivery-failures).
 
 >[!NOTE]
 >
->Unsubscribed users' addresses cannot be sent to the suppression list as they are not receiving emails from [!DNL Journey Optimizer]. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../using/consent.md).
+>Unsubscribed users' addresses cannot be sent to the suppression list as they are not receiving emails from [!DNL Journey Optimizer]. Their choice is handled at the Experience Platform level. Learn more on [opting-out](consent.md).
 <!--Email addresses of recipients who **unsubscribe** from your sendings are NOT sent to the suppression list. Confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
-For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing the suppression list in [this section](configuration/manage-suppression-list.md).
+For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing the suppression list in [this section](../configuration/manage-suppression-list.md).
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
->Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>Learn more on the [Live Report](../reports/live-report.md) and [Global Report](../reports/global-report.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### Delivery failures {#delivery-failures}
 
@@ -62,7 +62,7 @@ There are two types of errors when a delivery fails:
 
 A **hard bounce** automatically adds the email address to the suppression list.
 
-A **soft bounce** <!--or an **ignored** error--> that occurs too many times also sends the email address to the suppression list after several retries. [Learn more on retries](configuration/retries.md)
+A **soft bounce** <!--or an **ignored** error--> that occurs too many times also sends the email address to the suppression list after several retries. [Learn more on retries](../configuration/retries.md)
 
 If you continue sending to these addresses, it may affect your delivery rates, because it tells ISPs that you may not be following email address list maintenance best practices, and therefore may not be a trustworthy sender.
 

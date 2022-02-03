@@ -15,7 +15,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 >
 > * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * You must perform Email configuration and [Push configuration](../push-configuration.md) steps before creating message presets.
+> * You must perform Email configuration and [Push configuration](../messages/push-configuration.md) steps before creating message presets.
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 

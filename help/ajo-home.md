@@ -38,7 +38,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">Design an email content</a>
+      <a href="using/messages/design-emails.md">Design an email content</a>
     </div>
     <p>
     Design a new email or import an existing HTML content
@@ -105,7 +105,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/create-message.md">Messages</a>
+      <a href="using/messages/create-message.md">Messages</a>
     </li>
     <p>
     <p>DECISION MANAGEMENT</p>
@@ -118,7 +118,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONTENT MANAGEMENT</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/messages/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>DATA MANAGEMENT</p>

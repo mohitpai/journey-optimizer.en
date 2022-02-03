@@ -87,7 +87,7 @@ To start building your email content with the email designer, follow the steps b
     >
     >Learn more about links and message tracking in [this page](message-tracking.md).
 
-1. If needed, you can switch to code editor to further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. For more information on the code editor, refer to this [page](existing-content.md#import-raw-html-code).
+1. If needed, you can switch to code editor to further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. For more information on the code editor, refer to [this page](existing-content.md#import-raw-html-code).
 
     >[!NOTE]
     >
@@ -97,7 +97,7 @@ To start building your email content with the email designer, follow the steps b
 
 1. Click **[!UICONTROL Show preview]** to check your email rendering. You can choose the desktop or mobile view.
 
-    For more information on how preview your email, refer to [Preview and test your messages](preview.md).
+    For more information on how preview your email, refer to [this page](preview.md).
 
     ![](assets/email_designer_8.png)
 

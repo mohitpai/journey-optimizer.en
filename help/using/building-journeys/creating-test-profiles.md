@@ -9,7 +9,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 ---
 # Create test profiles {#create-test-profiles}
 
-Test profiles are required when using the test mode To learn how to use the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../preview.md).
+Test profiles are required when using the test mode To learn how to use the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../messages/preview.md).
 
 Available methods to create test profiles are detailed below:
 

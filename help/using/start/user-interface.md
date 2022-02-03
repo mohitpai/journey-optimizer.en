@@ -40,7 +40,7 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../create-message.md)
+* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../messages/create-message.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -50,7 +50,7 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../messages/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
