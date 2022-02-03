@@ -1,17 +1,6 @@
 ---
 title: Permission levels
 description: Learn about high and low level permissions
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
