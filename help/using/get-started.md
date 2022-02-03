@@ -23,7 +23,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 ➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
 
 
-## Use cases
+## Use cases {#use-cases}
 
 * Marketers can use [!DNL Adobe Journey Optimizer] to send both individualized communications as well as audience-based batch communications. For example, a clothing store typically sends post-purchase surveys to all customers who have purchased products in the last week. Due to inclement weather, a few shipments experienced delays. Seeing which customers have not received their shipments, the clothing store can exclude them from the scheduled customer satisfaction send and instead send a personalized email apologizing for the delay and offering a discount code with product recommendations based on the customer’s past purchases.
     
@@ -31,7 +31,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 
 * Non-marketers such as operations teams and customer support who are engaged in the customer experience can use [!DNL Adobe Journey Optimizer] to manage a variety of tasks such as operational notifications or even to monitor the onboarding process. Take for example, an amusement park where park visitors download a mobile app as part of their park experience. Maintenance staff can use [!DNL Adobe Journey Optimizer] to notify park visitors of rides that are currently closed due to maintenance.
 
-## Key capabilities 
+## Key capabilities {#key-capabilities}
 
 [!DNL Adobe Journey Optimizer] is an agile and scalable application for creating and delivering personalized, connected, and timely customer experiences across any app, device, or channel. 
 
@@ -45,7 +45,7 @@ Key capabilities include:
 
 * **Intelligent Decisioning & Personalization** – Brands can apply centralized decisioning and incorporate artificial intelligence and machine learning to surface predictive insights throughout the customer experience, making it easier to automate decisions and optimize the experience at scale. Offer Decisioning powers centralized offers across channels at scale through [!DNL Adobe Journey Optimizer].
 
-## Architecture
+## Architecture {#architecture}
 
 Understand the basic architecture of [!DNL Adobe Journey Optimizer], the points of integration, and the relationship of [!DNL Journey Optimizer] with other Adobe applications.
 

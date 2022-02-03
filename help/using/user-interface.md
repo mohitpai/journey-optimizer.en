@@ -1,6 +1,6 @@
 ---
 title: User Interface
-description: Journey Optimizer User Interface
+description: Learn more about Journey Optimizer User Interface
 feature: Overview
 topic: Content Management
 role: User
@@ -20,7 +20,7 @@ Components and capabilities available in the user interface depend on your [perm
 >This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
-## Left navigation
+## Left navigation {#left-nav}
 
 Use the links on the left to browse capabilities.
 
@@ -84,7 +84,7 @@ You can find below the full list of services and capabilities available in the l
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
 -->
 
-## In-product use cases
+## In-product use cases {#in-product-uc}
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
 
@@ -236,7 +236,7 @@ You can use these shortcuts in specific parts of Journey Optimizer:
   </tr>
 </table>
 
-## Find help and support
+## Find help and support {#find-help}
 
 Access Adobe Journey Optimizer key help pages from the lower section of the home page.
 
@@ -244,11 +244,11 @@ Use the **Help** icon to access help pages, contact support and share feedback. 
 
 ![](assets/ajo-help.png)
 
-## Supported browsers
+## Supported browsers {#browsers}
 
 Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 
-## Language preferences
+## Language preferences {#language-pref}
 
 User interface is currently available in the following languages:
 

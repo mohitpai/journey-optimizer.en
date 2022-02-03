@@ -13,21 +13,21 @@ Entitlements, product limitations and performance guardrails are listed in[ Adob
 
 You will find below additional limitations when using [!DNL Adobe Journey Optimizer].
 
-## Limitations in messages
+## Limitations in messages {#limitations-messages}
 
 * You cannot add attachments to an email with [!DNL Journey Optimizer].
 * Email BCC is not supported in [!DNL Journey Optimizer].
 
-## Limitations in journeys
+## Limitations in journeys {#limitations-journeys}
 
-### General actions
+### General actions {#general-actions}
 
 * There is no sending throttling. 
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
 * The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
 * You cannot place two actions in parallel, you must add them one after the other.
 
-### Message action
+### Message action {#message-action}
 
 * When you add a multichannel message, two messages will be sent.
 
@@ -39,7 +39,7 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Segment** cannot start with another event in next versions.
  
-### Custom actions
+### Custom actions {#custom-actions}
 
 * The custom action URL does not support dynamic parameters. 
 * Only POST and PUT call methods are supported. 
@@ -47,11 +47,11 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 * IP addresses are not allowed. 
 * Internal Adobe addresses (.adobe.) are not allowed.
  
-### Events
+### Events {#events}
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
  
-### Data sources
+### Data sources {#data-sources}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
@@ -67,6 +67,6 @@ You can choose from one of these two solutions:
 
 * Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
 
-### Read segment
+### Read segment {#read-segment}
 
 * Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.

@@ -1,6 +1,6 @@
 ---
 title: Personalization use case&colon; cart abandonment email
-description: Learn how to personalize a message using helper functions.
+description: Learn how to personalize the body of an email message through a use case.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -312,15 +312,15 @@ The cart content is contextual information from the journey. Therefore, you must
 1. Verify that there is no error, then publish the journey.
 
 
-## Related topics
+## Related topics {#related-topics}
 
-### Handlebars functions
+### Handlebars functions {#handlebars}
 
 * [Helpers](functions/helpers.md)
 
 * [String functions](functions/string.md)
 
-### Use cases
+### Use cases {#use-case}
 
 * [Personalization with profile information, context, and offer](personalization-use-case.md)
 

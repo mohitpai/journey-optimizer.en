@@ -4,7 +4,7 @@ description: As a System Administrator, learn more how to work with Journey Opti
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 ---
-# Get Started for System Administrators
+# Get Started for System Administrators {#get-started-sys-admins}
 
 ![administrator](assets/do-not-localize/user-2.png) 
 

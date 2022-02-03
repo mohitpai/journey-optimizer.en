@@ -1,5 +1,5 @@
 ---
-title: Personalization syntax
+title: Personalization contexts
 description: Learn more about the ways you can personalize the content and display of your messages. 
 feature: Personalization
 topic: Personalization
@@ -15,7 +15,7 @@ In every fields with the editor icon, you can open the personalization editor (a
 
 ![](assets/perso_icon.png)
 
-## Personalize your emails
+## Personalize your emails {#personalize-emails}
 
 When you create an email, you can add personalization in the **[!UICONTROL Subject line]** field of the message.
 
@@ -35,7 +35,7 @@ In both cases, you access the personalization editor.
 
 ![](assets/perso_ee.png)
 
-## Personalize your push notifications
+## Personalize your push notifications {#personalize-push}
 
 You can also personalize your **Push notifications** in the following fields:
 
