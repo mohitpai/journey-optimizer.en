@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 ---
-# Operators {#concept_wd5_pj5_dgb}
+# Operators {#operators}
 
 There are two kinds of operators: unary operators and binary operators. There are left-hand unary operators and right-hand unary operators.
 

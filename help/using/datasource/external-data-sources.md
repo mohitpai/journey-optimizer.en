@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
-# External data sources {#concept_t2s_kqt_52b}
+# External data sources {#external-data-sources}
 
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
@@ -47,7 +47,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#custom-authentication-mode). In our example, we choose:
 
     * **[!UICONTROL Type]**: "API key"
     * **[!UICONTROL Name]**: "appid" (this is the API key parameter name)
@@ -81,7 +81,7 @@ Click **[!UICONTROL Save]**.
 
 The data source is now configured and ready to be used in your journeys, for example in your conditions or to personalize an email. If the temperature is above 30°C, you can decide to send a specific communication.
 
-## Custom authentication mode{#section_wjp_nl5_nhb}
+## Custom authentication mode{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

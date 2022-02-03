@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 ---
-# Additional steps to send events {#concept_xrz_n1q_y2b}
+# Additional steps to send events {#additional-steps-to-send-events}
 
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Optimizer], you need to follow these steps:
 

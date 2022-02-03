@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 ---
-# Journey versions{#concept_ldc_k55_zgb}
+# Journey versions{#journey-versions}
 
 In the journey list, all journey versions are displayed with the version number. See [this page](../building-journeys/using-the-journey-designer.md). 
 

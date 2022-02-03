@@ -278,7 +278,7 @@ Press **Enter** to access all results and filter by business object.
 
 ![](assets/search-and-filter.png)
 
-## Filter lists{#section_lgm_hpz_pgb}
+## Filter lists{#filter-lists}
 
 In most of the lists, a search bar allows you to search for a specific item and select filtering criteria.
 

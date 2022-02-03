@@ -43,7 +43,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The dateOnly date type has been added in the expression editor documentation. [Read more](building-journeys/expression/data-types.md)
 
-* Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#custom-authentication-mode)
 
 * Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md#url-configuration)
 
