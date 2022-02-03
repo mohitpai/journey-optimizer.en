@@ -18,7 +18,7 @@ In [!DNL Adobe Journey Optimizer], **Identities** link consumers across devices 
 
 Learn more about **Identity Service** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
 
-## Identity namespaces
+## Identity namespaces {#identity-namespaces}
 
 **Identity namespaces** are a component of Identity Service that serve as indicators of the context to which an identity relates. For example, they distinguish a value of `name@email.com` as an email address or `443522` as a numeric CRM ID. Working with identity namespaces requires an understanding of the various Adobe Experience Platform services involved. Before beginning to work with namespaces, please review the documentation for the following services:
 
