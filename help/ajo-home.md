@@ -137,7 +137,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONNECTIONS</p>
     <li>
-      <a href="using/get-started-sources.md">Sources</a>
+      <a href="using/start/get-started-sources.md">Sources</a>
     </li>
     <p>
     <p>CUSTOMER</p>
