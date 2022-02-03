@@ -114,7 +114,7 @@ To define specific content that will enable users to select and submit their cho
 
     ![](../assets/lp_designer-form-style-buttons.png)
 
-    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test).
+    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
 
     ![](../assets/lp_designer-form-style-buttons-preview.png)
 
