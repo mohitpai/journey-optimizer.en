@@ -1,6 +1,6 @@
 ---
 title: Access the exported offer catalog
-description: Learn how to access the offer catalog on Adobe Experience Platform once it has been exported.
+description: Learn how to access the offer catalog on Adobe Experience Platform once it has been exported
 feature: Offers
 topic: Integrations
 role: User

@@ -1,6 +1,6 @@
 ---
 title: Grant access to Offer Decisioning
-description: Learn how to manage users' permissions for the Offers Decisioning service via Adobe Admin Console.
+description: Learn how to manage users' permissions for the Offers Decisioning service via Adobe Admin Console
 feature: Offers
 topic: Integrations
 role: User

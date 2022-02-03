@@ -1,6 +1,6 @@
 ---
 title: Personalized offers dataset
-description: This section lists all the fields used in the exported dataset for offers.
+description: This section lists all the fields used in the exported dataset for offers
 feature: Offers
 topic: Integrations
 role: User

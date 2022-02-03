@@ -1,6 +1,6 @@
 ---
 title: Create decision rules
-description: Learn how to create decision rules in Adobe Experience Platform.
+description: Learn how to create decision rules to define to whom offers can be displayed
 feature: Offers
 topic: Integrations
 role: User

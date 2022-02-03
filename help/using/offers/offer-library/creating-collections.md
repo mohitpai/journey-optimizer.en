@@ -1,6 +1,6 @@
 ---
 title: Create collections
-description: Learn how to organize offers using collections.
+description: Learn how to organize offers using collections
 feature: Offers
 topic: Integrations
 role: User

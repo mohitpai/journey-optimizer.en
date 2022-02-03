@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Create ranking strategies
-description: Learn how to create ranking strategies in Adobe Experience Platform.
+description: Learn how to create AI models to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate

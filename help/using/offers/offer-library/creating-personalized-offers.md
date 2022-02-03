@@ -1,6 +1,6 @@
 ---
 title: Create personalized offers
-description: Learn how to create personalized offers in Adobe Experience Platform.
+description: Learn how to create, configure and manage your offers
 feature: Offers
 topic: Integrations
 role: User

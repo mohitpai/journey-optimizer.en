@@ -1,6 +1,6 @@
 ---
 title: Configure offers selection in decisions
-description: Learn how to manage offers selection into decisions.
+description: Learn how to manage offers selection into decisions
 feature: Offers
 topic: Integrations
 role: User
