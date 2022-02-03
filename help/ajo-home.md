@@ -26,7 +26,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>Discover key features and use cases
     <p>
     <div>
-      <a href="using/release-notes.md">Release notes</a>
+      <a href="using/rn/release-notes.md">Release notes</a>
     </div>
     <p>New capabilities, latest improvements and fixes
    <p>

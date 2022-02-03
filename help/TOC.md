@@ -10,8 +10,8 @@ solution: Journey Optimizer
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
-  + [Release notes](using/release-notes.md)
-  + [Latest updates](using/documentation-updates.md)
+  + [Release notes](using/rn/release-notes.md)
+  + [Latest updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + Quick Start{#quick-start}
