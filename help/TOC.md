@@ -33,7 +33,7 @@ solution: Journey Optimizer
   + [Add personalized offers](using/messages/deliver-personalized-offers.md)  
   + Design emails {#email-designer} 
     + [Get started with email design](using/messages/design-emails.md)
-    + [Design your email content in the UI](using/messsages/create-email-content.md)
+    + [Design your email content in the UI](using/messages/create-email-content.md)
     + [Import or code your email content](using/messages/existing-content.md)
     + [Use email designer content components](using/messages/content-components.md)
   + [Add links and track messages](using/messages/message-tracking.md)
