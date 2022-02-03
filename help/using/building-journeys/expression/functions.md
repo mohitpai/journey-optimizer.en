@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 ---
-# Functions {#concept_p1r_qj5_dgb}
+# Functions {#functions}
 
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.
 
