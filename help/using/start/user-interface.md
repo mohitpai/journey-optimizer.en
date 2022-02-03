@@ -242,7 +242,7 @@ Access Adobe Journey Optimizer key help pages from the lower section of the home
 
 Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
-![](assets/ajo-help.png)
+![](../assets/ajo-help.png)
 
 ## Supported browsers {#browsers}
 
@@ -261,10 +261,10 @@ Your default interface language is determined by the preferred language specifie
 To change your language:
 
 * Click **Preferences** from your avatar, on the top right.
-    ![](assets/preferences.png)
+    ![](../assets/preferences.png)
 * Then click the language displayed under your email address
 * Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
-    ![](assets/select-language.png)
+    ![](../assets/select-language.png)
 
 ## Search{#unified-search}
 
@@ -272,11 +272,11 @@ Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experienc
 
 Start entering content to display top results. Help articles about the entered keywords also show up in the results.
 
-![](assets/unified-search.png)
+![](../assets/unified-search.png)
 
 Press **Enter** to access all results and filter by business object.
 
-![](assets/search-and-filter.png)
+![](../assets/search-and-filter.png)
 
 ## Filter lists{#filter-lists}
 
