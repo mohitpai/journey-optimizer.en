@@ -1,7 +1,6 @@
 ---
 title: Publish and modify a message
 description: Learn how to publish and update your messages
-snippet: y
 feature: Journeys
 topic: Content Management
 role: User

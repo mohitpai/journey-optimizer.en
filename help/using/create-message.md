@@ -25,7 +25,7 @@ Use the filter icon to display only drafted, published or messages being publish
 
 ![](assets/filter-messages.png)
 
-## Create a new message
+## Create a new message {#create-new-message}
 
 To create a new message, follow the steps below:
 
@@ -70,7 +70,7 @@ To create a new message, follow the steps below:
 
 1. You can now publish your message by clicking the **[!UICONTROL Publish]** button, or keep it as a draft and publish it later on. For more on how to publish messages, refer to [this section](publish-manage-message.md).
 
-## Duplicate a message
+## Duplicate a message {#duplicate-message}
 
 To create a message from an existing one, use the **[!UICONTROL Duplicate]** button from the message interface. All settings and configuration will be copied to the new  message
 

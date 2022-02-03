@@ -19,7 +19,7 @@ Use the dedicated tabs to define the push notification settings for **iOS** and 
 >
 >The **[!UICONTROL Compose Message]** section is common to both the **[!UICONTROL iOS]** and **[!UICONTROL Android]** tabs. Any change in this section will apply to both tabs.
 
-## Title and Body
+## Title and Body {#push-title-body}
 
 To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression Editor to define content and personalization data. Learn more about personalization in the Expression Editor in [this section](personalization/personalize.md)
     
@@ -35,7 +35,7 @@ Select the behavior when a recipient clicks on the body of the push notification
 * Use the **[!UICONTROL Deeplink]** option to redirect the recipient to a specific content located inside the application. Enter the deeplink in the associated field.
 * Use the **[!UICONTROL Web URL]** option to redirect the recipient to an external URL. Enter the URL in the associated field.
 
-## Add media
+## Add media {#add-media-push}
 
 In the iOS version of your push notification, you can add an image, a video or a GIF that will be displayed within your notification.
 
@@ -53,7 +53,7 @@ Two options are available. You can:
 
 Once added, the media displays on the right of the notification body.
 
-## Add buttons 
+## Add buttons {#add-buttons-push}
 
 You can create an actionable notification by adding buttons to your push content. 
 
@@ -71,7 +71,7 @@ Click **[!UICONTROL Expand view]** to preview your personalized buttons.
 
 ![](assets/push_buttons.png)
 
-## Send a silent notification
+## Send a silent notification {#silent-notification}
 
 A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availability of new content or initiate a download in the background.
 
@@ -83,7 +83,7 @@ Use the **[!UICONTROL Custom data]** section to add key-value pairs.
 
 In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-gs.md)
 
-## Advanced options
+## Advanced options {#advanced-options-push}
 
 You can configure **[!UICONTROL Advanced options]** for your push notification. Available parameters are listed below:
 
