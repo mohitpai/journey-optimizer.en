@@ -9,6 +9,10 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 ---
 # Create a push notification {#create-push-notification}
 
+Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install or in a subsequent session or workflow as appropriate. 
+
+[!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
+
 Once you [created a message](create-message.md), click the **[!UICONTROL Push Notification]** tab to define the settings and content of the push notification. 
 
 ![](assets/create-content-push.png)
@@ -17,7 +21,7 @@ Use the dedicated tabs to define the push notification settings for **iOS** and 
 
 >[!NOTE]
 >
->The **[!UICONTROL Compose Message]** section is common to both the **[!UICONTROL iOS]** and **[!UICONTROL Android]** tabs. Any change in this section will apply to both tabs.
+>The **[!UICONTROL Compose Message]** section is common to both the **[!UICONTROL iOS]** and **[!UICONTROL Android]** tabs. Any change in this section will apply to both settings.
 
 ## Title and Body {#push-title-body}
 
@@ -27,13 +31,13 @@ Use the device preview section to visualize how the push notification displays o
 
 ## On click behavior {#on-click-behavior}
 
-Select the behavior when a recipient clicks on the body of the push notification.
+You can select the behavior when a user clicks on the body of the push notification.
 
 ![](assets/title-body-push.png)
 
-* Use the **[!UICONTROL Open app]** option to open the application associated with the message **[!UICONTROL Preset]**.
-* Use the **[!UICONTROL Deeplink]** option to redirect the recipient to a specific content located inside the application. Enter the deeplink in the associated field.
-* Use the **[!UICONTROL Web URL]** option to redirect the recipient to an external URL. Enter the URL in the associated field.
+* To open the app, select the **[!UICONTROL Open app]** option. The app associated with the notification is defined in the message **[!UICONTROL Preset]**. [Learn more](configuration/message-presets.md) about message presets.
+* To redirect the user to a specific piece of content within an app, select the **[!UICONTROL Deeplink]** option.  The specific content can be a specific view, a particular section of a page, or a certain tab. Once the option is selected, enter the deeplink in the associated field.
+* To redirect the user to an external URL, use the **[!UICONTROL Web URL]** option. Once the option is selected, enter the URL in the associated field.
 
 ## Add media {#add-media-push}
 
@@ -45,29 +49,29 @@ In the Android version, you can only add an image icon, and an image for expande
 
 Two options are available. You can:
 
-*  Click on the **[!UICONTROL Add media]** button to select an asset in **[!DNL Adobe Experience Manager Assets Essentials]**.
+*  Use the **[!UICONTROL Add media]** button to select an asset in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
     Learn how to use **[!DNL Adobe Experience Manager Assets Essentials]** in [this page](assets-essentials.md).
     
-* Or enter the URL of the media by clicking on the **[!UICONTROL Add media]** field. In that case, you can add personalization.
+* Or enter the URL of the media in the **[!UICONTROL Add media]** field. In that case, you can add personalization to the URL.
 
 Once added, the media displays on the right of the notification body.
 
 ## Add buttons {#add-buttons-push}
 
-You can create an actionable notification by adding buttons to your push content. 
+Create an actionable notification by adding buttons to your push content. 
 
 If the device screen is locked, these buttons are not displayed: only the the **Title** and the **Message** of the notification are visible. If their device is unlocked, recipients will see the buttons.
 
-In the iOS version, you can add up to 4 buttons. In the Android version, you can add up to 3 buttons.
+In the iOS version, you can add up to four buttons. In the Android version, you can add up to three buttons.
 
 >[!NOTE]
 >
 >For iOS, use the **[!UICONTROL iOS category]** field to associate actions with a notification category.
 
-Click **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
+1. Use the **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
 
-Click **[!UICONTROL Expand view]** to preview your personalized buttons.
+1. Use the **[!UICONTROL Expand view]** icon under the central preview image to preview your personalized buttons.
 
 ![](assets/push_buttons.png)
 
