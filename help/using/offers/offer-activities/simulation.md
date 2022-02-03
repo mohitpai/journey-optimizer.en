@@ -55,6 +55,10 @@ First you need to select the test profiles that you are going to use for simulat
 
     ![](../../assets/offers_simulation-saved-profiles.png)
 
+    >[!NOTE]
+    >
+    >The profiles selected will remain listed as test profiles in the **[!UICONTROL Simulation]** tab from session to session until they are removed using **[!UICONTROL Manage profile]**.
+
 1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
 
 <!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
@@ -189,5 +193,5 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     >[!NOTE]
     >
-    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with valid values.
+    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with valid values. Learn how to retrieve these values in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentation.
 
