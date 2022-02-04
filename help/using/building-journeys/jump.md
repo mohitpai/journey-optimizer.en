@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 ---
-# Jumping from one journey to another {#jump}
+# Jump from one journey to another {#jump}
 
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:
 

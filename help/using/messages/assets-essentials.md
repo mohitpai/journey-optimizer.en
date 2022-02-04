@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
-# Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# Create and manage assets  {#experience-manager-assets}
 
 ## Get started with [!DNL Assets Essentials] {#get-started-assets-essentials}
 
