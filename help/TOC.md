@@ -75,7 +75,7 @@ solution: Journey Optimizer
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
-    + [Test profiles](using/building-journeys/creating-test-profiles.md)  
+    + [Create test profiles](using/building-journeys/creating-test-profiles.md)  
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
     + [Get started with journeys](using/building-journeys/journey-gs.md)

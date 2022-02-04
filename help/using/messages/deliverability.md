@@ -55,18 +55,11 @@ The **[!UICONTROL Executions]** tab of the message list allows you to check how 
 
 To a lesser degree, the content of certain messages may be detected as spam.
 
-<!--The use of certain words or of exclamation points in the subject line and within the messages can be read as signs of spam.
-
-Spammers are also known to replace text with images to stop offending text from being analyzed automatically by anti-spam filters. In response to this, a message (in HTML format) with a high proportion of images, or images as attachments, may end up being blocked.-->
-
 To improve your deliverability rate and make sure that your emails reach your recipients, follow the principles below when designing your message content:
 
 * **Sender name and address**: The address has to explicitly identify the sender. The domain has to be owned by and registered to the sender. The domain registry must not be privatized.
-<!--* **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).
-* **Personalize your email**: Personalizing the email increases the chances of your message being opened.
-* **Images and text**: Respect a decent text/image ratio (for example 60% text and 40% images).-->
+
 * **Unsubscribe link and landing page**: The unsubscribe link is essential. It must be visible and valid, and the form must be functional.
-<!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [Learn more about designing email content](design-emails.md).
 

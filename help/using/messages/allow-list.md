@@ -48,13 +48,9 @@ You can perform the **Add**, **Delete** and **Get** operations.
 >
 >The allowed list can contain up to 1,000 entries.
 
-<!--
-Learn more on making these API calls in the API reference documentation.
-Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+Learn more on making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} reference documentation.
 
 ## Allowed list logic {#logic}
-
-<!-- When the allowed list is enabled (enable-allow-list) at the sandbox level using the API call above, the following applies.-->
 
 When the allowed list is **empty**, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](suppression-list.md).
 

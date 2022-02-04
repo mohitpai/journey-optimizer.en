@@ -41,10 +41,6 @@ In case the default value of 5 does not suit your needs, you can modify the erro
     >
     >Any value higher than 10 may cause deliverability reputation issues, as well as IP throttling or blocklisting by ISPs. [Learn more on deliverability](../messages/deliverability.md)
 
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
-
 ## Retry time period {#retry-duration}
 
 The **retry time period** is the timeframe in which any email message of the delivery that encountered a temporary error or soft bounce will be retried.
@@ -61,6 +57,3 @@ For example, you may set the retry period to 24 hours for a transactional email 
 
 Learn how to adjust the email retry parameters when creating a message preset in [this section](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

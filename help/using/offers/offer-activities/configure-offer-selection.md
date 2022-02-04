@@ -80,6 +80,3 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 If multiple offers are eligible, the trained model system will determine which offer should be presented first for a given placement.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 ---
-# About Adobe Experience Platform segments {#about-segments}
+# Get started with Adobe Experience Platform segments {#about-segments}
 
 [!DNL Journey Optimizer]  allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and leverage them into your journeys.
 
