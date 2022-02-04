@@ -1,16 +1,6 @@
 ---
-title: Delegate subdomains
-description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Add a Google TXT record to a subdomain
+description: Learn how to add a Google TXT record to a subdomain
 feature: Application Settings
 topic: Administration
 role: Admin

@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Create ranking strategies
-description: Learn how to create ranking strategies in Adobe Experience Platform.
+description: Learn how to create AI models to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 ---
 # AI rankings {#ai-rankings}
 
-## Get started with AI rankings
+## Get started with AI rankings {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -122,7 +122,6 @@ You need to create a dataset where conversion events will be collected. Start by
     >[!NOTE]
     >Field group was previously known as mixin.
     >    
-
 
 1. Type a name and save the schema.<!--How do you edit the fields in this new schema? Examples?-->
 

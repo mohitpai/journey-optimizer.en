@@ -11,14 +11,14 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 ---
 # Subscription lists {#create-subscription-list}
 
-## What is a subscription list?
+## What is a subscription list? {#subscription-list-definition}
 
 A subscription service refers to marketing goods and services provided to customers who have opted in to receive communications on a specific subject/event/interest/etc. on an ongoing basis. In [!DNL Journey Optimizer], these opted-in customers are gathered into a subscription list.
 
 A subscription service can be:
 
-* a newsletter, for example: “Running series”
-* an event, for example: “Summit 2021”
+* a newsletter, for example: "Running series"
+* an event, for example: "Summit 2021"
 * a webinar, for example: "Learn more about crypto"
 * an interest on a particular product/sport/service/etc., for example: "Interested to buy a house in the next 12 months"
 * a preference on how to be notified, for example: "Receive new song notifications on email"

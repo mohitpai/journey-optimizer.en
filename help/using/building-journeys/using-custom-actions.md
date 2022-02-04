@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 ---
-# Use custom actions {#section_f2c_hbg_nhb}
+# Use custom actions {#use-custom-actions}
 
 The activity configuration pane shows the URL configuration parameters and the authentication parameters that are configured for the custom action. [Learn more](../action/about-custom-action-configuration.md).
 

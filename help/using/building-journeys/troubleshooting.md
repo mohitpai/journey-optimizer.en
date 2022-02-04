@@ -7,11 +7,11 @@ role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 ---
-# Troubleshooting{#concept_nlv_bcv_2fb}
+# Troubleshoot your journey{#troubleshooting}
 
 In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [this page](../building-journeys/testing-the-journey.md).
 
-## Checking for errors before testing{#section_h3q_kqk_fhb}
+## Check for errors before testing{#checking-for-errors-before-testing}
 
 Before testing and publishing your journey, verify that all the activities are properly configured. You cannot perform tests or publications if errors are still detected by the system.
 
@@ -35,7 +35,7 @@ Errors and warnings that are global to the journey appear first in the list. Err
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
-## Checking that events are properly sent{#section_rqz_11t_dgb}
+## Check that events are properly sent{#checking-that-events-are-properly-sent}
 
 The starting point of a journey is always an event. You can perform tests using tools such as Postman.
 
@@ -43,7 +43,7 @@ You can check if the API call you send through these tools is sent correctly or 
 
 Events are not pushed directly from the source to journeys. Indeed, journeys rely on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} for Streaming ingestion APIs troubleshooting.
 
-## Checking if people enter the journey{#section_x4v_zzs_dgb}
+## Check if people enter the journey{#checking-if-people-enter-the-journey}
 
 Journey reporting measures people's entrances in a journey in real-time.
 
@@ -63,7 +63,7 @@ Here are a few things and administrator should check:
     Content-type - application/json
     ```
 
-## Checking how people navigate through the journey{#section_l5y_yzs_dgb}
+## Check how people navigate through the journey{#checking-how-people-navigate-through-the-journey}
 
 Journey reporting measures the progress of individuals inside a journey. It's easy to identify where and why a person got stopped.
 
@@ -72,7 +72,7 @@ Here are a few things to check:
 * Is it due to a condition excluding the person? For example, the condition is "gender = male" and the person is a woman. This check can be performed by a business user if the condition is not too complex.
 * Is it due to a call to a data source not responding? When the journey is in test, this information can be seen in test mode logs. When the journey is live, an administrator can test direct calls to the data source and check the answer received. An administrator can also duplicate the journey and test it.
 
-## Checking that messages are sent successfully{#section_qb1_yzs_dgb}
+## Check that messages are sent successfully{#checking-that-messages-are-sent-successfully}
 
 If individuals flow the right way in the journey but don't receive messages they should receive, you can check if:
 

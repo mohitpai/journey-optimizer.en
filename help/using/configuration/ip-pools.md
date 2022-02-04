@@ -1,23 +1,13 @@
 ---
 title: Create IP pools
 description: "Learn how to manage ip-pools"
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
-# Create IP pools
+# Create IP pools {#create-ip-pools}
 
 ## About IP pools {#about-ip-pools}
 
@@ -78,9 +68,7 @@ To edit an IP pool:
 The update is effective immediately or asynchronously, depending on the IP pool being associated to a [message preset](message-presets.md) or not:
 
 * If the IP pool is **not** selected in a message preset, the update is instantaneous (**[!UICONTROL Success]** status).
-* If the IP pool **is** selected in a message preset, the update can take up to 7-10 business days (**[!UICONTROL Processing]** status).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
+* If the IP pool **is** selected in a message preset, the update can take up to 7-10 business days (**[!UICONTROL Processing]** status).
 
 To check the IP pool update status, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**.
 

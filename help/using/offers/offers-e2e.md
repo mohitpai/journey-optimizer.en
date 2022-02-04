@@ -11,7 +11,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
-## Main steps
+## Main steps {#main-steps}
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
@@ -219,11 +219,11 @@ The detailed steps to create and configure a decision are described in [this sec
 
 Now that your decision is live, you can insert it into an email message. To do so, follow the steps below:
 
-1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
+1. Create your email, then open the [Email Designer](../../using/messages/design-emails.md) to configure its content.
 
 1. Add a structure component from the left palette.
 
-1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/content-components.md).
+1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/messages/content-components.md).
 
     ![](../assets/offers-e2e-decision-component.png)
 
@@ -249,19 +249,19 @@ You can now see all personalized offers and the fallback offer being visualized 
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
 
 >[!NOTE]
 >
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/messages/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
 
 **Related topics:**
 
-* Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).
+* Learn how to check the message preview in [this section](../../using/messages/preview.md#preview-your-messages).
 
-* Learn how to publish messages in [this section](../../using/publish-manage-message.md).
+* Learn how to publish messages in [this section](../../using/messages/publish-manage-message.md).
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
 

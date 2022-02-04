@@ -1,5 +1,5 @@
 ---
-title: Personalization syntax
+title: Personalization contexts
 description: Learn more about the ways you can personalize the content and display of your messages. 
 feature: Personalization
 topic: Personalization
@@ -15,7 +15,7 @@ In every fields with the editor icon, you can open the personalization editor (a
 
 ![](assets/perso_icon.png)
 
-## Personalize your emails
+## Personalize your emails {#personalize-emails}
 
 When you create an email, you can add personalization in the **[!UICONTROL Subject line]** field of the message.
 
@@ -23,7 +23,7 @@ When you create an email, you can add personalization in the **[!UICONTROL Subje
 
 In the Email designer, you can personalize the content:
 
-* In the **message**: click inside a text block, click the **Personalize** icon from the contextual toolbar and select **Insert personalization** field. For more on the Email Designer interface, see this [section](../design-emails.md).
+* In the **message**: click inside a text block, click the **Personalize** icon from the contextual toolbar and select **Insert personalization** field. For more on the Email Designer interface, see this [section](../messages/design-emails.md).
     
     ![](assets/perso_insert.png)
 
@@ -35,7 +35,7 @@ In both cases, you access the personalization editor.
 
 ![](assets/perso_ee.png)
 
-## Personalize your push notifications
+## Personalize your push notifications {#personalize-push}
 
 You can also personalize your **Push notifications** in the following fields:
 
@@ -47,7 +47,7 @@ You can also personalize your **Push notifications** in the following fields:
 
 ![](assets/perso_push.png)
 
-Learn more about Push notification configuration in [this section](../push-gs.md).
+Learn more about Push notification configuration in [this section](../messages/push-gs.md).
 
 ## Personalize your offers {#personalize-offers}
 

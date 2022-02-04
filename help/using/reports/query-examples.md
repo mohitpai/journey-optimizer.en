@@ -11,9 +11,9 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 
 This section lists several commonly used examples to query Journey Step Events in Data Lake. 
  
-## Message/Action Errors
+## Message/Action Errors {#message-action-errors}
 
-### List of each error encountered in journeys
+### List of each error encountered in journeys {#error-list-journey}
 
 This query allows you to list each error encountered in journeys while executing a message/action.
 
@@ -39,9 +39,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 This query returns all the different errors that occurred while executing an action in a journey along with the count of how many times it occurred.
 
-## Profile-based queries
+## Profile-based queries {#profile-based-queries}
 
-### Find if a profile entered a specific Journey
+### Find if a profile entered a specific Journey {#profile-entered-journey}
 
 _Data Lake query_
 
@@ -63,7 +63,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 The result should be greater than 0. This query returns the exact number of times a profile has entered a journey.
 
-### Find if a profile was sent a specific message
+### Find if a profile was sent a specific message {#profile-specific-message}
 
 **Method 1:** if the name of your message is not unique in the journey (it is used at multiple places).
 
@@ -113,7 +113,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 The query returns the list of all messages along with their count invoked for the selected profile.
 
-## Find all the messages a profile has received in the last 30 days
+## Find all the messages a profile has received in the last 30 days {#message-received-30-days}
 
 _Data Lake query_
 
@@ -139,7 +139,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 The query returns the list of all messages along with their count invoked for the selected profile.
 
-### Find all the journeys a profile has entered in the last 30 days
+### Find all the journeys a profile has entered in the last 30 days {#profile-entered-30-days}
 
 _Data Lake query_
 
@@ -163,7 +163,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 The query returns the list of all journey names along with the number of times the queried profile entered the journey.
 
-### Number of profiles that qualified for a journey daily
+### Number of profiles that qualified for a journey daily {#profile-qualified}
 
 _Data Lake query_
 
@@ -187,9 +187,9 @@ ORDER BY DATE(timestamp) desc
 
 The query resturns, for the defined period, the number of profiles that entered the journey each day. If a profile entered via multiple identities, it will be counted twice. If re-entrance is enabled, profile count might be duplicated accross different days if it re-entered the journey on different day.
 
-## Journey-based queries
+## Journey-based queries {#journey-based-queries}
 
-### Number of daily active journeys
+### Number of daily active journeys {#daily-active-journeys}
 
 _Data Lake query_
 

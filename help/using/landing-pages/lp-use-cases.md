@@ -26,7 +26,7 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.
 
-### Set up landing page
+### Set up landing page {#set-up-lp}
 
 1. Create the event registration's subscription list, which will store the registered users. Learn how to create a subscription list [here](subscription-list.md#define-subscription-list).
 
@@ -46,13 +46,13 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. [Publish](create-lp.md#publish) the landing page.
 
-1. [Create an email message](../create-message.md) to announce that registration is now open for your event.
+1. [Create an email message](../messages/create-message.md) to announce that registration is now open for your event.
 
-1. [Insert a link](../message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
+1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](../assets/lp_subscription-uc-link.png)
 
-1. Save your content and [publish your message](../publish-manage-message.md).
+1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
 1. Send your message through a [journey](../building-journeys/journey.md) to drive traffic to the registration landing page.
 
@@ -86,7 +86,7 @@ All the users who registered for your event will receive the confirmation email.
 
 To enable your recipients to unsubscribe from your communications, you can include a link to an opt-out landing page into your emails.
 
-Learn more on managing your recipients' consent and why this is important in [this section](../consent.md).
+Learn more on managing your recipients' consent and why this is important in [this section](../messages/consent.md).
 
 ### Opt-out management {#opt-out-management}
 
@@ -123,9 +123,9 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](../assets/lp_opt-out-publish.png)
 
-1. [Create an email message](../create-message.md) in [!DNL Journey Optimizer].
+1. [Create an email message](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. Select text in your content and [insert a link](../message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
+1. Select text in your content and [insert a link](../messages/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
 
     ![](../assets/lp_opt-out-insert-link.png)
 
@@ -133,7 +133,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](../assets/lp_opt-out-landing-page.png)
 
-1. Save your content and [publish your message](../publish-manage-message.md).
+1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
 1. Send your message through a journey. [Learn more](../building-journeys/journey.md).
 
@@ -161,9 +161,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

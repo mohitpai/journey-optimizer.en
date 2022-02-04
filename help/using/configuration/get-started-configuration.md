@@ -1,11 +1,8 @@
 ---
-title: Journey Optimizer settings and configuration guidelines
-description: Learn message and journey configuration guidelines
-audience: administrators
-content-type: reference
+title: Get started with [!DNL Journey Optimizer] configuration
+description: Learn more about [!DNL Journey Optimizer] configuration
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
@@ -19,7 +16,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages
 
-    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push-gs.md)
+    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../messages/push-gs.md)
 
     * Create message presets to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
 
@@ -28,7 +25,7 @@ To be able to create your journeys and send messages, you need to go though thes
     * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
     <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
     
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)

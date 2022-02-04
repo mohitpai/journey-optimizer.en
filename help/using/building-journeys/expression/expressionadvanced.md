@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 ---
-# About the advanced expression editor {#concept_uyj_trt_52b}
+# About the advanced expression editor {#about-the-advanced-expression-editor}
 
 Use the advanced expression editor to build advanced expressions in various screens of the interface. For example, you can build expressions when configuring and using journeys, and when defining a data source condition.
 It is also available every time you need to define action parameters that require specific data manipulations. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.
@@ -32,7 +32,7 @@ When possible, you can switch between the two modes using the **[!UICONTROL Adva
 >
 >Actions parameters can be defined by selecting fields or via the advanced expression editor. They return a specific data type according to their expression.  
 
-## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
+## Accessing the advanced expression editor {#accessing-the-advanced-expression-editor}
 
 You can access the advanced expression editor in different ways:
 
@@ -43,7 +43,7 @@ You can access the advanced expression editor in different ways:
 * When you create a custom timer, the advanced editor will be directly displayed.
 * When you map action parameter, click on **[!UICONTROL Advanced mode]**.
 
-## Discovering the interface{#section_otq_tnj_cjb}
+## Discovering the interface{#discovering-the-interface}
 
 This screen allows you to manually write your expression.
 

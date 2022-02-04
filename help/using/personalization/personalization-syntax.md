@@ -1,6 +1,6 @@
 ---
 title: Personalization syntax
-description: Learn how to use personalization syntax
+description: Learn how to use personalization syntax.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -23,7 +23,7 @@ where:
 * `profile` is a namespace.
 * `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
-## Syntax general rules
+## Syntax general rules {#general-rules}
 
 Identifiers may be any unicode character except for the following: 
 
@@ -71,7 +71,7 @@ Learn how to leverage profile attributes in conditions in [this section](functio
 >To learn more about segmentation and segmentation service, refer to [this section](../segment/about-segments.md).
 >
 
-## Offers
+## Offers {#offers-syntax}
 
 This namespace allows you to reference existing offers decisions.
 To reference an offer you need to declare a path with the different information that define an offer.
@@ -124,7 +124,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >Helper functions are detailed in [this section](functions/helpers.md).
 >
 
-## Literal types
+## Literal types {#literal-types}
 
 [!DNL Adobe Journey Optimizer] supports the following literal types:
 
@@ -143,7 +143,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
 
-* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../message-tracking.md#insert-links).
+* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../messages/message-tracking.md#insert-links).
 * Click on the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
 ![](assets/perso-url.png)

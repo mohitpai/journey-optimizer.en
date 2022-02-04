@@ -15,7 +15,7 @@ These are the common XDM fields that [!DNL Journey Optimizer] sends to Adobe Exp
 
 Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
 
-## entrance
+## entrance {#entrance-field}
 
 Indicates if the user has entered the journey. If not present, we assume that the value is false.
 
@@ -23,7 +23,7 @@ Type: boolean
 
 Values: true/false
 
-## reentrance
+## reentrance {#reentrance-field}
 
 Indicates if the user has reentered the journey with the same instance. If not present, we assume that the value is false.
 
@@ -31,37 +31,37 @@ Type: boolean
 
 Values: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Indicates if the instance has ended (successfully or not).
 
 Type: boolean
 
-## eventID
+## eventID {#eventid-field}
 
 Event id in processing, for the step processing. If the event is an external one, the value is its eventId. If the event is an internal one, the value is the internal eventId (such as scheduledNotificationReceived, executedAction, etc.).
 
 Type: string
 
-## nodeID
+## nodeID {#nodeid-field}
 
 Client node id (from the canvas). 
 
 Type: string
 
-## stepID
+## stepID {#stepdid-field}
 
 Unique id of the step that is currently being processed.
 
 Type: string
 
-## stepName
+## stepName {#stepname-field}
 
 Name of the step that is currently being processed.
 
 Type: string
 
-## stepType
+## stepType {#steptype-field}
 
 Type of the step.
 
@@ -74,7 +74,7 @@ Possible values:
 * Scheduler
 * Timer
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Status of the step, representing the status of the step, when its processing has been done (and the step event fired).
 
@@ -89,79 +89,79 @@ The status can be:
 * timedout: the step has failed on a timeout error, raised during an action or enrichment.
 * instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ID of the journey.
 
 Type: string
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 ID of the journey version. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
 Type: string
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Name of the journey version.
 
 Type: string
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Version of the journey version.
 
 Type: string
 
-## instanceID
+## instanceID {#instanceid-field}
 
 Internal ID of the journey instance.
 
 Type: string
 
-## externalKey
+## externalKey {#externalkey-field}
 
 External key extracted from the event to process it.
 
 Type: string
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 Step ID of the parent of the current processed step in the instance.
 
 Type: string
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Step name of the parent of the current step.
 
 Type: string
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Id of the transition which has brought the instance to the processed step.
 
 Type: string
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Name of the transition which has brought the instance to the processed step.
 
 Type: string
 
-## inTest
+## inTest {#intest-field}
 
 Indicated if this journey is in test mode or not.
 
 Type: boolean
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Total amount of time in milliseconds from the instance step entrance to the end of the processing.
 
 Type: long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Indicates the instance type, if it is batch or unitary.
 
@@ -169,31 +169,31 @@ Type: string
 
 Values: batch/unitary
 
-## recurrenceIndex
+## recurrenceIndex {#recurrenceindex-field}
 
 Index of the recurrence if the journey is batch and recurring (first run has recurrenceIndex = 1).
 
 Type: long
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Indicates if this unitary instance has been triggered from a batch instance.
 
 Type: boolean
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 External Key for batch event.
 
 Type: string
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 this is the batch instance ID.
 
 Type: string
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 if the instance has been triggered from a batch instance, unitary branch ID.
 

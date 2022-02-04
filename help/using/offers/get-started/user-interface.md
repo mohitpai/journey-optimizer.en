@@ -1,6 +1,6 @@
 ---
 title: User interface
-description: Learn more about the Offer Library User Interface.
+description: Learn more about the Offer Library User Interface
 feature: Offers
 topic: Integrations
 role: User
@@ -63,7 +63,7 @@ Click the **[!UICONTROL View all]** button to access the offer, collection, or d
 
 ![](../../assets/overview_view-all.png)
 
-## Search and filter information
+## Search and filter information {#search-and-filter-information}
 
 Use the **search bar** to find a specific item.
 
@@ -71,7 +71,7 @@ Use the **search bar** to find a specific item.
 
 ![](../../assets/filters.png)
 
-## Customize displayed information
+## Customize displayed information {#customize-displayed-information}
 
 Lists from Decision Management menus can be personalized using the configuration button on the top right of the lists.
 
@@ -81,7 +81,7 @@ Note that columns customization is saved for each user.
 
 ![](../../assets/columns.png)
 
-## Information pane
+## Information pane {#information-pane}
 
 In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element. 
 

@@ -7,11 +7,11 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 ---
-# Create a tag
+# Create a tag {#create-tag}
 
 You can create a tag by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

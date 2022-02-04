@@ -1,16 +1,6 @@
 ---
-title: Delegate subdomains
-description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Delegate a subdomain
+description: Learn how to delegate your subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -108,8 +98,6 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 1. Select the **[!UICONTROL CNAME set up]** method.
 
     ![](../assets/subdomain-method-cname.png)
-
-    <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
 1. Specify the name of the subdomain to delegate.
 

@@ -21,24 +21,24 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">What is [!DNL Journey Optimizer]?</a>
+      <a href="using/start/get-started.md">What is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Discover key features and use cases
     <p>
     <div>
-      <a href="using/release-notes.md">Release notes</a>
+      <a href="using/rn/release-notes.md">Release notes</a>
     </div>
     <p>New capabilities, latest improvements and fixes
    <p>
     <div>
-      <a href="using/quick-start.md">Quick start guide</a>
+      <a href="using/start/quick-start.md">Quick start guide</a>
     </div>
     <p>
     Learn how to start as an Administrator, Data engineer or Journey practicionner
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">Design an email content</a>
+      <a href="using/messages/design-emails.md">Design an email content</a>
     </div>
     <p>
     Design a new email or import an existing HTML content
@@ -105,7 +105,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/create-message.md">Messages</a>
+      <a href="using/messages/create-message.md">Messages</a>
     </li>
     <p>
     <p>DECISION MANAGEMENT</p>
@@ -118,18 +118,18 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONTENT MANAGEMENT</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/messages/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>DATA MANAGEMENT</p>
     <li>
-      <a href="using/get-started-schemas.md">Schemas</a>
+      <a href="using/start/get-started-schemas.md">Schemas</a>
     </li>
      <li>
-      <a href="using/get-started-datasets.md">Datasets</a>
+      <a href="using/start/get-started-datasets.md">Datasets</a>
     </li>
         <li>
-      <a href="using/get-started-queries.md">Queries</a>
+      <a href="using/start/get-started-queries.md">Queries</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitoring</a>
@@ -137,7 +137,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONNECTIONS</p>
     <li>
-      <a href="using/get-started-sources.md">Sources</a>
+      <a href="using/start/get-started-sources.md">Sources</a>
     </li>
     <p>
     <p>CUSTOMER</p>
@@ -145,10 +145,10 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
      <li>
-      <a href="using/get-started-profiles.md">Profiles</a>
+      <a href="using/start/get-started-profiles.md">Profiles</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">Identity</a>
+      <a href="using/start/get-started-identity.md">Identity</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>

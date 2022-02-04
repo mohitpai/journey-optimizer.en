@@ -9,7 +9,7 @@ exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 ---
 # Operators {#operators}
 
-## Boolean functions
+## Boolean functions {#boolean-functions}
 
 Boolean functions are used to perform boolean logic on different elements.
 
@@ -74,7 +74,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Comparison functions
+## Comparison functions {#comparison-functions}
 
 Comparison functions are used to compare between different expressions and values, returning true or false accordingly. 
 

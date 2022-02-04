@@ -1,6 +1,6 @@
 ---
 title: Personalization use case&colon; order status notification
-description: Learn how to personalize a message with profile, offer decision, and context information
+description: Learn how to personalize a message with profile, offer decision, and context information.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -19,11 +19,11 @@ The goal of this example is to push an event to [!DNL Journey Optimizer] every t
 
 For this use case, the following prerequisites are needed:
 
-* create and design a push notification message, without publishing it. Refer to this [section](../create-message.md).
+* create and design a push notification message, without publishing it. Refer to this [section](../messages/create-message.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
 * create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-activities/create-offer-activities.md).
 
-## Step 1 - Add personalization on profile
+## Step 1 - Add personalization on profile {#add-perso}
 
 1. Click the **[!UICONTROL Message]** menu, and select your message.
 
@@ -41,7 +41,7 @@ For this use case, the following prerequisites are needed:
    >
    >Leave the message in draft. Do not publish it yet.
 
-## Step 2 - Create the journey
+## Step 2 - Create the journey {#create-journey}
 
 1. Click the **[!UICONTROL Journeys]** menu and create a new journey.
 
@@ -63,7 +63,7 @@ For this use case, the following prerequisites are needed:
    >
    >The message appears with a warning icon. This is because the message is not published yet.
 
-## Step 3 - Add personalization on contextual data
+## Step 3 - Add personalization on contextual data {#add-perso-contextual-data}
 
 1. From the **Message** activity, click the **Open the message** icon. The message opens in a new tab.
 
@@ -104,7 +104,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc16.png)
 
-## Step 4 - Test and publish the journey
+## Step 4 - Test and publish the journey {#test-publish}
 
 1. Open the journey again. If the journey is already open, make sure you refresh the page. Now that the message is published, you can see that there is no error in the journey. Click the **Test** button, then click **Trigger an event**.
 

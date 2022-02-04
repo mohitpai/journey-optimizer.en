@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 ---
-# Testing the journey{#testing_the_journey}
+# Test your journey{#testing_the_journey}
 
-Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
@@ -17,7 +17,7 @@ Only test profiles can enter a journey in test mode. You can either create a new
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
+1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). A warning symbol is displayed when there are errors.
 
 1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 

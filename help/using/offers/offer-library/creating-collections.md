@@ -1,13 +1,13 @@
 ---
 title: Create collections
-description: Learn how to organize offers using collections.
+description: Learn how to organize offers using collections
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 ---
-# Create collections {#creating-collections}
+# Create collections {#create-collections}
 
 Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 
