@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
-# Add a message in a journey
+# Add a message in a journey{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
+[!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../messages/get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).
 
@@ -43,7 +43,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
 ## Email parameters and push parameters
 
-The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** sections show read-only fields. You typically perform this configuration when creating the message. See [this section](../get-started-content.md). 
+The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** sections show read-only fields. You typically perform this configuration when creating the message. See [this section](../messages/get-started-content.md). 
 
 ![](../assets/jo-message4.png)
 

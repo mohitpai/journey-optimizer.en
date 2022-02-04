@@ -41,7 +41,7 @@ First you need to select the test profiles that you are going to use for simulat
 
     >[!NOTE]
     >
-    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](../../get-started-identity.md){target="_blank"}.
+    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](../../start/get-started-identity.md){target="_blank"}.
 
 1. Enter the identity value and click **[!UICONTROL View]** to list the available profiles.
 
@@ -61,7 +61,7 @@ First you need to select the test profiles that you are going to use for simulat
 
 1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Add decision scopes {#add-decision-scopes}
 

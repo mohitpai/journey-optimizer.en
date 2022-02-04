@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
 ---
-# Adobe Experience Platform Web SDK
+# Adobe Experience Platform Web SDK {#aep-web-sdk}
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target="_blank"} is a client-side JavaScript library that allows customers of the Adobe Experience Cloud to interact with the various services in the Experience Cloud through the Adobe Experience Platform Edge Network.
 

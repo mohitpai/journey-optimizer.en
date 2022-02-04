@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 ---
-# List tags
+# List tags {#list-tags}
 
 Tags allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
@@ -40,11 +40,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

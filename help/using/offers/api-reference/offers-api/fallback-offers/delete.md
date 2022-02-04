@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 ---
-# Delete a fallback offer
+# Delete a fallback offer {#delete-fallback-offer}
 
 It may occasionally be necessary to remove (DELETE) a fallback offer. Only fallback offers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.
 

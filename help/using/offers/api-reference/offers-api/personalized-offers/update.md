@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 ---
-# Update a personalized offer
+# Update a personalized offer {#update-personalized-offer}
 
 You can modify or update a personalized offer by making a PATCH request to the [!DNL Offer Library] API
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

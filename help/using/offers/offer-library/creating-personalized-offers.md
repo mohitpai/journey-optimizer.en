@@ -1,13 +1,13 @@
 ---
 title: Create personalized offers
-description: Learn how to create personalized offers in Adobe Experience Platform.
+description: Learn how to create, configure and manage your offers
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 ---
-# Create personalized offers {#creating-personalized-offers}
+# Create personalized offers {#create-personalized-offers}
 
 Before creating an offer, make sure that you created:
 
@@ -84,7 +84,7 @@ You can add different types of content to a representation.
 >
 >Only content corresponding to the placement's content type is available for use.
 
-### Add images
+### Add images {#images}
 
 If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -104,7 +104,7 @@ If the selected placement is image-type, you can add content coming from the **A
 
     ![](../../assets/offer-select-asset.png)
 
-### Add URLs
+### Add URLs {#urls}
 
 To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
 

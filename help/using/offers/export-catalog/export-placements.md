@@ -1,6 +1,6 @@
 ---
 title: Placements dataset
-description: This section lists all the fields used in the exported dataset for placements.
+description: This section lists all the fields used in the exported dataset for placements
 feature: Offers
 topic: Integrations
 role: User
@@ -23,14 +23,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
     
-## Identifier
+## Identifier {#identifier}
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Field:** _experience
 **Type:** object
@@ -79,7 +79,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Description:** An assigned name for the placement to refer to it in human interactions.
 **Type:** string
 
-## _repo
+## _repo {#repo}
 
 **Field:** _repo
 **Type:** object

@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 ---
-# Look up a collection
+# Look up a collection {#look-up-collection}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 

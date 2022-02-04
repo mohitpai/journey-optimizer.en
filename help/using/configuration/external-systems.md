@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Optimizer
 title: Integrate Journey Optimizer with external systemps
 description: Learn the best practices when integrating Journey Optimizer with external systems
 role: User

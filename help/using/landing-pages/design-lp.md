@@ -17,15 +17,15 @@ To start creating content for your landing [primary page](create-lp.md#configure
 
 From there, you can:
 
-* **Design your landing page from scratch** through the content designer's interface, and leverage images from [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../create-email-content.md).
+* **Design your landing page from scratch** through the content designer's interface, and leverage images from [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Learn how to design your content or use built-in templates [in this section](../messages/create-email-content.md).
 
-* **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../existing-content.md#import-raw-html-code).
+* **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../messages/existing-content.md#import-raw-html-code).
 
-* **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../existing-content.md#import-html-content-from-file).
+* **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../design-emails.md).
+>The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Define landing page-specific content {#define-lp-specific-content}
     
@@ -114,7 +114,7 @@ To define specific content that will enable users to select and submit their cho
 
     ![](../assets/lp_designer-form-style-buttons.png)
 
-    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test).
+    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
 
     ![](../assets/lp_designer-form-style-buttons-preview.png)
 

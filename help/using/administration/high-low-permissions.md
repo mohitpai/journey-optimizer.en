@@ -1,17 +1,6 @@
 ---
 title: Permission levels
 description: Learn about high and low level permissions
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
@@ -308,7 +297,7 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage PTR records] permission {#manage-ptr}
 
-The **[!DNL Manage PTR records]** high-level permission allows users to read, create, edit, and delete PTR records that have been configured based on the subdomain.
+The **[!DNL Manage PTR records]** high-level permission allows users to read and edit PTR records that have been configured based on the subdomain.
 
 It includes the following low-level permissions:
 

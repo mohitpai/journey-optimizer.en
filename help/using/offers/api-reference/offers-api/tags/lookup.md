@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 ---
-# Look up a tag
+# Look up a tag {#look-up-tag}
 
 You can look up specific tags by making a GET request to the [!DNL Offer Library] API that includes either the tag `@id` or the name of the tag in the request path.
 

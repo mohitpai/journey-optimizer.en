@@ -1,23 +1,18 @@
 ---
-title: Delegate subdomains
-description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Delegate a subdomain
+description: Learn how to delegate your subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---
-# Delegate a subdomain
+# Delegate a subdomain {#delegate-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="About subdomain delegation"
+>abstract="Journey Optimizer allows you to fully delegate your subdomains to Adobe. Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS."
 
 Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the “example.com” zone, you can delegate the sub-zone “marketing.example.com” to Adobe.
 
@@ -103,8 +98,6 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 1. Select the **[!UICONTROL CNAME set up]** method.
 
     ![](../assets/subdomain-method-cname.png)
-
-    <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
 1. Specify the name of the subdomain to delegate.
 

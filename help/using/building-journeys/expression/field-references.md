@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 ---
-# Field references {#concept_fkj_ll5_dgb}
+# Field references {#field-references}
 
 A field reference can be attached to an event or a field group. The only meaningful information is the name of the field and its path. 
 
