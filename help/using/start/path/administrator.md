@@ -44,7 +44,7 @@ Follow the steps listed below:
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages settings
 
-    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../push-gs.md)
+    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../messages/push-gs.md)
 
     * Create **message presets** to configure all the technical parameters required for email and push notification messages. [Learn more](../../configuration/message-presets.md)
 
@@ -64,6 +64,6 @@ Follow the steps listed below:
 
     ![](../../assets/suppression-list-filtering-example.png)
 
-    * The [allowed list](../../allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../allow-list.md).
+    * The [allowed list](../../messages/allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../messages/allow-list.md).
 
     Learn more about deliverability management in [!DNL Adobe Journey Optimizer] [in this page](../../messages/deliverability.md).

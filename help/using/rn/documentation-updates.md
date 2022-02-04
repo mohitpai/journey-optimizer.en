@@ -3,7 +3,7 @@ title: Documentation Updates
 description: Learn about latest documentation updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 ---
-# Latest updates in this documentation {#latest-updates}
+# Documentation updates {#latest-updates}
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
@@ -77,8 +77,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a section about accessibility features and shortcuts. [Read more](../start/user-interface.md#accessibility)
 * Added a section about segment evaluation methods. [Read more](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/email-global-report.md)
-* Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../allow-list.md#reporting)
-* Updated the Enable the allow list section. [Learn more](../allow-list.md#enable-allow-list)
+* Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../messages/allow-list.md#reporting)
+* Updated the Enable the allow list section. [Learn more](../messages/allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/message-presets.md#monitor-message-presets)
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](../configuration/retries.md#retry-duration)
 * Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../messages/message-tracking.md#one-click-opt-out-link)
@@ -96,9 +96,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added links to [!DNL Journey Optimizer] product description in the home page
 * Added tutorial videos in multiple pages
 * Optimized home page imagery
-* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../message-tracking.md)
+* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../messages/message-tracking.md)
 * Added a subsection on mirror pages. [Read more](../messages/message-tracking.md#mirror-page)
-* Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](../offers/get-started/starting-offer-decisioning.md)
+* Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](../personalization/personalization-use-case-helper-functions.md)
 * Updated the Read segment documentation to reflect materialized segment impacts. [Read more](../building-journeys/read-segment.md)
 * Updated the Journey limitations. [Read more](../start/limitations.md)

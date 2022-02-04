@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 ---
-# Testing the journey{#testing_the_journey}
+# Test your journey{#testing_the_journey}
 
 Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 

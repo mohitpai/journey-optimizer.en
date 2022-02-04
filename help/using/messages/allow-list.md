@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 ---
 # Allowed list {#allow-list}
 
-It is now possible to define a specific sending-safe list at the [sandbox](administration/sandboxes.md) level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
+It is now possible to define a specific sending-safe list at the [sandbox](../administration/sandboxes.md) level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
 
 The allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment.
 
@@ -34,7 +34,7 @@ Learn more on the allowed list logic in this section.
 
 >[!NOTE]
 >
->When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](preview.md#send-proofs) and testing journeys using the [test mode](building-journeys/testing-the-journey.md).
+>When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
 
 ## Add entities to the allowed list {#add-entities}
 
@@ -62,9 +62,9 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
->Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
+>Learn more on the [Live Report](../reports/live-report.md) and [Global Report](../reports/global-report.md).
 
 ## Exclusion reporting {#reporting}
 
