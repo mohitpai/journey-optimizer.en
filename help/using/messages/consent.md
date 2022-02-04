@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 ---
 # Manage opt-out {#consent}
 
-Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions. <!--Their preferences and subscriptions are handled through Consent management.-->
+Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions.
 
 Regulations such as GDPR state that you must comply with specific requirements before being able to use information from Data Subjects. Moreover, Data Subjects should be able to modify their consent at any time.
 
@@ -19,10 +19,6 @@ Regulations such as GDPR state that you must comply with specific requirements b
 * It helps you avoid sending unsolicited communications to your recipients, which could make them mark your messages as spam and harm your reputation.
 
 Learn more on managing Privacy and the applicable regulations in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
-
-<!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
-* Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
-* The third category is the capability to offer subscription to recipients (newsletter, etc)-->
 
 ## Opt-out management {#opt-out-management}
 
@@ -42,8 +38,6 @@ To add an unsubscribe link, follow the steps below:
 1. Host it on the third-party system of your choice.
 
 1. [Create a message](create-message.md) in [!DNL Journey Optimizer].
-
-    <!--The link to your landing page should contain a static URL and the profile ID.-->
 
 1. Select text in your content and insert a link using the contextual toolbar.
 
@@ -85,35 +79,30 @@ To check that the corresponding profile's choice has been updated, go to Experie
 
 In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
-<!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
-
 ### Opt-out API call {#opt-out-api}
 
-Once the recipient has opted out by clicking the unsubscribe link, an Adobe I/O API <!--Consent service API to capture the encrypted data and-->is called to update the corresponding profile's preference.
+Once the recipient has opted out by clicking the unsubscribe link, an Adobe I/O API is called to update the corresponding profile's preference.
 
 This Adobe I/O POST call is as follows:
 
 Endpoint: platform.adobe.io/journey/imp/consent/preferences
-<!--This is the new AEP specific AEP for consent instead of the AJO consent API that was previously used: cjm.adobe.io/imp/consent/preferences-->
 
 Query parameters:
 
 * **params**: contains the encrypted payload
-* **sig**: signature <!--which signature?-->
+* **sig**: signature
 * **pid**: encrypted profile ID
 
 These parameters are available from the unsubscribe link sent to your recipient, i.e. the URL that will open your third-party landing page for a given recipient:
 
 ![](assets/opt-out-parameters.png)
 
-<!--QUESTION: How do you get the URL built for each recipient? Do you have to wait until each targeted recipient receives the unsubscribe link or can you deduce it in advance? Is it done automatically upon the API call or do you have to do something manually for each profile? In other words will the LP automatically include the 3 parameters or do you have to insert something manually? Still not completely clear-->
-
 Header requirements:
 
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name 
-* authorization (user token from your technical account) <!--How do you find this information? And other header elements?-->
+* authorization (user token from your technical account)
 
 Request body:
 
@@ -130,8 +119,7 @@ Request body:
 }
 ```
 
-<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
-<!--and provide an answer back to the landing page.-->
+[!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice.
 
 ## One-click opt-out {#one-click-opt-out}
 

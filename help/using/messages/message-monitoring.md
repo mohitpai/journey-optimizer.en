@@ -31,15 +31,9 @@ If a message is published but not triggered yet by a journey, it it not listed i
 * Messages that have been triggered, but not yet started (pending).
 * Messages that have been triggered and that are currently running (in progress).
 
-<!--For multichannel messages, one row per channel is displayed for each message. STILL VALID? looks like NOT-->
-
 >[!NOTE]
 >
 >If a message has been used in several journeys, one row per journey is displayed for each execution.
-
-<!--![](assets/message-execution-multichannel.png)-->
-
-<!--If a message has been used in several journeys, the **[!UICONTROL Source]** column displays **[!UICONTROL Multiple]**.-->
 
 By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date.
 
@@ -58,7 +52,7 @@ For each message execution, a number of indicators are displayed:
 
 * **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the journey, and label of the action leveraging the message in the journey.
 
-* **[!UICONTROL Status]**: Message execution status. <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
+* **[!UICONTROL Status]**: Message execution status.
 
 * **[!UICONTROL Start date]**: Date and time when the message has been executed from the journey.
 

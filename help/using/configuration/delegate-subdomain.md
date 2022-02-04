@@ -99,8 +99,6 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
     ![](../assets/subdomain-method-cname.png)
 
-    <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
-
 1. Specify the name of the subdomain to delegate.
 
     >[!CAUTION]

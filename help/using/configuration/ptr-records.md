@@ -99,7 +99,7 @@ A PTR record update can have the following statuses:
 
 ### Processing {#processing}
 
-Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
