@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 ---
-# Create a collection
+# Create a collection {#create-collection}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
 You can create a collection by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

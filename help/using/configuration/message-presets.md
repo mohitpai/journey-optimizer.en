@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
-# Create message presets
+# Create message presets {#message-presets-creation}
 
 With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more. 
 
@@ -15,7 +15,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 >
 > * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * You must perform Email configuration and [Push configuration](../push-configuration.md) steps before creating message presets.
+> * You must perform Email configuration and [Push configuration](../messages/push-configuration.md) steps before creating message presets.
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
@@ -97,7 +97,7 @@ To create a message preset, follow these steps:
     
     * Select the mobile applications to use for each platform. 
         
-      For more on how to configure your environment to send push notifications, refer to [this section](../push-gs.md).
+      For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -249,7 +249,7 @@ If you edit a preset that was already active:
 >
 >You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
-### Success
+### Success {#success}
 
 Once the validation process is successful, the new version of the preset is automatically used in all messages using this preset. However, you may have to wait:
 * a few minutes before it is consumed by the unitary messages,
@@ -257,7 +257,7 @@ Once the validation process is successful, the new version of the preset is auto
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-### Failed
+### Failed {#failed}
 
 If the validation process fails, the older version of the preset will still be used.
 

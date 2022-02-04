@@ -1,6 +1,6 @@
 ---
 title: Get started with offer catalog export
-description: This section lists all the fields used in the exported dataset for decisions.
+description: This section lists all the fields used in the exported dataset for decisions
 feature: Offers
 topic: Integrations
 role: User
@@ -23,14 +23,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
     
-## Identifier
+## Identifier {#identifier}
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Field:** _experience
 **Type:** object
@@ -248,7 +248,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on http://schema.org/Action.
 **Type:** string
 
-## _repo
+## _repo {#repo}
 
 **Field:** _repo
 **Type:** object

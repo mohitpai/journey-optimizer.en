@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 ---
-# List personalized offers
+# List personalized offers {#list-personalized-offers}
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 
@@ -38,11 +38,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

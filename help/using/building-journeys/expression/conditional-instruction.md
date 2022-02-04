@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 ---
-# Conditional instruction (if, then, else) {#section_cdz_lsk_w3b}
+# Conditional instruction (if, then, else) {#conditional-instruction}
 
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 

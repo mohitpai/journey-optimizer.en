@@ -10,47 +10,47 @@ solution: Journey Optimizer
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
-  + [Release notes](using/release-notes.md)
-  + [Latest updates](using/documentation-updates.md)
+  + [Release notes](using/rn/release-notes.md)
+  + [Latest updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
-  + [What is Journey Optimizer](using/get-started.md)
+  + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
-    + [Overview](using/quick-start.md)
-    + [Get Started as a Marketer](using/path/marketer.md)
-    + [Get Started as a Data engineer](using/path/data-engineer.md)
-    + [Get Started as an Administrator](using/path/administrator.md)
-    + [Get Started as a Developer](using/path/developer.md)
-  + [User interface](using/user-interface.md)
-  + [Limitations](using/limitations.md)
-+ Messages {#create-messages}
-  + [Get started with messages](using/get-started-content.md)
+    + [Overview](using/start/quick-start.md)
+    + [Get Started as a Marketer](using/start/path/marketer.md)
+    + [Get Started as a Data engineer](using/start/path/data-engineer.md)
+    + [Get Started as an Administrator](using/start/path/administrator.md)
+    + [Get Started as a Developer](using/start/path/developer.md)
+  + [User interface](using/start/user-interface.md)
+  + [Limitations](using/start/limitations.md)
++ Messages {#messages}
+  + [Get started with messages](using/messages/get-started-content.md)
   + Create messages {#create-message}
-    + [Create a message](using/create-message.md)
-    + [Create an email](using/create-email.md)
-    + [Create a push notification](using/create-push.md)
-    + [Create an SMS message](using/create-sms.md)
-  + [Add and manage assets](using/assets-essentials.md)
-  + [Add personalized offers](using/deliver-personalized-offers.md)  
+    + [Create a message](using/messages/create-message.md)
+    + [Create an email](using/messages/create-email.md)
+    + [Create a push notification](using/messages/create-push.md)
+    + [Create an SMS message](using/messages/create-sms.md)
+  + [Add and manage assets](using/messages/assets-essentials.md)
+  + [Add personalized offers](using/messages/deliver-personalized-offers.md)  
   + Design emails {#email-designer} 
-    + [Get started with email design](using/design-emails.md)
-    + [Design your email content in the UI](using/create-email-content.md)
-    + [Import or code your email content](using/existing-content.md)
-    + [Use email designer content components](using/content-components.md)
-  + [Add links and track messages](using/message-tracking.md)
-  + Validate and publish {#create-message}
-    + [Preview and proofs](using/preview.md)
-    + [Check alerts](using/alerts.md)
-    + [Publish messages](using/publish-manage-message.md)
-  + [Manage opt-out](using/consent.md)
+    + [Get started with email design](using/messages/design-emails.md)
+    + [Design your email content in the UI](using/messages/create-email-content.md)
+    + [Import or code your email content](using/messages/existing-content.md)
+    + [Use email designer content components](using/messages/content-components.md)
+  + [Add links and track messages](using/messages/message-tracking.md)
+  + Validate and publish {#validate}
+    + [Preview and proofs](using/messages/preview.md)
+    + [Check alerts](using/messages/alerts.md)
+    + [Publish messages](using/messages/publish-manage-message.md)
+  + [Manage opt-out](using/messages/consent.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
-  + Work with the Expression Editor {#expression-editor}
-    + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-    + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
-    + [Personalization validation](using/personalization/personalization-validation.md)
   + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression Editor {#expression-editor}
+      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
+      + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
       + [Aggregation functions](using/personalization/functions/aggregation.md)
@@ -69,8 +69,8 @@ solution: Journey Optimizer
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
-  + [Profiles](using/get-started-profiles.md)
-  + [Identities](using/get-started-identity.md)
+  + [Profiles](using/start/get-started-profiles.md)
+  + [Identities](using/start/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -191,7 +191,7 @@ solution: Journey Optimizer
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
-  + [Message monitoring](using/message-monitoring.md)
+  + [Message monitoring](using/messages/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
@@ -214,9 +214,9 @@ solution: Journey Optimizer
         + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
-    + [Get started with deliverability](using/deliverability.md)
-    + [Suppression list](using/suppression-list.md)
-    + [Allowed list](using/allow-list.md)
+    + [Get started with deliverability](using/messages/deliverability.md)
+    + [Suppression list](using/messages/suppression-list.md)
+    + [Allowed list](using/messages/allow-list.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
@@ -227,7 +227,7 @@ solution: Journey Optimizer
     + [Landing page reporting](using/landing-pages/lp-report.md)
     + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Decision management {#offer-decisioniong}
-  + Get started with Decision management {#get-started}
+  + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
     + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
@@ -306,16 +306,16 @@ solution: Journey Optimizer
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Data management {#data-management}
-  + [Schemas](using/get-started-schemas.md)
-  + [Datasets](using/get-started-datasets.md)
-  + [Queries](using/get-started-queries.md)
-+ Configuration{#get-started}
+  + [Schemas](using/start/get-started-schemas.md)
+  + [Datasets](using/start/get-started-datasets.md)
+  + [Queries](using/start/get-started-queries.md)
++ Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
-  + Configure messages {#configuration}
+  + Configure messages {#configuration-message}
     + Push notification configuration{#push-config}
-      + [Get started with push configuration](using/push-gs.md)
-      + [Configure push notification channel](using/push-configuration.md)
-    + Email configuration {#email-config}
+      + [Get started with push configuration](using/messages/push-gs.md)
+      + [Configure push notification channel](using/messages/push-configuration.md)
+    + Email configuration {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
         + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
@@ -349,8 +349,8 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-  + [Sources](using/get-started-sources.md)
-+ Access control {#administration}
+  + [Sources](using/start/get-started-sources.md)
++ Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
   + [Manage users and product profiles](using/administration/permissions.md)

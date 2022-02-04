@@ -1,23 +1,13 @@
 ---
 title: Create IP pools
 description: "Learn how to manage ip-pools"
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
-# Create IP pools
+# Create IP pools {#create-ip-pools}
 
 ## About IP pools {#about-ip-pools}
 

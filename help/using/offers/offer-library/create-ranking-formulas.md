@@ -1,6 +1,6 @@
 ---
 title: Create ranking formulas
-description: Learn how to create ranking formulas in Adobe Experience Platform.
+description: Learn how to create formulas to rank offers
 feature: Offers
 topic: Integrations
 role: User

@@ -1,6 +1,6 @@
 ---
 title: Personalized offers dataset
-description: This section lists all the fields used in the exported dataset for offers.
+description: This section lists all the fields used in the exported dataset for offers
 feature: Offers
 topic: Integrations
 role: User
@@ -23,14 +23,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
     
-## Identifier
+## Identifier {#identifier}
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Field:** _experience
 **Type:** object
@@ -308,7 +308,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Field:** _repo
 **Type:** object

@@ -113,7 +113,7 @@ Click the `...` icon to view the description of the function and add it to your 
 </table>
 </table>
 
-### Map Functions
+### Map Functions {#map-functions}
 
 <table>
     <tr>
@@ -138,7 +138,7 @@ Click the `...` icon to view the description of the function and add it to your 
     </tr>
 </table>
 
-### String Functions
+### String Functions {#string-functions}
 
 <table>
     <tr>
@@ -274,7 +274,7 @@ Arithmetic functions are used to perform basic calculations on values.
 </table>
 
 
-### Boolean functions
+### Boolean functions {#boolean-functions}
 
 Boolean functions are used to perform boolean logic on different elements.
 
@@ -294,7 +294,7 @@ Boolean functions are used to perform boolean logic on different elements.
 </table>
 
 
-### Comparison functions
+### Comparison functions {#comparison-functions}
 
 Comparison functions are used to compare between different expressions and values, returning true or false accordingly.
 

@@ -1,13 +1,13 @@
 ---
 title: Create placements
-description: Learn how to create placements in Adobe Experience Platform.
+description: Learn how to create placements for your offers
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 ---
-# Create placements {#creating-placements}
+# Create placements {#create-placements}
 
 A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 

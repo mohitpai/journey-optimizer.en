@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+exl-id: d188bb6b-2924-4818-b007-be660cce249c
 ---
 # Add attributes to favorites {#fav}
 

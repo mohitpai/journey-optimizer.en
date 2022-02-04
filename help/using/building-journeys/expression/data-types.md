@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 ---
-# Data types {#concept_gp3_rj5_dgb}
+# Data types {#data-types}
 
 Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.
 
