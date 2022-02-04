@@ -80,15 +80,20 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </div>
     <div>
     <li>
+      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security Overview</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Adobe Journey Optimizer FAQ</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform documentation</a>
     </li>
     </div>
-      <div>
-      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html" target="_blank">Adobe Experience Platform access overview</a>
-    </li>
-    </div>
-      <div>
+    <div>
       <li>
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform developers resources</a>
     </li>
