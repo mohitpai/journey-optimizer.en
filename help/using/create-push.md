@@ -27,11 +27,6 @@ Use the device preview section to visualize how the push notification displays o
 
 ## On click behavior {#on-click-behavior}
 
->[!CONTEXTUALHELP]
->id="ajo-message-push-onclick"
->title="About on click behavior"
->abstract="Select the behavior when a recipient clicks on the body of the push notification."
-
 Select the behavior when a recipient clicks on the body of the push notification.
 
 ![](assets/title-body-push.png)
