@@ -132,8 +132,7 @@ To edit the default settings for your simulations, follow the steps below.
 >
 >Currently for simulation data you can only use the **[!UICONTROL Hub]** API.
 
-<!--NOT FOR SIMULATIONS V2
-
+<!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
 
@@ -141,7 +140,7 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context data, Edge does not.
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
