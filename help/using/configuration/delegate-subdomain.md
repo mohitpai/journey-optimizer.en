@@ -18,16 +18,16 @@ Domain name delegation is a method that allows the owner of a domain name (techn
 
 By delegating a subdomain for use with [!DNL Journey Optimizer], clients can rely on Adobe to maintain the DNS infrastructure required to meet industry-standard deliverability requirements for their email marketing sending domains, while continuing to maintain and control DNS for their internal email domains.
 
-## Full subdomain delegation {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] allows you to fully delegate your subdomains to Adobe directly from the product interface. By doing so, Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
-
 >[!NOTE]
 >
 >By default, [!DNL Journey Optimizer] license contract allows you to delegate up to 10 subdomains. Reach out to your Adobe contact if you want to increase this limitation.
 >
 
-To delegate a new subdomain, follow the steps below:
+## Full subdomain delegation {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] allows you to fully delegate your subdomains to Adobe directly from the product interface. By doing so, Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
+
+To fully delegate a new subdomain to Adobe, follow the steps below:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 
