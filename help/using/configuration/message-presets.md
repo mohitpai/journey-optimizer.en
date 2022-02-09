@@ -37,11 +37,11 @@ To create a message preset, follow these steps:
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-1. Configure the **email** settings. See 
+1. Configure the **email** settings. [Learn more](#configure-email-settings)
 
-1. Configure the **push notification** settings. See
+1. Configure the **push notification** settings. [Learn more](#configure-push-settings)
 
-    <!--Configure SMS settings. See -->
+    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
@@ -73,15 +73,39 @@ To create a message preset, follow these steps:
 
 ![](../assets/preset-email.png)
 
-* Select the type of message that will be sent with the preset: **Transactional** or **Marketing**
+1. Select the type of message that will be sent with the preset: **Transactional** or **Marketing**.
 
     >[!CAUTION]
     >
     > **Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts, such as password reset, order status, delivery notification for example.
     
-* Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
-* Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
-* Enter the header parameters for the emails sent using that preset.
+1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
+
+1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
+
+1. To identify where and why a person clicked on your link, you can define parameters for URL tracking.
+
+    Based on the UTM (Urchin Tracking Module) parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in an analytics tool like Adobe Analytics or Google Analytics.
+
+    For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey...
+    In this example, the UTM code identifies the link as an email from an abandonment cart journey.
+
+    You can either select a journey/message attribute from a predefined list, or enter your own text.
+
+    >[!NOTE]
+    >
+    >You can add up to 10 tracking parameters.
+
+    You can choose from the following list of predefined values:
+    * Source id
+    * Source name
+    * Source version id
+    * Action id
+    * Action name
+    * Offer id
+    * Offer name
+
+1. Enter the header parameters for the emails sent using that preset.
 
     >[!CAUTION]
     >
@@ -107,7 +131,7 @@ To create a message preset, follow these steps:
     >
     >Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-* Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+1. Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
 
     ![](../assets/preset-retry-paramaters.png)
 
@@ -117,12 +141,12 @@ To create a message preset, follow these steps:
     * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
 ## Configure push settings {#configure-push-settings}
-
-![](../assets/preset-push.png)
    
-* Select at least one platform: **iOS** and/or **Android**
+1. Select at least one platform: **iOS** and/or **Android**.
+
+    ![](../assets/preset-push.png)
     
-* Select the mobile applications to use for each platform. 
+1. Select the mobile applications to use for each platform. 
         
     For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
 
