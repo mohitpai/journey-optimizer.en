@@ -69,7 +69,7 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-active.png)
 
-## Email presets
+## Configure email settings {#configure-email-settings}
 
 ![](../assets/preset-email.png)
 
@@ -116,7 +116,7 @@ To create a message preset, follow these steps:
     * For transactional email type, the minimum retry period is 10 minutes.
     * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
-## Push presets
+## Configure push settings {#configure-push-settings}
 
 ![](../assets/preset-push.png)
    
@@ -127,19 +127,17 @@ To create a message preset, follow these steps:
     For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
 
 <!--
-## SMS presets
+## Configure SMS settings {#configure-sms-settings}
 
-1. Configure the **SMS** settings.
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
+    ![](../assets/preset-sms.png)
     
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
 -->
 
 ## Monitor message presets {#monitor-message-presets}
