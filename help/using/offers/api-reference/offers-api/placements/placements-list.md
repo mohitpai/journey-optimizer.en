@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 ---
-# List placements
+# List placements {#list-placements}
 
 Placements are containers that are used to showcase your offers. A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 
@@ -26,11 +26,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Defines the schema associated with placements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

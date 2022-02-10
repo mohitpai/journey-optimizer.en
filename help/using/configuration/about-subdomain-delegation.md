@@ -1,17 +1,19 @@
 ---
-title: Delegate subdomains
+title: Subdomain delegation in [!DNL Journey Optimizer]
 description: Learn how to delegate your subdomains
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 ---
-# Subdomain delegation in [!DNL Journey Optimizer]
+# Subdomain delegation in [!DNL Journey Optimizer] {#subdomain-delegation}
 
 Creating a subdomain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the IP warming process and improve deliverability overall. If you share a domain and it gets blocked or added to the deny list, it could impact your corporate mail delivery. However, reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email. Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder.
+
+>[!NOTE]
+>
+>You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
 ## Why setting up subdomains? {#why-setting-up-subdomains}
 
@@ -40,7 +42,7 @@ Subdomain configuration allows you to configure a subsection of your domain (tec
 
 * **Full subdomain delegation to Adobe** (recommended): The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages. [Learn more on full subdomain delegation](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Use of CNAMEs**: Create a subdomain and use CNAMEs to point to Adobe-specific records. Using this setup, both you and Adobe ashare responsibility for maintaining DNS. [Learn more on CNAME subdomain delegation](delegate-subdomain.md#cname-subdomain-delegation)
+* **Use of CNAMEs**: Create a subdomain and use CNAMEs to point to Adobe-specific records. Using this setup, both you and Adobe share responsibility for maintaining DNS. [Learn more on CNAME subdomain delegation](delegate-subdomain.md#cname-subdomain-delegation)
 
 The table below provides a summary of how these methods work, as well as the implied level of effort:
 

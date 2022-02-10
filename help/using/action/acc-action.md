@@ -17,7 +17,7 @@ An end-to-end use case is presented in this [section](../building-journeys/campa
 
 For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
-## Important notes
+## Important notes {#important-notes}
 
 * There is no throttling of messages. We cap the number of messages that can be sent over to 50,000/hour based on our current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
 
@@ -29,7 +29,7 @@ For each action configured, an action activity is available in the journey desig
 
 * You cannot use a Campaign action with a segment qualification event.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 In Campaign, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
@@ -52,7 +52,7 @@ Here is an example:
 * **eventType**: the internal name of your Campaign event
 * **ctx**: variable based on the personalization you have in your message. 
 
-## Configuring the action
+## Configuring the action {#configure-action}
 
 In Journey Optimizer, you need to configure one action per transactional message. Follow these steps:
 

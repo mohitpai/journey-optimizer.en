@@ -15,7 +15,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 >
 >The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
-## Access landing pages
+## Access landing pages {#access-landing-pages}
 
 To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
 
@@ -25,7 +25,7 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](../assets/lp_access-list-filter.png)
 
-## Create a landing page {#create-a-lp}
+## Create a landing page {#create-landing-page}
 
 The steps to create a landing page are as follows.
 
@@ -55,7 +55,7 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_add-subpage.png)
 
-Once you configured and designed the [primary page](#configure-primary-page), and the [subpages](#configure-subpages) if any, you can [test](#test) and [publish](#publish) your landing page.
+Once you configured and designed the [primary page](#configure-primary-page), and the [subpages](#configure-subpages) if any, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
 
 ## Configure the primary page {#configure-primary-page}
 
@@ -115,7 +115,7 @@ To define the subpage settings, follow the steps below.
 
 ![](../assets/lp_subpage-settings.png)
 
-## Test the landing page {#test}
+## Test the landing page {#test-landing-page}
 
 Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
 
@@ -135,7 +135,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](../assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../messages/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
@@ -147,7 +147,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 1. Select other test profiles to preview the rendering for each variant of your landing page.
 
-## Check alerts {#alerts}
+## Check alerts {#check-alerts}
 
 While you are creating your landing page, alerts warn you when you need to take important actions before publishing.
 
@@ -186,7 +186,7 @@ Two types of alerts can happen:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Publish the landing page {#publish}
+## Publish the landing page {#publish-landing-page}
 
 Once your landing page is ready, you can publish it to make it available for use in a message.
 
@@ -194,11 +194,11 @@ Once your landing page is ready, you can publish it to make it available for use
 
 >[!CAUTION]
 >
->Before publishing, check and resolve alerts. [Learn more](#alerts)
+>Before publishing, check and resolve alerts. [Learn more](#check-alerts)
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
+It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../messages/create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
 
 >[!NOTE]
 >

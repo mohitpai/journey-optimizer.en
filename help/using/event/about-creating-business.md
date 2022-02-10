@@ -19,7 +19,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 >
 >You can also watch the business event use case [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## Important notes
+## Important notes {#important-notes}
 
 *  Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
@@ -30,7 +30,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 * When testing a business event, you have to pass the event parameters and the identifier of the test profile that will enter the journey in test. Also, when testing a business event based journey, you can only trigger single profile entrance. See [this section](../building-journeys/testing-the-journey.md#test-business). In test mode, there is no "Code view" mode available.
 * What happens to individuals that are currently in the journey if a new business event arrives? It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. Their path is ended. As a result, marketers must pay attention to avoid building too long journeys if they expect frequent business events.
 
-## Multiple business events
+## Multiple business events {#multiple-business-events}
 
 Here are a few important notes that apply when multiple business events are received in a row.
 
@@ -42,7 +42,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Get started with business events
+## Get started with business events {#gs-business-events}
 
 Here are the first steps to configure a business event:
 

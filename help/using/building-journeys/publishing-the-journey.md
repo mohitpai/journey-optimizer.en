@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 ---
-# Publishing the journey{#concept_mtc_lrt_52b}
+# Publish your journey{#publishing-the-journey}
 
 You can publish a journey after testing its validity.
 
@@ -15,7 +15,7 @@ If you need to make modifications to a published journey, you need to create a n
 
 If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
 
-1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [this section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). It is also recommended to test your journey before publication. See [this page](../building-journeys/testing-the-journey.md).
+1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). It is also recommended to test your journey before publication. See [this page](../building-journeys/testing-the-journey.md).
 1. To publish the journey, click on the **[!UICONTROL Publish]** option, located in the top right drop-down menu.
 
     ![](../assets/journeyuc1_18.png)

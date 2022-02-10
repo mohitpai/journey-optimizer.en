@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 ---
-# List fallback offers
+# List fallback offers {#list-fallback-offers}
 
 A fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 
@@ -38,11 +38,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

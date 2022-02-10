@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Create ranking strategies
-description: Learn how to create ranking strategies in Adobe Experience Platform.
+description: Learn how to create AI models to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 ---
 # AI rankings {#ai-rankings}
 
-## Get started with AI rankings
+## Get started with AI rankings {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -25,6 +25,22 @@ For example, you can select a ranking strategy for the email channel and another
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
 Once a ranking strategy has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+
+### Auto-optimization model {#auto-optimization}
+
+Currently in [!DNL Journey Optimizer] the only supported model type for AI ranking is **auto-optimization**.
+
+An auto-optimization model aims to serve offers that maximize the return, based on the Key performance indicators (KPIs) that you set. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->At this point, auto-optimization focuses on optimizing offer clicks with offer conversion as the target.
+
+>[!NOTE]
+>
+>The auto-optimization model does not use any contextual or user profile data. It optimizes results based on global performance of the offers.
+
+With auto-optimization, the challenge is to balance exploratory learning and exploitation of that learning. This principle is known as **"multi-armed bandit" approach**.
+
+To tackle this challenge, the auto-optimization model uses the **Thompson Sampling** method, which allows to identify which option to pursue to maximize the expected rewards. In other words, Thompson Sampling is a type of reinforcement learning technique for solving the exploration-exploitation dilemma in a multi-armed bandit problem. 
+
+The Thompson Sampling method also enables to handle challenges such as the "cold start" problem, i.e. when a new offer is introduced in the campaign, it does not have any history that it could train from.
 
 ## Create a ranking strategy {#create-ranking-strategy}
 
@@ -107,7 +123,6 @@ You need to create a dataset where conversion events will be collected. Start by
     >Field group was previously known as mixin.
     >    
 
-
 1. Type a name and save the schema.<!--How do you edit the fields in this new schema? Examples?-->
 
 >[!NOTE]
@@ -134,9 +149,80 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 
     ![](../../assets/ai-ranking-dataset-name.png)
 
-The dataset is now ready to be selected to collect conversion events when [creating a ranking strategy](#create-ranking-strategy).
+The dataset is now ready to be selected to collect event data when [creating a ranking strategy](#create-ranking-strategy).
 
-<!--## Using a ranking strategy {#using-ranking}
+## Offer schema requirements {#schema-requirements}
+
+At this point, you must have:
+
+* created the ranking strategy,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.
+
+Now each time an offer is displayed and/or clicked, you want the corresponding event to be automatically captured by the **[!UICONTROL Experience Event - Proposition Interactions]** field group using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK.
+
+To be able to send in event types (offer displayed or offer clicked), you must set the correct value for each event type in an experience event that is sent into Adobe Experience Platform. Below are the schema requirements you need to implement into your JavaScript code:
+
+**Scenario:** Offer displayed
+**Event type:** `decisioning.propositionDisplay`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
+**Sample payload:**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionDisplay",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                }
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+        }
+    ]
+}
+```
+
+**Scenario:** Offer clicked
+**Event type:** `decisioning.propositionInteract`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
+**Sample payload:**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionInteract",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
+                },
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+        }
+    ]
+}
+```
+
+<!--
+## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
@@ -151,5 +237,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+-->
 

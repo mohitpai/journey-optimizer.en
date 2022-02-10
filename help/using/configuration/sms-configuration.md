@@ -83,11 +83,9 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-active.png)
 
-To learn how to configure a message preset for push notifications and emails, refer to [this section](message-presets.md).
-
 You are now ready to send SMS messages with Journey Optimizer.
 
 **Related topics**
 
-* [Create an SMS message](../create-sms.md)
+* [Create an SMS message](../messages/create-sms.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

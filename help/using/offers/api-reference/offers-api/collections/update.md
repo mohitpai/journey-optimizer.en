@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 ---
-# Update a collection
+# Update a collection {#update-collection}
 
 You can modify or update a collection by making a PATCH request to the [!DNL Offer Library] API
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

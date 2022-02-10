@@ -1,16 +1,6 @@
 ---
 title: Retries
 description: Learn how retries are performed before sending an address to the suppression list
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -23,7 +13,7 @@ When an email message fails due to a temporary **Soft bounce** error, several re
 
 >[!NOTE]
 >
->Learn more on the types of errors in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
+>Learn more on the types of errors in the [Delivery failure types](../messages/suppression-list.md#delivery-failures) section.
 
 In the default configuration, the threshold is set to 5 errors.
 
@@ -49,11 +39,7 @@ In case the default value of 5 does not suit your needs, you can modify the erro
 
     >[!CAUTION]
     >
-    >Any value higher than 10 may cause deliverability reputation issues, as well as IP throttling or blocklisting by ISPs. [Learn more on deliverability](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+    >Any value higher than 10 may cause deliverability reputation issues, as well as IP throttling or blocklisting by ISPs. [Learn more on deliverability](../messages/deliverability.md)
 
 ## Retry time period {#retry-duration}
 
@@ -71,6 +57,3 @@ For example, you may set the retry period to 24 hours for a transactional email 
 
 Learn how to adjust the email retry parameters when creating a message preset in [this section](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

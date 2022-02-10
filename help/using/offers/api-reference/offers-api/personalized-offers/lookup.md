@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 ---
-# Look up a personalized offer
+# Look up a personalized offer {#look-up-personalized-offer}
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 

@@ -9,7 +9,7 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 ---
 # Advanced expression editor syntax {#syntax}
 
-## Parentheses and expression priority{#section_edf_fks_bgb}
+## Parentheses and expression priority{#parentheses-and-expression-priority}
 
 Parentheses can be used to make a complex expression more readable. _(&lt;expression>)_ is the equivalent of _&lt;expression>_. Parenthesis can also be used to define the evaluation order and associativity.
 
@@ -22,7 +22,7 @@ The expressions will be evaluated from left to right. The associativity on arith
 |`4 + 2 * 10`|<ul><li>'*' takes priority over '+': 2 * 10 is evaluated → 20</li><li>4 + 20 → 24</li></ul>|
 |`(4 + 2) * 10`|<ul><li>The parentheses change the priority: (4 + 2) is evaluated → 6</li><li> 6 * 10 → 60</li></ul>|
 
-## Case sensitivity{#section_lrb_xh5_dgb}
+## Case sensitivity{#case-sensitivity}
 
 Here are the different case sensitivity rules:
 
@@ -30,7 +30,7 @@ Here are the different case sensitivity rules:
 * All function names are case sensitive. For instance, _inSegment()_ is valid whereas the function _INSEGMENT()_ is not.
 * Field references and constant values are case sensitive: they are not built-in elements of the language (as opposed to operators and functions), they are authored by the end user.
 
-## Returned expression type{#section_gyc_435_53b}
+## Returned expression type{#returned-expression-type}
 
 Depending on the context of use, the expression editor can return different values.
 

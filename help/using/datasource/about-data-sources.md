@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 ---
-# About data sources {#concept_s1s_dqt_52b}
+# About data sources {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"

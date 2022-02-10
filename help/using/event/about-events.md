@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 ---
-# About events{#concept_gfj_fqt_52b}
+# About events{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,7 +51,7 @@ For unitary events, there are two types of event ID:
 
 Journey Optimizer requires events to be streamed or batched into Adobe Experience Platform. This data does not necessarily need to go to the Real-Time Profile. If you would like to use the events for segmentation or lookup in a separate journey, we recommend you enable the dataset for profile.
 
-## Data cycle {#section_r1f_xqt_pgb}
+## Data cycle {#data-cycle}
 
 Events are POST API calls. Events are sent to Adobe Experience Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. 
 

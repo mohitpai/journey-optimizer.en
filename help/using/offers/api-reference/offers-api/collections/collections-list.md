@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 ---
-# List collections
+# List collections {#list-collections}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
@@ -38,11 +38,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

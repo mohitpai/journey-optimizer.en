@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 ---
-# General events {#section_ofg_jss_dgb}
+# General events {#general-events}
 
 For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [this page](../event/about-events.md).
 

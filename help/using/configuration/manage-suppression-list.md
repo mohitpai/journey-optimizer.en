@@ -1,16 +1,6 @@
 ---
 title: Manage the suppression list
 description: Learn how to access and manage the Journey Optimizer suppression list
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -25,7 +15,7 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../suppression-list.md).
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../messages/suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -35,15 +25,9 @@ To access the detailed list of excluded email addresses, go to **[!UICONTROL Adm
 >
 >Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
 
-<!--![](../assets/suppression-list-link.png)
-
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
-
 ![](../assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
-
-<!--![](../assets/suppression-list-filters-temp.png)-->
 
 ![](../assets/suppression-list-filters.png)
 
@@ -59,7 +43,7 @@ If you manually add an email address or a domain by mistake, the **[!UICONTROL D
 
 ![](../assets/suppression-list-delete.png)
 
-Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../suppression-list.md).
+Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../messages/suppression-list.md).
 
 >[!NOTE]
 >
@@ -85,17 +69,11 @@ The suppression categories are as follows:
 
 * **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 
-    <!--
-    **Ignored**:
-    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
-    * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
-    -->
-
 * **Manual**: You can also manually add an email address or a domain to the suppression list. [Learn more](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->Learn more on soft bounces and hard bounces in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
+>Learn more on soft bounces and hard bounces in the [Delivery failure types](../messages/suppression-list.md#delivery-failures) section.
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
@@ -115,27 +93,7 @@ The possible reasons for a delivery failure are:
 
 >[!NOTE]
 >
->Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../consent.md)
-
-<!--
-Removed from the table provided by SparkPost/Momentum:
-| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
-| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
-| **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
-| **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. ///For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used. | Ignored |
-| **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
-| **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
-| **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |
-| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. It could be a sending IP block for example. | Ignored |
-| **[!UICONTROL Spam Content]** | The message content was blocked by the receiver (recipient MTA) as spam. | Ignored |
-| **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
-| **[!UICONTROL Auto-Reply]** | The message is an auto-reply/vacation mail. | Ignored |
-| **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
-| **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
-| **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
--->
-
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
+>Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../messages/consent.md)
 
 ## Manually add addresses and domains {#add-addresses-and-domains}
 

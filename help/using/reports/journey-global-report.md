@@ -111,7 +111,7 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-For more information on bounces, refer to the [Suppression list](../suppression-list.md) page.
+For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
 
 ![](../assets/global_report_16.png)
 
