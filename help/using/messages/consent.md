@@ -43,7 +43,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
     ![](assets/opt-out-insert-link.png)
 
-1. Select **[!UICONTROL Unsubscription link]** from the **[!UICONTROL Link type]** drop-down list.
+1. Select **[!UICONTROL External Opt-out/Unsubscription]** from the **[!UICONTROL Link type]** drop-down list.
 
     ![](assets/opt-out-link-type.png)
 
@@ -55,7 +55,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Save your content and [publish your message](publish-manage-message.md).
 
-### Opt-out API call {#opt-out-api}
+### Implement API call for opt-out {#opt-out-api}
 
 To have your recipients opted out when they submit their choice from the landing page, you must implement a **Subscription API call** through Adobe I/O to update the corresponding profiles' preferences.
 
