@@ -25,6 +25,8 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](../assets/lp_access-list-filter.png)
 
+You can also duplicate, delete and unpublish landing pages from this list.
+
 ## Create a landing page {#create-landing-page}
 
 The steps to create a landing page are as follows.
