@@ -1,6 +1,6 @@
 ---
 title: Create simulations
-description: Learn how to create simulations
+description: Learn how to simulate which offers will be delivered for a given placement in order to validate your decisioning logic
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 ---
 # Create simulations {#create-simulations}
 
-## About simulation
+## About simulation {#about-simulation}
 
 To validate your decisioning logic, you can simulate which offers will be delivered to a test profile for a given placement.
 
@@ -29,7 +29,7 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Select test profiles
+## Select test profiles {#select-test-profiles}
 
 First you need to select the test profiles that you are going to use for simulation.
 
@@ -55,11 +55,15 @@ First you need to select the test profiles that you are going to use for simulat
 
     ![](../../assets/offers_simulation-saved-profiles.png)
 
+    >[!NOTE]
+    >
+    >The profiles selected will remain listed as test profiles in the **[!UICONTROL Simulation]** tab from session to session until they are removed using **[!UICONTROL Manage profile]**.
+
 1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## Add decision scopes
+## Add decision scopes {#add-decision-scopes}
 
 Now select the offer decisions that you want to simulate on your test profiles.
 
@@ -128,8 +132,7 @@ To edit the default settings for your simulations, follow the steps below.
 >
 >Currently for simulation data you can only use the **[!UICONTROL Hub]** API.
 
-<!--NOT FOR SIMULATIONS V2
-
+<!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
 
@@ -137,7 +140,7 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context data, Edge does not.
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
@@ -189,5 +192,5 @@ Once you added a decision scope and selected a test profile, you can view the re
 
     >[!NOTE]
     >
-    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with valid values.
+    >When copying the request or response payloads into your own code, make sure you replace {USER_TOKEN} and {API_KEY} with valid values. Learn how to retrieve these values in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentation.
 
