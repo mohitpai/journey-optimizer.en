@@ -26,20 +26,20 @@ Providing the capability to recipients to unsubscribe from receiving communicati
 
 Therefore, you must always include an **unsubscribe link** in every email sent out to recipients:
 
-* Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
-* Upon clicking the opt-out button, an Adobe I/O call will be made to update the profile data with this information. [Learn more about this](#consent-service-api).
+* Upon clicking this link, the recipients will be directed to a landing page to confirm opting out.
+* After confirming their choice, the profiles' data will be updated with this information.
 
 ### Add an unsubscribe link {#add-unsubscribe-link}
 
-To add an unsubscribe link, follow the steps below:
+You first need to add an unsubscribe link into a message. To do this, follow the steps below:
 
-1. Build your unsubscription landing page.
+1. Build your own unsubscription landing page.
 
 1. Host it on the third-party system of your choice.
 
 1. [Create a message](create-message.md) in [!DNL Journey Optimizer].
 
-1. Select text in your content and insert a link using the contextual toolbar.
+1. Select text in your content and [insert a link](message-tracking.md#insert-links) using the contextual toolbar.
 
     ![](assets/opt-out-insert-link.png)
 
@@ -55,33 +55,9 @@ To add an unsubscribe link, follow the steps below:
 
 1. Save your content and [publish your message](publish-manage-message.md).
 
-    >[!NOTE]
-    >
-    >Your third-party landing page URL will include three parameters that will be used to update the profiles' preferences through an Adobe I/O call.​ [Learn more in this section](#consent-service-api).
-
-1. Send your message with the link to your landing page through a [journey](../building-journeys/journey.md).
-
-1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
-
-    ![](assets/opt-out-lp-example.png)
-
-1. If the recipient clicks the opt-out button in the landing page (here, the **Unsubscribe** button), the profile data is updated through an [Adobe I/O call](#opt-out-api).
-
-    The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.
-
-    ![](assets/opt-out-confirmation-example.png)
-
-    As a result, this user will not receive communication from your brand unless subscribed again.
-
-To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
-
-![](assets/opt-out-profile-choice.png)
-
-In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
-
 ### Opt-out API call {#opt-out-api}
 
-Once the recipient has opted out by clicking the unsubscribe link, an Adobe I/O API is called to update the corresponding profile's preference.
+To have your recipients opted out when they submit their choice from the landing page, you must implement a **Subscription API call** through Adobe I/O to update the corresponding profiles' preferences.
 
 This Adobe I/O POST call is as follows:
 
@@ -93,7 +69,7 @@ Query parameters:
 * **sig**: signature
 * **pid**: encrypted profile ID
 
-These parameters are available from the unsubscribe link sent to your recipient, i.e. the URL that will open your third-party landing page for a given recipient:
+These three parameters will be included into the third-party landing page URL sent to your recipient:
 
 ![](assets/opt-out-parameters.png)
 
@@ -119,7 +95,29 @@ Request body:
 }
 ```
 
-[!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice.
+[!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice through the Adobe I/O call.
+
+### Send the message with the unsubscribe link {#send-message-unsubscribe-link}
+
+1. Send your message with the link to your landing page through a [journey](../building-journeys/journey.md).
+
+1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
+
+    ![](assets/opt-out-lp-example.png)
+
+1. If the recipient submit the form (here, the **Unsubscribe** button in your landing page), the profile data is updated through the [Adobe I/O call](#opt-out-api).
+
+1. The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.
+
+    ![](assets/opt-out-confirmation-example.png)
+
+    As a result, this user will not receive communication from your brand unless subscribed again.
+
+1. To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+
+    ![](assets/opt-out-profile-choice.png)
+
+    In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
 ## One-click opt-out {#one-click-opt-out}
 
