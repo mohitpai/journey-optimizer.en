@@ -47,7 +47,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
     ![](assets/opt-out-link-type.png)
 
-1. In the **[!UICONTROL Link]** field, paste the link to your landing page.
+1. In the **[!UICONTROL Link]** field, paste the link to your third-party landing page.
 
     ![](assets/opt-out-link-url.png)
 
