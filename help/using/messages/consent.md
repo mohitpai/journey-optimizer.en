@@ -55,7 +55,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Save your content and [publish your message](publish-manage-message.md).
 
-### Implement API call for opt-out {#opt-out-api}
+### Implement an API call for opt-out {#opt-out-api}
 
 To have your recipients opted out when they submit their choice from the landing page, you must implement a **Subscription API call** through Adobe I/O to update the corresponding profiles' preferences.
 
@@ -99,13 +99,15 @@ Request body:
 
 ### Send the message with the unsubscribe link {#send-message-unsubscribe-link}
 
-1. Send your message with the link to your landing page through a [journey](../building-journeys/journey.md).
+Once you configured the unsubscribe link to your landing page and implemented the API call, your message is ready to be sent.
+
+1. Send the message including the link through a [journey](../building-journeys/journey.md).
 
 1. Once the message is received, if the recipient clicks the unsubscribe link, your landing page is displayed.
 
     ![](assets/opt-out-lp-example.png)
 
-1. If the recipient submit the form (here, the **Unsubscribe** button in your landing page), the profile data is updated through the [Adobe I/O call](#opt-out-api).
+1. If the recipient submits the form (here, by hitting the **Unsubscribe** button in your landing page), the profile data is updated through the [Adobe I/O call](#opt-out-api).
 
 1. The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.
 
