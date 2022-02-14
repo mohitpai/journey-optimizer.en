@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 ---
-# Manage opt-out {#consent}
+# Manage consent {#consent}
 
 Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions.
 
@@ -19,6 +19,10 @@ Regulations such as GDPR state that you must comply with specific requirements b
 * It helps you avoid sending unsolicited communications to your recipients, which could make them mark your messages as spam and harm your reputation.
 
 Learn more on managing Privacy and the applicable regulations in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
+
+>[!NOTE]
+>
+>In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
 
 ## Opt-out management {#opt-out-management}
 
@@ -97,7 +101,7 @@ Request body:
 
 [!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice through the Adobe I/O call.
 
-### Send the message with the unsubscribe link {#send-message-unsubscribe-link}
+### Send the message with unsubscribe link {#send-message-unsubscribe-link}
 
 Once you configured the unsubscribe link to your landing page and implemented the API call, your message is ready to be sent.
 
