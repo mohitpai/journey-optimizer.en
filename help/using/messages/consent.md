@@ -101,7 +101,7 @@ Request body:
 
 [!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice through the Adobe I/O call.
 
-### Send the message with the unsubscribe link {#send-message-unsubscribe-link}
+### Send the message with unsubscribe link {#send-message-unsubscribe-link}
 
 Once you configured the unsubscribe link to your landing page and implemented the API call, your message is ready to be sent.
 
