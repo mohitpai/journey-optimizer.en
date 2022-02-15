@@ -30,11 +30,11 @@ To save an expression to the library, follow these steps:
 
 1. In the editor interface, build the expression then click **[!UICONTROL Add to library]**. 
 
-    ![](assets/add-to-library.png)
-
     >[!NOTE]
     >
     >If the button is not visible, check in the Admin Console that you have the required permissions (see [Permissions levels](../administration/high-low-permissions.md)).
+
+    ![](assets/add-to-library.png)
 
 1. In the right pane, give a title and description to the expression to help users find it more easily, then click **[!UICONTROL Add]**.
 
@@ -44,6 +44,6 @@ To save an expression to the library, follow these steps:
 
     -- ADD SCREENSHOT --
 
-To edit an existing expression, add it to the editor, then edit it according to your needs. Click **[!UICONTROL Add to library]** to validate the expression and save it.
+To edit an existing expression, add it to the editor, then modify it according to your needs. Click **[!UICONTROL Add to library]** to validate the syntax and save the expression.
 
 To delete an expression, click the ellipse button then click **[!UICONTROL Delete]**.
