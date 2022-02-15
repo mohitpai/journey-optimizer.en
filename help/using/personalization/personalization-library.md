@@ -1,12 +1,17 @@
 ---
-title: Work with prefined personalization expressions
-description: Learn how to work with predefined expressions from [!DNL Journey Optimizer] library.
+title: Work with prefined expressions
+description: Learn how to work with predefined expressions from the [!DNL Journey Optimizer] library.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 ---
-# Work with predefined personalization expressions {#expression-library}
+# Work with predefined expressions {#expression-library}
+
+>[!CONTEXTUALHELP]
+>id="ajo_perso_library"
+>title="About the Expression Library"
+>abstract="The Expression Library provides predefined personalization expressions that have been configured by Admin users."
 
 [!DNL Journey Optimizer] provides a library where you can access predefined personalization expressions that have been configured by Admin users. 
 
