@@ -9,12 +9,6 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 ---
 # Create personalized offers {#create-personalized-offers}
 
->[!CONTEXTUALHELP]
->id="od_offer_attributes"
->title="About offer attributes"
->abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
 Before creating an offer, make sure that you created:
 
 * A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
