@@ -97,7 +97,7 @@ Resource with id activityID and type OfferActivity not found<br/></td>
    <td>The Image Offers (all Personalized and fallback associated with the decision and placement pair) should have public URL populated (deliveryURL should not be empty).</td> 
   </tr> 
   <tr> 
-   <td>The decision (previously known as offer activity) contains non-profile attributes.</td> 
+   <td>The decision contains non-profile attributes.</td> 
    <td>Offers Model usage should contain only the profile attributes.</td> 
   </tr> 
   <tr> 
