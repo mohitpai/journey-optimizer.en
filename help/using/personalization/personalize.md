@@ -16,6 +16,8 @@ Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt yo
 
 ## Build personalization expressions using a dedicated syntax {#syntax}
 
+<img src="assets/do-not-localize/code.svg" width="60px">
+
 [!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
 
 **Examples:**
@@ -27,6 +29,8 @@ When processing the message (email and push), Journey Optimizer replaces the exp
 
 ## Leverage profile data to personalize your messages {#data}
 
+<img src="assets/do-not-localize/profile.svg" width="60px">
+
 The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. Learn more in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 >[!CAUTION]
@@ -34,9 +38,13 @@ The personalization is based on the profile data that are managed by the **XDM I
 
 ## Add personalization in different contexts {#contexts}
 
+<img src="assets/do-not-localize/context.svg" width="60px">
+
 [!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).
 
 ## Work with the Expression Editor {#editor}
+
+<img src="assets/do-not-localize/editor.svg" width="60px">
 
 [!DNL Journey Optimizer] provides an expression editor where you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
