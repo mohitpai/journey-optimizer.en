@@ -166,7 +166,7 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 **Scenario:** Offer displayed
 **Event type:** `decisioning.propositionDisplay`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
-**Sample payload:**
++++**Sample payload:**
 
 ```
 {
@@ -192,10 +192,12 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 }
 ```
 
++++
+
 **Scenario:** Offer clicked
 **Event type:** `decisioning.propositionInteract`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
-**Sample payload:**
++++**Sample payload:**
 
 ```
 {
@@ -220,6 +222,8 @@ To be able to send in event types (offer displayed or offer clicked), you must s
     ]
 }
 ```
+
++++
 
 <!--
 ## Using a ranking strategy {#using-ranking}
