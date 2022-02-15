@@ -411,7 +411,7 @@ It includes the following low-level permissions:
   * profiles.read
   * datasets.read
 
-## Journey Optimizer Library {library-permissions}
+## Journey Optimizer Library capability {library-permissions}
 
 ### Manage Library Items {#library-items}
 
