@@ -18,6 +18,11 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 
+* The Create message presets section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
+
+* The Opt-out management section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
+
+* The Insert links section has been updated to reflect the recent user interface changes. [Read more](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
