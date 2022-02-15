@@ -14,8 +14,6 @@ Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt yo
 ➡️ [Learn how to personalize a message in these videos](#video-perso)
 ➡️ [Discover use cases leveraging personalization](personalization-use-case.md)
 
-<img src="assets/do-not-localize/code.svg" width="60px">
-
 ## Build personalization expressions using a dedicated syntax {#syntax}
 
 [!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
@@ -27,8 +25,6 @@ Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt yo
 
 When processing the message (email and push), Journey Optimizer replaces the expression with the data contained in the Experience Platform database:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` becomes “Hello John Doe”.
 
-<img src="assets/do-not-localize/profile.svg" width="60px">
-
 ## Leverage profile data to personalize your messages {#data}
 
 The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. Learn more in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
@@ -36,13 +32,9 @@ The personalization is based on the profile data that are managed by the **XDM I
 >[!CAUTION]
 >The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
-<img src="assets/do-not-localize/context.svg" width="60px">
-
 ## Add personalization in different contexts {#contexts}
 
 [!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).
-
-<img src="assets/do-not-localize/editor.svg" width="60px">
 
 ## Work with the Expression Editor {#editor}
 
