@@ -46,11 +46,13 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL Unsubscription link]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](#one-click-opt-out-link).
+
+    * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
+
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
-
-    * **[!UICONTROL Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](#one-click-opt-out-link).
 
     ![](assets/message-tracking-links.png)
 
@@ -60,7 +62,7 @@ To insert links into your email content, follow the steps below:
 
 1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-    * Click the pencil icon to edit the link.
+    * You can edit the link and change its type.
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
@@ -93,7 +95,7 @@ To enable your recipients to quickly unsubscribe from receiving communications f
 
 To add an opt-out link in your email, follow the steps below.
 
-1. [Insert a link](#insert-links) and select **[!UICONTROL Opt-out]** as the type of link.
+1. [Insert a link](#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
 
     ![](assets/message-tracking-opt-out.png)
 
@@ -128,7 +130,6 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     ![](assets/message-tracking-edit-links.png)
 
 1. You can modify the **[!UICONTROL Tracking Type]** if needed:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 
