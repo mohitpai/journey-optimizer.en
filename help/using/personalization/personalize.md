@@ -52,6 +52,8 @@ Learn more about the Expression Editor in [this section](personalization-build-e
 
 +++
 
+</br></br>
+
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
