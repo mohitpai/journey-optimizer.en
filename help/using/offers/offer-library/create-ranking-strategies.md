@@ -226,7 +226,7 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 
 To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.
