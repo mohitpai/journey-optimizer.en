@@ -23,6 +23,12 @@ The list of personalized offers is accessible in the **[!UICONTROL Offers]** men
 
 ## Create the offer {#create-offer}
 
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="About offer attributes"
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
 To create an **offer**, follow these steps:
 
 1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
@@ -135,6 +141,31 @@ You can also insert text-type content when selecting a compatible placement.
     >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
 
 ## Add eligibility rules and constraints {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="About offer eligibility"
+>abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
+>additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Create decision rules"
+>additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="About offer priority"
+>abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented across all users."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
 Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
 
