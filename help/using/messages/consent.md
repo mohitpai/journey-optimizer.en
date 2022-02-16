@@ -24,7 +24,7 @@ Learn more on managing Privacy and the applicable regulations in the [Experience
 >
 >In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
 
-## Opt-out management {#opt-out-management}
+## Email opt-out management {#opt-out-management}
 
 Providing the capability to recipients to unsubscribe from receiving communications from a brand is a legal requirement. Learn more about the applicable legislation in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
@@ -33,7 +33,11 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 * Upon clicking this link, the recipients will be directed to a landing page to confirm opting out.
 * After confirming their choice, the profiles' data will be updated with this information.
 
-### Add an unsubscribe link {#add-unsubscribe-link}
+### External opt-out {#opt-out-external-lp}
+
+To do this, you can insert a link to an external landing page into an email in order to enable users to unsubscribe from receiving communications from your brand.
+
+#### Add an unsubscribe link {#add-unsubscribe-link}
 
 You first need to add an unsubscribe link into a message. To do this, follow the steps below:
 
@@ -59,7 +63,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Save your content and [publish your message](publish-manage-message.md).
 
-### Implement an API call for opt-out {#opt-out-api}
+#### Implement an API call for opt-out {#opt-out-api}
 
 To have your recipients opted out when they submit their choice from the landing page, you must implement a **Subscription API call** through Adobe I/O to update the corresponding profiles' preferences.
 
@@ -101,7 +105,7 @@ Request body:
 
 [!DNL Journey Optimizer] will use these parameters to update the corresponding profile's choice through the Adobe I/O call.
 
-### Send the message with unsubscribe link {#send-message-unsubscribe-link}
+#### Send the message with unsubscribe link {#send-message-unsubscribe-link}
 
 Once you configured the unsubscribe link to your landing page and implemented the API call, your message is ready to be sent.
 
@@ -125,7 +129,7 @@ Once you configured the unsubscribe link to your landing page and implemented th
 
     In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
-## One-click opt-out {#one-click-opt-out}
+### One-click opt-out {#one-click-opt-out}
 
 As many customers look for an easier process to unsubscribe, you can also add a one-click opt-out link into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out.
 
@@ -133,7 +137,7 @@ Learn how to add an opt-out link to your message content in [this section](messa
 
 Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
-## Unsubscribe link in header {#unsubscribe-email}
+### Unsubscribe link in message header {#unsubscribe-email}
 
 If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
 
