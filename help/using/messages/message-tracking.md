@@ -46,7 +46,7 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](#one-click-opt-out-link).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](consent.md#one-click-opt-out).
 
     * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
 
