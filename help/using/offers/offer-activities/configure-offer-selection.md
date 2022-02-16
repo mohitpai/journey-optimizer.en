@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 ---
 # Configure offers selection in decisions {#offers-selection-in-decisions}
 
-If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision (previously known as offer activity). You can rank offers by:
+If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision. You can rank offers by:
 * Offer priority
 * Ranking formula
 * [AI ranking](#use-ranking-strategy) (in early access for select users only)
@@ -18,7 +18,7 @@ If several offers are eligible for a given placement, you can choose the method 
 
 ## Offer priority {#offer-priority}
 
-By default, when several offers are eligible for a given placement in a decision (previously known as offer activity), the offers with the highest **priority** will be delivered to the customers first.
+By default, when several offers are eligible for a given placement in a decision, the offers with the highest **priority** will be delivered to the customers first.
 
 ![](../../assets/offer-priority.png)
 
@@ -32,7 +32,7 @@ For example, you can boost the priority of all offers where the end date is less
 
 Learn how to create a ranking formula in [this section](../offer-library/create-ranking-formulas.md).
 
-Once a ranking formula has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this, follow the steps below:
+Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
@@ -54,13 +54,15 @@ If multiple offers are eligible to be presented in this placement, the decision 
 
 ## AI ranking {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+You can also use a trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >The use of AI ranking is currently available in early access to select users only.
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this this, follow the steps below:
+Once a ranking strategy has been created, you can assign it to a placement in a decision. To do this this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 

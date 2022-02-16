@@ -9,7 +9,7 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 ---
 # Create a decision {#create-decision}
 
-You can create a decision (previously known as offer activity) by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a decision by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
