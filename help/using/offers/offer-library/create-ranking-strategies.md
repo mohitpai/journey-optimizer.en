@@ -163,7 +163,8 @@ Now each time an offer is displayed and/or clicked, you want the corresponding e
 
 To be able to send in event types (offer displayed or offer clicked), you must set the correct value for each event type in an experience event that is sent into Adobe Experience Platform. Below are the schema requirements you need to implement into your JavaScript code:
 
-**Scenario:** Offer displayed
+### Offer displayed scenario
+
 **Event type:** `decisioning.propositionDisplay`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 +++**Sample payload:**
@@ -194,7 +195,8 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 
 +++
 
-**Scenario:** Offer clicked
+### Offer clicked scenario
+
 **Event type:** `decisioning.propositionInteract`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 +++**Sample payload:**
