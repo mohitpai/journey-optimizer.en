@@ -89,34 +89,6 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 
 The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
 
-## One-click opt-out link {#one-click-opt-out-link}
-
-To enable your recipients to quickly unsubscribe from receiving communications from your brand, you can insert a one-click opt-out link into your email content. This capacity prevents users from being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process.
-
-To add an opt-out link in your email, follow the steps below.
-
-1. [Insert a link](#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
-
-    ![](assets/message-tracking-opt-out.png)
-
-1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
-
-    ![](assets/message-tracking-opt-out-level.png)
-
-    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
-    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
-    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
-
-1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
-
-    ![](assets/message-tracking-opt-out-confirmation.png)
-
-    You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md).
-
-1. Save your changes.
-
-Once your message is sent, if recipients click the opt-out link, they are immediately opted out.
-
 ## Manage tracking {#manage-tracking}
 
 The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
