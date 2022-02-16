@@ -113,11 +113,34 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
 
+![](../assets/global_report_22.png)
+
+The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+
+The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
+
 ![](../assets/global_report_16.png)
 
 The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your delivery are the most visited.
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>The **[!UICONTROL Optimised vs non optimised]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+The **[!UICONTROL Optimised vs non optimised]** graph details the main information relative to your message whether they are optimized or not:
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+* **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
+
+The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 <!--
 ![](../assets/global_report_21.png)
@@ -194,6 +217,21 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+>[!NOTE]
+>
+>The **[!UICONTROL Optimised vs non optimised]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+The **[!UICONTROL Optimised vs non optimised]** graph details the main information relative to your message whether they are optimized or not:
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+* **[!UICONTROL Actions]**: Total number of actions on the push notification delivered, e.g. button click or dismissal.
+
+The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 ![](../assets/global_report_18.png)
 
