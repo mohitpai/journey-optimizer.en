@@ -5,15 +5,13 @@ role: Admin
 level: Intermediate
 
 ---
-# Configure landing page channel {#lp-configuration}
+# Configure landing pages {#lp-configuration}
 
-## Access landing page presets {#lp-presets}
+## Define landing page presets {#lp-define-preset}
 
 When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you need to select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
 
-<!--
-To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
--->
+### Access landing page presets {#lp-presets}
 
 To access landing page presets, follow the steps below.
 
@@ -27,17 +25,19 @@ To access landing page presets, follow the steps below.
 
     ![](../assets/lp_preset-details.png)
 
-## Create a landing page preset {#lp-create-preset}
+### Create a landing page preset {#lp-create-preset}
+
+To create a landing page preset, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
 1. Select **[!UICONTROL Create landing page preset]**.
 
-    <!--![](../assets/lp_create-preset.png)-->
+    ![](../assets/lp_create-preset.png)
 
-1. Enter a name and a description (optional) for the preset.
+1. Enter a name and a description for the preset.
 
-    <!--![](../assets/lp_preset.png)-->
+    ![](../assets/lp_preset-name.png)
 
     >[!NOTE]
     >
@@ -47,21 +47,23 @@ To access landing page presets, follow the steps below.
 
     <!--![](../assets/lp_preset-subdomain.png)-->
 
-    The settings corresponding to the selected subdomain display. <!-- default behavior? TBC -->
+    The settings corresponding to the selected subdomain display. <!--Default behavior? TBC-->
 
-1. If you want to define your own subdomain settings, uncheck the **[!UICONTROL Same as subdomain]** option and fill in the **[!UICONTROL Landing page URL]**, **[!UICONTROL Tracking URL]** and **[!UICONTROL Image delivery URL]** fields. <!--TBC ?-->
+1. If you want to define your own subdomain settings, uncheck the **[!UICONTROL Same as subdomain]** option and fill in the **[!UICONTROL Landing page URL]**, **[!UICONTROL Tracking URL]** and **[!UICONTROL Image delivery URL]** fields. <!--To confirm?-->
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
     <!--![](../assets/lp_preset-xxx.png)-->
 
-1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status. <!-- to check but apparently goes through processing status first >
+1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  <!--Are they the same as in messages?-->
+    <!--Apparently goes through processing status first - to check
+    
+    If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
+    
+    Are they the same checks as for message presets?-->
 
-1. Once the checks are successful, the preset gets the **[!UICONTROL Active]** status. It is ready to be used in your landing pages.
+1. Once the checks performed by Adobe are successful, the preset gets the **[!UICONTROL Active]** status. It is ready to be used in your landing pages.
 
     ![](../assets/lp-preset-active.png)
 
@@ -73,15 +75,9 @@ You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!
 
 ## Configure landing page subdomains {#lp-subdomains}
 
-You need to set up the subdomains you will use for your landing pages.
+To be able to [create landing page presets](#lp-create-preset), you need to set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
-
-<!--
->[!NOTE]
->
->To define landing page subdomains, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
--->
 
 ### Use an existing subdomain {#lp-use-existing-subdomain}
 
@@ -89,29 +85,28 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
+    ![](../assets/lp_access-subdomains.png)
+
 1. Click **[!UICONTROL Set up subdomain]**.
+
+    ![](../assets/lp_set-up-subdomain.png)
 
 1. Select **[!UICONTROL Use delegated domain]** from the **[!UICONTROL Configuration type]** section.
 
-1. Select a delegated subdomain from the corresponding list and enter a prefix for your landing pages.
+    ![](../assets/lp_use-delegated-subdomain.png)
+
+1. Enter a prefix that will display in your landing page URL and select a delegated subdomain from the list.
+
+    ![](../assets/lp_prefix-and-subdomain.png)
 
 1. The record to be placed in your DNS servers displays. Copy this record, then navigate to your domain hosting solution to generate the matching DNS record.
 
 1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
-1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md). <!-- same statuses? to check -->
+1. Once the subdomain delegation has been submitted, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used in landing page presets.
+<!--Can this procedure fails? Because you're using an existing subdomain, do we need the validation step?-->
 
-    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation). <!-- same checks email subdomains? To check -->
-
-1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create your landing pages.
-
-    >[!NOTE]
-    >
-    >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
-
-Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) <!-- Not sure! TBC? -->
-
-### Configure a new subdomain
+### Configure a new subdomain {#lp-configure-new-subdomain}
 
 To configure a new subdomain, follow the steps below.
 
@@ -119,7 +114,9 @@ To configure a new subdomain, follow the steps below.
 
 1. Click **[!UICONTROL Set up subdomain]**.
 
-1. Select **[!UICONTROL Add your own domain** from the **[!UICONTROL Configuration type]** section.
+1. Select **[!UICONTROL Add your own domain**] from the **[!UICONTROL Configuration type]** section.
+
+    <!--![](../assets/lp_add-your-own-subdomain.png)-->
 
 1. Specify the name of the subdomain to delegate.
 
@@ -133,17 +130,17 @@ To configure a new subdomain, follow the steps below.
 
 1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
-1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
+1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Is it going through the same validation process as when delegating subdomains? Same statuses as well?-->
 
-    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).
+    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).<!--Do we need the validation step when using a domain that has already been delegated? (Section above)-->
 
-1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create your landing pages.
+1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
     >[!NOTE]
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
-Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md)
+Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) <!--Is this true when delegating a new subdomain for LPs?-->
 
 **Related topics**
 
