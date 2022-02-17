@@ -27,6 +27,10 @@ From this list, you can access the [landing page reports](lp-report.md). You can
 >
 >You cannot delete a published landing page. To delete it, you must first unpublish it.
 
+>[!CAUTION]
+>
+>If you unpublish a landing page which is referenced in an unpublished message, the message cannot be published until the landing page is published again. If the message is already published, the link to the landing page will be broken and an error page will be displayed.
+
 ## Create a landing page {#create-landing-page}
 
 The steps to create a landing page are as follows.
