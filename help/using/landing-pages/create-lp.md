@@ -5,15 +5,9 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}
-
->[!CAUTION]
->
->The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 ## Access landing pages {#access-landing-pages}
 
@@ -25,7 +19,13 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](../assets/lp_access-list-filter.png)
 
-You can also duplicate, delete and unpublish landing pages from this list.
+From this list, you can access the [landing page reports](lp-report.md). You can also duplicate, delete and unpublish a landing page. Click the three dots next to a landing page to select the desired action.
+
+![](../assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>You cannot delete a published landing page. To delete it, you must first unpublish it.
 
 ## Create a landing page {#create-landing-page}
 
