@@ -349,6 +349,7 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
+  + [Configure landing pages](using/configuration/lp-configuration.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
