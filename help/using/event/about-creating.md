@@ -61,7 +61,6 @@ Here are the first steps to configure a new event:
 
     ![](../assets/jo-event7.png)
 
-1. For system-generated events, you can add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [this section](../event/about-creating.md#add-a-condition).
 1. Click **[!UICONTROL Save]**.
 
     The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -139,18 +138,6 @@ When the event is received, the value of the key will allow the system to identi
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
 You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See [Journey Orchestration documentation](../building-journeys/expression/expressionadvanced.md).  
-
-## Add a condition {#add-a-condition}
-
-The condition is only available for system-generated events. You can define an event condition which allows the system to filter the processing of events. If the condition is true, the event is processed. If the condition is not true, the event is ignored.
-
-The condition on events can only be based on data passed in the event payload. The condition defined at event level cannot be changed in the canvas by a marketer. The purpose is to harden this condition when this event is used. For example, if you never want marketers to use cart abandonment events if the cart value is too small, you can create a condition on the “cart value” event field and impose a value above 100 dollars.
-
-You can use the simple expression editor or the advanced expression editor to setup conditions on events. See [Journey Orchestration documentation](../building-journeys/expression/expressionadvanced.md).
-
-For example, you can define a condition to only process the events of a specific event type and ignore the other types. Or if your event is a cart abandonment and the payload includes the cart value field, you can define an event condition to process the events only if the cart value is greater than 100 dollars.
-
-![](../assets/journey78.png)
 
 ## Preview the payload {#preview-the-payload}
 
