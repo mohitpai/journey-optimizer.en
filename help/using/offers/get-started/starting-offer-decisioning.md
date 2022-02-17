@@ -74,7 +74,7 @@ You can find below the list of the main concepts you will work with when using D
 
 * **Collections**: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
-* **Decision** (previously known as Offer Activity): A decision contains the logic that informs the selection of an offer.
+* **Decision**: A decision contains the logic that informs the selection of an offer.
 
 * **Decision Rule**: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 

@@ -18,6 +18,11 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 
+* The Create message presets section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
+
+* The Opt-out management section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
+
+* The Insert links section has been updated to reflect the recent user interface changes. [Read more](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -81,7 +86,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the Enable the allow list section. [Learn more](../messages/allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/message-presets.md#monitor-message-presets)
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](../configuration/retries.md#retry-duration)
-* Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../messages/message-tracking.md#one-click-opt-out-link)
+* Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../messages/consent.md#one-click-opt-out-link)
 * Updated the Delegate a subdomain section with more detailed information on the validation process performed by Adobe. [Read more](../configuration/delegate-subdomain.md#subdomain-validation)
 * Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Updated the [Access the suppression list](../configuration/manage-suppression-list.md#access-suppression-list) section and [Retries](../configuration/retries.md) sections to reflect the new user interface.

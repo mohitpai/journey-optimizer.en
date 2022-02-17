@@ -41,7 +41,7 @@ solution: Journey Optimizer
     + [Preview and proofs](using/messages/preview.md)
     + [Check alerts](using/messages/alerts.md)
     + [Publish messages](using/messages/publish-manage-message.md)
-  + [Manage opt-out](using/messages/consent.md)
+  + [Manage consent](using/messages/consent.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)

@@ -99,7 +99,6 @@ To create a message preset, follow these steps:
     * Action name
     * Offer id
     * Offer name
-
 1. Enter the header parameters for the emails sent using that preset.
 
     >[!CAUTION]
@@ -138,12 +137,12 @@ To create a message preset, follow these steps:
 ## Configure push settings {#configure-push-settings}
    
 1. Select at least one platform: **iOS** and/or **Android**.
-
-    ![](../assets/preset-push.png)
     
-1. Select the mobile applications to use for each platform. 
+1. Select the mobile applications to use for each platform.
+
+![](../assets/preset-push.png)
         
-    For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
+For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}
