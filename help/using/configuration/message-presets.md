@@ -21,6 +21,10 @@ Once message presets have been configured, you be able to select them when creat
 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
+>[!NOTE]
+>
+>Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
+
 ## Create a message preset {#create-message-preset}
 
 To create a message preset, follow these steps:
