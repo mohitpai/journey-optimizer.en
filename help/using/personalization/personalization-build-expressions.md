@@ -9,12 +9,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 ---
 # About the Expression Editor {#build-personalization-expressions}
 
->[!CONTEXTUALHELP]
->id="ajo_perso_editor"
->title="About the Expression Editor"
->abstract="The Expression Editor allows you to select, arrange, customize and validate all the data to create a customized personalization for your content."
-
-The Expression Editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
+The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
 
 In the expression editor interface, you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
