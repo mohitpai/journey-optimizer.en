@@ -7,10 +7,6 @@ level: Intermediate
 ---
 # Configure landing page channel {#lp-configuration}
 
->[!CAUTION]
->
->The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
-
 ## Access landing page presets {#lp-presets}
 
 When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you need to select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.

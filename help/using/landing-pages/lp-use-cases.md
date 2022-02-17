@@ -11,11 +11,6 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 
 Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
 
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
-
 ## Subscription to a service {#subscription-to-a-service}
 
 One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. The main steps are presented on the graph below:
@@ -109,7 +104,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](../assets/lp_opt-out-primary-lp.png)
 
-    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Add a confirmation [subpage](create-lp.md#configure-subpages) that will be displayed to the users who submit the form.
 
