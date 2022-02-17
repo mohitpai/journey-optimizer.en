@@ -19,17 +19,21 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](../assets/lp_access-list-filter.png)
 
-From this list, you can access the [landing page reports](lp-report.md). You can also duplicate, delete and unpublish a landing page. Click the three dots next to a landing page to select the desired action.
+From this list, you can access the [landing page reports](lp-report.md) for published items.
+
+You can also delete, duplicate and unpublish a landing page.
+
+>[!CAUTION]
+>
+>If you unpublish a landing page which is referenced in an unpublished message, the message cannot be published until the landing page is published again. If the message is already published, the link to the landing page will be broken and an error page will be displayed.
+
+Click the three dots next to a landing page to select the desired action.
 
 ![](../assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
 >You cannot delete a published landing page. To delete it, you must first unpublish it.
-
->[!CAUTION]
->
->If you unpublish a landing page which is referenced in an unpublished message, the message cannot be published until the landing page is published again. If the message is already published, the link to the landing page will be broken and an error page will be displayed.
 
 ## Create a landing page {#create-landing-page}
 
