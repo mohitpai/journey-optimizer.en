@@ -43,13 +43,9 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_create-lp-details.png)
 
-1. Select a preset.
+1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
 
     ![](../assets/lp_create-lp-presets.png)
-
-    >[!NOTE]
-    >
-    >To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 1. Click **[!UICONTROL Create]**.
 
