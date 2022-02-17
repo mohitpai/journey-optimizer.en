@@ -5,8 +5,6 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: yes
-hide: yes
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 ---
 # Landing page use cases {#lp-use-cases}

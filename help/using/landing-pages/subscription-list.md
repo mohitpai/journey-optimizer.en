@@ -5,8 +5,6 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 ---
 # Subscription lists {#create-subscription-list}

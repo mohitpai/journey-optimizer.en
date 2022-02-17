@@ -3,8 +3,6 @@ title: Landing page configuration
 description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 
 ---
 # Configure landing page channel {#lp-configuration}
