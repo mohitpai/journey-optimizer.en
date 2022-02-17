@@ -83,14 +83,7 @@ To create a message preset, follow these steps:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
-1. To identify where and why a person clicked on your link, you can define parameters for URL tracking.
-
-    Based on the parameters you define, a UTM (Urchin Tracking Module) code will be applied to the end of the URL included in your message content. You will then be able to compare results in an analytics tool like Adobe Analytics or Google Analytics.
-
-    For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey...
-    In this example, the UTM code identifies the link as an email from an abandonment cart journey.
-
-    You can either select a journey/message attribute from a predefined list, or enter your own text.
+1. To identify where and why a person clicked on your link, you can define parameters for URL tracking. Based on the parameters you define, a UTM (Urchin Tracking Module) code will be applied to the end of the URL included in your message content. You will then be able to compare results in an analytics tool like Adobe Analytics or Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
     >[!NOTE]
     >
