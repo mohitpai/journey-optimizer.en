@@ -99,12 +99,19 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     ![](../assets/lp_prefix-and-subdomain.png)
 
-1. The record to be placed in your DNS servers displays. Copy this record, then navigate to your domain hosting solution to generate the matching DNS record.
+1. Click **[!UICONTROL Submit]**. <!--No further action required?-->
 
-1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
+1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Is it going through the same validation process as when delegating subdomains? Same statuses as well?-->
 
-1. Once the subdomain delegation has been submitted, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used in landing page presets.
-<!--Can this procedure fails? Because you're using an existing subdomain, do we need the validation step?-->
+    ![](../assets/lp_subdomain-processing.png)
+
+    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](delegate-subdomain.md#subdomain-validation).<!--Do we need the validation step when using a domain that has already been delegated?-->
+
+1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
+
+    >[!NOTE]
+    >
+    >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
 ### Configure a new subdomain {#lp-configure-new-subdomain}
 
@@ -114,9 +121,9 @@ To configure a new subdomain, follow the steps below.
 
 1. Click **[!UICONTROL Set up subdomain]**.
 
-1. Select **[!UICONTROL Add your own domain**] from the **[!UICONTROL Configuration type]** section.
+1. Select **[!UICONTROL Add your own domain]** from the **[!UICONTROL Configuration type]** section.
 
-    <!--![](../assets/lp_add-your-own-subdomain.png)-->
+    ![](../assets/lp_add-your-own-subdomain.png)
 
 1. Specify the name of the subdomain to delegate.
 
@@ -130,6 +137,8 @@ To configure a new subdomain, follow the steps below.
 
 1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
+    ![](../assets/lp_add-your-own-subdomain-confirm.png)
+
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Is it going through the same validation process as when delegating subdomains? Same statuses as well?-->
 
     Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).<!--Do we need the validation step when using a domain that has already been delegated? (Section above)-->
@@ -140,7 +149,7 @@ To configure a new subdomain, follow the steps below.
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
-Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) <!--Is this true when delegating a new subdomain for LPs?-->
+<!--Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) Is this true when delegating a new subdomain for LPs?-->
 
 **Related topics**
 
