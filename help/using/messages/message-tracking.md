@@ -46,11 +46,13 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL Unsubscription link]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](consent.md#one-click-opt-out).
+
+    * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
+
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
-
-    * **[!UICONTROL Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](#one-click-opt-out-link).
 
     ![](assets/message-tracking-links.png)
 
@@ -60,7 +62,7 @@ To insert links into your email content, follow the steps below:
 
 1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-    * Click the pencil icon to edit the link.
+    * You can edit the link and change its type.
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
@@ -87,34 +89,6 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 
 The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
 
-## One-click opt-out link {#one-click-opt-out-link}
-
-To enable your recipients to quickly unsubscribe from receiving communications from your brand, you can insert a one-click opt-out link into your email content. This capacity prevents users from being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process.
-
-To add an opt-out link in your email, follow the steps below.
-
-1. [Insert a link](#insert-links) and select **[!UICONTROL Opt-out]** as the type of link.
-
-    ![](assets/message-tracking-opt-out.png)
-
-1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
-
-    ![](assets/message-tracking-opt-out-level.png)
-
-    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
-    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
-    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
-
-1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
-
-    ![](assets/message-tracking-opt-out-confirmation.png)
-
-    You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md).
-
-1. Save your changes.
-
-Once your message is sent, if recipients click the opt-out link, they are immediately opted out.
-
 ## Manage tracking {#manage-tracking}
 
 The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
@@ -128,7 +102,6 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     ![](assets/message-tracking-edit-links.png)
 
 1. You can modify the **[!UICONTROL Tracking Type]** if needed:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 
