@@ -424,3 +424,15 @@ It includes the following low-level permissions:
   * landing_page_preset.read
   * landing_page_preset.write
   * landing_page_preset.delete
+
+## Journey Optimizer Library capability {library-permissions}
+
+### Manage Library Items {#library-items}
+
+The **[!DNL Manage Library Items]** high-level permission allows users to add and delete saved expressions in the [!DNL Journey Optimizer] Library.
+
+It includes the following low-level permissions:
+
+* library_item.create
+* library_item.delete
+
