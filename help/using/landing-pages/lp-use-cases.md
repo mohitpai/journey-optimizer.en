@@ -32,6 +32,8 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. [Create a landing page](create-lp.md) to enable your recipients to register for your event.
 
+    ![](../assets/lp_create-lp-details.png)
+
 1. Configure the registration [primary landing page](create-lp.md#configure-primary-page).
 
 1. When designing the [landing page content](design-lp.md), select the subscription list that you created to update it with the profiles who select the registration checkbox.
