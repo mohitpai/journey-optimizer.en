@@ -95,15 +95,13 @@ To create a message preset, follow these steps:
     >
     >You can add up to 10 tracking parameters.
 
-    You can choose from the following list of predefined values:
-    * Source id
-    * Source name
-    * Source version id
-    * Action id
-    * Action name
-    * Offer id
-    * Offer name
-1. Enter the header parameters for the emails sent using that preset.
+    You can directly type the desired text in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields. You can also choose from a list of predefined values by navigating to the following objects:
+
+    * Journey attributes: Source id, Source name, Source version id
+    * Message attributes: Action id, Action name
+    * Offer decisioning attributes: Offer id, Offer name
+
+1. Enter the **[!UICONTROL Header parameters]** for the emails sent using that preset.
 
     >[!CAUTION]
     >
