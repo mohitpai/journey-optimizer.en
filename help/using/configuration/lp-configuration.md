@@ -45,25 +45,19 @@ To create a landing page preset, follow the steps below.
 
     ![](../assets/lp_preset-subdomain.png)
 
-    The settings corresponding to the selected subdomain display. <!--Default behavior? TBC-->
+    The settings corresponding to the selected subdomain display.
 
-    ![](../assets/lp_preset-subdomain-settings-same.png)
+    <!--![](../assets/lp_preset-subdomain-settings-same.png)-->
 
-1. If you want to define your own subdomain settings, uncheck the **[!UICONTROL Same as subdomain]** option and fill in the **[!UICONTROL Landing page URL]**, **[!UICONTROL Tracking URL]** and **[!UICONTROL Image delivery URL]** fields. <!--To confirm?-->
+1. If you want to define your own subdomain settings, leave the **[!UICONTROL Same as subdomain]** option unchecked and fill in the **[!UICONTROL Landing page URL]**, **[!UICONTROL Tracking URL]** and **[!UICONTROL Image delivery URL]** fields.<!--Default behavior is unchecked, but waiting for clarification on the impacts of checking/unchecking this option to update text and screens.-->
 
-    <!--![](../assets/lp_preset-subdomain-settings.png)-->
+    ![](../assets/lp_preset-subdomain-settings.png)
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
    ![](../assets/lp_preset-subdomain-settings-submit.png)
 
-1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
-
-    <!--Apparently goes through processing status first - to check
-    
-    If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
-    
-    Are they the same checks as for message presets?-->
+1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.<!--Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
 
 1. Once the checks performed by Adobe are successful, the preset gets the **[!UICONTROL Active]** status. It is ready to be used in your landing pages.
 
@@ -101,21 +95,21 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     ![](../assets/lp_prefix-and-subdomain.png)
 
-1. Click **[!UICONTROL Submit]**. <!--No further action required?-->
+    >[!CAUTION]
+    >
+    >If you select a domain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation), you must create the DNS record on your hosting platform. To generate the DNS record, the process is the same as when you configure a new landing page subdomain. Learn how in [this section](#lp-configure-new-subdomain).
 
-1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Is it going through the same validation process as when delegating subdomains? Same statuses as well?-->
+1. Click **[!UICONTROL Submit]**.
+
+1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
 
     ![](../assets/lp_subdomain-processing.png)
 
     >[!NOTE]
     >
-    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](delegate-subdomain.md#subdomain-validation).<!--Do we need the validation step when using a domain that has already been delegated?-->
+    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
-
-    >[!NOTE]
-    >
-    >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
 ### Configure a new subdomain {#lp-configure-new-subdomain}
 
@@ -129,13 +123,17 @@ To configure a new subdomain, follow the steps below.
 
     ![](../assets/lp_add-your-own-subdomain.png)
 
-1. Specify the name of the subdomain to delegate.
+1. Specify the subdomain to delegate.
 
     >[!CAUTION]
     >
-    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >You cannot use an existing subdomain that was already delegated to Adobe.
     >
-    >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    
+    >[!NOTE]
+    >
+    >Multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
 1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain hosting solution to generate the matching DNS record.
 
@@ -143,19 +141,17 @@ To configure a new subdomain, follow the steps below.
 
     ![](../assets/lp_add-your-own-subdomain-confirm.png)
 
-1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Is it going through the same validation process as when delegating subdomains? Same statuses as well?-->
+1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
 
     >[!NOTE]
     >
-    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).<!--Do we need the validation step when using a domain that has already been delegated? (Section above)-->
+    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
     >[!NOTE]
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
-
-<!--Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md) Is this true when delegating a new subdomain for LPs?-->
 
 **Related topics**
 
