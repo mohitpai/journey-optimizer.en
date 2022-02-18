@@ -32,13 +32,13 @@ Available sources are:
 * **[!UICONTROL Contextual attributes]** : when the **Message** is used in a journey, contextual journey fields are available through this menu. Learn more in [this section](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : lists all the helper functions available to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn more in [this section](functions/functions.md).
 
-On selection, the reference is added in the editor. 
+Click the + button too add an attribute into the editor. 
 
 >[!NOTE]
 >
->The info icon next to "+" icon opens up a tooltip providing more details for each variable.
->
->You can add your most frequency used attributes to favorites. Learn more in [this section](personalization-favorites.md).
+>The ellipse menu next to "+" icon allows you to get more details for each variable and to add your most frequency used attributes to [favorites](personalization-favorites.md).
+
+ ![](assets/attribute-details.png)
 
 In the following example, the expression editor lets you select the profiles that have their birthday today then complete the customization by inserting a specific offer corresponding to this day.
 
