@@ -41,25 +41,26 @@ To create a landing page preset, follow the steps below.
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-1. Select a landing page subdomain. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
+1. Select a landing page subdomain name. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
 
     ![](../assets/lp_preset-subdomain.png)
 
     The settings corresponding to the selected subdomain display.
 
-    <!--![](../assets/lp_preset-subdomain-settings-same.png)-->
+1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
 
-1. If you want to define your own subdomain settings, leave the **[!UICONTROL Same as subdomain]** option unchecked and fill in the **[!UICONTROL Landing page URL]**, **[!UICONTROL Tracking URL]** and **[!UICONTROL Image delivery URL]** fields.<!--Default behavior is unchecked, but waiting for clarification on the impacts of checking/unchecking this option to update text and screens.-->
+    For example, if the landing page URL is pages.mail.luma.com, and the tracking URL is data.mail.luma.com, you can choose pages.mail.luma.com to be used as the tracking subdomain.
 
-    ![](../assets/lp_preset-subdomain-settings.png)
+    ![](../assets/lp_preset-subdomain-settings-same.png)
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
    ![](../assets/lp_preset-subdomain-settings-submit.png)
 
-1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.<!--Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+    <!--Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status. Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
+    Once the checks performed by Adobe are successful...-->
 
-1. Once the checks performed by Adobe are successful, the preset gets the **[!UICONTROL Active]** status. It is ready to be used in your landing pages.
+1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
 
     ![](../assets/lp-preset-active.png)
 
@@ -91,7 +92,17 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     ![](../assets/lp_use-delegated-subdomain.png)
 
-1. Enter a prefix that will display in your landing page URL and select a delegated subdomain from the list.
+1. Enter the prefix that will display in your landing page URL.
+
+    >[!NOTE]
+    >
+    >Only alphanumerical characters and hyphens are allowed.
+
+1. Select a delegated subdomain from the list.
+
+    >[!NOTE]
+    >
+    >You cannot select a subdomain that is already used as landing page subdomain.
 
     ![](../assets/lp_prefix-and-subdomain.png)
 
@@ -127,7 +138,7 @@ To configure a new subdomain, follow the steps below.
 
     >[!CAUTION]
     >
-    >You cannot use an existing subdomain that was already delegated to Adobe.
+    >You cannot use an existing landing page subdomain.
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     
@@ -140,6 +151,10 @@ To configure a new subdomain, follow the steps below.
 1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
     ![](../assets/lp_add-your-own-subdomain-confirm.png)
+
+    >[!NOTE]
+    >
+    >When you configure a new landing page subdomain, it will always point to a CNAME record.
 
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
 
