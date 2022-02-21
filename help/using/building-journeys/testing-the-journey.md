@@ -55,6 +55,7 @@ To use the test mode, follow these steps:
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 * When reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. 
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will switch back to the Draft status.
 
 ## Firing your events {#firing_events}
 
