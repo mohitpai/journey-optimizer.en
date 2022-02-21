@@ -131,7 +131,6 @@ solution: Journey Optimizer
         + [toDecimal](using/building-journeys/functions/functiontodecimal.md)
         + [toDuration](using/building-journeys/functions/functiontoduration.md)
         + [toInteger](using/building-journeys/functions/functiontointeger.md)
-        + [toString](using/building-journeys/functions/functiontostring.md)
       + Date {#date}
         + [currentTime​InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
         + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
