@@ -13,7 +13,7 @@ The activity configuration pane shows the URL configuration parameters and the a
 
 >[!NOTE]
 >
->You cannot pass a simple collection in custom action parameters. More complex collection fields (arrays of objects) are not supported.  Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
+>You cannot pass a simple collection in custom action parameters. Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
 
 ## URL configuration
 
