@@ -49,7 +49,7 @@ To create a landing page preset, follow the steps below.
 
 1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
 
-    For example, if the landing page URL is pages.mail.luma.com, and the tracking URL is data.mail.luma.com, you can choose pages.mail.luma.com to be used as the tracking subdomain.
+    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
 
     ![](../assets/lp_preset-subdomain-settings-same.png)
 
@@ -96,7 +96,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     >[!NOTE]
     >
-    >Only alphanumerical characters and hyphens are allowed.
+    >Only alphanumeric characters and hyphens are allowed.
 
 1. Select a delegated subdomain from the list.
 
@@ -144,7 +144,7 @@ To configure a new subdomain, follow the steps below.
     
     >[!NOTE]
     >
-    >Multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
+    >Multi-level subdomains such as 'email.marketing.yourcompany.com' are currently not supported.
 
 1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain hosting solution to generate the matching DNS record.
 
