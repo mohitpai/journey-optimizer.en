@@ -97,6 +97,8 @@ To create a message preset, follow these steps:
     * Message attributes: Action id, Action name
     * Offer decisioning attributes: Offer id, Offer name
 
+    ![](../assets/preset-url-tracking-source.png)
+
 1. Enter the **[!UICONTROL Header parameters]** for the emails sent using that preset.
 
     >[!CAUTION]
