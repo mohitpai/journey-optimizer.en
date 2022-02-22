@@ -21,10 +21,6 @@ Once message presets have been configured, you be able to select them when creat
 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
->[!NOTE]
->
->Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
-
 ## Create a message preset {#create-message-preset}
 
 To create a message preset, follow these steps:
@@ -75,11 +71,7 @@ To create a message preset, follow these steps:
 
 ## Configure email settings {#configure-email-settings}
 
-Email settings are defined in a dedicated section of the message preset configuration.
-
 ![](../assets/preset-email.png)
-
-To define the email settings associated to the message preset, follow the steps below:
 
 1. Select the type of message that will be sent with the preset: **Transactional** or **Marketing**.
 
@@ -91,31 +83,7 @@ To define the email settings associated to the message preset, follow the steps 
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
-1. To identify where and why a person clicked on your link, you can add UTM parameters for URL tracking in the  **[!UICONTROL URL tracking configuration (web analytics)]** section.
-
-    Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
-
-    ![](../assets/preset-url-tracking.png)
-
-    >[!NOTE]
-    >
-    >You can add up to 10 tracking parameters.
-
-    You can directly type the desired text in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields. 
-    
-    You can also choose from a list of predefined values by navigating to the following objects:
-
-    * Journey attributes: Source id, Source name, Source version id
-    * Message attributes: Action id, Action name
-    * Offer decisioning attributes: Offer id, Offer name
-
-    >[!CAUTION]
-    >
-    >Browse to the necessary folder and select a profile attribute to use as a UTM value.
-
-    ![](../assets/preset-url-tracking-source.png)
-
-1. Enter the **[!UICONTROL Header parameters]** for the emails sent using that preset.
+1. Enter the header parameters for the emails sent using that preset.
 
     >[!CAUTION]
     >
@@ -133,15 +101,15 @@ To define the email settings associated to the message preset, follow the steps 
 
     >[!NOTE]
     >
-    >You cannot define a forward email addresse from the [!DNL Journey Optimizer] user interface. If you want all emails received by [!DNL Journey Optimizer] for the delegated subdomain to be forwarded to a specific email address, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+    >From the October 2021 release, it is not possible anymore to define a forward email addresse from the [!DNL Journey Optimizer] user interface. If you want all emails received by [!DNL Journey Optimizer] for the delegated subdomain to be forwarded to a specific  email address, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
     ![](../assets/preset-header.png)
 
     >[!NOTE]
     >
-    >Names must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
+    >Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-1. Configure the **Email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+1. Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
 
     ![](../assets/preset-retry-paramaters.png)
 
@@ -151,11 +119,7 @@ To define the email settings associated to the message preset, follow the steps 
     * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
 ## Configure push settings {#configure-push-settings}
-
-Push settings are defined in a dedicated section of the message preset configuration.
-
-To define the push settings associated to the message preset, follow the steps below:
-
+   
 1. Select at least one platform: **iOS** and/or **Android**.
     
 1. Select the mobile applications to use for each platform.
@@ -184,7 +148,7 @@ All your message presets display in the **[!UICONTROL Channels]** > **[!UICONTRO
 
 ![](../assets/preset-filters.png)
 
-Once created, message presets can have the following statuses:
+Message presets can have the following statuses:
 
 * **[!UICONTROL Draft]**: The message preset has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
 * **[!UICONTROL Processing]**: The message preset has been submitted and is going through several verifications steps.
@@ -194,7 +158,7 @@ Once created, message presets can have the following statuses:
 
 In case a message preset creation fails, the details on each possible failure reason are described below.
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+If one of these errors occurs, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
 
 * **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
 
