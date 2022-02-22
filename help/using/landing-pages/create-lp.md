@@ -5,15 +5,9 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}
-
->[!CAUTION]
->
->The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 ## Access landing pages {#access-landing-pages}
 
@@ -24,6 +18,22 @@ To access the landing page list, select **[!UICONTROL Journey Management]** > **
 The **[!UICONTROL Landing Pages]** list displays all the created items. You can filter them based on their status or modification date.
 
 ![](../assets/lp_access-list-filter.png)
+
+From this list, you can access the [landing page reports](lp-report.md) for published items.
+
+You can also delete, duplicate and unpublish a landing page.
+
+>[!CAUTION]
+>
+>If you unpublish a landing page which is referenced in an unpublished message, the message cannot be published until the landing page is published again. If the message is already published, the link to the landing page will be broken and an error page will be displayed.
+
+Click the three dots next to a landing page to select the desired action.
+
+![](../assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>You cannot delete a published landing page. To delete it, you must first unpublish it.
 
 ## Create a landing page {#create-landing-page}
 
@@ -37,13 +47,9 @@ The steps to create a landing page are as follows.
 
     ![](../assets/lp_create-lp-details.png)
 
-1. Select a preset.
+1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
 
     ![](../assets/lp_create-lp-presets.png)
-
-    >[!NOTE]
-    >
-    >To define landing page presets, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 1. Click **[!UICONTROL Create]**.
 
