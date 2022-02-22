@@ -7,69 +7,6 @@ level: Intermediate
 ---
 # Configure landing pages {#lp-configuration}
 
-## Define landing page presets {#lp-define-preset}
-
-When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you need to select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
-
-### Access landing page presets {#lp-presets}
-
-To access landing page presets, follow the steps below.
-
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
-
-1. Select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
-
-    ![](../assets/lp_presets-access.png)
-
-1. Click any preset label to access the landing page preset details.
-
-    ![](../assets/lp_preset-details.png)
-
-### Create a landing page preset {#lp-create-preset}
-
-To create a landing page preset, follow the steps below.
-
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
-
-1. Select **[!UICONTROL Create landing page preset]**.
-
-    ![](../assets/lp_create-preset.png)
-
-1. Enter a name and a description for the preset.
-
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
-
-1. Select a landing page subdomain name. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
-
-    ![](../assets/lp_preset-subdomain.png)
-
-    The settings corresponding to the selected subdomain display.
-
-1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
-
-    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
-
-    ![](../assets/lp_preset-subdomain-settings-same.png)
-
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
-
-   ![](../assets/lp_preset-subdomain-settings-submit.png)
-
-    <!--Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status. Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
-    Once the checks performed by Adobe are successful...-->
-
-1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
-
-    ![](../assets/lp-preset-active.png)
-
-You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
->[!NOTE]
->
->Learn how to create message presets for push notifications and emails in [this section](message-presets.md).
-
 ## Configure landing page subdomains {#lp-subdomains}
 
 To be able to [create landing page presets](#lp-create-preset), you need to set up the subdomains you will use for your landing pages.
@@ -167,6 +104,69 @@ To configure a new subdomain, follow the steps below.
     >[!NOTE]
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
+
+## Define landing page presets {#lp-define-preset}
+
+When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you need to select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
+
+### Access landing page presets {#lp-presets}
+
+To access landing page presets, follow the steps below.
+
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+
+1. Select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+
+    ![](../assets/lp_presets-access.png)
+
+1. Click any preset label to access the landing page preset details.
+
+    ![](../assets/lp_preset-details.png)
+
+### Create a landing page preset {#lp-create-preset}
+
+To create a landing page preset, follow the steps below.
+
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+
+1. Select **[!UICONTROL Create landing page preset]**.
+
+    ![](../assets/lp_create-preset.png)
+
+1. Enter a name and a description for the preset.
+
+    >[!NOTE]
+    >
+    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
+
+1. Select a landing page subdomain name. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
+
+    ![](../assets/lp_preset-subdomain.png)
+
+    The settings corresponding to the selected subdomain display.
+
+1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
+
+    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
+
+    ![](../assets/lp_preset-subdomain-settings-same.png)
+
+1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
+
+   ![](../assets/lp_preset-subdomain-settings-submit.png)
+
+    <!--Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status. Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
+    Once the checks performed by Adobe are successful...-->
+
+1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
+
+    ![](../assets/lp-preset-active.png)
+
+You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>Learn how to create message presets for push notifications and emails in [this section](message-presets.md).
 
 **Related topics**
 
