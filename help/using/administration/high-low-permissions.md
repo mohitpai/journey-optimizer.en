@@ -410,3 +410,14 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific:
   * profiles.read
   * datasets.read
+
+## Journey Optimizer Library capability {library-permissions}
+
+### Manage Library Items {#library-items}
+
+The **[!DNL Manage Library Items]** high-level permission allows users to add and delete saved expressions in the [!DNL Journey Optimizer] Library.
+
+It includes the following low-level permissions:
+
+* library_item.create
+* ibrary_item.delete

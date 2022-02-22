@@ -51,8 +51,8 @@ Follow these steps:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `upperCase` string function:
-   1. In the list, select **[!UICONTROL Helper functions]**.
-   1. Use the search field to find "uppercase".
+   1. In the left menu, select **[!UICONTROL Helper functions]**.
+   1. Use the search field to find "upper case".
    1. From the search results, add the `upperCase` function. To do this, click the Plus (+) sign next to `{%= upperCase(string) %}: string`.
 
       The Expression editor shows this expression:
@@ -65,8 +65,8 @@ Follow these steps:
    
 1. Remove the "string" placeholder from the expression.
 1. Add the first name token:
-   1. In the list, select **[!UICONTROL Profile]**.
-   1. Select **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. In the left menu, select **[!UICONTROL Profile attributes]**.
+   1. Select **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Add the **[!UICONTROL First name]** token to the expression.
       
       The Expression editor shows this expression:
@@ -77,7 +77,7 @@ Follow these steps:
    
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Learn more about the person name data typein [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      Learn more about the person name data type in [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
    
@@ -119,7 +119,7 @@ The cart content is contextual information from the journey. Therefore, you must
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `each` helper:
-   1. In the list, select **[!UICONTROL Helper functions]**.
+   1. In the left menu, select **[!UICONTROL Helper functions]**.
    1. Use the search field to find "each".
    1. From the search results, add the `each` helper.
 
@@ -133,9 +133,9 @@ The cart content is contextual information from the journey. Therefore, you must
 1. Add the `productListItems` array to the expression:
 
    1. Remove the "someArray" placeholder from the expression.
-   1. In the list, select **[!UICONTROL Context]**.
+   1. In the left menu, select **[!UICONTROL Contextual attributes]**.
    
-      The **[!UICONTROL Context]** option is available only after the journey context has been passed to the message.
+      **[!UICONTROL Contextual attributes]** are available only after the journey context has been passed to the message.
    
    1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
@@ -210,7 +210,7 @@ The cart content is contextual information from the journey. Therefore, you must
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `if` helper:
-   1. In the list, select **[!UICONTROL Helper functions]**.
+   1. In the left menu, select **[!UICONTROL Helper functions]**.
    1. Use the search field to find "if".
    1. From the search results, add the `if` helper.
 
@@ -239,7 +239,7 @@ The cart content is contextual information from the journey. Therefore, you must
 
 1. Add the product name token to the condition:
    1. Remove the "condition1" placeholder from the expression.
-   1. In the list, select **[!UICONTROL Context]**.
+   1. In the left menu, select **[!UICONTROL Contextual attributes]**.
    1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
