@@ -152,7 +152,6 @@ You can also insert text-type content when selecting a compatible placement.
 >id="od_offer_eligibility"
 >title="About offer eligibility"
 >abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
->additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Create decision rules"
 >additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
 
 >[!CONTEXTUALHELP]
