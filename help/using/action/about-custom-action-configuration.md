@@ -14,7 +14,7 @@ If you're using a third-party system to send messages or if you want journeys to
 
 Limitations are listed in [this page](../start/limitations.md).
 
-You can pass collections dynamically using custom actions. Refer to this [use case](../building-journeys/collections.md).
+In custom action parameters, you can pass a simple collection, as well as a collection of objects. Regarding the limitations, please refer to [this page](../building-journeys/collections.md#limitations). Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Refer to this [use case](../building-journeys/collections.md).
 
 Here are the main steps required to configure a custom action:
 
