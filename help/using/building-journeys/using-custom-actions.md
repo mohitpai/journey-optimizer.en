@@ -11,10 +11,6 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 
 The activity configuration pane shows the URL configuration parameters and the authentication parameters that are configured for the custom action. [Learn more](../action/about-custom-action-configuration.md).
 
->[!NOTE]
->
->You cannot pass a simple collection in custom action parameters. Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
-
 ## URL configuration
 
 ### Dynamic path
