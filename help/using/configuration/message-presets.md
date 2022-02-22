@@ -87,7 +87,9 @@ To create a message preset, follow these steps:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
-1. To identify where and why a person clicked on your link, you can define parameters for URL tracking. Based on the parameters you define, a UTM (Urchin Tracking Module) code will be applied to the end of the URL included in your message content. You will then be able to compare results in an analytics tool like Adobe Analytics or Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+1. To identify where and why a person clicked on your link, you can define parameters for URL tracking in the **URL TRACKING CONFIGURATION (WEB ANALYTICS)** section.
+
+    Based on the parameters you define, a UTM (Urchin Tracking Module) code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
     ![](../assets/preset-url-tracking.png)
 
@@ -95,11 +97,19 @@ To create a message preset, follow these steps:
     >
     >You can add up to 10 tracking parameters.
 
-    You can directly type the desired text in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields. You can also choose from a list of predefined values by navigating to the following objects:
+    You can directly type the desired text in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields. 
+    
+    You can also choose from a list of predefined values by navigating to the following objects:
 
     * Journey attributes: Source id, Source name, Source version id
     * Message attributes: Action id, Action name
     * Offer decisioning attributes: Offer id, Offer name
+
+    >[!CAUTION]
+    >
+    >Browse to the necessary folder and select your profile attribute to use as a UTM value.
+
+    ![](../assets/preset-url-tracking-source.png)
 
 1. Enter the **[!UICONTROL Header parameters]** for the emails sent using that preset.
 
