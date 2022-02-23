@@ -68,7 +68,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <table>
 <thead>
 <tr>
-<th><strong>UTM Tracking Parameters</strong><br/></th>
+<th><strong>Pass information to track your messages with UTM Tracking Parameters</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -85,7 +85,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Journeys**
 
-* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
+* To optimize performance, all journeys in test mode that have not been triggered for a week will now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
 * The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.	[Read more](../action/acc-action.md#important-notes)
 
 **Reporting**
@@ -96,7 +96,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * You can now access to reports on Send Time Optimization data: the number of persons who were messages immediately and the number of persons who were messaged with 1-hour optimization, 2 hours optimization, etc.
 
-* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.
+<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Decision Management**
 
