@@ -49,8 +49,7 @@ solution: Journey Optimizer
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + Work with the Expression Editor {#expression-editor}
       + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md) 
-      + [Work with saved expressions](using/personalization/personalization-library.md)   
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
       + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
