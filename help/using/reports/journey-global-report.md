@@ -129,9 +129,9 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimised vs non optimised]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
 
-The **[!UICONTROL Optimised vs non optimised]** graph details the main information relative to your message whether they are optimized or not:
+The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 * **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
@@ -220,9 +220,9 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimised vs non optimised]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
 
-The **[!UICONTROL Optimised vs non optimised]** graph details the main information relative to your message whether they are optimized or not:
+The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.

@@ -13,7 +13,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Subscription Landing Pages</strong><br/></th>
@@ -27,9 +27,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Expression Personalization Library</strong><br/></th>
@@ -39,14 +39,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p-->
+<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>API Developer Site and Suppression API</strong><br/></th>
@@ -63,7 +63,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -75,20 +75,18 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer message content, you can now add UTM parameters to your links: they can provide additional data about that link, and help you identify where and why a person clicked on your link.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/message-presets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-
-
 ### Improvements
 
 **Journeys**
 
-* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the Draft status.	
-* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.	
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.	[Read more](../action/acc-action.md#important-notes)
 
 **Reporting**
 
@@ -98,7 +96,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * You can now access to reports on Send Time Optimization data: the number of persons who were messages immediately and the number of persons who were messaged with 1-hour optimization, 2 hours optimization, etc.
 
-* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.
+<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Decision Management**
 
