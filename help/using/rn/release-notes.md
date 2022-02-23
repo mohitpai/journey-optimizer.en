@@ -13,7 +13,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Subscription Landing Pages</strong><br/></th>
@@ -27,9 +27,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Expression Personalization Library</strong><br/></th>
@@ -39,14 +39,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p-->
+<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>API Developer Site and Suppression API</strong><br/></th>
@@ -63,7 +63,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -75,13 +75,11 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer message content, you can now add UTM parameters to your links: they can provide additional data about that link, and help you identify where and why a person clicked on your link.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/message-presets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Improvements
 
