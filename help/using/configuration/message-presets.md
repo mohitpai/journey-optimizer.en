@@ -93,7 +93,7 @@ Choose **Transactional** for non-commercial messages such as order confirmation,
 
 ### Subdomain & IP pool {#subdomains-and-ip-pools}
 
-In the **SUBDOMAIN & IP PPOL DETAILS** section, you must:
+In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
 
