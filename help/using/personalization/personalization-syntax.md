@@ -143,8 +143,8 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
 
-* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../messages/message-tracking.md#insert-links).
-* Click on the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+* Create a link in your message content. To know more about link creation, refer to [this page](../messages/message-tracking.md#insert-links).
+* Select the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
 ![](assets/perso-url.png)
 

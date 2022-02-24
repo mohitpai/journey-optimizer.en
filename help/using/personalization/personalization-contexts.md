@@ -54,3 +54,10 @@ Learn more about Push notification configuration in [this section](../messages/p
 You can also access the personalization editor when adding text-type content to your offers' representations.
 
 Learn more on managing content with Decision management in [this section](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Personalized URLs{#personalize-urls}
+
+In your message content, you can create links with personalization. For example, add links to a specific page of your website for your new customers. 
+
+Learn how to use personalization capabilities to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
+
