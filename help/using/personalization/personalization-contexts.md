@@ -57,7 +57,7 @@ Learn more on managing content with Decision management in [this section](../off
 
 ## Personalized URLs{#personalize-urls}
 
-In your message content, you can create links with personalization. For example, add links to a specific page of your website for your new customers. 
+Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.
 
-Learn how to use personalization capabilities to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
+Learn how to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
 

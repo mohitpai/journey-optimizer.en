@@ -141,10 +141,12 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 ## URL Personalization{#perso-urls}
 
-Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
+Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.
 
-* Create a link in your message content. To know more about link creation, refer to [this page](../messages/message-tracking.md#insert-links).
-* Select the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To personalize a URL, follow the steps below:
+
+1. Create a link in your message content. [Learn more](../messages/message-tracking.md#insert-links)
+1. From the personalization icon, select the attributes. The personalization icon is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
 ![](assets/perso-url.png)
 
