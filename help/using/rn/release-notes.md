@@ -29,7 +29,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Expression Personalization Library</strong><br/></th>
@@ -39,11 +39,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+<p>For more information, refer to the <a href="../personalization/personalization-library.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
