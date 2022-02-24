@@ -41,11 +41,21 @@ To save an expression to the library, follow these steps:
 
     ![](assets/library-save.png)
 
-1. In the right pane, give a title and description to the expression to help users find it more easily, then click **[!UICONTROL Add]**.
+1. In the right pane, enter a title and a description for the expression to help users find it more easily, then click **[!UICONTROL Add]**.
 
     ![](assets/add-expression.png)
 
 1. The expression is added to the library. Users will now be able to use it to build their personalization content.
+
+
+>[!NOTE]
+>
+>* You save up to 40 expressions in the library.
+>
+>* Expressions cannot exceed 200KB.
+>
+>* Saved expressions are sorted by creation date: recently added expression will be shown first in the list.
+
 
 To edit an existing expression, add it to the editor, then modify it according to your needs. Click **[!UICONTROL Add to library]** to validate the syntax and save the expression.
 
