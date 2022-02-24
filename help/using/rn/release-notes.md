@@ -75,7 +75,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer message content, you can now add UTM parameters to your links: they can provide additional data about that link, and help you identify where and why a person clicked on your link.</p>
-<p>For more information, refer to the <a href="../configuration/message-presets.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/message-presets.md#configure-email-settings">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
