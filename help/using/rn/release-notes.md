@@ -32,7 +32,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Expression Personalization Library</strong><br/></th>
+<th><strong>New Personalization Expression Library</strong><br/></th>
 </tr>
 </thead>
 <tbody>
