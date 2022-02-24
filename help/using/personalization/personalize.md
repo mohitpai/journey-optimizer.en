@@ -20,6 +20,10 @@ The personalization is based on the profile data that are managed by the **XDM I
 >[!CAUTION]
 >The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
+## Add personalization in different contexts {#contexts}
+
+[!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).
+
 **Examples:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
@@ -27,6 +31,8 @@ The personalization is based on the profile data that are managed by the **XDM I
 * `Hello {{profile.person.name.fullName}}`
 
 When processing the message (email and push), Journey Optimizer replaces the expression with the data contained in the Experience Cloud Platform database:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` becomes “Hello John Doe”.
+
+Learn more about [!DNL Journey Optimizer] expression editor in [this section](personalization-build-expressions.md)
 
 ## How-to videos{#video-perso}
 
