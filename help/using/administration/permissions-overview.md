@@ -1,7 +1,7 @@
 ---
 title: User management overview
 description: Learn about permission
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
