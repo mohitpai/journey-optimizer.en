@@ -33,7 +33,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     >[!NOTE]
     >
-    >Only alphanumeric characters and hyphens are allowed.
+    >Only alpha-numeric characters and hyphens are allowed.
 
 1. Select a delegated subdomain from the list.
 
@@ -139,15 +139,15 @@ To create a landing page preset, follow the steps below.
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-1. Select a landing page subdomain name. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
+1. Select a landing page subdomain from the drop-down list.
 
     ![](../assets/lp_preset-subdomain.png)
 
-    The settings corresponding to the selected subdomain display.
-
     >[!NOTE]
     >
-    >If you have not configured any landing page subdomain, first configure a subdomain. [Learn more](#lp-subdomains)
+    >If you have not configured any landing page subdomain, nothing will display in the list. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
+
+    The settings corresponding to the selected subdomain display.
 
 1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as landing page subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
 
@@ -155,7 +155,7 @@ To create a landing page preset, follow the steps below.
 
     ![](../assets/lp_preset-subdomain-settings-same.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
+1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
 
    ![](../assets/lp_preset-subdomain-settings-submit.png)
 
