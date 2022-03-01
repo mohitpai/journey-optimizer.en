@@ -49,7 +49,8 @@ solution: Journey Optimizer
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + Work with the Expression Editor {#expression-editor}
       + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md)    
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md) 
+      + [Work with saved expressions](using/personalization/personalization-library.md)   
       + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
@@ -237,7 +238,9 @@ solution: Journey Optimizer
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
     + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
-    + [Create ranking strategies](using/offers/offer-library/create-ranking-strategies.md)
+    + Create AI ranking models {#create-ai-ranking-models}
+      + [About AI models](using/offers/offer-library/ai-ranking.md)
+      + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)

@@ -1,6 +1,6 @@
 ---
 solution: Journey Orchestration
-title: About custom action configuration
+title: Configure a custom action
 description: Learn how to configure a custom action
 feature: Actions
 topic: Administration
@@ -8,13 +8,22 @@ role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 ---
-# Configure an action {#configure-an-action}
+# Configure a custom action {#configure-an-action}
 
-If you're using a third-party system to send messages or if you want journeys to send API calls to a third-party system, this is where you configure its connection to journeys. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-journey-activities.md#action-activities). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Slack, Adobe.io, Firebase, etc.
+If you are using a third-party system to send messages or if you want journeys to send API calls to a third-party system, use custom actions to configure its connection to your journey. For example yyou can connect to the following systems with custom actions: Epsilon, Slack, Adobe.io, Firebase, etc.
 
-Limitations are listed in [this page](../start/limitations.md).
+Custom actions are additional actions defined by technical users and made available to marketers. Once configured, they appear in the left palette of your journey, in the **[!UICONTROL Action]** category. Learn more in [this page](../building-journeys/about-journey-activities.md#action-activities). 
 
-In custom action parameters, you can pass a simple collection, as well as a collection of objects. Regarding the limitations, please refer to [this page](../building-journeys/collections.md#limitations). Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Refer to this [use case](../building-journeys/collections.md).
+## Limitations{#custom-actions-limitations}
+
+Custom actions come with a few limitations listed in [this page](../start/limitations.md).
+
+In custom action parameters, you can pass a simple collection, as well as a collection of objects. Learn more about collection limitations in [this page](../building-journeys/collections.md#limitations). 
+
+Also note that the custom actions parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Learn more in this [use case](../building-journeys/collections.md).
+
+
+## Configuration steps {#configuration-steps}
 
 Here are the main steps required to configure a custom action:
 

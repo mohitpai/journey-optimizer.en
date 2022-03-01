@@ -54,3 +54,10 @@ Learn more about Push notification configuration in [this section](../messages/p
 You can also access the personalization editor when adding text-type content to your offers' representations.
 
 Learn more on managing content with Decision management in [this section](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Create personalized URLs{#personalize-urls}
+
+Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.
+
+Learn how to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
+
