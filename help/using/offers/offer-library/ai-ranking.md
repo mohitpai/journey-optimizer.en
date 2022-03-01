@@ -6,7 +6,7 @@ description: Learn about AI models that allow to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id:
+exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec34
 ---
 # AI models {#ai-models}
 
