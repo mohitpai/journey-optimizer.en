@@ -1,12 +1,12 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Create ranking strategies
-description: Learn how to create AI models to rank offers
+title: About AI models
+description: Learn about AI models that allow to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
+exl-id:
 ---
 # AI models {#ai-models}
 
