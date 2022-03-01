@@ -145,7 +145,7 @@ To create a landing page preset, follow the steps below.
 
     >[!NOTE]
     >
-    >If you have not configured any landing page subdomain, nothing will display in the list. Learn how to configure landing page subdomains in [this section](#lp-subdomains).
+    >To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain. [Learn how](#lp-subdomains)
 
     The settings corresponding to the selected subdomain display.
 
@@ -158,9 +158,6 @@ To create a landing page preset, follow the steps below.
 1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
 
    ![](../assets/lp_preset-subdomain-settings-submit.png)
-
-    <!--Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Processing]** status. Waiting for confirmation on this. If so, are there the same checks as for message preset creation? If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).
-    Once the checks performed by Adobe are successful...-->
 
 1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
 
