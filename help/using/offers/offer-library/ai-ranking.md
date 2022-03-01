@@ -52,7 +52,7 @@ Eventually, if one offer (e.g. Offer 1) is a clear winner, its posterior reward 
 
 For every decision, we sample a point from the posterior reward distributions. The offer with highest sample value (conversion rate) will be chosen. In the initial phase, all offers have uniform distribution since we don't have any evidence about the conversion rates of the offers from the data. As we collect more samples, the posterior distributions get narrower and more accurate. Ultimately, the offer with highest conversion rate will be chosen every time.
 
-<!-->
+<!--
 ![](../assets/ai-ranking-thompson-sampling-initial.png)
 ![](../assets/ai-ranking-thompson-sampling-intermediate.png)
 ![](../assets/ai-ranking-thompson-sampling-ultimate.png)
@@ -80,7 +80,8 @@ The prior is modeled by Beta distribution and the posterior distribution takes t
 
 The posterior is calculated by simply adding the number of successes and failures to the existing parameters ***α***, ***β***.  
 
-For auto-optimization, as shown in example above, we start with a prior distribution ***Beta(1, 1)*** (uniform distribution) for all offers and after getting s successes and f failures for a given offer, the posterior becomes a Beta distribution with parameters ***(s+α, f+β)*** for that offer. 
+For auto-optimization, as shown in example above, we start with a prior distribution ***Beta(1, 1)*** (uniform distribution) for all offers and after getting s successes and f failures for a given offer, the posterior becomes a Beta distribution with parameters ***(s+α, f+β)*** for that offer.
++++
 
 ### Cold-start problem
 
