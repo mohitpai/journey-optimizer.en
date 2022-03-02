@@ -26,7 +26,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Add offers**. Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers. Learn more about Decisioning management [in this section](../../offers/get-started/starting-offer-decisioning.md).
 
-    ![](../../assets/offers-e2e-offers-displayed.png)
+    ![](../assets/offers-e2e-offers-displayed.png)
     
 1. **Test and validate your messages**. Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../messages/preview.md).
 
