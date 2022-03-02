@@ -9,6 +9,11 @@ level: Intermediate
 
 ## Configure landing page subdomains {#lp-subdomains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_configure_subdomain"
+>title="Set up landing page subdomains"
+>abstract="To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain."
+
 To be able to [create landing page presets](#lp-create-preset), you need to set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
