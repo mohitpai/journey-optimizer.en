@@ -28,13 +28,13 @@ In order to be able to create profiles, you first need to create a schema and a 
 First, you need to **create a schema**. Follow these steps:
 
 1. In the DATA MANAGEMENT menu section, click **[!UICONTROL Schemas]**.
-    ![](../assets/test-profiles-0.png)
+    ![](assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
-    ![](../assets/test-profiles-1.png)
+    ![](assets/test-profiles-1.png)
 1. Select the appropriate field groups. Make sure you add the **Profile test details** field group. 
-    ![](../assets/test-profiles-1-ter.png)
+    ![](assets/test-profiles-1-ter.png)
     Once done, click **[!UICONTROL Add field groups]**: the list of field groups is displayed on the schema overview screen.
-    ![](../assets/test-profiles-2.png)
+    ![](assets/test-profiles-2.png)
 
     >[!NOTE]
     >
@@ -43,11 +43,11 @@ First, you need to **create a schema**. Follow these steps:
     >* Click the **[!UICONTROL Add]** button in the Field groups section to select other fields groups to add in the schema
 
 1. In the list of fields, click on the field that you want to define as the primary identity.
-    ![](../assets/test-profiles-3.png)
+    ![](assets/test-profiles-3.png)
 1. In the **[!UICONTROL Field properties]** right pane, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
-    ![](../assets/test-profiles-4bis.png)
+    ![](assets/test-profiles-4bis.png)
 1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]** pane.
-    ![](../assets/test-profiles-5.png) 
+    ![](assets/test-profiles-5.png) 
 1. Click **Save**.
 
 >[!NOTE]
@@ -57,15 +57,15 @@ First, you need to **create a schema**. Follow these steps:
 Then you need to **create the dataset** in which the profiles will be imported. Follow these steps:
 
 1. Browse to **[!UICONTROL Datasets]**, then click **[!UICONTROL Create dataset]**.
-    ![](../assets/test-profiles-6.png) 
+    ![](assets/test-profiles-6.png) 
 1. Choose **[!UICONTROL Create dataset from schema]**.
-    ![](../assets/test-profiles-7.png) 
+    ![](assets/test-profiles-7.png) 
 1. Select the previously created schema then click **[!UICONTROL Next]**.
-    ![](../assets/test-profiles-8.png) 
+    ![](assets/test-profiles-8.png) 
 1. Choose a name then click **[!UICONTROL Finish]**.
-    ![](../assets/test-profiles-9.png) 
+    ![](assets/test-profiles-9.png) 
 1. Enable the **[!UICONTROL Profile]** option. 
-    ![](../assets/test-profiles-10.png) 
+    ![](assets/test-profiles-10.png) 
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Then you need to **create the dataset** in which the profiles will be imported. 
 
 From Adobe Journey Optimizer home page, you can leverage the test profiles in-product use case. This use case facilitates the creation of test profiles used for testing journeys before publishing.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Click the **[!UICONTROL Begin]** button to start the use case.
 
@@ -112,11 +112,11 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 > Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Browse to **Segments**, then **Create segment**, in the top right.
-    ![](../assets/test-profiles-22.png) 
+    ![](assets/test-profiles-22.png) 
 1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
-    ![](../assets/test-profiles-23.png) 
+    ![](assets/test-profiles-23.png) 
 1. Click **Save** and check that the profiles are correctly targeted by the segment.
-    ![](../assets/test-profiles-24.png) 
+    ![](assets/test-profiles-24.png) 
 
     >[!NOTE]
     >
@@ -124,13 +124,13 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 
 1. Now create a new journey and start with a **[!UICONTROL Read Segment]** orchestration activity.
 1. Choose the previously created segment and the namespace that your profiles use.
-    ![](../assets/test-profiles-25.png)
+    ![](assets/test-profiles-25.png)
 1. Add an **[!UICONTROL Update Profile]** action activity. 
 1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
-    ![](../assets/test-profiles-26.png)
+    ![](assets/test-profiles-26.png)
 1. Add an **End** activity and click **[!UICONTROL Publish]**.
 1. In the **[!UICONTROL Segments]** section, check that the profiles have been correctly updated.
-    ![](../assets/test-profiles-28.png)
+    ![](assets/test-profiles-28.png)
 
     >[!NOTE]
     >
@@ -142,24 +142,24 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
 
 1. Create a simple csv file using a spreadsheet software.
 1. Add one column for each needed field. Make sure you add the primary identity field ("personID" in our example above) and the "testProfile" field set to "true". 
-    ![](../assets/test-profiles-11.png) 
+    ![](assets/test-profiles-11.png) 
 1. Add one line per profile and fill in the values for each field. 
-    ![](../assets/test-profiles-12.png) 
+    ![](assets/test-profiles-12.png) 
 1. Save the spreadsheet as a csv file. Make sure commas are used as separators.
 1. Browse to Adobe Experience Platform **Workflows**. 
-    ![](../assets/test-profiles-14.png) 
+    ![](assets/test-profiles-14.png) 
 1. Choose **Map CSV to XDM schema**, then click **Launch**.
-    ![](../assets/test-profiles-16.png) 
+    ![](assets/test-profiles-16.png) 
 1. Select the dataset you want to import the profiles into. Click **Next**.
-    ![](../assets/test-profiles-17.png) 
+    ![](assets/test-profiles-17.png) 
 1. Click **Choose files** and select your csv file. When the file is uploaded, click **Next**.
-    ![](../assets/test-profiles-18.png) 
+    ![](assets/test-profiles-18.png) 
 1. Map the source csv fields to the schema fields, then click **Finish**.
-    ![](../assets/test-profiles-19.png) 
+    ![](assets/test-profiles-19.png) 
 1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview dataset**, in the top right.
-    ![](../assets/test-profiles-20.png)
+    ![](assets/test-profiles-20.png)
 1. Check that the test profiles have been correctly added.
-    ![](../assets/test-profiles-21.png)
+    ![](assets/test-profiles-21.png)
 
 Your test profiles are added and can now be used when testing a journey. Refer to [this section](../building-journeys/testing-the-journey.md).
 >[!NOTE]

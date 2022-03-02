@@ -97,7 +97,7 @@ You can see that "products" is an array of two objects. You need to have at leas
 
 1. In the **[!UICONTROL Action parameters]** section, paste the JSON example. The displayed structure is static: when pasting the payload, all fields are defined as constants. 
 
-   ![](../assets/uc-collection-1.png)
+   ![](assets/uc-collection-1.png)
 
 1. If needed, adjust the field types. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -113,27 +113,27 @@ You can see that "products" is an array of two objects. You need to have at leas
 
 1. For each field, define the label which will be displayed in the journey canvas.
 
-   ![](../assets/uc-collection-2.png)
+   ![](assets/uc-collection-2.png)
 
 1. Create your journey and add the custom action you created. See [this page](../building-journeys/using-custom-actions.md).
 
 1. In the **[!UICONTROL Action parameters]** section, define the array parameter ("products" in our example) using the advanced expression editor.
 
-   ![](../assets/uc-collection-3.png)
+   ![](assets/uc-collection-3.png)
 
 1. For each of the following object field, type the corresponding field name from the source XDM schema. If the names are identical, this is not needed. In our example, we only need to define "product id" and "color".
 
-   ![](../assets/uc-collection-4.png)
+   ![](assets/uc-collection-4.png)
 
 For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](functions/functionfilter.md) and [intersect](functions/functionintersect.md) functions:
 
-![](../assets/uc-collection-5.png)
+![](assets/uc-collection-5.png)
 
 ## Particular cases{#examples}
 
 For heterogeneous types and arrays of arrays, the array is defined with the listAny type. You can only map individual items, but cannot change the array to variable.
 
-![](../assets/uc-collection-heterogeneous.png)
+![](assets/uc-collection-heterogeneous.png)
 
 Example of heterogenous type:
 
