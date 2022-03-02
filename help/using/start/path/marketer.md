@@ -6,7 +6,7 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 ---
 # Get started for Marketers {#get-started-marketers}
 
-![marketer](assets/do-not-localize/user-3.png) 
+![marketer](../assets/do-not-localize/user-3.png) 
 
 As a **Marketer** or a **Journey Practicionner**, you are responsible for creating messages, offers and journeys. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) and the [Data Engineer](data-engineer.md) granted you access and prepared your environment.
 
@@ -16,11 +16,11 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Create messages**. Learn how to create email and push notifications in Journey Optimizer [in this page](../../messages/create-message.md).
 
-    ![](../../assets/email_designer_7.png)
+    ![](../assets/email_designer_7.png)
 
 1. **Add personalization**. Leverage Journey Optimizer personalization capabilities to adapt your message to your audience. Learn more about personalization [in this section](../../personalization/personalize.md).
 
-    ![](../../personalization/assets/perso_ee2.png)
+    ![](../assets/perso_ee2.png)
     
 1. **Create and manage assets**. [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. Learn more [in this section](../../messages/assets-essentials.md).
 
@@ -40,7 +40,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
 
-    ![](../../assets/copy-paste3.png)
+    ![](../assets/copy-paste3.png)
 
     Learn how to design and execute journeys [in this section](../../building-journeys/journey-gs.md)
 
