@@ -8,26 +8,26 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 
+## February 2022 {#feb-2022}
+
+* All new features and improvements coming with [!DNL Journey Optimizer] Feb '22 release have been detailed in the documentation. [Read more](release-notes.md)
+* The [replace](../building-journeys/functions/functionreplace.md#example_2) and [replaceAll](../building-journeys/functions/functionreplaceall.md#example) function documentation pages have been updated with additional information and examples regarding the target parameter.
+* Best practices have been added to the [Operators](../building-journeys/expression/operators.md#important-notes) page.
+
 ## January 2022 {#january-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
-
-* The Offer decisioning AI rankings section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-
+* The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
-
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
-
-* The Create message presets section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
-
-* The Opt-out management section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
-
-* The Insert links section has been updated to reflect the recent user interface changes. [Read more](../messages/message-tracking.md#insert-links)
+* The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
+* The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
+* The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
-* A full description of the advanced expression editor used in journeys is now available. [Read more](../building-journeys/expression/expressionadvanced.md)
-* A new section on CNAME subdomain delegation method has been added. [Read more](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* A full description of the **advanced expression editor** used in journeys is now available. [Read more](../building-journeys/expression/expressionadvanced.md)
+* A new section about **CNAME subdomain delegation method** has been added. [Read more](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## October 2021 {#october-2021}

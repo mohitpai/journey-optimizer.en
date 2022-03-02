@@ -5,6 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: yes
+hide: yes
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
 ---
 # Subscription report {#subscription-report}

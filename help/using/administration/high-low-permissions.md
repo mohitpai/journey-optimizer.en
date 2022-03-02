@@ -411,16 +411,13 @@ It includes the following low-level permissions:
   * profiles.read
   * datasets.read
 
-### [!DNL Manage landing page settings] permission {#manage-landing-page-settings}
+## Journey Optimizer Library capability {library-permissions}
 
-The **[!DNL Manage landing page settings]** high-level permission allows users to read, create and edit landing page subdomains and preset settings.
+### Manage Library Items {#library-items}
+
+The **[!DNL Manage Library Items]** high-level permission allows users to add and delete saved expressions in the [!DNL Journey Optimizer] Library.
 
 It includes the following low-level permissions:
 
-* Journey Optimizer specific: 
-  * landing_page_subdomain.read
-  * landing_page_subdomain.write
-  * landing_page_subdomain.delete
-  * landing_page_preset.read
-  * landing_page_preset.write
-  * landing_page_preset.delete
+* library_item.create
+* ibrary_item.delete
