@@ -35,20 +35,20 @@ Follow these steps:
 ## Step 1: Create the email{#configure-email}
 
 1. Create or modify an email message, then click **[!UICONTROL Email Designer]**.
-   ![](../assets/personalization-uc-helpers-1.png)
+   ![](assets/personalization-uc-helpers-1.png)
 
 1. From the left palette of the Email Designer home page, drag and drop three structure components onto the body of the message.
    
 1. Drag and drop an HTML content component onto each new structure component.
 
-   ![](../assets/personalization-uc-helpers-2.png)
+   ![](assets/personalization-uc-helpers-2.png)
 
 ## Step 2: Insert the customer's first name in capital letters {#uppercase-function}
 
 1. On the Email Designer home page, click on the HTML component where you want to add the customer's first name.
 1. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
    
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `upperCase` string function:
    1. In the left menu, select **[!UICONTROL Helper functions]**.
@@ -61,7 +61,7 @@ Follow these steps:
       {%= upperCase(string) %}
       ``` 
       
-      ![](../assets/personalization-uc-helpers-4.png)
+      ![](assets/personalization-uc-helpers-4.png)
    
 1. Remove the "string" placeholder from the expression.
 1. Add the first name token:
@@ -75,13 +75,13 @@ Follow these steps:
       {%= upperCase(profile.person.name.firstName) %}
       ``` 
    
-      ![](../assets/personalization-uc-helpers-5.png)
+      ![](assets/personalization-uc-helpers-5.png)
 
       Learn more about the person name data type in [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
    
-   ![](../assets/personalization-uc-helpers-6.png)
+   ![](assets/personalization-uc-helpers-6.png)
 1. Save the message.
 
 ## Step 3: Create the initial event and the related journey {#create-context}
@@ -99,24 +99,24 @@ The cart content is contextual information from the journey. Therefore, you must
 
    Because you have not yet published the message, you cannot neither test nor publish the journey.
    
-   ![](../assets/personalization-uc-helpers-7.png)
+   ![](assets/personalization-uc-helpers-7.png)
 
 1. Click **[!UICONTROL OK]**.
 
    A message informs you that the journey context has been passed to the message.
 
-   ![](../assets/personalization-uc-helpers-8.png)
+   ![](assets/personalization-uc-helpers-8.png)
 
 ## Step 4: Insert the list of items from the cart {#each-helper}
 
 1. Reopen the message.
    
-   ![](../assets/personalization-uc-helpers-18.png)
+   ![](assets/personalization-uc-helpers-18.png)
 
 1. On the Email Designer home page, click on the HTML component where you want to list the cart content.
 1. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
    
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `each` helper:
    1. In the left menu, select **[!UICONTROL Helper functions]**.
@@ -128,7 +128,7 @@ The cart content is contextual information from the journey. Therefore, you must
       {{#each someArray as |variable|}} {{/each}}
       ```
    
-      ![](../assets/personalization-uc-helpers-9.png)
+      ![](assets/personalization-uc-helpers-9.png)
 
 1. Add the `productListItems` array to the expression:
 
@@ -150,7 +150,7 @@ The cart content is contextual information from the journey. Therefore, you must
       ```
       In this example, *event_ID* represents the ID of your event.
 
-      ![](../assets/personalization-uc-helpers-10.png)
+      ![](assets/personalization-uc-helpers-10.png)
 
    1. Modify the expression:
       1. Remove the ".product" string.
@@ -200,14 +200,14 @@ The cart content is contextual information from the journey. Therefore, you must
       {{/each}}
       ```
 1. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
-   ![](../assets/personalization-uc-helpers-11.png)
+   ![](assets/personalization-uc-helpers-11.png)
    
 ## Step 5: Insert a product-specific note {#if-helper}
 
 1. On the Email Designer home page, click on the HTML component where you want to insert the note.
 1. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. In the **[!UICONTROL Edit HTML]** window, add the `if` helper:
    1. In the left menu, select **[!UICONTROL Helper functions]**.
@@ -221,7 +221,7 @@ The cart content is contextual information from the journey. Therefore, you must
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-12.png)
+      ![](assets/personalization-uc-helpers-12.png)
 
 1. Remove this condition from the expression:
    
@@ -253,7 +253,7 @@ The cart content is contextual information from the journey. Therefore, you must
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-13.png)
+      ![](assets/personalization-uc-helpers-13.png)
 
 1. Modify the expression:
    1. In the Expression editor, specify the product name after the `name` token.
@@ -284,7 +284,7 @@ The cart content is contextual information from the journey. Therefore, you must
    1. Remove the "default_render" placeholder from the expression.
 1. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
 
-   ![](../assets/personalization-uc-helpers-14.png)
+   ![](assets/personalization-uc-helpers-14.png)
 
 1.  Save and publish the message.
 
@@ -295,19 +295,19 @@ The cart content is contextual information from the journey. Therefore, you must
 
    You can turn on the test mode only after you have published the message.
 
-   ![](../assets/personalization-uc-helpers-15.png)
+   ![](assets/personalization-uc-helpers-15.png)
 
 1. In the **[!UICONTROL Event configuration]** window, enter the input values, then click **[!UICONTROL Send]**.
    
    The test mode works only with test profiles.
 
-   ![](../assets/personalization-uc-helpers-16.png)
+   ![](assets/personalization-uc-helpers-16.png)
 
    The email is sent to the address of the test profile.
    
    In this example, the email contains the note about the Juno Jacket because this product is in the cart:
 
-   ![](../assets/personalization-uc-helpers-17.png)
+   ![](assets/personalization-uc-helpers-17.png)
 
 1. Verify that there is no error, then publish the journey.
 
