@@ -17,11 +17,11 @@ Before testing and publishing your journey, verify that all the activities are p
 
 Errors appear with a warning symbol displayed on the activities themselves on the canvas. Place your cursor on the exclamation mark to display the error message. If you click on the activity, you should see the line in error with a warning. For example, if a mandatory field is empty, an error will be displayed.
 
- ![](../assets/journey63.png)
+ ![](assets/journey63.png)
 
 For example, in the canvas, when two activities are disconnected, a warning is displayed.
 
- ![](../assets/canvas-disconnected.png)
+ ![](assets/canvas-disconnected.png)
 
 Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
 
@@ -29,7 +29,7 @@ The system detects two kinds of issues: errors and warnings. Errors block public
 
 Two different colors can be displayed on the sign next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button. The sign is displayed in red in case of errors. It is displayed in orange in case of warnings.
 
- ![](../assets/journey75.png)
+ ![](assets/journey75.png)
 
 Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 

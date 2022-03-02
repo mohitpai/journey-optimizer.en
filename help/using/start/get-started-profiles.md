@@ -14,7 +14,7 @@ Leverage Real-time Customer Profile in [!DNL Adobe Journey Optimizer] to see a h
 >
 >If your organization is new to [!DNL Adobe Journey Optimizer] and does not yet have active Profile datasets or merge policies created, the **Profiles** dashboard is not visible. Instead, the **Overview** tab displays links to Adobe Experience Platform documentation to help you get started with Real-time Customer Profile.
 
-![](../assets/profiles-home.png)
+![](assets/profiles-home.png)
 
 To learn how to access and work with the **Profile dashboard** and detailed information regarding the metrics displayed in the dashboard, refer to [this section](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}.
 

@@ -18,6 +18,6 @@ If you stop a journey, it will be permanently stopped. All the persons flowing i
 1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). It is also recommended to test your journey before publication. See [this page](../building-journeys/testing-the-journey.md).
 1. To publish the journey, click on the **[!UICONTROL Publish]** option, located in the top right drop-down menu.
 
-    ![](../assets/journeyuc1_18.png)
+    ![](assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode.

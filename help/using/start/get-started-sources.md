@@ -10,7 +10,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 
 Adobe Journey Optimizer allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 Learn about source connectors and how to configure them in Journey Optimizer in this video:
 

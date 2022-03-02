@@ -17,27 +17,27 @@ If you're using a third-party system to send your messages, you can create a cus
 
 1. As always, start your journey with an event or a **Read Segment** activity.
 
-   ![](../assets/jo-message0.png)
+   ![](assets/jo-message0.png)
 
 1. From the **Actions** section of the palette, drag and drop a **Message** activity into the canvas.  
 
-   ![](../assets/jo-message1.png)
+   ![](assets/jo-message1.png)
 
 1. Add a label and description.
 
-   ![](../assets/jo-message2.png)
+   ![](assets/jo-message2.png)
 
 1. Click inside the **Message** field. The list of available messages designed in Journey Optimizer is displayed. You can filter the list by status. 
 
-   ![](../assets/jo-message3.png)
+   ![](assets/jo-message3.png)
 
 1. Choose a message and click **Select**. You can also create a new message directly from this screen by clicking **Create message**.
 
-   ![](../assets/jo-message4-ter.png)
+   ![](assets/jo-message4-ter.png)
 
    If you want to check your message, you can click the **Open the message** icon in the **Message** field. The message will open in a new tab.
 
-   ![](../assets/jo-message4-bis.png)
+   ![](assets/jo-message4-bis.png)
 
 1. Add the next steps to your journey.
 
@@ -45,7 +45,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
 The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** sections show read-only fields. You typically perform this configuration when creating the message. See [this section](../messages/get-started-content.md). 
 
-![](../assets/jo-message4.png)
+![](assets/jo-message4.png)
 
 To force a specific value, you can use the **Enable parameter override** icon to the right of the field. This option may be useful for various purposes:
 
@@ -98,7 +98,7 @@ This information is stored with the user's profile and is referenced at journey 
 
 Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the Message activity parameters. 
 
-![](../assets/jo-message5.png)
+![](assets/jo-message5.png)
 
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
