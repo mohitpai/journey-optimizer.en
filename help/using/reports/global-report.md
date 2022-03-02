@@ -25,23 +25,23 @@ Each reporting dashboard can be modified by changing the time period and resizin
 
 1. From your Global report, select a Start and End time to target specific data.
 
-    ![](../assets/report_modify_1.png)
+    ![](assets/report_modify_1.png)
 
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
 
-    ![](../assets/report_modify_2.png)
+    ![](assets/report_modify_2.png)
 
 1. Click **[!UICONTROL Modify]** to start customizing your dashboard.
 
-    ![](../assets/report_modify_3.png)
+    ![](assets/report_modify_3.png)
 
 1. Adjust the widgets size by dragging its bottom-right corner.
 
-    ![](../assets/report_modify_4.png)
+    ![](assets/report_modify_4.png)
 
 1. Click **[!UICONTROL Remove]** to remove any widget you don't need.
 
-    ![](../assets/report_modify_5.png)
+    ![](assets/report_modify_5.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
 

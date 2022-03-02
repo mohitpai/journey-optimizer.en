@@ -14,11 +14,11 @@ Data are available in the **[!UICONTROL Live report]** as soon as your delivery 
 
 * If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Live report]** icon. You can then find the Journey, Email and Push live reports.
 
-    ![](../assets/report_journey.png)
+    ![](assets/report_journey.png)
 
 * If you want to target a specific delivery, from the **[!UICONTROL Live view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Live Report]** from the advanced menu of your selected delivery.
 
-    ![](../assets/report_2.png)
+    ![](assets/report_2.png)
 
 ## Customize dashboard {#modify-dashboard}
 
@@ -26,19 +26,19 @@ Each reporting dashboard can be modified by resizing or removing widgets. Changi
 
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
 
-    ![](../assets/report_modify_6.png)
+    ![](assets/report_modify_6.png)
 
 1. To resize or remove widgets, click **[!UICONTROL Modify]**.
 
-    ![](../assets/report_modify_7.png)
+    ![](assets/report_modify_7.png)
 
 1. Adjust the widgets size by dragging its bottom-right corner.
 
-    ![](../assets/report_modify_8.png)
+    ![](assets/report_modify_8.png)
 
 1. Click **[!UICONTROL Remove]** to remove any widget you don't need.
 
-    ![](../assets/report_modify_9.png)
+    ![](assets/report_modify_9.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
 
