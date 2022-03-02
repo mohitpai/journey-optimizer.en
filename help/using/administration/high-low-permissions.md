@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 ---
 # Permission levels {#high-low-permissions}
 
-![](../assets/do-not-localize/permissions.png)
+![](assets/do-not-localize/permissions.png)
 
 Each product profile is composed of permissions allowing users to access the different features. 
 They can be divided into two types:
