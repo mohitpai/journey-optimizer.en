@@ -1,7 +1,7 @@
 ---
 title: Built-in product profiles
 description: Learn about the built-in product profiles
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
