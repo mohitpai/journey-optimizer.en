@@ -13,11 +13,11 @@ The email **[!UICONTROL Live report]** only targets a specific email delivery.
 
 From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Live view]** then from the advanced menu of the selected delivery select **[!UICONTROL Live report]**.
 
-![](assets/live_report.png)
+![](../assets/live_report.png)
 
 The email **[!UICONTROL Live report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md#modify-dashboard).
 
-![](assets/live_report_5.png)
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** and **[!UICONTROL Email summary]** widgets details the main information relative to your message with a graph and KPIs:
 
@@ -49,7 +49,7 @@ The **[!UICONTROL Sending Statistics]** widget details the success of your deliv
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-![](assets/live_report_6.png)
+![](../assets/live_report_6.png)
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
@@ -62,7 +62,7 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
 <!--
-![](assets/live_report_8.png)
+![](../assets/live_report_8.png)
 
 >[!NOTE]
 >

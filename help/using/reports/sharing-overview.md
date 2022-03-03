@@ -33,9 +33,9 @@ The following schemas are created:
 * Journey Step Event schema for [!DNL Journey Orchestration] – Journey step event that is tied to a Journey Metadata.
 * Journey schema with Journey Fields for [!DNL Journey Orchestration] – Journey Metadata to describe Journeys.
 
-![](assets/sharing1.png)
+![](../assets/sharing1.png)
 
-![](assets/sharing2.png)
+![](../assets/sharing2.png)
 
 The following datasets are passed:
 
@@ -43,7 +43,7 @@ The following datasets are passed:
 * Journey Step Events
 * Journeys
 
-![](assets/sharing3.png)
+![](../assets/sharing3.png)
 
 The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 

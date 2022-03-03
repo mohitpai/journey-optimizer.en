@@ -20,5 +20,5 @@ Customer AI allows brands to create churn or conversion machine learning based s
 
 As a result, they can be used as any other profile attributes in Journey Optimizer's conditions (to make the best decisions), actions or segment building. 
 
-![](assets/customer-ai.png)
+![](../assets/customer-ai.png)
 

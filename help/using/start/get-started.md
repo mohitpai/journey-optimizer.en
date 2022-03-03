@@ -35,7 +35,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 
 [!DNL Adobe Journey Optimizer] is an agile and scalable application for creating and delivering personalized, connected, and timely customer experiences across any app, device, or channel. 
 
-![](assets/ajo-capabilities.png)
+![](../assets/ajo-capabilities.png)
 
 Key capabilities include:
 
@@ -64,5 +64,5 @@ Understand the basic architecture of [!DNL Adobe Journey Optimizer], the points 
 * [Create your first message](../messages/get-started-content.md)
 * [Design journeys and send messages](../building-journeys/journey-gs.md)
 * [Live reports](../reports/live-report.md)
-* [Journey Optimizer FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
+* [Journey Optimizer FAQ](../assets/do-not-localize/AJO-FAQ.pdf) (PDF)
 * [Journey Optimizer Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

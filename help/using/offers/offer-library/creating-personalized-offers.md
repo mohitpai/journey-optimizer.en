@@ -19,7 +19,7 @@ Before creating an offer, make sure that you created:
 
 The list of personalized offers is accessible in the **[!UICONTROL Offers]** menu.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## Create the offer {#create-offer}
 
@@ -33,11 +33,11 @@ To create an **offer**, follow these steps:
 
 1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 
-    ![](../assets/create_offer.png)
+    ![](../../assets/create_offer.png)
 
 1. Specify the offer's name as well as its start and end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
 
-    ![](../assets/offer_details.png)
+    ![](../../assets/offer_details.png)
 
     >[!NOTE]
     >
@@ -51,7 +51,7 @@ To add one or multiple representations to your offer and configure them, follow 
 
 1. For the first representation, start by selecting the **[!UICONTROL Channel]** that will be used.
 
-    ![](../assets/channel-placement.png)
+    ![](../../assets/channel-placement.png)
 
     >[!NOTE]
     >
@@ -62,23 +62,23 @@ To add one or multiple representations to your offer and configure them, follow 
 
     You can also use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
 
-    ![](../assets/browse-button-placements.png)
+    ![](../../assets/browse-button-placements.png)
 
     There you can still filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
 
-    ![](../assets/browse-placements.png)
+    ![](../../assets/browse-placements.png)
 
 1. Add content to your representation. Learn how in [this section](#content).
 
 1. When you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
 
-    ![](../assets/offer-destination-link.png)
+    ![](../../assets/offer-destination-link.png)
 
 1. Finally, select the language of your choice to help identify and manage what to display to the users.
 
 1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
 
-    ![](../assets/offer-add-representation.png)
+    ![](../../assets/offer-add-representation.png)
 
 1. Once you added all your representations, select **[!UICONTROL Next]**.
 
@@ -102,19 +102,19 @@ If the selected placement is image-type, you can add content coming from the **A
 
 1. Select **[!UICONTROL Browse]**.
 
-    ![](../assets/offer-browse-asset-library.png)
+    ![](../../assets/offer-browse-asset-library.png)
 
 1. Browse the assets to select the image of your choice
 
 1. Click **[!UICONTROL Select]**.
 
-    ![](../assets/offer-select-asset.png)
+    ![](../../assets/offer-select-asset.png)
 
 ### Add URLs {#urls}
 
 To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
 
-![](../assets/offer-content-url.png)
+![](../../assets/offer-content-url.png)
 
 ### Add custom text {#custom-text}
 
@@ -122,7 +122,7 @@ You can also insert text-type content when selecting a compatible placement.
 
 1. Select the **[!UICONTROL Custom]** option and click **[!UICONTROL Add content]**.
     
-    ![](../assets/offer-add-content.png)
+    ![](../../assets/offer-add-content.png)
     
     >[!NOTE]
     >
@@ -130,11 +130,11 @@ You can also insert text-type content when selecting a compatible placement.
 
 1. Type the text that will display in the offer.
 
-    ![](../assets/offer-text-content.png)
+    ![](../../assets/offer-text-content.png)
 
     You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
 
-    ![](../assets/offer-personalization.png)
+    ![](../../assets/offer-personalization.png)
 
     >[!NOTE]
     >
@@ -176,11 +176,11 @@ Eligibility rules and constraints allow you to define the conditions under which
 
         For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
     
-        ![](../assets/offer-eligibility-segment.png)
+        ![](../../assets/offer-eligibility-segment.png)
 
     * If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
-        ![](../assets/offer_rule.png)
+        ![](../../assets/offer_rule.png)
 
         >[!CAUTION]
         >
@@ -198,7 +198,7 @@ Eligibility rules and constraints allow you to define the conditions under which
     >
     >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-    ![](../assets/offer_capping.png)
+    ![](../../assets/offer_capping.png)
         
     In the example above:
 
@@ -216,7 +216,7 @@ Once eligibility rules and constraints have been defined, a summary of the offer
 
 1. Select **[!UICONTROL Save and approve]**.
 
-    ![](../assets/offer_review.png)
+    ![](../../assets/offer_review.png)
 
     You can also save the offer as a draft, in order to edit and approve it later on. 
 
@@ -224,13 +224,13 @@ The offer displays in the list with the **[!UICONTROL Approved]** or **[!UICONTR
 
 It is now ready to be delivered to users.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 ## Offer list {#offer-list}
     
 From the offer list, you can select the offer to display its properties. You can also edit it, change its status (**Draft**, **Approved**, **Archived**), duplicate the offer, or delete it.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 Select the **[!UICONTROL Edit]** button to go back to the offer edition mode, where you can modify the offer's [details](#create-offer), [representations](#representations), as well as edit the [eligibility rules and constraints](#eligibility). 
 
@@ -238,11 +238,11 @@ Select an approved offer and click **[!UICONTROL Undo approve]** to set the offe
 
 To set again the status to **[!UICONTROL Approved]**, select the corresponding button that is now displayed.
 
-![](../assets/offer_approve.png)
+![](../../assets/offer_approve.png)
 
 The **[!UICONTROL More actions]** button enables the actions described below.
 
-![](../assets/offer_more-actions.png)
+![](../../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status.
 * **[!UICONTROL Delete]**: removes the offer from the list.
@@ -257,19 +257,19 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 
 You can also delete or change the status of multiple offers at the same time by selecting the corresponding checkboxes.
 
-![](../assets/offer_multiple-selection.png)
+![](../../assets/offer_multiple-selection.png)
 
 If you want to change the status of several offers whith different statuses, only the relevant statuses will be changed.
 
-![](../assets/offer_change-status.png)
+![](../../assets/offer_change-status.png)
 
 Once an offer has been created, you can click its name from the list.
 
-![](../assets/offer_click-name.png)
+![](../../assets/offer_click-name.png)
 
 This enables you to access detailed information for that offer. Select the **[!UICONTROL Change log]** tab to [monitor all the changes](../get-started/user-interface.md#monitoring-changes) that have been made to the offer.
 
-![](../assets/offer_information.png)
+![](../../assets/offer_information.png)
 
 ## Tutorial video {#video}
 

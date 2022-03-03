@@ -26,7 +26,7 @@ This type of event can be positioned as the first step or later in the journey.
 
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas.
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
 1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
 
@@ -36,13 +36,13 @@ This type of event can be positioned as the first step or later in the journey.
    >
    >Note that you can customize the columns displayed in the list and sort them.
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. In the **[!UICONTROL Behaviour]** field, choose whether you want to listen to segment entrances, exits or both.
 
@@ -52,7 +52,7 @@ This type of event can be positioned as the first step or later in the journey.
 
 1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 The payload contains the following context information, which you can use in conditions and actions:
 
@@ -64,7 +64,7 @@ When using the expression editor in a condition or action that follows a **[!UIC
 
 See [Condition activity](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
 A new journey that includes a segment qualification event is operational ten minutes after you have published it. This time interval corresponds to the cache refresh interval of the dedicated service. Therefore, you must wait ten minutes before using this journey.
 
@@ -92,10 +92,10 @@ Here are a few best practices that will help to avoid overloading systems levera
 
 Do not use, in a **[!UICONTROL Segment Qualification]** activity, a batch segment immediately after its creation. It will avoid the first calculation peak. Note that there will be a yellow warning in the journey canvas if you're about to use a segment that has never been calculated.
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
 Put in place a capping rule for data sources and actions used in journeys to avoid overloading them. Learn more in [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Note that the capping rule has no retry. If you need to retry, you must use an alternative path in the journey by checking the box **[!UICONTROL Add an alternative path in case of a timeout or an error]** in conditions or actions.
 
 Before using the segment in a production journey, always evaluate first the volume of individuals qualifying for this segment every day. To do so, you can check the **[!UICONTROL Segments]** menu, open the segment then look at the **[!UICONTROL Profiles over time]** graph.
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)

@@ -15,19 +15,19 @@ In order to send messages with journeys, the following configuration is required
 
 1. **Configure an event**: if you want to trigger your journeys unitarily when an event is received, you need to configure an event. You define the expected information and how to process it. This step is performed by a **technical user**. [Read more](../event/about-events.md).
 
-   ![](assets/jo-event7bis.png)  
+   ![](../assets/jo-event7bis.png)  
  
 1. **Create a segment**: your journey can also listen to Adobe Experience Platform segments in order to send messages in batch to a specified set of profiles. For this, you need to create segments. [Read more](../segment/about-segments.md).
 
-   ![](assets/segment2.png)  
+   ![](../assets/segment2.png)  
 
 1. **Configure the data source**: you can define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Adobe Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. [Read more](../datasource/about-data-sources.md) 
 
-   ![](assets/jo-datasource.png)  
+   ![](../assets/jo-datasource.png)  
 
 1. **Configure an action**: Journey Optimizer message capabilities are built-in, you just need to design your content and publish your message. See [this section](../messages/get-started-content.md). If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. 
 
-    ![](assets/create-content-push.png)  
+    ![](../assets/create-content-push.png)  
 
 ## Building your journey{#jo-build}
 
@@ -37,17 +37,17 @@ Here are the main steps to send messages through journeys:
 
 1. In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
 
-    ![](assets/interface-journeys.png)
+    ![](../assets/interface-journeys.png)
 
 1. Click **[!UICONTROL Create Journey]** to create a new journey. 
 
 1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](journey-gs.md#change-properties).
 
-    ![](assets/jo-properties.png)
+    ![](../assets/jo-properties.png)
 
 1. Start by drag and dropping an event or a **Read Segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
 
-    ![](assets/read-segment.png)
+    ![](../assets/read-segment.png)
 
 1. Drag and drop the next steps that the individual will follow. For example, you can add a condition followed by a message. To learn more about activities, refer to [this section](using-the-journey-designer.md).
 
@@ -55,11 +55,11 @@ Here are the main steps to send messages through journeys:
 
 1. Publish your journey to activate it. Learn more in this [section](publishing-the-journey.md).
 
-    ![](assets/jo-journeyuc2_32bis.png)
+    ![](../assets/jo-journeyuc2_32bis.png)
 
 1. Monitor your journey using the dedicated reporting tools to measure your journey's effectiveness. Learn more in this [section](../reports/live-report.md).
 
-    ![](assets/jo-dynamic_report_journey_12.png)
+    ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## Changing properties {#change-properties}
 
@@ -71,7 +71,7 @@ For live journeys, this screen displays the publication date and the name of the
 
 The **Copy technical details** allows you to copy technical information about the journey which the support team can use to troubleshoot. The following information is copied: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
- ![](assets/journey32.png)
+ ![](../assets/journey32.png)
 
 ### Entrance{#entrance}
 
@@ -127,11 +127,11 @@ If any of the requirements is not fulfilled, burst mode will not be available in
 
 To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
 
-![](assets/burst.png)
+![](../assets/burst.png)
 
 Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
 
-![](assets/burst2.png)
+![](../assets/burst2.png)
 
 Then test and publish your journey normally. Test mode messages are not sent via the burst mode.
 
@@ -172,14 +172,14 @@ A closed journey version cannot be restarted or deleted. You can create a new ve
 
 To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Close to new entrances]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 
 1. In the **[!UICONTROL Journeys]** list, click on the journey you want to close.
 1. On the top-right, click the down arrow.
 
-    ![](assets/finish_drop_down_list.png)
+    ![](../assets/finish_drop_down_list.png)
 
 1. Click **[!UICONTROL Close to new entrances]**. A dialog box appears.
 1. Click **[!UICONTROL Close to new entrances]** to confirm.
@@ -194,14 +194,14 @@ When stopped, a journey will have the status **[!UICONTROL Stopped]**.
 
 You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 
 1. In the **[!UICONTROL Journeys]** list, click on the journey you want to stop.
 1. On the top-right, click on the down arrow.
 
-  ![](assets/finish_drop_down_list.png)
+  ![](../assets/finish_drop_down_list.png)
 
 1. Click **[!UICONTROL Stop]**. A dialog box appears.
 1. Click **[!UICONTROL Stop]** to confirm.

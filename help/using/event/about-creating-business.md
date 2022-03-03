@@ -48,15 +48,15 @@ Here are the first steps to configure a business event:
 
 1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Events]** section, click **[!UICONTROL Manage]**. The list of events is displayed. 
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. Click **[!UICONTROL Create Event]** to create a new event. The event configuration pane opens on the right side of the screen.
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
 1. Enter the name of your event. You can also add a description.
 
-   ![](assets/jo-event3-business.png)
+   ![](../assets/jo-event3-business.png)
 
     >[!NOTE]
     >
@@ -64,20 +64,20 @@ Here are the first steps to configure a business event:
 
 1. In the **[!UICONTROL Type]** field, choose **Business**.
 
-   ![](assets/jo-event3bis-business.png)
+   ![](../assets/jo-event3bis-business.png)
 
 1. The number of journeys that use this event is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this event.
 
 1. Define the schema and payload fields: this is where you select the event information (usually called a payload) journeys expects to receive. You will then be able to use this information in your journey. See [this section](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](assets/jo-event5-business.png)
+   ![](../assets/jo-event5-business.png)
 
    Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 
-    ![](assets/test-profiles-4.png)
+    ![](../assets/test-profiles-4.png)
 
 1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
-  ![](assets/jo-event6-business.png)
+  ![](../assets/jo-event6-business.png)
 
    In our example, we wrote a condition based on the product's id. This means that whenever the system receives an event that matches this condition, it will pass it to journeys.
 
@@ -87,7 +87,7 @@ Here are the first steps to configure a business event:
 
 1. Click **[!UICONTROL Save]**.
 
-    ![](assets/journey7-business.png)
+    ![](../assets/journey7-business.png)
 
     The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -97,11 +97,11 @@ The payload definition allows you to choose the information the system expects t
 
 1. Select an XDM schema from the list and click on the **[!UICONTROL Fields]** field or on the **[!UICONTROL Edit]** icon.
 
-    ![](assets/journey8-business.png)
+    ![](../assets/journey8-business.png)
 
     All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. All fields that are mandatory for the event to be received properly by journeys are selected by default.
 
-    ![](assets/journey9-business.png)
+    ![](../assets/journey9-business.png)
 
     >[!NOTE]
     >
@@ -113,7 +113,7 @@ The payload definition allows you to choose the information the system expects t
 
     The number of selected fields appears in the **[!UICONTROL Fields]** field.
 
-    ![](assets/journey12-business.png)
+    ![](../assets/journey12-business.png)
 
 ## Preview the payload {#preview-the-payload}
 
@@ -121,11 +121,11 @@ The payload preview allows you to validate the payload definition.
 
 1. Click the **[!UICONTROL View Payload]** icon to preview the payload expected by the system.
 
-    ![](assets/journey13-business.png)
+    ![](../assets/journey13-business.png)
 
     You can notice that the fields selected are displayed.
 
-    ![](assets/journey14-business.png)
+    ![](../assets/journey14-business.png)
 
 1. Check the preview to validate the payload definition.
 

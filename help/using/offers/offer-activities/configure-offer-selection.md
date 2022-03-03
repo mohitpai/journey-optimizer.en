@@ -14,13 +14,13 @@ If several offers are eligible for a given placement, you can choose the method 
 * Ranking formula
 * [AI ranking](#use-ranking-strategy) (in early access for select users only)
 
-![](../assets/offer-rank-by.png)
+![](../../assets/offer-rank-by.png)
 
 ## Offer priority {#offer-priority}
 
 By default, when several offers are eligible for a given placement in a decision, the offers with the highest **priority** will be delivered to the customers first.
 
-![](../assets/offer-priority.png)
+![](../../assets/offer-priority.png)
 
 Offers' priority scores are assigned when creating an offer. Learn how to create a personalized offer in [this section](../offer-library/creating-personalized-offers.md).
 
@@ -42,11 +42,11 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 1. Select **[!UICONTROL Ranking formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
 
-    ![](../assets/offer-activity-ranking.png)
+    ![](../../assets/offer-activity-ranking.png)
 
 1. Select the desired ranking formula, then click **[!UICONTROL Select]**.
 
-    ![](../assets/ranking-selection.png)
+    ![](../../assets/ranking-selection.png)
 
 The ranking formula is now associated to the placement.
 
@@ -72,11 +72,11 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 1. Choose to rank offers by **[!UICONTROL AI ranking]** from the drop-down list, and click **[!UICONTROL Add ranking]**.
 
-    ![](../assets/ranking-selection-ai-ranking.png)
+    ![](../../assets/ranking-selection-ai-ranking.png)
 
 1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
 
-    ![](../assets/ranking-selection-ai-ranking-selected.png)
+    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
 1. Click **[!UICONTROL Select]**. The ranking strategy is now associated with the placement.
 

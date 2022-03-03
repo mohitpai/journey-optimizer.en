@@ -17,7 +17,7 @@ Adding data to Adobe Experience Platform is the foundation to building a Profile
 
 The **Datasets** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to explore data and create datasets. 
 
-![](assets/datasets-home.png)
+![](../assets/datasets-home.png)
 
 Learn how to use Datasets UI in the [Data Ingestion overview documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
