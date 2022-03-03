@@ -15,7 +15,7 @@ In the advanced expression editor, you will find the **Journey Properties** cate
 >
 >Journey properties attributes are also available in the simple expression editor. See this [section](../condition-activity.md#about_condition)
 
-![](../../assets/journey-properties.png)
+![](../assets/journey-properties.png)
 
 You will find information, for example, about:
 

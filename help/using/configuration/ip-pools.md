@@ -23,7 +23,7 @@ To create an IP pool, follow these steps:
 
 1. Access the **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** menu, then click **[!UICONTROL Create IP Pool]**.
 
-    ![](../assets/ip-pool-create.png)
+    ![](assets/ip-pool-create.png)
 
 1. Provide a name and a description (optional) for the IP pool.
 
@@ -33,7 +33,7 @@ To create an IP pool, follow these steps:
 
 1. Select the IP addresses to include in the pool from the drop-down list, then click **[!UICONTROL Submit]**.
 
-    ![](../assets/ip-pool-config.png) 
+    ![](assets/ip-pool-config.png) 
 
     >[!NOTE]
     >
@@ -41,7 +41,7 @@ To create an IP pool, follow these steps:
     
 The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message preset. For more on how to associate a message preset with an IP pool, refer to [this section](message-presets.md)).
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## Edit an IP pool {#edit-ip-pool}
 
@@ -49,11 +49,11 @@ To edit an IP pool:
 
 1. From the list, click the IP pool name to open it.
 
-    ![](../assets/ip-pool-list.png)
+    ![](assets/ip-pool-list.png)
 
 1. Edit its properties as desired. You can modify the description, and add or remove IP addresses.
 
-    ![](../assets/ip-pool-edit.png)
+    ![](assets/ip-pool-edit.png)
 
     >[!CAUTION]
     >
@@ -72,7 +72,7 @@ The update is effective immediately or asynchronously, depending on the IP pool 
 
 To check the IP pool update status, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**.
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

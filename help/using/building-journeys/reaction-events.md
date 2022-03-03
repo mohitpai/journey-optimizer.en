@@ -17,7 +17,7 @@ Note that you can only use a reaction activity in the canvas if there is a **Mes
 
 See [About action activities](../building-journeys/about-journey-activities.md#action-activities).
 
- ![](../assets/journey45.png)
+ ![](assets/journey45.png)
 
 Here are the different steps to configure the reaction events:
 

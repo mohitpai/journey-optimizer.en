@@ -17,33 +17,33 @@ As such, an important prerequisite for setting up events for [!DNL Journey Optim
 
 The first step in setting up an event for [!DNL Journey Optimizer] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on Adobe Experience Platform. Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in Adobe Experience Platform web interface. 
 
-![](../assets/schema1.png)
+![](assets/schema1.png)
 
 Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet the following requirements:  
 
 * The schema must be of the XDM ExperienceEvent class. 
 
-   ![](../assets/schema2.png)
+   ![](assets/schema2.png)
 
 * For system-generated events, the schema must include the Orchestration eventID field group. [!DNL Journey Optimizer] uses this field to identify events used in journeys.
 
-   ![](../assets/schema3.png)
+   ![](assets/schema3.png)
 
 * Declare an identity field for identifying the subject of the event. If no identity is specified, an identity map can be used. This is not recommended.
 
-   ![](../assets/schema4.png)
+   ![](assets/schema4.png)
 
 * If you would like this data to be available for lookup later in a Journey, mark the schema and dataset for profile. 
 
-   ![](../assets/schema5.png)
+   ![](assets/schema5.png)
 
-   ![](../assets/schema6.png)
+   ![](assets/schema6.png)
 
 * Feel free to include data fields to capture any other context data you want to include with the event, such as information about the user, the device from which the event was generated, location, or any other meaningful circumstances related to the event. 
 
-   ![](../assets/schema7.png)
+   ![](assets/schema7.png)
 
-   ![](../assets/schema8.png)
+   ![](assets/schema8.png)
 
 ## Leverage schema relationships{#leverage_schema_relationships}
 
@@ -55,11 +55,11 @@ To define a relationship, you need to have a dedicated field in the source schem
 
 Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
-![](../assets/schema9.png)
+![](assets/schema9.png)
 
 Here is the purchase schema with the relationship defined on the product ID field.
 
-![](../assets/schema10.png)
+![](assets/schema10.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ The linked schema fields are available in unitary and business event configurati
 * when browsing through the event schema fields in the event configuration screen.
 * when defining a condition for system-generated events.
 
-![](../assets/schema11.png)
+![](assets/schema11.png)
 
 The linked fields are not available:
 
@@ -94,7 +94,7 @@ You can use data from a lookup table linked to an event used in a journey for co
 
 Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
-![](../assets/schema12.png)
+![](assets/schema12.png)
 
 To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
@@ -102,7 +102,7 @@ To learn how to define journey conditions, refer to this [page](../building-jour
 
 The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
-![](../assets/schema14.png)
+![](assets/schema14.png)
 
 To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
@@ -110,6 +110,6 @@ To learn how to personalize a message with contextual journey information, refer
 
 The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
-![](../assets/schema13.png)
+![](assets/schema13.png)
 
 To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).

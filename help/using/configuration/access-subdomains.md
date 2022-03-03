@@ -11,7 +11,7 @@ exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 
 All your delegated subdomains display in the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Filters are available to help you refine the list (delegation date, user or status).
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
 The **[!UICONTROL Status]** column provides information on the subdomain delegation process:
 
@@ -26,4 +26,4 @@ To access detailed information about a subdomain, open it from the list. You can
 
 * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
     
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

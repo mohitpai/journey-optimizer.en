@@ -15,17 +15,17 @@ A placement helps ensure that the right offer content shows up in the right loca
 
 In the example below, there are three placements, corresponding to different types of content (image, text, HTML).
 
-![](../../assets/offers_placement_schema.png)
+![](../assets/offers_placement_schema.png)
 
 The list of placements is accessible in the **[!UICONTROL Components]** menu. Filters are available to help you retrieve placements according to a specific channel or content.
 
-![](../../assets/placements_filter.png)
+![](../assets/placements_filter.png)
 
 To create a placement, follow these steps:
 
 1. Click **[!UICONTROL Create placement]**.
 
-    ![](../../assets/offers_placement_creation.png)
+    ![](../assets/offers_placement_creation.png)
 
 1. Define the placement's properties:
 
@@ -34,13 +34,13 @@ To create a placement, follow these steps:
     * **[!UICONTROL Content type]**: The type of content that the placement will be allowed to display: Text, HTML or Image Link.
     * **[!UICONTROL Description]**: A description of the placement (optional).
 
-    ![](../../assets/offers_placement_creation_properties.png)
+    ![](../assets/offers_placement_creation_properties.png)
 
 1. Click **[!UICONTROL Save]** to confirm.
 
 1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it.
 
-    ![](../../assets/placement_created.png)
+    ![](../assets/placement_created.png)
 
 ## Tutorial video {#video}
 

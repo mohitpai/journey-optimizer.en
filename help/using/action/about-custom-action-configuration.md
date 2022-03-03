@@ -29,7 +29,7 @@ Here are the main steps required to configure a custom action:
 
 1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen.
 
-    ![](../assets/custom2.png)
+    ![](assets/custom2.png)
 
 1. Enter a name for your action.
 
@@ -54,7 +54,7 @@ Here are the main steps required to configure a custom action:
 
 When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
 1. In the **[!UICONTROL URL]** field, specify the URL of the external service:
 
@@ -84,7 +84,7 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
        If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
-       ![](../assets/journeyurlconfiguration2.png)
+       ![](assets/journeyurlconfiguration2.png)
 
    1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
 
@@ -98,11 +98,11 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
 ## Define the action parameters {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 In the **[!UICONTROL Action parameters]** section, paste an example of the JSON payload to send to the external service.
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -115,5 +115,5 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Constant means that the value of the parameter is defined in the action configuration pane by a technical persona. The value will be always the same across journeys. It will not vary and the marketer won’t see it when using the custom action in the journey. It could be for example an ID the third-party system expects. In that case, the field on the right of the toggle constant/variable is the value passed.
 * Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)
 

@@ -13,11 +13,11 @@ The email **[!UICONTROL Global report]** only targets a specific email delivery.
 
 From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Global view]** then from the advanced menu of the selected delivery select **[!UICONTROL Global report]**.
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 The email **[!UICONTROL Global report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md#modify-dashboard).
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** details the main information relative to your message with KPIs:
 
@@ -59,7 +59,7 @@ The **[!UICONTROL Sending Statistics]** graph details the success of your delive
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
 
@@ -73,7 +73,7 @@ For more information on bounces, refer to the [Suppression list](../messages/sup
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
@@ -86,7 +86,7 @@ The **[!UICONTROL Open vs Click]** identifies your recipients' interaction with 
 * **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

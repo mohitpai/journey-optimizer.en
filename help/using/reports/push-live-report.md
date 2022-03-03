@@ -13,11 +13,11 @@ The push **[!UICONTROL Live report]** only targets one specific push delivery.
 
 From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Live view]** then from the advanced menu of the selected delivery select **[!UICONTROL Live report]**.
 
-![](../assets/live_report_2.png)
+![](assets/live_report_2.png)
 
 The push **[!UICONTROL Live report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md#modify-dashboard).
 
-![](../assets/live_report_3.png)
+![](assets/live_report_3.png)
 
 **[!UICONTROL Push notification performance]** and **[!UICONTROL Push notification summary]** widgets details the main information relative to your message with graph and KPIs:
 
@@ -51,7 +51,7 @@ The **[!UICONTROL Sending metrics - by push]** table details the success of your
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
-![](../assets/live_report_4.png)
+![](assets/live_report_4.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
 

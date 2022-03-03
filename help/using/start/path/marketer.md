@@ -16,17 +16,17 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Create messages**. Learn how to create email and push notifications in Journey Optimizer [in this page](../../messages/create-message.md).
 
-    ![](../../assets/email_designer_7.png)
+    ![](../assets/email_designer_7.png)
 
 1. **Add personalization**. Leverage Journey Optimizer personalization capabilities to adapt your message to your audience. Learn more about personalization [in this section](../../personalization/personalize.md).
 
-    ![](../../personalization/assets/perso_ee2.png)
+    ![](../assets/perso_ee2.png)
     
 1. **Create and manage assets**. [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. Learn more [in this section](../../messages/assets-essentials.md).
 
 1. **Add offers**. Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers. Learn more about Decisioning management [in this section](../../offers/get-started/starting-offer-decisioning.md).
 
-    ![](../../assets/offers-e2e-offers-displayed.png)
+    ![](../assets/offers-e2e-offers-displayed.png)
     
 1. **Test and validate your messages**. Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../messages/preview.md).
 
@@ -40,7 +40,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
 
-    ![](../../assets/copy-paste3.png)
+    ![](../assets/copy-paste3.png)
 
     Learn how to design and execute journeys [in this section](../../building-journeys/journey-gs.md)
 

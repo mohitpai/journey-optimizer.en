@@ -63,4 +63,4 @@ In Journey Optimizer, you need to configure one action per transactional message
 1. Adjust the different fields to be static or variable depending on if you want to map them on the Journey canvas. Certain fields, such as channel parameters for email address and personalization fields (ctx), you likely want defined as variables for mapping in context of the journey.
 1. Click **Save**.
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)
