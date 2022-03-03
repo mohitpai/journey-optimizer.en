@@ -23,23 +23,23 @@ To create a ranking formula, follow the steps below:
 
 1. Access the **[!UICONTROL Components]** menu, then select the **[!UICONTROL Rankings]** tab. The list of rankings previously created is displayed.
 
-    ![](../assets/rankings-list.png)
+    ![](../../assets/rankings-list.png)
 
 1. Click **[!UICONTROL Create ranking]** to create a new ranking formula.
 
-    ![](../assets/ranking-create-formula.png)
+    ![](../../assets/ranking-create-formula.png)
 
 1. Specify the ranking formula name, description, and formula. 
 
     In this example, we want to boost the priority of all offers with the "hot" attribute if the actual weather is hot. To do this, the **contextData.weather=hot** was passed in the decisioning call.
 
-    ![](../assets/ranking-syntax.png)
+    ![](../../assets/ranking-syntax.png)
 
 1. Click **[!UICONTROL Save]**. Your ranking formula is created, you can select it from the list to get details and edit or delete it.
 
     It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 
-    ![](../assets/ranking-formula-created.png)
+    ![](../../assets/ranking-formula-created.png)
 
 ## Ranking formula examples {#ranking-formula-examples}
 
@@ -149,7 +149,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 A better solution is to store the scores in an array of the profile. The following example will work across a variety of different propensity scores using just a simple ranking formula. The expectation is that you have a profile schema with an array of scores. In this example, the instance tenant is *_salesvelocity* and the profile schema contains the following:
 
-![](../assets/ranking-example-schema.png)
+![](../../assets/ranking-example-schema.png)
 
 Given this, for a profile such as:
 
@@ -173,7 +173,7 @@ Given this, for a profile such as:
 
 The offers would contain an attribute for *propensityType* which matches the category from the scores:
 
-![](../assets/ranking-example-propensityType.png)
+![](../../assets/ranking-example-propensityType.png)
 
 Your ranking formula can then set the priority of each offer to equal the customers *propensityScore* for that *propensityType*. If no score is found, use the static priority set on the offer:
 

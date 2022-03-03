@@ -32,7 +32,7 @@ Steps to create an identity namespace and a dataset enabled for profiles, and te
 
 In addition, to be able send messages in journeys, you must configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. Learn more [in this section](../../configuration/about-data-sources-events-actions.md).
 
-![](../assets/admin-menu.png)
+![](../../assets/admin-menu.png)
 
 * The **Data Source** configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys. Learn more about Data Sources [in this section](../../datasource/about-data-sources.md).
 

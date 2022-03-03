@@ -48,7 +48,7 @@ To create a ranking strategy, follow the steps below:
 
 1. Access the **[!UICONTROL Components]** menu, then select the **[!UICONTROL AI rankings]** tab.
 
-    ![](../assets/ai-ranking-list.png)
+    ![](../../assets/ai-ranking-list.png)
 
     All the ranking strategies created so far are listed.
 
@@ -56,7 +56,7 @@ To create a ranking strategy, follow the steps below:
 
 1. Fill in the following fields:
 
-    ![](../assets/ai-ranking-fields.png)
+    ![](../../assets/ai-ranking-fields.png)
 
     * **[!UICONTROL Name]**: Unique name that you must provide.
 
@@ -78,7 +78,7 @@ To create a ranking strategy, follow the steps below:
 
     * **[!UICONTROL Dataset ID]**: For conversion, you need to provide a dataset where events are collected by selecting it from the drop-down list. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-    ![](../assets/ai-ranking-dataset-id.png)
+    ![](../../assets/ai-ranking-dataset-id.png)
     
     >[!CAUTION]
     >
@@ -86,7 +86,7 @@ To create a ranking strategy, follow the steps below:
 
 1. Save and activate the ranking strategy.
 
-    ![](../assets/ai-ranking-save-activate.png)
+    ![](../../assets/ai-ranking-save-activate.png)
 
 It is now ready to be used in a decision to rank eligible offers for a placement. Learn more in [this section](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -96,11 +96,11 @@ You need to create a dataset where conversion events will be collected. Start by
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
 
-    ![](../assets/ai-ranking-create-schema.png)
+    ![](../../assets/ai-ranking-create-schema.png)
 
 1. Choose **[!UICONTROL XDM ExperienceEvent]**.
 
-    ![](../assets/ai-ranking-xdm-event.png)
+    ![](../../assets/ai-ranking-xdm-event.png)
 
     >[!NOTE]
     >
@@ -109,7 +109,7 @@ You need to create a dataset where conversion events will be collected. Start by
 
 1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select the **[!UICONTROL Experience Event - Proposition Interactions]** field group.
 
-    ![](../assets/ai-ranking-proposition-interactions.png)
+    ![](../../assets/ai-ranking-proposition-interactions.png)
 
     >[!CAUTION]
     >
@@ -117,7 +117,7 @@ You need to create a dataset where conversion events will be collected. Start by
 
 1. Click **[!UICONTROL Add field groups]**.
 
-    ![](../assets/ai-ranking-add-field-group.png)
+    ![](../../assets/ai-ranking-add-field-group.png)
 
     >[!NOTE]
     >Field group was previously known as mixin.
@@ -133,21 +133,21 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Datasets]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create dataset]**.
 
-    ![](../assets/ai-ranking-create-dataset.png)
+    ![](../../assets/ai-ranking-create-dataset.png)
 
 1. Select **[!UICONTROL Create dataset from schema]**.
 
-    ![](../assets/ai-ranking-create-dataset-from-schema.png)
+    ![](../../assets/ai-ranking-create-dataset-from-schema.png)
     
 1. Select the schema you just created from the list.
 
-    ![](../assets/ai-ranking-dataset-select-schema.png)
+    ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. Click **[!UICONTROL Next]**.
 
 1. Provide a unique name for the dataset in the **[!UICONTROL Name]** field and click **[!UICONTROL Finish]**.
 
-    ![](../assets/ai-ranking-dataset-name.png)
+    ![](../../assets/ai-ranking-dataset-name.png)
 
 The dataset is now ready to be selected to collect event data when [creating a ranking strategy](#create-ranking-strategy).
 

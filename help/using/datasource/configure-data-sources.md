@@ -17,11 +17,11 @@ Here are the main data source configuration steps:
 
 1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Data Sources]** section, click **[!UICONTROL Manage]**. The list of data sources is displayed. See [this page](../start/user-interface.md) for more information on the interface. 
 
-    ![](assets/journey18.png)
+    ![](../assets/journey18.png)
 
 1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/configure-data-sources.md#define-field-groups)).
 
-    ![](assets/journey23.png)
+    ![](../assets/journey23.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -45,7 +45,7 @@ The number of journeys that use a field group is displayed in the **[!UICONTROL 
 >
 >Note that if a field group has no field, it won’t be displayed in the expression editor.
 
- ![](assets/journey3bis.png)
+ ![](../assets/journey3bis.png)
 
 ## Field group lifecycle {#field-group-lifecycle}
 

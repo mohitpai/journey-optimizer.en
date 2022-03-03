@@ -17,7 +17,7 @@ The **palette** is on the left-hand side of the screen. All available activities
 
 When starting a new journey, elements that cannot be dropped in the canvas as the first step are hidden. This concerns all actions, the condition activity, the wait and the reaction.
 
-![](assets/journey38.png)
+![](../assets/journey38.png)
 
 The **[!UICONTROL Filter items]** icon in the top left corner allows you to display the following filters:
 
@@ -29,17 +29,17 @@ You can also use the **[!UICONTROL Search]** field. Only events and actions are 
 
 The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. 
 
-![](assets/journey39.png)
+![](../assets/journey39.png)
 
 The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click the **[!UICONTROL Delete]** icon to delete the activity. Click **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
 
 By default, read-only fields are hidden. To show read-only fields, click the **Show read-only fields** icon at the top left of the activity configuration pane. This setting applies to all activities in all journeys. 
 
-![](assets/journey59bis.png)
+![](../assets/journey59bis.png)
 
 Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated. 
 
-![](assets/journey41.png)
+![](../assets/journey41.png)
 
 ## Starting your journey
 
@@ -79,7 +79,7 @@ You will also find the custom actions that you've configured to send messages wi
 
 Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [this page](../building-journeys/journey-gs.md#change-properties) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
- ![](assets/journey42.png)
+ ![](../assets/journey42.png)
 
 Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
@@ -87,11 +87,11 @@ When listening to an event, we recommend that you do not wait for the event inde
 
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete path]** icon.
 
- ![](assets/journey42ter.png)
+ ![](../assets/journey42ter.png)
 
 In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity and connect it to the previous activity.
 
- ![](assets/canvas-disconnected.png)
+ ![](../assets/canvas-disconnected.png)
 
 ## Copying and pasting activities {#copy-paste}
 
@@ -110,9 +110,9 @@ Here are the steps to copy/paste activities:
 
 1. Open a journey.
 1. Select the activities you want to copy by moving your mouse while clicking. You can also click on each activity while pressing the **Ctrl/Command** key. Use **Ctrl/Command + A** if you want to select all activities.
-    ![](assets/copy-paste1.png)
+    ![](../assets/copy-paste1.png)
 1. Press **Ctrl/Command + C**. 
     If you want to only copy one activity, you can click on it and use the **Copy** icon in the top left of the activity configuration pane.
-    ![](assets/copy-paste2.png)
+    ![](../assets/copy-paste2.png)
 1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
-    ![](assets/copy-paste3.png)
+    ![](../assets/copy-paste3.png)

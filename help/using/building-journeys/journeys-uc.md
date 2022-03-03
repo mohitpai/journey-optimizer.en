@@ -11,7 +11,7 @@ exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 
 This section presents a use case that combines a Read Segment, an event, reaction events and email/push messages.
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## Description of the use case
 
@@ -47,7 +47,7 @@ For more information on segments, refer to this [page](../segment/about-segments
 
 1. Click **[!UICONTROL Save]**. 
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 The segment is now created and ready to be used in your journey. Using a **Read Segment** activity, you can make all individuals belonging to the segment enter the journey. 
 
@@ -71,7 +71,7 @@ For this, we use a rule-based event. For more information on events, refer to th
 
 1. Click **[!UICONTROL Save]**. 
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 The event is now configured and ready to be used in your journey. Using the corresponding event activity, you can trigger an action every time a customer makes a purchase.
 
@@ -83,7 +83,7 @@ For this use case, we need to create three messages:
 * a push "thank you" message 
 * an email follow-up message
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 Refer to this [section](../segment/about-segments.md) to learn how to design and publish these messages.
 
@@ -91,11 +91,11 @@ Refer to this [section](../segment/about-segments.md) to learn how to design and
 
 1. Start the journey with a **Read Segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. Drop a **Message** activity and select the push and email first message. This message is sent to all individuals in the journey.
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. Place your cursor on the message activity and click on the “+” symbol to create a new path.
 

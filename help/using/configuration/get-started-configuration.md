@@ -30,15 +30,15 @@ To be able to create your journeys and send messages, you need to go though thes
     
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
 
-    ![](assets/subdomain.png)
+    ![](../assets/subdomain.png)
 
 1. **Create IP pools**: improve your email deliverability and reputation by grouping together IP addresses provisioned with your instance. [Learn more](ip-pools.md)
 
-    ![](assets/ip-pool.png)
+    ![](../assets/ip-pool.png)
 
 1. **Configure journeys**: in order to build journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. [Learn more](about-data-sources-events-actions.md)
 
-    ![](assets/admin-menu.png)
+    ![](../assets/admin-menu.png)
 
     * The **Data Source** configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys. Learn more about Data Sources in this [section](../datasource/about-data-sources.md)
 

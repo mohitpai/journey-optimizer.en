@@ -29,11 +29,11 @@ In case the default value of 5 does not suit your needs, you can modify the erro
 
 1. Select the **[!UICONTROL Edit suppression rules]** button.
 
-    ![](assets/suppression-list-edit-retries.png)
+    ![](../assets/suppression-list-edit-retries.png)
 
 1. Edit the allowed number of consecutive soft bounces according to your needs.
 
-    ![](assets/suppression-list-edit-soft-bounces.png)
+    ![](../assets/suppression-list-edit-soft-bounces.png)
 
     You must enter an integer value between 1 and 20, meaning that the minimum number of retries is 1 and the maximum number is 20.
 

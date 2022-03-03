@@ -37,13 +37,13 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
-    ![](assets/read-segment-selection.png)
+    ![](../assets/read-segment-selection.png)
 
    Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![](../assets/read-segment-copy.png)
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -53,7 +53,7 @@ The steps to configure the Read Segment activity are as follows:
 
 1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read segment activity.
 
-    This value is stored in the journey version payload. The default value is 20,000 messages per second. You can modify this value from 500 to 20,000 messages per second.
+    This value is stored in the journey version payload. The default value is 17,000 messages per second. You can modify this value from 500 to 17,000 messages per second.
 
     >[!NOTE]
     >
@@ -61,7 +61,7 @@ The steps to configure the Read Segment activity are as follows:
 
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
-    ![](assets/read-segment-schedule.png)
+    ![](../assets/read-segment-schedule.png)
 
     By default, segments enter the journey **[!UICONTROL As soon as possible]**. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
 
@@ -69,7 +69,7 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Note that the **[!UICONTROL Schedule]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
 
-    ![](assets/read-segment-schedule-list.png)
+    ![](../assets/read-segment-schedule-list.png)
 
     The **Incremental read** option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members. This option is only available for recurring **Read segment** activities. 
 
@@ -98,7 +98,7 @@ The **[!UICONTROL Read Segment]** activity allows you to test the journey either
 
 To do this, activate the test mode, then select the desired option from the left pane.
 
-![](assets/read-segment-test-mode.png)
+![](../assets/read-segment-test-mode.png)
 
 You can then configure and run the test mode as usual. [Learn how to test a journey](testing-the-journey.md).
 
@@ -110,7 +110,7 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
     Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
 
-    ![](assets/read-segment-log.png)
+    ![](../assets/read-segment-log.png)
 
 Once the tests are successful, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
@@ -138,7 +138,7 @@ The segmentation can be based on:
 * a time, for example: is it morning in the person’s timezone?
 * an algorithm splitting the audience flowing in the journey based on a percentage, for example: 90% - 10% to exclude a control group
 
-![](assets/read-segment-audience1.png)
+![](../assets/read-segment-audience1.png)
 
 **Exclusion**
 
@@ -146,7 +146,7 @@ The same **Condition** activity used for segmentation (see above) also allows yo
 
 This exclusion could happen right after segment retrieval, for population counting purposes or along a multistep journey.
 
-![](assets/read-segment-audience2.png)
+![](../assets/read-segment-audience2.png)
 
 **Union**
 
@@ -158,4 +158,4 @@ For example, after following a different experience during ten days in a journey
 
 After a union, you can split the audience again by performing a segmentation or an exclusion.
 
-![](assets/read-segment-audience3.png)
+![](../assets/read-segment-audience3.png)

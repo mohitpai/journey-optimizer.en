@@ -18,9 +18,11 @@ If you want to wait before executing the next activity in the path, you can use 
 
 ## About the Wait activity{#about_wait}
 
-Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized.
+Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
 
 Also note that if two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
+
+You can define a condition if you want to restrict the wait to a certain population.
 
 >[!NOTE]
 >
@@ -32,13 +34,13 @@ Also note that if two different waits are in parallel, the one occurring first w
 
 Select the duration of the wait before the execution of the next activity.
 
-![](assets/journey55.png)
+![](../assets/journey55.png)
 
 ## Fixed date wait{#fixed_date}
 
 Select the date for the execution of the next activity.
 
-![](assets/journey56.png)
+![](../assets/journey56.png)
 
 ## Custom wait{#custom}
 
@@ -50,7 +52,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 >
 >The **time zone** is expected in the properties of your journey. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and time zone offset like 2016-08-12T09:46:06.982-05. See [this page](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
+![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -70,4 +72,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](assets/journey57bis.png)-->
+![](../assets/journey57bis.png)-->

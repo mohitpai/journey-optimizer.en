@@ -1,7 +1,7 @@
 ---
 title: Use custom actions
 description: Learn how to use custom actions
-feature: Actions
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
@@ -9,15 +9,21 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 ---
 # Use custom actions {#use-custom-actions}
 
-Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload.
+The activity configuration pane shows the URL configuration parameters and the authentication parameters that are configured for the custom action. [Learn more](../action/about-custom-action-configuration.md).
+
+>[!NOTE]
+>
+>You cannot pass a simple collection in custom action parameters. More complex collection fields (arrays of objects) are not supported.  Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
 
 ## URL configuration
-
-The configuration pane of the **Custom action** activity shows the URL configuration parameters and the authentication parameters that are configured for the custom action. You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Learn more](../action/about-custom-action-configuration.md).
 
 ### Dynamic path
 
 If the URL includes a dynamic path, specify the path in the **[!UICONTROL Path]** field.
+
+>[!NOTE]
+>
+>You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Learn more](../action/about-custom-action-configuration.md).
 
 To concatenate fields and plain text strings, use the String functions or the Plus sign (+) in the advanced expression editor. Enclose plain text strings in single quotation marks (') or in double quotation marks ("). [Learn more](expression/expressionadvanced.md).
 
@@ -32,7 +38,7 @@ The concatenated URL has this form:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\<campaign ID\>`/messages` 
 
-![](assets/journey-custom-action-url.png)
+![](../assets/journey-custom-action-url.png)
 
 ### Headers
 
@@ -43,7 +49,7 @@ If required, specify the value of dynamic header fields:
 1. Select the custom action in the journey.
 1. In the configuration pane, click the pencil icon next to the header field in the **[!UICONTROL URL Configuration]** section.
 
-   ![](assets/journey-dynamicheaderfield.png)
+   ![](../assets/journey-dynamicheaderfield.png)
 
 1. Select a field and click **[!UICONTROL OK]**.
 

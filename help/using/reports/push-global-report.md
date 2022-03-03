@@ -13,11 +13,11 @@ The push **[!UICONTROL Global report]** only targets one specific push delivery.
 
 From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Global view]** then from the advanced menu of the selected delivery select **[!UICONTROL Global report]**.
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 The push **[!UICONTROL Global report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md#modify-dashboard).
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 The **[!UICONTROL Push notification performance]** widget details the main information relative to your push notifications with KPIs:
 
@@ -45,6 +45,6 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.

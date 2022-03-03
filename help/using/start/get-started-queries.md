@@ -13,7 +13,7 @@ Query Editor is an interactive tool provided by Adobe Experience Platform Query 
 Query Editor supports developing queries for analysis and data exploration, and allows you to run interactive queries for development purposes as well as non-interactive queries to populate [datasets](get-started-datasets.md).
 
 
-![](assets/queries-home.png)
+![](../assets/queries-home.png)
 
 Learn how to use the Query Editor in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
 

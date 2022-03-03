@@ -21,7 +21,7 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** menu, then click **[!UICONTROL Create API credential]**.
 
-    ![](assets/sms_4.png)
+    ![](../assets/sms_4.png)
 
 1. Select Sinch as your **[!UICONTROL SMS vendor]**.
 
@@ -33,7 +33,7 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
     >
     > Sinch requires special API credentials. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account, 
 
-    ![](assets/sms_5.png)
+    ![](../assets/sms_5.png)
 
 1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
 
@@ -47,11 +47,11 @@ To create a message preset, follow these steps:
 
 1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
 
-    ![](assets/preset-create.png)
+    ![](../assets/preset-create.png)
 
 1. Enter a name and a description (optional) for the preset, then select the SMS channel.
 
-    ![](assets/sms_preset.png)
+    ![](../assets/sms_preset.png)
 
     >[!NOTE]
     >
@@ -59,7 +59,7 @@ To create a message preset, follow these steps:
 
 1. Configure the **SMS** settings.
 
-     ![](assets/preset-sms.png)
+     ![](../assets/preset-sms.png)
 
     * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
     
@@ -71,7 +71,7 @@ To create a message preset, follow these steps:
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
-    ![](assets/sms_preset_2.png)
+    ![](../assets/sms_preset_2.png)
 
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
@@ -81,7 +81,7 @@ To create a message preset, follow these steps:
 
 1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
-    ![](assets/preset-active.png)
+    ![](../assets/preset-active.png)
 
 You are now ready to send SMS messages with Journey Optimizer.
 
