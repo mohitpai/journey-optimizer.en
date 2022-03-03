@@ -174,7 +174,7 @@ You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!
 >
 >Learn how to create message presets for push notifications and emails in [this section](message-presets.md).
 
-**Related topics**
+**Related topics**:
 
 * [Get started with landing pages](../landing-pages/get-started-lp.md)
 * [Create a landing page](../landing-pages/create-lp.md#create-a-lp)
