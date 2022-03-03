@@ -11,7 +11,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 
 In order to send messages with journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**.
 
-![](../assets/admin-menu.png)
+![](assets/admin-menu.png)
 
 ## Data Sources {#data-sources}
 
@@ -33,7 +33,7 @@ When defining [event payload](../event/about-creating.md#define-the-payload-fiel
 
 If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with “eVars” and generic fields. You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}.
 
-![](../assets/xdm-from-descriptors.png) 
+![](assets/xdm-from-descriptors.png) 
 
 If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<display-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`.
 

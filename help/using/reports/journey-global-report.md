@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 
 Journey global report can be accessed directly from your journey with the **[!UICONTROL Global report]** button. 
 
-![](../assets/global_report_1.png)
+![](assets/global_report_1.png)
 
 The journey **[!UICONTROL Global report]** page will be displayed with the following tabs:
 
@@ -25,7 +25,7 @@ The journey **[!UICONTROL Global report]** is divided into different widgets det
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Journey]** tab gives you a clear view of the most important tracking data about your journey.
 
-![](../assets/global_report_2.png)
+![](assets/global_report_2.png)
 
 The **[!UICONTROL Journey Performance]** widget allows you to see the path of your targeted profiles step-by-step through your journey.
 
@@ -37,11 +37,11 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Failed individual journey]**: Total number of individual journeys that were not successfully executed.
 
-![](../assets/global_report_12.png)
+![](assets/global_report_12.png)
 
 The **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** and **[!UICONTROL Top events]** widgets allow you to see which one of your **[!UICONTROL Events]** was successfully executed through graphs and table.
 
-![](../assets/global_report_13.png)
+![](assets/global_report_13.png)
 
 **[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** and **[!UICONTROL Top Actions]** widgets represent the most successful action and errors which occurred when your **[!UICONTROL Actions]** were triggered. 
 
@@ -57,7 +57,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab
 
 For a detailed report on a specific email delivery, refer to the [Email global report](#email-global-report) section.
 
-![](../assets/global_report_14.png)
+![](assets/global_report_14.png)
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
@@ -101,7 +101,7 @@ The **[!UICONTROL Sending Statistics]** graph contains the data available for se
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-![](../assets/global_report_15.png)
+![](assets/global_report_15.png)
 
 The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
 
@@ -113,19 +113,19 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
 
-![](../assets/global_report_22.png)
+![](assets/global_report_22.png)
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-![](../assets/global_report_16.png)
+![](assets/global_report_16.png)
 
 The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your delivery are the most visited.
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
-![](../assets/global_report_23.png)
+![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 <!--
-![](../assets/global_report_21.png)
+![](assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab 
 
 For a detailed report on a specific push delivery, refer to this the [Push Global report](#push-global-report).
 
-![](../assets/global_report_17.png)
+![](assets/global_report_17.png)
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
@@ -233,10 +233,10 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-![](../assets/global_report_18.png)
+![](assets/global_report_18.png)
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
-![](../assets/global_report_19.png)
+![](assets/global_report_19.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.

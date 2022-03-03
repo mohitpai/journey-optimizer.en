@@ -33,4 +33,4 @@ The actions are available in the left palette of your journey, in the **[!UICONT
 
 To view the action list or configure a new action, select **[!UICONTROL Configurations]** in the ADMINISTRATION menu section. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. The list of actions is displayed. See [this page](../start/user-interface.md) for more information on the interface.
 
-![](../assets/custom1.png)
+![](assets/custom1.png)
