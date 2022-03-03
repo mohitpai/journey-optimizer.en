@@ -238,7 +238,9 @@ solution: Journey Optimizer
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
     + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
-    + [Create ranking strategies](using/offers/offer-library/create-ranking-strategies.md)
+    + Create AI ranking models {#create-ai-ranking-models}
+      + [About AI models](using/offers/offer-library/ai-ranking.md)
+      + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
