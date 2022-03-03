@@ -1,7 +1,7 @@
 ---
 title: Sandboxes management
 description: Learn how to manage sandboxes
-feature: Sandboxes
+feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate

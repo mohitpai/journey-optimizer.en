@@ -13,7 +13,9 @@ Adding different attributes to your favorites menu provides quick access to your
 
 ![](assets/favorite-option.png)
 
-To access items you have favorited, use the **[!UICONTROL Favorites]** menu in the left pane.
+To access items you have favorited use the **[!UICONTROL Favorites]** menu option in the drop-down menu.
+
+![](assets/favorite-menu.png)
 
 From this list you can quickly add the personalization object to your current expression.
 
