@@ -73,7 +73,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc9.png)
 
-1. Select the **Contextual attributes** menu. Contextual attributes are only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
+1. Select the **Context** category. This item is only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
    * **Events**: this category regroups all fields from the event(s) placed before the **Message** activity in the journey.
    * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Learn more in [Journey Orchestration documentation](../building-journeys/expression/journey-properties.md).
@@ -88,11 +88,11 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc12.png)
 
-1. Type the message and insert, from the ****[!UICONTROL Contextual attributes]** menu, the order item name and the order progress. 
+1. Type the message and insert, from the **Context** category, the order item name and the order progress. 
 
    ![](assets/perso-uc13.png)
 
-1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
+1. From the drop-down, select **Offer decision** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
 
    ![](assets/perso-uc14.png)
 

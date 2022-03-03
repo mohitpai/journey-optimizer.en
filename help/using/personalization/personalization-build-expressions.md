@@ -9,12 +9,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 ---
 # About the Expression Editor {#build-personalization-expressions}
 
->[!CONTEXTUALHELP]
->id="ajo_perso_editor"
->title="About the Expression Editor"
->abstract="The Expression Editor allows you to select, arrange, customize and validate all the data to create a customized personalization for your content."
-
-The Expression Editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
+The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
 
 In the expression editor interface, you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
@@ -32,13 +27,13 @@ Available sources are:
 * **[!UICONTROL Contextual attributes]** : when the **Message** is used in a journey, contextual journey fields are available through this menu. Learn more in [this section](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : lists all the helper functions available to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn more in [this section](functions/functions.md).
 
-Click the + button too add an attribute into the editor. 
+On selection, the reference is added in the editor. 
 
 >[!NOTE]
 >
->The ellipse menu next to "+" icon allows you to get more details for each variable and to add your most frequency used attributes to [favorites](personalization-favorites.md).
-
- ![](assets/attribute-details.png)
+>The info icon next to "+" icon opens up a tooltip providing more details for each variable.
+>
+>You can add your most frequency used attributes to favorites. Learn more in [this section](personalization-favorites.md).
 
 In the following example, the expression editor lets you select the profiles that have their birthday today then complete the customization by inserting a specific offer corresponding to this day.
 

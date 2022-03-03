@@ -91,7 +91,7 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 >
 >This method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
-To delegate a subdomain using CNAMEs, follow the steps below:
+To delegate a subdomain using CNAME, follow the steps below:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 

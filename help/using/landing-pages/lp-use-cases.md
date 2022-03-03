@@ -5,18 +5,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: yes
-hide: yes
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 ---
 # Landing page use cases {#lp-use-cases}
 
 Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Subscription to a service {#subscription-to-a-service}
 
@@ -33,6 +26,8 @@ For example, let's say you organize an event next month and you want to launch a
     ![](../assets/lp_subscription-uc-list.png)
 
 1. [Create a landing page](create-lp.md) to enable your recipients to register for your event.
+
+    ![](../assets/lp_create-lp-details.png)
 
 1. Configure the registration [primary landing page](create-lp.md#configure-primary-page).
 
@@ -109,7 +104,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](../assets/lp_opt-out-primary-lp.png)
 
-    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Add a confirmation [subpage](create-lp.md#configure-subpages) that will be displayed to the users who submit the form.
 
