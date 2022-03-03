@@ -10,7 +10,7 @@ level: Intermediate
 ## Configure landing page subdomains {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_config_lp_subdomain"
+>id="ajo_admin_configure_subdomain"
 >title="Set up landing page subdomains"
 >abstract="To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain."
 
