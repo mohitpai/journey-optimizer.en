@@ -24,15 +24,15 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
-    ![](../assets/lp_access-subdomains.png)
+    ![](assets/lp_access-subdomains.png)
 
 1. Click **[!UICONTROL Set up subdomain]**.
 
-    ![](../assets/lp_set-up-subdomain.png)
+    ![](assets/lp_set-up-subdomain.png)
 
 1. Select **[!UICONTROL Use delegated domain]** from the **[!UICONTROL Configuration type]** section.
 
-    ![](../assets/lp_use-delegated-subdomain.png)
+    ![](assets/lp_use-delegated-subdomain.png)
 
 1. Enter the prefix that will display in your landing page URL.
 
@@ -46,7 +46,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
     >
     >You cannot select a subdomain that is already used as landing page subdomain.
 
-    ![](../assets/lp_prefix-and-subdomain.png)
+    ![](assets/lp_prefix-and-subdomain.png)
 
     >[!CAUTION]
     >
@@ -56,7 +56,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
 
-    ![](../assets/lp_subdomain-processing.png)
+    ![](assets/lp_subdomain-processing.png)
 
     >[!NOTE]
     >
@@ -74,7 +74,7 @@ To configure a new subdomain, follow the steps below.
 
 1. Select **[!UICONTROL Add your own domain]** from the **[!UICONTROL Configuration type]** section.
 
-    ![](../assets/lp_add-your-own-subdomain.png)
+    ![](assets/lp_add-your-own-subdomain.png)
 
 1. Specify the subdomain to delegate.
 
@@ -92,7 +92,7 @@ To configure a new subdomain, follow the steps below.
 
 1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
-    ![](../assets/lp_add-your-own-subdomain-confirm.png)
+    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
     >[!NOTE]
     >
@@ -122,11 +122,11 @@ To access landing page presets, follow the steps below.
 
 1. Select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
-    ![](../assets/lp_presets-access.png)
+    ![](assets/lp_presets-access.png)
 
 1. Click any preset label to access the landing page preset details.
 
-    ![](../assets/lp_preset-details.png)
+    ![](assets/lp_preset-details.png)
 
 ### Create a landing page preset {#lp-create-preset}
 
@@ -136,7 +136,7 @@ To create a landing page preset, follow the steps below.
 
 1. Select **[!UICONTROL Create landing page preset]**.
 
-    ![](../assets/lp_create-preset.png)
+    ![](assets/lp_create-preset.png)
 
 1. Enter a name and a description for the preset.
 
@@ -146,7 +146,7 @@ To create a landing page preset, follow the steps below.
 
 1. Select a landing page subdomain from the drop-down list.
 
-    ![](../assets/lp_preset-subdomain.png)
+    ![](assets/lp_preset-subdomain.png)
 
     >[!NOTE]
     >
@@ -158,15 +158,15 @@ To create a landing page preset, follow the steps below.
 
     For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
 
-    ![](../assets/lp_preset-subdomain-settings-same.png)
+    ![](assets/lp_preset-subdomain-settings-same.png)
 
 1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
 
-   ![](../assets/lp_preset-subdomain-settings-submit.png)
+   ![](assets/lp_preset-subdomain-settings-submit.png)
 
 1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
 
-    ![](../assets/lp-preset-active.png)
+    ![](assets/lp-preset-active.png)
 
 You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
 
