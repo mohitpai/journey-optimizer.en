@@ -75,7 +75,7 @@ To define the primary page settings, follow the steps below.
 
     ![](../assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
 
     >[!CAUTION]
     >
