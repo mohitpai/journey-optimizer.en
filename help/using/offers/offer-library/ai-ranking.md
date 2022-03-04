@@ -112,7 +112,3 @@ For example, if we’re interested in measuring the performance of a Thompson Sa
 
 ![](../assets/ai-ranking-lift.png)
 
-### Re-training frequency
-
-We ran several statistical tests to make a data-driven decision about finding a robust value for re-training frequency and the look-back window for auto-optimization. In the initial implementation of ranking service, a look-back window of 15 days and a re-training frequency of 2 hours is used to build the Thompson sampling model. 
-
