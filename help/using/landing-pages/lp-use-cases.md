@@ -19,7 +19,7 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.
 
-### Set up landing page {#set-up-lp}
+### Set up a landing page {#set-up-lp}
 
 1. Create the event registration's subscription list, which will store the registered users. Learn how to create a subscription list [here](subscription-list.md#define-subscription-list).
 
@@ -46,6 +46,10 @@ For example, let's say you organize an event next month and you want to launch a
 1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](../assets/lp_subscription-uc-link.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
@@ -127,6 +131,10 @@ To enable the recipients of an email to unsubscribe from your communications thr
 1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list and select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
     ![](../assets/lp_opt-out-landing-page.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
