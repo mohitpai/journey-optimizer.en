@@ -81,12 +81,10 @@ To configure a new subdomain, follow the steps below.
     >[!CAUTION]
     >
     >You cannot use an existing landing page subdomain.
-    >
-    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     
-    >[!NOTE]
-    >
-    >Multi-level subdomains such as 'email.marketing.yourcompany.com' are currently not supported.
+    Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    
+    Multi-level subdomains such as 'email.marketing.yourcompany.com' are currently not supported.
 
 1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain hosting solution to generate the matching DNS record.
 
@@ -106,9 +104,7 @@ To configure a new subdomain, follow the steps below.
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
-    >[!NOTE]
-    >
-    >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
+    Note that the subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
 
 ## Define landing page presets {#lp-define-preset}
 
@@ -156,9 +152,9 @@ To create a landing page preset, follow the steps below.
 
 1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as landing page subdomain]** option. [Learn more on tracking](../messages/message-tracking.md)
 
-    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
-
     ![](assets/lp_preset-subdomain-settings-same.png)
+
+    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
 
 1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
 
