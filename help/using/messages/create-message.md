@@ -87,3 +87,15 @@ You can also duplicate a message from the message list, using the dedicated icon
 ![](assets/message-duplicate-from-list.png)
 
 The same confirmation process applies.
+
+## Archive a message {#archive-message}
+
+You can archive unused messages to clear the message list.
+
+1. From the message list, select **[!UICONTROL Archive]** from the quick actions menu.
+
+1. Confirm archiving.
+
+1. Use the filter icon to display the archived messages.
+
+1. Click the **[!UICONTROL Unarchive]** icon to remove it from the list of archived messages.
