@@ -6,7 +6,7 @@ description: Learn about AI models that allow to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec34
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 ---
 # AI models {#ai-models}
 
@@ -114,5 +114,4 @@ For example, if we’re interested in measuring the performance of a Thompson Sa
 
 ### Re-training frequency
 
-We ran several statistical tests to make a data-driven decision about finding a robust value for re-training frequency and the look-back window for auto-optimization. In the initial implementation of ranking service, a look-back window of 15 days and a re-training frequency of 2 hours is used to build the Thompson sampling model. 
-
+We ran several statistical tests to make a data-driven decision about finding a robust value for re-training frequency and the look-back window for auto-optimization. In the initial implementation of ranking service, a look-back window of 15 days and a re-training frequency of 2 hours is used to build the Thompson sampling model.
