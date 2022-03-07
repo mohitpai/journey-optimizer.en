@@ -9,6 +9,8 @@ exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 ---
 # Create a message {#create-message}
 
+## Access messages {#access-messages}
+
 Messages are available from the **[!UICONTROL Messages]** shortcut on the left navigation. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
 
 >[!NOTE]
@@ -17,13 +19,23 @@ Messages are available from the **[!UICONTROL Messages]** shortcut on the left n
 
 ![](assets/messages-list.png)
 
-Use the **[!UICONTROL Show recents]** toggle to add direct links to the messages you accessed in the last 5 days.
+* Use the **[!UICONTROL Show recents]** toggle to add direct links to the messages you accessed in the last 5 days.
 
-![](assets/show-recent-messages.png)
+   ![](assets/show-recent-messages.png)
 
-Use the filter icon to display only drafted, published or messages being published. You can also search on message label, as below:
+* Use the filter icon to display only drafted, published or messages being published. You can also search on message label, as below:
 
-![](assets/filter-messages.png)
+   ![](assets/filter-messages.png)
+
+* You can archive unused messages to clear the message list using the dedicated icon from the quick actions menu.
+
+   ![](assets/archive-message.png)
+
+   Use the filter icon to display all archived messages and click the **[!UICONTROL Unarchive]** icon to remove an item from the list of archived messages.
+
+   >[!NOTE]
+   >
+   >You cannot open an archived message. You must unarchive it first.
 
 ## Create a new message {#create-new-message}
 
@@ -72,30 +84,25 @@ To create a new message, follow the steps below:
 
 ## Duplicate a message {#duplicate-message}
 
-To create a message from an existing one, use the **[!UICONTROL Duplicate]** button from the message interface. All settings and configuration will be copied to the new  message
+To create a message from an existing one, follow the steps below.
 
-![](assets/message-duplicate.png)
+1. Open the message you want to copy.
 
-You can rename the message before confirming duplication.
+1. Use the **[!UICONTROL Duplicate]** button from the message interface.
 
-![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicate.png)
 
-A confirmation message displays at the bottom of the window once the new message is created.
+   All settings and configuration will be copied to the new message.
 
-You can also duplicate a message from the message list, using the dedicated icon.
+1. You can rename the message before confirming duplication.
+
+   ![](assets/message-duplicate-confirm.png)
+
+1. A confirmation message displays at the bottom of the window once the new message is created.
+
+You can also duplicate a message from the message list, using the dedicated icon from the quick actions menu.
 
 ![](assets/message-duplicate-from-list.png)
 
 The same confirmation process applies.
 
-## Archive a message {#archive-message}
-
-You can archive unused messages to clear the message list.
-
-1. From the message list, select **[!UICONTROL Archive]** from the quick actions menu.
-
-1. Confirm archiving.
-
-1. Use the filter icon to display the archived messages.
-
-1. Click the **[!UICONTROL Unarchive]** icon to remove it from the list of archived messages.
