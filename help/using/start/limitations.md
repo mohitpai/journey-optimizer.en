@@ -23,8 +23,9 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 * Only one **Form** component can be used in a single primary page.
 * The **Form** component cannot be used in subpages.
-* You cannot select the **Code your own** option when designing a landing primary page.
 * You cannot add a preheader to a landing page.
+
+<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## Limitations in journeys {#limitations-journeys}
 
