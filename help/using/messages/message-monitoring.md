@@ -35,7 +35,7 @@ If a message is published but not triggered yet by a journey, it it not listed i
 >
 >If a message has been used in several journeys, one row per journey is displayed for each execution.
 
-By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date. You can also choose to exclude test events from your **Executions list**.
+By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date.
 
 ![](assets/message-execution-tab-filters.png)
 

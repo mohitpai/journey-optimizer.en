@@ -19,7 +19,7 @@ For each action configured, an action activity is available in the journey desig
 
 ## Important notes {#important-notes}
 
-* There is no throttling of messages. The system caps the number of messages that can be sent over to 4000 per 5 minutes, based on the current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
+* There is no throttling of messages. We cap the number of messages that can be sent over to 50,000/hour based on our current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
 
 * You need to configure one action on the canvas per template you wish to use. You need to configure one action in Journey Optimizer for each template you wish to use from Adobe Campaign.
 
@@ -63,4 +63,4 @@ In Journey Optimizer, you need to configure one action per transactional message
 1. Adjust the different fields to be static or variable depending on if you want to map them on the Journey canvas. Certain fields, such as channel parameters for email address and personalization fields (ctx), you likely want defined as variables for mapping in context of the journey.
 1. Click **Save**.
 
-![](assets/accintegration1.png)
+![](../assets/accintegration1.png)

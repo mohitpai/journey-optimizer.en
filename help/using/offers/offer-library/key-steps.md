@@ -11,7 +11,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 
 The main steps to create, configure and manage offers, as well as use them in a decision, are presented below.
 
-![](../assets/offer-create-manage-process.png)
+![](../../assets/offer-create-manage-process.png)
 
 For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](../offers-e2e.md).
 

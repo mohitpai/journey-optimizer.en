@@ -23,6 +23,6 @@ To add a Google TXT record to your subdomain, follow these steps:
 
 1. In the **[!UICONTROL Google txt record]** section, enter the verification code generated from [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, then click **[!UICONTROL Save]**.
 
-    ![](assets/subdomain-google-txt.png)
+    ![](../assets/subdomain-google-txt.png)
     
 1. Once the TXT record is added, you need to have it verified by Google. To do this, navigate to [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, then launch the verification step.

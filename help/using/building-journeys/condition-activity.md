@@ -17,7 +17,7 @@ These types of conditions are available:
 * [Date condition](#date_condition)
 * [Profile cap](#profile_cap)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## About the Condition activity {#about_condition}
 
@@ -25,13 +25,13 @@ When using several conditions in a journey, you can define labels for each of th
 
 Click **[!UICONTROL Add a path]** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
 
-![](assets/journey47.png)
+![](../assets/journey47.png)
 
 Note that the design of journeys has functional impacts. When several paths are defined after a condition, only the first eligible path will be executed. It means that you can vary the prioritization of paths by placing them above or below one another.
 
 For example, let's take the example of a first path's condition "The person is a VIP" and a second path's condition "The person is a male". If a person meeting both conditions (a male who is a VIP) passes this step, the first path will be chosen even if this person is also eligible to the second one, because the first path is "above". To change this priority, move your activities in another vertical order.
 
-![](assets/journey48.png)
+![](../assets/journey48.png)
 
 You can create another path for audiences that are not eligible to the defined conditions by checking **[!UICONTROL Show path for other cases than the one(s) above]**. Note that this option is not available in split conditions. See [Percentage split](#percentage_split).
 
@@ -40,7 +40,7 @@ The simple mode allows you to perform simple queries based on a combination of f
 * AND: an intersection of two criteria. Only the elements matching all criteria are taken into account.
 * OR: a union of two criteria. Elements matching at least one of the two criteria are taken into account.
 
-![](assets/journey64.png)
+![](../assets/journey64.png)
 
 If you're using the [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} to create your segments, you can leverage them in your journey conditions. Refer to [Using segments in conditions](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -57,7 +57,7 @@ In the simple editor, you will also find the Journey Properties category, below 
 
 This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Adobe Journey Orchestration documentation](expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![](../assets/journey50.png)
 
 ## Time condition{#time_condition}
 
@@ -67,7 +67,7 @@ This allows you to perform different actions according to the hour of the day an
 >
 >The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. Refer to [this page](../building-journeys/timezone-management.md).
 
-![](assets/journey51.png)
+![](../assets/journey51.png)
 
 ## Percentage split {#percentage_split}
 
@@ -79,7 +79,7 @@ In test mode, when reaching a split, the top branch is always chosen. You can re
 >
 >Note that there is no button to add a path in the percentage split condition. The number of paths will depend on the number of splits. In split conditions, you cannot add a path for other cases as it cannot happen. People will always go into one of the split paths.
 
-![](assets/journey52.png)
+![](../assets/journey52.png)
 
 ## Date condition {#date_condition}
 
@@ -89,7 +89,7 @@ This allows you to define a different flow based on the date. For example, if th
 >
 >The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [this page](../building-journeys/timezone-management.md).
 
-![](assets/journey53.png)
+![](../assets/journey53.png)
 
 ## Profile cap {#profile_cap}
 
@@ -110,7 +110,7 @@ For live journeys, here are the thresholds to consider to ensure the limit is re
 
 Profile cap is not taken into account in test mode.
 
-![](assets/profile-cap-condition.png)
+![](../assets/profile-cap-condition.png)
 
 ## Using segments in conditions {#using-a-segment}
 
@@ -119,15 +119,15 @@ This section explains how to use a segment in a journey condition. For more on s
 To use a segment in a journey condition, follow these steps:
 
 1. Open a journey, drop a **[!UICONTROL Condition]** activity and choose the **Data Source Condition**.
-   ![](assets/journey47.png)
+   ![](../assets/journey47.png)
 
 1. Click **[!UICONTROL Add a path]** for each extra path needed. For each path, click the **[!UICONTROL Expression]** field.
 
-   ![](assets/segment3.png)
+   ![](../assets/segment3.png)
 
 1. On the left side, unfold **[!UICONTROL Segments]** node. Drag and drop the segment you want to use for your condition. By default, the condition on the segment is true.
 
-   ![](assets/segment4.png)
+   ![](../assets/segment4.png)
 
    >[!NOTE]
    >

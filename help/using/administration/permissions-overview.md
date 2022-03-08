@@ -21,4 +21,4 @@ User management in [!DNL Journey Optimizer] is based on three concepts:
 
 Each concept can be managed by **[!UICONTROL Product administrators]** that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-![](assets/do-not-localize/permissions_2.png)
+![](../assets/do-not-localize/permissions_2.png)

@@ -19,6 +19,13 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 * Email BCC is not supported in [!DNL Journey Optimizer].
 * You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage] for example.
 
+## Limitations in landing pages {#limitations-lp}
+
+* Only one **Form** component can be used in a single primary page.
+* The **Form** component cannot be used in subpages.
+* You cannot select the **Code your own** option when designing a landing primary page.
+* You cannot add a preheader to a landing page.
+
 ## Limitations in journeys {#limitations-journeys}
 
 ### General actions {#general-actions}

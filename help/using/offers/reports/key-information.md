@@ -11,7 +11,7 @@ exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 
 Each event that is sent when a decision is made contains four key data points that you can leverage for analysis and reporting purposes. 
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**: Name and ID of the fallback offer, if no personalized offer was selected,
 * **[!UICONTROL Placement]**: Name, ID and channel of the placement used to deliver the offer,

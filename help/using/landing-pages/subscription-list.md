@@ -5,8 +5,6 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 ---
 # Subscription lists {#create-subscription-list}
@@ -31,23 +29,23 @@ To create a subscription list, follow the steps below.
 
 1. To access the subscription lists, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-    ![](assets/lp_subscription-lists.png)
+    ![](../assets/lp_subscription-lists.png)
 
 1. Select the **[!UICONTROL Create subscription list]** button.
 
-    ![](assets/lp_create-subscription-list.png)
+    ![](../assets/lp_create-subscription-list.png)
 
 1. Add a name and a description. These fields are mandatory.
 
 1. You can define a start date and end date.
 
-    ![](assets/lp_subscription-list-dates.png)
+    ![](../assets/lp_subscription-list-dates.png)
 
 1. Click **[!UICONTROL Save]**.
 
 The list displays all the subscription lists created. You can filter them based on the creation date or modification date, and their status.
 
-![](assets/lp_subscription-filters.png)
+![](../assets/lp_subscription-filters.png)
 
 The possible statuses are as follows:
 
@@ -62,13 +60,3 @@ You can also use subscription lists as segments when [building journeys](../buil
 >[!NOTE]
 >
 >You can monitor your subscription list impacts through specific reports. [Learn more](subscription-report.md)
-
-<!--
-
-**Questions**
-
-* Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
-
--->

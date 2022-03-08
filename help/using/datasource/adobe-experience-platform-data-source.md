@@ -25,11 +25,11 @@ Here are the main steps to add field groups to the build-in data source.
 
     This opens the data source configuration pane on the right-hand side of the screen.
 
-    ![](assets/journey23.png)
+    ![](../assets/journey23.png)
 
 1. Click **[!UICONTROL Add a New Field Group]** to define a new series of fields to retrieve. See [this page](../datasource/configure-data-sources.md#define-field-groups).
 
-    ![](assets/journey24.png)
+    ![](../assets/journey24.png)
 
 1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Optimizer]. It’s performed in Adobe Experience Platform.
 1. Select the fields you want to use.
