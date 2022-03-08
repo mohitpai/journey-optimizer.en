@@ -8,39 +8,7 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 ---
-# AI rankings {#ai-rankings}
-
-## Get started with AI rankings {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->The use of AI ranking is currently available in early access to select users only.
-
-This feature enables you to create different **ranking strategies** based on your business goals. Using these different goal-based strategies in a decision (formerly known as offer activity), the trained model system will help you understand how the different ranking strategies are impacting your goals.
-
-For example, you can select a ranking strategy for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given placement, rather than taking into account the offers’ priority scores or a [ranking formula](create-ranking-formulas.md).
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-Once a ranking strategy has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
-
-### Auto-optimization model {#auto-optimization}
-
-Currently in [!DNL Journey Optimizer] the only supported model type for AI ranking is **auto-optimization**.
-
-An auto-optimization model aims to serve offers that maximize the return, based on the Key performance indicators (KPIs) that you set. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->At this point, auto-optimization focuses on optimizing offer clicks with offer conversion as the target.
-
->[!NOTE]
->
->The auto-optimization model does not use any contextual or user profile data. It optimizes results based on global performance of the offers.
-
-With auto-optimization, the challenge is to balance exploratory learning and exploitation of that learning. This principle is known as **"multi-armed bandit" approach**.
-
-To tackle this challenge, the auto-optimization model uses the **Thompson Sampling** method, which allows to identify which option to pursue to maximize the expected rewards. In other words, Thompson Sampling is a type of reinforcement learning technique for solving the exploration-exploitation dilemma in a multi-armed bandit problem. 
-
-The Thompson Sampling method also enables to handle challenges such as the "cold start" problem, i.e. when a new offer is introduced in the campaign, it does not have any history that it could train from.
+# Create AI models {#ai-rankings}
 
 ## Create a ranking strategy {#create-ranking-strategy}
 
@@ -60,7 +28,7 @@ To create a ranking strategy, follow the steps below:
 
     * **[!UICONTROL Name]**: Unique name that you must provide.
 
-    * **[!UICONTROL Model type]**: Currently the only supported model type is **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+    * **[!UICONTROL Model type]**: Currently in [!DNL Journey Optimizer] the only supported model type is **[!UICONTROL Auto-optimization]**. [Learn more](ai-ranking.md#auto-optimization)
 
     * **[!UICONTROL Optimization metric]**:
     
