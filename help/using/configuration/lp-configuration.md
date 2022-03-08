@@ -132,7 +132,7 @@ To create a landing page preset, follow the steps below.
 
 1. Select **[!UICONTROL Create landing page preset]**.
 
-    ![](assets/lp_create-preset.png)
+    ![](assets/lp_create-preset-temp.png)
 
 1. Enter a name and a description for the preset.
 
@@ -162,7 +162,7 @@ To create a landing page preset, follow the steps below.
 
 1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
 
-    ![](assets/lp-preset-active.png)
+    ![](assets/lp-preset-active-temp.png)
 
 You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
 
