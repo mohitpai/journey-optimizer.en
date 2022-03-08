@@ -6,7 +6,7 @@ description: Learn about AI models that allow to rank offers
 feature: Ranking Formulas
 role: User
 level: Intermediate
-
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 ---
 # AI models {#ai-models}
 
@@ -111,4 +111,3 @@ The "cold-start" problem occurs when a new offer is added to a campaign, and the
 For example, if we’re interested in measuring the performance of a Thompson Sampling (TS) strategy used in ranking service, and the KPI is conversion rate (CVR), the “lift” of the TS strategy against baseline strategy is defined as:
 
 ![](../assets/ai-ranking-lift.png)
-
