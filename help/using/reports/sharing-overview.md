@@ -52,7 +52,7 @@ The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 
 For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.
 
-## Integration with Customer Journey Analitycs {#integration-cja}
+## Integration with Customer Journey Analytics {#integration-cja}
 
 Journey Optimizer step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Here is the general workflow:
 
