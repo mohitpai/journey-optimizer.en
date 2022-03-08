@@ -133,18 +133,20 @@ If you prefer using a different content for the plain text version, follow the s
 >
 >*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes will be lost, and replaced with text content generated from the HTML version.
 
-## Use a preheader {#preheader}
+## Add a preheader {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Using a preheader"
->abstract="The preheader lets you configure a short summary text that can help you better track and customize your emails."
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
->Note that preheaders are not compatible with all email clients. When not supported, the preheader does not display.
+>Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. The preheader can help you better track and customize your emails.
+To define the email preheader, follow the steps below:
 
 1. From the Email designer, add a **[!UICONTROL Structure components]** to start designing your email.
 
@@ -173,7 +175,7 @@ Your preheader is now configured for your email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"
->abstract="The Email designer lets you personalize background color or background image for your content.Note that background image is not supported by all email clients." 
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
