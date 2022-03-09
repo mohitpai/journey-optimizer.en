@@ -21,7 +21,7 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 From this list, you can access the [landing page reports](lp-report.md) for published items.
 
-You can also delete, duplicate and unpublish a landing page.
+You can also delete, duplicate, and unpublish a landing page.
 
 >[!CAUTION]
 >
@@ -113,7 +113,7 @@ To define the subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
-1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. To set it up, contact your Adobe account representative or the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
 
     >[!CAUTION]
     >
@@ -127,7 +127,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
+>You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
 
 1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 
@@ -155,7 +155,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 ## Check alerts {#check-alerts}
 
-While you are creating your landing page, alerts warn you when you need to take important actions before publishing.
+While you are creating your landing page, alerts warn you when you must take important actions before publishing.
 
 Alerts are displayed on top right of the screen, as shown below:
 
@@ -175,7 +175,7 @@ Two types of alerts can happen:
 
 >[!CAUTION]
 >
-> You need to resolve all **error** alerts before publication.
+> You must resolve all **error** alerts before publication.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -189,7 +189,7 @@ Two types of alerts can happen:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publish the landing page {#publish-landing-page}

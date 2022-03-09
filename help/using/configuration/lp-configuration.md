@@ -14,7 +14,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 >title="Set up landing page subdomains"
 >abstract="To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain."
 
-To be able to [create landing page presets](#lp-create-preset), you need to set up the subdomains you will use for your landing pages.
+To be able to [create landing page presets](#lp-create-preset), you nmust set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
 
@@ -60,7 +60,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     >[!NOTE]
     >
-    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+    >Before being able to use that subdomain to send messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
@@ -86,9 +86,9 @@ To configure a new subdomain, follow the steps below.
     
     Multi-level subdomains such as 'email.marketing.yourcompany.com' are currently not supported.
 
-1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain hosting solution to generate the matching DNS record.
+1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain-hosting solution to generate the matching DNS record.
 
-1. Make sure that DNS record has been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
+1. Make sure that DNS record has been generated into your domain-hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
     ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -100,7 +100,7 @@ To configure a new subdomain, follow the steps below.
 
     >[!NOTE]
     >
-    >Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
+    >Before being able to use that subdomain to send messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
@@ -108,7 +108,7 @@ To configure a new subdomain, follow the steps below.
 
 ## Define landing page presets {#lp-define-preset}
 
-When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you need to select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
+When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you must select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
 
 ### Access landing page presets {#lp-presets}
 

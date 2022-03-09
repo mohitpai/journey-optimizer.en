@@ -154,7 +154,7 @@ To check that the corresponding profile's choice has been updated, go to Experie
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
+In the **[!UICONTROL Attributes]** tab, you can see that the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
 <!--
 
