@@ -3,7 +3,7 @@ title: Landing page configuration
 description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
 role: Admin
 level: Intermediate
-
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 ---
 # Configure landing pages {#lp-configuration}
 
