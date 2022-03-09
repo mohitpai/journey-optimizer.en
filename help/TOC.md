@@ -42,6 +42,15 @@ solution: Journey Optimizer
     + [Check alerts](using/messages/alerts.md)
     + [Publish messages](using/messages/publish-manage-message.md)
   + [Manage consent](using/messages/consent.md)
++ Landing pages {#landing-pages}
+  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
+  + [Create a landing page](using/landing-pages/create-lp.md)
+  + [Design a landing page](using/landing-pages/design-lp.md)
+  + [Create a subscription list](using/landing-pages/subscription-list.md)
+  + [Use cases](using/landing-pages/lp-use-cases.md)
+  + Reporting {#lp-reporting}
+    + [Landing page reporting](using/landing-pages/lp-report.md)
+    + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
@@ -49,8 +58,8 @@ solution: Journey Optimizer
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + Work with the Expression Editor {#expression-editor}
       + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md) 
-      + [Work with saved expressions](using/personalization/personalization-library.md)   
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Work with saved expressions](using/personalization/personalization-library.md)  
       + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
@@ -218,15 +227,6 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/messages/deliverability.md)
     + [Suppression list](using/messages/suppression-list.md)
     + [Allowed list](using/messages/allow-list.md)
-+ Landing pages {#landing-pages}
-  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
-  + [Create a landing page](using/landing-pages/create-lp.md)
-  + [Design a landing page](using/landing-pages/design-lp.md)
-  + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Use cases](using/landing-pages/lp-use-cases.md)
-  + Reporting {#lp-reporting}
-    + [Landing page reporting](using/landing-pages/lp-report.md)
-    + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -332,6 +332,7 @@ solution: Journey Optimizer
       + [Change email primary address](using/configuration/primary-email-addresses.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md) 
     + [Create message presets](using/configuration/message-presets.md)
+  + [Configure landing pages](using/configuration/lp-configuration.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)

@@ -5,8 +5,6 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 ---
 # Design the landing page content {#design-lp-content}
