@@ -128,6 +128,10 @@ To access landing page presets, follow the steps below.
 
 To create a landing page preset, follow the steps below.
 
+>[!NOTE]
+>
+>To be able to create a preset, make sure you have previously configured at least one landing page subdomain. [Learn how](#lp-subdomains)
+
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
 1. Select **[!UICONTROL Create landing page preset]**.

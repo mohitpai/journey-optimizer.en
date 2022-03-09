@@ -17,11 +17,11 @@ The landing page report displays details about the impact of your landing pages.
 
 To access your reports, select **Live** or **[!UICONTROL Global report]** from the advanced menu of your selected landing page.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## Landing page live report {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 The **[!UICONTROL Landing page performance]** widget details the main information relative to your message over the last 24 hours through KPIs:
 
@@ -45,7 +45,7 @@ The **[!UICONTROL Journey(s)]** widget represents the number of visits to your l
 
 The **[!UICONTROL Other sources]** widget represents the number of visits to your landing page from an external source instead of a journey.
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 The **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** graphs represent the total number of visits and persons who interacted successfully with your landing page in the last 24 hours depending on the sent messages.
 
@@ -53,7 +53,7 @@ The **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]
 
 ## Landing page global report {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 The **[!UICONTROL Number of visits]** and **[!UICONTROL Number of visits over time]** widgets allow you to see the impact of your landing page over the selected time period through a graph and KPIs with the following metrics:
 
@@ -67,7 +67,7 @@ The **[!UICONTROL Landing page performance]** widget details the main informatio
 
 * **[!UICONTROL Bounce rate]**: Number of persons who didn't interact with the landing page and didn't complete the action of subscribing, in relation to the total number of visits.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 The **[!UICONTROL Visit sources]** widget represents how visitors are accessing your landing page:
 
@@ -87,7 +87,7 @@ The **[!UICONTROL Journey(s)]** widget represents the number of visits to your l
 
 The **[!UICONTROL Other sources]** widget represents the number of visits to your landing page from an external source instead of a journey.
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 The **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** graphs represent the total number of visits and persons who interacted successfully with your landing page for the concerned period depending on the sent messages.
 
