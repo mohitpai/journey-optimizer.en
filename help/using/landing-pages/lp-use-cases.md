@@ -5,18 +5,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: yes
-hide: yes
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 ---
 # Landing page use cases {#lp-use-cases}
 
 Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Subscription to a service {#subscription-to-a-service}
 
@@ -26,13 +19,15 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.
 
-### Set up landing page {#set-up-lp}
+### Set up a landing page {#set-up-lp}
 
 1. Create the event registration's subscription list, which will store the registered users. Learn how to create a subscription list [here](subscription-list.md#define-subscription-list).
 
     ![](assets/lp_subscription-uc-list.png)
 
 1. [Create a landing page](create-lp.md) to enable your recipients to register for your event.
+
+    ![](assets/lp_create-lp-details.png)
 
 1. Configure the registration [primary landing page](create-lp.md#configure-primary-page).
 
@@ -51,6 +46,10 @@ For example, let's say you organize an event next month and you want to launch a
 1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](assets/lp_subscription-uc-link.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
@@ -109,7 +108,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](assets/lp_opt-out-primary-lp.png)
 
-    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Add a confirmation [subpage](create-lp.md#configure-subpages) that will be displayed to the users who submit the form.
 
@@ -132,6 +131,10 @@ To enable the recipients of an email to unsubscribe from your communications thr
 1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list and select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
     ![](assets/lp_opt-out-landing-page.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
