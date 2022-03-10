@@ -37,7 +37,7 @@ To define specific content that will enable users to select and submit their cho
     >
     >The **[!UICONTROL Form]** component can only be used once on the same page.
 
-1. Select it. The **[!UICONTROL Form content]** tab displays in the right palette to let you to edit the different fields of the form.
+1. Select it. The **[!UICONTROL Form content]** tab displays in the right palette to let you edit the different fields of the form.
 
     ![](assets/lp_designer-form-content-options.png)
 
@@ -47,7 +47,7 @@ To define specific content that will enable users to select and submit their cho
 
 1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
 
-1. Define if this checkbox is to opt users in or out: do they agree to receive communications or do they ask not to be contacted any more?
+1. Define if this checkbox is to opt users in or out: do they agree to receive communications or do they ask not to be contacted anymore?
 
     ![](assets/lp_designer-form-update.png)
 
@@ -88,7 +88,7 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-error.png)
 
-1. If you want to make additionnal updates upon submitting the form, select **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
+1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
 
     ![](assets/lp_designer-form-additionnal-update.png)
 
@@ -108,7 +108,7 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can add a border, edit the label color on hover, or adjust the alignement of the button.
+1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can add a border, edit the label color on hover, or adjust the alignment of the button.
 
     ![](assets/lp_designer-form-style-buttons.png)
 
@@ -120,7 +120,7 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-style-layout.png)
 
-1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponing option to preview the error text on the form.
+1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
 
     ![](assets/lp_designer-form-error-preview.png)
 

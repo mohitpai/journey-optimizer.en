@@ -24,7 +24,7 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 * Only one **Form** component can be used in a single primary page.
 * The **Form** component cannot be used in subpages.
 * You cannot add a preheader to a landing page.
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* You cannot select the **Code your own** option when designing a landing primary page.
 
 ## Limitations in journeys {#limitations-journeys}
 
@@ -43,7 +43,7 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 * A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
 * A journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
-* The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
+* The segment and namespace chosen in **Segment Qualification** (first node) cannot be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Segment** cannot start with another event in next versions.
 
@@ -61,7 +61,7 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 ### Data sources {#data-sources}
 
-* External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
+* External data sources can be leveraged within a customer journey to lookup external data in real time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
 ### Journeys starting at the same time as a profile creation {#journeys-limitation-profile-creation}
  
@@ -73,7 +73,7 @@ You can choose from one of these two solutions:
 
 * Add a wait activity after the first event, to give Adobe Experience Platform the time it needs to perform the ingestion to Profile Service.
 
-* Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
+* Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc.). 
 
 ### Read segment {#read-segment}
 

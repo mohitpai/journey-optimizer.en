@@ -49,7 +49,7 @@ The list displays all the subscription lists created. You can filter them based 
 
 The possible statuses are as follows:
 
-* **[!UICONTROL Not started]**: You defined a start date that is later than the current day. The susbscribed profiles will not receive yet communications relating to this subscription list.
+* **[!UICONTROL Not started]**: You defined a start date that is later than the current day. The subscribed profiles will not receive yet communications relating to this subscription list.
 * **[!UICONTROL Live]**: The current day is comprised between the subscription list start date and end date, or you did not defined end/start dates, which means the subscription list is always live.
 * **[!UICONTROL Expired]**: The end date is passed, thus the subscription list is not valid anymore. Any subscribed profile will not receive any more communications relating to this subscription list.
 
