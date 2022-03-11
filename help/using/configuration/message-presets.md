@@ -158,6 +158,11 @@ You must enter an integer value (in hours or minutes) within the following range
 * For transactional emails, the minimum retry period is 10 minutes.
 * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
+### List-Unsubscribe
+
+Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.
+
+
 ## Configure push settings {#configure-push-settings}
 
 Push settings are defined in a dedicated section of the message preset configuration.

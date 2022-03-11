@@ -171,6 +171,8 @@ Depending on the email client, clicking the unsubscribe link from the header wil
 
 * It has the same effect as clicking the unsubscribe link from the email content: the recipient is redirected to a landing page including a button to confirm opting out. Learn more on opt-out management in [this section](#opt-out-management).
 
+To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)
+
 ## Push opt-out management {#push-opt-out-management}
 
 Push recipients can unsubscribe through their devices themselves.
