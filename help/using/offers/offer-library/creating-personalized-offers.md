@@ -168,54 +168,89 @@ You can also insert text-type content when selecting a compatible placement.
 
 Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
 
-1. Configure the **[!UICONTROL Offer eligibility]**.
+1. Configure the **[!UICONTROL Offer eligibility]**. [Learn more](#eligibility)
 
-    * By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
-
-    * You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
-
-        For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
-    
-        ![](../assets/offer-eligibility-segment.png)
-
-    * If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
-
-        ![](../assets/offer_rule.png)
-
-        >[!CAUTION]
-        >
-        >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
-
-    Learn more on using segments versus decision rules in [this section](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
+   ![](../assets/offer-eligibility.png)
 
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
-1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
+   ![](../assets/offer-priority.png)
 
-    >[!NOTE]
-    >
-    >The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
-    >
-    >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
+1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented. [Learn more](#capping)
 
-    ![](../assets/offer_capping.png)
+   ![](../assets/offer-capping.png)
+
+1. Click **[!UICONTROL Next]** to confirm all the constraints you defined.
         
-    In the example above:
+For example, if you set the following constraints:
 
-    * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
-    * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
-    * The offer will be presented only once per user.
+![](../assets/offer-constraints-example.png)
 
-## Capping {#capping}
+* The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
+* The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
+* The offer will be presented only once per user accross all placements.
 
-Capping is used as a constraint to define how many times an offer is presented. There are two types of caps, how many times an offer can be proposed across the combined target audience, also known as “Total caps” and how many times an offer can be proposed to the same end user, also known as “Profile Cap”.
+### Eligibility {#eligibility}
 
-Specify the offer’s Capping, meaning the number of times the offer will be presented . If the offer has been delivered the number of times you have specified in this field, its delivery will stop.
+By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
 
-Select In total to define how many times an offer can be proposed across the combined target audience, meaning across all users.
-Select Per profile to define how many times an offer can be proposed to the same end user.
+![](../assets/offer-eligibility-default.png)
 
-Specify if you want to apply capping to All placements or Per placement.
+You can limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md). To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+    
+![](../assets/offer-eligibility-segment.png)
+
+If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
+
+![](../assets/offer_rule.png)
+
+>[!CAUTION]
+>
+>Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+
+Learn more on using segments versus decision rules in [this section](#segments-vs-decision-rules).
+
+### Using segments vs decision rules {#segments-vs-decision-rules}
+
+To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
+
+Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
+
+* **Segments**
+
+    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
+
+    Learn more on segments in [this section](../../segment/about-segments.md).
+
+* **Decision rules**
+    
+    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+
+    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
+
+### Capping {#capping}
+
+Capping is used as a constraint to define how many times an offer is presented.
+
+![](../assets/offer-capping.png)
+
+Specify the offer’s Capping, meaning the maximum number of times the offer will be presented, and define the following criteria:
+
+* Specify if you want the capping to be applied accross all users or to one specific profile:
+
+   * Select **[!UICONTROL In total]** to define how many times an offer can be proposed across the combined target audience, meaning across all users.
+
+   * Select **[!UICONTROL Per profile]** to define how many times an offer can be proposed to the same user.
+
+* Specify if you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+
+If the offer has been delivered the number of times you have specified in this field, according to the criteria you defined, its delivery will stop.
+
+The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
+
+>[!NOTE]
+>
+>If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
 ## Review the offer {#review}
 
