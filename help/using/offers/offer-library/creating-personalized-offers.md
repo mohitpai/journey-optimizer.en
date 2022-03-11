@@ -206,6 +206,17 @@ Eligibility rules and constraints allow you to define the conditions under which
     * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
     * The offer will be presented only once per user.
 
+## Capping {#capping}
+
+Capping is used as a constraint to define how many times an offer is presented. There are two types of caps, how many times an offer can be proposed across the combined target audience, also known as “Total caps” and how many times an offer can be proposed to the same end user, also known as “Profile Cap”.
+
+Specify the offer’s Capping, meaning the number of times the offer will be presented . If the offer has been delivered the number of times you have specified in this field, its delivery will stop.
+
+Select In total to define how many times an offer can be proposed across the combined target audience, meaning across all users.
+Select Per profile to define how many times an offer can be proposed to the same end user.
+
+Specify if you want to apply capping to All placements or Per placement.
+
 ## Review the offer {#review}
 
 Once eligibility rules and constraints have been defined, a summary of the offer properties displays.
