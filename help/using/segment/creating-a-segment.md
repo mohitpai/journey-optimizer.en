@@ -11,6 +11,8 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 
 In this example, we will build a segment to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980. All these customers should have opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
 
+➡️ [Learn how to create segments in this video](#video-segment)
+
 1. Access the **[!UICONTROL Segments]** menu, then click the **[!UICONTROL Create segment]** button.
     
     ![](assets/create-segment.png)
@@ -49,6 +51,8 @@ In this example, we will build a segment to target all customers living in Atlan
 
 The segment can now be used in your journeys. For more on this, refer to [this section](../segment/about-segments.md).
 
-## Tutorial video{#create-segment-video}
+## How-to video{#video-segment}
+
+Learn how to create segments.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

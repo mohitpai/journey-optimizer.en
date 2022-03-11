@@ -23,6 +23,8 @@ You can also upload a json file in an existing dataset. For more on this, refer 
 
 Note that creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
+➡️ [Learn how to create test profiles in this video](#video)
+
 ## Prerequisites {#test-profile-prerequisites}
 
 In order to be able to create profiles, you first need to create a schema and a dataset in Adobe [!DNL Journey Optimizer].
@@ -220,3 +222,8 @@ curl -X POST \
 }
 }'
 ```
+## How-to video {#video}
+
+Learn how to create test profiles.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

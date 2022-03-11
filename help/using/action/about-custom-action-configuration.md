@@ -10,7 +10,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 ---
 # Configure a custom action {#configure-an-action}
 
-If you are using a third-party system to send messages or if you want journeys to send API calls to a third-party system, use custom actions to configure its connection to your journey. For example yyou can connect to the following systems with custom actions: Epsilon, Slack, Adobe.io, Firebase, etc.
+If you are using a third-party system to send messages or if you want journeys to send API calls to a third-party system, use custom actions to configure its connection to your journey. For example you can connect to the following systems with custom actions: Epsilon, Slack, Adobe.io, Firebase, etc.
 
 Custom actions are additional actions defined by technical users and made available to marketers. Once configured, they appear in the left palette of your journey, in the **[!UICONTROL Action]** category. Learn more in [this page](../building-journeys/about-journey-activities.md#action-activities). 
 
@@ -116,4 +116,3 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
 ![](assets/customactionpayloadmessage2.png)
-
