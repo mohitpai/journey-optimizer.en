@@ -64,8 +64,9 @@ To edit an existing expression, add it to the editor, then modify it according t
 
 To delete an expression, click the ellipse button then click **[!UICONTROL Delete]**.
 
-## How-to video{#video-preview}
+## How-to video{#video}
 
 Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

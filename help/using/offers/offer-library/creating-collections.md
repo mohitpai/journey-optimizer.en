@@ -49,10 +49,10 @@ To create a collection, follow these steps:
 
     ![](../assets/collection_created.png)
 
-## Tutorial video {#video}
+## How-to video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)

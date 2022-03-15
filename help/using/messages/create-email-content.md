@@ -11,6 +11,8 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 
 Once you have [created your message](create-message.md), you can start creating your email content.
 
+➡️ [Discover this feature in video](#video)
+
 1. From your newly created message, select **[!UICONTROL Email designer]** in the **[!UICONTROL Body]** section.
 
     ![](assets/import-html_1.png)
@@ -275,3 +277,9 @@ In the Email Designer interface, when you select an element and display its sett
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+
+## How-to video {#video}
+
+Learn how to create email content with the message editor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
