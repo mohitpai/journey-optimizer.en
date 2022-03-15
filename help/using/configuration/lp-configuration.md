@@ -11,8 +11,8 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Set up landing page subdomains"
->abstract="To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain."
+>title="Create a landing page preset"
+>abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the **Subdomain name** list."
 
 To be able to [create landing page presets](#lp-create-preset), you nmust set up the subdomains you will use for your landing pages.
 
