@@ -24,7 +24,7 @@ Components and capabilities available in the user interface depend on your [perm
 
 Use the links on the left to browse capabilities.
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ You can find below the full list of services and capabilities available in the l
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Available use cases are:
 
@@ -242,7 +242,7 @@ Access Adobe Journey Optimizer key help pages from the lower section of the home
 
 Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## Supported browsers {#browsers}
 
@@ -261,10 +261,10 @@ Your default interface language is determined by the preferred language specifie
 To change your language:
 
 * Click **Preferences** from your avatar, on the top right.
-    ![](../assets/preferences.png)
+    ![](assets/preferences.png)
 * Then click the language displayed under your email address
 * Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
-    ![](../assets/select-language.png)
+    ![](assets/select-language.png)
 
 ## Search{#unified-search}
 
@@ -272,11 +272,11 @@ Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experienc
 
 Start entering content to display top results. Help articles about the entered keywords also show up in the results.
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 Press **Enter** to access all results and filter by business object.
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## Filter lists{#filter-lists}
 
@@ -292,12 +292,12 @@ In the list of journeys, you can filter journeys according to their status, type
 
 Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

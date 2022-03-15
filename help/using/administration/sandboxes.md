@@ -19,9 +19,9 @@ Adobe Experience Platform sandboxes can be created or reset from your Adobe Expe
 
 You can find the sandbox switcher control at the top-right of your screen next to your Organization's name. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.
 
-![](../assets/sandbox_5.png)
+![](assets/sandbox_5.png)
 
-➡️ [Discover this feature in video](#video)
+➡️ [Learn more on sandboxes in this video](#video)
 
 ## Assign sandboxes {#assign-sandboxes}
 
@@ -37,21 +37,21 @@ To assign sandboxes:
 
 1. Select a **[!UICONTROL Product profile]**.
     
-    ![](../assets/sandbox_1.png)
+    ![](assets/sandbox_1.png)
 
 1. Select the **[!UICONTROL Permissions]** tab.
 
 1. Select the **[!UICONTROL Sandboxes]** capability.
 
-    ![](../assets/sandbox_2.png)
+    ![](assets/sandbox_2.png)
 
 1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}.
 
-    ![](../assets/sandbox_3.png)
+    ![](assets/sandbox_3.png)
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove sandboxes access to your **[!UICONTROL Product profile]**.
 
-    ![](../assets/sandbox_4.png)
+    ![](assets/sandbox_4.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -59,7 +59,7 @@ To assign sandboxes:
 
 To configure your content accessibility, you need to assign a content shared folder to each of your sandboxes. You can create and configure your shared folder in the **[!UICONTROL Storage]** tab displayed in the [!DNL Admin Console] for administrators. If you have access to the [!DNL Admin Console] as a system administrator, you can create shared folders and add delegates with different access level to your shared folders.
 
-![](../assets/do-not-localize/content_access.png)
+![](assets/do-not-localize/content_access.png)
 
 Note that for your content to sync with the correct sandbox, you have to follow the same syntax as the sandbox e.g. if your sandbox is called development your shared folder should have the same name.
 

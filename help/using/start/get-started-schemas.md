@@ -10,7 +10,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 
 Schemas are the standard way of describing data in Experience Platform, allowing all data that conforms to schemas to be reused across an organization without conflicts, or even shared between multiple organizations.
 
-➡️ [Learn how create and configure a schema](#video-schema) (video)
+➡️ [Learn how to create and configure a schema in this video](#video-schema) (video)
 
 A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object (such as a person) and outline what data should be included in each instance of that object (such as first name, last name, birthday, and so on).
 
@@ -18,7 +18,7 @@ Learn how to build schemas in [this documentation](https://experienceleague.adob
 
 The **Schemas** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to manage Experience Data Model (XDM) resources, including schemas, classes, schema field groups, and data types. You can view and explore core resources provided by Adobe, and create custom resources and schemas for your organization.
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 Learn how to use Schemas user interface in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 

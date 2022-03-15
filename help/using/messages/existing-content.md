@@ -11,6 +11,8 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 
 Journey Optimizer allows you to import existing HTML content to design your emails. This content can be raw HTML code or content from an existing HTML file or a zip folder.
 
+➡️ [Discover this feature in video](#video)
+
 To code HTML content or import existing content, follow the steps below:
 
 1. [Create a message](create-message.md)
@@ -73,3 +75,9 @@ To import a file containing HTML content, follow the steps below:
 1. Once the HTML content is uploaded, you can leverage the Email Designer capabilities to edit and preview your email. [Learn more in this section](create-email-content.md).
 
     ![](assets/html-imported.png)
+
+## How-to video {#video}
+
+Learn how to import existing HTML content, tweak the design, add mirror page and unsubscribe links, and how to code your content.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

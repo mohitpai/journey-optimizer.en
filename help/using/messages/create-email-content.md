@@ -11,6 +11,8 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 
 Once you have [created your message](create-message.md), you can start creating your email content.
 
+➡️ [Discover this feature in video](#video)
+
 1. From your newly created message, select **[!UICONTROL Email designer]** in the **[!UICONTROL Body]** section.
 
     ![](assets/import-html_1.png)
@@ -133,18 +135,20 @@ If you prefer using a different content for the plain text version, follow the s
 >
 >*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes will be lost, and replaced with text content generated from the HTML version.
 
-## Use a preheader {#preheader}
+## Add a preheader {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Using a preheader"
->abstract="The preheader lets you configure a short summary text that can help you better track and customize your emails."
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
->Note that preheaders are not compatible with all email clients. When not supported, the preheader does not display.
+>Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. The preheader can help you better track and customize your emails.
+To define the email preheader, follow the steps below:
 
 1. From the Email designer, add a **[!UICONTROL Structure components]** to start designing your email.
 
@@ -173,7 +177,7 @@ Your preheader is now configured for your email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"
->abstract="The Email designer lets you personalize background color or background image for your content.Note that background image is not supported by all email clients." 
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
@@ -273,3 +277,9 @@ In the Email Designer interface, when you select an element and display its sett
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+
+## How-to video {#video}
+
+Learn how to create email content with the message editor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

@@ -13,11 +13,11 @@ Learn how to create datasets in [this documentation](https://experienceleague.ad
 
 Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in [!DNL Adobe Journey Optimizer]. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
 
-➡️ [Learn how create and configure a dataset](#video-dataset) (video)
+➡️ [Learn how to create and configure a dataset in this video](#video-dataset)
 
 The **Datasets** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to explore data and create datasets. 
 
-![](../assets/datasets-home.png)
+![](assets/datasets-home.png)
 
 Learn how to use Datasets UI in the [Data Ingestion overview documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 

@@ -33,9 +33,9 @@ The following schemas are created:
 * Journey Step Event schema for [!DNL Journey Orchestration] – Journey step event that is tied to a Journey Metadata.
 * Journey schema with Journey Fields for [!DNL Journey Orchestration] – Journey Metadata to describe Journeys.
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 The following datasets are passed:
 
@@ -43,7 +43,7 @@ The following datasets are passed:
 * Journey Step Events
 * Journeys
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 
@@ -52,7 +52,7 @@ The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 
 For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.
 
-## Integration with Customer Journey Analitycs {#integration-cja}
+## Integration with Customer Journey Analytics {#integration-cja}
 
 Journey Optimizer step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Here is the general workflow:
 

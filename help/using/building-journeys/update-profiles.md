@@ -18,6 +18,7 @@ The **[!UICONTROL Update Profile]** action activity allows you to update an exis
 * You cannot use the **Update Profile** action to generate experience events, for example a purchase.
 * Just like any other action, you can define an alternative path in case of error or timeout and you cannot place two actions in parallel.
 * The update request sent to Platform will be fast but not immediate/within a second. It will take normally a few seconds but sometimes more with no guarantee. As a result, for example, if an action is using "field 1" updated by an Update Profile action positioned right before, you should not expect that "field 1" will be updated in the action.
+* The **Update profile** activity does not support XDM fields that are defined as an enumeration.
 
 ## Using the test mode {#using-the-test-mode}
 
@@ -33,13 +34,13 @@ For more information on the how to turn an existing profile into a test profile,
 
 1. In the **Action** section of the palette, drop the **Update Profile** activity into the canvas.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Select a schema from the list.
 
 1. Click on **Field** to select the field you want to update. Only one field can be selected.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Select a dataset from the list. 
 
@@ -51,12 +52,12 @@ For more information on the how to turn an existing profile into a test profile,
 
    * Using the simple expression editor, you can select a field from a data source or from the incoming event.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * If you want to define a specific value or leverage advanced functions, click on **Advanced mode**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 The **Update Profile** is now configured.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

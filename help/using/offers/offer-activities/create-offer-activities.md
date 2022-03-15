@@ -11,11 +11,11 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 
 Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
-➡️ [Discover this feature in video](#video)
+➡️ [Learn how to create offer activities in this video](#video)
 
 The list of decisions is accessible in the **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
-![](../../assets/activities-list.png)
+![](../assets/activities-list.png)
 
 Before creating a decision, make sure that the components below have been created in the Offer Library:
 
@@ -32,17 +32,17 @@ Before creating a decision, make sure that the components below have been create
 
 1. Define a start and end date and time if needed, then click **[!UICONTROL Next]**.
 
-    ![](../../assets/activities-name.png)
+    ![](../assets/activities-name.png)
 
 ## Define decision scopes {#add-decision-scopes}
 
 1. Select a placement from the drop-down list. It will be added to the first decision scope in your decision.
 
-    ![](../../assets/activities-placement.png)
+    ![](../assets/activities-placement.png)
 
 1. Click **[!UICONTROL Add]** to select evaluation criteria for this placement.
 
-    ![](../../assets/activities-evaluation-criteria.png)
+    ![](../assets/activities-evaluation-criteria.png)
 
     Each criteria consists in an offer collection associated with an eligibility constraint and a ranking method to determine the offers to be shown in the placement.
     
@@ -52,7 +52,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. Select the offer collection that contains the offers to consider, then click **[!UICONTROL Add]**.
 
-    ![](../../assets/activities-collection.png)
+    ![](../assets/activities-collection.png)
 
     >[!NOTE]
     >
@@ -60,7 +60,7 @@ Before creating a decision, make sure that the components below have been create
 
     The selected collection is added to the criteria.
 
-    ![](../../assets/activities-collection-added.png)
+    ![](../assets/activities-collection-added.png)
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
@@ -68,23 +68,23 @@ Before creating a decision, make sure that the components below have been create
 
     * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
-        ![](../../assets/activity_constraint_segment.png)
+        ![](../assets/activity_constraint_segment.png)
     
         Add one or several segments from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
-        ![](../../assets/activity_constraint_segment2.png)
+        ![](../assets/activity_constraint_segment2.png)
 
         Learn how to work with segments in [this section](../../segment/about-segments.md).
 
     * If you want to add a selection constraint with a decision rule, use the **[!UICONTROL Decision rule]** option and select the rule of your choice.
 
-        ![](../../assets/activity_constraint_rule.png)
+        ![](../assets/activity_constraint_rule.png)
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
 1. Define the ranking method you want to use to select the best offer for each profile.
 
-    ![](../../assets/activity_ranking-method.png)
+    ![](../assets/activity_ranking-method.png)
 
     * By default, if multiple offers are eligible for this placement, the offer with the highest priority score will be delivered to the customer.
 
@@ -92,25 +92,25 @@ Before creating a decision, make sure that the components below have been create
 
 1. Click **[!UICONTROL Add]** to define more criteria for the same placement.
 
-    ![](../../assets/activity_add-collection.png)
+    ![](../assets/activity_add-collection.png)
 
 1. When you add several criteria, they will be evaluated in a specific order. The first collection that was added to the sequence will be evaluated first, and so on.
     
     To change the default sequence, you can drag and drop the collections to reorder them as wanted.
 
-    ![](../../assets/activity_reorder-collections.png)
+    ![](../assets/activity_reorder-collections.png)
     
 1. You can also evaluate several criteria at the same time. To do so, drag and drop the collection on top of another.
 
-    ![](../../assets/activity_move-collection.png)
+    ![](../assets/activity_move-collection.png)
 
     They now have the same rank and thus will be evaluated at the same time.
 
-    ![](../../assets/activity_same-rank-collections.png)
+    ![](../assets/activity_same-rank-collections.png)
 
 1. To add another placement for your offers as part of this decision, use the **[!UICONTROL New scope]** button. Repeat the steps above for each decision scope.
 
-    ![](../../assets/activity_new-scope.png)
+    ![](../assets/activity_new-scope.png)
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
@@ -138,7 +138,7 @@ Once you defined the decision scopes, define the fallback offer that will be pre
 
 To do so, select it from the list of available fallback offers for the placements defined in the decision, then click **[!UICONTROL Next]**.
 
-![](../../assets/add-fallback-offer.png)
+![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
@@ -150,16 +150,16 @@ If everything is configured properly, a summary of the decision properties displ
 
 1. Make sure the decision is ready to be used to  present offers to customers. All the decision scopes and the fallback offer it contains are displayed.
 
-    ![](../../assets/review-decision.png)
+    ![](../assets/review-decision.png)
 
     You can expand or collapse each placement. You can also preview the available offers, eligibility and ranking details for each placement.
 
-    ![](../../assets/review-decision-details.png)
+    ![](../assets/review-decision-details.png)
 
 1. Click **[!UICONTROL Finish]**.
 1. Select **[!UICONTROL Save and activate]**.
 
-    ![](../../assets/save-activities.png)
+    ![](../assets/save-activities.png)
     
     You can also save the decision as draft, in order to edit and activate it later on.
 
@@ -171,7 +171,7 @@ It is now ready to be used to deliver offers to customers.
 
 From the decision list, you can select the decision to display its properties. From there you can also edit it, change its status (**Draft**, **Live**, **Complete**, **Archived**), duplicate the decision, or delete it.
 
-![](../../assets/decision_created.png)
+![](../assets/decision_created.png)
 
 Select the **[!UICONTROL Edit]** button to go back to the decision edition mode, where you can modify the decision's [details](#create-activity), [decision scopes](#add-decision-scopes) and [fallback offer](#add-fallback).
 
@@ -179,11 +179,11 @@ Select a live decision and click **[!UICONTROL Deactivate]** to set the decision
 
 To set again the status to **[!UICONTROL Live]**, select the **[!UICONTROL Activate]** button that is now displayed.
 
-![](../../assets/decision_activate.png)
+![](../assets/decision_activate.png)
 
 The **[!UICONTROL More actions]** button enables the actions described below.
 
-![](../../assets/decision_more-actions.png)
+![](../assets/decision_more-actions.png)
 
 * **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate, delete or archive it.
 
@@ -201,24 +201,26 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 
 You can also delete or change the status of multiple decisions at the same time by selecting the corresponding checkboxes.
 
-![](../../assets/decision_multiple-selection.png)
+![](../assets/decision_multiple-selection.png)
 
 If you want to change the status of several decisions whith different statuses, only the relevant statuses will be changed.
 
-![](../../assets/decision_change-status.png)
+![](../assets/decision_change-status.png)
 
 Once a decision has been created, you can click its name from the list.
 
-![](../../assets/decision_click-name.png)
+![](../assets/decision_click-name.png)
 
 This enables you to access detailed information for that decision. Select the **[!UICONTROL Change log]** tab to [monitor all the changes](../get-started/user-interface.md#changes-log) that have been made to the decision.
 
-![](../../assets/decision_information.png)
+![](../assets/decision_information.png)
 
-## Tutorial video {#video}
+## How-to video{#video}
+
+Learn how to create offer activities in Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

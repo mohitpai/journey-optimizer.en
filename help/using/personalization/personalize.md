@@ -12,21 +12,37 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more.
 
 ➡️ [Learn how to personalize a message in these videos](#video-perso)
+➡️ [Discover use cases leveraging personalization](personalization-use-case.md)
+
+## Build personalization expressions using a dedicated syntax {#syntax}
 
 [!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
+
+**Examples:**
+
+* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+* `Hello {{profile.person.name.fullName}}`
+
+When processing the message (email and push), Journey Optimizer replaces the expression with the data contained in the Experience Platform database:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` becomes “Hello John Doe”.
+
+## Leverage profile data to personalize your messages {#data}
 
 The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. Learn more in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 >[!CAUTION]
 >The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
-**Examples:**
+## Add personalization in different contexts {#contexts}
 
-* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+[!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).
 
-* `Hello {{profile.person.name.fullName}}`
+## Work with the expression editor {#editor}
 
-When processing the message (email and push), Journey Optimizer replaces the expression with the data contained in the Experience Cloud Platform database:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` becomes “Hello John Doe”.
+[!DNL Journey Optimizer] provides an expression editor where you will select, arrange, customize and validate all the data to create a customized personalization for your content.
+
+Several tools are available to help build your personalization content (helper functions, pre-defined expressions library, attributes favouriting...)
+
+Learn more about [!DNL Journey Optimizer] expression editor in [this section](personalization-build-expressions.md)
 
 ## How-to videos{#video-perso}
 

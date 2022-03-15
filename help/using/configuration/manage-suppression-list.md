@@ -25,15 +25,15 @@ To access the detailed list of excluded email addresses, go to **[!UICONTROL Adm
 >
 >Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
 
-![](../assets/suppression-list-access.png)
+![](assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
 
-![](../assets/suppression-list-filters.png)
+![](assets/suppression-list-filters.png)
 
 You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
 
-![](../assets/suppression-list-filtering-example.png)
+![](assets/suppression-list-filtering-example.png)
 
 If you manually add an email address or a domain by mistake, the **[!UICONTROL Delete]** button enables you to remove that entry.
 
@@ -41,7 +41,7 @@ If you manually add an email address or a domain by mistake, the **[!UICONTROL D
 >
 >Never use the **[!UICONTROL Delete]** button to remove suppressed email addresses or domains.
 
-![](../assets/suppression-list-delete.png)
+![](assets/suppression-list-delete.png)
 
 Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../messages/suppression-list.md).
 
@@ -53,7 +53,7 @@ From the **[!UICONTROL Suppression list]** view, you can also edit suppression r
 
 To export the suppression list as a CSV file, select the **[!UICONTROL Download CSV]** button.
 
-![](../assets/suppression-list-download-csv.png)
+![](assets/suppression-list-download-csv.png)
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
@@ -77,7 +77,7 @@ The suppression categories are as follows:
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
-![](../assets/suppression-list.png)
+![](assets/suppression-list.png)
 
 The possible reasons for a delivery failure are:
 
@@ -105,13 +105,13 @@ You may add email addresses or domains [one at a time](#add-one-address-or-domai
 
 To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
 
-![](../assets/suppression-list-add-email.png)
+![](assets/suppression-list-add-email.png)
 
 ### Add one address or domain {#add-one-address-or-domain}
 
 1. Select the **[!UICONTROL One by one]** option.
 
-    ![](../assets/suppression-list-add-email-address.png)
+    ![](assets/suppression-list-add-email-address.png)
 
 1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
 
@@ -129,7 +129,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Select the **[!UICONTROL Upload CSV]** option.
 
-    ![](../assets/suppression-list-upload-csv.png)
+    ![](assets/suppression-list-upload-csv.png)
 
 1. Download the CSV template to use, which includes the columns and format below:
 
@@ -150,7 +150,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
 
-    ![](../assets/suppression-list-upload-file-button.png)
+    ![](assets/suppression-list-upload-file-button.png)
 
 1. Click **[!UICONTROL Submit]**.
 
@@ -160,13 +160,13 @@ You can check the list of the latest CSV files you uploaded.
 
 To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
 
-![](../assets/suppression-list-recent-uploads-button.png)
+![](assets/suppression-list-recent-uploads-button.png)
 
 The latest uploads you submitted and their corresponding statuses are displayed.
 
 If an error report is associated with a file, you can download it to check the errors encountered.
 
-![](../assets/suppression-list-recent-uploads-error.png)
+![](assets/suppression-list-recent-uploads-error.png)
 
 Below is an example of the type of entries you can find in the error report:
 

@@ -20,7 +20,7 @@ The Decision Management capability consists in two main components:
 * The **Centralized Offer Library** which is the interface where you create and manage the different elements that compose your offers, and define their rules and constraints.
 * The **Offer Decision Engine** which leverages Adobe Experience Platform data and Real-time Customer profiles, along with the Offer Library, in order to select the right time, customers and channels to which offers will be delivered.
 
-![](../../assets/architecture.png) 
+![](../assets/architecture.png)
 
 Benefits include:
 
@@ -28,7 +28,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-➡️ [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
+➡️ [Learn more on Decision Management in these videos](#video)
 
 ## About offers and decisions {#about-offers-and-decisions}
 
@@ -36,7 +36,7 @@ An **Offer** is made up of content, eligibility rules and constraints that defin
 
 It is created using the **Offer Library**, which provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [Offer Library user interface](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png) 
+![](../assets/offer_structure.png) 
 
 Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions** (previously known as 'offer activities').
 
@@ -48,11 +48,11 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 * Display on your website homepage offers that will match the visiting customer's point of interest, based on data from Adobe Experience Platform.
 
-    ![](../../assets/website.png) 
+    ![](../assets/website.png)
 
 * If customers walk near one of your stores, send them push notifications reminding them of available offers according to their attributes (loyalty level, gender, former purchases...).
 
-    ![](../../assets/push_sample.png) 
+    ![](../assets/push_sample.png)
 
 * Decision Management also helps you enhance your customers' experience when contacting your support team. Decision Management APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
@@ -96,8 +96,7 @@ You can find below the list of the main concepts you will work with when using D
 
 * **Representations**: A representation is information used by a channel, such as location or language to display an offer.
 
-
-## Tutorial videos {#tutorial-videos}
+## How-to videos{#video}
 
 >[!NOTE]
 >
@@ -114,3 +113,5 @@ The video below provides an introduction to Decision Management key capabilities
 The video below shows how to use Decision Management to define and manage your offers and leverage real-time customer data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

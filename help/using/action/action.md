@@ -17,6 +17,8 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 
 Actions are connections through which you deliver personalized, real-time experiences to customers such as push notifications, email, SMS, or any other means of digital engagement you use in your business.
 
+➡️ [Discover this feature in video](#video)
+
 [!DNL Journey Optimizer] comes with built-in message capability. Refer to [this section](../messages/get-started-content.md).
 
 If you have Adobe Campaign v7 or v8, an integration is available upon request. Refer to [this page](../action/acc-action.md).
@@ -33,4 +35,10 @@ The actions are available in the left palette of your journey, in the **[!UICONT
 
 To view the action list or configure a new action, select **[!UICONTROL Configurations]** in the ADMINISTRATION menu section. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. The list of actions is displayed. See [this page](../start/user-interface.md) for more information on the interface.
 
-![](../assets/custom1.png)
+![](assets/custom1.png)
+
+## How-to video {#video}
+
+Learn how to configure custom actions.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

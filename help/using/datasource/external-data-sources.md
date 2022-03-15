@@ -26,11 +26,11 @@ Here are the main steps to create and configure a new external data source:
 
 1. From the list of data sources, Click **[!UICONTROL Create Data Source]** to create a new external data source.
 
-    ![](../assets/journey25.png)
+    ![](assets/journey25.png)
 
     This opens the data source configuration pane on the right-hand side of the screen.
 
-    ![](../assets/journey26.png)
+    ![](assets/journey26.png)
 
 1. Enter a name for your data source.
 
@@ -45,7 +45,7 @@ Here are the main steps to create and configure a new external data source:
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
 
-    ![](../assets/journey27.png)
+    ![](assets/journey27.png)
 
 1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#custom-authentication-mode). In our example, we choose:
 
@@ -54,7 +54,7 @@ Here are the main steps to create and configure a new external data source:
     * **[!UICONTROL Value]**: "1234" (this is the value of our API key)
     * **[!UICONTROL Location]**: "Query parameter" (the API key is located in the URL)
 
-    ![](../assets/journey28.png)
+    ![](assets/journey28.png)
 
 1. Add a new field group for each API parameter set by clicking **[!UICONTROL Add a New Field Group]**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat). 
 
@@ -75,7 +75,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
     {"id":{"param":"identifier"}}
     ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 Click **[!UICONTROL Save]**.
 
@@ -92,11 +92,11 @@ This authentication mode is used for complex authentication, frequently used to 
 
 When you configure the custom authentication, you can click on the button below to check if the custom authentication payload is correctly configured.
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 If the test is successful, the button turns green.
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 With this authentication, the action execution is a two-step process:
 

@@ -15,29 +15,29 @@ Below are some examples of how you can use [!DNL Journey Optimizer] landing page
 
 One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. The main steps are presented on the graph below:
 
-![](../assets/lp_subscription-uc.png)
+![](assets/lp_subscription-uc.png)
 
 For example, let's say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.
 
-### Set up landing page {#set-up-lp}
+### Set up a landing page {#set-up-lp}
 
 1. Create the event registration's subscription list, which will store the registered users. Learn how to create a subscription list [here](subscription-list.md#define-subscription-list).
 
-    ![](../assets/lp_subscription-uc-list.png)
+    ![](assets/lp_subscription-uc-list.png)
 
 1. [Create a landing page](create-lp.md) to enable your recipients to register for your event.
 
-    ![](../assets/lp_create-lp-details.png)
+    ![](assets/lp_create-lp-details.png)
 
 1. Configure the registration [primary landing page](create-lp.md#configure-primary-page).
 
 1. When designing the [landing page content](design-lp.md), select the subscription list that you created to update it with the profiles who select the registration checkbox.
 
-    ![](../assets/lp_subscription-uc-lp-list.png)
+    ![](assets/lp_subscription-uc-lp-list.png)
 
 1. Create a 'thank you' page that will be displayed to your recipients once they submit the registration form. Learn how to configure landing subpages [here](create-lp.md#configure-subpages).
 
-    ![](../assets/lp_subscription-uc-thanks.png)
+    ![](assets/lp_subscription-uc-thanks.png)
 
 1. [Publish](create-lp.md#publish) the landing page.
 
@@ -45,13 +45,17 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
-    ![](../assets/lp_subscription-uc-link.png)
+    ![](assets/lp_subscription-uc-link.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
 1. Send your message through a [journey](../building-journeys/journey.md) to drive traffic to the registration landing page.
 
-    ![](../assets/lp_subscription-uc-journey.png)
+    ![](assets/lp_subscription-uc-journey.png)
 
     Once they receive the email, if your recipients click the link to the landing page, they will be directed to the 'thank you' page and they will be added to the subscription list.
 
@@ -61,17 +65,17 @@ Additionally, you can send a confirmation email to the recipients who registered
 
 1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
 
-    ![](../assets/lp_subscription-uc-create-journey.png)
+    ![](assets/lp_subscription-uc-create-journey.png)
 
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
 
 1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
 
-    ![](../assets/lp_subscription-uc-confirm-journey.png)
+    ![](assets/lp_subscription-uc-confirm-journey.png)
 
 1. Select the confirmation email of your choice and send it through the journey.
 
-    ![](../assets/lp_subscription-uc-confirm-email.png)
+    ![](assets/lp_subscription-uc-confirm-email.png)
 
 All the users who registered for your event will receive the confirmation email.
 
@@ -102,13 +106,13 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 1. [Design](design-lp.md) the primary page content: use the landing page-specific **[!UICONTROL Form]** component, define an **[!UICONTROL Opt-out]** checkbox and choose to update **[!UICONTROL Channel (email)]**: the profile that checks the opt-out box on your landing page will be opted out from all your communications.
 
-    ![](../assets/lp_opt-out-primary-lp.png)
+    ![](assets/lp_opt-out-primary-lp.png)
 
     <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Add a confirmation [subpage](create-lp.md#configure-subpages) that will be displayed to the users who submit the form.
 
-    ![](../assets/lp_opt-out-subpage.png)
+    ![](assets/lp_opt-out-subpage.png)
 
     >[!NOTE]
     >
@@ -116,17 +120,21 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 1. Once you configured and defined the content of your pages, [publish](create-lp.md#publish) the landing page.
 
-    ![](../assets/lp_opt-out-publish.png)
+    ![](assets/lp_opt-out-publish.png)
 
 1. [Create an email message](../messages/create-message.md) in [!DNL Journey Optimizer].
 
 1. Select text in your content and [insert a link](../messages/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
 
-    ![](../assets/lp_opt-out-insert-link.png)
+    ![](assets/lp_opt-out-insert-link.png)
 
 1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list and select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
-    ![](../assets/lp_opt-out-landing-page.png)
+    ![](assets/lp_opt-out-landing-page.png)
+
+    >[!NOTE]
+    >
+    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
@@ -134,7 +142,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 1. Once the message is received, if a recipient clicks the unsubscribe link in the email, your landing page is displayed.
 
-    ![](../assets/lp_opt-out-submit-form.png)
+    ![](assets/lp_opt-out-submit-form.png)
 
     If the recipient checks the box and submits the form:
 
@@ -144,9 +152,9 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
-![](../assets/lp_opt-out-profile-choice.png)
+![](assets/lp_opt-out-profile-choice.png)
 
-In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
+In the **[!UICONTROL Attributes]** tab, you can see that the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
 <!--
 

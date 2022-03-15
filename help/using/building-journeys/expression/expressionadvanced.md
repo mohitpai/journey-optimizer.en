@@ -14,7 +14,7 @@ It is also available every time you need to define action parameters that requir
 
 The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that fits specifically your needs. The advanced expression editor also allows you to define the values of the external data source parameter, manipulate map fields and collections, such as experience events.
 
- ![](../../assets/journey65.png)
+ ![](../assets/journey65.png)
 
 _The advanced expression editor interface_
 
@@ -38,7 +38,7 @@ You can access the advanced expression editor in different ways:
 
 * When you create a data source condition, you can access the advanced editor by clicking on **[!UICONTROL Advanced mode]**.
 
-    ![](../../assets/journeyuc2_33.png)
+    ![](../assets/journeyuc2_33.png)
 
 * When you create a custom timer, the advanced editor will be directly displayed.
 * When you map action parameter, click on **[!UICONTROL Advanced mode]**.
@@ -47,7 +47,7 @@ You can access the advanced expression editor in different ways:
 
 This screen allows you to manually write your expression.
 
-![](../../assets/journey70.png)
+![](../assets/journey70.png)
 
 On the left part of the screen are displayed available fields and functions:
 
@@ -57,20 +57,20 @@ On the left part of the screen are displayed available fields and functions:
 * **[!UICONTROL Journey properties]**: this section regroups the technical fields related to the journey for a given profile. [Read more](journey-properties.md)
 * **[!UICONTROL Functions]**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories. [Read more](functions.md)
 
-![](../../assets/journey65.png)
+![](../assets/journey65.png)
 
 An autocompletion mechanism displays contextual suggestions.
 
-![](../../assets/journey68.png)
+![](../assets/journey68.png)
 
 A syntax validation mechanism checks the integrity of your code. Errors are displayed on top of the editor.
 
-![](../../assets/journey69.png)
+![](../assets/journey69.png)
 
 **Need for parameters when building conditions with the advanced expression editor**
 
 If you select a field from an external data source requiring a parameter to be called (see [this page](../../datasource/external-data-sources.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
-![](../../assets/journeyuc2_19.png)
+![](../assets/journeyuc2_19.png)
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See [this page](../expression/field-references.md).

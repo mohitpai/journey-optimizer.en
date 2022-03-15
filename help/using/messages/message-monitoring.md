@@ -11,6 +11,8 @@ exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 
 To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. You can see how your messages are performing across journeys <!--and APIs--> in real-time from the **[!UICONTROL Executions]** list.
 
+➡️ [Discover this feature in video](#video)
+
 To access this list, from the **[!DNL Journey Optimizer]** home page, select **[!UICONTROL Messages]**, and click the **[!UICONTROL Executions]** tab.
 
 This tab provides two views: **[!UICONTROL Live view]** and **[!UICONTROL Global view]**.
@@ -35,7 +37,7 @@ If a message is published but not triggered yet by a journey, it it not listed i
 >
 >If a message has been used in several journeys, one row per journey is displayed for each execution.
 
-By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date.
+By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date. You can also choose to exclude test events from your **Executions list**.
 
 ![](assets/message-execution-tab-filters.png)
 
@@ -87,3 +89,9 @@ In **Global view** only, you can choose if you want to display the data as numbe
 ![](assets/message-execution-data-format.png)
 
 Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](create-message.md).
+
+## How-to video {#video}
+
+Learn more on live and global reports, how to access and analyze the Journey and the Message specific reports, and how to modify the report dashboards.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

@@ -29,27 +29,27 @@ To create a subscription list, follow the steps below.
 
 1. To access the subscription lists, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-    ![](../assets/lp_subscription-lists.png)
+    ![](assets/lp_subscription-lists.png)
 
 1. Select the **[!UICONTROL Create subscription list]** button.
 
-    ![](../assets/lp_create-subscription-list.png)
+    ![](assets/lp_create-subscription-list.png)
 
 1. Add a name and a description. These fields are mandatory.
 
 1. You can define a start date and end date.
 
-    ![](../assets/lp_subscription-list-dates.png)
+    ![](assets/lp_subscription-list-dates.png)
 
 1. Click **[!UICONTROL Save]**.
 
 The list displays all the subscription lists created. You can filter them based on the creation date or modification date, and their status.
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
 The possible statuses are as follows:
 
-* **[!UICONTROL Not started]**: You defined a start date that is later than the current day. The susbscribed profiles will not receive yet communications relating to this subscription list.
+* **[!UICONTROL Not started]**: You defined a start date that is later than the current day. The subscribed profiles will not receive yet communications relating to this subscription list.
 * **[!UICONTROL Live]**: The current day is comprised between the subscription list start date and end date, or you did not defined end/start dates, which means the subscription list is always live.
 * **[!UICONTROL Expired]**: The end date is passed, thus the subscription list is not valid anymore. Any subscribed profile will not receive any more communications relating to this subscription list.
 

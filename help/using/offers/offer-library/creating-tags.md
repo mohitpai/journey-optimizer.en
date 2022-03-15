@@ -17,7 +17,7 @@ Tags can also be used to group offers together into offer collections. See [Crea
 
 The list of created tags is accessible in the **[!UICONTROL Components]** menu.
 
-![](../../assets/tags_list.png)
+![](../assets/tags_list.png)
 
 To create a tag, follow these steps:
 
@@ -25,16 +25,16 @@ To create a tag, follow these steps:
 
 1. Specify the tag's name, then click **[!UICONTROL Save]**.
 
-    ![](../../assets/tags_create.png)
+    ![](../assets/tags_create.png)
 
 1. Once the tag is created, it displays in the list. You can select it to display its properties and edit or suppress it.
 
-    ![](../../assets/tags_created.png)
+    ![](../assets/tags_created.png)
 
-## Tutorial video {#video}
+## How-to video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

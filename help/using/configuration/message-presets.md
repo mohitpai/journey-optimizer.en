@@ -21,21 +21,17 @@ Once message presets have been configured, you be able to select them when creat
 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
->[!NOTE]
->
->Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
-
 ## Create a message preset {#create-message-preset}
 
 To create a message preset, follow these steps:
 
 1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
 
-    ![](../assets/preset-create.png)
+    ![](assets/preset-create.png)
 
 1. Enter a name and a description (optional) for the preset, then select the channel(s) to configure.
 
-    ![](../assets/preset-general.png)
+    ![](assets/preset-general.png)
 
     >[!NOTE]
     >
@@ -49,7 +45,7 @@ To create a message preset, follow these steps:
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
-    ![](../assets/preset-submit.png)
+    ![](assets/preset-submit.png)
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
@@ -71,64 +67,108 @@ To create a message preset, follow these steps:
 
 1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
-    ![](../assets/preset-active.png)
+    ![](assets/preset-active.png)
 
 ## Configure email settings {#configure-email-settings}
 
-![](../assets/preset-email.png)
+Email settings are defined in a dedicated section of the message preset configuration.
 
-1. Select the type of message that will be sent with the preset: **Transactional** or **Marketing**.
+![](assets/preset-email.png)
 
-    >[!CAUTION]
-    >
-    > **Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts, such as password reset, order status, delivery notification for example.
-    
+Configure your settings as described below.
+
+
+### Type of email{#email-type}
+
+In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
+
+Choose **Marketing** for promotional messages: these messages require user consent.
+
+Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+
+>[!CAUTION]
+>
+>**Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+
+
+### Subdomain & IP pool {#subdomains-and-ip-pools}
+
+In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
+
 1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
-1. Enter the header parameters for the emails sent using that preset.
+### URL tracking{#url-tracking}
 
-    >[!CAUTION]
-    >
-    >Email addresses must use the current selected [delegated subdomain](about-subdomain-delegation.md).
+To identify where and why a person clicked on your link, you can add UTM parameters for URL tracking in the  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** section.
 
-    * **[!UICONTROL Sender name]**: The name of the sender, such as your brand's name.
+Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
-    * **[!UICONTROL Sender email]**: The email address you want to use for your communications. For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com*.
+![](assets/preset-url-tracking.png)
 
-    * **[!UICONTROL Reply to (name)]**: The name that will be used when the recipient clicks the **Reply** button in their email client software.
+Three UTM parameters are available by default. You can add up to 10 tracking parameters. To add a UTM parameter, select the **[!UICONTROL Add new UTM param]** button.
 
-    * **[!UICONTROL Reply to (email)]**: The email address that will be used when the recipient clicks the **Reply** button in their email client software. You must use an address defined on the delegated subdomain (for example, *reply@marketing.luma.com*), otherwise the emails will be dropped.
+To configure a UTM parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
 
-    * **[!UICONTROL Error email]**: All errors generated by ISPs after a few days of mail being delivered (asynchronous bounces) are received on this address.
+* Journey attributes: Source id, Source name, Source version id
+* Message attributes: Action id, Action name
+* Offer decisioning attributes: Offer id, Offer name
 
-    >[!NOTE]
-    >
-    >From the October 2021 release, it is not possible anymore to define a forward email addresse from the [!DNL Journey Optimizer] user interface. If you want all emails received by [!DNL Journey Optimizer] for the delegated subdomain to be forwarded to a specific  email address, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+![](assets/preset-url-tracking-source.png)
 
-    ![](../assets/preset-header.png)
+>[!CAUTION]
+>
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a UTM value. 
 
-    >[!NOTE]
-    >
-    >Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
+### Header parameters{#email-header}
 
-1. Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+In the **[!UICONTROL HEADER PARAMETERS]** section, enter the email addresses associated to messages sent using that preset. These email addresses must use the current selected [delegated subdomain](about-subdomain-delegation.md).
 
-    ![](../assets/preset-retry-paramaters.png)
+You must configure the following email addresses
 
-    You must enter an integer value (in hours or minutes) within the following range:
-    * For marketing email type, the minimum retry period is 6 hours.
-    * For transactional email type, the minimum retry period is 10 minutes.
-    * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
+* **[!UICONTROL Sender name]**: The name of the sender, such as your brand's name.
+
+* **[!UICONTROL Sender email]**: The email address you want to use for your communications. For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com*.
+
+* **[!UICONTROL Reply to (name)]**: The name that will be used when the recipient clicks the **Reply** button in their email client software.
+
+* **[!UICONTROL Reply to (email)]**: The email address that will be used when the recipient clicks the **Reply** button in their email client software. You must use an address defined on the delegated subdomain (for example, *reply@marketing.luma.com*), otherwise the emails will be dropped.
+
+* **[!UICONTROL Error email]**: All errors generated by ISPs after a few days of mail being delivered (asynchronous bounces) are received on this address.
+
+
+![](assets/preset-header.png)
+
+>[!NOTE]
+>
+>Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
+
+### Email retry parameters{#email-retry}
+
+You can configure the **Email retry parameters**.
+
+![](assets/preset-retry-parameters.png)
+
+By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+
+You must enter an integer value (in hours or minutes) within the following range:
+
+* For marketing emails, the minimum retry period is 6 hours.
+* For transactional emails, the minimum retry period is 10 minutes.
+* For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
 ## Configure push settings {#configure-push-settings}
-   
+
+Push settings are defined in a dedicated section of the message preset configuration.
+
+To define the push settings associated to the message preset, follow the steps below:
+
 1. Select at least one platform: **iOS** and/or **Android**.
     
 1. Select the mobile applications to use for each platform.
 
-![](../assets/preset-push.png)
+![](assets/preset-push.png)
         
 For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
 
@@ -137,7 +177,7 @@ For more on how to configure your environment to send push notifications, refer 
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](../assets/preset-sms.png)
+    ![](assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -150,9 +190,9 @@ For more on how to configure your environment to send push notifications, refer 
 
 All your message presets display in the **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Filters are available to help you browse through the list (channel type, user, status).
 
-![](../assets/preset-filters.png)
+![](assets/preset-filters.png)
 
-Message presets can have the following statuses:
+Once created, message presets can have the following statuses:
 
 * **[!UICONTROL Draft]**: The message preset has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
 * **[!UICONTROL Processing]**: The message preset has been submitted and is going through several verifications steps.
@@ -162,7 +202,7 @@ Message presets can have the following statuses:
 
 In case a message preset creation fails, the details on each possible failure reason are described below.
 
-If one of these errors occurs, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
 
 * **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
 
@@ -186,7 +226,7 @@ To edit a message preset, follow the steps below.
 
 1. From the list, click a message preset name to open it.
 
-    ![](../assets/preset-name.png)
+    ![](assets/preset-name.png)
 
 1. Edit its properties as desired.
 
@@ -196,7 +236,7 @@ To edit a message preset, follow the steps below.
 
 1. Click **[!UICONTROL Submit]** to confirm your changes.
 
-    ![](../assets/preset-confirm-update.png)
+    ![](assets/preset-confirm-update.png)
 
     >[!NOTE]
     >
@@ -212,15 +252,15 @@ For message presets that have the **[!UICONTROL Active]** status, you can check 
 
 * Click the **[!UICONTROL Recent update]** icon that is displayed next to the active preset name.
 
-    ![](../assets/preset-recent-update-icon.png)
+    ![](assets/preset-recent-update-icon.png)
 
 * You can also access the update details from an active message preset while update is in progress.
     
-    ![](../assets/preset-view-update-details.png)
+    ![](assets/preset-view-update-details.png)
 
 On the **[!UICONTROL Recent update]** screen, you can see information such as the update status, and the list of requested changes.
 
-![](../assets/preset-recent-update-screen.png)
+![](assets/preset-recent-update-screen.png)
 
 ### Update statuses {#update-statuses}
 
@@ -282,7 +322,7 @@ To make an **[!UICONTROL Active]** message preset unavailable to create new mess
 
 1. Select **[!UICONTROL Deactivate]**.
 
-    ![](../assets/preset-deactivate.png)
+    ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -290,7 +330,7 @@ To make an **[!UICONTROL Active]** message preset unavailable to create new mess
 
 You cannot directly edit a deactivated message preset. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages. You can also activate it again, and wait until the update is successful to edit it.
 
-![](../assets/preset-activate.png)
+![](assets/preset-activate.png)
 
 ## How-to video{#video-presets}
 
