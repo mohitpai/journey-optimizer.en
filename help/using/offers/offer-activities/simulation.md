@@ -31,7 +31,7 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ## Select test profiles {#select-test-profiles}
 
-First you need to select the test profiles that you are going to use for simulation. Learn more on test profiles in [this page](../../using/building-journeys/creating-test-profiles.md).
+First you need to select the test profiles that you are going to use for simulation. Learn more on test profiles in [this page](../../building-journeys/creating-test-profiles.md).
 
 1. Click **[!UICONTROL Manage profile]**.
 
