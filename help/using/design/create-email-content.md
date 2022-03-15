@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---
 # Design your email content in the user interface {#create-email-content}
 
-Once you have [created your message](create-message.md), you can start creating your email content.
+Once you have [created your message](../messages/create-message.md), you can start creating your email content.
 
 ➡️ [Discover this feature in video](#video)
 

@@ -37,7 +37,7 @@ Learn more on hard bounces and soft bounces in [this section](#delivery-failures
 
 >[!NOTE]
 >
->Unsubscribed users' addresses cannot be sent to the suppression list as they are not receiving emails from [!DNL Journey Optimizer]. Their choice is handled at the Experience Platform level. Learn more on [opting-out](consent.md).
+>Unsubscribed users' addresses cannot be sent to the suppression list as they are not receiving emails from [!DNL Journey Optimizer]. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../messages/consent.md).
 
 For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing the suppression list in [this section](../configuration/manage-suppression-list.md).
 

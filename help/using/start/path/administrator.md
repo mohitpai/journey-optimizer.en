@@ -44,7 +44,7 @@ Follow the steps listed below:
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages settings
 
-    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../messages/push-gs.md)
+    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../configuration/push-gs.md)
 
     * Create **message presets** to configure all the technical parameters required for email and push notification messages. [Learn more](../../configuration/message-presets.md)
 
@@ -60,10 +60,10 @@ Follow the steps listed below:
 
 1. **Manage the suppression and allowed list**: improve your deliverability with suppression and allowed lists
     
-    * A [suppression list](../../messages/suppression-list.md) consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates. You can monitor all the email addresses that are automatically excluded from sending in a journey, such as invalid addresses, addresses that consistently soft-bounce, and could adversely affect your email reputation, and recipients who issue a spam complaint of some kind against one of your email messages. Learn how to manage the [suppression list](../../configuration/manage-suppression-list.md) and [retries](../../configuration/retries.md).
+    * A [suppression list](../../reports/suppression-list.md) consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates. You can monitor all the email addresses that are automatically excluded from sending in a journey, such as invalid addresses, addresses that consistently soft-bounce, and could adversely affect your email reputation, and recipients who issue a spam complaint of some kind against one of your email messages. Learn how to manage the [suppression list](../../configuration/manage-suppression-list.md) and [retries](../../configuration/retries.md).
 
     ![](../assets/suppression-list-filtering-example.png)
 
-    * The [allowed list](../../messages/allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../messages/allow-list.md).
+    * The [allowed list](../../reports/allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../reports/allow-list.md).
 
-    Learn more about deliverability management in [!DNL Adobe Journey Optimizer] [in this page](../../messages/deliverability.md).
+    Learn more about deliverability management in [!DNL Adobe Journey Optimizer] [in this page](../../reports/deliverability.md).

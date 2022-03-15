@@ -141,7 +141,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../messages/preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../design/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
