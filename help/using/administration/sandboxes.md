@@ -21,7 +21,7 @@ You can find the sandbox switcher control at the top-right of your screen next t
 
 ![](assets/sandbox_5.png)
 
-➡️ [Discover this feature in video](#video)
+➡️ [Learn more on sandboxes in this video](#video)
 
 ## Assign sandboxes {#assign-sandboxes}
 
