@@ -74,13 +74,13 @@ To create a new message, follow the steps below:
     >   
     >You can personalize your messages using profiles' data using the expression editor. For more on personalization, refer to [this section](../personalization/personalize.md).
 
-1. Control the rendering of your messages, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../design/preview.md).
+1. Control the rendering of your messages, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](preview.md).
 
     ![](assets/messages-simple-preview.png)
 
-1. Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](../design/alerts.md).
+1. Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
 
-1. You can now publish your message by clicking the **[!UICONTROL Publish]** button, or keep it as a draft and publish it later on. For more on how to publish messages, refer to [this section](../design/publish-manage-message.md).
+1. You can now publish your message by clicking the **[!UICONTROL Publish]** button, or keep it as a draft and publish it later on. For more on how to publish messages, refer to [this section](publish-manage-message.md).
 
 ## Duplicate a message {#duplicate-message}
 

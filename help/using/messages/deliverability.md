@@ -27,7 +27,7 @@ For a deeper dive on what deliverability is and to learn more on key deliverabil
 
 ## Reduce complaint rate {#reduce-complaint-rate}
 
-ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests and therefore showing that you are a reliable sender, you can reduce complaint rates. [Learn more about opt-out management](../messages/consent.md#opt-out-management).
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests and therefore showing that you are a reliable sender, you can reduce complaint rates. [Learn more about opt-out management](consent.md#opt-out-management).
 
 As a general rule, do not try to get in the way of recipients who want to opt-out by requiring them to fill out fields such as their email address or name, for example. The unsubscription landing page should have one validation button only.
 
@@ -61,7 +61,7 @@ To improve your deliverability rate and make sure that your emails reach your re
 
 * **Unsubscribe link and landing page**: The unsubscribe link is essential. It must be visible and valid, and the form must be functional.
 
-[Learn more about designing email content](../design/design-emails.md).
+[Learn more about designing email content](design-emails.md).
 
 ## Establish your reputation as a sender
 

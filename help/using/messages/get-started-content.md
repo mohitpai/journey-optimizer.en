@@ -21,8 +21,8 @@ Use [!DNL Journey Optimizer] to leverage multiple resources like assets and cont
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="../design/design-emails.md">Design emails</a></p></td>
-<td><img src="assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="../design/assets-essentials.md">Manage assets</a></p></td>
+<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-emails.md">Design emails</a></p></td>
+<td><img src="assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="assets-essentials.md">Manage assets</a></p></td>
 <td><img src="assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="../personalization/personalize.md">Add personalization</a></p></td>
 <td><img src="assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="create-message.md">Create messages</a></p></td></tr>
 </table>
