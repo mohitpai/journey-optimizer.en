@@ -14,9 +14,9 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 
 As a Developer, you need to **configure your mobile app** to be able to send push notifications with [!DNL Adobe Journey Optimizer].
 
-[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app, and in [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](../../messages/push-gs.md). 
+[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app, and in [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](../../configuration/push-gs.md). 
 
-Steps to configure the push notification channel and test your mobile app integration are detailed in [this page](../../messages/push-configuration.md). 
+Steps to configure the push notification channel and test your mobile app integration are detailed in [this page](../../configuration/push-configuration.md). 
 
 ## Work with APIs {#work-apis}
 

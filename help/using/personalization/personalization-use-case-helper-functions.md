@@ -22,7 +22,7 @@ You will use these types of helper functions:
 
 Before you start, ensure you know how to configure these elements:
 * An email message. [Learn more](../messages/create-message.md)
-* The body of an email. [Learn more](../messages/create-email-content.md).
+* The body of an email. [Learn more](../design/create-email-content.md).
 * A unitary event. [Learn more](../event/about-events.md).
 * A journey that starts with an event. [Learn more](../building-journeys/using-the-journey-designer.md).
 
