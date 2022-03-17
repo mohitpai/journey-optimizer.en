@@ -35,7 +35,7 @@ To start personalizing your SMS message, follow these steps:
 
 1. Click **[!UICONTROL Save]** when your personalized message is ready.
 
-1. Click **[!UICONTROL Preview]** to visualize how your SMS message will be displayed on mobile devices. For more on this, refer to [this section](preview.md).
+1. Click **[!UICONTROL Preview]** to visualize how your SMS message will be displayed on mobile devices. For more on this, refer to [this section](../design/preview.md).
 
 1. Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action will publish the new version of the message that will be used for the next executions in your journeys.
 

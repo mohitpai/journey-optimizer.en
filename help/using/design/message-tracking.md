@@ -13,7 +13,7 @@ Use [!DNL Journey Optimizer] to add links to your content and track the messages
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](../messages/create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -46,11 +46,11 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](consent.md#one-click-opt-out).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](../messages/consent.md#one-click-opt-out).
 
     * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
 
-    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](../messages/consent.md#opt-out-management).
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
@@ -112,6 +112,6 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](message-monitoring.md).
+The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](../reports/message-monitoring.md).
 
 Reporting on openings and clicks is available in the [Email Live report](../reports/email-live-report.md) and in the [Email Global report](../reports/email-global-report.md).

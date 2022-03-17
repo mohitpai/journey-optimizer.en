@@ -19,7 +19,7 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](assets/lp_access-list-filter.png)
 
-From this list, you can access the [landing page reports](lp-report.md) for published items.
+From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.
 
 You can also delete, duplicate, and unpublish a landing page.
 
@@ -141,7 +141,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../messages/preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../design/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
@@ -208,5 +208,5 @@ It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../m
 
 >[!NOTE]
 >
->You can monitor your landing page impacts through specific reports. [Learn more](lp-report.md)
+>You can monitor your landing page impacts through specific reports. [Learn more](../reports/lp-report-live.md)
 
