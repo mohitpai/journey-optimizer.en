@@ -15,7 +15,7 @@ Journey Optimizer allows you to import existing HTML content to design your emai
 
 To code HTML content or import existing content, follow the steps below:
 
-1. [Create a message](../messages/create-message.md)
+1. [Create a message](create-message.md)
 
 1. Open the **[!UICONTROL Email Designer]** from the **[!UICONTROL Edit Content]** section.
 

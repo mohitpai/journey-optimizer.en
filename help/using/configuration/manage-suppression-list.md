@@ -15,7 +15,7 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../messages/suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -43,7 +43,7 @@ If you manually add an email address or a domain by mistake, the **[!UICONTROL D
 
 ![](assets/suppression-list-delete.png)
 
-Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../reports/suppression-list.md).
+Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../messages/suppression-list.md).
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ The suppression categories are as follows:
 
 >[!NOTE]
 >
->Learn more on soft bounces and hard bounces in the [Delivery failure types](../reports/suppression-list.md#delivery-failures) section.
+>Learn more on soft bounces and hard bounces in the [Delivery failure types](../messages/suppression-list.md#delivery-failures) section.
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 

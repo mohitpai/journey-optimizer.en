@@ -327,7 +327,7 @@ Your event is now created and can now be used in a journey.
 
 1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Message]** activity to your journey.
 
-1. Select a previously created message. For more information on how to create push notifications, refer to this [page](../messages/create-message.md).
+1. Select a previously created message. For more information on how to create push notifications, refer to this [page](create-message.md).
 
 1. Drag and drop an **[!UICONTROL End]** activity to your journey.
 
@@ -351,5 +351,5 @@ Learn how to create and configure a message preset in [this section](../configur
 
 You are now ready to send push notifications with Journey Optimizer.
 
-* Learn how to create a push message in [this page](../messages/create-push.md).
+* Learn how to create a push message in [this page](create-push.md).
 * Learn how to send add a message in a journey in [this section](../building-journeys/journeys-message.md).

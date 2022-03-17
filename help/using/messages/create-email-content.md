@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---
 # Design your email content in the user interface {#create-email-content}
 
-Once you have [created your message](../messages/create-message.md), you can start creating your email content.
+Once you have [created your message](create-message.md), you can start creating your email content.
 
 ➡️ [Discover this feature in video](#video)
 
@@ -105,7 +105,7 @@ To start building your email content with the email designer, follow the steps b
 
 1. When your email is ready, click **[!UICONTROL Save & Close]**.
 
-Your email content can now be used in a message. [Learn how to send a message](../messages/publish-manage-message.md).
+Your email content can now be used in a message. [Learn how to send a message](publish-manage-message.md).
 
 ## Create the text version of an email {#generate-text-version}
 
