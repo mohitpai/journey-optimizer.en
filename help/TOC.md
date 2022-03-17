@@ -34,7 +34,7 @@ solution: Journey Optimizer
     + [Publish messages](using/messages/publish-manage-message.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
-  + [Design your email content in the UI]{#design-email}
+  + Design your email content in the UI {#design-email}
     + [Design from scratch ](using/design/create-email-content.md)
     + [Create the text version of an email](using/design/text-version-email.md)
     + [Add a preheader](using/design/preheader.md)
