@@ -35,13 +35,17 @@ To create an **offer**, follow these steps:
 
     ![](../assets/create_offer.png)
 
-1. Specify the offer's name as well as its start and end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
+1. Specify the offer's name as well as its start and end date and time. Outside of these dates, the offer won’t be selected by the Decisioning engine.
 
     ![](../assets/offer_details.png)
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
+>[!CAUTION]
+>
+>Updating the start/end dates can have an impact on capping. [Learn more](#capping-change-date)
+
+1. You can also associate one or several existing **[!UICONTROL tags]** to the offer, allowing you to search and organize the Offer Library more easily. [Learn more](../offer-library/creating-tags.md).
+
+1. The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
 
 ## Configure the offer's representations {#representations}
 
@@ -192,23 +196,29 @@ For example, if you set the following constraints:
 
 ### Eligibility {#eligibility}
 
-By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
+The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer to specific profiles that you define using segments or decision rules.
 
-![](../assets/offer-eligibility-default.png)
-
-You can limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md). To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
-    
-![](../assets/offer-eligibility-segment.png)
-
-If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
-
-![](../assets/offer_rule.png)
-
->[!CAUTION]
+>[!NOTE]
 >
->Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+>Learn more on using **segments** versus **decision rules** in [this section](#segments-vs-decision-rules).
 
-Learn more on using segments versus decision rules in [this section](#segments-vs-decision-rules).
+* By default, the **[!UICONTROL All visitors]** option is selected, meaning that any profile will be eligible to be presented the offer.
+
+    ![](../assets/offer-eligibility-default.png)
+
+* You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md).
+
+    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+    
+    ![](../assets/offer-eligibility-segment.png)
+
+* If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
+
+    ![](../assets/offer_rule.png)
+
+    >[!CAUTION]
+    >
+    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
@@ -228,29 +238,57 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
     Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
 
-### Capping {#capping}
+### Frequency capping {#capping}
 
-Capping is used as a constraint to define how many times an offer is presented.
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_capping"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented."
+
+Capping is used as a constraint to define the maximum number of times an offer can be presented. Limiting the number of times users get specific offers allows you to avoid over-solicitating your customers and thus to optimize each touchpoint with the best offer.
 
 ![](../assets/offer-capping.png)
 
-Specify the offer’s Capping, meaning the maximum number of times the offer will be presented, and define the following criteria:
+To set capping, define the number of times the offer can be presented and define the following criteria:
 
-* Specify if you want the capping to be applied accross all users or to one specific profile:
+>[!NOTE]
+>
+>The number must be greater than O.
 
-   * Select **[!UICONTROL In total]** to define how many times an offer can be proposed across the combined target audience, meaning across all users.
+1. Specify if you want the capping to be applied accross all users or to one specific profile:
 
-   * Select **[!UICONTROL Per profile]** to define how many times an offer can be proposed to the same user.
+    * Select **[!UICONTROL In total]** to define how many times an offer can be proposed across the combined target audience, meaning across all users.
 
-* Specify if you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+        For example, electronics retailer sets a frequency cap for their 'TV doorbuster deal' offer to only be returned 200 times across all profiles.  
 
-If the offer has been delivered the number of times you have specified in this field, according to the criteria you defined, its delivery will stop.
+    * Select **[!UICONTROL Per profile]** to define how many times an offer can be proposed to the same user.
 
-The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
+        For example, a bank sets a frequency cap for the 'Platinum credit card' offer to be shown 5 times per profile. They do this because they believe if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
+
+1. If you have defined several representations for your offer, specify if you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+
+1. Once saved and approved, if the offer has been delivered the number of times you have specified in this field according to the criteria you defined, its delivery will stop.
+
+    The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.?
 
 >[!NOTE]
 >
 >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
+
+### Impact of changing the offer date on capping {#capping-change-date}
+
+Once an offer is approved, changing its start/end date can have an impact if capping was applied this offer.
+
+Frequency capping per profile stores the capping counts on each profile. Changing the start and end date of an approved offer will update the profile capping count start and end dates. Changing these dates could impact the capping count for some profiles. Below describes the different scenarios:
+
+Changing an offer start date:
+* if offer start date is updated before the original offer start date has begun, cap counting will begin at new start date.
+* if new start date is before current end date, capping will continue to work with a new start date and counts would carry forward from earlier capping.
+* if new start date is after current end date, current capping will expire and new capping will start at 0 for all users on the new start date.
+
+Changing an offer end date:
+* If a decisioning request occurs before the original offer end date, then capping will be updated and previous counts will carry forward.
+* If no decisioning request occurs before the original end date, the count will reset. New capping count will start for any new decisioning requests after original end date.  
 
 ## Review the offer {#review}
 
