@@ -277,6 +277,11 @@ To set capping, define the number of times the offer can be presented and define
 
 ### Impact of changing the offer date on capping {#capping-change-date}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_change_date"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented."
+
 Once an offer is approved, changing its start/end date can have an impact if capping was applied this offer.
 
 Frequency capping per profile stores the capping counts on each profile. Changing the start and end date of an approved offer will update the profile capping count start and end dates. Changing these dates could impact the capping count for some profiles. Below describes the different scenarios:
