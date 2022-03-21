@@ -12,7 +12,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 
 ## Get started with AI models {#get-started-with-ai-rankings}
 
-You can use a trained model system that ranks offers to display for a given profile.
+[!DNL Journey Optimizer] allows you to use a trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
@@ -21,8 +21,6 @@ You can use a trained model system that ranks offers to display for a given prof
 This feature enables you to create different **AI models** based on your business goals. Using these different goal-based strategies in a decision, the trained model system will help you understand how the different AI models are impacting your goals.
 
 For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given placement, rather than taking into account the offers’ priority scores or a [ranking formula](create-ranking-formulas.md).
-
-Once an AI model has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >
