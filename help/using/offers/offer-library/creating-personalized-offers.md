@@ -298,6 +298,8 @@ You must proceed with care when changing the date of an offer, because this can 
 
 Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
 
+![](../assets/offer-capping-change-date.png)
+
 Here are the possible scenarios when **changing an offer start date**:
 
 | Scenario:<br>If... | What happens:<br>then... | Impact on the capping count? |
