@@ -296,9 +296,7 @@ You must proceed with care when changing the date of an offer, because this can 
 * [Capping](#capping) is already applied to the offer.
 * Capping is defined per profile.
 
-Frequency capping per profile stores the capping counts on each profile. Changing the start and end date of an approved offer will update the profile capping count start and end dates.
-
-Consequently, the capping count for some profiles could be impacted according to the different scenarios described below.
+Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
 
 Here are the possible scenarios when **changing an offer start date**:
 
@@ -315,15 +313,17 @@ Here are the possible scenarios when **extending an offer end date**:
 | ... a decisioning request occurs before the original offer end date, | ... the capping count will be updated and the previous capping count for each profile will carry forward. | No |
 | ... no decisioning request occurs before the original end date, | ... the capping count will reset on the original end date for each profile. The new capping count will then start again from 0 for any new decisioning requests that will occur after the original end date. | Yes |
 
-Example:
+**Example**
 
-Let's say you have an offer with an original start date set to January, 1st, expiring on January, 31st.
-Profiles X, Y and Z are presented the offer.
-On January, 10th, the offer's end date is changed to February, 15th.
-From January 11th to January 31st, only profile Z is presented the offer. Because a decisioning request occurred before the original end date, the offer's end date can be extended to February, 15th.
+Let's say you have an offer with an original start date set to **January, 1**, expiring on **January, 31**.
+1. Profiles X, Y and Z are presented the offer.
+1. On **January, 10**, the offer's end date is changed to **February, 15**.
+1. **From January 11 to January 31**, only profile Z is presented the offer.       
+    
+    * Because a decisioning request occurred before the original end date **for profile Z**, the offer's end date can be extended to **February, 15**.
+    * However, as no activity occurred before the original end date for **profiles X and Y**, their counters will expire and their capping counts will be reset to 0 on **January, 31**.
 
 ![](../assets/offer-capping-change-date-ex.png)
-
 
 ## Review the offer {#review}
 
