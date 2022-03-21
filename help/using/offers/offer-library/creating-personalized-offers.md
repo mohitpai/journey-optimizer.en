@@ -164,12 +164,6 @@ You can also insert text-type content when selecting a compatible placement.
 >abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
 >additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented across all users."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
 Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
 
 1. Configure the **[!UICONTROL Offer eligibility]**. [Learn more](#eligibility)
@@ -241,6 +235,11 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 ### Frequency capping {#capping}
 
 >[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented."
+
+>[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="About offer capping"
 >abstract="In this field, you can specify how many times the offer can be presented."
@@ -249,27 +248,31 @@ Capping is used as a constraint to define the maximum number of times an offer c
 
 ![](../assets/offer-capping.png)
 
-To set capping, define the number of times the offer can be presented and define the following criteria:
+To set capping, follow the steps below.
 
->[!NOTE]
->
->The number must be greater than O.
+1. Define the number of times the offer can be presented.
+
+    >[!NOTE]
+    >
+    >The number must be greater than 0.
 
 1. Specify if you want the capping to be applied accross all users or to one specific profile:
 
     * Select **[!UICONTROL In total]** to define how many times an offer can be proposed across the combined target audience, meaning across all users.
 
-        For example, electronics retailer sets a frequency cap for their 'TV doorbuster deal' offer to only be returned 200 times across all profiles.  
+        For example, if you are an electronics retailer having a 'TV doorbuster deal', you only want the offer to be returned 200 times across all profiles.
 
     * Select **[!UICONTROL Per profile]** to define how many times an offer can be proposed to the same user.
 
-        For example, a bank sets a frequency cap for the 'Platinum credit card' offer to be shown 5 times per profile. They do this because they believe if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
+        For example, if you are a bank with a 'Platinum credit card' offer, you don't want it to be shown more than 5 times per profile, because you believe if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
 
-1. If you have defined several representations for your offer, specify if you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+
+    For example, you defined 3 placements for your offer: **Email - Image**, **Web - Image** and **Non-digital - Text**. You set capping to **5**, and you apply capping **[!UICONTROL In total]** to **[!UICONTROL All placements]**: if the offer is presented 3 times as **Email - Image** and 2 times as **Non-digital - Text**, it won't be delivered anymore to any profile for any placement.
 
 1. Once saved and approved, if the offer has been delivered the number of times you have specified in this field according to the criteria you defined, its delivery will stop.
 
-    The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.?
+The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
 
 >[!NOTE]
 >
@@ -279,8 +282,8 @@ To set capping, define the number of times the offer can be presented and define
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
+>title="Changing the date may have an impact on capping"
+>abstract="If capping is applied to this offer, it may be impacted if you change the start or end date."
 
 Once an offer is approved, changing its start/end date can have an impact if capping was applied this offer.
 
