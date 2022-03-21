@@ -284,7 +284,7 @@ The number of times an offer is proposed is calculated at email preparation time
 >
 >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-### Impact of date modification on capping {#capping-change-date}
+### Impact of changing dates on capping {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
