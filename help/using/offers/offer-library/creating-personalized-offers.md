@@ -197,23 +197,23 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
 >
 >Learn more on using **segments** versus **decision rules** in [this section](#segments-vs-decision-rules).
 
-* By default, the **[!UICONTROL All visitors]** option is selected, meaning that any profile will be eligible to be presented the offer.
+By default, the **[!UICONTROL All visitors]** option is selected, meaning that any profile will be eligible to be presented the offer.
 
-    ![](../assets/offer-eligibility-default.png)
+![](../assets/offer-eligibility-default.png)
 
-* You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md).
+You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md).
 
-    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
     
-    ![](../assets/offer-eligibility-segment.png)
+![](../assets/offer-eligibility-segment.png)
 
-* If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
+If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
 
-    ![](../assets/offer_rule.png)
+![](../assets/offer_rule.png)
 
-    >[!CAUTION]
-    >
-    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+>[!CAUTION]
+>
+>Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
