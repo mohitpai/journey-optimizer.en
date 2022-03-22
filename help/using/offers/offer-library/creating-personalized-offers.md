@@ -214,21 +214,3 @@ If you want to associate a specific [decision rule](../offer-library/creating-de
 >[!CAUTION]
 >
 >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
-
-### Using segments vs decision rules {#segments-vs-decision-rules}
-
-To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
-
-Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
-
-* **Segments**
-
-    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
-
-    Learn more on segments in [this section](../../segment/about-segments.md).
-
-* **Decision rules**
-    
-    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
-
-    Learn more on decision rules in [this section](creating-decision-rules.md).
