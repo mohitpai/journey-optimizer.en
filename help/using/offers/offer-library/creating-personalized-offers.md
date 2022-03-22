@@ -144,3 +144,91 @@ You can also insert text-type content when selecting a compatible placement.
     >[!NOTE]
     >
     >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
+
+## Add eligibility rules and constraints {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="About offer eligibility"
+>abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="About offer priority"
+>abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
+
+1. Configure the **[!UICONTROL Offer eligibility]**. [Learn more](#eligibility)
+
+   ![](../assets/offer-eligibility.png)
+
+1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
+
+   ![](../assets/offer-priority.png)
+
+1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented. [Learn more](#capping)
+
+   ![](../assets/offer-capping.png)
+
+1. Click **[!UICONTROL Next]** to confirm all the constraints you defined.
+        
+For example, if you set the following constraints:
+
+![](../assets/offer-constraints-example.png)
+
+* The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
+* The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
+* The offer will be presented only once per user accross all placements.
+
+### Eligibility {#eligibility}
+
+The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer to specific profiles that you define using segments or decision rules.
+
+>[!NOTE]
+>
+>Learn more on using **segments** versus **decision rules** in [this section](#segments-vs-decision-rules).
+
+* By default, the **[!UICONTROL All visitors]** option is selected, meaning that any profile will be eligible to be presented the offer.
+
+    ![](../assets/offer-eligibility-default.png)
+
+* You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md).
+
+    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+    
+    ![](../assets/offer-eligibility-segment.png)
+
+* If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
+
+    ![](../assets/offer_rule.png)
+
+    >[!CAUTION]
+    >
+    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+
+### Using segments vs decision rules {#segments-vs-decision-rules}
+
+To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
+
+Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
+
+* **Segments**
+
+    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
+
+    Learn more on segments in [this section](../../segment/about-segments.md).
+
+* **Decision rules**
+    
+    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+
+    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
