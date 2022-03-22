@@ -50,7 +50,7 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../design/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../messages/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
