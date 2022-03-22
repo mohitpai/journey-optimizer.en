@@ -269,9 +269,9 @@ It includes the following low-level permissions:
   * datasets.read
   * profiles.read
 
-### [!DNL Manage ranking strategies] permission {#manage-decisions}
+### [!DNL Manage ranking strategies] permission {#manage-ranking-strategies}
 
-The **[!DNL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete custom messages report and use action features.
+The **[!DNL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete ranking strategies.
 
 It includes the following low-level permissions: 
 
