@@ -11,3 +11,136 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 
 Before creating an offer, make sure that you created:
 
+Before creating an offer, make sure that you created:
+
+* A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
+* If you want to add an eligibility condition: a **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../offer-library/creating-decision-rules.md).
+* One or several **tags** that you may want to associate to the offer. See [Create tags](../offer-library/creating-tags.md).
+
+➡️ [Discover this feature in video](#video)
+
+The list of personalized offers is accessible in the **[!UICONTROL Offers]** menu.
+
+![](../assets/offers_list.png)
+
+## Create the offer {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="About offer attributes"
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+To create an **offer**, follow these steps:
+
+1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
+
+    ![](../assets/create_offer.png)
+
+1. Specify the offer's name as well as its start and end date and time. Outside of these dates, the offer won’t be selected by the Decisioning engine.
+
+    ![](../assets/offer_details.png)
+
+>[!CAUTION]
+>
+>Updating the start/end dates can have an impact on capping. [Learn more](#capping-change-date)
+
+1. You can also associate one or several existing **[!UICONTROL tags]** to the offer, allowing you to search and organize the Offer Library more easily. [Learn more](../offer-library/creating-tags.md).
+
+1. The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
+
+## Configure the offer's representations {#representations}
+
+An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an HTML block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
+
+To add one or multiple representations to your offer and configure them, follow the steps below.
+
+1. For the first representation, start by selecting the **[!UICONTROL Channel]** that will be used.
+
+    ![](../assets/channel-placement.png)
+
+    >[!NOTE]
+    >
+    >Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+
+1. Select a placement from the list.
+
+    You can also use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
+
+    ![](../assets/browse-button-placements.png)
+
+    There you can still filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
+
+    ![](../assets/browse-placements.png)
+
+1. Add content to your representation. Learn how in [this section](#content).
+
+1. When you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
+
+    ![](../assets/offer-destination-link.png)
+
+1. Finally, select the language of your choice to help identify and manage what to display to the users.
+
+1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
+
+    ![](../assets/offer-add-representation.png)
+
+1. Once you added all your representations, select **[!UICONTROL Next]**.
+
+## Define content for your representations {#content}
+
+You can add different types of content to a representation.
+
+>[!NOTE]
+>
+>Only content corresponding to the placement's content type is available for use.
+
+### Add images {#images}
+
+If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
+
+>[!NOTE]
+>
+> To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    
+1. Choose the **[!UICONTROL Asset library]** option.
+
+1. Select **[!UICONTROL Browse]**.
+
+    ![](../assets/offer-browse-asset-library.png)
+
+1. Browse the assets to select the image of your choice
+
+1. Click **[!UICONTROL Select]**.
+
+    ![](../assets/offer-select-asset.png)
+
+### Add URLs {#urls}
+
+To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
+
+![](../assets/offer-content-url.png)
+
+### Add custom text {#custom-text}
+
+You can also insert text-type content when selecting a compatible placement.
+
+1. Select the **[!UICONTROL Custom]** option and click **[!UICONTROL Add content]**.
+    
+    ![](../assets/offer-add-content.png)
+    
+    >[!NOTE]
+    >
+    >This option is not available for image-type placements.
+
+1. Type the text that will display in the offer.
+
+    ![](../assets/offer-text-content.png)
+
+    You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
+
+    ![](../assets/offer-personalization.png)
+
+    >[!NOTE]
+    >
+    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
