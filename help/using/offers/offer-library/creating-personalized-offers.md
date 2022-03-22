@@ -232,58 +232,6 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
     Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
 
-### Frequency capping {#capping}
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_capping"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
-
-Capping is used as a constraint to define the maximum number of times an offer can be presented.
-
-Limiting the number of times users get specific offers allows you to avoid over-solicitating your customers and thus to optimize each touchpoint with the best offer.
-
-To set capping, follow the steps below.
-
-1. Define the number of times the offer can be presented.
-
-    ![](../assets/offer-capping-times.png)
-
-    >[!NOTE]
-    >
-    >The number must be greater than 0.
-
-1. Specify if you want the capping to be applied accross all users or to one specific profile:
-
-    ![](../assets/offer-capping-total.png)
-
-    * Select **[!UICONTROL In total]** to define how many times an offer can be proposed across the combined target audience, meaning across all users.
-
-        For example, if you are an electronics retailer having a 'TV doorbuster deal', you want the offer to be only returned 200 times across all profiles.
-
-    * Select **[!UICONTROL Per profile]** to define how many times an offer can be proposed to the same user.
-
-        For example, if you are a bank with a 'Platinum credit card' offer, you don't want this offer to be shown more than 5 times per profile. Indeed, you believe that if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
-
-1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
-
-    ![](../assets/offer-capping-placement.png)
-
-    For example, you defined 3 placements for your offer: **Email - Image**, **Web - Image** and **Non-digital - Text**. You set capping to **5**, and you apply capping **[!UICONTROL Per profile]** to **[!UICONTROL All placements]**: if the offer is presented 3 times as **Email - Image** and 2 times as **Non-digital - Text**, it won't be delivered anymore to the same profile for any placement.
-
-1. Once saved and approved, if the offer has been presented the number of times you have specified in this field according to the criteria you defined, its delivery will stop.
-
-The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
-
->[!NOTE]
->
->If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
-
 
 
 ## Review the offer {#review}
