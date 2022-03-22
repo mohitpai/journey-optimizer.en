@@ -284,48 +284,7 @@ The number of times an offer is proposed is calculated at email preparation time
 >
 >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-### Impact of changing dates on capping {#capping-change-date}
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_offer_change_date"
->title="Changing the date may have an impact on capping"
->abstract="If capping is applied to this offer, it may be impacted if you change the start or end date."
-
-You must proceed with care when changing the date of an offer, because this can have an impact on capping if the following conditions are met:
-* The offer is [approved](#review).
-* [Capping](#capping) is already applied to the offer.
-* Capping is defined per profile.
-
-Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
-
-![](../assets/offer-capping-change-date.png)
-
-Here are the possible scenarios when **changing an offer start date**:
-
-| Scenario:<br>If... | What happens:<br>then... | Impact on the capping count? |
-|--- |--- |--- |
-| ... the offer start date is updated before the original offer start date has begun, | ... the capping count will begin on the new start date. | No |
-| ... the new start date is before the current end date, | ... the capping will continue with a new start date and the previous capping count for each profile will carry forward. | No |
-| ... the new start date is after the current end date, | ... the current capping will expire and the new capping count will start again from 0 for all profiles on the new start date. | Yes |
-
-Here are the possible scenarios when **extending an offer end date**:
-
-| Scenario:<br>If... | What happens:<br>then... | Impact on the capping count? |
-|--- |--- |--- |
-| ... a decisioning request occurs before the original offer end date, | ... the capping count will be updated and the previous capping count for each profile will carry forward. | No |
-| ... no decisioning request occurs before the original end date, | ... the capping count will reset on the original end date for each profile. The new capping count will then start again from 0 for any new decisioning requests that will occur after the original end date. | Yes |
-
-**Example**
-
-Let's say you have an offer with an original start date set to **January, 1**, expiring on **January, 31**.
-1. Profiles X, Y and Z are presented the offer.
-1. On **January, 10**, the offer's end date is changed to **February, 15**.
-1. **From January 11 to January 31**, only profile Z is presented the offer.       
-    
-    * Because a decisioning request occurred before the original end date **for profile Z**, the offer's end date can be extended to **February, 15**.
-    * However, as no activity occurred before the original end date for **profiles X and Y**, their counters will expire and their capping counts will be reset to 0 on **January, 31**.
-
-![](../assets/offer-capping-change-date-ex.png)
 
 ## Review the offer {#review}
 
