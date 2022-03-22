@@ -231,4 +231,4 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
     
     On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
 
-    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
+    Learn more on decision rules in [this section](creating-decision-rules.md).
