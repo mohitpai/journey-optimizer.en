@@ -9,6 +9,11 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#configure-email}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_email"
+>title="Email creation"
+>abstract="Define your email parameters in just three simple steps."
+
 Once you [created a message](create-message.md), use the **[!UICONTROL Email]** tab to define the settings and content for the email channel.
 
 ![](assets/emails-configuration.png)
