@@ -41,13 +41,13 @@ By default, the messages are displayed starting from the most recent execution d
 
 ![](assets/message-execution-tab-filters.png)
 
-The <!--**[!UICONTROL Quick action]**-->second column enables to open the corresponding [message](create-message.md) and to access the [Live Report](../reports/live-report.md) if you are in the **[!UICONTROL Live view]**, or the [Global Report](../reports/global-report.md) if you are in the **[!UICONTROL Global view]**.
+The <!--**[!UICONTROL Quick action]**-->second column enables to open the corresponding [message](../messages/get-started-content.md) and to access the [Live Report](../reports/live-report.md) if you are in the **[!UICONTROL Live view]**, or the [Global Report](../reports/global-report.md) if you are in the **[!UICONTROL Global view]**.
 
 ![](assets/message-execution-open-live-report.png)
 
 For each message execution, a number of indicators are displayed:
 
-* **[!UICONTROL Message label]**: Message title that you defined upon [creating the message](create-message.md). The execution ID, which is automatically generated, is displayed in parentheses.
+* **[!UICONTROL Message label]**: Message title that you defined upon [creating the message](../messages/get-started-content.md). The execution ID, which is automatically generated, is displayed in parentheses.
 
   <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
@@ -88,7 +88,7 @@ In **Global view** only, you can choose if you want to display the data as numbe
 
 ![](assets/message-execution-data-format.png)
 
-Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](create-message.md).
+Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](../messages/get-started-content.md).
 
 ## How-to video {#video}
 

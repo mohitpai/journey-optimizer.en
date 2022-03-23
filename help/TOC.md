@@ -24,33 +24,35 @@ solution: Journey Optimizer
   + [Limitations](using/start/limitations.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
-  + Create messages {#create-message}
-    + [Create a message](using/messages/create-message.md)
-    + [Create an email](using/messages/create-email.md)
-    + [Create a push notification](using/messages/create-push.md)
-    + [Create an SMS message](using/messages/create-sms.md)
-  + [Add and manage assets](using/messages/assets-essentials.md)
-  + [Add personalized offers](using/messages/deliver-personalized-offers.md)  
-  + Design emails {#email-designer} 
-    + [Get started with email design](using/messages/design-emails.md)
-    + [Design your email content in the UI](using/messages/create-email-content.md)
-    + [Import or code your email content](using/messages/existing-content.md)
-    + [Use email designer content components](using/messages/content-components.md)
-  + [Add links and track messages](using/messages/message-tracking.md)
+  + [Create an email](using/messages/create-email.md)
+  + [Create a push notification](using/messages/create-push.md)
+  + [Create an SMS message](using/messages/create-sms.md)
+  + [Manage consent](using/messages/consent.md)
   + Validate and publish {#validate}
-    + [Preview and proofs](using/messages/preview.md)
     + [Check alerts](using/messages/alerts.md)
     + [Publish messages](using/messages/publish-manage-message.md)
-  + [Manage consent](using/messages/consent.md)
++ Design content {#design}
+  + [Get started with email design](using/design/design-emails.md)
+  + Design your email content in the UI {#design-email}
+    + [Design from scratch ](using/design/create-email-content.md)
+    + [Create the text version of an email](using/design/text-version-email.md)
+    + [Add a preheader](using/design/preheader.md)
+    + [Personalize your email background](using/design/backgrounds.md)
+    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
+    + [Define a style for links](using/design/styling-links.md)
+    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
+  + [Import or code your email content](using/design/existing-content.md)
+  + [Use email designer content components](using/design/content-components.md)
+  + [Add and manage assets](using/design/assets-essentials.md)
+  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
+  + [Add links and track messages](using/design/message-tracking.md)
+  + [Preview and proofs](using/design/preview.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
   + [Design a landing page](using/landing-pages/design-lp.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
-  + Reporting {#lp-reporting}
-    + [Landing page reporting](using/landing-pages/lp-report.md)
-    + [Subscription list reporting](using/landing-pages/subscription-report.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
@@ -201,17 +203,21 @@ solution: Journey Optimizer
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
-  + [Message monitoring](using/messages/message-monitoring.md)
+  + [Message monitoring](using/reports/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
     + [Email Live report](using/reports/email-live-report.md)
     + [Push Live report](using/reports/push-live-report.md)
+    + [Landing page Live report](using/reports/lp-report-live.md)
+    + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
     + [Access Global report dashboard](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Email Global report](using/reports/email-global-report.md)
     + [Push Global report](using/reports/push-global-report.md)
+    + [Landing page Global report](using/reports/lp-report-global.md)
+    + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
     + [Step event field list](using/reports/sharing-field-list.md)
@@ -224,9 +230,9 @@ solution: Journey Optimizer
         + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
-    + [Get started with deliverability](using/messages/deliverability.md)
-    + [Suppression list](using/messages/suppression-list.md)
-    + [Allowed list](using/messages/allow-list.md)
+    + [Get started with deliverability](using/reports/deliverability.md)
+    + [Suppression list](using/reports/suppression-list.md)
+    + [Allowed list](using/reports/allow-list.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -316,8 +322,8 @@ solution: Journey Optimizer
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}
     + Push notification configuration{#push-config}
-      + [Get started with push configuration](using/messages/push-gs.md)
-      + [Configure push notification channel](using/messages/push-configuration.md)
+      + [Get started with push configuration](using/configuration/push-gs.md)
+      + [Configure push notification channel](using/configuration/push-configuration.md)
     + Email configuration {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)

@@ -17,7 +17,7 @@ When creating email content with [!DNL Journey Optimizer], you can:
 
 * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content [in this section](existing-content.md#import-html-content-from-file).
 
-These features are all available when accessing the Email Designer from the message creation screen. [Learn more about message creation](create-message.md).
+These features are all available when accessing the Email Designer from the message creation screen. [Learn more about message creation](../messages/get-started-content.md).
 
 ![](assets/content-editors.png)
 

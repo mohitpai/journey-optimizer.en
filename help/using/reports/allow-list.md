@@ -34,7 +34,7 @@ Learn more on the allowed list logic in this section.
 
 >[!NOTE]
 >
->When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
+>When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](../design/preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
 
 ## Add entities to the allowed list {#add-entities}
 

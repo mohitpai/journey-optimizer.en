@@ -10,9 +10,19 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 ---
 # Create AI models {#ai-rankings}
 
+[!DNL Journey Optimizer] enables you to create **AI models** to rank offers based on your business goals.
+
+>[!CAUTION]
+>
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>The use of AI models is currently available in early access to select users only.
+
+Once an AI model has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+
 ## Create a ranking strategy {#create-ranking-strategy}
 
-To create a ranking strategy, follow the steps below:
+To create an AI model as a ranking strategy, follow the steps below:
 
 1. Access the **[!UICONTROL Components]** menu, then select the **[!UICONTROL AI rankings]** tab.
 
