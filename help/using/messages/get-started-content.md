@@ -110,7 +110,7 @@ To create a message from an existing one, follow the steps below.
 
 1. A confirmation message displays at the bottom of the window once the new message is created.
 
-You can also duplicate a message from the message list, using the dedicated icon from the quick actions menu.
+You can also duplicate a message from the message list using the dedicated icon from the quick actions menu.
 
 ![](assets/message-duplicate-from-list.png)
 
