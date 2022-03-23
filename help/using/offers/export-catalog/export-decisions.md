@@ -1,5 +1,5 @@
 ---
-title: Get started with offer catalog export
+title: Decisions dataset
 description: This section lists all the fields used in the exported dataset for decisions
 feature: Offers
 topic: Integrations
