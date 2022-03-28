@@ -151,7 +151,7 @@ To add an opt-out link in your email, follow the steps below.
 
     >[!NOTE]
     >
-    >If you enabled the List-Unsubscribe option at the message preset level, this URL will also be used when users click the unsubscribe link in the email header. [Learn more](#unsubscribe-header)
+    >If you enabled the **List-Unsubscribe** option at the message preset level, this URL will also be used when users click the unsubscribe link in the email header. [Learn more](#unsubscribe-header)
 
     ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -162,6 +162,12 @@ To add an opt-out link in your email, follow the steps below.
 Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
 ### Unsubscribe link in message header {#unsubscribe-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Add unsubscribe link to email header"
+>abstract="To add an unsubscribe link to the email header and set the unsubscribe URL, insert a one-click opt-out link into the email message content."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="One-click opt-out"
 
 If the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) is enabled at the message preset level, the corresponding emails sent with [!DNL Journey Optimizer] will also include an unsubscribe link in the email header.
 
