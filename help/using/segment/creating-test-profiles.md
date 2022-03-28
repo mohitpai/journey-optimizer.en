@@ -113,7 +113,7 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../segment/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](assets/test-profiles-22.png) 

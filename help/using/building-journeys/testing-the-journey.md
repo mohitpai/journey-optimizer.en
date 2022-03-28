@@ -13,7 +13,7 @@ Before being able to test your journey, you must resolve all errors if any. See 
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
-Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. Refer to this [section](../building-journeys/creating-test-profiles.md). 
+Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. Refer to this [section](../segment/creating-test-profiles.md). 
 
 To use the test mode, follow these steps:
 
@@ -48,7 +48,7 @@ To use the test mode, follow these steps:
 ## Important notes {#important_notes}
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../building-journeys/creating-test-profiles.md). 
+* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../segment/creating-test-profiles.md). 
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
