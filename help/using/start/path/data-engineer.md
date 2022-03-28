@@ -19,7 +19,7 @@ Learn how to **identify data and create schema and dataset** to get your data in
 
 Steps to create an identity namespace and a dataset enabled for profiles, and test profiles are detailed in the sections below:
 
-1.  **Create an identity namespace**. In Adobe [!DNL Journey Optimizer], **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.  Learn more about identities and identity namespaces [in this page](../get-started-identity.md).
+1.  **Create an identity namespace**. In Adobe [!DNL Journey Optimizer], **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.  Learn more about identities and identity namespaces [in this page](../../segment/get-started-identity.md).
 
 1. **Create a schema** and enable it for profiles. A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object (such as a person) and outline what data should be included in each instance of that object (such as first name, last name, birthday, and so on).  Learn more about schemas [in this page](../get-started-schemas.md).
 

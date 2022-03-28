@@ -55,7 +55,7 @@ To select test profiles, follow the steps below:
 
     ![](assets/previewselect-namespace.png)
 
-    Learn more about Adobe Experience Platform identity namespaces [in this section](../start/get-started-identity.md).
+    Learn more about Adobe Experience Platform identity namespaces [in this section](../segment/get-started-identity.md).
     
     In the example below, we will use the **Email** namespace.
 

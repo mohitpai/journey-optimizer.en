@@ -70,9 +70,9 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions and leverage them into your journeys. [Learn more](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
