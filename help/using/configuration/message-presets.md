@@ -101,17 +101,29 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 ### List-Unsubscribe {#list-unsubscribe}
 
-Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Custom List-Unsubscribe]** option displays.
+Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
 
 ![](assets/preset-list-unsubscribe.png)
 
 This option is enabled by default.
 
-If you leave it enabled, all emails sent with [!DNL Journey Optimizer] and using this preset will automatically include the unsubscribe link in the email header, with the default address displayed (based on the [selected subdomain](#subdomains-and-ip-pools)).
+If you leave it enabled, when you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this preset, an unsubscribe link will also be included into the email header, such as:
 
-If you disable this option, the default unsubscribe link provided by [!DNL Journey Optimizer] will not be included into the email header.
+![](assets/preset-list-unsubscribe-header.png)
 
-Learn more on using unsubscribe links in email header in [this section](../messages/consent.md).
+>[!NOTE]
+>
+>If you disable this option, no unsubscribe link will be included into the email header.
+
+Learn more on using email header unsubscribe links in [this section](../messages/consent.md#unsubscribe-header).
+
+* The unsubscribe email address will be the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the preset, based on the [selected subdomain](#subdomains-and-ip-pools).
+
+    ![](assets/preset-list-unsubscribe-mailto.png)
+
+* The unsubscribe URL (which is the URL of the landing page where the user will be redirected once unsubscribed) will be the URL defined for the one-click opt-out link. [Learn more](../messages/consent.md#one-click-opt-out)
+
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
 
