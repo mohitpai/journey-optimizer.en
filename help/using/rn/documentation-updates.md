@@ -7,10 +7,10 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
-
 ## March 2022 {#march-2022}
 
 * A new page on getting started with AI models has been added to the **Offer decisioning** section, including a thorough description of the [auto-optimization model](../offers/offer-library/ai-ranking.md#auto-optimization), the algorithm it uses and more technical details. [Read more](../offers/offer-library/ai-ranking.md)
+* The test profile creation page has been moved to the  **Segment, profiles and identity** section. [Read more](../segment/creating-test-profiles.md)
 
 ## February 2022 {#feb-2022}
 
