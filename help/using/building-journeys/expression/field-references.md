@@ -82,6 +82,13 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
+You can add any kind of expression as default value. The only constraint is that the expression must return the expected data type. When using a function, encapsulating the function with () is required.
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
+```
+
 ## Reference to a field within collections
 
 The elements defined within collections are referenced using the specific functions `all`, `first` and `last`. For more information, refer to [this page](../expression/collection-management-functions.md).
