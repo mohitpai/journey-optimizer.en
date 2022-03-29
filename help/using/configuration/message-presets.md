@@ -107,11 +107,11 @@ Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UI
 
 This option is enabled by default.
 
-* If you leave it enabled, an unsubscribe link will automatically be included into the email header, such as:
+If you leave it enabled, an unsubscribe link will automatically be included into the email header, such as:
 
-    ![](assets/preset-list-unsubscribe-header.png)
+![](assets/preset-list-unsubscribe-header.png)
 
-* If you disable this option, no unsubscribe link will display in the email header.
+If you disable this option, no unsubscribe link will display in the email header.
 
 The unsubscribe link consists in two elements:
 
@@ -123,7 +123,7 @@ The unsubscribe link consists in two elements:
 
 * The **unsubscribe URL**, which is the URL of the landing page where the user will be redirected once unsubscribed.
 
-    If you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this preset, the unsubscribe URL will be the URL defined for the one-click opt-out link. [Learn more](../messages/consent.md#one-click-opt-out)
+    If you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this preset, the unsubscribe URL will be the URL defined for the one-click opt-out link.
 
     ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -131,7 +131,7 @@ The unsubscribe link consists in two elements:
     >
     >If you do not add a one-click opt-out link into your message content, no landing page will be displayed to the user.
 
-Learn more on adding an unsubscribe link to your emails' header in [this section](../messages/consent.md#unsubscribe-header).
+Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
 

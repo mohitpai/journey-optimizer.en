@@ -179,21 +179,17 @@ For example, the unsubscribe link will display like this in Gmail:
 >
 >To display the unsubscribe link in the email header, the recipients' email client must support this feature.
 
-Depending on the email client, clicking the unsubscribe link from the header will have one of the following impacts:
+Depending on the email client, clicking the unsubscribe link from the header can have the following impacts:
 
-* The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+* The unsubscribe request is sent to the **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding [message preset](../configuration/message-presets.md#list-unsubscribe).
 
-* It has the same effect as clicking the one-click opt-out link from the email content. The recipient is redirected to the landing page that you specified when [adding the opt-out link](##one-click-opt-out) to your message.
+* The recipient is directed to the landing page that you specified when [adding the opt-out link](##one-click-opt-out) to your message.
 
     >[!NOTE]
     >
     >If you do not add a one-click opt-out link into your message content, no landing page will be displayed.
 
-The unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding message preset.
-
->[!NOTE]
->
->If you disabled the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) at the message preset level, no unsubscribe link will display in the email header.
+* The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 <!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
