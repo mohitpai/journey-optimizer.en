@@ -27,10 +27,10 @@ solution: Journey Optimizer
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
-  + [Manage consent](using/messages/consent.md)
   + Validate and publish {#validate}
     + [Check alerts](using/messages/alerts.md)
     + [Publish messages](using/messages/publish-manage-message.md)
+  + [Manage consent](using/messages/consent.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + Design your email content in the UI {#design-email}
