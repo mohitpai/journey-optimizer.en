@@ -20,7 +20,7 @@ Before using [!DNL Adobe Experience Manager Assets Essentials], you must add use
 
 ## Upload and insert assets{#add-asset}
 
-To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into. You will then be able to insert them to your email content.
+To import files to [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into. You will then be able to insert them to your email content.
 
 For more information on how to upload assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target="_blank"}.
 
@@ -61,7 +61,16 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 1. Drag and drop your asset in your email content.
 
     ![](assets/media_library_6.png)
+<!--
+1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
+
+    Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
+
+    ![](assets/media_library_14.png)
+-->
 
 1. You can further customize your assets such as adding an external link or a text with the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
 
     ![](assets/media_library_13.png)
+
+Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](publish-manage-message.md)
