@@ -9,8 +9,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## March 2022 Release {#feb-2022-release}
 
-### New capabilities 
-
 ### Improvements
 
 **Journeys**
