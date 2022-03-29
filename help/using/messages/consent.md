@@ -187,7 +187,7 @@ Depending on the email client, clicking the unsubscribe link from the header wil
 
     >[!NOTE]
     >
-    >If you 
+    >If you do not add a one-click opt-out link into your message content, no landing page will be displayed.
 
 The unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding message preset.
 

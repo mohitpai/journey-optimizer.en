@@ -39,7 +39,7 @@ To enable the allowed list on a non-production sandbox, follow the steps below.
 
 1. Click **[!UICONTROL Save]**. The allowed list is enabled.
 
-    ![](assets/allow-list-edit.png)
+    ![](assets/allow-list-enabled.png)
 
 The allowed list logic applies when the feature is enabled **and** if the allowed list is **not** empty. Learn more in [this section](#logic).
 
