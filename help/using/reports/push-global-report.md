@@ -43,7 +43,9 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+![](assets/push_global_report_3.png)
+
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
 ![](assets/push_global_report_2.png)
 

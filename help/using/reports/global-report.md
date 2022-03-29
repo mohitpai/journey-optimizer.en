@@ -17,7 +17,15 @@ Use the **[!UICONTROL Global report]** to measure the impact of your journeys an
 
 * If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Global report]** icon. You can then find the Journey, Email and Push **[!UICONTROL Global report]**.
 
+    ![](assets/report_6.png)
+
 * If you want to target a specific delivery, from the **[!UICONTROL Global view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Global Report]** from the advanced menu of your selected delivery.
+
+    ![](assets/report_4.png)
+
+* If you want to switch from the **[!UICONTROL Global report]** to the **[!UICONTROL Live report]** for your delivery, click **[!UICONTROL Live view]** from the tab switcher.
+
+    ![](assets/report_5.png)
 
 ## Customize dashboard {#modify-dashboard}
 
@@ -28,6 +36,8 @@ Each reporting dashboard can be modified by changing the time period and resizin
     ![](assets/report_modify_1.png)
 
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
+
+    Note that the **[!UICONTROL Exclude test events]** option is only available for Journey reports.
 
     ![](assets/report_modify_2.png)
 
