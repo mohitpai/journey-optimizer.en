@@ -127,7 +127,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
+>You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
 1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 

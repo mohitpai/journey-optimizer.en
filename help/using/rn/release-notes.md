@@ -7,6 +7,16 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
+## March 2022 Release {#feb-2022-release}
+
+### New capabilities 
+
+### Improvements
+
+**Journeys**
+
+* The Journey Step Event schema is no longer enabled for profiles. [Learn more](../reports/sharing-overview.md)
+* New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../reports/query-examples.md)
 
 
 ## February 2022 Release {#feb-2022-release}

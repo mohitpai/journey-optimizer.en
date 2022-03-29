@@ -68,13 +68,13 @@ To display the different offers that are part of the decision with a customer pr
 
     >[!NOTE]
     >
-    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
+    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
 1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
 
     >[!NOTE]
     >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../start/get-started-identity.md).
+    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../segment/get-started-identity.md).
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 

@@ -79,13 +79,14 @@ solution: Journey Optimizer
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
-  + [Profiles](using/start/get-started-profiles.md)
-  + [Identities](using/start/get-started-identity.md)
+  + [Profiles] {#profiles}
+    + [Get started with profiles](using/segment/get-started-profiles.md)
+    + [Create test profiles](using/segment/creating-test-profiles.md)
+  + [Identities](using/segment/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
-    + [Create test profiles](using/building-journeys/creating-test-profiles.md)  
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
     + [Get started with journeys](using/building-journeys/journey-gs.md)
