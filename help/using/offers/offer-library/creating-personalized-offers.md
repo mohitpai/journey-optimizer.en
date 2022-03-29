@@ -292,7 +292,7 @@ The number of times an offer is proposed is calculated at email preparation time
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="Changing the date may have an impact on capping"
->abstract="If capping is applied to this offer, it may be impacted if you change the start or end date."
+>abstract="If capping is applied to this offer, it may be impacted when you change the start or end date."
 
 You must proceed with care when changing the date of an offer, because this can have an impact on capping if the following conditions are met:
 
