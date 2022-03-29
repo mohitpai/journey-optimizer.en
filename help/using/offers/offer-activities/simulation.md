@@ -25,6 +25,10 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>As simulation does not generate any decision event, the [capping](../offer-library/creating-personalized-offers.md#capping) count is not impacted.
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->

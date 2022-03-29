@@ -273,15 +273,19 @@ To set capping, follow the steps below.
 
     ![](../assets/offer-capping-placement.png)
 
-    For example, you defined 3 placements for your offer: **Email - Image**, **Web - Image** and **Non-digital - Text**. You set capping to **5**, and you apply capping **[!UICONTROL Per profile]** to **[!UICONTROL All placements]**: if the offer is presented 3 times as **Email - Image** and 2 times as **Non-digital - Text**, it won't be delivered anymore to the same profile for any placement.
+    * **[!UICONTROL All placements]**: capping counts will total all decisions across the placements associated with the offer.
+    
+        For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile across all placements**, then each profile could receive the offer up to 2 times in total, regardless of the placement mix.
+
+    * **[!UICONTROL Per placement]**: capping counts will apply decision counts for each placement separately.
+    
+        For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile for each placement**, then each profile could receive the offer up to 2 times for the email placement, and an additional 2 times for the web placement.
 
 1. Once saved and approved, if the offer has been presented the number of times you have specified in this field according to the criteria you defined, its delivery will stop.
 
 The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
 
->[!NOTE]
->
->If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
+<!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
 ### Impact of changing dates on capping {#capping-change-date}
 
@@ -302,7 +306,7 @@ Frequency capping per profile stores the capping counts on each profile. When yo
 
 Here are the possible scenarios when **changing an offer start date**:
 
-| Scenario:<br>If... | What happens:<br>then... | Impact on the capping count? |
+| Scenario:<br>If... | What happens:<br>then... | Possible impact on the capping count |
 |--- |--- |--- |
 | ... the offer start date is updated before the original offer start date has begun, | ... the capping count will begin on the new start date. | No |
 | ... the new start date is before the current end date, | ... the capping will continue with a new start date and the previous capping count for each profile will carry forward. | No |
@@ -310,7 +314,7 @@ Here are the possible scenarios when **changing an offer start date**:
 
 Here are the possible scenarios when **extending an offer end date**:
 
-| Scenario:<br>If... | What happens:<br>then... | Impact on the capping count? |
+| Scenario:<br>If... | What happens:<br>then... | Possible impact on the capping count |
 |--- |--- |--- |
 | ... a decisioning request occurs before the original offer end date, | ... the capping count will be updated and the previous capping count for each profile will carry forward. | No |
 | ... no decisioning request occurs before the original end date, | ... the capping count will reset on the original end date for each profile. The new capping count will then start again from 0 for any new decisioning requests that will occur after the original end date. | Yes |
