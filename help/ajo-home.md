@@ -150,7 +150,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">Profiles</a>
+      <a href="using/segment/get-started-profiles.md">Profiles</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">Identity</a>
