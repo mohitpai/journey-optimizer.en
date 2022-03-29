@@ -33,7 +33,7 @@ In the expression, event fields are referenced with "@" and data source fields a
 
 A syntax color is used to visually distinguish events fields (green) from field groups (blue).
 
-## Default values for field references
+## Default values for field references {#default-value}
 
 A default value can be associated with a field name. The syntax is as follows:
 
