@@ -333,6 +333,7 @@ solution: Journey Optimizer
       + [Change email primary address](using/configuration/primary-email-addresses.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md) 
     + [Create message presets](using/configuration/message-presets.md)
+    + [Configure frequency rules](using/configuration/frequency-rules.md)
   + [Configure landing pages](using/configuration/lp-configuration.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
