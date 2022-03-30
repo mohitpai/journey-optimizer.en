@@ -26,6 +26,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
 * The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)
 
+**Personalization**
+
+* You can now save more than 40 personalization expressions in the library. [Learn more](../personalization/personalization-library.md)
+
 ## February 2022 Release {#feb-2022-release}
 
 ### New capabilities 
