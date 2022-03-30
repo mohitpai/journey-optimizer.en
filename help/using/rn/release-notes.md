@@ -13,7 +13,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* The Journey Step Event schema is no longer enabled for profiles. [Learn more](../reports/sharing-overview.md)
+* To avoid having unnecessary fields in the unified profile schema, the Journey Step Event schema is no longer enabled for profiles by default. If needed, you can activate it. [Learn more](../reports/sharing-overview.md)
 * New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../reports/query-examples.md)
 
 **Decision Management**
