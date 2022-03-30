@@ -24,7 +24,7 @@ A landing page is a standalone web page that a user is directed to after clickin
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Design landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">Reporting</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>
 </table>
 

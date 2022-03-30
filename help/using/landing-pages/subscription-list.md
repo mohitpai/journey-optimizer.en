@@ -59,4 +59,4 @@ You can also use subscription lists as segments when [building journeys](../buil
 
 >[!NOTE]
 >
->You can monitor your subscription list impacts through specific reports. [Learn more](../reports/subscription-report-live.md)
+>You can monitor your subscription list impacts through specific reports. [Learn more](subscription-report.md)

@@ -1,5 +1,5 @@
 ---
-title: List personalized offers
+title: Look up a personalized offer
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 feature: Offers
 topic: Integrations

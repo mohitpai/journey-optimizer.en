@@ -1,5 +1,5 @@
 ---
-title: Create tags
+title: Create a tag
 description: Tags allow you to better organize and sort through your offers.
 feature: Offers
 topic: Integrations

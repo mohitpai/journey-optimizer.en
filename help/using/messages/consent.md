@@ -45,9 +45,9 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Host it on the third-party system of your choice.
 
-1. [Create a message](get-started-content.md) in [!DNL Journey Optimizer].
+1. [Create a message](create-message.md) in [!DNL Journey Optimizer].
 
-1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar.
+1. Select text in your content and [insert a link](message-tracking.md#insert-links) using the contextual toolbar.
 
     ![](assets/opt-out-insert-link.png)
 
@@ -135,7 +135,7 @@ As many customers look for an easier process to unsubscribe, you can also add a 
 
 To add an opt-out link in your email, follow the steps below.
 
-1. [Insert a link](../design/message-tracking.md#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
+1. [Insert a link](message-tracking.md#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
 
     ![](assets/message-tracking-opt-out.png)
 
@@ -149,10 +149,6 @@ To add an opt-out link in your email, follow the steps below.
 
 1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
 
-    >[!NOTE]
-    >
-    >If you enabled the List-Unsubscribe option at the message preset level, this URL will also be used when users click the unsubscribe link in the email header. [Learn more](#unsubscribe-header)
-
     ![](assets/message-tracking-opt-out-confirmation.png)
 
     You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md).
@@ -161,31 +157,19 @@ To add an opt-out link in your email, follow the steps below.
 
 Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
-### Unsubscribe link in message header {#unsubscribe-header}
+### Unsubscribe link in message header {#unsubscribe-email}
 
-If the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) is enabled at the message preset level, the corresponding emails sent with [!DNL Journey Optimizer] will also include an unsubscribe link in the email header.
+If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
 
 For example, the unsubscribe link will display like this in Gmail:
 
-![](assets/unsubscribe-header.png)
-
->[!NOTE]
->
->To display the unsubscribe link in the email header, the recipients' email client must support this feature.
+![](assets/unsubscribe-email.png)
 
 Depending on the email client, clicking the unsubscribe link from the header will have one of the following impacts:
 
 * The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
-* It has the same effect as clicking the one-click opt-out link from the email content. The recipient is redirected to the landing page that you specified when [adding the opt-out link](##one-click-opt-out) to your message.
-
-The unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding message preset.
-
->[!NOTE]
->
->If you disabled the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) at the message preset level, no unsubscribe link will display in the email header.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
+* It has the same effect as clicking the unsubscribe link from the email content: the recipient is redirected to a landing page including a button to confirm opting out. Learn more on opt-out management in [this section](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 
