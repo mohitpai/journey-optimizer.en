@@ -30,6 +30,7 @@ solution: Journey Optimizer
     + [Create a push notification](using/messages/create-push.md)
     + [Create an SMS message](using/messages/create-sms.md)
   + [Add and manage assets](using/messages/assets-essentials.md)
+  + [Work with Adobe Stock](using/messages/stock.md)
   + [Add personalized offers](using/messages/deliver-personalized-offers.md)  
   + Design emails {#email-designer} 
     + [Get started with email design](using/messages/design-emails.md)
