@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: About actions
 description: Learn how to configure an action
 feature: Actions
