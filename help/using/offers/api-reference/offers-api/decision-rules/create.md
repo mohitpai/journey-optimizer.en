@@ -1,5 +1,5 @@
 ---
-title: Create a decision rule
+title: Create decision rules
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 feature: Offers
 topic: Integrations

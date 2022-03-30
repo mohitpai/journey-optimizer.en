@@ -19,7 +19,7 @@ The goal of this example is to push an event to [!DNL Journey Optimizer] every t
 
 For this use case, the following prerequisites are needed:
 
-* create and design a push notification message, without publishing it. Refer to this [section](../messages/get-started-content.md).
+* create and design a push notification message, without publishing it. Refer to this [section](../messages/create-message.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
 * create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-activities/create-offer-activities.md).
 

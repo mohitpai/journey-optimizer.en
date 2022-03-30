@@ -1,5 +1,5 @@
 ---
-title: Look up a decision
+title: List decisions
 description: A decision contains the logic that informs the selection of an offer.
 feature: Offers
 topic: Integrations

@@ -11,8 +11,6 @@ exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 
 You can publish a journey after testing its validity.
 
-➡️ [Discover this feature in video](#video)
-
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [this page](../building-journeys/journey-versions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
 
 If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
@@ -23,9 +21,3 @@ If you stop a journey, it will be permanently stopped. All the persons flowing i
     ![](assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode.
-
-## How-to video {#video}
-
-Learn how to publish a journey.
-
->[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)

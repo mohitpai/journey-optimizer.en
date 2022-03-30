@@ -1,5 +1,5 @@
 ---
-title: Create a personalized offer
+title: Create personalized offers
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 feature: Offers
 topic: Integrations

@@ -9,17 +9,11 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 ---
 # Create a push notification {#create-push-notification}
 
->[!CONTEXTUALHELP]
->id="ajo_message_push"
->title="Push message creation"
->abstract="Add your push message and start personalizing it with the Expression Editor."
-
-
 Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install, or in a subsequent session or workflow as appropriate. 
 
 [!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
 
-Once you [created a message](get-started-content.md), click the **[!UICONTROL Push Notification]** tab to define the settings and content of the push notification. 
+Once you [created a message](create-message.md), click the **[!UICONTROL Push Notification]** tab to define the settings and content of the push notification. 
 
 ![](assets/create-content-push.png)
 
@@ -62,7 +56,7 @@ Two options are available. You can:
 
 *  Use the **[!UICONTROL Add media]** button to select an asset in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-    Learn how to use **[!DNL Adobe Experience Manager Assets Essentials]** in [this page](../design/assets-essentials.md).
+    Learn how to use **[!DNL Adobe Experience Manager Assets Essentials]** in [this page](assets-essentials.md).
     
 * Or enter the URL of the media in the **[!UICONTROL Add media]** field. In that case, you can add personalization to the URL.
 
@@ -96,7 +90,7 @@ Use the **[!UICONTROL Custom data]** section to add key-value pairs.
 
 ## Custom data
 
-In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](../configuration/push-gs.md)
+In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-gs.md)
 
 ## Advanced options {#advanced-options-push}
 
@@ -121,6 +115,6 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Configure push channel](../configuration/push-gs.md)
-* [Create a new message](get-started-content.md)
+* [Configure push channel](push-gs.md)
+* [Create a new message](create-message.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

@@ -91,8 +91,6 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 >
 >This method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
-➡️ [Learn how to create a subdomain using CNAME to point to Adobe-specific records in this video](#video)
-
 To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
@@ -178,9 +176,3 @@ The checks and actions below will be performed until the subdomain is verified a
 1. **Create forward DNS**: if this is the first subdomain that you are delegating, Adobe will create the forward DNS which is required to create PTR records - one for each of your IPs.
 
 1. **Create PTR record**: PTR record, also known as reverse DNS record, is required by the ISPs so that they do not mark the emails as spam. Gmail also recommends having PTR records for each IP. Adobe creates PTR records only when you delegate a subdomain for the first time, one for each IP, all IPs pointing that subdomain. For example, if the IP is *192.1.2.1* and the subdomain is *email.example.com*, the PTR record will be: *192.1.2.1  PTR r1.email.example.com*. You can update the PTR record afterwards to point to the new delegated domain. [Learn more on PTR records](ptr-records.md)
-
-## How-to video{#video}
-
-Learn how to create a subdomain using CNAME to point to Adobe-specific records.
-
->[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

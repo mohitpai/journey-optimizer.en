@@ -9,7 +9,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 ---
 # Create test profiles {#create-test-profiles}
 
-Test profiles are required when using the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your content](../design/preview.md).
+Test profiles are required when using the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your content](../messages/preview.md).
 
 There are several ways to create test profiles. You can find in this page details to:
 
@@ -22,8 +22,6 @@ There are several ways to create test profiles. You can find in this page detail
 You can also upload a json file in an existing dataset. For more on this, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Note that creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
-
-➡️ [Learn how to create test profiles in this video](#video)
 
 ## Prerequisites {#test-profile-prerequisites}
 
@@ -222,8 +220,3 @@ curl -X POST \
 }
 }'
 ```
-## How-to video {#video}
-
-Learn how to create test profiles.
-
->[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

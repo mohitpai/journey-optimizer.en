@@ -28,7 +28,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-➡️ [Learn more on Decision Management in these videos](#video)
+➡️ [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
 
 ## About offers and decisions {#about-offers-and-decisions}
 
@@ -96,7 +96,8 @@ You can find below the list of the main concepts you will work with when using D
 
 * **Representations**: A representation is information used by a channel, such as location or language to display an offer.
 
-## How-to videos{#video}
+
+## Tutorial videos {#tutorial-videos}
 
 >[!NOTE]
 >
@@ -113,5 +114,3 @@ The video below provides an introduction to Decision Management key capabilities
 The video below shows how to use Decision Management to define and manage your offers and leverage real-time customer data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
-
-

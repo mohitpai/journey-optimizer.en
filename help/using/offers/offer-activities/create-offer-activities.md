@@ -11,7 +11,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 
 Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
-➡️ [Learn how to create offer activities in this video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of decisions is accessible in the **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
@@ -64,7 +64,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](../offer-library/creating-personalized-offers.md#segments-vs-decision-rules).
 
     * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
@@ -111,26 +111,6 @@ Before creating a decision, make sure that the components below have been create
 1. To add another placement for your offers as part of this decision, use the **[!UICONTROL New scope]** button. Repeat the steps above for each decision scope.
 
     ![](../assets/activity_new-scope.png)
-
-### Using segments vs decision rules {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
-
-Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
-
-* **Segments**
-
-    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
-
-    Learn more on segments in [this section](../../segment/about-segments.md).
-
-* **Decision rules**
-    
-    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
-
-    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
 
 ## Add a fallback offer {#add-fallback}
 
@@ -215,12 +195,10 @@ This enables you to access detailed information for that decision. Select the **
 
 ![](../assets/decision_information.png)
 
-## How-to video{#video}
-
-Learn how to create offer activities in Offer Decisioning.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+## Tutorial video {#video}
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

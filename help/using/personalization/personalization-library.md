@@ -16,9 +16,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 
 [!DNL Journey Optimizer] provides a library where you can access previously saved personalization expressions that have been added by Admin users. 
 
-➡️ [Learn how to work with saved expressions in this video](#video-preview)
-
-To access the saved expressions, click the **[!UICONTROL Library]** button in the left pane. The list displays all the expressions that have been saved by Admin users (see [Save expressions to the library](#save-expressions)).
+1. To access the saved expressions, click the **[!UICONTROL Library]** button in the left pane. The list displays all the expressions that have been saved by Admin users (see [Save expressions to the library](#save-expressions)).
 
     >[!NOTE]
     >
@@ -26,7 +24,7 @@ To access the saved expressions, click the **[!UICONTROL Library]** button in th
     
     ![](assets/library-list.png)
 
-Click the + to insert the expression into the editor. You can then customize and validate your personalization content as usual. [Learn more](../personalization/personalization-build-expressions.md)
+1. Click the + to insert the expression into the editor. You can then customize and validate your personalization content as usual. [Learn more](../personalization/personalization-build-expressions.md)
 
     ![](assets/library-add.png)
 
@@ -63,10 +61,3 @@ To save an expression to the library, follow these steps:
 To edit an existing expression, add it to the editor, then modify it according to your needs. Click **[!UICONTROL Add to library]** to validate the syntax and save the expression.
 
 To delete an expression, click the ellipse button then click **[!UICONTROL Delete]**.
-
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
-

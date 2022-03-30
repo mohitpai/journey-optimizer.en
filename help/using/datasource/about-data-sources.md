@@ -21,8 +21,6 @@ The data source configuration allows you to define a connection to a system to r
 * [custom wait definition](../building-journeys/wait-activity.md#custom)
 * [time zone definition](../building-journeys/timezone-management.md)
 
-➡️ [Discover this feature in video](#video)
-
 This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by a message activity that only uses data from the event, there is no need to configure a data source.
 
 There are two types of data sources:
@@ -37,10 +35,3 @@ For each data source, you define the information to retrieve using field groups.
 >Schema relationships are now supported for data sources.
 
 For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target="_blank"}.
-
-## How-to video {#video}
-
-Understand what a data source is and learn how to configure Experience Platform and external data sources.
-
->[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
-

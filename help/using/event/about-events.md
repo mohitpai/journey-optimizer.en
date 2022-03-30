@@ -16,11 +16,15 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 
 The event configuration allows you to define the information [!DNL Journey Optimizer] will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event.
 
+>[!NOTE]
+>
+>For more information on how to configure an event, watch the [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 >[!CAUTION]
 >
 >Event configuration is **mandatory** and must be performed by a **technical user**.
 
-You can configure two types of events:
+You can  configure two types of events:
 
 * **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unitary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
 
@@ -30,8 +34,6 @@ You can configure two types of events:
 >[!NOTE]
 >
 >If you edit an event used in a draft or live journey, you can only change the name, the description or add payload fields. We strictly limit the edition of draft or live journeys to avoid breaking journeys.
-
-➡️ [Discover this feature in video](#video)
 
 ## Event ID type{#event-id-type}
 
@@ -58,13 +60,3 @@ The payload contains information required by Streaming Ingestion APIs to work (i
 After arriving through Streaming Ingestion APIs, events flow into an internal service called Pipeline and then in Adobe Experience Platform. If the event schema has the Real-time Customer Profile Service flag enabled and a dataset ID that also has the Real-time Customer Profile flag, it flows into the Real-time Customer Profile Service.
 
 For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Optimizer] eventIDs (see the event creation process below) provided by [!DNL Journey Optimizer] and contained in event payload. For rule-based events, the system identifies the event using the eventID condition. These events are listened by [!DNL Journey Optimizer] and the corresponding journey is triggered.
-
-## How-to videos {#video}
-
-Learn how to configure an event, specify the streaming endpoint and the payload for an event.
-
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
-
-Understand the applicable use cases for business events. Learn how to build a journey using a business event and which best practices to apply.
-
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

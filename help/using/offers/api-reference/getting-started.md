@@ -11,7 +11,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Decision Management Engine.
 
-➡️ [Learn more on the components of Decision Management in this video](#video)
+➡️ [Discover this feature in video](#video)
 
 ## Prerequisites {#prerequisites}
 
@@ -122,12 +122,12 @@ A successful response returns information regarding decision management containe
 
 This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API, including acquiring your container ID. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
 
-## How-to video {#video}
+## Tutorial video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

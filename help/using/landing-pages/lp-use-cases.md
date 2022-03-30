@@ -41,9 +41,9 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. [Publish](create-lp.md#publish) the landing page.
 
-1. [Create an email message](../messages/get-started-content.md) to announce that registration is now open for your event.
+1. [Create an email message](../messages/create-message.md) to announce that registration is now open for your event.
 
-1. [Insert a link](../design/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
+1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
     ![](assets/lp_subscription-uc-link.png)
 
@@ -122,9 +122,9 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](assets/lp_opt-out-publish.png)
 
-1. [Create an email message](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [Create an email message](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
+1. Select text in your content and [insert a link](../messages/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
 
     ![](assets/lp_opt-out-insert-link.png)
 

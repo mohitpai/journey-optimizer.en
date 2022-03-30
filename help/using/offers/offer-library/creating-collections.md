@@ -9,11 +9,6 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 ---
 # Create collections {#create-collections}
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_decision_collection"
->title="About offer collections"
->abstract="With offer collections, you can organize your offers by regrouping them into categories of your choice."
-
 Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 
 ➡️ [Discover this feature in video](#video)
@@ -54,10 +49,10 @@ To create a collection, follow these steps:
 
     ![](../assets/collection_created.png)
 
-## How-to video {#video}
-
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
+## Tutorial video {#video}
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
