@@ -16,7 +16,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages
 
-    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../messages/push-gs.md)
+    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../configuration/push-gs.md)
 
     * Create message presets to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
 
@@ -25,7 +25,7 @@ To be able to create your journeys and send messages, you need to go though thes
     * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
     <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
     
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
