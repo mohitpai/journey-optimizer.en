@@ -9,6 +9,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## March 2022 Release {#march-2022-release}
 
+<!--
 ### New capability
 
 <table>
@@ -27,6 +28,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
+-->
 
 ### Improvements
 
