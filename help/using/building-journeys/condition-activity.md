@@ -47,15 +47,17 @@ If you're using the [Adobe Experience Platform Segmentation Service](https://exp
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Adobe Journey Orchestration documentation](expression/expressionadvanced.md).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [this page](expression/expressionadvanced.md).
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
-In the simple editor, you will also find the Journey Properties category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. For more information, see [Adobe Journey Orchestration documentation](expression/journey-properties.md)
+In the simple editor, you will also find the Journey Properties category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. [Learn more](expression/journey-properties.md)
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Adobe Journey Orchestration documentation](expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. Learn how to use the expression editor in [this section](expression/expressionadvanced.md). 
+
+Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. [Learn more](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -106,7 +108,7 @@ The nominal path always has priority over the alternate path, even if you move t
 For live journeys, here are the thresholds to consider to ensure the limit is reached:
 
 * For a cap greater than 10000, the number of distinct profiles to be injected must be at least 1.3 times the cap.
-* For a cap below 10000, the number of distinct profiles to be injected must 1000 plus the cap.
+* For a cap below 10000, the number of distinct profiles to be injected must be 1000 plus the cap.
 
 Profile cap is not taken into account in test mode.
 

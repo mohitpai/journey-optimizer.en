@@ -33,7 +33,7 @@ Learn how to create a schema, add field groups, create, and configure custom fie
 
 **See also**
 
-* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](../building-journeys/creating-test-profiles.md)
+* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](../segment/creating-test-profiles.md)
 * [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}
 * [Best practices for data modeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
 * [Create a schema using the Schema Registry API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}

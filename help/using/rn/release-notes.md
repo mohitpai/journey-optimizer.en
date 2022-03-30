@@ -7,7 +7,47 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
+## March 2022 Release {#march-2022-release}
 
+### New capability
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Stock integration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> The Adobe Stock and Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate, license and save imagery for use in message authoring. </br> The new <b>Find similar Stock photos</b> option also allows you to locate Stock photos that will match the content, color, and composition of your images. </p>
+<p>This feature is available in early access. Contact your Adobe Account Executive to activate it.</p>
+<p>For more information, refer to the <a href="../messages/stock.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Journeys**
+
+* To avoid having unnecessary fields in the unified profile schema, the Journey Step Event schema is no longer enabled for profiles by default. If needed, you can activate it. [Learn more](../reports/sharing-overview.md)
+* New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../reports/query-examples.md)
+
+**Decision Management**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* The Batch Decisioning API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**Personalization**
+
+* You can now save more than 40 personalization expressions in the library. [Learn more](../personalization/personalization-library.md)
 
 ## February 2022 Release {#feb-2022-release}
 

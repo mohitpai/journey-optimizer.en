@@ -53,8 +53,6 @@ To save an expression to the library, follow these steps:
 
 >[!NOTE]
 >
->* You save up to 40 expressions in the library.
->
 >* Expressions cannot exceed 200KB.
 >
 >* Saved expressions are sorted by creation date: recently added expression will be shown first in the list.

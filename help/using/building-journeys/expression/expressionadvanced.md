@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: About the advanced expression editor
 description: Learn how to build advanced expressions
 feature: Journeys

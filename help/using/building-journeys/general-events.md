@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: General events
 description: Learn how to use general events
 feature: Journeys

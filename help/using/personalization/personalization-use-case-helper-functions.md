@@ -139,7 +139,7 @@ The cart content is contextual information from the journey. Therefore, you must
    
       **[!UICONTROL Contextual attributes]** are available only after the journey context has been passed to the message.
    
-   1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
+   1. Select **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
 
