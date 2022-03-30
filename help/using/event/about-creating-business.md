@@ -21,7 +21,8 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 ## Important notes {#important-notes}
 
-*  Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
+* Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. 
+* The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
@@ -72,7 +73,7 @@ Here are the first steps to configure a business event:
 
    ![](assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
+   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 
     ![](assets/test-profiles-4.png)
 
