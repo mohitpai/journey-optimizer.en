@@ -9,6 +9,25 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## March 2022 Release {#march-2022-release}
 
+### New capability
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Stock integration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> The Adobe Stock and Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate, license and save imagery for use in message authoring. </br> The new <b>Find similar Stock photos</b> option also allows you to locate Stock photos that will match the content, color, and composition of your images. </p>
+<p>This feature is available in early access. Contact your Adobe Account Executive to activate it.</p>
+<p>For more information, refer to the <a href="../messages/stocl.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Improvements
 
 **Journeys**

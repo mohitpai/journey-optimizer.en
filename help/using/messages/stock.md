@@ -5,12 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 # Manage [!DNL Adobe Stock] images {#stock}
 
 ## Get started with [!DNL Adobe Stock] {#get-started-stock}
+
+>[!NOTE]
+>This feature is available in early access. Contact your Adobe Account Executive to activate it
 
 [!DNL Adobe Stock] provides access to millions of high-quality, curated, royalty-free photos, videos, illustrations, and vector graphics. You can choose to purchase a credit pack to license assets or only buy one Standard or Extended license for the needed asset. Adobe Stock also provides a free collection of assets.
 
