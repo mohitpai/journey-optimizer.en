@@ -7,13 +7,15 @@ role: Data Engineer
 level: Experienced
 ---
 
-# Deliver offers using the Batch Decisioning API
+# Deliver offers using the [!DNL Batch Decisioning] API
 
-With the Batch Decisioning API, you can populate a dataset with the best offers for all profiles in an Adobe Experience Platform segment for a decision scope. For example, an organization may want to run batch decisioning so they can send offers to a message delivery vendor. Those offers are then used as content that is sent out for batch message delivery to the same segment of users. 
+The [!DNL Batch Decisioning] API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
+
+With the [!DNL Batch Decisioning] API, you can populate a dataset with the best offers for all profiles in an Adobe Experience Platform segment for a decision scope. For example, an organization may want to run batch decisioning so they can send offers to a message delivery vendor. Those offers are then used as content that is sent out for batch message delivery to the same segment of users. 
 
 To do this, the organization would:
 
-* Run the Batch Decisioning API, which contains two requests:
+* Run the [!DNL Batch Decisioning] API, which contains two requests:
     
     1. A **Batch GET request** to get batch workload status.
     
@@ -180,10 +182,10 @@ The end-to-end time for every batch decision is the duration from the time the w
 
 ## Limitations {#limitations}
 
-The following limitations exist with Batch Decisioning API: 
+The following limitations exist with [!DNL Batch Decisioning] API: 
 
   * **Single batch job**: Currently, only a single batch job can be run per dataset at a time. Any other requests would respond with HTTP 429 (Too Many Requests).
-  * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The Batch Decisioning API caps the frequency and always loads profiles from the most recent snapshot.
+  * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
 
 ## Next steps {#next-steps}
 
