@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 ---
 # Message frequency rules {#frequency-rules}
 
