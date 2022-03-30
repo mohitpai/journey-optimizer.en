@@ -308,6 +308,7 @@ solution: Journey Optimizer
         + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
     + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
+        + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Data management {#data-management}
   + [Schemas](using/start/get-started-schemas.md)
