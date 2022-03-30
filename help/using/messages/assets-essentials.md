@@ -61,13 +61,6 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 1. Drag and drop your asset in your email content.
 
     ![](assets/media_library_6.png)
-<!--
-1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
-
-    Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
-
-    ![](assets/media_library_14.png)
--->
 
 1. You can further customize your assets such as adding an external link or a text with the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
 
