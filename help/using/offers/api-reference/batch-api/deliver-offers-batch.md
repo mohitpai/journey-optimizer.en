@@ -37,7 +37,7 @@ Follow the steps below to prepare your decisions:
 
 * Create a Platform segment which should be evaluated and then updated. Refer to the [segmentation documentation](http://www.adobe.com/go/segmentation-overview-en) to learn more about how to update segment membership evaluation.
 
-* Create a decision (which has a decision scope that consists of a Decision ID and a Placement ID) in Adobe Journey Optimizer. Refer to the [section on defining decision scopes](../offer-activities/create-offer-activities.md) of the guide on creating decisions to learn more.
+* Create a decision (which has a decision scope that consists of a Decision ID and a Placement ID) in Adobe Journey Optimizer. Refer to the [section on defining decision scopes](../../offer-activities/create-offer-activities.md) of the guide on creating decisions to learn more.
 
 ### API requirements
 
@@ -150,7 +150,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 | `xdm:itemCount` | This is an optional field showing the number of items such as options requested for the decisioning scope. By default, the API returns one option per scope, but you can explicitly ask for more options by specifying this field. A minimum of 1 and a maximum of 30 options can be requested per scope. | `1`|
 | `xdm:includeContent` | This is an optional field and is `false` by default. If `true`, the offer content is included in the decision events of dataset. |`false` |
 
-Refer to the [Decision Management documentation](../offers/get-started/starting-offer-decisioning.md) for an overview of the main concepts.
+Refer to the [Decision Management documentation](../../get-started/starting-offer-decisioning.md) for an overview of the main concepts.
 
 **Response**
 
@@ -189,6 +189,4 @@ The following limitations exist with [!DNL Batch Decisioning] API:
 
 ## Next steps {#next-steps}
 
-By following this API guide, you have checked for the workload status and delivered offers using the [!DNL Batch Decisioning] API. For more information, see the [overview on Decision Management](../../../offers/get-started/starting-offer-decisioning.md).
-
-
+By following this API guide, you have checked for the workload status and delivered offers using the [!DNL Batch Decisioning] API. For more information, see the [overview on Decision Management](../../get-started/starting-offer-decisioning.md).
