@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 ---
-
 # Deliver offers using the [!DNL Batch Decisioning] API
 
 The [!DNL Batch Decisioning] API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
