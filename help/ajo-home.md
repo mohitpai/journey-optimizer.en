@@ -172,7 +172,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 
 
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!
 
 Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
