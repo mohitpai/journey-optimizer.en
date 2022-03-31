@@ -7,11 +7,8 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
->[!NOTE]
->
-> Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) today!
-> Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
->
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
+
 
 ## March 2022 Release {#march-2022-release}
 
