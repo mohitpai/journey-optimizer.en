@@ -19,11 +19,11 @@ The allowed list enables you to specify individual email addresses or domains th
 
 ## Enable the allowed list {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.<!--to remove-->
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.<!--to remove-->
 
-To enable the allowed list on a non-production sandbox, follow the steps below.
+<!--To enable the allowed list on a non-production sandbox, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
@@ -39,7 +39,7 @@ To enable the allowed list on a non-production sandbox, follow the steps below.
 
 1. Click **[!UICONTROL Save]**. The allowed list is enabled.
 
-    ![](assets/allow-list-enabled.png)
+    ![](assets/allow-list-enabled.png)-->
 
 The allowed list logic applies when the feature is enabled **and** if the allowed list is **not** empty. Learn more in [this section](#logic).
 

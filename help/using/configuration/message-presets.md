@@ -99,6 +99,7 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
+<!--
 ### List-Unsubscribe {#list-unsubscribe}
 
 Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
@@ -133,7 +134,7 @@ The unsubscribe link consists in two elements:
 
 Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### URL tracking{#url-tracking}
 
