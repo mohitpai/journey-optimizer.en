@@ -21,8 +21,8 @@ You will use these types of helper functions:
 ➡️ [Learn how to use helper functions in this video](#video)
 
 Before you start, ensure you know how to configure these elements:
-* An email message. [Learn more](../messages/create-message.md)
-* The body of an email. [Learn more](../messages/create-email-content.md).
+* An email message. [Learn more](../messages/get-started-content.md)
+* The body of an email. [Learn more](../design/create-email-content.md).
 * A unitary event. [Learn more](../event/about-events.md).
 * A journey that starts with an event. [Learn more](../building-journeys/using-the-journey-designer.md).
 

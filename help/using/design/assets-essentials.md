@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
-# Create and manage assets  {#experience-manager-assets}
+# Create and manage assets {#experience-manager-assets}
 
 ## Get started with [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -66,4 +66,4 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_13.png)
 
-Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](publish-manage-message.md)
+Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](../messages/publish-manage-message.md)

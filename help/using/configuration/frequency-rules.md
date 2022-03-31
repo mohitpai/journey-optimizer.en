@@ -99,7 +99,7 @@ The rule's status will change to **[!UICONTROL Inactive]** and the rule will not
 
 ## Apply a frequency rule to a message {#apply-frequency-rule}
  
-To apply a frequency rule to a message, you simply need to select the category you defined for this rule when [creating the message](../messages/create-message.md#create-new-message).
+To apply a frequency rule to a message, you simply need to select the category you defined for this rule when [creating the message](../messages/get-started-content.md#create-new-message).
 
 ![](assets/message-rules-properties.png)
 
@@ -107,7 +107,7 @@ By selecting the **[!UICONTROL Marketing]** category, all the matching message f
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
-You can view the number of profiles excluded from delivery in the [Live and Global views](../messages/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
+You can view the number of profiles excluded from delivery in the [Live and Global views](../reports/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 
 ## Example
 
