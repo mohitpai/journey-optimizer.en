@@ -63,6 +63,11 @@ Here are the main steps to send messages through journeys:
 
 ## Changing properties {#change-properties}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Journey properties"
+>abstract="You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a Timeout and error duration if you are admin."
+
 Click on the pencil icon, in the top right to access the journey's properties.
 
 You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a **[!UICONTROL Timeout and error]** duration if you are admin. 

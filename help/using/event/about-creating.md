@@ -9,6 +9,11 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 ---
 # Configure a unitary event {#configure-an-event}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="Unitary events"
+>abstract="The event configuration allows you to define the information Journey Optimizer will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event. Unitary events are linked to a specific profile. They can be rule-based or system-generated."
+
 Unitary events are linked to a specific profile. They can be rule-based or system-generated.  Read more on unitary event [this section](../event/about-events.md).
 
 Here are the first steps to configure a new event:

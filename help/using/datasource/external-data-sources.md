@@ -9,6 +9,11 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
 # External data sources {#external-data-sources}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_custom"
+>title="External data sources"
+>abstract="External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need."
+
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.

@@ -9,6 +9,11 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 ---
 # Design your journey {#design-your-journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_canvas"
+>title="Design your journey"
+>abstract="The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available."
+
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on. 
 
 ## Get started with journey design 

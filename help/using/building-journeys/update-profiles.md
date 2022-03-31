@@ -9,6 +9,11 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 ---
 # Update Profile {#update-profile}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="Update Profile activity"
+>abstract="The Update Profile action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value."
+
 The **[!UICONTROL Update Profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.
 
 ## Important notes

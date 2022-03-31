@@ -9,6 +9,11 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 ---
 # Configure a business event {#configure-a-business-event}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Business events"
+>abstract="The event configuration allows you to define the information Journey Optimizer will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event. Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based." 
+
 Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. Read more on business events in [this section](../event/about-events.md). 
 
 Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.

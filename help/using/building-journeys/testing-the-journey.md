@@ -9,6 +9,11 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 ---
 # Test your journey{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="Test your journey"
+>abstract="You can test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication."
+
 Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
@@ -59,6 +64,11 @@ To use the test mode, follow these steps:
 
 ## Firing your events {#firing_events}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="Configure the test mode"
+>abstract="If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending."
+
 The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
 >[!NOTE]
@@ -104,6 +114,11 @@ When using a business event (see [this section](../event/about-events.md)), test
 Note that when you first trigger a business event, you cannot change the business event definition in the same test session. You can only make the same individual or a different individual enter the journey passing the same or another identifier. If you want to change business event parameters, you must stop and start again test mode.
 
 ## Viewing the logs {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Test mode logs"
+>abstract="You can view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results."
 
 The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
 

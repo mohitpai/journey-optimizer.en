@@ -9,6 +9,11 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 ---
 # Condition activity{#condition-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="Condition activity"
+>abstract="This activity allows you to define how the individual will flow in the journey. Several paths will be created based on various criterias. You can also create an alternative path in case of a timeout or an error."
+
 These types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
@@ -20,6 +25,11 @@ These types of conditions are available:
 ![](assets/journey49.png)
 
 ## About the Condition activity {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="About the simple expression editor"
+>abstract="The simple expression editor mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level."
 
 When using several conditions in a journey, you can define labels for each of them to identify them more easily.
 

@@ -9,6 +9,11 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 ---
 # Use custom actions {#use-custom-actions}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom"
+>title="Custom actions"
+>abstract="Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload."
+
 Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload.
 
 ## URL configuration

@@ -9,6 +9,11 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_acc"
+>title="Adobe Campaign v7/v8 actions"
+>abstract="This integration is available for Adobe Campaign Classic v7 and v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities. The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time." 
+
 This integration is available for Adobe Campaign Classic v7 starting 7.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time.
