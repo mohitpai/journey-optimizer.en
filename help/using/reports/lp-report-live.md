@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 ---
 # Landing page live report {#lp-report-live}
 

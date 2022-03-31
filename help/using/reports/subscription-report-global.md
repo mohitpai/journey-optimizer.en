@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 ---
 # Subscription global report {#subscription-report-global}
 

@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 ---
 # Subscription live report {#subscription-report-live}
 
@@ -29,4 +30,3 @@ The **[!UICONTROL Subscription performance]** graph shows the evolution of subsc
 ![](assets/subscription_report_4.png)
 
 The **Subscriptions - Breakdown** and **Unsubscribes - Breakdown** graphs represent the total number of persons who subscribed or unsubscribed in the last 24 hours depending on the messages, landing pages and channels.
-

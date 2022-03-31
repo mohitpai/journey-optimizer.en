@@ -5,8 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
 ---
-
 # Define a style for links {#styling-links}
 
 You can underline a link and select its color and target in the Email Designer.

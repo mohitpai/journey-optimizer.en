@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 ---
 # Landing page global report {#lp-report-global}
 
