@@ -90,7 +90,6 @@ Choose **Transactional** for non-commercial messages such as order confirmation,
 >
 >**Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
 
-
 ### Subdomain & IP pool {#subdomains-and-ip-pools}
 
 In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
@@ -99,7 +98,6 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
-<!--
 ### List-Unsubscribe {#list-unsubscribe}
 
 Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.

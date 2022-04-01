@@ -9,21 +9,27 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 ---
 # Allowed list {#allow-list}
 
-It is possible to define a specific sending-safe list at the [sandbox](../administration/sandboxes.md) level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
+It is possible to define a specific sending-safe list at the [sandbox](../administration/sandboxes.md) level, to have a safe environment for testing purpose.
+
+For example, on a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
+
+>[!NOTE]
+>
+>This feature is now available on production and non-production sandboxes.
 
 The allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment.
 
 >[!CAUTION]
 >
->This feature is **not** available on production sandboxes. It only applies to the email channel.
+>This feature only applies to the email channel.
 
 ## Enable the allowed list {#enable-allow-list}
 
-To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.<!--to remove-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-You can update the allowed list before or after enabling the feature.<!--to remove-->
+You can update the allowed list before or after enabling the feature.-->
 
-<!--To enable the allowed list on a non-production sandbox, follow the steps below.
+To enable the allowed list, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
@@ -39,7 +45,7 @@ You can update the allowed list before or after enabling the feature.<!--to remo
 
 1. Click **[!UICONTROL Save]**. The allowed list is enabled.
 
-    ![](assets/allow-list-enabled.png)-->
+    ![](assets/allow-list-enabled.png)
 
 The allowed list logic applies when the feature is enabled **and** if the allowed list is **not** empty. Learn more in [this section](#logic).
 
