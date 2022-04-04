@@ -23,7 +23,7 @@ Actions are connections through which you deliver personalized, real-time experi
 
 If you have Adobe Campaign v7 or v8, an integration is available upon request. Refer to [this page](../action/acc-action.md).
 
-If you're using a third-party system to send messages such as Epsilon, Facebook, Adobe.io, Firebase, etc, you need to add and configure a custom action. Refer to [this page](../action/about-custom-action-configuration.md).
+If you're using a third-party system to send messages such as Epsilon, Facebook, [Adobe Developer](developer.adobe.com), Firebase, etc, you need to add and configure a custom action. Refer to [this page](../action/about-custom-action-configuration.md).
 
 Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload.
 
