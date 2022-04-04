@@ -252,7 +252,10 @@ solution: Journey Optimizer
       + [About AI models](using/offers/offer-library/ai-ranking.md)
       + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
+    + Configure offers {#configure-offers}
+      + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
+      + [Add representations](using/offers/offer-library/add-representations.md)
+      + [Add constraints](using/offers/offer-library/add-constraints.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
     + [Create collections](using/offers/offer-library/creating-collections.md)
   + Create and manage decisions {#create-manage-activities}

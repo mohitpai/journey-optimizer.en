@@ -25,13 +25,17 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>As simulation does not generate any decision event, the [capping](../offer-library/creating-personalized-offers.md#capping) count is not impacted.
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## Select test profiles {#select-test-profiles}
 
-First you need to select the test profiles that you are going to use for simulation. Learn more on test profiles in [this page](../../segment/creating-test-profiles.md).
+First you need to select the test profiles that you are going to use for simulation. Learn more on test profiles in [this section](../../segment/creating-test-profiles.md).
 
 1. Click **[!UICONTROL Manage profile]**.
 
