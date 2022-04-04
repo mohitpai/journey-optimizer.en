@@ -39,7 +39,7 @@ To enable the allowed list, follow the steps below.
 
     ![](assets/allow-list-edit.png)
 
-1. Select **[!UICONTROL Enable allow list]**.
+1. Select **[!UICONTROL Enable allowed list]**.
 
     ![](assets/allow-list-enable.png)
 
