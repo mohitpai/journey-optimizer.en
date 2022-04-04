@@ -138,6 +138,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
+    
     You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
