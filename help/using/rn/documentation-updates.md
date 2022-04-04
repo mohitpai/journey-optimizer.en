@@ -13,6 +13,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new page on getting started with AI models has been added to the **Offer decisioning** section, including a thorough description of the [auto-optimization model](../offers/offer-library/ai-ranking.md#auto-optimization), the algorithm it uses and more technical details. [Read more](../offers/offer-library/ai-ranking.md)
 * The test profile creation page has been moved to the  **Segment, profiles and identity** section. [Read more](../segment/creating-test-profiles.md)
 * Added an example on how to add an expression as a default value in the expression editor. [Read more](../building-journeys/expression/field-references.md#default-value)
+* The **Create personalized offers** section has been reorganized for improved readability. [Read more](../offers/offer-library/creating-personalized-offers.md)
+* A new section has been added to describe the impacts that changing an offer's start and/or end dates may have on this offer's frequency capping. [Read more](../offers/offer-library/add-constraints.md#capping-change-date)
 <!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## February 2022 {#feb-2022}
