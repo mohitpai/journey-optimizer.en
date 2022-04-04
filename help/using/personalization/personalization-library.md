@@ -20,15 +20,15 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 
 To access the saved expressions, click the **[!UICONTROL Library]** button in the left pane. The list displays all the expressions that have been saved by Admin users (see [Save expressions to the library](#save-expressions)).
 
-    >[!NOTE]
-    >
-    >You can use the info button to get more information about the contents of a saved expression. If you have the appropriate permissions to manage library items, the information button will appear in the ellipse menu.
+>[!NOTE]
+>
+>You can use the info button to get more information about the contents of a saved expression. If you have the appropriate permissions to manage library items, the information button will appear in the ellipse menu.
     
-    ![](assets/library-list.png)
+![](assets/library-list.png)
 
 Click the + to insert the expression into the editor. You can then customize and validate your personalization content as usual. [Learn more](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Save an expression to the library {#save-expressions}
 
