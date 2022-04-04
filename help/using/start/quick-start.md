@@ -26,5 +26,5 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   Import profiles, build audiences, create schemas, and datasets. [Learn more](path/data-engineer.md)
 
 * I am a **Marketer**
-  
+
   Design messages, add offers, assets, and build customer journeys. [Learn more](path/marketer.md)
