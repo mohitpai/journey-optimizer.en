@@ -17,50 +17,14 @@ Just starting with [!DNL Journey Optimizer]? Experienced user with specific ques
 
 To learn and discover the power of Adobe Journey Optimizer with step-by-step guidance, select your profile.
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Administrator" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">I am an Administrator</a>
-     <p>Prepare your environment, grant access, configure settings
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Data Engineer" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">I am a Data Engineer</a>
-     <p>Import profiles, build audiences, create schemas, and datasets
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Marketer" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">I am a Marketer</a>
-     <p>Design messages, add offers, assets, and build customer journeys
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* I am an **Administrator**
+  
+  Prepare your environment, grant access, configure settings. [Learn more](path/administrator.md)
+
+* I am a **Data Engineer**
+
+  Import profiles, build audiences, create schemas, and datasets. [Learn more](path/data-engineer.md)
+
+* I am a **Marketer**
+  
+  Design messages, add offers, assets, and build customer journeys. [Learn more](path/marketer.md)
