@@ -84,7 +84,7 @@ solution: Journey Optimizer
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
-  + [Profiles] {#profiles}
+  + Profiles{#profiles}
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
