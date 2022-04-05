@@ -88,7 +88,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc12.png)
 
-1. Type the message and insert, from the ****[!UICONTROL Contextual attributes]** menu, the order item name and the order progress. 
+1. Type the message and insert, from the **[!UICONTROL Contextual attributes]** menu, the order item name and the order progress. 
 
    ![](assets/perso-uc13.png)
 
