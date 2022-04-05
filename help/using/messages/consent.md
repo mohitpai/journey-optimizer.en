@@ -33,6 +33,10 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 * Upon clicking this link, the recipients will be directed to a landing page to confirm opting out.
 * After confirming their choice, the profiles' data will be updated with this information.
 
+>[!NOTE]
+>
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [message preset level](../configuration/message-presets.md#email-type) and when [creating the message](get-started-content.md#create-new-message).
+
 ### External opt-out {#opt-out-external-lp}
 
 To do this, you can insert a link to an external landing page into an email in order to enable users to unsubscribe from receiving communications from your brand.

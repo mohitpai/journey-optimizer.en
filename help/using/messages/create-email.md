@@ -29,3 +29,7 @@ The steps to configure an email are as follows:
 1. Click the **[!UICONTROL Email Designer]** button to design your email. Learn how to design emails in [this section](../design/design-emails.md).
 
 1. If you want to track the behavior of your recipients through openings and/or clicks on links, make sure that the **[!UICONTROL Open Tracking for email]** and **[!UICONTROL Click Tracking for email]** options are enabled. Learn more about tracking in [this section](../design/message-tracking.md).
+
+>[!NOTE]
+>
+>Marketing-type email messages must include an [opt-out link](consent.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [message preset level](../configuration/message-presets.md#email-type) and when [creating the message](get-started-content.md#create-new-message).

@@ -55,19 +55,23 @@ To create a new message, follow the steps below:
 
 1. Define the message properties.
 
-    ![](assets/create-message-properties.png)
+   ![](assets/create-message-properties.png)
     
-    * Enter a **[!UICONTROL Title]** (mandatory) and a **[!UICONTROL Description]**. 
+   * Enter a **[!UICONTROL Title]** (mandatory) and a **[!UICONTROL Description]**. 
 
-    * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
+   * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
 
-    * Select the **[!UICONTROL Preset]** to use for the message.
+   * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
+
+   * Select the **[!UICONTROL Preset]** to use for the message.
         
-        Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../configuration/message-presets.md).
-        
-    * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
+      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../configuration/message-presets.md).
 
-    Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
+   >[!CAUTION]
+   >
+   >You must choose a valid message preset for the selected category and channel(s).
+
+   Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
 
 1. Click **[!UICONTROL Create]** to confirm message creation. Your message is added in the message list, in the **[!UICONTROL Draft]** status.
 

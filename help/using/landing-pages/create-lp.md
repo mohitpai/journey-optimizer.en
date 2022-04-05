@@ -83,6 +83,10 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_access-url.png)
 
+    >[!NOTE]
+    >
+    >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to when the page expires.
@@ -169,7 +173,7 @@ Two types of alerts can happen:
 
 * **Warnings** refer to recommendations and best practices. <!--For example, a message will display if -->
 
-* **Errors** prevent you from publishing the message as long as they are not resolved. For example, you will get a warning if the primary page URL is missing.
+* **Errors** prevent you from publishing the landing page as long as they are not resolved. For example, you will get a warning if the primary page URL is missing.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
