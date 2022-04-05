@@ -35,7 +35,11 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ## Select test profiles {#select-test-profiles}
 
-First you need to select the test profiles that you are going to use for simulation. Learn more on test profiles in [this section](../../segment/creating-test-profiles.md).
+First you need to select the test profiles that you are going to use for simulation. 
+
+>[!CAUTION]
+>
+>You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../../segment/creating-test-profiles.md).
 
 1. Click **[!UICONTROL Manage profile]**.
 

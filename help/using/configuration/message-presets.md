@@ -13,11 +13,11 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 >[!CAUTION]
 >
-> * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
+> * Message presets configuration is restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). To create, edit and delete message presets, you must have the [Manage messages presets](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * You must perform Email configuration and [Push configuration](../configuration/push-configuration.md) steps before creating message presets.
+> * You must perform [Email configuration](#configure-email-settings) and [Push configuration](../configuration/push-configuration.md) steps before creating message presets.
 
-Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
+Once message presets have been configured, you will be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
@@ -77,14 +77,15 @@ Email settings are defined in a dedicated section of the message preset configur
 
 Configure your settings as described below.
 
-
 ### Type of email{#email-type}
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
 
-Choose **Marketing** for promotional messages: these messages require user consent.
+* Choose **Marketing** for promotional messages: these messages require user consent.
 
-Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+* Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+
+When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid message preset for the selected category and channel(s).
 
 >[!CAUTION]
 >

@@ -67,6 +67,10 @@ To insert links into your email content, follow the steps below:
 
     ![](assets/message-tracking-link-settings.png)
 
+>[!NOTE]
+>
+>Marketing-type email messages must include an [opt-out link](../messages/consent.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [message preset level](../configuration/message-presets.md#email-type) and when [creating the message](../messages/get-started-content.md#create-new-message).
+
 ## Link to a mirror page {#mirror-page}
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.

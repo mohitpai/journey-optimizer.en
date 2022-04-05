@@ -8,8 +8,6 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 ---
 # Get Started for Developers {#get-started-developers}
 
-![developer](assets/do-not-localize/user-3.png) 
-
 ## Integrate your mobile app {#integrate-mobile-app}
 
 As a Developer, you need to **configure your mobile app** to be able to send push notifications with [!DNL Adobe Journey Optimizer].
