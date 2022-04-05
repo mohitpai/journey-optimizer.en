@@ -31,3 +31,9 @@ These features are all available when accessing the Email Designer from the mess
 >
 >Note that the templates in the lower area are static and cannot be edited. These are only available for illustration purpose.
 Once you have [created your message](../messages/get-started-content.md), you can start creating your email content.
+
+## How-to video {#video}
+
+Learn how to create email content with the message editor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
