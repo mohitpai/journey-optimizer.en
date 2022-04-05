@@ -6,8 +6,6 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 ---
 # Get Started for System Administrators {#get-started-sys-admins}
 
-![administrator](assets/do-not-localize/user-2.png) 
-
 Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.  You must perform these steps so that the [Data Engineer](data-engineer.md) and [Journey Practicionner](marketer.md) can start working with [!DNL Adobe Journey Optimizer].
 
 

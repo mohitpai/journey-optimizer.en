@@ -88,9 +88,3 @@ To start building your email content with the email designer, follow the steps b
 1. When your email is ready, click **[!UICONTROL Save & Close]**.
 
 Your email content can now be used in a message. [Learn how to send a message](../messages/publish-manage-message.md).
-
-## How-to video {#video}
-
-Learn how to create email content with the message editor.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

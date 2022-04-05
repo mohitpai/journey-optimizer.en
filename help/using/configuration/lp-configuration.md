@@ -14,7 +14,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 >title="Create a landing page preset"
 >abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
 
-To be able to [create landing page presets](#lp-create-preset), you nmust set up the subdomains you will use for your landing pages.
+To be able to [create landing page presets](#lp-create-preset), you  must set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
 
