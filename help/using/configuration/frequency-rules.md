@@ -49,7 +49,7 @@ To create a new rule, follow the steps below.
 
    >[!NOTE]
    >
-   >Currently only the **[!UICONTROL Marketing]** category is availble.
+   >Currently only the **[!UICONTROL Marketing]** category is available.
 
 1. Set the capping for your rule, meaning the maximum number of messages that can be sent to an individual user profile each month.
 
@@ -77,7 +77,7 @@ To create a new rule, follow the steps below.
 
 ## Activate a rule {#activate-rule}
 
-To activate a message frequency rule, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
+When created, a message frequency rule has the **[!UICONTROL Draft]** status and is not impacting yet any message. To enable it, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
 
    ![](assets/message-rules-activate.png)
 
@@ -99,28 +99,70 @@ The rule's status will change to **[!UICONTROL Inactive]** and the rule will not
 
 ## Apply a frequency rule to a message {#apply-frequency-rule}
  
-To apply a frequency rule to a message, you simply need to select the category you defined for this rule when [creating the message](../messages/get-started-content.md#create-new-message).
+To apply a frequency rule to a message, follow the steps below.
 
-![](assets/message-rules-properties.png)
+1. Create a message. [Learn more](../messages/get-started-content.md#create-new-message)
 
-By selecting the **[!UICONTROL Marketing]** category, all the matching message frequency rules will be automatically applied to this message.
+1. Select the category you defined for the [rule you created](#create-new-rule).
+
+   ![](assets/message-rules-msg-properties.png)
+
+   >[!NOTE]
+   >
+   >Currently only the **[!UICONTROL Marketing]** category is available for message frequency rules.
+
+1. Select the channel(s) of your choice for your message.
+
+   ![](assets/message-rules-msg-channels.png)
+
+1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
+
+   ![](assets/message-rules-msg-link.png)
+
+   A new tab will open to display the matching message frequency rules.
+
+1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
+
+All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 You can view the number of profiles excluded from delivery in the [Live and Global views](../reports/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 
-## Example
+## Example: combine several rules {#frequency-rule-example}
 
 You can combine several message frequency rules, such as described in the example below.
 
-1. Create a rule called *Overall Marketing Capping*:
+1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
 
    * Select all channels (Email, Push).
    * Set capping to 12.
 
-1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Limit marketing push*:
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Push Marketing Cap*:
 
    * Select Push channel.
    * Set capping to 4.
 
-In this scenario, an individual profile can receive up to 12 marketing messages per month, but will be exclude from marketing push notifications after they have received 4 push notifications.
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Save and [activate](#activate-rule) the rule.
+
+1. Create a message. [Learn more](../messages/get-started-content.md#create-new-message)
+
+1. Select the **[!UICONTROL Marketing]** category.
+
+   ![](assets/message-rules-ex-category-maktg.png)
+
+1. Select the **[!UICONTROL Email]** and **[!UICONTROL Push Notification]** channels.
+
+   ![](assets/message-rules-ex-channels.png)
+
+1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
+
+1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
+
+In this scenario, an individual profile:
+* can receive up to 12 marketing messages per month;
+* but will be excluded from marketing push notifications after they have received 4 push notifications.
