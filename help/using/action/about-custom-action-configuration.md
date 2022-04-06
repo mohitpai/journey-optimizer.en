@@ -121,4 +121,3 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
 ![](assets/customactionpayloadmessage2.png)
-

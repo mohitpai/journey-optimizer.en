@@ -11,7 +11,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 
 A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 
-➡️ [Discover this feature in video](#video)
+➡️ [Learn how to create placements in this video](#video)
 
 In the example below, there are three placements, corresponding to different types of content (image, text, HTML).
 
@@ -42,10 +42,12 @@ To create a placement, follow these steps:
 
     ![](../assets/placement_created.png)
 
-## Tutorial video {#video}
+## How-to video{#video}
+
+Learn how to create placements in Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

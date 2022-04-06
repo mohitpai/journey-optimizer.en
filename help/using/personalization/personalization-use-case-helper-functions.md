@@ -18,6 +18,8 @@ You will use these types of helper functions:
 * The `if` helper, to insert a product-specific note if the related product is in the cart. [Learn more](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
+➡️ [Learn how to use helper functions in this video](#video)
+
 Before you start, ensure you know how to configure these elements:
 * An email message. [Learn more](../messages/get-started-content.md)
 * The body of an email. [Learn more](../design/create-email-content.md).
@@ -326,6 +328,8 @@ The cart content is contextual information from the journey. Therefore, you must
 
 * [Personalization with decision-based offer](../offers/offers-e2e.md)
 
-## Tutorial video{#helper-functions-video}
+## How-to video{#video}
+
+Learn how to use helper functions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

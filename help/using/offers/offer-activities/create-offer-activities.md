@@ -11,7 +11,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 
 Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
-➡️ [Discover this feature in video](#video)
+➡️ [Learn how to create offer activities in this video](#video)
 
 The list of decisions is accessible in the **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
@@ -215,10 +215,12 @@ This enables you to access detailed information for that decision. Select the **
 
 ![](../assets/decision_information.png)
 
-## Tutorial video {#video}
+## How-to video{#video}
+
+Learn how to create offer activities in Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

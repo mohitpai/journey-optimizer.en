@@ -11,6 +11,8 @@ exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 
 To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. You can see how your messages are performing across journeys <!--and APIs--> in real-time from the **[!UICONTROL Executions]** list.
 
+➡️ [Discover this feature in video](#video)
+
 To access this list, from the **[!DNL Journey Optimizer]** home page, select **[!UICONTROL Messages]**, and click the **[!UICONTROL Executions]** tab.
 
 This tab provides two views: **[!UICONTROL Live view]** and **[!UICONTROL Global view]**.

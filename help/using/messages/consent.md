@@ -165,7 +165,7 @@ To add an opt-out link in your email, follow the steps below.
 
 Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
-### Unsubscribe link in message header {#unsubscribe-email}
+### Unsubscribe link in message header {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
@@ -177,7 +177,11 @@ If the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubs
 
 For example, the unsubscribe link will display like this in Gmail:
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
+
+>[!NOTE]
+>
+>To display the unsubscribe link in the email header, the recipients' email client must support this feature.
 
 The unsubscribe address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding message preset. [Learn more](../configuration/message-presets.md#list-unsubscribe).
 
