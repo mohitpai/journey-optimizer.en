@@ -9,6 +9,11 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
 # External data sources {#external-data-sources}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_custom"
+>title="External data sources"
+>abstract="External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need."
+
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.
@@ -62,7 +67,7 @@ For the "long/lat" parameter set, we create a field group with the following inf
 
 * **[!UICONTROL Used in]**: displays the number of journeys that use a field group. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
-* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [Journey Orchestration documentation](../building-journeys/expression/expressionadvanced.md).
+* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. [Learn more](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 

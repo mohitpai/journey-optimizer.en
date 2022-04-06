@@ -19,7 +19,7 @@ The **[!UICONTROL Landing Pages]** list displays all the created items. You can 
 
 ![](assets/lp_access-list-filter.png)
 
-From this list, you can access the [landing page reports](lp-report.md) for published items.
+From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.
 
 You can also delete, duplicate, and unpublish a landing page.
 
@@ -83,6 +83,10 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_access-url.png)
 
+    >[!NOTE]
+    >
+    >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to when the page expires.
@@ -127,7 +131,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../building-journeys/creating-test-profiles.md).
+>You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
 1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
 
@@ -141,7 +145,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../messages/preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../design/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
@@ -169,7 +173,7 @@ Two types of alerts can happen:
 
 * **Warnings** refer to recommendations and best practices. <!--For example, a message will display if -->
 
-* **Errors** prevent you from publishing the message as long as they are not resolved. For example, you will get a warning if the primary page URL is missing.
+* **Errors** prevent you from publishing the landing page as long as they are not resolved. For example, you will get a warning if the primary page URL is missing.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -204,9 +208,9 @@ Once your landing page is ready, you can publish it to make it available for use
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../messages/create-message.md) that will be sent through a [journey](../building-journeys/journey.md).
+It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../messages/get-started-content.md) that will be sent through a [journey](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->You can monitor your landing page impacts through specific reports. [Learn more](lp-report.md)
+>You can monitor your landing page impacts through specific reports. [Learn more](../reports/lp-report-live.md)
 

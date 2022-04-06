@@ -51,10 +51,13 @@ The **[!UICONTROL Sending metrics - by push]** table details the success of your
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
+![](assets/live_report_9.png)
+
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
+
 ![](assets/live_report_4.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
 
-The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many error and bounce occurred.
-
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.

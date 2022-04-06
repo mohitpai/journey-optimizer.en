@@ -19,8 +19,8 @@ You will use these types of helper functions:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Before you start, ensure you know how to configure these elements:
-* An email message. [Learn more](../messages/create-message.md)
-* The body of an email. [Learn more](../messages/create-email-content.md).
+* An email message. [Learn more](../messages/get-started-content.md)
+* The body of an email. [Learn more](../design/create-email-content.md).
 * A unitary event. [Learn more](../event/about-events.md).
 * A journey that starts with an event. [Learn more](../building-journeys/using-the-journey-designer.md).
 
@@ -137,7 +137,7 @@ The cart content is contextual information from the journey. Therefore, you must
    
       **[!UICONTROL Contextual attributes]** are available only after the journey context has been passed to the message.
    
-   1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
+   1. Select **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
 

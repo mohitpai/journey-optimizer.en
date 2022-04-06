@@ -38,7 +38,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>
     <div>
-      <a href="using/messages/design-emails.md">Design an email content</a>
+      <a href="using/design/design-emails.md">Design an email content</a>
     </div>
     <p>
     Design a new email or import an existing HTML content
@@ -110,7 +110,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/messages/create-message.md">Messages</a>
+      <a href="using/messages/get-started-content.md">Messages</a>
     </li>
     <p>
     <p>DECISION MANAGEMENT</p>
@@ -123,7 +123,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONTENT MANAGEMENT</p>
     <li>
-      <a href="using/messages/assets-essentials.md">Assets</a>
+      <a href="using/design/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>DATA MANAGEMENT</p>
@@ -150,10 +150,10 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">Profiles</a>
+      <a href="using/segment/get-started-profiles.md">Profiles</a>
     </li>
     <li>
-      <a href="using/start/get-started-identity.md">Identity</a>
+      <a href="using/segment/get-started-identity.md">Identity</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
@@ -169,3 +169,16 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
   </td>
 </tr>
 </table>
+
+
+
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!
+
+Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
+
+In each newsletter you will find:
+* Product news and updates including recently released capabilities
+* Invitations to events and webinars and recordings for recent webinars
+* Top discussions in the Adobe Journey Optimizer Experience League Community 
+* Case Studies and Use Cases from other Adobe Journey Optimizer Customers
+* Tips and tricks to help deliver the exceptional customer experiences that drive business success

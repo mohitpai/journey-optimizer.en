@@ -9,6 +9,11 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 ---
 # Jump from one journey to another {#jump}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_jump"
+>title="Jump activity"
+>abstract="The Jump action activity allows you to push individuals from one journey to another. This feature allows you to simplify the design of very complex journeys and build journeys based on common and reusable journey patterns."
+
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting them into several ones  
@@ -20,7 +25,7 @@ In the target journey, the first event triggered internally by the **[!UICONTROL
 
 >[!NOTE]
 >
->Also refer to the Journey Orchestration tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
+>Also refer to the tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
 
 ## Lifecycle
 

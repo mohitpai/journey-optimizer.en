@@ -9,6 +9,11 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
 # Add a message in a journey{#add-a-message-in-a-journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Message activity"
+>abstract="The Message activity allows you to send a push or email message. Journey Optimizer message capabilities are built-in. The message is designed and published in the Messages menu of Journey Optimizer."
+
 [!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../messages/get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).

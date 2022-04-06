@@ -7,7 +7,31 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
+
+## March 2022 Release {#march-2022-release}
+
+### Improvements
+
+**Journeys**
+
+* To avoid having unnecessary fields in the unified profile schema, the Journey Step Event schema is no longer enabled for profiles by default. If needed, you can activate it. [Learn more](../reports/sharing-overview.md)
+* New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../reports/query-examples.md)
+
+**Decision Management**
+
+* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* The Batch Decisioning API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../reports/allow-list.md#enable-allow-list)
+
+**Personalization**
+
+* You can now save more than 40 personalization expressions in the library. [Learn more](../personalization/personalization-library.md)
 
 ## February 2022 Release {#feb-2022-release}
 
@@ -230,7 +254,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Reporting**
 
-* **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](../messages/message-monitoring.md)
+* **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](../reports/message-monitoring.md)
 
 
 **Administration**
@@ -270,7 +294,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <td>
 <p>New metrics are available in reporting: Targeted and Excluded for email & push messages are visible in both live and global reports. </br> To have access to the latest metrics, please note that you will have to reset the different reporting dashboards for each channel and reporting type. For more information on dashboard customization, refer to the <a href="../reports/live-report.md">detailed documentation.</a></p>
 <p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
-<p>For more information, refer to the <a href="../messages/message-monitoring.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/message-monitoring.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -413,7 +437,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Content Design**
 
-* **Background** - Background images are now supported in live preview. [Learn more](../messages/preview.md)
+* **Background** - Background images are now supported in live preview. [Learn more](../design/preview.md)
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
 
 **Personalization**
@@ -422,7 +446,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Email configuration**
 
-* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](../messages/allow-list.md#enable-allow-list)
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](../reports/allow-list.md#enable-allow-list)
 * **Navigation** - The suppression list, which was accessible under the **Administration > Channels > Email configuration > General** menu, has been moved to the new **Suppression list** submenu, which gathers all related capabilities for easier access. [Learn more](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Decision management**
@@ -469,7 +493,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <tr>
 <td>
 <p>You can now define a define a specific sending-safe list at the sandbox level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers. This feature is enabled by leveraging Suppression APIs.</p>
-<p>For more information, refer to the <a href="../messages/allow-list.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/allow-list.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -488,9 +512,9 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Preview and test messages**
 
-* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../messages/preview.md#preview-your-messages)
+* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../design/preview.md#preview-your-messages)
 * The number of test emails for proofs is now restricted to 10.
-* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../messages/preview.md#send-proofs)
+* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../design/preview.md#send-proofs)
 
 **Personalization expression editor**
 

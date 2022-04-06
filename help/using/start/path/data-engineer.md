@@ -6,8 +6,6 @@ exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 ---
 # Get Started for Data Engineer {#data-engineer}
 
-![data engineer](assets/do-not-localize/user-1.png) 
-
 As an **Adobe Journey Optimizer Data Engineer**, prepare and maintain customer profile data to power the experiences orchestrated by [!DNL Journey Optimizer], model customer and business data in schemas and configure source connectors for ingesting data. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) granted you access and prepared your environment.
 
 
@@ -19,7 +17,7 @@ Learn how to **identify data and create schema and dataset** to get your data in
 
 Steps to create an identity namespace and a dataset enabled for profiles, and test profiles are detailed in the sections below:
 
-1.  **Create an identity namespace**. In Adobe [!DNL Journey Optimizer], **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.  Learn more about identities and identity namespaces [in this page](../get-started-identity.md).
+1.  **Create an identity namespace**. In Adobe [!DNL Journey Optimizer], **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.  Learn more about identities and identity namespaces [in this page](../../segment/get-started-identity.md).
 
 1. **Create a schema** and enable it for profiles. A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object (such as a person) and outline what data should be included in each instance of that object (such as first name, last name, birthday, and so on).  Learn more about schemas [in this page](../get-started-schemas.md).
 
@@ -27,7 +25,7 @@ Steps to create an identity namespace and a dataset enabled for profiles, and te
 
 1. **Configure sources connectors**. Adobe Journey Optimzer allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others. Learn more about Source connectors [in this page](../get-started-sources.md).
 
-1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../messages/preview.md) before sending. Discover steps to create test profiles [in this page](../../building-journeys/creating-test-profiles.md).
+1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../design/preview.md) before sending. Discover steps to create test profiles [in this page](../../segment/creating-test-profiles.md).
 
 
 In addition, to be able send messages in journeys, you must configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. Learn more [in this section](../../configuration/about-data-sources-events-actions.md).

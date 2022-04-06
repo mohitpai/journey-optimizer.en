@@ -69,7 +69,7 @@ Type: string
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-The Error code provided by the system [!DNL Journey Orchestration] is querying. For example it can be a 404, 500, etc.
+The Error code provided by the system [!DNL Journey Optimizer] is querying. For example it can be a 404, 500, etc.
 
 Type: string
   

@@ -111,7 +111,7 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
+For more information on bounces, refer to the [Suppression list](../reports/suppression-list.md) page.
 
 ![](assets/global_report_22.png)
 
@@ -206,6 +206,8 @@ The **[!UICONTROL Push - Tracking statistics]** contains the available data for 
 
 * **[!UICONTROL Engagement Rate]**: Percentage of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
+![](assets/global_report_24.png)
+
 The **[!UICONTROL Push notification summary]** graph contains the data available for sent push notifications, such as:
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
@@ -236,6 +238,8 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 ![](assets/global_report_18.png)
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+
+The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
 ![](assets/global_report_19.png)
 

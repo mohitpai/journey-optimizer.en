@@ -9,7 +9,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 ---
 # Create test profiles {#create-test-profiles}
 
-Test profiles are required when using the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your content](../messages/preview.md).
+Test profiles are required when using the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your content](../design/preview.md).
 
 There are several ways to create test profiles. You can find in this page details to:
 
@@ -83,7 +83,7 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 The following information is required:
 
-1. **Identity namespace**: The [identity namespace](../start/get-started-identity.md) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
+1. **Identity namespace**: The [identity namespace](../segment/get-started-identity.md) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
 2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
 
@@ -111,7 +111,7 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../segment/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](assets/test-profiles-22.png) 

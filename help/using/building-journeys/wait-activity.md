@@ -9,6 +9,11 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 ---
 # Wait activity{#wait-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait"
+>title="Wait activity"
+>abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Three options are available: duration, fixed date and custom."
+
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
@@ -42,7 +47,7 @@ Select the date for the execution of the next activity.
 
 ## Custom wait{#custom}
 
-This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [Journey Orchestration documentation](expression/expressionadvanced.md). For more information on dateTimeOnly format, see [Journey Orchestration documentation](expression/data-types.md).
+This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. Refer to this [page](expression/expressionadvanced.md). For more information on dateTimeOnly format, see this [page](expression/data-types.md).
 
 >[!NOTE]
 >

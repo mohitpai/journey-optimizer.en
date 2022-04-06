@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 ---
 # Add constraints to an offer {#add-constraints}
 
@@ -149,6 +149,10 @@ The number of times an offer is proposed is calculated at email preparation time
 
 <!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
+>[!NOTE]
+>
+>Capping counters will reset when the offer expires or 2 years after the offer start date, whichever comes first. Learn how to define an offer's date in [this section](creating-personalized-offers.md#create-offer).
+
 ### Impact of changing dates on capping {#capping-change-date}
 
 >[!CONTEXTUALHELP]
@@ -161,6 +165,10 @@ You must proceed with care when changing the date of an offer, because this can 
 * The offer is [approved](#review).
 * [Capping](#capping) is already applied to the offer.
 * Capping is defined per profile.
+
+>[!NOTE]
+>
+>Learn how to define an offer's date in [this section](creating-personalized-offers.md#create-offer).
 
 Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
 

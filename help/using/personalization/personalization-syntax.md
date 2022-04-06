@@ -145,7 +145,7 @@ Personalized URLs take recipients to specific pages of a website, or to a person
 
 Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To personalize a URL, follow the steps below:
 
-1. Create a link in your message content. [Learn more](../messages/message-tracking.md#insert-links)
+1. Create a link in your message content. [Learn more](../design/message-tracking.md#insert-links)
 1. From the personalization icon, select the attributes. The personalization icon is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
 ![](assets/perso-url.png)

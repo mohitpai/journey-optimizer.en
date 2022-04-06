@@ -11,6 +11,11 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 
 ## About segment qualification events{#about-segment-qualification}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="Segment qualification events"
+>abstract="This activity allows your journey to listen to the entrances and exits of profiles in Adobe Experience Platform segments in order to make individuals enter or move forward in a journey."
+
 This activity allows your journey to listen to the entrances and exits of profiles in Adobe Experience Platform segments in order to make individuals enter or move forward in a journey. For more information on segment creation, refer to this [section](../segment/about-segments.md).
 
 Let's say you have a "silver customer" segment. With this activity, you can make all new silver customers enter a journey and send them a series of personalized messages.

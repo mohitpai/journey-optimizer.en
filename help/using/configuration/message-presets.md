@@ -13,11 +13,11 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 >[!CAUTION]
 >
-> * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
+> * Message presets configuration is restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). To create, edit and delete message presets, you must have the [Manage messages presets](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * You must perform Email configuration and [Push configuration](../messages/push-configuration.md) steps before creating message presets.
+> * You must perform [Email configuration](#configure-email-settings) and [Push configuration](../configuration/push-configuration.md) steps before creating message presets.
 
-Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
+Once message presets have been configured, you will be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
@@ -77,19 +77,19 @@ Email settings are defined in a dedicated section of the message preset configur
 
 Configure your settings as described below.
 
-
 ### Type of email{#email-type}
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
 
-Choose **Marketing** for promotional messages: these messages require user consent.
+* Choose **Marketing** for promotional messages: these messages require user consent.
 
-Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+* Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+
+When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid message preset for the selected category and channel(s).
 
 >[!CAUTION]
 >
 >**Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
-
 
 ### Subdomain & IP pool {#subdomains-and-ip-pools}
 
@@ -98,6 +98,42 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
+
+### List-Unsubscribe {#list-unsubscribe}
+
+Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
+
+![](assets/preset-list-unsubscribe.png)
+
+This option is enabled by default.
+
+If you leave it enabled, an unsubscribe link will automatically be included into the email header, such as:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+If you disable this option, no unsubscribe link will display in the email header.
+
+The unsubscribe link consists in two elements:
+
+* An **unsubscribe email address**, which all unsubscribe requests are sent to.
+
+    In [!DNL Journey Optimizer], the unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the message preset, based on the [selected subdomain](#subdomains-and-ip-pools).
+
+    ![](assets/preset-list-unsubscribe-mailto.png)
+
+* The **unsubscribe URL**, which is the URL of the landing page where the user will be redirected once unsubscribed.
+
+    If you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this preset, the unsubscribe URL will be the URL defined for the one-click opt-out link.
+
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+    >[!NOTE]
+    >
+    >If you do not add a one-click opt-out link into your message content, no landing page will be displayed to the user.
+
+Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### URL tracking{#url-tracking}
 
@@ -170,7 +206,7 @@ To define the push settings associated to the message preset, follow the steps b
 
 ![](assets/preset-push.png)
         
-For more on how to configure your environment to send push notifications, refer to [this section](../messages/push-gs.md).
+For more on how to configure your environment to send push notifications, refer to [this section](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

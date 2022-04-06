@@ -9,6 +9,11 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 ---
 # Configure a business event {#configure-a-business-event}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Business events"
+>abstract="The event configuration allows you to define the information Journey Optimizer will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event. Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based." 
+
 Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. Read more on business events in [this section](../event/about-events.md). 
 
 Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.
@@ -17,11 +22,12 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 >[!NOTE]
 >
->You can also watch the business event use case [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>You can also watch the business event use case [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Note that the schema does not need to be enabled for profile.
 
 ## Important notes {#important-notes}
 
-*  Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
+* Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. 
+* The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
@@ -72,7 +78,7 @@ Here are the first steps to configure a business event:
 
    ![](assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
+   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 
     ![](assets/test-profiles-4.png)
 

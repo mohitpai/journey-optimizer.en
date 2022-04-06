@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: About the advanced expression editor
 description: Learn how to build advanced expressions
 feature: Journeys
@@ -8,6 +8,11 @@ level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 ---
 # About the advanced expression editor {#about-the-advanced-expression-editor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_advanced"
+>title="About the advanced expression editor"
+>abstract="Use the advanced expression editor to build advanced expressions in various screens of the interface. For example, you can build expressions when configuring and using journeys, and when defining a data source condition."
 
 Use the advanced expression editor to build advanced expressions in various screens of the interface. For example, you can build expressions when configuring and using journeys, and when defining a data source condition.
 It is also available every time you need to define action parameters that require specific data manipulations. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.

@@ -20,11 +20,17 @@ Data are available in the **[!UICONTROL Live report]** as soon as your delivery 
 
     ![](assets/report_2.png)
 
+* If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Global report]** for your delivery, click **[!UICONTROL Global view]** from the tab switcher.
+
+    ![](assets/report_3.png)
+
 ## Customize dashboard {#modify-dashboard}
 
 Each reporting dashboard can be modified by resizing or removing widgets. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
+
+    Note that the **[!UICONTROL Exclude test events]** option is only available for Journey reports.
 
     ![](assets/report_modify_6.png)
 

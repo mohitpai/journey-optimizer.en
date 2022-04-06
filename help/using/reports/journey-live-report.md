@@ -109,7 +109,11 @@ The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+![](assets/report_email_3.png)
+
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
 ## Push tab {#push-live}
 
@@ -135,10 +139,12 @@ For a detailed report on a specific push delivery, refer to the [Push live repor
 
 * **[!UICONTROL Engagements]**: Total number of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+![](assets/report_push_3.png)
+
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
 
 ![](assets/report_push_2.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
-
-The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many error and bounce occurred.

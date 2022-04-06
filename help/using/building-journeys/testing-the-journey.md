@@ -1,6 +1,6 @@
 ---
-title: Testing the journey
-description: Learn about journey testing
+title: Test your journey
+description: Learn how to test your journey
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,21 +9,27 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 ---
 # Test your journey{#testing_the_journey}
 
-Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="Test your journey"
+>abstract="Use test profiles to test your journey before publishing it. This allows you to analyze how individuals flow in the journey and troubleshoot before publication."
 
-You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
+Use test profiles to test your journey before publishing it. This mode allows you to run a test of your journey and identify issues using test profiles.
 
-Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. Refer to this [section](../building-journeys/creating-test-profiles.md). 
+Only test profiles can enter a journey in test mode. You can either create new test profiles or turn existing profiles into test profiles. Learn more about test profiles in [this section](../segment/creating-test-profiles.md). 
+
+>[!NOTE]
+>
+>Before testing your journey, you must resolve all errors if any. Learn how to check errors before testing in [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). A warning symbol is displayed when there are errors.
-
-1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
+1. To activate the test mode, activate the **[!UICONTROL Test]** toggle, located in the top right corner.
 
     ![](assets/journeytest1.png)
 
-1. Use the **[!UICONTROL Wait time]** parameter, in the bottom left corner, to define the time that each wait activity and event timeout will last in test mode. The default time is 10 seconds for waits and event timeouts. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
+1. If the journey has at least one **Wait** activity, set the **[!UICONTROL Wait time]** parameter to define the time that each wait activity and event timeout will last in test mode. The default time is 10 seconds for waits and event timeouts. This will ensure that you get the test results quickly. 
 
     ![](assets/journeytest_wait.png)
 
@@ -31,35 +37,40 @@ To use the test mode, follow these steps:
     >
     >When a reaction event is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md).
 
-1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey.
+1. Use the **[!UICONTROL Trigger an event]** button to configure and send events to the journey.
 
     ![](assets/journeyuctest1.png)
 
-1. Configure the different fields expected. In the **Profile Identifier** field, enter the value of the field used to identify the test profile. It can be the email address, for example. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
+1. Configure the different fields expected. In the **Profile Identifier** field, enter the value of the field used to identify the test profile. It can be the email address, for example. Make sure to send events related to test profiles. See [this section](#firing_events).
 
     ![](assets/journeyuctest1-bis.png)
 
-1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. See [Viewing the logs](#viewing_logs).
+1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. See [this section](#viewing_logs).
 
     ![](assets/journeyuctest2.png)
 
-1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [this page](../building-journeys/publishing-the-journey.md).
+1. If there is any error, deactivate the test mode, modify your journey and test it again. Once tests are done, you can publish your journey. See [this page](../building-journeys/publishing-the-journey.md).
 
 ## Important notes {#important_notes}
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../building-journeys/creating-test-profiles.md). 
+* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../segment/creating-test-profiles.md). 
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 * When reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. 
-* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will switch back to the Draft status.
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will switch back to the **Draft** status.
 
-## Firing your events {#firing_events}
+## Trigger your events {#firing_events}
 
-The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="Configure the test mode"
+>abstract="If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending."
+
+Use the **[!UICONTROL Trigger an event]** button to configure an event that will make a person enter the journey.
 
 >[!NOTE]
 >
@@ -95,15 +106,18 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ![](assets/jo-event8.png)
 
-For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
-
 ## Test mode for business events {#test-business}
 
-When using a business event (see [this section](../event/about-events.md)), test mode will allow you to trigger a single test profile entrance in the journey, simulating the event and passing the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. You cannot use the **[!UICONTROL Up to 100 profiles at once]** option that exists for other segment based journeys. In test mode, there is no "Code view" mode available for journeys based on business events.
+When using a [business event](../event/about-events.md), use the test mode to trigger a single test profile entrance in the journey, simulate the event and pass the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. You cannot use the **[!UICONTROL Up to 100 profiles at once]** option that exists for other segment based journeys. In test mode, there is no "Code view" mode available for journeys based on business events.
 
 Note that when you first trigger a business event, you cannot change the business event definition in the same test session. You can only make the same individual or a different individual enter the journey passing the same or another identifier. If you want to change business event parameters, you must stop and start again test mode.
 
-## Viewing the logs {#viewing_logs}
+## View logs {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Test mode logs"
+>abstract="The Show log button displays test results in JSON format. These results display the number of individuals inside the journey and their status."
 
 The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
 
@@ -136,10 +150,3 @@ When an event is triggered using the test mode, a dataset is automatically gener
 
 The test mode automatically creates an Experience Event and sends it to Adobe Experience Platform. The name of the source for this experience Event is "Journey Orchestration Test Events".
 
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
-
-Automatic creation and naming of these datasets is performed if a destination dataset is not included in the experience event. That is why we see the "Automatically created dataset for voyager" today.
-
-The naming of our source drives the automatic creation. If we have multiple events, we should concatenate and have it be "Journey Orchestration Test Event - NAME OF SCHEMA". This will automatically turn to "Automatically generated dataset for Journey Orchestration Test Event - NAME OF SCHEMA".

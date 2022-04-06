@@ -40,7 +40,7 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../messages/create-message.md)
+* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../messages/get-started-content.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -50,7 +50,7 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -70,9 +70,9 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions and leverage them into your journeys. [Learn more](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -92,7 +92,7 @@ Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provid
 
 Available use cases are:
 
-* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](../building-journeys/creating-test-profiles.md#use-case-1).
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](../segment/creating-test-profiles.md#use-case-1).
 * **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
 * **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)

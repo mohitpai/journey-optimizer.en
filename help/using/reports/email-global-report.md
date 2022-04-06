@@ -69,9 +69,9 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as out of office, or a technical error, for example if the sender type is postmaster.
 
-For more information on bounces, refer to the [Suppression list](../messages/suppression-list.md) page.
+For more information on bounces, refer to the [Suppression list](../reports/suppression-list.md) page.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
 ![](assets/global_report_6.png)
 
@@ -116,4 +116,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >The profiles with **[!UICONTROL Suppressed]** or **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
->Learn more on the [Suppression list](../messages/suppression-list.md) and [Allowed list](../messages/allow-list.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>Learn more on the [Suppression list](../reports/suppression-list.md) and [Allowed list](allow-list.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.

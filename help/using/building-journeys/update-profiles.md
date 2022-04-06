@@ -9,6 +9,11 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 ---
 # Update Profile {#update-profile}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="Update Profile activity"
+>abstract="The Update Profile action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value."
+
 The **[!UICONTROL Update Profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.
 
 ## Important notes
@@ -26,7 +31,7 @@ In test mode, the profile update will not be simulated. The update will be perfo
 
 Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes via a csv file import or API calls. A simpler method is to use an **Update Profile** action activity and change the test profile boolean field from false to true.
 
-For more information on the how to turn an existing profile into a test profile, refer to this [section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+For more information on the how to turn an existing profile into a test profile, refer to this [section](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Using the profile update
 

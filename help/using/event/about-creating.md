@@ -9,6 +9,11 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 ---
 # Configure a unitary event {#configure-an-event}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="Unitary events"
+>abstract="The event configuration allows you to define the information Journey Optimizer will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event. Unitary events are linked to a specific profile. They can be rule-based or system-generated."
+
 Unitary events are linked to a specific profile. They can be rule-based or system-generated.  Read more on unitary event [this section](../event/about-events.md).
 
 Here are the first steps to configure a new event:
@@ -137,7 +142,7 @@ If you need to use a different key, such as a CRM ID or an email address, you ne
 When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [this section](../event/about-creating.md#select-the-namespace)), the key can be used to perform queries on Adobe Experience Platform. See [this page](../building-journeys/about-journey-activities.md#orchestration-activities).
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
-You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See [Journey Orchestration documentation](../building-journeys/expression/expressionadvanced.md).  
+You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See this [page](../building-journeys/expression/expressionadvanced.md).  
 
 ## Preview the payload {#preview-the-payload}
 

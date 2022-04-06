@@ -20,7 +20,7 @@ Step event fields are organized by category.
 
 |Field name|Type|Description|
 |---|---|------------|
-|requestId|String|The request Id used by Journey Orchestration to track the flow of a request.|
+|requestId|String|The request Id used by Journey Optimizer to track the flow of a request.|
 
 ## journey {#journey-field}
 

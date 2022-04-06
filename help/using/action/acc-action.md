@@ -9,7 +9,12 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_acc"
+>title="Adobe Campaign v7/v8 actions"
+>abstract="This integration is available for Adobe Campaign Classic v7 and v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities. The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time." 
+
+This integration is available for Adobe Campaign Classic v7 starting 7.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time.
 
@@ -33,7 +38,7 @@ For each action configured, an action activity is available in the journey desig
 
 In Campaign, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
-You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Orchestration (see below)
+You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Optimizer (see below)
 
 Here is an example:
 
