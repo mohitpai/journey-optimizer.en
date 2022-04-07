@@ -1,0 +1,11 @@
+---
+product: experience platform
+solution: Experience Platform
+title: Personalized optimization model
+description: Learn more about personalized optimization models
+feature: Ranking Formulas
+role: User
+level: Intermediate
+---
+# Personalized optimization model {#personalized-optimization-model}
+
