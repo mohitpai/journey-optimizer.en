@@ -26,8 +26,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## January 2022 {#january-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
-* The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/offer-library/auto-optimization-model.md)
+* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/offer-library/schema-requirement.md)
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
 * The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
