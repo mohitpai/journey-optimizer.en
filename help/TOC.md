@@ -247,15 +247,19 @@ solution: Journey Optimizer
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
-    + Create rankings {#create-rankings}
-        + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
-      + Create AI ranking models {#create-ai-ranking-models}
-        + [About AI models](using/offers/offer-library/ai-ranking.md)
+    + [Create rankings](using/offers/offer-library/create-rankings.md)
+  + Work with rankings {#rankings}
+    + [Get started with rankings](using/offers/offer-library/get-started-rankings.md)
+    + [Ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+    + AI models {#ai-models}
+      + [About AI models](using/offers/offer-library/ai-models.md)
+      + AI model types {#ai-model-types}
         + [Auto-optimization model](using/offers/offer-library/auto-optimization-model.md)
         + [Personalized optimization model](using/offers/offer-library/personalized-optimization-model.md)
+      + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/offer-library/create-dataset.md)
         + [Create an AI model](using/offers/offer-library/create-ranking-strategies.md)
-        + [Offer schema requirements](using/offers/offer-library/schema-requirement.md)
+        + [Configure events capture](using/offers/offer-library/schema-requirement.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
