@@ -19,6 +19,11 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 >title="About offer priority"
 >abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Priority"
+>abstract="The priority helps define the priority of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers."
+
 Constraints allow you to define the conditions under which an offer will be displayed.
 
 1. Configure the **[!UICONTROL Offer eligibility]**. [Learn more](#eligibility)
@@ -44,6 +49,11 @@ For example, if you set the following constraints:
 * The offer will be presented only once per user accross all placements.
 
 ## Eligibility {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Eligibility"
+>abstract="Offer eligibility allows you to restrict the offer to specific profiles that you define using segments or decision rules."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -102,8 +112,8 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
+>title="Capping"
+>abstract="Capping is used as a constraint to define the maximum number of times an offer can be presented."
 
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
