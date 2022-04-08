@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 ---
 # Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
-## Main steps
+## Main steps {#main-steps}
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
@@ -50,7 +51,7 @@ The key steps to configure offers, include them in a decision and leverage this 
 
 The overall Decision Management process to use offers in an email can be described as follows:
 
-![](../assets/offers-e2e-process.png)
+![](assets/offers-e2e-process.png)
 
 ## Define the components {#define-components}
 
@@ -68,7 +69,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
     * *Email - Image*
     * *Non-digital - Text*
 
-    ![](../assets/offers-e2e-placements.png)
+    ![](assets/offers-e2e-placements.png)
 
     The detailed steps to create placements are described in [this section](../../using/offers/offer-library/creating-placements.md).
 
@@ -81,7 +82,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
     * *Female Customers*
     * *Male Customers*
 
-    ![](../assets/offers-e2e-rules.png)
+    ![](assets/offers-e2e-rules.png)
 
     The detailed steps to create rules are described in [this section](../../using/offers/offer-library/creating-decision-rules.md).
 
@@ -91,7 +92,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
     In this example, create the *Yoga* tag.
 
-    ![](../assets/offers-e2e-tag.png)
+    ![](assets/offers-e2e-tag.png)
 
     The detailed steps to create tags are described in [this section](../../using/offers/offer-library/creating-tags.md).
 
@@ -123,17 +124,17 @@ You can now create and configure your offers. In this example, you will create f
 
 1. Select an appropriate image for the first two placements. Enter custom text for the *Non-digital - Text* placement.
 
-    ![](../assets/offers-e2e-representations.png)
+    ![](assets/offers-e2e-representations.png)
 
 1. In the **[!UICONTROL Offer eligibility]** section, select **[!UICONTROL By defined decision rule]** and drag and drop the rule of your choice.
 
-    ![](../assets/offers-e2e-eligibility.png)
+    ![](assets/offers-e2e-eligibility.png)
 
 1. Fill out the **[!UICONTROL Priority]**. In this example, add *25*.
 
 1. Review your offer, then click **[!UICONTROL Save and approve]**.
 
-    ![](../assets/offers-e2e-review.png)
+    ![](assets/offers-e2e-review.png)
 
 1. In this example, create three more offers with the same representations, but different assets. Assign them with different rules and priorities, such as:
 
@@ -142,7 +143,7 @@ You can now create and configure your offers. In this example, you will create f
     * Third offer - Decision rule: *Male Customers*, Priority: *25*
     * Fourth offer - Decision rule: *Male Customers*, Priority: *15*
 
-    ![](../assets/offers-e2e-offers-created.png)
+    ![](assets/offers-e2e-offers-created.png)
 
 The detailed steps to create and configure offers are described in [this section](../../using/offers/offer-library/creating-personalized-offers.md).
 
@@ -158,11 +159,11 @@ The detailed steps to create and configure offers are described in [this section
     * One corresponding to the *Email - Image* placement
     * One corresponding to the *Non-digital - Text* placement
 
-    ![](../assets/offers-e2e-fallback-representations.png)
+    ![](assets/offers-e2e-fallback-representations.png)
 
 1. Review your fallback offer, then click **[!UICONTROL Save and approve]**.
 
-![](../assets/offers-e2e-fallback.png)
+![](assets/offers-e2e-fallback.png)
 
 Your fallback offer is now ready to be used in a decision.
 
@@ -176,7 +177,7 @@ When configuring the decision, you will need to add your personalized offers as 
 
 1. Use the *Yoga* tag to select the four personalized offers you created earlier.
 
-    ![](../assets/offers-e2e-collection-using-tag.png)
+    ![](assets/offers-e2e-collection-using-tag.png)
 
 The detailed steps to create a collection are described in [this section](../../using/offers/offer-library/creating-collections.md).
 
@@ -192,11 +193,11 @@ To create and configure an offer decision, follow the main steps below:
 
 1. Select the *Web - Image*, *Email - Image* and *Non-digital - Text* placements.
 
-    ![](../assets/offers-e2e-decision-placements.png)
+    ![](assets/offers-e2e-decision-placements.png)
 
 1. For each placement, add the collection you created.
 
-    ![](../assets/offers-e2e-decision-collection.png)
+    ![](assets/offers-e2e-decision-collection.png)
 
 1. If you defined a ranking when [building your components](#define-components), you can assign it to a placement in the decision. If multiple offers are eligible to be presented in this placement, the decision will use this formula to calculate which offer to deliver first.
 
@@ -204,11 +205,11 @@ To create and configure an offer decision, follow the main steps below:
 
 1. Select the fallback offer that you created. It will be displayed as an available fallback offer for the three selected placements.
 
-    ![](../assets/offers-e2e-decision-fallback.png)
+    ![](assets/offers-e2e-decision-fallback.png)
 
 1. Review your decision, then click **[!UICONTROL Save and approve]**.
 
-    ![](../assets/offers-e2e-review-decision.png)
+    ![](assets/offers-e2e-review-decision.png)
 
 Your decision is now ready to be used to deliver optimized and personalized offers.
 
@@ -218,27 +219,27 @@ The detailed steps to create and configure a decision are described in [this sec
 
 Now that your decision is live, you can insert it into an email message. To do so, follow the steps below:
 
-1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
+1. Create your email, then open the [Email Designer](../../using/design/design-emails.md) to configure its content.
 
 1. Add a structure component from the left palette.
 
-1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/content-components.md).
+1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/design/content-components.md).
 
-    ![](../assets/offers-e2e-decision-component.png)
+    ![](assets/offers-e2e-decision-component.png)
 
 1. Select it. In the right palette, click **[!UICONTROL Select offer decision]** to add a decision.
 
-    ![](../assets/offers-e2e-select-offer-decision.png)
+    ![](assets/offers-e2e-select-offer-decision.png)
 
 1. Select the placement corresponding to the offers that you want to display from the **[!UICONTROL Placements]** dropdown list.
 
     In this case, from the placements that you created earlier as part of this example, only the **Email - Image** placement is available as you want to use the decision in an email. Learn more on [creating placements](../../using/offers/offer-library/creating-placements.md).
 
-    ![](../assets/offers-e2e-select-placement-in-decision.png)
+    ![](assets/offers-e2e-select-placement-in-decision.png)
 
 1. Decisions matching the **Email - Image** placement are displayed. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
 
-    ![](../assets/offers-e2e-matching-placement-in-decision.png)
+    ![](assets/offers-e2e-matching-placement-in-decision.png)
 
     >[!NOTE]
     >
@@ -246,17 +247,26 @@ Now that your decision is live, you can insert it into an email message. To do s
 
 You can now see all personalized offers and the fallback offer being visualized in the Email Designer.
 
-![](../assets/offers-e2e-offers-displayed.png)
+![](assets/offers-e2e-offers-displayed.png)
 
-Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
 
+>[!NOTE]
+>
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/messages/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
+
 **Related topics:**
 
-* Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).
+* Learn how to check the message preview in [this section](../../using/design/preview.md#preview-your-messages).
 
-* Learn how to publish messages in [this section](../../using/publish-manage-message.md).
+* Learn how to publish messages in [this section](../../using/messages/publish-manage-message.md).
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
+
+<!--
+* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
+-->
+
 

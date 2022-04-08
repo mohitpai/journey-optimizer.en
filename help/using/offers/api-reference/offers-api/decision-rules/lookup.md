@@ -5,8 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 ---
-# Look up a decision rules
+# Look up a decision rule {#lookup-decision-rule}
 
 You can look up a specific decision rule by making a GET request to the [!DNL Offer Library] API that includes either the decision rule `@id` or the name of the decision rule in the request path.
 

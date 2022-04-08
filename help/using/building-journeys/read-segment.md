@@ -5,10 +5,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
 ## About the Read Segment activity {#about-segment-trigger-actvitiy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment"
+>title="Read Segment activity"
+>abstract="The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis."
 
 The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
@@ -36,13 +42,13 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
-    ![](../assets/read-segment-selection.png)
+    ![](assets/read-segment-selection.png)
 
    Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -52,15 +58,15 @@ The steps to configure the Read Segment activity are as follows:
 
 1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read segment activity.
 
-    This value is stored in the journey version payload. The default value is 17,000 messages per second. You can modify this value from 500 to 17,000 messages per second.
+    This value is stored in the journey version payload. The default value is 20,000 messages per second. You can modify this value from 500 to 20,000 messages per second.
 
     >[!NOTE]
     >
-    >The overall throttling rate per sandbox is set to 17,000 messages per second. Therefore, the throttling rate of all the read segments that run simultaneously in the same sandbox add up to at most 17,000 messages per second. You cannot modify this cap.
+    >The overall throttling rate per sandbox is set to 20,000 messages per second. Therefore, the throttling rate of all the read segments that run simultaneously in the same sandbox add up to at most 20,000 messages per second. You cannot modify this cap.
 
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
-    ![](../assets/read-segment-schedule.png)
+    ![](assets/read-segment-schedule.png)
 
     By default, segments enter the journey **[!UICONTROL As soon as possible]**. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
 
@@ -68,7 +74,28 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Note that the **[!UICONTROL Schedule]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
 
-    ![](../assets/read-segment-schedule-list.png)
+    ![](assets/read-segment-schedule-list.png)
+
+    The **Incremental read** option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members. This option is only available for recurring **Read segment** activities. 
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
 
 ### Test and publish the journey {#testing-publishing}
 
@@ -76,7 +103,7 @@ The **[!UICONTROL Read Segment]** activity allows you to test the journey either
 
 To do this, activate the test mode, then select the desired option from the left pane.
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 You can then configure and run the test mode as usual. [Learn how to test a journey](testing-the-journey.md).
 
@@ -88,14 +115,13 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
     Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
 
-    ![](../assets/read-segment-log.png)
+    ![](assets/read-segment-log.png)
 
 Once the tests are successful, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
 >[!NOTE]
 >
 >For recurring segment-based journeys, the journey will automatically close once its last occurrence is executed. If no end date/time has been specified, you will have to close the journey to new entrances manually to end it.
-
 
 ## Audience targeting in segment-based journeys
 
@@ -112,12 +138,12 @@ You can use conditions to perform segmentation using the **Condition** activity.
 The segmentation can be based on:
 
 * data source data
-* the context of events part of the journey data, for example: did a person click on the message she received an hour ago?
+* the context of events part of the journey data, for example: did a person click on the message received an hour ago?
 * a date, for example: are we in June when a person go through the journey?
 * a time, for example: is it morning in the person’s timezone?
 * an algorithm splitting the audience flowing in the journey based on a percentage, for example: 90% - 10% to exclude a control group
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **Exclusion**
 
@@ -125,7 +151,7 @@ The same **Condition** activity used for segmentation (see above) also allows yo
 
 This exclusion could happen right after segment retrieval, for population counting purposes or along a multistep journey.
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **Union**
 
@@ -137,4 +163,4 @@ For example, after following a different experience during ten days in a journey
 
 After a union, you can split the audience again by performing a segmentation or an exclusion.
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

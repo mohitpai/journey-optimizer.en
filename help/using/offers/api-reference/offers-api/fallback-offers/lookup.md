@@ -5,8 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 ---
-# Look up fallback offers
+# Look up fallback offers {#look-up-fallback-offers}
 
 You can look up specific fallback offers by making a GET request to the [!DNL Offer Library] API that includes either the fallback offer `@id` or the name of the fallback offer in the request path.
 

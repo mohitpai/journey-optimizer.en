@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}
 
@@ -12,13 +13,13 @@ This field group will be shared by the journeyStepEvent and journeyStepProfileEv
 
 During a step processing, we can have N data fetch on field groups.
 
-## fetchTotalTime 
+## fetchTotalTime {#fetchtotaltime-field}
 
 Total amount of time spent in data fetch in millis during the step processing.
 
 Type: long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Defines if the fetch in error is on Adobe Experience Platform or on a custom data source.
 
@@ -28,7 +29,7 @@ Values:
 * aep
 * custom
   
-## fetchError
+## fetchError {#fetcherror-field}
 
 Type of error that happens when the data fetch is processed.
 
@@ -40,13 +41,13 @@ Values:
 * timedout
 * error
   
-## fetchErrorCode  
+## fetchErrorCode {#fetcherrorcode-field}
   
 Code for fetch error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
 
 Type: string
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
   
 A timeout can occur, in two cases:
 
@@ -66,37 +67,37 @@ For instance, data is being fetched from Unified Profile Service and an HTTP 500
 
 Type: string
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-The Error code provided by the system [!DNL Journey Orchestration] is querying. For example it can be a 404, 500, etc.
+The Error code provided by the system [!DNL Journey Optimizer] is querying. For example it can be a 404, 500, etc.
 
 Type: string
   
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 How many times the data is fetched, regardless of the type of source.
 
 Type: long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 The total amount of time taken to fetch the data from Adobe Experience Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
 
 Type: long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 How many times the data is fetched from Adobe Experience Platform.
 
 Type: long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 Amount of time to fetch the custom data in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response
 
 Type: long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 How many times the custom data is fetched from external systems.
 

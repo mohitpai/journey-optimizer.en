@@ -5,8 +5,9 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 ---
-# About events{#concept_gfj_fqt_52b}
+# About events{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -19,7 +20,7 @@ The event configuration allows you to define the information [!DNL Journey Optim
 >
 >Event configuration is **mandatory** and must be performed by a **technical user**.
 
-You can  configure two types of events:
+You can configure two types of events:
 
 * **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unitary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
 
@@ -29,6 +30,8 @@ You can  configure two types of events:
 >[!NOTE]
 >
 >If you edit an event used in a draft or live journey, you can only change the name, the description or add payload fields. We strictly limit the edition of draft or live journeys to avoid breaking journeys.
+
+➡️ [Discover this feature in video](#video)
 
 ## Event ID type{#event-id-type}
 
@@ -46,7 +49,7 @@ For unitary events, there are two types of event ID:
 
 Journey Optimizer requires events to be streamed or batched into Adobe Experience Platform. This data does not necessarily need to go to the Real-Time Profile. If you would like to use the events for segmentation or lookup in a separate journey, we recommend you enable the dataset for profile.
 
-## Data cycle {#section_r1f_xqt_pgb}
+## Data cycle {#data-cycle}
 
 Events are POST API calls. Events are sent to Adobe Experience Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. 
 
@@ -55,3 +58,13 @@ The payload contains information required by Streaming Ingestion APIs to work (i
 After arriving through Streaming Ingestion APIs, events flow into an internal service called Pipeline and then in Adobe Experience Platform. If the event schema has the Real-time Customer Profile Service flag enabled and a dataset ID that also has the Real-time Customer Profile flag, it flows into the Real-time Customer Profile Service.
 
 For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Optimizer] eventIDs (see the event creation process below) provided by [!DNL Journey Optimizer] and contained in event payload. For rule-based events, the system identifies the event using the eventID condition. These events are listened by [!DNL Journey Optimizer] and the corresponding journey is triggered.
+
+## How-to videos {#video}
+
+Learn how to configure an event, specify the streaming endpoint and the payload for an event.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+Understand the applicable use cases for business events. Learn how to build a journey using a business event and which best practices to apply.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

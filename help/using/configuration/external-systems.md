@@ -1,9 +1,7 @@
 ---
 product: adobe campaign
-solution: Journey Optimizer
 title: Integrate Journey Optimizer with external systemps
 description: Learn the best practices when integrating Journey Optimizer with external systems
-feature: Journey Optimizer
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
@@ -28,7 +26,7 @@ When Journey Optimizer executes a call to an external API, the technical guardra
 
 The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. 
 
-For external data sources, the maximum number of calls per second is set to 15. If the number of calls exceeds 15 per second, the remaining calls are discarded. You can increase this limit for private external data sources. Contact Adobe to whitelist the endpoint. This is not possible for public external data sources.
+For external data sources, the maximum number of calls per second is set to 15. If the number of calls exceeds 15 per second, the remaining calls are discarded. You can increase this limit for private external data sources. Contact Adobe to include the endpoint in the allowlist. This is not possible for public external data sources.
 
 For custom actions, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
 

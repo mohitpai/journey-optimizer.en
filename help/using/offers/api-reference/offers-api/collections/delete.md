@@ -5,8 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 ---
-# Delete a collection
+# Delete a collection {#delete-collection}
 
 It may occasionally be necessary to remove (DELETE) a collection. Only collections that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the collection you wish to delete.
 

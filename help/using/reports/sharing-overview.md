@@ -5,14 +5,15 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 ---
-# Create journey reports{#design-jo-reports}
+# Create journey reports {#design-jo-reports}
 
 In addition to [real-time reports](live-report.md) and built-in [global reporting capabilities](global-report.md), [!DNL Journey Optimizer] can automatically send journey performance data to Adobe Experience Platform so it can be combined with other data for analysis purposes. 
 
 >[!NOTE]
 >
->This feature is activated by default on all instances for journey steps events. For journey profile step events, the activation is upon request. The schemas and datasets created during the provisioning for this feature must not be changed.
+>This feature is activated by default on all instances for journey steps events. You cannot modify or update the schemas and datasets that have been created during provisioning for step events. By default, these schemas and datasets are in read-only mode.
 
 For example, you have set up a journey that sends multiple emails. This capability allows you to combine [!DNL Journey Optimizer] data with downstream event data like how many conversions occurred, how much engagement happened on the website, or how many transactions happened in the store. The journey information can be combined with data on Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
 
@@ -24,32 +25,38 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 >
 >Datasets cannot not be turned on for real time profile service. Please make sure that the **[!UICONTROL Profile]** toggle is turned off.
 
-Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
+[!DNL Journey Optimizer] sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps. 
 
 The following schemas are created:
 
-* Journey Step Profile Event schema for [!DNL Journey Orchestration] – Experience Events for steps taken in a Journey along with an Identity Map to be used for mapping to an individual Journey Participant.
 * Journey Step Event schema for [!DNL Journey Orchestration] – Journey step event that is tied to a Journey Metadata.
 * Journey schema with Journey Fields for [!DNL Journey Orchestration] – Journey Metadata to describe Journeys.
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 The following datasets are passed:
 
-* Journey Step Profile Event schema for [!DNL Journey Orchestration]
 * Journey Step Events
 * Journeys
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 
-* [journeySteps events common fields](../reports/sharing-common-fields.md)
-* [journeyStep events action execution fields](../reports/sharing-execution-fields.md)
-* [journeyStep events data fetch fields](../reports/sharing-fetch-fields.md)
-* [journeyStep event identity fields](../reports/sharing-identity-fields.md)
-* [journey fields](../reports/sharing-journey-fields.md)
+* [Step event field list](../reports/sharing-field-list.md)
+* [Legacy step event fields](../reports/sharing-legacy-fields.md)
 
 For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.
+
+## Integration with Customer Journey Analytics {#integration-cja}
+
+[!DNL Journey Optimizer] step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"}. 
+
+The general workflow is:
+
+* [!DNL Customer Journey Analytics] ingests the "Journey Step Event" dataset.
+* The **profileID** field in the associated "Journey Step Event schema for Journey Orchestration" is defined as an Identity field. In [!DNL Customer Journey Analytics], you can then link this dataset to any other dataset that has the same value as the person based identifier.
+* To use this dataset in [!DNL Customer Journey Analytics], for cross-channel journey analysis, refer to [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+

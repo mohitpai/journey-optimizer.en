@@ -1,15 +1,15 @@
 ---
 title: Personalization validation
-description: Learn more about personalization validation and how to troubleshoot
+description: Learn more about personalization validation and how to troubleshoot.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 ---
-
 # Personalization validation {#personalization-validation}
 
-## Validation mechanisms
+## Validation mechanisms {#validation-mechanisms}
 
 In the **Expression Editor** screen, use the **Validate** button to check your personalization syntax.
 
@@ -23,7 +23,7 @@ In the **Expression Editor** screen, use the **Validate** button to check your p
 > If the personalization syntax is not valid, you cannot close the expression editor window.
 >
 
-## Common errors
+## Common errors {#common-errors}
 
 * **Path "XYZ" not found**
 
@@ -65,7 +65,7 @@ In this case **firstName1** is not defined as attribute in the profile schema:
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Specific errors related to offers
+## Specific errors related to offers {#specific-errors}
 
 The errors related to offers integration in an Email or Push message have the following pattern : 
 
@@ -97,7 +97,7 @@ Resource with id activityID and type OfferActivity not found<br/></td>
    <td>The Image Offers (all Personalized and fallback associated with the decision and placement pair) should have public URL populated (deliveryURL should not be empty).</td> 
   </tr> 
   <tr> 
-   <td>The decision (previously known as offer activity) contains non-profile attributes.</td> 
+   <td>The decision contains non-profile attributes.</td> 
    <td>Offers Model usage should contain only the profile attributes.</td> 
   </tr> 
   <tr> 
@@ -113,4 +113,3 @@ HTML: content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

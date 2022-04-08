@@ -5,12 +5,13 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 ---
 # Journey live report {#journey-live-report}
 
 Journey live report can be accessed directly from your journey with the **[!UICONTROL Live report]** button. 
 
-![](../assets/report_1.png)
+![](assets/report_1.png)
 
 The journey **[!UICONTROL Live report]** page will be displayed with the following tabs:
 
@@ -24,7 +25,7 @@ The journey **[!UICONTROL Live report]** is divided into different widgets detai
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Journey]** tab gives you a clear view of the most important tracking data about your journey.
 
-![](../assets/report_journey_2.png)
+![](assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** allows you to see the path of your targeted profiles step-by-step through your journey.
 
@@ -34,19 +35,35 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Exited profiles]**: Total number of individuals who exited the journey.
 
-* **[!UICONTROL Failed individual journey]**: Total number of individual journeys that were not successfully executed.
+* **[!UICONTROL Failed individual journeys]**: Total number of individual journeys that were not successfully executed.
 
-![](../assets/report_journey_3.png)
+![](assets/report_journey_3.png)
 
-The **[!UICONTROL Event executed over the last 24 hours]**, **[!UICONTROL Events executed]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
+The **[!UICONTROL Event executed over the last 24 hours]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
 
-![](../assets/report_journey_4.png)
+![](assets/report_journey_4.png)
 
-**[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Actions executed and errors]** widgets represent the most successful action and errors which occurred when your actions were triggered. The Action graph, table and summary numbers contain the data available for actions, such as:
+The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Actions executed and errors]** widgets represent the most successful action and errors which occurred when your actions were triggered. The Action graph, table and summary numbers contain the data available for actions, such as:
 
-* **[!UICONTROL Actions successfully executed]**: Total number of actions successfully executed for a journey.
+* **[!UICONTROL Actions executed]**: Total number of actions successfully executed for a journey.
 
-* **[!UICONTROL Error in action]**: Total number of errors that occurred for actions.
+* **[!UICONTROL Error in actions]**: Total number of errors that occurred for actions.
+
+<!--
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Email tab {#email-live}
 
@@ -54,7 +71,7 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab d
 
 For a detailed report on a specific email delivery, refer to the [Email live report](email-live-report.md) section.
 
-![](../assets/report_email_1.png)
+![](assets/report_email_1.png)
 
 The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
 
@@ -82,7 +99,7 @@ The **[!UICONTROL Sending metrics by Email]** table and **[!UICONTROL Email Summ
 
 * **[!UICONTROL Spam complaints]**: Number of times a message was declared as spam or junk.
 
-![](../assets/report_email_2.png)
+![](assets/report_email_2.png)
 
 The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!UICONTROL Hard and bounce - by Email]** widgets contain the data available related to bounced messages, such as:
 
@@ -92,7 +109,11 @@ The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+![](assets/report_email_3.png)
+
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
 ## Push tab {#push-live}
 
@@ -100,7 +121,7 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab de
 
 For a detailed report on a specific push delivery, refer to the [Push live report](push-live-report.md) section.
 
-![](../assets/report_push_1.png)
+![](assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** and **[!UICONTROL Sending metrics - by Push]** widgets details the main information relative to your message:
 
@@ -118,10 +139,12 @@ For a detailed report on a specific push delivery, refer to the [Push live repor
 
 * **[!UICONTROL Engagements]**: Total number of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+![](assets/report_push_3.png)
 
-![](../assets/report_push_2.png)
+The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
+
+![](assets/report_push_2.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
-
-The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many error and bounce occurred.

@@ -1,20 +1,21 @@
 ---
 title: Key steps to create an offer
-description: Discover the key steps that are required to create an offer.
+description: Discover the key steps that are required to create an offer
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 ---
-# Key steps to create and manage offers {#key-steps}
+# Key steps to create and manage offers {#key-steps-to-manage-offers}
 
 The main steps to create, configure and manage offers, as well as use them in a decision, are presented below.
 
-![](../../assets/offer-create-manage-process.png)
+![](../assets/offer-create-manage-process.png)
 
 For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](../offers-e2e.md).
 
-## Create components
+## Create components {#create-components}
 
 Before starting to create offers, you must define several components that you will use in your offers.
 
@@ -34,7 +35,7 @@ Before starting to create offers, you must define several components that you wi
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Create ranking formulas</a></p></td>
 </table>
 
-## Create and manage offers
+## Create and manage offers {#create-and-manage-offers}
 
 1. **Create offers**, and configure their content and properties.
 
@@ -49,7 +50,7 @@ Before starting to create offers, you must define several components that you wi
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Create collections</a></p></td></tr>
 </table>
 
-## Create and configure decisions
+## Create and configure decisions {#create-and-configure-decisions}
 
 1. **Create a decision** that will combine placements with the personalized offers and the fallback offers. This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile. 
 

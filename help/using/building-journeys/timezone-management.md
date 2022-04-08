@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 ---
 # Time zone management {#timezone_management}
 
@@ -31,7 +32,7 @@ The time zone can also be fixed. Clear the pre-defined time zone and pick one fr
 
 To do so, in the **[!UICONTROL Journey Properties]** pane, select a time zone. 
 
-![](../assets/journey72.png)
+![](assets/journey72.png)
 
 ## Using profiles to define the journey time zone {#timezone-from-profiles}
 
@@ -43,7 +44,7 @@ If the individual's profile does not contain a time zone, the timezone retrieved
 
 To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
-![](../assets/journey73.png)
+![](assets/journey73.png)
 
 ## Using time zones in expressions {#timezone-in-expressions}
 

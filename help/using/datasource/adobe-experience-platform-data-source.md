@@ -1,12 +1,18 @@
 ---
-title: Adobe Experience Platform data source 
+title: Adobe Experience Platform data source
 description: Learn how to configure Adobe Experience Platform data source
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 ---
-# Adobe Experience Platform data source {#concept_zrb_nqt_52b}
+# Adobe Experience Platform data source {#adobe-experience-platform-data-source}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_built_in"
+>title="Adobe Experience Platform data source"
+>abstract="Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data."
 
 Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
@@ -24,11 +30,11 @@ Here are the main steps to add field groups to the build-in data source.
 
     This opens the data source configuration pane on the right-hand side of the screen.
 
-    ![](../assets/journey23.png)
+    ![](assets/journey23.png)
 
 1. Click **[!UICONTROL Add a New Field Group]** to define a new series of fields to retrieve. See [this page](../datasource/configure-data-sources.md#define-field-groups).
 
-    ![](../assets/journey24.png)
+    ![](assets/journey24.png)
 
 1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Optimizer]. It’s performed in Adobe Experience Platform.
 1. Select the fields you want to use.

@@ -1,16 +1,17 @@
 ---
-title: Create decision rules
+title: Create a decision rule
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 ---
-# Create a decision rule
+# Create a decision rule {#create-decision-rule}
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

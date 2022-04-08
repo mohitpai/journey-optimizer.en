@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 ---
-# Create a placement
+# Create a placement {#create-placement}
 
 You can create a placement by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

@@ -1,12 +1,12 @@
 ---
 title: Personalization use case&colon; order status notification
-description: Learn how to personalize a message with profile, offer decision, and context information
+description: Learn how to personalize a message with profile, offer decision, and context information.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 ---
-
 # Personalization use case: order status notification {#personalization-use-case}
 
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
@@ -19,11 +19,11 @@ The goal of this example is to push an event to [!DNL Journey Optimizer] every t
 
 For this use case, the following prerequisites are needed:
 
-* create and design a push notification message, without publishing it. Refer to this [section](../create-message.md).
+* create and design a push notification message, without publishing it. Refer to this [section](../messages/get-started-content.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
 * create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-activities/create-offer-activities.md).
 
-## Step 1 - Add personalization on profile
+## Step 1 - Add personalization on profile {#add-perso}
 
 1. Click the **[!UICONTROL Message]** menu, and select your message.
 
@@ -41,7 +41,7 @@ For this use case, the following prerequisites are needed:
    >
    >Leave the message in draft. Do not publish it yet.
 
-## Step 2 - Create the journey
+## Step 2 - Create the journey {#create-journey}
 
 1. Click the **[!UICONTROL Journeys]** menu and create a new journey.
 
@@ -63,7 +63,7 @@ For this use case, the following prerequisites are needed:
    >
    >The message appears with a warning icon. This is because the message is not published yet.
 
-## Step 3 - Add personalization on contextual data
+## Step 3 - Add personalization on contextual data {#add-perso-contextual-data}
 
 1. From the **Message** activity, click the **Open the message** icon. The message opens in a new tab.
 
@@ -73,10 +73,10 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc9.png)
 
-1. Select the **Context** category. This item is only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
+1. Select the **Contextual attributes** menu. Contextual attributes are only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
    * **Events**: this category regroups all fields from the event(s) placed before the **Message** activity in the journey.
-   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Learn more in [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target="_blank"}.
+   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Learn more in [Journey Orchestration documentation](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -88,11 +88,11 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc12.png)
 
-1. Type the message and insert, from the **Context** category, the order item name and the order progress. 
+1. Type the message and insert, from the **[!UICONTROL Contextual attributes]** menu, the order item name and the order progress. 
 
    ![](assets/perso-uc13.png)
 
-1. From the drop-down, select **Offer decision** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
+1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
 
    ![](assets/perso-uc14.png)
 
@@ -104,7 +104,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc16.png)
 
-## Step 4 - Test and publish the journey
+## Step 4 - Test and publish the journey {#test-publish}
 
 1. Open the journey again. If the journey is already open, make sure you refresh the page. Now that the message is published, you can see that there is no error in the journey. Click the **Test** button, then click **Trigger an event**.
 
@@ -118,5 +118,4 @@ For this use case, the following prerequisites are needed:
 
     ![](assets/perso-uc19.png)
 
-1. Verify that there is no error and publish the journey. 
-
+1. Verify that there is no error and publish the journey.

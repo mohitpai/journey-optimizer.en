@@ -5,10 +5,16 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_acc"
+>title="Adobe Campaign v7/v8 actions"
+>abstract="This integration is available for Adobe Campaign Classic v7 and v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities. The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time." 
+
+This integration is available for Adobe Campaign Classic v7 starting 7.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time.
 
@@ -16,9 +22,9 @@ An end-to-end use case is presented in this [section](../building-journeys/campa
 
 For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
-## Important notes
+## Important notes {#important-notes}
 
-* There is no throttling of messages. We cap the number of messages that can be sent over to 50,000/hour based on our current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
+* There is no throttling of messages. The system caps the number of messages that can be sent over to 4000 per 5 minutes, based on the current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
 
 * You need to configure one action on the canvas per template you wish to use. You need to configure one action in Journey Optimizer for each template you wish to use from Adobe Campaign.
 
@@ -28,11 +34,11 @@ For each action configured, an action activity is available in the journey desig
 
 * You cannot use a Campaign action with a segment qualification event.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 In Campaign, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
-You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Orchestration (see below)
+You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Optimizer (see below)
 
 Here is an example:
 
@@ -51,7 +57,7 @@ Here is an example:
 * **eventType**: the internal name of your Campaign event
 * **ctx**: variable based on the personalization you have in your message. 
 
-## Configuring the action
+## Configuring the action {#configure-action}
 
 In Journey Optimizer, you need to configure one action per transactional message. Follow these steps:
 
@@ -62,6 +68,4 @@ In Journey Optimizer, you need to configure one action per transactional message
 1. Adjust the different fields to be static or variable depending on if you want to map them on the Journey canvas. Certain fields, such as channel parameters for email address and personalization fields (ctx), you likely want defined as variables for mapping in context of the journey.
 1. Click **Save**.
 
-![](../assets/accintegration1.png)
-
-
+![](assets/accintegration1.png)

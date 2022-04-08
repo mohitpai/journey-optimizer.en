@@ -5,8 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 ---
-# Jumping from one journey to another {#jump}
+# Jump from one journey to another {#jump}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_jump"
+>title="Jump activity"
+>abstract="The Jump action activity allows you to push individuals from one journey to another. This feature allows you to simplify the design of very complex journeys and build journeys based on common and reusable journey patterns."
 
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
@@ -19,7 +25,7 @@ In the target journey, the first event triggered internally by the **[!UICONTROL
 
 >[!NOTE]
 >
->Also refer to the Journey Orchestration tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
+>Also refer to the tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
 
 ## Lifecycle
 
@@ -63,16 +69,16 @@ In journey B, the first event is triggered internally, via the **[!UICONTROL Jum
 
 1. Design your **origin journey**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. At any step of the journey, add a **[!UICONTROL Jump]** activity, from the **[!UICONTROL ACTIONS]** category. Add a label and description.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. Click inside the **Target journey** field. 
    The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment Qualification** event are not available. Target journeys that would create a loop pattern are also filtered out.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -81,12 +87,12 @@ In journey B, the first event is triggered internally, via the **[!UICONTROL Jum
 1. Select the target journey that you want to jump to.
    The **First event** field is prefilled with the name of the target journey's first event. If your target journey includes multiple events, the **[!UICONTROL Jump]** is only allowed on the first event.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. The **Action parameters** section displays all the fields of the target event. In the same way as for other types of actions, map each field with fields from the origin event or data source. This information will be passed to the target journey at runtime.
 1. Add the next activities to finish your origin journey.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -97,7 +103,7 @@ Your **[!UICONTROL Jump]** activity is configured. As soon as your journey is li
 
 When a **[!UICONTROL Jump]** activity is configured in a journey, a **[!UICONTROL Jump]** entry icon is automatically added at the beginning of the target journey. This helps you identify that the journey can be triggered externally but also internally from a **[!UICONTROL Jump]** activity. 
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## Troubleshooting
 
@@ -106,4 +112,4 @@ When the journey is published or in test mode, errors will happen if:
 * the target journey is draft, closed or stopped
 * if the first event of the target journey has changed and the mapping is broken
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

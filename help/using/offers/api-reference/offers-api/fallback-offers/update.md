@@ -5,14 +5,15 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 ---
-# Update a fallback offer
+# Update a fallback offer {#update-fallback-offer}
 
 You can modify or update a fallback offer in your container by making a PATCH request to the [!DNL Offer Library] API.
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

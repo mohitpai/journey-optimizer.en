@@ -5,8 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 ---
-# Reaction events {#section_dhx_gss_dgb}
+# Reaction events {#reaction-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_reaction"
+>title="Reaction events"
+>abstract="This activity allows you to react to tracking data related to a message sent within the same journey. We capture this information in real-time at the moment it is shared with Adobe Experience Platform. For push notifications, you can react to clicked, sent or failed messages. For SMS messages, you can react to sent or failed messages. For emails, you can react to clicked, sent, opened or failed messages."
 
 Among the different event activities available in the palette, you will find the built-in **[!UICONTROL Reactions]** event. This activity allows you to react to tracking data related to a message sent within the same journey. We capture this information in real-time at the moment it is shared with Adobe Experience Platform. For push notifications, you can react to clicked, sent or failed messages. For SMS messages, you can react to sent or failed messages. For emails, you can react to clicked, sent, opened or failed messages.
 
@@ -16,7 +22,7 @@ Note that you can only use a reaction activity in the canvas if there is a **Mes
 
 See [About action activities](../building-journeys/about-journey-activities.md#action-activities).
 
- ![](../assets/journey45.png)
+ ![](assets/journey45.png)
 
 Here are the different steps to configure the reaction events:
 

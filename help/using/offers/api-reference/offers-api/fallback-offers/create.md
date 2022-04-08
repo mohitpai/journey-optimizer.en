@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 ---
-# Create a fallback offer
+# Create a fallback offer {#create-fallback-offer}
 
 You can create a fallback offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 

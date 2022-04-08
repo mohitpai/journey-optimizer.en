@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 ---
-# Delete a decision
+# Delete a decision {#delete-decision}
 
-It may occasionally be necessary to remove (DELETE) a decision (previously known as offer activity). Only decisions that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.
+It may occasionally be necessary to remove (DELETE) a decision. Only decisions that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.
 
 **API format**
 

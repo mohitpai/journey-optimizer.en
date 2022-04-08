@@ -5,8 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 ---
-# List decision rules
+# List decision rules {#list-decision-rules}
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility. YYou can view a list of existing decision rules within a container by performing a single GET request to the [!DNL Offer Library] API.
 
@@ -23,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Defines the schema associated with decision rules. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=1` |
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

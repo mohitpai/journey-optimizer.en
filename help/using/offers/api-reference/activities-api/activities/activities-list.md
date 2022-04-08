@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 ---
-# List decisions
+# List decisions {#list-decisions}
 
-A decision (previously known as offer activity) contains the logic that informs the selection of an offer.
+A decision contains the logic that informs the selection of an offer.
 
 You can view a list of all decisions within a container by performing a single GET request to the [!DNL Offer Library] API.
 
@@ -37,11 +38,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Using query parameters
+## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
 
-### Paging
+### Paging {#paging}
 
 The most common query parameters for paging include:
 

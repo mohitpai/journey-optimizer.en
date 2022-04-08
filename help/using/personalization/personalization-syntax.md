@@ -1,12 +1,12 @@
 ---
 title: Personalization syntax
-description: Learn how to use personalization syntax
+description: Learn how to use personalization syntax.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 ---
-
 # Personalization syntax {#personalization-syntax}
 
 Personalization in [!DNL Journey Optimizer] is based on the templating syntax called Handlebars.
@@ -23,7 +23,7 @@ where:
 * `profile` is a namespace.
 * `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
-## Syntax general rules
+## Syntax general rules {#general-rules}
 
 Identifiers may be any unicode character except for the following: 
 
@@ -71,7 +71,7 @@ Learn how to leverage profile attributes in conditions in [this section](functio
 >To learn more about segmentation and segmentation service, refer to [this section](../segment/about-segments.md).
 >
 
-## Offers
+## Offers {#offers-syntax}
 
 This namespace allows you to reference existing offers decisions.
 To reference an offer you need to declare a path with the different information that define an offer.
@@ -124,7 +124,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >Helper functions are detailed in [this section](functions/helpers.md).
 >
 
-## Literal types
+## Literal types {#literal-types}
 
 [!DNL Adobe Journey Optimizer] supports the following literal types:
 
@@ -138,3 +138,30 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >[!CAUTION]
 >
 >The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent will result in validation failures.
+
+## URL Personalization{#perso-urls}
+
+Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.
+
+Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To personalize a URL, follow the steps below:
+
+1. Create a link in your message content. [Learn more](../design/message-tracking.md#insert-links)
+1. From the personalization icon, select the attributes. The personalization icon is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>
+>In the expression editor, when you edit a personnalized URL, helper functions and segments membership are disabled for security reasons.
+>
+
+**Sample personalized URLs**
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}` 
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
+>[!CAUTION]
+>
+>Spaces are not supported in the personalization tokens used inside urls.

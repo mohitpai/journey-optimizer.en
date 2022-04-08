@@ -1,29 +1,33 @@
 ---
-title: Helper functions library
+title: Get started with Helper functions
 description: Journey Optimizer Helper functions library
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 ---
-
-# Helper functions library{#functionsL}
+# Get started with Helper functions{#functionsL}
 
 Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
 
-➡️ [Discover how to use helper functions](#video) (video)
+➡️ [Learn how to use helper functions in this video](#video)
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
-
-
 In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+
+Select a category, to access sub-categories and functions.
+
+Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automaticaly added to the personalization screen. 
+
+Click the `...` icon to view the description of the function and add it to your favorites. [Learn more](../personalize.md#fav)
 
 ## Functions{#functions-helper}
 
-**Array Functions**
+### Array Functions
  
 <table>
     <tr>
@@ -73,8 +77,43 @@ In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped 
     </tr>
 </table>
 
+### Date Time Functions{#date-functions}
 
-**Map Functions**
+<table>
+    <tr>
+        <td><a href="dates.md#age">Age</a></td><td>This function retrieves the age from a given date</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Current time in milliseconds</a></td><td>This function retrieves current time in epoch millisecond</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Date difference</a></td><td>This function retrieves the difference between two dates in number of days</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Day of week</a></td><td>This function retrieves the day of week</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Day of year</a></td><td>This function retrieves the day of year</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Format date</a></td><td>This function formats a date time value</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Set days</a></td><td>This function sets the day of the month for the given date-time</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Set days</a></td><td>This function sets the hour of the date-time</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">To UTC</a></td><td>This function converts a datetime to UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">Week of year</a></td><td>This function returns the week of the year</td>
+    </tr>
+</table>
+</table>
+
+### Map Functions {#map-functions}
 
 <table>
     <tr>
@@ -99,7 +138,7 @@ In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped 
     </tr>
 </table>
 
-**String Functions**
+### String Functions {#string-functions}
 
 <table>
     <tr>
@@ -235,7 +274,7 @@ Arithmetic functions are used to perform basic calculations on values.
 </table>
 
 
-### Boolean functions
+### Boolean functions {#boolean-functions}
 
 Boolean functions are used to perform boolean logic on different elements.
 
@@ -255,7 +294,7 @@ Boolean functions are used to perform boolean logic on different elements.
 </table>
 
 
-### Comparison functions
+### Comparison functions {#comparison-functions}
 
 Comparison functions are used to compare between different expressions and values, returning true or false accordingly.
 

@@ -1,12 +1,18 @@
 ---
-title: External data sources 
+title: External data sources
 description: Learn how to configure external data sources
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
-# External data sources {#concept_t2s_kqt_52b}
+# External data sources {#external-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_custom"
+>title="External data sources"
+>abstract="External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need."
 
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
@@ -25,11 +31,11 @@ Here are the main steps to create and configure a new external data source:
 
 1. From the list of data sources, Click **[!UICONTROL Create Data Source]** to create a new external data source.
 
-    ![](../assets/journey25.png)
+    ![](assets/journey25.png)
 
     This opens the data source configuration pane on the right-hand side of the screen.
 
-    ![](../assets/journey26.png)
+    ![](assets/journey26.png)
 
 1. Enter a name for your data source.
 
@@ -44,16 +50,16 @@ Here are the main steps to create and configure a new external data source:
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
 
-    ![](../assets/journey27.png)
+    ![](assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#custom-authentication-mode). In our example, we choose:
 
     * **[!UICONTROL Type]**: "API key"
     * **[!UICONTROL Name]**: "appid" (this is the API key parameter name)
     * **[!UICONTROL Value]**: "1234" (this is the value of our API key)
     * **[!UICONTROL Location]**: "Query parameter" (the API key is located in the URL)
 
-    ![](../assets/journey28.png)
+    ![](assets/journey28.png)
 
 1. Add a new field group for each API parameter set by clicking **[!UICONTROL Add a New Field Group]**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat). 
 
@@ -61,7 +67,7 @@ For the "long/lat" parameter set, we create a field group with the following inf
 
 * **[!UICONTROL Used in]**: displays the number of journeys that use a field group. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
-* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. [Learn more](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
@@ -74,13 +80,13 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
     {"id":{"param":"identifier"}}
     ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 Click **[!UICONTROL Save]**.
 
 The data source is now configured and ready to be used in your journeys, for example in your conditions or to personalize an email. If the temperature is above 30°C, you can decide to send a specific communication.
 
-## Custom authentication mode{#section_wjp_nl5_nhb}
+## Custom authentication mode{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
@@ -91,11 +97,11 @@ This authentication mode is used for complex authentication, frequently used to 
 
 When you configure the custom authentication, you can click on the button below to check if the custom authentication payload is correctly configured.
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 If the test is successful, the button turns green.
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 With this authentication, the action execution is a two-step process:
 
@@ -108,10 +114,10 @@ The definition of the endpoint to be called to generate the access token:
 
 * endpoint: URL to use to generate the endpoint
 * method of the HTTP request on the endpoint (GET or POST)
-* headers: key/value pairs to be injected as headers in this call if required
-* body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key/value pairs). The bodyType describes the format and encoding of the body in the call: 
-    * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key/value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
-    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
+* headers: key-value pairs to be injected as headers in this call if required
+* body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key-value pairs). The bodyType describes the format and encoding of the body in the call: 
+    * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key-value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
+    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key-value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
 
 The definition of the way the access token must be injected in the HTTP request of the action:
 
@@ -175,3 +181,7 @@ You can change the cache duration of the token for a custom authentication data 
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>Cache duration helps to avoid too many calls to the authentication endpoints. Authentication token retention is cached in services, there is no persistence. If a service is restarted, it starts with a clean cache. The cache duration by default is 1 hour. In the custom authentication payload, it can be adapted by specifying another retention duration.

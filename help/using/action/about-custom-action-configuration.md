@@ -1,22 +1,40 @@
 ---
-solution: Journey Orchestration
-title: About custom action configuration
+solution: Journey Optimizer
+title: Configure a custom action
 description: Learn how to configure a custom action
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 ---
-# Configure an action {#configure-an-action}
+# Configure a custom action {#configure-an-action}
 
-If you're using a third-party system to send messages or if you want journeys to send API calls to a third-party system, this is where you configure its connection to journeys. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-journey-activities.md#action-activities). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
-Limitations are listed in [this page](../building-journeys/limitations.md).
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="Custom actions"
+>abstract="If you are using a third-party system to send messages or if you want journeys to send API calls to a third-party system, use custom actions to configure its connection to your journey. For example you can connect to the following systems with custom actions: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com), Firebase, etc." 
+
+If you are using a third-party system to send messages or if you want journeys to send API calls to a third-party system, use custom actions to configure its connection to your journey. For example you can connect to the following systems with custom actions: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
+
+Custom actions are additional actions defined by technical users and made available to marketers. Once configured, they appear in the left palette of your journey, in the **[!UICONTROL Action]** category. Learn more in [this page](../building-journeys/about-journey-activities.md#action-activities). 
+
+## Limitations{#custom-actions-limitations}
+
+Custom actions come with a few limitations listed in [this page](../start/limitations.md).
+
+In custom action parameters, you can pass a simple collection, as well as a collection of objects. Learn more about collection limitations in [this page](../building-journeys/collections.md#limitations). 
+
+Also note that the custom actions parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Learn more in this [use case](../building-journeys/collections.md).
+
+
+## Configuration steps {#configuration-steps}
 
 Here are the main steps required to configure a custom action:
 
-1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen.
 
-    ![](../assets/custom2.png)
+    ![](assets/custom2.png)
 
 1. Enter a name for your action.
 
@@ -27,7 +45,7 @@ Here are the main steps required to configure a custom action:
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
 1. Define the different **[!UICONTROL URL Configuration]** parameters. See [this page](../action/about-custom-action-configuration.md#url-configuration).
-1. Configure the **[!UICONTROL Authentication]** section. This configuration is the same as for data sources.  See [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Configure the **[!UICONTROL Authentication]** section. This configuration is the same as for data sources.  See [this section](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Define the **[!UICONTROL Action parameters]**. See [this page](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Click **[!UICONTROL Save]**.
 
@@ -41,30 +59,55 @@ Here are the main steps required to configure a custom action:
 
 When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
-1. Add the **[!UICONTROL URL]** of the external service.
+1. In the **[!UICONTROL URL]** field, specify the URL of the external service:
+
+    * If the URL is static, enter the URL in this field.
+
+    * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, the port, and, optionally, a static part of the path.
+
+        Example: `https://xxx.yyy.com/somethingstatic/`
+
+        You will specify the dynamic path of the URL when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
     >[!NOTE]
     >
-    >We strongly recommend using HTTPS for security reasons. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
+    >For security reasons, we strongly recommend that you use the HTTPS scheme for the URL. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
+    >
+    >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
-1. In the **[!UICONTROL Headers]** section, click **[!UICONTROL Add a header field]** to define a new key/value pair. They correspond to the HTTP headers of the request made to the external service. To delete key/value pairs, place your cursor on the header field and click on the **[!UICONTROL Delete]** icon.
+1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
+   1. To add a header field, click **[!UICONTROL Add a header field]**.
+   1. Enter the key of the header field.
+   1. To set a dynamic value for the key-value pair, select **[!UICONTROL Variable]**. Otherwise, select **[!UICONTROL Constant]**.
 
-    **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** are set by default and cannot be deleted or overridden.
+        For example, for a timestamp, you can set a dynamic value.
+
+   1. If you have selected **[!UICONTROL Constant]**, then enter the constant value.
+
+       If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
+
+       ![](assets/journeyurlconfiguration2.png)
+
+   1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
+
+    The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.
+
+    After you have added the custom action to a journey, you can still add header fields to it if the journey is in draft status. If you do not want the journey to be affected by configuration changes, duplicate the custom action and add the header fields to the new custom action.
 
     >[!NOTE]
     >
-    >Headers are validated according to the following [parsing rules](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >Headers are validated according to field parsing rules. [Learn more](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
 ## Define the action parameters {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 In the **[!UICONTROL Action parameters]** section, paste an example of the JSON payload to send to the external service.
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -75,6 +118,6 @@ You will be able to define the parameter type (e.g.: string, integer, etc.).
 You will also have a choice between specifying if a parameter is a constant or a variable:
 
 * Constant means that the value of the parameter is defined in the action configuration pane by a technical persona. The value will be always the same across journeys. It will not vary and the marketer won’t see it when using the custom action in the journey. It could be for example an ID the third-party system expects. In that case, the field on the right of the toggle constant/variable is the value passed.
-* Variable means the value of the parameter will vary. The marketer using this custom action in a journey will be free to pass the value he wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label the marketer will see in the journey to name this parameter.
+* Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)

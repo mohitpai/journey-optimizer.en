@@ -1,18 +1,19 @@
 ---
-title: Create personalized offers
+title: Create a personalized offer
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 ---
-# Create a personalized offer
+# Create a personalized offer {#create-personalized-offer}
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 
 You can create a personalized offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
-## Accept and Content-Type headers
+## Accept and Content-Type headers {#accept-and-content-type-headers}
 
 The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 
@@ -94,3 +95,7 @@ A successful response returns information on the newly created personalized offe
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## Limitations {#limitations}
+
+Offer representations and some offer constraints are currently not supported with the mobile [!DNL Experience Edge] workflows, for example `Capping`. The `Capping` field value specifies the number of times an offer can be presented across all users. For more details, see [Offer eligibility rules and constraints documentation](../../../offer-library/creating-personalized-offers.md).

@@ -1,40 +1,29 @@
 ---
 title: Permission levels
 description: Learn about high and low level permissions
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
-exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 ---
 # Permission levels {#high-low-permissions}
 
-![](../assets/do-not-localize/permissions.png)
+![](assets/do-not-localize/permissions.png)
 
 Each product profile is composed of permissions allowing users to access the different features. 
 They can be divided into two types:
 
-* **High-level permission**: represents the different permissions that can be assigned to **[!UICONTROL Product profile]** in the [!DNL Admin console], such as **[!UICONTROL Publish journeys]** and **[!UICONTROL Manage subdomains delegation]**. High level permissions encompass low level permissions.
+* **High-level permission**: represents the different permissions that can be assigned to **[!UICONTROL Product profile]** in the [!DNL Admin console], such as **[!DNL Publish journeys]** and **[!DNL Manage subdomains delegation]**. High level permissions encompass low level permissions.
 
 * **Low-level permission**: represents the different permissions that come from the high level permission.
 
-For example, the **[!UICONTROL Journey administrator]** product profile is assigned the **[!UICONTROL Manage journeys]** permission. From this permission results the low-level permissions which will allow the Journey administrator to write, read and delete journeys.
+For example, the **[!DNL Journey administrator]** product profile is assigned the **[!DNL Manage journeys]** permission. From this permission results the low-level permissions which will allow the Journey administrator to write, read and delete journeys.
 
 ## Journey capability {#journey-capability}
 
-### Manage journeys permission {#manage-journeys}
+### [!DNL Manage journeys] permission {#manage-journeys}
 
-The **[!UICONTROL Manage journeys]** high-level permission allows users to create new and edit/delete existing Journeys, as well as access to the objects that are used in the journey canvas to build the journey flow.
+The **[!DNL Manage journeys]** high-level permission allows users to create new and edit/delete existing Journeys, as well as access to the objects that are used in the journey canvas to build the journey flow.
 
 It includes the following low-level permissions: 
 
@@ -52,9 +41,9 @@ It includes the following low-level permissions:
   * datasets.read
   * schemas.read
 
-### Publish journeys permission {#publish-journeys}
+### [!DNL Publish journeys] permission {#publish-journeys}
 
-The **[!UICONTROL Publish journeys]** high-level permission allows users to publish journeys.
+The **[!DNL Publish journeys]** high-level permission allows users to publish journeys.
 
 It includes the following low-level permissions: 
 
@@ -62,9 +51,9 @@ It includes the following low-level permissions:
   * journeys.publish
   * journeys.read
 
-### View journeys permission {#view-journeys}
+### [!DNL View journeys] permission {#view-journeys}
 
-The **[!UICONTROL View journeys]** high-level permission allows users to browse and view journeys.
+The **[!DNL View journeys]** high-level permission allows users to browse and view journeys.
 
 It includes the following low-level permissions: 
 
@@ -75,9 +64,9 @@ It includes the following low-level permissions:
   * segments.read
   * profiles.read
 
-### Manage journeys events, data sources and actions permission {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] permission {#manage-journeys-events}
 
-The **[!UICONTROL Manage journeys events, data sources and actions]** high-level permission allows users to configure event and data configurations.
+The **[!DNL Manage journeys events, data sources and actions]** high-level permission allows users to configure event and data configurations.
 
 It includes the following low-level permissions: 
 
@@ -91,14 +80,15 @@ It includes the following low-level permissions:
   * journeys_actions.read
   * journeys_actions.write
   * journeys_actions.delete
+
 * Adobe Experience Platform specific:
   * schemas.read
   * datasets.read
   * identity_namespace.read
 
-### View journeys events, data sources and actions permission {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] permission {#view-journeys-event}
 
-The **[!UICONTROL View journeys events, data sources and actions]** high-level permission allows users to use event and data in the journey flow.
+The **[!DNL View journeys events, data sources and actions]** high-level permission allows users to use event and data in the journey flow.
 
 It includes the following low-level permissions:
 
@@ -112,9 +102,9 @@ It includes the following low-level permissions:
   * datasets.read
   * identity_namespace.read
 
-### View journeys report permission {#view-journeys-report}
+### [!DNL View journeys report] permission {#view-journeys-report}
 
-The **[!UICONTROL View journeys report]** high-level permission allows users to read-only journey report.
+The **[!DNL View journeys report]** high-level permission allows users to read-only journey report.
 
 It includes the following low-level permissions: 
 
@@ -130,9 +120,9 @@ It includes the following low-level permissions:
 
 ## Message capability {#message-capability}
 
-### Manage messages permission {#manage-messages}
+### [!DNL Manage messages] permission {#manage-messages}
 
-The **[!UICONTROL Manage messages]** high-level permission allows users to create and edit/delete message.
+The **[!DNL Manage messages]** high-level permission allows users to create and edit/delete message.
 
 It includes the following low-level permissions:
 
@@ -146,9 +136,9 @@ It includes the following low-level permissions:
   * segments.read
   * schemas.read 
 
-### Manage messages preview and test permission {#mange-messages-preview}
+### [!DNL Manage messages preview and test] permission {#mange-messages-preview}
 
-The **[!UICONTROL Manage messages preview and test]** high-level permission allows users to preview personalized message.
+The **[!DNL Manage messages preview and test]** high-level permission allows users to preview personalized message.
 
 It includes the following low-level permissions: 
 
@@ -168,9 +158,9 @@ It includes the following low-level permissions:
   * queries.write
   * merge_policies.read
 
-### Publish messages permission {#publish-messages}
+### [!DNL Publish messages] permission {#publish-messages}
 
-The **[!UICONTROL Publish messages]** high-level permission allows users to publish messages.
+The **[!DNL Publish messages]** high-level permission allows users to publish messages.
 
 It includes the following low-level permissions:
 
@@ -182,9 +172,9 @@ It includes the following low-level permissions:
   * schemas.read
   * datasets.read
 
-### View messages permission {#view-messages}
+### [!DNL View messages] permission {#view-messages}
 
-The **[!UICONTROL View messages]** high-level permission allows users to read messages only.
+The **[!DNL View messages]** high-level permission allows users to read messages only.
 
 It includes the following low-level permissions:
 
@@ -196,9 +186,9 @@ It includes the following low-level permissions:
   * schemas.read 
   * segments.read
 
-### View messages report permission {#view-message-reports}
+### [!DNL View messages report] permission {#view-message-reports}
 
-The **[!UICONTROL View messages report]** high-level permission allows users to to read-only email and push report.
+The **[!DNL View messages report]** high-level permission allows users to to read-only email and push report.
 
 It includes the following low-level permissions:
 
@@ -212,9 +202,9 @@ It includes the following low-level permissions:
 
 ## Decision management capability {#decisions-permissions}
 
-### Manage decisions permission {#manage-decisioning}
+### [!DNL Manage decisions] permission {#manage-decisioning}
 
-The **[!UICONTROL Manage decisions]** high-level permission allows users to create new and edit/delete existing **[!UICONTROL Activity entities]**, as well as manage the objects that are used in those activities to make the decisions.
+The **[!DNL Manage decisions]** high-level permission allows users to create new and edit/delete existing **[!DNL Activity entities]**, as well as manage the objects that are used in those activities to make the decisions.
 
 It includes the following low-level permissions: 
 
@@ -238,9 +228,9 @@ It includes the following low-level permissions:
   * profile.read
   * segments.read
 
-### View decisions permission {#view-decisions}
+### [!DNL View decisions] permission {#view-decisions}
 
-The **[!UICONTROL View decisions]** high-level permission allows users to use an existing Activity and related business objects to make the decisions. 
+The **[!DNL View decisions]** high-level permission allows users to use an existing Activity and related business objects to make the decisions. 
 
 It includes the following low-level permissions: 
 
@@ -257,9 +247,9 @@ It includes the following low-level permissions:
   * datasets.write
   * datasets.delete
 
-### Publish offers decisioning permission {#publish-decisions}
+### [!DNL Publish offers decisioning] permission {#publish-decisions}
 
-The **[!UICONTROL Publish offers decisioning]** high-level permission allows users to access to approve/un-approve Offer activities.
+The **[!DNL Publish offers decisioning]** high-level permission allows users to access to approve/un-approve Offer activities.
 
 It includes the following low-level permissions: 
 
@@ -279,9 +269,9 @@ It includes the following low-level permissions:
   * datasets.read
   * profiles.read
 
-### Manage ranking strategies permission {#manage-decisions}
+### [!DNL Manage ranking strategies] permission {#manage-ranking-strategies}
 
-The **[!UICONTROL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete custom messages report and use action features.
+The **[!DNL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete ranking strategies.
 
 It includes the following low-level permissions: 
 
@@ -295,9 +285,9 @@ It includes the following low-level permissions:
 
 ## Administration capability {#administration-permissions}
 
-### Manage subdomains delegation permission {#manage-subdomain}
+### [!DNL Manage subdomains delegation] permission {#manage-subdomain}
 
-The **[!UICONTROL Manage subdomains delegation]** high-level permission allows users to create, edit and delete subdomain delegation (including IP pool).
+The **[!DNL Manage subdomains delegation]** high-level permission allows users to create, edit and delete subdomain delegations (including IP pool).
 
 It includes the following low-level permissions: 
 
@@ -305,16 +295,28 @@ It includes the following low-level permissions:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### View PTR records permission {#view-ptr}
+### [!DNL Manage PTR records] permission {#manage-ptr}
 
-The **[!UICONTROL View PTR records]** high-level permission allows users to view PTR records that have been configured based on subdomain and includes the following low-level permissions:
+The **[!DNL Manage PTR records]** high-level permission allows users to read and edit PTR records that have been configured based on the subdomain.
+
+It includes the following low-level permissions:
+
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
+
+### [!DNL View PTR records] permission {#view-ptr}
+
+The **[!DNL View PTR records]** high-level permission allows users to view PTR records that have been configured based on the subdomain.
+
+It includes the following low-level permissions:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### Manage IP pools permission {#manage-ip-pools}
+### [!DNL Manage IP pools] permission {#manage-ip-pools}
 
-The **[!UICONTROL Manage IP pools]** high-level permission allows users to create, edit and delete affinity definition.
+The **[!DNL Manage IP pools]** high-level permission allows users to create, edit and delete the affinity definition.
 
 It includes the following low-level permissions: 
 
@@ -322,9 +324,9 @@ It includes the following low-level permissions:
 * IP_pools.write
 * IP_pools.delete
 
-### Manage messages general settings permission {#manage-message-settings}
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-The **[!UICONTROL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at sandbox level.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
 It includes the following low-level permissions: 
 
@@ -332,13 +334,12 @@ It includes the following low-level permissions:
   * messages_general_settings.read
   * messages_general_settings.write
   * messages_general_settings.delete
-
 * Adobe Experience Platform specific:
   * schemas.read
 
-### View messages general settings permission {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-The **[!UICONTROL View messages general settings]** high-level permission allows users to view messages general settings such as suppression rules or execution address.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
 It includes the following low-level permissions:
 
@@ -347,9 +348,9 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific: 
   * schemas.read
 
-### Manage messages presets permission {#manage-message-presets}
+### [!DNL Manage messages presets] permission {#manage-message-presets}
 
-The **[!UICONTROL Manage messages presets]** high-level permission allows users to create, edit and delete message presets across channels at sandbox level.
+The **[!DNL Manage messages presets]** high-level permission allows users to create, edit and delete message presets across channels at the sandbox level.
 
 It includes the following low-level permissions: 
 
@@ -361,45 +362,65 @@ It includes the following low-level permissions:
   * IP_pools.read
   * mobile_setting.read (from Adobe Experience Platform Launch)
 
-### View messages presets permission {#view-message-presets}
+### [!DNL View messages presets] permission {#view-message-presets}
 
-The **[!UICONTROL View messages presets]** high-level permission allows users to view message presets in order to know which messages presets to use when creating a message. 
+The **[!DNL View messages presets]** high-level permission allows users to view message presets in order to know which messages presets to use when creating a message. 
 
 It includes the following low-level permissions: 
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Launch)
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
 
-### Manage suppression rules permission {#manage-suppression-rules}
+### [!DNL Manage suppression] permission {#manage-suppression}
 
-The **[!UICONTROL Manage suppression rules]** high-level permission allows users to define the number of bounces before the user's email address is added to the suppression list. 
+The **[!DNL Manage suppression]** high-level permission allows users to define the number of bounces before an email address is added to the suppression list, as well as to add and delete entries to/from the suppression list.
 
 It includes the following low-level permissions: 
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
-### View suppression list permission {#view-suppresion-list}
+### [!DNL View suppression list] permission {#view-suppression-list}
 
-The **[!UICONTROL View suppression list]** high-level permission allows users to view messages configurations including messages presets and general message settings. 
+The **[!DNL View suppression list]** high-level permission allows users to view the suppression list content and settings. 
 
 It includes the following low-level permissions: 
 
 * Journey Optimizer specific: 
   * suppression_list.view
+
 * Adobe Experience Platform specific:
   * profiles.read
   * datasets.read
 
-### Export suppression list permission {#export-suppression-list}
+### [!DNL Export suppression list] permission {#export-suppression-list}
 
-The **[!UICONTROL Export suppression list]** high-level permission allows users to configure messages configurations including message presets and general message settings.
+The **[!DNL Export suppression list]** high-level permission allows users to download the suppression list as a CSV file.
 
 It includes the following low-level permissions:
 
+* Journey Optimizer specific: 
+  * suppression_list.export
+
 * Adobe Experience Platform specific:
   * profiles.read
   * datasets.read
+
+### [!DNL Manage landing page settings] permission {#manage-landing-page-settings}
+
+The **[!DNL Manage landing page settings]** high-level permission allows users to read, create and edit landing page subdomains and preset settings.
+
+It includes the following low-level permissions:
+
+* Journey Optimizer specific: 
+  * landing_page_subdomain.read
+  * landing_page_subdomain.write
+  * landing_page_subdomain.delete
+  * landing_page_preset.read
+  * landing_page_preset.write
+  * landing_page_preset.delete

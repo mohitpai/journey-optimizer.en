@@ -1,27 +1,17 @@
 ---
-title: Delegate subdomains
-description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+title: Access delegated subdomains
+description: Learn how to access delegated subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 ---
-
-# Access delegated subdomains
+# Access delegated subdomains {#access-delegated-subdomains}
 
 All your delegated subdomains display in the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Filters are available to help you refine the list (delegation date, user or status).
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
 The **[!UICONTROL Status]** column provides information on the subdomain delegation process:
 
@@ -36,4 +26,4 @@ To access detailed information about a subdomain, open it from the list. You can
 
 * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
     
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

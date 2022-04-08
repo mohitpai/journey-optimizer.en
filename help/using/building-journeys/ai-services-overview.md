@@ -2,7 +2,6 @@
 product: Journey Optimizer
 title: AI service overview
 description: AI service overview
-feature: Journey Optimizer
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
@@ -21,5 +20,5 @@ Customer AI allows brands to create churn or conversion machine learning based s
 
 As a result, they can be used as any other profile attributes in Journey Optimizer's conditions (to make the best decisions), actions or segment building. 
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 

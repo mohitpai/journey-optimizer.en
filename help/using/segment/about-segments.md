@@ -5,12 +5,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 ---
-# Get started with segments {#about-segments}
+# Get started with Adobe Experience Platform segments {#about-segments}
 
-[!DNL Journey Optimizer] allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and leverage them into your journeys.
+[!DNL Journey Optimizer]  allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and leverage them into your journeys.
 
-Note that segments can also be created from the Segmentation service itself. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Note that segments can also be created from the Segmentation service itself. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 You can leverage segments in journeys in different ways:
 
@@ -26,8 +27,8 @@ You can leverage segments in journeys in different ways:
 
 In Adobe Journey Optimizer, audiences are generated from segment definitions using one of these evaluation methods:
 
-* Streaming segmentation — the audience list for the segment is kept up-to-date in real time while new data flows into the system.
-* Batch segmentation — the audience list for the segment is updated on an hourly basis, based on data that has arrived in the past hour.
+* Streaming segmentation – the audience list for the segment is kept up-to-date in real time while new data flows into the system.
+* Batch segmentation – the audience list for the segment is updated on an hourly basis, based on data that has arrived in the past hour.
 
 The determination between batch segmentation and streaming segmentation is made by the system for each segment definition, based on the complexity and the cost of evaluating the segment rule.
 
