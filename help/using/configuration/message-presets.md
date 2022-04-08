@@ -79,6 +79,11 @@ Configure your settings as described below.
 
 ### Type of email{#email-type}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Email type"
+>abstract="To Be Completed"
+
 In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
 
 * Choose **Marketing** for promotional messages: these messages require user consent.
@@ -182,6 +187,11 @@ In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and em
 >Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
 ### Email retry parameters{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Email retry time period"
+>abstract="To Be Completed"
 
 You can configure the **Email retry parameters**.
 
