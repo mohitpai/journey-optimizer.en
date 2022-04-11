@@ -1,5 +1,5 @@
 ---
-title: Create ranking formulas
+title: Ranking formulas
 description: Learn how to create formulas to rank offers
 feature: Offers
 topic: Integrations
@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 ---
-# Create ranking formulas {#create-ranking-formulas}
+# Ranking formulas {#create-ranking-formulas}
 
 ## About ranking formulas {#about-ranking-formulas}
 

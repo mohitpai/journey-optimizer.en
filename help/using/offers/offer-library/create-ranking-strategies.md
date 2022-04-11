@@ -35,13 +35,15 @@ To create an AI model, follow the steps below:
 
     ![](../assets/ai-ranking-fields.png)
 
-    The **[!UICONTROL Optimization metric]** section provides information on the conversion event used by the AI model to calculate offers' ranking.
-
-    [!DNL Journey Optimizer] rank offers based on the **conversion rate** (Conversion rate = Total number of conversion events / Total number of impression events). The conversion rate is calculated using two types of metrics:
-    * **Impression events** (offers that are displayed)
-    * **Conversion events** (offers that result in clicks via email or web).
-
-    These events are automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Optimization metric]** section provides information on the conversion event used by the AI model to calculate offers' ranking.
+    >
+    >[!DNL Journey Optimizer] rank offers based on the **conversion rate** (Conversion rate = Total number of conversion events / Total number of impression events). The conversion rate is calculated using two types of metrics:
+    >* **Impression events** (offers that are displayed)
+    >* **Conversion events** (offers that result in clicks via email or web).
+    >
+    >These events are automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 1. Select the dataset(s) where the conversion and impression events are collected. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -51,7 +53,7 @@ To create an AI model, follow the steps below:
     >
     >Only the datasets created from schemas associated with the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) are displayed in the drop-down list.
 
-1. If you are creating a personalized optimization AI model, select the segment(s) to use to train the AI model.
+1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
 
     ![](../assets/ai-ranking-segments.png)
 

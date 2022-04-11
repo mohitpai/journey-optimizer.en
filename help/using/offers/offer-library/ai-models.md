@@ -20,14 +20,14 @@ For example, you can select an AI model for the email channel and another one fo
 
 Two types of AI models are available in [!DNL Journey Optimizer]:
 
-* **Auto-optimization models** aim to serve offers that maximize the return (KPIs) set by business clients. These KPIs could be in the form of conversion rates, revenue, etc. At this point, Auto-optimization focuses on optimizing offer clicks with offer conversion as our target. Auto-optimization is non-personalized and optimizes based on “global” performance of the offers. [Learn more](auto-optimization-model.md)
-* **Personalization models** allow you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. [Learn more](personalized-optimization-model.md)
+* **Auto-optimization** models optimize offers based on past offer performance. [Learn more](auto-optimization-model.md)
+* **[!UICONTROL Personalized]** models optimize and personalize offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
 
 ## Creating an AI model {#create-ai-model}
 
 The main steps to create and use AI models are as follows:
 
 1. Create a dataset where conversion and impression events will be collected. [Learn more](create-dataset.md)
-1. Configure your offer schema to automatically capture events. [Learn more](schema-requirement.md)
 1. Create an AI model that will leverage events from the dataset to rank offers. [Learn more](create-ranking-strategies.md)
+1. Configure your offer schema to automatically capture events. [Learn more](schema-requirement.md)
 1. Assign the AI model to a placement in a decision to rank eligible offers. [Learn more](../offer-activities/configure-offer-selection.md)
