@@ -57,11 +57,26 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 * the **[!UICONTROL Font]**
 * the **[!UICONTROL Pt size]**
 * the **[!UICONTROL Color]**
-* the **[!UICONTROL Alignement]**
+* the **[!UICONTROL Alignment]**
 
 #### Advanced formatting mode {#title-body-advanced}
 
 ### Buttons {#buttons}
+
+Button layout Vertical / horizontal
+
+Button #1 text (primary)
+Interact event
+Target
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+* the **[!UICONTROL Button style]**
+* the **[!UICONTROL Button color]**
 
 #### Advanced formatting mode {#buttons-advanced}
 
@@ -69,10 +84,36 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 
 ### Preview {#preview-tab}
 
+App preview
+
+Background color
+
+### Layout {#message}
+
+Background color
+Opacity
+Background image
+
 ### Message {#message}
 
-#### Advanced formatting mode {#message-advanced}
+UI takeover
 
+Message
+
+Customize gestures
+
+UI takeover
+
+Customize UI takeover
+
+Customize size
+
+Customize position
+
+Customize animation
+
+Message round corner
+Corner radius
 
 **Related topics**
 
