@@ -9,9 +9,14 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 ---
 # Add a Google TXT record to a subdomain {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="Google TXT records"
+>abstract="To ensure successful delivery of emails to Gmail addresses, you can add special Google site verification TXT records to your subdomain to make sure that it is verified."
+
 TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources.
 
-In order to ensure good deliverability and successful delivery of emails to Gmail addresses, [!DNL Journey Optimizer] allows you to add special Google site verification TXT records to your subdomains to ensure that it is verified.
+In order to ensure optimal deliverability and successful delivery of emails to Gmail addresses, [!DNL Journey Optimizer] allows you to add special Google site verification TXT records to your subdomain to make sure that it is verified.
 
 >[!CAUTION]
 >
