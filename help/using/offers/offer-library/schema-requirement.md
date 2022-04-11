@@ -1,13 +1,13 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Offer schema requirements
+title: Configure events capture
 description: Learn how to configure your offer schema to capture events
 feature: Ranking Formulas
 role: User
 level: Intermediate
 ---
-# Offer schema requirements {#schema-requirements}
+# Configure events capture {#schema-requirements}
 
 At this point, you must have:
 
