@@ -247,7 +247,6 @@ solution: Journey Optimizer
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
-    + [Create rankings](using/offers/offer-library/create-rankings.md)
   + Create rankings {#rankings}
     + [Get started with rankings](using/offers/offer-library/get-started-rankings.md)
     + [Ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
