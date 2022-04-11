@@ -7,5 +7,6 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 ---
-# Personalized optimization model {#personalized-optimization-model}
+# Personalization model {#personalized-optimization-model}
 
+Waiting wiki content validation

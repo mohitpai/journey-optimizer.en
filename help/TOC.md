@@ -255,7 +255,7 @@ solution: Journey Optimizer
       + [About AI models](using/offers/offer-library/ai-models.md)
       + AI model types {#ai-model-types}
         + [Auto-optimization model](using/offers/offer-library/auto-optimization-model.md)
-        + [Personalized optimization model](using/offers/offer-library/personalized-optimization-model.md)
+        + [Personalization model](using/offers/offer-library/personalized-optimization-model.md)
       + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/offer-library/create-dataset.md)
         + [Create an AI model](using/offers/offer-library/create-ranking-strategies.md)

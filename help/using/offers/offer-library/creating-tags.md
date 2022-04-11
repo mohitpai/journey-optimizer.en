@@ -9,6 +9,11 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 ---
 # Create tags {#create-tags}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Tags"
+>abstract="Associate one or several tags to the offer to keep your Offer Library organized and locate offers more easily. Tags are created from the "Component" menu."
+
 Associating tags to your offers make it easier to keep them organized. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
 Tags can also be used to group offers together into offer collections. See [Create collections](../offer-library/creating-collections.md).

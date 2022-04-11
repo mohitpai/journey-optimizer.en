@@ -28,6 +28,11 @@ The list of personalized offers is accessible in the **[!UICONTROL Offers]** men
 >title="About offer attributes"
 >abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="Offer attributes"
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
+
 To create an **offer**, follow these steps:
 
 1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.

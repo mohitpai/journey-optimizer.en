@@ -15,14 +15,10 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 >[!CAUTION]
 >
 >To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../../administration/high-low-permissions.md#manage-ranking-strategies)
->
->The use of AI models is currently available in early access to select users only.
-
-Once an AI model has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 ## Create an AI model {#create-ranking-strategy}
 
-To create an AI model as a ranking strategy, follow the steps below:
+To create an AI model, follow the steps below:
 
 1. In the **[!UICONTROL Components]** menu, access the **[!UICONTROL Ranking]** tab, then select **[!UICONTROL AI models]**.
 
@@ -35,8 +31,7 @@ To create an AI model as a ranking strategy, follow the steps below:
 1. Specify a unique name and a description for the AI model, then select the type of AI model you want to create:
     
     * **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
+    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
 
     ![](../assets/ai-ranking-fields.png)
 
@@ -58,14 +53,12 @@ To create an AI model as a ranking strategy, follow the steps below:
 
 1. If you are creating a personalized optimization AI model, select the segment(s) to use to train the AI model.
 
+    ![](../assets/ai-ranking-segments.png)
+
     >[!NOTE]
     >
     >You can select up to 5 segments.
 
-    ![](../assets/ai-ranking-segments.png)
-
-1. Save and activate the ranking strategy.
+1. Save and activate the AI model.
 
     ![](../assets/ai-ranking-save-activate.png)
-
-It is now ready to be used in a decision to rank eligible offers for a placement. Learn more in [this section](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->

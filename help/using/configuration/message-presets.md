@@ -77,7 +77,12 @@ Email settings are defined in a dedicated section of the message preset configur
 
 Configure your settings as described below.
 
-### Type of email{#email-type}
+### Type of email {#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Define the email category"
+>abstract="Select the type of messages that will be sent when using this preset: Marketing for promotional messages, which require user consent, or Transactional for non-commercial messages, that can also be sent to unsubscribed profiles in specific contexts."
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
 
@@ -181,7 +186,13 @@ In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and em
 >
 >Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-### Email retry parameters{#email-retry}
+### Email retry parameters {#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Adjust the retry time period"
+>abstract="Retries are performed for 3.5 days (84 hours) when an email message fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="About retries"
 
 You can configure the **Email retry parameters**.
 

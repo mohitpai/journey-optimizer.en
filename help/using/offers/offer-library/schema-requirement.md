@@ -11,7 +11,7 @@ level: Intermediate
 
 At this point, you must have:
 
-* created the ranking strategy,
+* created the AI model,
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.
 
