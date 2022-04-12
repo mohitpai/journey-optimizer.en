@@ -73,6 +73,11 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 ### Configure a new subdomain {#lp-configure-new-subdomain}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Generate the matching DNS record"
+>abstract="To configure a new landing page subdomain, you need to copy the Adobe nameserver information displayed in the Journey Optimizer interface and paste it into your domain-hosting solution to generate the matching DNS record. Once the checks are successful, the subdomain is ready to be used to create landing page presets."
+
 To configure a new subdomain, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.

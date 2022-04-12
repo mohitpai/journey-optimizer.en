@@ -97,6 +97,11 @@ The possible reasons for a delivery failure are:
 
 ## Manually add addresses and domains {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Add emails/domains to the suppression list"
+>abstract="You can manually populate the Journey Optimizer suppression list to exclude specific email addresses and/or domains from your sending."
+
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
 However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
@@ -108,6 +113,11 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 ![](assets/suppression-list-add-email.png)
 
 ### Add one address or domain {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Add one item to the suppression list"
+>abstract="You can populate the suppression list by adding email addresses and/or domains one by one."
 
 1. Select the **[!UICONTROL One by one]** option.
 
@@ -126,6 +136,11 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 1. Click **[!UICONTROL Submit]**.
 
 ### Upload a CSV file {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="Upload CSV to add items to the suppression list"
+>abstract="You can populate the suppression list by uploading a CSV file filled in with the email addresses/domains you want to exclude."
 
 1. Select the **[!UICONTROL Upload CSV]** option.
 

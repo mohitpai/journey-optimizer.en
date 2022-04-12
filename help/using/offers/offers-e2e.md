@@ -75,7 +75,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
 1. Create **decision rules**.
 
-    Decision rules will provide the best offer to a profile in the Adobe Experience Platform.
+    Decision rules will provide the best offer to a profile in Adobe Experience Platform.
     
     Configure two simple rules by using the **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
 
