@@ -22,6 +22,10 @@ solution: Journey Optimizer
     + [Get Started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Limitations](using/start/limitations.md)
++ Campaigns {#campaigns}
+  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
+  + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Content experiment](using/campaigns/content-experiment.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
