@@ -14,7 +14,7 @@ level: Intermediate
 >Before creating a new campaign, make sure you have a message preset and an Adobe Experience Platform segment ready for use. Learn more in these sections:
 >
 >* [Create message presets](../configuration/message-presets.md) 
->* [Get started with segments](/segment/about-segments.md)
+>* [Get started with segments](../segment/about-segments.md)
 
 The steps to create a campaign are as follows:
 
