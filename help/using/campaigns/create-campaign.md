@@ -22,11 +22,9 @@ The steps to create a campaign are as follows:
 
     ![](assets/create-campaign.png)
 
-1. Choose the action to perform with the Campaign and the message surface (aka message preset) to use.
+1. Choose the action to perform with the Campaign. For now, only email messages can be sent using campaigns.
 
-    >[!NOTE]
-    >
-    >For now, only email messages can be sent using campaigns.
+1. In the **[!UICONTROL Email surface]** drop-down list, select the message preset to use to create your message.
 
     ![](assets/create-campaign-action.png)
 
