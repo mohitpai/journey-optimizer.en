@@ -27,7 +27,6 @@ In custom action parameters, you can pass a simple collection, as well as a coll
 
 Also note that the custom actions parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Learn more in this [use case](../building-journeys/collections.md).
 
-
 ## Configuration steps {#configuration-steps}
 
 Here are the main steps required to configure a custom action:
@@ -44,9 +43,12 @@ Here are the main steps required to configure a custom action:
 
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. See [this page](../action/about-custom-action-configuration.md#url-configuration).
+1. Select the channel related to this custom action: **Email**, **SMS**, or **Push notification**. It will prefill the required marketing action field with the default marketing action for the selected channel. If you select **other**, no marketing action will be defined.
+1. If you want to apply a consent rule to this custom action, select the appropriate **Required marketing action**. See [this section](../action/about-custom-action-configuration.md#consent-management). 
+1. Define the different **[!UICONTROL URL Configuration]** parameters. See [this section](../action/about-custom-action-configuration.md#url-configuration).
 1. Configure the **[!UICONTROL Authentication]** section. This configuration is the same as for data sources.  See [this section](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Define the **[!UICONTROL Action parameters]**. See [this page](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Define the **[!UICONTROL Action parameters]**. See [this section](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. 
 1. Click **[!UICONTROL Save]**.
 
     The custom action is now configured and ready to be used in your journeys. See [this page](../building-journeys/about-journey-activities.md#action-activities).
@@ -121,3 +123,41 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
 ![](assets/customactionpayloadmessage2.png)
+
+## Consent management {#consent-management}
+
+Customers can now define consent policies, related to privacy, to control outgoing data during action execution. A consent policy works as an expression on profile attributes, setting rules to define if an action can be executed for the given profile or not.  
+
+Consent sur custom action, pas message encore
+Conxent a tel type de comunication ou utilisation de tel type de donnée
+champs dans profile qui vont sticker ce consent
+coté AEP nuvelles regles de type policies
+auj gouvernance policies. Par exemple Restric email targeting. Associe label (C4/C5) a des marketing actions. Quand tu definie une destination,type de marketing action. Ex SFTP crée une dest qui va exporter des données vers ce sftp, tu flague ce sftp avec une marketing action. Egelement notion de marketing action rajoutée dans custom action, email/SMS/push marketing action. Ou custom.
+
+Labels: quand tu def data set (où stocker tes données), onglet data gouvernance, pr chaque attribut tu peux definir le type de label associé a cet attribut. Country code labellisé C3/C4. Labels ootb, tu peux en def d'autres en fonction besoin. 
+
+
+
+---- Jira comments------
+
+describe the "additional marketing action" as a way for a practitioner to explain the "intent" of a custom action, eg: my custom action is about workout communication, newsletter, fitness communication, etc. 
+
+Describe the scope of consent for that first release :
+
+- Marketing Actions & attributes used in personalisation in the custom action are taken into account
+- For segment-triggered journeys (started with a read segment), attributes used as criteria in that segment are taken into account 
+- All activities used in a journey, other than a Read Segment or a Custom Action, are not taken into account
+- Segment qualification is not taken into account, even if it is used to start a journey
+
+Describe that a profile excluded by a consent policy in a custom action will still continue to go through the journey (iso with Message and suppression list)
+
+Reminder to describe expected latency: https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
++ correct AJO latency from 1h to 6h
+
+two types of latency that we should document:
+
+- User latency, on that one Carolina Infante , I'm not sure what we can say, looking at this:
+
+Could we confirm if we need or not the "UPS Projection/Export" to happen, to update the "contentTo" field at the profile level (knowing that this what we use at runtime)? Because if this is the case, I guess we should say that it would take up to 48h, but if it's not, we're only talking about "ingestion latency + collection latency" (so a few seconds to a few hours worst case if there are spikes or outage in ingestion and/or if it takes a long time for the customer to collect an update from the user). 
+
+- Consent policy latency, I would say "up to 6 hours" as live journeys will pull consent policies every 6 hours. Carolina Infante , do you know if we are impacted by filter latency?
