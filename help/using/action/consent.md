@@ -11,9 +11,9 @@ hidefromtoc: yes
 ---
 # Consent management (beta) {#consent-management}
 
-Adobe Experience Platorm allows you to easily adopt and enforce marketing policies to respect the consent preferences of their customers. Consent policies are Defined in Adobe Experience Platorm. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of their customers. Consent policies are Defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-In Journey Optimizer, you apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not reveive the message. 
+In Journey Optimizer, you apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not receive the message. 
 
 In Journey Optimizer, consent can be defined:
 
@@ -26,8 +26,8 @@ In Journey Optimizer, consent can be defined:
 
 ## Important notes {#important-notes}
 
-* To refresh policies in a custom action positionned in a journey, your journey must have no errors. 
-* If you added added conditions and other actions after the custom action, the profile will continue the journey event if he was excluded by a consent policy in the custom action.
+* To refresh policies in a custom action positioned in a journey, your journey must have no errors. 
+* If you added conditions and other actions after the custom action, the profile will continue the journey even if he was excluded by a consent policy in the custom action.
 
 There are two types of latency when using consent policies:
 
@@ -41,9 +41,9 @@ There are two types of latency when using consent policies:
 >title="Define a required marketing action"
 >abstract="The Required Marketing Action indicates the custom action that will be applied when the action is used in a journey. This cannot be modified on the canvas." 
 
-When configuring a custom actions, two fields are used for consent.
+When configuring a custom action, two fields are used for consent.
 
-The **Channel** fiels allows you to select the channel related to this custom action: **Email**, **SMS**, or **Push notification**. It will prefill the required marketing action field with the default marketing action for the selected channel. If you select **other**, no marketing action will be defined by default. 
+The **Channel** field allows you to select the channel related to this custom action: **Email**, **SMS**, or **Push notification**. It will prefill the required marketing action field with the default marketing action for the selected channel. If you select **other**, no marketing action will be defined by default. 
 
 The **Required marketing action** allows you to select the consent policy that you want to apply this the custom action. A default marketing action is selected, but you can click the down arrow to select any available marketing actions from the list.
 
@@ -67,7 +67,7 @@ When adding the custom action in a journey, several options allows you to manage
 
 The **Required marketing action**, defined when configuring the custom action, is displayed at the top of the screen.
 
-You can define an **Additional marketing action** to set the type of custom action. This allows you to define the purpose of the custom action in this journey. In addition to the required marketing action which is usually specific to a channel, you can define an additionnal marketing action which will be specific to the custom action in this particupar journey. For example: a workout communication, a newsletter, fitness communication, etc. Both the required marketing action and the additional marketing action will apply.
+You can define an **Additional marketing action** to set the type of custom action. This allows you to define the purpose of the custom action in this journey. In addition to the required marketing action, which is usually specific to a channel, you can define an additional marketing action which will be specific to the custom action in this particular journey. For example: a workout communication, a newsletter, fitness communication, etc. Both the required marketing action and the additional marketing action will apply.
 
 Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. The following data is taken into account for consent:
 
