@@ -11,7 +11,7 @@ hidefromtoc: yes
 ---
 # Consent management (beta) {#consent-management}
 
-Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of their customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
 In Journey Optimizer, you can apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not receive the message. 
 
