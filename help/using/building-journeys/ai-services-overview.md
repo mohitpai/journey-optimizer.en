@@ -16,7 +16,7 @@ Integration between [!DNL Journey Optimizer] and [!DNL Intelligent Services] all
 
 Customer AI is part of [!DNL Adobe Intelligent Services]. It helps predict what a customer is likely to do. See the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.  
 
-Customer AI allows brands to create churn or conversion machine learning based scores that will be available as profile attributes in the Adobe Experience Platform profiles (Real-time Customer Profile).
+Customer AI allows brands to create churn or conversion machine learning based scores that will be available as profile attributes in Adobe Experience Platform profiles (Real-time Customer Profile).
 
 As a result, they can be used as any other profile attributes in Journey Optimizer's conditions (to make the best decisions), actions or segment building. 
 

@@ -13,6 +13,13 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 >id="ajo_admin_config_lp_subdomain"
 >title="Create a landing page preset"
 >abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Create landing page presets"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Delegate a landing page subdomain"
+>abstract="You must configure a subdomain to use for your landing pages, as you will need this subdomain to create a landing page preset. You can use a subdomain already delegated to Adobe or configure a new subdomain."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Create landing page presets"
 
 To be able to [create landing page presets](#lp-create-preset), you  must set up the subdomains you will use for your landing pages.
 
@@ -65,6 +72,11 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
 ### Configure a new subdomain {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Generate the matching DNS record"
+>abstract="To configure a new landing page subdomain, you need to copy the Adobe nameserver information displayed in the Journey Optimizer interface and paste it into your domain-hosting solution to generate the matching DNS record. Once the checks are successful, the subdomain is ready to be used to create landing page presets."
 
 To configure a new subdomain, follow the steps below.
 

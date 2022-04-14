@@ -196,7 +196,7 @@ This expression returns the last push notification token associated with mobile 
 
    >[!NOTE]
    >
-   >The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence :
+   >The experience events are retrieved from Adobe Experience Platform as a collection in reverse chronological order, hence :
    >
    >* **[!UICONTROL first]** function will return the most recent event
    >* **[!UICONTROL last]** function will return the oldest one.

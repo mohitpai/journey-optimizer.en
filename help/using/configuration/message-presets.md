@@ -13,7 +13,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 >[!CAUTION]
 >
-> * Message presets configuration is restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). To create, edit and delete message presets, you must have the [Manage messages presets](../administration/high-low-permissions.md#manage-message-presets).
+> * To create, edit and delete message presets, you must have the [Manage messages presets](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * You must perform [Email configuration](#configure-email-settings) and [Push configuration](../configuration/push-configuration.md) steps before creating message presets.
 
@@ -22,6 +22,11 @@ Once message presets have been configured, you will be able to select them when 
 ➡️ [Learn how to create and use email presets in this video](#video-presets)
 
 ## Create a message preset {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Message preset details and settings"
+>abstract="By setting up a message preset you can select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain to be used, sender name, mobile apps, etc."
 
 To create a message preset, follow these steps:
 
@@ -90,11 +95,11 @@ In the **EMAIL TYPE** section, select the type of message that will be sent with
 
 * Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
 
-When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid message preset for the selected category and channel(s).
-
 >[!CAUTION]
 >
 >**Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+
+When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid message preset matching the category you selected for your message.
 
 ### Subdomain & IP pool {#subdomains-and-ip-pools}
 
@@ -103,6 +108,10 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
+
+>[!NOTE]
+>
+>For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -205,6 +214,8 @@ You must enter an integer value (in hours or minutes) within the following range
 * For marketing emails, the minimum retry period is 6 hours.
 * For transactional emails, the minimum retry period is 10 minutes.
 * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
+
+Learn more on retries in [this section](retries.md).
 
 ## Configure push settings {#configure-push-settings}
 

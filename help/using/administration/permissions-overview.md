@@ -11,7 +11,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 
 [!DNL Journey Optimizer] allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access access to in-product features and capabilities. 
 
-➡️ [Learn more about the Adobe Journey Optimizer’s access control system in this video](#video)
+➡️ [Learn more about access control in Adobe Journey Optimizer in this video](#video)
 
 User management in [!DNL Journey Optimizer] is based on three concepts:
 
@@ -27,6 +27,6 @@ Each concept can be managed by **[!UICONTROL Product administrators]** that have
 
 ## How-to video{#video}
 
-Learn more about the Adobe Journey Optimizer’s access control system and the eight custom product profiles. Learn how to manage product profiles and permissions and how to add and manage users.
+Learn more about access control system and custom product profiles in Adobe Journey Optimizer. Learn how to manage product profiles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

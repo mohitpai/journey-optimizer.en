@@ -9,11 +9,16 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
 # PTR records {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="Subdomains' PTR records"
+>abstract="A pointer record (PTR) is a type of DNS record that provides the domain name linked to an IP address, which helps the receiving mail servers to verify the senders' IP addresses."
+
 ## About PTR records {#about-ptr-records}
 
 A pointer record (PTR) is a type of Domain Name System (DNS) record that provides the domain name linked to an IP address.
 
-With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names with which the servers connect.
+With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names that the servers connect to.
 
 ## Access your subdomains' PTR records {#access-ptr-records}
 
@@ -32,6 +37,10 @@ You can open a PTR record from the list to display the associated subdomain name
 ## Edit a PTR record {#edit-ptr-record}
 
 You can modify a PTR record to edit the subdomain associated with an IP address.
+
+>[!CAUTION]
+>
+>Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.<!--why?-->
 
 >[!NOTE]
 >

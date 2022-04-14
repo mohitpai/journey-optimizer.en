@@ -9,9 +9,14 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
 # Create IP pools {#create-ip-pools}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool"
+>title="Set up an IP pool"
+>abstract="You can create IP pools to group together the IP addresses of your subdomains for improved email deliverability."
+
 ## About IP pools {#about-ip-pools}
 
-With Journey Optimizer, you can create IP pools to group together the IP addresses of your subdomains.
+With [!DNL Journey Optimizer], you can create IP pools to group together the IP addresses of your subdomains.
 
 Creating IP pools is strongly recommended for email deliverability. By doing so, you can prevent the reputation of a subdomain from impacting your other subdomains.
 

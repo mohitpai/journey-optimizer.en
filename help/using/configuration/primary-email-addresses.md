@@ -9,6 +9,11 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 ---
 # Change the primary email addresses {#change-primary-email}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address"
+>title="Define which address to use"
+>abstract="You can choose which email address to prioritize for sending when several addresses are available in the database (personal, professional, etc.)."
+
 When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).
 
 With [!DNL Journey Optimizer], you can determine which email address to use from the profile service and to prioritize when several addresses are available. To do this, follow the steps below.

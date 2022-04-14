@@ -25,9 +25,11 @@ To do this, you can use a frequency rule which will cap the number of messages s
 
 Rules are available from the **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. All rules are listed, sorted by modification date.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>To access, create, edit or delete message frequency rules, you must have the [Manage frequency rules](../administration/high-low-permissions.md#manage-frequency-rules) permission.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Use the filter icon to filter on the category, status, and/or channel. You can also search on the message label.
 
@@ -128,6 +130,10 @@ All the frequency rules matching the selected category and channel(s) will be au
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 You can view the number of profiles excluded from delivery in the [Live and Global views](../reports/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
+
+>[!NOTE]
+>
+>Several rules can apply to the same channel, but once the lower cap is reached, the profile will be excluded from the next deliveries.
 
 ## Example: combine several rules {#frequency-rule-example}
 
