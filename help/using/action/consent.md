@@ -64,13 +64,13 @@ The other steps for configuring a custom action are detailed in [this section](.
 >title="Visualize consent policies that will apply at runtime"
 >abstract="Marketing actions bring in consent policies that combine action parameters and individual profile consent values to filter out users. Get the latest definition of these policies by clicking the button to refresh." 
 
-When adding the custom action in a journey, several options allows you to manage consent. Click the **Show read-only fields** to display all parameters.
+When adding the custom action in a journey, several options allow you to manage consent. Click the **Show read-only fields** to display all parameters.
 
 The **Channel** and **Required marketing action**, defined when configuring the custom action, are displayed at the top of the screen. You cannot modify these fields.
 
 ![](assets/consent4.png)
 
-You can define an **Additional marketing action** to set the type of custom action. This allows you to define the purpose of the custom action in this journey. In addition to the required marketing action, which is usually specific to a channel, you can define an additional marketing action which will be specific to the custom action in this particular journey. For example: a workout communication, a newsletter, fitness communication, etc. Both the required marketing action and the additional marketing action will apply.
+You can define an **Additional marketing action** to set the type of custom action. This allows you to define the purpose of the custom action in this journey. In addition to the required marketing action, which is usually specific to a channel, you can define an additional marketing action which will be specific to the custom action in this particular journey. For example: a workout communication, a newsletter, a fitness communication, etc. Both the required marketing action and the additional marketing action will apply.
 
 ![](assets/consent3.png)
 
@@ -86,7 +86,7 @@ The following data is taken into account for consent:
 
 >[!NOTE]
 >
->Please note that there can be a latency, refer to this [this section](../action/consent.md#important-notes)
+>Please note that there can be a latency when updating the list of policies applied, refer to this [this section](../action/consent.md#important-notes)
 
-The other steps for configuring a custom action in a journey are detailed in [this section](../building-journeys/using-custom-actions.md).  
+The other steps for configuring a custom action in a journey are detailed in [this section](../building-journeys/using-custom-actions.md). 
 
