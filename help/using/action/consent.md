@@ -13,11 +13,11 @@ hidefromtoc: yes
 
 Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of their customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
+In Journey Optimizer, you can apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not receive the message. 
+
 >[!NOTE]
 >
 >This feature is released as a private beta. It is not available to all Journey Optimizer customers.
-
-In Journey Optimizer, you can apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not receive the message. 
 
 In Journey Optimizer, consent is defined:
 
