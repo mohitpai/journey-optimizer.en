@@ -75,7 +75,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
 1. Create **decision rules**.
 
-    Decision rules will provide the best offer to a profile in the Adobe Experience Platform.
+    Decision rules will provide the best offer to a profile in Adobe Experience Platform.
     
     Configure two simple rules by using the **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
 
@@ -98,7 +98,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
 1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a **ranking formula**.
 
-    The detailed steps to create ranking formulas are described in [this section](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+    The detailed steps to create ranking formulas are described in [this section](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
     >[!NOTE]
     >

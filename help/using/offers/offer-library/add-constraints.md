@@ -127,7 +127,7 @@ To set capping, follow the steps below.
 
     >[!NOTE]
     >
-    >The number must be greater than 0.
+    >The number must be an integer greater than 0.
 
 1. Specify if you want the capping to be applied accross all users or to one specific profile:
 
@@ -141,15 +141,15 @@ To set capping, follow the steps below.
 
         For example, if you are a bank with a 'Platinum credit card' offer, you don't want this offer to be shown more than 5 times per profile. Indeed, you believe that if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
 
-1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping **[!UICONTROL Across all placements]** or **[!UICONTROL For each placement]**.
 
     ![](../assets/offer-capping-placement.png)
 
-    * **[!UICONTROL All placements]**: capping counts will total all decisions across the placements associated with the offer.
+    * **[!UICONTROL Across all placements]**: capping counts will total all decisions across the placements associated with the offer.
     
         For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile across all placements**, then each profile could receive the offer up to 2 times in total, regardless of the placement mix.
 
-    * **[!UICONTROL Per placement]**: capping counts will apply decision counts for each placement separately.
+    * **[!UICONTROL For each placement]**: capping counts will apply decision counts for each placement separately.
     
         For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile for each placement**, then each profile could receive the offer up to 2 times for the email placement, and an additional 2 times for the web placement.
 
