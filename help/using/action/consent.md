@@ -26,7 +26,7 @@ In Journey Optimizer, consent is defined:
 * If you added conditions and other actions after the custom action, the profile will continue the journey even if he was excluded by a consent policy in the custom action.
 * To refresh policies in a custom action positioned in a journey, your journey must have no errors. 
 
-There are two types of latency regaring the use of consent policies:
+There are two types of latency regarding the use of consent policies:
 
 * **User latency**: the delay from the time a profile changes a consent settings to the moment it is applied in Experience Platform. This can take up to 48h. 
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
@@ -74,7 +74,11 @@ You can define an **Additional marketing action** to set the type of custom acti
 
 ![](assets/consent3.png)
 
-Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. The following data is taken into account for consent:
+Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. 
+
+![](assets/consent5.png)
+
+The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
 * attributes defined in the custom action
