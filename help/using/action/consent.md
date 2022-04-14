@@ -21,12 +21,12 @@ In Journey Optimizer, you can apply these consent policies to your custom action
 
 In Journey Optimizer, consent is defined:
 
-* when **configuring a custom action**, you define a channel and marketing action. See this [section](../action/consent.md#consent-custom-action)
-* when adding the **custom action in a journey**, you define an additional marketing action. See this [section](../action/consent.md#consent-journey)
+* when **configuring a custom action**, you define a channel and marketing action. See this [section](../action/consent.md#consent-custom-action).
+* when adding the **custom action in a journey**, you define an additional marketing action. See this [section](../action/consent.md#consent-journey).
 
 ## Important notes {#important-notes}
 
-* All activities used in a journey, other than a Read Segment or a Custom Action, are not taken into account. Segment qualification is not taken into account, even if it is used to start a journey.
+* All activities used in a journey, other than a **Read Segment** or a **Custom action**, are not taken into account. Segment qualification is not taken into account, even if it is used to start a journey.
 * If you added conditions and other actions after the custom action, the profile will continue the journey even if he was excluded by a consent policy in the custom action.
 * To refresh policies in a custom action positioned in a journey, your journey must have no errors. 
 
