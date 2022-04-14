@@ -45,7 +45,11 @@ When configuring a custom action, two fields are used for consent.
 
 The **Channel** field allows you to select the channel related to this custom action: **Email**, **SMS**, or **Push notification**. It will prefill the required marketing action field with the default marketing action for the selected channel. If you select **other**, no marketing action will be defined by default. 
 
+![](assets/consent1.png)
+
 The **Required marketing action** allows you to select the consent policy that you want to apply this the custom action. A default marketing action is selected, but you can click the down arrow to select any available marketing actions from the list.
+
+![](assets/consent2.png)
 
 For certain types of important communications, for example a transactional message sent to reset the client's password, you will not apply a consent policy. You will then select **None** in the **Required marketing action** field.
 
@@ -65,9 +69,13 @@ The other steps for configuring a custom action are detailed in [this section](.
 
 When adding the custom action in a journey, several options allows you to manage consent. Click the **Show read-only fields** to display all parameters.
 
-The **Required marketing action**, defined when configuring the custom action, is displayed at the top of the screen.
+The **Channel** and **Required marketing action**, defined when configuring the custom action, is displayed at the top of the screen. You cannot modify this.
+
+![](assets/consent4.png)
 
 You can define an **Additional marketing action** to set the type of custom action. This allows you to define the purpose of the custom action in this journey. In addition to the required marketing action, which is usually specific to a channel, you can define an additional marketing action which will be specific to the custom action in this particular journey. For example: a workout communication, a newsletter, fitness communication, etc. Both the required marketing action and the additional marketing action will apply.
+
+![](assets/consent3.png)
 
 Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. The following data is taken into account for consent:
 
