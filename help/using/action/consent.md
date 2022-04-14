@@ -85,8 +85,8 @@ Click the **Refresh policies** button, at the bottom of the screen, to update an
 The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
-* attributes defined in the custom action
-* attributes used in the segment, when using a Read segment
+* action parameters defined in the custom action, see this [section](../action/about-custom-action-configuration.md#define-the-message-parameters) 
+* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-segment.md) 
 
 >[!NOTE]
 >
