@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer
-description: Get Started with Journey Optimizer
+description: Discover Adobe Journey Optimizer key features and use cases
 feature: Overview
 topic: Content Management
 role: User

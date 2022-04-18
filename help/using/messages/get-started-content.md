@@ -1,6 +1,6 @@
 ---
 title: Get started with messages
-description: Learn how to create messages in Journey Optimizer
+description: Learn how to create, test and publish personalized messages in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
