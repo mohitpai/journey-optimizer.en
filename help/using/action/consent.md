@@ -13,27 +13,38 @@ hidefromtoc: yes
 
 Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-In Journey Optimizer, you can apply these consent policies to your custom actions. Customers who have not consented to receive email, push or SMS communication will be excluded and will not receive the message. 
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication. 
 
 >[!NOTE]
 >
 >This feature is released as a private beta. It is not available to all Journey Optimizer customers.
 
-In Journey Optimizer, consent is defined:
+In Journey Optimizer, consent is defined at several levels:
 
-* when **configuring a custom action**, you define a channel and marketing action. See this [section](../action/consent.md#consent-custom-action).
-* when adding the **custom action in a journey**, you define an additional marketing action. See this [section](../action/consent.md#consent-journey).
+* when **configuring a custom action**, you can define a channel and marketing action. See this [section](../action/consent.md#consent-custom-action).
+* when adding the **custom action in a journey**, you can define an additional marketing action. See this [section](../action/consent.md#consent-journey).
 
 ## Important notes {#important-notes}
 
-* All activities used in a journey, other than a **Read Segment** or a **Custom action**, are not taken into account. Segment qualification is not taken into account, even if it is used to start a journey.
-* If you added conditions and other actions after the custom action, the profile will continue the journey even if he was excluded by a consent policy in the custom action.
-* To refresh policies in a custom action positioned in a journey, your journey must have no errors. 
+In Journey Optimizer, consent can be leveraged in custom actions. If you want to use it with the build-in message capabilities, you need to use a condition activity to filter customers in your journey.
 
+With consent management, two journey activities are analyzed: 
+
+* Read segment: the retrieved segment is taken into account.
+* Custom action: consent management takes into account the attributes used in the custom action ([action parameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) as well as the defined marketing action(s) (required marketing actions and additional marketing action).
+
+All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
+
+In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him but he continues the journey. The profile does not go to the timeout and error path when using a condition.
+
+Before refreshing policies in a custom action positioned in a journey, make sure your journey has no error. 
+
+<!--
 There are two types of latency regarding the use of consent policies:
 
 * **User latency**: the delay from the time a profile changes a consent settings to the moment it is applied in Experience Platform. This can take up to 48h. 
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
+-->
 
 ## Configuring the custom action {#consent-custom-action}
 
@@ -42,13 +53,13 @@ There are two types of latency regarding the use of consent policies:
 >title="Define a required marketing action"
 >abstract="The Required Marketing Action indicates the custom action that will be applied when the action is used in a journey. This cannot be modified on the canvas." 
 
-When configuring a custom action, two fields are used for consent.
+When configuring a custom action, two fields can be used for consent management.
 
 The **Channel** field allows you to select the channel related to this custom action: **Email**, **SMS**, or **Push notification**. It will prefill the **Required marketing action** field with the default marketing action for the selected channel. If you select **other**, no marketing action will be defined by default. 
 
 ![](assets/consent1.png)
 
-The **Required marketing action** allows you to select the consent policy that you want to apply to the custom action. A default marketing action is selected, but you can click the down arrow to select any available marketing actions from the list.
+The **Required marketing action** allows you to define the marketing action related to your custom action. For example, if you use that custom action to send emails, you can select **Email targeting**. When used in a journey, all consent policies associated with that marketing action will be retrieved and leveraged. A default marketing action is selected, but you can click the down arrow to select any available marketing actions from the list.
 
 ![](assets/consent2.png)
 
@@ -78,10 +89,11 @@ You can define an **Additional marketing action** to set the type of custom acti
 
 ![](assets/consent3.png)
 
-Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. 
+Click the **Refresh policies** button, at the bottom of the screen, to update and check the list of policies taken into consideration for this custom action. This is for information purpose only, while building a journey. With live journeys, consent policies are retrieved and updated automatically every 6 hours.
 
 ![](assets/consent5.png)
 
+<!--
 The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
@@ -91,5 +103,6 @@ The following data is taken into account for consent:
 >[!NOTE]
 >
 >Please note that there can be a latency when updating the list of policies applied, refer to this [this section](../action/consent.md#important-notes).
+-->
 
 The other steps for configuring a custom action in a journey are detailed in [this section](../building-journeys/using-custom-actions.md). 
