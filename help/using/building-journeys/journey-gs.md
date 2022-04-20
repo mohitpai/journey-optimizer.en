@@ -34,7 +34,7 @@ In order to send messages with journeys, the following configuration is required
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Build your journey"
->abstract="This screen displays the list of journeys previously created. Open a journey or click "Create journey", and combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios."
+>abstract="This screen displays the list of journeys previously created. Open a journey or click 'Create journey', and combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios."
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
