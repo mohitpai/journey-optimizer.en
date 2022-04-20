@@ -49,9 +49,9 @@ There are two types of latency regarding the use of consent policies:
 ## Configuring the custom action {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
->id="ajo-consent-required-marketing-action-admin"
+>id="ajo_consent_required_marketing_action_admin"
 >title="Define a required marketing action"
->abstract="The Required Marketing Action indicates the custom action that will be applied when the action is used in a journey. This cannot be modified on the canvas." 
+>abstract="The "Required marketing action" allows you to define the marketing action related to your custom action. For example, if you use that custom action to send emails, you can select "Email targeting". When used in a journey, all consent policies associated with that marketing action will be retrieved and leveraged. This cannot be modified on the canvas." 
 
 When configuring a custom action, two fields can be used for consent management.
 
@@ -70,17 +70,17 @@ The other steps for configuring a custom action are detailed in [this section](.
 ### Building the journey {#consent-journey}
 
 >[!CONTEXTUALHELP]
->id="ajo-consent-required-marketing-action-canvas"
+>id="ajo_consent_required_marketing_action_canvas"
 >title="Required marketing action"
->abstract="A required marketing action is defined while creating a custom action. This required marketing action cannot be removed from the action or modified." 
+>abstract="A required marketing action is defined while creating a custom action. This required marketing action cannot be removed from the action or modified."
 
 >[!CONTEXTUALHELP]
->id="ajo-consent-additional-marketing-action-canvas"
+>id="ajo_consent_additional_marketing_action_canvas"
 >title="Additional marketing action"
->abstract="XXXX" 
+>abstract="Add another marketing action in addition to the required one. Consent policies related to both marketing actions will be enforced." 
 
 >[!CONTEXTUALHELP]
->id="ajo-consent-refresh-policies-canvas"
+>id="ajo_consent_refresh_policies_canvas"
 >title="Visualize consent policies that will apply at runtime"
 >abstract="Marketing actions bring in consent policies that combine action parameters and individual profile consent values to filter out users. Get the latest definition of these policies by clicking the button to refresh." 
 
