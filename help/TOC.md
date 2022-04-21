@@ -256,7 +256,9 @@ solution: Journey Optimizer
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
     + AI models {#ai-models}
       + [About AI models](using/offers/ranking/ai-models.md)
-      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+      + AI model types {#ai-model-types}
+        + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+        + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
       + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
         + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
