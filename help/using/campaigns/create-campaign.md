@@ -36,9 +36,9 @@ The steps to create a campaign are as follows:
 
     ![](assets/create-campaign-properties.png)
 
-1. Configure the message to send with the campaign. To do this, click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to create an email](../messages/create-email.md)).
+1. Configure the message to send with the campaign. To do this, click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to create an email](../messages/create-email.md).
 
-    Once your messgae is content is ready, click the arrow to go back to the campaign creation screen.
+    Once your content is ready, click the arrow to go back to the campaign creation screen.
 
     ![](assets/create-campaign-design.png)
 
@@ -54,11 +54,11 @@ The steps to create a campaign are as follows:
 
     In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
 
+    ![](assets/create-campaign-namespace.png)
+
     >[!NOTE]
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities  will not be targeted by the campaign. <!--info vue dans section journeys, read segment-->
-
-    ![](assets/create-campaign-namespace.png)
 
     <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
     <!-- where are triggers configured?-->
@@ -73,7 +73,7 @@ The steps to create a campaign are as follows:
 
     <!-- send time optimization will be available later on -->
 
-7. Click **[!UICONTROL Review and activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
+7. Click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
 
     Check that your campaign is correctly configured, then click **[!UICONTROL Activate]** to launch it.
 
