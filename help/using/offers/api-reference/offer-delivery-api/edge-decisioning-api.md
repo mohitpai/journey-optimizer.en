@@ -145,7 +145,8 @@ See the following for an example on how to handle the response:
 ```
 javascript
     alloy("sendEvent", {
-        "decisionScopes": [
+        "decisionScopes":
+        [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
         ]
     }).then(function(result) {
@@ -184,7 +185,8 @@ json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
-        "items": [
+        "items": 
+        [
             {
                 "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
                 "etag": "1",
@@ -208,12 +210,14 @@ json
 ```
 json
 {
-    "propositions": [
+    "propositions": 
+    [
     {
         "renderAttempted": false,
         "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
-        "items": [
+        "items": 
+        [
             {
                 "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
                 "etag": "1",
@@ -229,7 +233,7 @@ json
             }
         ]
     }
-]
+    ]
 }
 
 ```
