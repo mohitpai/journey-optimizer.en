@@ -88,14 +88,16 @@ Here are the steps needed to use Offer Decisioning using the prebuilt standalone
 
 Include the following JavaScript snippet from Option 2: The Prebuilt Standalone Version on [this page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in the `<head>` section of your HTML page.
 
-``` javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
+
 ```
 
 You will need two IDs from within your Adobe account to set up the SDK configuration - your edgeConfigId and your orgId. The edgeConfigId is the same as your Datastream ID, which you should have configured in the Prerequisites. 
@@ -104,7 +106,8 @@ To find your edgeConfigID/datastream ID, go to Data Collection and select your D
 
 Configure the SDK in JavaScript following the instructions on this page. You will always use your edgeConfigId and orgId in the configuration function. The documentation also describes what optional parameters exist for your configuration. Your final configuration might end up looking something like this:
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -115,6 +118,7 @@ Configure the SDK in JavaScript following the instructions on this page. You wil
         "thirdPartyCookiesEnabled": true,
         "defaultConsent":"in"  
     });
+
 ```
 
 Install the Debugger Chrome extension to use with debugging. That can be found here: https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
@@ -125,18 +129,21 @@ When editing your website, include the script with the configuration and the `se
 
 **Example**: 
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
         ]
     });
+
 ```
 
 See the following for an example on how to handle the response:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -146,6 +153,7 @@ See the following for an example on how to handle the response:
             console.log(key, value);
         });
     });
+
 ```
 
 You can use the debugger to verify that you have successfully connected to the Edge network. 
@@ -158,18 +166,21 @@ Refer back to how you created your offer and the formatting used. Based on the c
 
 In this example, the JSON to be returned is:
 
-``` json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
    "link":"https://sampletesting.online/",
    "image":"https://sample-demo-URL.png"
 }
+
 ```
 
 Handle the response object and parse the data you need. As you can send multiple decision scopes in one `sendEvent` call, your response might look slightly different. 
 
-``` json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -191,9 +202,11 @@ Handle the response object and parse the data you need. As you can send multiple
     }
 ]
 }
+
 ```
 
-``` json
+```
+json
 {
     "propositions": [
     {
@@ -218,13 +231,15 @@ Handle the response object and parse the data you need. As you can send multiple
     }
 ]
 }
+
 ```
 
 In this example, the path needed to handle and use the offer-specific details in the webpage was: `result['decisions'][0]['items'][0]['data']['content']`
 
 To set the JS variables:
 
-``` javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
@@ -233,6 +248,7 @@ let offerImageURL = offer['image'];
 
 document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
+
 ```
 
 ## Limitations
