@@ -87,7 +87,7 @@ where:
 * `Placement Id` and `Activity Id` are placement and activity identifiers
 * `Attributes` are offer specific attributes which depend on the offer type. Example: `deliveryUrl` for images
 
-For more information on Decisions API and on Offers Representation, refer to [this page](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+For more information on Decisions API and on Offers Representation, refer to [this page](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 All the references are validated against Offers Schema with a validation mechanism described in [this page](personalization-validation.md)
 
