@@ -36,11 +36,11 @@ The SDK did not combine these libraries and is a new implementation from the gro
 
 1. Ensure your organization has the appropriate permissions to use the SDK and you have configured the permissions correctly. 
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [Configure your datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) within the Data Collection tab in your account in the Adobe Experience Cloud.
+1. [Configure your datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) within the Data Collection tab in your account in the Adobe Experience Cloud.
 
-3. Install the SDK. There are multiple methods of doing so, which are covered on the [Install the SDK page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). This page will continue with each different method of implementation. 
+1. Install the SDK. There are multiple methods of doing so, which are covered on the [Install the SDK page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). This page will continue with each different method of implementation. 
 
 In order to use the SDK, you must have a [schema](../../../start/get-started-schemas.md) and a [datastream](../../../start/get-started-datasets.md) defined.
 
@@ -58,21 +58,21 @@ This option is more user-friendly for people who may have less coding experience
 
 1. [Create a tag property](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [Add the embed code](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Add the embed code](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. Install and configure the Platform Web SDK extension with the Datastream you created by selecting the configuration from the “Datastream” dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Install and configure the Platform Web SDK extension with the Datastream you created by selecting the configuration from the “Datastream” dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
     ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
     ![Configure Extension](../../assets/configure-sdk-extension.png)
 
-4. Create the necessary [Data Elements](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). At the bare minimum, you must create a Platform Web SDK Identity Map and a Platform Web SDK XDM Object data element.
+1. Create the necessary [Data Elements](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). At the bare minimum, you must create a Platform Web SDK Identity Map and a Platform Web SDK XDM Object data element.
 
     ![Identity Map](../../assets/sdk-identity-map.png)
 
     ![XDM Object](../../assets/xdm-object.png)
 
-5. Create your [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. Create your [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
     i. Add a Platform Web SDK Send Event action and add the relevant decisionScopes to that action’s configuration
 
@@ -80,7 +80,7 @@ This option is more user-friendly for people who may have less coding experience
 
     ![Request Offer](../../assets/rule-request-offer.png)
 
-6. [Create and publish](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) a library containing all the relevant Rules, Data Elements, and Extensions you have configured
+1. [Create and publish](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) a library containing all the relevant Rules, Data Elements, and Extensions you have configured
 
 ## Option 2 - Manually implement using the pre-built stand  alone version
 
@@ -121,7 +121,7 @@ javascript
 
 ```
 
-Install the Debugger Chrome extension to use with debugging. That can be found here: https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+Install the Debugger Chrome extension to use with debugging. That can be found here: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 Next, log into your account within the debugger. Then, go to Logs and make sure you are connected to the correct workspace. Now, copy the base64 encoded version of the decision scope from your offer. 
 
