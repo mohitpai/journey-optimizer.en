@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-
+exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 ---
 # Decisioning and Edge Decisioning APIs {#about-decisioning-apis}
 

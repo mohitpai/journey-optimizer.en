@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 ---
-
 # Deliver offers using the Edge Decisioning API {#edge-decisioning-api}
 
 ## Getting started & prerequisites {#edge-overview-and-prerequisites}
