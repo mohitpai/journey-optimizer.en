@@ -50,6 +50,3 @@ To create a fallback offer, follow these steps:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.

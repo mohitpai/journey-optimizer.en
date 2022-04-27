@@ -128,8 +128,4 @@ This enables you to access detailed information for that offer. Select the **[!U
 
 ## Tutorial video {#video}
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
