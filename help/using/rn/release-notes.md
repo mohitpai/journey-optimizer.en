@@ -41,7 +41,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Pre-fill landing pages fields** - It is now possible to give users the ability to pre-fill the landing page fields with profile information.
 
+**Decision Management**
+
 * **Personalized Offer Ranking** (beta) - A new type of AI model is available in Journey Optimizer: the Personalized Optimization model, which allows you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. This model is currently available in early access to select users only.
+
+* **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in Offer Decisioning. You can create your offers and other related objects using the Offer Decisioning user interface (UI) or APIs.
 
 **Administration**
 
