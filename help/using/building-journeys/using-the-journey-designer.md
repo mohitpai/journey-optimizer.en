@@ -82,7 +82,7 @@ You will also find the custom actions that you've configured to send messages wi
 
 ## The use of paths in the canvas {#paths}
 
-Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [this page](../building-journeys/journey-gs.md#change-properties) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [this page](../building-journeys/journey-gs.md#change-properties) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send a push notification.
 
  ![](assets/journey42.png)
 

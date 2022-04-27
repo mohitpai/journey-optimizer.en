@@ -10,6 +10,8 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 # Examples of queries{#query-examples}
 
 This section lists several commonly used examples to query Journey Step Events in Data Lake. 
+
+Make sure that the fields used in your queries have associated values in the corresponding schema.
  
 ## Message/Action Errors {#message-action-errors}
 
