@@ -191,10 +191,6 @@ A successful response returns information on your proposition, including its uni
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
-
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
 ## Next steps {#next-steps}
