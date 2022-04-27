@@ -12,6 +12,52 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
 
+## April 2022 Release {#april-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration with Adobe Campaign Standard</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As an Adobe Campaign Standard customers, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.</p>
+<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Improvements
+
+**Landing pages** 
+
+* **New option for opt-in/opt-out checkboxes** - You can now insert a single checkbox for opt-in/opt-out in subscription landing pages. Users need to check the box to consent (opt-in), and uncheck it to remove their consent (opt-out).
+
+* **Pre-fill landing pages fields** - It is now possible to give users the ability to pre-fill the landing page fields with profile information.
+
+* **Personalized Offer Ranking** (beta) - A new type of AI model is available in Journey Optimizer: the Personalized Optimization model, which allows you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. This model is currently available in early access to select users only.
+
+**Administration**
+
+* **PTR submit duration** - The duration for PTR edit to be effective is now a few hours.
+
+**User interface**
+
+* **Contextual help in Journey Optimizer UI** - Contextual help links have been added to multiple pages in Journey Optimizer. When available, click the "i" icon to view a quick description of the current functionality and access related articles.	
+
+
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+
 ## March 2022 Release {#march-2022-release}
 
 ### Improvements
