@@ -14,25 +14,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## April 2022 Release {#april-2022-release}
 
-### New capabilities 
-
-<table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe Campaign Standard</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As an Adobe Campaign Standard customer, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.</p>
-<p>For more information, refer to the <a href="../action/acs-action.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
 ### Improvements
 
 **Landing pages** 
@@ -56,6 +37,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **User interface**
 
 * **Contextual help in Journey Optimizer UI** - Contextual help links have been added to multiple pages in Journey Optimizer. When available, click the "i" icon to view a quick description of the current functionality and access related articles.	
+
+**Integration with Adobe Campaign Standard**
+
+As an Adobe Campaign Standard customer, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.
+[Learn more](../action/acs-action.md)
 
 <!--
 ### Fixes
