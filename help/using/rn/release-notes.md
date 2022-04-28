@@ -40,8 +40,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Integration with Adobe Campaign Standard**
 
-As an Adobe Campaign Standard customer, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.
-[Learn more](../action/acs-action.md)
+As an Adobe Campaign Standard customer, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.  [Learn more](../action/acs-action.md)
 
 <!--
 ### Fixes
