@@ -32,7 +32,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Email Design**
 
-* **New email templates** are now available to design your email content in Journey Optimizer.
+* **20 new email templates** are now available to design your email content in Journey Optimizer.
 
 **User interface**
 
