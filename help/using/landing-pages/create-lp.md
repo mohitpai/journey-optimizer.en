@@ -75,7 +75,7 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../configuration/lp-configuration.md#lp-create-preset) you selected. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
 
     >[!CAUTION]
     >
@@ -86,6 +86,16 @@ To define the primary page settings, follow the steps below.
     >[!NOTE]
     >
     >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
+1. If you want the landing page to preload the form data that is already available, select the **[!UICONTROL Pre-fill form fields with profile information]**.
+
+    ![](assets/lp_prefill-form-fields.png)
+
+    When this option is enabled, if a profile has already opted in/out or was already added to a subscription list, their choices will be reflected upon displaying the landing page.
+
+    For example, if a profile has opted in to receive communications about future events, the corresponding checkbox will be already selected the next time the landing page is displayed to that profile.
+
+    ![](assets/lp_prefill-form-ex.png)
 
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 

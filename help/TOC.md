@@ -47,6 +47,7 @@ solution: Journey Optimizer
     + [Add a preheader](using/design/preheader.md)
   + Add and manage assets {#manage-asset}  
     + [Work with Assets Essentials](using/design/assets-essentials.md)
+    + [Work with Adobe Stock](using/design/stock.md)
   + [Add personalized offers](using/design/deliver-personalized-offers.md)  
   + [Add links and track messages](using/design/message-tracking.md)
   + [Preview and proofs](using/design/preview.md)
@@ -111,6 +112,7 @@ solution: Journey Optimizer
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
+    + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
     + [Update profile](using/building-journeys/update-profiles.md)
@@ -318,7 +320,7 @@ solution: Journey Optimizer
         + [Create a decision](using/offers/api-reference/activities-api/activities/create.md)
         + [Update a decision](using/offers/api-reference/activities-api/activities/update.md)
         + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
-    + Offer delivery using APIs {#offer-delivery}
+    + Offer delivery using APIs {#offer-delivery-api}
         + [About Decisioning and Edge Decisioning APIs](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -368,6 +370,7 @@ solution: Journey Optimizer
     + Action configuration {#action-journeys}
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
+      + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
       + [Consent](using/action/consent.md)
   + [Sources](using/start/get-started-sources.md)

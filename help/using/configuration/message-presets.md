@@ -51,6 +51,12 @@ To create a message preset, follow these steps:
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
     ![](assets/preset-submit.png)
+
+    >[!NOTE]
+    >
+    >You cannot proceed with preset creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
+    >
+    >Save the preset as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume preset creation.
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
@@ -109,6 +115,10 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+You cannot proceed with preset creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. Otherwise, the oldest version of the IP pool/subdomain association will still be used. If this is the case, save the preset as draft and retry once the IP pool has the **[!UICONTROL Success]** status.
+
 >[!NOTE]
 >
 >For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
@@ -148,28 +158,6 @@ The unsubscribe link consists in two elements:
 Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL tracking{#url-tracking}
-
-To identify where and why a person clicked on your link, you can add UTM parameters for URL tracking in the  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** section.
-
-Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Three UTM parameters are available by default. You can add up to 10 tracking parameters. To add a UTM parameter, select the **[!UICONTROL Add new UTM param]** button.
-
-To configure a UTM parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
-
-* Journey attributes: Source id, Source name, Source version id
-* Message attributes: Action id, Action name
-* Offer decisioning attributes: Offer id, Offer name
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a UTM value. 
 
 ### Header parameters{#email-header}
 
@@ -216,6 +204,35 @@ You must enter an integer value (in hours or minutes) within the following range
 * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
 Learn more on retries in [this section](retries.md).
+
+### URL tracking{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM parameters"
+>abstract="Use this section to automatically append tracking parameters to the campaign URLs present in the email content."
+
+To identify where and why a person clicked on your link, you can optionally add UTM parameters for URL tracking in the  **[!UICONTROL URL Tracking Parameters]** section.
+
+Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Three UTM parameters are available by default. You can add up to 10 tracking parameters. To add a UTM parameter, select the **[!UICONTROL Add new parameter]** button.
+
+To configure a UTM parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
+
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Message attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a UTM value.
+
+You can combine typing text values and selecting predefined values. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
 
 ## Configure push settings {#configure-push-settings}
 

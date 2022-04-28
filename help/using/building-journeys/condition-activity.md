@@ -73,7 +73,7 @@ Using the advanced expression editor, you can setup more advanced conditions man
 
 ## Time condition{#time_condition}
 
-This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays.
+This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send push notifications during daytime and emails at night during weekdays.
 
 >[!NOTE]
 >

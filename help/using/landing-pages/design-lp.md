@@ -51,6 +51,12 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-update.png)
 
+    Select amongst the three options below:
+
+    * **[!UICONTROL Opt in if checked]**: users need to check the box to consent (opt-in).
+    * **[!UICONTROL Opt out if checked]**: users need to check the box to remove their consent (opt-out).
+    * **[!UICONTROL Opt in if checked, opt out if unchecked]**: this option enables you to insert a single checkbox for opt-in/opt-out. Users need to check the box to consent (opt-in), and uncheck it to remove their consent (opt-out).
+
 1. Choose what will be updated between the three following options:
 
     ![](assets/lp_designer-form-update-options.png)
