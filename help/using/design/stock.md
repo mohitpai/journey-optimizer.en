@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 ---
 # Manage [!DNL Adobe Stock] images {#stock}
 

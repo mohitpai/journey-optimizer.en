@@ -5,6 +5,7 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 ---
 # Integrate with Adobe Campaign Standard {#using_adobe_campaign_standard}
 
