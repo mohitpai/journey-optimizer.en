@@ -12,6 +12,10 @@ hidefromtoc: yes
 
 ## Get started with [!DNL Adobe Stock] {#get-started-stock}
 
+>[!IMPORTANT]
+>
+> The use of the [!DNL Adobe Stock] integration is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+
 [!DNL Adobe Stock] provides access to millions of high-quality, curated, royalty-free photos, videos, illustrations, and vector graphics. You can choose to purchase a credit pack to license assets or only buy one Standard or Extended license for the needed asset. Adobe Stock also provides a free collection of assets.
 
 For more information on [!DNL Adobe Stock], refer to [Adobe Stock Get Started](https://helpx.adobe.com/stock/get-started.html).

@@ -21,7 +21,11 @@ Domain name delegation is a method that allows the owner of a domain name (techn
 >
 >By default, [!DNL Journey Optimizer] license contract allows you to delegate up to 10 subdomains. Reach out to your Adobe contact if you want to increase this limitation.
 
-You can fully delegate a subdomain, or create a subdomain using CNAMEs to point to Adobe-specific records. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
+You can fully delegate a subdomain, or create a subdomain using CNAMEs to point to Adobe-specific records.
+
+>[!CAUTION]
+>
+>The Full subdomain delegation is the recommended method. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Full subdomain delegation {#full-subdomain-delegation}
 
