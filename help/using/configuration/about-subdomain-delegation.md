@@ -46,9 +46,9 @@ Subdomain configuration allows you to configure a subsection of your domain (tec
 
 >[!CAUTION]
 >
->The Full subdomain delegation is the preferred method.
+>* The full subdomain delegation is the preferred method.
 >
->The CNAMEs method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
+>* The CNAME method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
 The table below provides a summary of how these methods work, as well as the implied level of effort:
 

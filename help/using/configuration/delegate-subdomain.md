@@ -25,7 +25,7 @@ You can fully delegate a subdomain, or create a subdomain using CNAMEs to point 
 
 >[!CAUTION]
 >
->The Full subdomain delegation is the recommended method. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
+>The full subdomain delegation is the recommended method. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Full subdomain delegation {#full-subdomain-delegation}
 
@@ -105,7 +105,7 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 
 >[!CAUTION]
 >
->This method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
+>The CNAME method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
 ➡️ [Learn how to create a subdomain using CNAME to point to Adobe-specific records in this video](#video)
 
