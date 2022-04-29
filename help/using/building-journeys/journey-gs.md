@@ -70,7 +70,7 @@ Here are the main steps to send messages through journeys:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
->title="Learn more about journey properties"
+>title="Define your journey properties"
 >abstract="This section shows the journey properties. By defaut, read-only parameters are hidden. Available settings depend on the status of the journey, on your permissions and product configuration."
 
 Click on the pencil icon, in the top right to access the journey's properties.
