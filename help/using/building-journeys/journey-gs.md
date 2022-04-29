@@ -113,7 +113,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 
 ### Timezone and profile timezone {#timezone}
 
-Timezone are defined at journey level.
+Timezone is defined at journey level.
 
 You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
