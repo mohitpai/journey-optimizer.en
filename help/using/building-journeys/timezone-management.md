@@ -11,7 +11,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 
 You can define a time zone in the [properties](../building-journeys/journey-gs.md#change-properties) of your journey.
 
-To access Properties,click on the pencil icon in the top-right of the screen.
+To access Journey Properties, click on the pencil icon in the top-right of the screen.
 
 This time zone will be used for every activity of the journey containing a time element such as:
 
