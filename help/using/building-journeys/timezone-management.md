@@ -26,7 +26,7 @@ You can select a time zone or choose to use the time zone defined in the user pr
 >
 >The profile time zone works with the **timeZone** field existing in the **Preference Details** field group.
 
-## Defining a fixed time zone {#fixed-timezone}
+## Define a fixed time zone {#fixed-timezone}
 
 The time zone can also be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey.
 
@@ -34,7 +34,7 @@ To do so, in the **[!UICONTROL Journey Properties]** pane, select a time zone.
 
 ![](assets/journey72.png)
 
-## Using profiles to define the journey time zone {#timezone-from-profiles}
+## Use profiles to define the journey time zone {#timezone-from-profiles}
 
 If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of Adobe Experience Platform, the time zone is pre-defined with the one specified in the profile of the individual flowing in the journey.
 
@@ -46,6 +46,6 @@ To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezo
 
 ![](assets/journey73.png)
 
-## Using time zones in expressions {#timezone-in-expressions}
+## Use time zones in expressions {#timezone-in-expressions}
 
 The start and end dates of a journey cannot be linked to a specific time zone. They are automatically associated to the instance's time zone.

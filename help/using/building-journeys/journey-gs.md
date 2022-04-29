@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Get started with journeys{#jo-quick-start}
 
-## Pre-requisites{#start-prerequisites}
+## Prerequisites{#start-prerequisites}
 
 In order to send messages with journeys, the following configurations are required:
 
