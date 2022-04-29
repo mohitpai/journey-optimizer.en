@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Get started with journeys{#jo-quick-start}
 
-## Pre-requisites{#start-prerequisites}
+## Prerequisites{#start-prerequisites}
 
 In order to send messages with journeys, the following configurations are required:
 
@@ -71,7 +71,7 @@ Here are the main steps to send messages through journeys:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey properties"
->abstract="This section shows the journey properties. By defaut, read-only parameters are hidden. Available settings depend on the status of the journey, on your permissions and product configuration."
+>abstract="This section shows the journey properties. By default, read-only parameters are hidden. Available settings depend on the status of the journey, on your permissions and product configuration."
 
 Click on the pencil icon, in the top right to access the journey's properties.
 
@@ -113,7 +113,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 
 ### Timezone and profile timezone {#timezone}
 
-Timezone are defined at journey level.
+Timezone is defined at journey level.
 
 You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
