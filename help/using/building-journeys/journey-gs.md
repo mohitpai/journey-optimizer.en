@@ -9,9 +9,9 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Get started with journeys{#jo-quick-start}
 
-## Pre-requisites
+## Pre-requisites{#start-prerequisites}
 
-In order to send messages with journeys, the following configuration is required:
+In order to send messages with journeys, the following configurations are required:
 
 1. **Configure an event**: if you want to trigger your journeys unitarily when an event is received, you need to configure an event. You define the expected information and how to process it. This step is performed by a **technical user**. [Read more](../event/about-events.md).
 
@@ -29,12 +29,12 @@ In order to send messages with journeys, the following configuration is required
 
     ![](assets/create-content-push.png)  
 
-## Building your journey{#jo-build}
+## Build your journey{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Build your journey"
->abstract="This screen displays the list of journeys previously created. Open a journey or click 'Create journey', and combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios."
+>abstract="This screen displays the list of existing journeys. Open a journey or click 'Create journey', and combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios."
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
@@ -66,16 +66,16 @@ Here are the main steps to send messages through journeys:
 
     ![](assets/jo-dynamic_report_journey_12.png)
 
-## Changing properties {#change-properties}
+## Define your journey properties {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
->title="Journey properties"
->abstract="You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a Timeout and error duration if you are admin."
+>title="Learn more about journey properties"
+>abstract="This section shows the journey properties. By defaut, read-only parameters are hidden. Available settings depend on the status of the journey, on your permissions and product configuration."
 
 Click on the pencil icon, in the top right to access the journey's properties.
 
-You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a **[!UICONTROL Timeout and error]** duration if you are admin. 
+You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and, as an Admin user, define a **[!UICONTROL Timeout and error]** duration. If enabled for your organization, you can also activate [burst messaging](#burst).
 
 For live journeys, this screen displays the publication date and the name of the user who published the journey.
 
@@ -117,40 +117,46 @@ Timezone are defined at journey level.
 
 You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
+If a time zone is defined in Adobe Experience Platform profile, it can be retrieved in the journey.
+
 For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
 
 ### Burst mode {#burst}
 
-Burst mode is a paid add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a read segment and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+Burst mode is a Journey Optimizer add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a **Read segment** activity and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 
-Limitations:
+Burst messaging comes with the following requirements:
 
-* The journey must start with a read segment. Events are not allowed.
-* The next step must be a push message. No other activity or step is allowed (except the optional end activity):
-   * Push channel only
-   * No personalization is allowed in the message
-   * The message must be small (<2KB)
+* The journey must start with a **Read segment** activity. Events are not allowed.
+* The next step must be a push message. No other channel, activity or step is allowed (except the optional **End** activity).
+* No personalization is allowed in the push message.
+* The message must be small (<2KB).
 
-Important note:
+>[!CAUTION]
+>
+>If any of the requirements is not fulfilled, burst mode will not be available in the journey.
 
-If any of the requirements is not fulfilled, burst mode will not be available in the journey.
-
-To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
+To activate **Burst mode**, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
 
 ![](assets/burst.png)
 
-Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
+Burst mode is automatically deactivated if you modify a burst journey and add an activity that is not compliant with burst messaging, such as an email message, any other action, an event etc.
 
 ![](assets/burst2.png)
 
-Then test and publish your journey normally. Test mode messages are not sent via the burst mode.
+Then test and publish your journey as usual. Note that, in test mode, messages are not sent via the burst mode.
 
-## Ending a journey
+Understand the applicable use cases for burst messaging, and how to configure a journey for burst messages, in this video:
 
-A journey can end for an individual because of two reasons:
+>[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
 
-* The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [this page](../building-journeys/end-activity.md).
-* The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
+
+## End, stop or close a journey{#end-journey}
+
+A journey can end for an individual in two specific contexts:
+
+* The person arrives at the last activity of a path. This last activity can be an **End** activity or another activity. Using an **End** activity is not mandatory. See [this page](../building-journeys/end-activity.md).
+* The person arrives at a **Condition** activity (or a **Wait** activity with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [this page](../building-journeys/journey-gs.md#change-properties)
 
@@ -160,7 +166,7 @@ A journey can close because of the following reasons:
 * A one-shot segment based journey that has finished executing.
 * After the last occurrence of a recurring segment based journey.
 
-When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey stops letting new individuals enter the journey. Persons already in the journey can finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
 In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
 
@@ -172,7 +178,7 @@ The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options al
 >
 >Note that you cannot resume a closed or stopped journey.
 
-### Closing a journey
+### Close a journey
 
 You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
@@ -191,16 +197,15 @@ You can also:
 
     ![](assets/finish_drop_down_list.png)
 
-1. Click **[!UICONTROL Close to new entrances]**. A dialog box appears.
-1. Click **[!UICONTROL Close to new entrances]** to confirm.
+1. Click **[!UICONTROL Close to new entrances]**, and confirm in the dialog box.
 
-### Stopping a journey
+### Stop a journey
 
 You can stop a journey when an emergency occurred and all processing needs to be ended immediately on a journey.
 
 A stopped journey version cannot be restarted.
 
-When stopped, a journey will have the status **[!UICONTROL Stopped]**. 
+When stopped, the journey status is set to **[!UICONTROL Stopped]**. 
 
 You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
 
@@ -213,5 +218,4 @@ You can also:
 
   ![](assets/finish_drop_down_list.png)
 
-1. Click **[!UICONTROL Stop]**. A dialog box appears.
-1. Click **[!UICONTROL Stop]** to confirm.
+1. Click **[!UICONTROL Stop]**, and confirm in the dialog box.
