@@ -38,7 +38,7 @@ When passing context data with an Edge Decisioning API request, data is stored i
 
 >[!NOTE]
 >
->In order for the context data to be stored, you need to have a dedicated XDM schema configured. (+ link to XDM doc)
+>In order for the context data to be stored, you need to have a dedicated XDM schema configured.
 
 ## Decisioning API capabilities {#decisioning}
 
