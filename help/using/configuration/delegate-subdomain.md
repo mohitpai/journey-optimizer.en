@@ -185,7 +185,7 @@ The checks and actions below will be performed until the subdomain is verified a
 
 1. **Create tracking and mirror URLs**: if the domain is email.example.com, the tracking/mirror domain will be data.email.example.com. It is secured by installing the SSL certificate.
 
-1. **Provision CDN CloudFront**: if CDN is not setup already, Adobe provisions it for the imsorg.
+1. **Provision CDN CloudFront**: if CDN is not setup already, Adobe provisions it for the your organization's ID.
 
 1. **Create CDN domain**: if the domain is email.example.com, the CDN domain will be cdn.email.example.com.
     
