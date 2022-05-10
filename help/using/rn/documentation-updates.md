@@ -12,8 +12,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
-* A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)
-* Links to how-to-videos have been updated.
+<!--* A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)-->
+* Links to how-to videos have been updated.
 
 
 ## April 2022 {#april-2022}
