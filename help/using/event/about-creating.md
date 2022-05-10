@@ -68,7 +68,7 @@ Here are the first steps to configure a new event:
 
 1. Click **[!UICONTROL Save]**.
 
-    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [this page](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Define the payload fields {#define-the-payload-fields}
 
@@ -162,4 +162,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help them design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help them design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey.md).
