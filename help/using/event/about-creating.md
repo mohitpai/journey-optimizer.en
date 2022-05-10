@@ -86,7 +86,7 @@ The payload definition allows you to choose the information the system expects t
 
     ![](assets/journey9.png)
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [this section](../event/about-creating.md#define-the-event-key)).
+1. Select the fields that you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [this section](../event/about-creating.md#define-the-event-key)).
 
     >[!NOTE]
     >
@@ -119,27 +119,27 @@ Only one namespace is allowed per journey. If you use several events in the same
 
 ## Define the profile identifier {#define-the-event-key}
 
-The key is the field or combination of fields is part of the event payload data and that will allow the system to identify the person associated to the event. The key can be, for example, the Experience Cloud ID, a CRM ID or an email address.
+The key is the field, or combination of fields, which is part of the event payload data and that allows the system to identify the person associated to the event. The key can be, for example, the Experience Cloud ID, a CRM ID, or an email address.
 
-If you plan to leverage data stored in the Real-time Customer Profile database, you must select, as the event key, information you defined as a profile's identity in the [Real-time Customer Profile Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
+To use data stored in Adobe Real-time Customer Profile database, the event key must be the information you defined as a profile's identity in the [Real-time Customer Profile Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
-It will allow the system to perform the reconciliation between the event and the individual's profile. If you select a schema that has a primary identity, then the **[!UICONTROL Profile identifier]** and **[!UICONTROL Namespace]** fields are pre-filled. If there is no identity defined, we select _identityMap > id_ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **[!UICONTROL Namespace]** field) using _identityMap > id_.
+The profile identifier allows the system to perform the reconciliation between the event and the individual's profile. If you select a schema that has a primary identity, then the **[!UICONTROL Profile identifier]** and **[!UICONTROL Namespace]** fields are pre-filled. If there is no identity defined, the _identityMap > id_ is the primary key. Then you must select a namespace, and the key is automatically pre-filled using _identityMap > id_.
 
 When selecting fields, primary identity fields are tagged. 
 
 ![](assets/primary-identity.png)
 
-If you need to use a different key, such as a CRM ID or an email address, you need to add it manually:
+If you need to use a different key, such as a CRM ID or an email address, you need to add it manually, as explained below:
 
-1. Click inside the **[!UICONTROL Profile identifier]** field or on the pencil icon.
+1. Click inside the **[!UICONTROL Profile identifier]** field, or on the pencil icon.
 
     ![](assets/journey16.png)
 
-1. Select the field chosen as the key in the list of payload fields. You can also switch to the advanced expression editor to create more complex keys (for example, a concatenation of two field of the events). See below, in this section.
+1. Select the field chosen as the key in the list of payload fields. You can also switch to the advanced expression editor to create more complex keys (for example, a concatenation of two fields of the events).
 
     ![](assets/journey20.png)
 
-When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [this section](../event/about-creating.md#select-the-namespace)), the key can be used to perform queries on Adobe Experience Platform. See [this page](../building-journeys/about-journey-activities.md#orchestration-activities).
+When the event is received, the value of the key allows the system to identify the person associated to the event. Associated to a namespace (see [this section](../event/about-creating.md#select-the-namespace)), the key can be used to perform queries on Adobe Experience Platform. See [this page](../building-journeys/about-journey-activities.md#orchestration-activities).
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
 You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See this [page](../building-journeys/expression/expressionadvanced.md).  

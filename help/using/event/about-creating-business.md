@@ -74,28 +74,29 @@ Here are the first steps to configure a business event:
 
 1. The number of journeys that use this event is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this event.
 
-1. Define the schema and payload fields: this is where you select the event information (usually called a payload) journeys expects to receive. You will then be able to use this information in your journey. See [this section](../event/about-creating-business.md#define-the-payload-fields).
+1. Define the schema and payload fields: this is where you select the event information (or payload) journeys expects to receive. You will use this information later in your journey. See [this section](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
+   Only time series schemas are available. `Experience Events`, `Decision Events` and `Journey Step Events` schemas are not available. The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 
     ![](assets/test-profiles-4.png)
 
-1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
-  ![](assets/jo-event6-business.png)
+1. Click inside the **[!UICONTROL Event ID condition]** field. Use the simple expression editor to define the condition which is used by the system to identify the events that trigger your journey.
 
-   In our example, we wrote a condition based on the product's id. This means that whenever the system receives an event that matches this condition, it will pass it to journeys.
+    ![](assets/jo-event6-business.png)
 
-   >[!NOTE]
-   >
-   >In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
+    In our example, we wrote a condition based on the product's id. This means that whenever the system receives an event that matches this condition, it will pass it to journeys.
+
+    >[!NOTE]
+    >
+    >In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
 
 1. Click **[!UICONTROL Save]**.
 
     ![](assets/journey7-business.png)
 
-    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [this page](../event/additional-steps-to-send-events-to-journey.md).
+    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. Learn more in [this page](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Define the payload fields {#define-the-payload-fields}
 
@@ -113,17 +114,17 @@ The payload definition allows you to choose the information the system expects t
     >
     > Make sure that the following fields are selected: `_id` and `timestamp`
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. 
+1. Select the fields that you expect to receive from the event. These are the fields which the business user will leverage in the journey. 
 
 1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
 
-    The number of selected fields appears in the **[!UICONTROL Fields]** field.
+    The number of selected fields appears in **[!UICONTROL Fields]**.
 
     ![](assets/journey12-business.png)
 
 ## Preview the payload {#preview-the-payload}
 
-The payload preview allows you to validate the payload definition.
+Use the payload preview to validate the payload definition.
 
 1. Click the **[!UICONTROL View Payload]** icon to preview the payload expected by the system.
 
