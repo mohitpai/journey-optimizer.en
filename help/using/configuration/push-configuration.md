@@ -301,7 +301,7 @@ You then need to set up an event.
 
     ![](assets/test_push_7b.png)
 
-1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field. Drag and drop your previously added field to define the condition that will be used by the system to identify the events that triggers your journey.
+1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field. Drag and drop your previously added field to define the condition that will be used by the system to identify the events that trigger your journey.
 
     ![](assets/test_push_8.png)
 
