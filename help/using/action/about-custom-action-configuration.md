@@ -78,6 +78,12 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
+
+    >[!NOTE]
+    >
+    > Journey Optimizer is designed to track events and information, not to track data modifications. As a consequence, the **DELETE** method is not supported. If you need to update an existing resource, use the **PUT** method.
+    >
+
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
    1. To add a header field, click **[!UICONTROL Add a header field]**.
    1. Enter the key of the header field.
