@@ -361,7 +361,7 @@ solution: Journey Optimizer
         + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
         + [Leverage Adobe Analytics](using/event/about-analytics.md)
       + [Configure a business event](using/event/about-creating-business.md)
-      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey.md)
     + Data source configuration{#data-source-journeys}
       + [About data sources](using/datasource/about-data-sources.md)
       + [Configure a data source](using/datasource/configure-data-sources.md)
