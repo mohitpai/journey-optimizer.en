@@ -162,6 +162,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/segment/get-started-identity.md">Identity</a>
     </li>
+    <p>
     <p>PRIVACY</p>
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">Policies</a>
@@ -169,7 +170,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Requests</a>
     </li>
-    <p>
     <p>
     <p>ADMINISTRATION</p>
     <li>
