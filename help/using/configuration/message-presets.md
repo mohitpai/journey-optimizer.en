@@ -51,6 +51,12 @@ To create a message preset, follow these steps:
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
     ![](assets/preset-submit.png)
+
+    >[!NOTE]
+    >
+    >You cannot proceed with preset creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
+    >
+    >Save the preset as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume preset creation.
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
@@ -109,6 +115,10 @@ In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
 
 1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+You cannot proceed with preset creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. Otherwise, the oldest version of the IP pool/subdomain association will still be used. If this is the case, save the preset as draft and retry once the IP pool has the **[!UICONTROL Success]** status.
+
 >[!NOTE]
 >
 >For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
@@ -149,28 +159,6 @@ Learn more on adding a header unsubscribe link to your messages in [this section
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
-### URL tracking{#url-tracking}
-
-To identify where and why a person clicked on your link, you can add UTM parameters for URL tracking in the  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** section.
-
-Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Three UTM parameters are available by default. You can add up to 10 tracking parameters. To add a UTM parameter, select the **[!UICONTROL Add new UTM param]** button.
-
-To configure a UTM parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
-
-* Journey attributes: Source id, Source name, Source version id
-* Message attributes: Action id, Action name
-* Offer decisioning attributes: Offer id, Offer name
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a UTM value. 
-
 ### Header parameters{#email-header}
 
 In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and email addresses associated to the type of messages sent using that preset.
@@ -195,6 +183,43 @@ In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and em
 >
 >Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
+### BCC email {#bcc-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_bcc"
+>title="Define a BCC email address"
+>abstract="You can store emails sent by Journey Optimizer by sending them to a BCC address. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. This capacity is optional."
+
+You can store emails sent by [!DNL Journey Optimizer] using a BCC (blind carbon copy) email address.
+
+This optional capacity allows you to send an exact copy of the sent messages to a dedicated email address - which will be invisible to the delivery recipients. For example, you may want to use it if your organization needs to archive all outbound email messages for compliance.
+
+To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field.
+
+>[!NOTE]
+>
+>You can only define one BCC email address. Make sure the BCC address has enough reception capacity to archive all the emails that are sent using this preset.
+
+![](assets/preset-bcc.png)
+
+All email messages using this preset will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
+
+>[!CAUTION]
+>
+>Note that your BCC feature usage will be counted against the maximum number of messages allowed per profile. Check you licence contract.
+
+**Recommendations and limitations:**
+
+* Make sure the BCC email address is set correctly. If this is not case, your clients' personally identifiable information (PII) may be sent to an unwanted address.
+
+* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
+
+* This feature may deliver to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have [bounced](../reports/suppression-list.md#delivery-failures).
+
+    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). <!--to check-->
+
 ### Email retry parameters {#email-retry}
 
 >[!CONTEXTUALHELP]
@@ -216,6 +241,35 @@ You must enter an integer value (in hours or minutes) within the following range
 * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
 Learn more on retries in [this section](retries.md).
+
+### URL tracking {#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM parameters"
+>abstract="Use this section to automatically append tracking parameters to the campaign URLs present in the email content."
+
+To identify where and why a person clicked on your link, you can optionally add UTM parameters for URL tracking in the  **[!UICONTROL URL Tracking Parameters]** section.
+
+Based on the parameters you define, a UTM code will be applied to the end of the URL included in your message content. You will then be able to compare results in a web analytics tool, such as Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Three UTM parameters are available by default. You can add up to 10 tracking parameters. To add a UTM parameter, select the **[!UICONTROL Add new parameter]** button.
+
+To configure a UTM parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
+
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Message attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a UTM value.
+
+You can combine typing text values and selecting predefined values. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
 
 ## Configure push settings {#configure-push-settings}
 
