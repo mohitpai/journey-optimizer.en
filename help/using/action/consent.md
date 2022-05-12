@@ -8,6 +8,7 @@ role: Admin
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
 # Consent management (beta) {#consent-management}
 
@@ -110,4 +111,4 @@ The following data is taken into account for consent:
 >Please note that there can be a latency when updating the list of policies applied, refer to this [this section](../action/consent.md#important-notes).
 -->
 
-The other steps for configuring a custom action in a journey are detailed in [this section](../building-journeys/using-custom-actions.md). 
+The other steps for configuring a custom action in a journey are detailed in [this section](../building-journeys/using-custom-actions.md).
