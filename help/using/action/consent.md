@@ -51,7 +51,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Define a required marketing action"
->abstract="The Required marketing action allows you to define the marketing action related to your custom action. For example, if you use that custom action to send emails, you can select "Email targeting". When used in a journey, all consent policies associated with that marketing action will be retrieved and leveraged. This cannot be modified on the canvas." 
+>abstract="The Required marketing action allows you to define the marketing action related to your custom action. For example, if you use that custom action to send emails, you can select Email targeting. When used in a journey, all consent policies associated with that marketing action will be retrieved and leveraged. This cannot be modified on the canvas." 
 
 When configuring a custom action, two fields can be used for consent management.
 
