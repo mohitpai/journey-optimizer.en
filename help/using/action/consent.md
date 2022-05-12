@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 title: Consent
-description: Conent
+description: Consent
 feature: Actions
 topic: Administration
 role: Admin
