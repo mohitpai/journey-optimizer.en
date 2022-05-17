@@ -47,7 +47,7 @@ The steps to create a landing page are as follows.
 
     ![](assets/lp_create-lp-details.png)
 
-1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
+1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-presets.md#lp-create-preset).
 
     ![](assets/lp_create-lp-presets.png)
 
@@ -75,7 +75,7 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../configuration/lp-configuration.md#lp-create-preset) you selected. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../configuration/lp-presets.md#lp-create-preset) you selected. [Learn more](../configuration/lp-subdomains.md)
 
     >[!CAUTION]
     >
@@ -127,7 +127,7 @@ To define the subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-subdomains.md)
 
     >[!CAUTION]
     >

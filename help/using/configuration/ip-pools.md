@@ -34,7 +34,7 @@ To create an IP pool, follow these steps:
 
     >[!NOTE]
     >
-    >The subdomain's name must begin with a letter (A-Z) and include only alpha-numeric characters or special characters ( _, ., - ).
+    >The name must begin with a letter (A-Z) and include only alpha-numeric characters or special characters ( _, ., - ).
 
 1. Select the IP addresses to include in the pool from the drop-down list, then click **[!UICONTROL Submit]**.
 
