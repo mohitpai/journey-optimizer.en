@@ -340,7 +340,7 @@ solution: Journey Optimizer
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
         + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
         + [Access delegated subdomains](using/configuration/access-subdomains.md)
-      + Manage sudomain-related actions {#subdomain-related-actions}
+      + Manage subdomain-related actions {#subdomain-related-actions}
         + [Add a Google TXT record](using/configuration/google-txt.md)
         + [Access and edit PTR records](using/configuration/ptr-records.md)
         + [Create IP pools](using/configuration/ip-pools.md)

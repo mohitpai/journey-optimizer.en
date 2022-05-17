@@ -159,9 +159,9 @@ To configure a URL tracking parameter, you can directly enter the desired values
 
 Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
-* Adobe Analytics compatible URL: www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}
+* Adobe Analytics compatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics compatible URL: www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image
+* Google Analytics compatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >

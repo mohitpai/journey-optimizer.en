@@ -9,7 +9,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 
 When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you must select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
 
-## Access landing page presets {#lp-presets}
+## Access landing page presets {#access-lp-presets}
 
 To access landing page presets, follow the steps below.
 
