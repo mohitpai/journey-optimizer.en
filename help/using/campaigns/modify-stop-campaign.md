@@ -9,7 +9,7 @@ level: Intermediate
 
 # Modify or stop a campaign {#modify-stop-campaign}
 
-Once a campaign has been activated, you can edit it or stop it at any time. To do this, follow the steps below.
+Once a campaign has been activated, you can edit or stop it at any time. To do this, follow the steps below.
 
 ## Modify an activated campaign {#modify}
 
@@ -19,7 +19,7 @@ To modify and create a new version of a campaign, follow these steps:
 
     ![](assets/create-campaign-edit.png)
 
-1. A new version of the campaign is created. You can check the live version of the campaign at any time by clicking **[!UICONTROL Open live version]**.
+1. A new version of the campaign is created. You can check the live version by clicking **[!UICONTROL Open live version]**.
 
     ![](assets/create-campaign-draft.png)
 
@@ -39,8 +39,8 @@ To modify and create a new version of a campaign, follow these steps:
 
 To stop a campaign, open it then click the **[!UICONTROL Stop campaign]** button.
 
+![](assets/create-campaign-stop.png)
+
 >[!IMPORTANT]
 >
 >After stopping a campaign, it will be available in read-only mode only. You will not be able to activate it again, or use it to create a new campaign.
-
-![](assets/create-campaign-stop.png)

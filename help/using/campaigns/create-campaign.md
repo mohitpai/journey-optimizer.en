@@ -24,17 +24,22 @@ The steps to create a campaign are as follows:
 
     ![](assets/create-campaign.png)
 
-1. Choose the action to perform with the Campaign. For now, only email messages can be sent using campaigns.
+1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
-1. In the **[!UICONTROL Email surface]** drop-down list, select the message preset to use to create your message.
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date defined in the next step,
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.
+
+    In the **[!UICONTROL Actions]** section, choose the channel and the message surface (i.e. message preset) to use to send your message.
+
+    >[!NOTE]
+    >
+    >For now, only email messages can be sent using campaigns.
 
     ![](assets/create-campaign-action.png)
 
 1. Specify a title and a description for the campaign.
 
-    <!--message type will be static information and will display "marketing" as campaign are audience based only. cannot send transactional messages.-->
-
-    To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. [Learn more about content experiment](../campaigns/content-experiment.md).<!-- not for mid april?-->
+    To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).
 
     ![](assets/create-campaign-properties.png)
 
@@ -45,7 +50,7 @@ The steps to create a campaign are as follows:
 
     ![](assets/create-campaign-design.png)
 
-    Note that you can change the message surface to use at any time while the campaign is being edited from the message surface drop-down list.
+    Note that you can change the message surface to use at any time while the campaign is being edited from the drop-down list.
 
     ![](assets/create-campaign-action-properties.png)
 
@@ -82,7 +87,7 @@ Once your campaign is ready, you can review and publish it (see [Review and acti
 
 Once your campaign has been configured, you need to review its parameter and content before activating it. To do this, follow these steps:
 
-1. Click **[!UICONTROL Review to activate]** to display a summary of the campaign.
+1. In the campaign configuration screen, click **[!UICONTROL Review to activate]** to display a summary of the campaign.
 
     The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
 
@@ -102,6 +107,6 @@ Once your campaign has been configured, you need to review its parameter and con
 
 1. Once a campaign has been activated, you can check at any time its information by opening it. The summary allows you to get statistics about number of targeted profiles and delivered and failed actions.
 
-You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. <!--For more on this, refer to this section (+LINK TO THE REPORTS SECTION).-->
+    You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. <!--For more on this, refer to this section (+LINK TO THE REPORTS SECTION).-->
 
-![](assets/create-campaign-summary.png)
+    ![](assets/create-campaign-summary.png)

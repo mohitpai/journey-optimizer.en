@@ -13,7 +13,7 @@ level: Intermediate
 
 Campaigns allow you to deliver one-time content to a specific segment using multiple channels.
 
-Unlike journeys, where actions are designed to be executed in sequence, campaign execute actions simultaneously, either immediately, or on a specified schedule.
+Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule.
 
 You can use them, for example, to deliver promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 
@@ -46,4 +46,4 @@ Campaigns can have multiple statuses:
 
 >[!NOTE]
 >
->The open draft version button next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indiacated that a new version of the campaign is in progress (see [Modify a campaign](modify-stop-campaign.md#modify)).
+>The "Open draft version" icon next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indicates that a new version of the campaign has been created and has not been activated yet (see [Modify a campaign](modify-stop-campaign.md#modify)).
