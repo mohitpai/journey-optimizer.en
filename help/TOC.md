@@ -25,6 +25,7 @@ solution: Journey Optimizer
 + Campaigns {#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
   + [Create a content experiment](using/campaigns/content-experiment.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)

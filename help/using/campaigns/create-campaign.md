@@ -16,6 +16,8 @@ level: Intermediate
 >* [Create message presets](../configuration/message-presets.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
+## Configure a campaign {#configure}
+
 The steps to create a campaign are as follows:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
@@ -38,11 +40,12 @@ The steps to create a campaign are as follows:
 
 1. Configure the message to send with the campaign. To do this, click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to create an email](../messages/create-email.md).
 
+
     Once your content is ready, click the arrow to go back to the campaign creation screen.
 
     ![](assets/create-campaign-design.png)
 
-    You can modify the message surface at any time while the campaign is being edited from the message surface drop-down list.
+    Note that you can change the message surface to use at any time while the campaign is being edited from the message surface drop-down list.
 
     ![](assets/create-campaign-action-properties.png)
 
@@ -73,12 +76,32 @@ The steps to create a campaign are as follows:
 
     <!-- send time optimization will be available later on -->
 
-7. Click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
+Once your campaign is ready, you can review and publish it (see [Review and activate a campaign](#review-activate)).
 
-    Check that your campaign is correctly configured, then click **[!UICONTROL Activate]** to launch it.
+## Review and activate a campaign {#review-activate} 
+
+Once your campaign has been configured, you need to review its parameter and content before activating it. To do this, follow these steps:
+
+1. Click **[!UICONTROL Review to activate]** to display a summary of the campaign.
+
+    The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
+
+    >[!IMPORTANT]
+    >
+    >In case of errors, you will not be able to activate the campaign. Resolve the errors before proceeding.
+
+    ![](assets/create-campaign-alerts.png)
+
+    Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
 
     ![](assets/create-campaign-review.png)
 
-The campaign is live. The message configured in the campaign is executed, unless you specified a campaign start date.
+1. The campaign is activated. It now has the **[!UICONTROL Live]** status (or **[!UICONTROL Scheduled]**  if you specified a start date). Learn more on campaigns statuses in [this section](get-started-with-campaigns.md#statuses).
 
-![](assets/create-campaign-live.png)
+    ![](assets/create-campaign-live.png)
+
+1. Once a campaign has been activated, you can check at any time its information by opening it. The summary allows you to get statistics about number of targeted profiles and delivered and failed actions.
+
+You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. <!--For more on this, refer to this section (+LINK TO THE REPORTS SECTION).-->
+
+![](assets/create-campaign-summary.png)

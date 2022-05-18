@@ -8,16 +8,18 @@ level: Beginner
 ---
 # Create a content experiment {#content-experiment}
 
-The content experiment feature allows you to define multiple delivery treatment. Each treatment is sent to population samples in order to define which treatment has the biggest impact on the targeted population. You can choose to vary the email’s content, subject, or sender. 
+The content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
 
-In the example below, the delivery target has been splitted into two groups, each representing 45% of the targeted population, and a holdout group of 10%. 
+In the example below, the delivery target has been split into two groups, each representing 45% of the targeted population, and a holdout group of 10%, who will not receive the delivery.
 
-Each of the targeted group receives two versions of the delivery with a different subject line:
+Each person in the targeted audience will receive one version of the email, with a subject line that is one of the following two:
 
-* one directly promoting a 10% offer on the new collection.
-* the other one only advertising a special offer without specifying the 10% off. 
+* one directly promoting a 10% offer on the new collection and an image.
+* the other one only advertising a special offer without specifying the 10% off without any image. 
 
-The goal here is to see if recipients will open the email even if they don't know directly from the subject line that they can redeem a promo code.
+The goal here is to see if recipients will interact with the email depending on the received experiment. We therefore will choose **[!UICONTROL Email Opens]** as the primary goal metric in this Content Experiment.
+
+![](assets/content_experiment.png)
 
 ## Create your Campaign {#campaign-experiment}
 
@@ -90,8 +92,8 @@ Once your treatments are personalized, you can start configuring your content ex
 
 1. Select the objectives you want to set for your experiment:
 
-    * **[!UICONTROL Email click]**: this experiment will compare the number of times a content was clicked in a delivery.
-    * **[!UICONTROL Email open]**: this experiment will compare the number of times a message was opened in a delivery.
+    * **[!UICONTROL Email click]**: this experiment will compare the **[!UICONTROL Email click]** conversion rates, i.e. the number of unique profiles who click on content in the email, divided by the number of unique people who received each email.
+    * **[!UICONTROL Email open]**: this experiment will compare the **[!UICONTROL Email open]** conversion rates, i.e. the number of unique profiles who opened each email, divided by the number of unique people who received each email.
 
     For our experiment, we select **[!UICONTROL Email open]** to test if recipients will open their emails if the promo code is in the subject line.
 
@@ -103,13 +105,13 @@ Once your treatments are personalized, you can start configuring your content ex
 
     ![](assets/content_experiment_12.png)
 
-1. You can then choose to allocate precise percentage to each **[!UICONTROL Treatment]** or simply switch on the **[!UICONTROL Distribute evenly]** toggle bar.
+1. You can then choose to allocate a precise percentage to each **[!UICONTROL Treatment]** or simply switch on the **[!UICONTROL Distribute evenly]** toggle bar.
 
     ![](assets/content_experiment_13.png)
 
 1. Click **[!UICONTROL Save]** when your configuration is set.
 
-1. When your content experiment is ready to be sent, you can click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
+1. When your content experiment is ready, you can click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
 
     ![](assets/content_experiment_15.png)
 
