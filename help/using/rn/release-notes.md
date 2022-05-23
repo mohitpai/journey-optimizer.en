@@ -12,6 +12,42 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
 
+## May 2022 Release {#may-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>Email BCC</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
+<img scr="assets/bcc-rn.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Message frequency rules (GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.	</p>
+<img scr="assets/frequency-rn.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2022 Release {#april-2022-release}
 
 ### New capabilities 
