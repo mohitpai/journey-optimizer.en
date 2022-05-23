@@ -26,7 +26,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
-<img scr="assets/bcc-rn.gif"/>
+<img src="assets/bcc-rn.gif"/>
 </td>
 </tr>
 </tbody>
@@ -42,7 +42,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.	</p>
-<img scr="assets/frequency-rn.gif"/>
+<img src="assets/frequency-rn.gif"/>
 </td>
 </tr>
 </tbody>
