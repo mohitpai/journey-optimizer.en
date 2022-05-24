@@ -64,6 +64,22 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Audit logs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now track actions performed on Adobe Journey Optimizer objects in the Adobe Experience Platform "Audit" menu.</p>
+<img src="assets/audit-rn.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2022 Release {#april-2022-release}
 
 ### New capabilities 
