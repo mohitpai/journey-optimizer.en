@@ -48,6 +48,22 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Stock integration (GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Stock/Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate to, license and save imagery for use in message authoring.</p>
+<img src="assets/stock-rn.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2022 Release {#april-2022-release}
 
 ### New capabilities 
