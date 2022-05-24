@@ -69,9 +69,9 @@ To create a new rule, follow the steps below.
 
 1. Select several channels if you want to apply capping across all selected channels as a total count.
 
-   For example, set capping to 15 and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
+   For example, set capping to 15, and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
 
-1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added in the rule list, with the **[!UICONTROL Draft]** status.
+1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added to the rule list, with the **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
 
@@ -85,7 +85,7 @@ Activating a rule will impact any messages it applies to on their next execution
 
 >[!NOTE]
 >
->It may take up to 10 minutes for a rule to be fully activated. You do not need to modify or republish messages or journeys for a rule to take effect.
+>It can take up to 10 minutes for a rule to be fully activated. You do not need to modify or republish messages or journeys for a rule to take effect.
 
 To deactivate a message frequency rule, click the ellipsis next to the rule and select **[!UICONTROL Deactivate]**.
 
@@ -127,7 +127,7 @@ All the frequency rules matching the selected category and channel(s) will be au
 
 >[!NOTE]
 >
->Messages that do not have any selected category or messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
+>Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -177,4 +177,4 @@ In this scenario, an individual profile:
 
 >[!NOTE]
 >
->When testing frequency rules, it can be helpful to start with a newly created test profile. Keep in mind that once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
+>When testing frequency rules, it can be helpful to start with a newly created [test profile](../segment/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
