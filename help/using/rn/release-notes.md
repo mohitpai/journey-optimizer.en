@@ -58,7 +58,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Adobe Stock/Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate to, license and save imagery for use in message authoring.</p>
-<img src="assets/stock-rn.gif"/>
 </td>
 </tr>
 </tbody>
