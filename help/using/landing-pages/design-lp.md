@@ -53,7 +53,7 @@ Next time you create a landing page, you can use this template to build your con
 
 ### Use a saved template {#use-saved-template}
 
-1. Open the [landing page content designer](#design-lp-content). The list of all previously saved templates displays.
+1. Open the [landing page content designer](lp-content.md). The list of all previously saved templates displays.
 
 1. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
