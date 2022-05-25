@@ -61,6 +61,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<img src="assets/optimization.gif"/>
 <p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -118,10 +119,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page.
 * **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../personalization/functions/string.md)
 
-**Decision management**
+<!--**Decision management**
 
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.
+* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
 
 **Journeys**
 
-* **Read segment** - One-shot Read segment activities are now flagged as "Finished" 30 days after the journey execution.
+* **Read segment** - One-shot Read segment journeys now move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence. [Read more](../building-journeys/read-segment.md)
+
+* **Expression editor** - The [limit](../building-journeys/functions/functionlimit.md) function has been added to allow you to limit the number of items of a list. The [sort](../building-journeys/functions/functionsort.md) function now allows you to sort out a list object. The support of listObject has also been added to the [disctinct](../building-journeys/functions/functiondisctinct.md) and [distinctWithNull](../building-journeys/functions/functiondistinctWithNull.md) functions.
