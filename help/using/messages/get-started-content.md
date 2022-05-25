@@ -63,9 +63,13 @@ To create a new message, follow the steps below:
 
    * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+
    * Select the **[!UICONTROL Preset]** to use for the message.
         
-      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../configuration/message-presets.md).
+      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. Learn more on [presets](../configuration/message-presets.md).
 
    >[!CAUTION]
    >
