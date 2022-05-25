@@ -68,7 +68,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
@@ -83,7 +83,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -106,7 +106,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Personalization**
 
-* **New helper function for characters hiding** - The `mask` helper function allows you to replace a part of a string with "X" characters. [Learn more](../personalization/functions/string.md)
+* **New helper function for characters hiding** - The `mask` helper function allows you to replace a part of a string with "X" characters. [Learn more](../personalization/functions/string.md#mask)
 
 **Landing pages**
 
