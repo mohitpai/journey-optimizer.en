@@ -124,4 +124,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* **Read segment** - One-shot Read segment activities are now flagged as "Finished" 30 days after the journey execution.
+**Read segment** - One-shot Read segment activities are now flagged as "Finished" 30 days after the journey execution.
