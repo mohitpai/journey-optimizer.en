@@ -396,3 +396,5 @@ solution: Journey Optimizer
   + [Manage users and product profiles](using/administration/permissions.md)
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
+  + [Attribute-based access control](using/administration/attribute-based-access.md)
+
