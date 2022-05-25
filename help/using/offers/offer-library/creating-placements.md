@@ -30,7 +30,8 @@ To create a placement, follow these steps:
 
 1. Click **[!UICONTROL Create placement]**.
 
-    ![](../assets/offers_placement_creation.png)
+    ![](../assets/offers
+_placement_creation.png)
 
 1. Define the placement's properties:
 

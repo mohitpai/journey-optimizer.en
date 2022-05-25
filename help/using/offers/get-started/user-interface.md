@@ -35,7 +35,7 @@ Use the  **[!UICONTROL Components]** menu to manage the components required to c
 
 * **[!UICONTROL Rules]**: Manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 
