@@ -61,6 +61,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<img src="assets/optimization.gif"/>
 <p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
 </td>
 </tr>
