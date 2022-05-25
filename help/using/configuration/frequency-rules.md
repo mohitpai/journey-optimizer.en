@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 ---
 # Message frequency rules {#frequency-rules}
@@ -27,7 +25,7 @@ Rules are available from the **[!UICONTROL Administration]** > **[!UICONTROL Rul
 
 >[!NOTE]
 >
->To access, create, edit or delete message frequency rules, you must have the [Manage frequency rules](../administration/high-low-permissions.md#manage-frequency-rules) permission.
+>To access, create, edit or delete message frequency rules, you must have the [Manage frequency rules](../administration/high-low-permissions.md#manage-frequency-rules) permission. Users with the [View frequency rules](../administration/high-low-permissions.md#view-frequency-rules) permission will be able to view rules, but not to modify or delete them.
 
 ![](assets/message-rules-access.png)
 
@@ -71,15 +69,15 @@ To create a new rule, follow the steps below.
 
 1. Select several channels if you want to apply capping across all selected channels as a total count.
 
-   For example, set capping to 15 and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
+   For example, set capping to 15, and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
 
-1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added in the rule list, with the **[!UICONTROL Draft]** status.
+1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added to the rule list, with the **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
 
 ## Activate a rule {#activate-rule}
 
-When created, a message frequency rule has the **[!UICONTROL Draft]** status and is not impacting yet any message. To enable it, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
+When created, a message frequency rule has the **[!UICONTROL Draft]** status and is not yet impacting any message. To enable it, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
 
    ![](assets/message-rules-activate.png)
 
@@ -87,7 +85,7 @@ Activating a rule will impact any messages it applies to on their next execution
 
 >[!NOTE]
 >
->You do not need to modify or republish messages or journeys for a rule to take effect.
+>It can take up to 10 minutes for a rule to be fully activated. You do not need to modify or republish messages or journeys for a rule to take effect.
 
 To deactivate a message frequency rule, click the ellipsis next to the rule and select **[!UICONTROL Deactivate]**.
 
@@ -126,6 +124,10 @@ To apply a frequency rule to a message, follow the steps below.
 1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
 
 All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
+
+>[!NOTE]
+>
+>Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -172,3 +174,7 @@ You can combine several message frequency rules, such as described in the exampl
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.
+
+>[!NOTE]
+>
+>When testing frequency rules, it can be helpful to start with a newly created [test profile](../segment/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.

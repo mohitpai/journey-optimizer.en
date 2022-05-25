@@ -111,9 +111,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Landing pages**
 
 * **Landing pages without a form** - You can now create and publish a landing page which does not contain a form, and requires no action from visitors.
-* **Landing page templates** - You can now save a landing page as a template and reuse it when creating other landing pages.
-* **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page.
-* **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../personalization/functions/string.md)
+* **Landing page templates** - You can now save a landing page as a template and reuse it when creating other landing pages. [Learn more](../landing-pages/lp-templates.md)
+* **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page. 
+* **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../landing-pages/lp-custom-js.md)
 
 <!--**Decision management**
 

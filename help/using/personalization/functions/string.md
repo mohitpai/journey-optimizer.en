@@ -356,6 +356,26 @@ The following query determines, without case sensitivity, if the person's name s
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
+## Mask (#mask)
+
+The `Mask` function is used to replace a part of a string with "X" characters.
+
+**Format**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**Example**
+
+The following query replaces the "123456789" string with "X" characters, excepted for the first and the last 2 characters.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+The query returns `1XXXXXX89`.
+
 ## Not equal to{#notEqualTo}
 
 The `notEqualTo` function is used to determine if a string is not equal to the specified string.

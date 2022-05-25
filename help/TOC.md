@@ -48,7 +48,7 @@ solution: Journey Optimizer
   + Email settings {#design-email}
     + [Generate the text version](using/design/text-version-email.md)
     + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}  
+  + Add and manage assets {#manage-asset}
     + [Work with Assets Essentials](using/design/assets-essentials.md)
     + [Work with Adobe Stock](using/design/stock.md)
   + [Add personalized offers](using/design/deliver-personalized-offers.md)  
@@ -57,7 +57,11 @@ solution: Journey Optimizer
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
-  + [Design a landing page](using/landing-pages/design-lp.md)
+  + Design content {#landing-pages-design}
+    + [About landing page design](using/landing-pages/design-lp.md)
+    + [Create the landing page content](using/landing-pages/lp-content.md)
+    + [Create templates](using/landing-pages/lp-templates.md)
+    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
 + Personalization{#personalization}
@@ -243,6 +247,7 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Suppression list](using/reports/suppression-list.md)
     + [Allowed list](using/reports/allow-list.md)
+  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -253,10 +258,16 @@ solution: Journey Optimizer
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
-    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
-    + Create AI ranking models {#create-ai-ranking-models}
-      + [About AI models](using/offers/offer-library/ai-ranking.md)
-      + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
+  + Create rankings {#rankings}
+    + [Get started with rankings](using/offers/ranking/get-started-rankings.md)
+    + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
+    + AI models {#ai-models}
+      + [About AI models](using/offers/ranking/ai-models.md)
+      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+      + Create AI models {#configure-ai-model}
+        + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
+        + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
+        + [Configure events capture](using/offers/ranking/schema-requirement.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
@@ -389,3 +400,5 @@ solution: Journey Optimizer
   + [Manage users and product profiles](using/administration/permissions.md)
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
+  + [Attribute-based access control](using/administration/attribute-based-access.md)
+

@@ -63,9 +63,13 @@ To create a new message, follow the steps below:
 
    * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+
    * Select the **[!UICONTROL Preset]** to use for the message.
         
-      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../configuration/message-presets.md).
+      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. Learn more on [presets](../configuration/message-presets.md).
 
    >[!CAUTION]
    >
@@ -75,18 +79,22 @@ To create a new message, follow the steps below:
 
 1. Click **[!UICONTROL Create]** to confirm message creation. Your message is added in the message list, in the **[!UICONTROL Draft]** status.
 
-    One tab is available for each selected channel. Use these tabs to configure the content for each channel. You can remove a tab by selecting it and clicking the **[!UICONTROL Delete channel]** button on the right. 
+   One tab is available for each selected channel. Use these tabs to configure the content for each channel. You can remove a tab by selecting it and clicking the **[!UICONTROL Delete channel]** button on the right. 
 
-    ![](assets/create-messages-content.png)
+   ![](assets/create-messages-content.png)
 
-    You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
+   >[!NOTE]
+   >
+   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
 
-    * [Create an email](create-email.md)
-    * [Create a push notifications](create-push.md)
+   You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
 
-    >[!NOTE]
-    >   
-    >You can personalize your messages using profiles' data using the expression editor. For more on personalization, refer to [this section](../personalization/personalize.md).
+   * [Create an email](create-email.md)
+   * [Create a push notifications](create-push.md)
+
+   >[!NOTE]
+   >   
+   >You can personalize your messages using profiles' data using the expression editor. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 1. Control the rendering of your messages, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../design/preview.md).
 

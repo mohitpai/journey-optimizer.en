@@ -15,6 +15,10 @@ The [!DNL Journey Optimizer] suppression list is managed at your own environment
 
 It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an organization ID associated with a sandbox ID.
 
+>[!NOTE]
+>
+>Adobe keeps an updated list of known bad email addresses which have been proven to be detrimental to engagement and mailing reputation, and ensures emails are not delivered to them. This list is managed in a global suppression list which is common across all Adobe customers. The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery reports.
+
 ## Why a suppression list? {#why-suppression-list}
 
 To control the email messages that are received by their inbox owners and ensure they only receive those they want, Internet service providers (ISPs) and commercial spam filters have their proprietary algorithms to track the overall reputation of email senders based on the IP addresses and sending domain(s) they use.

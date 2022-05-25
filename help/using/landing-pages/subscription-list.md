@@ -35,7 +35,13 @@ To create a subscription list, follow the steps below.
 
     ![](assets/lp_create-subscription-list.png)
 
-1. Add a name and a description. These fields are mandatory.
+1. Add a title and a description. These fields are mandatory.
+
+    ![](assets/lp_subscription-list-name.png)
+
+    >[!CAUTION]
+    >
+    >Currently you cannot use spacing or enter a name that already exists for another subscription list in the **[!UICONTROL Title]** field.
 
 1. You can define a start date and end date.
 
