@@ -111,7 +111,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **New sort helper function** - The `sort` function now allows you to sort out a list object. 
 * **Improved distinct helper functions** - The support of `listObject` has been added to the `distinct` and `distinctWithNull` functions.
 
-
 **Landing pages**
 
 * **Landing pages without a form** - You can now create and publish a landing page which does not contain a form, and requires no action from visitors.
