@@ -2,7 +2,7 @@
 title: Release notes 2022
 description: Journey Optimizer 2022 Release notes
 ---
-# Release Notes {#release-notes}
+# Release Notes 2022 {#release-notes-2022}
 
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
