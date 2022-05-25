@@ -105,7 +105,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Personalization**
 
-* **New helper function for characters hiding** - The `mask` helper function allows you to replace a part of a string with "X" characters. [Learn more](../personalization/functions/string#mask)
+* **New helper function for characters hiding** - The `mask` helper function allows you to replace a part of a string with "X" characters. [Learn more](../personalization/functions/string.md#mask)
 * **New limit helper function** - The`limit` function has been added to allow you to limit the number of items of a list. 
 * **New sort helper function** - The `sort` function now allows you to sort out a list object. 
 * **Improved distinct helper functions** - The support of `listObject` has been added to the `distinct` and `distinctWithNull` functions.
