@@ -22,11 +22,6 @@ solution: Journey Optimizer
     + [Get Started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Limitations](using/start/limitations.md)
-+ Campaigns {#campaigns}
-  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
-  + [Create a campaign](using/campaigns/create-campaign.md)
-  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
-  + [Create a content experiment](using/campaigns/content-experiment.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
@@ -50,7 +45,7 @@ solution: Journey Optimizer
   + Email settings {#design-email}
     + [Generate the text version](using/design/text-version-email.md)
     + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}
+  + Add and manage assets {#manage-asset}  
     + [Work with Assets Essentials](using/design/assets-essentials.md)
     + [Work with Adobe Stock](using/design/stock.md)
   + [Add personalized offers](using/design/deliver-personalized-offers.md)  
@@ -254,18 +249,10 @@ solution: Journey Optimizer
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
-  + Create rankings {#rankings}
-    + [Get started with rankings](using/offers/ranking/get-started-rankings.md)
-    + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
-    + AI models {#ai-models}
-      + [About AI models](using/offers/ranking/ai-models.md)
-      + AI model types {#ai-model-types}
-        + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
-        + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
-      + Create AI models {#configure-ai-model}
-        + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
-        + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
-        + [Configure events capture](using/offers/ranking/schema-requirement.md)
+    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+    + Create AI ranking models {#create-ai-ranking-models}
+      + [About AI models](using/offers/offer-library/ai-ranking.md)
+      + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
