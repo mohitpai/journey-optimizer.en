@@ -10,7 +10,6 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## June 2022 {#june-2022}
 
 * New query examples related to [segment qualification](../reports/query-examples.md#segment-qualification-queries) and [events](../reports/query-examples.md#event-based-queries) have been added to this 
-* The list of tracking datasets has been added as well as reporting query examples. [Read more](../reports/query-examples.md#tracking-datasets)
 
 ## May 2022 {#may-2022}
 
