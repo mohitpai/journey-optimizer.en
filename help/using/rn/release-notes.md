@@ -124,4 +124,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-**Read segment** - One-shot Read segment activities are now flagged as "Finished" 30 days after the journey execution.
+* **Read segment** - One-shot Read segment journeys now move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence. [Read more](../building-journeys/read-segment.md)
+
+* **Expression editor** - The [limit](../building-journeys/functions/functionlimit.md) function has been added to allow you to limit the number of items of a list. The [sort](../building-journeys/functions/functionsort.md) function now allows you to sort out a list object. The support of listObject has also been added to the [disctinct](../building-journeys/functions/functiondisctinct.md) and [distinctWithNull](../building-journeys/functions/functiondistinctWithNull.md) functions.
