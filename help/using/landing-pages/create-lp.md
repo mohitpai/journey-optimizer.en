@@ -127,6 +127,10 @@ To define the subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
+    >[!NOTE]
+    >
+    >You can insert a link to the primary page from any subpage of the same landing page. For example, to redirect users who made a mistake and want to subscribe again, you can add a link from the confirmation subpage to the subscription primary page. Learn how to insert links in [this section](../design/message-tracking.md#insert-links).
+
 1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-subdomains.md)
 
     >[!CAUTION]
