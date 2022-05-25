@@ -59,7 +59,9 @@ solution: Journey Optimizer
   + [Create a landing page](using/landing-pages/create-lp.md)
   + [Design a landing page](using/landing-pages/design-lp.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
+  + [Create templates](using/landing-pages/lp-templates.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
+  + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
