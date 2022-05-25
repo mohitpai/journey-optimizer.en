@@ -10,6 +10,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## May 2022 {#may-2022}
 
+* All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
 * Links to key resources have been updated in Journey Optimizer documentation home page.
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
@@ -17,6 +18,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Links to how-to videos have been updated.
 * The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/message-presets.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
 * The **URL tracking** section has been updated and improved with examples. [Read more](../configuration/email-settings.md#url-tracking)
+
 
 ## April 2022 {#april-2022}
 
