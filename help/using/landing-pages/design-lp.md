@@ -21,54 +21,8 @@ From there, you can:
 
 * **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../design/existing-content.md).
 
-* **Use a saved landing page template** created in [!DNL Journey Optimizer]. [Learn more](#work-with-templates)
+* **Use a saved landing page template** created in [!DNL Journey Optimizer]. [Learn more](lp-templates.md)
 
 >[!NOTE]
 >
 >The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../design/design-emails.md).
-
-## Work with templates {#work-with-templates}
-
-<!--temp-->
-
-### Save a page as template {#save-as-template}
-
-Once you designed your landing page content, you can save it for future reuse. To do this, follow the steps below.
-
-1. Click the ellipsis on top right of the screen.
-
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
-
-    ![](assets/lp_designer-save-template.png)
-
-1. Add a name for this template.
-
-    ![](assets/lp_designer-template-name.png)
-
-1. Click **[!UICONTROL Save]**.
-
-Next time you create a landing page, you can use this template to build your content. Learn how in the [section](#use-saved-template) below.
-
-![](assets/lp_designer-saved-template.png)
-
-### Use a saved template {#use-saved-template}
-
-1. Open the [landing page content designer](lp-content.md). The list of all previously saved templates displays.
-
-1. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
-
-    ![](assets/lp_designer-saved-templates.png)
-
-1. Select the template of your choice from the list.
-
-1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
-
-    ![](assets/lp_designer-saved-templates-navigate.png)
-
-1. Click **[!UICONTROL Use this landing page]**.
-
-1. Edit your content as desired using the landing page designer.
-
->[!NOTE]
->
->Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa.

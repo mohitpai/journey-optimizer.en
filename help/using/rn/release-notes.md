@@ -26,7 +26,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
 <img src="assets/frequency-rn.gif"/>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -44,7 +44,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/bcc-rn.gif"/>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -62,7 +62,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
 <img src="assets/optimization.gif"/>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now monitor actions performed by users on Adobe Journey Optimizer resources.</p>
 <img src="assets/audit-rn.gif"/>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/audit-logs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
