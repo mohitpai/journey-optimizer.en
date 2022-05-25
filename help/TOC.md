@@ -10,16 +10,19 @@ solution: Journey Optimizer
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
-  + [Release notes](using/rn/release-notes.md)
-  + [Latest updates](using/rn/documentation-updates.md)
+  + [Latest release notes](using/rn/release-notes.md)
+  + Previous release notes {#previous-rn-new}
+    + [2022 Release notes](using/rn/release-notes-2022.md)
+    + [2021 Release notes](using/rn/release-notes-2021.md)
+  + [Documentation updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
     + [Overview](using/start/quick-start.md)
-    + [Get Started as a Marketer](using/start/path/marketer.md)
-    + [Get Started as a Data engineer](using/start/path/data-engineer.md)
-    + [Get Started as an Administrator](using/start/path/administrator.md)
-    + [Get Started as a Developer](using/start/path/developer.md)
+    + [Get started as a Marketer](using/start/path/marketer.md)
+    + [Get started as a Data engineer](using/start/path/data-engineer.md)
+    + [Get started as an Administrator](using/start/path/administrator.md)
+    + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Limitations](using/start/limitations.md)
 + Messages {#messages}
