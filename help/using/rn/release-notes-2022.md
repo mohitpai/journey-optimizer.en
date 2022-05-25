@@ -1,6 +1,6 @@
 ---
-title: Release notes
-description: Journey Optimizer Release notes
+title: Release notes 2022
+description: Journey Optimizer 2022 Release notes
 ---
 # Release Notes {#release-notes}
 
