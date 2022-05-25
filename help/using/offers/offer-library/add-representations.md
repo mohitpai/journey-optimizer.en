@@ -12,7 +12,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representations"
->abstract="Add representations to define where your offer will display in the message. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts".
+>abstract="Add representations to define where your offer will display in the message. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts."
 
 An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an HTML block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 

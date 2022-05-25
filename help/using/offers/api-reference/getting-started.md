@@ -28,7 +28,7 @@ This guide provides example API calls to demonstrate how to format your requests
 
 ## Gather values for required headers {#gather-values-for-required-headers}
 
-In order to make calls to [!DNL Platform] APIs, you must first complete the [authentication tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. Completing the authentication tutorial provides the values for each of the required headers in all [!DNL Experience Platform] API calls, as shown below:
+In order to make calls to [!DNL Adobe Experience Platform] APIs, you must first complete the [authentication tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. Completing the authentication tutorial provides the values for each of the required headers in all [!DNL Experience Platform] API calls, as shown below:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -121,6 +121,10 @@ A successful response returns information regarding decision management containe
 ## Next steps {#next-steps}
 
 This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API, including acquiring your container ID. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
+
+>[!NOTE]
+>
+> The In-app messaging channel in Adobe Journey Optimizer uses offer decisioning objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for offer decisioning use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
 
 ## How-to video {#video}
 

@@ -59,7 +59,7 @@ Here are a few things and administrator should check:
 * Did you use the right key-value pairs in the header of your event?
 
     ```
-    X-gw-ims-org-id - your ORGID
+    X-gw-ims-org-id - your organization's ID
     Content-type - application/json
     ```
 

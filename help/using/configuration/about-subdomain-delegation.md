@@ -44,6 +44,12 @@ Subdomain configuration allows you to configure a subsection of your domain (tec
 
 * **Use of CNAMEs**: Create a subdomain and use CNAMEs to point to Adobe-specific records. Using this setup, both you and Adobe share responsibility for maintaining DNS. [Learn more on CNAME subdomain delegation](delegate-subdomain.md#cname-subdomain-delegation)
 
+>[!CAUTION]
+>
+>* The full subdomain delegation is the preferred method.
+>
+>* The CNAME method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
+
 The table below provides a summary of how these methods work, as well as the implied level of effort:
 
 | Configuration method | How it works | Level of effort |

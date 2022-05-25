@@ -14,24 +14,16 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 >title="Update Profile activity"
 >abstract="The Update Profile action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value."
 
-The **[!UICONTROL Update Profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.
+Use the **[!UICONTROL Update Profile]** action activity to update an existing Adobe Experience Platform profile with information coming from an event, a datasource or with a specific value.
 
-## Important notes
+## Recommendations
 
 * The **Update Profile** action can only be used in journeys starting with an event that has a namespace.
 * The action only updates existing fields, it does not create new profile fields.
 * You cannot use the **Update Profile** action to generate experience events, for example a purchase.
-* Just like any other action, you can define an alternative path in case of error or timeout and you cannot place two actions in parallel.
-* The update request sent to Platform will be fast but not immediate/within a second. It will take normally a few seconds but sometimes more with no guarantee. As a result, for example, if an action is using "field 1" updated by an Update Profile action positioned right before, you should not expect that "field 1" will be updated in the action.
+* Just like any other action, you can define an alternative path in case of error or timeout, and you cannot place two actions in parallel.
+* The update request sent to Adobe Experience Platform is immediate/within a second. It will take normally a few seconds but sometimes more with no guarantee. As a result, for example, if an action is using "field 1" updated by an **Update Profile** action positioned right before, you should not expect that "field 1" will be updated in the action.
 * The **Update profile** activity does not support XDM fields that are defined as an enumeration.
-
-## Using the test mode {#using-the-test-mode}
-
-In test mode, the profile update will not be simulated. The update will be performed on the test profile. 
-
-Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes via a csv file import or API calls. A simpler method is to use an **Update Profile** action activity and change the test profile boolean field from false to true.
-
-For more information on the how to turn an existing profile into a test profile, refer to this [section](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Using the profile update
 
@@ -66,3 +58,12 @@ For more information on the how to turn an existing profile into a test profile,
 The **Update Profile** is now configured.
 
 ![](assets/profileupdate1.png)
+
+
+## Using the test mode {#using-the-test-mode}
+
+In test mode, the profile update will not be simulated. The update will be performed on the test profile. 
+
+Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes via a csv file import or API calls. A simpler method is to use an **Update Profile** action activity and change the test profile boolean field from false to true.
+
+For more information on the how to turn an existing profile into a test profile, refer to this [section](../segment/creating-test-profiles.md#create-test-profiles-csv).

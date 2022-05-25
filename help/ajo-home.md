@@ -112,6 +112,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/messages/get-started-content.md">Messages</a>
     </li>
+    <li>
+      <a href="using/landing-pages/get-started-lp.md">Landing pages</a>
+    </li>
     <p>
     <p>DECISION MANAGEMENT</p>
     <li>
@@ -149,11 +152,23 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
-     <li>
+    </li>
+    <li>
+      <a href="using/landing-pages/subscription-list.md">Subscription lists</a>
+    </li>     
+    <li>
       <a href="using/segment/get-started-profiles.md">Profiles</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">Identity</a>
+    </li>
+    <p>
+    <p>PRIVACY</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">Policies</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Requests</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
@@ -169,7 +184,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
   </td>
 </tr>
 </table>
-
 
 
 ![Newsletter](using/assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!

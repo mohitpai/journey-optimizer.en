@@ -5,12 +5,14 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 ---
 # Integrate with Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities.
 
-If you have Adobe Campaign Standard, an out-of-the-box action is available to allow the connection to Adobe Campaign Standard. 
+
+If you have Adobe Campaign Standard, a built-in action is available to allow the connection to Adobe Campaign Standard. 
 
 The Campaign Standard transactional message and its associated event must be published in order to be used in Journey Optimizer. If the event is published but the message is not, it will not be visible in the Journey Optimizer interface. If the message is published but its associated event is not, it will be visible in the Journey Optimizer interface but it will not be usable.
 
@@ -18,9 +20,10 @@ The Campaign Standard transactional message and its associated event must be pub
 
 * A capping rule of 4000 calls per 5 minutes is automatically defined for Adobe Campaign Standard actions. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging. Read more about transactional messaging SLAs in [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
-* Adobe Campaign Standard integration is set up through a dedicated out-of-the-box action in the action list. This needs to be configured for each sandbox.
 
-* You cannot use a Campaign Standard action with a Segment qualification or Read segment event.
+* Adobe Campaign Standard integration is set up through a dedicated built-in action in the action list. This needs to be configured for each sandbox.
+
+* You cannot use a Campaign Standard action with a Segment qualification or Read segment activity.
 
 * A journey cannot use both Messages and Campaign Standard actions.
 

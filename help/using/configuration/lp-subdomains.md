@@ -1,13 +1,11 @@
 ---
-title: Landing page configuration
-description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
+title: Configure landing page subdomains
+description: Learn how to configure landing page subdomains with Journey Optimizer
 role: Admin
 level: Intermediate
-exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 ---
-# Configure landing pages {#lp-configuration}
-
-## Configure landing page subdomains {#lp-subdomains}
+# Configure landing page subdomains {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
@@ -21,11 +19,11 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 >abstract="You must configure a subdomain to use for your landing pages, as you will need this subdomain to create a landing page preset. You can use a subdomain already delegated to Adobe or configure a new subdomain."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Create landing page presets"
 
-To be able to [create landing page presets](#lp-create-preset), you  must set up the subdomains you will use for your landing pages.
+To be able to [create landing page presets](lp-presets.md), you  must set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
 
-### Use an existing subdomain {#lp-use-existing-subdomain}
+## Use an existing subdomain {#lp-use-existing-subdomain}
 
 To use a subdomain that is already delegated to Adobe, follow the steps below.
 
@@ -71,7 +69,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
-### Configure a new subdomain {#lp-configure-new-subdomain}
+## Configure a new subdomain {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
@@ -117,76 +115,3 @@ To configure a new subdomain, follow the steps below.
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 
     Note that the subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
-
-## Define landing page presets {#lp-define-preset}
-
-When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you must select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**.
-
-### Access landing page presets {#lp-presets}
-
-To access landing page presets, follow the steps below.
-
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
-
-1. Select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
-
-    ![](assets/lp_presets-access.png)
-
-1. Click any preset label to access the landing page preset details.
-
-    ![](assets/lp_preset-details.png)
-
-### Create a landing page preset {#lp-create-preset}
-
-To create a landing page preset, follow the steps below.
-
->[!NOTE]
->
->To be able to create a preset, make sure you have previously configured at least one landing page subdomain. [Learn how](#lp-subdomains)
-
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
-
-1. Select **[!UICONTROL Create landing page preset]**.
-
-    ![](assets/lp_create-preset-temp.png)
-
-1. Enter a name and a description for the preset.
-
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
-
-1. Select a landing page subdomain from the drop-down list.
-
-    ![](assets/lp_preset-subdomain.png)
-
-    >[!NOTE]
-    >
-    >To be able to select a subdomain, make sure you have previously configured at least one landing page subdomain. [Learn how](#lp-subdomains)
-
-    The settings corresponding to the selected subdomain display.
-
-1. If you want to select the landing page subdomain as the tracking URL, check the **[!UICONTROL Same as landing page subdomain]** option. [Learn more on tracking](../design/message-tracking.md)
-
-    ![](assets/lp_preset-subdomain-settings-same.png)
-
-    For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
-
-1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
-
-   ![](assets/lp_preset-subdomain-settings-submit.png)
-
-1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
-
-    ![](assets/lp-preset-active-temp.png)
-
-You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
->[!NOTE]
->
->Learn how to create message presets for push notifications and emails in [this section](message-presets.md).
-
-**Related topics**:
-
-* [Get started with landing pages](../landing-pages/get-started-lp.md)
-* [Create a landing page](../landing-pages/create-lp.md#create-a-lp)

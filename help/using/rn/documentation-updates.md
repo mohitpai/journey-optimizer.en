@@ -7,9 +7,26 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+
+## May 2022 {#may-2022}
+
+* The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
+* Links to key resources have been updated in Journey Optimizer documentation home page.
+* Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
+* A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)
+* Links to how-to videos have been updated.
+* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/message-presets.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
+* The **URL tracking** section has been updated and improved with examples. [Read more](../configuration/email-settings.md#url-tracking)
+
 ## April 2022 {#april-2022}
 
+* All new features and improvements coming with [!DNL Journey Optimizer] April '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
+* Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
+* The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../start/get-started-datasets.md)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/message-presets.md#subdomains-and-ip-pools)
+* The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/message-presets.md#url-tracking)
 
 ## March 2022 {#march-2022}
 

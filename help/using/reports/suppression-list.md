@@ -13,7 +13,7 @@ A suppression list consists of email addresses that you want to exclude from you
 
 The [!DNL Journey Optimizer] suppression list is managed at your own environment level.
 
-It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an IMS organization ID associated with a sandbox ID.
+It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an organization ID associated with a sandbox ID.
 
 ## Why a suppression list? {#why-suppression-list}
 

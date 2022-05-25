@@ -7,11 +7,11 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 ---
-# Deliver offers using the Decisions API {#deliver-offers-using-decisions-api}
+# Deliver offers using the Decisioning API {#decisioning-api}
 
 With Decision Management, you can create and deliver end-user personalized offer experiences, across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
 
-You can create and deliver offers by making a POST request to the [!DNL Decisions] API.
+You can create and deliver offers by making a POST request to the [!DNL Decisioning] API.
 
 This tutorial requires a working understanding of APIs, specifically with regards to Decision Management. For more information, see the [Decision Management API developer guide](../getting-started.md). This tutorial also requires that you have a unique placement ID and decision ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating a decision](../activities-api/activities/create.md).
 

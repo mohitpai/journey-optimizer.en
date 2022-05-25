@@ -14,6 +14,10 @@ In the Email Designer interface, when you select an element and display its sett
 1. Select an element in your content.
 1. On the side panel, look for the **[!UICONTROL Styles Inline]** settings.
 
+   ![](assets/styles_1.png)
+
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
+
+   ![](assets/styles_2.png)
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.

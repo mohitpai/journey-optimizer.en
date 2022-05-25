@@ -11,7 +11,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
-
 ## May 2022 Release {#may-2022-release}
 
 ### New capabilities 
@@ -99,35 +98,33 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
 ### Improvements
 
 **Landing pages** 
 
-* **New option for opt-in/opt-out checkboxes** - You can now insert a single checkbox for opt-in/opt-out in subscription landing pages. Users need to check the box to consent (opt-in), and uncheck it to remove their consent (opt-out).
+* **New option for opt-in/opt-out checkboxes** - You can now insert a single checkbox for opt-in/opt-out in subscription landing pages. Users need to check the box to consent (opt-in), and uncheck it to remove their consent (opt-out). [Learn more](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Pre-fill landing pages fields** - It is now possible to give users the ability to pre-fill the landing page fields with profile information.
+* **Pre-fill landing pages fields** - It is now possible to give users the ability to pre-fill the landing page fields with profile information. [Learn more](../landing-pages/create-lp.md#configure-primary-page)
 
 **Decision Management**
 
-* **Personalized Offer Ranking** (beta) - A new type of AI model is available in Journey Optimizer: the Personalized Optimization model, which allows you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. This model is currently available in early access to select users only.
-
-* **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in Offer Decisioning. You can create your offers and other related objects using the Offer Decisioning user interface (UI) or APIs.
+* **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in Offer Decisioning. You can create your offers and other related objects using the Offer Decisioning user interface (UI) or APIs. [Learn more](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
-* **PTR submit duration** - The duration for PTR edit to be effective is now a few hours.
+* **PTR submit duration** - The duration for PTR edit to be effective is now a few hours. [Learn more](../configuration/ptr-records.md#processing)
+
+**Email Design**
+
+* **20 new email templates** are now available to design your email content in Journey Optimizer.
 
 **User interface**
 
 * **Contextual help in Journey Optimizer UI** - Contextual help links have been added to multiple pages in Journey Optimizer. When available, click the "i" icon to view a quick description of the current functionality and access related articles.	
 
+**Integration with Adobe Campaign Standard**
 
-### Fixes
-
-* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
-* Fixed an error on business events which could block the journey publication. CJM-25931
-* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+As an Adobe Campaign Standard customer, you can now send emails, push notifications and SMS using Journey Optimizer. Use the new built-in actions to leverage Campaign Standard Transactional Messaging capabilities into Journey Optimizer.  [Learn more](../action/acs-action.md)
 
 ## March 2022 Release {#march-2022-release}
 
@@ -141,7 +138,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Decision Management**
 
 * You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/add-constraints.md#capping)
-* The Batch Decisioning API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* The Batch Decisioning API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 

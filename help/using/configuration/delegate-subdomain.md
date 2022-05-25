@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Subdomain delegation"
->abstract="Journey Optimizer allows you to delegate your subdomains to Adobe. You can fully delegate a subdomain to Adobe, or create a subdomain using CNAMEs to point to Adobe-specific records."
+>abstract="Journey Optimizer allows you to delegate your subdomains to Adobe. You can fully delegate a subdomain to Adobe, which is the recommended method. You can also create a subdomain using CNAMEs to point to Adobe-specific records, but this approach requires you to maintain and manage DNS records on your own."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Subdomain configuration methods"
 
 Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the “example.com” zone, you can delegate the sub-zone “marketing.example.com” to Adobe. Learn more on [subdomain delegation](about-subdomain-delegation.md)
@@ -21,7 +21,11 @@ Domain name delegation is a method that allows the owner of a domain name (techn
 >
 >By default, [!DNL Journey Optimizer] license contract allows you to delegate up to 10 subdomains. Reach out to your Adobe contact if you want to increase this limitation.
 
-You can fully delegate a subdomain, or create a subdomain using CNAMEs to point to Adobe-specific records. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
+You can fully delegate a subdomain, or create a subdomain using CNAMEs to point to Adobe-specific records.
+
+>[!CAUTION]
+>
+>The full subdomain delegation is the recommended method. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Full subdomain delegation {#full-subdomain-delegation}
 
@@ -101,7 +105,7 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 
 >[!CAUTION]
 >
->This method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
+>The CNAME method is recommended if your organization's policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
 ➡️ [Learn how to create a subdomain using CNAME to point to Adobe-specific records in this video](#video)
 
@@ -181,7 +185,7 @@ The checks and actions below will be performed until the subdomain is verified a
 
 1. **Create tracking and mirror URLs**: if the domain is email.example.com, the tracking/mirror domain will be data.email.example.com. It is secured by installing the SSL certificate.
 
-1. **Provision CDN CloudFront**: if CDN is not setup already, Adobe provisions it for the imsorg.
+1. **Provision CDN CloudFront**: if CDN is not setup already, Adobe provisions it for the your organization's ID.
 
 1. **Create CDN domain**: if the domain is email.example.com, the CDN domain will be cdn.email.example.com.
     

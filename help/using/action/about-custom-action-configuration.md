@@ -78,6 +78,11 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
+
+    >[!NOTE]
+    >
+    > The **DELETE** method is not supported. If you need to update an existing resource, select the **PUT** method.
+
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
    1. To add a header field, click **[!UICONTROL Add a header field]**.
    1. Enter the key of the header field.
@@ -99,7 +104,7 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
     >[!NOTE]
     >
-    >Headers are validated according to field parsing rules. [Learn more](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >Headers are validated according to field parsing rules. Learn more in [this documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Define the action parameters {#define-the-message-parameters}
 

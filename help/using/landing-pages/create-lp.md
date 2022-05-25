@@ -47,7 +47,7 @@ The steps to create a landing page are as follows.
 
     ![](assets/lp_create-lp-details.png)
 
-1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-configuration.md#lp-create-preset).
+1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-presets.md#lp-create-preset).
 
     ![](assets/lp_create-lp-presets.png)
 
@@ -75,7 +75,7 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../configuration/lp-presets.md#lp-create-preset) you selected. [Learn more](../configuration/lp-subdomains.md)
 
     >[!CAUTION]
     >
@@ -86,6 +86,16 @@ To define the primary page settings, follow the steps below.
     >[!NOTE]
     >
     >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
+1. If you want the landing page to preload the form data that is already available, select the **[!UICONTROL Pre-fill form fields with profile information]**.
+
+    ![](assets/lp_prefill-form-fields.png)
+
+    When this option is enabled, if a profile has already opted in/out or was already added to a subscription list, their choices will be reflected upon displaying the landing page.
+
+    For example, if a profile has opted in to receive communications about future events, the corresponding checkbox will be already selected the next time the landing page is displayed to that profile.
+
+    ![](assets/lp_prefill-form-ex.png)
 
 1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
 
@@ -117,7 +127,7 @@ To define the subpage settings, follow the steps below.
 
 1. Edit the content of your page using the content designer. Learn how to define landing page content [here](design-lp.md).
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-configuration.md#lp-subdomains)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-subdomains.md)
 
     >[!CAUTION]
     >

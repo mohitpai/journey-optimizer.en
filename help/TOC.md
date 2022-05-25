@@ -52,6 +52,7 @@ solution: Journey Optimizer
     + [Add a preheader](using/design/preheader.md)
   + Add and manage assets {#manage-asset}
     + [Work with Assets Essentials](using/design/assets-essentials.md)
+    + [Work with Adobe Stock](using/design/stock.md)
   + [Add personalized offers](using/design/deliver-personalized-offers.md)  
   + [Add links and track messages](using/design/message-tracking.md)
   + [Preview and proofs](using/design/preview.md)
@@ -332,10 +333,11 @@ solution: Journey Optimizer
         + [Create a decision](using/offers/api-reference/activities-api/activities/create.md)
         + [Update a decision](using/offers/api-reference/activities-api/activities/update.md)
         + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
-    + Offer delivery using APIs {#offer-delivery}
-        + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
-        + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-        + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
+    + Offer delivery using APIs {#offer-delivery-api}
+        + [About Decisioning and Edge Decisioning APIs](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+        + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+        + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+        + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
   + [Schemas](using/start/get-started-schemas.md)
   + [Datasets](using/start/get-started-datasets.md)
@@ -343,25 +345,30 @@ solution: Journey Optimizer
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}
-    + Push notification configuration{#push-config}
+    + Configure push notifications{#push-config}
       + [Get started with push configuration](using/configuration/push-gs.md)
       + [Configure push notification channel](using/configuration/push-configuration.md)
-    + Email configuration {#email-configuration}
+    + Configure emails {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
         + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
         + [Access delegated subdomains](using/configuration/access-subdomains.md)
+      + Manage subdomain-related actions {#subdomain-related-actions}
         + [Add a Google TXT record](using/configuration/google-txt.md)
         + [Access and edit PTR records](using/configuration/ptr-records.md)
-      + [Create IP pools](using/configuration/ip-pools.md)
+        + [Create IP pools](using/configuration/ip-pools.md)
       + Monitor email addresses {#monitor-reputation}  
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
-      + [Change email primary address](using/configuration/primary-email-addresses.md)
-    + [Configure SMS channel](using/configuration/sms-configuration.md) 
-    + [Create message presets](using/configuration/message-presets.md)
+    + [Configure SMS channel](using/configuration/sms-configuration.md)
+    + Set up message presets {#set-up-message-presets}
+      + [Create message presets](using/configuration/message-presets.md)
+      + [Configure email settings](using/configuration/email-settings.md)
+    + [Manage execution addresses](using/configuration/primary-email-addresses.md)
     + [Configure frequency rules](using/configuration/frequency-rules.md)
-  + [Configure landing pages](using/configuration/lp-configuration.md)
+  + Configure landing pages {#lp-configuration}
+    + [Configure landing page subdomains](using/configuration/lp-subdomains.md)
+    + [Define landing page presets](using/configuration/lp-presets.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)
@@ -372,7 +379,7 @@ solution: Journey Optimizer
         + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
         + [Leverage Adobe Analytics](using/event/about-analytics.md)
       + [Configure a business event](using/event/about-creating-business.md)
-      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey.md)
     + Data source configuration{#data-source-journeys}
       + [About data sources](using/datasource/about-data-sources.md)
       + [Configure a data source](using/datasource/configure-data-sources.md)

@@ -1,5 +1,5 @@
 ---
-title: Create message presets
+title: Set up message presets
 description: Learn how to configure and monitor message presets
 feature: Application Settings
 topic: Administration
@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
-# Create message presets {#message-presets-creation}
+# Set up message presets {#message-presets-creation}
 
 With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more. 
 
@@ -86,161 +86,7 @@ Email settings are defined in a dedicated section of the message preset configur
 
 ![](assets/preset-email.png)
 
-Configure your settings as described below.
-
-### Type of email {#email-type}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_emailtype"
->title="Define the email category"
->abstract="Select the type of messages that will be sent when using this preset: Marketing for promotional messages, which require user consent, or Transactional for non-commercial messages, that can also be sent to unsubscribed profiles in specific contexts."
-
-In the **EMAIL TYPE** section, select the type of message that will be sent with the preset: **Marketing** or **Transactional**.
-
-* Choose **Marketing** for promotional messages: these messages require user consent.
-
-* Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
-
->[!CAUTION]
->
->**Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
-
-When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid message preset matching the category you selected for your message.
-
-### Subdomain & IP pool {#subdomains-and-ip-pools}
-
-In the **SUBDOMAIN & IP POOL DETAILS** section, you must:
-
-1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
-
-1. Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
-
-![](assets/preset-subdomain-ip-pool.png)
-
-You cannot proceed with preset creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. Otherwise, the oldest version of the IP pool/subdomain association will still be used. If this is the case, save the preset as draft and retry once the IP pool has the **[!UICONTROL Success]** status.
-
->[!NOTE]
->
->For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
-
-### List-Unsubscribe {#list-unsubscribe}
-
-Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
-
-![](assets/preset-list-unsubscribe.png)
-
-This option is enabled by default.
-
-If you leave it enabled, an unsubscribe link will automatically be included into the email header, such as:
-
-![](assets/preset-list-unsubscribe-header.png)
-
-If you disable this option, no unsubscribe link will display in the email header.
-
-The unsubscribe link consists in two elements:
-
-* An **unsubscribe email address**, which all unsubscribe requests are sent to.
-
-    In [!DNL Journey Optimizer], the unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the message preset, based on the [selected subdomain](#subdomains-and-ip-pools).
-
-    ![](assets/preset-list-unsubscribe-mailto.png)
-
-* The **unsubscribe URL**, which is the URL of the landing page where the user will be redirected once unsubscribed.
-
-    If you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this preset, the unsubscribe URL will be the URL defined for the one-click opt-out link.
-
-    ![](assets/preset-list-unsubscribe-opt-out-url.png)
-
-    >[!NOTE]
-    >
-    >If you do not add a one-click opt-out link into your message content, no landing page will be displayed to the user.
-
-Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
-
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Header parameters{#email-header}
-
-In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and email addresses associated to the type of messages sent using that preset.
-
->[!CAUTION]
->
->The email addresses must use the current selected [delegated subdomain](about-subdomain-delegation.md).
-
-* **[!UICONTROL Sender name]**: The name of the sender, such as your brand's name.
-
-* **[!UICONTROL Sender email]**: The email address you want to use for your communications. For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com*.
-
-* **[!UICONTROL Reply to (name)]**: The name that will be used when the recipient clicks the **Reply** button in their email client software.
-
-* **[!UICONTROL Reply to (email)]**: The email address that will be used when the recipient clicks the **Reply** button in their email client software. You must use an address defined on the delegated subdomain (for example, *reply@marketing.luma.com*), otherwise the emails will be dropped.
-
-* **[!UICONTROL Error email]**: All errors generated by ISPs after a few days of mail being delivered (asynchronous bounces) are received on this address.
-
-![](assets/preset-header.png)
-
->[!NOTE]
->
->Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
-
-### BCC email {#bcc-email}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_bcc"
->title="Define a BCC email address"
->abstract="You can store emails sent by Journey Optimizer by sending them to a BCC address. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. This capacity is optional."
-
-You can store emails sent by [!DNL Journey Optimizer] using a BCC (blind carbon copy) email address.
-
-This optional capacity allows you to send an exact copy of the sent messages to a dedicated email address - which will be invisible to the delivery recipients. For example, you may want to use it if your organization needs to archive all outbound email messages for compliance.
-
-To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field.
-
->[!NOTE]
->
->You can only define one BCC email address. Make sure the BCC address has enough reception capacity to archive all the emails that are sent using this preset.
-
-![](assets/preset-bcc.png)
-
-All email messages using this preset will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
-
->[!CAUTION]
->
->Note that your BCC feature usage will be counted against the maximum number of messages allowed per profile. Check you licence contract.
-
-**Recommendations and limitations:**
-
-* Make sure the BCC email address is set correctly. If this is not case, your clients' personally identifiable information (PII) may be sent to an unwanted address.
-
-* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
-
-* This feature may deliver to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have [bounced](../reports/suppression-list.md#delivery-failures).
-
-    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). <!--to check-->
-
-### Email retry parameters {#email-retry}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_retryperiod"
->title="Adjust the retry time period"
->abstract="Retries are performed for 3.5 days (84 hours) when an email message fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="About retries"
-
-You can configure the **Email retry parameters**.
-
-![](assets/preset-retry-parameters.png)
-
-By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
-
-You must enter an integer value (in hours or minutes) within the following range:
-
-* For marketing emails, the minimum retry period is 6 hours.
-* For transactional emails, the minimum retry period is 10 minutes.
-* For both email types, the maximum retry period is 84 hours (or 5040 minutes).
-
-Learn more on retries in [this section](retries.md).
+Configure your settings as described in [this section](email-settings.md).
 
 ### URL tracking {#url-tracking}
 

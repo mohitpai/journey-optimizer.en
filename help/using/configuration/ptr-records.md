@@ -86,11 +86,15 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
 
 ## Check PTR record update details {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
+Once you confirmed the PTR record edit, the **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
 
 ![](assets/ptr-record-updating.png)
 
-To check the PTR record update details, click the **[!UICONTROL Updating]** or **[!UICONTROL Recent updates]** icon.
+>[!NOTE]
+>
+>The [update processing](#processing) can take up to a few hours.
+
+To check the PTR record update details, click the icon next to it. Learn more on the statuses associated with the different icons in [this section](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -108,7 +112,7 @@ A PTR record update can have the following statuses:
 
 ### Processing {#processing}
 
-Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. This can take up to a few hours.
 
 >[!NOTE]
 >

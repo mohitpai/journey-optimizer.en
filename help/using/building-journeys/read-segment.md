@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
-## About the Read Segment activity {#about-segment-trigger-actvitiy}
+## Add a Read Segment activity {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
