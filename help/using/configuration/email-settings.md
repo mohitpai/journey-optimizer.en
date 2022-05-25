@@ -108,7 +108,7 @@ In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and em
 >
 >Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-### Forward email
+### Forward email {#forward-email}
 
 If you want to forward to a specific email address all emails received by [!DNL Journey Optimizer] for the delegated subdomain, contact Adobe Customer Care. You will need to provide:
 
