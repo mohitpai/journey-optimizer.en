@@ -108,6 +108,21 @@ In the **[!UICONTROL HEADER PARAMETERS]** section, enter the sender names and em
 >
 >Addresses must begin with a letter (A-Z) and can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
+### Forward email
+
+If you want to forward to a specific email address all emails received by [!DNL Journey Optimizer] for the delegated subdomain, contact Adobe Customer Care. You will need to provide:
+
+* The forward email address of your choice. Note that the forward email address domain cannot match any subdomain delegated to Adobe.
+* Your sandbox name.
+* The preset name for which the forward email (or "reply to") address will be used.
+* The current **[!UICONTROL Reply to (email)]** address set at the preset level.
+
+>[!NOTE]
+>
+>There can be only one forward email address per subdomain. Consequently, if multiple presets use the same subdomain, the same forward email address must be used for all of them.
+
+The forward email address will be set up by Adobe. This can take 3 to 4 days.
+
 ## Email retry parameters {#email-retry}
 
 >[!CONTEXTUALHELP]
@@ -148,7 +163,7 @@ Three URL tracking parameters are auto-populated as an example when you create a
 To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
 
 * Journey attributes: **Source id**, **Source name**, **Source version id**
-* Message attributes: **Action id**, **Action name**
+* Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
