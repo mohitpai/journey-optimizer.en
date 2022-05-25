@@ -97,6 +97,10 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 -->
 
+>[!NOTE]
+>
+>One-shot Read segment journeys move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence.
+
 ### Test and publish the journey {#testing-publishing}
 
 The **[!UICONTROL Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
