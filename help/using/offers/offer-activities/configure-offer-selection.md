@@ -30,7 +30,7 @@ In addition to offer priority, Journey Optimizer allows you to create **ranking 
 
 For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running".
 
-Learn how to create a ranking formula in [this section](../ranking/create-ranking-formulas.md).
+Learn how to create a ranking formula in [this section](../offer-library/create-ranking-formulas.md).
 
 Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
 
@@ -56,7 +56,7 @@ If multiple offers are eligible to be presented in this placement, the decision 
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-You can also use a trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../ranking/create-ranking-strategies.md).
+You can also use a trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >

@@ -48,7 +48,7 @@ solution: Journey Optimizer
   + Email settings {#design-email}
     + [Generate the text version](using/design/text-version-email.md)
     + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}
+  + Add and manage assets {#manage-asset}  
     + [Work with Assets Essentials](using/design/assets-essentials.md)
     + [Work with Adobe Stock](using/design/stock.md)
   + [Add personalized offers](using/design/deliver-personalized-offers.md)  
@@ -258,16 +258,10 @@ solution: Journey Optimizer
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
-  + Create rankings {#rankings}
-    + [Get started with rankings](using/offers/ranking/get-started-rankings.md)
-    + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
-    + AI models {#ai-models}
-      + [About AI models](using/offers/ranking/ai-models.md)
-      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
-      + Create AI models {#configure-ai-model}
-        + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
-        + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
-        + [Configure events capture](using/offers/ranking/schema-requirement.md)
+    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+    + Create AI ranking models {#create-ai-ranking-models}
+      + [About AI models](using/offers/offer-library/ai-ranking.md)
+      + [Create AI models](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
