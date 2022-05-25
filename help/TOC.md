@@ -173,6 +173,7 @@ solution: Journey Optimizer
         + [in](using/building-journeys/functions/functionin.md)
         + [intersect](using/building-journeys/functions/functionintersect.md)
         + [listSize](using/building-journeys/functions/functionlistsize.md)
+        + [limit](using/building-journeys/functions/functionlimit.md)
         + [serializeList](using/building-journeys/functions/functionserializelist.md)
         + [sort](using/building-journeys/functions/functionsort.md)
       + Math {#math}
