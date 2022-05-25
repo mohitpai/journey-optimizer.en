@@ -1,5 +1,5 @@
 ---
-title: Ranking formulas
+title: Create ranking formulas
 description: Learn how to create formulas to rank offers
 feature: Offers
 topic: Integrations
@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 ---
-# Ranking formulas {#create-ranking-formulas}
+# Create ranking formulas {#create-ranking-formulas}
 
 ## About ranking formulas {#about-ranking-formulas}
 
@@ -97,7 +97,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Boost offers with certain offer attribute based on context data
 
-Boost certain offers based on the context data being passed in the decisioning call. For example, if the `contextData.weather=hot` is passed in the decisioning call, the priority of all offers with `attribute=hot` must be boosted.
+You can boost certain offers based on the context data being passed in the decisioning call. For example, if the `contextData.weather=hot` is passed in the decisioning call, the priority of all offers with `attribute=hot` must be boosted.
 
 **Ranking formula:**
 
@@ -133,21 +133,9 @@ Note that when using the decisioning API, the context data is added to the profi
 
 ### Boost offers based on the customers propensity to purchase the product being offered
 
-If we have 2 instances of *CustomerAI* calculating propensity for purchasing *travelInsurance* and *extraBaggage* for an airline company, the following ranking formula will boost the priority (by 50 points) of the offer specific to either insurance or baggage if the customer propensity score to purchase that product is higher than 90.
+You can boost the score for an offer based on a customer propensity score.
 
-However, because each *CustomerAI* instance creates its own object within the unified profile schema, it is not possible to dynamically select the score based on the offer propensity type. Thus you have to chain the `if` statements to first check the offer propensity type, then extract the score from the appropriate profile field.   
-
-**Ranking formula:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-A better solution is to store the scores in an array of the profile. The following example will work across a variety of different propensity scores using just a simple ranking formula. The expectation is that you have a profile schema with an array of scores. In this example, the instance tenant is *_salesvelocity* and the profile schema contains the following:
+In this example, the instance tenant is *_salesvelocity* and the profile schema contains a range of scores stored in an array:
 
 ![](../assets/ranking-example-schema.png)
 

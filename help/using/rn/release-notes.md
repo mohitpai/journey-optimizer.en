@@ -51,7 +51,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
@@ -66,7 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
