@@ -243,6 +243,7 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Suppression list](using/reports/suppression-list.md)
     + [Allowed list](using/reports/allow-list.md)
+  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
