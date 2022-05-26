@@ -7,12 +7,12 @@ role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 ---
-# Change the primary email addresses {#change-primary-email}
+# Change the primary addresses {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Define which address to use"
->abstract="You can choose which email address to prioritize for sending when several addresses are available in the database (personal, professional, etc.)."
+>abstract="When several addresses are available in the database (personal, professional, etc.), you can choose which address to prioritize for sending."
 
 When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).
 

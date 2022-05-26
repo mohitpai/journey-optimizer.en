@@ -10,16 +10,19 @@ solution: Journey Optimizer
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
-  + [Release notes](using/rn/release-notes.md)
-  + [Latest updates](using/rn/documentation-updates.md)
+  + [Latest release notes](using/rn/release-notes.md)
+  + Previous release notes {#previous-rn-new}
+    + [2022 Release notes](using/rn/release-notes-2022.md)
+    + [2021 Release notes](using/rn/release-notes-2021.md)
+  + [Documentation updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
     + [Overview](using/start/quick-start.md)
-    + [Get Started as a Marketer](using/start/path/marketer.md)
-    + [Get Started as a Data engineer](using/start/path/data-engineer.md)
-    + [Get Started as an Administrator](using/start/path/administrator.md)
-    + [Get Started as a Developer](using/start/path/developer.md)
+    + [Get started as a Marketer](using/start/path/marketer.md)
+    + [Get started as a Data engineer](using/start/path/data-engineer.md)
+    + [Get started as an Administrator](using/start/path/administrator.md)
+    + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Limitations](using/start/limitations.md)
 + Messages {#messages}
@@ -54,7 +57,11 @@ solution: Journey Optimizer
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
-  + [Design a landing page](using/landing-pages/design-lp.md)
+  + Design content {#landing-pages-design}
+    + [About landing page design](using/landing-pages/design-lp.md)
+    + [Create the landing page content](using/landing-pages/lp-content.md)
+    + [Create templates](using/landing-pages/lp-templates.md)
+    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
 + Personalization{#personalization}
@@ -173,6 +180,7 @@ solution: Journey Optimizer
         + [in](using/building-journeys/functions/functionin.md)
         + [intersect](using/building-journeys/functions/functionintersect.md)
         + [listSize](using/building-journeys/functions/functionlistsize.md)
+        + [limit](using/building-journeys/functions/functionlimit.md)
         + [serializeList](using/building-journeys/functions/functionserializelist.md)
         + [sort](using/building-journeys/functions/functionsort.md)
       + Math {#math}
@@ -239,6 +247,7 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Suppression list](using/reports/suppression-list.md)
     + [Allowed list](using/reports/allow-list.md)
+  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -385,3 +394,5 @@ solution: Journey Optimizer
   + [Manage users and product profiles](using/administration/permissions.md)
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
+  + [Attribute-based access control](using/administration/attribute-based-access.md)
+

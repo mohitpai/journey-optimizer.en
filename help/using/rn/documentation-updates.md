@@ -7,9 +7,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## June 2022 {#june-2022}
+
+* New query examples related to [segment qualification](../reports/query-examples.md#segment-qualification-queries) and [events](../reports/query-examples.md#event-based-queries) have been added to this 
 
 ## May 2022 {#may-2022}
 
+* All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
 * Links to key resources have been updated in Journey Optimizer documentation home page.
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
@@ -17,6 +21,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Links to how-to videos have been updated.
 * The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/message-presets.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
 * The **URL tracking** section has been updated and improved with examples. [Read more](../configuration/email-settings.md#url-tracking)
+* A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../configuration/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}
 

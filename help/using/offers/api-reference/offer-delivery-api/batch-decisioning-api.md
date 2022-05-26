@@ -187,7 +187,7 @@ The end-to-end time for every batch decision is the duration from the time the w
 
 When using the [!DNL Batch Decisioning] API, keep the following limitations in mind: 
 
-  * **Single batch job per dataset**: Currently, only a single batch job can be run per dataset at a time. Any other requests with the same output dataset would respond with HTTP 429 (Too Many Requests) before the previous request finishes.
+  * **The number of running batch jobs per dataset**: Up to five batch jobs can be run at a time, per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
   * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
 
 ## Next steps {#next-steps}

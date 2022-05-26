@@ -22,7 +22,6 @@ Only test profiles can enter a journey in test mode. You can either create new t
 >
 >Before testing your journey, you must resolve all errors if any. Learn how to check errors before testing in [this section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 To use the test mode, follow these steps:
 
 1. To activate the test mode, activate the **[!UICONTROL Test]** toggle, located in the top right corner.
@@ -35,7 +34,7 @@ To use the test mode, follow these steps:
 
     >[!NOTE]
     >
-    >When a reaction event is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md).
+    >When a reaction event with a timeout is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md).
 
 1. Use the **[!UICONTROL Trigger an event]** button to configure and send events to the journey.
 
