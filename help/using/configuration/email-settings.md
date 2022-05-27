@@ -143,6 +143,8 @@ To enable the **[!UICONTROL BCC email]** option, enter the email address of your
 >[!NOTE]
 >
 >You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current preset.
+>
+>More recommendations are listed in [this section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
