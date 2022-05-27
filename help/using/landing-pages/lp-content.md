@@ -5,7 +5,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 ---
 # Define landing page-specific content {#lp-content}
     
@@ -117,4 +117,3 @@ To define specific content that will enable users to select and submit their cho
 1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
 
     ![](assets/lp_designer-form-error-preview.png)
-

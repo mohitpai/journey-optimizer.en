@@ -4,6 +4,7 @@ description: Learn how to track actions performed on Journey Optimizer resources
 feature: Monitoring
 role: User
 level: Intermediate
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 ---
 # Audit actions on Journey Optimizer resources {#track-changes}
 

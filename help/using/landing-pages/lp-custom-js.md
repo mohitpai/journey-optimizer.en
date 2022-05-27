@@ -5,7 +5,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 ---
 # Use custom JavaScript in a landing page {#lp-custom-js}
 
