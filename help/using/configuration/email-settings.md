@@ -166,13 +166,13 @@ However, the BCC address gets picked up for sending communications following the
 >
 >You do not need to republish a message or journey for the BCC setting to be picked up.
 
-### Recommendations and limitations {#recommendations-limitations}
+### Recommendations and limitations {#bcc-recommendations-limitations}
 
-* Make sure the BCC email address is set correctly. If this is not case, your clients' personal identifiable information (PII) may be sent to an unwanted address.
+* To ensure your privacy compliance, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
-* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
+* As messages can contain sensitive or private data, such as personally identifiable information (PII), make sure the BCC address is correct, and secure the access to messages. 
 
-* This feature may deliver to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have [bounced](../reports/suppression-list.md#delivery-failures).
+* Messages may be delivered to the BCC email address before the target recipients. BCC messages can also been sent even though the original messages may have [bounced](../reports/suppression-list.md#delivery-failures).
 
     <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
