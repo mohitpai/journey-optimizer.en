@@ -132,6 +132,10 @@ The forward email address will be set up by Adobe. This can take 3 to 4 days.
 
 You can send an identical copy (or blind carbon copy) of an email sent by [!DNL Journey Optimizer] to a BCC inbox. This optional feature allows you to retain copies of email communications you send to your users for compliance and/or archival purposes. This will be invisible to the delivery recipients.
 
+>[!CAUTION]
+>
+>This capability will be available starting **May, 31**.
+
 ### Enable BCC email {#enable-bcc}
 
 To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field. You can specify any external address in correct format, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.
@@ -139,6 +143,8 @@ To enable the **[!UICONTROL BCC email]** option, enter the email address of your
 >[!NOTE]
 >
 >You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current preset.
+>
+>More recommendations are listed in [this section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -162,23 +168,26 @@ However, the BCC address gets picked up for sending communications following the
 >
 >You do not need to republish a message or journey for the BCC setting to be picked up.
 
-### Recommendations and limitations {#recommendations-limitations}
+### Recommendations and limitations {#bcc-recommendations-limitations}
 
-* Make sure the BCC email address is set correctly. If this is not case, your clients' personally identifiable information (PII) may be sent to an unwanted address.
+* To ensure your privacy compliance, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
-* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
-
-* This feature may deliver to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have [bounced](../reports/suppression-list.md#delivery-failures).
-
-    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). Similarly, marking BCC emails landing in your inbox as spam may cause emails to land in the spam folder of your inbox.
+* As messages can contain sensitive or private data, such as personally identifiable information (PII), make sure the BCC address is correct, and secure the access to messages.
 
 * Your inbox used for BCC should be properly managed for space and delivery. If the inbox returns bounces, some emails may not be received and therefore will fail to get archived.
 
+* Messages may be delivered to the BCC email address before the target recipients. BCC messages can also been sent even though the original messages may have [bounced](../reports/suppression-list.md#delivery-failures).
+
+    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). 
+
+* Do not mark messages as spam in the BCC inbox, as it will impact all the other emails sent to this address.
+
+
 >[!CAUTION]
 >
->Avoid clicking the unsubscribe link in the emails sent to the BCC address as you will immediately unsubscribe the corresponding recipients.
+>Do not click the unsubscribe link in the emails sent to the BCC address as you will immediately unsubscribe the corresponding recipients.
 
 ### GDPR compliance {#gdpr-compliance}
 
