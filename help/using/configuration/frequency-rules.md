@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 ---
 # Message frequency rules {#frequency-rules}
@@ -23,15 +25,19 @@ To do this, you can use a frequency rule which will cap the number of messages s
 
 Rules are available from the **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. All rules are listed, sorted by modification date.
 
->[!NOTE]
->
->To access, create, edit or delete message frequency rules, you must have the [Manage frequency rules](../administration/high-low-permissions.md#manage-frequency-rules) permission. Users with the [View frequency rules](../administration/high-low-permissions.md#view-frequency-rules) permission will be able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
 Use the filter icon to filter on the category, status, and/or channel. You can also search on the message label.
 
 ![](assets/message-rules-filter.png)
+
+### Permissions{#permissions-frequency-rules}
+
+To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
+
+Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
+
+![](assets/message-rules-access.png)
+
+Learn more about permissions in [this section](../administration/high-low-permissions.md).
 
 ## Create a rule {#create-new-rule}
 
