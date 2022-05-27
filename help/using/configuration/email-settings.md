@@ -132,6 +132,10 @@ The forward email address will be set up by Adobe. This can take 3 to 4 days.
 
 You can send an identical copy (or blind carbon copy) of an email sent by [!DNL Journey Optimizer] to a BCC inbox. This optional feature allows you to retain copies of email communications you send to your users for compliance and/or archival purposes. This will be invisible to the delivery recipients.
 
+>[!CAUTION]
+>
+>This capability will be available starting **May, 31**.
+
 ### Enable BCC email {#enable-bcc}
 
 To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field. You can specify any external address in correct format, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.
@@ -164,7 +168,7 @@ However, the BCC address gets picked up for sending communications following the
 
 ### Recommendations and limitations {#recommendations-limitations}
 
-* Make sure the BCC email address is set correctly. If this is not case, your clients' personally identifiable information (PII) may be sent to an unwanted address.
+* Make sure the BCC email address is set correctly. If this is not case, your clients' personal identifiable information (PII) may be sent to an unwanted address.
 
 * For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
