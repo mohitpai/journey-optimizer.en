@@ -33,7 +33,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## March 2022 {#march-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] March '22 release have been detailed in the documentation. [Read more](release-notes.md)
-* A new page on getting started with AI models has been added to the **Offer decisioning** section, including a thorough description of the [auto-optimization model](../offers/offer-library/ai-ranking.md#auto-optimization), the algorithm it uses and more technical details. [Read more](../offers/offer-library/ai-ranking.md)
+* A new page on getting started with AI models has been added to the **Offer decisioning** section, including a thorough description of the [auto-optimization model](../offers/ranking/auto-optimization-model.md), the algorithm it uses and more technical details. [Read more](../offers/ranking/ai-models.md)
 * The test profile creation page has been moved to the  **Segment, profiles and identity** section. [Read more](../segment/creating-test-profiles.md)
 * Added an example on how to add an expression as a default value in the expression editor. [Read more](../building-journeys/expression/field-references.md#default-value)
 * The **Create personalized offers** section has been reorganized for improved readability. [Read more](../offers/offer-library/creating-personalized-offers.md)
@@ -49,8 +49,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## January 2022 {#january-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
-* The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/ranking/auto-optimization-model.md)
+* A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/ranking/schema-requirement.md)
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
 * The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
@@ -100,7 +100,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added a subsection to clarify the differences between using segments versus decision rules when applying a constraint to restrict the selection of offers for a given placement. [Read more](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* Added specific ranking formula examples to illustrate some real-life use cases. [Read more](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* Added specific ranking formula examples to illustrate some real-life use cases. [Read more](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * Added a subsection on how to edit IP pools. [Read more](../configuration/ip-pools.md#edit-ip-pool)
 
