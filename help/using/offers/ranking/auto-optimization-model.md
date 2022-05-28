@@ -1,36 +1,24 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: About AI models
-description: Learn about AI models that allow to rank offers
+title: Auto-optimization models
+description: Learn more about auto-optimization models
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 ---
-# AI models {#ai-models}
-
-## Get started with AI models {#get-started-with-ai-rankings}
-
-[!DNL Journey Optimizer] allows you to use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->The use of AI models is currently available in early access to select users only.
-
-This feature enables you to create different **AI models** based on your business goals. Using these different goal-based strategies in a decision, the trained model system will help you understand how the different AI models are impacting your goals.
-
-For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given placement, rather than taking into account the offers’ priority scores or a [ranking formula](create-ranking-formulas.md).
-
->[!NOTE]
->
->Currently in [!DNL Journey Optimizer] the only supported model type for AI ranking is **auto-optimization**.
-
-## Auto-optimization model {#auto-optimization}
+# Auto-optimization models {#auto-optimization-model}
 
 An Auto-optimization model aims to serve offers that maximize the return (KPIs) set by business clients. These KPIs could be in the form of conversion rates, revenue, etc. At this point, Auto-optimization focuses on optimizing offer clicks with offer conversion as our target. Auto-optimization is non-personalized and optimizes based on “global” performance of the offers.
 
-### Terminology
+## Limitations {#limitations}
+
+The use of Auto-optimization models for Offer Decisioning is subject to the limitations below:
+
+* Auto-optimization models do not work with the Batch Decisioning API.
+* Feedback needed to build model must be sent in as an experience event. It should not be sent in automatically in [!DNL Journey Optimizer] channels.
+
+## Terminology {#terminology}
 
 The following terms are useful when discussing Auto-optimization: 
 
@@ -40,7 +28,7 @@ The following terms are useful when discussing Auto-optimization:
 
 * [**Beta distribution**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}. 
 
-### Thompson Sampling {#thompson-sampling}
+## Thompson Sampling {#thompson-sampling}
 
 The algorithm that underlies Auto-optimization is **Thompson sampling**. In this section, we discuss the intuition behind Thompson sampling.
 
@@ -93,7 +81,7 @@ For a deeper dive on Thompson sampling, read the following research papers:
 * [An Empirical Evaluation of Thompson Sampling](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
 * [Analysis of Thompson Sampling for the Multi-armed Bandit Problem](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
-### Cold-start problem
+## Cold-start problem {#cold-start}
 
 The "cold-start" problem occurs when a new offer is added to a campaign, and there is no data available about the new offer's conversion rate. During this period, we have to come up with a strategy regarding how often this new offer is chosen so that the performance drop is minimized, while we collect information about conversion rate of this new offer. There are multiple solutions available to tackle this problem. The key is to find a balance between the exploration of this new offer while we don't sacrifice the exploitation much. Currently we use "uniform distribution" as our initial guess about the new offer's conversion rate (prior distribution). Basically we give all conversion rate values equal probability of occurrence. 
 
@@ -102,7 +90,7 @@ The "cold-start" problem occurs when a new offer is added to a campaign, and the
 
 **Figure 2**: *Consider a campaign with 3 offers. While the campaign is live, Offer 4 is added to the campaign. Initially we have no data about the conversion rate of the Offer 4 and we have to deal with the cold-start problem. We use uniform distribution as our initial guess about conversion rate of Offer 4, while we collect data for this new offer. As explained in the [Thompson sampling](#thompson-sampling) section, to choose which offer is going to be shown to a user, we sample points from the posterior rewards distributions of the offers and select the offer with the highest sample value. In the example above, Offer 4 is chosen and later based on the reward collected, the posterior distribution of this offer is updated as explained in the [Thompson sampling](#thompson-sampling) section.*
 
-### Lift Measurement
+## Lift Measurement {#lift}
 
 “Lift” is the metric used to measure the performance of any strategy deployed in ranking service, in comparison with baseline strategy (serving offers just randomly). 
 
