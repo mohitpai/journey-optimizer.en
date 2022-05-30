@@ -179,8 +179,8 @@ solution: Journey Optimizer
         + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
         + [in](using/building-journeys/functions/functionin.md)
         + [intersect](using/building-journeys/functions/functionintersect.md)
-        + [listSize](using/building-journeys/functions/functionlistsize.md)
         + [limit](using/building-journeys/functions/functionlimit.md)
+        + [listSize](using/building-journeys/functions/functionlistsize.md)
         + [serializeList](using/building-journeys/functions/functionserializelist.md)
         + [sort](using/building-journeys/functions/functionsort.md)
       + Math {#math}
