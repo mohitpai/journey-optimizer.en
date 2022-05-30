@@ -6,6 +6,7 @@ description: Learn how to configure your offer schema to capture events
 feature: Ranking Formulas
 role: User
 level: Intermediate
+exl-id: f70ba749-f517-4e09-a381-243b21713b48
 ---
 # Configure events capture {#schema-requirements}
 
@@ -101,4 +102,3 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 -->
-

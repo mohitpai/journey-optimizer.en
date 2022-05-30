@@ -4,6 +4,7 @@ description: Learn how to work with rankings
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 ---
 # Get started with rankings {#create-fallback-offers}
 
