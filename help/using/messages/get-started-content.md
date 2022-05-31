@@ -85,9 +85,11 @@ To create a new message, follow the steps below:
 
    ![](assets/create-messages-content.png)
 
+   <!--
    >[!NOTE]
    >
    >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
+   -->
 
    You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
 

@@ -114,7 +114,7 @@ If you want to forward to a specific email address all emails received by [!DNL 
 
 * The forward email address of your choice. Note that the forward email address domain cannot match any subdomain delegated to Adobe.
 * Your sandbox name.
-* The preset name for which the forward email (or "reply to") address will be used.
+* The preset name for which the forward email address will be used.
 * The current **[!UICONTROL Reply to (email)]** address set at the preset level.
 
 >[!NOTE]
@@ -123,6 +123,7 @@ If you want to forward to a specific email address all emails received by [!DNL 
 
 The forward email address will be set up by Adobe. This can take 3 to 4 days.
 
+<!--
 ## BCC email {#bcc-email}
 
 >[!CONTEXTUALHELP]
@@ -178,7 +179,7 @@ However, the BCC address gets picked up for sending communications following the
 
 * Messages may be delivered to the BCC email address before the target recipients. BCC messages can also been sent even though the original messages may have [bounced](../reports/suppression-list.md#delivery-failures).
 
-    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+    //////OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK /////////
 
 * Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). 
 
@@ -325,6 +326,7 @@ Depending on what information you are looking for, you can run the following que
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
     ```
+-->
 
 ## Email retry parameters {#email-retry}
 
