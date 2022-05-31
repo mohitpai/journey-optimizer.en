@@ -425,7 +425,6 @@ It includes the following low-level permissions:
   * landing_page_preset.write
   * landing_page_preset.delete
 
-<!--
 ### [!DNL Manage frequency rules] permission {#manage-frequency-rules}
 
 The **[!DNL Manage frequency rules]** high-level permission allows users to read, create, edit, delete and activate/deactivate frequency rules.
@@ -445,4 +444,3 @@ It includes the following low-level permissions:
 
 * Journey Optimizer specific: 
   * frequency_rules.read
--->
