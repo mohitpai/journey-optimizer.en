@@ -5,6 +5,7 @@ description: Learn about the function limit
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 ---
 # limit {#limit}
 
@@ -82,4 +83,3 @@ Returns `["A","B","C"]`.
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 Returns `["C","D","E"]`.
-

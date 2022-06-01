@@ -1,6 +1,7 @@
 ---
 title: Previous Release notes (2021)
 description: Journey Optimizer 2021 Release notes
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 ---
 # Release Notes 2021 {#release-notes-2021}
 

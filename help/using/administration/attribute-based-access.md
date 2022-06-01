@@ -7,6 +7,7 @@ role: Admin
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 ---
 # Attribute-based access control {#attribute-based-access}
 
@@ -153,4 +154,3 @@ If the User Y without access to label C2 objects needs to access this journey or
 * User Y will not be able to test the Journey or Message.
 
 * User Y will not be able to publish the Journey or Message.
-

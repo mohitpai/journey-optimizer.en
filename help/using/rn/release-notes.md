@@ -15,7 +15,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities 
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Message Frequency Rules</strong><br/></th>
@@ -30,10 +30,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Email BCC</strong><br/></th>
@@ -49,10 +49,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
@@ -67,7 +67,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>
