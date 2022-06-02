@@ -15,6 +15,11 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 >abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
 
 >[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+
+>[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="About offer priority"
 >abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
