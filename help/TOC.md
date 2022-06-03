@@ -24,7 +24,7 @@ solution: Journey Optimizer
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
-  + [Limitations](using/start/limitations.md)
+  + [Guardrails](using/start/guardrails.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)

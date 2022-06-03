@@ -1,17 +1,17 @@
 ---
-title: Journey Optimizer limitations
-description: Learn more about Journey Optimizer limitations
+title: Journey Optimizer guardrails and limitations
+description: Learn more about Journey Optimizer guardrails
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 ---
-# Limitations {#limitations}
+# Guardrails and limitations {#limitations}
 
-Entitlements, product limitations and performance guardrails are listed in[ Adobe Journey Optimizer product description page](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Entitlements, product limitations and performance guardrails are listed in [Adobe Journey Optimizer product description page](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-You will find below additional limitations when using [!DNL Adobe Journey Optimizer].
+You will find below additional guardrails and limitations when using [!DNL Adobe Journey Optimizer].
 
 ## Limitations in messages {#limitations-messages}
 

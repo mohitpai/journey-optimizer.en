@@ -21,7 +21,7 @@ Custom actions are additional actions defined by technical users and made availa
 
 ## Limitations{#custom-actions-limitations}
 
-Custom actions come with a few limitations listed in [this page](../start/limitations.md).
+Custom actions come with a few limitations listed in [this page](../start/guardrails.md).
 
 In custom action parameters, you can pass a simple collection, as well as a collection of objects. Learn more about collection limitations in [this page](../building-journeys/collections.md#limitations). 
 

@@ -116,11 +116,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page. 
 * **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **Journeys**
 
 * **Read segment** - One-shot Read segment journeys now move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence. [Read more](../building-journeys/read-segment.md)
 * **Expression editor** - The [limit](../building-journeys/functions/functionlimit.md) function has been added to allow you to limit the number of items of a list. The [sort](../building-journeys/functions/functionsort.md) function now allows you to sort out a list object. The support of listObject has also been added to the [disctinct](../building-journeys/functions/functiondistinct.md) and [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) functions.
+
+**Administration**
+
+**License usage dashboard update** – The License usage dashboard available in the Adobe Experience Platform UI now reflects the accurate value for the **Licensed** Average profile richness. As a Journey Optimizer customer, you will see a drop in this metric representation, which means the usage you are licensed for is now correctly reported. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target="_blank"}
