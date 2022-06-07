@@ -26,25 +26,25 @@ The following table outlines which actions on which Journey Optimizer resources 
 >
 >The full list of actions captured in the Audit logs is available in [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
-| Resource | Action             |
+| Resource | Action            |
 |-----------|------------------|
-| Field group | Create / Delete / Update |
-| AJO subdomain | Create / Delete / Update |
-| CJM suppression list | Create / Delete / Download CSV |
+| AJO channel general setting | Create / Delete / Update |
+| AJO IP pool | Create / Delete / Update |
+| AJO landing page | Create / Delete / Update / Publish / Unpublish |
+| AJO landing page HTML template | Create / Delete / Update |
+| AJO landing page preset | Create / Delete / Update |
+| AJO landing page subdomain | Create / Delete / Update |
+| AJO message | Create / Delete / Update / Publish |
 | AJO message preset | Create / Delete / Update |
 | AJO PTR record | Create / Delete / Update |
-| Ranking strategy | Create / Delete / Update |
-| Journey custom action | Create / Delete / Update |
-| AJO landing page HTML template | Create / Delete / Update |
-| AJO IP pool | Create / Delete / Update |
-| AJO landing page subdomain | Create / Delete / Update |
+| AJO saved expression template | Create / Delete / Update |
 | AJO SMS API credentials | Create / Delete / Update |
-| AJO landing page preset | Create / Delete / Update |
+| AJO subdomain | Create / Delete / Update |
+| AJO suppression list | Create / Delete / Download CSV |
+| Field group | Create / Delete / Update |
+| Journey | Create / Delete / Update / Stop / Publish |
+| Journey custom action | Create / Delete / Update |
 | Journey datasource | Create / Delete / Update |
 | Journey event | Create / Delete / Update |
-| AJO saved expression template | Create / Delete / Update |
 | Message frequency rule | Create / Delete / Update |
-| AJO landing page | Create / Delete / Update / Publish / Unpublish |
-| Journey | Create / Delete / Update / Stop / Publish |
-| AJO message | Create / Delete / Update / Publish |
-| AJO channel general setting | Create / Delete / Update |
+| Ranking strategy | Create / Delete / Update |

@@ -17,6 +17,12 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
+You can also [**manually** add an address or a domain](#add-addresses-and-domains) to the suppression list.
+
+>[!NOTE]
+>
+>It will take between 0 and 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+
 ## Access the suppression list {#access-suppression-list}
 
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
@@ -99,7 +105,7 @@ The possible reasons for a delivery failure are:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Add emails/domains to the suppression list"
+>title="Add emails or domains to the suppression list"
 >abstract="You can manually populate the Journey Optimizer suppression list to exclude specific email addresses and/or domains from your sending."
 
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
@@ -133,6 +139,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Specify a reason if needed.
 
+    >[!NOTE]
+    >
+    >Only ASCII characters comprised between 32 and 126 are allowed. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
+
 1. Click **[!UICONTROL Submit]**.
 
 ### Upload a CSV file {#upload-csv-file}
@@ -153,7 +163,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
-    
+    >[!NOTE]
+    >
+    >For the Comment column, only ASCII characters comprised between 32 and 126 are allowed. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
+
     You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
@@ -169,6 +182,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     ![](assets/suppression-list-upload-file-button.png)
 
 1. Click **[!UICONTROL Submit]**.
+
+>[!NOTE]
+>
+>Once the upload is done, make sure it was successful by checking its status from the interface. [Learn how](#recent-uploads)
 
 ### Check recent uploads status {#recent-uploads}
 

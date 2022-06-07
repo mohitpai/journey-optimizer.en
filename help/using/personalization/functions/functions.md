@@ -194,6 +194,9 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#matches">Matches</a></td><td>This function is used to determine if a string matches a specific regular expression</td>
     </tr>
     <tr>
+        <td><a href="string.md#mask">Mask</a></td><td>This function is used to replace a part of a string with "X" characters.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#notEqualTo">Not equals to</a></td><td>This function is used to determine if a string is not equal to the specified string</td>
     </tr>
     <tr>
