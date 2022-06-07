@@ -18,7 +18,15 @@ For example, you can select an AI model for the email channel and another one fo
 
 ## AI model types {#ai-model-types}
 
-For now, [!DNL Journey Optimizer]** provides one AI model, **Auto-optimization**,  which optimizes offers based on past offer performance. Detailed information this type of AI model is available in [this section](auto-optimization-model.md).
+Two types of AI models are available in [!DNL Journey Optimizer]:
+
+* **Auto-optimization models** aim to serve offers that maximize the return (KPIs) set by business clients. These KPIs could be in the form of conversion rates, revenue, etc. At this point, Auto-optimization focuses on optimizing offer clicks with offer conversion as our target. Auto-optimization is non-personalized and optimizes based on “global” performance of the offers. [Learn more](auto-optimization-model.md)
+
+* **Personalization models** allow you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. [Learn more](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>The use of Personalized Optimization models is currently available in early access to select users only.
 
 ## Creating an AI model {#create-ai-model}
 
