@@ -70,10 +70,6 @@ solution: Journey Optimizer
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
 + Build dynamic & personalized content {#dynamic-personalized-content}  
-  + Build dynamic content {#dynamic}
-    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
-    + [Create conditions](using/personalization/create-conditions.md)
-    + [Build conditional content](using/personalization/build-conditional-content.md)
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization contexts](using/personalization/personalization-contexts.md)
@@ -98,6 +94,11 @@ solution: Journey Optimizer
     + Use cases{#personalization-use-cases}    
       + [Order status notification](using/personalization/personalization-use-case.md)
       + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Build dynamic content {#dynamic}
+    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
+    + [Work with the conditions library](using/personalization/conditions-library.md)
+    + [Create conditions](using/personalization/create-conditions.md)
+    + [Build conditional content](using/personalization/build-conditional-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
