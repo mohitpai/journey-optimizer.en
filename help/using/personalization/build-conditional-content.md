@@ -9,7 +9,7 @@ level: Intermediate
 
 # Build conditional content {#build-conditional-content}
 
-## About conditional content {#about-conditional-content]
+## About conditional content {#about-conditional-content}
 
 Adobe Journey Optimizer allows you to leverage the conditions created in the library to build conditional content for all channels.
 
@@ -64,8 +64,6 @@ The steps to build conditional content using the Expression Editor are as follow
 
 steps + ref to personalization section for flobal concepts on expression editor 
 
-1. Conditions menu
-1. Create condition or select existing
+1. Open the Expression Editor from any field where you can perform personalization. [Learn more on personalization contexts](personalization-contexts.md)
 
-
-
+    ![](assets/conditions-field.png)

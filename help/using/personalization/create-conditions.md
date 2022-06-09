@@ -7,17 +7,26 @@ role: Data Engineer
 level: Intermediate
 ---
 
-# Create conditions {#conditions}
+# Manage conditions {#conditions}
 
-With Journey Optimizer, you can create conditions, which are sets of rules that will define the conditions under which some content should be displayed in your messages.
+## About conditions {#about-conditions}
 
-Once created, these conditions can be leveraged in messages to build conditional content depending on these rules.
+With Journey Optimizer, you can create conditions, which are sets of rules that define which content should be displayed in your messages, depending on various criteria like profiles' attributes, segment membership or contextual events.
+
+Conditions are created using the conditions library, which is accessible either:
+
+* From the Email Designer, when adding enabling conditional content in the email body ([learn more](build-conditional-content.md#emails)),
+* From the Expression Editor, in any field where you can perform personalization.
+
+## Create a condition {#create-condition}
 
 The steps to create a condition are as follows:
 
 1. Access the condition library from the Expression Editor or the Email Designer, then click **[!UICONTROL Create new]**.
 
-1. Build your condition according to your needs. To do this, drag and drop and arrange the desired attributes from the left menu. 
+    ![](assets/conditions-new.png)
+
+1. Build your condition according to your needs. To do this, drag and drop and arrange the desired attributes from the left menu into the workspace. 
 
     Available attributes are:
 
@@ -27,17 +36,15 @@ The steps to create a condition are as follows:
 
     ![](assets/conditions-create.png)
 
-1. Once the condition is ready, click the **[!UICONTROL Save to conditions library]** button.
-
-1. Give a name and a description to the condition, then click **[!UICONTROL Save]**.
+1. Once the condition is ready, click the **[!UICONTROL Save to conditions library]** button. Give a name and a description (optional) to the condition, then click **[!UICONTROL Save]**.
 
     ![](assets/conditions-name-description.png)
 
-1. The condition is saved to the library. You can now use it to add conditional content to your expression or email body. [Learn how to build conditional content](build-conditional-content.md)
+1. The condition is saved to the library. You can now use it to add conditional content into your messages based on it. [Learn how to build conditional content](build-conditional-content.md)
 
     ![](assets/conditions-saved.png)
 
-Note that you can edit a condition at any time. To do this, open the condition from the list, then make the desired changes.
+Note that you can edit a condition at any time. To do this, open it then make the desired changes.
 
 >[!IMPORTANT]
 >
