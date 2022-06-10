@@ -21,6 +21,6 @@ To access this dashboard, go to **[!UICONTROL Administration]** > **[!UICONTROL 
 
 Learn more in the Adobe Experience Platform documentation:
 
-* [Licence usage dashboard overview](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html)
+* [Licence usage dashboard overview](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
 * [Exploring the license usage dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Available metrics](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target="_blank"}
