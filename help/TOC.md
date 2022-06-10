@@ -80,7 +80,7 @@ solution: Journey Optimizer
       + [Aggregation functions](using/personalization/functions/aggregation.md)
       + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
       + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-      + [Date functions](using/personalization/functions/dates.md)
+      + [Date Time functions](using/personalization/functions/dates.md)
       + [Boolean and comparison functions](using/personalization/functions/operators.md)
       + [Helpers](using/personalization/functions/helpers.md)
       + [Map functions](using/personalization/functions/maps.md)
@@ -97,6 +97,7 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
+  + [Licence usage dashboard](using/start/licence-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
