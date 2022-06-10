@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 ---
 # Licence usage dashboard {#licence-usage}
 
