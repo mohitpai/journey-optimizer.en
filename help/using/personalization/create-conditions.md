@@ -15,8 +15,8 @@ With Journey Optimizer, you can create conditions, which are sets of rules that 
 
 Conditions are created using the conditions library, which is accessible either:
 
-* From the Email Designer, when adding enabling conditional content in the email body ([learn more](build-conditional-content.md#emails)),
-* From the Expression Editor, in any field where you can perform personalization.
+* From the Email Designer, when enabling conditional content in the email body ([learn more](build-conditional-content.md#emails)),
+* In any field where you can build expressions using the Expression Editor.
 
 ## Create a condition {#create-condition}
 
@@ -32,7 +32,7 @@ The steps to create a condition are as follows:
 
     * **[!UICONTROL Profile attributes]**: lists all the references associated to the profile schema described in Adobe Experience Platform Data Model (XDM) documentation.
     * **[!UICONTROL Segment memberships]**: lists all the segments created in Adobe Experience Platform Segmentation service. More information on segmentation available here.
-    * **[!UICONTROLContextual attributes]**: when the Message is used in a journey, contextual journey fields are available through this menu. Learn more in this section.
+    * **[!UICONTROL Contextual attributes]**: when the Message is used in a journey, contextual journey fields are available through this menu.
 
     ![](assets/conditions-create.png)
 
@@ -42,12 +42,10 @@ The steps to create a condition are as follows:
 
 1. The condition is saved to the library. You can now use it to add conditional content into your messages based on it. [Learn how to build conditional content](build-conditional-content.md)
 
-    ![](assets/conditions-saved.png)
+You can edit a condition at any time. To do this, open it then make the desired changes.
 
-Note that you can edit a condition at any time. To do this, open it then make the desired changes.
+![](assets/conditions-list.png)
 
 >[!IMPORTANT]
 >
 >Making changes to the condition will not affect the places where it is already being used.
-
-![](assets/conditions-list.png)
