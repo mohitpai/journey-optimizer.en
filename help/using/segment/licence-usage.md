@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Licence usage dashboard {#licence-usage}
 
-The [!DNL Adobe Journey Optimizer] [user interface](user-interface.md) provides a dashboard that displays important information about your organization’s license usage, as captured during a daily snapshot.
+The [!DNL Adobe Journey Optimizer] [user interface](../start/user-interface.md) provides a dashboard that displays important information about your organization’s license usage, as captured during a daily snapshot.
 
 To access this dashboard, go to **[!UICONTROL Administration]** > **[!UICONTROL Licence Usage]**. This opens the **[!UICONTROL Overview]** tab displaying the dashboard.
 
