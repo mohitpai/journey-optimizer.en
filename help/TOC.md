@@ -368,6 +368,7 @@ solution: Journey Optimizer
     + Set up message presets {#set-up-message-presets}
       + [Create message presets](using/configuration/message-presets.md)
       + [Configure email settings](using/configuration/email-settings.md)
+      + [Use BCC email](using/configuration/bcc-email.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)
     + [Configure frequency rules](using/configuration/frequency-rules.md)
   + Configure landing pages {#lp-configuration}
