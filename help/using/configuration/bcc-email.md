@@ -1,13 +1,13 @@
 ---
 title: Use BCC email
-description: Learn how to configure email settings at the message preset level
+description: Learn how to configure BCC email at the message preset level
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 
 ---
-# Use BCC email {#bcc-email}
+# BCC email {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
