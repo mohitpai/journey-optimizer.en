@@ -28,7 +28,7 @@ Use the links on the left to browse capabilities.
 
 >[!NOTE]
 >
->Available capabilities may vary depending on your permissions and licence agreement.
+>Available capabilities may vary depending on your permissions and license agreement.
 
 You can find below the full list of services and capabilities available in the left navigation and links to associated documentation.
 

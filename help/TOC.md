@@ -97,7 +97,7 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
-  + [Licence usage](using/segment/licence-usage.md)
+  + [License usage](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -247,8 +247,7 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
-    + [Suppression list](using/reports/suppression-list.md)
-    + [Allowed list](using/reports/allow-list.md)
+    + [About the suppression list](using/reports/suppression-list.md)
   + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
@@ -362,8 +361,9 @@ solution: Journey Optimizer
         + [Access and edit PTR records](using/configuration/ptr-records.md)
         + [Create IP pools](using/configuration/ip-pools.md)
       + Monitor email addresses {#monitor-reputation}  
-        + [Manage suppression list](using/configuration/manage-suppression-list.md)
+        + [Suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
+        + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up message presets {#set-up-message-presets}
       + [Create message presets](using/configuration/message-presets.md)

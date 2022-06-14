@@ -64,7 +64,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 **Administration**
 
 * You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../reports/allow-list.md#enable-allow-list)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../configuration/allow-list.md#enable-allow-list)
 
 **Personalization**
 

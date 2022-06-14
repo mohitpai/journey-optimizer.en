@@ -123,4 +123,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* **License usage dashboard update** – The License usage dashboard available in the [!DNL Adobe Journey Optimizer] user interface now reflects the accurate value for the **Licensed** Average profile richness. You will see a drop in this metric representation, which means the licence limit is now correctly reported. [Learn more](../segment/licence-usage.md)
+* **License usage dashboard update** – The License usage dashboard available in the [!DNL Adobe Journey Optimizer] user interface now reflects the accurate value for the **Licensed** Average profile richness. You will see a drop in this metric representation, which means the license limit is now correctly reported. [Learn more](../segment/license-usage.md)

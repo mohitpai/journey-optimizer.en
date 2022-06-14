@@ -272,7 +272,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Email configuration**
 
-* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](../reports/allow-list.md#enable-allow-list)
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * **Navigation** - The suppression list, which was accessible under the **Administration > Channels > Email configuration > General** menu, has been moved to the new **Suppression list** submenu, which gathers all related capabilities for easier access. [Learn more](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Decision management**
@@ -319,7 +319,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <tr>
 <td>
 <p>You can now define a define a specific sending-safe list at the sandbox level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers. This feature is enabled by leveraging Suppression APIs.</p>
-<p>For more information, refer to the <a href="../reports/allow-list.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/allow-list.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

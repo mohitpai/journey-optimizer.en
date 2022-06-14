@@ -21,7 +21,7 @@ For this use case, the following prerequisites are needed:
 
 * create and design a push notification message, without publishing it. Refer to this [section](../messages/get-started-content.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
-* create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-activities/create-offer-activities.md).
+* create a decision, refer to this [section](../offers/offer-activities/create-offer-activities.md).
 
 ## Step 1 - Add personalization on profile {#add-perso}
 
@@ -92,7 +92,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc13.png)
 
-1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
+1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision to add it to the body.  
 
    ![](assets/perso-uc14.png)
 

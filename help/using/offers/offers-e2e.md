@@ -217,56 +217,6 @@ The detailed steps to create and configure a decision are described in [this sec
 
 ## Insert the decision in an email {#insert-decision-in-email}
 
-Now that your decision is live, you can insert it into an email message. To do so, follow the steps below:
-
-1. Create your email, then open the [Email Designer](../../using/design/design-emails.md) to configure its content.
-
-1. Add a structure component from the left palette.
-
-1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/design/content-components.md).
-
-    ![](assets/offers-e2e-decision-component.png)
-
-1. Select it. In the right palette, click **[!UICONTROL Select offer decision]** to add a decision.
-
-    ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Select the placement corresponding to the offers that you want to display from the **[!UICONTROL Placements]** dropdown list.
-
-    In this case, from the placements that you created earlier as part of this example, only the **Email - Image** placement is available as you want to use the decision in an email. Learn more on [creating placements](../../using/offers/offer-library/creating-placements.md).
-
-    ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Decisions matching the **Email - Image** placement are displayed. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
-
-    ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-    >[!NOTE]
-    >
-    >Only decisions that are compatible with the selected placement display in the list.
-
-You can now see all personalized offers and the fallback offer being visualized in the Email Designer.
+Now that your decision is live, you can insert it into an email message. To do so, follow the steps detailed in [this page](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
-
->[!NOTE]
->
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a [published](../../using/messages/publish-manage-message.md) message, the updates are now automatically reflected in the corresponding message, without the need to republish it.
-
-**Related topics:**
-
-* Learn how to check the message preview in [this section](../../using/design/preview.md#preview-your-messages).
-
-* Learn how to publish messages in [this section](../../using/messages/publish-manage-message.md).
-
-* Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

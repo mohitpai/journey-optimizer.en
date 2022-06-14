@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 ---
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activities).
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab 
 
 Follow the on-screen steps to start creating placements, offers, and collections.
 
-Once you are done with these first steps, you are prompted to created offer decisions (previously known as offer activities).
+Once you are done with these first steps, you are prompted to created offer decisions.
 
 ![](../assets/overview_collection-created.png)
 
