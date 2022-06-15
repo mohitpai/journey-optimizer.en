@@ -39,20 +39,21 @@ The steps to create a campaign are as follows:
 
 1. Specify a title and a description for the campaign.
 
-    To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).
+    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
     ![](assets/create-campaign-properties.png)
 
-1. Configure the message to send with the campaign. To do this, click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to create an email](../messages/create-email.md).
+1. In the **[!UICONTROL Actions]** section, configure the message to send with the campaign:
 
+    1. click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to create an email](../messages/create-email.md).
 
-    Once your content is ready, click the arrow to go back to the campaign creation screen.
+        Once your content is ready, click the arrow to go back to the campaign creation screen.
 
-    ![](assets/create-campaign-design.png)
+        ![](assets/create-campaign-design.png)
 
-    Note that you can change the message surface to use at any time while the campaign is being edited from the drop-down list.
+    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery. Tracking results will be accessible from the campaign report once the campaign has been executed. Learn more
 
-    ![](assets/create-campaign-action-properties.png)
+        ![](assets/create-campaign-action-properties.png)
 
 1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments.
 
@@ -73,9 +74,11 @@ The steps to create a campaign are as follows:
 
 1. Configure the campaign's start and end dates.
 
-    By default, Campaigns are configured to start once they are activated, and to end as soons as the message has been sent once. <!--For in-app messages, you need to stop the campaign manually or specify an end date.-->
+    >[!NOTE]
+    >
+    >By default, Campaigns are configured to start once they are activated manually, and to end as soons as the message has been sent once. <!--For in-app messages, you need to stop the campaign manually or specify an end date.-->
 
-    You can configure a frequency at which the action will be performed.
+1. Additionally, you can configure a frequency for the execution of the action configured in the campaign.
 
     ![](assets/create-campaign-schedule.png)
 
@@ -97,7 +100,7 @@ Once your campaign has been configured, you need to review its parameter and con
 
     ![](assets/create-campaign-alerts.png)
 
-    Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
+1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
 
     ![](assets/create-campaign-review.png)
 
