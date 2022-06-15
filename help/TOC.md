@@ -99,8 +99,6 @@ solution: Journey Optimizer
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditions](using/personalization/create-conditions.md)
     + [Build conditional content](using/personalization/build-conditional-content.md)
-      + [Create email variants]
-      + [Build conditional content]
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
