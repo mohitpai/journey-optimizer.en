@@ -68,8 +68,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
@@ -114,13 +112,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Email**
 
-**Save as template** - You can now save an email content as a template and re-use it when creating a new message.
-
-
-**Landing pages**
-
-**Save as template** - You can now save a landing page as a template and re-use it when creating a new landing page.
-
+**Save as template** - You can now save an email content as a template and reuse it when creating other messages.
 
 **Journeys**
 
