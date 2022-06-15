@@ -69,13 +69,13 @@ Learn more on making API calls in the [Adobe Experience Platform APIs](https://e
 
 ## Allowed list logic {#logic}
 
-When the allowed list is **empty**, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](suppression-list.md).
+When the allowed list is **empty**, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](../reports/suppression-list.md).
 
 When the allowed list is **not empty**, the allowed list logic is applied:
 
 * If an entity is **not on the allowed list**, and not on the suppression list, the corresponding recipient will not receive the email, the reason being **[!UICONTROL Not allowed]**.
 
-* If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient. However, if the entity is also on the [suppression list](suppression-list.md), the corresponding recipient will not receive the email, the reason being **[!UICONTROL Suppressed]**.
+* If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient. However, if the entity is also on the [suppression list](../reports/suppression-list.md), the corresponding recipient will not receive the email, the reason being **[!UICONTROL Suppressed]**.
 
 >[!NOTE]
 >

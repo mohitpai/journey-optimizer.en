@@ -142,7 +142,6 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-<!--
 ![](assets/global_report_21.png)
 
 >[!NOTE]
@@ -168,7 +167,7 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
 * **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
+
 
 ## Push tab {#push-global}
 

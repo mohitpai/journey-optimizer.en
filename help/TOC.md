@@ -15,6 +15,7 @@ solution: Journey Optimizer
     + [2022 Release notes](using/rn/release-notes-2022.md)
     + [2021 Release notes](using/rn/release-notes-2021.md)
   + [Documentation updates](using/rn/documentation-updates.md)
+  + [Message migration](using/rn/inline-messages.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
@@ -25,11 +26,6 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
-+ Campaigns {#campaigns}
-  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
-  + [Create a campaign](using/campaigns/create-campaign.md)
-  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
-  + [Create a content experiment](using/campaigns/content-experiment.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
@@ -69,35 +65,30 @@ solution: Journey Optimizer
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Build dynamic & personalized content {#dynamic-personalized-content}  
-  + Personalization {#personalization}
-    + [Get started with personalization](using/personalization/personalize.md)
-    + [Personalization contexts](using/personalization/personalization-contexts.md)
-    + Build expressions {#build-expressions}
-      + [Personalization syntax](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-        + [Work with saved expressions](using/personalization/personalization-library.md)  
-        + [Personalization validation](using/personalization/personalization-validation.md)
-      + Helper functions{#functions}
-        + [Get started with helper functions](using/personalization/functions/functions.md)
-        + [Aggregation functions](using/personalization/functions/aggregation.md)
-        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-        + [Date functions](using/personalization/functions/dates.md)
-        + [Boolean and comparison functions](using/personalization/functions/operators.md)
-        + [Helpers](using/personalization/functions/helpers.md)
-        + [Map functions](using/personalization/functions/maps.md)
-        + [Object functions](using/personalization/functions/objects.md)
-        + [String functions](using/personalization/functions/string.md) 
-    + Use cases{#personalization-use-cases}    
-      + [Order status notification](using/personalization/personalization-use-case.md)
-      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
-  + Build dynamic content {#dynamic}
-    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
-    + [Create conditions](using/personalization/create-conditions.md)
-    + [Build conditional content](using/personalization/build-conditional-content.md)
++ Personalization{#personalization}
+  + [Get started with personalization](using/personalization/personalize.md)
+  + [Personalization contexts](using/personalization/personalization-contexts.md)
+  + Build expressions {#build-expressions}
+    + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression Editor {#expression-editor}
+      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Work with saved expressions](using/personalization/personalization-library.md)  
+      + [Personalization validation](using/personalization/personalization-validation.md)
+    + Helper functions{#functions}
+      + [Get started with helper functions](using/personalization/functions/functions.md)
+      + [Aggregation functions](using/personalization/functions/aggregation.md)
+      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+      + [Date Time functions](using/personalization/functions/dates.md)
+      + [Boolean and comparison functions](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Map functions](using/personalization/functions/maps.md)
+      + [Object functions](using/personalization/functions/objects.md)
+      + [String functions](using/personalization/functions/string.md) 
+  + Use cases{#personalization-use-cases}    
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
@@ -106,6 +97,7 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
+  + [License usage](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -255,8 +247,8 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
-    + [Suppression list](using/reports/suppression-list.md)
-    + [Allowed list](using/reports/allow-list.md)
+    + [About the suppression list](using/reports/suppression-list.md)
+  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -272,9 +264,7 @@ solution: Journey Optimizer
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
     + AI models {#ai-models}
       + [About AI models](using/offers/ranking/ai-models.md)
-      + AI model types {#ai-model-types}
-        + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
-        + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
+      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
       + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
         + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
@@ -371,12 +361,14 @@ solution: Journey Optimizer
         + [Access and edit PTR records](using/configuration/ptr-records.md)
         + [Create IP pools](using/configuration/ip-pools.md)
       + Monitor email addresses {#monitor-reputation}  
-        + [Manage suppression list](using/configuration/manage-suppression-list.md)
+        + [Suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
+        + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up message presets {#set-up-message-presets}
       + [Create message presets](using/configuration/message-presets.md)
       + [Configure email settings](using/configuration/email-settings.md)
+      + [Use BCC email](using/configuration/bcc-email.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)
     + [Configure frequency rules](using/configuration/frequency-rules.md)
   + Configure landing pages {#lp-configuration}
@@ -412,8 +404,4 @@ solution: Journey Optimizer
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
-+ Privacy {#privacy}
-  + [Data usage policies](using/privacy/policies.md)  
-  + [Privacy requests](using/privacy/requests.md)
-  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)
-  
+

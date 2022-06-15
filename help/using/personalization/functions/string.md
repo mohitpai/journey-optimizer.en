@@ -251,9 +251,87 @@ The following query extracts the email domain of the personal email address.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Get url host {#get-url-host}
+
+The `getUrlHost` function is used to retrieve the hostname of a URL.
+
+**Format**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**Example**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+Returns "www.myurl.com"
+
+## Get url path {#get-url-path}
+
+The `getUrlPath` function is used to retrieve the path after the domain name of a URL.
+
+**Format**
+
+```sql
+{%= getUrlPath(string) %}: string
+
+```
+
+**Example**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+Returns "/contact.html"
+
+## Get url protocol {#get-url-protocol}
+
+The `getUrlProtocol` function is used to retrieve the protocol of a URL.
+
+**Format**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**Example**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+Returns "http"
+
+## Index Of {#index-of}
+
+The `indexOf` function is used to return the position (in the first argument) of the first occurrence of the second parameter. Returns -1 if there is no match.
+
+**Format**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | The string to perform the check on. |
+| `{STRING_2}` | The string to search in the first parameter|
+
+**Example**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+Returns 6.
+
 ## Is empty {#isEmpty}
 
-The `isEmpty` function is used to determine of a string is empty.
+The `isEmpty` function is used to determine if a string is empty.
 
 **Format**
 
@@ -268,6 +346,47 @@ The following function returns 'true' if the profile's mobile phone number is em
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## Is Not Empty {#is-not-empty}
+
+The `isNotEmpty` function is used to determine if a string is not empty.
+
+**Format**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**Example**
+
+The following function returns 'true' if the profile's mobile phone number is not empty. Else, it will return 'false'.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## Last Index Of {#last-index-of}
+
+The `lastIndexOf` function is used to return the position (in the first argument) of the last occurrence of the second parameter. Returns -1 if there is no match.
+
+**Format**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | The string to perform the check on. |
+| `{STRING_2}` | The string to search in the first parameter|
+
+**Example**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+Returns 7.
 
 ## Left trim {#leftTrim}
 
@@ -376,6 +495,24 @@ The following query replaces the "123456789" string with "X" characters, excepte
 
 The query returns `1XXXXXX89`.
 
+## MD5 {#md5}
+
+The `md5` function is used to calculate and return the md5 hash of a string.
+
+**Format**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**Example**
+
+```sql
+{%= md5("hello world") %}
+```
+
+Returns "5eb63bbbe01eeed093cb22bb8f5acdc3"
+
 ## Not equal to{#notEqualTo}
 
 The `notEqualTo` function is used to determine if a string is not equal to the specified string.
@@ -397,6 +534,29 @@ The following query determines, with case sensitivity, if the person's name is n
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## Not Equal With Ignore Case {#not-equal-with-ignore-case}
+
+The `notEqualWithIgnoreCase` function is used to compare two strings ignoring case.
+
+**Format**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | The string to perform the check on. |
+| `{STRING_2}` | The string to compare with the first string. |
+
+**Example**
+
+The following query determines if the person's name is not "john", with no case sensitivity.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## Regular expression group{#regexGroup}
@@ -430,17 +590,22 @@ The `replace` function is used to replace a given substring in a string with ano
 **Format**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | The string where the substring must be replaced. |
+| `{STRING_2}` | The substring to replace. |
+| `{STRING_3}` | The replacement substring. |
 
 **Example**
 
-The following function .
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+Returns "Hello Mark, here is your monthly newsletter!"
 
 ## Replace All{#replaceAll}
 
@@ -452,11 +617,9 @@ The `replaceAll` function is used to replace all substrings of a text that match
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## Right trim {#rightTrim}
 
 The `rightTrim` function is used removes white spaces from end of a string.
-
 
 **Format**
 
@@ -473,17 +636,6 @@ The `split` function is used to split a string by a given character.
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## Starts with{#startsWith}
 
@@ -510,6 +662,35 @@ The following query determines, with case sensitivity, if the person's name star
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## String to integer {#string-to-integer}
+
+The `string_to_integer` function is used to convert a string value into an integer value.
+
+**Format**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## String to number {#string-to-number}
+
+The `stringToNumber` function is used to convert a string into number. It returns the same string as output for invalid input.
+
+**Format**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## Sub string {#sub-string}
+
+The `Count string` function is used to return the sub-string of the string expression between the begin index and the end index.
+**Format**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## Title Case{#titleCase}
 
 The **titleCase** function is used to capitalize first letters of each words of a string.
@@ -526,6 +707,36 @@ If the person lives in Washington high street, this function will return Washing
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## To Bool {#to-bool}
+
+The `toBool` function is used to convert an argument value into a boolean value, depending on its type.
+
+**Format**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## To Date Time {#to-date-time}
+
+The `toDateTime` function is used to convert string to date. It returns the epoch date as output for invalid input.
+
+**Format**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## To Date Time Only {#to-date-time-only}
+
+The `toDateTimeOnly` function is used to convert an argument value into a date time only value.. It returns the epoch date as output for invalid input. 
+
+**Format**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## Trim{#trim}
@@ -554,4 +765,24 @@ This function converts the profile last name to upper case letters.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## url decode {#url-decode}
+
+The `urlDecode` function is used to decode a url encoded string.
+
+**Format**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## Url encode {#url-encode}
+
+The `Count only null` function is used to url encode a string.
+
+**Format**
+
+```sql
+{%= urlEncode(string) %}: string
 ```

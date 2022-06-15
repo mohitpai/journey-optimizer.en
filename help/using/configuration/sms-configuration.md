@@ -3,15 +3,9 @@ title: SMS configuration
 description: Learn how to configure your environment to send SMS messages with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 ---
 # Configure SMS channel {#sms-configuration}
-
->[!CAUTION]
->
-> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 [!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. 
 

@@ -11,6 +11,41 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 
 Use these functions to make interaction with arrays, lists, and strings easier.
 
+## Count only null {#count-only-null}
+
+The `countOnlyNull` function is used to count the number of null values in a list.
+
+**Format**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Example**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Returns 3.
+
+## Count With Null {#count-with-null}
+
+The `countWithNull` function is used to count all the elements of a list including null values.
+
+**Format**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Example**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Returns 6.
+
 ## Distinct{#distinct}
 
 The `distinct` function is used to get values from an array or list with duplicate values removed.
@@ -28,15 +63,32 @@ The following operation specifies people who have placed orders in more than one
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Distinct Count With Null {#distinct-count-with-null}
 
-## First item{#head}
-
-The `head` function is used to return the first item in the array or list.
+The `distinctCountWithNull` function is used to count the number of different values in a list including the null values.
 
 **Format**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Example**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Returns 3.
+
+## First item{#head}
+
+The `head` function is used to return the first item in an array or list.
+
+**Format**
+
+```sql
+{%= head(array) %}
 ```
 
 **Example**
@@ -168,7 +220,6 @@ The following operation returns the top five orders with the lowest price.
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Not in{#notin}
 

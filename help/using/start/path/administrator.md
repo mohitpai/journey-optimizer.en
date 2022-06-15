@@ -62,6 +62,6 @@ Follow the steps listed below:
 
     ![](../assets/suppression-list-filtering-example.png)
 
-    * The [allowed list](../../reports/allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../reports/allow-list.md).
+    * The [allowed list](../../configuration/allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../../configuration/allow-list.md).
 
     Learn more about deliverability management in [!DNL Adobe Journey Optimizer] [in this page](../../reports/deliverability.md).

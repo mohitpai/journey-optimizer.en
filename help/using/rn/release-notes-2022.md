@@ -9,6 +9,103 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 The latest release notes are available [in this page](release-notes.md).
 
+to your inbox every quarter. 
+
+## May 2022 Release {#may-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>Message Frequency Rules</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
+<img src="assets/do-not-localize/frequency-rn.gif"/>
+<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<img src="assets/do-not-localize/optimization.gif"/>
+<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>This capability is available for a limited set of customers.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Audit Logs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now monitor actions performed by users on Adobe Journey Optimizer resources.</p>
+<img src="assets/do-not-localize/audit-rn.gif"/>
+<p>For more information, refer to the <a href="../reports/audit-logs.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Personalization**
+
+* **New helper function for characters hiding** - The `mask` helper function allows you to replace a part of a string with "X" characters. [Learn more](../personalization/functions/string.md#mask)
+
+**Landing pages**
+
+* **Landing pages without a form** - You can now create and publish a landing page which does not contain a form, and requires no action from visitors.
+* **Landing page templates** - You can now save a landing page as a template and reuse it when creating other landing pages. [Learn more](../landing-pages/lp-templates.md)
+* **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page. 
+* **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../landing-pages/lp-custom-js.md)
+
+**Journeys**
+
+* **Read segment** - One-shot Read segment journeys now move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence. [Learn more](../building-journeys/read-segment.md)
+* **Expression editor** - The [limit](../building-journeys/functions/functionlimit.md) function has been added to allow you to limit the number of items of a list. The [sort](../building-journeys/functions/functionsort.md) function now allows you to sort out a list object. The support of listObject has also been added to the [disctinct](../building-journeys/functions/functiondistinct.md) and [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) functions.
+
+**Administration**
+
+* **License usage dashboard update** – The License usage dashboard available in the [!DNL Adobe Journey Optimizer] user interface now reflects the accurate value for the **Licensed** Average profile richness. You will see a drop in this metric representation, which means the license limit is now correctly reported. [Learn more](../segment/license-usage.md)
+
+
 ## April 2022 Release {#april-2022-release}
 
 ### Improvements
@@ -64,7 +161,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 **Administration**
 
 * You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../reports/allow-list.md#enable-allow-list)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../configuration/allow-list.md#enable-allow-list)
 
 **Personalization**
 
