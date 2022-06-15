@@ -101,19 +101,38 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-	
+
 
 
 
 ### Improvements
 
-**Personalization**
+**Decision Management**
+
+* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor.	
+
+**Email**
+
+**Save as template** - You can now save an email content as a template and re-use it when creating a new message.
 
 
 **Landing pages**
 
-* **Landing pages without a form** - You can now crea
+**Save as template** - You can now save a landing page as a template and re-use it when creating a new landing page.
+
 
 **Journeys**
 
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tafs are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.	 
+
 **Administration**
+
+* **PTR records and IP pools** - When selecting IP pools at the message preset level or when creating/editing IP pools, the associated PTR records are now displayed.
+* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.
+* **Preview tracking URL parameters** - When configuring a message preset, if you define URL tracking parameters, a dynamic preview of the resulting tracking URL is now displayed.
+* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets.	
+* **Top up IPs in the UI** - It is now possible to edit the PTR records to associate a delegated subdomain when topping up IPs provisioned.	
+
+**Reporting**
+
+* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.	
