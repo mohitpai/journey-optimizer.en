@@ -112,7 +112,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tafs are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.	 
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.	 
 
 **Administration**
 
