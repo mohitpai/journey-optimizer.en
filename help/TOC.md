@@ -247,8 +247,9 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
+    + [Suppression list](using/reports/suppression-list.md)
+    + [Allowed list](using/reports/allow-list.md)
     + [About the suppression list](using/reports/suppression-list.md)
-  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -404,4 +405,7 @@ solution: Journey Optimizer
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
-
++ Privacy {#privacy}
+  + [Data usage policies](using/privacy/policies.md)  
+  + [Privacy requests](using/privacy/requests.md)
+  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)
