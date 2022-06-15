@@ -25,7 +25,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>For more information, refer to the <a href="../messages/create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -43,7 +42,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>The Adobe Stock and Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate, license and save imagery for use in message authoring. </br> The new <b>Find similar Stock photos</b> option also allows you to locate Stock photos that will match the content, color, and composition of your images. </p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>For more information, refer to the <a href="../design/stock.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -100,8 +98,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Improvements
