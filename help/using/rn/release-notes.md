@@ -25,6 +25,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
 <p>For more information, refer to the <a href="../messages/create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -101,7 +102,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Dynamic Expression Builder</strong><br/></th>
@@ -115,7 +116,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 ### Improvements
