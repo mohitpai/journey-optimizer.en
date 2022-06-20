@@ -18,7 +18,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>SMS channel</strong><br/></th>
+<th><strong>Send SMS to your users</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -36,7 +36,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Stock integration</strong><br/></th>
+<th><strong>Find more impactful images faster with Adobe Stock integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -53,7 +53,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Email BCC</strong><br/></th>
+<th><strong>Use Email BCC on all your emails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Decision Management - AI Ranking personalized optimization model</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -141,6 +141,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets.	
 * **Top up IPs in the UI** - It is now possible to edit the PTR records to associate a delegated subdomain when topping up IPs provisioned.	
 
+<!--
 **Reporting**
 
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.	
+* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
+-->
