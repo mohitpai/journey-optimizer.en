@@ -26,6 +26,11 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
++ Campaigns {#campaigns}
+  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
+  + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
+  + [Create a content experiment](using/campaigns/content-experiment.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
@@ -65,30 +70,35 @@ solution: Journey Optimizer
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Personalization{#personalization}
-  + [Get started with personalization](using/personalization/personalize.md)
-  + [Personalization contexts](using/personalization/personalization-contexts.md)
-  + Build expressions {#build-expressions}
-    + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression Editor {#expression-editor}
-      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-      + [Work with saved expressions](using/personalization/personalization-library.md)  
-      + [Personalization validation](using/personalization/personalization-validation.md)
-    + Helper functions{#functions}
-      + [Get started with helper functions](using/personalization/functions/functions.md)
-      + [Aggregation functions](using/personalization/functions/aggregation.md)
-      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-      + [Date Time functions](using/personalization/functions/dates.md)
-      + [Boolean and comparison functions](using/personalization/functions/operators.md)
-      + [Helpers](using/personalization/functions/helpers.md)
-      + [Map functions](using/personalization/functions/maps.md)
-      + [Object functions](using/personalization/functions/objects.md)
-      + [String functions](using/personalization/functions/string.md) 
-  + Use cases{#personalization-use-cases}    
-    + [Order status notification](using/personalization/personalization-use-case.md)
-    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
++ Personalization & dynamic content {#personalized-dynamic-content}  
+  + Personalization {#personalization}
+    + [Get started with personalization](using/personalization/personalize.md)
+    + [Personalization contexts](using/personalization/personalization-contexts.md)
+    + Build expressions {#build-expressions}
+      + [Personalization syntax](using/personalization/personalization-syntax.md)
+      + Work with the Expression Editor {#expression-editor}
+        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+        + [Work with saved expressions](using/personalization/personalization-library.md)  
+        + [Personalization validation](using/personalization/personalization-validation.md)
+      + Helper functions{#functions}
+        + [Get started with helper functions](using/personalization/functions/functions.md)
+        + [Aggregation functions](using/personalization/functions/aggregation.md)
+        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+        + [Date functions](using/personalization/functions/dates.md)
+        + [Boolean and comparison functions](using/personalization/functions/operators.md)
+        + [Helpers](using/personalization/functions/helpers.md)
+        + [Map functions](using/personalization/functions/maps.md)
+        + [Object functions](using/personalization/functions/objects.md)
+        + [String functions](using/personalization/functions/string.md) 
+    + Use cases{#personalization-use-cases}    
+      + [Order status notification](using/personalization/personalization-use-case.md)
+      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Build dynamic content {#dynamic}
+    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
+    + [Create conditions](using/personalization/create-conditions.md)
+    + [Build conditional content](using/personalization/build-conditional-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
@@ -263,7 +273,9 @@ solution: Journey Optimizer
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
     + AI models {#ai-models}
       + [About AI models](using/offers/ranking/ai-models.md)
-      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+      + AI model types {#ai-model-types}
+        + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+        + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
       + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
         + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
