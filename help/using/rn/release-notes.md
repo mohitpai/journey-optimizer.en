@@ -123,11 +123,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Decision Management**
 
-* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. Learn more
+* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
+<!--
 **Email**
 
 * **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+-->
 
 **Journeys**
 
