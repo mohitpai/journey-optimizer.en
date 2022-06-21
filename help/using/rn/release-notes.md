@@ -123,7 +123,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Decision Management**
 
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content. [Learn more](../offers/offer-library/add-representations.md#html-json)
+* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the Adobe Experience Cloud Asset library into the offer representation content. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
 <!--
 **Email**
