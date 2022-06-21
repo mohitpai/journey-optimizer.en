@@ -157,8 +157,13 @@ Learn more on retries in [this section](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL tracking parameters"
->abstract="Use this section to automatically append tracking parameters to the campaign URLs present in your email content."
+>title="Define URL tracking parameters"
+>abstract="Use this section to automatically append tracking parameters to the URLs present in your email content. This feature is optional."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Preview URL tracking parameters"
+>abstract="Review how tracking parameters will be appended to the URLs present in your email content."
 
 You can use **[!UICONTROL URL Tracking Parameters]** to measure the effectiveness of your marketing efforts across channels. This feature is optional.
 
@@ -169,7 +174,6 @@ The parameters defined in this section will be appended to the end of the URLs i
 Three URL tracking parameters are auto-populated as an example when you create a message preset. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.
 
 To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
-
 * Journey attributes: **Source id**, **Source name**, **Source version id**
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
@@ -179,6 +183,14 @@ To configure a URL tracking parameter, you can directly enter the desired values
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.
+
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
+You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
+
+![](assets/preset-url-tracking-preview.png)
 
 Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
