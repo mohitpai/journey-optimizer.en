@@ -15,5 +15,5 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 
 For more information on the Privacy Service and how to create and manage privacy requests, refer to Adobe Experience Platform documentation:
 
-* [Privacy Service overview](https://experienceleague.corp.adobe.com/docs/experience-platform/privacy/home.html)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.corp.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
