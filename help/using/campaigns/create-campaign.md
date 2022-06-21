@@ -47,7 +47,7 @@ The steps to create a campaign are as follows:
 
         ![](assets/create-campaign-design.png)
 
-    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery. Tracking results will be accessible from the campaign report once the campaign has been executed. <!--[Learn more on campaign reports](campaign-global-report.md)-->
+    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery. Tracking results will be accessible from the campaign report once the campaign has been executed. <!--Learn more on campaign reports-->
 
         ![](assets/create-campaign-action-properties.png)
 
