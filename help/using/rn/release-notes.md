@@ -123,7 +123,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Decision Management**
 
-* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md#html-json)
+**HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
 <!--
 **Email**
