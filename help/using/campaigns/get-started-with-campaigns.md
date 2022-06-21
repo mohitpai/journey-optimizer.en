@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 
 # Get started with campaigns {#get-started-campaigns}
@@ -22,10 +24,10 @@ Unlike journeys, where actions are designed to be executed in sequence, campaign
 
 Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.
 
-Learn how to manage campaigns and content experiments:
+Learn how to manage campaigns and content experiments<!--TBC-->:
 * [Create a campaign](create-campaign.md)
 * [Modify or stop a campaign](modify-stop-campaign.md)
-* [Create a content experiment](content-experiment.md)
+* [Create a content experiment](content-experiment.md) <!--TBC-->
 
 ## Access campaigns {#access}
 

@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 
 # Modify or stop a campaign {#modify-stop-campaign}

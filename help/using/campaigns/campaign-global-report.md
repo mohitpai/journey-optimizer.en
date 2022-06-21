@@ -5,6 +5,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Campaign global report {#campaign-global-report}
 
@@ -12,15 +14,31 @@ Campaign global report can be accessed directly from your Campaign with the **[!
 
 The Campaign **[!UICONTROL Global report]** page will be displayed with the following tabs:
 
-* [Experimentation](#experimentation-global)
+* [Campaign](#campaign-global)
 * [Email](#email-global)
 * [Push](#push-global)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
 
-## Experimentation tab (#experimentation-global)
+## Campaign tab {#campaign-global}
+
+### Delivery {#delivery-global}
+
+![](assets/campaign_report_global_1.png)
+
+The **[!UICONTROL Campaign's Statistics]** widget details the main information relative to your campaign:
+
+* **[!UICONTROL Entered profiles]**: Number of profiles who started the journey.
+
+* **[!UICONTROL Actions delivered]**: Total number of unique times an action in the journey has been delivered.
+
+* **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
+
+<!--
+### Experimentation tab (#experimentation-global)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+-->
 
 ## Email tab {#email-global}
 
@@ -30,7 +48,7 @@ For a detailed report on a specific email delivery, refer to the [Email global r
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
-* **[!UICONTROL Targeted]**: 
+* **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -46,9 +64,9 @@ The **[!UICONTROL Email Sending Statistics]** graph details the success of your 
 
 * **[!UICONTROL Error Rate]**: Percentage of errors that occurred during a delivery preventing it from being sent compared to emails sent.
 
-* **[!UICONTROL Retries]**: 
+* **[!UICONTROL Retries]**: Number of emails in the queue for retries.
 
-* **[!UICONTROL Excluded]**: 
+* **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
 The **[!UICONTROL Email - Tracking statistics]** contains the available data for recipient activity for your delivery:
 
@@ -74,7 +92,7 @@ The **[!UICONTROL Sending Statistics]** graph contains the data available for se
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Retries]**: 
+* **[!UICONTROL Retries]**: Number of emails in the queue for retries.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
@@ -111,33 +129,6 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-<!--
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
-
-The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
-
-* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
-
-* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
-
-* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
-
 ## Push tab {#push-global}
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
@@ -146,7 +137,7 @@ For a detailed report on a specific push delivery, refer to this the [Push Globa
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
-* **[!UICONTROL Targeted]**: 
+* **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -162,7 +153,7 @@ The **[!UICONTROL Push notification - Sending statistics]** table details the ma
 
 * **[!UICONTROL Error Rate]**: Percentage of errors that occurred during a delivery preventing it from being sent compared to push notifications sent.
 
-* **[!UICONTROL Excluded]**: 
+* **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
 The **[!UICONTROL Push - Tracking statistics]** contains the available data for recipient activity for your delivery:
 

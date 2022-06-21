@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 
 # Create a campaign {#create-campaign}
@@ -24,18 +26,18 @@ The steps to create a campaign are as follows:
 
     ![](assets/create-campaign.png)
 
-1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date defined in the next step,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
 
-    In the **[!UICONTROL Actions]** section, choose the channel and the message surface (i.e. message preset) to use to send your message.
+1. In the **[!UICONTROL Actions]** section, choose the channel and the message surface (i.e. message preset) to use to send your message.
 
     ![](assets/create-campaign-action.png)
 
 1. Specify a title and a description for the campaign.
 
-    To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).
+    To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).<!--TBC-->
 
     ![](assets/create-campaign-properties.png)
 
@@ -47,7 +49,9 @@ The steps to create a campaign are as follows:
 
         ![](assets/create-campaign-design.png)
 
-    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery. Tracking results will be accessible from the campaign report once the campaign has been executed. <!--Learn more on campaign reports-->
+    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery.
+        
+        Tracking results will be accessible from the campaign report once the campaign has been executed. [Learn more on campaign reports](campaign-global-report.md)
 
         ![](assets/create-campaign-action-properties.png)
 
@@ -70,9 +74,7 @@ The steps to create a campaign are as follows:
 
 1. Configure the campaign's start and end dates.
 
-    >[!NOTE]
-    >
-    >By default, Campaigns are configured to start once they are activated manually, and to end as soons as the message has been sent once. <!--For in-app messages, you need to stop the campaign manually or specify an end date.-->
+    By default, Campaigns are configured to start once they are activated manually, and to end as soons as the message has been sent once.
 
 1. Additionally, you can configure a frequency for the execution of the action configured in the campaign.
 
@@ -108,7 +110,7 @@ Once your campaign has been configured, you need to review its parameter and con
 
 1. Once a campaign has been activated, you can check at any time its information by opening it. The summary allows you to get statistics about number of targeted profiles and delivered and failed actions.
 
-    You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. <!--Learn morecampaign-global-report.md-->
+    You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. [Learn more](campaign-global-report.md)
 
     ![](assets/create-campaign-summary.png)
 

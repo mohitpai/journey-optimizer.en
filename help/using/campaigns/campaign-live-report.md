@@ -5,6 +5,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Campaign live report {#campaign-live-report}
 
@@ -12,16 +14,25 @@ Campaign live report can be accessed directly from your campaign with the **[!UI
 
 The Campaign **[!UICONTROL Live report]** page will be displayed with the following tabs:
 
-* [Experimentation](#experimentation-live)
+* [Campaign](#campaign-live)
 * [Email](#email-live)
 * [Push](#push-live)
 
 The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
 
-## Experimentation tab (#experimentation-live)
+## Campaign tab {#campaign-global}
+
+### Delivery {#delivery-global}
+
+The **[!UICONTROL Campaign Statistics]** widget details the main information relative to your campaign:
+
+* **[!UICONTROL Entered profiles]**: Number of profiles who started the journey.
+
+<!--
+### Experimentation tab (#experimentation-live)
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
-
+-->
 ## Email tab {#email-live}
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your campaign.

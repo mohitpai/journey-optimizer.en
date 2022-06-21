@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
 # Create a content experiment {#content-experiment}
 
@@ -90,10 +92,7 @@ Once your treatments are personalized, you can start configuring your content ex
 
     ![](assets/content_experiment_10.png)
 
-1. Select the objectives you want to set for your experiment:
-
-    * **[!UICONTROL Email click]**: this experiment will compare the **[!UICONTROL Email click]** conversion rates, i.e. the number of unique profiles who click on content in the email, divided by the number of unique people who received each email.
-    * **[!UICONTROL Email open]**: this experiment will compare the **[!UICONTROL Email open]** conversion rates, i.e. the number of unique profiles who opened each email, divided by the number of unique people who received each email.
+1. Select the objectives you want to set for your experiment.
 
     For our experiment, we select **[!UICONTROL Email open]** to test if recipients will open their emails if the promo code is in the subject line.
 
