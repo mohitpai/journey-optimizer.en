@@ -11,7 +11,10 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## June 2022 {#june-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] June '22 release have been detailed in the documentation. [Read more](release-notes.md)
-* A new section about Privacy has been added to the documentation. [Read more](../privacy/policies.md)
+* A new section about Data usage policies has been added to the documentation. [Read more](../privacy/policies.md)
+* A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
+* A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
+* A new section about how to add HTML or JSON content coming from Adobe Experience Manager to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
 
 
 ## May 2022 {#may-2022}

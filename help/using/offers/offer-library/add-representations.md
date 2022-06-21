@@ -66,7 +66,7 @@ If the selected placement is image-type, you can add content coming from the **A
 
 >[!NOTE]
 >
-> To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+> To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
     
 1. Choose the **[!UICONTROL Asset library]** option.
 
@@ -79,6 +79,16 @@ If the selected placement is image-type, you can add content coming from the **A
 1. Click **[!UICONTROL Select]**.
 
     ![](../assets/offer-select-asset.png)
+
+### Add HTML or JSON files {#html-json}
+
+If the selected placement is HTML-type, you can also add HTML or JSON content coming from the [Adobe Experience Cloud Asset library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
+
+For example, you created an HTML email template in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} and you want to use that file for your offer content. Instead of creating a new file, you can simply upload the template into the **Asset Library** to be able to reuse it in your offer's representations.
+
+To reuse your content in a representation, browse the **Asset Library** as described in [this section](#images) and select the HTML or JSON file of your choice.
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### Add URLs {#urls}
 
@@ -109,3 +119,4 @@ You can also insert text-type content when selecting a compatible placement.
     >[!NOTE]
     >
     >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
+

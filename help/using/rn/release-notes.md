@@ -61,7 +61,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/bcc-email.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -123,23 +123,24 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Decision Management**
 
-* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor.	
+* **Personalize URLs in offer content** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
+<!--
 **Email**
 
-**Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+-->
 
 **Journeys**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.	 
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
 
 **Administration**
 
-* **PTR records and IP pools** - When selecting IP pools at the message preset level or when creating/editing IP pools, the associated PTR records are now displayed.
-* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.
+<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+
 * **Preview tracking URL parameters** - When configuring a message preset, if you define URL tracking parameters, a dynamic preview of the resulting tracking URL is now displayed.
-* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets.	
-* **Top up IPs in the UI** - It is now possible to edit the PTR records to associate a delegated subdomain when topping up IPs provisioned.	
+* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets.
 
 <!--
 **Reporting**

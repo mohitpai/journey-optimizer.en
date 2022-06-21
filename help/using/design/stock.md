@@ -5,17 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 ---
 # Manage [!DNL Adobe Stock] images {#stock}
 
 ## Get started with [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> The use of the [!DNL Adobe Stock] integration is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 [!DNL Adobe Stock] provides access to millions of high-quality, curated, royalty-free photos, videos, illustrations, and vector graphics. You can choose to purchase a credit pack to license assets or only buy one Standard or Extended license for the needed asset. Adobe Stock also provides a free collection of assets.
 
@@ -25,6 +19,10 @@ With [!DNL Adobe Journey Optimizer], you can upload images to your emails direct
 [Learn more about email design](design-emails.md).
 
 ## Insert and import [!DNL Adobe Stock] images {#add-stock-image}
+
+>[!NOTE]
+>
+> The **[!UICONTROL Find Adobe Stock photos]** option will be only available to users with access to an AEM Assets Essentials Product Profile. For more on this, refer to [Assets essential documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 After editing and personalizing your email, you can add images from [!DNL Adobe Stock] to your template:
 
@@ -49,7 +47,8 @@ After editing and personalizing your email, you can add images from [!DNL Adobe 
 
 1. From the [!DNL Adobe Stock] website, you will need to purchase your asset to be able to download the image and remove the watermark. 
 
-    This purchase will depend on your Adobe Stock plan or subscription. For more on this, refer to this [page](https://stock.adobe.com/plans).
+    This purchase will depend on your Adobe Stock plan or subscription. Note that if you have multiple Adobe Stock accounts, you will be redirected to the last used Stock ID. In this case, make sure you are signed in to the correct account before licensing your asset.
+    For more on this, refer to this [page](https://stock.adobe.com/plans).
     
     >[!WARNING]
     > If an email including an unlicensed image is sent, the image will keep its unlicensed form with the watermark.
