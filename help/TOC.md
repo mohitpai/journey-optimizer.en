@@ -248,7 +248,6 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [About the suppression list](using/reports/suppression-list.md)
-  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)

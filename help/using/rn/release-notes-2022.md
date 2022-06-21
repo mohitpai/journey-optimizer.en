@@ -77,7 +77,7 @@ to your inbox every quarter.
 <td>
 <p>You can now monitor actions performed by users on Adobe Journey Optimizer resources.</p>
 <img src="assets/do-not-localize/audit-rn.gif"/>
-<p>For more information, refer to the <a href="../reports/audit-logs.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../privacy/audit-logs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
