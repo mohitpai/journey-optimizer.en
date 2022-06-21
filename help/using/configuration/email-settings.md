@@ -165,7 +165,7 @@ Learn more on retries in [this section](retries.md).
 >title="Preview URL tracking parameters"
 >abstract="Review how tracking parameters will be appended to the URLs present in your email content."
 
-You can use **[!UICONTROL URL Tracking Parameters]** to measure the effectiveness of your marketing efforts across channels. This feature is optional.
+You can use **[!UICONTROL URL tracking parameters]** to measure the effectiveness of your marketing efforts across channels. This feature is optional.
 
 The parameters defined in this section will be appended to the end of the URLs included in your email message content. You can then capture these parameters in web analytics tools such as Adobe Analytics or Google Analytics, and create various performance reports.
 
@@ -173,7 +173,9 @@ The parameters defined in this section will be appended to the end of the URLs i
 
 Three URL tracking parameters are auto-populated as an example when you create a message preset. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.
 
-To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields, or choose from a list of predefined values by navigating to the following objects:
+To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields.
+
+You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
@@ -188,10 +190,6 @@ To configure a URL tracking parameter, you can directly enter the desired values
 
 You can drag and drop the parameters to reorder them.-->
 
-You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
-
-![](assets/preset-url-tracking-preview.png)
-
 Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
 * Adobe Analytics compatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -201,3 +199,7 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 >[!NOTE]
 >
 >You can combine typing text values and selecting predefined values. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
+
+You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
+
+![](assets/preset-url-tracking-preview.png)
