@@ -127,7 +127,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Email**
 
-**Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
 
 **Journeys**
 
