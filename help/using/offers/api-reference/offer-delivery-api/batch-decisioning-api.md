@@ -175,13 +175,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Service levels {#service-levels}
 
-The end-to-end time for every batch decision is the duration from the time the workload is created to the to the time when the decision result is available in the output dataset. The segment size in the POST request payload is the main factor that affects the end-to-end batch decision time.  Below are some observations for different segment sizes:
+The end-to-end time for every batch decision is the duration from the time the workload is created to the time when the decision result is available in the output dataset. The segment size in the POST request payload is the main factor that affects the end-to-end batch decision time. If the eligible offer has a global frequency cap enabled, then batch decisioning takes additional time to complete. Below are some approximations of end-to-end processing time for their respective segment sizes, both with and without frequency capping for eligible offers:
+
+With frequency cap enabled for eligible offers:
+
+| Segment size | End-to-end processing time |
+|--------------|----------------------------|
+| 10 thousand profiles or less| 7 minutes|
+| 1 million profiles or less| 30 minutes|
+| 15 million profiles or less| 50 minutes|
+
+Without frequency cap for eligible offers:
 
 | Segment size | End-to-end processing time |
 |--------------|----------------------------|
 | 10 thousand profiles or less| 6 minutes|
-| 1 million profiles or less| 10 minutes|
-| 15 million profiles or less| 75 minutes|
+| 1 million profiles or less| 8 minutes|
+| 15 million profiles or less| 16 minutes|
 
 ## Limitations {#limitations}
 
