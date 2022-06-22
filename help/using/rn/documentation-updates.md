@@ -7,6 +7,20 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+
+## June 2022 {#june-2022}
+
+* All new features and improvements coming with [!DNL Journey Optimizer] June '22 release have been detailed in the documentation. [Read more](release-notes.md)
+* A new section about Data usage policies has been added to the documentation. [Read more](../privacy/policies.md)
+* A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
+* A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
+* A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey-end.md)
+* Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
+* Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../start/datasets-query-examples.md)
+* The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
+* The Suppression list page has been updated. [Read more](../configuration/manage-suppression-list.md)
+
 ## May 2022 {#may-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)

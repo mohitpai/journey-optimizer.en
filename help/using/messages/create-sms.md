@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 ---
 # Create an SMS message {#create-sms}
@@ -16,10 +14,9 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >title="SMS creation"
 >abstract="Add your text message and start personalizing it with the Expression Editor."
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+>Regulations require that SMS recipients can reply with opt-in and opt-out keywords. Adobe Journey Optimizer automatically processes the following keywords: Start, Stop, and Unstop.
 
 Once you [created a message](get-started-content.md), use the **[!UICONTROL SMS]** tab to define the settings and content for the SMS channel.
 
@@ -50,5 +47,6 @@ Your SMS message can now be used in a journey. [Learn how to create journeys](..
 **Related topics**
 
 * [Configure SMS channel](../configuration/sms-configuration.md)
+* [SMS report](../reports/journey-global-report.md#sms-global)
 * [Create a new message](get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

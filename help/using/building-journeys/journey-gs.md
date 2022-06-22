@@ -128,7 +128,7 @@ Burst mode is a Journey Optimizer add-on that allows very fast push message send
 Burst messaging comes with the following requirements:
 
 * The journey must start with a **Read segment** activity. Events are not allowed.
-* The next step must be a push message. No other channel, activity or step is allowed (except the optional **End** activity).
+* The next step must be a push message. No other channel, activity or step is allowed.
 * No personalization is allowed in the push message.
 * The message must be small (<2KB).
 
@@ -149,73 +149,3 @@ Then test and publish your journey as usual. Note that, in test mode, messages a
 Understand the applicable use cases for burst messaging, and how to configure a journey for burst messages, in this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## End, stop or close a journey{#end-journey}
-
-A journey can end for an individual in two specific contexts:
-
-* The person arrives at the last activity of a path. This last activity can be an **End** activity or another activity. Using an **End** activity is not mandatory. See [this page](../building-journeys/end-activity.md).
-* The person arrives at a **Condition** activity (or a **Wait** activity with a condition) and does not match any of the conditions.
-
-The person can then re-enter the journey if re-entrance is allowed. See [this page](../building-journeys/journey-gs.md#change-properties)
-
-A journey can close because of the following reasons:
-
-* The journey is closed manually via the **[!UICONTROL Close to new entrances]** button. 
-* A one-shot segment based journey that has finished executing.
-* After the last occurrence of a recurring segment based journey.
-
-When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey stops letting new individuals enter the journey. Persons already in the journey can finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
-
-In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
-
-Here is how you close or stop a journey manually:
-
-The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options allow you to terminate **live** journeys. Closing a journey involves **that the arrival of new customers in the journey is blocked** and that the customers who already entered in the journey are able to experience it to the end. This is the most recommended way to put an end to a journey as it offers the best experience for customers. Stopping a journey involves that people who already entered a journey are all stopped in their progress. The journey is basically switched off.
-
->[!NOTE]
->
->Note that you cannot resume a closed or stopped journey.
-
-### Close a journey
-
-You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
-
-When closed, a journey will have the status **[!UICONTROL Closed]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
-
-A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
-
-To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Close to new entrances]**.
-
-![](assets/journey-finish-quick-action.png)
-
-You can also:
-
-1. In the **[!UICONTROL Journeys]** list, click on the journey you want to close.
-1. On the top-right, click the down arrow.
-
-    ![](assets/finish_drop_down_list.png)
-
-1. Click **[!UICONTROL Close to new entrances]**, and confirm in the dialog box.
-
-### Stop a journey
-
-You can stop a journey when an emergency occurred and all processing needs to be ended immediately on a journey.
-
-A stopped journey version cannot be restarted.
-
-When stopped, the journey status is set to **[!UICONTROL Stopped]**. 
-
-You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
-
-![](assets/journey-finish-quick-action.png)
-
-You can also:
-
-1. In the **[!UICONTROL Journeys]** list, click on the journey you want to stop.
-1. On the top-right, click on the down arrow.
-
-  ![](assets/finish_drop_down_list.png)
-
-1. Click **[!UICONTROL Stop]**, and confirm in the dialog box.

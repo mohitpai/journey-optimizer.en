@@ -61,7 +61,7 @@ To create a new message, follow the steps below:
 
    * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
 
-   * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
+   * Select the channel(s) you want to use for that message: Email, Push notification and/or SMS. You must select at least one channel to be able to create the message.
 
    >[!NOTE]
    >
@@ -93,6 +93,7 @@ To create a new message, follow the steps below:
 
    * [Create an email](create-email.md)
    * [Create a push notifications](create-push.md)
+   * [Create an SMS message](create-sms.md)
 
    >[!NOTE]
    >   

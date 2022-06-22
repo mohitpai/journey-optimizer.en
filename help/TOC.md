@@ -26,6 +26,13 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
++ Campaigns {#campaigns}
+  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
+  + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
+  + Reports {#reports}
+    + [Campaign live report](using/campaigns/campaign-live-report.md)
+    + [Campaign global report](using/campaigns/campaign-global-report.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
@@ -101,6 +108,7 @@ solution: Journey Optimizer
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
+    + [Journey lifecycle](using/building-journeys/journey-end.md) 
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
@@ -109,6 +117,7 @@ solution: Journey Optimizer
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
+    + [Copy a journey](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
   + Activities {#about-journey-building}
     + [About journey activities](using/building-journeys/about-journey-activities.md)
@@ -248,7 +257,6 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [About the suppression list](using/reports/suppression-list.md)
-  + [Audit actions on Journey Optimizer resources](using/reports/audit-logs.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -343,7 +351,9 @@ solution: Journey Optimizer
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
   + [Schemas](using/start/get-started-schemas.md)
-  + [Datasets](using/start/get-started-datasets.md)
+  + Datasets {#datasets}
+    + [Get started with datasets](using/start/get-started-datasets.md)
+    + [Query examples](using/start/datasets-query-examples.md)
   + [Queries](using/start/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
@@ -404,4 +414,7 @@ solution: Journey Optimizer
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
-
++ Privacy {#privacy}
+  + [Data usage policies](using/privacy/policies.md)  
+  + [Privacy requests](using/privacy/requests.md)
+  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)

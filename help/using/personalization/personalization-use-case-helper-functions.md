@@ -97,7 +97,6 @@ The cart content is contextual information from the journey. Therefore, you must
 
 1. Create a journey that starts with this event.
 1. Add the message to the journey.
-1. End the journey with an end activity.
 
    Because you have not yet published the message, you cannot neither test nor publish the journey.
    

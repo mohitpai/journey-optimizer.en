@@ -132,7 +132,7 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 1. Add an **[!UICONTROL Update Profile]** action activity. 
 1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
     ![](assets/test-profiles-26.png)
-1. Add an **End** activity and click **[!UICONTROL Publish]**.
+1. Click **[!UICONTROL Publish]**.
 1. In the **[!UICONTROL Segments]** section, check that the profiles have been correctly updated.
     ![](assets/test-profiles-28.png)
 

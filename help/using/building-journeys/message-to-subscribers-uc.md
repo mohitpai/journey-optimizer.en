@@ -51,5 +51,3 @@ To configure this journey, follow these steps:
     1. In the **[!UICONTROL Add an expression]** dialog box, click **[!UICONTROL Ok]**.
 
       ![](assets/message-to-subscribers-uc-3.png)
-
-1. End the journey with an **[!UICONTROL End]** activity.

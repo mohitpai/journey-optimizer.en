@@ -115,8 +115,6 @@ Refer to this [section](../segment/about-segments.md) to learn how to design and
 
 1. After the event, drop a **Message** activity and select the email "thank you" message. 
 
-1. Add an **End** activity.
-
 ## Test and publish the journey
 
 1. Before testing your journey, verify that it is valid and that there is no error.

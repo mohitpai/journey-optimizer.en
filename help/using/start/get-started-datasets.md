@@ -65,6 +65,8 @@ Learn more about dataset creation in [Adobe Experience Platform documentation](h
 
 Learn how to use Datasets UI in the [Data Ingestion overview documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
+A list of use cases with query examples is available [here](../start/datasets-query-examples.md).
+
 **See also**
 
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}

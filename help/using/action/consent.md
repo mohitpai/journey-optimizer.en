@@ -34,6 +34,8 @@ With consent management, two journey activities are analyzed:
 * Read segment: the retrieved segment is taken into account.
 * Custom action: consent management takes into account the attributes used ([action parameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) as well as the  marketing action(s) defined (required marketing action and additional marketing action).
 
+Consent only applies when a marketing action (required or additional) is set at the custom action level. 
+
 All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
 
 In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him, but he continues the journey. The profile does not go to the timeout and error path when using a condition.

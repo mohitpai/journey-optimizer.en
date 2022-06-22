@@ -3,15 +3,9 @@ title: SMS configuration
 description: Learn how to configure your environment to send SMS messages with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 ---
 # Configure SMS channel {#sms-configuration}
-
->[!CAUTION]
->
-> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
 [!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. 
 
@@ -23,15 +17,14 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
     ![](assets/sms_4.png)
 
-1. Select Sinch as your **[!UICONTROL SMS vendor]**.
+1. Select your **[!UICONTROL SMS vendor]**:
+
+    * [!DNL Sinch]. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account.
+    * [!DNL Twilio]. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access the Account Info pane of the Console Dashboard page.
 
 1. Enter a **[!UICONTROL Name]** for your API Credential.
 
 1. Enter your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**. 
-
-    >[!NOTE]
-    >
-    > Sinch requires special API credentials. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account, 
 
     ![](assets/sms_5.png)
 
@@ -68,6 +61,8 @@ To create a message preset, follow these steps:
       For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
     * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+
+    * Select your **[!UICONTROL SMS Execution Field]** to select the **[!UICONTROL Profile attribute]** associated with the profiles' phone numbers.
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
