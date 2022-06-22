@@ -20,7 +20,7 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
-_Internal name: cjm_email_tracking_experience_event_dataset_
+_Name in the interface : CJM Email Tracking Experience Event Dataset_
 
 System dataset for ingesting email tracking experience events from Journey Optimizer.     
 
@@ -60,7 +60,7 @@ limit 100;
 
 ## Message Feedback Event Dataset{#message-feedback-event-dataset}
 
-Intername: cjm_message_feedback_event_dataset
+_Name in the interface: CJM Message Feedback Event Dataset_
 
 Dataset for ingesting email and push application feedback events from Journey Optimizer.       
 
@@ -136,7 +136,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 ## Push Tracking Experience Event Dataset {#push-tracking-experience-event-dataset}
 
-_Internal name: cjm_push_tracking_experience_event_dataset_
+_Name in the interface: CJM Push Tracking Experience Event Dataset_
 
 Dataset for ingesting mobile tracking experience events for push from Journey Optimizer.       
 
@@ -153,7 +153,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 ```
 ## Journey Step Event{#journey-step-event}
 
-_Internal name: journey_step_events_
+_Internal name: Journey Step Events (system dataset)_
 
 Dataset for ingesting step events in the journey.     
 
@@ -194,7 +194,7 @@ group by
 
 ## Offer Decisionning Event Dataset{#ode-decisionevents}
 
-_Internal name: ODE DecisionEvents_
+_Name in the interface: ODE DecisionEvents (system dataset)_
 
 Dataset for ingesting offer propositions to the users.
 
@@ -224,7 +224,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 ## Consent Service Dataset{#consent-service-dataset}
 
-_Internal name: cjm_consent_service_dataset_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
 Dataset for Journey Optimizer Consent service.
 
@@ -254,7 +254,7 @@ select value.marketing.email.val FROM (
 
 ## BCC Feedback Event Dataset{#bcc-feedback-event-dataset}
 
-_Internal name: ajo_bcc_feedback_event_dataset_
+_Name in the interface: AJO BCC Feedback Event Dataset (system dataset)_
 
 Dataset to store information for BCC Messages.
 
