@@ -25,10 +25,9 @@ In a read segment journey:
 
 In business event journeys starting with a read segment :
 
-Knowing that this journey is based on the reception of a business event, if the profile is qualified in the expected segment, he will enters the journey for each business event received, meaning that this profile can be multiple times in the same journey, at the same time, but in the context of different business events.
+Knowing that this journey is based on the reception of a business event, if the profile is qualified in the expected segment, he will enter the journey for each business event received, meaning that this profile can be multiple times in the same journey, at the same time, but in the context of different business events.
 
 ## Journey ending{#journey-ending}
-
 
 A journey can end for an individual in two specific contexts:
 
