@@ -99,8 +99,6 @@ For a detailed report on a specific push delivery, refer to the [Push live repor
 
 * **[!UICONTROL Engagements]**: Total number of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
-![](assets/report_push_3.png)
-
 The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
 The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
