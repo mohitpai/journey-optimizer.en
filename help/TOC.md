@@ -351,7 +351,7 @@ solution: Journey Optimizer
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
   + [Schemas](using/start/get-started-schemas.md)
-  + Datasets {#configuration-message}
+  + Datasets {#datasets}
     + [Get started with datasets](using/start/get-started-datasets.md)
     + [Query examples](using/start/datasets-query-examples.md)
   + [Queries](using/start/get-started-queries.md)
