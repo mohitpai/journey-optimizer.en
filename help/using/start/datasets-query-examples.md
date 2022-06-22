@@ -20,7 +20,7 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
-Internal name: cjm_email_tracking_experience_event_dataset
+_Internal name: cjm_email_tracking_experience_event_dataset_
 
 System dataset for ingesting email tracking experience events from Journey Optimizer.     
 
@@ -136,7 +136,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 ## Push Tracking Experience Event Dataset {#push-tracking-experience-event-dataset}
 
-Internal name: cjm_push_tracking_experience_event_dataset
+_Internal name: cjm_push_tracking_experience_event_dataset_
 
 Dataset for ingesting mobile tracking experience events for push from Journey Optimizer.       
 
@@ -153,7 +153,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 ```
 ## Journey Step Event{#journey-step-event}
 
-Internal name: journey_step_events
+_Internal name: journey_step_events_
 
 Dataset for ingesting step events in the journey.     
 
@@ -194,7 +194,7 @@ group by
 
 ## Offer Decisionning Event Dataset{#ode-decisionevents}
 
-Internal name: ODE DecisionEvents
+_Internal name: ODE DecisionEvents_
 
 Dataset for ingesting offer propositions to the users.
 
@@ -224,7 +224,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 ## Consent Service Dataset{#consent-service-dataset}
 
-Internal name: cjm_consent_service_dataset
+_Internal name: cjm_consent_service_dataset_
 
 Dataset for Journey Optimizer Consent service.
 
@@ -254,7 +254,7 @@ select value.marketing.email.val FROM (
 
 ## BCC Feedback Event Dataset{#bcc-feedback-event-dataset}
 
-Internal name: ajo_bcc_feedback_event_dataset
+_Internal name: ajo_bcc_feedback_event_dataset_
 
 Dataset to store information for BCC Messages.
 
