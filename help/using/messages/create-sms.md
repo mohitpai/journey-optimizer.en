@@ -47,5 +47,6 @@ Your SMS message can now be used in a journey. [Learn how to create journeys](..
 **Related topics**
 
 * [Configure SMS channel](../configuration/sms-configuration.md)
+* [SMS report](../reports/journey-global-report.md#sms-global)
 * [Create a new message](get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

@@ -59,9 +59,9 @@ For a detailed report on a specific email delivery, refer to the [Email live rep
 
 The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
@@ -69,9 +69,9 @@ The **[!UICONTROL Sending metrics by Email]** table and **[!UICONTROL Email Summ
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
@@ -125,9 +125,9 @@ For a detailed report on a specific push delivery, refer to the [Push live repor
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
@@ -146,3 +146,33 @@ The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how ma
 ![](assets/report_push_2.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
+
+## SMS tab {#sms-live}
+
+The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
+
+* **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
+
+* **[!UICONTROL Clicks]**: Number of times a content was clicked in a delivery.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL SMS Summary]** graph details the success of your delivery:
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.

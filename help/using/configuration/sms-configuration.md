@@ -17,15 +17,14 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
     ![](assets/sms_4.png)
 
-1. Select Sinch as your **[!UICONTROL SMS vendor]**.
+1. Select your **[!UICONTROL SMS vendor]**:
+
+    * [!DNL Sinch]. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account.
+    * [!DNL Twilio]. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access the Account Info pane of the Console Dashboard page.
 
 1. Enter a **[!UICONTROL Name]** for your API Credential.
 
 1. Enter your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**. 
-
-    >[!NOTE]
-    >
-    > Sinch requires special API credentials. To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account, 
 
     ![](assets/sms_5.png)
 
@@ -62,6 +61,8 @@ To create a message preset, follow these steps:
       For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
     * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+
+    * Select your **[!UICONTROL SMS Execution Field]** to select the **[!UICONTROL Profile attribute]** associated with the profiles' phone numbers.
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
