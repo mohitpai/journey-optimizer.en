@@ -14,7 +14,7 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 [Message Feedback Event Dataset](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Push Tracking Experience Event Dataset](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Journey Step Event](../start/datasets-query-examples.md#journey-step-event)
-[Offer Decisionning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
+[Offer Decisioning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
 [Consent Service Dataset](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC Feedback Event Dataset](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -110,7 +110,7 @@ Email sends on daily basis:
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-Find if particular email id received an email or not and if not, then what was the error, bounce category, code:
+Find if a particular email id received an email or not and if not, then what was the error, bounce category, code:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
@@ -192,7 +192,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Offer Decisionning Event Dataset{#ode-decisionevents}
+## Offer Decisioning Event Dataset{#ode-decisionevents}
 
 _Name in the interface: ODE DecisionEvents (system dataset)_
 
