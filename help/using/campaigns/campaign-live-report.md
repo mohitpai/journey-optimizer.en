@@ -18,7 +18,7 @@ The Campaign **[!UICONTROL Live report]** page will be displayed with the follow
 * [Email](#email-live)
 * [Push](#push-live)
 
-The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
+The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/live-report.md#modify-dashboard).
 
 ## Campaign tab {#campaign-global}
 
@@ -37,7 +37,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your campaign.
 
-For a detailed report on a specific email delivery, refer to the [Email live report](email-live-report.md) section.
+For a detailed report on a specific email delivery, refer to the [Email live report](../reports/email-live-report.md) section.
 
 The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
 
@@ -81,7 +81,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
 
-For a detailed report on a specific push delivery, refer to the [Push live report](push-live-report.md) section.
+For a detailed report on a specific push delivery, refer to the [Push live report](../reports/push-live-report.md) section.
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** and **[!UICONTROL Sending metrics - by Push]** widgets details the main information relative to your message:
 

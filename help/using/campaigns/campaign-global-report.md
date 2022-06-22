@@ -18,7 +18,7 @@ The Campaign **[!UICONTROL Global report]** page will be displayed with the foll
 * [Email](#email-global)
 * [Push](#push-global)
 
-The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
+The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
 ## Campaign tab {#campaign-global}
 
@@ -44,7 +44,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](#email-global-report) section.
+For a detailed report on a specific email delivery, refer to the [Email global report](../reports/email-global-report.md) section.
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
@@ -133,7 +133,7 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
 
-For a detailed report on a specific push delivery, refer to this the [Push Global report](#push-global-report).
+For a detailed report on a specific push delivery, refer to this the [Push Global report](../reports/push-global-report.md).
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
