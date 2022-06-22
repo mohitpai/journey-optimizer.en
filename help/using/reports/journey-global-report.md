@@ -168,7 +168,6 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
 
-
 ## Push tab {#push-global}
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
@@ -243,3 +242,33 @@ The **[!UICONTROL Excluded reasons]** graph and table display the different reas
 ![](assets/global_report_19.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
+
+The SMS **[!UICONTROL Global report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md#modify-dashboard).
+
+## SMS tab {#sms-global}
+
+The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL SMS summary]** widget details the main information relative to your message with a graph:
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.

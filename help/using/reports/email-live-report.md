@@ -19,19 +19,19 @@ The email **[!UICONTROL Live report]** is divided into different widgets detaili
 
 ![](assets/live_report_5.png)
 
-**[!UICONTROL Email performance]** and **[!UICONTROL Email summary]** widgets details the main information relative to your message with a graph and KPIs:
+**[!UICONTROL Email performance]** and **[!UICONTROL Email summary]** widgets detail the main information relative to your message with a graph and KPIs:
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in a delivery.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
@@ -43,9 +43,9 @@ The email **[!UICONTROL Live report]** is divided into different widgets detaili
 
 The **[!UICONTROL Sending Statistics]** widget details the success of your delivery:
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
