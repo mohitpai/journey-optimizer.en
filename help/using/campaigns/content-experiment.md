@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 # Create a content experiment {#content-experiment}
 
