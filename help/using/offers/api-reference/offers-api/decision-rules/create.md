@@ -43,25 +43,25 @@ curl -X POST \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
   -d '{
-        "xdm:name": "Sales rule",
-        "description": "Decisioning rule for sales",
-        "condition": {
-            "type": "PQL",
-            "format": "pql/text",
-            "value": "profile.person.name.firstName.equals(\"Joe\", false)"
-        },
-        "xdm:definedOn": {
-            "profile": {
-                "xdm:schema": {
-                    "$ref": "https://ns.adobe.com/xdm/context/profile_union",
-                    "version": "1"
-                },
-                "xdm:referencePaths": [
-                    "person.name.firstName"
-                ]
-            }
+    "xdm:name": "Sales rule",
+    "description": "Decisioning rule for sales",
+    "xdm:condition": {
+        "xdm:type": "PQL",
+        "xdm:format": "pql/text",
+        "xdm:value": "profile.person.name.firstName.equals(\"Joe\", false)"
+    },
+    "xdm:definedOn": {
+        "profile": {
+            "xdm:schema": {
+                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
+                "version": "1"
+            },
+            "xdm:referencePaths": [
+                "person.name.firstName"
+            ]
         }
-    }'
+    }
+}'
 ```
 
 **Response**
