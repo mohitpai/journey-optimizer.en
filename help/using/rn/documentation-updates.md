@@ -16,8 +16,10 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
 * Added a new page on journey lifecyle. [Read more](../building-journeys/journey-end.md)
-* Updated the Wait activity page has been updated. [Read more](../building-journeys/wait-activity.md)
-* Added the the list of Adobe Journey Optimizer datasets with query examples. [Read more](../start/datasets-query-examples.md.md)
+* Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
+* Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../start/datasets-query-examples.md.md)
+* The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
+* The Suppression list page has been updated. [Read more](../configuration/manage-suppression-list.md)
 
 ## May 2022 {#may-2022}
 
