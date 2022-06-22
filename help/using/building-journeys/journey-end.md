@@ -8,6 +8,28 @@ level: Intermediate
 ---
 # Journey lifecycle{#journey-lifecyle}
 
+## Profiles in journeys{#profile-journey}
+
+In a unitary journey:
+
+* If re-entrance is enabled, a profile can enter a journey several times, but cannot do it until he fully exited that previous instance of the journey.
+
+* If re-entrance is disabled, a profile cannot enter multiple times the same journey
+
+For more information on profile re-entrance, refer to this [section](../building-journeys/journey-gs.md#change-properties).
+
+In a read segment journey:
+
+* For non-recurring journeys: the profile enters once and only once the journey.
+* for recurring journeys: the profile enters the journey on each recurrence, if he is in the segment/expected status. If he was still in the journey from a previous recurrence, he will restart it from the beginning.
+
+In business event journeys starting with a read segment :
+
+Knowing that this journey is based on the reception of a business event, if the profile is qualified in the expected segment, he will enters the journey for each business event received, meaning that this profile can be multiple times in the same journey, at the same time, but in the context of different business events.
+
+## Journey ending{#journey-ending}
+
+
 A journey can end for an individual in two specific contexts:
 
 * The person arrives at the last activity of a path.
