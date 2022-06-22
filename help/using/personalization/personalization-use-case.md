@@ -47,7 +47,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc4.png)
 
-1. Add your entry event, a **Message** and an **End** activity.
+1. Add your entry event, and a **Message** activity.
 
    ![](assets/perso-uc5.png)
 

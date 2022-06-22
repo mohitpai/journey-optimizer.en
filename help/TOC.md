@@ -109,6 +109,7 @@ solution: Journey Optimizer
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
+    + [Journey lifecycle](using/building-journeys/journey-end.md) 
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}

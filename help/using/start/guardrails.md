@@ -33,6 +33,8 @@ You will find below additional guardrails and limitations when using [!DNL Adobe
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received.
 * The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](../building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * You cannot place two actions in parallel, you must add them one after the other.
+* There's a technical limitation in journeys today that prevent a profile to be present multiple times in the same journey, at the same time. A profile can still reenter a journey (based on a setting), but cannot do it until he fully exited that previous instance of the journey.
+* A profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey.
 
 ### Message action {#message-action}
 
