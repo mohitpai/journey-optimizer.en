@@ -11,7 +11,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 >[!NOTE]
 >
->SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 ## Create new API credential {#create-api}
 

@@ -16,7 +16,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 >[!NOTE]
 >
->SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 Once you [created a message](get-started-content.md), use the **[!UICONTROL SMS]** tab to define the settings and content for the SMS channel.
 

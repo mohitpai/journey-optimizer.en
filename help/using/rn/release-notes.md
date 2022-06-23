@@ -28,7 +28,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p></p>
 <p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.</p>
+<p>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.</p>
 <p>Learn how to create and send a SMS in this <a href="../messages/create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
