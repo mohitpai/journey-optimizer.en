@@ -46,7 +46,7 @@ To create a message preset, follow these steps:
 
 1. Configure the **push notification** settings. [Learn more](#configure-push-settings)
 
-    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. Configure **SMS** settings. [Learn more](sms-configuration.md)
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
