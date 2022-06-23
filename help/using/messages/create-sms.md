@@ -16,7 +16,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 >[!NOTE]
 >
->Regulations require that SMS recipients can reply with opt-in and opt-out keywords. Adobe Journey Optimizer automatically processes the following keywords: Start, Stop, and Unstop.
+>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 Once you [created a message](get-started-content.md), use the **[!UICONTROL SMS]** tab to define the settings and content for the SMS channel.
 
@@ -43,6 +43,10 @@ To start personalizing your SMS message, follow these steps:
 1. Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action will publish the new version of the message that will be used for the next executions in your journeys.
 
 Your SMS message can now be used in a journey. [Learn how to create journeys](../building-journeys/journey-gs.md).
+
+## Opt-in and opt-out{#sms-opt-in-out}
+
+SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
 
 **Related topics**
 
