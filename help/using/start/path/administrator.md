@@ -46,6 +46,8 @@ Follow the steps listed below:
 
     * Create **message presets** to configure all the technical parameters required for email and push notification messages. [Learn more](../../configuration/message-presets.md)
 
+    * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../configuration/sms-configuration.md)
+
     * Manage the number of days during which **retries** are performed before sending email addresses to the suppression list. [Learn more](../../configuration/manage-suppression-list.md)
 
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](../../configuration/about-subdomain-delegation.md)
