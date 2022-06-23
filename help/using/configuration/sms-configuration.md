@@ -9,6 +9,10 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 [!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. 
 
+>[!NOTE]
+>
+>SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
 ## Create new API credential {#create-api}
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:
