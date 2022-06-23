@@ -46,9 +46,7 @@ Your SMS message can now be used in a journey. [Learn how to create journeys](..
 
 ## Opt-in and opt-out{#sms-opt-in-out}
 
-In accordance with the industry standards and regulations, SMS recipients can reply with opt-in and opt-out keywords. 
-
-Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
+SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
 
 **Related topics**
 
