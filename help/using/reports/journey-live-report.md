@@ -18,6 +18,7 @@ The journey **[!UICONTROL Live report]** page will be displayed with the followi
 * [Journey](#journey-live)
 * [Email](#email-live)
 * [Push](#push-live)
+* [SMS](#sms-live)
 
 The journey **[!UICONTROL Live report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
 

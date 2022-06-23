@@ -64,7 +64,7 @@ To create a message preset, follow these steps:
     
     * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+      For more on how to configure your environment to send SMS messages, refer to [this section](#create-api).
 
     * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
 
