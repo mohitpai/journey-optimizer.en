@@ -14,7 +14,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >title="SMS creation"
 >abstract="Add your text message and start personalizing it with the Expression Editor."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
