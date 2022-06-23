@@ -18,6 +18,7 @@ The journey **[!UICONTROL Global report]** page will be displayed with the follo
 * [Journey](#journey-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 The journey **[!UICONTROL Global report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
 

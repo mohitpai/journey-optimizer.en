@@ -51,7 +51,6 @@ To visualize how your SMS message displays on mobile devices, browse to the **[!
 
 For more on this, refer to [this section](../design/preview.md).
 
-
 ## Publish your SMS {#sms-publish}
 
 Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action publishes the new version of the message that will be used for the next executions in your journeys.
@@ -63,7 +62,6 @@ Your SMS message can now be used in a journey. [Learn how to create journeys](..
 For all marketing messages, the SMS must contain a way for the recipients to easily unsubscribe. Once unsubscribed, the profiles are automatically removed from the audience of future marketing messages. Adding an unsubscription link is not mandatory for transactional messages.
 
 SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
-
 
 **Related topics**
 

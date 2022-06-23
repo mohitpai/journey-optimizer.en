@@ -204,3 +204,10 @@ Depending on the email client, clicking the unsubscribe link from the header can
 Push recipients can unsubscribe through their devices themselves.
 
 For example, upon downloading or when using your app, they can select to stop notifications. Similarly, they can change the notification settings through the mobile operating system.
+
+## SMS opt-out management {#sms-opt-out-management}
+
+In accordance with the industry standards and regulations, SMS recipients can reply with opt-in and opt-out keywords.
+Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
+
+For more information on SMS opt-out, refer to this [page](../messages/create-sms.md#opt-in-and-opt-out).
