@@ -42,6 +42,28 @@ To add images from [!DNL Adobe Stock] to your content, follow the steps below:
     If the image you selected is not licensed, you must [get the license](#license-stock-image).
 
 
+## Find similar photos {#similar-stock-image}
+
+You can replace any existing image in your email content by a photo from [!DNL Adobe Stock]. Note that this option is available for all images: licensed/unlicensed Stock images and images from your Assets folder.
+
+To browse similar photos, follow the steps below:
+
+1. Select the image to replace.
+1. Click the **[!UICONTROL Find similar Stock photos]** button to display assets in [!DNL Adobe Stock] which match the content, color, and composition of the image. 
+
+    ![](assets/stock-similar.png)
+
+1. Select the chosen image and click **[!UICONTROL Save]**. 
+
+    ![](assets/stock-similar-results.png)
+    
+    If the image you selected is not licensed, you must [get the license](#license-stock-image).
+
+1. Customize your image, if needed, with the **[!UICONTROL Components settings]** menu. [Learn more about components settings](content-components.md)
+
+Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](../messages/publish-manage-message.md)
+
+
 ## Get the license from [!DNL Adobe Stock] {#license-stock-image}
 
 If your image is already licensed, it is represented by the ![](assets/stock_10.png) icon. If not, you must license it. 
@@ -70,28 +92,6 @@ To license and download your image, follow the steps below:
     ![](assets/stock_6.png)
 
 1. Select in which folder to store your asset. For more information on [!DNL Assets Essentials], refer to this [page](assets-essentials.md#get-started-assets-essentials).
-
-## Find similar photos {#similar-stock-image}
-
-You can replace any existing image in your email content by a photo from [!DNL Adobe Stock]. Note that this option is available for all images: licensed/unlicensed Stock images and images from your Assets folder.
-
-To browse similar photos, follow the steps below:
-
-1. Select the image to replace.
-1. Click the **[!UICONTROL Find similar Stock photos]** button to display assets in [!DNL Adobe Stock] which match the content, color, and composition of the image. 
-
-    ![](assets/stock-similar.png)
-
-1. Select the chosen image and click **[!UICONTROL Save]**. 
-
-    ![](assets/stock-similar-results.png)
-    
-    If the image you selected is not licensed, you must [get the license](#license-stock-image).
-
-1. Customize your image, if needed, with the **[!UICONTROL Components settings]** menu. [Learn more about components settings](content-components.md)
-
-Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](../messages/publish-manage-message.md)
-
 
 ### Related topics{#stock-related-topics}
 
