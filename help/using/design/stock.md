@@ -48,7 +48,7 @@ If your image is already licensed, it is represented by the ![](assets/stock_10.
 
 To license and download your image, follow the steps below:
 
-1. Qelect it and click the **[!UICONTROL License Adobe Stock image]** icon.
+1. Select it and click the **[!UICONTROL License Adobe Stock image]** icon.
 
     ![](assets/stock-license-icon.png)
 
