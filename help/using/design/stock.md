@@ -39,7 +39,7 @@ To add images from [!DNL Adobe Stock] to your content, follow the steps below:
 
 1. Select the chosen image and click **[!UICONTROL Save]**.
 
-    If the image you selected is not licenced, you must [get the licence](licence-stock-image).
+    If the image you selected is not licensed, you must [get the licence](licence-stock-image).
 
 
 ## Get the licence from [!DNL Adobe Stock] {#licence-stock-image}
@@ -86,7 +86,7 @@ To perform this, follow the steps below:
 
     ![](assets/stock-similar-results.png)
     
-    If the image you selected is not licenced, you must [get the licence](licence-stock-image).
+    If the image you selected is not licensed, you must [get the licence](licence-stock-image).
 
 1. Customize your image, if needed, with the **[!UICONTROL Components settings]** menu. [Learn more about components settings](content-components.md)
 
