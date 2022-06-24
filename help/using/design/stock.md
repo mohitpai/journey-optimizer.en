@@ -75,7 +75,7 @@ To license and download your image, follow the steps below:
 
 You can replace any existing image in your email content by a photo from [!DNL Adobe Stock]. Note that this option is available for all images: licensed/unlicensed Stock images and images from your Assets folder.
 
-To perform this, follow the steps below:
+To browse similar photos, follow the steps below:
 
 1. Select the image to replace.
 1. Click the **[!UICONTROL Find similar Stock photos]** button to display assets in [!DNL Adobe Stock] which match the content, color, and composition of the image. 
