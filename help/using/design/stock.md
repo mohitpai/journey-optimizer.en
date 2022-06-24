@@ -93,7 +93,7 @@ To license and download your image, follow the steps below:
 
 1. Select in which folder to store your asset. For more information on [!DNL Assets Essentials], refer to this [page](assets-essentials.md#get-started-assets-essentials).
 
-### Related topics{#stock-related-topics}
+## Related topics{#stock-related-topics}
 
 * [Email design in Journey Optimizer](design-emails.md)
 * [Components settings for email design](content-components.md)
