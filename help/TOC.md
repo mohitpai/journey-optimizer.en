@@ -47,6 +47,7 @@ solution: Journey Optimizer
   + [Start from scratch ](using/design/create-email-content.md)
   + [Import your email content](using/design/existing-content.md)
   + [Code your own content](using/design/code-content.md)
+  + [Work with templates](using/design/email-templates.md)
   + Content design {#design-content}
     + [Use content components](using/design/content-components.md)
     + [Background settings](using/design/backgrounds.md)

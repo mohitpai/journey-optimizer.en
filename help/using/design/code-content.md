@@ -9,7 +9,7 @@ exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 ---
 # Code your own content {#code-content}
 
-Use the **[!UICONTROL Code your own]** mode to can import raw HTML and/or code your email content. This method requires HTML skills.
+Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 
 ➡️ [Discover this feature in video](#video)
 

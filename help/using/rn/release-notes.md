@@ -130,11 +130,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the Adobe Experience Cloud Asset library into the offer representation content. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
-<!--
+
 **Email**
 
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages. [Learn more](../design/email-templates.md)
 
+<!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
