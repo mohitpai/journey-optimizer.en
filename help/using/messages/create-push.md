@@ -88,6 +88,11 @@ In the iOS version, you can add up to four buttons. In the Android version, you 
 
 ## Send a silent notification {#silent-notification}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="About silent notification"
+>abstract="Send notifications without disturbing the user, notifications are not shown in the notification center or notification bar."
+
 A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availability of new content or initiate a download in the background.
 
 Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.

@@ -248,6 +248,8 @@ The SMS **[!UICONTROL Global report]** is divided into different widgets detaili
 
 ## SMS tab {#sms-global}
 
+![](assets/report_sms_global.png)
+
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.

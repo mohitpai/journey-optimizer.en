@@ -150,6 +150,8 @@ The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 
 
 ## SMS tab {#sms-live}
 
+![](assets/report_sms_live.png)
+
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
