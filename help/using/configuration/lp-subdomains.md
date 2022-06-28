@@ -53,7 +53,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     ![](assets/lp_prefix-and-subdomain.png)
 
-    Note that you cannot use multiple delegated subdomains of the same parent domain. For example, if marketing1.yourcompany.com is already delegated to Adobe for your landing pages, you will not be able to use marketing2.yourcompany.com. However, multi-level subdomains are supported for landing pages, so you can use 'email.marketing1.yourcompany.com'.
+    Note that you cannot use multiple delegated subdomains of the same parent domain. For example, if 'marketing1.yourcompany.com' is already delegated to Adobe for your landing pages, you will not be able to use 'marketing2.yourcompany.com'. However, multi-level subdomains are supported for landing pages, so you can use 'email.marketing1.yourcompany.com'.
 
     <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
