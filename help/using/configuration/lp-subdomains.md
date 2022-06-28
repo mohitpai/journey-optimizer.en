@@ -53,6 +53,10 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     ![](assets/lp_prefix-and-subdomain.png)
 
+    Note that you cannot use multiple delegated subdomains of the same parent domain. For example, if marketing1.yourcompany.com is already delegated to Adobe for your landing pages, you will not be able to use marketing2.yourcompany.com. However, multi-level subdomains are supported for landing pages, so you can use 'email.marketing1.yourcompany.com'.
+
+    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
     >[!CAUTION]
     >
     >If you select a domain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation), you must create the DNS record on your hosting platform. To generate the DNS record, the process is the same as when you configure a new landing page subdomain. Learn how in [this section](#lp-configure-new-subdomain).
@@ -94,7 +98,11 @@ To configure a new subdomain, follow the steps below.
     
     Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     
-    Multi-level subdomains such as 'email.marketing.yourcompany.com' are currently not supported.
+    >[!NOTE]
+    >
+    >For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.
+
+    <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain-hosting solution to generate the matching DNS record.
 
