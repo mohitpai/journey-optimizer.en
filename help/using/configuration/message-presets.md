@@ -60,7 +60,7 @@ To create a message preset, follow these steps:
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+    During this step, several checks will be performed to verify that it has been configured properly. The processing time can take up to **3 hours**.
 
     These checks include configuration and technical tests that are performed by the Adobe team:
 
@@ -210,7 +210,7 @@ Several deliverability checks will be performed to verify that the preset has be
 >
 >If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
 
-The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
+The processing time can take up to **3 hours**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
 
 If you edit a preset that was already active:
 
