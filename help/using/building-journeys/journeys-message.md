@@ -66,10 +66,6 @@ To force a specific value, you can use the **Enable parameter override** icon to
 
 Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates. Use our machine-learning model to schedule personalized send times for each user to grow the open and click rates of your messages.
 
->[!AVAILABILITY]
->
->This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
-
 The Send-Time Optimization model ingests your Adobe Journey Optimizer data and looks at user-level open (for email and push) and click (for email) rates to determine when your customers are most likely to engage with your messaging. Send-Time Optimization requires a minimum of one month of message-tracking data to make informed recommendations. For each user, the system will automatically pick the best time using the following scores:
 
 * The best hour of each day of the week to maximize engagement

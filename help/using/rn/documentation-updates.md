@@ -21,6 +21,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
 * The Suppression list page has been updated to clarify some information, including the fact that all ASCII characters comprised between 32 and 126 are allowed in the reason for suppression field. [Read more](../configuration/manage-suppression-list.md)
 * The link to guardrails and static limits for Decision management has been added. [Read more](../start/guardrails.md)
+* Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## May 2022 {#may-2022}
