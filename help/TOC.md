@@ -118,7 +118,7 @@ solution: Journey Optimizer
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
-    + [Copy a journey](using/building-journeys/copy-to-sandbox.md)
+    + [Copy a journey to another sandbox](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
   + Activities {#about-journey-building}
     + [About journey activities](using/building-journeys/about-journey-activities.md)

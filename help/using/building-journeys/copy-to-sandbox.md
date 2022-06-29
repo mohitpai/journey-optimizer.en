@@ -5,8 +5,6 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 ---
 # Copy a journey to another sandbox {#copy-to-sandbox}
 
@@ -74,7 +72,7 @@ The following objects are copied:
 
 * Segment
 
-   A segment can only be copied once from one sandbox to another. Subsequent requests to copy the segment will fail. Once a segment is copied, it is not editable on the destination sandbox.
+   A segment can only be copied once from one sandbox to another. Once a segment is copied, it is not editable on the destination sandbox.
 
 * Schema
 
@@ -97,4 +95,8 @@ The following objects are copied:
    The actions and action details used in the journey are copied.
 
 Presets are not copied over. The system automatically selects the closest possible match on the destination sandbox, based on message type and preset name. If there are no presets found on the target sandbox, then the preset copy will fail. This will mean that the message copy will fail as well beacause a message requires a preset to be available for setup. In this case at least one preset needs to be created, for the right channel of the message, in order for the copy to work.
+
+For Schemas, Merge Policies and Segments, the second time these objects attempt to be copied, they will only be referenced. They will be treated as objects that already exist and will be copied again. This means that these objects can only be copied once.
+
+There is a five minute delay before Adobe Journey Optimizer can reference Schemas, Merge Policies and Segments without seeing an error in the canvas. Wait five minutes and these references will be available.
 
