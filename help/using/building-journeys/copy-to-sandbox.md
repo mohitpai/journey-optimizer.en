@@ -28,7 +28,7 @@ level: Intermediate
 >title="Dependent objects"
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 
-Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from your Stage sandbox environment to your Production sandbox. In addition to the journey itself, Journey Optimizer also copies most of the objects the journey depends on: messages, segments, presets, schemas, events and actions. Refer to the [limitations](../event/about-events.md)
+Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from your Stage sandbox environment to your Production sandbox. In addition to the journey itself, Journey Optimizer also copies most of the objects the journey depends on: messages, segments, presets, schemas, events and actions. Refer to the [limitations](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
