@@ -22,12 +22,11 @@ Campaigns allow you to deliver one-time content to a specific segment using mult
 
 Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. You can use them, for example, to deliver promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-Learn how to manage campaigns <!--and content experiments<>:
+Learn how to work with campaigns:
 * [Create a campaign](create-campaign.md)
 * [Modify or stop a campaign](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Campaign live report](campaign-live-report.md)
+* [Campaign global report](campaign-global-report.md)
 
 ## Access campaigns {#access}
 
