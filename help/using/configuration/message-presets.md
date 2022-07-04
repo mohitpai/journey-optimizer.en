@@ -60,7 +60,7 @@ To create a message preset, follow these steps:
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time can take up to **3 hours**.
+    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
 
     These checks include configuration and technical tests that are performed by the Adobe team:
 
@@ -172,7 +172,7 @@ To edit a message preset, follow the steps below.
     >
     >You can also save the message preset as draft and resume update later on.
 
-Once the changes are submitted, the message preset will go through a validation cycle similar to the one in place when [creating a preset](#create-message-preset).
+Once the changes are submitted, the message preset will go through a validation cycle similar to the one in place when [creating a preset](#create-message-preset). The edition processing time can take up to **3 hours**.
 
 >[!NOTE]
 >
