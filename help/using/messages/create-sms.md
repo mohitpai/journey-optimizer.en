@@ -63,6 +63,16 @@ For all marketing messages, the SMS must contain a way for the recipients to eas
 
 SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
 
+To learn more on how native inbound keyword support (start, stop and unstop) works for SMS, refer to the following video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## How-to video
+
+Learn how to configure, author, and include SMS messaging into your customer journeys.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
+
 **Related topics**
 
 * [Configure SMS channel](../configuration/sms-configuration.md)

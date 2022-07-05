@@ -11,7 +11,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 
 Define the email settings in the dedicated section of the message preset configuration. Learn how to create message presets in [this section](message-presets.md).
 
-![](assets/preset-email.png)
+![](assets/preset-email-settings.png)
 
 ## Type of email {#email-type}
 

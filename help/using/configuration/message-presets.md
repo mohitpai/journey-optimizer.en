@@ -42,11 +42,25 @@ To create a message preset, follow these steps:
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-1. Configure the **email** settings. [Learn more](#configure-email-settings)
+1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
 
-1. Configure the **push notification** settings. [Learn more](#configure-push-settings)
+    ![](assets/preset-email.png)
 
-1. Configure **SMS** settings. [Learn more](sms-configuration.md)
+1. If you selected the **[!UICONTROL Push Notification]** channel, select at least one platform (**iOS** and/or **Android**), and select the mobile applications to use for each platform.
+
+    ![](assets/preset-push.png)
+        
+    >[!NOTE]
+    >
+    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+
+1. If you selected the **[!UICONTROL SMS]** channel, configure your settings as described in [this section](sms-configuration.md#message-preset-sms).
+
+    ![](assets/preset-sms.png)
+
+    >[!NOTE]
+    >
+    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
@@ -79,42 +93,6 @@ To create a message preset, follow these steps:
 1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     ![](assets/preset-active.png)
-
-## Configure email settings {#configure-email-settings}
-
-Email settings are defined in a dedicated section of the message preset configuration.
-
-![](assets/preset-email.png)
-
-Configure your settings as described in [this section](email-settings.md).
-
-## Configure push settings {#configure-push-settings}
-
-Push settings are defined in a dedicated section of the message preset configuration.
-
-To define the push settings associated to the message preset, follow the steps below:
-
-1. Select at least one platform: **iOS** and/or **Android**.
-    
-1. Select the mobile applications to use for each platform.
-
-![](assets/preset-push.png)
-        
-For more on how to configure your environment to send push notifications, refer to [this section](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Monitor message presets {#monitor-message-presets}
 
@@ -178,6 +156,8 @@ Once the changes are submitted, the message preset will go through a validation 
 >
 >If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
 
+### Update details {#update-details}
+
 For message presets that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
 
 * Click the **[!UICONTROL Recent update]** icon that is displayed next to the active preset name.
@@ -202,7 +182,7 @@ A message preset update can have the following statuses:
 
 Each status is detailed below.
 
-### Processing
+#### Processing
 
 Several deliverability checks will be performed to verify that the preset has been updated properly.
 
@@ -224,13 +204,13 @@ If you edit a preset that was already active:
 >
 >You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
-### Success {#success}
+#### Success {#success}
 
 Once the validation process is successful, the new version of the preset is automatically used in all messages using this preset. However, you may have to wait:
 * a few minutes before it is consumed by the unitary messages,
 * until the next batch for the preset to be effective in batch messages.
 
-### Failed {#failed}
+#### Failed {#failed}
 
 If the validation process fails, the older version of the preset will still be used.
 

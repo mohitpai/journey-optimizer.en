@@ -19,6 +19,8 @@ To do this, you can use a frequency rule which will cap the number of messages s
 >
 >Message frequency rules are different from opt-out management, which allows users to unsubscribe from receiving communications from a brand. [Learn more](../messages/consent.md#opt-out-management)
 
+➡️ [Discover this feature in video](#video)
+
 ## Access rules {#access-rules}
 
 Rules are available from the **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. All rules are listed, sorted by modification date.
@@ -182,3 +184,9 @@ In this scenario, an individual profile:
 >[!NOTE]
 >
 >When testing frequency rules, it can be helpful to start with a newly created [test profile](../segment/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
+
+## How-to video {#video}
+
+Learn how to create, activate, test, and report on frequency rules.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

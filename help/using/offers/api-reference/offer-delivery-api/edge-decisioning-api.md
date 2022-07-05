@@ -21,7 +21,7 @@ Refer to the documentation on [Offer Decisioning](https://experienceleague.adobe
 
 >[!NOTE]
 >
->The use of Decision Management in Adobe Experience Platform Web SDK is currently available in early access to select users. This functionality is not available to all organizations.
+>The use of Decision Management in Adobe Experience Platform Web SDK is only available for a set of organizations (Limited Availability). If you want to leverage this feature, contact your Adobe account executive.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
