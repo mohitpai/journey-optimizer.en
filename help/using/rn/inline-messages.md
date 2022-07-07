@@ -77,15 +77,14 @@ The creation of content is now performed directly inside the journey. The immedi
 <th>After migration</th>
 </tr>
 <tr>
-<td><img src=“assets/inline-migration-before2.png” width=“60px”><p>zefzefzef</p></td>
-<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>zefzefzef</p></td>
+<td><img src=“assets/inline-migration-before2.png” width=“60px”><p>Create your message first, design it and publish it.</p></td>
+<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>The **Messages** menu, in the left navigation is no longer be available. </p></td>
 </tr>
 <tr>
-<td><img src=“assets/inline-migration-before3.png” width=“60px”><p>ezef</p></td>
-<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>zefzef</p></td>
+<td><img src=“assets/inline-migration-before3.png” width=“60px”><p>Create a journey, add a **Message** activity and select the previously created message.</p></td>
+<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>you simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters. And then, you click **Edit Content** and design the message like you used to. </p></td>
 </tr>
 </table>
-
 **Before this change**, you had to follow these steps to send a message:
 
 1. Create your message first, design it and publish it.
