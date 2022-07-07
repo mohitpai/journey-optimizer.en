@@ -80,25 +80,13 @@ The creation of content is now performed directly inside the journey. The immedi
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before2.png"><p>Before, you created your message from the <strong>Messages</strong> menu. </p></td>
-<td><img src="assets/inline-migration-after2.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
+<td><img src="assets/inline-migration-after.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before3.png"><p>You then created a journey, added a <strong>Message</strong> activity and selected the previously created message.</p></td>
 <td><img src="assets/inline-migration-after2.png"><p>You now simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters and access the content ediror.</p></td>
 </tr>
 </table>
-
-**Before this change**, you had to follow these steps to send a message:
-
-1. Create your message first, design it and publish it.
-
-    ![](assets/inline-migration-before2.png)
-
-1. Create a journey, add a **Message** activity and select the previously created message.
-
-    ![](assets/inline-migration-before3.png)
-
-**After the release**, you simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters. And then, you click **Edit Content** and design the message like you used to. 
 
 When this new feature is released, this new user flow will apply to all new journeys. The **Messages** menu, in the left navigation will no longer be available. 
 
