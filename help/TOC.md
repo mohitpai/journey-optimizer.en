@@ -15,7 +15,8 @@ solution: Journey Optimizer
     + [2022 Release notes](using/rn/release-notes-2022.md)
     + [2021 Release notes](using/rn/release-notes-2021.md)
   + [Documentation updates](using/rn/documentation-updates.md)
-  + [Message migration](using/rn/inline-messages.md)
+  + [Inline authoring migration overview](using/rn/inline-messages.md)
+  + [Inline authoring migration steps](using/rn/inline-messages-steps.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
@@ -30,7 +31,6 @@ solution: Journey Optimizer
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
-  + [Create a content experiment](using/campaigns/content-experiment.md)
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
@@ -118,6 +118,7 @@ solution: Journey Optimizer
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
+    + [Copy a journey](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
   + Activities {#about-journey-building}
     + [About journey activities](using/building-journeys/about-journey-activities.md)
