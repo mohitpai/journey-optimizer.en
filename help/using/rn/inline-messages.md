@@ -18,11 +18,13 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 >id="ajo_messages_migration_during"
 >title="Learn what is happening"
 >abstract="Starting July 25 2022, messages are authored directly from a Journey. Your environment is being migrated. Additional actions will be required after the migration."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migration steps"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Learn how to migrate your messages"
 >abstract="Starting July 25 2022, messages are authored directly from a Journey. Existing messages have now been migrated to the new model. As a journey practitioner, additional actions are now required."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migration steps"
 
 Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practicionner, you will now create and author your messages directly from a journey.
 
@@ -77,14 +79,15 @@ The creation of content is now performed directly inside the journey. The immedi
 <th>After migration</th>
 </tr>
 <tr>
-<td><img src=“assets/inline-migration-before2.png” width=“60px”><p>Create your message first, design it and publish it.</p></td>
-<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>The **Messages** menu, in the left navigation is no longer be available. </p></td>
+<td><img src="assets/inline-migration-before2.png" width="60px"><p>Create your message first, design it and publish it.</p></td>
+<td><img src=“assets/inline-migration-after2.png” width="60px"><p>The <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
 </tr>
 <tr>
-<td><img src=“assets/inline-migration-before3.png” width=“60px”><p>Create a journey, add a **Message** activity and select the previously created message.</p></td>
-<td><img src=“assets/inline-migration-after2.png” width=“60px”><p>you simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters. And then, you click **Edit Content** and design the message like you used to. </p></td>
+<td><img src="assets/inline-migration-before3.png" width="60px"><p>Create a journey, add a <strong>Message</strong> activity and select the previously created message.</p></td>
+<td><img src="assets/inline-migration-after2.png" width="60px"><p>you simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters. And then, you click <strong>Edit Content</strong> and design the message like you used to. </p></td>
 </tr>
 </table>
+
 **Before this change**, you had to follow these steps to send a message:
 
 1. Create your message first, design it and publish it.
