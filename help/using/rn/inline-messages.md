@@ -79,12 +79,12 @@ The creation of content is now performed directly inside the journey. The immedi
 <th>After migration</th>
 </tr>
 <tr>
-<td><img src="assets/inline-migration-before2.png" width="60px"><p>Create your message first, design it and publish it.</p></td>
-<td><img src="assets/inline-migration-after2.png" width="60px"><p>The <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
+<td><img src="assets/inline-migration-before2.png"><p>Before, you created your message from the <strong>Messages</strong> menu. </p></td>
+<td><img src="assets/inline-migration-after2.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
 </tr>
 <tr>
-<td><img src="assets/inline-migration-before3.png" width="60px"><p>Create a journey, add a <strong>Message</strong> activity and select the previously created message.</p></td>
-<td><img src="assets/inline-migration-after2.png" width="60px"><p>you simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters. And then, you click <strong>Edit Content</strong> and design the message like you used to. </p></td>
+<td><img src="assets/inline-migration-before3.png"><p>You then created a journey, added a <strong>Message</strong> activity and selected the previously created message.</p></td>
+<td><img src="assets/inline-migration-after2.png"><p>You now simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters and access the content ediror.</p></td>
 </tr>
 </table>
 
