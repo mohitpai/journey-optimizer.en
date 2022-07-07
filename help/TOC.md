@@ -31,7 +31,10 @@ solution: Journey Optimizer
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
-  + [Create a content experiment](using/campaigns/content-experiment.md)
+  + Content experiment {#content-experimentation}
+    + [Get started with Content experiment](using/campaigns/get-started-experiment.md)
+    + [Create a Content experiment](using/campaigns/content-experiment.md)
+    + [Technote: Statistical Calculations used by Experimentation](using/campaigns/experiment-calculations.md)
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
