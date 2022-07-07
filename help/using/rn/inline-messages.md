@@ -26,13 +26,13 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 >abstract="Starting July 25 2022, messages are authored directly from a Journey. Existing messages have now been migrated to the new model. As a journey practitioner, additional actions are now required."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migration steps"
 
-Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practicionner, you will now create and author your messages directly from a journey.
+Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you will now create and author your messages directly from a journey.
 
 This feature requires a migration of existing journeys that are using messages. 
 
 In this page, you will find the necessary information about this change as well as the steps that are required from you. 
 
-For more information on your roles and responsabilities as a Journey Optimizer practitioner, refer to this [page](../start/path/marketer.md).
+For more information on your roles and responsibilities as a Journey Optimizer practitioner, refer to this [page](../start/path/marketer.md).
 
 <!--
 Here are the main changes in the interface:
@@ -46,17 +46,17 @@ Here are the main changes in the interface:
 
 ## Key take-aways{#keys}
 
-* **Am I impacted?**: you are impacted if you are create messages from the **Messages** menu in the left navigation and use them in your journeys. If you are using a third-party system (such as Adobe Campaign), you are not impacted by this migration.
+* **Am I impacted**: you are impacted if you create messages from the **Messages** menu in the left navigation and use them in your journeys. If you are using a third-party system (such as Adobe Campaign), you are not impacted by this migration.
 
-* **Product changes**: at GA, your channel content will be created and managed within each journey. The **Messages** menu, in the left navigation will no longer be available. [Learn more](../rn/inline-messages.md#change). We will proceed to a migration for your existing journeys.
+* **Product changes**: at GA (July 25), your channel content will be created and managed within each journey. The **Messages** menu, in the left navigation will no longer be available ([Learn more](../rn/inline-messages.md#change)). We will proceed to a migration for your existing journeys.
 
-* **Timeline**: Migration will happen for each region at night-time, through several [iterations](../rn/inline-messages.md#iterations).
+* **Timeline**: migration will happen for each region at night-time, through several [iterations](../rn/inline-messages.md#iterations).
 
     ![](assets/inline-migration-timeline.png)
 
 * **Required actions**: an automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
 
-* **Deprecation**: after the 5th of September, all journeys still using legacy messages will be stopped and deleted later.
+* **Deprecation**: after the 6th of September, all journeys still using legacy messages will be stopped and deleted later.
 
 ## What are the benefits?{#benefits}
 
@@ -84,25 +84,31 @@ The creation of content is now performed directly inside the journey. The immedi
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before2.png"><p>You then created a journey, added a <strong>Message</strong> activity and selected the previously created message.</p></td>
-<td><img src="assets/inline-migration-after2.png"><p>You now simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters and access the content ediror.</p></td>
+<td><img src="assets/inline-migration-after2.png"><p>You now simply add the desired channel action activity (email, SMS, push) to your journey. In the activity, you directly configure the message parameters and access the content editor.</p></td>
+</tr>
+<tr>
+<td><img src="assets/inline-migration-before3.png"><p>Before, reporting was accessible both at message and journey levels. You had to navigate between the message execution tab and the journey report.</p></td>
+<td><img src="assets/inline-migration-after3.png"><p>All reporting is now centralized at journey level. This improves navigation and user experience. When you have multiple emails in a journey, you can use the <strong>Action</strong> drop-down menu to view the related report.
+</p></td>
 </tr>
 </table>
 
-When this new feature is released, this new user flow will apply to all new journeys. The **Messages** menu, in the left navigation will no longer be available. 
+At GA (July 25), this new user flow applies to all new journeys. The **Messages** menu, in the left navigation is no longer available. 
 
 ## Why a migration and how is it sequenced?{#iterations}
 
-A migration is required to turn your existing journeys using **Messages** into journeys with inline authored actions.  An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
+A migration is required to turn your existing journeys using **Messages** into journeys with inline authored actions. An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
 
 Migration will happen for each region at night-time, through several iterations. Here is the migration timeline:
 
 * July 25, 2002: GA - 1st iteration
 * August 1st, 2002: 2nd iteration
-* September 1st, 2022: 3rd iteration
+* September 5th, 2022: 3rd iteration
+* September 6th, 2022: deprecation
 
 Why do we need multiple iterations?
 
-During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live or closed (meaning there can still be profiles in it). In these cases we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
+During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live or closed (meaning there can still be profiles in it). In these cases, we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
 
 ## How will I be informed of the change?{#inform}
 
@@ -130,7 +136,7 @@ You are also informed by in-product notifications, displayed on Journeys screens
 
 ## What is the migration process?{#process}
 
-Migration is fully automatic for journeys that are not live or closed. We do not want to impact live or closed journeys to avoid any production impact. We will ask yu to publish the new version that we created for you. 
+Migration is fully automatic for journeys that are not live or closed. We do not want to impact live or closed journeys to avoid any production impact. We will ask you to publish the new version that we created for you.
 
 All sandboxes of a customer ORG will be processed simultaneously. During the change deployment, the following actions will be performed:
 
@@ -162,9 +168,10 @@ When looking at the journey report, reports will be richer to include the level 
 
 These are not migrated. You have to re-create them.
 
+<!--
+
 ## What are my action items as a customer?{#actions}
 
-<!--
 The process timeline is indicated in a blue banner on the Journeys screen. See this [section](../rn/inline-messages.md#inform). 
 
 **Before migration**
