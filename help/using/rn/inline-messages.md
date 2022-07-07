@@ -79,7 +79,7 @@ The creation of content is now performed directly inside the journey. The immedi
 <th>After migration</th>
 </tr>
 <tr>
-<td><img src="assets/inline-migration-before2.png"><p>Before, you created your message from the <strong>Messages</strong> menu. </p></td>
+<td><img src="assets/inline-migration-before.png"><p>Before, you created your message from the <strong>Messages</strong> menu. </p></td>
 <td><img src="assets/inline-migration-after.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
 </tr>
 <tr>
