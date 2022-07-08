@@ -115,14 +115,14 @@ _On the production sandbox:_
 
 If all previous steps were performed in time, all your journeys have been migrated except the closed ones and the ones with errors.
 
-**1. You can check the 2 parts of the migration**
+**2. You can check the 2 parts of the migration**
 
  toMigrate
 If there are no errors, you should have no journeys in "eligibilityStatus", under "toMigrate" and "createNewVersion". In the following example, there is one "ERROR" and one "ERROR_NEW_VERSION_CREATION". 
 
 ![](assets/inline-migration-steps10.png)
 
-**2. Stop previous versions**
+**3. Stop previous versions**
 
 If you haven't published newer journey versions in time meaning before iteration 2 (August 1st), then publish the newer version and stop the previous version or you will lose it and its associated reporting. 
 
