@@ -124,7 +124,7 @@ You are also informed by in-product notifications, displayed on Journeys screens
 
    ![](assets/inline-migration-banner2.png)
 
-* After the last iteration
+* After an iteration
 
    ![](assets/inline-migration-banner4.png)
 
@@ -161,6 +161,12 @@ We expect you to review this draft version, test it and publish it so that this 
 These journeys will be migrated too.
 
 When looking at the journey report, reports will be richer to include the level of information that was previously available in Message report.
+
+**CLOSED journeys using at least one message**
+
+The closed version of a journey keeps running for any profile inside, to avoid any production impact.
+
+Closed journeys are automatically switched to the "Finished" status after 30 days. They will be taken into account in the next iteration, when they are finished.
 
 **Multi-channel Journeys**
 
@@ -246,9 +252,9 @@ Migration will occur at night-time. You will be able to use the product. But do 
 
 Yes, live journeys keep running. 
 
-## How do I know that the migration is completed?
+## How do I know that the migration is complete?
 
-After the last iteration, a message is displayed on Journeys screens. See this [section](../rn/inline-messages.md#inform).
+The migration is complete when the banner disappears. See this [section](../rn/inline-messages.md#inform).
 
 <!--
 * Improved authoring flow and navigation

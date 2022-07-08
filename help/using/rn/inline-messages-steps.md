@@ -17,28 +17,24 @@ This will enable the automated migration process to migrate all journeys from th
 
 _On the production sandbox:_
 
-**2. Stop all live ad-hoc journeys without profiles**
+**2. Stop all live ad-hoc journeys without profile still in**
 
-Stop all live ad-hoc journeys that do not contain profiles anymore:
-
-Locate live ad-hoc journeys that do not contain profiles anymore. 
-
-How to assess if your ad-hoc journey still has profiles? To find ad-hoc journeys, go to the Journeys section and add a filter on "Status = Live" and a filter on "Type = Read segment". You can also order them by earliest "Published" date. 
+Stop all live ad-hoc journeys that do not contain profiles anymore. To find these journeys, navigate to the **Journeys** menu and filter the list on "Status = Live" and "Type = Read segment". You can also order chronologically from the earliest to the latest "Published" date. 
 
 ![](assets/inline-migration-steps1.png)
 
 Open them from top to bottom.
 
-* Check that the journey has a Message. 
-* Check that they are not recurrent journeys. These are not ad-hoc. You most probably want to keep them Live. This one is a recurrent so not an ad-hoc:
+* Check that the journey has a message. 
+* Check that they are not recurrent journeys. These are not ad-hoc. You most probably want to keep them Live. For example, this one is a recurrent journey (not ad-hoc):
 
     ![](assets/inline-migration-steps2.png)
 
-* If you have used wait or event listener in those journeys, profiles may still be inside. Look at the journey execution date and add any hours/days that you have defined in your waits or event listeners to have the actual date when you will be sure that no profile is left inside. If that date is in the past, you can stop that journey. Otherwise, this journey will be automatically moved to finish status 30 days after the journey execution date.
+* If you have used wait or event listeners in those journeys, profiles may still be inside. Look at the journey execution date and add any hours/days that you have defined in your waits or event listeners to deduce the actual date when no profiles are left inside. If that date is in the past, you can stop the journey. Otherwise, this journey will be automatically moved to the "Finished" status 30 days after the journey execution date.
 
 **Important notes**
 
-* Avoid closing journeys before the migration date (July 25). Knowing that the migration script will not migrate live or closed journeys, limiting the number of closed journeys in the production sandbox will limit the amount of manual actions needed after the migration. There may still be use cases where you will need to close a journey before that migration, this is why it is recommended.
+* Avoid closing journeys before the migration date (July 25). Knowing that the migration script will not migrate live or closed journeys, limiting the number of closed journeys in the production sandbox will limit the number of manual actions needed after the migration. There may still be use cases where you will need to close a journey before migration, this is why it is recommended.
 
 * If you have live journeys that are not the latest version, meaning you created another journey version in draft, publish or delete the draft version.
 
@@ -46,7 +42,7 @@ Open them from top to bottom.
 
 ## After the migration first iteration (July 25){#migration-step-2}
 
-Migration has two parts: automated part and manual part which requires action items.
+The migration is sequenced in two parts: the automated part and the manual part which requires action items.
 
 _On non-production sandboxes:_
 
@@ -61,7 +57,7 @@ Look for the "ERROR" status.
 ![](assets/inline-migration-steps4.png)
 
 * If there is no error, you are good to go.
-* If there are errors, look for the error by searching "errorMessage". The following error is expected as migration of multi-channel messages is not supported. You will have to rebuild this journey.
+* If there are errors, look for the error by searching "errorMessage". The following error is expected as migration of multi-channel messages is not supported: "Migration of multi-channel messages is not supported". You will have to rebuild this journey.
 
     ![](assets/inline-migration-steps5.png)
 
@@ -69,45 +65,43 @@ _On the production sandbox:_
 
 **2. Check your migrated LIVE Journeys**
 
-Check your the automatically migrated LIVE journeys in the status report.
+Check the automatically migrated LIVE journeys in the status report.
 
-This is only LIVE journeys with messages and that did not already have a newer draft version. Journeys that don't include messages are ignored by the migration. If a draft version was there, we will simply migrate it as any draft journey version.
+This is only LIVE journeys with messages and that did not already have a newer draft version. Journeys that don't include messages are ignored by the migration. If you created a draft version, we will simply migrate it as any draft journey version.
 
-![](assets/inline-migration-steps6.png)
+* If there is no error, it means all live journey versions requiring migration have been processed and a new migrated draft version has been created automatically.
 
-* If you have 0 here, it means all LIVE journeys versions requiring migration have been processed and a new migrated draft version has been created automatically.
-
-* If you see an error, you can check the error message in the logs. Multi-channel messages are not migrated. You will have to create another journey.
+* If you see an error, you can search for "errorMessage" and check the error message in the logs. Multi-channel messages are not migrated. You will have to create another journey.
 
 * For other errors, please contact Adobe.
 
 **3. List all new versions created by the migration**
 
-They are marked as [MIGRATED]. Creation date is updated.
+They are marked as [MIGRATED] in the journey label and creation date is updated.
 
 ![](assets/inline-migration-steps7.png)
 
 **4. Test and publish them one by one**
 
-Make sure the journey is still a journey that needs to run in production. If [preparation before migration](../rn/inline-messages-steps.md#migration-step-1) was not done correctly, you could have a new version created for a one-shot journey that is not needed anymore.
+Make sure the journey still needs to run in production. If the [preparation before migration](../rn/inline-messages-steps.md#migration-step-1) was not performed correctly, you could have a new version created for a one-shot journey that is not needed anymore.
 
-Test your draft version of the journey that now contains inlined channel actions.
+Test your draft version of the journey that now contains inline channel actions.
 
-Publish your new journey version. This will get your previous Live version into a "Closed" one.
+Publish your new journey version. Your previous live version will move the "Closed" status.
 
 **5. List all live versions**
 
-They should all be marked as latest. if not, lookup the newer version of these, test them and publish them.
+They should all be marked as latest. if not, look for the newer version, test them and publish them.
 
 ![](assets/inline-migration-steps8.png)
 
 **6. Look at errors on draft version migration**
 
-Click on Check Status to see if there are errors.
+Click on **Check Status** to check if there are errors. Look for the "ERROR" status. 
 
 ![](assets/inline-migration-steps9.png)
 
-These are draft journeys that will loose upon deprecation. You can check the error by scrolling in the logs.
+These are draft journeys that will be deleted at deprecation. You can you can search for "errorMessage" and check the error message in the logs.
 
 ## After the second iteration (August 1){#migration-step-3}
 
@@ -119,11 +113,12 @@ Click the **Check status** button in the top banner and check that all journeys 
 
 _On the production sandbox:_
 
-If all previous steps were done in time, all your journeys have been migrated except the closed and the errors.
+If all previous steps were performed in time, all your journeys have been migrated except the closed ones and the ones with errors.
 
 **1. You can check the 2 parts of the migration**
 
-You should have 0 and 0 if no error at all. In this case we have 1 error  and 1 error_new_version_creation.
+ toMigrate
+If there are no errors, you should have no journeys in "eligibilityStatus", under "toMigrate" and "createNewVersion". In the following example, there is one "ERROR" and one "ERROR_NEW_VERSION_CREATION". 
 
 ![](assets/inline-migration-steps10.png)
 
@@ -133,7 +128,7 @@ If you haven't published newer journey versions in time meaning before iteration
 
 ## Before the third and last iteration (September 5){#migration-step-4}
 
-Check that there is no more closed journeys.
+Check that there are no more closed journeys.
 
 Between August 1st and September 5, you will need to validate that everything has been migrated and that there are no journeys list, otherwise they will be deprecated on September 5.
 
