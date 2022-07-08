@@ -37,6 +37,8 @@ To create a decision rule, follow these steps:
     >
     >The Segment Builder provided to create decision rules presents some specificities compared to the one used with the **[!UICONTROL Audience Destinations]** service. For example, the **[!UICONTROL Segments]** tab is not available for use. However, the global process described in the Segment Builder documentation is still valid to build offers decisions rules.
 
+    As you are adding and configuring new fields in the workspace, the **[!UICONTROL Segment properties]** pane is automatically updated with information on the estimated profiles belonging to the segment.
+
 1. Click **[!UICONTROL Save]** to confirm.
 
 1. Once the rule is created, it displays in the rules list. You can select it to display its properties and edit or delete it.
