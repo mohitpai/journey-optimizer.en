@@ -233,6 +233,34 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 -->
 
+## How can I check the migration status?{#status}
+
+Click the **Check status** button in the top banner. The following page is displayed.
+
+![](assets/inline-migration-log.png)
+
+The status report is at sandbox level. This report includes several useful sections:
+
+**migrationStatus**
+
+This section displays the migration information since the first iteration. Numbers are incremented after each iteration.
+
+* MIGRATED: number of draft, finished and stopped journeys migrated successfully.
+* NEW_VERSION_CREATED: number of live journeys migrated. For each live journey, a new draft version is created: you must test and publish this version.
+* ERROR: number of draft, finished and stopped journeys not migrated because of a failure. You need to re-create them.
+* ERROR_ON_NEW_VERSION_CREATION: number of live journeys not migrated because of a failure. new draft journey versions not migrated because of a failure. New draft versions have not been created for them. You need to re-create them manually.
+
+**eligibilityStatus**
+
+This section lists the remaining items after the last iteration:
+
+* toMigrate: number of draft, finished and stopped journeys that need to be migrated.
+* createNewVersion: number of live journeys to migrate.
+* noMigration_live: number of live journeys that do not need to be migrated. Closed journeys are also listed here.
+* noMigration: number of journeys that do not need to be migrated.
+
+The **details** section gives, for each of the above sections, the list of related journeys.
+
 ### Will this change cause any interruption of service?{#interruption}
 
 There will be no interruption of service.
