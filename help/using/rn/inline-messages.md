@@ -174,7 +174,7 @@ Closed journeys are automatically switched to the "Finished" status after 30 day
 
 These are not migrated. You have to re-create them.
 
-## What are my action items as a customer?{#actions}
+### What are my action items as a customer?{#actions}
 
 An automatic conversion of journeys will be performed for you but a few steps are required. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
 
