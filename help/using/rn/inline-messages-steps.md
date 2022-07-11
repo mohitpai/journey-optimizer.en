@@ -25,7 +25,7 @@ Here are the main phases and steps:
 
 **[After the second iteration](../rn/inline-messages-steps.md#migration-step-3)**
 
-1. You can check the 2 parts of the migration. [Read more](../rn/inline-messages-steps.md#migration-step-3-1)
+1. Check both migration phases. [Read more](../rn/inline-messages-steps.md#migration-step-3-1)
 1. Stop previous versions. [Read more](../rn/inline-messages-steps.md#migration-step-3-2)
 
 [Before the third and last iteration](../rn/inline-messages-steps.md#migration-step-4)
@@ -69,7 +69,7 @@ Open them from top to bottom.
 
 ## After the migration first iteration (July 25){#migration-step-2}
 
-The migration is sequenced in two parts: the automated phase (at night-time, between July 25 and July 26) and the manual phase (starting July 26) which requires action items.
+The migration is sequenced in two phases: the automated phase (at night-time, between July 25 and July 26) and the manual phase (starting July 26) which requires action items.
 
 For the automated phase, refer to this [page](../rn/inline-messages.md#process).
 
@@ -158,7 +158,7 @@ Click the **Check status** button in the top banner and check that all journeys 
 
 If all previous steps were performed in time, all your journeys have been migrated except the closed ones and the ones with errors. Here are the steps to follow on the **production sandbox**:
 
-### 1. You can check the 2 parts of the migration{#migration-step-3-1}
+### 1. Check both migration phases{#migration-step-3-1}
 
 If there are no errors, you should have no journeys in "eligibilityStatus", under "toMigrate" and "createNewVersion". In the following example, there is one "ERROR" and one "ERROR_NEW_VERSION_CREATION". 
 

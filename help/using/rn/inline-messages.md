@@ -38,9 +38,10 @@ Here are the main changes in the interface:
 * Messages are created direcly from journeys.
 * The **Messages** entry in the left navigation menu has been removed. 
 * There is no separate library of messages, the journey now centralizes all components.
--->
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+-->
 
 ## Key take-aways{#keys}
 
@@ -62,14 +63,14 @@ Adobe's vision is to simplify the product continuously to provide efficient and 
 
 We designed this new workflow to put content in one place, directly where it is used.	
 
-The creation of content is now performed directly inside the journey. The immediate benefits you will get are:
+The creation of content is now performed directly inside the journey. The immediate **benefits** you will get are:
 
 * Faster journey building using Journey Optimizer channels in a single flow. 
 * Quick visualization of content by switching seamlessly between all email, push and SMS content in a journey.
 * Improved flow for emails and push using contextual personalization from the canvas.
 * Journey reporting centralizes detailed channel reporting information.
 
-Here are the product changes brought by this new feature:
+Here are the **product changes** brought by this new feature:
 
 <table>
 <tr>
@@ -233,7 +234,7 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 -->
 
-## How can I check the migration status?{#status}
+### How can I check the migration status?{#status}
 
 Click the **Check status** button in the top banner. The following page is displayed.
 
