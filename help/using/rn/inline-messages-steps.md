@@ -19,7 +19,11 @@ _On the production sandbox:_
 
 **2. Stop all live ad-hoc journeys without profile still in**
 
-Stop all live ad-hoc journeys that do not contain profiles anymore. To find these journeys, navigate to the **Journeys** menu and filter the list on "Status = Live" and "Type = Read segment". You can also order chronologically from the earliest to the latest "Published" date. 
+Stop all live ad-hoc journeys that do not contain profiles anymore. 
+
++++How to find these journeys?
+
+To find these journeys, navigate to the **Journeys** menu and filter the list on "Status = Live" and "Type = Read segment". You can also order chronologically from the earliest to the latest "Published" date. 
 
 ![](assets/inline-migration-steps1.png)
 
@@ -31,6 +35,8 @@ Open them from top to bottom.
     ![](assets/inline-migration-steps2.png)
 
 * If you have used wait or event listeners in those journeys, profiles may still be inside. Look at the journey execution date and add any hours/days that you have defined in your waits or event listeners to deduce the actual date when no profiles are left inside. If that date is in the past, you can stop the journey. Otherwise, this journey will be automatically moved to the "Finished" status 30 days after the journey execution date.
+
++++
 
 **Important notes**
 
@@ -69,6 +75,10 @@ Check the automatically migrated LIVE journeys in the status report.
 
 This is only LIVE journeys with messages and that did not already have a newer draft version. Journeys that don't include messages are ignored by the migration. If you created a draft version, we will simply migrate it as any draft journey version.
 
+Look for "ERROR_NEW_VERSION_CREATION":
+
+![](assets/inline-migration-steps6.png)
+
 * If there is no error, it means all live journey versions requiring migration have been processed and a new migrated draft version has been created automatically.
 
 * If you see an error, you can search for "errorMessage" and check the error message in the logs. Multi-channel messages are not migrated. You will have to create another journey.
@@ -97,11 +107,11 @@ They should all be marked as latest. if not, look for the newer version, test th
 
 **6. Look at errors on draft version migration**
 
-Click on **Check Status** to check if there are errors. Look for the "ERROR" status. 
+Click on **Check Status** to see if there are errors. Look for the "ERROR" status. 
 
 ![](assets/inline-migration-steps9.png)
 
-These are draft journeys that will be deleted at deprecation. You can you can search for "errorMessage" and check the error message in the logs.
+These are draft journeys that will be deleted at deprecation. You can search for "errorMessage" and check the error message in the logs.
 
 ## After the second iteration (August 1){#migration-step-3}
 
@@ -117,7 +127,6 @@ If all previous steps were performed in time, all your journeys have been migrat
 
 **2. You can check the 2 parts of the migration**
 
- toMigrate
 If there are no errors, you should have no journeys in "eligibilityStatus", under "toMigrate" and "createNewVersion". In the following example, there is one "ERROR" and one "ERROR_NEW_VERSION_CREATION". 
 
 ![](assets/inline-migration-steps10.png)

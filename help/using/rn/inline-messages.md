@@ -56,7 +56,7 @@ Here are the main changes in the interface:
 
 * **Deprecation**: after the 6th of September, all journeys still using legacy messages will be stopped and deleted later.
 
-## What are the benefits?{#benefits}
+## Benefits and product changes{#change}
 
 Adobe's vision is to simplify the product continuously to provide efficient and optimize user flows. This new way of creating messages will bring a more streamlined user process.
 
@@ -69,7 +69,7 @@ The creation of content is now performed directly inside the journey. The immedi
 * Improved flow for emails and push using contextual personalization from the canvas.
 * Journey reporting centralizes detailed channel reporting information.
 
-## What will change in the product?{#change}
+Here are the product changes brought by this new feature:
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ The creation of content is now performed directly inside the journey. The immedi
 
 At GA (July 25), this new user flow applies to all new journeys. The **Messages** menu, in the left navigation is no longer available. 
 
-## Why a migration and how is it sequenced?{#iterations}
+## Migration timeline{#iterations}
 
 A migration is required to turn your existing journeys using **Messages** into journeys with inline authored actions. An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
 
@@ -108,7 +108,9 @@ Why do we need multiple iterations?
 
 During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live or closed (meaning there can still be profiles in it). In these cases, we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
 
-## How will I be informed of the change?{#inform}
+##FAQ {#faq}
+
+### How will I be informed of the change?{#inform}
 
 Adobe communicates with you before the first iteration.
 
@@ -132,7 +134,7 @@ You are also informed by in-product notifications, displayed on Journeys screens
 
 * When the banner disappears, you are good to go. No more action is required from you.
 
-## What is the migration process?{#process}
+### What is the migration process?{#process}
 
 Migration is fully automatic for journeys that are not live or closed. We do not want to impact live or closed journeys to avoid any production impact. We will ask you to publish the new version that we created for you.
 
@@ -229,30 +231,30 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 -->
 
-## Will this change cause any interruption of service?{#interruption}
+### Will this change cause any interruption of service?{#interruption}
 
 There will be no interruption of service.
 
 * On live journeys: no impact, they keep running.
 * On authored journeys: during migration (at night-time), we strongly recommend not to create, edit or delete journeys.
 
-## Will there be loss of data? {#data}
+### Will there be loss of data? {#data}
 
 There will be no data loss and no impact on live journeys. You will be in control of publishing updated journey versions.
 
-## Will there be loss of functionality?{#functionality}
+### Will there be loss of functionality?{#functionality}
 
 There will be a change in the way you author message. There will be no loss of functionality.
 
-## Will there be access to the environment during the migration process?
+### Will there be access to the environment during the migration process?
 
 Migration will occur at night-time. You will be able to use the product. But do not create, edit or delete journeys.
 
-## Will the messages continue to be sent?
+### Will the messages continue to be sent?
 
 Yes, live journeys keep running. 
 
-## How do I know that the migration is complete?
+### How do I know that the migration is complete?
 
 The migration is complete when the banner disappears. See this [section](../rn/inline-messages.md#inform).
 
