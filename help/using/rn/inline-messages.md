@@ -108,7 +108,7 @@ Why do we need multiple iterations?
 
 During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live or closed (meaning there can still be profiles in it). In these cases, we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
 
-##FAQ {#faq}
+## FAQ {#faq}
 
 ### How will I be informed of the change?{#inform}
 
@@ -128,7 +128,7 @@ You are also informed by in-product notifications, displayed on Journeys screens
 
 * After an iteration
 
-   ![](assets/inline-migration-banner4.png)
+   ![](assets/inline-migration-banner3.png)
 
     After an iteration, the **Check status** button is displayed. This allows you to view all your journeys in JSON format and their respective migration status. See this [section](../rn/inline-messages.md#status). 
 
@@ -174,9 +174,11 @@ Closed journeys are automatically switched to the "Finished" status after 30 day
 
 These are not migrated. You have to re-create them.
 
-<!--
-
 ## What are my action items as a customer?{#actions}
+
+An automatic conversion of journeys will be performed for you but a few steps are required. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
+
+<!--
 
 The process timeline is indicated in a blue banner on the Journeys screen. See this [section](../rn/inline-messages.md#inform). 
 
