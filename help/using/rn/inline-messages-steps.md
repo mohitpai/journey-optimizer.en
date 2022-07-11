@@ -9,26 +9,28 @@ The new process for authoring messages in Adobe Journey Optimizer is described i
 
 Here are the main phases and steps:
 
-* [Before the migration](../rn/inline-messages-steps.md#migration-step-1)
+**[Before the migration](../rn/inline-messages-steps.md#migration-step-1)**
 
-    1. On non-production sandboxes, stop all live and closed journeys. [Read more](../rn/inline-messages-steps.md#migration-step-1-1)
-    1. On the production sandbox, stop all live ad-hoc journeys without profile still in. [Read more](../rn/inline-messages-steps.md#migration-step-1-2)
+1. On non-production sandboxes, stop all live and closed journeys. [Read more](../rn/inline-messages-steps.md#migration-step-1-1)
+1. On the production sandbox, stop all live ad-hoc journeys without profile still in. [Read more](../rn/inline-messages-steps.md#migration-step-1-2)
 
-* [After the first iteration](../rn/inline-messages-steps.md#migration-step-2)
-    1. Check for any errors on your migrated live journeys. [Read more](../rn/inline-messages-steps.md#migration-step-2-1)
-    1. List all new versions created by the migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-2)
-    1. Test and publish them one by one. [Read more](../rn/inline-messages-steps.md#migration-step-2-3)
-    1. List all live versions. [Read more](../rn/inline-messages-steps.md#migration-step-2-4)
-    1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
-    1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
+**[After the first iteration](../rn/inline-messages-steps.md#migration-step-2)**
 
-* [After the second iteration](../rn/inline-messages-steps.md#migration-step-3)
-    1. You can check the 2 parts of the migration. [Read more](../rn/inline-messages-steps.md#migration-step-3-1)
-    1. Stop previous versions. [Read more](../rn/inline-messages-steps.md#migration-step-3-2)
+1. Check for any errors on your migrated live journeys. [Read more](../rn/inline-messages-steps.md#migration-step-2-1)
+1. List all new versions created by the migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-2)
+1. Test and publish them one by one. [Read more](../rn/inline-messages-steps.md#migration-step-2-3)
+1. List all live versions. [Read more](../rn/inline-messages-steps.md#migration-step-2-4)
+1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
+1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
 
-* [Before the third and last iteration](../rn/inline-messages-steps.md#migration-step-4)
+**[After the second iteration](../rn/inline-messages-steps.md#migration-step-3)**
 
-     Validate that everything has been migrated before deprecation.
+1. You can check the 2 parts of the migration. [Read more](../rn/inline-messages-steps.md#migration-step-3-1)
+1. Stop previous versions. [Read more](../rn/inline-messages-steps.md#migration-step-3-2)
+
+[Before the third and last iteration](../rn/inline-messages-steps.md#migration-step-4)
+
+Validate that everything has been migrated before deprecation.
 
 ## Before the migration (July 25){#migration-step-1}
 
