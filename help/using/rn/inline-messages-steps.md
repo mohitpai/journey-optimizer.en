@@ -28,7 +28,7 @@ Here are the main phases and steps:
 1. Check both migration phases. [Read more](../rn/inline-messages-steps.md#migration-step-3-1)
 1. Stop previous versions. [Read more](../rn/inline-messages-steps.md#migration-step-3-2)
 
-[Before the third and last iteration](../rn/inline-messages-steps.md#migration-step-4)
+**[Before the third and last iteration](../rn/inline-messages-steps.md#migration-step-4)**
 
 Validate that everything has been migrated before deprecation.
 
