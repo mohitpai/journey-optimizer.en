@@ -15,7 +15,9 @@ solution: Journey Optimizer
     + [2022 Release notes](using/rn/release-notes-2022.md)
     + [2021 Release notes](using/rn/release-notes-2021.md)
   + [Documentation updates](using/rn/documentation-updates.md)
-  + [Message migration](using/rn/inline-messages.md)
+  + New inline authoring feature {#inline-authoring}
+    + [Migration overview](using/rn/inline-messages.md)
+    + [Migration steps](using/rn/inline-messages-steps.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
