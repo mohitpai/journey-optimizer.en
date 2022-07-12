@@ -199,3 +199,11 @@ The **[!UICONTROL Error Reasons]** graph and table allow you to see which error 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
+
+## Additional resources
+
+* [Get started with campaigns](get-started-with-campaigns.md)
+* [Create a campaign](create-campaign.md)
+* [Create API-triggered campaigns](api-triggered-campaigns.md)
+* [Modify or stop a campaign](modify-stop-campaign.md)
+* [Campaign live report](campaign-live-report.md)

@@ -19,8 +19,6 @@ To modify and create a new version of a campaign, follow these steps:
 
 1. Open the campaign then click the **[!UICONTROL Modify campaign]** button.
 
-    ![](assets/create-campaign-edit.png)
-
 1. A new version of the campaign is created. You can check the live version by clicking **[!UICONTROL Open live version]**.
 
     ![](assets/create-campaign-draft.png)
@@ -35,8 +33,6 @@ To modify and create a new version of a campaign, follow these steps:
     >
     >Activating the draft will replace the live version of the campaign.
 
-    ![](assets/create-campaign-activate-draft.png)
-
 ## Stop a campaign {#stop}
 
 To stop a campaign, open it then click the **[!UICONTROL Stop campaign]** button.
@@ -46,3 +42,11 @@ To stop a campaign, open it then click the **[!UICONTROL Stop campaign]** button
 >[!IMPORTANT]
 >
 >After stopping a campaign, it will be available in read-only mode only. You will not be able to activate it again, or use it to create a new campaign.
+
+## Additional resources
+
+* [Get started with campaigns](get-started-with-campaigns.md)
+* [Create a campaign](create-campaign.md)
+* [Create API-triggered campaigns](api-triggered-campaigns.md)
+* [Campaign live report](campaign-live-report.md)
+* [Campaign global report](campaign-global-report.md)

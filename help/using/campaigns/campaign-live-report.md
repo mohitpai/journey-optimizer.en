@@ -104,3 +104,11 @@ The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs a
 The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
+
+## Additional resources
+
+* [Get started with campaigns](get-started-with-campaigns.md)
+* [Create a campaign](create-campaign.md)
+* [Create API-triggered campaigns](api-triggered-campaigns.md)
+* [Modify or stop a campaign](modify-stop-campaign.md)
+* [Campaign global report](campaign-global-report.md)

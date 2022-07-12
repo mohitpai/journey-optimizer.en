@@ -18,12 +18,16 @@ hidefromtoc: yes
 
 ## About campaigns {#about}
 
-Campaigns allow you to deliver one-time content to a specific segment using multiple channels.
+Campaigns allow you to deliver one-time content to a specific segment using multiple channels. Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. 
 
-Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. You can use them, for example, to deliver promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+You can create two types of campaigns:
+
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.
 
 Learn how to work with campaigns:
 * [Create a campaign](create-campaign.md)
+* [Create API-triggered campaigns](api-triggered-campaigns.md)
 * [Modify or stop a campaign](modify-stop-campaign.md)
 * [Campaign live report](campaign-live-report.md)
 * [Campaign global report](campaign-global-report.md)

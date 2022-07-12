@@ -32,6 +32,7 @@ solution: Journey Optimizer
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
+  + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
