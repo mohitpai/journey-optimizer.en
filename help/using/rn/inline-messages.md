@@ -1,5 +1,4 @@
 ---
-title: Migration to journey inline authoring
 title: Migrate to journey inline authoring
 description: Learn how to migrate your messages
 hide: yes
@@ -33,9 +32,9 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 >abstract="Starting July 25 2022, the Messages menu disappears and messages are authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Save messages as templates"
 
-Adobe Journey Optimizer is releasing a new feature which improves the way practitioners author experiences for Journey Optimizer delivered channels like email, push, SMS. This feature requires a migration of existing Journeys that are using Messages. 
+Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you will now create and author your messages directly from a journey.
 
-As a journey practitioner, you can now create and author your messages directly from a Journey.
+This feature requires a migration of existing journeys that are using messages. 
 
 ![](assets/inline-message.png)
 
