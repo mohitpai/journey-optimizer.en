@@ -23,7 +23,6 @@ Here are the main phases and steps:
 1. Test and publish them one by one. [Read more](../rn/inline-messages-steps.md#migration-step-2-3)
 1. List all live versions. [Read more](../rn/inline-messages-steps.md#migration-step-2-4)
 1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
-1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[After the second iteration](../rn/inline-messages-steps.md#migration-step-3)**
 
