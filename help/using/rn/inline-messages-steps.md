@@ -1,11 +1,13 @@
 ---
-title: Steps to Migrate to journey inline authoring
+title: Steps to migrate to journey inline authoring
 description: Steps to Migrate to journey inline authoring
 ---
 
 # Inline authoring migration steps{#migration-steps}
 
 The new process for authoring messages in Adobe Journey Optimizer is described in this [page](../rn/inline-messages.md). An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344699)
 
 Here are the main phases and steps:
 
@@ -141,7 +143,11 @@ Look for the "ERROR" status.
 
 ![](assets/inline-migration-steps9.png)
 
-These are draft journeys that will be deleted at deprecation. You can search for "errorMessage" and check the error message in the logs.
+* If there is no error, you are good to go.
+
+* If there are errors, look for the error by searching "errorMessage". The following error is expected as migration of multi-channel messages is not supported: "Migration of multi-channel messages is not supported". You will have to rebuild this journey.
+
+![](assets/inline-migration-steps6.png)
 
 ## After the second iteration (August 1){#migration-step-3}
 
