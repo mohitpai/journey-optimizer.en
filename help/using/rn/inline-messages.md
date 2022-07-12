@@ -108,8 +108,8 @@ A migration is required to turn your existing journeys using **Messages** into j
 
 Migration will happen for each region at night-time, through several iterations. Here is the migration timeline:
 
-* July 25, 2002: GA - 1st iteration
-* August 1st, 2002: 2nd iteration
+* July 25, 2022: GA - 1st iteration
+* August 1st, 2022: 2nd iteration
 * September 5th, 2022: 3rd iteration
 * September 6th, 2022: deprecation
 
