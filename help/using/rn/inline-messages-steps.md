@@ -34,6 +34,8 @@ Here are the main phases and steps:
 
 Validate that everything has been migrated before deprecation.
 
+<br>&nbsp;
+
 ## Before the migration (July 25){#migration-step-1}
 
 ### 1. Stop all live and closed journeys{#migration-step-1-1}
