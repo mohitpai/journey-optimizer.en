@@ -12,32 +12,30 @@ level: Beginner
 
 Content Experiments allow you to optimize content for the actions in your Campaigns.
 
-Content experiment is a set of randomized trials, which in the context of online testing, means that we expose some randomly selected users to a given variation of a message and another randomly selected set of users to some other treatment. After sending the message, we can then measure the outcome metrics we are interested in (e.g. opens of emails or clicks).
+Experimentation is a set of randomized trials, which in the context of online testing, means that some randomly selected users are exposed to a given variation of a message and another randomly selected set of users to another treatment. After sending the message, you can then measure the outcome metrics you are interested in e.g. opens of emails or clicks.
 
 ## Why run Experimentations?
 
-![](assets/content_experiment.png)
+![](assets/content_experiment_schema.png)
 
-Experimentations allow you to isolate the changes that lead to improvements in your business metrics. The reason is illustrated in the image below: we randomly assigned users to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received, i.e. we are able to establish a causal link between the changes we made, and the outcomes we are interested in.
+Experimentations allow you to isolate the changes that lead to improvements in your metrics. As illustrated in the image below: some randomly selected users are exposed to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received, i.e. you are able to establish a causal link between the changes you made, and the outcomes you are interested in.
 
 This allows you to make data driven decisions in optimizing your business goals.
 
 For content experiments in Adobe Journey Optimizer, you can test ideas such as:
 
-* **Subject line**: will changing the tone of a subject line, or the degree of personalization can impact if emails are opened?
-* **Message content**: will changing the visual layout of an email result in more clicks on the email?
+* **Subject line**: What could be the impact of a change in the tone or in the degree of personalization of a subject line?
+* **Message content**: Will changing the visual layout of an email result in more clicks on the email?
 
 ## Tips for running Experimentations
 
 When running Experimentations, it is important to follow certain best practices. Here are some tips for running these experiments:
 
-![](assets/tips_tricks.png)
-
 +++Isolate the variables you are trying to test
 
 Formulate some hypothesis that you intend to test, and restrict this hypothesis to as few changes as possible to determine what made an impact to your delivery.
 
-<br>For example, a good hypothesis can be whether personalization in email subject lines drives better open rates. However, also adding a change in the message content or in images can result in a confusing conclusion.
+For example, a good hypothesis can be whether personalization in email subject lines drives better open rates. However, also adding a change in the message content or in images can result in a confusing conclusion.
 +++
 
 +++Ensure you are using the right metric
@@ -50,7 +48,7 @@ For example, changing content of the message body is unlikely to affect email op
 +++Run your test on the right audience size, or for long enough
 
 If you run your tests for longer, you will be able to detect smaller differences in the goal metric between treatments. However, if the baseline value of your goal metric is small, then you'll need larger sample sizes. 
-More formally, the number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or "spread" of your goal metric, as well as your tolerance for false positive and false negative errors. In classical A/B tests, you can use a sample size calculator to determine how long you must run your test.
+The number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or spread of your goal metric, as well as your tolerance for false positive and false negative errors. In classical Experimentations, you can use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) to determine how long you must run your test.
 +++ 
 
 +++Understand statistical uncertainty
@@ -61,7 +59,7 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 
 +++Form new hypotheses, and test continuously
 
-To gain true business insights, you should not run just one test. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
+To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
 +++
 
 ## Interpreting the results of your Experimentation
@@ -98,7 +96,7 @@ The Experiment report summary shows the Lift over Baseline, which is a measure o
 
 While you should primarily focus on the confidence interval for the performance of each treatment, Adobe also shows the Confidence, which is a probabilistic measure of how much evidence there is that a given treatment is the same as the baseline treatment. A higher confidence indicates less evidence for the assumption that baseline and non-baseline treatments have equal performance. More precisely, the confidence that is displayed is a probability (expressed as a percentage) that we would have observed a smaller difference in conversion rates between a given treatment and the baseline, if in reality there is no difference in the true underlying conversion rates. In terms of p-values, the confidence displayed is 1 - p-value.
 
-Adobe uses "Anytime Valid" Confidence, and "Anytime Valid" p-values that are consistent with the Confidence Sequences described above. For further details see [LINK]
+Adobe uses "Anytime Valid" Confidence, and "Anytime Valid" p-values that are consistent with the Confidence Sequences described above.
 
 ### 4. Statistical Significance
 
@@ -125,7 +123,7 @@ After running your Experiment, there are several possible follow up actions:
 
     The treatment that works well for one audience may sometimes not be the best treatment for another audience. Doing deeper analyses on how treatments behaved for different segments help generate ideas for new tests. 
     
-    Similarly, studying the performance of each treatment with respect different metrics may also give a more comprehensive view of your Experimentations. 
+    Similarly, studying the performance of each treatment with different metrics may also give a more comprehensive view of your Experimentations. 
     
     >[!CAUTION]
     >
