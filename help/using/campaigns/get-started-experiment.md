@@ -86,7 +86,7 @@ Confidence Intervals help to quantify the amount of uncertainty in the estimated
 
 If the confidence intervals for two treatments are barely overlapping, this means that the two treatments have different conversion rates. But, if there is a lot of overlap between the confidence intervals for two treatments, then it is more likely that the two treatments have the same conversion rate.
 
-Adobe uses 95% (?)Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
+Adobe uses 95% Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
 
 ### 3. Understanding Lift
 

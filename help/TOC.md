@@ -35,7 +35,7 @@ solution: Journey Optimizer
   + Content experiment {#content-experimentation}
     + [Get started with Content experiment](using/campaigns/get-started-experiment.md)
     + [Create a Content experiment](using/campaigns/content-experiment.md)
-    + [Technote: Statistical Calculations used by Experimentation](using/campaigns/experiment-calculations.md)
+    + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
