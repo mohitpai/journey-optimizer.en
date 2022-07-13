@@ -15,13 +15,13 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Learn what is happening"
->abstract="Starting July 25 2022, messages are authored directly from a Journey. Your environment is being migrated. Additional actions will be required after the migration."
+>abstract="Starting July 25 2022, messages are authored directly from a Journey. Your environment is being migrated. Additional actions will be required after the migration, if you currently use messages within your journeys.."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Migration steps"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Learn how to migrate your messages"
->abstract="Starting July 25 2022, messages are authored directly from a Journey. Existing messages have now been migrated to the new model. As a journey practitioner, additional actions are now required."
+>abstract="Starting July 25 2022, messages are authored directly from a Journey. Existing messages have now been migrated to the new model. As a journey practitioner, additional actions are now required for journeys using messages."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Migration steps"
 
 >[!CONTEXTUALHELP]
