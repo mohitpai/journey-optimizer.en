@@ -5,7 +5,7 @@ description: Steps to Migrate to journey inline authoring
 
 # Inline authoring migration steps{#migration-steps}
 
-The new process for authoring messages in Adobe Journey Optimizer is described in this [page](../rn/inline-messages.md). An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
+The new process for authoring content in Adobe Journey Optimizer is described in this [page](../rn/inline-messages.md). An automatic conversion of journeys is performed for you. That said, we need your help with a few steps.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -22,7 +22,7 @@ Here are the main phases and steps:
 1. List all new versions created by the migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-2)
 1. Test and publish them one by one. [Read more](../rn/inline-messages-steps.md#migration-step-2-3)
 1. List all live versions. [Read more](../rn/inline-messages-steps.md#migration-step-2-4)
-1. Look at errors on draft version migration. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
+1. Check for errors on migrated draft versions. [Read more](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[After the second iteration](../rn/inline-messages-steps.md#migration-step-3)**
 
@@ -39,7 +39,7 @@ Validate that everything has been migrated before deprecation.
 
 ### 1. Stop all live and closed journeys{#migration-step-1-1}
 
-On **non-production sandboxes**, stop all live and closed journeys. This will enable the automated migration process to migrate all journeys from those sandboxes without any action from you. Post migration, you will be able to duplicate stopped journey versions and use them.
+On **non-production sandboxes**, stop all live and closed journeys. This enables the automated migration process to migrate all journeys from those sandboxes without any action from you. After the migration, you will be able to duplicate stopped journey versions and use them.
 
 ### 2. Stop all live ad-hoc journeys without profile still in{#migration-step-1-2}
 
@@ -47,18 +47,18 @@ On the **production sandbox**, stop all live ad-hoc journeys that do not contain
 
 +++How to find these journeys?
 
-To find these journeys, navigate to the **Journeys** menu and filter the list on "Status = Live" and "Type = Read segment". You can also order chronologically from the earliest to the latest "Published" date. 
+To find these journeys, navigate to the **Journeys** menu and filter the list on "Status = Live" and "Type = Read segment". You can also order journeys chronologically from the earliest to the latest "Published" date. 
 
 ![](assets/inline-migration-steps1.png)
 
 Open them from top to bottom.
 
 * Check that the journey has a message. 
-* Check that they are not recurrent journeys. These are not ad-hoc. You most probably want to keep them Live. For example, this one is a recurrent journey (not ad-hoc):
+* Check that they are not recurrent journeys. These are not ad-hoc. You most probably want to keep them live. For example, this one is a recurrent journey (not ad-hoc):
 
     ![](assets/inline-migration-steps2.png)
 
-* If you have used wait or event listeners in those journeys, profiles may still be inside. Look at the journey execution date and add any hours/days that you have defined in your waits or event listeners to deduce the actual date when no profiles are left inside. If that date is in the past, you can stop the journey. Otherwise, this journey will be automatically moved to the "Finished" status 30 days after the journey execution date.
+* If you have used wait or event listeners in those journeys, profiles may still be inside. Look at the journey execution date and add any hours/days that you have defined in your waits or event listeners to deduce the actual date when no profiles are left inside. If that date is in the past, you can stop the journey. Otherwise, this journey automatically moves to the "Finished" status 30 days after the journey execution date.
 
 +++
 
@@ -134,7 +134,7 @@ They should all be marked as latest. if not, look for the newer version, test th
 
 ![](assets/inline-migration-steps8.png)
 
-### 5. Look at errors on draft version migration{#migration-step-2-5}
+### 5. Check for errors on migrated draft versions {#migration-step-2-5}
 
 Click the **Check status** button in the top banner and check that there has been no error during the automatic migration and that there is nothing left to migrate. Be aware that any journey in error (with messages) will be deprecated after September 5 (on all sandboxes).
 
