@@ -348,8 +348,8 @@ solution: Journey Optimizer
         + [Create a decision](using/offers/api-reference/activities-api/activities/create.md)
         + [Update a decision](using/offers/api-reference/activities-api/activities/update.md)
         + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
-    + Offer delivery using APIs {#offer-delivery-api}
-        + [About Decisioning and Edge Decisioning APIs](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+    + Deliver offers using APIs {#offer-delivery-api}
+        + [Get started with offer delivery APIs](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)

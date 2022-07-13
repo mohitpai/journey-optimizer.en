@@ -1,17 +1,17 @@
 ---
-title: Decisioning and Edge Decisioning APIs
-description: Decision Management is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
+title: Get started with offer delivery APIs
+description: Learn more on the APIs available to deliver personalized offers.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 ---
-# Decisioning and Edge Decisioning APIs {#about-decisioning-apis}
+# Get started with offer delivery APIs {#about-decisioning-apis}
 
-You can deliver offers using either the **Decisioning** or the **Edge Decisioning** API.
+You can deliver offers using either the **Decisioning** or the **Edge Decisioning** API. Additionally, the **Batch Decisioning** API allows you to deliver offers to all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
 
-In this page, you will find information on specific functionalities that are available with each API. While both allow you to deliver offers to your customers, we recommend using the **Edge Decisioning** API whenever possible for inbound use cases and to ensure better latency and throughput on your platform.
+In this page, you will find information on specific functionalities that are available with the **Decisioning** and **Edge Decisioning** APIs. While both allow you to deliver offers to your customers, we recommend using the **Edge Decisioning** API whenever possible for inbound use cases and to ensure better latency and throughput on your platform.
 
 || Requests/sec | Latency |
 |---|---|---|
@@ -21,6 +21,7 @@ In this page, you will find information on specific functionalities that are ava
 For more information on how to work with the APIs, refer to these sections:
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
+* [Batch Decisioning API](batch-decisioning-api.md)
 
 ## Edge Decisioning API capabilities {#edge}
 
