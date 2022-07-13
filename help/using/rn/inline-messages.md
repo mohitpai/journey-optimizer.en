@@ -30,11 +30,9 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 >abstract="Starting July 25 2022, the Messages menu disappears and messages are authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Save messages as templates"
 
-Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you will now create and author your messages directly from a journey.
+Adobe Journey Optimizer is releasing a new feature which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now create and author your messages directly from a journey.
 
-This feature requires a migration of existing journeys that are using messages. 
-
-In this page, you will find the necessary information about this change as well as the steps that are required from you. 
+This feature requires a migration of existing journeys that are using messages. In this page, you will find the necessary information about this change as well as the steps that are required from you. 
 
 For more information on your roles and responsibilities as a Journey Optimizer practitioner, refer to this [page](../start/path/marketer.md).
 
@@ -55,23 +53,23 @@ Here are the main changes in the interface:
 
 * **Am I impacted**: you are impacted if you create messages from the **Messages** menu in the left navigation and use them in your journeys. If you are using a third-party system (such as Adobe Campaign), you are not impacted by this migration.
 
-* **Product changes**: at GA (July 25), your channel content will be created and managed within each journey. The **Messages** menu, in the left navigation will no longer be available ([Learn more](../rn/inline-messages.md#change)). We will proceed to a migration for your existing journeys.
+* **Product changes**: at GA (July 25), your channel content is created and managed within each journey. The **Messages** menu, in the left navigation is no longer available ([learn more](../rn/inline-messages.md#change)). We will proceed to a migration for your existing journeys.
 
-* **Timeline**: migration will happen for each region at night-time, through several [iterations](../rn/inline-messages.md#iterations).
+* **Timeline**: migration occurs for each region at night-time, through several [iterations](../rn/inline-messages.md#iterations).
 
     ![](assets/inline-migration-timeline.png)
 
-* **Required actions**: an automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
+* **Required actions**: an automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
 
-* **Deprecation**: after the 6th of September, all journeys still using legacy messages will be stopped and deleted later.
+* **Deprecation**: after the 6th of September, all journeys still using legacy messages are stopped and will be deleted later.
 
 ## Benefits and product changes{#change}
 
-Adobe's vision is to simplify the product continuously to provide efficient and optimize user flows. This new way of creating messages will bring a more streamlined user process.
+Adobe's vision is to simplify the product continuously to provide efficient and optimized user flows. This new way of creating messages brings a more streamlined user process.
 
-We designed this new workflow to put content in one place, directly where it is used.	
+We designed this new workflow to centralize content in one place, directly where it is used.	
 
-The creation of content is now performed directly inside the journey. The immediate **benefits** you will get are:
+The creation of content is now performed directly inside the journey. The immediate **benefits** you get are:
 
 * Faster journey building using Journey Optimizer channels in a single flow. 
 * Quick visualization of content by switching seamlessly between all email, push and SMS content in a journey.
@@ -87,7 +85,7 @@ Here are the **product changes** brought by this new feature:
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before.png"><p>Before, you created your message from the <strong>Messages</strong> menu. </p></td>
-<td><img src="assets/inline-migration-after.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer be available. </p></td>
+<td><img src="assets/inline-migration-after.png"><p>Now, the <strong>Messages</strong> menu, in the left navigation is no longer available. </p></td>
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before2.png"><p>You then created a journey, added a <strong>Message</strong> activity and selected the previously created message.</p></td>
@@ -104,9 +102,9 @@ At GA (July 25), this new user flow applies to all new journeys. The **Messages*
 
 ## Migration timeline{#iterations}
 
-A migration is required to turn your existing journeys using **Messages** into journeys with inline authored actions. An automatic conversion of journeys will be performed for you. That said, we will need your help with a few steps.
+A migration is required to turn your existing journeys using **Messages** into journeys with inline authored actions. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps.
 
-Migration will happen for each region at night-time, through several iterations. Here is the migration timeline:
+Migration occurs for each region at night-time, through several iterations. Here is the migration timeline:
 
 * July 25, 2022: GA - 1st iteration
 * August 1st, 2022: 2nd iteration
@@ -123,7 +121,7 @@ During an iteration, we go through each journey and migrate them when possible. 
 
 Adobe communicates with you before the first iteration.
 
-The change is going to be deployed overnight, through several iterations. Learn more on [iterations](../rn/inline-messages.md#inline-authoring). 
+The change is deployed overnight, through several iterations. Learn more on [iterations](../rn/inline-messages.md#inline-authoring). 
 
 You are also informed by in-product notifications, displayed on Journeys screens: 
 
@@ -145,33 +143,33 @@ You are also informed by in-product notifications, displayed on Journeys screens
 
 ### What is the migration process?{#process}
 
-Migration is fully automatic for journeys that are not live or closed. We do not want to impact live or closed journeys to avoid any production impact. We will ask you to publish the new version that we created for you.
+Migration is fully automatic for journeys that are not live or closed. We do not want to impact live or closed journeys to avoid any production impact. We ask you to publish the new version that we created for you.
 
-All sandboxes of a customer ORG will be processed simultaneously. During the change deployment, the following actions will be performed:
+All sandboxes of a customer ORG are processed simultaneously. During the change deployment, the following actions are performed:
 
-**ANY Journey not using messages**
+**ANY journey not using messages**
 
 These are not affected by the change. Only journeys using messages are targeted by the migration. However, you will still be able to access messages that are not used in a journey via the following URL: https://experience.adobe.com/#/@[ORG]/sname:[SANDBOX]/journey-optimizer/messages/
 
-**DRAFT Journeys using at least one message**
+**DRAFT journeys using at least one message**
 
-Draft versions of messages will get modified during the migration. They will not reference a message anymore. The **Message** activities will be replaced with the appropriate channel action activities. Each of them will include the channel parameters and content.
+Draft versions of messages are modified during the migration. They do not reference a message anymore. The **Message** activities are replaced with the appropriate channel action activities. Each of them include the channel parameters and content.
 
 As usual, test your draft journey before publishing it. 
 
-**LIVE Journeys using at least one message**
+**LIVE journeys using at least one message**
 
 The live version of a journey keeps running to avoid any production impact.
 
-A new draft version of this journey will be created during migration. This new draft version will be a copy of your live version but messages will be replaced with inline authored channel actions. Each channel action activity will include the channel parameters and content. Content is not lost. Reporting is not lost
+A new draft version of this journey is created during migration. This new draft version is a copy of your live version but messages are replaced with inline authored channel actions. Each channel action activity include the channel parameters and content. Content is not lost. Reporting is not lost.
 
 We expect you to review this draft version, test it and publish it so that this becomes the live version.
 
-**FINISHED or STOPPED Journeys using at least one Message**
+**FINISHED or STOPPED journeys using at least one message**
 
-These journeys will be migrated too.
+These journeys are migrated too.
 
-When looking at the journey report, reports will be richer to include the level of information that was previously available in Message report.
+When looking at the journey report, reports are now richer and include the level of information that was previously available in message report.
 
 **CLOSED journeys using at least one message**
 
@@ -179,13 +177,13 @@ The closed version of a journey keeps running for any profile inside, to avoid a
 
 Closed journeys are automatically switched to the "Finished" status after 30 days. They will be taken into account in the next iteration, when they are finished.
 
-**Multi-channel Journeys**
+**Multi-channel journeys**
 
 These are not migrated. You have to re-create them.
 
 ### What are my action items as a customer?{#actions}
 
-An automatic conversion of journeys will be performed for you but a few steps are required. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
+An automatic conversion of journeys is performed for you but a few steps are required. Learn more on the required steps in this [page](../rn/inline-messages-steps.md).
 
 <!--
 
@@ -287,7 +285,7 @@ There will be a change in the way you author message. There will be no loss of f
 
 ### Will there be access to the environment during the migration process?
 
-Migration will occur at night-time. You will be able to use the product. But do not create, edit or delete journeys.
+Migration occurs at night-time. You will be able to use the product. But do not create, edit or delete journeys.
 
 ### Will the messages continue to be sent?
 
