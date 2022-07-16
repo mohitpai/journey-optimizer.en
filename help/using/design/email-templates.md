@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
 # Work with email templates {#email-templates}
 
@@ -58,4 +58,3 @@ Next time you create an email, you can use this template to build your content. 
 1. Click **[!UICONTROL Use this email]** on top right of the screen.
 
 1. Edit your content as desired using the email designer.
-

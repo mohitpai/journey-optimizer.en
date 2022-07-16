@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 ---
-
 # Modify or stop a campaign {#modify-stop-campaign}
 
 Once a campaign has been activated, you can edit or stop it at any time. To do this, follow the steps below.

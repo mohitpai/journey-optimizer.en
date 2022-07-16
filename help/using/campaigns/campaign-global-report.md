@@ -7,6 +7,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 ---
 # Campaign global report {#campaign-global-report}
 

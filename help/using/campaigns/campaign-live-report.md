@@ -7,6 +7,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 ---
 # Campaign live report {#campaign-live-report}
 

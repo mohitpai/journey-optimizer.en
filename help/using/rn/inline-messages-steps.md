@@ -1,8 +1,8 @@
 ---
 title: Steps to migrate to journey inline authoring
 description: Steps to Migrate to journey inline authoring
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
 ---
-
 # Inline authoring migration steps{#migration-steps}
 
 The new process for authoring content in Adobe Journey Optimizer is described in this [page](../rn/inline-messages.md). An automatic conversion of journeys is performed for you. That said, we need your help with a few steps.
@@ -184,4 +184,3 @@ If you haven't published newer journey versions (see this [section](../rn/inline
 ## Before the third and last iteration (September 5){#migration-step-4}
 
 Between August 1st and September 5, you will need to validate that everything has been migrated and that there are no journeys left still using messages, otherwise they will be deprecated on September 5.
-

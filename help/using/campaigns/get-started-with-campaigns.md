@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 ---
-
 # Get started with campaigns {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]

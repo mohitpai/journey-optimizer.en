@@ -4,6 +4,7 @@ description: Learn more on privacy requests and the Privacy Service.
 feature: Monitoring
 role: User
 level: Intermediate
+exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 ---
 # Privacy requests {#track-changes}
 

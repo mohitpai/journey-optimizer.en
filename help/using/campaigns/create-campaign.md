@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 ---
-
 # Create a campaign {#create-campaign}
 
 >[!NOTE]

@@ -3,8 +3,8 @@ title: Trigger campaigns using APIs
 description: Learn how to trigger campaigns using [!DNL Journey Optimizer] APIs
 hide: yes
 hidefromtoc: yes
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 ---
-
 # Trigger campaigns using APIs {#trigger-campaigns}
 
 ## About API-triggered campaigns {#about}

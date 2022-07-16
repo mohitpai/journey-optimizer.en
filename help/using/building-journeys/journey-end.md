@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
 ---
 # Journey lifecycle{#journey-lifecyle}
 
