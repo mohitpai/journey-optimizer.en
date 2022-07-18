@@ -5,6 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
 ---
 # Publish your messages {#publish-manage-messages}

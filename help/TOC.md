@@ -41,9 +41,7 @@ solution: Journey Optimizer
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
-  + Validate and publish {#validate}
-    + [Check alerts](using/messages/alerts.md)
-    + [Publish messages](using/messages/publish-manage-message.md)
+  + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
 + Design content {#design}

@@ -46,7 +46,7 @@ However, the BCC address gets picked up for sending communications following the
 
 >[!NOTE]
 >
->You do not need to republish a message or journey for the BCC setting to be picked up.
+>You do not need to republish your journey for the BCC setting to be picked up.
 
 ## Recommendations and limitations {#bcc-recommendations-limitations}
 
