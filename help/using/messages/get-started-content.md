@@ -55,7 +55,7 @@ Steps to add a message in a journey are detailed below.
 
 1. Select the message **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
-   A surface is a message configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters (From), subdomain, and [frequency rules](../configuration/frequency-rules.md). [Learn more](../configuration/message-presets.md).
+   A surface is a message configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters (From), subdomain, and [frequency rules](../configuration/frequency-rules.md#apply-frequency-rule). [Learn more](../configuration/message-presets.md).
 
    >[!CAUTION]
    >
