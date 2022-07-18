@@ -45,6 +45,7 @@ solution: Journey Optimizer
     + [Check alerts](using/messages/alerts.md)
     + [Publish messages](using/messages/publish-manage-message.md)
   + [Manage consent](using/messages/consent.md)
+  + [Send time optimization](using/messages/send-time-optimization.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)

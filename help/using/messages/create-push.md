@@ -26,9 +26,9 @@ Once you [added a push](get-started-content.md) activity to your journey, and de
 
 Use the dedicated tabs to define the push notification settings for **iOS** and **Android** operating systems.
 
-
 ![](assets/create-content-push.png)
 
+If this is your first time creating an Push Notification, make sure the Push channel has been configured. [Learn more](../configuration/push-gs.md).
 
 >[!NOTE]
 >

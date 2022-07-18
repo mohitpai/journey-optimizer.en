@@ -9,6 +9,11 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with messages {#get-started-contents-messages}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Message activity"
+>abstract="Use the Message activity to send a push, SMS or email message."
+
 Use [!DNL Journey Optimizer] to create and send personalized push notifications, SMS and email messages, and leverage multiple resources like assets and contents in a single place. 
 
 [!DNL Journey Optimizer] messages are built in the context of journeys <!--and campaigns-->. You can:
@@ -58,16 +63,42 @@ Steps to add a message in a journey are detailed below.
    
    You can access and modify the message's label, description and surface at any time using the **[!UICONTROL Properties]** button in the message interface.
 
-1. Configure your message. 
+1. Create the message content. 
+
+   Learn detailed steps to create your message content in the following page:
 
    * [Create an email](create-email.md)
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
 
+## Enable Send-time optimization{#sto-in-journeys}
 
-1. For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
+For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
     
-   Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../building-journeys/journeys-message.md#send-time-optimization).
+Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../messages/send-time-optimization.md).
+
+## Advanced parameters{#sto-in-journeys}
+
+Advanced parameters are read-only and hidden by default. 
+
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage panel.
+
+![](assets/show-read-only.png)
+
+Advanced parameters are displayed at the bottom of the message panel. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [surface](../configuration/message-presets.md) (or preset) associated to the message.
+
+For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
+
+![](assets/push-adv-parameters.png)
+
+For email, you can display the primary email address.
+
+For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+
+* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+* YRefer to the email address of the subscribers of a list. See this [use case](message-to-subscribers-uc.md).
+
+Click the same icon to reset to the default parameter.
 
 ## Delete a message
 
