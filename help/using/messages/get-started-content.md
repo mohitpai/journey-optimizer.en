@@ -9,47 +9,50 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with messages {#get-started-contents-messages}
 
-Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
+Use [!DNL Journey Optimizer] to create and send personalized push notifications, SMS and email messages, and leverage multiple resources like assets and contents in a single place. 
 
-* Leverage [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
+[!DNL Journey Optimizer] messages are built in the context of journeys <!--and campaigns-->. You can:
 
-* Leverage **Adobe Experience Manager Assets Essentials** to build your own assets database, and enrich your emails.
+* Use [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
 
-* Enhance customers' experience by creating **personalized push and email messages** based on their profile attributes.
+* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database.
 
-* **Create push and email messages** based on these contents, then publish them.
+* Find **Adobe Stock photos** to build your content and improve your email design.
 
-## Access messages {#access-messages}
+* Enhance customers' experience by creating personalized **push notifications, SMS and email messages** based on their profile attributes.
 
-Messages are available from the **[!UICONTROL Messages]** shortcut on the left navigation. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
+* **Create messages** based on these contents, then publish them.
+
+To add messages in your journeys, simply add a push, SMS or email activity in the canevas. 
+
+## Add an email{#add-an-email}
+
+1. Start your journey with an [Event](../building-journeys/general-events.md) or a [Read Segment](../building-journeys/read-segment.md) activity.
+
+1. From the **Actions** section of the palette, drag and drop an **email** activity into the canvas.  
+
+   ![](assets/add-a-message.png)
+
+1. Select the email, enter a label, a description, and define the message properties:
+
+   * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
+   * Select the **[!UICONTROL Email surface]** (i.e. message preset) to use to send your message. 
+
+      A surfaces is a message configuration which has been defined by an Administrator. It contains all the technical parameters for sending the email, such as header parameters, subdomain and frequency rules. [Learn more](../configuration/message-presets.md).
+
+   * By default, message tracking is enabled and user activity is tracked. Learn more about email tracking in [this page](../design/message-tracking.md)
+
+   ![](assets/message-properties.png)
+
+   * You can enable **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../building-journeys/journeys-message.md#send-time-optimization).
+
+
 
 >[!NOTE]
 >
 >Users can access, create, edit and/or publish messages depending on their product profile. Learn more about user permissions [in this section](../administration/permissions.md).
 
-![](assets/messages-list.png)
 
-* Use the **[!UICONTROL Show recents]** toggle to add direct links to the messages you accessed in the last 5 days.
-
-   ![](assets/show-recent-messages.png)
-
-* Use the filter icon to display only drafted, published or messages being published. You can also search on message label, as below:
-
-   ![](assets/filter-messages.png)
-
-* You can archive unused messages to clear the message list using the dedicated icon from the quick actions menu.
-
-   ![](assets/archive-message.png)
-
-   Use the filter icon to display all archived messages and click the **[!UICONTROL Unarchive]** icon to remove an item from the list of archived messages.
-
-   >[!NOTE]
-   >
-   >You cannot open an archived message. You must unarchive it first.
-
-## Create a new message {#create-new-message}
-
-To create a new message, follow the steps below:
 
 1. Access the message list, then click **[!UICONTROL Create Message]**.
 
