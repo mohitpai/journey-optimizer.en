@@ -69,7 +69,7 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Manage App Configurations]**
     * **[!UICONTROL Manage Properties]**
 
-    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification presets in **Adobe Journey Optimizer**.
+    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification surfaces in **Adobe Journey Optimizer**.
 
     ![](assets/push_product_5.png)
 
@@ -341,11 +341,11 @@ Your event is now created and can now be used in a journey.
 
 Your event will be triggered and you will receive your push notification to your mobile app.
 
-## Step 4: Create a message preset for push{#message-preset}
+## Step 4: Create a message surface for push{#message-preset}
 
-Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a message preset to be able to send push notifications from **[!DNL Journey Optimizer]**.
+Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a message surface to be able to send push notifications from **[!DNL Journey Optimizer]**.
 
-Learn how to create and configure a message preset in [this section](../configuration/message-presets.md).
+Learn how to create and configure a message surface in [this section](../configuration/message-presets.md).
 
 You are now ready to send push notifications with Journey Optimizer.
 

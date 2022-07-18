@@ -1,6 +1,6 @@
 ---
 title: Use BCC email
-description: Learn how to configure BCC email at the message preset level
+description: Learn how to configure BCC email at the message surface level
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -22,19 +22,19 @@ To enable the **[!UICONTROL BCC email]** option, enter the email address of your
 
 >[!NOTE]
 >
->You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current preset.
+>You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current surface.
 >
 >More recommendations are listed in [this section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-All email messages using this preset will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
+All email messages using this surface will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
 
 >[!CAUTION]
 >
->Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the presets used for critical communications that you wish to archive. Check your contract for licensed volumes.
+>Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
-The BCC email address setting is immediately saved and processed at the preset level. When you [create a new message](../messages/get-started-content.md#create-new-message) using this preset, the BCC email address is automatically displayed.
+The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md#create-new-message) using this surface, the BCC email address is automatically displayed.
 
 ![](assets/preset-bcc-in-msg.png)
 
