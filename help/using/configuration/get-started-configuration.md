@@ -14,11 +14,11 @@ When accessing [!DNL Journey Optimizer] for the first time, you are provisioned 
 
 To be able to create your journeys and send messages, you need to go though these configuration steps:
 
-1. **Configure messages and channels**: define presets, adapt and customize email and push messages
+1. **Configure messages and channels**: define surfaces, adapt and customize email and push messages
 
     * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../configuration/push-gs.md)
 
-    * Create message presets to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
+    * Create message surfaces to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
 
     * Determine which email address to use in priority for your recipients when several addresses are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
 
