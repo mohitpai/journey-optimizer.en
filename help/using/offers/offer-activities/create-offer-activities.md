@@ -64,7 +64,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
     * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
@@ -112,9 +112,8 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_new-scope.png)
 
+<!--
 ### Using segments vs decision rules {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
 
 To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
 
@@ -131,6 +130,7 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
     On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
 
     Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
+-->
 
 ## Add a fallback offer {#add-fallback}
 
