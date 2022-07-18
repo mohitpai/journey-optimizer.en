@@ -48,7 +48,7 @@ This information is stored with the user's profile and is referenced at journey 
 
 Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the Message activity parameters. 
 
-![](assets/jo-message5.png)
+![](../building-journeys/assets/jo-message5.png)
 
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 

@@ -71,6 +71,14 @@ Steps to add a message in a journey are detailed below.
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
 
+## Browse messages
+
+When multiple messages are used in a journey, you can switch from one to another from the Edit Content window.
+
+![](assets/inline-messages-multi-content.png)
+
+You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single window.
+
 ## Enable Send-time optimization{#sto-in-journeys}
 
 For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
@@ -96,7 +104,7 @@ For email, you can display the primary email address.
 For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
 
 * Test an email, you can add your email address. After you have published the journey, the email is sent to you.
-* YRefer to the email address of the subscribers of a list. See this [use case](message-to-subscribers-uc.md).
+* YRefer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
 
 Click the same icon to reset to the default parameter.
 
