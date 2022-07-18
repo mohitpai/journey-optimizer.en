@@ -19,7 +19,7 @@ Push notifications help you reach your mobile app users at any time - especially
 
 [!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
 
-Once you [created a message](get-started-content.md), click the **[!UICONTROL Push Notification]** tab to define the settings and content of the push notification. 
+Once you [added a push](get-started-content.md) activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Push]** panel to create the content for the Push notification.
 
 ![](assets/create-content-push.png)
 

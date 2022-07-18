@@ -14,22 +14,40 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 >title="Email creation"
 >abstract="Define your email parameters in just three simple steps."
 
-Once you [created a message](get-started-content.md), use the **[!UICONTROL Email]** tab to define the settings and content for the email channel.
 
-![](assets/emails-configuration.png)
+Once you [added an email](get-started-content.md) in your journey <!--or a campaign--> and defined basic settings, your can configure the email and define its content.
+
+
+
+1. Click the **[!UICONTROL Edit content]** button to design your email. Learn more about email design in [this section](../design/design-emails.md).
+    
+    ![](assets/email-edit-content.png)
+
+
+    >[!NOTE]
+    >   
+    >You can personalize your messages using profiles' data using the expression editor. For more on personalization, refer to [this section](../personalization/personalize.md).
+
+
+1. Enable message tracking.
+
+    If you want to track the behavior of your recipients through openings and/or clicks on links, make sure that the **[!UICONTROL Email opens]** and **[!UICONTROL Click on email]** options are enabled. Learn more about tracking in [this section](../design/message-tracking.md).
+
+
+1. Enable **[!UICONTROL Send-time optimization]**.
+    
+    You can schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../building-journeys/journeys-message.md#send-time-optimization).
+
+1. Control the rendering of your email, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../design/preview.md).
+
+    ![](assets/messages-simple-preview.png)
+
+1. Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+
+1. You can now publish your message by clicking the **[!UICONTROL Publish]** button, or keep it as a draft and publish it later on. For more on how to publish messages, refer to [this section](publish-manage-message.md).
+
 
 >[!NOTE]
 >
->The **[!UICONTROL From email]** and **[!UICONTROL From name]** are read-only and determined by the **[!UICONTROL Preset]** that has been selected when [creating the message](get-started-content.md).
+>The **[!UICONTROL From email]** and **[!UICONTROL From name]** are determined by the **[!UICONTROL Surface]** that has been selected when [creating the message](get-started-content.md).
 
-The steps to configure an email are as follows:
-
-1. Specify the email subject in the **[!UICONTROL Subject line]** field. To do this, click the button on the right-hand side to open the Expression editor and compose the email subject. Learn how to add personalization in [this section](../personalization/personalize.md)
-
-1. Click the **[!UICONTROL Email Designer]** button to design your email. Learn how to design emails in [this section](../design/design-emails.md).
-
-1. If you want to track the behavior of your recipients through openings and/or clicks on links, make sure that the **[!UICONTROL Open Tracking for email]** and **[!UICONTROL Click Tracking for email]** options are enabled. Learn more about tracking in [this section](../design/message-tracking.md).
-
->[!NOTE]
->
->Marketing-type email messages must include an [opt-out link](consent.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [message preset level](../configuration/message-presets.md#email-type) and when [creating the message](get-started-content.md#create-new-message).
