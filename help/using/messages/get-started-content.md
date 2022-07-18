@@ -64,6 +64,11 @@ Steps to add a message in a journey are detailed below.
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
 
+
+1. For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
+    
+   Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../building-journeys/journeys-message.md#send-time-optimization).
+
 ## Delete a message
 
 To delete a message, use the trash icon on the top of the message activity panel.

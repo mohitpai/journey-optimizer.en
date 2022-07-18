@@ -21,9 +21,14 @@ Push notifications help you reach your mobile app users at any time - especially
 
 Once you [added a push](get-started-content.md) activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Push]** panel to create the content for the Push notification.
 
-![](assets/create-content-push.png)
+![](assets/add-a-push.png)
+
 
 Use the dedicated tabs to define the push notification settings for **iOS** and **Android** operating systems.
+
+
+![](assets/create-content-push.png)
+
 
 >[!NOTE]
 >

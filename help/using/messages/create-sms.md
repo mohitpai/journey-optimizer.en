@@ -55,6 +55,8 @@ To visualize how your SMS message displays on mobile devices, click the **[!UICO
 
 Learn more about content simulation in [this section](../design/preview.md).
 
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+
 <!--
 ## Publish your SMS {#sms-publish}
 
