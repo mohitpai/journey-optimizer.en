@@ -21,7 +21,9 @@ The email **[!UICONTROL Global report]** is divided into different widgets detai
 
 **[!UICONTROL Email performance]** details the main information relative to your message with KPIs:
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration.
+
+* **[!UICONTROL Sent]**: Number of messages processed successfully.
 
 * **[!UICONTROL Delivery Rate]**: Percentage of messages successfully sent.
 
@@ -29,9 +31,9 @@ The email **[!UICONTROL Global report]** is divided into different widgets detai
 
 * **[!UICONTROL Error Rate]**: Percentage of errors that occurred during a delivery preventing it from being sent compared to emails sent.
 
-* **[!UICONTROL Open Rate]**: Percentage of opened messages.
+* **[!UICONTROL Unique Open Rate]**: Percentage of opened messages.
 
-* **[!UICONTROL Click Rate]**: Percentage of clicks in a delivery.
+* **[!UICONTROL Unique Click Rate]**: Percentage of clicks in a delivery.
 
 * **[!UICONTROL Spam Complaint Rate]**: Percentage of emails that were marked as spam by recipients compared to the delivered messages. For more information on complaints, refer to the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target="_blank"}.
 
@@ -43,19 +45,21 @@ The **[!UICONTROL Email - Tracking statistics]** contains the available data for
 
 * **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
 
-* **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
+* **[!UICONTROL Unique Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
 * **[!UICONTROL Unique Clicks]**:Number of recipients who clicked on a content in an email.
 
-* **[!UICONTROL Click through rate]**: Percentage of users who interacted with the journey.
+* **[!UICONTROL Unique Click rate]**: Percentage of users who interacted with the journey.
 
 The **[!UICONTROL Sending Statistics]** graph details the success of your delivery:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Retries]**: Number of emails in the queue for retries. 
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
