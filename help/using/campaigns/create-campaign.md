@@ -117,7 +117,7 @@ Once your campaign has been configured, you need to review its parameter and con
 
     >[!IMPORTANT]
     >
-    >Messages created in campaigns are specific to [!DNL Journey Optimizer] campaign capabilities. Once created, they will be accessible from campaigns only, and will not display in the **[!UICONTROL Messages]** menu.
+    >Messages created in campaigns are specific to [!DNL Journey Optimizer] campaign capabilities. Once created, they will be accessible from campaigns only.
 
 ## Additional resources
 
