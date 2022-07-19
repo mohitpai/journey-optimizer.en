@@ -62,6 +62,8 @@ For a detailed report on a specific email delivery, refer to the [Email global r
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
+
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
@@ -82,7 +84,7 @@ The **[!UICONTROL Email - Tracking statistics]** contains the available data for
 
 * **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
 
-* **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
+* **[!UICONTROL Unique Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
@@ -178,6 +180,8 @@ For a detailed report on a specific push delivery, refer to this the [Push Globa
 ![](assets/global_report_17.png)
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
+
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
