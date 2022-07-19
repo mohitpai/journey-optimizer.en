@@ -40,7 +40,7 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - Create, design, test and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
