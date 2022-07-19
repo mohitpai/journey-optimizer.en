@@ -38,8 +38,6 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Failed individual journeys]**: Total number of individual journeys that were not successfully executed.
 
-![](assets/report_journey_3.png)
-
 The **[!UICONTROL Event executed over the last 24 hours]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
 
 ![](assets/report_journey_4.png)

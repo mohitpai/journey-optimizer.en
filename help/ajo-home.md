@@ -44,7 +44,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     Design a new email or import an existing HTML content
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Send messages</a>
+      <a href="using/messages/get-started-content.md">Send messages</a>
     </div>
     <p>Learn how to add push and email messages in your customer journeys
     <p>
@@ -108,9 +108,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>JOURNEY MANAGEMENT</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">Messages</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">Landing pages</a>
