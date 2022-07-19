@@ -268,7 +268,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Personalization**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](../personalization/functions/helpers.md)
+* **Expression editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](../personalization/functions/helpers.md)
 
 **Email configuration**
 
@@ -351,6 +351,6 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 * Fixed an issue which was causing duplicate messages being delivered for batch email delivery.
 * Events are now generated accordingly when email sending is not performed once the retry period is over.
 * Fixed an issue where IP information was missing in PTR Records screen.
-* Localization in offer rail within Expression Editor is now implemented.
+* Localization in offer rail within Expression editor is now implemented.
 * Fixed incorrect spacing in information popups.
 * Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported.

@@ -80,8 +80,8 @@ solution: Journey Optimizer
   + [Personalization contexts](using/personalization/personalization-contexts.md)
   + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression Editor {#expression-editor}
-      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+    + Work with the Expression editor {#expression-editor}
+      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
       + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
       + [Work with saved expressions](using/personalization/personalization-library.md)  
       + [Personalization validation](using/personalization/personalization-validation.md)

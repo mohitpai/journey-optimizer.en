@@ -12,7 +12,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Push message creation"
->abstract="Add your push message and start personalizing it with the Expression Editor."
+>abstract="Add your push message and start personalizing it with the Expression editor."
 
 
 Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install, or in a subsequent session or workflow as appropriate. 
@@ -36,7 +36,7 @@ If this is your first time creating an Push Notification, make sure the Push cha
 
 ## Title and Body {#push-title-body}
 
-To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression Editor to define content and personalization data. Learn more about personalization in the Expression Editor in [this section](../personalization/personalize.md)
+To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content and personalization data. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md)
     
 Use the device preview section to visualize how the push notification displays on iOS and Android devices.
 
@@ -124,6 +124,17 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 |**[!UICONTROL Notification visibility]** (Android only) | Defines the push notification's visibility. <br/><b>Private</b> will show the notification on all lockscreens, but conceal sensitive or private information on secure lockscreens. <br/><b>Public</b> will show the notification in its entirety on all lockscreens. <br/><b>Secret</b> will not reveal any part of the notification on a secure lockscreen. <br/>For more on this, refer the [Android developer documentation](https://developer.android.com/reference/android/app/Notification).|
 |**[!UICONTROL Notification priority]** (Android only) | Defines the push notification's importance from Low to Max. This determines how "intrusive" the push notification will be when it is delivered. For more on this, refer to the [Android developer documentation](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)|
 |**[!UICONTROL Delivery priority]** (Android only) | Sets up a high or normal priority for your push notifications. For more information on message priority, refer to the [Google developer documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).|
+
+
+## Validate your push notification{#push-preview}
+
+Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
+
+To visualize how your push notification displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
+
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Related topics**
 

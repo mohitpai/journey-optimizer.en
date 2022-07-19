@@ -12,7 +12,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS creation"
->abstract="Add your text message and start personalizing it with the Expression Editor."
+>abstract="Add your text message and start personalizing it with the Expression editor."
 
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
@@ -30,17 +30,11 @@ If this is your first time creating an SMS message, make sure the SMS channel ha
 
 To start personalizing your SMS message, follow these steps:
 
-1. Click the **[!UICONTROL Add text message]** field to open the Expression editor.
+1. Click the **[!UICONTROL Message]** field to open the Expression editor.
 
     ![](assets/sms-content.png)
 
-1. Use the Expression Editor to define content. You can use any attribute to personalize content, such as the profile name or city. Learn more about personalization in the Expression Editor in [this section](../personalization/personalize.md).
-
-    ![](assets/sms-content-ee.png)
-
-    >[!NOTE]
-    >
-    > An SMS message can have up to 160 characters, including spaces and line breaks.
+1. Use the Expression editor to define content. You can use any attribute to personalize content, such as the profile name or city. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md).
 
 1. Click **[!UICONTROL Save]** and check your message in the preview.
 
@@ -51,19 +45,12 @@ To start personalizing your SMS message, follow these steps:
 
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
 
-To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab.
-
-Learn more about content simulation in [this section](../design/preview.md).
+To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
 
-<!--
-## Publish your SMS {#sms-publish}
+![](assets/sms-alert-button.png)
 
-Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action publishes the new version of the message that will be used for the next executions in your journeys.
-
-Your SMS message can now be used in a journey. [Learn how to create journeys](../building-journeys/journey-gs.md).
--->
 
 ## Opt-in and opt-out{#sms-opt-in-out}
 

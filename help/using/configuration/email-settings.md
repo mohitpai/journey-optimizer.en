@@ -186,7 +186,7 @@ You can also choose from a list of predefined values by navigating to the follow
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

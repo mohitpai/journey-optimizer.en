@@ -29,7 +29,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 Learn more about email design in [this section](../design/design-emails.md).
 
-Use [!DNL Journey Optimizer] Expression Editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 ## Email tracking{#email-tracking}
 
