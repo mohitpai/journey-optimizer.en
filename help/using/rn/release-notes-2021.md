@@ -283,7 +283,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 * Fixed an accessibility issue in message tab navigation.
 * Fixed a localization issue in the email designer labels.
-* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property panel.
+* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property pane.
 * Fixed an issue which prevented from adding a new header to an action used in a journey.
 * You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface.
 
