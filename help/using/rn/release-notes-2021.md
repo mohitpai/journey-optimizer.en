@@ -174,7 +174,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <td>
 <p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe’s AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../messages/send-time-optimization.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -268,7 +268,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Personalization**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](../personalization/functions/helpers.md)
+* **Expression editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](../personalization/functions/helpers.md)
 
 **Email configuration**
 
@@ -283,7 +283,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 * Fixed an accessibility issue in message tab navigation.
 * Fixed a localization issue in the email designer labels.
-* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property panel.
+* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property pane.
 * Fixed an issue which prevented from adding a new header to an action used in a journey.
 * You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface.
 
@@ -351,6 +351,6 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 * Fixed an issue which was causing duplicate messages being delivered for batch email delivery.
 * Events are now generated accordingly when email sending is not performed once the retry period is over.
 * Fixed an issue where IP information was missing in PTR Records screen.
-* Localization in offer rail within Expression Editor is now implemented.
+* Localization in offer rail within Expression editor is now implemented.
 * Fixed incorrect spacing in information popups.
 * Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported.

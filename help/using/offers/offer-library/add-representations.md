@@ -112,7 +112,7 @@ You can also insert text-type content when selecting a compatible placement.
 
     ![](../assets/offer-text-content.png)
 
-    You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
+    You can personalize your content using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
 
     ![](../assets/offer-personalization.png)
 

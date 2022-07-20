@@ -103,6 +103,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
     This improvement also applies when adding URLs as content to your offers' representations.
 
+
 **Reporting**
 
 * **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.

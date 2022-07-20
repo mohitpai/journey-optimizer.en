@@ -11,7 +11,7 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 
 ## Validation mechanisms {#validation-mechanisms}
 
-In the **Expression Editor** screen, use the **Validate** button to check your personalization syntax.
+In the **Expression editor** screen, use the **Validate** button to check your personalization syntax.
 
 >[!NOTE]
 > The validation is automatically executed when you click on the **Add** button to close the editor window.

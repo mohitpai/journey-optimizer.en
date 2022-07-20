@@ -9,104 +9,114 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with messages {#get-started-contents-messages}
 
-Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Message activity"
+>abstract="Use the Message activity to send a push, SMS or email message."
 
-* Leverage [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
+Use [!DNL Journey Optimizer] to create and send personalized push notifications, SMS and email messages, and leverage multiple resources like assets and contents in a single place. 
 
-* Leverage **Adobe Experience Manager Assets Essentials** to build your own assets database, and enrich your emails.
+[!DNL Journey Optimizer] messages are built in the context of journeys <!--and campaigns-->. You can:
 
-* Enhance customers' experience by creating **personalized push and email messages** based on their profile attributes.
+* Use [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
 
-* **Create push and email messages** based on these contents, then publish them.
+* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database.
 
-## Access messages {#access-messages}
+* Find **Adobe Stock photos** to build your content and improve your email design.
 
-Messages are available from the **[!UICONTROL Messages]** shortcut on the left navigation. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
+* Enhance customers' experience by creating personalized **push notifications, SMS and email messages** based on their profile attributes.
+
+* **Create messages** based on these contents, then publish them.
+
+To add messages in your journeys, simply add a push, SMS or email activity in the canevas. 
 
 >[!NOTE]
 >
 >Users can access, create, edit and/or publish messages depending on their product profile. Learn more about user permissions [in this section](../administration/permissions.md).
 
-![](assets/messages-list.png)
+## Add messages in your journeys{#messages-in-journeys}
 
-* Use the **[!UICONTROL Show recents]** toggle to add direct links to the messages you accessed in the last 5 days.
+Steps to add a message in a journey are detailed below.
 
-   ![](assets/show-recent-messages.png)
+1. Start your journey with an [Event](../building-journeys/general-events.md) or a [Read Segment](../building-journeys/read-segment.md) activity.
 
-* Use the filter icon to display only drafted, published or messages being published. You can also search on message label, as below:
+1. From the **Actions** section of the palette, drag and drop an **email**, an **SMS** or a **Push** activity into the canvas.  
 
-   ![](assets/filter-messages.png)
+   ![](assets/add-a-message.png)
 
-* You can archive unused messages to clear the message list using the dedicated icon from the quick actions menu.
+1. Select the message and enter a label and a description.
 
-   ![](assets/archive-message.png)
+1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
-   Use the filter icon to display all archived messages and click the **[!UICONTROL Unarchive]** icon to remove an item from the list of archived messages.
-
-   >[!NOTE]
-   >
-   >You cannot open an archived message. You must unarchive it first.
-
-## Create a new message {#create-new-message}
-
-To create a new message, follow the steps below:
-
-1. Access the message list, then click **[!UICONTROL Create Message]**.
-
-1. Define the message properties.
-
-   ![](assets/create-message-properties.png)
-    
-   * Enter a **[!UICONTROL Title]** (mandatory) and a **[!UICONTROL Description]**. 
-
-   * Select the **[!UICONTROL Message category]**: Marketing or Transactional.
-
-   * Select the channel(s) you want to use for that message: Email, Push notification and/or SMS. You must select at least one channel to be able to create the message.
-
-   >[!NOTE]
-   >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   
-   * Select the **[!UICONTROL Preset]** to use for the message.
-        
-      Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. Learn more on [presets](../configuration/message-presets.md).
 
    >[!CAUTION]
    >
-   >You must choose a valid message preset for the selected category and channel(s).
+   >Marketing-type messages must include an [opt-out link](../messages/consent.md#opt-out-management). This is not required for transactional messages: these messages can be sent to profiles who unsubscribed from marketing communications.
 
-   Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
+1. Select the message **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
-1. Click **[!UICONTROL Create]** to confirm message creation. Your message is added in the message list, in the **[!UICONTROL Draft]** status.
+   A surface is a message configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters (From), subdomain, and [frequency rules](../configuration/frequency-rules.md#apply-frequency-rule). [Learn more](../configuration/message-presets.md).
 
-   One tab is available for each selected channel. Use these tabs to configure the content for each channel. You can remove a tab by selecting it and clicking the **[!UICONTROL Delete channel]** button on the right. 
-
-   ![](assets/create-messages-content.png)
-
-   <!--
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
-   -->
+   >You must choose a valid message surface for the selected message category and channel.
+   
+   You can access and modify the message's label, description and surface at any time using the **[!UICONTROL Properties]** button in the message interface.
 
-   You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
+1. Create the message content. 
+
+   Learn detailed steps to create your message content in the following page:
 
    * [Create an email](create-email.md)
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
 
-   >[!NOTE]
-   >   
-   >You can personalize your messages using profiles' data using the expression editor. For more on personalization, refer to [this section](../personalization/personalize.md).
+## Browse messages
 
-1. Control the rendering of your messages, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../design/preview.md).
+When multiple messages are used in a journey, you can switch from one to another from the Edit Content window.
 
-    ![](assets/messages-simple-preview.png)
+![](assets/inline-messages-multi-content.png)
 
-1. Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single window.
 
-1. You can now publish your message by clicking the **[!UICONTROL Publish]** button, or keep it as a draft and publish it later on. For more on how to publish messages, refer to [this section](publish-manage-message.md).
+## Enable Send-time optimization{#sto-in-journeys}
 
+For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
+    
+Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../messages/send-time-optimization.md).
+
+## Advanced parameters{#sto-in-journeys}
+
+Advanced parameters are read-only and hidden by default. 
+
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
+
+![](assets/show-read-only.png)
+
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [surface](../configuration/message-presets.md) (or preset) associated to the message.
+
+For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
+
+![](assets/push-adv-parameters.png)
+
+For email, you can display the primary email address.
+
+For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+
+* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+* YRefer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
+
+Click the same icon to reset to the default parameter.
+
+## Delete a message
+
+To delete a message, use the trash icon on the top of the message activity pane.
+
+![](assets/delete-message.png)
+
+Click the **[!UICONTROL Confirm]** button to validate.
+
+<!--
 ## Duplicate a message {#duplicate-message}
 
 To create a message from an existing one, follow the steps below.
@@ -131,3 +141,4 @@ You can also duplicate a message from the message list, using the dedicated icon
 
 The same confirmation process applies.
 
+-->

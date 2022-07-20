@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 ---
-# Check alerts on your messages {#publish-manage-messages}
+# Check alerts on your messages {#messages-alerts}
 
 ## Checks before publication {#message-alerting}
 
-While you are creating your message, alerts warn you when you need to take important actions before publishing your message.
+As you are designing your messages, alerts are displayed in the interface when key settings are missing.
 
-Alerts are displayed on top right of the screen, as shown below:
+Alerts are displayed on top right of the screen, when editing the message content.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -25,13 +25,13 @@ Two types of alerts can happen:
 
 * **Warnings** refer to recommendations and best practices. For example, a message will display if the opt-out link is missing.
 
-* **Errors** prevent you from publishing the message as long as they are not resolved. For example, a message will warn you that the subject line is missing.
+* **Errors** prevent you from testing or activating the journey as long as they are not resolved. For example, a message will warn you that the subject line is missing.
 
 All possible warnings and errors are detailed [below](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> You need to resolve all **error** alerts before publication.
+> You need to resolve all **error** alerts before testing or activating the journey using the message.
 
 ## List of warnings and errors {#alerts-and-warnings}
 

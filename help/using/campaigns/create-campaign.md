@@ -45,7 +45,7 @@ The steps to create a campaign are as follows:
 
 1. In the **[!UICONTROL Actions]** section, configure the message to send with the campaign:
 
-    1. Click the **[!UICONTROL Edit content]** button, then configure and design your message. [Learn how to configure messages](../messages/get-started-content.md).
+    1. Click the **[!UICONTROL Edit content]** button, then configure and design your message content. [Learn how to configure messages](../messages/get-started-content.md).
 
         Once your content is ready, click the arrow to go back to the campaign creation screen.
 
@@ -114,10 +114,6 @@ Once your campaign has been configured, you need to review its parameter and con
     You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. [Learn more](campaign-global-report.md)
 
     ![](assets/create-campaign-summary.png)
-
-    >[!IMPORTANT]
-    >
-    >Messages created in campaigns are specific to [!DNL Journey Optimizer] campaign capabilities. Once created, they will be accessible from campaigns only, and will not display in the **[!UICONTROL Messages]** menu.
 
 ## Additional resources
 

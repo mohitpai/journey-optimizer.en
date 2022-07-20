@@ -47,7 +47,7 @@ Use [Test profiles](../segment/creating-test-profiles.md) to target additional r
 
 To select test profiles, follow the steps below: 
 
-1. In the message interface or in the email designer, click the **[!UICONTROL Show preview]** button to access the test profile selection.
+1. In the message interface or in the email designer, click the **[!UICONTROL Simulate Content]** button to access the test profile selection.
 
     ![](assets/email-preview-button.png)
 
@@ -63,7 +63,7 @@ To select test profiles, follow the steps below:
 
     ![](assets/preview-email-namespace.png)
 
-1. Enter the value to identify the test profile and click **[!UICONTROL Find test profile]**.
+1. Enter the value to identify the test profile and click **[!UICONTROL Add profile]**.
 
     ![](assets/preview-identity-value.png)
 
@@ -77,7 +77,11 @@ To select test profiles, follow the steps below:
 
 Once [test profiles](#select-test-profiles) are selected, you can preview your messages and check content.
 
-1. Click the **[!UICONTROL Preview]** tab to test your message. 
+### Email preview{#preview-email}
+
+To preview an email content, follow the steps below:
+
+1. Click the **[!UICONTROL Simulate content]** button above the email content. 
 
 1. Select a test profile. You can check the values available in the columns. Use the right/left arrows to browse data.
 
@@ -97,11 +101,16 @@ Once [test profiles](#select-test-profiles) are selected, you can preview your m
 
 1. Select other test profiles to preview email rendering for each variant of your message.
 
-For a push notification preview:
+### Push preview{#preview-push}
 
-1. Switch to the **[!UICONTROL Push]** channel from the **[!UICONTROL Channels]** drop-down list at the top right of the **[!UICONTROL Preview]** screen.
+To preview a push notification content, follow the steps below:
 
-    ![](assets/preview-select-channel.png)
+1. Click the **[!UICONTROL Simulate content]** button above the push content. 
+
+1. Select a test profile. You can check the values available in the columns. Use the right/left arrows to browse data.
+
+
+1. Switch to the **[!UICONTROL Push]** message and.
 
 1. Apply the same steps as described above to select a test profile, and select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
 
