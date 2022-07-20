@@ -95,6 +95,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
+* **PTR record edition** - Now when updating a PTR record, the processing time will only take up to 3 hours. [Learn more](../configuration/ptr-records.md#processing)
+
 * **Allowed list UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list. [Learn more](../configuration/allow-list.md)
 
 * **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. [Learn more](../configuration/allow-list.md#logic)
@@ -105,7 +107,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Reporting**
 
-* **Performance measurement configuration** - You can now configure reporting Through the Administration > Configurations menu to retrieve additional custom information to be used in your reports.
+* **Performance measurement configuration** - You can now configure reporting through the Administration > Configurations menu in order to retrieve additional custom information to be used in your reports.
 
 **Offer Decisioning**
 
