@@ -91,22 +91,21 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Messages**
 
-* Message presets are now **surfaces**.
+* Message presets are now **channel surfaces**.
 
 **Administration**
 
-* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.
+* **Allowed list UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list. [Learn more](../configuration/allow-list.md)
 
-* **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. However when the list is empty, no email is sent out.	
+* **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. [Learn more](../configuration/allow-list.md#logic)
 
-* **Personalize URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message surfaces (i.e message presets). [Learn more](../configuration/email-settings.md#url-tracking)
+* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your channel surfaces (i.e message presets). [Learn more](../configuration/email-settings.md#url-tracking)
 
-    This improvement also applies when adding URLs as content to your offers' representations.
-
+    <!--This improvement also applies when adding URLs as content to your offers' representations.??-->
 
 **Reporting**
 
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
+* **Performance measurement configuration** - You can now configure reporting Through the Administration > Configurations menu to retrieve additional custom information to be used in your reports.
 
 **Offer Decisioning**
 
