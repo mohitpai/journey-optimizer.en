@@ -22,7 +22,7 @@ Components and capabilities available in the user interface depend on your [perm
 
 ## Left navigation {#left-nav}
 
-Use the links on the left to browse capabilities.
+Browse the links on the left to access [!DNL Journey Optimizer] capabilities.
 
 ![](assets/ajo-home.png)
 
@@ -30,7 +30,7 @@ Use the links on the left to browse capabilities.
 >
 >Available capabilities may vary depending on your permissions and license agreement.
 
-You can find below the full list of services and capabilities available in the left navigation and links to associated documentation.
+You can find below the full list of services and capabilities available in the left navigation and links to associated help pages.
 
 **Home**
 
@@ -40,7 +40,7 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. [Learn more](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - Create, design, test and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -121,7 +121,7 @@ You can use these common keyboard shortcuts in [!DNL Journey Optimizer]:
 | Move backward between user interface elements, sections, and menu groups | Shift + Tab |
 | Move within sections to set focus to individual elements | Arrow |
 | Select or clear an element that is in focus | Enter or Spacebar |
-| Cancel a selection, collapse a panel, or close a dialog box | Esc |
+| Cancel a selection, collapse a pane, or close a dialog box | Esc |
 
 [Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentation.
 
@@ -298,6 +298,6 @@ In the Event, Data source and Action configuration panes, the **[!UICONTROL Used
 
 ![](assets/journey3bis.png)
 
-In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
+In the lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
 ![](assets/journey4.png)

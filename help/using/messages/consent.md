@@ -65,7 +65,6 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Click **[!UICONTROL Save]**.
 
-1. Save your content and [publish your message](publish-manage-message.md).
 
 #### Implement an API call for opt-out {#opt-out-api}
 

@@ -1,20 +1,20 @@
 ---
-title: About the Expression Editor
-description: Learn how to work with the Expression Editor.
+title: About the Expression editor
+description: Learn how to work with the Expression editor.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 ---
-# About the Expression Editor {#build-personalization-expressions}
+# About the Expression editor {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="About the Expression Editor"
->abstract="The Expression Editor allows you to select, arrange, customize and validate all the data to create a customized personalization for your content."
+>title="About the Expression editor"
+>abstract="The Expression editor allows you to select, arrange, customize and validate all the data to create a customized personalization for your content."
 
-The Expression Editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
+The Expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer]. It is available in every context where you need to define personalization like emails, push and offers.
 
 In the expression editor interface, you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
@@ -44,4 +44,4 @@ In the following example, the expression editor lets you select the profiles tha
 
  ![](assets/perso_ee2.png)
 
-Once your personalization expression is ready, you need to have it validated by the Expression Editor. Learn more in [this section](personalization-validation.md).
+Once your personalization expression is ready, you need to have it validated by the Expression editor. Learn more in [this section](personalization-validation.md).

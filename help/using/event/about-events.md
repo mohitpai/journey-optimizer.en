@@ -18,7 +18,7 @@ The event configuration allows you to define the information [!DNL Journey Optim
 
 >[!CAUTION]
 >
->Event configuration is **mandatory** and must be performed by a **technical user**.
+>Event configuration is **mandatory** and must be performed by a **data engineer**.
 
 You can configure two types of events:
 

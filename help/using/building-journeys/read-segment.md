@@ -16,7 +16,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 >title="Read Segment activity"
 >abstract="The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis."
 
-The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
+Use the **Read Segment** activity to make all individuals of a segment enter the journey. Entrance into a journey can be executed either once, or on a regular basis.
 
 Let's take as an example the "Luma app opening and checkout" segment created in the [Build segments](../segment/about-segments.md) use case. With the Read Segment activity, you can make all individuals belonging to this segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 

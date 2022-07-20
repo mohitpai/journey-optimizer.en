@@ -127,8 +127,6 @@ To apply a frequency rule to a message, follow the steps below.
 
    A new tab will open to display the matching message frequency rules.
 
-1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
-
 All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
 
 >[!NOTE]
@@ -175,7 +173,6 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
 
-1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;

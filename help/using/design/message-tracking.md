@@ -13,7 +13,7 @@ Use [!DNL Journey Optimizer] to add links to your content and track the messages
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](../messages/get-started-content.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when [creating your message](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -23,8 +23,8 @@ You can enable tracking at the email message level by checking the **[!UICONTROL
 
 This will let you track the behavior of your recipients through:
 
-* **[!UICONTROL Open Tracking for email]**: Messages that have been opened.
-* **[!UICONTROL Click Tracking for email]**: Clicks on links in an email.
+* **[!UICONTROL Email opens]**: Messages that have been opened.
+* **[!UICONTROL Click on email]**: Clicks on links in an email.
 
 ## Insert links {#insert-links}
 

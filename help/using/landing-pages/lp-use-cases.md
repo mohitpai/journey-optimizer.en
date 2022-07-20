@@ -51,7 +51,6 @@ For example, let's say you organize an event next month and you want to launch a
     >
     >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
-1. Save your content and [publish your message](../messages/publish-manage-message.md).
 
 1. Send your message through a [journey](../building-journeys/journey.md) to drive traffic to the registration landing page.
 
@@ -136,9 +135,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
     >
     >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
-1. Save your content and [publish your message](../messages/publish-manage-message.md).
-
-1. Send your message through a journey. [Learn more](../building-journeys/journey.md).
+1. Publish and run the journey. [Learn more](../building-journeys/journey.md).
 
 1. Once the message is received, if a recipient clicks the unsubscribe link in the email, your landing page is displayed.
 

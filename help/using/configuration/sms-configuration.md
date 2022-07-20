@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 [!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. 
 
-Before sending SMS, configure your instance. You need to [integrate the provider settings](#create-api) with Journey Optimizer and [create an SMS preset](#message-preset-sms). These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
+Before sending SMS, configure your instance. You need to [integrate the provider settings](#create-api) with Journey Optimizer and [create an SMS surface](#message-preset-sms). These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
@@ -36,19 +36,19 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
 1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
 
-After creating and configuring your API credential, you now need to create a message preset for SMS messages.
+After creating and configuring your API credential, you now need to create a message surface for SMS messages.
 
-## Create a message preset for SMS messages {#message-preset-sms}
+## Create a message surface for SMS messages {#message-preset-sms}
 
-Once your SMS channel has been configured, you need to create a message preset to be able to send SMS messages from **[!DNL Journey Optimizer]**.
+Once your SMS channel has been configured, you need to create a message surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
 
-To create a message preset, follow these steps:
+To create a message surface, follow these steps:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message surfaces]** menu, then click **[!UICONTROL Create Message surface]**.
 
     ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the preset, then select the SMS channel.
+1. Enter a name and a description (optional) for the surface, then select the SMS channel.
 
     ![](assets/sms_preset.png)
 
@@ -60,9 +60,9 @@ To create a message preset, follow these steps:
 
      ![](assets/preset-sms.png)
 
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the surface: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
     
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+    * Select the **[!UICONTROL SMS configuration]** to associate with the surface.
         
       For more on how to configure your environment to send SMS messages, refer to [this section](#create-api).
 
@@ -70,17 +70,17 @@ To create a message preset, follow these steps:
 
     * Select your **[!UICONTROL SMS Execution Field]** to select the **[!UICONTROL Profile attribute]** associated with the profiles' phone numbers.
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
+1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message surface as draft and resume its configuration later on.
 
     ![](assets/sms_preset_2.png)
 
-1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+1. Once the message surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
     >[!NOTE]
     >
     >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  
 
-1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+1. Once the checks are successful, the message surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     ![](assets/preset-active.png)
 
