@@ -281,7 +281,10 @@ There will be no data loss and no impact on live journeys. You will be in contro
 
 ### Will there be loss of functionality?{#functionality}
 
-There will be a change in the way you author message. There will be no loss of functionality.
+There will be a change in the way you author message. There will be no loss of functionality. Be aware that after July 25 (Inline authoring feature release), limitations will apply to actions that can be performed on journeys using **Message** activities:
+
+* You will not be able to copy/paste any **Message** activity. However, you will be able to copy/paste the new channel action activities.
+* For these journeys, you will not be able to perform the following actions: test, publish, duplicate, create a new version, close or copy to another sandbox. These limitations will apply as long as **Messages** activities are present in those journeys. You can wait for the migration process to run and update **Messages** activities to channel action activities or you can remove those **Messages** manually.
 
 ### Will there be access to the environment during the migration process?
 
