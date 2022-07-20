@@ -89,11 +89,11 @@ Use **[!UICONTROL Send-time optimization]** to schedule personalized send times 
 
 Advanced parameters are read-only and hidden by default. 
 
-To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage panel.
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
 
 ![](assets/show-read-only.png)
 
-Advanced parameters are displayed at the bottom of the message panel. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [surface](../configuration/message-presets.md) (or preset) associated to the message.
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [surface](../configuration/message-presets.md) (or preset) associated to the message.
 
 For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
 
@@ -110,7 +110,7 @@ Click the same icon to reset to the default parameter.
 
 ## Delete a message
 
-To delete a message, use the trash icon on the top of the message activity panel.
+To delete a message, use the trash icon on the top of the message activity pane.
 
 ![](assets/delete-message.png)
 

@@ -16,7 +16,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
-Once you [added an SMS](get-started-content.md) activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** panel to create the content for the SMS message.
+Once you [added an SMS](get-started-content.md) activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message.
 
 >[!AVAILABILITY]
 >

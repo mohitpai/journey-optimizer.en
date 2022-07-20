@@ -38,7 +38,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
 
-    ![](../assets/copy-paste3.png)
+    ![](../assets/journey-design.png)
 
     Learn how to design and execute journeys [in this section](../../building-journeys/journey-gs.md)
 
