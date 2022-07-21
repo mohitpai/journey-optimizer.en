@@ -91,8 +91,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Business events** - A guardrail has been added in journeys: business events can no longer be used in conjunction with unitary events or segment qualification activities.
 
-* **Timezone management** - To optimize performance, the **Profile timezone** option is now unchecked by default in journey properties.
-
 **Messages**
 
 * Message presets are now **surfaces**.
