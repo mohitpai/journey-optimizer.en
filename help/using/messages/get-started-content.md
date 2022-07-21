@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
-# Get started with messages {#get-started-contents-messages}
+# Get started with messages {#get-started-contents-messages} 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
