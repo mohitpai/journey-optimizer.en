@@ -105,4 +105,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Offer Decisioning**
 
-* **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
+* **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a decision rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
