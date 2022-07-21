@@ -1,6 +1,6 @@
 ---
 title: Get started with messages
-description: Learn how to create personalized messages in Journey Optimizer
+description: Learn how to create and deliver personalized messages in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -82,3 +82,32 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
    * [Create an email](create-email.md)
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
+
+## Enable Send-time optimization{#sto-in-journeys}
+
+For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
+    
+Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../messages/send-time-optimization.md).
+
+## Advanced parameters{#sto-in-journeys}
+
+Advanced parameters are read-only and hidden by default. 
+
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
+
+![](assets/show-read-only.png)
+
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/message-presets.md) (was 'message preset') associated to the message.
+
+For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
+
+![](assets/push-adv-parameters.png)
+
+For email, you can display the primary email address.
+
+For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+
+* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+* Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
+
+Click the same icon to reset to the default parameter.
