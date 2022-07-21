@@ -14,9 +14,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 >title="Message activity"
 >abstract="Use the Message activity to send a push, SMS or email message."
 
-Use [!DNL Journey Optimizer] to create and send personalized push notifications, SMS and email messages, and leverage multiple resources like assets and contents in a single place. 
-
-[!DNL Journey Optimizer] messages are built in the context of journeys. You can:
+Use [!DNL Journey Optimizer] to create and deliver personalized push notifications, SMS and email messages. All messages are editable in-line as part of an action on the Journey Canvas.  Use the Save as template capability to reuse your content easily. You can:
 
 * Use [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
 
@@ -27,8 +25,6 @@ Use [!DNL Journey Optimizer] to create and send personalized push notifications,
 * Enhance customers' experience by creating personalized **push notifications, SMS and email messages** based on their profile attributes.
 
 * **Send messages** based on these contents, and track customer behavior.
-
-To add messages in your journeys, simply add a push, SMS or email activity in the journey canevas. 
 
 >[!NOTE]
 >
@@ -47,7 +43,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 >title="Message surface"
 >abstract="A channel surface is an instance of that channel that has all the settings to deliver an action successfully via a campaign or a journey. It is defined by a system administrator."
 
-Steps to add a message in a journey are detailed below.
+To add messages in your journeys, simply add a push, SMS or email activity in the journey canevas. 
 
 1. Start your journey with an [Event](../building-journeys/general-events.md) or a [Read Segment](../building-journeys/read-segment.md) activity.
 
@@ -86,75 +82,3 @@ Steps to add a message in a journey are detailed below.
    * [Create an email](create-email.md)
    * [Create a push notifications](create-push.md)
    * [Create an SMS message](create-sms.md)
-
-## Enable Send-time optimization{#sto-in-journeys}
-
-For email and push notifications, you can enable **[!UICONTROL Send-time optimization]**.
-    
-Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../messages/send-time-optimization.md).
-
-## Advanced parameters{#sto-in-journeys}
-
-Advanced parameters are read-only and hidden by default. 
-
-To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
-
-![](assets/show-read-only.png)
-
-Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [surface](../configuration/message-presets.md) (or preset) associated to the message.
-
-For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
-
-![](assets/push-adv-parameters.png)
-
-For email, you can display the primary email address.
-
-For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
-
-* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
-* Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
-
-Click the same icon to reset to the default parameter.
-
-## Browse messages{#browse-message}
-
-When multiple messages are used in a journey, you can switch from one to another from the **Edit Content** screen.
-
-![](assets/inline-messages-multi-content.png)
-
-You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single view.
-
-## Duplicate a message {#duplicate-message}
-
-You can copy an existing message from the journey canevas.
-
-To perform this, follow the steps below:
-
-1. Select the message you want to copy.
-
-1. Use the **[!UICONTROL Copy]** button from the **[!UICONTROL Action]** pane.
-
-   ![](assets/message-duplicate.png)
-
-1. Enter **crtl+V** to paste the message.
-
-   The message is added to the journey canevas. All settings and configuration will be copied to the new message.
-
-   ![](assets/message-duplicated.png)
-
-1. Rename the message to be able to differenciate the initial message from the copy, for example when editing messages, as below:
-
-   ![](assets/multi-message.png)
-
-
->[!NOTE]
->
->For emails, you can also turn an existing message to a template. [Learn more](../design/email-templates.md).
-
-## Delete a message
-
-To delete a message, use the trash icon on the top of the message activity pane.
-
-![](assets/delete-message.png)
-
-Use the **[!UICONTROL Confirm]** button to validate.
