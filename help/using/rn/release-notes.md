@@ -89,6 +89,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
 
+* **Business events** - A guardrail has been added in journeys: business events can no longer be used in conjunction with unitary events or segment qualification activities.
+
+* **Timezone management** - To optimize performance, the **Profile timezone** option is now unchecked by default in journey properties.
+
 **Messages**
 
 * Message presets are now **surfaces**.
