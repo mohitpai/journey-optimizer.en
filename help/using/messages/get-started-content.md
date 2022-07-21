@@ -89,7 +89,7 @@ For email and push notifications, you can enable **[!UICONTROL Send-time optimiz
     
 Use **[!UICONTROL Send-time optimization]** to schedule personalized send times for each user to grow the open and click rates of your messages. [Learn more](../messages/send-time-optimization.md).
 
-## Advanced parameters{#sto-in-journeys}
+## Advanced parameters{#adv-settings}
 
 Advanced parameters are read-only and hidden by default. 
 
@@ -111,3 +111,47 @@ For specific use, you can override these values in specific contexts. To force a
 * Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
 
 Click the same icon to reset to the default parameter.
+
+
+## Browse messages{#browse-message}
+
+When multiple messages are used in a journey, you can switch from one to another from the **Edit Content** screen.
+
+![](assets/inline-messages-multi-content.png)
+
+You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single view.
+
+## Duplicate a message {#duplicate-message}
+
+You can copy an existing message from the journey canevas.
+
+To perform this, follow the steps below:
+
+1. Select the message you want to copy.
+
+1. Use the **[!UICONTROL Copy]** button from the **[!UICONTROL Action]** pane.
+
+   ![](assets/message-duplicate.png)
+
+1. Enter **crtl+V** to paste the message.
+
+   The message is added to the journey canevas. All settings and configuration will be copied to the new message.
+
+   ![](assets/message-duplicated.png)
+
+1. Rename the message to be able to differenciate the initial message from the copy, for example when editing messages, as below:
+
+   ![](assets/multi-message.png)
+
+
+>[!NOTE]
+>
+>For emails, you can also turn an existing message to a template. [Learn more](../design/email-templates.md).
+
+## Delete a message
+
+To delete a message, use the trash icon on the top of the message activity pane.
+
+![](assets/delete-message.png)
+
+Use the **[!UICONTROL Confirm]** button to validate.
