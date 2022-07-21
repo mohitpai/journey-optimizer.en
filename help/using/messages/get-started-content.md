@@ -157,4 +157,3 @@ To delete a message, use the trash icon on the top of the message activity pane.
 ![](assets/delete-message.png)
 
 Use the **[!UICONTROL Confirm]** button to validate.
-
