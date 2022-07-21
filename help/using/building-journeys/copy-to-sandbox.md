@@ -81,7 +81,7 @@ The following objects are copied:
 
 * Message
 
-   The physical message(s) used in the journey (either email or push messages). Fields used for personalization in the message are not checked for completeness. Content blocks are not copied.
+   The channel action activities used in the journey. Fields used for personalization in the message are not checked for completeness. Content blocks are not copied.
 
 * Journey - canvas details
 

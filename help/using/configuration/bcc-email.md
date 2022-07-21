@@ -1,6 +1,6 @@
 ---
 title: Use BCC email
-description: Learn how to configure BCC email at the message surface level
+description: Learn how to configure BCC email at the channel surface level
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -22,7 +22,7 @@ To enable the **[!UICONTROL BCC email]** option, enter the email address of your
 
 >[!NOTE]
 >
->You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current surface.
+>You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current channel surface.
 >
 >More recommendations are listed in [this section](#bcc-recommendations-limitations).
 

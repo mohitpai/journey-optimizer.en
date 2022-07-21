@@ -25,9 +25,9 @@ In order to send messages with journeys, the following configurations are requir
 
    ![](assets/jo-datasource.png)  
 
-1. **Configure an action**: Journey Optimizer message capabilities are built-in, you just need to design your content and publish your message. See [this section](../messages/get-started-content.md). If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. 
+1. **Configure an action**: If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. If you're using Journey Optimizer built-in message capabilities, you just need to add a channel action to your journey and design your content. See [this section](../messages/get-started-content.md). 
 
-    ![](assets/create-content-push.png)  
+    ![](assets/custom2.png)
 
 ## Build your journey{#jo-build}
 
@@ -54,7 +54,7 @@ Here are the main steps to send messages through journeys:
 
     ![](assets/read-segment.png)
 
-1. Drag and drop the next steps that the individual will follow. For example, you can add a condition followed by a message. To learn more about activities, refer to [this section](using-the-journey-designer.md).
+1. Drag and drop the next steps that the individual will follow. For example, you can add a condition followed by a channel action. To learn more about activities, refer to [this section](using-the-journey-designer.md).
 
 1. Test your journey using test profiles. Learn more in this [section](testing-the-journey.md)
 

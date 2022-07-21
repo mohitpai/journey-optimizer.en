@@ -12,7 +12,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 Use the **[!UICONTROL Live report]** to measure and visualize in real-time the impact and performances of your journeys and your messages in a built-in dashboard.
 Data are available in the **[!UICONTROL Live report]** as soon as your delivery is sent or your journey is executed. 
 
-* If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Live report]** icon. You can then find the Journey, Email and Push live reports.
+* If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL View report]** button. You can then find the Journey, Email, SMS and Push live reports.
 
     ![](assets/report_journey.png)
 
@@ -20,7 +20,7 @@ Data are available in the **[!UICONTROL Live report]** as soon as your delivery 
 
     ![](assets/report_2.png)
 
-* If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Global report]** for your delivery, click **[!UICONTROL Global view]** from the tab switcher.
+* If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Live report]** for your delivery, click **[!UICONTROL Live view]** from the tab switcher.
 
     ![](assets/report_3.png)
 

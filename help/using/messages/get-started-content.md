@@ -53,13 +53,13 @@ Steps to add a message in a journey are detailed below.
    >
    >Marketing-type messages must include an [opt-out link](../messages/consent.md#opt-out-management). This is not required for transactional messages: these messages can be sent to profiles who unsubscribed from marketing communications.
 
-1. Select the message **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
+1. Select the channel **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
-   A surface is a message configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters (From), subdomain, and [frequency rules](../configuration/frequency-rules.md#apply-frequency-rule). [Learn more](../configuration/message-presets.md).
+   A surface is a message configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters (From), subdomain, mobile apps, etc.<!--and [frequency rules](../configuration/frequency-rules.md#apply-frequency-rule)--> [Learn more](../configuration/message-presets.md).
 
    >[!CAUTION]
    >
-   >You must choose a valid message surface for the selected message category and channel.
+   >You must choose a valid channel surface for the selected message category and channel.
    
    You can access and modify the message's label, description and surface at any time using the **[!UICONTROL Properties]** button in the message interface.
 

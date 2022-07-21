@@ -15,15 +15,15 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 
 Use the **[!UICONTROL Global report]** to measure the impact of your journeys and deliveries over a selected time period.
 
-* If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Global report]** icon. You can then find the Journey, Email and Push **[!UICONTROL Global report]**.
+* If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL View report]** button. You can then find the Journey, Email, SMS and Push global reports.
 
-    ![](assets/report_6.png)
+    ![](assets/report_journey.png)
 
-* If you want to target a specific delivery, from the **[!UICONTROL Global view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Global Report]** from the advanced menu of your selected delivery.
+* If you want to target a specific delivery, from the **[!UICONTROL Live view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Global Report]** from the advanced menu of your selected delivery.
 
     ![](assets/report_4.png)
 
-* If you want to switch from the **[!UICONTROL Global report]** to the **[!UICONTROL Live report]** for your delivery, click **[!UICONTROL Live view]** from the tab switcher.
+* If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Global report]** for your delivery, click **[!UICONTROL Global view]** from the tab switcher.
 
     ![](assets/report_5.png)
 

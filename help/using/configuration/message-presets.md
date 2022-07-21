@@ -1,36 +1,36 @@
 ---
-title: Set up message surfaces
-description: Learn how to configure and monitor message surfaces
+title: Set up channel surfaces
+description: Learn how to configure and monitor channel surfaces
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
-# Set up message surfaces {#message-presets-creation}
+# Set up channel surfaces {#message-presets-creation}
 
-With [!DNL Journey Optimizer], you can set up message surfaces that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more. 
+With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, and more. 
 
 >[!CAUTION]
 >
-> * To create, edit and delete message surfaces, you must have the [Manage messages surfaces](../administration/high-low-permissions.md#manage-message-presets).
+> * To create, edit and delete channel surfaces, you must have the [Manage messages presets](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * You must perform [Email configuration](#configure-email-settings) and [Push configuration](../configuration/push-configuration.md) steps before creating message surfaces.
+> * You must perform the [Email configuration](#configure-email-settings), [Push configuration](../configuration/push-configuration.md) and [SMS configuration](../configuration/sms-configuration.md) steps before creating channel surfaces.
 
-Once message surfaces have been configured, you will be able to select them when creating messages from the **[!UICONTROL Surfaces]** list.
+Once channel surfaces have been configured, you will be able to select them when creating messages from the **[!UICONTROL Channel surfaces]** list.
 
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
 
-## Create a message surface {#create-message-preset}
+## Create a channel surface {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Message surface details and settings"
->abstract="By setting up a message surface you can select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain to be used, sender name, mobile apps, etc."
+>title="Channel surface details and settings"
+>abstract="By setting up a channel surface, you can select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain to be used, sender name, mobile apps, etc."
 
-To create a message surface, follow these steps:
+To create a channel surface, follow these steps:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message surfaces]** menu, then click **[!UICONTROL Create Message surface]**.
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
 
     ![](assets/preset-create.png)
 
@@ -62,7 +62,7 @@ To create a message surface, follow these steps:
     >
     >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message surface as draft and resume its configuration later on.
+1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
 
     ![](assets/preset-submit.png)
 
@@ -72,7 +72,7 @@ To create a message surface, follow these steps:
     >
     >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
     
-1. Once the message surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
     During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
 
@@ -90,25 +90,25 @@ To create a message surface, follow these steps:
     >
     >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  
 
-1. Once the checks are successful, the message surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     ![](assets/preset-active.png)
 
-## Monitor message surfaces {#monitor-message-presets}
+## Monitor channel surfaces {#monitor-message-presets}
 
-All your message surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Message surfaces]** menu. Filters are available to help you browse through the list (channel type, user, status).
+All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
 
 ![](assets/preset-filters.png)
 
-Once created, message surfaces can have the following statuses:
+Once created, channel surfaces can have the following statuses:
 
-* **[!UICONTROL Draft]**: The message surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The message surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The message surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the message surface verification.
-* **[!UICONTROL Deactivated]**: The message surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
+* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
+* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
+* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
+* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
 
-In case a message surface creation fails, the details on each possible failure reason are described below.
+In case a channel surface creation fails, the details on each possible failure reason are described below.
 
 If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
 
@@ -124,15 +124,15 @@ If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
     * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
 
-## Edit a message surface {#edit-message-preset}
+## Edit a channel surface {#edit-message-preset}
 
-To edit a message surface, follow the steps below.
+To edit a channel surface, follow the steps below.
 
 >[!NOTE]
 >
->You cannot edit the **[!UICONTROL Push notification settings]**. If a message surface is only configured for the Push notification channel, it is not editable.
+>You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
 
-1. From the list, click a message surface name to open it.
+1. From the list, click a channel surface name to open it.
 
     ![](assets/preset-name.png)
 
@@ -140,7 +140,7 @@ To edit a message surface, follow the steps below.
 
     >[!NOTE]
     >
-    >If a message surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
+    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
 
 1. Click **[!UICONTROL Submit]** to confirm your changes.
 
@@ -148,9 +148,9 @@ To edit a message surface, follow the steps below.
 
     >[!NOTE]
     >
-    >You can also save the message surface as draft and resume update later on.
+    >You can also save the channel surface as draft and resume update later on.
 
-Once the changes are submitted, the message surface will go through a validation cycle similar to the one in place when [creating a surface](#create-message-preset). The edition processing time can take up to **3 hours**.
+Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-message-preset). The edition processing time can take up to **3 hours**.
 
 >[!NOTE]
 >
@@ -158,13 +158,13 @@ Once the changes are submitted, the message surface will go through a validation
 
 ### Update details {#update-details}
 
-For message surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
 
 * Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
 
     ![](assets/preset-recent-update-icon.png)
 
-* You can also access the update details from an active message surface while update is in progress.
+* You can also access the update details from an active channel surface while update is in progress.
     
     ![](assets/preset-view-update-details.png)
 
@@ -174,11 +174,11 @@ On the **[!UICONTROL Recent update]** screen, you can see information such as th
 
 ### Update statuses {#update-statuses}
 
-A message surface update can have the following statuses:
+A channel surface update can have the following statuses:
 
-* **[!UICONTROL Processing]**: The message surface update has been submitted and is going through several verifications steps.
-* **[!UICONTROL Success]**: The updated message surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the message surface update verification.
+* **[!UICONTROL Processing]**: The channel surface update has been submitted and is going through several verifications steps.
+* **[!UICONTROL Success]**: The updated channel surface has been verified and can be selected to create messages.
+* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface update verification.
 
 Each status is detailed below.
 
@@ -196,13 +196,13 @@ If you edit a surface that was already active:
 
 * Its status remains **[!UICONTROL Active]** while the validation process is in progress.
 
-* The **[!UICONTROL Recent update]** icon displays next to the name of the surface in the message surfaces list.
+* The **[!UICONTROL Recent update]** icon displays next to the name of the surface in the channel surfaces list.
 
 * During the validation process, the messages configured using this surface are still using the older version of the surface.
 
 >[!NOTE]
 >
->You cannot modify a message surface while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
+>You cannot modify a channel surface while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
 #### Success {#success}
 
@@ -218,15 +218,15 @@ Learn more on the possible failure reasons in [this section](#monitor-message-pr
 
 Upon update failing, the surface becomes editable again. You can click its name and update the settings that need to be fixed.
 
-## Deactivate a message surface {#deactivate-preset}
+## Deactivate a channel surface {#deactivate-preset}
 
-To make an **[!UICONTROL Active]** message surface unavailable to create new messages, you can deactivate it. However, the published messages using this surface will not be affected and will continue working.
+To make an **[!UICONTROL Active]** channel surface unavailable to create new messages, you can deactivate it. However, the published messages using this surface will not be affected and will continue working.
 
 >[!NOTE]
 >
->You cannot deactivate a message surface while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing message surfaces](#edit-message-preset) and on the [update statuses](#update-statuses).
+>You cannot deactivate a channel surface while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing channel surfaces](#edit-message-preset) and on the [update statuses](#update-statuses).
 
-1. Access the message surfaces list.
+1. Access the channel surfaces list.
 
 1. For the active surface of your choice, click the **[!UICONTROL More actions]** button.
 
@@ -236,14 +236,14 @@ To make an **[!UICONTROL Active]** message surface unavailable to create new mes
 
 >[!NOTE]
 >
->Deactivated message surfaces cannot be deleted to avoid any issue in journeys using these surfaces to send messages.
+>Deactivated channel surfaces cannot be deleted to avoid any issue in journeys using these surfaces to send messages.
 
-You cannot directly edit a deactivated message surface. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages. You can also activate it again, and wait until the update is successful to edit it.
+You cannot directly edit a deactivated channel surface. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages. You can also activate it again, and wait until the update is successful to edit it.
 
 ![](assets/preset-activate.png)
 
 ## How-to video{#video-presets}
 
-Learn how to create message surfaces, how to use them and how to delegate a subdomain and create an IP pool.
+Learn how to create channel surfaces, how to use them and how to delegate a subdomain and create an IP pool.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

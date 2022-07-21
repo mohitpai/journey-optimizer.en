@@ -147,7 +147,7 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
 
-   * Select all channels (Email, Push).
+   * Select Email and Push channels.
    * Set capping to 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -161,7 +161,7 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. Save and [activate](#activate-rule) the rule.
 
-1. Create a message. [Learn more](../messages/get-started-content.md#create-new-message)
+1. Create a message. <!--Add Email and Push actions to your journeys.--> [Learn more](../messages/get-started-content.md#create-new-message)
 
 1. Select the **[!UICONTROL Marketing]** category.
 
