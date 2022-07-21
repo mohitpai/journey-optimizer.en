@@ -103,12 +103,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your channel surfaces (i.e message presets). [Learn more](../configuration/email-settings.md#url-tracking)
 
-    <!--This improvement also applies when adding URLs as content to your offers' representations.??-->
-
-**Reporting**
-
-* **Performance measurement configuration** - You can now configure reporting through the Administration > Configurations menu in order to retrieve additional custom information to be used in your reports.
-
 **Offer Decisioning**
 
 * **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
