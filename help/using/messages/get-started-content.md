@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
-# Get started with messages {#get-started-contents-messages}
+# Get started with messages {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
@@ -115,7 +115,7 @@ For specific use, you can override these values in specific contexts. To force a
 
 Click the same icon to reset to the default parameter.
 
-## Browse messages
+## Browse messages{#browse-message}
 
 When multiple messages are used in a journey, you can switch from one to another from the **Edit Content** screen.
 
