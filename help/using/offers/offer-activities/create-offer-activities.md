@@ -82,6 +82,10 @@ Before creating a decision, make sure that the components below have been create
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
+        >[!NOTE]
+        >
+        >When you select segments or decision rules, information on the estimated qualified profiles is displayed. Click **[!UICONTROL Refresh]** to update data.
+
 1. Define the ranking method you want to use to select the best offer for each profile.
 
     ![](../assets/activity_ranking-method.png)

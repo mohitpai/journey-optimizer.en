@@ -35,6 +35,10 @@ Constraints allow you to define the conditions under which an offer will be disp
 
    ![](../assets/offer-eligibility.png)
 
+    >[!NOTE]
+    >
+    >When you select segments or decision rules, information on the estimated qualified profiles is displayed. Click **[!UICONTROL Refresh]** to update data.
+
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
    ![](../assets/offer-priority.png)
