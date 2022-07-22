@@ -44,4 +44,4 @@ To be able to create your journeys and send messages, you need to go though thes
 
     * **Events** allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey. In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). [Learn more](../event/about-events.md)
     
-    * [!DNL Journey Optimizer] comes with built-in message capabilities: you can design your content and publish your message. If you are using a third-party system to send your messages, create a **custom action**. [Learn more](../action/action.md)
+    * [!DNL Journey Optimizer] comes with built-in message capabilities that allow you to design and send your content. If you are using a third-party system to send your messages, create a **custom action**. [Learn more](../action/action.md)

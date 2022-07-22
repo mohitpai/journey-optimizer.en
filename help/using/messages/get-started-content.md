@@ -51,7 +51,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 
    ![](assets/add-a-message.png)
 
-1. Select the message and enter a label and a description.
+1. Enter a label and a description.
 
 1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
@@ -124,7 +124,7 @@ You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each
 
 ## Duplicate a message {#duplicate-message}
 
-You can copy an existing message from the journey canevas.
+You can copy an existing message from the journey canvas.
 
 To perform this, follow the steps below:
 

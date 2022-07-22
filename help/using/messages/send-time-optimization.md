@@ -30,8 +30,6 @@ This information is stored with the user's profile and is referenced at journey 
 
 >[!CAUTION]
 >
->* This feature is only available for mono-channel messages on email and push with tracking enabled.
->* The message must be published.
 >* This feature is not compatible with burst mode.
 
 ### Activate Send-Time Optimization{#activate-send-time-optimization}

@@ -17,7 +17,7 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 >
 > * You must perform the [Email configuration](#configure-email-settings), [Push configuration](../configuration/push-configuration.md) and [SMS configuration](../configuration/sms-configuration.md) steps before creating channel surfaces.
 
-Once channel surfaces have been configured, you will be able to select them when creating messages from the **[!UICONTROL Channel surfaces]** list.
+Once channel surfaces have been configured, you will be able to select them when creating messages from a journey.
 
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
 
@@ -218,7 +218,7 @@ Upon update failing, the surface becomes editable again. You can click its name 
 
 ## Deactivate a channel surface {#deactivate-preset}
 
-To make an **[!UICONTROL Active]** channel surface unavailable to create new messages, you can deactivate it. However, the published messages using this surface will not be affected and will continue working.
+To make an **[!UICONTROL Active]** channel surface unavailable to create new messages, you can deactivate it. However, journeys' messages currently using this surface will not be affected and will continue working.
 
 >[!NOTE]
 >

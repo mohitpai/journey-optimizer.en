@@ -49,7 +49,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Host it on the third-party system of your choice.
 
-1. [Create a message](get-started-content.md) in [!DNL Journey Optimizer].
+1. [Create a message](get-started-content.md) in a journey.
 
 1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar.
 

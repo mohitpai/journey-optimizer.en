@@ -91,7 +91,7 @@ Activating a rule will impact any messages it applies to on their next execution
 
 >[!NOTE]
 >
->It can take up to 10 minutes for a rule to be fully activated. You do not need to modify or republish messages or journeys for a rule to take effect.
+>It can take up to 10 minutes for a rule to be fully activated. You do not need to modify messages or republish journeys for a rule to take effect.
 
 To deactivate a message frequency rule, click the ellipsis next to the rule and select **[!UICONTROL Deactivate]**.
 
