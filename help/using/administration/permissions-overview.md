@@ -17,7 +17,7 @@ User management in [!DNL Journey Optimizer] is based on three concepts:
 
 * **[!UICONTROL Product profile]**: A set of unitary rights which allows users access to certain functionalities or objects in the interface. Refer to the [Out-of-the-box product profiles](ootb-product-profiles.md) section
 
-* **[!UICONTROL Permissions]**: Unitary rights that allow you to define the authorizations assigned to **[!UICONTROL Product profile]**. Each permission is gathered under capabilities, e.g. Journey, Messages or Offers, which represents the different functionalities or objects in [!DNL Journey Optimizer]. Refer to the [Permission levels](high-low-permissions.md) section.
+* **[!UICONTROL Permissions]**: Unitary rights that allow you to define the authorizations assigned to **[!UICONTROL Product profile]**. Each permission is gathered under capabilities, e.g. Journey or Offers, which represents the different functionalities or objects in [!DNL Journey Optimizer]. Refer to the [Permission levels](high-low-permissions.md) section.
 
 * **[!UICONTROL Sandbox]**: Virtual sandboxes that partition instances into separate, isolated virtual environments. Refer to the [Using sandboxes](sandboxes.md)
 

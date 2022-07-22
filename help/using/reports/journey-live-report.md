@@ -52,8 +52,6 @@ The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Ac
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-For a detailed report on a specific email delivery, refer to the [Email live report](email-live-report.md) section.
-
 ![](assets/report_email_1.png)
 
 The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
@@ -115,8 +113,6 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 ## Push tab {#push-live}
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
-
-For a detailed report on a specific push delivery, refer to the [Push live report](push-live-report.md) section.
 
 ![](assets/report_push_1.png)
 

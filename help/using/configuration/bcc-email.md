@@ -18,7 +18,7 @@ You can send an identical copy (or blind carbon copy) of an email sent by [!DNL 
 
 ## Enable BCC email {#enable-bcc}
 
-To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field. You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
+To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field of the [channel surface](message-presets.md) (i.e. message preset). You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ However, the BCC address gets picked up for sending communications following the
 
     <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). 
+* Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/global-report.md). 
 
 * Do not mark messages as spam in the BCC inbox, as it will impact all the other emails sent to this address.
 

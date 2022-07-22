@@ -26,7 +26,7 @@ Once channel surfaces have been configured, you will be able to select them when
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface details and settings"
->abstract="By setting up a channel surface, you can select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain to be used, sender name, mobile apps, etc."
+>abstract="By setting up a channel surface, you can select the channel it applies to, and define all the technical parameters required for your deliveries, such as email type, subdomain to be used, sender name, mobile apps, etc."
 
 To create a channel surface, follow these steps:
 

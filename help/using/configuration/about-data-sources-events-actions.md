@@ -30,7 +30,7 @@ In the event configuration, you configure the events expected in the journeys. T
  
 ## Actions {#actions}
 
-Journey Optimizer message capabilities are built-in: you only need to design your content and publish your message. If you are using a third-party system to send your messages, you can create a custom action. [Learn more](../../using/action/action.md)
+Journey Optimizer message capabilities are built-in: you only need to add a channel action activity to your journey. If you are using a third-party system to send your messages, you can create a custom action. [Learn more](../../using/action/action.md)
 
 ## Browse through Adobe Experience Platform fields {#friendly-names-display}
 

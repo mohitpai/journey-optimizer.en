@@ -126,7 +126,7 @@ To apply a frequency rule to a message, follow the steps below.
    >
    >Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
-1. You can view the number of profiles excluded from delivery in the [Live and Global views](../reports/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
+1. You can view the number of profiles excluded from delivery in the [Global report](../reports/global-report.md), and in the [Live report](../reports/live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 
 >[!NOTE]
 >

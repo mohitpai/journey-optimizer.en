@@ -1,6 +1,6 @@
 ---
 title: Create IP pools
-description: "Learn how to manage ip-pools"
+description: Learn how to manage IP pools
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -44,7 +44,7 @@ To create an IP pool, follow these steps:
     >
     >All the IP addresses provisioned with your instance are available in the list.
     
-The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message surface. For more on how to associate a channel surface with an IP pool, refer to [this section](message-presets.md).
+The IP pool is now created and displays in the list. You can select it to access its properties and display the associated channel surface (i.e. message preset). For more on how to associate a channel surface with an IP pool, refer to [this section](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 

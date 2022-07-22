@@ -16,10 +16,6 @@ Data are available in the **[!UICONTROL Live report]** as soon as your delivery 
 
     ![](assets/report_journey.png)
 
-* If you want to target a specific delivery, from the **[!UICONTROL Live view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Live Report]** from the advanced menu of your selected delivery.
-
-    ![](assets/report_2.png)
-
 * If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Live report]** for your delivery, click **[!UICONTROL Live view]** from the tab switcher.
 
     ![](assets/report_3.png)

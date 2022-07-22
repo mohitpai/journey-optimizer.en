@@ -56,8 +56,6 @@ The **[!UICONTROL Top Actions]** table contains the data available for **[!UICON
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](#email-global-report) section.
-
 ![](assets/global_report_14.png)
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
@@ -174,8 +172,6 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 ## Push tab {#push-global}
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
-
-For a detailed report on a specific push delivery, refer to this the [Push Global report](#push-global-report).
 
 ![](assets/global_report_17.png)
 

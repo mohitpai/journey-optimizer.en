@@ -84,7 +84,7 @@ The event is now configured and ready to be used in your journey. Using the corr
 
    ![](assets/jo-uc5.png)
 
-1. Place your cursor on the message activity and click on the “+” symbol to create a new path.
+1. Place your cursor on the email activity and click on the “+” symbol to create a new path.
 
 1. In the first path, add a **Reaction** event and select **Push opened**. The event is triggered when an individual belonging to the segment opens the push version of the first message.
 

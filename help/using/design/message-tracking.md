@@ -116,6 +116,4 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](../reports/message-monitoring.md).
-
-Reporting on openings and clicks is available in the [Email Live report](../reports/email-live-report.md) and in the [Email Global report](../reports/email-global-report.md).
+Reporting on openings and clicks is available in the [Live report](../reports/live-report.md) and in the [Global report](../reports/global-report.md).

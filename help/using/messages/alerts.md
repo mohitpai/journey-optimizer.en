@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 ---
 # Check alerts on your messages {#messages-alerts}
 
-## Checks before publication {#message-alerting}
+## Checks before sending {#message-alerting}
 
 As you are designing your messages, alerts are displayed in the interface when key settings are missing.
 
@@ -61,13 +61,13 @@ The settings and elements checked by the system are listed below. You will also 
 
 * **[!UICONTROL The email version of the message is empty]**: this error is displayed when the email content has not been configured. Learn how to design email content in [this section](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: you cannot publish your message if the preset you have selected is deleted after the message creation. If this error occurs, select another preset in the message **[!UICONTROL Properties]**. Learn more on branding in [this section](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Preset doesn’t exist]**: you cannot use your message if the preset you have selected is deleted after the message creation. If this error occurs, select another preset in the message **[!UICONTROL Properties]**. Learn more on branding in [this section](../configuration/about-subdomain-delegation.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: the push notification size cannot exceed 4KB. To respect this limit, try to reduce the use of images or emojis. Learn how to manage your push notification content in [this section](create-push.md).
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to use your message, you need to resolve all **error** alerts.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

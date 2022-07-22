@@ -1,6 +1,6 @@
 ---
 title: Configure email settings
-description: Learn how to configure email settings at the message surface level
+description: Learn how to configure email settings at the channel surface level
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 ---
 # Configure email settings {#email-settings}
 
-Define the email settings in the dedicated section of the channel surface configuration. Learn how to create surfaces in [this section](message-presets.md).
+Define the email settings in the dedicated section of the channel surface (i.e. message presets) configuration. Learn how to create surfaces in [this section](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -136,7 +136,7 @@ To do this, enable the **[!UICONTROL BCC EMAIL]** optional feature at the channe
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Adjust the retry time period"
->abstract="Retries are performed for 3.5 days (84 hours) when an email message fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
+>abstract="Retries are performed for 3.5 days (84 hours) when an email delivery fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="About retries"
 
 You can configure the **EMAIL RETRY PARAMETERS**.

@@ -19,10 +19,6 @@ Use the **[!UICONTROL Global report]** to measure the impact of your journeys an
 
     ![](assets/report_journey.png)
 
-* If you want to target a specific delivery, from the **[!UICONTROL Live view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Global Report]** from the advanced menu of your selected delivery.
-
-    ![](assets/report_4.png)
-
 * If you want to switch from the **[!UICONTROL Live report]** to the **[!UICONTROL Global report]** for your delivery, click **[!UICONTROL Global view]** from the tab switcher.
 
     ![](assets/report_5.png)

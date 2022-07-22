@@ -46,7 +46,7 @@ This information is stored with the user's profile and is referenced at journey 
 >title="Activate Send-Time Optimization"
 >abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. You can also choose to bracket the send times used by the system by entering a value for the Send within the next option."
 
-Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the Message activity parameters. 
+Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the activity parameters. 
 
 ![](../building-journeys/assets/jo-message5.png)
 
