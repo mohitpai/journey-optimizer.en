@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
-# Get started with messages {#get-started-messages}
+# Get started with channel actions {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
@@ -22,13 +22,13 @@ Use [!DNL Journey Optimizer] to create and deliver personalized push notificatio
 
 * Find **Adobe Stock photos** to build your content and improve your email design.
 
-* Enhance customers' experience by creating personalized **push notifications, SMS and email messages** based on their profile attributes.
+* Enhance customers' experience by creating personalized **push notifications, SMS and emails** based on their profile attributes.
 
-* **Send messages** based on these contents, and track customer behavior.
+* **Send deliveries** based on these contents, and track customer behavior.
 
 >[!NOTE]
 >
->Users can access, create, edit and/or publish messages depending on their product profile. Learn more about user permissions [in this section](../administration/permissions.md).
+>Users can access, create, edit and/or publish journeys depending on their product profile. Learn more about user permissions [in this section](../administration/permissions.md).
 
 
 ## Add messages in your journeys{#messages-in-journeys}
@@ -151,7 +151,7 @@ To perform this, follow the steps below:
 
 ## Delete a message
 
-To delete a message, use the trash icon on the top of the message activity pane.
+To delete a message, use the trash icon on the top of the channel action activity pane.
 
 ![](assets/delete-message.png)
 
