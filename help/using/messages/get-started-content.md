@@ -11,8 +11,8 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
->title="Message activity"
->abstract="Use the Message activity to send a push, SMS or email message."
+>title="Channel actions"
+>abstract="Use channel actions to send a push, SMS or email message."
 
 Use [!DNL Journey Optimizer] to create and deliver personalized push notifications, SMS and email messages. All messages are editable in-line as part of an action on the Journey Canvas.  Use the Save as template capability to reuse your content easily. You can:
 
@@ -40,7 +40,7 @@ Use [!DNL Journey Optimizer] to create and deliver personalized push notificatio
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_surface"
->title="Message surface"
+>title="Channel surface"
 >abstract="A channel surface is an instance of that channel that has all the settings to deliver an action successfully via a campaign or a journey. It is defined by a system administrator."
 
 To add messages in your journeys, simply add a push, SMS or email activity in the journey canevas. 
@@ -98,7 +98,7 @@ To access advanced parameters, click the **[!UICONTROL Show read-only fields]** 
 
 ![](assets/show-read-only.png)
 
-Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/message-presets.md) (was 'message preset') associated to the message.
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/message-presets.md) (i.e. message preset) associated with the message.
 
 For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
 

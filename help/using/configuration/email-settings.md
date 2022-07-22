@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 ---
 # Configure email settings {#email-settings}
 
-Define the email settings in the dedicated section of the channel surface (i.e. message presets) configuration. Learn how to create surfaces in [this section](message-presets.md).
+Define the email settings in the dedicated section of the channel surface (i.e. message preset) configuration. Learn how to create surfaces in [this section](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
