@@ -101,7 +101,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. [Learn more](../configuration/allow-list.md#logic)
 
-* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your channel surfaces (i.e message presets). [Learn more](../configuration/email-settings.md#url-tracking)
+* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your email surfaces (i.e message presets). [Learn more](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
