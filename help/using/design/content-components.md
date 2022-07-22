@@ -177,5 +177,5 @@ Use the **[!UICONTROL Offer decision]** component to insert decisions into your 
 
 Related topics:
 
-* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md).
-* [Add personalized offers into messages](deliver-personalized-offers.md).
+* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md)
+* [Add personalized offers into emails](deliver-personalized-offers.md)

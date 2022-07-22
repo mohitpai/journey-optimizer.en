@@ -13,9 +13,9 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 
 >[!NOTE]
 >
->Before creating a new campaign, make sure you have a message preset and an Adobe Experience Platform segment ready for use. Learn more in these sections:
+>Before creating a new campaign, make sure you have a surface channel (i.e. message preset) and an Adobe Experience Platform segment ready for use. Learn more in these sections:
 >
->* [Create message presets](../configuration/message-presets.md) 
+>* [Create channel surfaces](../configuration/message-presets.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
 ## Configure a campaign {#configure}
@@ -31,13 +31,13 @@ The steps to create a campaign are as follows:
     * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
     * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
 
-1. In the **[!UICONTROL Actions]** section, choose the channel and the message surface (i.e. message preset) to use to send your message, then click **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
     ![](assets/create-campaign-action.png)
 
     >[!NOTE]
     >
-    >Only message surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.
+    >Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.
 
 1. Specify a title and a description for the campaign.
 
@@ -45,7 +45,7 @@ The steps to create a campaign are as follows:
 
 1. In the **[!UICONTROL Actions]** section, configure the message to send with the campaign:
 
-    1. Click the **[!UICONTROL Edit content]** button, then configure and design your message content. [Learn how to configure messages](../messages/get-started-content.md).
+    1. Click the **[!UICONTROL Edit content]** button, then configure and design your message content. [Learn more on messages](../messages/get-started-content.md).
 
         Once your content is ready, click the arrow to go back to the campaign creation screen.
 

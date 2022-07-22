@@ -14,7 +14,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campaigns"
->abstract="With Campaigns, you can deliver one-time content to a specific segment across multiple channels. Before creating a new campaign, make sure you have a message preset and an Adobe Experience Platform segment ready for use."
+>abstract="With Campaigns, you can deliver one-time content to a specific segment across multiple channels. Before creating a new campaign, make sure you have a channel surface (i.e. message preset) and an Adobe Experience Platform segment ready for use."
 
 ## About campaigns {#about}
 

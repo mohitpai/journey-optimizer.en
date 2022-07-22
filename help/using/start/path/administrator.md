@@ -32,7 +32,7 @@ In addition, you must add users who need access to Assets Essentials to the **As
 
 When accessing [!DNL Journey Optimizer] for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 
-To be able to create your journeys and send messages, access the **ADMINISTRATION** menu. Browse the **[!UICONTROL Channels]** menu to configure your email messages and presets.
+To be able to create your journeys and send messages, access the **ADMINISTRATION** menu. Browse the **[!UICONTROL Channels]** menu to configure your messages and surfaces (i.e. presets).
 
 >[!NOTE]
 >As a **System Administrator**, if you cannot see the **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer], update your permissions in the [Admin Console](https://adminconsole.adobe.com/){_blank}. Learn how to update your product profile in [this page](../../administration/permissions.md#edit-product-profile).
@@ -40,11 +40,11 @@ To be able to create your journeys and send messages, access the **ADMINISTRATIO
 
 Follow the steps listed below:
 
-1. **Configure messages and channels**: define presets, adapt and customize email and push messages settings
+1. **Configure messages and channels**: define surfaces, adapt and customize email and push messages settings
 
     * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../configuration/push-gs.md)
 
-    * Create **message presets** to configure all the technical parameters required for email and push notification messages. [Learn more](../../configuration/message-presets.md)
+    * Create **channel surfaces** (i.e. message presets) to configure all the technical parameters required for email and push notification messages. [Learn more](../../configuration/message-presets.md)
 
     * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../configuration/sms-configuration.md)
 
