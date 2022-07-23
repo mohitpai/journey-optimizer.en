@@ -135,7 +135,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
     >[!NOTE]
     >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+    >Make sure you enter a valid email address (such as abc@company.com) or domain (such as abc.company.com).
 
 1. Specify a reason if needed.
 
