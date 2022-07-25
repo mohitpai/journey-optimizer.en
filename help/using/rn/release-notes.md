@@ -13,7 +13,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 >[!CAUTION]
 >
->On July 25, Adobe Journey Optimizer is releasing a [new feature](using/rn/inline-messages.md) which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now [create and author](using/messages/get-started-content.md) your messages directly from a journey. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the [required steps](using/rn/inline-messages-steps.md).
+>On July 25, Adobe Journey Optimizer is releasing a [new feature](../rn/inline-messages.md) which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now [create and author](../messages/get-started-content.md) your messages directly from a journey. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the [required steps](../rn/inline-messages-steps.md).
 
 ## June 2022 Release {#june-2022-release}
 
