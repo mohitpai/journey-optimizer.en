@@ -55,7 +55,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 
 1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
 
@@ -122,6 +122,7 @@ When multiple messages are used in a journey, you can switch from one to another
 
 You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single view.
 
+<!--
 ## Duplicate a message {#duplicate-message}
 
 You can copy an existing message from the journey canvas.

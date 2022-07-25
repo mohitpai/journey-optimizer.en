@@ -30,7 +30,7 @@ This information is stored with the user's profile and is referenced at journey 
 
 >[!CAUTION]
 >
->* This feature is not compatible with burst mode.
+>This feature is not compatible with burst mode.
 
 ### Activate Send-Time Optimization{#activate-send-time-optimization}
 
