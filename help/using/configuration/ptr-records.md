@@ -92,7 +92,7 @@ Once you confirmed the PTR record edit, the **[!UICONTROL Processing]** icon dis
 
 >[!NOTE]
 >
->The [update processing](#processing) can take up to a few hours.
+>The [update processing](#processing) can take up to 3 hours.
 
 To check the PTR record update details, click the icon next to it. Learn more on the statuses associated with the different icons in [this section](#ptr-record-update-statuses).
 
@@ -112,7 +112,7 @@ A PTR record update can have the following statuses:
 
 ### Processing {#processing}
 
-Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. This can take up to a few hours.
+Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. This can take up to 3 hours.
 
 >[!NOTE]
 >
