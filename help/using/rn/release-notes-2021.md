@@ -80,7 +80,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Reporting**
 
-* **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](../reports/message-monitoring.md)
+* **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab.
 
 
 **Administration**
@@ -120,7 +120,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <td>
 <p>New metrics are available in reporting: Targeted and Excluded for email & push messages are visible in both live and global reports. </br> To have access to the latest metrics, please note that you will have to reset the different reporting dashboards for each channel and reporting type. For more information on dashboard customization, refer to the <a href="../reports/live-report.md">detailed documentation.</a></p>
 <p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
-<p>For more information, refer to the <a href="../reports/message-monitoring.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/global-report.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -336,7 +336,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 * In the journey list screen, the journey type filter has been added. [Read more](../start/user-interface.md#filter-lists)
 * The **[!UICONTROL Throttling rate]** parameter has been added in the Read segment activity. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Preview and test messages**
+**Preview and test**
 
 * Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../design/preview.md#preview-your-messages)
 * The number of test emails for proofs is now restricted to 10.

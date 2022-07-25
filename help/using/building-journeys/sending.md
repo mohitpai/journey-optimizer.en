@@ -28,13 +28,9 @@ Once published, you can monitor your journey using the dedicated reporting tools
 
 ## Send messages {#send-messages}
 
-When your message has a content defined and is published, it is ready to be sent through a [journey](journey.md).
+When your message has a content defined, it is ready to be sent through a [journey](journey.md).
 
->[!NOTE]
->
->You can add a message that is still in draft mode to a journey, but make sure the message is published before publishing the journey.
-
-Once a message is sent, you can monitor its execution through multiple indicators. [Learn more about monitoring message execution](../message-monitoring.md).
+Once a message is sent, you can monitor its execution through multiple indicators. [Learn more about Reporting](../global-report.md).
 
 ## Schedule messages {#schedule-messages}
 

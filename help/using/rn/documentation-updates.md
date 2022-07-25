@@ -133,7 +133,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/about-custom-action-configuration.md#url-configuration)
 * Added a section about accessibility features and shortcuts. [Read more](../start/user-interface.md#accessibility)
 * Added a section about segment evaluation methods. [Read more](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/email-global-report.md)
+* Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/global-report.md)
 * Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../configuration/allow-list.md#reporting)
 * Updated the Enable the allow list section. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/message-presets.md#monitor-message-presets)

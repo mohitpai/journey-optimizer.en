@@ -69,7 +69,7 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Manage App Configurations]**
     * **[!UICONTROL Manage Properties]**
 
-    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification surfaces in **Adobe Journey Optimizer**.
+    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification channel surfaces (i.e. message presets) in **Adobe Journey Optimizer**.
 
     ![](assets/push_product_5.png)
 
@@ -119,7 +119,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. From [!DNL Adobe Experience Platform Data Collection], select the **[!UICONTROL App Surfaces]** tab in the left-hand panel.
 
-1. Click **[!UICONTROL Create App Surfaces]** to create a new configuration.
+1. Click **[!UICONTROL Create App Surface]** to create a new configuration.
 
     ![](assets/add-app-config.png)
 
@@ -325,9 +325,9 @@ Your event is now created and can now be used in a journey.
 
     ![](assets/test_push_11.png)
 
-1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Message]** activity to your journey.
+1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Push]** activity to your journey.
 
-1. Select a previously created message. For more information on how to create push notifications, refer to this [page](../messages/get-started-content.md).
+1. Configure the push notification. For more information on how to create push notifications, refer to this [page](../messages/get-started-content.md).
 
 1. Click the **[!UICONTROL Test]** toggle to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
 
@@ -341,13 +341,13 @@ Your event is now created and can now be used in a journey.
 
 Your event will be triggered and you will receive your push notification to your mobile app.
 
-## Step 4: Create a message surface for push{#message-preset}
+## Step 4: Create a channel surface for push{#message-preset}
 
-Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a message surface to be able to send push notifications from **[!DNL Journey Optimizer]**.
+Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a surface to be able to send push notifications from **[!DNL Journey Optimizer]**.
 
-Learn how to create and configure a message surface in [this section](../configuration/message-presets.md).
+Learn how to create and configure a channel surface in [this section](../configuration/message-presets.md).
 
 You are now ready to send push notifications with Journey Optimizer.
 
 * Learn how to create a push message in [this page](../messages/create-push.md).
-* Learn how to send add a message in a journey in [this section](../building-journeys/journeys-message.md).
+* Learn how to add a message to a journey in [this section](../building-journeys/journeys-message.md).

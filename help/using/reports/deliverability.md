@@ -49,8 +49,6 @@ The **[!UICONTROL Executions]** tab of the message list allows you to check how 
 * The number of messages that are successfully executed, sent and delivered.
 * The number of messages that have been opened and the number of messages/links that have been clicked.
 
-[Learn more about monitoring message execution](message-monitoring.md).
-
 ## Adapt message content {#adapt-message-content}
 
 To a lesser degree, the content of certain messages may be detected as spam.

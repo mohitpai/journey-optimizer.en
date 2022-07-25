@@ -41,7 +41,11 @@ For example, let's say you organize an event next month and you want to launch a
 
 1. [Publish](create-lp.md#publish) the landing page.
 
-1. [Create an email message](../messages/get-started-content.md) to announce that registration is now open for your event.
+1. In a [journey](../building-journeys/journey.md), add an **Email** activity to drive traffic to the registration landing page.
+
+    ![](assets/lp_subscription-uc-journey.png)
+
+1. [Design the email](../messages/get-started-content.md) to announce that registration is now open for your event.
 
 1. [Insert a link](../design/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the [landing page](create-lp.md#configure-primary-page) that you created for registration.
 
@@ -49,12 +53,7 @@ For example, let's say you organize an event next month and you want to launch a
 
     >[!NOTE]
     >
-    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
-
-
-1. Send your message through a [journey](../building-journeys/journey.md) to drive traffic to the registration landing page.
-
-    ![](assets/lp_subscription-uc-journey.png)
+    >To be able to send your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
     Once they receive the email, if your recipients click the link to the landing page, they will be directed to the 'thank you' page and they will be added to the subscription list.
 
@@ -72,7 +71,7 @@ Additionally, you can send a confirmation email to the recipients who registered
 
     ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Select the confirmation email of your choice and send it through the journey.
+1. Add a confirmation email of your choice and send it through the journey.
 
     ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -121,7 +120,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     ![](assets/lp_opt-out-publish.png)
 
-1. [Create an email message](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [Create an email message](../messages/get-started-content.md) in a journey.
 
 1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
 
@@ -133,7 +132,7 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
     >[!NOTE]
     >
-    >To be able to publish your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
+    >To be able to send your message, make sure the landing page you select is not expired yet. Learn how to update the expiry date [in this section](create-lp.md#configure-primary-page).
 
 1. Publish and run the journey. [Learn more](../building-journeys/journey.md).
 

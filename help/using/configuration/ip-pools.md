@@ -1,6 +1,6 @@
 ---
 title: Create IP pools
-description: "Learn how to manage ip-pools"
+description: Learn how to manage IP pools
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -26,7 +26,7 @@ For example, one best practice is to have one IP pool for your marketing message
 
 To create an IP pool, follow these steps:
 
-1. Access the **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** menu, then click **[!UICONTROL Create IP Pool]**.
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** menu, then click **[!UICONTROL Create IP Pool]**.
 
     ![](assets/ip-pool-create.png)
 
@@ -44,7 +44,7 @@ To create an IP pool, follow these steps:
     >
     >All the IP addresses provisioned with your instance are available in the list.
     
-The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message surface. For more on how to associate a message surface with an IP pool, refer to [this section](message-presets.md).
+The IP pool is now created and displays in the list. You can select it to access its properties and display the associated channel surface (i.e. message preset). For more on how to associate a channel surface with an IP pool, refer to [this section](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -58,6 +58,10 @@ To edit an IP pool:
 
 1. Edit its properties as desired. You can modify the description, and add or remove IP addresses.
 
+    >[!NOTE]
+    >
+    >The IP pool name is not editable. If you want to modify it, you need to delete the IP pool and create another one with the name of your choice.
+
     ![](assets/ip-pool-edit.png)
 
     >[!CAUTION]
@@ -66,18 +70,14 @@ To edit an IP pool:
 
 1. Save your changes.
 
->[!NOTE]
->
->The IP pool name is not editable. If you want to modify it, you need to delete the IP pool and create another one with the name of your choice.
+The update is effective immediately or asynchronously, depending on the IP pool being associated to a [channel surface](message-presets.md) or not:
 
-The update is effective immediately or asynchronously, depending on the IP pool being associated to a [message surface](message-presets.md) or not:
-
-* If the IP pool is **not** associated with any message surface, the update is instantaneous (**[!UICONTROL Success]** status).
-* If the IP pool **is** associated with a message surface, the update can take up to 3 hours (**[!UICONTROL Processing]** status).
+* If the IP pool is **not** associated with any channel surface, the update is instantaneous (**[!UICONTROL Success]** status).
+* If the IP pool **is** associated with a channel surface, the update can take up to 3 hours (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >
->When [creating a message surface](message-presets.md#create-message-preset), if you select an IP pool which is under edition (**[!UICONTROL Processing]** status) and has never been associated with the subdomain selected for that surface, you cannot proceed with surface creation. [Learn more](message-presets.md#subdomains-and-ip-pools)
+>When [creating a channel surface](message-presets.md#create-message-preset), if you select an IP pool which is under edition (**[!UICONTROL Processing]** status) and has never been associated with the subdomain selected for that surface, you cannot proceed with surface creation. [Learn more](message-presets.md#subdomains-and-ip-pools)
 
 To check the IP pool update status, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**.
 
@@ -89,5 +89,5 @@ To check the IP pool update status, click the **[!UICONTROL More actions]** butt
 >* a few minutes before it is consumed by the unitary messages,
 >* until the next batch for the IP pool to be effective in batch messages.
 
-You can also use the **[!UICONTROL Delete]** button to delete an IP pool. Note that you cannot delete an IP pool that has been associated to a message surface.
+You can also use the **[!UICONTROL Delete]** button to delete an IP pool. Note that you cannot delete an IP pool that has been associated to a channel surface.
 

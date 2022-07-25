@@ -6,15 +6,11 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 ---
 # Get started for Marketers {#get-started-marketers}
 
-As a **Marketer** or a **Journey Practicionner**, you are responsible for creating messages, offers and journeys. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) and the [Data Engineer](data-engineer.md) granted you access and prepared your environment.
+As a **Marketer** or a **Journey Practicionner**, you are responsible for creating offers and journeys and designing content. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) and the [Data Engineer](data-engineer.md) granted you access and prepared your environment.
 
 Refer to the following sections to set up your first journey, add offers and assets, and send messages:
 
 1. **Create segments**. Journey Optimizer allows you to create audience segments directly from the **Segments** menu, and leverage them into your journeys.  Learn more about segments [in this page](../../segment/about-segments.md). Discover how to build segments [in this sample](../../segment/creating-a-segment.md).
-
-1. **Create messages**. Learn how to create email and push notifications in Journey Optimizer [in this page](../../messages/get-started-content.md).
-
-    ![](../assets/email_designer_7.png)
 
 1. **Add personalization**. Leverage Journey Optimizer personalization capabilities to adapt your message to your audience. Learn more about personalization [in this section](../../personalization/personalize.md).
 
@@ -26,15 +22,15 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     ![](../assets/offers-e2e-offers-displayed.png)
     
-1. **Test and validate your messages**. Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../design/preview.md).
+1. **Test and validate**. Once your content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../design/preview.md).
 
 1. **Design customer journeys** to deliver personalized, contextual experiences. [!DNL Journey Optimizer] allow you to build real-time orchestration use cases leveraging contextual data stored in events or data sources. Design multistep advanced scenarios powered by following capabilities:
 
-    * Send real-time **unitary messages** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
+    * Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
 
     * Leverage **contextual data** from events, information from Adobe Experience Platform, or data from third-party API services.
 
-    * Use the **built-in action** to send messages designed in [!DNL Journey Optimizer] or create **custom actions** if you're using a third-party system to send your messages.
+    * Use the **built-in channel actions** (Email, SMS, Push) to send messages designed in [!DNL Journey Optimizer] or create **custom actions** if you're using a third-party system to send your messages.
 
     * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
 
@@ -42,4 +38,4 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     Learn how to design and execute journeys [in this section](../../building-journeys/journey-gs.md)
 
-1. **Monitor messages and journeys**. To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. Learn how to monitor performances [in this section](../../reports/message-monitoring.md).
+1. **Monitor messages and journeys**. To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. Learn how to monitor performances [in this section](../../reports/global-report.md).

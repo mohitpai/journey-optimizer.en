@@ -23,7 +23,7 @@ The data source configuration allows you to define a connection to a system to r
 
 ➡️ [Discover this feature in video](#video)
 
-This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by a message activity that only uses data from the event, there is no need to configure a data source.
+This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by a channel action activity that only uses data from the event, there is no need to configure a data source.
 
 There are two types of data sources:
 

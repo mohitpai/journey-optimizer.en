@@ -25,7 +25,7 @@ You can also delete, duplicate, and unpublish a landing page.
 
 >[!CAUTION]
 >
->If you unpublish a landing page which is referenced in an unpublished message, the message cannot be published until the landing page is published again. If the message is already published, the link to the landing page will be broken and an error page will be displayed.
+>If you unpublish a landing page which is referenced in an unpublished message, the link to the landing page will be broken and an error page will be displayed.
 
 Click the three dots next to a landing page to select the desired action.
 

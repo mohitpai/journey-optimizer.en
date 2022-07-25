@@ -73,7 +73,7 @@ The errors related to offers integration in an Email or Push message have the fo
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-The validation is performed during the message publication or during personalization content validation in the Expression editor.
+The validation is performed during personalization content validation in the Expression editor.
 
 <table> 
  <thead> 

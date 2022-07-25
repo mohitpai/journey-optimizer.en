@@ -281,10 +281,7 @@ There will be no data loss and no impact on live journeys. You will be in contro
 
 ### Will there be loss of functionality?{#functionality}
 
-There will be a change in the way you author message. There will be no loss of functionality. Be aware that after July 25 (Inline authoring feature release), limitations will apply to actions that can be performed on journeys using **Message** activities:
-
-* You will not be able to copy/paste any **Message** activity. However, you will be able to copy/paste the new channel action activities.
-* For these journeys, you will not be able to perform the following actions: test, publish, duplicate, create a new version, close or copy to another sandbox. These limitations will apply as long as **Messages** activities are present in those journeys. You can wait for the migration process to run and update **Messages** activities to channel action activities or you can remove those **Messages** manually.
+There will be a change in the way you author message. There will be no loss of functionality.
 
 ### Will there be access to the environment during the migration process?
 
@@ -297,6 +294,12 @@ Yes, live journeys keep running.
 ### How do I know that the migration is complete?
 
 The migration is complete when the banner disappears. See this [section](../rn/inline-messages.md#inform).
+
+### How will Messages related permissions be impacted?
+
+The Inline authoring feature will impact permissions. Every Message related permission, such as [!DNL View Messages] or [!DNL Manage Messages], will be automatically included in the permissions linked to the Journeys capability.
+
+Learn more in this [page](../administration/ootb-product-profiles.md).
 
 <!--
 * Improved authoring flow and navigation

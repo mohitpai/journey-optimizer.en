@@ -9,7 +9,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] email messages, you can insert decisions that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
+In [!DNL Journey Optimizer] emails, you can insert decisions that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
 
 For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
@@ -53,11 +53,11 @@ To insert a decision into an email message, follow the steps below:
 
 The offer activity is now added to the component.
 
-After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
+After saving your changes, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
 
 >[!NOTE]
 >
->When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are automatically reflected in the corresponding message, without the need to republish it.
+>When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in message, the updates are automatically reflected in the corresponding message.
 
 ## Preview offers in an email {#preview-offers-in-email}
 

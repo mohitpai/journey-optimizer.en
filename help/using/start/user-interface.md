@@ -34,7 +34,7 @@ You can find below the full list of services and capabilities available in the l
 
 **Home**
 
-[!DNL Journey Optimizer] home page contains key links and resources to start. The **[!UICONTROL Recents]** list provides shortcuts to the recently created or updated messages, events and journeys. This list shows their creation and modification dates and status.
+[!DNL Journey Optimizer] home page contains key links and resources to start. The **[!UICONTROL Recents]** list provides shortcuts to the recently created events and journeys. This list shows their creation and modification dates and status.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
@@ -268,7 +268,7 @@ To change your language:
 
 ## Search{#unified-search}
 
-Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, messages, and more across your sandboxes. 
+Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, and more across your sandboxes. 
 
 Start entering content to display top results. Help articles about the entered keywords also show up in the results.
 

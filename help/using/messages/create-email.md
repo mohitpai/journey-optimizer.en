@@ -43,7 +43,7 @@ Control the rendering of your email, and check personalization settings with tes
 ![](assets/messages-simple-preview.png)
 
 
-You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
 
 
 >[!NOTE]

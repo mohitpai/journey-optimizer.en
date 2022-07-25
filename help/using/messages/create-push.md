@@ -51,7 +51,7 @@ You can select the behavior when a user clicks on the body of the push notificat
 
 ![](assets/title-body-push.png)
 
-* To open the app, select the **[!UICONTROL Open app]** option. The app associated with the notification is defined in the message **[!UICONTROL Preset]**. [Learn more](../configuration/message-presets.md) about message presets.
+* To open the app, select the **[!UICONTROL Open app]** option. The app associated with the notification is defined in the [channel surface](../configuration/message-presets.md) (i.e. message preset).
 * To redirect the user to a specific piece of content within an app, select the **[!UICONTROL Deeplink]** option.  The specific content can be a specific view, a particular section of a page, or a certain tab. Once the option is selected, enter the deeplink in the associated field.
 * To redirect the user to an external URL, use the **[!UICONTROL Web URL]** option. Once the option is selected, enter the URL in the associated field.
 
@@ -132,7 +132,7 @@ Once your message content has been defined, you can use test profiles to preview
 
 To visualize how your push notification displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
 
-You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from publishing the message. Learn more in [this section](alerts.md).
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
 
 ![](assets/push-alert-button.png)
 

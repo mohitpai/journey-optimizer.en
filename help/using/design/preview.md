@@ -32,7 +32,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >
 >When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](../personalization/personalization-use-case.md).
 
-➡️ [Learn how to preview, proof, and publish your email in this video](#video-preview)
+➡️ [Learn how to preview and proof your email in this video](#video-preview)
 
 ## Select test profiles{#select-test-profiles}
 
@@ -109,8 +109,7 @@ To preview a push notification content, follow the steps below:
 
 1. Select a test profile. You can check the values available in the columns. Use the right/left arrows to browse data.
 
-
-1. Switch to the **[!UICONTROL Push]** message and.
+1. Switch to the **[!UICONTROL Push]** message.
 
 1. Apply the same steps as described above to select a test profile, and select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
 
@@ -191,6 +190,6 @@ Then, follow the steps below:
 
 ## How-to video{#video-preview}
 
-Learn how to test email rendering across inboxes, how to preview your personalized emails against test profiles, send proofs, and publish your email.
+Learn how to test email rendering across inboxes, how to preview your personalized emails against test profiles and send proofs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
