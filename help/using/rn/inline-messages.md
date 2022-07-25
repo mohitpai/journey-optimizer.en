@@ -295,6 +295,12 @@ Yes, live journeys keep running.
 
 The migration is complete when the banner disappears. See this [section](../rn/inline-messages.md#inform).
 
+### How will Messages related permissions be impacted?
+
+The Inline authoring feature will impact permissions. Every Message related permission, such as [!DNL View Messages] or [!DNL Manage Messages], will be automatically included in the permissions linked to the Journeys capability.
+
+Learn more in this [page](../administration/ootb-product-profiles.md).
+
 <!--
 * Improved authoring flow and navigation
 * Personalization: improved contextual personalization flow
