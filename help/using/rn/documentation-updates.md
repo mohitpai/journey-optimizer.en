@@ -24,7 +24,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
 * The Suppression list page has been updated to clarify some information, including the fact that all ASCII characters comprised between 32 and 126 are allowed in the reason for suppression field. [Read more](../configuration/manage-suppression-list.md)
 * The link to guardrails and static limits for Decision management has been added. [Read more](../start/guardrails.md)
-* Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../building-journeys/journeys-message.md#send-time-optimization)
+* Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../messages/send-time-optimization.md)
 * The Batch Decisioning API has been added to the list of available APIs to delivery personalized offers. [Read more](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## May 2022 {#may-2022}
@@ -133,7 +133,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/about-custom-action-configuration.md#url-configuration)
 * Added a section about accessibility features and shortcuts. [Read more](../start/user-interface.md#accessibility)
 * Added a section about segment evaluation methods. [Read more](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/email-global-report.md)
+* Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/global-report.md)
 * Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../configuration/allow-list.md#reporting)
 * Updated the Enable the allow list section. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/message-presets.md#monitor-message-presets)

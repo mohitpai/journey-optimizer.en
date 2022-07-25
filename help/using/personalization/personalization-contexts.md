@@ -11,7 +11,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 
 The content and display of messages delivered by [!DNL Journey Optimizer] can be personalized in several different ways.
 
-In every fields with the editor icon, you can open the personalization editor (also known as Expression Editor) and define personalization.
+In every fields with the editor icon, you can open the personalization editor (also known as Expression editor) and define personalization.
 
 ![](assets/perso_icon.png)
 

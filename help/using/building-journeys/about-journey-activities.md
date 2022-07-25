@@ -40,7 +40,7 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 
 From the palette, on the left-hand side of the screen, below **[!UICONTROL Events]** and **[!UICONTROL Orchestration]**, you will find the **[!UICONTROL Actions]** category. The following action activities are available:
 
-* [Message](../building-journeys/journeys-message.md)
+* [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Custom actions](../building-journeys/using-custom-actions.md)
 * [Jump](../building-journeys/jump.md)
 

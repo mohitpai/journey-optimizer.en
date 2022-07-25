@@ -9,9 +9,9 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 ---
 # Journey live report {#journey-live-report}
 
-Journey live report can be accessed directly from your journey with the **[!UICONTROL Live report]** button. 
+Journey live report can be accessed directly from your journey with the **[!UICONTROL View report]** button. 
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 The journey **[!UICONTROL Live report]** page will be displayed with the following tabs:
 
@@ -38,8 +38,6 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Failed individual journeys]**: Total number of individual journeys that were not successfully executed.
 
-![](assets/report_journey_3.png)
-
 The **[!UICONTROL Event executed over the last 24 hours]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
 
 ![](assets/report_journey_4.png)
@@ -53,8 +51,6 @@ The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Ac
 ## Email tab {#email-live}
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
-
-For a detailed report on a specific email delivery, refer to the [Email live report](email-live-report.md) section.
 
 ![](assets/report_email_1.png)
 
@@ -117,8 +113,6 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 ## Push tab {#push-live}
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
-
-For a detailed report on a specific push delivery, refer to the [Push live report](push-live-report.md) section.
 
 ![](assets/report_push_1.png)
 

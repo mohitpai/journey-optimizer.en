@@ -81,4 +81,3 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_13.png)
 
-Once your message has been created and personalized, you can publish it to make it available for execution. [Learn more](../messages/publish-manage-message.md)

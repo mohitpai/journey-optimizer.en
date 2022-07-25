@@ -42,10 +42,6 @@ Performance guardrails and static limits for Decision management are listed in t
 * There's a technical limitation in journeys today that prevent a profile to be present multiple times in the same journey, at the same time. A profile can still reenter a journey (based on a setting), but cannot do it until he fully exited that previous instance of the journey.
 * In most cases, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](../building-journeys/journey-end.md)
 
-### Message action {#message-action-g}
-
-* When you add a multichannel message, two messages will be sent.
-
 ### Journey versions {#journey-versions-g}
 
 * A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 

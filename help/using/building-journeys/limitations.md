@@ -18,10 +18,6 @@ Here are limitations related to the use of journeys.
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see this [page](../building-journeys/reaction-events.md)). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
 * You cannot place two actions in parallel, you must add them one after the other.
 
-## Message action limitations
-
-* When you add a multichannel message, two messages will be sent.
-
 ## Journey versions limitations {#journey-versions-limitations}
 
 * A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 

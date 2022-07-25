@@ -1,6 +1,6 @@
 ---
 title: Use BCC email
-description: Learn how to configure BCC email at the message preset level
+description: Learn how to configure BCC email at the channel surface level
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -18,23 +18,23 @@ You can send an identical copy (or blind carbon copy) of an email sent by [!DNL 
 
 ## Enable BCC email {#enable-bcc}
 
-To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field. You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
+To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field of the [channel surface](message-presets.md) (i.e. message preset). You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
 
 >[!NOTE]
 >
->You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current preset.
+>You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current channel surface.
 >
 >More recommendations are listed in [this section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-All email messages using this preset will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
+All email messages using this surface will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
 
 >[!CAUTION]
 >
->Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the presets used for critical communications that you wish to archive. Check your contract for licensed volumes.
+>Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
-The BCC email address setting is immediately saved and processed at the preset level. When you [create a new message](../messages/get-started-content.md#create-new-message) using this preset, the BCC email address is automatically displayed.
+The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md#create-new-message) using this surface, the BCC email address is automatically displayed.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -46,7 +46,7 @@ However, the BCC address gets picked up for sending communications following the
 
 >[!NOTE]
 >
->You do not need to republish a message or journey for the BCC setting to be picked up.
+>You do not need to republish your journey for the BCC setting to be picked up.
 
 ## Recommendations and limitations {#bcc-recommendations-limitations}
 
@@ -60,7 +60,7 @@ However, the BCC address gets picked up for sending communications following the
 
     <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/message-monitoring.md). 
+* Do not open or click through the emails sent to the BCC address as it is taken into account in the total opens and clicks from the send analysis, which could cause some miscalculations in [reports](../reports/global-report.md). 
 
 * Do not mark messages as spam in the BCC inbox, as it will impact all the other emails sent to this address.
 

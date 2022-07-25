@@ -45,8 +45,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](../reports/email-global-report.md) section.
-
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
@@ -117,7 +115,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -133,8 +131,6 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 ## Push tab {#push-global}
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
-
-For a detailed report on a specific push delivery, refer to this the [Push Global report](../reports/push-global-report.md).
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
@@ -182,7 +178,7 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 

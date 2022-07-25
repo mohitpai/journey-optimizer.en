@@ -27,7 +27,7 @@ To create an API-triggered campaign, follow these steps:
 
 1. Create a new campaign with the **[!UICONTROL API-triggered]** type.
 
-1. Choose the channel and the message surface to use to send your message, then click **[!UICONTROL Create]**.
+1. Choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
     ![](assets/api-triggered-type.png)
 
@@ -61,7 +61,7 @@ Let's take this example, where customers want to reset their password, and you w
 >
 >Unlike profile-enabled events, the contextual data passed in the REST API is used for one-off communication and not stored against profile. At maximum, profile is created with the namespace details, if it was found missing.
 
-In order to use these data in your campaigns, you need to pass them into the API payload, and add them in your message using the Expression Editor. To do this, use the `{{context.<contextualAttribute>}}` syntax, where `<contextualAttribute>` should match the name of the variable in your API payload containing the data that you want to pass.
+In order to use these data in your campaigns, you need to pass them into the API payload, and add them in your message using the Expression editor. To do this, use the `{{context.<contextualAttribute>}}` syntax, where `<contextualAttribute>` should match the name of the variable in your API payload containing the data that you want to pass.
 
 The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype only.
 

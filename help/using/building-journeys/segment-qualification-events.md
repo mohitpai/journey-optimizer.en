@@ -93,7 +93,7 @@ For more information on streaming segmentation, refer to [Adobe Experience Platf
 
 ### How to avoid overloads{#overloads-speed-segment-qualification}
 
-Here are a few best practices that will help to avoid overloading systems leveraged in journeys (data sources, custom actions, **Message** activities).
+Here are a few best practices that will help to avoid overloading systems leveraged in journeys (data sources, custom actions, channel action activities).
 
 Do not use, in a **[!UICONTROL Segment Qualification]** activity, a batch segment immediately after its creation. It will avoid the first calculation peak. Note that there will be a yellow warning in the journey canvas if you're about to use a segment that has never been calculated.
 

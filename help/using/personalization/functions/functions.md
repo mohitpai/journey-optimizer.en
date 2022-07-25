@@ -13,11 +13,11 @@ Use [!DNL Journey Optimizer] templating language to perform operations on data, 
 
 ➡️ [Learn how to use helper functions in this video](#video)
 
-Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
+Templating language is leveraged in helper functions available in personalization drop-down list of the Expression editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
-In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+In the [!DNL Journey Optimizer] Expression editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
 Select a category, to access sub-categories and functions.
 

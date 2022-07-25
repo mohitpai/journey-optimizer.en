@@ -47,7 +47,7 @@ The **retry time period** is the timeframe in which any email message of the del
 
 By default, retries will be performed for **3.5 days** (or **84 hours**) from the time the message was added to the email queue.
 
-However, to ensure that retry attempts are not performed anymore when no longer needed, you can change this setting according to your needs when creating or editing a [message preset](message-presets.md) applying to the email channel.
+However, to ensure that retry attempts are not performed anymore when no longer needed, you can change this setting according to your needs when creating or editing a [channel surface](message-presets.md) (i.e. message preset) applying to the email channel.
 
 For example, you may set the retry period to 24 hours for a transactional email relating to password reset and containing a link valid for only a day. Similarly, for a midnight sale, you may want to define a retry period of 6 hours.
 
@@ -55,5 +55,5 @@ For example, you may set the retry period to 24 hours for a transactional email 
 >
 >The retry period cannot exceed 84 hours. The minimum retry period is 6 hours for marketing emails and 10 minutes for transactional emails.
 
-Learn how to adjust the email retry parameters when creating a message preset in [this section](message-presets.md#create-message-preset).
+Learn how to adjust the email retry parameters when creating a channel surface in [this section](message-presets.md#create-message-preset).
 

@@ -22,7 +22,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records {#access-ptr-records}
 
-Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](assets/ptr-records.png)
 
@@ -79,7 +79,7 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
     >[!NOTE]
     >
     >If you get this message: "Please create forward DNS first and then try again", follow the steps below:
-    >   * Check on the DNS provider if the forward DNS record was successfully created. 
+    >   * Check on the DNS provider if the forward DNS record was successfully created.
     >   * Records across the DNS may not synchronize immediately. Wait for a few minutes, and try again.
 
 1. Click **[!UICONTROL Save]** to confirm your changes.

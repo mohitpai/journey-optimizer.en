@@ -118,88 +118,6 @@ It includes the following low-level permissions:
   * queries.write
   * queries.delete
 
-## Message capability {#message-capability}
-
-### [!DNL Manage messages] permission {#manage-messages}
-
-The **[!DNL Manage messages]** high-level permission allows users to create and edit/delete message.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific: 
-  *  messages.write
-  * messages.read
-  * messages.delete
-  * messages_presets.read
-
-* Adobe Experience Platform specific:
-  * segments.read
-  * schemas.read 
-
-### [!DNL Manage messages preview and test] permission {#mange-messages-preview}
-
-The **[!DNL Manage messages preview and test]** high-level permission allows users to preview personalized message.
-
-It includes the following low-level permissions: 
-
-* Journey Optimizer specific: 
-  * messages.publish
-  * messages_preview_and_test.write
-  * messages.publish
-
-* Adobe Experience Platform specific:
-  * profiles.read
-  * profiles.write
-  * schemas.read
-  * datasets.write
-  * datasets.read
-  * identity_namespace.read
-  * segments.read
-  * queries.write
-  * merge_policies.read
-
-### [!DNL Publish messages] permission {#publish-messages}
-
-The **[!DNL Publish messages]** high-level permission allows users to publish messages.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific: 
-  * messages.publish
-
-* Adobe Experience Platform specific:
-  * profiles.read
-  * schemas.read
-  * datasets.read
-
-### [!DNL View messages] permission {#view-messages}
-
-The **[!DNL View messages]** high-level permission allows users to read messages only.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific: 
-  * messages.read
-  * messages_presets.read
-
-* Adobe Experience Platform specific:
-  * schemas.read 
-  * segments.read
-
-### [!DNL View messages report] permission {#view-message-reports}
-
-The **[!DNL View messages report]** high-level permission allows users to to read-only email and push report.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific:
-  * messages_report.read
-  * datasets.read
-  * queries.read
-  * queries.write
-  * queries.delete
-  * journey.read
-
 ## Decision management capability {#decisions-permissions}
 
 ### [!DNL Manage decisions] permission {#manage-decisioning}
@@ -324,6 +242,7 @@ It includes the following low-level permissions:
 * IP_pools.write
 * IP_pools.delete
 
+<!--
 ### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
 The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
@@ -347,10 +266,10 @@ It includes the following low-level permissions:
   * messages_general_settings.read
 * Adobe Experience Platform specific: 
   * schemas.read
+-->
+### [!DNL Manage channel surface] permission {#manage-channel-surface}
 
-### [!DNL Manage messages presets] permission {#manage-message-presets}
-
-The **[!DNL Manage messages presets]** high-level permission allows users to create, edit and delete message presets across channels at the sandbox level.
+The **[!DNL Manage channel surface]** high-level permission allows users to create, edit and delete channel surfaces across channels at the sandbox level.
 
 It includes the following low-level permissions: 
 
@@ -362,9 +281,9 @@ It includes the following low-level permissions:
   * IP_pools.read
   * mobile_setting.read (from Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] permission {#view-message-presets}
+### [!DNL View channel surface] permission {#view-channel-surface}
 
-The **[!DNL View messages presets]** high-level permission allows users to view message presets in order to know which messages presets to use when creating a message. 
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
 
 It includes the following low-level permissions: 
 

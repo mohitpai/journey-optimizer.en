@@ -56,11 +56,11 @@ The **[!UICONTROL Top Actions]** table contains the data available for **[!UICON
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](#email-global-report) section.
-
 ![](assets/global_report_14.png)
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -82,7 +82,7 @@ The **[!UICONTROL Email - Tracking statistics]** contains the available data for
 
 * **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
 
-* **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
+* **[!UICONTROL Unique Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
@@ -130,7 +130,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -173,11 +173,11 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
 
-For a detailed report on a specific push delivery, refer to this the [Push Global report](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
+
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -221,7 +221,7 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 

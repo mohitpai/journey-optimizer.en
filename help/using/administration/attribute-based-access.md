@@ -68,7 +68,7 @@ By applying a **[!UICONTROL Label]** to your **[!UICONTROL Field name]**, note t
 **[!UICONTROL Roles]** are a set of users that share the same permissions, labels and sandboxes within your organization. Each user belonging to a **[!UICONTROL Role]** is entitled with the Adobe apps and services contained in the product.
 You can also create your own **[!UICONTROL Roles]** if you want to fine-tune your users’ access to certain functionalities or objects in the interface.
 
-We now want to grant selected users access to the **Nationality** field, labeled C2. To do so, we need to create a new **[!UICONTROL Role]** with a specific set of users and grant them the label C2 allowing them to use the **Nationality** details in a **[!UICONTROL Message]** or **[!UICONTROL Journey]**.
+We now want to grant selected users access to the **Nationality** field, labeled C2. To do so, we need to create a new **[!UICONTROL Role]** with a specific set of users and grant them the label C2 allowing them to use the **Nationality** details in a **[!UICONTROL Journey]**.
 
 1. From the [!DNL Permissions] product, select **[!UICONTROL Role]** from the left pane menu and click **[!UICONTROL Create role]**. Note that you can also add **[!UICONTROL Label]** to built-in roles.
 

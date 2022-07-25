@@ -41,10 +41,9 @@ solution: Journey Optimizer
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
-  + Validate and publish {#validate}
-    + [Check alerts](using/messages/alerts.md)
-    + [Publish messages](using/messages/publish-manage-message.md)
+  + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
+  + [Send time optimization](using/messages/send-time-optimization.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
@@ -81,8 +80,8 @@ solution: Journey Optimizer
   + [Personalization contexts](using/personalization/personalization-contexts.md)
   + Build expressions {#build-expressions}
     + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression Editor {#expression-editor}
-      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+    + Work with the Expression editor {#expression-editor}
+      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
       + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
       + [Work with saved expressions](using/personalization/personalization-library.md)  
       + [Personalization validation](using/personalization/personalization-validation.md)
@@ -132,7 +131,7 @@ solution: Journey Optimizer
     + [End](using/building-journeys/end-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
-    + [Message](using/building-journeys/journeys-message.md)
+    + [Email, SMS, Push](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
@@ -232,19 +231,14 @@ solution: Journey Optimizer
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
-  + [Message monitoring](using/reports/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
-    + [Email Live report](using/reports/email-live-report.md)
-    + [Push Live report](using/reports/push-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
     + [Access Global report dashboard](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
-    + [Email Global report](using/reports/email-global-report.md)
-    + [Push Global report](using/reports/push-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}
@@ -379,8 +373,8 @@ solution: Journey Optimizer
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
-    + Set up message presets {#set-up-message-presets}
-      + [Create message presets](using/configuration/message-presets.md)
+    + Set up channel surfaces {#set-up-message-presets}
+      + [Create channel surfaces](using/configuration/message-presets.md)
       + [Configure email settings](using/configuration/email-settings.md)
       + [Use BCC email](using/configuration/bcc-email.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)

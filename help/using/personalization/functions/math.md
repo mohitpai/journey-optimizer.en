@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Math Functions {#math}
 
-Learn how to use Math functions in the Expression Editor.
+Learn how to use Math functions in the Expression editor.
 
 ## Absolute {#absolute}
 

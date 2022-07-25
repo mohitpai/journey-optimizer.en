@@ -11,6 +11,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
+>[!CAUTION]
+>
+>On July 25, Adobe Journey Optimizer is releasing a [new feature](../rn/inline-messages.md) which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now [create and author](../messages/get-started-content.md) your messages directly from a journey. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the [required steps](../rn/inline-messages-steps.md).
+
 ## June 2022 Release {#june-2022-release}
 
 ### New capabilities 
@@ -111,7 +115,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -147,7 +151,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **IP pool edition** - Now when updating an IP pool, the processing time can only take up to 3 hours. [Learn more](../configuration/ip-pools.md#edit-ip-pool)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
 <!--
 **Reporting**

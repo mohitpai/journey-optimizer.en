@@ -68,10 +68,10 @@ To create a landing page preset, follow the steps below.
     ![](assets/lp-preset-active-temp.png)
 
 You are now ready to [create landing pages](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Learn how to create message presets for push notifications and emails in [this section](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Related topics**:
 
