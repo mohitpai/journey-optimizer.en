@@ -25,7 +25,7 @@ Steps to create an identity namespace and a dataset enabled for profiles, and te
 
 1. **Configure sources connectors**. Adobe Journey Optimzer allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others. Learn more about Source connectors [in this page](../get-started-sources.md).
 
-1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../design/preview.md) before sending. Discover steps to create test profiles [in this page](../../segment/creating-test-profiles.md).
+1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../design/preview.md) before sending. Steps to create test profiles are detailed [in this page](../../segment/creating-test-profiles.md).
 
 
 In addition, to be able send messages in journeys, you must configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. Learn more [in this section](../../configuration/about-data-sources-events-actions.md).
@@ -36,4 +36,4 @@ In addition, to be able send messages in journeys, you must configure **[!UICONT
 
 * **Events** allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey. In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). Learn more about events [in this section](../../event/about-events.md).
     
-* [!DNL Journey Optimizer] comes with built-in message capabilities: you can create your messages within a journey and design your content. If you are using a third-party system to send your messages, for example Adobe Campaign, create a **custom action**. Learn more about actions in this [in this section](../../action/action.md).
+* [!DNL Journey Optimizer] comes with [built-in message capabilities](../../messages/get-started-content.md): you can create your messages within a journey and design your content. If you are using a third-party system to send your messages, for example Adobe Campaign, create a **custom action**. Learn more about actions in this [in this section](../../action/action.md).
