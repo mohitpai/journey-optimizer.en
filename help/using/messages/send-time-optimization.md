@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 ---
 ## Send-Time Optimization{#send-time-optimization}
 
