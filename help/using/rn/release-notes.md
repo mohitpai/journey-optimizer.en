@@ -59,13 +59,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now run batch decisioning jobs from the user interface, so that I do not need a developer to run batch api jobs and I can reduce the time needed for marketing. This new interface allows you to create jobs and manage current/past jobs.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>For more information, refer to the <a href="../offers/batch-delivery.md">detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
 <th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
@@ -81,7 +82,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### Improvements
 

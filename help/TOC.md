@@ -286,6 +286,7 @@ solution: Journey Optimizer
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
     + [Create simulations](using/offers/offer-activities/simulation.md)
+  + [Batch decisioning](using/offers/batch-delivery.md)
   + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
