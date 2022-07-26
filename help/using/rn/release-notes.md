@@ -24,8 +24,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer provides a new flow for message authoring in Journeys. In-line messaging will save users significant time and streamline the workflow process to create and deliver an email, a push notification or an sms in Journey Optimizer.  By removing Messages as a separate step and instead making them editable in-line as part of an action on the Journey Canvas, users will need to click fewer buttons and navigate fewer screens to design and edit their content. Save as template and use template flows are here now to solve for content reusability scenarios.</p>
-<p>For more information, refer to the <a href="inline-messages.md">detailed documentation</a>.</p>
+<p>Journey Optimizer provides a new flow for message authoring in Journeys. In-line messaging will save users significant time and streamline the workflow process to create and deliver an email, a push notification or an SMS in Journey Optimizer. By removing Messages as a separate step and instead making them editable in-line as part of an action on the Journey Canvas, users will need to click fewer buttons and navigate fewer screens to design and edit their content.</p>
+<p>For more information, refer to the <a href="../messages/get-started-content.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -41,9 +41,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now identify schema fields with labels that define organizational or data usage scopes. Administrators can use the Permeissions interface to define access policies covering XDM schema fields and better manage the access given to users or groups of users (internal, external, or third-party users), and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>You can now identify schema fields with labels that define organizational or data usage scopes. Administrators can use the Permissions interface to define access policies covering XDM schema fields and better manage the access given to users or groups of users (internal, external, or third-party users), and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
 <p>The use of Attribute-based access control is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
-<p>For more information, refer to the <a href="inline-messages.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
@@ -82,7 +83,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ### Improvements
 
