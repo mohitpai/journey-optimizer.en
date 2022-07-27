@@ -375,7 +375,7 @@ solution: Journey Optimizer
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up channel surfaces {#set-up-message-presets}
-      + [Create channel surfaces](using/configuration/message-presets.md)
+      + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
       + [Use BCC email](using/configuration/bcc-email.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)

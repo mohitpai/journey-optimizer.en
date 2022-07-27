@@ -113,7 +113,7 @@ Migration occurs for each region at night-time, through several iterations. Here
 
 Why do we need multiple iterations?
 
-During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live or closed (meaning there can still be profiles in it). In these cases, we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
+During an iteration, we go through each journey and migrate them when possible. There are cases where we don't want to migrate automatically: when the journey is live (meaning there can still be profiles in it). In these cases, we ask you to perform an action and then the next iteration will migrate these journeys that couldn't be migrated in previous iteration.
 
 ## FAQ {#faq}
 

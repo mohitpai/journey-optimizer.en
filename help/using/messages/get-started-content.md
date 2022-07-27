@@ -67,7 +67,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 
 1. Select the channel **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
-   A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/message-presets.md).
+   A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -98,7 +98,7 @@ To access advanced parameters, click the **[!UICONTROL Show read-only fields]** 
 
 ![](assets/show-read-only.png)
 
-Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/message-presets.md) (i.e. message preset) associated with the message.
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/channel-surfaces.md) (i.e. message preset) associated with the message.
 
 For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
 

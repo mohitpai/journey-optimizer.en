@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
-# Set up channel surfaces {#message-presets-creation}
+# Set up channel surfaces {#set-up-channel-surfaces}
 
 With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, and more. 
 
@@ -19,14 +19,16 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 
 Once channel surfaces have been configured, you will be able to select them when creating messages from a journey.
 
+<!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
+-->
 
-## Create a channel surface {#create-message-preset}
+## Create a channel surface {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Channel surface details and settings"
->abstract="By setting up a channel surface, you can select the channel it applies to, and define all the technical parameters required for your deliveries, such as email type, subdomain to be used, sender name, mobile apps, etc."
+>title="Channel surface settings"
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as message type, subdomain, sender name, mobile apps, and more."
 
 To create a channel surface, follow these steps:
 
@@ -46,7 +48,7 @@ To create a channel surface, follow these steps:
 
     ![](assets/preset-email.png)
 
-1. If you selected the **[!UICONTROL Push Notification]** channel, select at least one platform (**iOS** and/or **Android**), and select the mobile applications to use for each platform.
+1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
 
     ![](assets/preset-push.png)
         
@@ -54,7 +56,7 @@ To create a channel surface, follow these steps:
     >
     >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
 
-1. If you selected the **[!UICONTROL SMS]** channel, configure your settings as described in [this section](sms-configuration.md#message-preset-sms).
+1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
 
     ![](assets/preset-sms.png)
 
@@ -68,7 +70,7 @@ To create a channel surface, follow these steps:
 
     >[!NOTE]
     >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
+    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
     >
     >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
     
@@ -88,13 +90,13 @@ To create a channel surface, follow these steps:
 
     >[!NOTE]
     >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  
+    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
 
 1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     ![](assets/preset-active.png)
 
-## Monitor channel surfaces {#monitor-message-presets}
+## Monitor channel surfaces {#monitor-channel-surfaces}
 
 All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
 
@@ -124,7 +126,7 @@ If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
     * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
 
-## Edit a channel surface {#edit-message-preset}
+## Edit a channel surface {#edit-channel-surface}
 
 To edit a channel surface, follow the steps below.
 
@@ -150,7 +152,7 @@ To edit a channel surface, follow the steps below.
     >
     >You can also save the channel surface as draft and resume update later on.
 
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-message-preset). The edition processing time can take up to **3 hours**.
+Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
 
 >[!NOTE]
 >
@@ -180,7 +182,7 @@ A channel surface update can have the following statuses:
 
 Each status is detailed below.
 
-#### Processing
+#### Processing {#surface-processing}
 
 Several deliverability checks will be performed to verify that the surface has been updated properly.
 
@@ -188,7 +190,7 @@ Several deliverability checks will be performed to verify that the surface has b
 >
 >If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
 
-The processing time can take up to **3 hours**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
+The processing time can take up to **3 hours**. Learn more on the checks performed during the validation cycle in [this section](#create-channel-surface).
 
 If you edit a surface that was already active:
 
@@ -212,17 +214,17 @@ Once the validation process is successful, the new version of the surface is aut
 
 If the validation process fails, the older version of the surface will still be used.
 
-Learn more on the possible failure reasons in [this section](#monitor-message-presets).
+Learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).
 
 Upon update failing, the surface becomes editable again. You can click its name and update the settings that need to be fixed.
 
-## Deactivate a channel surface {#deactivate-preset}
+## Deactivate a channel surface {#deactivate-a-surface}
 
 To make an **[!UICONTROL Active]** channel surface unavailable to create new messages, you can deactivate it. However, journeys' messages currently using this surface will not be affected and will continue working.
 
 >[!NOTE]
 >
->You cannot deactivate a channel surface while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing channel surfaces](#edit-message-preset) and on the [update statuses](#update-statuses).
+>You cannot deactivate a channel surface while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing channel surfaces](#edit-channel-surface) and on the [update statuses](#update-statuses).
 
 1. Access the channel surfaces list.
 
@@ -240,8 +242,10 @@ You cannot directly edit a deactivated channel surface. However, you can duplica
 
 ![](assets/preset-activate.png)
 
+<!--
 ## How-to video{#video-presets}
 
 Learn how to create channel surfaces, how to use them and how to delegate a subdomain and create an IP pool.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
+-->

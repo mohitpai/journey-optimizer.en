@@ -27,7 +27,7 @@ The goal here is to see if recipients will interact with the email depending on 
 
     ![](assets/content_experiment_1.png)
 
-1. Select **[!UICONTROL Email]** then the **[!UICONTROL Surface]** you want to use for this delivery. For more on this, refer to the [Channel surfaces](../configuration/message-presets.md) page.
+1. Select **[!UICONTROL Email]** then the **[!UICONTROL Surface]** you want to use for this delivery. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
     ![](assets/content_experiment_2.png)
 

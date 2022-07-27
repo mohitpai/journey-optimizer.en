@@ -131,7 +131,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 * **Preview tracking URL parameters** - When configuring a message preset, if you define URL tracking parameters, a dynamic preview of the resulting tracking URL is now displayed. [Learn more](../configuration/email-settings.md#url-tracking)
 
-* **Message preset edition** - Now when updating a message preset, the processing time can only take up to 3 hours. [Learn more](../configuration/message-presets.md#edit-message-preset)
+* **Message preset edition** - Now when updating a message preset, the processing time can only take up to 3 hours. [Learn more](../configuration/channel-surfaces.md#edit-channel-surface)
 
 * **IP pool edition** - Now when updating an IP pool, the processing time can only take up to 3 hours. [Learn more](../configuration/ip-pools.md#edit-ip-pool)
 
@@ -287,7 +287,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 
 **Administration**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/channel-surfaces.md#list-unsubscribe)
 * The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface on production and non-production sandboxes. [Learn more](../configuration/allow-list.md#enable-allow-list)
 
 **Personalization**
@@ -360,7 +360,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer message content, you can now add UTM parameters to your links: they can provide additional data about that link, and help you identify where and why a person clicked on your link.</p>
-<p>For more information, refer to the <a href="../configuration/message-presets.md#configure-email-settings">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/channel-surfaces.md#configure-email-settings">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>

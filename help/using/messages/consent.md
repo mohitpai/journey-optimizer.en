@@ -35,7 +35,7 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/message-presets.md#email-type) (i.e. message preset) level and when [creating the message](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](get-started-content.md#create-new-message).
 
 ### External opt-out {#opt-out-external-lp}
 
@@ -171,7 +171,7 @@ Once your message is sent through a [journey](../building-journeys/journey.md), 
 >abstract="Enable List-Unsubscribe to add an unsubscribe link to the email header. To set an unsubscribe URL, insert a one-click opt-out link into the email content."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="One-click opt-out"
 
-If the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
+If the [List-Unsubscribe option](../configuration/channel-surfaces.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
 
 For example, the unsubscribe link will display like this in Gmail:
 
@@ -181,7 +181,7 @@ For example, the unsubscribe link will display like this in Gmail:
 >
 >To display the unsubscribe link in the email header, the recipients' email client must support this feature.
 
-The unsubscribe address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding channel surface. [Learn more](../configuration/message-presets.md#list-unsubscribe).
+The unsubscribe address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding channel surface. [Learn more](../configuration/channel-surfaces.md#list-unsubscribe).
 
 To set a personalized unsubscribe URL, insert a one-click opt-out link into the email message content and enter the URL of your choice. [Learn more](#one-click-opt-out)
 

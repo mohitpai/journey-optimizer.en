@@ -85,7 +85,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Administration**
 
-* **Edit message presets** - You can now edit message presets and monitor their update status. [Learn more](../configuration/message-presets.md#edit-message-preset)
+* **Edit message presets** - You can now edit message presets and monitor their update status. [Learn more](../configuration/channel-surfaces.md#edit-channel-surface)
 * **Edit PTR records** - You can now edit PTR records and monitor their update status. [Learn more](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personalization**
