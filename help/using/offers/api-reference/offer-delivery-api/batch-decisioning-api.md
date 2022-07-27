@@ -26,19 +26,20 @@ To do this, the organization would:
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>Batch decisioning can also be performed using Journey Optimizer interface. For more information, refer to [this section](../../batch-delivery.md), which provides information on global prerequisites and limitations to take inbto account when using batch decisioning.
+
+  * **The number of running batch jobs per dataset**: Up to five batch jobs can be run at a time, per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
+  * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
+
 ## Getting started {#getting-started}
 
 Before using this API, make sure you complete the following pre-requisite steps.
 
 ### Prepare the decision {#prepare-decision}
 
-Follow the steps below to prepare one or more decisions:
-
-* In order to export the decision result, create a dataset using the "ODE DecisionEvents" schema.
-
-* Create a Platform segment which should be evaluated and then updated. Refer to the [segmentation documentation](http://www.adobe.com/go/segmentation-overview-en) to learn more about how to update segment membership evaluation.
-
-* Create a decision (which has a decision scope that consists of a Decision ID and a Placement ID) in Adobe Journey Optimizer. Refer to the [section on defining decision scopes](../../offer-activities/create-offer-activities.md) of the guide on creating decisions to learn more.
+To prepare one or more decisions, make sure you have created a dataset, a segment, and a decision. Those prerequisites are detailed in [this section](../../batch-delivery.md).
 
 ### API requirements {#api-requirements}
 
@@ -52,6 +53,10 @@ All [!DNL Batch Decisioning] requests require the following headers in addition 
 ## Start a batch process {#start-a-batch-process}
 
 To start a workload to batch process decisions, make a POST request to the `/workloads/decisions` endpoint.
+
+>[!NOTE]
+>
+>Detailed information on batch jobs' processing time are available in [this section](../../batch-delivery.md).
 
 **API format**
 
@@ -172,33 +177,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate`| The time when Decision Workload request was created. |`1648076994405`|
 | `ode:status`| The status of the workload starts with "QUEUED" and changes to "PROCESSING", "INGESTING", "COMPLETED" or "ERROR". |`ode:status: "COMPLETED"`|
 | `ode:statusDetail`| This shows more details such as sparkJobId and batchID if the status is "PROCESSING" or "INGESTING". It shows the error details if the status is "ERROR". ||
-
-## Service levels {#service-levels}
-
-The end-to-end time for every batch decision is the duration from the time the workload is created to the time when the decision result is available in the output dataset. The segment size in the POST request payload is the main factor that affects the end-to-end batch decision time. If the eligible offer has a global frequency cap enabled, then batch decisioning takes additional time to complete. Below are some approximations of end-to-end processing time for their respective segment sizes, both with and without frequency capping for eligible offers:
-
-With frequency cap enabled for eligible offers:
-
-| Segment size | End-to-end processing time |
-|--------------|----------------------------|
-| 10 thousand profiles or less| 7 minutes|
-| 1 million profiles or less| 30 minutes|
-| 15 million profiles or less| 50 minutes|
-
-Without frequency cap for eligible offers:
-
-| Segment size | End-to-end processing time |
-|--------------|----------------------------|
-| 10 thousand profiles or less| 6 minutes|
-| 1 million profiles or less| 8 minutes|
-| 15 million profiles or less| 16 minutes|
-
-## Limitations {#limitations}
-
-When using the [!DNL Batch Decisioning] API, keep the following limitations in mind: 
-
-  * **The number of running batch jobs per dataset**: Up to five batch jobs can be run at a time, per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
-  * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
 
 ## Next steps {#next-steps}
 

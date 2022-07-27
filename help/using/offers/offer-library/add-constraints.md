@@ -26,7 +26,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Priority"
+>title="Set priority"
 >abstract="The priority helps define the priority of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers."
 
 Constraints allow you to define the conditions under which an offer will be displayed.
@@ -34,6 +34,10 @@ Constraints allow you to define the conditions under which an offer will be disp
 1. Configure the **[!UICONTROL Offer eligibility]**. [Learn more](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+    >[!NOTE]
+    >
+    >When you select segments or decision rules, information on the estimated qualified profiles is displayed. Click **[!UICONTROL Refresh]** to update data.
 
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
@@ -57,8 +61,8 @@ For example, if you set the following constraints:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Eligibility"
->abstract="Offer eligibility allows you to restrict the offer to specific profiles that you define using segments or decision rules."
+>title="Define eligibility"
+>abstract="By default, any profile will be eligible to be presented the offer, but you can use segments or decision rules to restrict the offer to specific profiles."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -108,7 +112,7 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
     Learn more on decision rules in [this section](creating-decision-rules.md).
 
-## Frequency capping {#capping}
+## Capping {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -117,8 +121,8 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Capping"
->abstract="Capping is used as a constraint to define the maximum number of times an offer can be presented."
+>title="Use capping"
+>abstract="To avoid over-solicitating your customers, use capping to define the maximum number of times an offer can be presented."
 
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
@@ -172,8 +176,8 @@ The number of times an offer is proposed is calculated at email preparation time
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Changing the date may have an impact on capping"
->abstract="If capping is applied to this offer, it may be impacted when you change the start or end date."
+>title="Changing dates can impact capping"
+>abstract="If capping is applied to this offer, it can be impacted when you change the start or end date."
 
 You must proceed with care when changing the date of an offer, because this can have an impact on capping if the following conditions are met:
 
@@ -185,7 +189,7 @@ You must proceed with care when changing the date of an offer, because this can 
 >
 >Learn how to define an offer's date in [this section](creating-personalized-offers.md#create-offer).
 
-Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
+Capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
 
 ![](../assets/offer-capping-change-date.png)
 

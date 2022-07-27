@@ -44,7 +44,7 @@ To create an IP pool, follow these steps:
     >
     >All the IP addresses provisioned with your instance are available in the list.
     
-The IP pool is now created and displays in the list. You can select it to access its properties and display the associated channel surface (i.e. message preset). For more on how to associate a channel surface with an IP pool, refer to [this section](message-presets.md).
+The IP pool is now created and displays in the list. You can select it to access its properties and display the associated channel surface (i.e. message preset). For more on how to associate a channel surface with an IP pool, refer to [this section](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -70,14 +70,14 @@ To edit an IP pool:
 
 1. Save your changes.
 
-The update is effective immediately or asynchronously, depending on the IP pool being associated to a [channel surface](message-presets.md) or not:
+The update is effective immediately or asynchronously, depending on the IP pool being associated to a [channel surface](channel-surfaces.md) or not:
 
 * If the IP pool is **not** associated with any channel surface, the update is instantaneous (**[!UICONTROL Success]** status).
 * If the IP pool **is** associated with a channel surface, the update can take up to 3 hours (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >
->When [creating a channel surface](message-presets.md#create-message-preset), if you select an IP pool which is under edition (**[!UICONTROL Processing]** status) and has never been associated with the subdomain selected for that surface, you cannot proceed with surface creation. [Learn more](message-presets.md#subdomains-and-ip-pools)
+>When [creating a channel surface](channel-surfaces.md#create-channel-surface), if you select an IP pool which is under edition (**[!UICONTROL Processing]** status) and has never been associated with the subdomain selected for that surface, you cannot proceed with surface creation. [Learn more](channel-surfaces.md#subdomains-and-ip-pools)
 
 To check the IP pool update status, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**.
 

@@ -55,7 +55,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 
 1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
 
@@ -67,7 +67,7 @@ To add messages in your journeys, simply add a push, SMS or email activity in th
 
 1. Select the channel **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
-   A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/message-presets.md).
+   A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -98,7 +98,7 @@ To access advanced parameters, click the **[!UICONTROL Show read-only fields]** 
 
 ![](assets/show-read-only.png)
 
-Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/message-presets.md) (i.e. message preset) associated with the message.
+Advanced parameters are displayed at the bottom of the message pane. These parameters are defined by the [system administrator](../start/path/administrator.md) in the [channel surface](../configuration/channel-surfaces.md) (i.e. message preset) associated with the message.
 
 For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
 
@@ -149,7 +149,7 @@ To perform this, follow the steps below:
 >
 >For emails, you can also turn an existing message to a template. [Learn more](../design/email-templates.md).
 
-## Delete a message
+## Delete a message{#delete-message}
 
 To delete a message, use the trash icon on the top of the channel action activity pane.
 

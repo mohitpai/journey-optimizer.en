@@ -255,7 +255,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [About the suppression list](using/reports/suppression-list.md)
-+ Decision management {#offer-decisioniong}
++ Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
@@ -286,6 +286,7 @@ solution: Journey Optimizer
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
     + [Create simulations](using/offers/offer-activities/simulation.md)
+  + [Batch decisioning](using/offers/batch-delivery.md)
   + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
@@ -373,8 +374,8 @@ solution: Journey Optimizer
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
-    + Set up channel surfaces {#set-up-message-presets}
-      + [Create channel surfaces](using/configuration/message-presets.md)
+    + Set up channel surfaces {#set-up-channels}
+      + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
       + [Use BCC email](using/configuration/bcc-email.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)

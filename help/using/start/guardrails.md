@@ -61,6 +61,7 @@ Performance guardrails and static limits for Decision management are listed in t
 ### Events {#events-g}
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
+* Business events cannot be used in conjunction with unitary events or segment qualification activities.
 
 ### Data sources {#data-sources-g}
 

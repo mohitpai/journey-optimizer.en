@@ -16,7 +16,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure messages and channels**: define channel surfaces, adapt and customize the messages.
 
-    * Create channel surfaces to configure all the technical parameters required to deliver messages. [Learn more](message-presets.md)
+    * Create channel surfaces to configure all the technical parameters required to deliver messages. [Learn more](channel-surfaces.md)
 
     * Determine which email address to use in priority for your recipients when several addresses are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
 

@@ -78,7 +78,7 @@ To create a channel surface, follow these steps:
 
     >[!NOTE]
     >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  
+    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
 
 1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 

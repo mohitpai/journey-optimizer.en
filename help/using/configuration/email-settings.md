@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 ---
 # Configure email settings {#email-settings}
 
-Define the email settings in the dedicated section of the channel surface (i.e. message preset) configuration. Learn how to create surfaces in [this section](message-presets.md).
+Define the email settings in the dedicated section of the channel surface (i.e. message preset) configuration. Learn how to create surfaces in [this section](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -18,9 +18,9 @@ Define the email settings in the dedicated section of the channel surface (i.e. 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Define the email category"
->abstract="Select the type of emails that will be sent when using this channel surface: Marketing for promotional emails, which require user consent, or Transactional for non-commercial emails, that can also be sent to unsubscribed profiles in specific contexts."
+>abstract="Select the type of messages that will be sent when using this surface: Marketing for promotional messages, which require user consent, or Transactional for non-commercial messages, that can also be sent to unsubscribed profiles in specific contexts."
 
-In the **EMAIL TYPE** section, select the type of message that will be sent with the channel surface: **Marketing** or **Transactional**.
+In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **Marketing** or **Transactional**.
 
 * Choose **Marketing** for promotional email: these messages require user consent.
 
@@ -175,7 +175,7 @@ Three URL tracking parameters are auto-populated as an example when you create a
 
 To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields.
 
-You can also choose from a list of predefined values by navigating to the following objects:
+<!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
@@ -184,11 +184,13 @@ You can also choose from a list of predefined values by navigating to the follow
 
 >[!CAUTION]
 >
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the Expression Editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
@@ -198,7 +200,7 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
 >[!NOTE]
 >
->You can combine typing text values and selecting predefined values. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
+>You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
 
 You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
 

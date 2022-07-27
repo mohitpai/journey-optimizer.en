@@ -9,7 +9,13 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## July 2022 {#july-2022}
 
-* The **Create a message preset** section has been clarified and updated with links to the page describing how to configure the SMS channel. [Read more](../configuration/message-presets.md#create-message-preset)
+* All new features and improvements coming with [!DNL Journey Optimizer] July '22 release have been detailed in the documentation. [Read more](release-notes.md)
+* The **Set up channel surfaces** section has been clarified and updated with links to the page describing how to configure the SMS channel. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
+* In the journey properties, the **Profile Time zone** option is now disabled by default. [Read more](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In the **Wait** activity, the **Fixed date** option is no longer available. [Read more](../building-journeys/wait-activity.md)
+* Added more information on the **Incremental read** option in the **Read segment** activity. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Added recommendations on the **Profile cap** condition type. [Read more](../building-journeys/condition-activity.md#profile_cap)
+* Added a limitation on business events. [Read more](../start/guardrails.md#events-g)
 
 ## June 2022 {#june-2022}
 
@@ -36,7 +42,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
 * A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)
 * Links to how-to videos have been updated.
-* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/message-presets.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
+* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
 * The URL tracking section has been updated and improved with examples. [Read more](../configuration/email-settings.md#url-tracking)
 * A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../configuration/email-settings.md#forward-email)
 
@@ -47,8 +53,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../start/get-started-datasets.md)
 * Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/message-presets.md#subdomains-and-ip-pools)
-* The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/message-presets.md#url-tracking)
+* The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
 ## March 2022 {#march-2022}
 
@@ -72,7 +78,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/ranking/auto-optimization-model.md)
 * A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/ranking/schema-requirement.md)
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
-* The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/message-presets.md#create-message-preset)
+* The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
 * The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
 * The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../design/message-tracking.md#insert-links)
 
@@ -87,14 +93,13 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added **Date time function** list. [Read more](../personalization/functions/dates.md)
 * New **Get Started sections per user persona**. Take your own path to get to your goals faster! [Read more](../start/quick-start.md)
-* New **Edit a message preset** section. [Read more](../configuration/message-presets.md#edit-message-preset)
+* New **Edit a message preset** section. [Read more](../configuration/channel-surfaces.md#edit-channel-surface)
 * New **Edit a PTR record** section. [Read more](../configuration/ptr-records.md#edit-ptr-record)
-* New **Deactivate a message preset** section. [Read more](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* New **Deactivate a message preset** section. [Read more](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * New limitations added to the **Decision Management API developer guide** on offer constraints not supported with the mobile [!DNL Experience Edge] workflows. [Read more](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * New **Create simulations** section. [Read more](../offers/offer-activities/simulation.md)
 * Updated **Add decision scopes** section. [Read more](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Updated **Define content for your representations** section, including a new [subsection](../offers/offer-library/creating-personalized-offers.md#custom-text) on how to define and personalize custom text. [Read more](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## September 2021 {#september-2021}
 
@@ -136,7 +141,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added notes to the Suppression list, Allowed list and Email global/live report sections to specify that profiles with Suppressed and Not allowed statuses are excluded from the Email report Sent metrics. [Read more](../reports/global-report.md)
 * Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](../configuration/allow-list.md#reporting)
 * Updated the Enable the allow list section. [Learn more](../configuration/allow-list.md#enable-allow-list)
-* Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/message-presets.md#monitor-message-presets)
+* Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](../configuration/retries.md#retry-duration)
 * Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../messages/consent.md#one-click-opt-out-link)
 * Updated the Delegate a subdomain section with more detailed information on the validation process performed by Adobe. [Read more](../configuration/delegate-subdomain.md#subdomain-validation)

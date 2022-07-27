@@ -76,7 +76,7 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](assets/read-segment-schedule-list.png)
 
-    The **Incremental read** option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members. This option is only available for recurring **Read segment** activities. 
+    **Incremental read** option: when a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. On the next occurrence, all the profiles enter the journey again, even if they were already inside. The old instance of the profile in the journey is stopped and a new instance is created. The **Incremental read** option allows you to target, after the first occurence, the individuals who entered the segment since the last execution of the journey. 
 
 <!--
 

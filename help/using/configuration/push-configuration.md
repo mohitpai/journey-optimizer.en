@@ -345,7 +345,7 @@ Your event will be triggered and you will receive your push notification to your
 
 Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create a surface to be able to send push notifications from **[!DNL Journey Optimizer]**.
 
-Learn how to create and configure a channel surface in [this section](../configuration/message-presets.md).
+Learn how to create and configure a channel surface in [this section](../configuration/channel-surfaces.md).
 
 You are now ready to send push notifications with Journey Optimizer.
 

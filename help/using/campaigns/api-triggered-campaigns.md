@@ -9,15 +9,16 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 
 ## About API-triggered campaigns {#about}
 
+>[!NOTE]
+>
+>The Interactive Message Execution API is currently in beta, which may be subject to frequent updates without notice.
+
+
 With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others. 
 
 To do this, you first need to create an API-triggered campaign in Journey Optimizer, and then launch its execution through an API call.
 
 Available channels for API-triggered campaigns are Email, SMS and Push messages.
-
->[!NOTE]
->
->The Interactive Message Execution API is currently in beta, which may be subject to frequent updates without notice.
 
 ## Create an API-triggered campaign {#create}
 
@@ -80,9 +81,11 @@ To execute an API-triggered campaign, you first need to retrieve its ID and pass
 
 You can then use this ID into your API payload to trigger the campaign. Refer to the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) for more information.
 
+Note that if you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
+
 >[!NOTE]
 >
->If you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
+>In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to login to your website. In that case, the corresponding profile is automatically created into Adobe Experience Platform, in the **AJO Interactive Messaging Profile Dataset** dataset.
 
 ## Additional resources
 

@@ -44,7 +44,7 @@ Follow the steps listed below:
 
     * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../configuration/push-gs.md)
 
-    * Create **channel surfaces** (i.e. message presets) to configure all the technical parameters required for email, sms and push notification. [Learn more](../../configuration/message-presets.md)
+    * Create **channel surfaces** (i.e. message presets) to configure all the technical parameters required for email, sms and push notification. [Learn more](../../configuration/channel-surfaces.md)
 
     * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../configuration/sms-configuration.md)
 

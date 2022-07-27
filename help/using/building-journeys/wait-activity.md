@@ -12,14 +12,17 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Wait activity"
->abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Three options are available: duration, fixed date and custom."
+>abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Two options are available: duration and custom."
 
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
-* [Fixed date](#fixed_date) 
 * [Custom](#custom) 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## About the Wait activity{#about_wait}
 
@@ -33,11 +36,14 @@ Select the duration of the wait before the execution of the next activity.
 
 ![](assets/journey55.png)
 
+<!--
 ## Fixed date wait{#fixed_date}
 
 Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Custom wait{#custom}
 

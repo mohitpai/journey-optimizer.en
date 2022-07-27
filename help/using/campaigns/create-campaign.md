@@ -15,7 +15,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 >
 >Before creating a new campaign, make sure you have a surface channel (i.e. message preset) and an Adobe Experience Platform segment ready for use. Learn more in these sections:
 >
->* [Create channel surfaces](../configuration/message-presets.md) 
+>* [Create channel surfaces](../configuration/channel-surfaces.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
 ## Configure a campaign {#configure}
