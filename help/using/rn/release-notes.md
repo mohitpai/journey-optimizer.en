@@ -97,7 +97,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Messages**
 
-* Message presets are now **channel surfaces**.[Learn more](../configuration/message-presets.md)
+* Message presets are now **channel surfaces**. [Learn more](../configuration/message-presets.md)
 
 **Administration**
 

@@ -5,8 +5,6 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 ---
 # Attribute-based access control {#attribute-based-access}
@@ -19,15 +17,64 @@ Attribute-based access control (ABAC) lets you define authorizations to manage d
 
 In Adobe Journey Optimizer, ABAC allows you to protect data and grant specific access to specific field elements including Experience Data Model (XDM) schemas, Profile attributes, and segments.
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+For a more detailed list of the terminology used with ABAC, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 In this example, we want to add a label to the **Nationality** schema field to restrict unauthorized users from using it. For this to work, you need to perform the following steps:
 
+1. Create a new  **[!UICONTROL Role]** and assign it with the corresponding  **[!UICONTROL Label]** for users to be able to access and use the schema field.
+
 1. Assign a  **[!UICONTROL Label]** to the **Nationality** schema field in Adobe Experience Platform.
 
-2. Create a new  **[!UICONTROL Role]** and assign it with the corresponding  **[!UICONTROL Label]** for users to be able to access and use the schema field.
+1. Use the  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
 
-3. Use the  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
+Note that **[!UICONTROL Roles]**, **[!UICONTROL Policies]** and **[!UICONTROL Products]** can also be accessed with the Attribute-based access control API. For more on this, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## Create a role and assign labels {#assign-role}
+
+>[!IMPORTANT]
+>
+>Before managing permissions for a role, you will first need to create a policy. For more on this, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** are a set of users that share the same permissions, labels and sandboxes within your organization. Each user belonging to a **[!UICONTROL Role]** is entitled with the Adobe apps and services contained in the product.
+You can also create your own **[!UICONTROL Roles]** if you want to fine-tune your users’ access to certain functionalities or objects in the interface.
+
+We now want to grant selected users access to the **Nationality** field, labeled C2. To do so, we need to create a new **[!UICONTROL Role]** with a specific set of users and grant them the label C2 allowing them to use the **Nationality** details in a **[!UICONTROL Journey]**.
+
+1. From the [!DNL Permissions] product, select **[!UICONTROL Role]** from the left pane menu and click **[!UICONTROL Create role]**. Note that you can also add **[!UICONTROL Label]** to built-in roles.
+
+    ![](assets/role_1.png)
+
+1. Add a **[!UICONTROL Name]** and **[!UICONTROL Description]** to your new **[!UICONTROL Role]**, here: Restricted role demographic.
+
+1. From the drop-down, select your **[!UICONTROL Sandbox]**.
+
+    ![](assets/role_2.png)
+
+1. From the **[!UICONTROL Resources]** menu, click **[!UICONTROL Adobe Experience Platform]** to open the different capabilities. Here, we select **[!UICONTROL Journeys]**.
+
+    ![](assets/role_3.png)
+
+1. From the drop down, select the **[!UICONTROL Permissions]** linked to the selected feature such as **[!UICONTROL View journeys]** or **[!UICONTROL Publish journeys]**.
+
+    ![](assets/role_6.png)
+
+1. After saving your newly created **[!UICONTROL Role]**, click **[!UICONTROL Properties]** to further configure access to your role.
+
+    ![](assets/role_7.png)
+
+1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add users]**.
+
+    ![](assets/role_8.png)
+
+1. From the **[!UICONTROL Labels]** tab, select **[!UICONTROL Add label]**. 
+
+    ![](assets/role_9.png)
+
+1. Select the **[!UICONTROL Labels]** you want to add to your role and click **[!UICONTROL Save]**. For this example, we grant the label C2 for users to have access to the previously restricted schema's field.
+
+    ![](assets/role_4.png)
+
+The users in the **Restricted role demographic** role have now access to the C2 labeled objects.
 
 ## Assign labels to an object in Adobe Experience Platform {#assign-label}
 
@@ -63,49 +110,6 @@ By applying a **[!UICONTROL Label]** to your **[!UICONTROL Field name]**, note t
 
 ![](assets/label_5.png)
 
-## Create a role and assign labels {#assign-role}
-
-**[!UICONTROL Roles]** are a set of users that share the same permissions, labels and sandboxes within your organization. Each user belonging to a **[!UICONTROL Role]** is entitled with the Adobe apps and services contained in the product.
-You can also create your own **[!UICONTROL Roles]** if you want to fine-tune your users’ access to certain functionalities or objects in the interface.
-
-We now want to grant selected users access to the **Nationality** field, labeled C2. To do so, we need to create a new **[!UICONTROL Role]** with a specific set of users and grant them the label C2 allowing them to use the **Nationality** details in a **[!UICONTROL Journey]**.
-
-1. From the [!DNL Permissions] product, select **[!UICONTROL Role]** from the left pane menu and click **[!UICONTROL Create role]**. Note that you can also add **[!UICONTROL Label]** to built-in roles.
-
-    ![](assets/role_1.png)
-
-1. Add a **[!UICONTROL Name]** and **[!UICONTROL Description]** to your new **[!UICONTROL Role]**, here: Restricted role demographic.
-
-1. From the drop-down, select your **[!UICONTROL Sandbox]**.
-
-    ![](assets/role_2.png)
-
-1. From the **[!UICONTROL Resources]** menu, click **[!UICONTROL Adobe Experience Platform]** to open the different capabilities. Here, we select **[!UICONTROL Messages]**.
-
-    ![](assets/role_3.png)
-
-1. From the drop down, select the **[!UICONTROL Permissions]** linked to the selected feature such as **[!UICONTROL View messages]** or **[!UICONTROL Publish journeys]**.
-
-    ![](assets/role_6.png)
-
-1. After saving your newly created **[!UICONTROL Role]**, click **[!UICONTROL Properties]** to further configure access to your role.
-
-    ![](assets/role_7.png)
-
-1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add users]**.
-
-    ![](assets/role_8.png)
-
-1. From the **[!UICONTROL Labels]** tab, select **[!UICONTROL Add label]**. 
-
-    ![](assets/role_9.png)
-
-1. Select the **[!UICONTROL Labels]** you want to add to your role and click **[!UICONTROL Save]**. For this example, we grant the label C2 for users to have access to the previously restricted schema's field.
-
-    ![](assets/role_4.png)
-
-The users in the **Restricted role demographic** role have now access to the C2 labeled objects.
-
 ## Access labeled objects in Adobe Journey Optimizer {#attribute-access-ajo}
 
 After labeling our **Nationality** field name in a new schema and our new role, we can now see the impact of this restriction in Adobe Journey Optimizer.
@@ -127,7 +131,7 @@ For our example, a first user X with access to objects labeled C2 will create a 
 
     ![](assets/journey_4.png)
 
-1. Then, create a Journey which will send a message to users with a specific nationality. Add an **[!UICONTROL Event]** then a **[!UICONTROL Condition]**.
+1. Then, create a Journey which will send an email to users with a specific nationality. Add an **[!UICONTROL Event]** then a **[!UICONTROL Condition]**.
 
     ![](assets/journey_5.png)
 
@@ -139,11 +143,11 @@ For our example, a first user X with access to objects labeled C2 will create a 
 
     ![](assets/journey_7.png)
 
-1. Personalize your journey as needed, here we add a **[!UICONTROL Message]** action.
+1. Personalize your journey as needed, here we add an **[!UICONTROL Email]** action.
 
     ![](assets/journey_8.png)
 
-If the User Y without access to label C2 objects needs to access this journey or any messages with this restricted field:
+If the User Y without access to label C2 objects needs to access this journey with this restricted field:
 
 * User Y will not be able to use the restricted Field name since it will not be visible.
 
@@ -151,6 +155,6 @@ If the User Y without access to label C2 objects needs to access this journey or
 
 * User Y can delete the Expression.
 
-* User Y will not be able to test the Journey or Message.
+* User Y will not be able to test the Journey.
 
-* User Y will not be able to publish the Journey or Message.
+* User Y will not be able to publish the Journey.
