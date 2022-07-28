@@ -36,8 +36,8 @@ solution: Journey Optimizer
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
-+ Channel actions {#messages}
-  + [Get started with channel actions](using/messages/get-started-content.md)
++ Messages {#messages}
+  + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
@@ -270,7 +270,9 @@ solution: Journey Optimizer
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
     + AI models {#ai-models}
       + [About AI models](using/offers/ranking/ai-models.md)
-      + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+      + AI model types {#ai-model-types}
+        + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
+        + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
       + Create AI models {#configure-ai-model}
         + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
         + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
@@ -374,7 +376,7 @@ solution: Journey Optimizer
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
-    + Set up channel surfaces {#set-up-message-presets}
+    + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
       + [Use BCC email](using/configuration/bcc-email.md)

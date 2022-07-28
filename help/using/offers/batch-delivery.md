@@ -1,8 +1,8 @@
 ---
 title: Batch decisioning
 description: Learn how to deliver offer decisions to all profiles in a given Adobe Experience Platform segment.
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 ---
-
 # Batch decisioning {#deliver}
 
 ## Get started with batch decisioning {#start}

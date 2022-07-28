@@ -150,7 +150,7 @@ To perform this, follow the steps below:
 >
 >For emails, you can also turn an existing message to a template. [Learn more](../design/email-templates.md).
 
-## Delete a message
+## Delete a message{#delete-message}
 
 To delete a message, use the trash icon on the top of the channel action activity pane.
 
