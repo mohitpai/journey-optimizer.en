@@ -6,6 +6,7 @@ description: Learn more about personalized optimization models
 feature: Ranking Formulas
 role: User
 level: Intermediate
+exl-id: c73b3092-e96d-4957-88e6-500e99542782
 ---
 # Personalized Optimization model {#personalized-optimization-model}
 
