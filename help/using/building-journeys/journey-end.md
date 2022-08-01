@@ -47,7 +47,7 @@ You can stop a journey only if an emergency occurred and all processing needs to
 
 ### Journey end tag{#end-tag}
 
-While authoring a journey, an "end taf" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+While authoring a journey, an "end tag" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
