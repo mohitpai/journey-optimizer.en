@@ -128,7 +128,6 @@ solution: Journey Optimizer
     + [Reaction](using/building-journeys/reaction-events.md)
     + [Segment qualification](using/building-journeys/segment-qualification-events.md)
     + [Condition](using/building-journeys/condition-activity.md)
-    + [End](using/building-journeys/end-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
     + [Email, SMS, Push](using/building-journeys/journeys-message.md)

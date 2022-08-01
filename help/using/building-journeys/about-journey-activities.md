@@ -30,7 +30,6 @@ Start your journey by drag and dropping an event activity. You can also double-c
 From the palette, on the left-hand side of the screen, the following orchestration activities are available:
 
 * [Condition](../building-journeys/condition-activity.md)
-* [End](../building-journeys/end-activity.md)
 * [Wait](../building-journeys/wait-activity.md)
 * [Read Segment](../building-journeys/read-segment.md)
 
