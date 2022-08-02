@@ -58,8 +58,6 @@ For more details on this report, refer to the [Experimentation documentation](..
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](../reports/email-global-report.md) section.
-
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
@@ -146,8 +144,6 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 ## Push tab {#push-global}
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
-
-For a detailed report on a specific push delivery, refer to this the [Push Global report](../reports/push-global-report.md).
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
