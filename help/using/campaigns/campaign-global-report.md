@@ -32,7 +32,7 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 * **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
 
-### Objectives tab (#objectives-global)
+### Objectives (#objectives-global)
 
 >[!AVAILABILITY]
 >
@@ -50,7 +50,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
-### Experimentation tab (#objectives-global)
+### Experimentation (#objectives-global)
 
 >[!AVAILABILITY]
 >
