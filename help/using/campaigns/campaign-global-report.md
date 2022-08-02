@@ -34,6 +34,10 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 ### Objectives tab (#objectives-global)
 
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
 ![](assets/performance_report.gif)
 
 The **[!UICONTROL Objectives]** tab of your Campaign report allows you to better fine-tune your deliveries' reports by targeting one specific metric.
@@ -47,6 +51,10 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 Note that each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
 ### Experimentation tab (#objectives-global)
+
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 

@@ -8,6 +8,10 @@ level: Beginner
 ---
 # Get started with Content experiments {#get-started-experiment}
 
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
 ## What is a Content Experiment?
 
 Content Experiments allow you to optimize content for the actions in your Campaigns.

@@ -6,7 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Create a content experiment {#content-experiment}
+# Create a Content experiment {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 The content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
 
@@ -131,9 +135,9 @@ The table presents the following metrics:
 
 *  **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
-*  **[!UICONTROL Count per profile]**: 
+*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
 
-*  **[!UICONTROL Confidence interval]**:
+*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. 
 
 *  **[!UICONTROL Average lift]**:
 

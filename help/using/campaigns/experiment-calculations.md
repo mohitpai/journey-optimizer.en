@@ -8,6 +8,10 @@ level: advanced
 ---
 # Understand Statistical Calculations {#experiment-calculations}
 
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
 This article describes the statistical calculations used when you run Experiments in Adobe Journey Optimizer. Experimentation uses advanced statistical methods to calculate **Confidence sequences** and **Confidence**, which allow you to run your experiments for as long as needed, and to monitor your results continuously.
 
 This article describes how the Experimentation works, and provides an intuitive introduction to Adobe's **Any Time Valid Confidence Sequences**. 
