@@ -7,7 +7,6 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 ---
 # Campaign global report {#campaign-global-report}
 
@@ -35,15 +34,31 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 * **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### Objectives tab (#objectives-global)
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab of your Campaign report allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this documentation.
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+
+Note that each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
+
+### Experimentation tab (#objectives-global)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+
+For more details on this report, refer to the [Experimentation documentation](../campaigns/content-experiment.md#experimentation-report).
 
 ## Email tab {#email-global}
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
+
+For a detailed report on a specific email delivery, refer to the [Email global report](../reports/email-global-report.md) section.
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
@@ -67,7 +82,7 @@ The **[!UICONTROL Email Sending Statistics]** graph details the success of your 
 
 * **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
-The **[!UICONTROL Email - Tracking statistics]** contains the available data for recipient activity for your delivery:
+The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for recipient activity for your delivery:
 
 * **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
 
@@ -115,7 +130,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -131,6 +146,8 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 ## Push tab {#push-global}
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
+
+For a detailed report on a specific push delivery, refer to this the [Push Global report](../reports/push-global-report.md).
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
@@ -178,7 +195,7 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -196,11 +213,3 @@ The **[!UICONTROL Error Reasons]** graph and table allow you to see which error 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
-
-## Additional resources
-
-* [Get started with campaigns](get-started-with-campaigns.md)
-* [Create a campaign](create-campaign.md)
-* [Create API-triggered campaigns](api-triggered-campaigns.md)
-* [Modify or stop a campaign](modify-stop-campaign.md)
-* [Campaign live report](campaign-live-report.md)

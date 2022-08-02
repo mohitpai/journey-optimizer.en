@@ -62,7 +62,7 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
 +++
 
-## Interpreting the results of your Experiments
+## Interpreting the results of your Experiments {#interpret-results}
 
 This section describes the Experiment reports and how to understand the various statistical quantities that are presented.
 
@@ -88,7 +88,7 @@ Confidence Intervals help to quantify the amount of uncertainty in the estimated
 
 If the confidence intervals for two treatments are barely overlapping, this means that the two treatments have different conversion rates. But, if there is a lot of overlap between the confidence intervals for two treatments, then it is more likely that the two treatments have the same conversion rate.
 
-Adobe uses 95% (?)Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
+Adobe uses 95% Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
 
 ### 3. Understanding Lift
 

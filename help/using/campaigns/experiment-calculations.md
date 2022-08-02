@@ -47,9 +47,7 @@ It is important to note that since confidence sequences are "any time valid", th
 
 ## Declaring an Experiment to be Conclusive
 
-As your Experimentation progresses, Adobe will continuously monitor the results of the campaign, and will declare an experiment to be **Conclusive** when the Anytime valid confidence crosses a threshold of 95%. At this point, the treatment which is performing the best will be highlighted at the top of the report screen, and indicated with a star in the tabular report.
-
-When there are more than two arms, the Benjamini Hochberg procedure is used to control the False Discovery rate.
+![](assets/experimentation_report_2.png)
 
 Every time you view the experimentation report, Adobe analyzes the data that has accumulated in the experiment up to this point and will declare an experiment to be “Conclusive” when the anytime valid confidence crosses a threshold of 95% for at least one of the treatments.
 
