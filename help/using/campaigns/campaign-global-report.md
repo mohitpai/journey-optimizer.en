@@ -5,8 +5,6 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 ---
 # Campaign global report {#campaign-global-report}
 
