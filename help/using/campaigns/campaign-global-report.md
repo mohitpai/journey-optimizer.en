@@ -1,14 +1,14 @@
 ---
-title: Campaign global report
-description: Learn how to use data from the campaign global report
+title: Campaign Global report
+description: Learn how to use data from the Campaign Global report
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 ---
-# Campaign global report {#campaign-global-report}
+# Campaign Global report {#campaign-global-report}
 
-Campaign global report can be accessed directly from your Campaign with the **[!UICONTROL Global view]** button. 
+Campaign Global report can be accessed directly from your Campaign with the **[!UICONTROL Global view]** button. 
 
 The Campaign **[!UICONTROL Global report]** page will be displayed with the following tabs:
 
@@ -56,9 +56,29 @@ Note that each widget can be resized and deleted if needed. For more information
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+![](assets/experimentation_report_3.png)
 
-For more details on this report, refer to the [Experimentation documentation](../campaigns/content-experiment.md#experimentation-report).
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is a best performer.
+
+Note that defining the best performer might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
+
+The **[!UICONTROL Experiment result]** widget details the performance of each variant. You can change your baseline by selecting one of the treatment from the **[!UICONTROL Baseline]** the drop-down. The best treatment will be represented with a star icon.
+
+The table presents the following metrics:
+
+* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
+
+*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
+
+*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
+
+*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals).
+
+*  **[!UICONTROL Average lift]**: Percentage improvement in conversion rate of a given treatment over the baseline. [Learn more](../campaigns/experiment-calculations.md#understand-lift)
+
+*  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
+
+For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Email tab {#email-global}
 

@@ -122,25 +122,9 @@ Once your treatments are personalized, you can start configuring your content ex
 
 ## Experimentation report {#experimentation-report}
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+![](assets/experimentation_report_3.png)
 
-Note that declaring a winner might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was a best performer during the test.
 
-The **[!UICONTROL Experiment result]** widget details the performance of each variant. The winning treatment will be represented with a star icon.
-You can change your baseline by selecting one of the treatment in the drop-down. 
+For more details on this report, refer to the [Campaign Global report](../campaigns/content-experiment.md#experimentation-report) page.
 
-The table presents the following metrics:
-
-* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
-
-*  **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
-
-*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
-
-*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. 
-
-*  **[!UICONTROL Average lift]**:
-
-*  **[!UICONTROL Confidence]**:
-
-For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
