@@ -34,7 +34,7 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 ### Objectives (#objectives-global)
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
@@ -52,7 +52,7 @@ Note that each widget can be resized and deleted if needed. For more information
 
 ### Experimentation (#experimentation-global)
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 

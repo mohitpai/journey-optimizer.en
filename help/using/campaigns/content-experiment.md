@@ -8,7 +8,7 @@ level: Beginner
 ---
 # Create a Content experiment {#content-experiment}
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
