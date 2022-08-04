@@ -43,7 +43,7 @@ To create a decision rule, follow these steps:
 
 1. Click **[!UICONTROL Save]** to confirm.
 
-1. Once the rule is created, it displays in the rules list. You can select it to display its properties and edit or delete it.
+1. Once the rule is created, it displays in the **[!UICONTROL Rules]** list. You can select it to display its properties, and edit or delete it.
 
     ![](../assets/rule_created.png)
 

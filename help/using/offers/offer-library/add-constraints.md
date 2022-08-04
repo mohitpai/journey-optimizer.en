@@ -35,10 +35,6 @@ Constraints allow you to define the conditions under which an offer will be disp
 
    ![](../assets/offer-eligibility.png)
 
-    >[!NOTE]
-    >
-    >When you select segments or decision rules, information on the estimated qualified profiles is displayed. Click **[!UICONTROL Refresh]** to update data.
-
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
    ![](../assets/offer-priority.png)
@@ -93,6 +89,10 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
     >[!CAUTION]
     >
     >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+
+When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 

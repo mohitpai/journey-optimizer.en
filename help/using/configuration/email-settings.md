@@ -186,9 +186,13 @@ To configure a URL tracking parameter, you can directly enter the desired values
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the Expression Editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
+You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -197,10 +201,6 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 * Adobe Analytics compatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics compatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
 
 You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
 
