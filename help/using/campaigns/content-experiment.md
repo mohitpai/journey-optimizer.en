@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 ---
 # Create a Content experiment {#content-experiment}
 
@@ -129,4 +130,3 @@ Once your treatments are personalized, you can start configuring your content ex
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was a best performer during the test.
 
 For more details on this report, refer to the [Campaign Global report](../campaigns/content-experiment.md#experimentation-report) page.
-

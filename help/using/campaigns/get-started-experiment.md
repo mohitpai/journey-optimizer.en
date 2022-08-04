@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
 # Get started with Content experiments {#get-started-experiment}
 
@@ -138,5 +139,3 @@ After running your Experiment, there are several possible follow up actions:
     >[!CAUTION]
     >
     >More analyses mean a higher chance of detecting a spurious effect, or false positive.
-
-
