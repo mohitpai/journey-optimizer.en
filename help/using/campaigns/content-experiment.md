@@ -5,8 +5,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
-# Create a content experiment {#content-experiment}
+# Create a Content experiment {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 The content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
 
@@ -115,4 +121,12 @@ Once your treatments are personalized, you can start configuring your content ex
 1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]** to launch it.
 
     ![](assets/content_experiment_14.png)
+
+## Experimentation report {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was a best performer during the test.
+
+For more details on this report, refer to the [Campaign Global report](../campaigns/content-experiment.md#experimentation-report) page.
 
