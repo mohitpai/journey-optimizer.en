@@ -4,7 +4,7 @@ description: Learn more about statistical calculations used when running experim
 feature: Overview
 topic: Content Management
 role: User
-level: advanced
+level: Experienced
 hide: yes
 hidefromtoc: yes
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
@@ -56,7 +56,7 @@ It is important to note that since confidence sequences are "any time valid", th
 
 ![](assets/experimentation_report_2.png)
 
-Every time you view the experimentation report, Adobe analyzes the data that has accumulated in the experiment up to this point and will declare an experiment to be “Conclusive” when the anytime valid confidence crosses a threshold of 95% for at least one of the treatments.
+Every time you view the experimentation report, Adobe analyzes the data that has accumulated in the experiment up to this point and will declare an experiment to be "Conclusive" when the anytime valid confidence crosses a threshold of 95% for at least one of the treatments.
 
 At this point, the treatment which is performing the best (based on the conversion rate, or profile-normalized metric value) will be highlighted at the top of the report screen, and indicated with a star in the tabular report. Only treatments that have a confidence greater than 95%, along with the baseline are considered in this determination.
 
