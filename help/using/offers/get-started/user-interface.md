@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 ---
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activities).
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Use the  **[!UICONTROL Components]** menu to manage the components required to c
 
 * **[!UICONTROL Rules]**: Manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 
@@ -47,7 +47,7 @@ When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab 
 
 Follow the on-screen steps to start creating placements, offers, and collections.
 
-Once you are done with these first steps, you are prompted to created offer decisions (previously known as offer activities).
+Once you are done with these first steps, you are prompted to created offer decisions.
 
 ![](../assets/overview_collection-created.png)
 

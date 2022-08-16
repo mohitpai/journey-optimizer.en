@@ -10,10 +10,12 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 # Examples of queries{#query-examples}
 
 This section lists several commonly used examples to query Journey Step Events in Data Lake. 
- 
+
+Make sure that the fields used in your queries have associated values in the corresponding schema.
+
 ## Message/Action Errors {#message-action-errors}
 
-### List of each error encountered in journeys {#error-list-journey}
+**List of each error encountered in journeys**
 
 This query allows you to list each error encountered in journeys while executing a message/action.
 
@@ -41,7 +43,7 @@ This query returns all the different errors that occurred while executing an act
 
 ## Profile-based queries {#profile-based-queries}
 
-### Find if a profile entered a specific Journey {#profile-entered-journey}
+**Find if a profile entered a specific Journey**
 
 _Data Lake query_
 
@@ -63,9 +65,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 The result should be greater than 0. This query returns the exact number of times a profile has entered a journey.
 
-### Find if a profile was sent a specific message {#profile-specific-message}
+**Find if a profile was sent a specific message**
 
-**Method 1:** if the name of your message is not unique in the journey (it is used at multiple places).
+Method 1: if the name of your message is not unique in the journey (it is used at multiple places).
 
 _Data Lake query_
 
@@ -89,7 +91,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 The result should be greater than 0. This query only tells us whether the message action was successfully executed on the journey side.
 
-**Method 2:** if the name of your message is unique in the journey.
+Method 2: if the name of your message is unique in the journey.
 
 _Data Lake query_
 
@@ -113,7 +115,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 The query returns the list of all messages along with their count invoked for the selected profile.
 
-## Find all the messages a profile has received in the last 30 days {#message-received-30-days}
+**Find all the messages a profile has received in the last 30 days**
 
 _Data Lake query_
 
@@ -139,7 +141,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 The query returns the list of all messages along with their count invoked for the selected profile.
 
-### Find all the journeys a profile has entered in the last 30 days {#profile-entered-30-days}
+**Find all the journeys a profile has entered in the last 30 days**
 
 _Data Lake query_
 
@@ -163,7 +165,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 The query returns the list of all journey names along with the number of times the queried profile entered the journey.
 
-### Number of profiles that qualified for a journey daily {#profile-qualified}
+**Number of profiles that qualified for a journey daily**
 
 _Data Lake query_
 
@@ -189,7 +191,7 @@ The query resturns, for the defined period, the number of profiles that entered 
 
 ## Queries related to the Read Segment {#read-segment-queries}
 
-### Time taken to finish a segment export job
+**Time taken to finish a segment export job**
 
 _Data Lake query_
 
@@ -221,7 +223,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 The query returns the time difference, in minutes, between when time the segment export job was queued and when it finally ended.
 
-### Number of profiles that got discarded by the journey because they were duplicates
+**Number of profiles that got discarded by the journey because they were duplicates**
 
 _Data Lake query_
 
@@ -243,7 +245,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey because they were duplicates.
 
-### Number of profiles that got discarded by the journey because of invalid namespace
+**Number of profiles that got discarded by the journey because of invalid namespace**
 
 _Data Lake query_
 
@@ -265,7 +267,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey because they had an invalid namespace or no identity for that namespace.
 
-### Number of profiles that got discarded by the journey because of no identity map
+**Number of profiles that got discarded by the journey because of no identity map**
 
 _Data Lake query_
 
@@ -287,7 +289,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey because the identity map was missing.
 
-### Number of profiles that got discarded by the journey because the journey was in test node and the profile was not a test profile
+**Number of profiles that got discarded by the journey because the journey was in test node and the profile was not a test profile**
 
 _Data Lake query_
 
@@ -309,7 +311,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey beacause the export job was run in test mode but the profile did not have the testProfile attribute set to true.
 
-### Number of profiles that got discarded by the journey because of an internal error
+**Number of profiles that got discarded by the journey because of an internal error**
 
 _Data Lake query_
 
@@ -331,7 +333,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey due to some internal error.
 
-### Overview of the Read Segment for a given journey version
+**Overview of the Read Segment for a given journey version**
 
 _Data Lake query_
 
@@ -369,7 +371,7 @@ IMPORTANT: if there is no event returned by this query, it may be due to one of 
 * the journey version has not reached the schedule
 * if the journey version is supposed to have trigger the export job by calling the orchestrator, something went wrong on the upstram flow: issue on journey deployment, business event or issue with scheduler.
 
-### Get Read Segment errors for a given journey version
+**Get Read Segment errors for a given journey version**
 
 _Data Lake query_
 
@@ -395,7 +397,7 @@ WHERE
     )
 ```
 
-### Get export job processing status
+**Get export job processing status**
 
 _Data Lake query_
 
@@ -424,7 +426,7 @@ If no record is returned, that means that either:
 * an error has occured during topic or export job creation
 * the export job is still running
 
-### Get metrics on exported profiles, including discards and export job metrics for each export jobs	
+**Get metrics on exported profiles, including discards and export job metrics for each export jobs**
 
 _Data Lake query_
 
@@ -484,7 +486,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Get aggregated metrics (segment export jobs and discards) on all export jobs	
+**Get aggregated metrics (segment export jobs and discards) on all export jobs**
 
 _Data Lake query_
 
@@ -549,31 +551,59 @@ It returns the overall metrics for a given journey version, regardless the jobs 
 
 ## Queries related to Segment Qualification {#segment-qualification-queries}
 
-### Profile discarded because of a different segment realization than the one configured
+**Profile discarded because of a different segment realization than the one configured**
 
 _Data Lake query_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _Example_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 This query returns all the profile Ids that were discarded by the journey version due to wrong segment realization.
 
+**Segment Qualification events discarded by any other reason for a specific profile**
+
+_Data Lake query_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Example_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+This query returns all events (external events / segment qualification events) that were discarded because of any other reason for a profile.
+
 ## Event-based queries {#event-based-queries}
 
-### Check if a business event was received for a journey
+**Check if a business event was received for a journey**
 
 _Data Lake query_
 
@@ -599,9 +629,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**Check if an external event of a profile got discarded because no related journey was found**
+
+_Data Lake query_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_Example_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**Check if an external event of a profile got discarded because of any other reason**
+
+_Data Lake query_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Example_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**Check the count of all the events discarded by stateMachine by errorCode**
+
+_Data Lake query_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_Example_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**Check all discarded events because reentrance was not allowed**
+
+_Data Lake query_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_Example_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## Common journey-based queries {#journey-based-queries}
 
-### Number of daily active journeys {#daily-active-journeys}
+**Number of daily active journeys**
 
 _Data Lake query_
 
@@ -625,7 +747,7 @@ The query returns, for the defined period, the count of unique journeys that tri
 
 ## Queries on journey instances {#journey-instances-queries}
 
-### Number of profiles in a specific state a specific time 	
+**Number of profiles in a specific state a specific time**
 
 _Data Lake query_
 
@@ -773,7 +895,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### How many profiles exited the journey in the specific period of time
+**How many profiles exited the journey in the specific period of time**
 
 _Data Lake query_
 
@@ -811,7 +933,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### How many profiles exited the journey in the specific period of time with node/status
+**How many profiles exited the journey in the specific period of time with node/status**
 
 _Data Lake query_
 

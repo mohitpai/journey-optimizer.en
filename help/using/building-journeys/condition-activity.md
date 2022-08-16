@@ -73,7 +73,7 @@ Using the advanced expression editor, you can setup more advanced conditions man
 
 ## Time condition{#time_condition}
 
-This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays.
+This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send push notifications during daytime and emails at night during weekdays.
 
 >[!NOTE]
 >
@@ -106,6 +106,10 @@ This allows you to define a different flow based on the date. For example, if th
 ## Profile cap {#profile_cap}
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path. This ensures that your journeys will never exceed the limit defined. 
+
+	>[!NOTE]
+	>
+	>We recommend that you define a high value profile cap. The precision and likelihood that a population will reach the exact cap number only increases as the cap increases. For small numbers (for example a cap of 50), the numbers will not always match up as the limit may not be reached before profiles take an alternate path.
 
 You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 

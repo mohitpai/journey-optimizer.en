@@ -12,26 +12,23 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Wait activity"
->abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Three options are available: duration, fixed date and custom."
+>abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Two options are available: duration and custom."
 
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
-* [Fixed date](#fixed_date) 
 * [Custom](#custom) 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## About the Wait activity{#about_wait}
 
-Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized.
+The maximum wait duration is 30 days. In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md) 
 
-Also note that if two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
-
->[!NOTE]
->
->The maximum wait duration is 30 days.
->
->In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md) 
+Be cautious when using multiple Wait activities in a journey as the global journey timeout is 30 days, meaning that a profile will always drop out of the journey maximum 30 days after he/she entered it.
 
 ## Duration wait{#duration}
 
@@ -39,11 +36,14 @@ Select the duration of the wait before the execution of the next activity.
 
 ![](assets/journey55.png)
 
+<!--
 ## Fixed date wait{#fixed_date}
 
 Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Custom wait{#custom}
 

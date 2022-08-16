@@ -21,22 +21,38 @@ You will use these types of helper functions:
 ➡️ [Learn how to use helper functions in this video](#video)
 
 Before you start, ensure you know how to configure these elements:
-* An email message. [Learn more](../messages/get-started-content.md)
-* The body of an email. [Learn more](../design/create-email-content.md).
+
 * A unitary event. [Learn more](../event/about-events.md).
 * A journey that starts with an event. [Learn more](../building-journeys/using-the-journey-designer.md).
+* An email message in your journey. [Learn more](../messages/get-started-content.md)
+* The body of an email. [Learn more](../design/create-email-content.md).
 
 Follow these steps:
+
+1. [Create the initial event and the journey](#create-context).
 1. [Create an email message](#configure-email).
 1. [Insert the customer's first name in capital letters](#uppercase-function).
-1. [Create the initial event and the journey](#create-context).
 1. [Add the cart content to the email](#each-helper).
 1. [Insert a product-specific note](#if-helper).
 1. [Test and publish the journey](#test-and-publish).
 
-## Step 1: Create the email{#configure-email}
+## Step 1: Create the initial event and the related journey {#create-context}
 
-1. Create or modify an email message, then click **[!UICONTROL Email Designer]**.
+The cart content is contextual information from the journey. Therefore, you must add an initial event and the email to a journey before you can add cart-specific information to the email.
+
+1. Create an event whose schema includes the `productListItems` array.
+1. Define all the fields from this array as payload fields for this event.
+
+   Learn more about the product list item data typein [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+
+1. Create a journey that starts with this event.
+1. Add an **Email** activity to the journey.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Step 2: Create the email{#configure-email}
+
+1. In the **Email** activity, click **[!UICONTROL Edit content]**, then click **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. From the left palette of the Email Designer home page, drag and drop three structure components onto the body of the message.
@@ -45,7 +61,7 @@ Follow these steps:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Step 2: Insert the customer's first name in capital letters {#uppercase-function}
+## Step 3: Insert the customer's first name in capital letters {#uppercase-function}
 
 1. On the Email Designer home page, click on the HTML component where you want to add the customer's first name.
 1. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
@@ -86,35 +102,10 @@ Follow these steps:
    ![](assets/personalization-uc-helpers-6.png)
 1. Save the message.
 
-## Step 3: Create the initial event and the related journey {#create-context}
-
-The cart content is contextual information from the journey. Therefore, you must add an initial event and the email to a journey before you can add cart-specific information to the email.
-
-1. Create an event whose schema includes the `productListItems` array.
-1. Define all the fields from this array as payload fields for this event.
-
-   Learn more about the product list item data typein [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
-
-1. Create a journey that starts with this event.
-1. Add the message to the journey.
-1. End the journey with an end activity.
-
-   Because you have not yet published the message, you cannot neither test nor publish the journey.
-   
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Click **[!UICONTROL OK]**.
-
-   A message informs you that the journey context has been passed to the message.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Step 4: Insert the list of items from the cart {#each-helper}
 
-1. Reopen the message.
+1. Reopen the message content.
    
-   ![](assets/personalization-uc-helpers-18.png)
-
 1. On the Email Designer home page, click on the HTML component where you want to list the cart content.
 1. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
    
@@ -288,14 +279,11 @@ The cart content is contextual information from the journey. Therefore, you must
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1.  Save and publish the message.
+1.  Save the message.
 
 ## Step 6: Test and publish the journey {#test-and-publish}
 
-1. Open the journey. If the journey is already open, then refresh the page.
 1. Turn on the **[!UICONTROL Test]** toggle, then click **[!UICONTROL Trigger an event]**.
-
-   You can turn on the test mode only after you have published the message.
 
    ![](assets/personalization-uc-helpers-15.png)
 

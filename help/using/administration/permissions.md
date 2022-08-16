@@ -51,15 +51,15 @@ Your user should then receive an email redirecting to your instance.
 
 For more information on users management, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-When accessing the instance, your user will see a specific view depending on the assigned permissions in the **[!UICONTROL Product profile]**. If the user does not have the right access to a feature, the following screen will appear.
+When accessing the instance, your user will see a specific view depending on the assigned permissions in the **[!UICONTROL Product profile]**. If the user does not have the right access to a feature, the following message will appear: 
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## Editing an existing product profile {#edit-product-profile}
 
 For out-of-the-box or custom **[!UICONTROL Product profiles]**, you can decide at any time to add or delete permissions.
 
-In this example, we want to add **[!UICONTROL Permissions]** related to the **[!UICONTROL Message]** capability for users assigned to the Journey viewer **[!UICONTROL Product profile]**. The users will then be able to publish messages.
+In this example, we want to add **[!UICONTROL Permissions]** related to the **[!UICONTROL Journeys]** capability for users assigned to the Journey viewer **[!UICONTROL Product profile]**. The users will then be able to publish journeys.
 
 Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profile]**, it will impact every user assigned to this **[!UICONTROL Product profile]**.
 
@@ -73,21 +73,17 @@ Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profil
 
     ![](assets/do-not-localize/access_control_5.png)
 
-1. Select the **[!UICONTROL Messages]** capability.
+1. Select the **[!UICONTROL Journeys]** capability.
 
     ![](assets/do-not-localize/access_control_6.png)
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon. 
 
-    Here, we add the **[!UICONTROL Publish messages]** permission.
-
-    ![](assets/do-not-localize/access_control_7.png)
+    Here, we add the **[!UICONTROL Publish Journeys]** permission.
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
 1. When finished, click **[!UICONTROL Save]**.
-
-    ![](assets/do-not-localize/access_control_8.png)
 
 If needed, you can also create new product profile with specific permissions. For more on this, refer to [Creating a product profile](#create-product-profile).
 
@@ -97,7 +93,7 @@ If needed, you can also create new product profile with specific permissions. Fo
 
 For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
-In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!DNL  Decision management]** or **[!DNL Messages]** in [!DNL Journey Optimizer].
+In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
 To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
@@ -119,7 +115,7 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. To add permissions for users to access different features, select the **[!UICONTROL Permissions]** tab.
 
-1. Select between the different capabilities such as **[!DNL Messages]**, **[!DNL Segments]** or **[!DNL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
+1. Select between the different capabilities such as **[!DNL Journeys]**, **[!DNL Segments]** or **[!DNL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
     
     Here we select the **[!UICONTROL Journeys]** capability.
 

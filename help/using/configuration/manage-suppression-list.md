@@ -17,6 +17,12 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
+You can also [**manually** add an address or a domain](#add-addresses-and-domains) to the suppression list.
+
+>[!NOTE]
+>
+>It will take between 0 and 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+
 ## Access the suppression list {#access-suppression-list}
 
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
@@ -97,6 +103,11 @@ The possible reasons for a delivery failure are:
 
 ## Manually add addresses and domains {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Add emails or domains to the suppression list"
+>abstract="You can manually populate the Journey Optimizer suppression list to exclude specific email addresses and/or domains from your sending."
+
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
 However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
@@ -109,6 +120,11 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 ### Add one address or domain {#add-one-address-or-domain}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Add one item to the suppression list"
+>abstract="You can populate the suppression list by adding email addresses and/or domains one by one."
+
 1. Select the **[!UICONTROL One by one]** option.
 
     ![](assets/suppression-list-add-email-address.png)
@@ -119,13 +135,22 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
     >[!NOTE]
     >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+    >Make sure you enter a valid email address (such as abc@company.com) or domain (such as abc.company.com).
 
 1. Specify a reason if needed.
+
+    >[!NOTE]
+    >
+    >All ASCII characters comprised between 32 and 126 are allowed in the **[!UICONTROL Reason]** field. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example.
 
 1. Click **[!UICONTROL Submit]**.
 
 ### Upload a CSV file {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="Upload CSV to add items to the suppression list"
+>abstract="You can populate the suppression list by uploading a CSV file filled in with the email addresses/domains you want to exclude."
 
 1. Select the **[!UICONTROL Upload CSV]** option.
 
@@ -138,7 +163,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
-    
+    >[!NOTE]
+    >
+    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
+
     You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
@@ -154,6 +182,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     ![](assets/suppression-list-upload-file-button.png)
 
 1. Click **[!UICONTROL Submit]**.
+
+>[!NOTE]
+>
+>Once the upload is done, make sure it was successful by checking its status from the interface. [Learn how](#recent-uploads)
 
 ### Check recent uploads status {#recent-uploads}
 

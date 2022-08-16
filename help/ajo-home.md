@@ -12,6 +12,10 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 
 ![](using/assets/do-not-localize/banner-cjm.jpg) 
 
+>[!CAUTION]
+>
+>On July 25, Adobe Journey Optimizer is releasing a [new feature](using/rn/inline-messages.md) which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now [create and author](using/messages/get-started-content.md) your messages directly from a journey. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the [required steps](using/rn/inline-messages-steps.md).
+
 <table style="table-layout:fixed">
 <tr>
   <td>
@@ -44,9 +48,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     Design a new email or import an existing HTML content
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Send messages</a>
+      <a href="using/messages/get-started-content.md">Send messages</a>
     </div>
-    <p>Learn how to add push and email messages in your customer journeys
+    <p>Learn how to add push, SMS and email messages in your customer journeys
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Create your first journey</a>
@@ -110,7 +114,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/messages/get-started-content.md">Messages</a>
+      <a href="using/landing-pages/get-started-lp.md">Landing pages</a>
     </li>
     <p>
     <p>DECISION MANAGEMENT</p>
@@ -149,11 +153,23 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
-     <li>
+    </li>
+    <li>
+      <a href="using/landing-pages/subscription-list.md">Subscription lists</a>
+    </li>     
+    <li>
       <a href="using/segment/get-started-profiles.md">Profiles</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">Identity</a>
+    </li>
+    <p>
+    <p>PRIVACY</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">Policies</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Requests</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
@@ -169,7 +185,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
   </td>
 </tr>
 </table>
-
 
 
 ![Newsletter](using/assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!

@@ -9,14 +9,14 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
-## About the Read Segment activity {#about-segment-trigger-actvitiy}
+## Add a Read Segment activity {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Read Segment activity"
 >abstract="The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis."
 
-The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
+Use the **Read Segment** activity to make all individuals of a segment enter the journey. Entrance into a journey can be executed either once, or on a regular basis.
 
 Let's take as an example the "Luma app opening and checkout" segment created in the [Build segments](../segment/about-segments.md) use case. With the Read Segment activity, you can make all individuals belonging to this segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
@@ -76,7 +76,7 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](assets/read-segment-schedule-list.png)
 
-    The **Incremental read** option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members. This option is only available for recurring **Read segment** activities. 
+    **Incremental read** option: when a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. On the next occurrence, all the profiles enter the journey again, even if they were already inside. The old instance of the profile in the journey is stopped and a new instance is created. The **Incremental read** option allows you to target, after the first occurence, the individuals who entered the segment since the last execution of the journey. 
 
 <!--
 
@@ -96,6 +96,10 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
+
+>[!NOTE]
+>
+>One-shot Read segment journeys move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence.
 
 ### Test and publish the journey {#testing-publishing}
 

@@ -9,6 +9,11 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 ---
 # Create placements {#create-placements}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Placement"
+>abstract="A placement is a container that is used to showcase offers. It helps ensure that the right offer content shows up in the right location within your message. Placements are created from the "Components" menu."
+
 A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 
 ➡️ [Learn how to create placements in this video](#video)
@@ -31,7 +36,7 @@ To create a placement, follow these steps:
 
     * **[!UICONTROL Name]**: The name of the placement. Make sure to define a meaningful name to retrieve it more easily.
     * **[!UICONTROL Channel type]**: The channel for which the placement will be used.
-    * **[!UICONTROL Content type]**: The type of content that the placement will be allowed to display: Text, HTML or Image Link.
+    * **[!UICONTROL Content type]**: The type of content that the placement will be allowed to display: Text, HTML, Image Link, or JSON.
     * **[!UICONTROL Description]**: A description of the placement (optional).
 
     ![](../assets/offers_placement_creation_properties.png)
@@ -48,6 +53,3 @@ Learn how to create placements in Offer Decisioning.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.

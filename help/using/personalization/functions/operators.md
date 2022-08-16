@@ -70,10 +70,6 @@ not (homeAddress.countryISO = "CA")
 ```
 -->
 
-
-
-
-
 ## Comparison functions {#comparison-functions}
 
 Comparison functions are used to compare between different expressions and values, returning true or false accordingly. 

@@ -19,7 +19,7 @@ The Advanced expression editor can be used to create conditions to allow you to 
 
 The advanced expression editor is mandatory to perform queries on time series such as a list of purchases or past clicks on messages. Such queries cannot be performed using the simple editor.
 
-The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence:
+The experience events are retrieved from Adobe Experience Platform as a collection in reverse chronological order, hence:
 
 * first function will return the most recent event
 * last function will return the oldest one.
@@ -139,4 +139,4 @@ substr(
 
 Explanation: This example uses `substr` and `lastIndexOf` functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
 
-For more on how to use the advanced expression editor, watch [this video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+For more on how to use the advanced expression editor, watch [this video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

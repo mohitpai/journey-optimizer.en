@@ -59,6 +59,7 @@ Here is the list of supported functions.
 | List        | [getListItem](../functions/functiongetlistitem.md)|
 | List        | [in](../functions/functionin.md)|
 | List        | [intersect](../functions/functionintersect.md)|
+| List        | [listSize](../functions/functionlimit.md)|
 | List        | [listSize](../functions/functionlistsize.md)|
 | List        | [serializeList](../functions/functionserializelist.md)|
 | List        | [sort](../functions/functionsort.md)|

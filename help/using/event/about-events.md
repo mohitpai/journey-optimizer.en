@@ -10,15 +10,15 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 # About events{#about-events}
 
 >[!CONTEXTUALHELP]
->id="jo_events"
+>id="ajo_journey_event_list"
 >title="About events"
->abstract="An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions."
+>abstract="An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what Journey Optimizer will listen to in journeys to orchestrate the best next actions."
 
 The event configuration allows you to define the information [!DNL Journey Optimizer] will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event.
 
 >[!CAUTION]
 >
->Event configuration is **mandatory** and must be performed by a **technical user**.
+>Event configuration is **mandatory** and must be performed by a **data engineer**.
 
 You can configure two types of events:
 
@@ -43,7 +43,7 @@ For unitary events, there are two types of event ID:
 
    >[!CAUTION]
    >
-   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 5000 per seconds for a given Organization (ORG). It corresponds to Journey Optimizer SLAs. See this [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 5000 per seconds for a given Organization. It corresponds to Journey Optimizer SLAs. Refer to your Journey Optimizer licencing and [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. 
 

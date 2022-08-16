@@ -28,6 +28,11 @@ The list of personalized offers is accessible in the **[!UICONTROL Offers]** men
 >title="About offer attributes"
 >abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="Offer attributes"
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
+
 To create an **offer**, follow these steps:
 
 1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
@@ -52,6 +57,10 @@ To create an **offer**, follow these steps:
 
 1. Add constraints to set the conditions for the offer to be displayed. [Learn more](add-constraints.md)
 
+    >[!NOTE]
+    >
+    >When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
     ![](../assets/offer-constraints-example.png)
 
 1. Review and save the offer. [Learn more](#review)
@@ -61,6 +70,10 @@ To create an **offer**, follow these steps:
 Once eligibility rules and constraints have been defined, a summary of the offer properties displays.
 
 1. Make sure everything is configured properly.
+
+1. You can display information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+    ![](../assets/offer-summary-estimate.png)
 
 1. When your offer is ready to be presented to users, click **[!UICONTROL Finish]**.
 
@@ -122,9 +135,5 @@ This enables you to access detailed information for that offer. Select the **[!U
 ![](../assets/offer_information.png)
 
 ## Tutorial video {#video}
-
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

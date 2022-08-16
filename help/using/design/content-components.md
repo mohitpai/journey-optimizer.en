@@ -173,9 +173,9 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 ## Offer Decision {#offer-decision}
 
-Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
+Use the **[!UICONTROL Offer decision]** component to insert decisions into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
 
 Related topics:
 
-* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md).
-* [Add personalized offers into messages](deliver-personalized-offers.md).
+* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md)
+* [Add personalized offers into emails](deliver-personalized-offers.md)

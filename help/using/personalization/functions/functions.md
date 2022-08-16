@@ -7,17 +7,17 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 ---
-# Get started with Helper functions{#functionsL}
+# Get started with Helper functions{#functions}
 
 Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
 
 ➡️ [Learn how to use helper functions in this video](#video)
 
-Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
+Templating language is leveraged in helper functions available in personalization drop-down list of the Expression editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
-In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+In the [!DNL Journey Optimizer] Expression editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
 Select a category, to access sub-categories and functions.
 
@@ -27,50 +27,59 @@ Click the `...` icon to view the description of the function and add it to your 
 
 ## Functions{#functions-helper}
 
-### Array Functions
+### Aggregation and Array Functions
  
 <table>
     <tr>
         <td><a href="aggregation.md#average">Average</a></td><td>This function returns the arithmetic mean of all the selected values within the array</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>This function is used to determine if an item is a member of an array or list</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>This function returns the smallest of all the selected values within the array</td>
-    </tr>
-    <tr>
         <td><a href="aggregation.md#count">Count</a></td><td>This function returns the number of elements within the given array</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Includes</a></td><td>This function determines if an array or list contains a given item</td>
+        <td><a href="aggregation.md#count-only-null">Count Only Null</a></td><td>This function counts the number of null values in the list.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a></td><td>This function determines if an item is not a member of an array or list</td>
+        <td><a href="aggregation.md#count-with-null">Count With Null</a></td><td>This function counts all the elements of the list including null values</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#distinct">Distinct</a></td><td>This function gets values from an array or a list with duplicate values removed</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>This function determines if two arrays or lists have at least one common member</td>
-    </tr>
-    <tr>
-        <td><a href="arrays-list.md#subset">Subset of</a></td><td>This function determines if a specific array (array A) is a subset of another array (array B), i.e. if all elements in array A are elements of array B</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Distinct Count With Null</a></td><td>This function counts the number of different values including the null values</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">First item</a></td><td>This function returns the first item in an array or a list</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Last n in array</a></td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#sum">Sum</a></td><td>This function returns the sum of all the selected values within the array</td>
-    </tr>
-    <tr>
         <td><a href="arrays-list.md#first-n">First n in array</a></td><td>This function returns the first `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
+        <td><a href="arrays-list.md#in">In</a></td><td>This function is used to determine if an item is a member of an array or list</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#includes">Includes</a></td><td>This function determines if an array or list contains a given item</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>This function determines if two arrays or lists have at least one common member</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#last-n">Last n in array</a></td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
+    </tr>
+    <tr>
         <td><a href="aggregation.md#max">Maximum</a></td><td>This function returns the largest of all the selected values within an array</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>This function returns the smallest of all the selected values within the array</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#notin">Not in</a></td><td>This function determines if an item is not a member of an array or list</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#subset">Subset of</a></td><td>This function determines if a specific array (array A) is a subset of another array (array B), i.e. if all elements in array A are elements of array B</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>This function returns the sum of all the selected values within the array</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Superset of</a></td><td>This function determines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B</td>
@@ -99,10 +108,10 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="dates.md#format-date">Format date</a></td><td>This function formats a date time value</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Set days</a></td><td>This function sets the day of the month for the given date-time</td>
+        <td><a href="dates.md#set-days">Set Days</a></td><td>This function sets the day of the month for the given date-time</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Set days</a></td><td>This function sets the hour of the date-time</td>
+        <td><a href="dates.md#set-hours">Set Hours</a></td><td>This function sets the hour of the date-time</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">To UTC</a></td><td>This function converts a datetime to UTC</td>
@@ -127,7 +136,30 @@ Click the `...` icon to view the description of the function and add it to your 
     </tr>
 </table>
 
-**Object Functions**
+### Math Functions {#math-functions}
+
+<table>
+    <tr>
+        <td><a href="objects.md#absolute">Absolute</a></td><td>This function converts a number it's absolute value</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-down">Round down</a></td><td>This function rounds down a number</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-up">Round up</a></td><td>This function rounds up a number</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
+    </tr>
+</table>
+
+### Object Functions {#object-functions}
 
 <table>
     <tr>
@@ -176,7 +208,25 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#extractEmailDomain">Extract Email Domain</a></td><td>This function is used to extract the domain of an email address</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-host">Get url host</a></td><td>This function is used to get url host.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-path">Get url path</a></td><td>This function is used to get url path</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-protocol">Get url protocol</a></td><td>This function is used to get url protocol</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#index-of">Index Of</a></td><td>This function returns the position (in the first argument) of the first occurrence of the second parameter. Returns -1 if there is no match</td>
+    </tr>
+    <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>This function is used to check if a string or expression is empty.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>This function returns true if the string in the parameter is not empty.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#last-index-of">Last Index Of</a></td><td>This function returns the position (in the first argument) of the last occurrence of the second parameter. Returns -1 if there is no match.</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>This function removes white spaces from beginning of a string</td>
@@ -191,10 +241,19 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#lower">Lower Case</a></td><td>This function converts a string to lower case letters</td>
     </tr>
     <tr>
+        <td><a href="string.md#mask">Mask</a></td><td>This function is used to replace a part of a string with "X" characters.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#matches">Matches</a></td><td>This function is used to determine if a string matches a specific regular expression</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Not equals to</a></td><td>This function is used to determine if a string is not equal to the specified string</td>
+        <td><a href="string.md#md5">MD5</a></td><td>This function returns md5 hash of input string.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">Not equal to</a></td><td>This function is used to determine if a string is not equal to the specified string</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#not-equal-with-ignore-case">Not Equal With Ignore Case</a></td><td>This function compares two strings ignoring case.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Regular expression group</a></td><td>This function is used to extract specific information, based on the regular expression provided</td>
@@ -215,13 +274,40 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#startsWith">Starts with</a></td><td>This function is used to determine if a string starts with a specified substring</td>
     </tr>
     <tr>
+        <td><a href="string.md#string-to-date">String to date</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-integer">String to integer</a></td><td>This function Converts a string value into an integer value.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-number">String to number</a></td><td>This function is used to convert a string into number. It returns the same string as output for invalid input.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sub-string">Sub string</a></td><td>This function returns the sub-string of the string expression between the begin index and the end index.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#titleCase">Title Case</a></td><td>This function is used to capitalize first letters of each words of a string</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-bool">To Bool</a></td><td>This function Converts an argument value into a boolean value, depending on its type.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time">To Date Time</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>This function converts an argument value into a date time only value.. It returns the epoch date as output for invalid input.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Trim</a></td><td>This function removes white spaces from the beginning and from end of a string</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Upper case</a></td><td>This function converts a string to upper case letters</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-decode">Url decode</a></td><td>This function is used to decode a url encoded string.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-encode">Url encore</a></td><td>This function is used to url encode a string.</td>
     </tr>
 </table>
 
@@ -232,6 +318,9 @@ Helpers are detailed in [this page](helpers.md).
 
 
 <table>
+    <tr>
+        <td><a href="helpers.md#default">Default fallback value</a></td><td>This function allows to render a variable with default</td>
+    </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>This function is used to iterate over an array</td>
     </tr>
@@ -283,12 +372,6 @@ Boolean functions are used to perform boolean logic on different elements.
         <td><a href="operators.md#and">And</a></td><td>This operator creates a logical conjunction</td>
     </tr>
     <tr>
-        <td><a href="operators.md#not">If</a></td><td>This operator resolves an expression depending on whether a specified condition is true</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#not">Not</a></td><td>This operator creates a logical negation</td>
-    </tr>
-    <tr>
         <td><a href="operators.md#or">Or</a></td><td>This operator creates a logical disjunction</td>
     </tr>
 </table>
@@ -300,7 +383,7 @@ Comparison functions are used to compare between different expressions and value
 
 <table>
     <tr>
-        <td><a href="operators.md#and">Equals to</a></td><td>This operation checks if values are equal</td>
+        <td><a href="operators.md#equals">Equals</a></td><td>This operation checks if values are equal</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Greater than</a></td><td>This operator checks if first value is greater than the second value</td>
@@ -309,10 +392,10 @@ Comparison functions are used to compare between different expressions and value
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>This operator checks if first value is greater than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Not equals to</a></td><td>This operator checks if given expression not equal to give value</td>
+        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>This operator checks if first value is smaller than or equal to the second value</td>
+        <td><a href="operators.md#notequal">Not equals to</a></td><td>This operator checks if given expression not equal to give value</td>
     </tr>
 </table>
 

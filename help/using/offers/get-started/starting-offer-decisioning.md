@@ -1,6 +1,6 @@
 ---
 title: Get started with Decision Management
-description: Get started with Decision Management. Learn more about its architecture, offers and decisions, as well as common use cases it allows you to perform
+description: Learn how Adobe Journey Optimizer can help you send your customers the right offer at the right time
 feature: Offers
 topic: Integrations
 role: User
@@ -11,9 +11,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 
 Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers.
 
->[!NOTE]
->
->If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, all the Decision Management features described in this section also apply to you.
+Offer Decisioning makes personalization easy with a central library of marketing offers and a decision engine that applies rules and constraints to rich, real-time profiles created by Adobe Experience Platform to help you send your customers the right offer at the right time.
 
 The Decision Management capability consists in two main components:
 
@@ -30,6 +28,11 @@ Benefits include:
 
 ➡️ [Learn more on Decision Management in these videos](#video)
 
+
+>[!NOTE]
+>
+>If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, all the Decision Management features described in this section also apply to you.
+
 ## About offers and decisions {#about-offers-and-decisions}
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
@@ -38,7 +41,7 @@ It is created using the **Offer Library**, which provides a central offer catalo
 
 ![](../assets/offer_structure.png) 
 
-Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions** (previously known as 'offer activities').
+Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions**.
 
 Decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 

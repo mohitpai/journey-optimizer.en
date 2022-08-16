@@ -18,6 +18,7 @@ The journey **[!UICONTROL Global report]** page will be displayed with the follo
 * [Journey](#journey-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 The journey **[!UICONTROL Global report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
 
@@ -55,11 +56,11 @@ The **[!UICONTROL Top Actions]** table contains the data available for **[!UICON
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-For a detailed report on a specific email delivery, refer to the [Email global report](#email-global-report) section.
-
 ![](assets/global_report_14.png)
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -81,7 +82,7 @@ The **[!UICONTROL Email - Tracking statistics]** contains the available data for
 
 * **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
 
-* **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
+* **[!UICONTROL Unique Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
@@ -129,7 +130,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -142,7 +143,6 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-<!--
 ![](assets/global_report_21.png)
 
 >[!NOTE]
@@ -168,17 +168,16 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
 * **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
 
 ## Push tab {#push-global}
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
 
-For a detailed report on a specific push delivery, refer to this the [Push Global report](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
+
+* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -222,7 +221,7 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to this [page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -244,3 +243,35 @@ The **[!UICONTROL Excluded reasons]** graph and table display the different reas
 ![](assets/global_report_19.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
+
+The SMS **[!UICONTROL Global report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md#modify-dashboard).
+
+## SMS tab {#sms-global}
+
+![](assets/report_sms_global.png)
+
+The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL SMS summary]** widget details the main information relative to your message with a graph:
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.

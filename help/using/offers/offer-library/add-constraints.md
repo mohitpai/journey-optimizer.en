@@ -15,9 +15,19 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 >abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
 
 >[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+
+>[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="About offer priority"
 >abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Set priority"
+>abstract="The priority helps define the priority of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers."
 
 Constraints allow you to define the conditions under which an offer will be displayed.
 
@@ -44,6 +54,11 @@ For example, if you set the following constraints:
 * The offer will be presented only once per user accross all placements.
 
 ## Eligibility {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Define eligibility"
+>abstract="By default, any profile will be eligible to be presented the offer, but you can use segments or decision rules to restrict the offer to specific profiles."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,6 +90,10 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
     >
     >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
+When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+![](../assets/offer-eligibility-segment-estimate.png)
+
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
 To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
@@ -93,7 +112,7 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
     Learn more on decision rules in [this section](creating-decision-rules.md).
 
-## Frequency capping {#capping}
+## Capping {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -102,8 +121,8 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
+>title="Use capping"
+>abstract="To avoid over-solicitating your customers, use capping to define the maximum number of times an offer can be presented."
 
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
@@ -117,7 +136,7 @@ To set capping, follow the steps below.
 
     >[!NOTE]
     >
-    >The number must be greater than 0.
+    >The number must be an integer greater than 0.
 
 1. Specify if you want the capping to be applied accross all users or to one specific profile:
 
@@ -131,15 +150,15 @@ To set capping, follow the steps below.
 
         For example, if you are a bank with a 'Platinum credit card' offer, you don't want this offer to be shown more than 5 times per profile. Indeed, you believe that if the user has seen the offer 5 times and not acted on it, they have a higher chance to act on the next best offer.
 
-1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping to **[!UICONTROL All placements]** or **[!UICONTROL Per placement]**.
+1. If you have defined several [representations](#representations) for your offer, specify whether you want to apply capping **[!UICONTROL Across all placements]** or **[!UICONTROL For each placement]**.
 
     ![](../assets/offer-capping-placement.png)
 
-    * **[!UICONTROL All placements]**: capping counts will total all decisions across the placements associated with the offer.
+    * **[!UICONTROL Across all placements]**: capping counts will total all decisions across the placements associated with the offer.
     
         For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile across all placements**, then each profile could receive the offer up to 2 times in total, regardless of the placement mix.
 
-    * **[!UICONTROL Per placement]**: capping counts will apply decision counts for each placement separately.
+    * **[!UICONTROL For each placement]**: capping counts will apply decision counts for each placement separately.
     
         For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile for each placement**, then each profile could receive the offer up to 2 times for the email placement, and an additional 2 times for the web placement.
 
@@ -157,8 +176,8 @@ The number of times an offer is proposed is calculated at email preparation time
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Changing the date may have an impact on capping"
->abstract="If capping is applied to this offer, it may be impacted when you change the start or end date."
+>title="Changing dates can impact capping"
+>abstract="If capping is applied to this offer, it can be impacted when you change the start or end date."
 
 You must proceed with care when changing the date of an offer, because this can have an impact on capping if the following conditions are met:
 
@@ -170,7 +189,7 @@ You must proceed with care when changing the date of an offer, because this can 
 >
 >Learn how to define an offer's date in [this section](creating-personalized-offers.md#create-offer).
 
-Frequency capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
+Capping per profile stores the capping counts on each profile. When you change the start and end date of an approved offer, the capping count for some profiles could be impacted according to the different scenarios described below.
 
 ![](../assets/offer-capping-change-date.png)
 

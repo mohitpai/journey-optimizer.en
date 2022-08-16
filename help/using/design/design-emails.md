@@ -19,6 +19,8 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 
     * **Design your email from scratch** through the email designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your email content or use built-in templates [in this section](create-email-content.md).
 
+    * **Copy from existing email** from a list of sample templates. 
+
     * **Code or paste raw HTML** directly in the email designer. Learn how to code your own content [in this section](code-content.md).
 
     * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content [in this section](existing-content.md).

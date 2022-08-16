@@ -26,11 +26,11 @@ The Data Source configuration allows you to define a connection to a system to r
 
 Events allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey.
 
-In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). [Learn more](../../using/event/about-events.md)
+In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). [Learn more](../../using/event/about-events.md)
  
 ## Actions {#actions}
 
-Journey Optimizer message capabilities are built-in: you only need to design your content and publish your message. If you are using a third-party system to send your messages, you can create a custom action. [Learn more](../../using/action/action.md)
+Journey Optimizer message capabilities are built-in: you only need to add a channel action activity to your journey. If you are using a third-party system to send your messages, you can create a custom action. [Learn more](../../using/action/action.md)
 
 ## Browse through Adobe Experience Platform fields {#friendly-names-display}
 

@@ -86,7 +86,7 @@ Your Campaign instance needs to be provisioned for this integration. The Transac
 
     ![](assets/accintegration-uc-10.png)
 
-1. Add an **End** activity and test your journey.
+1. Test your journey.
 
     ![](assets/accintegration-uc-11.png)
 

@@ -29,7 +29,7 @@ The purpose of this use case is to create a journey to ramp up your email delive
 
       You can gradually increase this limit up to the total number of your subscribers.
 
-1. Add a **[!UICONTROL Message]** activity to the nominal path after the **[!UICONTROL Condition]** activity.
+1. Add an **[!UICONTROL Email]** action activity to the nominal path after the **[!UICONTROL Condition]** activity.
 
     ![](assets/ramp-up-deliveries-message.png)
 

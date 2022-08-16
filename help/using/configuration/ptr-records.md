@@ -9,15 +9,20 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
 # PTR records {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="Subdomains' PTR records"
+>abstract="A pointer record (PTR) is a type of DNS record that provides the domain name linked to an IP address, which helps the receiving mail servers to verify the senders' IP addresses. Only edit a PTR record after due considerations and discussion with your deliverability expert."
+
 ## About PTR records {#about-ptr-records}
 
 A pointer record (PTR) is a type of Domain Name System (DNS) record that provides the domain name linked to an IP address.
 
-With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names with which the servers connect.
+With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names that the servers connect to.
 
 ## Access your subdomains' PTR records {#access-ptr-records}
 
-Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](assets/ptr-records.png)
 
@@ -32,6 +37,10 @@ You can open a PTR record from the list to display the associated subdomain name
 ## Edit a PTR record {#edit-ptr-record}
 
 You can modify a PTR record to edit the subdomain associated with an IP address.
+
+>[!CAUTION]
+>
+>Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.<!--why?-->
 
 >[!NOTE]
 >
@@ -70,18 +79,22 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
     >[!NOTE]
     >
     >If you get this message: "Please create forward DNS first and then try again", follow the steps below:
-    >   * Check on the DNS provider if the forward DNS record was successfully created. 
+    >   * Check on the DNS provider if the forward DNS record was successfully created.
     >   * Records across the DNS may not synchronize immediately. Wait for a few minutes, and try again.
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
 
 ## Check PTR record update details {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
+Once you confirmed the PTR record edit, the **[!UICONTROL Processing]** icon displays next to the name of the PTR record in the list.
 
 ![](assets/ptr-record-updating.png)
 
-To check the PTR record update details, click the **[!UICONTROL Updating]** or **[!UICONTROL Recent updates]** icon.
+>[!NOTE]
+>
+>The [update processing](#processing) can take up to 3 hours.
+
+To check the PTR record update details, click the icon next to it. Learn more on the statuses associated with the different icons in [this section](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -99,7 +112,7 @@ A PTR record update can have the following statuses:
 
 ### Processing {#processing}
 
-Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. This can take up to 3 hours.
 
 >[!NOTE]
 >

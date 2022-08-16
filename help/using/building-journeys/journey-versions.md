@@ -15,11 +15,15 @@ When you search for a journey, newest versions appear at the top of the list the
 
 ![](assets/journeyversions1.png)
 
+>[!NOTE]
+>
+>In most cases, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](../building-journeys/journey-end.md)
+
 If you need to modify to a live journey, you need to create a new version of your journey.
 
 >[!NOTE]
 >
->To learn more on journey versions limitations, see [this page](../start/limitations.md#journey-versions-limitations)
+>To learn more on journey versions guardrails and limitations, see [this page](../start/guardrails.md#journey-versions-limitations)
 
 1. Open the latest version of your live journey, click **[!UICONTROL Create a new version]** and confirm.
 

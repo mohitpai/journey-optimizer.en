@@ -10,7 +10,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 # About data sources {#about-data-sources}
 
 >[!CONTEXTUALHELP]
->id="jo_datasources"
+>id="ajo_journey_data_source_list"
 >title="About data sources"
 >abstract="The data source configuration is always performed by a technical user. The data source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys, for: condition definition, parameter and personalization data in actions, custom wait definition, time zone definition."
 
@@ -23,7 +23,7 @@ The data source configuration allows you to define a connection to a system to r
 
 ➡️ [Discover this feature in video](#video)
 
-This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by a message activity that only uses data from the event, there is no need to configure a data source.
+This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by a channel action activity that only uses data from the event, there is no need to configure a data source.
 
 There are two types of data sources:
 
@@ -36,7 +36,7 @@ For each data source, you define the information to retrieve using field groups.
 >
 >Schema relationships are now supported for data sources.
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target="_blank"}.
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## How-to video {#video}
 

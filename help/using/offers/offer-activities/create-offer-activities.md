@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 ---
 # Create decisions {#create-offer-activities}
 
-Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
+Decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
 ➡️ [Learn how to create offer activities in this video](#video)
 
@@ -64,7 +64,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
     * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
@@ -81,6 +81,10 @@ Before creating a decision, make sure that the components below have been create
         ![](../assets/activity_constraint_rule.png)
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
+
+1. When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+    ![](../assets/activity_constraint-estimate.png)
 
 1. Define the ranking method you want to use to select the best offer for each profile.
 
@@ -112,26 +116,6 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_new-scope.png)
 
-### Using segments vs decision rules {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
-
-Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
-
-* **Segments**
-
-    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
-
-    Learn more on segments in [this section](../../segment/about-segments.md).
-
-* **Decision rules**
-    
-    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
-
-    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
-
 ## Add a fallback offer {#add-fallback}
 
 Once you defined the decision scopes, define the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints.
@@ -152,7 +136,7 @@ If everything is configured properly, a summary of the decision properties displ
 
     ![](../assets/review-decision.png)
 
-    You can expand or collapse each placement. You can also preview the available offers, eligibility and ranking details for each placement.
+1. You can expand or collapse each placement. You can preview the available offers, eligibility and ranking details for each placement. You can also display information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
     ![](../assets/review-decision-details.png)
 
@@ -221,6 +205,4 @@ Learn how to create offer activities in Offer Decisioning.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+

@@ -18,14 +18,12 @@ In this example, the **[!UICONTROL Consent and Preference Details]** field group
 To configure this journey, follow these steps:
 
 1. Create a journey that starts with a **[!UICONTROL Read]** activity. [Read more](journey-gs.md).
-1. Add a **[!UICONTROL Message]** activity, with an email, to the journey. [Read more](journeys-message.md).
-1. In the **[!UICONTROL Email parameters]** section of the **[!UICONTROL Message]** activity settings, replace the default email address (`PersonalEmail.adress`) with the email address of the list subscribers:
+1. Add an **[!UICONTROL Email]** action activity to the journey. [Read more](journeys-message.md).
+1. In the **[!UICONTROL Email parameters]** section of the **[!UICONTROL Email]** activity settings, replace the default email address (`PersonalEmail.adress`) with the email address of the list subscribers:
 
    1. Click the **[!UICONTROL Enable parameter override]** icon at the right of the **[!UICONTROL Address]** field, then click the **[!UICONTROL Edit]** icon.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      To be able to modify the email address, you must have previously published the message.
 
    1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](expression/expressionadvanced.md).
 
@@ -49,7 +47,3 @@ To configure this journey, follow these steps:
       ![](assets/message-to-subscribers-uc-2.png)
 
     1. In the **[!UICONTROL Add an expression]** dialog box, click **[!UICONTROL Ok]**.
-
-      ![](assets/message-to-subscribers-uc-3.png)
-
-1. End the journey with an **[!UICONTROL End]** activity.

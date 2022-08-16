@@ -19,15 +19,24 @@ The goal of this example is to push an event to [!DNL Journey Optimizer] every t
 
 For this use case, the following prerequisites are needed:
 
-* create and design a push notification message, without publishing it. Refer to this [section](../messages/get-started-content.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
-* create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-activities/create-offer-activities.md).
+* create a decision, refer to this [section](../offers/offer-activities/create-offer-activities.md).
 
-## Step 1 - Add personalization on profile {#add-perso}
+## Step 1 - Create the journey {#create-journey}
 
-1. Click the **[!UICONTROL Message]** menu, and select your message.
+1. Click the **[!UICONTROL Journeys]** menu and create a new journey.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. Add your entry event, and a **Push** action activity.
+
+   ![](assets/perso-uc5.png)
+
+1. Configure and design your push notification message. Refer to this [section](../messages/get-started-content.md).
+
+## Step 2 - Add personalization on profile {#add-perso}
+
+1. In the **Push** activity, click **Edit content**.
 
 1. Click the **Title** field.
 
@@ -37,45 +46,15 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >Leave the message in draft. Do not publish it yet.
-
-## Step 2 - Create the journey {#create-journey}
-
-1. Click the **[!UICONTROL Journeys]** menu and create a new journey.
-
-   ![](assets/perso-uc4.png)
-
-1. Add your entry event, a **Message** and an **End** activity.
-
-   ![](assets/perso-uc5.png)
-
-1. In the **Message** activity, select the message previously created. Click **Ok**.
-
-   ![](assets/perso-uc6.png)
-
-   A message is displayed to inform you that the entry event data and journey properties have been passed to the message.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >The message appears with a warning icon. This is because the message is not published yet.
-
 ## Step 3 - Add personalization on contextual data {#add-perso-contextual-data}
 
-1. From the **Message** activity, click the **Open the message** icon. The message opens in a new tab.
-
-   ![](assets/perso-uc8.png)
-
-1. Click the **Title** field.
+1. In the **Push** activity, click **Edit content** and click the **Title** field.
 
    ![](assets/perso-uc9.png)
 
 1. Select the **Contextual attributes** menu. Contextual attributes are only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
-   * **Events**: this category regroups all fields from the event(s) placed before the **Message** activity in the journey.
+   * **Events**: this category regroups all fields from the event(s) placed before the channel action activity in the journey.
    * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Learn more in [Journey Orchestration documentation](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -92,7 +71,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc13.png)
 
-1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
+1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision to add it to the body.  
 
    ![](assets/perso-uc14.png)
 
@@ -100,13 +79,9 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc15.png)
 
-1. Now, publish the message. 
-
-   ![](assets/perso-uc16.png)
-
 ## Step 4 - Test and publish the journey {#test-publish}
 
-1. Open the journey again. If the journey is already open, make sure you refresh the page. Now that the message is published, you can see that there is no error in the journey. Click the **Test** button, then click **Trigger an event**.
+1. Click the **Test** button, then click **Trigger an event**.
 
    ![](assets/perso-uc17.png)
 

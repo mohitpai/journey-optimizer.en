@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 ---
 # Create an SMS message {#create-sms}
@@ -14,41 +12,66 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS creation"
->abstract="Add your text message and start personalizing it with the Expression Editor."
+>abstract="Add your text message and start personalizing it with the Expression editor."
 
+Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
->[!CAUTION]
+Once you [added an SMS](get-started-content.md) activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message.
+
+>[!AVAILABILITY]
 >
-> The use of the SMS channel is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-Once you [created a message](get-started-content.md), use the **[!UICONTROL SMS]** tab to define the settings and content for the SMS channel.
+![](assets/sms-edit-content.png)
 
-![](assets/sms_1.png)
+If this is your first time creating an SMS message, make sure the SMS channel has been configured. [Learn more](../configuration/sms-configuration.md).
+
+## Define your SMS content{#sms-content}
 
 To start personalizing your SMS message, follow these steps:
 
-1. Click the **[!UICONTROL Add text message]** field to open the Expression editor.
+1. Click the **[!UICONTROL Message]** field to open the Expression editor.
 
-    ![](assets/sms_3.png)
+    ![](assets/sms-content.png)
 
-1. Use the Expression Editor to define content and personalization data. Learn more about personalization in the Expression Editor in [this section](../personalization/personalize.md)
+1. Use the Expression editor to define content. You can use any attribute to personalize content, such as the profile name or city. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md).
 
-    >[!NOTE]
-    >
-    > SMS messages are limited to a length of 160 characters.
+1. Click **[!UICONTROL Save]** and check your message in the preview.
 
-    ![](assets/sms_2.png)
+    ![](assets/sms-content-preview.png)
 
-1. Click **[!UICONTROL Save]** when your personalized message is ready.
 
-1. Click **[!UICONTROL Preview]** to visualize how your SMS message will be displayed on mobile devices. For more on this, refer to [this section](../design/preview.md).
+## Validate your SMS{#sms-preview}
 
-1. Once your message is ready, you can publish it to make it available for execution with the **[!UICONTROL Publish]** button. This action will publish the new version of the message that will be used for the next executions in your journeys.
+Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
 
-Your SMS message can now be used in a journey. [Learn how to create journeys](../building-journeys/journey-gs.md).
+To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
 
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
+
+![](assets/sms-alert-button.png)
+
+
+## Opt-in and opt-out{#sms-opt-in-out}
+
+For all marketing messages, the SMS must contain a way for the recipients to easily unsubscribe. Once unsubscribed, the profiles are automatically removed from the audience of future marketing messages. Adding an unsubscription link is not mandatory for transactional messages.
+
+SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
+
+To learn more on how native inbound keyword support (start, stop and unstop) works for SMS, refer to the following video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+<!--
+## How-to video
+
+Learn how to configure, author, and include SMS messaging into your customer journeys.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
+-->
 **Related topics**
 
 * [Configure SMS channel](../configuration/sms-configuration.md)
+* [SMS report](../reports/journey-global-report.md#sms-global)
 * [Create a new message](get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

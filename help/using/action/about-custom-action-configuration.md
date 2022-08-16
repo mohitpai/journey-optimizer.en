@@ -21,7 +21,7 @@ Custom actions are additional actions defined by technical users and made availa
 
 ## Limitations{#custom-actions-limitations}
 
-Custom actions come with a few limitations listed in [this page](../start/limitations.md).
+Custom actions come with a few limitations listed in [this page](../start/guardrails.md).
 
 In custom action parameters, you can pass a simple collection, as well as a collection of objects. Learn more about collection limitations in [this page](../building-journeys/collections.md#limitations). 
 
@@ -78,6 +78,11 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
+
+    >[!NOTE]
+    >
+    > The **DELETE** method is not supported. If you need to update an existing resource, select the **PUT** method.
+
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
    1. To add a header field, click **[!UICONTROL Add a header field]**.
    1. Enter the key of the header field.
@@ -99,7 +104,7 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
     >[!NOTE]
     >
-    >Headers are validated according to field parsing rules. [Learn more](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >Headers are validated according to field parsing rules. Learn more in [this documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Define the action parameters {#define-the-message-parameters}
 
@@ -111,13 +116,13 @@ In the **[!UICONTROL Action parameters]** section, paste an example of the JSON 
 
 >[!NOTE]
 >
->Field names in the payload cannot contain a "." character. They cannot start with a "$" character.
+>The payload example cannot contain null values. Field names in the payload cannot contain a "." character. They cannot start with a "$" character.
 
 You will be able to define the parameter type (e.g.: string, integer, etc.).
 
 You will also have a choice between specifying if a parameter is a constant or a variable:
 
 * Constant means that the value of the parameter is defined in the action configuration pane by a technical persona. The value will be always the same across journeys. It will not vary and the marketer won’t see it when using the custom action in the journey. It could be for example an ID the third-party system expects. In that case, the field on the right of the toggle constant/variable is the value passed.
-* Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
+* Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from Adobe Experience Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
 ![](assets/customactionpayloadmessage2.png)

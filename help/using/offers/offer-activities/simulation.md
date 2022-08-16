@@ -19,7 +19,7 @@ This enables you to test and refine various versions of your offers with no impa
 
 >[!NOTE]
 >
->This capability simulates a single request to the [!DNL Decisions] API. Learn more on [Deliver offers using the Decisions API](../api-reference/decisions-api/deliver-offers.md).
+>This capability simulates a single request to the [!DNL Decisioning] API. Learn more on [Deliver offers using the Decisioning API](../api-reference/offer-delivery-api/decisioning-api.md).
 
 To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
 
@@ -35,11 +35,17 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ## Select test profiles {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="Add test profiles"
+>abstract="You can add a test profile by selecting an identity namespace and a corresponding identity value. You must have test profiles already available to be able to use them for simulation."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Create test profiles"
+
 First you need to select the test profiles that you are going to use for simulation. 
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../../segment/creating-test-profiles.md).
+>You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../../segment/creating-test-profiles.md).
 
 1. Click **[!UICONTROL Manage profile]**.
 
@@ -124,7 +130,7 @@ To edit the default settings for your simulations, follow the steps below.
 
     >[!NOTE]
     >
-    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
+    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisioning] API request properties in [this section](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
 

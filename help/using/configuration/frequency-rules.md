@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 ---
 # Message frequency rules {#frequency-rules}
@@ -21,17 +19,25 @@ To do this, you can use a frequency rule which will cap the number of messages s
 >
 >Message frequency rules are different from opt-out management, which allows users to unsubscribe from receiving communications from a brand. [Learn more](../messages/consent.md#opt-out-management)
 
+➡️ [Discover this feature in video](#video)
+
 ## Access rules {#access-rules}
 
 Rules are available from the **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. All rules are listed, sorted by modification date.
 
-![](assets/message-rules-access.png)
-
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
-
 Use the filter icon to filter on the category, status, and/or channel. You can also search on the message label.
 
 ![](assets/message-rules-filter.png)
+
+### Permissions{#permissions-frequency-rules}
+
+To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
+
+Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
+
+![](assets/message-rules-access.png)
+
+Learn more about permissions in [this section](../administration/high-low-permissions.md).
 
 ## Create a rule {#create-new-rule}
 
@@ -69,15 +75,15 @@ To create a new rule, follow the steps below.
 
 1. Select several channels if you want to apply capping across all selected channels as a total count.
 
-   For example, set capping to 15 and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
+   For example, set capping to 15, and select both the email and push channels. If a profile has already received 10 marketing emails and 5 marketing push notifications, this profile will be excluded from the very next delivery of any marketing email or push notification.
 
-1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added in the rule list, with the **[!UICONTROL Draft]** status.
+1. Click **[!UICONTROL Save as draft]** to confirm the rule creation. Your message is added to the rule list, with the **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
 
 ## Activate a rule {#activate-rule}
 
-When created, a message frequency rule has the **[!UICONTROL Draft]** status and is not impacting yet any message. To enable it, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
+When created, a message frequency rule has the **[!UICONTROL Draft]** status and is not yet impacting any message. To enable it, click the ellipsis next to the rule and select **[!UICONTROL Activate]**.
 
    ![](assets/message-rules-activate.png)
 
@@ -85,7 +91,7 @@ Activating a rule will impact any messages it applies to on their next execution
 
 >[!NOTE]
 >
->You do not need to modify or republish messages or journeys for a rule to take effect.
+>It can take up to 10 minutes for a rule to be fully activated. You do not need to modify messages or republish journeys for a rule to take effect.
 
 To deactivate a message frequency rule, click the ellipsis next to the rule and select **[!UICONTROL Deactivate]**.
 
@@ -101,33 +107,32 @@ The rule's status will change to **[!UICONTROL Inactive]** and the rule will not
  
 To apply a frequency rule to a message, follow the steps below.
 
-1. Create a message. [Learn more](../messages/get-started-content.md#create-new-message)
+1. [Create a message](../messages/get-started-content.md#create-new-message) by selecting one of the channels you defined for your rule.
 
 1. Select the category you defined for the [rule you created](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >Currently only the **[!UICONTROL Marketing]** category is available for message frequency rules.
 
-1. Select the channel(s) of your choice for your message.
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
 
-1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
+   >[!NOTE]
+   >
+   >Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
-   ![](assets/message-rules-msg-link.png)
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
-   A new tab will open to display the matching message frequency rules.
+1. You can view the number of profiles excluded from delivery in the [Global report](../reports/global-report.md), and in the [Live report](../reports/live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 
-1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
-
-All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-You can view the number of profiles excluded from delivery in the [Live and Global views](../reports/message-monitoring.md), and in the [email Live report](../reports/email-live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
+>[!NOTE]
+>
+>Several rules can apply to the same channel, but once the lower cap is reached, the profile will be excluded from the next deliveries.
 
 ## Example: combine several rules {#frequency-rule-example}
 
@@ -135,7 +140,7 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
 
-   * Select all channels (Email, Push).
+   * Select Email and Push channels.
    * Set capping to 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -149,20 +154,20 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. Save and [activate](#activate-rule) the rule.
 
-1. Create a message. [Learn more](../messages/get-started-content.md#create-new-message)
+1. Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../messages/get-started-content.md#create-new-message)
 
-1. Select the **[!UICONTROL Marketing]** category.
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. Select the **[!UICONTROL Email]** and **[!UICONTROL Push Notification]** channels.
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
-
-1. [Design](../design/design-emails.md) and [publish](../messages/publish-manage-message.md) your message.
+1. Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../messages/get-started-content.md#create-new-message)
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.
+
+>[!NOTE]
+>
+>When testing frequency rules, it is recommended to use a newly created [test profile](../segment/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
+
+## How-to video {#video}
+
+Learn how to create, activate, test, and report on frequency rules.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

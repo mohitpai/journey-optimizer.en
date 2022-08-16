@@ -16,7 +16,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on. 
 
-## Get started with journey design 
+## Get started with journey design {#gs-journey-design}
 
 The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** and **[!UICONTROL Actions]**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. 
 
@@ -46,7 +46,7 @@ Depending on the journey's status, you can perform different actions on your jou
 
 ![](assets/journey41.png)
 
-## Starting your journey
+## Start your journey {#start-your-journey}
 
 When you design your journey, the first question you want to ask is how profiles will enter the journey. There are two possibilities:
 
@@ -54,7 +54,7 @@ When you design your journey, the first question you want to ask is how profiles
 
 **Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
 
-## Define the next steps
+## Define the next steps{#define-next-steps}
 
 After your first event or Read Segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
 
@@ -76,15 +76,17 @@ The other activities allow you to add conditions to your journey to define sever
 
 **Actions**
 
-You will find here the **Message** activity which allows you to include a message designed in [!DNL Journey Optimizer]. [Learn more about the Message activity](journeys-message.md)
+You will find here the channel action activity which allows you to include a message designed in [!DNL Journey Optimizer]. [Learn more about the channel action activities](journeys-message.md)
 
 You will also find the custom actions that you've configured to send messages with third-party systems. Learn more in this [section](about-journey-activities.md#action-activities).
 
-## The use of paths in the canvas {#paths}
+## Add alternative paths{#paths}
 
-Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [this page](../building-journeys/journey-gs.md#change-properties) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+You can define a fallback action in case of an error or timeout for the following journey activities: **[!UICONTROL Condition]** and **[!UICONTROL Action]**.
 
- ![](assets/journey42.png)
+To add a fallback action for an activity, select the **[!UICONTROL Add an alternative path in case of a timeout or an error]** box in the activity properties: another path is added after the activity. The timeout duration is defined by Admin users in the [journey properties](../building-journeys/journey-gs.md#change-properties). For example, if an email takes too long to be sent or is in error, you can decide to send a push notification.
+
+![](assets/journey42.png)
 
 Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
@@ -98,7 +100,7 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
 
  ![](assets/canvas-disconnected.png)
 
-## Copying and pasting activities {#copy-paste}
+## Copy and paste activities {#copy-paste}
 
 You can copy one or several activities of a journey and paste them either in the same journey or a different one. This allows you to save time if you want to reuse numerous activities that have been already configured in a previous journey. 
 

@@ -35,7 +35,7 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [message preset level](../configuration/message-presets.md#email-type) and when [creating the message](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](get-started-content.md#create-new-message).
 
 ### External opt-out {#opt-out-external-lp}
 
@@ -49,7 +49,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Host it on the third-party system of your choice.
 
-1. [Create a message](get-started-content.md) in [!DNL Journey Optimizer].
+1. [Create a message](get-started-content.md) in a journey.
 
 1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar.
 
@@ -64,8 +64,6 @@ You first need to add an unsubscribe link into a message. To do this, follow the
     ![](assets/opt-out-link-url.png)
 
 1. Click **[!UICONTROL Save]**.
-
-1. Save your content and [publish your message](publish-manage-message.md).
 
 #### Implement an API call for opt-out {#opt-out-api}
 
@@ -155,7 +153,7 @@ To add an opt-out link in your email, follow the steps below.
 
     >[!NOTE]
     >
-    >If you enabled the **List-Unsubscribe** option at the message preset level, this URL will also be used when users click the unsubscribe link in the email header. [Learn more](#unsubscribe-header)
+    >If you enabled the **List-Unsubscribe** option at the channel surface level, this URL will also be used when users click the unsubscribe link in the email header. [Learn more](#unsubscribe-header)
 
     ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -165,15 +163,15 @@ To add an opt-out link in your email, follow the steps below.
 
 Once your message is sent through a [journey](../building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
-### Unsubscribe link in message header {#unsubscribe-header}
+### Unsubscribe link in email header {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Add unsubscribe link to email header"
->abstract="Enable List-Unsubscribe to add an unsubscribe link to the email header. To set an unsubscribe URL, insert a one-click opt-out link into the email message content."
+>abstract="Enable List-Unsubscribe to add an unsubscribe link to the email header. To set an unsubscribe URL, insert a one-click opt-out link into the email content."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="One-click opt-out"
 
-If the [List-Unsubscribe option](../configuration/message-presets.md#list-unsubscribe) is enabled at the message preset level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
+If the [List-Unsubscribe option](../configuration/channel-surfaces.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
 
 For example, the unsubscribe link will display like this in Gmail:
 
@@ -183,7 +181,7 @@ For example, the unsubscribe link will display like this in Gmail:
 >
 >To display the unsubscribe link in the email header, the recipients' email client must support this feature.
 
-The unsubscribe address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding message preset. [Learn more](../configuration/message-presets.md#list-unsubscribe).
+The unsubscribe address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the corresponding channel surface. [Learn more](../configuration/channel-surfaces.md#list-unsubscribe).
 
 To set a personalized unsubscribe URL, insert a one-click opt-out link into the email message content and enter the URL of your choice. [Learn more](#one-click-opt-out)
 
@@ -204,3 +202,10 @@ Depending on the email client, clicking the unsubscribe link from the header can
 Push recipients can unsubscribe through their devices themselves.
 
 For example, upon downloading or when using your app, they can select to stop notifications. Similarly, they can change the notification settings through the mobile operating system.
+
+## SMS opt-out management {#sms-opt-out-management}
+
+In accordance with the industry standards and regulations, SMS recipients can reply with opt-in and opt-out keywords.
+Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
+
+For more information on SMS opt-out, refer to this [page](../messages/create-sms.md#opt-in-and-opt-out).
