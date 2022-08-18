@@ -1,5 +1,5 @@
 ---
-title: Configure an In-App message
+title: Create an In-App message
 description: Learn how to create an In-App message in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -8,9 +8,23 @@ level: Beginner
 ---
 # Create an In-App message {#create-in-app}
 
-Once you [created a message](create-message.md) with the In-App channel selected as **[!UICONTROL Channel selection]**, you can define the settings and content of the In-App message from the **[!UICONTROL In-App]** tab.
-
 ![](assets/.png)
+
+Create campaign
+
+Select your Campaign type
+
+Select In-App message then your In-app message surface.
+
+Click Create
+
+Edit your properties to modify your Campaign's title and description
+
+Select actions to activate as part of this campaign
+
+Target your audience.
+
+You can now start editing your content.
 
 ## Message Layout {#message-layout}
 
@@ -50,7 +64,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ### Header and Body {#title-body}
 
-To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor in this section
+To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section]().
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 
@@ -59,15 +73,12 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 * the **[!UICONTROL Color]**
 * the **[!UICONTROL Alignment]**
 
-#### Advanced formatting mode {#title-body-advanced}
-
 ### Buttons {#buttons}
 
-Button layout Vertical / horizontal
+Add buttons for users to interact with your In-App message.
 
-Button #1 text (primary)
-Interact event
-Target
+To personalize your button, edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
+Choose your Interact event and your Target which will define your button's action after users interacted with it.
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 
@@ -77,8 +88,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 * the **[!UICONTROL Alignment]**
 * the **[!UICONTROL Button style]**
 * the **[!UICONTROL Button color]**
-
-#### Advanced formatting mode {#buttons-advanced}
 
 ## Settings tab {#settings-tab}
 
@@ -90,30 +99,22 @@ Background color
 
 ### Layout {#message}
 
-Background color
-Opacity
-Background image
+Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]** 
 
 ### Message {#message}
 
 UI takeover
 
-Message
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further personalize your message with the following options:
 
-Customize gestures
-
-UI takeover
-
-Customize UI takeover
-
-Customize size
-
-Customize position
-
-Customize animation
-
-Message round corner
-Corner radius
+* **[!UICONTROL Customize gestures]**
+* **[!UICONTROL UI takeover]**
+* **[!UICONTROL Customize UI takeover]**
+* **[!UICONTROL Customize size]**
+* **[!UICONTROL Customize position]**
+* **[!UICONTROL Customize animation]**
+* **[!UICONTROL Message round corner]**
+* **[!UICONTROL Corner radius]**
 
 **Related topics**
 
