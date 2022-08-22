@@ -40,6 +40,7 @@ solution: Journey Optimizer
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
+    + [Reporting configuration](using/campaigns/reporting-configuration.md)  
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
