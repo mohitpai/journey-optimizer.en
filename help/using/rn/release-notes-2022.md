@@ -7,6 +7,47 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
+
+## July 2022 Release {#july-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>New in-line messaging flow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer provides a new flow for message authoring in Journeys. In-line messaging will save users significant time and streamline the workflow process to create and deliver an email, a push notification or an SMS in Journey Optimizer. By removing Messages as a separate step and instead making them editable in-line as part of an action on the Journey Canvas, users will need to click fewer buttons and navigate fewer screens to design and edit their content.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>For more information, refer to the <a href="../messages/get-started-content.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Attribute-based access control (limited availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now identify schema fields with labels that define organizational or data usage scopes. Administrators can use the Permissions interface to define access policies covering XDM schema fields and better manage the access given to users or groups of users (internal, external, or third-party users), and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>The use of Attribute-based access control is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## June 2022 Release {#june-2022-release}
 
 ### New capabilities 
@@ -98,21 +139,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### Improvements
