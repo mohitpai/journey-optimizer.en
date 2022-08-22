@@ -4,7 +4,6 @@ description: Learn more about statistical calculations used when running experim
 feature: Overview
 topic: Content Management
 role: User
-level: advanced
 ---
 # Understand Statistical Calculations {#experiment-calculations}
 
