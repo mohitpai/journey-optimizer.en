@@ -241,7 +241,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -258,7 +258,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -292,7 +292,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now monitor actions performed by users on Adobe Journey Optimizer resources.</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>For more information, refer to the <a href="../privacy/audit-logs.md">detailed documentation</a>.</p>
 </td>
 </tr>
