@@ -24,9 +24,9 @@ Two types of AI models are available in [!DNL Journey Optimizer]:
 
 * **Personalization models** allow you to define business goals and utilizes customer data to train business-oriented models to serve personalized offers and maximize KPIs. [Learn more](personalized-optimization-model.md)
 
->[!CAUTION]
->
->The use of Personalized Optimization models is currently available in early access to select users only.
+    >[!CAUTION]
+    >
+    >The use of Personalized Optimization models is currently available in early access to select users only.
 
 ## Creating an AI model {#create-ai-model}
 
