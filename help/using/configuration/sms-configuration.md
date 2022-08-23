@@ -11,10 +11,6 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 Before sending SMS, configure your instance. You need to [integrate the provider settings](#create-api) with Journey Optimizer and [create an SMS surface](#message-preset-sms) (i.e. SMS preset). These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
 
->[!AVAILABILITY]
->
->The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
 ## Create new API credential {#create-api}
 
 >[!CONTEXTUALHELP]

@@ -18,10 +18,6 @@ Use [!DNL Journey Optimizer] to send text messages to your customers on their mo
 
 Once you [added an SMS](get-started-content.md) activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message.
 
->[!AVAILABILITY]
->
->The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
 ![](assets/sms-edit-content.png)
 
 If this is your first time creating an SMS message, make sure the SMS channel has been configured. [Learn more](../configuration/sms-configuration.md).
