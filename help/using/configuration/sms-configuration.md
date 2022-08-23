@@ -17,6 +17,11 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 
 ## Create new API credential {#create-api}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configure your SMS vendor"
+>abstract="Select your vendor and fill in your SMS API credentials."
+
 To configure your SMS vendor with Journey Optimizer, follow these steps:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** menu, then click **[!UICONTROL Create API credential]**.
@@ -39,6 +44,12 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 After creating and configuring your API credential, you now need to create a channel surface (i.e. message preset) for SMS messages.
 
 ## Create a channel surface for SMS messages {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="Define the SMS category"
+>abstract="Select the type of SMS messages that will be sent when using this surface: Marketing for promotional SMS messages, which require user consent, or Transactional for non-commercial SMS messages, that can also be sent to unsubscribed profiles in specific contexts."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Opt-out in marketing SMS messages"
 
 Once your SMS channel has been configured, you need to create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
 

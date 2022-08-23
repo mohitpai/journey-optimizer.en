@@ -94,6 +94,10 @@ When you select segments or decision rules, you can see information on the estim
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
+>[!NOTE]
+>
+>Profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
+
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
 To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
