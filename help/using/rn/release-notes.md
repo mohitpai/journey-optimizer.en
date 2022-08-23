@@ -48,7 +48,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>New Dynamic Expression Builder</strong><br/></th>
@@ -59,15 +59,20 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a-->.
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
 ### Improvements
 
+**Reporting**
+
+* 
+
 **Journeys**
 
+* Timezone management
