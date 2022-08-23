@@ -71,7 +71,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Reporting**
 
-* 
+* Consent policies table and graph are now available in Journey global reports. These widgets allow you to track the excluded profiles from the policies in your custom actions. [Learn more](../reports/journey-global-report.md#journey-global)
+    
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to [the detailed documentation](../reports/global-report.md). 
 
 **Journeys**
 
