@@ -22,8 +22,11 @@ Before creating an AI model, you need to create a dataset where conversion event
 
     >[!NOTE]
     >
-    >    Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en).
+    >Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target="_blank"}.
 
+1. From the **[!UICONTROL Field groups]** section on the left, select **[!UICONTROL Add]**.
+
+    ![](../assets/ai-ranking-fields-groups.png)
 
 1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select the **[!UICONTROL Experience Event - Proposition Interactions]** field group.
 
@@ -31,7 +34,7 @@ Before creating an AI model, you need to create a dataset where conversion event
 
     >[!CAUTION]
     >
-    >    The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your ranking strategy.
+    >The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your ranking strategy.
 
 1. Click **[!UICONTROL Add field groups]**.
 
@@ -39,13 +42,12 @@ Before creating an AI model, you need to create a dataset where conversion event
 
     >[!NOTE]
     >Field group was previously known as mixin.
-    >    
 
-1. Type a name and save the schema.<!--How do you edit the fields in this new schema? Examples?-->
+1. Type a name and save the schema.
 
 >[!NOTE]
 >
->    Learn more on building schemas in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>Learn more on building schemas in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
 
 You're now ready to create a dataset using this schema. To do this, follow the steps below:
 
