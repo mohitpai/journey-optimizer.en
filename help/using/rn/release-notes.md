@@ -15,7 +15,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
@@ -29,7 +29,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
