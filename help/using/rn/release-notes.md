@@ -78,3 +78,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Journeys**
 
 * Timezone management
+
+**Administration**
+
+* It is now possible to update the primary phone number to use for the SMS channel. [Learn more](../configuration/primary-email-addresses.md)
