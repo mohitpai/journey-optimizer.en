@@ -31,8 +31,6 @@ solution: Journey Optimizer
 + Campaigns {#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
-  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
-  + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
   + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
