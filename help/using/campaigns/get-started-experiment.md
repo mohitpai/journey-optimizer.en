@@ -5,6 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
 # Get started with Content experiments {#get-started-experiment}
 
@@ -22,7 +25,7 @@ Experiments are a set of randomized trials, which in the context of online testi
 
 ![](assets/content_experiment_schema.png)
 
-Experiments allow you to isolate the changes that lead to improvements in your metrics. As illustrated in the image below: some randomly selected users are exposed to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received, i.e. you are able to establish a causal link between the changes you made, and the outcomes you are interested in.
+Experiments allow you to isolate the changes that lead to improvements in your metrics. As illustrated in the image above: some randomly selected users are exposed to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received, i.e. you are able to establish a causal link between the changes you made, and the outcomes you are interested in.
 
 This allows you to make data driven decisions in optimizing your business goals.
 
@@ -68,6 +71,8 @@ To gain true business insights, you should stick to just one Experiment. Instead
 
 ## Interpreting the results of your Experiments {#interpret-results}
 
+![](assets/experimentation_report_3.png)
+
 This section describes the Experiment reports and how to understand the various statistical quantities that are presented.
 
 Here are some guidelines for interpreting the results of your Content Experiment.
@@ -80,13 +85,13 @@ To understand statistical calculations, refer to this [page](../campaigns/experi
     
 When you compare the performance of two treatments, you should always compare the normalized metrics to account for any differences in the number of profiles exposed to each treatment. 
     
-For example, if the experiment objective is set to Unique Opens, and a given treatment was shown to 10,000 Profiles with 200 Unique Opens recorded, then this represents a Conversion Rate of 2%. For non-unique metrics, e.g. Opens metric, the normalized metric is shown as a "Count per Profile", while for continuous metrics like Price Total, the normalized metric is shown as a "Total per Profile".
+For example, if the experiment objective is set to **[!UICONTROL Unique Opens]**, and a given treatment was shown to 10,000 Profiles with 200 Unique Opens recorded, then this represents a **[!UICONTROL Conversion Rate]** of 2%. For non-unique metrics, e.g. Opens metric, the normalized metric is shown as a **[!UICONTROL Count per Profile]**, while for continuous metrics like Price Total, the normalized metric is shown as a **[!UICONTROL Total per Profile]**.
 
 ### 2. Focus on Confidence intervals {#confidence-intervals}
 
 When you run experiments on samples of your profiles, the conversion rate observed for a given treatment represents an estimate of the true underlying conversion rate.
     
-For example, if Treatment A has a Conversion Rate of 3%, while Treatment B has an observed Conversion Rate of 2%, is Treatment A better than Treatment B? To answer this, we must first quantify the uncertainty in these observed conversion rates.
+For example, if Treatment A has a **[!UICONTROL Conversion Rate]** of 3%, while Treatment B has an observed **[!UICONTROL Conversion Rate]** of 2%, is Treatment A a better performer than Treatment B? To answer this, we must first quantify the uncertainty in these observed conversion rates.
 
 Confidence Intervals help to quantify the amount of uncertainty in the estimated conversion rates but wider confidence intervals imply more uncertainty. As more profiles get added to the experiment, the intervals will become smaller representing a more precise estimate. The confidence interval represents a range of conversion rates that are compatible with the observed data.
 
@@ -96,11 +101,11 @@ Adobe uses 95% Anytime Valid Confidence Intervals, or Confidence Sequences, whic
 
 ### 3. Understanding Lift {#understand-lift}
 
-The Experiment report summary shows the Lift over Baseline, which is a measure of the percentage improvement in conversion rate of a given treatment over the baseline. Defined precisely, it is the difference in performance between a given treatment and the baseline, divided by the performance of the baseline, expressed as a percentage.
+The Experiment report summary shows the **[!UICONTROL Lift over Baseline]**, which is a measure of the percentage improvement in conversion rate of a given treatment over the baseline. Defined precisely, it is the difference in performance between a given treatment and the baseline, divided by the performance of the baseline, expressed as a percentage.
 
 ### 3. Understanding Confidence {#understand-confidence}
 
-While you should primarily focus on the confidence interval for the performance of each treatment, Adobe also shows the Confidence, which is a probabilistic measure of how much evidence there is that a given treatment is the same as the baseline treatment. A higher confidence indicates less evidence for the assumption that baseline and non-baseline treatments have equal performance. More precisely, the confidence that is displayed is a probability (expressed as a percentage) that we would have observed a smaller difference in conversion rates between a given treatment and the baseline, if in reality there is no difference in the true underlying conversion rates. In terms of p-values, the confidence displayed is 1 - p-value.
+While you should primarily focus on the **[!UICONTROL Confidence interval]** for the performance of each treatment, Adobe also shows the Confidence, which is a probabilistic measure of how much evidence there is that a given treatment is the same as the baseline treatment. A higher confidence indicates less evidence for the assumption that baseline and non-baseline treatments have equal performance. More precisely, the confidence that is displayed is a probability (expressed as a percentage) that we would have observed a smaller difference in conversion rates between a given treatment and the baseline, if in reality there is no difference in the true underlying conversion rates. In terms of p-values, the confidence displayed is 1 - p-value.
 
 Adobe uses "Anytime Valid" Confidence, and "Anytime Valid" p-values that are consistent with the Confidence Sequences described above.
 
@@ -134,5 +139,3 @@ After running your Experiment, there are several possible follow up actions:
     >[!CAUTION]
     >
     >More analyses mean a higher chance of detecting a spurious effect, or false positive.
-
-

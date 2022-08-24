@@ -1,21 +1,21 @@
 ---
 title: Modify or stop a campaign
-description: Learn how to creamodify or stop an activated campaign in [!DNL Journey Optimizer]
+description: Learn how to modify, stop or duplicate live campaigns in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 ---
-# Modify or stop a campaign {#modify-stop-campaign}
+# Manage live campaigns {#modify-stop-campaign}
 
-Once a campaign has been activated, you can edit or stop it at any time. To do this, follow the steps below.
+Once a campaign has been activated, you can modify or stop it at any time. These operations are available for campaigns with a recurring execution only. 
 
-## Modify an activated campaign {#modify}
+Additionally, you can duplicate live campaigns (executed once or with a recurring execution) to create new ones.
 
-To modify and create a new version of a campaign, follow these steps:
+## Modify a recurring campaign {#modify}
+
+To modify and create a new version of a recurring campaign, follow these steps:
 
 1. Open the campaign then click the **[!UICONTROL Modify campaign]** button.
 
@@ -33,20 +33,20 @@ To modify and create a new version of a campaign, follow these steps:
     >
     >Activating the draft will replace the live version of the campaign.
 
-## Stop a campaign {#stop}
+## Stop a recurring campaign {#stop}
 
-To stop a campaign, open it then click the **[!UICONTROL Stop campaign]** button.
+To stop a recurring campaign, open it then click the **[!UICONTROL Stop campaign]** button.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->After stopping a campaign, it will be available in read-only mode only. You will not be able to activate it again, or use it to create a new campaign.
+>After stopping a campaign, it will be available in read-only mode only. You will not be able to activate it again, or use it to create a new campaign.<!--cannot duplicate?-->
 
-## Additional resources
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Get started with campaigns](get-started-with-campaigns.md)
-* [Create a campaign](create-campaign.md)
-* [Create API-triggered campaigns](api-triggered-campaigns.md)
-* [Campaign live report](campaign-live-report.md)
-* [Campaign global report](campaign-global-report.md)
+## Duplicate a campaign {#duplicate}
+
+You can duplicate a live campaign to create a new one. To do this, open the campaign, then click **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

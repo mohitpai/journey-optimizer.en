@@ -33,13 +33,16 @@ solution: Journey Optimizer
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
+  + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
+  + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
   + Reports {#reports}
     + [Campaign live report](using/campaigns/campaign-live-report.md)
     + [Campaign global report](using/campaigns/campaign-global-report.md)
+    + [Reporting configuration](using/campaigns/reporting-configuration.md)  
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)

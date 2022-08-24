@@ -11,9 +11,11 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 ---
 # Campaign live report {#campaign-live-report}
 
-Campaign live report can be accessed directly from your campaign with the **[!UICONTROL Live view]** button. 
+Campaign live report can be accessed directly from your campaign with the **[!UICONTROL Reports]** button.
 
-The Campaign **[!UICONTROL Live report]** page will be displayed with the following tabs:
+![](assets/campaign_report_1.png)
+
+After selecting the **[!UICONTROL Last 24hrs]** tab, the Campaign **[!UICONTROL Live report]** page will be displayed with the following tabs:
 
 * [Campaign](#campaign-live)
 * [Email](#email-live)
@@ -101,11 +103,3 @@ The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs a
 The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
-
-## Additional resources
-
-* [Get started with campaigns](get-started-with-campaigns.md)
-* [Create a campaign](create-campaign.md)
-* [Create API-triggered campaigns](api-triggered-campaigns.md)
-* [Modify or stop a campaign](modify-stop-campaign.md)
-* [Campaign global report](campaign-global-report.md)

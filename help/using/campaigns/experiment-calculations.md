@@ -4,6 +4,10 @@ description: Learn more about statistical calculations used when running experim
 feature: Overview
 topic: Content Management
 role: User
+level: Experienced
+hide: yes
+hidefromtoc: yes
+exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 ---
 # Understand Statistical Calculations {#experiment-calculations}
 
@@ -38,11 +42,11 @@ The difference between confidence sequences and confidence intervals for a singl
 
 ![](assets/technote_2.gif)
 
-Confidence sequences shift the focus of Experimentations to estimation rather than hypothesis testing i.e., focusing on accurate estimation of the difference in means between treatments, rather than whether or not to reject a null hypothesis based on a threshold of statistical significance.
+**Confidence sequences** shift the focus of Experimentations to estimation rather than hypothesis testing i.e., focusing on accurate estimation of the difference in means between treatments, rather than whether or not to reject a null hypothesis based on a threshold of statistical significance.
 
-However, in a similar manner to the relationship between `$p$-values`, or Confidence, and Confidence Intervals, there is also a relationship between Confidence Sequences and any time valid `$p$-values`, or any time valid Confidence. Given the familiarity of quantities like the Confidence, Adobe provides both the Confidence Sequences and any time valid Confidence in its reports.
+However, in a similar manner to the relationship between `$p$-values`, or **Confidence**, and **Confidence Intervals**, there is also a relationship between **Confidence Sequences** and any time valid `$p$-values`, or any time valid Confidence. Given the familiarity of quantities like the Confidence, Adobe provides both the **Confidence Sequences** and any time valid Confidence in its reports.
 
-The theoretical foundations of Confidence Sequences come from the study of sequences of random variables known as martingales. Some main results are included for expert readers below, but the takeaways of practitioners are clear:
+The theoretical foundations of **Confidence Sequences** come from the study of sequences of random variables known as martingales. Some main results are included for expert readers below, but the takeaways of practitioners are clear:
 
     Confidence sequences can be interpreted as safe sequential analogs of confidence intervals.You can look at and interpret data in your Experiments any time you want, and safely stop, or continue experiments. The corresponding Any Time Valid Confidence, or `$p$-value`, is also safe to interpret.
 
@@ -52,7 +56,7 @@ It is important to note that since confidence sequences are "any time valid", th
 
 ![](assets/experimentation_report_2.png)
 
-Every time you view the experimentation report, Adobe analyzes the data that has accumulated in the experiment up to this point and will declare an experiment to be “Conclusive” when the anytime valid confidence crosses a threshold of 95% for at least one of the treatments.
+Every time you view the experimentation report, Adobe analyzes the data that has accumulated in the experiment up to this point and will declare an experiment to be "Conclusive" when the anytime valid confidence crosses a threshold of 95% for at least one of the treatments.
 
 At this point, the treatment which is performing the best (based on the conversion rate, or profile-normalized metric value) will be highlighted at the top of the report screen, and indicated with a star in the tabular report. Only treatments that have a confidence greater than 95%, along with the baseline are considered in this determination.
 

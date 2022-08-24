@@ -5,6 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 ---
 # Create a Content experiment {#content-experiment}
 
@@ -120,11 +123,52 @@ Once your treatments are personalized, you can start configuring your content ex
 
     ![](assets/content_experiment_14.png)
 
-## Experimentation report {#experimentation-report}
+After configuring your experimentation and campaign, you can follow the success of your delivery with the Campaign report.
+
+## Objectives report {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab of your Campaign report allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+
+Note that each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
+
+## Experimentation report {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 ![](assets/experimentation_report_3.png)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was a best performer during the test.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is a best performer.
 
-For more details on this report, refer to the [Campaign Global report](../campaigns/content-experiment.md#experimentation-report) page.
+Note that defining the best performer might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
 
+The **[!UICONTROL Experiment result]** widget details the performance of each variant. You can change your baseline by selecting one of the treatment from the **[!UICONTROL Baseline]** the drop-down. The best treatment will be represented with a star icon.
+
+The table presents the following metrics:
+
+* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
+
+*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
+
+*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
+
+*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals).
+
+*  **[!UICONTROL Average lift]**: Percentage improvement in conversion rate of a given treatment over the baseline. [Learn more](../campaigns/experiment-calculations.md#understand-lift)
+
+*  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
+
+For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
