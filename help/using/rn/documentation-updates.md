@@ -9,6 +9,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## August 2022 {#august-2022}
 
+* All new features and improvements coming with [!DNL Journey Optimizer] August '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The Frequency rules section has been updated to reflect the new in-line messaging flow. [Read more](../configuration/frequency-rules.md#apply-frequency-rule)
 * A video showing how to configure subscriptions and create landing pages is now referenced in the Get started with landing pages section. [Read more](../landing-pages/get-started-lp.md#video)
 
@@ -17,7 +18,6 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * All new features and improvements coming with [!DNL Journey Optimizer] July '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **Set up channel surfaces** section has been clarified and updated with links to the page describing how to configure the SMS channel. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
 * In the journey properties, the **Profile Time zone** option is now disabled by default. [Read more](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * In the **Wait** activity, the **Fixed date** option is no longer available. [Read more](../building-journeys/wait-activity.md)
 * Added more information on the **Incremental read** option in the **Read segment** activity. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Added recommendations on the **Profile cap** condition type. [Read more](../building-journeys/condition-activity.md#profile_cap)
