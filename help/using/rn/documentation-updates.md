@@ -12,6 +12,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * All new features and improvements coming with [!DNL Journey Optimizer] August '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The Frequency rules section has been updated to reflect the new in-line messaging flow. [Read more](../configuration/frequency-rules.md#apply-frequency-rule)
 * A video showing how to configure subscriptions and create landing pages is now referenced in the Get started with landing pages section. [Read more](../landing-pages/get-started-lp.md#video)
+* A limitation has been added for journeys using Read Segment activities. [Read more](../building-journeys/read-segment.md)
+* The expression ediror operators page has been improved. [Read more](../building-journeys/expression/operators.md)
 
 ## July 2022 {#july-2022}
 
