@@ -29,6 +29,56 @@ This feature will impact the permissions as follows:
 
 **As of September 6th**, Permissions related to Messages will be removed and Messages will not be accessible anymore.
 
+## [!DNL Campaign Administrator] {#campaign-administrator}
+
+The **[!DNL Campaign Administrator]** product profile allows the administration menus with the possibility to manage and publish Campaigns and Decision management. 
+
+This product profile includes the following permissions:
+
+| Capability | Permissions|
+|-|-|
+|Campaigns| <ul><li> **[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL Publish campaigns]**: publish campaigns.</li><li>**[!DNL View campaigns report]**: read and edit campaigns report.</li></ul>|
+|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: read, create, edit, and delete subdomain delegation.</li><li>**[!DNL Manage IP pools]**: read, create, edit, and delete ip pool.</li><li>**[!DNL Manage PTR records]**: read and edit PTR records.</li><li>**[!DNL View PTR records]**: read-only access to PTR records.</li><li> **[!DNL Manage messages general settings]**: read, create, edit, and delete message general settings.</li><li>**[!DNL Manage messages presets]**: read, create, edit, and delete content branding.</li><li>**[!DNL Manage suppression rules]**: access read, create, edit and delete suppression rules.</li><li>**[!DNL Export suppression list]**: access to export suppression list as a CSV file.</li><li>**[!DNL View suppression list]**: read and export local suppression list.</li><li>**[!DNL Manage alerts]**: enable/disable alerts for campaigns, messages and entitlements.</li><li>**[!DNL Manage landing page settings]**: read, create, edit, and delete landing page settings.</li><li>**[!DNL Manage SMS settings]**: read, create, edit, and delete SMS settings.</li></ul>|
+|Decision management|<ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisions.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete ranking strategies.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: grant access to sandboxes.</li><li>**[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Read Identity namespace]**: read-only access to identity namespace.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
+
+## [!DNL Campaign Approver] {#campaign-approver}
+
+The **[!DNL Campaign Approver]** product profile allows users to approve deliveries and publish them. They can later check the success of their deliveries with the **[!DNL Campaigns]** reports. 
+
+| Capability | Permissions|
+|-|-|
+|Campaigns| <ul><li>**[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL Publish campaigns]**: publish campaigns.</li><li>**[!DNL View Campaigns report]**: read, edit journey reports.</li></ul>|
+|Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom messages reports and use action features.</li></ul>|
+|Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
+|Administration| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
+
+## [!DNL Campaign Manager] {#campaign-manager}
+
+The **[!DNL Campaign Manager]** product profile allows users to create and edit **[!UICONTROL Campaigns]** and every capability linked to **[!UICONTROL Campaigns]** but will not be able to publish them.
+
+This product profile includes the following permissions:
+
+| Capability | Permissions|
+|-|-|
+|Campaigns| <ul><li>**[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL View campaigns report]**: read, edit journey report.</li></ul>|
+|Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom messages reports and use action features.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
+|Administration| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
+
+## [!DNL Campaign viewer] {#campaign-viewer}
+
+The **[!DNL Campaign viewer]** product profile allows read-only access to the **[!UICONTROL Campaigns]** and **[!UICONTROL Decision management]** capabilities. 
+
+Users assigned to this product profile will not be able to edit or publish. 
+
+This product profile includes the following permissions:
+
+| Capability | Permissions|
+|-|-|
+|Campaigns| <ul><li>**[!DNL View campaigns]**: read-only access to campaigns.</li><li>**[!DNL View campaigns report]**: read-only access to campaigns reports.</li></ul>|
+|Decision management| <ul><li>**[!DNL View decisions]**: read-only access to decisions entities.</li></ul>|
+
 ## [!DNL Journey Administrator] {#journey-administrator}
 
 The **[!DNL Journey Administrator]** product profile allows the administration menus with the possibility to manage and publish Journeys and Decision management. 

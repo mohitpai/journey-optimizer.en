@@ -89,7 +89,7 @@ For example, if you want to know the impact of an email campaign on commerce dat
     >
     >If you selected a dataset which is not event-type, you will not be able to proceed.
 
-When building your deliveries' reports, you can now use data from this dataset to retrieve additional custom information and better fine-tune your reports. [Learn more](campaign-global-report.md#objectives-global)
+When building your deliveries' reports, you can now use data from this dataset to retrieve additional custom information and better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

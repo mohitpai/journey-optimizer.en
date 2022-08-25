@@ -31,16 +31,13 @@ solution: Journey Optimizer
 + Campaigns {#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
-  + [Modify or stop a campaign](using/campaigns/modify-stop-campaign.md)
+  + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
+    + [Reporting configuration](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-  + Reports {#reports}
-    + [Campaign live report](using/campaigns/campaign-live-report.md)
-    + [Campaign global report](using/campaigns/campaign-global-report.md)
-    + [Reporting configuration](using/campaigns/reporting-configuration.md)  
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
   + [Create an email](using/messages/create-email.md)
@@ -238,11 +235,13 @@ solution: Journey Optimizer
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
+    + [Campaign Live report](using/reports/campaign-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
     + [Access Global report dashboard](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
+    + [Campaign Global report](using/reports/campaign-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}

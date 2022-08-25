@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 ---
 # Get started with campaigns {#get-started-campaigns}
@@ -18,19 +16,18 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 
 ## About campaigns {#about}
 
+>[!IMPORTANT]
+>
+>This feature is only available to users with access to a Campaign related Product Profile such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer. For more information on how to assign product profiles, refer to [this page](../administration/permissions.md).
+
 Campaigns allow you to deliver one-time content to a specific segment using multiple channels. Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. 
 
-You can create two types of campaigns:
+This allows you to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+
+<!--You can create two types of campaigns:
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.
-
-Learn how to work with campaigns:
-* [Create a campaign](create-campaign.md)
-* [Create API-triggered campaigns](api-triggered-campaigns.md)
-* [Modify or stop a campaign](modify-stop-campaign.md)
-* [Campaign live report](campaign-live-report.md)
-* [Campaign global report](campaign-global-report.md)
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Access campaigns {#access}
 
@@ -49,7 +46,7 @@ Campaigns can have multiple statuses:
 * **[!UICONTROL Live]**: The campaign has been activated.
 * **[!UICONTROL Scheduled]**: The campaign has been configured to be activated on a specific start date.
 * **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore (see [Stop a campaign](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**: The campaign is complete.
+* **[!UICONTROL Completed]**: The campaign is complete. This status is automatically assigned 3 days after a campaign has been activated, or at the campaign's end date if it has a recurring execution.
 * **[!UICONTROL Archived]**: The campaign has been archived.
 
 >[!NOTE]
