@@ -84,6 +84,10 @@ Before creating a decision, make sure that the components below have been create
 
 1. When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
+    >[!NOTE]
+    >
+    >Profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
+
     ![](../assets/activity_constraint-estimate.png)
 
 1. Define the ranking method you want to use to select the best offer for each profile.

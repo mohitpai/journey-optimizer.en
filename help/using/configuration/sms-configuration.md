@@ -11,9 +11,10 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 Before sending SMS, configure your instance. You need to [integrate the provider settings](#create-api) with Journey Optimizer and [create an SMS surface](#message-preset-sms) (i.e. SMS preset). These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>Adobe Journey Optimizer currently integrates with third-party providers such as Sinch and Twilio, who offer SMS services independent of Adobe Journey Optimizer.  Prior to SMS configuration, you must create an account with one of these SMS providers to receive the API Token and Service ID which will enable you to establish the connection between Adobe Journey Optimizer and the applicable SMS provider. Your use of SMS services will be subject to additional terms and conditions from the applicable SMS provider. Given that Sinch and Twilio are third-party products available to Adobe Journey Optimizer users via an integration, for any issues or inquiries related to the SMS services, users of Sinch or Twilio will need to contact the applicable SMS provider for assistance. Adobe does not control and is not responsible for third-party products.
+>
 
 ## Create new API credential {#create-api}
 
@@ -21,6 +22,11 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 >id="ajo_admin_sms_api"
 >title="Configure your SMS vendor"
 >abstract="Select your vendor and fill in your SMS API credentials."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="Configure your SMS vendor"
+>abstract="Select the API credentials configured for your SMS vendor."
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:
 

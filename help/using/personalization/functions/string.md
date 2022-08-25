@@ -475,7 +475,7 @@ The following query determines, without case sensitivity, if the person's name s
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Mask (#mask)
+## Mask {#mask}
 
 The `Mask` function is used to replace a part of a string with "X" characters.
 

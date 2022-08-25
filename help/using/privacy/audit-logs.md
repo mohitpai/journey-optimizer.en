@@ -42,7 +42,7 @@ The following table outlines which actions on which Journey Optimizer resources 
 | AJO subdomain | Create / Delete / Update |
 | AJO suppression list | Create / Delete / Download CSV |
 | Field group | Create / Delete / Update |
-| Journey | Create / Delete / Stop / Publish |
+| Journey | Create / Delete / Update / Stop / Publish |
 | Journey custom action | Create / Delete / Update |
 | Journey datasource | Create / Delete / Update |
 | Journey event | Create / Delete / Update |

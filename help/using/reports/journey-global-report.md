@@ -52,6 +52,13 @@ The **[!UICONTROL Top Actions]** table contains the data available for **[!UICON
 
 * **[!UICONTROL Error in action]**: Total number of errors that occurred for **[!UICONTROL Actions]**.
 
+![](assets/global_report_25.png)
+
+The **[!UICONTROL Consent policies]** table and graph display the number of profiles excluded from each policy in your custom actions. 
+For more information on custom actions, refer to [the detailed documentation](../action/about-custom-action-configuration.md).
+
+Note that for these widgets to appear in your Journeys reports, you will need to reset your dashboards. To do so, click **[!UICONTROL Modify]** then **[!UICONTROL Reset]** on the top of your report.
+
 ## Email tab {#email-global}
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
