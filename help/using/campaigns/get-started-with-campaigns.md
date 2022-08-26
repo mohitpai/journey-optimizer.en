@@ -16,10 +16,6 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 
 ## About campaigns {#about}
 
->[!IMPORTANT]
->
->This feature is only available to users with access to a Campaign related Product Profile such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer. For more information on how to assign product profiles, refer to [this page](../administration/permissions.md).
-
 Campaigns allow you to deliver one-time content to a specific segment using multiple channels. Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. 
 
 This allows you to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
@@ -30,6 +26,28 @@ This allows you to send simple ad-hoc batch communications for marketing use cas
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## Prerequisites {#campaign-prerequisites}
+
+Campaign is only available to users with access to a Campaign related **[!UICONTROL Product profile]** such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer.
+
+To assign the corresponding **[!UICONTROL Product profile]** to your users:
+
+1. From the [!DNL Admin console], select the [!DNL Adobe Experience Platform] product.
+
+1. From the **[!UICONTROL Product profile]** tab, select one of the built-in Campaign related **[!UICONTROL Product profile]**: Campaign administrator, Campaign approver, Campaign manager or Campaign viewer. 
+
+    For more information on Campaign **[!UICONTROL Product profiles]** and **[!UICONTROL Permissions]**, refer to this [page](../administration/ootb-product-profiles.md).
+
+    ![](assets/do-not-localize/admin_1.png)
+
+1. Click **[!UICONTROL Add user]** to assign to your user the selected **[!UICONTROL Product profile]**.
+
+    ![](assets/do-not-localize/admin_2.png)
+
+1. Type-in your user's name, group, or email address and click **[!UICONTROL Save]**.
+
+Your user will now be able to access **[!UICONTROL Campaigns]**. 
 
 ## Access campaigns {#access}
 
