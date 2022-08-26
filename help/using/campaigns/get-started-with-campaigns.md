@@ -24,6 +24,8 @@ Campaigns allow you to deliver one-time content to a specific segment using mult
 
 This allows you to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 
+➡️ [Discover this feature in video](#video)
+
 <!--You can create two types of campaigns:
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
@@ -52,3 +54,9 @@ Campaigns can have multiple statuses:
 >[!NOTE]
 >
 >The "Open draft version" icon next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indicates that a new version of the campaign has been created and has not been activated yet (see [Modify a campaign](modify-stop-campaign.md#modify)).
+
+## How-to video {#video}
+
+Learn how to create your first campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

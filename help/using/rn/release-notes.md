@@ -26,7 +26,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Learn how to create a campaign ins this <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
+<p>Learn how to create a campaign in the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a> and <a href="https://video.tv.adobe.com/v/345376">feature video</a>.
 </td>
 </tr>
 </tbody>
