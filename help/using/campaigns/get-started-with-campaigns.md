@@ -29,29 +29,31 @@ Create campaigns to send simple ad-hoc batch communications for marketing use ca
 
 Check the following prerequisites before starting creating your first campaign in Journey Optimizer:
 
-1. **You need proper permissions**. Campaigns are only available to users with access to a campaign related **[!UICONTROL Product profile]** such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer. If you cannot access campaigns, your permissions must be extended. If you have access to [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} for your organization, follow the steps below. If not, contact your Journey Optimizer Administrator.
+1. **You need proper permissions**. Campaigns are only available to users with access to a campaign related **[!UICONTROL Product profile]** such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer. 
+    
+    If you cannot access campaigns, your permissions must be extended. If you have access to [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} for your organization, follow the steps below. If not, contact your Journey Optimizer Administrator.
 
-+++Learn how to assign campaign permissions
+    +++Learn how to assign campaign permissions
 
-To assign the corresponding **[!UICONTROL Product profile]** to your users:
+    To assign the corresponding **[!UICONTROL Product profile]** to your users:
 
-1. From the [!DNL Admin console], select the [!DNL Adobe Experience Platform] product.
+    1. From the [!DNL Admin console], select the [!DNL Adobe Experience Platform] product.
 
-1. From the **[!UICONTROL Product profile]** tab, select one of the built-in Campaign related **[!UICONTROL Product profile]**: Campaign administrator, Campaign approver, Campaign manager or Campaign viewer. 
+    1. From the **[!UICONTROL Product profile]** tab, select one of the built-in Campaign related **[!UICONTROL Product profile]**: Campaign administrator, Campaign approver, Campaign manager or Campaign viewer. 
 
-    For more information on Journey Optimizer campaign **[!UICONTROL Product profiles]** and **[!UICONTROL Permissions]**, [refer to this page](../administration/ootb-product-profiles.md).
+        For more information on Journey Optimizer campaign **[!UICONTROL Product profiles]** and **[!UICONTROL Permissions]**, [refer to this page](../administration/ootb-product-profiles.md).
 
-    ![](assets/do-not-localize/admin_1.png)
+        ![](assets/do-not-localize/admin_1.png)
 
-1. Click **[!UICONTROL Add user]** to assign to your user the selected **[!UICONTROL Product profile]**.
+    1. Click **[!UICONTROL Add user]** to assign to your user the selected **[!UICONTROL Product profile]**.
 
-    ![](assets/do-not-localize/admin_2.png)
+        ![](assets/do-not-localize/admin_2.png)
 
-1. Type-in your user's name, group, or email address and click **[!UICONTROL Save]**.
+    1. Type-in your user's name, group, or email address and click **[!UICONTROL Save]**.
 
-Your user will now be able to access **[!UICONTROL Campaigns]**. 
+    Your user will now be able to access **[!UICONTROL Campaigns]**. 
 
-+++
+    +++
 
 1. **You need an audience**. Audience segments need to be available before creating the campaign. Learn more about audience creation [in this page](../segment/about-segments.md).
 1. **You need a channel surface**. To be able to select a channel, you must have the corresponding channel surface created and available. Learn more about channel surfaces (i.e presets) [in this page](../configuration/channel-surfaces.md)
