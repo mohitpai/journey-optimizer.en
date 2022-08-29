@@ -12,13 +12,11 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campaigns"
->abstract="With Campaigns, you can deliver one-time content to a specific segment across multiple channels. Before creating a new campaign, make sure you have a channel surface (i.e. message preset) and an Adobe Experience Platform segment ready for use."
+>abstract="Create campaigns to deliver one-time content to a specific segment across various channels. Before creating your campaign, make sure you have a channel surface (i.e. message preset) and an Adobe Experience Platform segment ready for use."
 
-## About campaigns {#about}
+Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule.
 
-Campaigns allow you to deliver one-time content to a specific segment using multiple channels. Unlike journeys, where actions are designed to be executed in sequence, campaigns execute actions simultaneously, either immediately, or on a specified schedule. 
-
-This allows you to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+Create campaigns to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 
 ➡️ [Discover this feature in video](#video)
 
@@ -27,9 +25,13 @@ This allows you to send simple ad-hoc batch communications for marketing use cas
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## Prerequisites {#campaign-prerequisites}
+## Before starting {#campaign-prerequisites}
 
-Campaign is only available to users with access to a Campaign related **[!UICONTROL Product profile]** such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer.
+Check the following prerequisites before starting creating your first campaign in Journey Optimizer:
+
+1. **You need proper permissions**. Campaigns are only available to users with access to a campaign related **[!UICONTROL Product profile]** such as Campaign administrator, Campaign approver, Campaign manager and/or Campaign viewer. If you cannot access campaigns, your permissions must be extended. If you have access to [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} for your organization, follow the steps below. If not, contact your Journey Optimizer Administrator.
+
++++Learn how to assign campaign permissions
 
 To assign the corresponding **[!UICONTROL Product profile]** to your users:
 
@@ -37,7 +39,7 @@ To assign the corresponding **[!UICONTROL Product profile]** to your users:
 
 1. From the **[!UICONTROL Product profile]** tab, select one of the built-in Campaign related **[!UICONTROL Product profile]**: Campaign administrator, Campaign approver, Campaign manager or Campaign viewer. 
 
-    For more information on Campaign **[!UICONTROL Product profiles]** and **[!UICONTROL Permissions]**, refer to this [page](../administration/ootb-product-profiles.md).
+    For more information on Journey Optimizer campaign **[!UICONTROL Product profiles]** and **[!UICONTROL Permissions]**, [refer to this page](../administration/ootb-product-profiles.md).
 
     ![](assets/do-not-localize/admin_1.png)
 
@@ -48,6 +50,11 @@ To assign the corresponding **[!UICONTROL Product profile]** to your users:
 1. Type-in your user's name, group, or email address and click **[!UICONTROL Save]**.
 
 Your user will now be able to access **[!UICONTROL Campaigns]**. 
+
++++
+
+1. **You need an audience**. Audience segments need to be available before creating the campaign. Learn more about audience creation [in this page](../segment/about-segments.md).
+1. **You need a channel surface**. To be able to select a channel, you must have the corresponding channel surface created and available. Learn more about channel surfaces (i.e presets) [in this page](../configuration/channel-surfaces.md)
 
 ## Access campaigns {#access}
 
