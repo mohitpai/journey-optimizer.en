@@ -9,11 +9,10 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in product profiles {#ootb-product-profiles}
 
-Adobe Journey Optimizer is releasing a new feature, Inline authoring, which allows you to create and author your messages directly from a journey. For more on this new feature, refer to this page.
 
->[!WARNING]
->
->If you have users assigned to the **[!DNL Message Manager]** product profile only, without the **[!DNL Journey manager]** product profile, you will need to assign a new product profile for them to be able to continue editing content.
+## About permissions related to messages{#message-permissions}
+
+Adobe Journey Optimizer released new inline authoring capabilities which allows you to create and author your messages directly from a journey or a campaign. For more on this new feature, [refer to this page](../rn/inline-messages.md).
 
 This feature will impact the permissions as follows:
 
@@ -25,9 +24,14 @@ This feature will impact the permissions as follows:
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**After July 25th**, Permissions related to Messages will still be available since Messages can still be accessed to enable transition and you can still save them as template.
+**After July 25**, permissions related to **Messages** are still be available since Messages can still be accessed to enable transition and you can still save them as template.
 
-**As of September 6th**, Permissions related to Messages will be removed and Messages will not be accessible anymore.
+**As of September 6th**, permissions related to **Messages** will be removed and Messages will not be accessible anymore.
+
+>[!WARNING]
+>
+>If you have users assigned to the **[!DNL Message Manager]** product profile only, without the **[!DNL Journey manager]** product profile, you need to assign a new product profile for them to be able to continue editing content.
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
