@@ -66,9 +66,9 @@ This product profile includes the following permissions:
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
 |Administration| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-The **[!DNL Campaign viewer]** product profile allows read-only access to the **[!UICONTROL Campaigns]** and **[!UICONTROL Decision management]** capabilities. 
+The **[!DNL Campaign Viewer]** product profile allows read-only access to the **[!UICONTROL Campaigns]** and **[!UICONTROL Decision management]** capabilities. 
 
 Users assigned to this product profile will not be able to edit or publish. 
 
