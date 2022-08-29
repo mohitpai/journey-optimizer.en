@@ -56,7 +56,7 @@ Check the following prerequisites before starting creating your first campaign i
     +++
 
 1. **You need an audience**. Audience segments need to be available before creating the campaign. Learn more about audience creation [in this page](../segment/about-segments.md).
-1. **You need a channel surface**. To be able to select a channel, you must have the corresponding channel surface (i.e preset) created and available. Learn more about channel surfaces [in this page](../configuration/channel-surfaces.md)
+1. **You need a channel surface**. To be able to select a channel, you must have the corresponding channel surface (i.e preset) created and available. Learn more about channel surfaces [in this page](../configuration/channel-surfaces.md).
 
 ## Access campaigns {#access}
 
