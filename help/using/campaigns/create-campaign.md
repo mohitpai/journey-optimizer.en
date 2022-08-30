@@ -86,7 +86,7 @@ The steps to create a campaign are as follows:
 
 <!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-Once your campaign is ready, you can review and publish it. [learn more](#review-activate);
+Once your campaign is ready, you can review and publish it. [Learn more](#review-activate);
 
 ## Review and activate a campaign {#review-activate} 
 
