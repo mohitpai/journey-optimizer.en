@@ -14,7 +14,7 @@ In your campaigns, select the channel to design and personalize the message you 
 >[!NOTE]
 >You can also create journeys to send triggered messages. Learn more [in this section](messages-in-journeys.md).
 
-Learn how to add and configure messages in a campaign [in this section](../campaigns/create-campaign.md) 
+Learn how to add and configure messages in a campaign [in this section](../campaigns/create-campaign.md).
 
    Learn detailed steps to create your message content in the following page:
 
