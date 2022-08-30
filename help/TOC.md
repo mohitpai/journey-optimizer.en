@@ -379,7 +379,8 @@ solution: Journey Optimizer
       + Monitor email addresses {#monitor-reputation}  
         + [Suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
-        + [Allowed list](using/configuration/allow-list.md)
+        + [Allowed list](using/configuration/allow-list-temp.md)
+        + [Allow list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)

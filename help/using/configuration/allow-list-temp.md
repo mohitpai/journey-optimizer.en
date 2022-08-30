@@ -5,8 +5,6 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 ---
 # Allowed list {#allow-list}
@@ -29,19 +27,9 @@ The allowed list enables you to specify individual email addresses or domains th
 
 To access the detailed list of allowed email addresses and domains, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Permissions to view, export and manage the allowed list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
-
-To export the allowed list as a CSV file, select the **[!UICONTROL Download CSV]** button.
-
-Use the **[!UICONTROL Delete]** button to permanently remove an entry.
-
-You can search on the email addresses or domains, and filter on the **[!UICONTROL Address type]**. Once selected, you can clear the filter displayed on top of the list.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Enable the allowed list {#enable-allow-list}
 
@@ -49,13 +37,9 @@ To enable the allowed list, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
-1. Click **[!UICONTROL Enable/Disable allowed list]**.
-
-    ![](assets/allow-list-edit.png)
+1. Click **[!UICONTROL Edit]**.
 
 1. Select **[!UICONTROL Enable allowed list]**.
-
-    ![](assets/allow-list-enable.png)
 
 1. Click **[!UICONTROL Save]**. The allowed list is enabled.
 
@@ -67,48 +51,11 @@ The allowed list logic applies when the feature is enabled. Learn more in [this 
 
 ## Add entities to the allowed list {#add-entities}
 
-To add new email addresses or domains to the allowed list for a specific sandbox, you can either [manually populate the list](#manually-populate-list), or use an [API call](#api-call-allowed-list).
+To add new email addresses or domains to the allowed list for a specific sandbox, you can use an [API call](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >The allowed list can contain up to 1,000 entries.
-
-### Manually populate the allowed list {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Add addresses or domains to the allowed list"
->abstract="You can manually add new email addresses or domains to the allowed list by selecting them one by one."
-
-You can manually populate the [!DNL Journey Optimizer] allowed list by adding an email address or a domain through the user interface.
-
->[!NOTE]
->
->You can only add one email address or domain at a time.
-
-To do this, follow the steps below.
-
-1. Select the **[!UICONTROL Add email or domain]** button.
-
-    ![](assets/allowed-list-add-email.png)
-
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
-
-1. Enter the email address or domain you want to send emails to.
-
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company.com) or domain (such as abc.company.com).
-
-1. Specify a reason if needed.
-
-    ![](assets/allowed-list-add-email-address.png)
-
-    >[!NOTE]
-    >
-    >All ASCII characters comprised between 32 and 126 are allowed in the **[!UICONTROL Reason]** field. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example.
-
-1. Click **[!UICONTROL Submit]**.
 
 ### Add entities using an API call {#api-call-allowed-list}
 
