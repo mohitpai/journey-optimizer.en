@@ -1,5 +1,5 @@
 ---
-title: Get started with messages
+title: Add messages in campaigns
 description: Learn how to add messages in a campaign
 feature: Overview
 topic: Content Management
@@ -7,7 +7,7 @@ role: User
 level: Beginner
 ---
 
-# Add messages in campaigns{#messages-in- campaigns}
+# Add messages in campaigns{#messages-in-campaigns}
 
 In your campaigns, select the channel to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push to your campaign, you can send it immediately or schedule the message.
 

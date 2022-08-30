@@ -1,5 +1,5 @@
 ---
-title: Get started with messages
+title: Add messages in journeys
 description: Learn how to add messages in a journey
 feature: Overview
 topic: Content Management
