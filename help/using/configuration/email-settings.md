@@ -30,7 +30,7 @@ In the **EMAIL TYPE** section, select the type of message that will be sent with
 >
 >**Transactional** emails can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
 
-When [creating a message](../messages/get-started-content.md#create-new-message), you must choose a valid channel surface matching the category you selected for your email.
+When [creating a message](../messages/get-started-content.md), you must choose a valid channel surface matching the category you selected for your email.
 
 ## Subdomain & IP pool {#subdomains-and-ip-pools}
 
