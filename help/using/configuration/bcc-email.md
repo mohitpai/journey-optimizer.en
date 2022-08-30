@@ -34,7 +34,7 @@ All email messages using this surface will be blind-copied to the BCC email addr
 >
 >Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
-The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md#create-new-message) using this surface, the BCC email address is automatically displayed.
+The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md) using this surface, the BCC email address is automatically displayed.
 
 ![](assets/preset-bcc-in-msg.png)
 

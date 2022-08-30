@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
 # Email, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] comes wit built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and [define settings and content](../messages/get-started-content.md). It is then executed and sent in the context of the journey
+[!DNL Journey Optimizer] comes wit built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and [define settings and content](../messages/messages-in-journeys.md). It is then executed and sent in the context of the journey.
 
 You can also set up specific actions to send you messages:
 
