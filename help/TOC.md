@@ -38,80 +38,6 @@ solution: Journey Optimizer
     + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
     + [Reporting configuration](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-+ Messages {#messages}
-  + [Get started with messages](using/messages/get-started-content.md)
-  + [Add messages journeys](using/messages/messages-in-journeys.md)
-  + [Add messages campaigns](using/messages/messages-in-campaigns.md)
-  + [Create an email](using/messages/create-email.md)
-  + [Create a push notification](using/messages/create-push.md)
-  + [Create an SMS message](using/messages/create-sms.md)
-  + [Check alerts](using/messages/alerts.md)
-  + [Manage consent](using/messages/consent.md)
-  + [Send time optimization](using/messages/send-time-optimization.md)
-+ Design content {#design}
-  + [Get started with email design](using/design/design-emails.md)
-  + [Start from scratch ](using/design/create-email-content.md)
-  + [Import your email content](using/design/existing-content.md)
-  + [Code your own content](using/design/code-content.md)
-  + [Work with templates](using/design/email-templates.md)
-  + Content design {#design-content}
-    + [Use content components](using/design/content-components.md)
-    + [Background settings](using/design/backgrounds.md)
-    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
-    + [Define a style for links](using/design/styling-links.md)
-    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
-  + Email settings {#design-email}
-    + [Generate the text version](using/design/text-version-email.md)
-    + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}
-    + [Work with Assets Essentials](using/design/assets-essentials.md)
-    + [Work with Adobe Stock](using/design/stock.md)
-  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
-  + [Add links and track messages](using/design/message-tracking.md)
-  + [Preview and proofs](using/design/preview.md)
-+ Landing pages {#landing-pages}
-  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
-  + [Create a landing page](using/landing-pages/create-lp.md)
-  + Design content {#landing-pages-design}
-    + [About landing page design](using/landing-pages/design-lp.md)
-    + [Create the landing page content](using/landing-pages/lp-content.md)
-    + [Create templates](using/landing-pages/lp-templates.md)
-    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
-  + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Personalization{#personalization}
-  + [Get started with personalization](using/personalization/personalize.md)
-  + [Personalization contexts](using/personalization/personalization-contexts.md)
-  + Build expressions {#build-expressions}
-    + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression editor {#expression-editor}
-      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-      + [Work with saved expressions](using/personalization/personalization-library.md)  
-      + [Personalization validation](using/personalization/personalization-validation.md)
-    + Helper functions{#functions}
-      + [Get started with helper functions](using/personalization/functions/functions.md)
-      + [Aggregation functions](using/personalization/functions/aggregation.md)
-      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-      + [Date Time functions](using/personalization/functions/dates.md)
-      + [Boolean and comparison functions](using/personalization/functions/operators.md)
-      + [Helpers](using/personalization/functions/helpers.md)
-      + [Map functions](using/personalization/functions/maps.md)
-      + [Object functions](using/personalization/functions/objects.md)
-      + [String functions](using/personalization/functions/string.md) 
-  + Use cases{#personalization-use-cases}    
-    + [Order status notification](using/personalization/personalization-use-case.md)
-    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
-+ Segments, profiles and identity{#segment}
-  + Segments {#segments}
-    + [Get started with segments](using/segment/about-segments.md)
-    + [Build segments](using/segment/creating-a-segment.md)
-  + Profiles{#profiles}
-    + [Get started with profiles](using/segment/get-started-profiles.md)
-    + [Create test profiles](using/segment/creating-test-profiles.md)
-  + [Identities](using/segment/get-started-identity.md)
-  + [License usage](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -233,6 +159,80 @@ solution: Journey Optimizer
     + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
     + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
++ Messages {#messages}
+  + [Get started with messages](using/messages/get-started-content.md)
+  + [Add messages journeys](using/messages/messages-in-journeys.md)
+  + [Add messages campaigns](using/messages/messages-in-campaigns.md)
+  + [Create an email](using/messages/create-email.md)
+  + [Create a push notification](using/messages/create-push.md)
+  + [Create an SMS message](using/messages/create-sms.md)
+  + [Check alerts](using/messages/alerts.md)
+  + [Manage consent](using/messages/consent.md)
+  + [Send time optimization](using/messages/send-time-optimization.md)
++ Design content {#design}
+  + [Get started with email design](using/design/design-emails.md)
+  + [Start from scratch ](using/design/create-email-content.md)
+  + [Import your email content](using/design/existing-content.md)
+  + [Code your own content](using/design/code-content.md)
+  + [Work with templates](using/design/email-templates.md)
+  + Content design {#design-content}
+    + [Use content components](using/design/content-components.md)
+    + [Background settings](using/design/backgrounds.md)
+    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
+    + [Define a style for links](using/design/styling-links.md)
+    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
+  + Email settings {#design-email}
+    + [Generate the text version](using/design/text-version-email.md)
+    + [Add a preheader](using/design/preheader.md)
+  + Add and manage assets {#manage-asset}
+    + [Work with Assets Essentials](using/design/assets-essentials.md)
+    + [Work with Adobe Stock](using/design/stock.md)
+  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
+  + [Add links and track messages](using/design/message-tracking.md)
+  + [Preview and proofs](using/design/preview.md)
++ Landing pages {#landing-pages}
+  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
+  + [Create a landing page](using/landing-pages/create-lp.md)
+  + Design content {#landing-pages-design}
+    + [About landing page design](using/landing-pages/design-lp.md)
+    + [Create the landing page content](using/landing-pages/lp-content.md)
+    + [Create templates](using/landing-pages/lp-templates.md)
+    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
+  + [Create a subscription list](using/landing-pages/subscription-list.md)
+  + [Use cases](using/landing-pages/lp-use-cases.md)
++ Personalization{#personalization}
+  + [Get started with personalization](using/personalization/personalize.md)
+  + [Personalization contexts](using/personalization/personalization-contexts.md)
+  + Build expressions {#build-expressions}
+    + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression editor {#expression-editor}
+      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Work with saved expressions](using/personalization/personalization-library.md)  
+      + [Personalization validation](using/personalization/personalization-validation.md)
+    + Helper functions{#functions}
+      + [Get started with helper functions](using/personalization/functions/functions.md)
+      + [Aggregation functions](using/personalization/functions/aggregation.md)
+      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+      + [Date Time functions](using/personalization/functions/dates.md)
+      + [Boolean and comparison functions](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Map functions](using/personalization/functions/maps.md)
+      + [Object functions](using/personalization/functions/objects.md)
+      + [String functions](using/personalization/functions/string.md) 
+  + Use cases{#personalization-use-cases}    
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
++ Segments, profiles and identity{#segment}
+  + Segments {#segments}
+    + [Get started with segments](using/segment/about-segments.md)
+    + [Build segments](using/segment/creating-a-segment.md)
+  + Profiles{#profiles}
+    + [Get started with profiles](using/segment/get-started-profiles.md)
+    + [Create test profiles](using/segment/creating-test-profiles.md)
+  + [Identities](using/segment/get-started-identity.md)
+  + [License usage](using/segment/license-usage.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
