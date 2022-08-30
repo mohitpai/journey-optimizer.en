@@ -28,7 +28,7 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
-+ Campaigns {#campaigns}
++ Campaigns{#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
@@ -38,7 +38,7 @@ solution: Journey Optimizer
     + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
     + [Reporting configuration](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-+ Journeys {#orchestrate-journeys}
++ Journeys{#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
     + [Journey lifecycle](using/building-journeys/journey-end.md) 
