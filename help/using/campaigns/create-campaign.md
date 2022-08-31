@@ -16,15 +16,15 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 >* [Create channel surfaces](../configuration/channel-surfaces.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
-The steps to create a campaign are as follows:
+## Create your 1st campaign {#create}
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
-    ![](assets/create-campaign.png)
-
     >[!NOTE]
     >
-    >You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+    >You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
+
+    ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -33,13 +33,15 @@ The steps to create a campaign are as follows:
 
 1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
-    ![](assets/create-campaign-action.png)
-    
     A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
+
+    ![](assets/create-campaign-action.png)
 
     >[!NOTE]
     >
-    >Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.
+    >Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Specify a title and a description for the campaign.
 
@@ -55,7 +57,8 @@ The steps to create a campaign are as follows:
         * [Create a push notifications](../messages/create-push.md)
         * [Create an SMS message](../messages/create-sms.md)
 
-    1. Once your content is defined, use **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../design/preview.md).
+    1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../design/preview.md).
+
     1. Click the arrow to go back to the campaign creation screen.
 
         ![](assets/create-campaign-design.png)
@@ -76,17 +79,11 @@ The steps to create a campaign are as follows:
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
-1. Configure the schedule of your campaign in the start and end dates fields. By default, campaigns start once they are activated manually, and to end as soon as the message has been sent once.
+    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. Additionally, you can specify a frequency for the execution of the action configured in the campaign.
+1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn how to schedule campaigns](#schedule)
 
-    <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-    ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-Once your campaign is ready, you can review and publish it. [Learn more](#review-activate);
+Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
 
 ## Review and activate a campaign {#review-activate} 
 
@@ -121,3 +118,13 @@ Once your campaign has been configured, you need to review its parameter and con
     You can also get additional statistics in dedicated reports by clicking the **[!UICONTROL Reports]** button. [Learn more](../reports/campaign-global-report.md)
 
     ![](assets/create-campaign-summary.png)
+
+## Schedule a campaign {#schedule}
+
+By default, campaigns start once they have been activated manually, and end as soon as the message has been sent once.
+
+You can define a frequency at which the campaign's message should be sent. To do this, use the **[!UICONTROL Action triggers]** options in the campaign creation screen to specify if the campaign should be executed daily, weekly, or monthly.
+
+If you do not want to execute your campaign right after its activation, you can specify the a date and time at which the message should be sent using the **[!UICONTROL Campaign start]** option. The  **[!UICONTROL Campaign end]** option allows you to specify when a recurring campaign should stop being executed.
+
+![](assets/create-campaign-schedule.png)

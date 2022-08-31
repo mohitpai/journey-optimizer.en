@@ -15,7 +15,11 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-The content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
+>[!NOTE]
+>
+>Before using content experiment, make sure that your reporting configuration is set for your custom datasets. Learn more in [this section](reporting-configuration.md).
+
+The Content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
 
 In the example below, the delivery target has been split into two groups, each representing 45% of the targeted population, and a holdout group of 10%, who will not receive the delivery.
 

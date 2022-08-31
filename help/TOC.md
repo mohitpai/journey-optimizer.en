@@ -259,7 +259,7 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
-    + [Suppression list](using/reports/suppression-list.md)
+    + [Understand the suppression list](using/reports/suppression-list.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -379,8 +379,7 @@ solution: Journey Optimizer
       + Monitor email addresses {#monitor-reputation}  
         + [Suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
-        + [Allowed list](using/configuration/allow-list-temp.md)
-        + [Allow list](using/configuration/allow-list.md)
+        + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)

@@ -18,6 +18,10 @@ Use Journey Optimizer campaigns to deliver one-time content to a specific segmen
 
 Create campaigns to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 
+The main steps to create a campaign are as follows:
+
+![](assets/create-campaign-process.png)
+
 ➡️ [Discover this feature in video](#video)
 
 <!--You can create two types of campaigns:
