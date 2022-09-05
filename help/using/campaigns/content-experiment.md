@@ -95,7 +95,7 @@ The goal here is to see if recipients will interact with the email depending on 
 
 Once your treatments are personalized, you can start configuring your Content Experiment.
 
-## Configure your Content Experiment {#configure-experiment}
+## Configure your content experiment {#configure-experiment}
 
 1. When both deliveries are personalized, from the **[!UICONTROL Edit content]** window, select **[!UICONTROL Configure content experiment]**.
 
