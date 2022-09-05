@@ -2,18 +2,18 @@
 title: Get started with content experiment
 description: Learn more about content experiment in [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
-# Get started with Content experiments {#get-started-experiment}
+# Get started with content experiments {#get-started-experiment}
 
 >[!AVAILABILITY]
 >
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The Content Experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 ## What is a Content Experiment?
 
@@ -29,7 +29,7 @@ Experiments allow you to isolate the changes that lead to improvements in your m
 
 This allows you to make data driven decisions in optimizing your business goals.
 
-For content experiments in Adobe Journey Optimizer, you can test ideas such as:
+For Content Experiments in Adobe Journey Optimizer, you can test ideas such as:
 
 * **Subject line**: What could be the impact of a change in the tone or in the degree of personalization of a subject line?
 * **Message content**: Will changing the visual layout of an email result in more clicks on the email?
@@ -55,7 +55,7 @@ For example, changing content of the message body is unlikely to affect email op
 +++Run your test on the right audience size, or for long enough
 
 If you run your tests for longer, you will be able to detect smaller differences in the goal metric between treatments. However, if the baseline value of your goal metric is small, then you'll need larger sample sizes. 
-The number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or spread of your goal metric, as well as your tolerance for false positive and false negative errors. In classical Experiments, you can use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) to determine how long you must run your test.
+The number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or spread of your goal metric, as well as your tolerance for false positive and false negative errors. In classical Experiments, you can use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} to determine how long you must run your test.
 +++ 
 
 +++Understand statistical uncertainty
@@ -69,7 +69,7 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
 +++
 
-## Interpreting the results of your Experiments {#interpret-results}
+## Interpret the results of your Experiments {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -99,11 +99,11 @@ If the confidence intervals for two treatments are barely overlapping, this mean
 
 Adobe uses 95% Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
 
-### 3. Understanding Lift {#understand-lift}
+### 3. Understand Lift {#understand-lift}
 
 The Experiment report summary shows the **[!UICONTROL Lift over Baseline]**, which is a measure of the percentage improvement in conversion rate of a given treatment over the baseline. Defined precisely, it is the difference in performance between a given treatment and the baseline, divided by the performance of the baseline, expressed as a percentage.
 
-### 3. Understanding Confidence {#understand-confidence}
+### 3. Understand Confidence {#understand-confidence}
 
 While you should primarily focus on the **[!UICONTROL Confidence interval]** for the performance of each treatment, Adobe also shows the Confidence, which is a probabilistic measure of how much evidence there is that a given treatment is the same as the baseline treatment. A higher confidence indicates less evidence for the assumption that baseline and non-baseline treatments have equal performance. More precisely, the confidence that is displayed is a probability (expressed as a percentage) that we would have observed a smaller difference in conversion rates between a given treatment and the baseline, if in reality there is no difference in the true underlying conversion rates. In terms of p-values, the confidence displayed is 1 - p-value.
 

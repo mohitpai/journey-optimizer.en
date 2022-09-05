@@ -1,5 +1,5 @@
 ---
-title: Reporting configuration
+title: Configure Journey Optimizer reporting for experimentation
 description: Learn how to set up reporting data source
 feature: Data Sources
 topic: Administration
@@ -9,7 +9,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 ---
-# Reporting configuration {#reporting-configuration}
+# Configure reporting for experimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

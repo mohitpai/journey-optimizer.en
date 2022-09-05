@@ -1,5 +1,5 @@
 ---
-title: Create a content experiment
+title: Create a Content Experiment
 description: Learn how to create a content experiment in your campaigns
 feature: Overview
 topic: Content Management
@@ -9,17 +9,17 @@ hide: yes
 hidefromtoc: yes
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 ---
-# Create a Content experiment {#content-experiment}
+# Create a content experiment {#content-experiment}
 
 >[!AVAILABILITY]
 >
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
+Use Journey Optimizer Content Experiment to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
 
 >[!NOTE]
 >
->Before using content experiment, make sure that your reporting configuration is set for your custom datasets. Learn more in [this section](reporting-configuration.md).
-
-The Content experiment feature allows you to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the email’s content, subject, or sender. 
+>Before starting with Content Experiment, make sure that your reporting configuration is set for your custom datasets. Learn more in [this section](reporting-configuration.md).
 
 In the example below, the delivery target has been split into two groups, each representing 45% of the targeted population, and a holdout group of 10%, who will not receive the delivery.
 
@@ -32,9 +32,9 @@ The goal here is to see if recipients will interact with the email depending on 
 
 ![](assets/content_experiment.png)
 
-## Create your Campaign {#campaign-experiment}
+## Create your campaign {#campaign-experiment}
 
-1. From the **[!UICONTROL Campaigns]** page, click **[!UICONTROL Create Campaign]**.
+1. From the **[!UICONTROL Campaigns]** page, click **[!UICONTROL Create campaign]**.
 
     ![](assets/content_experiment_1.png)
 
@@ -49,7 +49,7 @@ The goal here is to see if recipients will interact with the email depending on 
     * **[!UICONTROL Description]**
     * **[!UICONTROL Category]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transactional]**
 
-1. To start your content experiment, toggle the **[!UICONTROL Content experiment]** option. The **[!UICONTROL Content experiment]** menu will appear.
+1. To start your content experiment, toggle the **[!UICONTROL Content experiment]** option. The **[!UICONTROL Content experiment]** menu appears.
 
     ![](assets/content_experiment_3.png)
 
@@ -93,9 +93,9 @@ The goal here is to see if recipients will interact with the email depending on 
 
 1. Click **[!UICONTROL Email designer]** to further personalize the Treatment B delivery if needed.
 
-Once your treatments are personalized, you can start configuring your content experiment.
+Once your treatments are personalized, you can start configuring your Content Experiment.
 
-## Configure your content experiment {#configure-experiment}
+## Configure your Content Experiment {#configure-experiment}
 
 1. When both deliveries are personalized, from the **[!UICONTROL Edit content]** window, select **[!UICONTROL Configure content experiment]**.
 
