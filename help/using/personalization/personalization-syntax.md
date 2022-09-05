@@ -37,6 +37,10 @@ The words **true**, **false**, **null** and **undefined** are only allowed in th
 
 In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains `&`, then the returned HTML-escaped output is generated as `&amp;`. If you don't want Handlebars to escape a value, use the "triple-stash".
 
+Regarding literal functions arguments, the templating language parser does not support single unescaped backslash ('\') symbol. This character must be escaped with an additionnal backslash ('\') symbol. Example :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}` 
+
 ## Profile
 
 This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.

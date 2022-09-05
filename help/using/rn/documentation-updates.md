@@ -13,8 +13,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The Frequency rules section has been updated to reflect the new in-line messaging flow. [Read more](../configuration/frequency-rules.md#apply-frequency-rule)
 * A video showing how to configure subscriptions and create landing pages is now referenced in the Get started with landing pages section. [Read more](../landing-pages/get-started-lp.md#video)
 * A limitation has been added for journeys using Read Segment activities. [Read more](../building-journeys/read-segment.md)
-* The expression ediror operators page has been improved. [Read more](../building-journeys/expression/operators.md)
+* The expression editor operators page has been improved. [Read more](../building-journeys/expression/operators.md)
 * A section on how to schedule a campaign has been added. [Read more](../campaigns/create-campaign.md)
+* General syntax rules section for expression editor has been updated to take into account the new rule regarding the backslash symbol escaping in literal functions. The existing published messages are not impacted by this change. Only the new or draft messages must be updated. [Read more](../personalization/personalization-syntax.md#general-rules)
 
 ## July 2022 {#july-2022}
 
