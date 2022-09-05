@@ -1,7 +1,7 @@
 ---
 title: Statistical Calculations used by Adobe Journey Optimizer Experimentation
 description: Learn more about statistical calculations used when running experiments
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced

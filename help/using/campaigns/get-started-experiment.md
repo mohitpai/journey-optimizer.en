@@ -1,7 +1,7 @@
 ---
 title: Get started with content experiment
 description: Learn more about content experiment in [!DNL Journey Optimizer]
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner

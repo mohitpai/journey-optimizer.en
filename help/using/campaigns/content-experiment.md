@@ -1,7 +1,7 @@
 ---
 title: Create a Content Experiment
 description: Learn how to create a content experiment in your campaigns
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
