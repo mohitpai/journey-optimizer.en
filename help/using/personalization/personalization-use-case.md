@@ -12,7 +12,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
 
 * **Profile**: message personalization based on a profile field
-* **Offer decision**: personalization based on offer decisioning variables
+* **Offer decision**: personalization based on decision management variables
 * **Context**: personalization based on contextual data from the journey
 
 The goal of this example is to push an event to [!DNL Journey Optimizer] every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
@@ -71,7 +71,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc13.png)
 
-1. From the left menu, select **Offer decisions** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision to add it to the body.  
+1. From the left menu, select **Offer decisions** to insert a decisioning variable. Select the placement and click the **+** icon next to the decision to add it to the body.  
 
    ![](assets/perso-uc14.png)
 

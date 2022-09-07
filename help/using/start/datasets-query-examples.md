@@ -15,7 +15,7 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 [Message Feedback Event Dataset](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Push Tracking Experience Event Dataset](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Journey Step Event](../start/datasets-query-examples.md#journey-step-event)
-[Offer Decisioning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
+[Decisioning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
 [Consent Service Dataset](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC Feedback Event Dataset](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -193,7 +193,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Offer Decisioning Event Dataset{#ode-decisionevents}
+## Decisioning Event Dataset{#ode-decisionevents}
 
 _Name in the interface: ODE DecisionEvents (system dataset)_
 

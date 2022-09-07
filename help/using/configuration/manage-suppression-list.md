@@ -177,11 +177,9 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Submit]**.
 
-    ![](assets/suppression-list-upload-file-button.png)
-
-1. Click **[!UICONTROL Submit]**.
+    ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >
