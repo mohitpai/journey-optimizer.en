@@ -15,9 +15,9 @@ The [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/
 
 The Experience Platform Web SDK supports querying the personalization solutions at Adobe, including Decision Management, allowing you to retrieve and render personalized offers that you have created using APIs or the Offer Library. For more detailed instructions, refer to the documentation on [creating an offer](../../get-started/starting-offer-decisioning.md).  
 
-There are two ways to implement Offer Decisioning with the [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). One way is geared towards developers and requires knowledge of websites and programming. The other way is using the Adobe Experience Platform user interface to set up offers which only requires a small script to be referenced in the header of the HTML page.
+There are two ways to implement decision management with the [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). One way is geared towards developers and requires knowledge of websites and programming. The other way is using the Adobe Experience Platform user interface to set up offers which only requires a small script to be referenced in the header of the HTML page.
 
-Refer to the documentation on [Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) for more information on how to deliver personalized offers using the Platform Web SDK.
+Refer to the documentation on [decision management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) for more information on how to deliver personalized offers using the Platform Web SDK.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ To personalize offers, you must separately configure your personalization/profil
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-To configure the SDK for Offer Decisioning, follow either of two steps below:
+To configure the SDK for decision management, follow either of two steps below:
 
 ## Option 1 - Install the Tag extension and implementation using Launch
 
@@ -84,7 +84,7 @@ This option is more user-friendly for people who may have less coding experience
 
 ## Option 2 - Manually implement using the pre-built stand  alone version
 
-Here are the steps needed to use Offer Decisioning using the prebuilt standalone installation of the web SDK. This guide assumes this is your first time implementing the SDK, so all of the steps may not be applicable to you. This guide also assumes some development experience.
+Here are the steps needed to use decision management using the prebuilt standalone installation of the web SDK. This guide assumes this is your first time implementing the SDK, so all of the steps may not be applicable to you. This guide also assumes some development experience.
 
 Include the following JavaScript snippet from Option 2: The Prebuilt Standalone Version on [this page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in the `<head>` section of your HTML page.
 

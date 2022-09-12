@@ -205,7 +205,7 @@ This enables you to access detailed information for that decision. Select the **
 
 ## How-to video{#video}
 
-Learn how to create offer activities in Offer Decisioning.
+Learn how to create offer activities in decision management.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

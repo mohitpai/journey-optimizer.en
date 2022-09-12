@@ -23,11 +23,11 @@ In the default configuration, the threshold is set to 5 errors.
 
 If a delivery is successful after a retry, the error counter of the address is reinitialized.
 
-## Edit the retry threshold {#edit-retry-threshold}
+## Retry threshold edition {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Update the number of errors threshold"
+>title="Update the retry threshold"
 >abstract="If the default value does not suit your needs, you can modify the allowed number of consecutive soft bounces. When the retry counter reaches the error threshold for a specific email address, this address is added to the suppression list."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 

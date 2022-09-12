@@ -1,6 +1,6 @@
 ---
 title: Getting started
-description: Learn how to start using the Offer Library API to perform key operations using the Decision Management Engine.
+description: Learn how to start using the Offer Library API to perform key operations using the decisioning engine.
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 ---
 # Decision Management API developer guide {#decision-management-api-developer-guide}
 
-This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Decision Management Engine.
+This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the decisioning engine.
 
 ➡️ [Learn more on the components of Decision Management in this video](#video)
 
@@ -19,7 +19,7 @@ This guide requires a working understanding of the following components of Adobe
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}: The standardized framework by which [!DNL Experience Platform] organizes customer experience data.
     * [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}: Learn about the basic building blocks of XDM schemas.
-* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md): Explains the concepts and components used for Experience Decisioning in general and Offer decisioning in particular. Illustrates the strategies used for choosing the best option to present during a customer's experience.
+* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md): Explains the concepts and components used for Experience Decisioning in general and decision management in particular. Illustrates the strategies used for choosing the best option to present during a customer's experience.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQL is a powerful language to write expressions over XDM instances. PQL is used to define decision rules.
 
 ## Reading sample API calls {#reading-sample-api-calls}
@@ -124,7 +124,7 @@ This document covered the prerequisite knowledge required to make calls to the [
 
 >[!NOTE]
 >
-> The In-app messaging channel in Adobe Journey Optimizer uses offer decisioning objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for offer decisioning use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
 
 ## How-to video {#video}
 

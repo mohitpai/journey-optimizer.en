@@ -185,7 +185,7 @@ The detailed steps to create a collection are described in [this section](../../
 
 Now you must create a decision that will combine placements with the personalized offers and the fallback offer you just created.
 
-This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile: in this example, it will be based on the priority and decision rule you assigned to each offer. 
+This combination will be used by the decisioning engine to find the best offer for a specific profile: in this example, it will be based on the priority and decision rule you assigned to each offer. 
 
 To create and configure an offer decision, follow the main steps below:
 

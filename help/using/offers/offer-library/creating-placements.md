@@ -49,7 +49,7 @@ To create a placement, follow these steps:
 
 ## How-to video{#video}
 
-Learn how to create placements in Offer Decisioning.
+Learn how to create placements in decision management.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

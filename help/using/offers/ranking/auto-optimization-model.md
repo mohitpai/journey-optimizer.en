@@ -14,7 +14,7 @@ An Auto-optimization model aims to serve offers that maximize the return (KPIs) 
 
 ## Limitations {#limitations}
 
-The use of Auto-optimization models for Offer Decisioning is subject to the limitations below:
+The use of Auto-optimization models for decision management is subject to the limitations below:
 
 * Auto-optimization models do not work with the Batch Decisioning API.
 * Feedback needed to build model must be sent in as an experience event. It should not be sent in automatically in [!DNL Journey Optimizer] channels.
