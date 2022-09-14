@@ -9,7 +9,23 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 [!DNL Adobe Journey Optimizer] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
+
+## September 2022 Release {#sept-2022-release}
+
+### New capabilities
+
+### Improvements
+
+**Administration**
+
+* The user interface for creating channel surfaces has been updated.
+
+* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.
+
+* The user interface for creating IP pools has been updated.
+
+* The user interface for adding emails/domains to the suppression list has been updated.
 
 ## August 2022 Release {#aug-2022-release}
 
