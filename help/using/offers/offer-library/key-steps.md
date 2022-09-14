@@ -52,7 +52,7 @@ Before starting to create offers, you must define several components that you wi
 
 ## Create and configure decisions {#create-and-configure-decisions}
 
-1. **Create a decision** that will combine placements with the personalized offers and the fallback offers. This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile. 
+1. **Create a decision** that will combine placements with the personalized offers and the fallback offers. This combination will be used by the decisioning engine to find the best offer for a specific profile. 
 
 1. **Configure the decision**. To do so, select the placements, and for each placement, select a collection and a fallback.
 

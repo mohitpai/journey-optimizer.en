@@ -35,8 +35,8 @@ solution: Journey Optimizer
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
-    + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
-    + [Reporting configuration](using/campaigns/reporting-configuration.md)
+    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
+    + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
@@ -45,6 +45,7 @@ solution: Journey Optimizer
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
+  + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
@@ -259,7 +260,7 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
-    + [Suppression list](using/reports/suppression-list.md)
+    + [Understand the suppression list](using/reports/suppression-list.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)

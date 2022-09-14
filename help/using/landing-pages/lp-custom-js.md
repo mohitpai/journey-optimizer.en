@@ -60,7 +60,7 @@ Here are the hooks you can use:
 | Name | Description |
 |--- |--- |
 | addBeforeSubmitHook | Custom hook to be called before form submission. Returns true to continue submission, else returns false to block submission. |
-| addBeforeSubmitHook | Custom hook to be called on failed form submission. |
+| addOnFailureHook | Custom hook to be called on failed form submission. |
 | addOnSuccessHook | Custom hook to be called on successful form submission. |
 
 **Example:**

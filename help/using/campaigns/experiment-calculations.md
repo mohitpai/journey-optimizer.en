@@ -1,7 +1,7 @@
 ---
-title: Statistical Calculations used by Experimentation
+title: Statistical Calculations used by Adobe Journey Optimizer Experimentation
 description: Learn more about statistical calculations used when running experiments
-feature: Overview
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
@@ -9,13 +9,15 @@ hide: yes
 hidefromtoc: yes
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 ---
-# Understand Statistical Calculations {#experiment-calculations}
+# Understand statistical calculations {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-This article describes the statistical calculations used when you run Experiments in Adobe Journey Optimizer. Experimentation uses advanced statistical methods to calculate **Confidence sequences** and **Confidence**, which allow you to run your experiments for as long as needed, and to monitor your results continuously.
+This article describes the statistical calculations used when you run Experiments in Adobe Journey Optimizer. 
+
+Experimentation uses advanced statistical methods to calculate **Confidence sequences** and **Confidence**, which allow you to run your experiments for as long as needed, and to monitor your results continuously.
 
 This article describes how the Experimentation works, and provides an intuitive introduction to Adobe's **Any Time Valid Confidence Sequences**. 
 
@@ -62,4 +64,4 @@ Every time you view the experimentation report, Adobe analyzes the data that has
 
 At this point, the treatment which is performing the best (based on the conversion rate, or profile-normalized metric value) will be highlighted at the top of the report screen, and indicated with a star in the tabular report. Only treatments that have a confidence greater than 95%, along with the baseline are considered in this determination.
 
-When there are more than two treatments, the Bonferroni correction link is used to correct for multiple comparison problems, and controls the family wise error rate. In this scenario, it is also possible that there are multiple treatments whose confidence is greater than 95%, and whose confidence intervals overlap. In this case, Adobe will declare the one with the highest conversion rate (or profile-normalized metric value) to be the best performer.
+When there are more than two treatments, the Bonferroni correction link is used to correct for multiple comparison problems, and controls the family wise error rate. In this scenario, it is also possible that there are multiple treatments whose confidence is greater than 95%, and whose confidence intervals overlap. In this case, Adobe Journey Optimizer will declare the one with the highest conversion rate (or profile-normalized metric value) to be the best performer.

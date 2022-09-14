@@ -20,12 +20,12 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configure your SMS vendor"
+>title="Select the SMS Vendor configuration"
 >abstract="Select your vendor and fill in your SMS API credentials."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Configure your SMS vendor"
+>title="Select the SMS Vendor configuration"
 >abstract="Select the API credentials configured for your SMS vendor."
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:

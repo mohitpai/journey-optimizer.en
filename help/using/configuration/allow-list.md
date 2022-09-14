@@ -9,15 +9,17 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 ---
 # Allowed list {#allow-list}
 
-It is possible to define a specific sending-safe list at the [sandbox](../administration/sandboxes.md) level, to have a secured environment for testing purpose.
+It is possible to define a specific sending-safe list at the [sandbox](../administration/sandboxes.md) level.
 
-For example, on a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
+This allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox.
 
 >[!NOTE]
 >
 >This feature is available on production and non-production sandboxes.
 
-The allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment.
+For example, on a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to real customer addresses, and therefore provides a secured environment for testing purpose.
+
+Also, when the allowed list is active but empty, no mail will go out. Hence if you encounter some major issue, you can use this feature to stop  all outgoing communications from [!DNL Journey Optimizer] until you fix the problem. Learn more on the [allowed list logic](#logic).
 
 >[!CAUTION]
 >
@@ -41,27 +43,49 @@ You can search on the email addresses or domains, and filter on the **[!UICONTRO
 
 ![](assets/allowed-list-filtering-example.png)
 
-## Enable the allowed list {#enable-allow-list}
+## Activate the allowed list {#enable-allow-list}
 
-To enable the allowed list, follow the steps below.
+To activate the allowed list, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
-1. Click **[!UICONTROL Enable/Disable allowed list]**.
+1. Click **[!UICONTROL Deactivated]**.
 
     ![](assets/allow-list-edit.png)
 
-1. Select **[!UICONTROL Enable allowed list]**.
+1. Select **[!UICONTROL Activate allowed list]**. The allowed list is now active.
 
     ![](assets/allow-list-enable.png)
 
-1. Click **[!UICONTROL Save]**. The allowed list is enabled.
+    >[!NOTE]
+    >
+    >After you activate the allowed list, there is a 5-minute latency for it to take effect in your journeys and campaigns.
 
-The allowed list logic applies when the feature is enabled. Learn more in [this section](#logic).
+The allowed list logic applies when the feature is active. Learn more in [this section](#logic).
 
 >[!NOTE]
 >
->When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](../design/preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
+>When activated, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](../design/preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
+
+## Deactivate the allowed list {#deactivate-allow-list}
+
+To deactivate the allowed list, follow the steps below.
+
+1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
+
+1. Click **[!UICONTROL Active]**.
+
+    ![](assets/allow-list-edit-active.png)
+
+1. Select **[!UICONTROL Deactivate allowed list]**. The allowed list is no longer active.
+
+    ![](assets/allow-list-deactivate.png)
+
+    >[!NOTE]
+    >
+    >After you deactivate the allowed list, there is a 5-minute latency for it to take effect in your journeys and campaigns.
+
+The allowed list logic does not apply when the feature is deactivated. Learn more in [this section](#logic).
 
 ## Add entities to the allowed list {#add-entities}
 
@@ -120,11 +144,16 @@ Learn more on making API calls in the [Adobe Experience Platform APIs](https://e
 
 ## Allowed list logic {#logic}
 
-When the allowed list is [enabled](#enable-allow-list), the following logic applies:
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="Manage the allowed list"
+>abstract="When the allowed list is activated, only the recipients included in the allowed list will receive email messages from this sandbox."
+
+When the allowed list is [active](#enable-allow-list), the following logic applies:
 
 * If the allowed list is **empty**, no email will be sent out.
 
-* If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient(s). However, if the entity is also on the [suppression list](../reports/suppression-list.md), the corresponding recipient(s) will not receive the email, the reason being **[!UICONTROL Suppressed]**.
+* If an entity is **on the allowed list**, and not on the suppression list, the email is sent to the corresponding recipient(s). However, if the entity is also on the [suppression list](../reports/suppression-list.md), the corresponding recipient(s) will not receive the email, the reason being **[!UICONTROL Suppressed]**.
 
 * If an entity is **not on the allowed list** (and not on the suppression list), the corresponding recipient(s) will not receive the email, the reason being **[!UICONTROL Not allowed]**.
 
@@ -134,9 +163,11 @@ When the allowed list is [enabled](#enable-allow-list), the following logic appl
 >
 >Learn more on the [Live Report](../reports/live-report.md) and [Global Report](../reports/global-report.md).
 
+When the allowed list is [deactivated](#deactivate-allow-list), all the emails that you are sending from the current sandbox are sent out to all recipients (provided they are not on the suppression list), including real customer addresses.
+
 ## Exclusion reporting {#reporting}
 
-When this feature is enabled on a non-production sandbox, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} to make the API calls below.
+When the allowed list is active, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} to make the API calls below.
 
 To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
 

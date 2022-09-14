@@ -580,7 +580,7 @@ The `Group` function is used to extract specific information, based on the regul
 The following query is used to extract the domain name from an email address.
 
 ```sql
-{%= regexGroup(emailAddress,"@(\w+)", 1) %}
+{%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
 ## Replace {#replace}

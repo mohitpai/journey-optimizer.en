@@ -41,7 +41,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. This capability allows non-technical and technical users to quickly test offer decisioning and troubleshoot potential problems.</p>
+<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. This capability allows non-technical and technical users to quickly test decision management and troubleshoot potential problems.</p>
 <p>For more information, refer to the <a href="../offers/offer-activities/simulation.md">detailed documentation</a>.</p>
 </td>
 </tr>

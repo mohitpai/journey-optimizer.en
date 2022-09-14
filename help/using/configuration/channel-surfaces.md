@@ -146,8 +146,6 @@ To edit a channel surface, follow the steps below.
 
 1. Click **[!UICONTROL Submit]** to confirm your changes.
 
-    ![](assets/preset-confirm-update.png)
-
     >[!NOTE]
     >
     >You can also save the channel surface as draft and resume update later on.
@@ -170,7 +168,7 @@ Click the **[!UICONTROL Recent update]** icon that is displayed next to the acti
 
 On the **[!UICONTROL Recent update]** screen, you can see information such as the update status, and the list of requested changes.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### Update statuses {#update-statuses}
 
