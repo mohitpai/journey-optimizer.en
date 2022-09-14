@@ -33,7 +33,9 @@ Once channel surfaces have been configured, you will be able to select them when
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces."
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, sender name, mobile apps, SMS configuration, and more."
+
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
 
 To create a channel surface, follow these steps:
 
