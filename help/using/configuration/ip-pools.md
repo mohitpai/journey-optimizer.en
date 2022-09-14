@@ -10,6 +10,11 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 # Create IP pools {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool_header"
+>title="Set up an IP pool"
+>abstract="You can create IP pools to group together the IP addresses of your subdomains for improved email deliverability."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Set up an IP pool"
 >abstract="You can create IP pools to group together the IP addresses of your subdomains for improved email deliverability."

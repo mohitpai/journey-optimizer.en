@@ -104,9 +104,14 @@ The possible reasons for a delivery failure are:
 ## Manually add addresses and domains {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="Add emails or domains to the suppression list"
 >abstract="You can manually populate the Journey Optimizer suppression list to exclude specific email addresses and/or domains from your sending."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Add emails or domains to the suppression list"
+>abstract="To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending."
 
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 

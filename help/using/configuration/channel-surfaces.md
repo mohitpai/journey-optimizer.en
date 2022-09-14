@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Set up channel surfaces {#set-up-channel-surfaces}
 
-With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, and more. 
+With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, SMS configuration, and more. 
 
 >[!CAUTION]
 >
@@ -26,9 +26,14 @@ Once channel surfaces have been configured, you will be able to select them when
 ## Create a channel surface {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Channel surface settings"
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain, sender name, mobile apps, SMS configuration, and more."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as message type, subdomain, sender name, mobile apps, and more."
+>abstract="A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces."
 
 To create a channel surface, follow these steps:
 

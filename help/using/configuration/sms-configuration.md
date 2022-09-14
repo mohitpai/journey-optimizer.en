@@ -19,13 +19,19 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 ## Create new API credential {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="Select the SMS Vendor configuration"
+>id="ajo_admin_sms_api_header"
+>title="Configure your SMS vendor with Journey Optimizer"
 >abstract="Select your vendor and fill in your SMS API credentials."
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configure your SMS vendor with Journey Optimizer"
+>abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Select the SMS Vendor configuration"
+>title="Select the SMS vendor configuration"
 >abstract="Select the API credentials configured for your SMS vendor."
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:
