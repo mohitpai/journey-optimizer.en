@@ -19,79 +19,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* The user interface for creating channel surfaces has been updated.
+* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. [Learn more](../configuration/get-started-configuration.md)
 
-* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.
+**Decision management**
 
-* The user interface for creating IP pools has been updated.
+* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
-* The user interface for adding emails/domains to the suppression list has been updated.
-
-## August 2022 Release {#aug-2022-release}
-
-### New capabilities 
-
-<table>
-<thead>
-<tr>
-<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
-<img src="assets/do-not-localize/campaigns.gif"/>
-<p>Learn how to create a campaign in the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a> and <a href="https://video.tv.adobe.com/v/346680">feature video</a>.
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Send SMS to your users (general availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>Learn how to create and send a SMS in this <a href="../messages/create-sms.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
-<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### Improvements
-
-**Reporting**
-
-* Consent policies table and graph are now available in Journey global reports. These widgets allow you to track the excluded profiles from the policies in your custom actions. [Learn more](../reports/journey-global-report.md#journey-global)
-    
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to [the detailed documentation](../reports/global-report.md).
-
-**Administration**
-
-* It is now possible to update the primary phone number to use for the SMS channel. [Learn more](../configuration/primary-email-addresses.md)
