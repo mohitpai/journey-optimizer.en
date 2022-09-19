@@ -25,3 +25,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
+**Journeys**
+
+* A new guardrail has been added to avoid triggering journeys unecessarily when using the same event multiple times. Re-entrance is now blocked for 5 minutes every time an an event based journey is triggered. For instance, if an event triggers a journey at 12:01 and another one arrives at 12:03 (whether it is that same event or a different one triggering the same journey) that journey will not start again.
