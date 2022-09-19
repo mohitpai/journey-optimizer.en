@@ -27,4 +27,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* A new guardrail has been added to avoid triggering journeys unecessarily when using the same event multiple times. Re-entrance is now blocked for 5 minutes every time an event based journey is triggered. [Learn more](../start/guardrails.md#events-g)
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
