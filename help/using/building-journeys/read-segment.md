@@ -102,6 +102,8 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >One-shot Read segment journeys move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence.
+>
+>You need to be cautious while using wait activities in recurring read segment journeys as the lifespan of such journeys ends at to the next execution. Meaning that if a journey runs daily, the journey instance that started today will last until tomorrow's execution. For instance, if you added a 2 days wait in that journey, profiles will always be moved on the next journey execution (so the day after), whether they are in the next run audience or not. Profiles will never be able to stay in that journey for 2 days.
 
 ### Test and publish the journey {#testing-publishing}
 
