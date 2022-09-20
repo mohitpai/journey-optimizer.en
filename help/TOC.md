@@ -429,4 +429,6 @@ solution: Journey Optimizer
 + Privacy {#privacy}
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
-  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)
+  + [Audit actions resources](using/privacy/audit-logs.md)
+  + [HIPAA compliance](using/privacy/ajo-hipaa.md)
+
