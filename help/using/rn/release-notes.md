@@ -11,20 +11,95 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-## September 2022 Release {#sept-2022-release}
 
-### New capabilities
 
-### Improvements
+## September 2022 Release{#sept-2022-release}
 
-**Administration**
+### New capabilities{#sept-2022-features}
 
-* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. [Learn more](../configuration/get-started-configuration.md)
 
-**Decision management**
+<table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
+
+
+<table>
+<thead>
+<tr>
+<th><strong>HIPAA Compliance</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer enables compliance with the the Health Insurance Portability and Accountability Act (HIPAA).</p>
+<p>HIPAA readiness capabilities include:</p>
+<ul>
+<li>Data access control</li>
+<li>Data usage labelling governance</li>
+<li>Audit controls</li>
+<li>Archiving capabilities for all channels</li>
+<li>Refined permissions management</li>
+<li>Data hygiene</li>
+<li></li>
+</ul>
+<p>Caution: some of these capabilities are available through a specific Healthcare Shield add-on offering, available in the US only.</p> 
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Alerting and monitoring</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a read segment node has not processed any profile within the allotted threshold.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Improvements{#sept-2022-improvements}
+
+**Landing pages**
+
+* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
 
 **Journeys**
 
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
+
+**Administration**
+
+* When enabling or disabling the allowed list, a new warning now displays to explain more clearly the implications of enabling/disabling the allowed list. Learn more
+* The user interface for creating channel surfaces has been updated. Learn more
+* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.	Learn more
+
+### Other changes{#sept-2022-other}
+
+* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
+* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.	
+	
