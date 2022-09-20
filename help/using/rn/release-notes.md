@@ -74,7 +74,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a read segment node has not processed any profile within the allotted threshold.</p>
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile within the allotted threshold.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -91,6 +91,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Journeys**
 
 * A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
+
+*  The **AJO Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This dataset denormalises the data such that you can easily join feedback/tracking datasets to this dataset to get meaningful information like subject/title/messageName, etc.
 
 **Administration**
 
