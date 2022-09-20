@@ -104,6 +104,10 @@ solution: Journey Optimizer
   + Use cases{#personalization-use-cases}    
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Dynamic content {#dynamic}
+    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
+    + [Create conditions](using/personalization/create-conditions.md)
+    + [Build conditional content](using/personalization/dynamic-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)

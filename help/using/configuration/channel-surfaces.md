@@ -131,7 +131,7 @@ If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe
     * Blocklisting of the allocated IPs
     * Invalid `helo` name
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+    * Unable to deliver emails to inboxes of major ISPs
 
 ## Edit a channel surface {#edit-channel-surface}
 
