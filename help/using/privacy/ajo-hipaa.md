@@ -13,7 +13,7 @@ Ultimately companies are responsible for ensuring their compliance with their le
 
 >[!CAUTION]
 >
->Some of the HIPAA readiness capabilities listed below are available through a specific Healthcare Shield add-on offering.
+>Some of the HIPAA readiness capabilities listed below are available through a specific Healthcare Shield add-on offering. This offering is available for US customers only.
 >This add-on is a HIPAA-ready offering built on Adobe Experience Cloud applications which empower healthcare brands and companies.
 > 
 
@@ -31,8 +31,10 @@ HIPAA readiness capabilities in Journey Optimizer cover:
 
 * **Data encryption** - All datasets used for input/output of models will follow Adobe Experience Platform guidelines. Platform Data Encryption applies for data at-rest and in-transit. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en){_blank}
 
+<!--
 * **Automated Consent Enforcement** - Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication. Learn more [in this page](../action/consent.md).
     *CAUTION*:  Automated Consent Enforcement is currently only available for organizations that have purchased the Healthcare Shield add-on offering.
+-->
 
 * **Data hygiene** - Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.
     *CAUTION*:  Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.
