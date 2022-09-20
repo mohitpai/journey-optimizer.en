@@ -11,8 +11,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-
-
 ## September 2022 Release{#sept-2022-release}
 
 ### New capabilities{#sept-2022-features}
