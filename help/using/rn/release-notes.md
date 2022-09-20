@@ -53,7 +53,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <li>Archiving capabilities for all channels</li>
 <li>Refined permissions management</li>
 <li>Data hygiene</li>
-<li></li>
 </ul>
 <p>Caution: some of these capabilities are available through a specific Healthcare Shield add-on offering, available in the US only.</p> 
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
