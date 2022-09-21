@@ -60,7 +60,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer lets you define labels to restrict sensitive fields from being transfered to an external system through a custom action in a journey.</p>
+<p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -118,24 +118,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Restrict sentivive fields in exports to third-parties</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a sensitive field in the custom action parameters sent to the third-party system, an error is displayed preventing you from publishing the journey.
-</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### Improvements{#sept-2022-improvements}
 
