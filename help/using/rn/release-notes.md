@@ -159,13 +159,14 @@ Personalized Optimization AI ranking models are now generally available in Decis
 **Journeys**
 
 *  The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data.
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.    
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail impacts when enabling/disabling the allowed list. Learn more
-* The user interface for creating channel surfaces has been updated. Learn more
-* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.	Learn more
+* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. Learn more
+* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. Learn more
+* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
+* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file. 
 
 **Audit controls**
 
@@ -179,7 +180,11 @@ Personalized Optimization AI ranking models are now generally available in Decis
 
 * The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
 
+**Decision management**
+
+* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
+
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.	
+* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
