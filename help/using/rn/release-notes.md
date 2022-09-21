@@ -37,6 +37,72 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+<th><strong>Data Access Control</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Governance and Privacy</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer lets you define labels to restrict sensitive fields from being transfered to an external system through a custom action in a journey.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Permission Management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through **Adobe Experience Cloud Permissions**, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+<!--
+* **Automated Consent Enforcement** - Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication. Learn more [in this page](../action/consent.md).
+    *CAUTION*:  Automated Consent Enforcement is currently only available for organizations that have purchased the Healthcare Shield add-on offering.
+-->
+
+* **Data hygiene** - Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.
+    *CAUTION*:  Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.
+
+
+
+<table>
+<thead>
+<tr>
 <th><strong>HIPAA Compliance</strong><br/></th>
 </tr>
 </thead>
@@ -52,10 +118,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <li>Archiving capabilities for all channels</li>
 <li>Refined permissions management</li>
 <li>Data hygiene</li>
-<li></li>
 </ul>
 <p>Caution: some of these capabilities are available through a specific Healthcare Shield add-on offering, available in the US only.</p> 
-<p>For more information, refer to the <a href="../privacy/ajo-hipaa.md">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -81,21 +146,29 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### Improvements{#sept-2022-improvements}
 
+**Journeys**
+
+*  The **AJO Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This dataset denormalises the data such that you can easily join feedback/tracking datasets to this dataset to get meaningful information like subject/title/messageName, etc.
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
+
+**Administration**
+
+* When enabling or disabling the allowed list, a new warning now displays to detail impacts when enabling/disabling the allowed list. Learn more
+* The user interface for creating channel surfaces has been updated. Learn more
+* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.	Learn more
+
+**Audit controls**
+
+* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. Learn more [in this page](audit-logs.md).
+
+**Archiving**
+
+* Journey Optimizer now comes with a new capability to export your message templates, and archive the format and the structure of the message, without personal data. Learn more
+
 **Landing pages**
 
 * The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
 
-**Journeys**
-
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
-
-*  The **AJO Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This dataset denormalises the data such that you can easily join feedback/tracking datasets to this dataset to get meaningful information like subject/title/messageName, etc.
-
-**Administration**
-
-* When enabling or disabling the allowed list, a new warning now displays to explain more clearly the implications of enabling/disabling the allowed list. Learn more
-* The user interface for creating channel surfaces has been updated. Learn more
-* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.	Learn more
 
 ### Other changes{#sept-2022-other}
 
