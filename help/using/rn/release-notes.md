@@ -84,42 +84,16 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
-
-
-
-
-
-<!--
-* **Automated Consent Enforcement** - Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication. Learn more [in this page](../action/consent.md).
-    *CAUTION*:  Automated Consent Enforcement is currently only available for organizations that have purchased the Healthcare Shield add-on offering.
--->
-
-* **Data hygiene** - Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.
-    *CAUTION*:  Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.
-
-
-
 <table>
 <thead>
 <tr>
-<th><strong>HIPAA Compliance</strong><br/></th>
+<th><strong>Alerting and Monitoring</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer enables compliance with the the Health Insurance Portability and Accountability Act (HIPAA).</p>
-<p>HIPAA readiness capabilities include:</p>
-<ul>
-<li>Data access control</li>
-<li>Data usage labelling governance</li>
-<li>Audit controls</li>
-<li>Archiving capabilities for all channels</li>
-<li>Refined permissions management</li>
-<li>Data hygiene</li>
-</ul>
-<p>Caution: some of these capabilities are available through a specific Healthcare Shield add-on offering, available in the US only.</p> 
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile within the allotted threshold.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -130,13 +104,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Alerting and monitoring</strong><br/></th>
+<th><strong>Data Hygiene</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile within the allotted threshold.</p>
+<p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
+<p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
+<p>Caution: Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -169,9 +145,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
 
-
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
 * To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.	
-	
