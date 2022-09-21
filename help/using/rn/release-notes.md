@@ -159,7 +159,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Audit controls**
 
-* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. Learn more [in this page](audit-logs.md).
+* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. Learn more
 
 **Archiving**
 
