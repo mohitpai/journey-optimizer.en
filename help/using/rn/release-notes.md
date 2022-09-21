@@ -19,20 +19,55 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>New Dynamic Expression Builder</strong><br/></th>
+<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
-<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
+<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>API-triggered campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
+<p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management Personalized Optimization AI ranking models</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.
+</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -124,13 +159,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Journeys**
 
 *  The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data.
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.	
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.    
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail impacts when enabling/disabling the allowed list. Learn more
-* The user interface for creating channel surfaces has been updated. Learn more
-* The user interface for enabling/disabling and adding emails/domains to the allowed list has been updated.	Learn more
+* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. Learn more
+* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. Learn more
+* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
+* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file. 
 
 **Audit controls**
 
@@ -144,7 +180,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
 
+**Decision management**
+
+* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. Learn more
+
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.	
+* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
