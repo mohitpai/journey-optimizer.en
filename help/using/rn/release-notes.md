@@ -19,7 +19,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>Dynamic Content & Conditional Rule Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -27,7 +27,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
 <p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -36,34 +35,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns</strong><br/></th>
+<th><strong>API-triggered Campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>
-In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
+<p>In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
 <p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management Personalized Optimization AI ranking models</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>
-Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.
-</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -79,7 +58,6 @@ Personalized Optimization AI ranking models are now generally available in Decis
 <tr>
 <td>
 <p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -96,7 +74,6 @@ Personalized Optimization AI ranking models are now generally available in Decis
 <tr>
 <td>
 <p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -113,7 +90,6 @@ Personalized Optimization AI ranking models are now generally available in Decis
 <tr>
 <td>
 <p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -129,7 +105,6 @@ Personalized Optimization AI ranking models are now generally available in Decis
 <tr>
 <td>
 <p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile during the defined time frame.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -145,10 +120,26 @@ Personalized Optimization AI ranking models are now generally available in Decis
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
+<p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer.</p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=en">Adobe Experience Platform documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management Personalized Optimization AI ranking models</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 </td>
 </tr>
 </tbody>
@@ -170,7 +161,8 @@ Personalized Optimization AI ranking models are now generally available in Decis
 
 **Audit controls**
 
-* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. Learn more
+* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. [Learn more](../privacy/audit-logs.md)
+
 
 **Archiving**
 
