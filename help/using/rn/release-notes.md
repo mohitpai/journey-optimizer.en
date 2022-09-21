@@ -54,24 +54,6 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <table>
 <thead>
 <tr>
-<th><strong>Decision Management Personalized Optimization AI ranking models</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>
-Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.
-</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Data Access Control</strong><br/></th>
 </tr>
 </thead>
