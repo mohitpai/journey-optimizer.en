@@ -22,11 +22,15 @@ The journey **[!UICONTROL Live report]** page will be displayed with the followi
 
 The journey **[!UICONTROL Live report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
 
+For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](live-report.md#list-of-components-live).
+
 ## Journey tab {#journey-live}
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Journey]** tab gives you a clear view of the most important tracking data about your journey.
 
-![](assets/report_journey_2.png)
+![](assets/journey_live_1.png)
+
++++Learn more on the different metrics and widgets available for the Journey report.
 
 **[!UICONTROL Journey Performance]** allows you to see the path of your targeted profiles step-by-step through your journey.
 
@@ -40,19 +44,20 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 The **[!UICONTROL Event executed over the last 24 hours]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
 
-![](assets/report_journey_4.png)
-
 The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Actions executed and errors]** widgets represent the most successful action and errors which occurred when your actions were triggered. The Action graph, table and summary numbers contain the data available for actions, such as:
 
 * **[!UICONTROL Actions executed]**: Total number of actions successfully executed for a journey.
 
 * **[!UICONTROL Error in actions]**: Total number of errors that occurred for actions.
++++
 
 ## Email tab {#email-live}
 
 From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-![](assets/report_email_1.png)
+![](assets/journey_live_2.png)
+
++++Learn more on the different metrics and widgets available for the Email report.
 
 The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
 
@@ -80,8 +85,6 @@ The **[!UICONTROL Sending metrics by Email]** table and **[!UICONTROL Email Summ
 
 * **[!UICONTROL Spam complaints]**: Number of times a message was declared as spam or junk.
 
-![](assets/report_email_2.png)
-
 The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!UICONTROL Hard and bounce - by Email]** widgets contain the data available related to bounced messages, such as:
 
 * **[!UICONTROL Hard bounce]**: The total number of permanent errors, such as a wrong email address. This involves an error message that explicitly states that the address is invalid, such as Unknown user.
@@ -90,13 +93,9 @@ The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-![](assets/report_email_3.png)
-
 The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
-
-![](assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -109,12 +108,15 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 * **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
 * **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
++++
 
-## Push tab {#push-live}
+## Push notification tab {#push-live}
 
-From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
+From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your journey.
 
-![](assets/report_push_1.png)
+![](assets/journey_live_3.png)
+
++++Learn more on the different metrics and widgets available for the Push report.
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** and **[!UICONTROL Sending metrics - by Push]** widgets details the main information relative to your message:
 
@@ -132,19 +134,18 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Push]** tab de
 
 * **[!UICONTROL Engagements]**: Total number of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
-![](assets/report_push_3.png)
-
 The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
 The **[!UICONTROL Sending statistics - Failed]** widget allows you to see how many errors and bounces occurred.
 
-![](assets/report_push_2.png)
-
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on the operational system.
++++
 
 ## SMS tab {#sms-live}
 
-![](assets/report_sms_live.png)
+![](assets/journey_live_4.png)
+
++++Learn more on the different metrics and widgets available for the SMS report.
 
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
 
@@ -173,3 +174,4 @@ The **[!UICONTROL SMS Summary]** graph details the success of your delivery:
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
++++

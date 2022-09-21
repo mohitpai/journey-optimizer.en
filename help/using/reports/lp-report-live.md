@@ -11,13 +11,13 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 
 The landing page **[!UICONTROL Live report]** report displays details about the impact of your landing pages over the last 24 hours only. To measure your landing page data over a selected time period, refer to the [Landing page global report](lp-report-global.md).
 
-To access your reports, select **[!UICONTROL Live report]** from the advanced menu of your selected landing page.
+To access your reports, select **[!UICONTROL Report]** from the advanced menu of your selected landing page.
 
-![](assets/landing_page_report_1.png)
+![](assets/landing_page_report.png)
 
 The landing page **[!UICONTROL Live report]** is divided into different widgets detailing your delivery’s success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md).
 
-![](assets/landing_page_report_2.png)
++++Learn more on the different metrics and widgets available for the Landing page live report.
 
 The **[!UICONTROL Landing page performance]** widget details the main information relative to your message over the last 24 hours through KPIs:
 
@@ -41,8 +41,9 @@ The **[!UICONTROL Journey(s)]** widget represents the number of visits to your l
 
 The **[!UICONTROL Other sources]** widget represents the number of visits to your landing page from an external source instead of a journey.
 
-![](assets/landing_page_report_3.png)
-
 The **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** graphs represent the total number of visits and persons who interacted successfully with your landing page in the last 24 hours depending on the sent messages.
 
 The **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** graphs represent the total number of visits and persons who interacted successfully with your landing page in the last 24 hours depending on the channels.
++++
+
+For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](live-report.md#list-of-components-live).

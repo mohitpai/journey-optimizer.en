@@ -240,13 +240,13 @@ solution: Journey Optimizer
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
-    + [Access Live report dashboard](using/reports/live-report.md)
+    + [Get started with Live Report](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
     + [Campaign Live report](using/reports/campaign-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
-    + [Access Global report dashboard](using/reports/global-report.md)
+    + [Get started with Global report](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Campaign Global report](using/reports/campaign-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
