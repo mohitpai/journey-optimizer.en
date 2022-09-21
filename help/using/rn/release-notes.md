@@ -25,8 +25,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
-<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p>
+<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
