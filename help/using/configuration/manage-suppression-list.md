@@ -25,6 +25,11 @@ You can also [**manually** add an address or a domain](#add-addresses-and-domain
 
 ## Access the suppression list {#access-suppression-list}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Export the list as a CSV file"
+>abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
@@ -171,11 +176,6 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
-    >[!NOTE]
-    >
-    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
-
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
     >
@@ -184,6 +184,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     >The file size should not exceed 1 MB.
 
 1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+
+    >[!NOTE]
+    >
+    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
 
 1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Submit]**.
 

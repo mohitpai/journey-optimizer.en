@@ -9,17 +9,20 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 ---
 # Campaign Global report {#campaign-global-report}
 
-Campaign Global report can be accessed directly from your Campaign with the **[!UICONTROL Reports]** button. 
+Campaign Global report can be accessed directly from your Campaign with the **[!UICONTROL All time]** button.
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-After selecting the **[!UICONTROL All time]** tab, the Campaign **[!UICONTROL Global report]** page will be displayed with the following tabs:
+The Campaign **[!UICONTROL Global report]** page will be displayed with the following tabs:
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
+
+For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](global-report.md#list-of-components-global.md)
 
 ## Campaign tab {#campaign-global}
 
@@ -37,7 +40,11 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 ## Email tab {#email-global}
 
+![](assets/campaign_report_global_2.png)
+
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
+
++++Learn more on the different metrics and widgets available for the Email report.
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
@@ -121,10 +128,15 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
++++
 
-## Push tab {#push-global}
+## Push notification tab {#push-global}
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your campaign.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your campaign.
+
+![](assets/campaign_report_global_3.png)
+
++++Learn more on the different metrics and widgets available for the Push report.
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
@@ -190,3 +202,47 @@ The **[!UICONTROL Error Reasons]** graph and table allow you to see which error 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
++++
+
+## SMS tab {#sms-global}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL SMS]** tab details the main information relative to the SMS deliveries sent in your campaign.
+
+![](assets/campaign_report_global_4.png)
+
++++Learn more on the different metrics and widgets available for the SMS report.
+
+The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL SMS Performance by date]** widget details the main information relative to your message with a graph:
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
++++
+
+## Additional resources
+
+* [Get started with campaigns](../campaigns/get-started-with-campaigns.md)
+* [Create a campaign](../campaigns/create-campaign.md)
+* [Create API-triggered campaigns](../campaigns/api-triggered-campaigns.md)
+* [Modify or stop a campaign](../campaigns/modify-stop-campaign.md)
+* [Campaign live report](campaign-live-report.md)

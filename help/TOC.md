@@ -104,6 +104,10 @@ solution: Journey Optimizer
   + Use cases{#personalization-use-cases}    
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Dynamic content {#dynamic}
+    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
+    + [Create conditions](using/personalization/create-conditions.md)
+    + [Build conditional content](using/personalization/dynamic-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
@@ -236,13 +240,13 @@ solution: Journey Optimizer
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
-    + [Access Live report dashboard](using/reports/live-report.md)
+    + [Get started with Live Report](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
     + [Campaign Live report](using/reports/campaign-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
-    + [Access Global report dashboard](using/reports/global-report.md)
+    + [Get started with Global report](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Campaign Global report](using/reports/campaign-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
@@ -421,6 +425,7 @@ solution: Journey Optimizer
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
+  + [Object level access control](using/administration/object-based-access.md)
 + Privacy {#privacy}
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
