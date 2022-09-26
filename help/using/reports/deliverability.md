@@ -1,13 +1,13 @@
 ---
-title: Monitoring message execution
-description: Learn monitoring and deliverability guidelines
+title: Get started with deliverability
+description: Learn deliverability guidelines
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 ---
-# Manage deliverability {#manage-deliverability}
+# Get started with deliverability {#manage-deliverability}
 
 Deliverability is a measure of the success of your deliveries reaching your recipients inboxes.
 

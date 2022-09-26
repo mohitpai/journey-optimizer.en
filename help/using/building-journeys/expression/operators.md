@@ -115,7 +115,7 @@ Note that null means the expression has no evaluated value.
 Example:
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### has null
@@ -148,7 +148,9 @@ Example:
 <expression1> == <expression2>
 ```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+>[!NOTE]
+>
+>For &lt;expression1&gt; and &lt;expression2&gt; there is no data type control. 
 
 Example:
 
@@ -168,7 +170,11 @@ Example:
 <expression1> != <expression2>
 ```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+>[!NOTE]
+>
+>For &lt;expression1&gt; and &lt;expression2&gt; there is no data type control. 
+
+The result is boolean.
 
 Example:
 

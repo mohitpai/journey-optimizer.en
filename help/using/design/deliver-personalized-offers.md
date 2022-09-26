@@ -105,7 +105,7 @@ Learn more on the detailed steps to check the message preview in [this section](
 
 ## How-to video{#video-offers}
 
-Learn how to add an offer decisioning component to messages in [!DNL Journey Optimizer].
+Learn how to add a decision management component to messages in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 

@@ -13,7 +13,6 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 >
 >The Interactive Message Execution API is currently in beta, which may be subject to frequent updates without notice.
 
-
 With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others. 
 
 To do this, you first need to create an API-triggered campaign in Journey Optimizer, and then launch its execution through an API call.
@@ -22,7 +21,7 @@ Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
 ## Create an API-triggered campaign {#create}
 
-The process to create API-triggered campaigns remains the same as scheduled campaigns, excepted for the audience selection which is performed in the API payload. Detailed information on how to create a campaign is available in [this section](create-campaign.md).
+The process to create API-triggered campaigns remains the same as scheduled campaigns, except for the audience selection which is performed in the API payload. Detailed information on how to create a campaign is available in [this section](create-campaign.md).
 
 To create an API-triggered campaign, follow these steps:
 
@@ -86,11 +85,3 @@ Note that if you have configured a specific start and/or end date when creating 
 >[!NOTE]
 >
 >In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to login to your website. In that case, the corresponding profile is automatically created into Adobe Experience Platform, in the **AJO Interactive Messaging Profile Dataset** dataset.
-
-## Additional resources
-
-* [Get started with campaigns](get-started-with-campaigns.md)
-* [Create a campaign](create-campaign.md)
-* [Modify or stop a campaign](modify-stop-campaign.md)
-* [Campaign live report](campaign-live-report.md)
-* [Campaign global report](campaign-global-report.md)

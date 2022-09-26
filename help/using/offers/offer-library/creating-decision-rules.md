@@ -41,6 +41,10 @@ To create a decision rule, follow these steps:
 
     ![](../assets/offers_decision_rule_creation_estimate.png)
 
+    >[!NOTE]
+    >
+    >Profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
+    
 1. Click **[!UICONTROL Save]** to confirm.
 
 1. Once the rule is created, it displays in the **[!UICONTROL Rules]** list. You can select it to display its properties, and edit or delete it.

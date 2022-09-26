@@ -11,11 +11,30 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 
 Before sending SMS, configure your instance. You need to [integrate the provider settings](#create-api) with Journey Optimizer and [create an SMS surface](#message-preset-sms) (i.e. SMS preset). These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>Adobe Journey Optimizer currently integrates with third-party providers such as Sinch and Twilio, who offer SMS services independent of Adobe Journey Optimizer.  Prior to SMS configuration, you must create an account with one of these SMS providers to receive the API Token and Service ID which will enable you to establish the connection between Adobe Journey Optimizer and the applicable SMS provider. Your use of SMS services will be subject to additional terms and conditions from the applicable SMS provider. Given that Sinch and Twilio are third-party products available to Adobe Journey Optimizer users via an integration, for any issues or inquiries related to the SMS services, users of Sinch or Twilio will need to contact the applicable SMS provider for assistance. Adobe does not control and is not responsible for third-party products.
+>
 
 ## Create new API credential {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_header"
+>title="Configure your SMS vendor with Journey Optimizer"
+>abstract="Select your vendor and fill in your SMS API credentials."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configure your SMS vendor with Journey Optimizer"
+>abstract="Select your vendor, and fill in your SMS API credentials."
+
+<!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="Select the SMS vendor configuration"
+>abstract="Select the API credentials configured for your SMS vendor."
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:
 
@@ -39,6 +58,12 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 After creating and configuring your API credential, you now need to create a channel surface (i.e. message preset) for SMS messages.
 
 ## Create a channel surface for SMS messages {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="Define the SMS category"
+>abstract="Select the type of SMS messages that will be sent when using this surface: Marketing for promotional SMS messages, which require user consent, or Transactional for non-commercial SMS messages, that can also be sent to unsubscribed profiles in specific contexts."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Opt-out in marketing SMS messages"
 
 Once your SMS channel has been configured, you need to create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
 

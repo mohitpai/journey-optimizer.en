@@ -20,4 +20,4 @@ Steps to configure the push notification channel and test your mobile app integr
 
 You can also perform multiple actions with **[!DNL Adobe Journey Optimizer] APIs**.
 
-Steps to help you start using the [!DNL Offer Library] API are detailed [in this section](../../offers/api-reference/getting-started.md). This guide provides sample API calls for performing key operations using the Decision Management Engine.
+Steps to help you start using the [!DNL Offer Library] API are detailed [in this section](../../offers/api-reference/getting-started.md). This guide provides sample API calls for performing key operations using the decisioning engine.

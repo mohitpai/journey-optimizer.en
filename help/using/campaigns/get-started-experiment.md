@@ -1,7 +1,7 @@
 ---
 title: Get started with content experiment
 description: Learn more about content experiment in [!DNL Journey Optimizer]
-feature: Overview
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
@@ -9,30 +9,62 @@ hide: yes
 hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
-# Get started with Content experiments {#get-started-experiment}
+# Get started with content experiments {#get-started-experiment}
 
 >[!AVAILABILITY]
 >
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>The Content Experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-## What is a Content Experiment?
+## What is a content experiment?
 
-Content Experiments allow you to optimize content for the actions in your Campaigns.
+Content experiments allow you to optimize content for the actions in your Campaigns.
 
-Experiments are a set of randomized trials, which in the context of online testing, means that some randomly selected users are exposed to a given variation of a message and another randomly selected set of users to another treatment. After sending the message, you can then measure the outcome metrics you are interested in e.g. opens of emails or clicks.
+Experiments are a set of randomized trials, which in the context of online testing, means that some randomly selected users are exposed to a given variation of a message and another randomly selected set of users to another treatment. After sending the message, you can then measure the outcome metrics you are interested in e.g., opens of emails or clicks.
 
 ## Why run Experiments?
 
 ![](assets/content_experiment_schema.png)
 
-Experiments allow you to isolate the changes that lead to improvements in your metrics. As illustrated in the image above: some randomly selected users are exposed to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received, i.e. you are able to establish a causal link between the changes you made, and the outcomes you are interested in.
+Experiments allow you to isolate the changes that lead to improvements in your metrics. As illustrated in the image above: some randomly selected users are exposed to each treatment group meaning that on average the groups will share the same characteristics. Thus, any difference in outcomes can be interpreted as being due to the differences in the treatments received i.e., you are able to establish a causal link between the changes you made, and the outcomes you are interested in.
 
 This allows you to make data driven decisions in optimizing your business goals.
 
-For content experiments in Adobe Journey Optimizer, you can test ideas such as:
+For Content Experiments in Adobe Journey Optimizer, you can test ideas such as:
 
 * **Subject line**: What could be the impact of a change in the tone or in the degree of personalization of a subject line?
 * **Message content**: Will changing the visual layout of an email result in more clicks on the email?
+
+## How does content experiment work? {#content-experiment-work}
+
+### Random Assignment 
+
+Content experimentation in Adobe Journey Optimizer uses a pseudo-random hash of the visitor identity to perform random assignment of users in your target audience to one of the treatments that you have defined. The hashing mechanism ensures that in scenarios where the visitor enters a campaign multiple times, they will deterministically receive the same treatment. 
+
+In detail, the MumurHash3 32-bit algorithm is used to hash the user identity string into one of 10,000 buckets. In a content experiment with 50% of traffic assigned to each treatment, users falling in buckets 1– 5,000 will receive the first treatment, while users in the buckets 5,001 to 10,000 will receive the second treatment. Since pseudo-random hashing is used, the visitor splits you observe may not be exactly 50-50; nevertheless, the split will be statistically equivalent to your target split percentage.  
+
+Note that as part of configuring every campaign with a content experiment, you must choose an identity namespace from which the userId will be selected for the randomization algorithm. This is independent of the [execution addresses](../configuration/primary-email-addresses.md).
+
+### Data Collection and Analysis
+
+At the time of assignment i.e., when the message is sent in outbound channels, or when the user enters the campaign in inbound channels, an "assignment record" is logged to the appropriate system dataset. This will record which treatment the user was assigned to, along with experiment and campaign identifiers. 
+
+Objective metrics can be grouped into two main classes:
+
+* Direct metrics, where the user directly reacts to the treatment e.g., opening an email, or clicking on a link.
+* Indirect or "bottom of funnel" metrics, which happens after the user has been exposed to the treatment. 
+
+For direct objective metrics where Adobe Journey Optimizer tracks your messages, the response events of end users are automatically tagged with the campaign and treatment identifiers, allowing direct association of the response metric with a treatment. [Learn more on tracking](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+For indirect or "bottom of funnel" objectives such as purchases, the response events of end users are not tagged with campaign and treatment identifiers i.e., a purchase event happens after the exposure to a treatment, there is no direct association of that purchase with a prior treatment assignment. For these metrics, Adobe will associate the treatment with the bottom of funnel conversion event if:
+
+* The user identity is the same at assignment and conversion event time. 
+* The conversion happens within seven days of the treatment assignment. 
+
+![](assets/technote_3.png)
+
+Adobe Journey Optimizer then uses advanced "anytime valid" statistical methods to interpret this raw reporting data, which allows you to interpret your experimentation reports. For more on this, refer to [this page](../campaigns/experiment-calculations.md).
 
 ## Tips for running Experiments
 
@@ -55,7 +87,7 @@ For example, changing content of the message body is unlikely to affect email op
 +++Run your test on the right audience size, or for long enough
 
 If you run your tests for longer, you will be able to detect smaller differences in the goal metric between treatments. However, if the baseline value of your goal metric is small, then you'll need larger sample sizes. 
-The number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or spread of your goal metric, as well as your tolerance for false positive and false negative errors. In classical Experiments, you can use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) to determine how long you must run your test.
+The number of users that must be included in your experiment depends on the effect size you wish to detect, the variance or spread of your goal metric, as well as your tolerance for false positive and false negative errors. In classical Experiments, you can use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} to determine how long you must run your test.
 +++ 
 
 +++Understand statistical uncertainty
@@ -69,7 +101,7 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
 +++
 
-## Interpreting the results of your Experiments {#interpret-results}
+## Interpret the results of your Experiments {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -99,11 +131,11 @@ If the confidence intervals for two treatments are barely overlapping, this mean
 
 Adobe uses 95% Anytime Valid Confidence Intervals, or Confidence Sequences, which means the results can be safely viewed at any time during the experiment.
 
-### 3. Understanding Lift {#understand-lift}
+### 3. Understand Lift {#understand-lift}
 
 The Experiment report summary shows the **[!UICONTROL Lift over Baseline]**, which is a measure of the percentage improvement in conversion rate of a given treatment over the baseline. Defined precisely, it is the difference in performance between a given treatment and the baseline, divided by the performance of the baseline, expressed as a percentage.
 
-### 3. Understanding Confidence {#understand-confidence}
+### 3. Understand Confidence {#understand-confidence}
 
 While you should primarily focus on the **[!UICONTROL Confidence interval]** for the performance of each treatment, Adobe also shows the Confidence, which is a probabilistic measure of how much evidence there is that a given treatment is the same as the baseline treatment. A higher confidence indicates less evidence for the assumption that baseline and non-baseline treatments have equal performance. More precisely, the confidence that is displayed is a probability (expressed as a percentage) that we would have observed a smaller difference in conversion rates between a given treatment and the baseline, if in reality there is no difference in the true underlying conversion rates. In terms of p-values, the confidence displayed is 1 - p-value.
 

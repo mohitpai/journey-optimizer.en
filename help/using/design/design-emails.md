@@ -9,7 +9,19 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 ---
 # Get started with email design {#get-started-content-design}
 
+You can import an existing content in [!DNL Journey Optimizer] or leverage content design capabilities:
+
+* Use [!DNL Journey Optimizer] **email designing capabilities** to design or import responsive emails. [Learn more](../design/create-email-content.md)
+
+* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database. [Learn more](../design/assets-essentials.md)
+
+* Find **Adobe Stock photos** to build your content and improve your email design. [Learn more](../design/stock.md)
+
+* Enhance customers' experience by creating personalized messages based on their profile attributes. [Learn more](../personalization/personalize.md)
+
 ➡️ [Discover this feature in video](#video)
+
+Once you have [created your message](../messages/get-started-content.md), you can start creating your email content.
 
 1. From your newly created message, select **[!UICONTROL Email designer]** in the **[!UICONTROL Body]** section.
 
@@ -29,11 +41,6 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 
 These features are all available when accessing the Email Designer from the message creation screen. [Learn more about message creation](../messages/get-started-content.md).
 
->[!NOTE]
->
->Note that the templates in the lower area are static and cannot be edited. These are only available for illustration purpose.
->
->Once you have [created your message](../messages/get-started-content.md), you can start creating your email content.
 
 ## How-to video {#video}
 

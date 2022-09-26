@@ -7,6 +7,109 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
+
+## July 2022 Release {#july-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>New in-line messaging flow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer provides a new flow for message authoring in Journeys. In-line messaging will save users significant time and streamline the workflow process to create and deliver an email, a push notification or an SMS in Journey Optimizer. By removing Messages as a separate step and instead making them editable in-line as part of an action on the Journey Canvas, users will need to click fewer buttons and navigate fewer screens to design and edit their content.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>For more information, refer to the <a href="../messages/get-started-content.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Attribute-based access control (limited availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now identify schema fields with labels that define organizational or data usage scopes. Administrators can use the Permissions interface to define access policies covering XDM schema fields and better manage the access given to users or groups of users (internal, external, or third-party users), and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>The use of Attribute-based access control is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Batch decisioning jobs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now run batch decisioning jobs from the user interface, so that I do not need a developer to run batch api jobs and I can reduce the time needed for marketing. This new interface allows you to create jobs and manage current/past jobs.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>For more information, refer to the <a href="../offers/batch-delivery.md">detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Journeys**
+
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the [documentation](../building-journeys/journey-end.md) and [feature video](https://video.tv.adobe.com/v/345376){target="_blank"}.
+
+
+* The **Profile time zone** option is now unchecked by default in journey properties. [Learn more](../building-journeys/timezone-management.md#timezone-from-profiles)
+
+**Messages**
+
+* Message presets are now **channel surfaces**. [Learn more](../configuration/channel-surfaces.md)
+
+**Administration**
+
+* **PTR record edition** - Now when updating a PTR record, the processing time will only take up to 3 hours. [Learn more](../configuration/ptr-records.md#processing)
+
+* **Allowed list UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list. [Learn more](../configuration/allow-list.md)
+
+* **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. [Learn more](../configuration/allow-list.md#logic)
+
+* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your email surfaces (i.e presets). [Learn more](../configuration/email-settings.md#url-tracking)
+
+**decision management**
+
+* **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a decision rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
+
+
 ## June 2022 Release {#june-2022-release}
 
 ### New capabilities 
@@ -21,7 +124,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
+<!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.</p>
 <p>Learn how to create and send a SMS in this <a href="../messages/create-sms.md">detailed documentation</a>.</p>
 </td>
@@ -40,7 +143,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>The Adobe Stock and Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate, license and save imagery for use in message authoring. </br> The new <b>Find similar Stock photos</b> option also allows you to locate Stock photos that will match the content, color, and composition of your images. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
+<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>For more information, refer to the <a href="../design/stock.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -57,7 +160,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
+<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>For more information, refer to the <a href="../configuration/bcc-email.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -98,21 +201,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### Improvements
@@ -152,7 +241,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -169,7 +258,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -203,7 +292,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>You can now monitor actions performed by users on Adobe Journey Optimizer resources.</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>For more information, refer to the <a href="../privacy/audit-logs.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -245,7 +334,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Decision Management**
 
-* **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in Offer Decisioning. You can create your offers and other related objects using the Offer Decisioning user interface (UI) or APIs. [Learn more](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in decision management. You can create your offers and other related objects using the decision management user interface (UI) or APIs. [Learn more](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
@@ -283,7 +372,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 **Decision Management**
 
 * You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/add-constraints.md#capping)
-* The Batch Decisioning API allows organizations to use offer decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* The Batch Decisioning API allows organizations to use decision management functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -381,7 +470,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * You can now access to reports on Send Time Optimization data: the number of persons who were messages immediately and the number of persons who were messaged with 1-hour optimization, 2 hours optimization, etc.
 
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+<!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Decision Management**
 
@@ -429,7 +518,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../reports/sharing-overview.md#integration-cja)
 
-**Offer Decisioning**
+**decision management**
 
 * When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](../offers/offers-e2e.md#insert-decision-in-email)
 

@@ -307,7 +307,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#url-decode">Url decode</a></td><td>This function is used to decode a url encoded string.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url encore</a></td><td>This function is used to url encode a string.</td>
+        <td><a href="string.md#url-encode">Url encode</a></td><td>This function is used to url encode a string.</td>
     </tr>
 </table>
 
