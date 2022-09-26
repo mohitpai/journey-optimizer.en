@@ -25,6 +25,11 @@ You can also [**manually** add an address or a domain](#add-addresses-and-domain
 
 ## Access the suppression list {#access-suppression-list}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Export the list as a CSV file"
+>abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
