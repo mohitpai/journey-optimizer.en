@@ -86,3 +86,4 @@ You can delete a conditional rule at any time using the ellipse button.
 ![](assets/conditions-open.png)
 
 Conditional rules saved to the library cannot be modified. However, you can still use them to create new rules. To do this, open the conditional rule, make the desired changes then save it to the library. [Learn how to save a condition to the library](#save)
+

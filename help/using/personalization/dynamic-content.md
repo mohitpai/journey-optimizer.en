@@ -79,3 +79,4 @@ The steps to create variants of a content component in the Email Designer are as
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]**.
     >
     >Conditional content will be evaluated against associated rules in the order in which the variants are displayed. The default variant is always displayed if no other conditions are met. 
+
