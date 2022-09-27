@@ -157,7 +157,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 
 **Archiving**
 
-* Journey Optimizer now comes with a new capability to export your message templates, and archive the format and the structure of the message, without personal data. Learn more
+* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages for all channels for archiving purpose. Learn more
 
 **Landing pages**
 
