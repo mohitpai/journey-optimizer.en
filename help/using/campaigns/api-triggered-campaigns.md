@@ -1,17 +1,11 @@
 ---
 title: Trigger campaigns using APIs
 description: Learn how to trigger campaigns using [!DNL Journey Optimizer] APIs
-hide: yes
-hidefromtoc: yes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 ---
 # Trigger campaigns using APIs {#trigger-campaigns}
 
 ## About API-triggered campaigns {#about}
-
->[!NOTE]
->
->The Interactive Message Execution API is currently in beta, which may be subject to frequent updates without notice.
 
 With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others. 
 
@@ -39,7 +33,9 @@ To create an API-triggered campaign, follow these steps:
     >
     >You can pass additional data into the API payload that you can leverage to personalize your message. [Learn more](#contextual)
 
-1. Specify the namespace to use to identify the individuals from the segment.
+1. In the **[!UICONTROL Audience]** section, specify the namespace to use to identify the individuals from the segment.
+
+    The **[!UICONTROL Create new profiles]** option allows you to automatically create profiles that do not exist in the database. [Learn more on profile creation at campaign execution](#profile-creation)
 
 1. Configure the campaign's start and end dates. 
 
@@ -82,6 +78,16 @@ You can then use this ID into your API payload to trigger the campaign. Refer to
 
 Note that if you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
 
+## Profile creation at campaign execution {#profile-creation}
+
+In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to login to your website.
+
+When a profile does not exist in the database, Journey Optimizer allows you to automatically create it when executing the campaign to allow sending the message to this profile.
+
+To do this, toggle the **[!UCONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
+
+![](assets/api-triggered-create-profile.png)
+
 >[!NOTE]
 >
->In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to login to your website. In that case, the corresponding profile is automatically created into Adobe Experience Platform, in the **AJO Interactive Messaging Profile Dataset** dataset.
+>Unknown profiles are created in the **AJO Interactive Messaging Profile Dataset** dataset, in three default namespace (email, phone and ECID) respectively for each outbound channels (Email, SMS and Push).
