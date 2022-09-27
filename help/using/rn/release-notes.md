@@ -78,7 +78,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../action/action-privacy.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -111,7 +111,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -140,8 +140,8 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 
 **Journeys**
 
-* The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data.
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.    
+* The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -170,4 +170,4 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor) 
