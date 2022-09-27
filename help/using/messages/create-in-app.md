@@ -10,32 +10,36 @@ level: Beginner
 
 ![](assets/.png)
 
-1. Access the Campaigns menu, then click Create campaign.
+1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
-1. In the Actions section, choose the In-app channel and the channel surface to use to send your message, then click Create.
+1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app channel]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**.
 
     For more information on surfaces, refer to this page.
 
-1. From the Properties section, edit your Campaign's title and description.
+1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-1. Define the audience to target. To do this, click the Select audience button to display the list of available Adobe Experience Platform segments. Learn more on segmentse
+1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. Learn more on segment.
 
-    In the Identity namespace field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on namespaces
+    In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on namespaces.
 
 1. Choose the frequency of your trigger when your In-App message will be active:
 
-    * Show every time
-    * Show once
-    * Show until click through
+    * **[!UICONTROL Show every time]**
+    * **[!UICONTROL Show once]**
+    * **[!UICONTROL Show until click through]**
 
-1. Choose the event that will trigger your message from the Mobile app trigger
-drop-down. By choosing a trigger, you choose an action done by users which will cause the In-App message to be displayed.
+1. Choose the event that will trigger your message from the **[!UICONTROL Mobile app trigger]**
+drop-down. 
+    
+    By choosing a trigger, you choose an action done by users which will cause the In-App message to be displayed.
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the Schedule section. Learn how to schedule campaigns.
+1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. Learn how to schedule campaigns.
 
-You can now start editing your content with the Edit content button.
+You can now start editing your content with the **[!UICONTROL Edit content]** button.
 
-## Message Layout {#message-layout}
+## Design content {#design-content}
+
+### Message Layout {#message-layout}
 
 **[!UICONTROL Message Layout]** provides four different layout options to choose from depending on your messaging needs:
 
@@ -55,15 +59,15 @@ You can now start editing your content with the Edit content button.
 
     For more information on this, refer to Create a custom In-app message.
 
-## Content tab {#content-tab}
+### Content tab {#content-tab}
 
-### Close button {#close-button}
+#### Close button {#close-button}
 
 Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]** between **[!UICONTROL Simple]** or **[!UICONTROL Circle]**.
 
 If the Advanced formatting mode is switched on, you can choose the colors and opacity of your button. 
 
-### Media {#add-media}
+#### Media {#add-media}
 
 The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
 
@@ -71,7 +75,7 @@ Clicking the **[!UICONTROL Select Assets]** icon, you can directly add assets st
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
 
-### Header and Body {#title-body}
+#### Header and Body {#title-body}
 
 To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section]().
 
@@ -82,7 +86,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 * the **[!UICONTROL Color]**
 * the **[!UICONTROL Alignment]**
 
-### Buttons {#buttons}
+#### Buttons {#buttons}
 
 Add buttons for users to interact with your In-app message.
 
@@ -98,19 +102,19 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
 * the **[!UICONTROL Button style]**
 * the **[!UICONTROL Button color]**
 
-## Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
-### Preview {#preview-tab}
+#### Preview {#preview-tab}
 
 App preview
 
 Background color
 
-### Layout {#message}
+#### Layout {#message}
 
 Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]** 
 
-### Message {#message}
+#### Message {#message}
 
 UI takeover
 
@@ -125,4 +129,13 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * **[!UICONTROL Message round corner]**
 * **[!UICONTROL Corner radius]**
 
-**Related topics**
+## Create a custom In-app message {#custom-inapp}
+
+Use the Custom message layout to import raw HTML and/or code your own content.
+
+1. After clicking the **[!UICONTROL Edit content]** button, select the Custom message layout.
+
+1. From the Content tab, select the HTML message options:
+    1. Click Compose 
+    1. Click Import
+
