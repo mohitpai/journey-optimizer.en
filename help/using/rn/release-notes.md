@@ -27,7 +27,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
 <p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -45,7 +45,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p>
 In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
 <p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
