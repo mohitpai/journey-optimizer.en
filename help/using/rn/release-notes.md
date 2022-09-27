@@ -110,7 +110,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tbody>
 <tr>
 <td>
-<p>A new Alerting capability is available for when Journeys don’t work as expected. Configure system alerts for when journeys doesn’t work as expected. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this is workflow is unlocked.</p>
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don’t work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -169,4 +169,4 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
