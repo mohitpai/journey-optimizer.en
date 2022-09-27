@@ -110,7 +110,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don’t work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -161,10 +161,6 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 **Landing pages**
 
 * The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
-
-**Decision management**
-
-* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
 ### Other changes{#sept-2022-other}
 
