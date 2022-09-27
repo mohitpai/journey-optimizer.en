@@ -110,7 +110,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile during the defined time frame.</p>
+<p>A new Alerting capability is available for when Journeys don’t work as expected. Configure system alerts for when journeys doesn’t work as expected. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this is workflow is unlocked.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -118,7 +118,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Data Hygiene</strong><br/></th>
@@ -134,7 +134,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ### Improvements{#sept-2022-improvements}
 
