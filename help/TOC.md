@@ -267,6 +267,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
+  + [Alerts](using/reports/alerts.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -420,6 +421,7 @@ solution: Journey Optimizer
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
       + [Consent](using/action/consent.md)
   + [Sources](using/start/get-started-sources.md)
+  + [Alerts](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
