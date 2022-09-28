@@ -7,7 +7,19 @@ role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 ---
-# BCC email {#bcc-email}
+# Support for archiving {#archiving-support}
+
+Several regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a way to archive messages sent to individuals. Indeed, if your customers raise a claim, they should have the ability to get a copy of the sent message for verification purpose.
+
+For the email channel, [!DNL Journey Optimizer] provides the dedicated BCC email capability. [Learn more](#bcc-email)
+
+Additionnaly, for all channels (push, email, SMS), you can use the new field called 'Template' in the **Entity Dataset**, which contains the details of the non-personalized message templates. Exporting the dataset with this field enables you to save metadata such as who sent the message, to whom and when. Note that personalized data will not be exported: only the template (format and structure of the message) are taken into account. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+
+>[!NOTE]
+>
+>[!DNL Journey Optimizer] does not own support for SMS archival requirement. For dedicated archival support, work with your SMS vendor (Synch or Twilio).
+
+## BCC email {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"

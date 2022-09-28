@@ -157,17 +157,17 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 
 * With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. Learn more [in this page](../privacy/audit-logs.md).
 
-**Archiving**
+**Archiving support**
 
-* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages for all channels for archiving purpose. Learn more
+* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages for all channels for archiving purpose. [Learn more](../configuration/archiving-support.md)
 
 **Landing pages**
 
-* You can now use contextual data coming from another page within the same landing page. For example, if you link a checkbox to a subscription list on the primary landing page, you can use that subscription list on the "thank you" subpage.
+<!--* You can now use contextual data coming from another page within the same landing page. For example, if you link a checkbox to a subscription list on the primary landing page, you can use that subscription list on the "thank you" subpage.-->
 
-* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted.
+* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. Learn more
 
-* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+<!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
 ### Other changes{#sept-2022-other}
 

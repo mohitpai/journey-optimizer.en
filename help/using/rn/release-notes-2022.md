@@ -249,7 +249,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>For more information, refer to the <a href="../configuration/bcc-email.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/archiving-support.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

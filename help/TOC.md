@@ -389,9 +389,9 @@ solution: Journey Optimizer
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
-      + [Use BCC email](using/configuration/bcc-email.md)
+    + [Support for archiving](using/configuration/archiving-support.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)
-    + [Configure frequency rules](using/configuration/frequency-rules.md)
+    + [Configure frequency rules](using/configuration/frequency-rules.md)  
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/configuration/lp-subdomains.md)
     + [Define landing page presets](using/configuration/lp-presets.md)
