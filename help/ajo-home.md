@@ -12,10 +12,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 
 ![](using/assets/do-not-localize/banner-cjm.jpg) 
 
->[!CAUTION]
->
->On July '22, Adobe Journey Optimizer released a [new feature](using/rn/inline-messages.md) which improves the way you author content for Journey Optimizer channels (email, push, SMS). As a Journey Optimizer practitioner, you now [create and author](using/messages/messages-in-journeys.md) your messages directly from a journey. An automatic conversion of journeys is performed for you. That said, we need your help with a few steps. Learn more on the [required steps](using/rn/inline-messages-steps.md).
-
 <table style="table-layout:fixed">
 <tr>
   <td>
