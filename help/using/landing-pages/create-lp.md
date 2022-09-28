@@ -54,6 +54,10 @@ The steps to create a landing page are as follows.
 
     ![](assets/lp_create-lp-details.png)
 
+1. To assign custom or core data usage labels to the campaign, select **[!UICONTROL Manage access]**. See [Learn more on Object Level Access Control (OLAC)](#create-landing-page)<!--(../administration/object-based-access.md)-->
+
+    <!--You can add a tag. See AEP documentation?-->
+
 1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-presets.md#lp-create-preset).
 
     ![](assets/lp_create-lp-presets.png)
@@ -125,7 +129,11 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_expiry-date.png)
 
-    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data)
+
+    ![](assets/lp_create-lp-additional-data.png)
+
+    <!--you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. If you selected one or more subscription lists when [designing the primary page](design-lp.md), they display in the **[!UICONTROL Subscription list]** section.
 
