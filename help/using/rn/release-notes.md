@@ -43,8 +43,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>
-In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
+<p>In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
 <p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
@@ -63,8 +62,9 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
+<p> The use of Attribute-based access control is currently restricted to selected customers, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../administration/object-based-access.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -87,6 +87,22 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Automated Consent Enforcement (Consent Policies)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.
+<p>Automated Consent Enforcement is currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
+<p>For more information, refer to the <a href="../action/consent.md">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -98,7 +114,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -148,11 +164,11 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. Learn more
-* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. Learn more
-* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
+* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
+* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated.
+<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
 * Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more 
+* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
 
 **Audit controls**
 
@@ -164,9 +180,9 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 
 **Landing pages**
 
-<!--* You can now use contextual data coming from another page within the same landing page. For example, if you link a checkbox to a subscription list on the primary landing page, you can use that subscription list on the "thank you" subpage.-->
+* You can now use contextual data coming from another page within the same landing page. For example, if you link a checkbox to a subscription list on the primary landing page, you can use that subscription list on the "thank you" subpage. [Learn more](../landing-pages/lp-content.md#use-primary-page-context)
 
-* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. Learn more
+* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
