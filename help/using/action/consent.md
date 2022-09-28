@@ -16,7 +16,7 @@ In Journey Optimizer, you can apply these consent policies to your custom action
 
 >[!NOTE]
 >
->Consent policies are currently only available for organizations that have purchased Healthcare Shield.
+>Consent policies are currently only available for organizations that have purchased the Healthcare Shield add-on offering.
 
 In Journey Optimizer, consent is defined at several levels:
 
