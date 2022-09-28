@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 ---
 # Support for archiving {#archiving-support}
 
-Several regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a way to archive messages sent to individuals. Indeed, if your customers raise a claim, they should have the ability to get a copy of the sent message for verification purpose.
+Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a way to archive messages sent to individuals. Indeed, if your customers raise a claim, they should have the ability to get a copy of the sent message for verification purpose.
 
 For the email channel, [!DNL Journey Optimizer] provides the dedicated BCC email capability. [Learn more](#bcc-email)
 
@@ -28,7 +28,7 @@ Additionnaly, for all channels (push, email, SMS), you can use the new field cal
 
 You can send an identical copy (or blind carbon copy) of an email sent by [!DNL Journey Optimizer] to a BCC inbox. This optional feature allows you to retain copies of email communications you send to your users for compliance and/or archival purposes. This will be invisible to the delivery recipients.
 
-## Enable BCC email {#enable-bcc}
+### Enable BCC email {#enable-bcc}
 
 To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field of the [channel surface](channel-surfaces.md) (i.e. message preset). You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
 
@@ -60,7 +60,7 @@ However, the BCC address gets picked up for sending communications following the
 >
 >You do not need to republish your journey for the BCC setting to be picked up.
 
-## Recommendations and limitations {#bcc-recommendations-limitations}
+### Recommendations and limitations {#bcc-recommendations-limitations}
 
 * To ensure your privacy compliance, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
@@ -81,7 +81,7 @@ However, the BCC address gets picked up for sending communications following the
 >
 >Do not click the unsubscribe link in the emails sent to the BCC address as you will immediately unsubscribe the corresponding recipients.
 
-## GDPR compliance {#gdpr-compliance}
+### GDPR compliance {#gdpr-compliance}
 
 Regulations such as GDPR state that Data Subjects should be able to modify their consent at any time. Because the BCC emails you are sending with Journey Optimizer include securely personally identifiable information (PII), you must edit the **[!UICONTROL CJM Email BCC Feedback Event Schema]** to be able to manage these PII in compliance with GDPR and similar regulations.
 
@@ -109,7 +109,7 @@ To do this, follow the steps below.
 >
 >Learn more on managing Privacy and the applicable regulations in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
 
-## BCC reporting data {#bcc-reporting}
+### BCC reporting data {#bcc-reporting}
 
 Reporting as such on BCC is not available in the journey and message reports. However, information is stored on a system dataset called **[!UICONTROL AJO BCC Feedback Event Dataset]**. You can run queries against this dataset to find useful information for debugging purpose for example.
 
