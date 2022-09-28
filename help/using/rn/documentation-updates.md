@@ -15,6 +15,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the pages related to the [toDateOnly](../building-journeys/functions/functiontodateonly.md) and [toString](../building-journeys/functions/functiontostring.md) functions.
 * Added details on the time condition parameters. [Read more](../building-journeys/condition-activity.md#time_condition)
 * Added information on built-in datasets. [Read more](../start/get-started-datasets.md#access-datasets)
+* The Global report and Live report sections have been reorganized for improved readability. [Read more](../reports/global-report.md)
+* A list of every reporting metric available in Adobe Journey Optimizer has been added.
+[Read more](../reports/global-report.md#email-and-sms-metrics)
 
 ## August 2022 {#august-2022}
 
