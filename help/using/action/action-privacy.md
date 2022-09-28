@@ -63,7 +63,7 @@ In the left menu, under **Administration**, click **Configurations** and select 
 
 The other steps for configuring a custom action are detailed in [this section](../action/about-custom-action-configuration.md#consent-management).  
 
-### Build the journey {#consent-journey}
+## Build the journey {#consent-journey}
 
 In the left menu, under **Journey management**, click **Journeys**. Create your journey and add your custom action.  When adding the custom action in a journey, several options allow you to manage data governance. Click the **Show read-only fields** to display all parameters.
 
