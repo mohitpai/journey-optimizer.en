@@ -419,7 +419,6 @@ solution: Journey Optimizer
       + [Consent](using/action/consent.md)
       + [Data Governance](using/action/action-privacy.md)
   + [Sources](using/start/get-started-sources.md)
-  + [Alerts](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
