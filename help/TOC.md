@@ -416,8 +416,6 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Consent](using/action/consent.md)
-      + [Data Governance](using/action/action-privacy.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
@@ -432,3 +430,5 @@ solution: Journey Optimizer
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)
   + [HIPAA compliance](using/privacy/ajo-hipaa.md)
+  + [Consent](using/action/consent.md)
+  + [Data Governance](using/action/action-privacy.md)
