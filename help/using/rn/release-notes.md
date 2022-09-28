@@ -27,6 +27,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
 <p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
 </td>
 </tr>
