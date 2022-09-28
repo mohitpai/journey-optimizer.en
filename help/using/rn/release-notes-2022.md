@@ -8,6 +8,94 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
 
+## September 2022 Release {#sept-2022-release}
+
+### New capabilities
+
+### Improvements
+
+**Administration**
+
+* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. [Learn more](../configuration/get-started-configuration.md)
+
+**Decision management**
+
+* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
+
+**Journeys**
+
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
+
+
+## August 2022 Release {#aug-2022-release}
+
+### New capabilities 
+
+<table>
+<thead>
+<tr>
+<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>Learn how to create a campaign in the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a> and <a href="https://video.tv.adobe.com/v/346680">feature video</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Send SMS to your users (general availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Learn how to create and send a SMS in this <a href="../messages/create-sms.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Improvements
+
+**Reporting**
+
+* Consent policies table and graph are now available in Journey global reports. These widgets allow you to track the excluded profiles from the policies in your custom actions. [Learn more](../reports/journey-global-report.md#journey-global)
+    
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to [the detailed documentation](../reports/global-report.md).
+
+**Administration**
+
+* It is now possible to update the primary phone number to use for the SMS channel. [Learn more](../configuration/primary-email-addresses.md)
+
+
 ## July 2022 Release {#july-2022-release}
 
 ### New capabilities 
@@ -73,7 +161,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in decision management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -105,7 +193,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 * **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your email surfaces (i.e presets). [Learn more](../configuration/email-settings.md#url-tracking)
 
-**decision management**
+**Decision management**
 
 * **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a decision rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
 
@@ -161,7 +249,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <td>
 <p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>For more information, refer to the <a href="../configuration/bcc-email.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/archiving-support.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +294,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 ### Improvements
 
-**Decision Management**
+**Decision management**
 
 * **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the Adobe Experience Cloud Asset library into the offer representation content. [Learn more](../offers/offer-library/add-representations.md#html-json)
 
@@ -310,7 +398,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 * **Landing pages without a form** - You can now create and publish a landing page which does not contain a form, and requires no action from visitors.
 * **Landing page templates** - You can now save a landing page as a template and reuse it when creating other landing pages. [Learn more](../landing-pages/lp-templates.md)
 * **Back to the primary page** - You can now add a link to the primary page from any subpage within the same landing page. 
-* **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.	[Learn more](../landing-pages/lp-custom-js.md)
+* **Custom JavaScript support** - You can now add custom JavaScript to your landing page content to perform advanced styling or add custom behaviors to your landing pages.    [Learn more](../landing-pages/lp-custom-js.md)
 
 **Journeys**
 
@@ -332,7 +420,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 * **Pre-fill landing pages fields** - It is now possible to give users the ability to pre-fill the landing page fields with profile information. [Learn more](../landing-pages/create-lp.md#configure-primary-page)
 
-**Decision Management**
+**Decision management**
 
 * **Decisioning API on Edge** - Edge Decisioning API can deliver and render personalized offers that are managed in decision management. You can create your offers and other related objects using the decision management user interface (UI) or APIs. [Learn more](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
@@ -346,7 +434,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **User interface**
 
-* **Contextual help in Journey Optimizer UI** - Contextual help links have been added to multiple pages in Journey Optimizer. When available, click the "i" icon to view a quick description of the current functionality and access related articles.	
+* **Contextual help in Journey Optimizer UI** - Contextual help links have been added to multiple pages in Journey Optimizer. When available, click the "i" icon to view a quick description of the current functionality and access related articles.    
 
 **Integration with Adobe Campaign Standard**
 
@@ -369,7 +457,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 * To avoid having unnecessary fields in the unified profile schema, the Journey Step Event schema is no longer enabled for profiles by default. If needed, you can activate it. [Learn more](../reports/sharing-overview.md)
 * New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../reports/query-examples.md)
 
-**Decision Management**
+**Decision management**
 
 * You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/add-constraints.md#capping)
 * The Batch Decisioning API allows organizations to use decision management functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -432,7 +520,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -460,7 +548,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **Journeys**
 
 * To optimize performance, all journeys in test mode that have not been triggered for a week will now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
-* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.	[Read more](../action/acc-action.md#important-notes)
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.    [Read more](../action/acc-action.md#important-notes)
 
 **Reporting**
 
@@ -472,9 +560,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**Decision Management**
+**Decision management**
 
-* Rankings and AI ranking are now grouped together into a single tab.	
+* Rankings and AI ranking are now grouped together into a single tab.    
 
 ## January 2022 Release {#january-2022-release}
 
@@ -518,7 +606,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../reports/sharing-overview.md#integration-cja)
 
-**decision management**
+**Decision management**
 
 * When you update an offer, fallback offer, offer collection, or offer decision which is directly or indirectly referenced in a published message, the updates are now automatically reflected in the corresponding message, without the need to republish it. [Learn more](../offers/offers-e2e.md#insert-decision-in-email)
 
@@ -530,4 +618,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalization**
 
-* **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](../personalization/personalize.md#fav)
+* **Add to favorites** - To help improve efficiency when working with personalization we've introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](../personalization/personalize.md#fav)

@@ -25,7 +25,7 @@ You can also delete, duplicate, and unpublish a landing page.
 
 >[!CAUTION]
 >
->If you unpublish a landing page which is referenced in an unpublished message, the link to the landing page will be broken and an error page will be displayed.
+>If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed.
 
 Click the three dots next to a landing page to select the desired action.
 
@@ -33,9 +33,16 @@ Click the three dots next to a landing page to select the desired action.
 
 >[!NOTE]
 >
->You cannot delete a published landing page. To delete it, you must first unpublish it.
+>You cannot delete a [published](#publish-landing-page) landing page. To delete it, you must first unpublish it.
 
 ## Create a landing page {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="Define and configure your landing page"
+>abstract="To create a landing page, you need to select a preset, then configure the primary page and subpages, and finally test your page before publishing it."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish the landing page"
 
 The steps to create a landing page are as follows.
 
@@ -46,6 +53,10 @@ The steps to create a landing page are as follows.
 1. Add a title. You can add a description if needed.
 
     ![](assets/lp_create-lp-details.png)
+
+1. To assign custom or core data usage labels to the campaign, select **[!UICONTROL Manage access]**. See [Learn more on Object Level Access Control (OLAC)](#create-landing-page)<!--(../administration/object-based-access.md)-->
+
+    <!--You can add a tag. See AEP documentation?-->
 
 1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-presets.md#lp-create-preset).
 
@@ -64,6 +75,19 @@ The steps to create a landing page are as follows.
 Once you configured and designed the [primary page](#configure-primary-page), and the [subpages](#configure-subpages) if any, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
 
 ## Configure the primary page {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="Define your primary page settings"
+>abstract="The primary page is immediately displayed to the users after they click the link to your landing page, such as from an email or a website."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="Define your landing page URL"
+>abstract="In this section, define a unique landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the preset you selected."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configure landing page subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 
 The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website.
 
@@ -105,7 +129,11 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_expiry-date.png)
 
-    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data)
+
+    ![](assets/lp_create-lp-additional-data.png)
+
+    <!--you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. If you selected one or more subscription lists when [designing the primary page](design-lp.md), they display in the **[!UICONTROL Subscription list]** section.
 
@@ -118,6 +146,19 @@ To define the primary page settings, follow the steps below.
     Click **[!UICONTROL Create journey]** to be redirected to the **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** list.
 
 ## Configure subpages {#configure-subpages}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="Define the subpage settings"
+>abstract="You can add up to 2 subpages. For example, you can create a 'thank you' page that will display once the users submit the form, and you can define an error page that will be called if a problem occurs with the landing page."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="Define your landing page URL"
+>abstract="In this section, define a unique landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the preset you selected."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configure landing page subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 
 You can add up to 2 subpages. For example, you can create a 'thank you' page that will display once the users submit the form, and you can define an error page that will be called if a problem occurs with the landing page.
 

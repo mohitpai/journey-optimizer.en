@@ -27,12 +27,30 @@ By default, only the datasets that you have ingested into are shown. If you want
 
 Select the name of a dataset to access its Dataset activity screen and see details of the dataset you selected. The activity tab includes a graph visualizing the rate of messages being consumed as well as a list of successful and failed batches.
 
+Here are the different datasets available:
+
+**Reporting**
+
+* _Reporting - Message Feedback Event Dataset_: Message delivery logs. Information on all message delivery from Journey Optimizer for reporting and segment creation purposes. Feedback from Email ISPs on bounces is also recorded in this dataset.
+* _Reporting - Email Tracking Experience Event Dataset_: Interaction logs for Email channel which is used for reporting and segment creation purposes. Information stored informs on actions performed by the end-user on email (opens, clicks, etc).
+* _Reporting - Push Tracking Experience Event Dataset_: Interaction logs for Push channel which is used for reporting and segment creation purposes. Information stored informs on actions performed by the end-user on push notifications.
+* -Reporting - Journey Step Event_: Captures All Journey Step Experience Events generated from Journey Optimizer to be consumed by services like Reporting. Also critical for building reports in Customer Journey Analytics for YoY analysis. Tied to a Journey Metadata.
+* _Reporting - Journeys_: Metadata dataset housing information of each step in a journey.
+* _Reporting - BCC_: Feedback Event Dataset which stores the delivery logs for BCC emails. To be used for reporting purposes.
+
+**Consent**
+
+* _Consent Service Dataset_: stores consent information of a profile.
+
+**Intelligent Services**
+
+* _Send-Time Optimization Scores / Engagement Scores_: Output scores of Journey AI.
+
 ## Preview datasets{#preview-datasets}
 
 From the Dataset activity screen, select **Preview dataset** near the top-right corner of your screen to preview the most recent successful batch in this dataset. When a dataset is empty, the preview link is deactivated.
 
 ![](assets/dataset-preview.png)
-
 
 ## Create datasets{#create-datasets}
 

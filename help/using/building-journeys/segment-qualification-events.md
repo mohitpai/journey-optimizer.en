@@ -27,6 +27,8 @@ This type of event can be positioned as the first step or later in the journey.
 >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments, using the High Frequency Audiences option of Adobe Experience Platform).
 >
 >If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on Adobe Experience Platform.
+>
+>Experience event field groups can not be used in journeys starting with a Read segment or Segment qualification activity.
 
 
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas.

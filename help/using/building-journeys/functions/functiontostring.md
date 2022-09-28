@@ -51,3 +51,7 @@ Return a string.
 `toString(4)`
 
 Returns "4".
+
+`toString(#{ExperiencePlatform.test_date.person.birthDate}))`
+
+Returns the string representation of the given dateOnly field (XDM Date field), for example "2016-08-18".
