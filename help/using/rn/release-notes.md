@@ -9,24 +9,24 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 [!DNL Adobe Journey Optimizer] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
 
-## September 2022 Release{#sept-2022-release}
+## August 2022 Release {#aug-2022-release}
 
-### New capabilities{#sept-2022-features}
-
+### New capabilities 
 
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic Content & Conditional Rule Builder</strong><br/></th>
+<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>Learn how to create a campaign in the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a> and <a href="https://video.tv.adobe.com/v/346680">feature video</a>.
 </td>
 </tr>
 </tbody>
@@ -35,148 +35,47 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered Campaigns</strong><br/></th>
+<th><strong>Send SMS to your users (general availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
-<p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
+<p>You can now create, personalize, and send SMS in Journey Optimizer, through an integration with <b>Sinch</b> or <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Learn how to create and send a SMS in this <a href="../messages/create-sms.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Data Access Control</strong><br/></th>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
-<table>
-<thead>
-<tr>
-<th><strong>Data Governance and Privacy</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
+### Improvements
 
-<table>
-<thead>
-<tr>
-<th><strong>Permission Management</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Reporting**
 
-<table>
-<thead>
-<tr>
-<th><strong>Alerting and Monitoring</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface. You can view the available alerts and subscribe to them. For Journey Optimizer, we provide a pre-configured alert which will warn you if a Read Segment activity has not processed any profile during the defined time frame.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Data Hygiene</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer.</p>
-<p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
-<p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=en">Adobe Experience Platform documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management Personalized Optimization AI ranking models</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Improvements{#sept-2022-improvements}
-
-**Journeys**
-
-*  The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data.
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes.    
+* Consent policies table and graph are now available in Journey global reports. These widgets allow you to track the excluded profiles from the policies in your custom actions. [Learn more](../reports/journey-global-report.md#journey-global)
+    
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to [the detailed documentation](../reports/global-report.md).
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. Learn more
-* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. Learn more
-* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file. 
-
-**Audit controls**
-
-* With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like campaigns, journeys, messages, landing pages etc. Audit log resources now include changes on various other actions, and are recorded automatically as the activity occurs. [Learn more](../privacy/audit-logs.md)
-
-
-**Archiving**
-
-* Journey Optimizer now comes with a new capability to export your message templates, and archive the format and the structure of the message, without personal data. Learn more
-
-**Landing pages**
-
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more
-
-**Decision management**
-
-* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. Learn more
-
-### Other changes{#sept-2022-other}
-
-* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can not longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour.    
+* It is now possible to update the primary phone number to use for the SMS channel. [Learn more](../configuration/primary-email-addresses.md)

@@ -122,19 +122,11 @@ To apply a frequency rule to a message, follow the steps below.
 
 1. All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
 
-1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s).
+   >[!NOTE]
+   >
+   >Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
-   ![](assets/message-rules-msg-link.png)
-
-   A new tab will open to display the matching message frequency rules.
-
-All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
-
->[!NOTE]
->
->Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. You can view the number of profiles excluded from delivery in the [Global report](../reports/global-report.md), and in the [Live report](../reports/live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 

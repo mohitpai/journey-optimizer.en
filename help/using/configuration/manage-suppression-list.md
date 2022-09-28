@@ -25,6 +25,11 @@ You can also [**manually** add an address or a domain](#add-addresses-and-domain
 
 ## Access the suppression list {#access-suppression-list}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Export the list as a CSV file"
+>abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
@@ -104,9 +109,17 @@ The possible reasons for a delivery failure are:
 ## Manually add addresses and domains {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_header"
+>title="Add emails or domains to the suppression list"
+>abstract="You can manually populate the Journey Optimizer suppression list in order to exclude specific email addresses and/or domains from your sending."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Add emails or domains to the suppression list"
 >abstract="You can manually populate the Journey Optimizer suppression list to exclude specific email addresses and/or domains from your sending."
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
@@ -163,11 +176,6 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
-    >[!NOTE]
-    >
-    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
-
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
     >
@@ -177,11 +185,13 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+    >[!NOTE]
+    >
+    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
 
-    ![](assets/suppression-list-upload-file-button.png)
+1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Submit]**.
 
-1. Click **[!UICONTROL Submit]**.
+    ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

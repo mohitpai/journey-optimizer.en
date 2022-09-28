@@ -82,9 +82,13 @@ Before creating a decision, make sure that the components below have been create
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
-        >[!NOTE]
-        >
-        >When you select segments or decision rules, information on the estimated qualified profiles is displayed. Click **[!UICONTROL Refresh]** to update data.
+1. When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+    >[!NOTE]
+    >
+    >Profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
+
+    ![](../assets/activity_constraint-estimate.png)
 
 1. Define the ranking method you want to use to select the best offer for each profile.
 
@@ -136,7 +140,7 @@ If everything is configured properly, a summary of the decision properties displ
 
     ![](../assets/review-decision.png)
 
-    You can expand or collapse each placement. You can also preview the available offers, eligibility and ranking details for each placement.
+1. You can expand or collapse each placement. You can preview the available offers, eligibility and ranking details for each placement. You can also display information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
     ![](../assets/review-decision-details.png)
 
@@ -201,7 +205,7 @@ This enables you to access detailed information for that decision. Select the **
 
 ## How-to video{#video}
 
-Learn how to create offer activities in Offer Decisioning.
+Learn how to create offer activities in decision management.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

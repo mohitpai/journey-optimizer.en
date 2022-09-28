@@ -9,11 +9,11 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Set up channel surfaces {#set-up-channel-surfaces}
 
-With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, and more. 
+With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, SMS configuration, and more. 
 
 >[!CAUTION]
 >
-> * To create, edit and delete channel surfaces, you must have the [Manage channel surface](../administration/high-low-permissions.md#manage-channel-surface).
+> * To create, edit and delete channel surfaces, you must have the [Manage channel surface](../administration/high-low-permissions.md#manage-channel-surface) permission.
 >
 > * You must perform the [Email configuration](#configure-email-settings), [Push configuration](../configuration/push-configuration.md) and [SMS configuration](../configuration/sms-configuration.md) steps before creating channel surfaces.
 
@@ -26,9 +26,16 @@ Once channel surfaces have been configured, you will be able to select them when
 ## Create a channel surface {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Channel surface settings"
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain, sender name, mobile apps, SMS configuration, and more."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as message type, subdomain, sender name, mobile apps, and more."
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, sender name, mobile apps, SMS configuration, and more."
+
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
 To create a channel surface, follow these steps:
 
@@ -124,7 +131,7 @@ If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe
     * Blocklisting of the allocated IPs
     * Invalid `helo` name
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+    * Unable to deliver emails to inboxes of major ISPs
 
 ## Edit a channel surface {#edit-channel-surface}
 
@@ -145,8 +152,6 @@ To edit a channel surface, follow the steps below.
     >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
 
 1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    ![](assets/preset-confirm-update.png)
 
     >[!NOTE]
     >
@@ -170,7 +175,7 @@ Click the **[!UICONTROL Recent update]** icon that is displayed next to the acti
 
 On the **[!UICONTROL Recent update]** screen, you can see information such as the update status, and the list of requested changes.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### Update statuses {#update-statuses}
 

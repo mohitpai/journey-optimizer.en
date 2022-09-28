@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 
 The subscription **[!UICONTROL Global report]** displays details about the activity of your subscribers over a selected time period. To measure your subscriptions over the last 24 hours only, refer to the [Subscription live report](subscription-report-live.md).
 
-To access your reports, select **[!UICONTROL Global report]** from the advanced menu of your selected subscription list.
+To access your reports, click the **[!UICONTROL Report]** icon of your selected subscription list.
 
 ![](assets/subscription_report_7.png)
 

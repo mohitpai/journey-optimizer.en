@@ -6,6 +6,7 @@ description: Learn more about personalized optimization models
 feature: Ranking Formulas
 role: User
 level: Intermediate
+exl-id: c73b3092-e96d-4957-88e6-500e99542782
 ---
 # Personalized Optimization model {#personalized-optimization-model}
 
@@ -34,9 +35,9 @@ There are 3 types of features:
 
 | Feature types | How to add features to models |
 |--------------|----------------------------|
-| Offer Decisioning Objects (placementID, activityID, decisionScopeID)| Part of the Offer Decisioning feedback Experience Events sent to AEP|
+| Decisioning objects (placementID, activityID, decisionScopeID)| Part of the decision management feedback Experience Events sent to AEP|
 | Segments| 0-50 segments can be added as features when creating the Ranking AI model|
-| Context data| Part of the Offer Decisioning feedback Experience Events sent to AEP. Available context data to add to schema: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, placeContext|
+| Context data| Part of the decisioning feedback Experience Events sent to AEP. Available context data to add to schema: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, placeContext|
 
 The model has two phases:
 

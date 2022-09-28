@@ -57,6 +57,12 @@ To create an **offer**, follow these steps:
 
 1. Add constraints to set the conditions for the offer to be displayed. [Learn more](add-constraints.md)
 
+    >[!NOTE]
+    >
+    >When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+    >
+    >Note that profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
+
     ![](../assets/offer-constraints-example.png)
 
 1. Review and save the offer. [Learn more](#review)
@@ -66,6 +72,10 @@ To create an **offer**, follow these steps:
 Once eligibility rules and constraints have been defined, a summary of the offer properties displays.
 
 1. Make sure everything is configured properly.
+
+1. You can display information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+
+    ![](../assets/offer-summary-estimate.png)
 
 1. When your offer is ready to be presented to users, click **[!UICONTROL Finish]**.
 

@@ -22,13 +22,15 @@ The journey **[!UICONTROL Global report]** page will be displayed with the follo
 
 The journey **[!UICONTROL Global report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
 
+For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](global-report.md#list-of-components-global).
+
 ## Journey tab {#journey-global}
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Journey]** tab gives you a clear view of the most important tracking data about your journey.
 
-![](assets/global_report_2.png)
+![](assets/journey_global_1.png)
 
-+++Learn more on the different metrics and widgets available for Journey report
++++Learn more on the different metrics and widgets available for Journey report.
 
 The **[!UICONTROL Journey Performance]** widget allows you to see the path of your targeted profiles step-by-step through your journey.
 
@@ -60,9 +62,9 @@ Note that for these widgets to appear in your Journeys reports, you will need to
 
 From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your journey.
 
-![](assets/global_report_14.png)
+![](assets/journey_global_2.png)
 
-+++Learn more on the different metrics and widgets available for the Email report
++++Learn more on the different metrics and widgets available for the Email report.
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
@@ -166,13 +168,13 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
 +++
 
-## Push tab {#push-global}
+## Push notification tab {#push-global}
 
-From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push]** tab details the main information relative to the push deliveries sent in your journey.
+From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your journey.
 
-![](assets/global_report_17.png)
+![](assets/journey_global_3.png)
 
-+++Learn more on the different metrics and widgets available for the Push report
++++Learn more on the different metrics and widgets available for the Push report.
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
@@ -204,8 +206,6 @@ The **[!UICONTROL Push - Tracking statistics]** contains the available data for 
 
 * **[!UICONTROL Engagement Rate]**: Percentage of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.
 
-![](assets/global_report_24.png)
-
 The **[!UICONTROL Push notification summary]** graph contains the data available for sent push notifications, such as:
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
@@ -233,13 +233,9 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-![](assets/global_report_18.png)
-
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
-
-![](assets/global_report_19.png)
 
 The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
 
@@ -248,9 +244,9 @@ The SMS **[!UICONTROL Global report]** is divided into different widgets detaili
 
 ## SMS tab {#sms-global}
 
-![](assets/report_sms_global.png)
+![](assets/journey_global_4.png)
 
-+++Learn more on the different metrics and widgets available for the SMS report
++++Learn more on the different metrics and widgets available for the SMS report.
 
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
 

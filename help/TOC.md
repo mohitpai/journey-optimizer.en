@@ -28,25 +28,24 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
-+ Campaigns {#campaigns}
++ Campaigns{#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
-    + [Understand Statistical Calculations](using/campaigns/experiment-calculations.md)
-    + [Statistical Calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)  
+    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
+    + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-  + Reports {#reports}
-    + [Campaign live report](using/campaigns/campaign-live-report.md)
-    + [Campaign global report](using/campaigns/campaign-global-report.md)
-    + [Reporting configuration](using/campaigns/reporting-configuration.md)  
 + Messages {#messages}
   + [Get started with messages](using/messages/get-started-content.md)
+  + [Add messages journeys](using/messages/messages-in-journeys.md)
+  + [Add messages campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
+  + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
@@ -81,35 +80,34 @@ solution: Journey Optimizer
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Personalization & dynamic content {#personalized-dynamic-content}  
-  + Personalization {#personalization}
-    + [Get started with personalization](using/personalization/personalize.md)
-    + [Personalization contexts](using/personalization/personalization-contexts.md)
-    + Build expressions {#build-expressions}
-      + [Personalization syntax](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-        + [Work with saved expressions](using/personalization/personalization-library.md)  
-        + [Personalization validation](using/personalization/personalization-validation.md)
-      + Helper functions{#functions}
-        + [Get started with helper functions](using/personalization/functions/functions.md)
-        + [Aggregation functions](using/personalization/functions/aggregation.md)
-        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-        + [Date functions](using/personalization/functions/dates.md)
-        + [Boolean and comparison functions](using/personalization/functions/operators.md)
-        + [Helpers](using/personalization/functions/helpers.md)
-        + [Map functions](using/personalization/functions/maps.md)
-        + [Object functions](using/personalization/functions/objects.md)
-        + [String functions](using/personalization/functions/string.md) 
-    + Use cases{#personalization-use-cases}    
-      + [Order status notification](using/personalization/personalization-use-case.md)
-      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
++ Personalization{#personalization}
+  + [Get started with personalization](using/personalization/personalize.md)
+  + [Personalization contexts](using/personalization/personalization-contexts.md)
+  + Build expressions {#build-expressions}
+    + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression editor {#expression-editor}
+      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Work with saved expressions](using/personalization/personalization-library.md)  
+      + [Personalization validation](using/personalization/personalization-validation.md)
+    + Helper functions{#functions}
+      + [Get started with helper functions](using/personalization/functions/functions.md)
+      + [Aggregation functions](using/personalization/functions/aggregation.md)
+      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+      + [Date Time functions](using/personalization/functions/dates.md)
+      + [Boolean and comparison functions](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Map functions](using/personalization/functions/maps.md)
+      + [Object functions](using/personalization/functions/objects.md)
+      + [String functions](using/personalization/functions/string.md) 
+  + Use cases{#personalization-use-cases}    
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Dynamic content {#dynamic}
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditions](using/personalization/create-conditions.md)
-    + [Build conditional content](using/personalization/build-conditional-content.md)
+    + [Build conditional content](using/personalization/dynamic-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
@@ -139,7 +137,6 @@ solution: Journey Optimizer
     + [Reaction](using/building-journeys/reaction-events.md)
     + [Segment qualification](using/building-journeys/segment-qualification-events.md)
     + [Condition](using/building-journeys/condition-activity.md)
-    + [End](using/building-journeys/end-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
     + [Email, SMS, Push](using/building-journeys/journeys-message.md)
@@ -243,13 +240,15 @@ solution: Journey Optimizer
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
-    + [Access Live report dashboard](using/reports/live-report.md)
+    + [Get started with Live Report](using/reports/live-report.md)
     + [Journey Live report](using/reports/journey-live-report.md)
+    + [Campaign Live report](using/reports/campaign-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
-    + [Access Global report dashboard](using/reports/global-report.md)
+    + [Get started with Global report](using/reports/global-report.md)
     + [Journey Global report](using/reports/journey-global-report.md)
+    + [Campaign Global report](using/reports/campaign-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}
@@ -265,7 +264,7 @@ solution: Journey Optimizer
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
-    + [About the suppression list](using/reports/suppression-list.md)
+    + [Understand the suppression list](using/reports/suppression-list.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -426,9 +425,8 @@ solution: Journey Optimizer
   + [Permission levels](using/administration/high-low-permissions.md)
   + [Sandboxes management](using/administration/sandboxes.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
+  + [Object level access control](using/administration/object-based-access.md)
 + Privacy {#privacy}
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
-  + [Audit actions resources](using/privacy/audit-logs.md)
-  + [HIPAA compliance](using/privacy/ajo-hipaa.md)
-
+  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)

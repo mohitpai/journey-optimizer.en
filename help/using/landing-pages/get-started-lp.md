@@ -13,6 +13,8 @@ A landing page is a standalone web page that a user is directed to after clickin
 
 [!DNL Journey Optimizer] allows you to create and design landing pages to direct your users to online forms where they can opt in or opt out from receiving your communications, or subscribe to a specific service such as a newsletter.
 
+➡️ [Learn more on configuring subscriptions and creating landing pages in this video](#video)
+
 * Leverage [!DNL Journey Optimizer] content design capabilities to easily build **responsive landing pages**.
 * Set up **opt-in and opt-out flows** quickly and seamlessly.
 * Create subscription lists to enable users to **subscribe to a service**. [Read more](lp-use-cases.md#subscription-to-a-service)
@@ -28,8 +30,8 @@ A landing page is a standalone web page that a user is directed to after clickin
 </tr>
 </table>
 
-<!--
+## How-to video{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+The video below shows how to create a subscription list, set up landing pages to offer subscriptions to or un-subscriptions from a service, integrate the (un)subscription option to a message and configure relevant journeys.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

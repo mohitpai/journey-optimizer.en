@@ -16,13 +16,15 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
-Once you [added an SMS](get-started-content.md) activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message.
+SMS deliveries can be created:
 
->[!AVAILABILITY]
->
->The SMS channel is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+* In a **Journey**: Once you added an SMS activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message. 
 
-![](assets/sms-edit-content.png)
+    For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
+
+* In a **Campaign**: Once you created a campaign, select SMS as your action and define basic settings. 
+
+    For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
 
 If this is your first time creating an SMS message, make sure the SMS channel has been configured. [Learn more](../configuration/sms-configuration.md).
 
@@ -40,8 +42,11 @@ To start personalizing your SMS message, follow these steps:
 
     ![](assets/sms-content-preview.png)
 
-
 ## Validate your SMS{#sms-preview}
+
+>[!NOTE]
+>
+> For better deliverability, you should always use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
 
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
 

@@ -8,6 +8,7 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 ---
 # Data usage policies {#Policies}
 
+
 With Adobe Experience Platform **Data Governance service**, you can enforce data usage restrictions through the use of labels, marketing actions, and policies.
 
 To do this, Data Governance service allows you to apply data usage labels to datasets and fields, categorizing each according to related data usage policies.

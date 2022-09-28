@@ -8,16 +8,21 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 # Configure landing page subdomains {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_config_lp_subdomain"
->title="Create a landing page preset"
->abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Create landing page presets"
+>id="ajo_admin_subdomain_lp_header"
+>title="Delegate a landing page subdomain"
+>abstract="You will be setting up your subdomain for a landing page use. You can use a subdomain that is already delegated to Adobe or configure another subdomain."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegate a landing page subdomain"
 >abstract="You must configure a subdomain to use for your landing pages, as you will need this subdomain to create a landing page preset. You can use a subdomain already delegated to Adobe or configure a new subdomain."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Create landing page presets"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain"
+>title="Create a landing page preset"
+>abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Create landing page presets"
 
 To be able to [create landing page presets](lp-presets.md), you  must set up the subdomains you will use for your landing pages.
 

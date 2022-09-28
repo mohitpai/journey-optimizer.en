@@ -11,9 +11,9 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 
 The subscription **[!UICONTROL Live report]** displays details about the activity of your subscribers over the last 24 hours only. To measure your subscriptions over a selected time period, refer to the [Subscription global report](subscription-report-global.md).
 
-To access your reports, select **[!UICONTROL Live report]** from the advanced menu of your selected subscription list.
+To access your reports, click the **[!UICONTROL Report]** icon of your selected subscription list.
 
-![](assets/subscription_report_6.png)
+![](assets/subscription_report_7.png)
 
 The subscription **[!UICONTROL Live report]** is divided into different widgets detailing your subscriptions and unsubscriptions. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md).
 

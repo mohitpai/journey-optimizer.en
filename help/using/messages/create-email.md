@@ -14,27 +14,33 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 >title="Email creation"
 >abstract="Define your email parameters in just three simple steps."
 
+Emails can be created:
 
-Once you [added an email](get-started-content.md) in your journey <!--or a campaign--> and defined basic settings, your can configure the email and define its content.
+* In a **Journey**: Once you added an Email activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: Email]** right pane to create the content for the Push notifications. 
+
+    For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
+
+    ![](assets/email-edit-content.png)
+
+* In a **Campaign**: Once you created a campaign, select Email as your action and define basic settings. 
+
+    For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
+
+   ![](assets/email_campaign.png)
 
 ## Define your email content{#email-content}
 
-Click the **[!UICONTROL Edit content]** button to design your email. 
-
-![](assets/email-edit-content.png)
-
 Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../design/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../design/existing-content.md), or [code your own content](../design/code-content.md) in [!DNL Journey Optimizer]. 
 
-[!DNL Journey Optimizer] comes with a set of [built-in templates](../design/email-templates.md) to halp you start. Any email can also be saved as a template.
-
-Learn more about email design in [this section](../design/design-emails.md).
+[!DNL Journey Optimizer] comes with a set of [built-in templates](../design/email-templates.md) to help you start. Any email can also be saved as a template.
 
 Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 ## Email tracking{#email-tracking}
 
-If you want to track the behavior of your recipients through openings and/or clicks on links, enable the following options: **[!UICONTROL Email opens]** and **[!UICONTROL Click on email]**. Learn more about tracking in [this section](../design/message-tracking.md).
+If you want to track the behavior of your recipients through openings and/or clicks on links, enable the following options: **[!UICONTROL Email opens]** and **[!UICONTROL Click on email]**. 
 
+Learn more about tracking in [this section](../design/message-tracking.md).
 
 ## Validate your email content{#email-content-validate}
 
