@@ -420,6 +420,7 @@ solution: Journey Optimizer
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
       + [Consent](using/action/consent.md)
+      + [Data Governance](using/action/action-privacy.md)
   + [Sources](using/start/get-started-sources.md)
   + [Alerts](using/start/get-started-sources.md)
 + Access control {#access-control}
