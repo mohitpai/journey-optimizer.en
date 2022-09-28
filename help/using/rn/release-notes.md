@@ -86,6 +86,22 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Automated Consent Enforcement (Consent Policies)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. In Journey Optimizer, you can apply these consent policies to your custom actions. For example you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.
+<p>Automated Consent Enforcement is currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
+<p>For more information, refer to the <a href="../action/consent.md">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

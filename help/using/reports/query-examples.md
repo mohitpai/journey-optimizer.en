@@ -13,6 +13,12 @@ This section lists several commonly used examples to query Journey Step Events i
 
 Make sure that the fields used in your queries have associated values in the corresponding schema.
 
+**What's the difference between id, instanceid and profileid**
+
+* id: unique for all the step event entries. Two different step events cannot have the same id.
+* instanceId: instanceID is the same for all the step events associated to a profile within a journey execution. If a profile reenters the journey, a different instanceId will be used. This new instanceId will be same for all the step events of the reentered instance (from start to end).
+* profileID: the profile’s identity corosponding to the journey namespace.
+
 ## Basic use cases/common queries {#common-queries}
 
 **How many profiles entered a journey in a certain time frame**
