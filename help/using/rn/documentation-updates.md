@@ -10,7 +10,11 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## September 2022 {#september-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] September '22 release have been detailed in the documentation. [Read more](release-notes.md)
-
+* Added a best practice has been related to the use of wait activities in recurring read segment journeys. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Added new step event query examples as well as information on the difference between id, instanceid and profileid. [Read more](../reports/query-examples.md).
+* Updated the pages related to the [toDateOnly](../building-journeys/functions/functiontodateonly.md) and [toString](../building-journeys/functions/functiontostring.md) functions.
+* Added details on the time condition parameters. [Read more](../building-journeys/condition-activity.md#time_condition)
+* Added information on built-in datasets. [Read more](../start/get-started-datasets.md#access-datasets)
 
 ## August 2022 {#august-2022}
 
