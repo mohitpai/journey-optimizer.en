@@ -19,6 +19,11 @@ You can choose from:
 
 ## Save as template {#save-as-template}
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Learn how to migrate your messages"
+>abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
+
 Once you designed your [email content](design-emails.md), you can save it for future reuse. To do this, follow the steps below.
 
 1. Click the ellipsis on top right of the screen.

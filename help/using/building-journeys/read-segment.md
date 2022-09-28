@@ -24,7 +24,7 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 >
 >For journeys using a Read Segment activity, there is a maximum number of journeys that can start at the exact same time. Retries will be performed by the system but please avoid having more than five journeys (with Read Segment, scheduled or starting "as soon as possible") starting at the exact same time by spreading them over time, for example 5 to 10 minutes apart.
 >
->The Burst paid add-on allows very fast push message sending in large volumes for simple journeys that include a read segment and a simple push message. For more information, refer to [this section](../building-journeys/journey-gs.md#burst)
+>Experience event field groups can not be used in journeys starting with a Read segment or Segment qualification activity.
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 
