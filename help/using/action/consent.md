@@ -34,8 +34,6 @@ With consent management, two journey activities are analyzed:
 * Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
 * Consent policies only apply when a marketing action (required or additional) is set at the custom action level. 
 
-Consent only applies when a marketing action (required or additional) is set at the custom action level. 
-
 All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
 
 In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him, but he continues the journey. The profile does not go to the timeout and error path when using a condition.
