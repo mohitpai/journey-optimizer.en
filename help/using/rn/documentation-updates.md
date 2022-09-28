@@ -18,6 +18,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The Global report and Live report sections have been reorganized for improved readability. [Read more](../reports/global-report.md)
 * A list of every reporting metric available in Adobe Journey Optimizer has been added.
 [Read more](../reports/global-report.md#email-and-sms-metrics)
+* The BCC email section has been moved to the new Support for archiving page. [Read more](../configuration/archiving-support.md)
 
 ## August 2022 {#august-2022}
 
