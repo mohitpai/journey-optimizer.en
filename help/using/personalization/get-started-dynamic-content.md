@@ -18,5 +18,7 @@ Dynamic content allows you to adapt the content of your messages based on condit
 
 Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.
 
+![](assets/conditions-overview.png)
+
 * [Learn how to work with conditional rules](create-conditions.md)
 * [Learn how to create dynamic content](dynamic-content.md)
