@@ -17,7 +17,7 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 >
 > * You must perform the [Email configuration](#configure-email-settings), [Push configuration](../configuration/push-configuration.md) and [SMS configuration](../configuration/sms-configuration.md) steps before creating channel surfaces.
 
-Once channel surfaces have been configured, you will be able to select them when creating messages from a journey.
+Once channel surfaces have been configured, you will be able to select them when creating messages from a journey or a campaign.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -28,14 +28,12 @@ Once channel surfaces have been configured, you will be able to select them when
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Channel surface settings"
->abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, subdomain, sender name, mobile apps, SMS configuration, and more."
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your sending, such as email type, sender name, mobile apps, SMS configuration, and more."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as email type, sender name, mobile apps, SMS configuration, and more."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="To be able to create actions such as emails from a journey or a campaign, you must first create a channel surface that defines all the technical settings required for your messages. You must have the Manage channel surface permission to create, edit and delete channel surfaces."
 
 To create a channel surface, follow these steps:
 
@@ -83,7 +81,10 @@ To create a channel surface, follow these steps:
     
 1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+    During this step, several checks will be performed to verify that it has been configured properly. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+    >[!NOTE]
+    >The first time an email surface is created for a given subdomain, the processing time can take **10 minutes to 10 days**. If the subdomain is already used in another surface, it will take only up to 3 hours.
 
     These checks include configuration and technical tests that are performed by the Adobe team:
 
@@ -94,6 +95,7 @@ To create a channel surface, follow these steps:
     * Helo host check
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
+    * FBL registration (this check will be performed only the first time an email surface is created for a given subdomain)
 
     >[!NOTE]
     >

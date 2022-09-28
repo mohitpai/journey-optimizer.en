@@ -63,7 +63,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../administration/object-based-access.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
