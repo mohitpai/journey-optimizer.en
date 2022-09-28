@@ -9,7 +9,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## September 2022 {#september-2022}
 
-* add
+* All new features and improvements coming with [!DNL Journey Optimizer] September '22 release have been detailed in the documentation. [Read more](release-notes.md)
 
 
 ## August 2022 {#august-2022}
