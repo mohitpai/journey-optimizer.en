@@ -63,6 +63,7 @@ In addition to existing scheduled campaigns, you can now create API-triggered ca
 <tr>
 <td>
 <p>Through attribute-based access control, administrators can control access to specific objects based on certain attributes. These attributes can be metadata added to an object, such as labels. Starting this release, administrators can also define user roles that have access to only specific fields and/or objects, and data that correspond to those fields and/or objects.</p>
+<img src="assets/do-not-localize/olac.gif"/>
 <p>For more information, refer to the <a href="../administration/object-based-access.md">detailed documentation</a>.
 </td>
 </tr>
