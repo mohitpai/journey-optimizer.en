@@ -1,7 +1,7 @@
 ---
 title: Alerts
 description: Learn how to manage alerts
-feature: Alerts
+feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
