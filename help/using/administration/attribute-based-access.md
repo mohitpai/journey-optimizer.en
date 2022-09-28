@@ -11,7 +11,7 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 
 >[!IMPORTANT]
 >
->The use of Attribute-based access control is currently only available for a set of organizations (Limited Availability). If you want to leverage this feature, contact your Adobe account executive.
+>The use of Attribute-based access control is currently restricted to selected customers, and will be deployed to all environments in a future release.
 
 Attribute-based access control (ABAC) lets you define authorizations to manage data access for specific teams or groups of users. Its purpose is to protect sensitive digital assets from unauthorized users allowing further protection of personal data. 
 
