@@ -250,9 +250,9 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** t
 
 The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
 
-* **[!UICONTROL Unique impressions]**: number of users who displayed the In-app messages.
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
 
-* **[!UICONTROL Impressions]**: number of times the In-app message is displayed to a user.
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
 
 * **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
 

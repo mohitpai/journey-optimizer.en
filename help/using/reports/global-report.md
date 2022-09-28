@@ -518,11 +518,11 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr> 
   <tr> 
    <td>Impressions<br/> </td> 
-   <td> Number of times the web experience is displayed to a user.<br/> </td>
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
 </tr>
   <tr> 
    <td>Unique impressions<br/> </td> 
-   <td> Number of users who displayed the In-app messages.<br/> </td>
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
 </tr>
  </tbody> 
 </table>
