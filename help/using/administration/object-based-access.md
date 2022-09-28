@@ -5,8 +5,6 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 ---
 # Object level access control {#object-level-access}
 
@@ -80,6 +78,7 @@ To assign custom or core data usage labels to your Journey Optimizer objects:
 1. Click **[!UICONTROL Save]** to apply this label restriction. 
 
 To have access to this object, users will need to have the specific **[!UICONTROL Label]** included to their **[!UICONTROL Roles]**. 
+For example, a user with the C1 label will only have access to C1 labeled or unlabeled objects.
 
 For more information on how to assign **[!UICONTROL Label]** to a **[!UICONTROL Role]**, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

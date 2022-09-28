@@ -82,7 +82,9 @@ level: Intermediate
 
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn how to schedule campaigns](#schedule)
 
-Once your campaign is ready, you can review and publish it. [Learn more](review-activate-campaign.md)
+1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
+
+Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
 
 ## Schedule a campaign {#schedule}
 
