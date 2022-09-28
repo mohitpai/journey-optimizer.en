@@ -36,7 +36,7 @@ To start personalizing your SMS message, follow these steps:
 
     ![](assets/sms-content.png)
 
-1. Use the Expression editor to define content. You can use any attribute to personalize content, such as the profile name or city. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md).
+1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
 1. Click **[!UICONTROL Save]** and check your message in the preview.
 
