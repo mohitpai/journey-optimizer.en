@@ -43,8 +43,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>
-In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
+<p>In addition to existing scheduled campaigns, you can now create API-triggered campaigns in Journey Optimizer and invoke them from an external system using APIs.</p>
 <p>This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
