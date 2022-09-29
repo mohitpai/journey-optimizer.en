@@ -13,7 +13,7 @@ To define specific content that will enable users to select and submit their cho
 
 >[!NOTE]
 >
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn’t require user input.
+>You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
 
 ## Use the form component {#use-form-component}
 
@@ -90,8 +90,6 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-save.png)
 
-<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
 ## Define landing page form styles {#lp-form-styles}
 
 1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Form style]** tab.
@@ -117,3 +115,86 @@ To define specific content that will enable users to select and submit their cho
 1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
 
     ![](assets/lp_designer-form-error-preview.png)
+
+## Use primary page context {#use-primary-page-context}
+
+You can use contextual data coming from another page within the same landing page.
+
+For example, if you link a checkbox<!-- or the submission of the page--> to a [subscription list](subscription-list.md) on the primary landing page, you can use that subscription list on the "thank you" subpage.
+
+Let's say you link two checkboxes on your primary page to two different subscription lists. If a user subscribes to one of these, you want to display a specific message upon submitting the form, depending on which checkbox they selected.
+
+To do so, follow the steps below:
+
+1. On the primary page, link each checkbox to the relevant subscription list. [Learn more](#use-form-component).
+
+    ![](assets/lp_designer-form-luma-newsletter.png)
+
+1. On the subpage, place the pointer of your mouse where you want to insert your text and select **[!UICONTROL Add personalization]** from the contextual toolbar.
+
+    ![](assets/lp_designer-form-subpage-perso.png)
+
+1. In the **[!UICONTROL Edit personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primary Page Context]** > **[!UICONTROL Subscription]**.
+
+1. All the subscription lists that you selected on the primary page are listed. Select the relevant items using the + icon.
+
+    ![](assets/lp_designer-form-add-subscription.png)
+
+1. Add the relevant conditions using the Expression editor helper functions. [Learn more](../personalization/functions/functions.md)
+
+    ![](assets/lp_designer-form-add-subscription-condition.png)
+
+    >[!CAUTION]
+    >
+    >If there is a special character such as a hyphen in the expression, you must escape the text including the hyphen.
+
+1. Save your changes.
+
+![](assets/lp_designer-form-preview-checked-box.png)
+
+Now when users select one of the checkboxes, the message corresponding to the selected checkbox is displayed upon submitting the form.
+
+![](assets/lp_designer-form-thankyou-preview.png)
+
+>[!NOTE]
+>
+>If a user selects the two checkboxes, both texts will display.
+
+
+## Use landing page additional data {#use-additional-data}
+
+When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
+
+>[!NOTE]
+>
+>This data may not be visible to users who visit the page.
+
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+
+To leverage these keys in a landing page, follow the steps below:
+
+1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
+
+    ![](assets/lp_create-lp-additional-data.png)
+
+1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
+
+    ![](assets/lp_designer-context-add-perso.png)
+
+1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
+
+    ![](assets/lp_designer-contextual-attributes.png)
+
+1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
+
+    ![](assets/lp_designer-context-select-key.png)
+
+1. Save your changes and repeat the steps above as many times as needed.
+
+    ![](assets/lp_designer-context-keys-inserted.png)
+
+    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.

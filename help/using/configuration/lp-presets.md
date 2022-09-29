@@ -64,9 +64,9 @@ To create a landing page preset, follow the steps below.
 
     For example, if the landing page URL is 'pages.mail.luma.com', and the tracking URL is 'data.mail.luma.com', you can choose 'pages.mail.luma.com' to be used as the tracking subdomain.
 
-1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. You can also save the preset as draft and resume its configuration later on.
+1. Click **[!UICONTROL Submit]** to confirm the landing page preset creation. <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. Once the landing page preset has been created, it displays in the list with the **[!UICONTROL Active]** status. It is ready to be used for your landing pages.
 

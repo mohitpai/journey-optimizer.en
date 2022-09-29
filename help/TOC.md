@@ -15,9 +15,6 @@ solution: Journey Optimizer
     + [2022 Release notes](using/rn/release-notes-2022.md)
     + [2021 Release notes](using/rn/release-notes-2021.md)
   + [Documentation updates](using/rn/documentation-updates.md)
-  + New inline authoring feature {#inline-authoring}
-    + [Migration overview](using/rn/inline-messages.md)
-    + [Migration steps](using/rn/inline-messages-steps.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
   + Quick Start{#quick-start}
@@ -31,6 +28,7 @@ solution: Journey Optimizer
 + Campaigns{#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Review and activate a campaign](using/campaigns/review-activate-campaign.md)
   + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
@@ -265,6 +263,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
+  + [Alerts](using/reports/alerts.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -389,9 +388,9 @@ solution: Journey Optimizer
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
-      + [Use BCC email](using/configuration/bcc-email.md)
+    + [Support for archiving](using/configuration/archiving-support.md)
     + [Manage execution addresses](using/configuration/primary-email-addresses.md)
-    + [Configure frequency rules](using/configuration/frequency-rules.md)
+    + [Configure frequency rules](using/configuration/frequency-rules.md)  
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/configuration/lp-subdomains.md)
     + [Define landing page presets](using/configuration/lp-presets.md)
@@ -416,7 +415,6 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Consent](using/action/consent.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
@@ -429,4 +427,6 @@ solution: Journey Optimizer
 + Privacy {#privacy}
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
-  + [Audit actions on Journey Optimizer resources](using/privacy/audit-logs.md)
+  + [Audit actions on resources](using/privacy/audit-logs.md)
+  + [Consent](using/action/consent.md)
+  + [Data Governance](using/action/action-privacy.md)

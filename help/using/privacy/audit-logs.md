@@ -28,6 +28,7 @@ The following table outlines which actions on which Journey Optimizer resources 
 
 | Resource | Action            |
 |-----------|------------------|
+| AJO campaign | Create / Delete / Update / Activate / Stop |
 | AJO channel general setting | Create / Delete / Update |
 | AJO IP pool | Create / Delete / Update |
 | AJO landing page | Create / Delete / Update / Publish / Unpublish |
@@ -35,7 +36,7 @@ The following table outlines which actions on which Journey Optimizer resources 
 | AJO landing page preset | Create / Delete / Update |
 | AJO landing page subdomain | Create / Delete / Update |
 | AJO message | Create / Delete / Update / Publish |
-| AJO channel surface | Create / Delete / Update |
+| AJO message preset | Create / Delete / Update |
 | AJO PTR record | Create / Delete / Update |
 | AJO saved expression template | Create / Delete / Update |
 | AJO SMS API credentials | Create / Delete / Update |

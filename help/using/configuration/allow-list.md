@@ -152,7 +152,7 @@ Learn more on making API calls in the [Adobe Experience Platform APIs](https://e
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Manage the allowed list"
->abstract="When the allowed list is activated, only the recipients included in the allowed list will receive email messages from this sandbox."
+>abstract="When the allowed list is activated, only the recipients included in the allowed list will receive email messages from this sandbox. When deactivated, all recipients will receive emails."
 
 When the allowed list is [active](#enable-allow-list), the following logic applies:
 

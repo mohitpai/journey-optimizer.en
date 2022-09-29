@@ -16,18 +16,16 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 
 Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule.
 
-Create campaigns to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+You can create two types of campaigns:
+
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.
 
 The main steps to create a campaign are as follows:
 
 ![](assets/create-campaign-process.png)
 
 ➡️ [Discover this feature in video](#video)
-
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Before starting {#campaign-prerequisites}
 

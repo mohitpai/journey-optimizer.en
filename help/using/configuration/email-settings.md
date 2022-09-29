@@ -127,7 +127,7 @@ The forward email address will be set up by Adobe. This can take 3 to 4 days.
 
 You can send an identical copy (or blind carbon copy) of emails sent by [!DNL Journey Optimizer] to a BCC inbox where they will be stored for compliance or archival purposes.
 
-To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level. [Learn more](bcc-email.md)
+To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level. [Learn more](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
