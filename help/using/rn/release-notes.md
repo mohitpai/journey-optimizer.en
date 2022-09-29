@@ -179,7 +179,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Archiving support**
 
-* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages for all channels for archiving purpose. [Learn more](../configuration/archiving-support.md)
+* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages on all channels for archiving purpose. [Learn more](../configuration/archiving-support.md)
 
 **Landing pages**
 
