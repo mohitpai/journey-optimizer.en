@@ -20,7 +20,7 @@ level: Beginner
 
 1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. Learn more on segment.
 
-    In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on namespaces.
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on namespaces.
 
 1. Choose the frequency of your trigger when your In-App message will be active:
 
@@ -35,7 +35,13 @@ drop-down.
 
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. Learn how to schedule campaigns.
 
-You can now start editing your content with the **[!UICONTROL Edit content]** button.
+1. You can now start editing your content with the **[!UICONTROL Edit content]** button.
+
+1. Once your In-app message is configured and personalized, click **[!UICONTROL Review to activate]** to display a summary of your message.
+
+    The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
+
+1. 
 
 ## Design content {#design-content}
 
@@ -63,52 +69,75 @@ You can now start editing your content with the **[!UICONTROL Edit content]** bu
 
 #### Close button {#close-button}
 
-Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]** between **[!UICONTROL Simple]** or **[!UICONTROL Circle]**.
+Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**:
+* **[!UICONTROL Simple]**
+* **[!UICONTROL Circle]**
+* **[!UICONTROL Custom image]** from a Media URL or your Assets.
 
-If the Advanced formatting mode is switched on, you can choose the colors and opacity of your button. 
+++++
+Learn more on advanced formatting.
+
+Check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
++++
 
 #### Media {#add-media}
 
 The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
 
-Clicking the **[!UICONTROL Select Assets]** icon, you can directly add assets stored in the Assets library to your In-app message. [Learn more about asset management]().
+Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../design/assets-essentials.md).
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
+++++
+Learn more on advanced formatting.
+
+Choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
++++
 
 #### Header and Body {#title-body}
 
-To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section]().
+To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
+You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
+</br>Learn more about personalization in the Expression Editor [in this section]().
+
+++++
+Learn more on advanced formatting.
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
 
 * the **[!UICONTROL Font]**
 * the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Color]**
+* the **[!UICONTROL Font Color]**
 * the **[!UICONTROL Alignment]**
++++
 
 #### Buttons {#buttons}
 
 Add buttons for users to interact with your In-app message.
 
 To personalize your button, edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
-Choose your Interact event and your Target which will define your button's action after users interacted with it.
+Choose your **[!UICONTROL Interact event]** and your **[!UICONTROL Target]** which will define your button's action after users interacted with it.
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose:
+To add multiple buttons, click **[!UICONTROL Add button]**.
+
+++++
+Learn more on advanced formatting.
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
 * the **[!UICONTROL Font]**
 * the **[!UICONTROL Pt size]**
 * the **[!UICONTROL Font Color]**
 * the **[!UICONTROL Alignment]**
 * the **[!UICONTROL Button style]**
+* the **[!UICONTROL Radius]**
 * the **[!UICONTROL Button color]**
++++
 
 ### Settings tab {#settings-tab}
 
 #### Preview {#preview-tab}
 
-App preview
-
-Background color
+With the URL provided in the App preview field, you can preview your In-app message directly from your browser.
 
 #### Layout {#message}
 
@@ -117,6 +146,9 @@ Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]
 #### Message {#message}
 
 UI takeover
+
+++++
+Learn more on advanced formatting.
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further personalize your message with the following options:
 
@@ -135,7 +167,12 @@ Use the Custom message layout to import raw HTML and/or code your own content.
 
 1. After clicking the **[!UICONTROL Edit content]** button, select the Custom message layout.
 
-1. From the Content tab, select the HTML message options:
-    1. Click Compose 
-    1. Click Import
+1. From the **[!UICONTROL Content]** tab, select the HTML message options:
 
+    * **[!UICONTROL Compose]** to enter or paste your raw HTML code.
+        
+        Use the left pane to leverage Journey Optimizer personalization capabilities. For more on this, refer to this section.
+
+    * **[!UICONTROL Import]** to import the HTML or .zip file containing your HTML content.
+
+1. 
