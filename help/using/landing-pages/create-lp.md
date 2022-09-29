@@ -54,7 +54,7 @@ The steps to create a landing page are as follows.
 
     ![](assets/lp_create-lp-details.png)
 
-1. To assign custom or core data usage labels to the campaign, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md#create-landing-page)
+1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md#create-landing-page)
 
     <!--You can add a tag. See AEP documentation?-->
 
