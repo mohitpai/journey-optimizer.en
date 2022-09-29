@@ -7,7 +7,6 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
-
 ## August 2022 Release {#aug-2022-release}
 
 ### New capabilities 

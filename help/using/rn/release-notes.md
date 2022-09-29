@@ -117,6 +117,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
+<p> The use of Permissions is currently restricted to selected customers, and will be deployed to all environments in a future release.</p>
 <p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.
 </td>
 </tr>
