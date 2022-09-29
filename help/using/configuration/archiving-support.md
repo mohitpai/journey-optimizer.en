@@ -15,7 +15,7 @@ Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a
 
 * For the email channel, [!DNL Journey Optimizer] provides a built-in BCC email capability. [Learn more](#bcc-email)
 
-* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data are not exported: only the template (format and structure of the message) is taken into account. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data is not exported - only the template (format and structure of the message) is taken into account. [Learn more](../start/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
