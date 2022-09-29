@@ -17,7 +17,7 @@ You can import an existing content in [!DNL Journey Optimizer] or leverage conte
 
 * Find **Adobe Stock photos** to build your content and improve your email design. [Learn more](../design/stock.md)
 
-* Enhance customers' experience by creating personalized and dynamic messages based on their profile attributes. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md).
+* Enhance customers' experience by creating personalized messages based on their profile attributes. [Learn more](../personalization/personalize.md)
 
 ➡️ [Discover this feature in video](#video)
 

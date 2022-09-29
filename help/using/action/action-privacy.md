@@ -8,6 +8,7 @@ role: Admin
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
 # Data Governance {#restrict-fields}
 
@@ -50,7 +51,7 @@ Let's take the example of the blood type field that you need to label as sensiti
 
 When you will use, in a journey, your Slack custom action configured with the _Slack marketing action_, the associated policy will be leveraged. 
 
-## Configure the custom action {#consent-custom}
+## Configure the custom action {#consent-custom-action}
 
 In the left menu, under **Administration**, click **Configurations** and select **Actions**. Open your Slack custom action. When configuring a custom action, two fields can be used for data governance.
 
@@ -62,7 +63,7 @@ In the left menu, under **Administration**, click **Configurations** and select 
 
 The other steps for configuring a custom action are detailed in [this section](../action/about-custom-action-configuration.md#consent-management).  
 
-### Build the journey {#consent-jo}
+## Build the journey {#consent-journey}
 
 In the left menu, under **Journey management**, click **Journeys**. Create your journey and add your custom action.  When adding the custom action in a journey, several options allow you to manage data governance. Click the **Show read-only fields** to display all parameters.
 

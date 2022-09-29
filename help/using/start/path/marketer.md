@@ -12,7 +12,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Create segments**. Journey Optimizer allows you to create audience segments directly from the **Segments** menu, and leverage them into your journeys.  Learn more about segments [in this page](../../segment/about-segments.md). Discover how to build segments [in this sample](../../segment/creating-a-segment.md).
 
-1. **Add personalization and dynamic content**. Leverage Journey Optimizer personalization and dynamic content capabilities to adapt your message to your audience. Learn more about [personalization](../../personalization/personalize.md) and [dynamic content](../../personalization/get-started-dynamic-content.md).
+1. **Add personalization**. Leverage Journey Optimizer personalization capabilities to adapt your message to your audience. Learn more about personalization [in this section](../../personalization/personalize.md).
 
     ![](../assets/perso_ee2.png)
     

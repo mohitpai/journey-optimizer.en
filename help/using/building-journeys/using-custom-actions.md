@@ -16,6 +16,13 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 
 Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload.
 
+## Consent and data governance {#privacy}
+
+In Journey Optimizer, you can apply data governance and consent policies to your custom actions to prevent specific fields from being exported to third-party systems or exclude customers who have not consented to receive email, push or SMS communication. For more information, refer to the following pages:
+
+* [Data governance](../action/action-privacy.md).
+* [Consent](../action/consent.md).
+
 ## URL configuration
 
 The configuration pane of the **Custom action** activity shows the URL configuration parameters and the authentication parameters that are configured for the custom action. You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Learn more](../action/about-custom-action-configuration.md).
