@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
-title: Consent
-description: Consent
+title: Data Governance
+description: Data Governance
 feature: Actions
 topic: Administration
 role: Admin
