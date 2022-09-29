@@ -32,6 +32,8 @@ To create an API-triggered campaign, follow these steps:
     >[!NOTE]
     >
     >You can pass additional data into the API payload that you can leverage to personalize your message. [Learn more](#contextual)
+    >
+    >Using a large number or heavy contextual data in your content may impact performances.
 
 1. In the **[!UICONTROL Audience]** section, specify the namespace to use to identify the individuals from the segment.
 
