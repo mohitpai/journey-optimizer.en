@@ -34,7 +34,7 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activities-name.png)
 
-1. To assign custom or core data usage labels to the decision, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md#create-landing-page)
+1. To assign custom or core data usage labels to the decision, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../../administration/object-based-access.md)
 
 ## Define decision scopes {#add-decision-scopes}
 
