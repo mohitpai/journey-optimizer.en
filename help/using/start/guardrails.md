@@ -86,4 +86,5 @@ You can choose from one of these two solutions:
 
 ### Expression editor {#expression-editor}
 
-* Experience event field groups can not be used in journeys starting with a Read segment or Segment qualification activity.
+* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
+
