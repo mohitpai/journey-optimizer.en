@@ -39,7 +39,7 @@ To create an **offer**, follow these steps:
 
     ![](../assets/create_offer.png)
 
-1. Specify the offer's name as well as its start and end date and time. Outside of these dates, the offer won’t be selected by the Decisioning engine.
+1. Specify the offer's name as well as its start and end date and time. Outside of these dates, the offer won't be selected by the Decisioning engine.
 
     ![](../assets/offer_details.png)
 
@@ -50,6 +50,10 @@ To create an **offer**, follow these steps:
 1. You can also associate one or several existing **[!UICONTROL tags]** to the offer, allowing you to search and organize the Offer Library more easily. [Learn more](creating-tags.md).
 
 1. The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
+
+1. To assign custom or core data usage labels to the offer, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md#create-landing-page)
+
+    ![](../assets/offer_manage-access.png)
 
 1. Add representations to define where your offer will display in the message. [Learn more](add-representations.md)
 
