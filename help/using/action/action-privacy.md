@@ -1,14 +1,11 @@
 ---
 solution: Journey Optimizer
-title: Consent
-description: Consent
+title: Data Governance
+description: Data Governance
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
-exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
 # Data Governance {#restrict-fields}
 

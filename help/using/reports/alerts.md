@@ -5,7 +5,7 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-exl-id: 
+
 ---
 # Get Started with Alerts {#alerts}
 
