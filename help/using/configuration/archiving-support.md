@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 ---
 # Support for archiving {#archiving-support}
 
-## How to archive messages{#about-archiving}
+## How to archive messages {#about-archiving}
 
 Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a way to archive messages sent to individuals. Indeed, if your customers raise a claim, they should have the ability to get a copy of the sent message for verification purpose.
 
@@ -34,11 +34,15 @@ You can send an identical copy (or blind carbon copy) of an email sent by [!DNL 
 
 To enable the **[!UICONTROL BCC email]** option, enter the email address of your choice in the dedicated field of the [channel surface](channel-surfaces.md) (i.e. message preset). You can specify any external address in correct format, except an email address defined on a subdomain delegated to Adobe. For example, if you delegated the *marketing.luma.com* subdomain to Adobe, any address like *abc@marketing.luma.com* is prohibited.
 
->[!NOTE]
+>[!CAUTION]
 >
 >You can only define one BCC email address. Make sure the BCC address has enough reception capacity to store all the emails that are sent using the current channel surface.
 >
 >More recommendations are listed in [this section](#bcc-recommendations-limitations).
+
+>[!NOTE]
+>
+>If you have purchased the Healthcare Shield add-on offering, you must ensure that your BCC addresse's ISP supports the TLS 1.2 protocol.
 
 ![](assets/preset-bcc.png)
 
