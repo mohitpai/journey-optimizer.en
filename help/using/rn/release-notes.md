@@ -192,7 +192,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### Other changes{#sept-2022-other}
 
-* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../campaigns/create-campaign.md#rapid-delivery})
+* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../campaigns/create-campaign.md#rapid-delivery)
 * To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment, a Segment qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
 * The 1 hour limitation for scheduled read segment journeys has been removed. These journeys can now be executed with no delay.
 
