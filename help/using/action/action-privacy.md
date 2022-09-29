@@ -15,6 +15,10 @@ Adobe Experience Platform allows you to label your fields and create marketing a
 
 In Journey Optimizer, you can apply these policies to your custom actions to prevent specific fields from being exported to third-party systems. 
 
+>[!IMPORTANT]
+>
+>The use of Data Usage Labelling and Enforcement (DULE) is currently restricted to selected customers, and will be deployed to all environments in a future release.
+
 ## Important notes {#important-notes}
 
 * Data governance only applies to custom actions in journeys. Campaign Classic and Campaign Standard actions are not supported.
