@@ -2,8 +2,8 @@
 title: Work with Customer Journey Analytics
 description: Get Started with Customer Journey Analytics
 feature: Overview
-topic: Content Management
-role: Reporting
+topic: Reporting
+role: User
 level: Beginner
 ---
 # Work with [!DNL Customer Journey Analytics] {#cja-ajo}
