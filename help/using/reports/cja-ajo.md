@@ -1,8 +1,8 @@
 ---
 title: Work with Customer Journey Analytics
 description: Get Started with Customer Journey Analytics
-feature: Overview
-topic: Reporting
+feature: Reporting
+topic: Content Management
 role: User
 level: Beginner
 ---
