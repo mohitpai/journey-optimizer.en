@@ -82,11 +82,15 @@ Note that if you have configured a specific start and/or end date when creating 
 
 ## Profile creation at campaign execution {#profile-creation}
 
-In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to login to your website.
+In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to reset password on your website.
 
 When a profile does not exist in the database, Journey Optimizer allows you to automatically create it when executing the campaign to allow sending the message to this profile.
 
-To do this, toggle the **[!UCONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
+>[!IMPORTANT]
+>
+>This feature is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
+
+To activate profile creation at campaign execution, toggle the **[!UCONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
 
 ![](assets/api-triggered-create-profile.png)
 

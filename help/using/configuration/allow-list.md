@@ -49,7 +49,7 @@ To activate the allowed list, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
-1. Click **[!UICONTROL Deactivated]**.
+1. Select the toggle button.
 
     ![](assets/allow-list-edit.png)
 
@@ -73,7 +73,7 @@ To deactivate the allowed list, follow the steps below.
 
 1. Access the  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
-1. Click **[!UICONTROL Active]**.
+1. Select the toggle button.
 
     ![](assets/allow-list-edit-active.png)
 

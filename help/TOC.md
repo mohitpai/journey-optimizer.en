@@ -264,6 +264,7 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
   + [Alerts](using/reports/alerts.md)
+  + [Work with Customer Journey Analytics](using/reports/cja-ajo.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)

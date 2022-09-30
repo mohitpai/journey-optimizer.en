@@ -109,7 +109,6 @@ Rapid delivery is used when delay in message delivery is business-critical, when
 
 For more information on performances when using Rapid delivery mode, refer to [Adobe Journey Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
-
 ### Prerequisites {#prerequisites}
 
 Rapid delivery messaging comes with the following requirements:

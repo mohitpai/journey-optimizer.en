@@ -168,7 +168,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
+* When activating or deactivating the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated.
 * Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. [Learn more](../configuration/channel-surfaces.md#create-channel-surface)
 <!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
