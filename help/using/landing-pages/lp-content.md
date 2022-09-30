@@ -160,7 +160,7 @@ Now when users select one of the checkboxes, the message corresponding to the se
 >
 >If a user selects the two checkboxes, both texts will display.
 
-
+<!--
 ## Use landing page additional data {#use-additional-data}
 
 When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
@@ -171,9 +171,9 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 
 If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
 
-<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
 
 To leverage these keys in a landing page, follow the steps below:
 
@@ -198,3 +198,4 @@ To leverage these keys in a landing page, follow the steps below:
     ![](assets/lp_designer-context-keys-inserted.png)
 
     You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
+-->
