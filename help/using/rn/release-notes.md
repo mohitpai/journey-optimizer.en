@@ -15,8 +15,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### New capabilities{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
@@ -34,7 +32,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
