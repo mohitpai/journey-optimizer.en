@@ -12,15 +12,27 @@ level: Beginner
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
+1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending marketing type messages.
+
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending transactional messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. Learn how to [trigger a campaign using APIs](../campaigns/api-triggered-campaigns.md)
+
 1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app channel]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**.
 
-    For more information on surfaces, refer to this page.
+    For more information on surfaces, refer to [this page](../configuration/channel-surfaces.md).
+
+    ![](assets/in_app_create_1.png)
 
 1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. Learn more on segment.
+1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. Learn more on [Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
-1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on namespaces.
+1. Click the **[!UICONTROL Select audience]** button to display to define the audience to target from the list of available Adobe Experience Platform segments. Learn more on segment.
+
+    ![](assets/in_app_create_2.png)
+
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on [namespaces](../event/about-creating.md#select-the-namespace).
 
 1. Choose the frequency of your trigger when your In-App message will be active:
 
@@ -33,19 +45,32 @@ drop-down.
     
     By choosing a trigger, you choose an action done by users which will cause the In-App message to be displayed.
 
+    ![](assets/in_app_create_3.png)
+
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. Learn how to schedule campaigns.
 
-1. You can now start editing your content with the **[!UICONTROL Edit content]** button.
+1. You can now start editing your content with the **[!UICONTROL Edit content]** button. 
 
-1. Once your In-app message is configured and personalized, click **[!UICONTROL Review to activate]** to display a summary of your message.
+    Learn more on [content design](#design-content).
+
+    ![](assets/in_app_create_4.png)
+
+1. Once your In-app message is created and personalized, click **[!UICONTROL Review to activate]** to display a summary of your message.
 
     The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
 
-1. 
+    ![](assets/in_app_create_5.png)
+
+1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
+
+Your campaign is now activated. The In-app message configured in the campaign is sent immediately or on the specified date.
+You can measure the impact of your In-App messages with the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
 
 ## Design content {#design-content}
 
 ### Message Layout {#message-layout}
+
+![](assets/in_app_content_1.png)
 
 **[!UICONTROL Message Layout]** provides four different layout options to choose from depending on your messaging needs:
 
@@ -63,13 +88,20 @@ drop-down.
 
 * **[!UICONTROL Custom]**: The custom message mode allows you to directly import and edit one of your pre-configured HTML message.
 
-    For more information on this, refer to Create a custom In-app message.
+    * Select **[!UICONTROL Compose]** to enter or paste your raw HTML code.
+    
+        Use the left pane to leverage Journey Optimizer personalization capabilities. For more on this, refer to [this section](../personalization/personalize.md).
+    
+    * Select **[!UICONTROL Import]** to import the HTML or .zip file containing your HTML content.
 
 ### Content tab {#content-tab}
 
 #### Close button {#close-button}
 
+![](assets/in_app_content_2.png)
+
 Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**:
+
 * **[!UICONTROL Simple]**
 * **[!UICONTROL Circle]**
 * **[!UICONTROL Custom image]** from a Media URL or your Assets.
@@ -82,9 +114,12 @@ Check the **[!UICONTROL Color]** option to choose the color and opacity of your 
 
 #### Media {#add-media}
 
+![](assets/in_app_content_3.png)
+
 The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
 
 Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../design/assets-essentials.md).
+You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
 
 ++++
 Learn more on advanced formatting.
@@ -94,10 +129,11 @@ Choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your me
 
 #### Header and Body {#title-body}
 
+![](assets/in_app_content_4.png)
+
 To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
 
-You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
-</br>Learn more about personalization in the Expression Editor [in this section]().
+You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section](../personalization/personalize.md).
 
 ++++
 Learn more on advanced formatting.
@@ -112,12 +148,17 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 #### Buttons {#buttons}
 
-Add buttons for users to interact with your In-app message.
+![](assets/in_app_content_5.png)
 
-To personalize your button, edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
-Choose your **[!UICONTROL Interact event]** and your **[!UICONTROL Target]** which will define your button's action after users interacted with it.
+Add buttons for users to interact with your In-app message. To personalize your button:
 
-To add multiple buttons, click **[!UICONTROL Add button]**.
+1. Edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
+
+1. Choose your **[!UICONTROL Interact event]** which will define your button's action after users interacted with it.
+
+1. Enter your web URL or deeplink in the **[!UICONTROL Target]** field.
+
+1. To add multiple buttons, click **[!UICONTROL Add button]**.
 
 ++++
 Learn more on advanced formatting.
@@ -161,18 +202,5 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * **[!UICONTROL Message round corner]**
 * **[!UICONTROL Corner radius]**
 
-## Create a custom In-app message {#custom-inapp}
+### Preview on device {#preview-device}
 
-Use the Custom message layout to import raw HTML and/or code your own content.
-
-1. After clicking the **[!UICONTROL Edit content]** button, select the Custom message layout.
-
-1. From the **[!UICONTROL Content]** tab, select the HTML message options:
-
-    * **[!UICONTROL Compose]** to enter or paste your raw HTML code.
-        
-        Use the left pane to leverage Journey Optimizer personalization capabilities. For more on this, refer to this section.
-
-    * **[!UICONTROL Import]** to import the HTML or .zip file containing your HTML content.
-
-1. 
