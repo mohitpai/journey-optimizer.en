@@ -22,3 +22,9 @@ Conditional rules can be leveraged into the Email Designer and the expression ed
 
 * [Learn how to work with conditional rules](create-conditions.md)
 * [Learn how to create dynamic content](dynamic-content.md)
+
+## How-to video {#video}
+
+Learn how to Create dynamic content with the condition rule builder.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
