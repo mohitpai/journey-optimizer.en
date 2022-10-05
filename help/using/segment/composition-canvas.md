@@ -107,7 +107,7 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="Add profile limit"
->abstract="Toggle this option on to specify a maximum number of profiles to include in the composition.
+>abstract="Toggle this option on to specify a maximum number of profiles to include in the composition."
 
 The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specific attribute and include them into your composition. You can, for example, include the 50 profiles with the largest amount of loyalty points.
 
