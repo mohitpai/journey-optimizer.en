@@ -97,7 +97,7 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 
     ![](assets/audiences-exclude-attribute.png)
 
-### Rank activity a {#rank}
+### Rank activity {#rank}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
