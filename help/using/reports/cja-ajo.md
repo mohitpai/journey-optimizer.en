@@ -9,14 +9,20 @@ level: Beginner
 # Work with [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] integration with [!DNL Customer Journey Analytics] provides an holistic view of all your journeys with automated report distribution and custom visualizations of the data.
 
-After creating your journey in [!DNL Journey Optimizer], you can import your customer data to [!DNL Customer Journey Analytics] to start reports and understand the impact of every interaction a customer has with your journeys.
+After creating your journey in [!DNL Journey Optimizer], you can import your customer data to [!DNL Customer Journey Analytics] to start reports and understand the impact of every interaction a customer has with your journeys. 
 
 ➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
 Before using [!DNL Customer Journey Analytics] for your journeys, you must first configure this integration:
 
-1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to the Platform.
+1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to the Platform. 
+
+    The following [!DNL Journey Optimizer] can be configured:
+    * [Journey Step Event](../start/datasets-query-examples.md#journey-step-event): allows you to view who enters your journeys and how far they get. 
+    * [Message Feedback/Tracking datasets](../start/datasets-query-examples.md#message-feedback-event-dataset): allows you to view delivery information about your messages sent through [!DNL Journey Optimizer].
+    * [Entity and Journey datasets](../start/datasets-query-examples.md#entity-dataset): allows you to search Friendly names and use them in your reporting. 
 
 1. [Create a data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) to configure the dimensions and metrics you want to use for your report.
 
