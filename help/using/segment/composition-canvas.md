@@ -104,6 +104,11 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 >title="Ranking activity"
 >abstract="The Rank activity allows you to rank profiles based on a specific attribute and include them into your composition. For example, include the 50 profiles with the largest amount of loyalty points."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Add profile limit"
+>abstract="Toggle this option on to specify a maximum number of profiles to include in the composition.
+
 The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specific attribute and include them into your composition. You can, for example, include the 50 profiles with the largest amount of loyalty points.
 
 1.  Select the attribute that you want to look up and specify a ranking order (ascending or descending).
@@ -120,7 +125,7 @@ The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specif
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Control Group Be"
+>title="Control Group"
 >abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."
 
 >[!CONTEXTUALHELP]
@@ -132,6 +137,11 @@ The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specif
 >id="ajo_ao_split_type"
 >title="Split type"
 >abstract="Use the Percent split type to randomly split profiles into multiple paths. The Attribute split type allows you to split profiles based on a specific attribute."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Other profiles"
+>abstract="Toggle this option on to create an additional path with the remaining profiles that do not match any of the conditions specified in the other paths."
 
 The **[!UICONTROL Split]** activity allows you to divide your composition into multiple paths.
 
