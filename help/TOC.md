@@ -78,6 +78,10 @@ solution: Journey Optimizer
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
++ Web channel{#web-channel}
+  + [Get strated with web channel](using/web/get-started-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Web reporting](using/web/web-report.md)
 + Personalization{#personalization}
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization contexts](using/personalization/personalization-contexts.md)
