@@ -115,11 +115,12 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
+  + Compose audiences {#audience-orchestration}
+    + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
+    + [Create composition workflows](using/segment/create-compositions.md)
+    + [Work with the composition canvas](using/segment/composition-canvas.md)
+    + [Access and manage audiences](using/segment/access-audiences.md)
   + [License usage](using/segment/license-usage.md)
-  + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
-  + [Create composition workflows](using/segment/create-compositions.md)
-  + [Work with the composition canvas](using/segment/composition-canvas.md)
-  + [Access and manage audiences](using/segment/access-audiences.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
