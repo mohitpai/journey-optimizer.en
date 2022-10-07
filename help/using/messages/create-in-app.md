@@ -8,7 +8,9 @@ level: Beginner
 ---
 # Create an In-app message {#create-in-app}
 
-![](assets/.png)
+>[!IMPORTANT]
+>
+>Before sending In-app messages, you need to configure your **[!UICONTROL App surfaces]** in Adobe Experience Platform Data Collection. [Learn more](../configuration/inapp-configuration.md)
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
