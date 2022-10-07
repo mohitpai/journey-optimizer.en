@@ -19,14 +19,14 @@ level: Beginner
 >title="Channel surface"
 >abstract="A channel surface is an instance of that channel that has all the settings to deliver an action successfully via a campaign or a journey. It is defined by a system administrator."
 
-In your journeys, use the channel actions to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push action to the journey canevas, you are creating a triggered send. When contacts reach that channel action, Adobe Journey Optimizer automatically sends the message.
+In your journeys, use the channel actions to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push action to the journey canvas, you are creating a triggered send. When contacts reach that channel action, Adobe Journey Optimizer automatically sends the message.
 
 
 >[!NOTE]
 >You can also create campaigns to send scheduled messages. Learn more [in this section](../campaigns/get-started-with-campaigns.md).
 
 
-To add messages in a journey, add a push, SMS or email activity in the journey canevas. 
+To add messages in a journey, add a push, SMS or email activity in the journey canvas. 
 
 1. Start your journey with an [Event](../building-journeys/general-events.md) or a [Read Segment](../building-journeys/read-segment.md) activity.
 
@@ -117,7 +117,7 @@ To perform this, follow the steps below:
 
 1. Enter **crtl+V** to paste the message.
 
-   The message is added to the journey canevas. All settings and configuration will be copied to the new message.
+   The message is added to the journey canvas. All settings and configuration will be copied to the new message.
 
    ![](assets/message-duplicated.png)
 

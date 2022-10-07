@@ -90,7 +90,7 @@ When a profile does not exist in the database, Journey Optimizer allows you to a
 >
 >This feature is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
 
-To activate profile creation at campaign execution, toggle the **[!UCONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
+To activate profile creation at campaign execution, toggle the **[!UICONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
 
 ![](assets/api-triggered-create-profile.png)
 
