@@ -4,7 +4,7 @@ description: Learn how to configure your environment to send In-app messages wit
 role: Admin
 level: Intermediate
 ---
-# Configure In-app channel {#inapp-configuration}
+# Configure In-App channel {#inapp-configuration}
 
 Before sending In-app messages, you need to configure your **[!UICONTROL App surfaces]** in [!DNL Adobe Experience Platform Data Collection].
 
