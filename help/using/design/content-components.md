@@ -83,8 +83,7 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
-
-1. For a better user experience, you can add personalization fields to target your audience. For more on this, refer to this [section](../personalization/personalize.md).
+    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles. [Learn more about dynamic content](../personalization/get-started-dynamic-content.md).
 
 1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
 
@@ -202,7 +201,7 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 ## Offer Decision {#offer-decision}
 
-Use the **[!UICONTROL Offer decision]** component to insert decisions into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
+Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
 
 Related topics:
 

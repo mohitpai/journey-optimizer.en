@@ -28,7 +28,8 @@ This type of event can be positioned as the first step or later in the journey.
 >
 >If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on Adobe Experience Platform.
 >
->Experience event field groups can not be used in journeys starting with a Read segment or Segment qualification activity.
+>Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
+
 
 
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas.

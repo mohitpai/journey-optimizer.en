@@ -83,6 +83,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Optimizer can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
+<p>The use of Data Usage Labelling and Enforcement (DULE) is currently restricted to selected customers, and will be deployed to all environments in a future release.</p>
 <p>For more information, refer to the <a href="../action/action-privacy.md">detailed documentation</a>.
 </td>
 </tr>
@@ -116,6 +117,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Journey Optimizer supports defining user roles and access policies to manage permissions for features and objects. Through <strong>Adobe Experience Cloud Permissions</strong>, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.</p>
+<p> The use of Permissions is currently restricted to selected customers, and will be deployed to all environments in a future release.</p>
 <p>For more information, refer to the <a href="../administration/attribute-based-access.md">detailed documentation</a>.
 </td>
 </tr>
@@ -166,11 +168,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* When enabling or disabling the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
+* When activating or deactivating the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated.
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. [Learn more](../configuration/channel-surfaces.md#create-channel-surface)
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* The user interface for creating landing page presets and landing page subdomains has been updated. [Learn more](../configuration/lp-subdomains.md)
 
 **Audit controls**
 
@@ -178,17 +180,19 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Archiving support**
 
-* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages for all channels for archiving purpose. [Learn more](../configuration/archiving-support.md)
+* The new **Entity Dataset** includes a Template field which enables you to export the format ad structure of the sent messages on all channels for archiving purpose. [Learn more](../configuration/archiving-support.md)
 
 **Landing pages**
 
 * You can now use contextual data coming from another page within the same landing page. For example, if you link a checkbox to a subscription list on the primary landing page, you can use that subscription list on the "thank you" subpage. [Learn more](../landing-pages/lp-content.md#use-primary-page-context)
 
-* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
 ### Other changes{#sept-2022-other}
 
-* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. Learn more
-* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment or Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor) 
+* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../campaigns/create-campaign.md#rapid-delivery)
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment, a Segment qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
+* The 1 hour limitation for scheduled read segment journeys has been removed. These journeys can now be executed with no delay.
+

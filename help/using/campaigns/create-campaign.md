@@ -107,8 +107,7 @@ Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Jour
 
 Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 
-For more information on performances when using Rapid delivery mode, refer to [Adobe Journye Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
+For more information on performances when using Rapid delivery mode, refer to [Adobe Journey Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### Prerequisites {#prerequisites}
 

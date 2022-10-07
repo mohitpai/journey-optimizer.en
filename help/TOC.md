@@ -47,6 +47,10 @@ solution: Journey Optimizer
   + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
++ Web channel{#web-channel}
+  + [Get strated with web channel](using/web/get-started-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Web reporting](using/web/web-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
@@ -78,38 +82,35 @@ solution: Journey Optimizer
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
   + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Web channel{#web-channel}
-  + [Get strated with web channel](using/web/get-started-web.md)
-  + [Author web pages](using/web/author-web.md)
-  + [Web reporting](using/web/web-report.md)
-+ Personalization{#personalization}
-  + [Get started with personalization](using/personalization/personalize.md)
-  + [Personalization contexts](using/personalization/personalization-contexts.md)
-  + Build expressions {#build-expressions}
-    + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + Work with the Expression editor {#expression-editor}
-      + [About the Expression editor](using/personalization/personalization-build-expressions.md)
-      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-      + [Work with saved expressions](using/personalization/personalization-library.md)  
-      + [Personalization validation](using/personalization/personalization-validation.md)
-    + Helper functions{#functions}
-      + [Get started with helper functions](using/personalization/functions/functions.md)
-      + [Aggregation functions](using/personalization/functions/aggregation.md)
-      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-      + [Date Time functions](using/personalization/functions/dates.md)
-      + [Boolean and comparison functions](using/personalization/functions/operators.md)
-      + [Helpers](using/personalization/functions/helpers.md)
-      + [Map functions](using/personalization/functions/maps.md)
-      + [Object functions](using/personalization/functions/objects.md)
-      + [String functions](using/personalization/functions/string.md) 
-  + Use cases{#personalization-use-cases}    
-    + [Order status notification](using/personalization/personalization-use-case.md)
-    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
++ Personalization & dynamic content {#personalized-dynamic-content}  
+  + Personalization {#personalization}
+    + [Get started with personalization](using/personalization/personalize.md)
+    + [Personalization contexts](using/personalization/personalization-contexts.md)
+    + Build expressions {#build-expressions}
+      + [Personalization syntax](using/personalization/personalization-syntax.md)
+      + Work with the Expression Editor {#expression-editor}
+        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+        + [Work with saved expressions](using/personalization/personalization-library.md)  
+        + [Personalization validation](using/personalization/personalization-validation.md)
+      + Helper functions{#functions}
+        + [Get started with helper functions](using/personalization/functions/functions.md)
+        + [Aggregation functions](using/personalization/functions/aggregation.md)
+        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+        + [Date functions](using/personalization/functions/dates.md)
+        + [Boolean and comparison functions](using/personalization/functions/operators.md)
+        + [Helpers](using/personalization/functions/helpers.md)
+        + [Map functions](using/personalization/functions/maps.md)
+        + [Object functions](using/personalization/functions/objects.md)
+        + [String functions](using/personalization/functions/string.md) 
+    + Use cases{#personalization-use-cases}    
+      + [Order status notification](using/personalization/personalization-use-case.md)
+      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Dynamic content {#dynamic}
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
-    + [Create conditions](using/personalization/create-conditions.md)
-    + [Build conditional content](using/personalization/dynamic-content.md)
+    + [Create conditional rules](using/personalization/create-conditions.md)
+    + [Create dynamic content](using/personalization/dynamic-content.md)
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
     + [Get started with segments](using/segment/about-segments.md)
@@ -118,6 +119,11 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
+  + Compose audiences {#audience-orchestration}
+    + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
+    + [Create composition workflows](using/segment/create-compositions.md)
+    + [Work with the composition canvas](using/segment/composition-canvas.md)
+    + [Access and manage audiences](using/segment/access-audiences.md)
   + [License usage](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
@@ -268,6 +274,7 @@ solution: Journey Optimizer
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
   + [Alerts](using/reports/alerts.md)
+  + [Work with Customer Journey Analytics](using/reports/cja-ajo.md)
 + Decision management {#offer-decisioning}
   + Get started with Decision management {#get-started-decision}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)

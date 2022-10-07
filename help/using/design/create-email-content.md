@@ -95,6 +95,10 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_6.png)
 
+1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. [Get started with dynamic content](../personalization/get-started-dynamic-content.md).
+
+    ![](assets/email_designer_dynamic-content.png)
+
 1. In the **[!UICONTROL Links]** tab in the left pane, check the list of all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** and **[!UICONTROL Tags]** if needed.
 
     ![](assets/email_designer_7.png)

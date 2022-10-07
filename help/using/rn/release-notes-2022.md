@@ -7,26 +7,6 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
-
-## September 2022 Release {#sept-2022-release}
-
-### New capabilities
-
-### Improvements
-
-**Administration**
-
-* The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated. [Learn more](../configuration/get-started-configuration.md)
-
-**Decision management**
-
-* **Capping frequency** - It is now possible to reset the offer capping counter on a daily, weekly or monthly basis - for example, every other Sunday at 12pm UTC. [Learn more](../offers/offer-library/add-constraints.md#capping)
-
-**Journeys**
-
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
-
-
 ## August 2022 Release {#aug-2022-release}
 
 ### New capabilities 
