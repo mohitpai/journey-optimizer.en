@@ -14,4 +14,4 @@ Before sending In-App messages, you need to configure your **[!UICONTROL App sur
 
 In-App messages are created in the context of a campaign. Make sure you have the correct permissions on Journey Optimizer campaigns before starting. [Learn more](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
-Once done, ou can create, configure and sent your first In-App message. Learn how to achieve this in [this section](create-in-app.md).
+Once done, you can create, configure and sent your first In-App message. Learn how to achieve this in [this section](create-in-app.md).
