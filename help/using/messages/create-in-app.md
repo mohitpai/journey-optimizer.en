@@ -1,16 +1,15 @@
 ---
-title: Create an In-App message
+title: Create an In-App notification
 description: Learn how to create an In-App message in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 ---
-# Create an In-app message {#create-in-app}
 
->[!IMPORTANT]
->
->Before sending In-app messages, you need to configure your **[!UICONTROL App surfaces]** in Adobe Experience Platform Data Collection. [Learn more](../configuration/inapp-configuration.md)
+# Create an In-App notification{#1st-in-app}
+
+To create your first In-App notification, follow the steps below:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -49,28 +48,20 @@ drop-down.
 
     ![](assets/in_app_create_3.png)
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. Learn how to schedule campaigns.
+1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. 
+
+    Learn how to schedule campaigns in [this page](../campaigns/create-campaign.md#schedule).
 
 1. You can now start editing your content with the **[!UICONTROL Edit content]** button. 
 
-    Learn more on [content design](#design-content).
+    Learn more on content design in [this section](#design-content).
 
     ![](assets/in_app_create_4.png)
 
-1. Once your In-app message is created and personalized, click **[!UICONTROL Review to activate]** to display a summary of your message.
 
-    The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
+## Design your In-App content {#design-content}
 
-    ![](assets/in_app_create_5.png)
-
-1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
-
-Your campaign is now activated. The In-app message configured in the campaign is sent immediately or on the specified date.
-You can measure the impact of your In-App messages with the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
-
-## Design content {#design-content}
-
-### Message Layout {#message-layout}
+### Message layout {#message-layout}
 
 ![](assets/in_app_content_1.png)
 
@@ -97,6 +88,8 @@ You can measure the impact of your In-App messages with the Campaign report. For
     * Select **[!UICONTROL Import]** to import the HTML or .zip file containing your HTML content.
 
 ### Content tab {#content-tab}
+
+From the **Content** tab, you can define: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
 
 #### Close button {#close-button}
 
@@ -205,4 +198,23 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * **[!UICONTROL Corner radius]**
 
 ### Preview on device {#preview-device}
+
+
+## Review and activate your In-App notification{#in-app-review}
+
+Once your In-app message is created, and its content defined and personalized, you can review and activate it.
+
+To perform this, follow the steps below:
+
+1. Use the **[!UICONTROL Review to activate]** button to display a summary of your message.
+
+    The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
+
+    ![](assets/in_app_create_5.png)
+
+1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
+
+Your campaign is now activated. The In-App notification configured in the campaign is sent immediately, or on the specified date.
+
+You can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
 
