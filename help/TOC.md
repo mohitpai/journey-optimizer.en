@@ -47,6 +47,15 @@ solution: Journey Optimizer
   + [Check alerts](using/messages/alerts.md)
   + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
++ In-App channel{#in-app-channel}
+  + [Get started with In-App channel](using/messages/get-started-in-app.md)
+  + [Configure the In-App channel](using/configuration/inapp-configuration.md)
+  + [Create an In-App message](using/messages/create-in-app.md)
+
++ Web channel{#web-channel}
+  + [Get started with web channel](using/web/get-started-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Web reporting](using/web/web-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
