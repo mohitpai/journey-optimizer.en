@@ -105,10 +105,12 @@ Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**:
 * **[!UICONTROL Circle]**
 * **[!UICONTROL Custom image]** from a Media URL or your Assets.
 
-++++
-Learn more on advanced formatting.
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can:
 
 Check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
+
 +++
 
 #### Media {#add-media}
@@ -120,10 +122,10 @@ The **[!UICONTROL Media]** field allows you to add media to your In-app message 
 Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../design/assets-essentials.md).
 You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
 
-++++
-Learn more on advanced formatting.
++++More options with advanced formatting
 
-Choose the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can customize the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media. 
+
 +++
 
 #### Header and Body {#title-body}
@@ -134,8 +136,7 @@ To compose your message, type your text in the **[!UICONTROL Header]** and **[!U
 
 You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section](../personalization/personalize.md).
 
-++++
-Learn more on advanced formatting.
++++More options with advanced formatting
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
 
@@ -143,6 +144,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 * the **[!UICONTROL Pt size]**
 * the **[!UICONTROL Font Color]**
 * the **[!UICONTROL Alignment]**
+
 +++
 
 #### Buttons {#add-buttons}
@@ -159,8 +161,7 @@ Add buttons for users to interact with your In-app message. To personalize your 
 
 1. To add multiple buttons, click **[!UICONTROL Add button]**.
 
-++++
-Learn more on advanced formatting.
++++More options with advanced formatting
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
@@ -171,6 +172,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 * the **[!UICONTROL Button style]**
 * the **[!UICONTROL Radius]**
 * the **[!UICONTROL Button color]**
+
 +++
 
 ### Settings tab {#settings-tab}
@@ -187,8 +189,7 @@ Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]
 
 UI takeover
 
-++++
-Learn more on advanced formatting.
++++More options with advanced formatting
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further personalize your message with the following options:
 
@@ -200,6 +201,8 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * **[!UICONTROL Customize animation]**
 * **[!UICONTROL Message round corner]**
 * **[!UICONTROL Corner radius]**
+
++++
 
 ### Preview on device {#preview-device}
 
