@@ -8,15 +8,13 @@ level: Beginner
 ---
 # Send an In-App notifications {#create-in-app}
 
-The In-App Messaging channel allows you to display a message when the user is active within the mobile application. 
-![](assets/in-app-sample.png)
-
 In-App messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
+
+![](assets/in-app-sample.png)
 
 Use Journey Optimizer to create In-App notifications, and configure experience options, including the message layout and display, text, and button options.
 
 ![](assets/new-in-app.png)
-
 
 ## Prerequisites{#prerequisistes-in-app}
 
