@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Send an In-App notifications {#create-in-app}
+# Get started with In-App channel {#gs-in-app}
 
 In-App messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
 
