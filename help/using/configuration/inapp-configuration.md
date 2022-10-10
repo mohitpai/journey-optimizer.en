@@ -6,7 +6,7 @@ level: Intermediate
 ---
 # Configure In-App channel {#inapp-configuration}
 
-Before sending In-app messages, you need to configure your **[!UICONTROL App surfaces]** in [!DNL Adobe Experience Platform Data Collection].
+Before sending In-App messages, you need to configure your **[!UICONTROL App surfaces]** in [!DNL Adobe Experience Platform Data Collection].
 
 1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
 
