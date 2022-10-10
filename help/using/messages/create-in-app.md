@@ -145,7 +145,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 * the **[!UICONTROL Alignment]**
 +++
 
-#### Buttons {#buttons}
+#### Buttons {#add-buttons}
 
 ![](assets/in_app_content_5.png)
 
@@ -179,11 +179,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 With the URL provided in the App preview field, you can preview your In-app message directly from your browser.
 
-#### Layout {#message}
+#### Layout {#layout-options}
 
 Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]** 
 
-#### Message {#message}
+#### Message {#message-tab}
 
 UI takeover
 
