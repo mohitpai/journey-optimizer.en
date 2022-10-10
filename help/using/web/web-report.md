@@ -5,8 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
+
 ---
 
 # Web report {#web-report}
@@ -29,7 +28,7 @@ For a detailed list of every metric available in Adobe Journey Optimizer, refer 
 
 ![](assets/report.png)
 
-The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors’ engagement with your web experiences, such as:
+The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
 

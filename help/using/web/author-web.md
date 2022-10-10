@@ -5,8 +5,7 @@ feature: Email
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
+
 ---
 # Author web pages {#author-web}
 
