@@ -7,7 +7,9 @@ role: User
 level: Beginner
 ---
 
-# Create an In-App notification{#create-in-app}
+# Create an In-App message {#create-in-app}
+
+## Create a campaign and an In-App message{#create-in-app-in-a-campaign}
 
 To create an In-App notification, follow the steps below:
 
