@@ -51,7 +51,6 @@ solution: Journey Optimizer
   + [Get started with In-App channel](using/messages/get-started-in-app.md)
   + [Configure the In-App channel](using/configuration/inapp-configuration.md)
   + [Create an In-App message](using/messages/create-in-app.md)
-
 + Web channel{#web-channel}
   + [Get started with web channel](using/web/get-started-web.md)
   + [Author web pages](using/web/author-web.md)
