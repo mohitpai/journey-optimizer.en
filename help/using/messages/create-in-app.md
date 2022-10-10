@@ -203,6 +203,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 
 ### Preview on device {#preview-device}
 
+You can preview the In-App notification in a specific device.
 
 ## Review and activate your In-App notification{#in-app-review}
 
