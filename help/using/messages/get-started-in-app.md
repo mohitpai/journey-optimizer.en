@@ -8,7 +8,14 @@ level: Beginner
 ---
 # Send an In-App notifications {#create-in-app}
 
-The In-App Messaging channel allows you to display a message when the user is active within the mobile application. In-App messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
+The In-App Messaging channel allows you to display a message when the user is active within the mobile application. 
+
+
+In-App messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
+
+![](assets/in-app-sample.png)
+
+## Prerequisites{#prerequisistes-in-app}
 
 Before sending In-App messages, you need to configure your **[!UICONTROL App surfaces]** in Adobe Experience Platform Data Collection. [Learn more](../configuration/inapp-configuration.md)
 

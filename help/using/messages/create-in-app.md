@@ -7,9 +7,9 @@ role: User
 level: Beginner
 ---
 
-# Create an In-App notification{#1st-in-app}
+# Create an In-App notification{#create-in-app}
 
-To create your first In-App notification, follow the steps below:
+To create an In-App notification, follow the steps below:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -19,7 +19,7 @@ To create your first In-App notification, follow the steps below:
 
     * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending transactional messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. Learn how to [trigger a campaign using APIs](../campaigns/api-triggered-campaigns.md)
 
-1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app channel]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**.
 
     For more information on surfaces, refer to [this page](../configuration/channel-surfaces.md).
 
@@ -29,7 +29,7 @@ To create your first In-App notification, follow the steps below:
 
 1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. Learn more on [Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
-1. Click the **[!UICONTROL Select audience]** button to display to define the audience to target from the list of available Adobe Experience Platform segments. Learn more on segment.
+1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments.  Learn more about segments [in this page](../segment/about-segments.md).
 
     ![](assets/in_app_create_2.png)
 
@@ -60,6 +60,10 @@ drop-down.
 
 
 ## Design your In-App content {#design-content}
+
+Configure experience options for In-App messages, including the message layout (full screen, modal, banner or custom) and display, text, and button options.
+
+You can also preview the experience directly from your browser.
 
 ### Message layout {#message-layout}
 
@@ -202,7 +206,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 
 ## Review and activate your In-App notification{#in-app-review}
 
-Once your In-app message is created, and its content defined and personalized, you can review and activate it.
+Once your In-App message is created, and its content defined and personalized, you can review and activate it.
 
 To perform this, follow the steps below:
 
@@ -216,5 +220,5 @@ To perform this, follow the steps below:
 
 Your campaign is now activated. The In-App notification configured in the campaign is sent immediately, or on the specified date.
 
-You can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
+Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
 
