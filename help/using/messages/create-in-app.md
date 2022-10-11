@@ -69,8 +69,7 @@ The **[!UICONTROL Advanced formatting]** toggle activates additional options to 
 
 ### Message layout {#message-layout}
 
-
-**[!UICONTROL Message Layout]** provides four different layout options to choose from depending on your messaging needs.
+From the **[!UICONTROL Message Layout]** section, select one of the four different layout options to choose from depending on your messaging needs. 
 
 ![](assets/in_app_content_1.png)
 
@@ -96,13 +95,15 @@ The **[!UICONTROL Advanced formatting]** toggle activates additional options to 
 
 ### Content tab {#content-tab}
 
-From the **Content** tab, you can define: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
+From the **Content** tab, you can definen and personalize: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
 
 #### Close button {#close-button}
 
+Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**.
+
 ![](assets/in_app_content_2.png)
 
-Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**:
+Available styles are:
 
 * **[!UICONTROL Simple]**
 * **[!UICONTROL Circle]**
@@ -110,17 +111,15 @@ Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**:
 
 +++More options with advanced formatting
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can:
-
-Check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
 
 +++
 
 #### Media {#add-media}
 
-![](assets/in_app_content_3.png)
-
 The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
+
+![](assets/in_app_content_3.png)
 
 Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../design/assets-essentials.md).
 You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
@@ -133,11 +132,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can customi
 
 #### Header and Body {#title-body}
 
+To compose your message, enter the content in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
+
 ![](assets/in_app_content_4.png)
 
-To compose your message, type your text in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
-
-You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data. Learn more about personalization in the Expression Editor [in this section](../personalization/personalize.md).
+Use the **[!UICONTROL Personalization]** icon to add personalization. Learn more about personalization in Adobe Journey Optimizer Expression Editor [in this section](../personalization/personalize.md).
 
 +++More options with advanced formatting
 
@@ -152,9 +151,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 #### Buttons {#add-buttons}
 
+Add buttons for users to interact with your In-app message.
+
 ![](assets/in_app_content_5.png)
 
-Add buttons for users to interact with your In-app message. To personalize your button:
+To personalize your button:
 
 1. Edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
 
@@ -179,6 +180,8 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 
 ### Settings tab {#settings-tab}
+
+From the **Settings** tab, you can define the message layout and preview your In-App message. You can also access advanced formatting options.
 
 #### Preview {#preview-tab}
 
