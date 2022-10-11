@@ -9,9 +9,9 @@ level: Beginner
 ---
 # Create web experiences {#create-web}
 
-[!DNL Journey Optimizer] allows you to personalize the web experience through inbound web campaigns.
+[!DNL Journey Optimizer] allows you to personalize the web experience you deliver to your customers through inbound web campaigns.
 
-To be able to author your web experience, follow the prerequisites below.
+To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites below:
 
 * To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
 
@@ -19,17 +19,17 @@ To be able to author your web experience, follow the prerequisites below.
 
 >[!CAUTION]
 >
->Currently to author web pages you can only use Chrome.
+>Currently to author web pages in [!DNL Journey Optimizer] you can only use Chrome.
 
 <!--Add link to Target??-->
 
 ## Create a web campaign {#create-web-campaign}
 
-To start building a web experience through a campaign, follow the steps below.
+To start building your web experience through a campaign, follow the steps below.
 
 >[!CAUTION]
 >
->Currently you can only create web experiences using **campaigns**.
+>Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
 1. Create a campaign. [Learn more](../campaigns/create-campaign.md)
 
@@ -37,45 +37,43 @@ To start building a web experience through a campaign, follow the steps below.
 
     ![](assets/web-create-campaign.png)
 
-1. Define a web surface, which is a web property identified by a URL where the content will be delivered. It can match a single page URL or multiple pages, allowing you to deliver modifications across one or several web pages.
+1. Define a web surface.
 
-    You can either:
+    >[!NOTE]
+    >
+    >A web surface is a web property identified by a URL where the content will be delivered. It can match a single page URL or multiple pages, allowing you to deliver modifications across one or several web pages.
 
-    * Enter a **[!UICONTROL Page URL]** if you want to apply the changes to a single page only.
+    You can either enter a **[!UICONTROL Page URL]** if you want to apply the changes to a single page only.
 
     ![](assets/web-campaign-surface.png)
     
-    * Define a **[!UICONTROL Pages matching rule]** to target multiple URLs matching the same rule - for example, if you want to apply the changes to a hero banner accross a whole website or add a top image that displays on all the product pages of a website. [Learn more](#pages-matching-rule)
+1. Or you can build a **[!UICONTROL Pages matching rule]** to target multiple URLs matching the same rule - for example, if you want to apply the changes to a hero banner accross a whole website or add a top image that displays on all the product pages of a website.
+
+    To do so, select **[!UICONTROL Pages matching rule]** and **[!UICONTROL Create rule]**.
 
     ![](assets/web-campaign-matching-rule.png)
 
-1. Select **[!UICONTROL Create]**.
+1. Define your criteria for the **[!UICONTROL Domain]** and **[!UICONTROL Page]** fields.
 
-### Create a pages matching rule {#pages-matching-rule}
-
-To define a web surface using a pages matching rule, follow the steps below.
-
-1. When [creating a web campaign](#create-web-campaign), define a **[!UICONTROL Pages matching rule]**.
-
-1. Select **[!UICONTROL Create rule]**.
-
-    ![](assets/web-campaign-matching-rule.png)
-
-1. Define your criteria for **[!UICONTROL Domain]** and **[!UICONTROL Page]**.
-
-    For example, if you want to edit elements that are displayed on all the women product pages of your Luma Website, select **[!UICONTROL Domain]** **[!UICONTROL Starts with]** `luma` and **[!UICONTROL Page]** **[!UICONTROL Contains]** `women`.
+    For example, if you want to edit elements that are displayed on all the women product pages of your Luma website, select **[!UICONTROL Domain]** **[!UICONTROL Starts with]** `luma` and **[!UICONTROL Page]** **[!UICONTROL Contains]** `women`.
 
     ![](assets/web-pages-matching-rule.png)
 
-1. Save your changes.
+1. Save your changes. The rule is displayed in the **[!UICONTROL Create campaign]** screen.
 
     ![](assets/web-pages-matching-rule-example.png)
 
+1. Once you defined the web surface, select **[!UICONTROL Create]**.
+
 ## Configure the web campaign
 
-1. In the **[!UICONTROL Properties]** tab, edit a name and add a description if needed.
+1. In the **[!UICONTROL Properties]** tab, you can edit the name and add a description if needed.
 
-1. Select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience to find which treatment helps you achieve your objective better. <!--??-->
+1. Select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience, in order to determine which treatment performs best with respect to the metric of interest.  [Learn more](../campaigns/content-experiment.md)
+
+    >[!AVAILABILITY]
+    >
+    >The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 1. To assign custom or core data usage labels to the web campaign, select the **[!UICONTROL Manage access]** button on top of the screen. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
 
@@ -83,7 +81,7 @@ To define a web surface using a pages matching rule, follow the steps below.
 
     ![](assets/web-edit-content.png)
 
-1. If you [created a pages matching rule](#pages-matching-rule), you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
+1. If you created a pages matching rule, you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
 
     >[!NOTE]
     >
@@ -103,6 +101,11 @@ To define a web surface using a pages matching rule, follow the steps below.
 1. Define the web campaign audience. By default, the web campaign will be visible to all visitors, or to a specific audience that you can select here.
 
     ![](assets/web-campaign-audience.png)
+
+    >[!NOTE]
+    >
+    >Learn more on namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
+
 
 1. Define a schedule for your web campaign. By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times.
 
