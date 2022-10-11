@@ -1,5 +1,5 @@
 ---
-title: Author a web page
+title: Author web pages
 description: Learn how to author a web page and edit its content in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -140,3 +140,22 @@ To add personalization, select a container and select the personalization icon f
 Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your messages. It will leverage Decision Management to pick the best offer to deliver to your customers. [Learn more](../design/deliver-personalized-offers.md)
 
 ![](assets/web-designer-offer.png)
+
+## Test the web campaign {#test-web-campaign}
+
+To display a preview of your modified web experience, follow the steps below.
+
+>[!CAUTION]
+>
+>You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../segment/creating-test-profiles.md).
+
+1. From either the **[!UICONTROL Edit content]** screen or the web designer, select **[!UICONTROL Simulate content]**.
+
+    ![](assets/web-designer-simulate.png)
+
+1. Click **[!UICONTROL Manage test profiles]** to select one or more test profiles.
+1. A preview of your modified web page is displayed.
+
+    ![](assets/web-designer-preview.png)
+
+1. You can also copy the test URL to paste it in any browser, or open it in the default browser.

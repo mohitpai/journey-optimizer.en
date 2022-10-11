@@ -1,5 +1,5 @@
 ---
-title: Author a web page
+title: Create web experiences
 description: Learn how to author a web page and edit its content in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -87,33 +87,15 @@ To start building your web experience through a campaign, follow the steps below
 
     ![](assets/web-campaign-audience.png)
 
+1. You can edit the **[!UICONTROL Identity namespace]**. An identity namespace serves to match a customer's multiple identities across systems.
+
     >[!NOTE]
     >
     >Learn more on namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
-
 1. Define a schedule for your web campaign. By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times.
 
     ![](assets/web-campaign-schedule.png)
-
-## Test the web campaign {#test-web-campaign}
-
-To display a preview of your modified web experience, follow the steps below.
-
->[!CAUTION]
->
->You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../segment/creating-test-profiles.md).
-
-1. From either the **[!UICONTROL Edit content]** screen or the web designer, select **[!UICONTROL Simulate content]**.
-
-    ![](assets/web-designer-simulate.png)
-
-1. Click **[!UICONTROL Manage test profiles]** to select one or more test profiles.
-1. A preview of your modified web page is displayed.
-
-    ![](assets/web-designer-preview.png)
-
-1. You can also copy the test URL to paste it in any browser, or open it in the default browser.
 
 >[!NOTE]
 >
