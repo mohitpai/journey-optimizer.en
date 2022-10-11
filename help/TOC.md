@@ -53,6 +53,7 @@ solution: Journey Optimizer
   + [Create an In-App message](using/messages/create-in-app.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
+  + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
   + [Web reporting](using/web/web-report.md)
 + Design content {#design}
