@@ -31,16 +31,16 @@ To create an In-App message, follow the steps below:
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
-1. Choose the frequency of your trigger when your In-App message will be active:
+1. Choose the frequency of your trigger when your In-App message is active:
 
     * **[!UICONTROL Show every time]**
     * **[!UICONTROL Show once]**
     * **[!UICONTROL Show until click through]**
 
-1. Choose the event that will trigger your message from the **[!UICONTROL Mobile app trigger]**
+1. Choose the event that triggers your message from the **[!UICONTROL Mobile app trigger]**
 drop-down. 
     
-    By choosing a trigger, you choose an action done by users which will cause the In-App message to be displayed.
+    By choosing a trigger, you choose which user action causes the In-App message to display.
 
     ![](assets/in_app_create_3.png)
 
@@ -85,7 +85,7 @@ From the **[!UICONTROL Message Layout]** section, select one of the four differe
 
     You can only add a **[!UICONTROL Header]** and a **[!UICONTROL Body]** to your message.
 
-* **[!UICONTROL Custom]**: The custom message mode allows you to directly import and edit one of your pre-configured HTML message.
+* **[!UICONTROL Custom]**: The custom message mode allows you to directly import and edit one of your pre-configured HTML messages.
 
     * Select **[!UICONTROL Compose]** to enter or paste your raw HTML code.
     
@@ -95,7 +95,7 @@ From the **[!UICONTROL Message Layout]** section, select one of the four differe
 
 ### Content tab {#content-tab}
 
-From the **Content** tab, you can definen and personalize: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
+From the **Content** tab, you can define and personalize: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
 
 #### Close button {#close-button}
 
@@ -159,7 +159,7 @@ To personalize your button:
 
 1. Edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
 
-1. Choose your **[!UICONTROL Interact event]** which will define your button's action after users interacted with it.
+1. Choose your **[!UICONTROL Interact event]** which defines your button's action after users interacted with it.
 
 1. Enter your web URL or deeplink in the **[!UICONTROL Target]** field.
 
