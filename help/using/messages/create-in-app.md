@@ -11,31 +11,25 @@ level: Beginner
 
 ## Create a campaign and an In-App message{#create-in-app-in-a-campaign}
 
-To create an In-App notification, follow the steps below:
+To create an In-App message, follow the steps below:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
-1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign. [Learn more](../campaigns/create-campaign.md#create).
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending marketing type messages.
-
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending transactional messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. Learn how to [trigger a campaign using APIs](../campaigns/api-triggered-campaigns.md)
-
-1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**.
-
-    For more information on surfaces, refer to [this page](../configuration/channel-surfaces.md).
+1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**. [Learn more](../configuration/channel-surfaces.md).
 
     ![](assets/in_app_create_1.png)
 
 1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. Learn more on [Object Level Access Control (OLAC)](../administration/object-based-access.md).
+1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. [Learn more](../administration/object-based-access.md).
 
-1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments.  Learn more about segments [in this page](../segment/about-segments.md).
+1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
 
     ![](assets/in_app_create_2.png)
 
-1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. Learn more on [namespaces](../event/about-creating.md#select-the-namespace).
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
 1. Choose the frequency of your trigger when your In-App message will be active:
 
@@ -50,28 +44,35 @@ drop-down.
 
     ![](assets/in_app_create_3.png)
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. 
-
-    Learn how to schedule campaigns in [this page](../campaigns/create-campaign.md#schedule).
+1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn more](../campaigns/create-campaign.md#schedule).
 
 1. You can now start editing your content with the **[!UICONTROL Edit content]** button. 
-
-    Learn more on content design in [this section](#design-content).
 
     ![](assets/in_app_create_4.png)
 
 
 ## Design your In-App content {#design-content}
 
-Configure experience options for In-App messages, including the message layout (full screen, modal, banner or custom) and display, text, and button options.
+Edit the In-App content to configure experience options, including the message layout and display, text, and button options.
 
-You can also preview the experience directly from your browser.
+You can preview the experience directly from your browser.
+
+To configure the message content, click the **[!UICONTROL Edit content]** button.
+
+![](assets/edit-in-app-content.png)
+
+Use the options on the left section of the screen to design your In-App message content.
+
+![](assets/edit-content.png)
+
+The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
 
 ### Message layout {#message-layout}
 
-![](assets/in_app_content_1.png)
 
-**[!UICONTROL Message Layout]** provides four different layout options to choose from depending on your messaging needs:
+**[!UICONTROL Message Layout]** provides four different layout options to choose from depending on your messaging needs.
+
+![](assets/in_app_content_1.png)
 
 * **[!UICONTROL Fullscreen]**: This type of layout covers the entire screen of your audience devices.
     
