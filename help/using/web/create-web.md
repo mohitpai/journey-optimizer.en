@@ -114,7 +114,7 @@ To display a preview of your modified web experience, follow the steps below.
 
 >[!CAUTION]
 >
->You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../../segment/creating-test-profiles.md).
+>You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
 1. From either the **[!UICONTROL Edit content]** screen or the web designer, select **[!UICONTROL Simulate content]**.
 

@@ -24,7 +24,7 @@ You can author your web experiences in a similar fashion as you do it for mail o
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Create web experiences</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md.md">Author web pages</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Author web pages</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web reporting</a></p></td>
 </tr>
 </table>
