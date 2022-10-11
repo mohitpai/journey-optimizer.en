@@ -1,5 +1,5 @@
 ---
-title: Author web pages
+title: Author a web page
 description: Learn how to author a web page and edit its content in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -11,23 +11,45 @@ level: Beginner
 
 ## Edit web page content {#edit-web-content}
 
-Once you created a web action from the campaign, you can edit your content using the web designer.
+Once you created a web action from the campaign, you can edit your content using the web designer. To do so, follow the steps below.
 
-![](assets/web-designer.png)
+1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more](create-web.md#configure-web-campaign)
 
-Select any element from the canvas, such as image, button, paragraph, text, container, heading, link etc. and use:
+1. If you created a pages matching rule, you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
 
-* The contextual menu to edit its content, layout, insert links or personalization, etc.
+    >[!NOTE]
+    >
+    >If you entered a single URL as the web surface, the URL to personalize is already populated.
 
-    ![](assets/web-designer-contextual-bar.png)
+    ![](assets/web-edit-enter-url.png)
 
-* The icons on top of the right panel to edit, duplicate, delete or hide each element.
+1. The content of the page displays.
 
-    ![](assets/web-designer-right-panel-icons.png)
+    >[!CAUTION]
+    >
+    >To be accessed, the web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+    
+1. Click **[!UICONTROL Open web designer]** to edit it. [Learn more](author-web.md)
 
-* The right panel that changes dynamically according to the selected element. For example, you can edit the background, typography, border, size, position, spacing, effects or inline styles of an element.
+    ![](assets/web-open-designer.png)
 
-    ![](assets/web-designer-right-panel.png)
+1. The web designer displays.
+
+    ![](assets/web-designer.png)
+
+1. Select any element from the canvas, such as image, button, paragraph, text, container, heading, link etc. and use:
+
+    * The contextual menu to edit its content, layout, insert links or personalization, etc.
+
+        ![](assets/web-designer-contextual-bar.png)
+
+    * The icons on top of the right panel to edit, duplicate, delete or hide each element.
+
+        ![](assets/web-designer-right-panel-icons.png)
+
+    * The right panel that changes dynamically according to the selected element. For example, you can edit the background, typography, border, size, position, spacing, effects or inline styles of an element.
+
+        ![](assets/web-designer-right-panel.png)
 
 ## Use content components {#content-components}
 

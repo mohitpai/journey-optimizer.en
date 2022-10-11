@@ -1,5 +1,5 @@
 ---
-title: Create web experiences
+title: Author a web page
 description: Learn how to author a web page and edit its content in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -19,7 +19,7 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 >[!CAUTION]
 >
->Currently to author web pages in [!DNL Journey Optimizer] you can only use Chrome.
+>Google Chrome is currently the only browser that supports authoring web pages in [!DNL Journey Optimizer].
 
 <!--Add link to Target??-->
 
@@ -49,13 +49,13 @@ To start building your web experience through a campaign, follow the steps below
     
 1. Or you can build a **[!UICONTROL Pages matching rule]** to target multiple URLs matching the same rule - for example, if you want to apply the changes to a hero banner accross a whole website or add a top image that displays on all the product pages of a website.
 
-    To do so, select **[!UICONTROL Pages matching rule]** and **[!UICONTROL Create rule]**.
+    To do so, select **[!UICONTROL Pages matching rule]** and click **[!UICONTROL Create rule]**.
 
     ![](assets/web-campaign-matching-rule.png)
 
 1. Define your criteria for the **[!UICONTROL Domain]** and **[!UICONTROL Page]** fields.
 
-    For example, if you want to edit elements that are displayed on all the women product pages of your Luma website, select **[!UICONTROL Domain]** **[!UICONTROL Starts with]** `luma` and **[!UICONTROL Page]** **[!UICONTROL Contains]** `women`.
+    For example, if you want to edit elements that are displayed on all the women product pages of your Luma website, select **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `luma` and **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `women`.
 
     ![](assets/web-pages-matching-rule.png)
 
@@ -63,13 +63,15 @@ To start building your web experience through a campaign, follow the steps below
 
     ![](assets/web-pages-matching-rule-example.png)
 
-1. Once you defined the web surface, select **[!UICONTROL Create]**.
+1. Once you defined the web surface, select **[!UICONTROL Create]**. You can now configure your campaign properties and settings.
 
-## Configure the web campaign
+## Configure the web campaign {#configure-web-campaign}
 
-1. In the **[!UICONTROL Properties]** tab, you can edit the name and add a description if needed.
+1. In the **[!UICONTROL Properties]** tab, you can edit the campaign name and add a description if needed.
 
-1. Select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience, in order to determine which treatment performs best with respect to the metric of interest.  [Learn more](../campaigns/content-experiment.md)
+    ![](assets/web-campaign-properties.png)
+
+1. Select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience, in order to determine which treatment performs best with respect to a specific metric. [Learn more](../campaigns/content-experiment.md)
 
     >[!AVAILABILITY]
     >
@@ -77,26 +79,9 @@ To start building your web experience through a campaign, follow the steps below
 
 1. To assign custom or core data usage labels to the web campaign, select the **[!UICONTROL Manage access]** button on top of the screen. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
 
-1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]**.
+1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more]
 
     ![](assets/web-edit-content.png)
-
-1. If you created a pages matching rule, you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
-
-    >[!NOTE]
-    >
-    >If you entered a single URL as the web surface, the URL to personalize is already populated.
-
-    ![](assets/web-edit-enter-url.png)
-
-    >[!CAUTION]
-    >
-    >To be accessed, the web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
-
-
-1. The content of the page displays. Click **[!UICONTROL Open web designer]** to edit it. [Learn more](author-web.md)
-
-    ![](assets/web-open-designer.png)
 
 1. Define the web campaign audience. By default, the web campaign will be visible to all visitors, or to a specific audience that you can select here.
 

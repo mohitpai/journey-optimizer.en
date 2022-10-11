@@ -9,13 +9,15 @@ level: Beginner
 ---
 # Get started with web channel {#get-sarted-web}
 
-Marketers want to build omni-channel journeys in which they can bring their outbound and inbound channels together so they can offer a truly personalized experience that spans across all their channels.
+[!DNL Journey Optimizer] allows you to visually author and deliver personalized web experiences to your customers.
 
-[!DNL Journey Optimizer] allows you to visually author and deliver personalized web experiences to your users using campaigns.
+>[!CAUTION]
+>
+>Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
-To provide marketers and designers with the ability to create and change content for their web channel through either an intuitive visual interface or a simple non-visual interface. This capability allows customers to modify their web properties easily in order to experiment, optimize and personalize their end-user experiences.
+Through an intuitive visual interface, this capability allows you to modify your web properties easily in order to experiment, optimize and personalize your end-user campaigns.
 
-You can author your web experiences in a similar fashion as you do it for mail or in-app messaging thus allowing you to create cross-channel journeys that span across inbound and outbound channels.
+If you are already using outbound channels such as email, SMS or push notifications, you can now leverage the inbound web channel to offer a truly personalized experience that spans across all channels.
 
 <!-->
 ➡️ [Learn more on web channel in this video](#video)
