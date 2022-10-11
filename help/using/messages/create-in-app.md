@@ -46,7 +46,7 @@ drop-down.
 
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn more](../campaigns/create-campaign.md#schedule).
 
-1. You can now start editing your content with the **[!UICONTROL Edit content]** button. 
+1. You can now start designing your content with the **[!UICONTROL Edit content]** button. 
 
     ![](assets/in_app_create_4.png)
 
@@ -214,21 +214,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 
 You can preview the In-App notification in a specific device.
 
-## Review and activate your In-App notification{#in-app-review}
 
-Once your In-App message is created, and its content defined and personalized, you can review and activate it.
-
-To perform this, follow the steps below:
-
-1. Use the **[!UICONTROL Review to activate]** button to display a summary of your message.
-
-    The summary allows you to modify your campaign if necessary, and to check if any parameter is incorrect or missing.
-
-    ![](assets/in_app_create_5.png)
-
-1. Check that your campaign is correctly configured, then click **[!UICONTROL Activate]**.
-
-Your campaign is now activated. The In-App notification configured in the campaign is sent immediately, or on the specified date.
-
-Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
+Once your In-App message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
 
