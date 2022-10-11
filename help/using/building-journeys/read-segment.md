@@ -26,6 +26,7 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 >
 >Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
 
+
 ### Configure the activity {#configuring-segment-trigger-activity}
 
 The steps to configure the Read Segment activity are as follows:

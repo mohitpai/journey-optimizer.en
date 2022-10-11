@@ -31,6 +31,7 @@ This type of event can be positioned as the first step or later in the journey.
 >Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
 
 
+
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas.
 
    ![](assets/segment5.png)

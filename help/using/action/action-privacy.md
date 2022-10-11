@@ -9,7 +9,6 @@ level: Intermediate
 ---
 # Data Governance {#restrict-fields}
 
-
 >[!IMPORTANT]
 >
 >The use of Data Usage Labelling and Enforcement (DULE) is currently restricted to selected customers, and will be deployed to all environments in a future release.

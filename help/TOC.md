@@ -52,6 +52,11 @@ solution: Journey Optimizer
   + [Configure the In-App channel](using/configuration/inapp-configuration.md)
   + [Create an In-App message](using/messages/create-in-app.md)
   + [Send your In-App messages](using/messages/send-in-app.md)
++ Web channel{#web}
+  + [Get started with web channel](using/web/get-started-web.md)
+  + [Create web experiences](using/web/create-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Web reporting](using/web/web-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
