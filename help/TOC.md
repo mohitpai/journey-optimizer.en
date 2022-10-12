@@ -38,7 +38,7 @@ solution: Journey Optimizer
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
   + Get started with messages{#get-started-msg}
-    + [Create messages](using/messages/get-started-content.md)
+    + [Overview](using/messages/get-started-content.md)
     + [Add messages in journeys](using/messages/messages-in-journeys.md)
     + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
