@@ -79,13 +79,17 @@ To start building your web experience through a campaign, follow the steps below
 
 1. To assign custom or core data usage labels to the web campaign, select the **[!UICONTROL Manage access]** button on top of the screen. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
 
-1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more]
+1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more](author-web.md)
 
     ![](assets/web-edit-content.png)
 
-1. Define the web campaign audience. By default, the web campaign will be visible to all visitors, or to a specific audience that you can select here.
+1. From the **[!UICONTROL Audience]** tab, define who will be able to see your web campaign. By default, the web campaign will be visible to all visitors.
 
     ![](assets/web-campaign-audience.png)
+
+    You can also select a specific audience using the corresponding button.
+
+    ![](assets/web-campaign-select-audience.png)
 
 1. You can edit the **[!UICONTROL Identity namespace]**. An identity namespace serves to match a customer's multiple identities across systems.
 
@@ -93,25 +97,33 @@ To start building your web experience through a campaign, follow the steps below
     >
     >Learn more on namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
-1. Define a schedule for your web campaign. By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times.
+1. Define a **[!UICONTROL Schedule]** for your web campaign.
 
     ![](assets/web-campaign-schedule.png)
 
->[!NOTE]
->
->If your content includes contextual data, it may not be rendered in the preview. You can execute the campaign using API to run end-to-end tests with contextual data. <!--To check with email designer / personalization sections? Link?-->
+    By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times.
+
+    ![](assets/web-campaign-schedule-start.png)
 
 ## Activate the web campaign {#activate-web-campaign}
 
-1. Once you edited your content as desired using the web designer, go back to the web campaign.
+1. Once you defined your [web campaign settings](#configure-web-campaign) and edited your content as desired using the [web designer](author-web.md), you can review and activate your web campaign.
+
+>[!NOTE]
+>
+>You can also preview your web campaign content before activating it. [Learn more](author-web.md#test-web-campaign)
 
 1. Select **[!UICONTROL Review to activate]**.
 
     ![](assets/web-designer-review.png)
 
-1. Review and dit the properties, audience and schedule if needed.
+1. Review and edit the properties, content, audience and schedule if needed.
 
 1. Select **[!UICONTROL Activate]**.
+
+    ![](assets/web-designer-activate.png)
+
+Your web campaign is now visible to the selected audience. Each recipient of your campaign can see the modifications you added to your website using the [!DNL Journey Optimizer] web designer.
 
 ## Stop a web campaign
 
