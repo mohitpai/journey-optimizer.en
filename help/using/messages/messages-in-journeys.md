@@ -38,15 +38,13 @@ To add messages in a journey, add a push, SMS or email activity in the journey c
 
 1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
-   >[!CAUTION]
-   >
-   >If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
-
    ![](assets/inline-message-category.png)
-
+   
    >[!CAUTION]
    >
-   >Marketing-type messages must include an [opt-out link](../messages/consent.md#opt-out-management). This is not required for transactional messages as these messages can be sent to profiles who unsubscribed from marketing communications.
+   >* If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
+   >
+   >* Marketing messages must include an [opt-out link](../messages/consent.md#opt-out-management). This is not required for transactional messages as these messages can be sent to profiles who unsubscribed from marketing communications.
 
 1. Select the channel **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 

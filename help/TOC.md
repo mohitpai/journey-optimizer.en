@@ -37,9 +37,10 @@ solution: Journey Optimizer
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
-  + [Get started with messages](using/messages/get-started-content.md)
-  + [Add messages journeys](using/messages/messages-in-journeys.md)
-  + [Add messages campaigns](using/messages/messages-in-campaigns.md)
+  + Get started with messages{#get-started-msg}
+    + [Create messages](using/messages/get-started-content.md)
+    + [Add messages in journeys](using/messages/messages-in-journeys.md)
+    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
