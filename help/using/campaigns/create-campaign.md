@@ -101,7 +101,7 @@ If you do not want to execute your campaign right after its activation, you can 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Rapid delivery mode"
->abstract="Rapid delivery mode is a Journey Optimizer add-on that lets you perform high speed spending of non-personalized messages to audiences under 30M profiles."
+>abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
 
 Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
 
