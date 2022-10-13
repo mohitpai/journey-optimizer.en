@@ -72,7 +72,7 @@ The unsubscribe link consists in two elements:
 
 * The **unsubscribe URL**, which is the URL of the landing page where the user will be redirected once unsubscribed.
 
-    If you add a [one-click opt-out link](../messages/consent.md#one-click-opt-out) to a message created using this surface, the unsubscribe URL will be the URL defined for the one-click opt-out link.
+    If you add a [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) to a message created using this surface, the unsubscribe URL will be the URL defined for the one-click opt-out link.
 
     ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -80,7 +80,7 @@ The unsubscribe link consists in two elements:
     >
     >If you do not add a one-click opt-out link into your message content, no landing page will be displayed to the user.
 
-Learn more on adding a header unsubscribe link to your messages in [this section](../messages/consent.md#unsubscribe-header).
+Learn more on adding a header unsubscribe link to your messages in [this section](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

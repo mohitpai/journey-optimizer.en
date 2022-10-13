@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
-title: Consent
-description: Consent
+title: Work with consent policies
+description: Learn how to work with Adobe Experience PLatform consent policies
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
-# Consent management {#consent-management}
+# Work with consent policies {#consent-management}
 
 Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 

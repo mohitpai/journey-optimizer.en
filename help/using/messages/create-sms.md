@@ -16,6 +16,10 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
+>[!NOTE]
+>
+>In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 SMS deliveries can be created:
 
 * In a **Journey**: Once you added an SMS activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message. 
@@ -55,17 +59,6 @@ To visualize how your SMS message displays on mobile devices, click the **[!UICO
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Opt-in and opt-out{#sms-opt-in-out}
-
-For all marketing messages, the SMS must contain a way for the recipients to easily unsubscribe. Once unsubscribed, the profiles are automatically removed from the audience of future marketing messages. Adding an unsubscription link is not mandatory for transactional messages.
-
-SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
-
-To learn more on how native inbound keyword support (start, stop and unstop) works for SMS, refer to the following video.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

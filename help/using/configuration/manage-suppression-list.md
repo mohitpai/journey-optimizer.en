@@ -116,7 +116,7 @@ The possible reasons for a delivery failure are:
 
 >[!NOTE]
 >
->Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../messages/consent.md)
+>Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../privacy/opt-out.md)
 
 ## Manually add addresses and domains {#add-addresses-and-domains}
 

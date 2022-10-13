@@ -46,7 +46,6 @@ solution: Journey Optimizer
   + [Create an SMS message](using/messages/create-sms.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
-  + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
@@ -436,5 +435,7 @@ solution: Journey Optimizer
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)
-  + [Consent](using/action/consent.md)
+  + Manage consent {#consent}
+    + [Manage opt-out](using/privacy/opt-out.md)
+    + [Work with consent policies](using/action/consent.md)
   + [Data Governance](using/action/action-privacy.md)
