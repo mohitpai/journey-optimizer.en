@@ -137,7 +137,7 @@ To add personalization, select a container and select the personalization icon f
 
 ![](assets/web-designer-personalization.png)
 
-Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your messages. It will leverage Decision Management to pick the best offer to deliver to your customers. [Learn more](../design/deliver-personalized-offers.md)
+Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. It will leverage Decision Management to pick the best offer to deliver to your customers. [Learn more](../design/deliver-personalized-offers.md)
 
 ![](assets/web-designer-offer.png)
 
