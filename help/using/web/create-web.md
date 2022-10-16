@@ -11,6 +11,10 @@ level: Beginner
 
 [!DNL Journey Optimizer] allows you to personalize the web experience you deliver to your customers through inbound web campaigns.
 
+>[!CAUTION]
+>
+>Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
+
 To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites below:
 
 * To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
@@ -26,10 +30,6 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 ## Create a web campaign {#create-web-campaign}
 
 To start building your web experience through a campaign, follow the steps below.
-
->[!CAUTION]
->
->Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
 1. Create a campaign. [Learn more](../campaigns/create-campaign.md)
 
@@ -71,13 +71,13 @@ To start building your web experience through a campaign, follow the steps below
 
     ![](assets/web-campaign-properties.png)
 
-1. Select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience, in order to determine which treatment performs best with respect to a specific metric. [Learn more](../campaigns/content-experiment.md)
+1. To assign custom or core data usage labels to the web campaign, select the **[!UICONTROL Manage access]** button on top of the screen. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
+
+1. You can select **[!UICONTROL Content experiment]** to test content treatments with parts of the audience, in order to determine which treatment performs best with respect to a specific metric. [Learn more](../campaigns/content-experiment.md)
 
     >[!AVAILABILITY]
     >
     >The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
-1. To assign custom or core data usage labels to the web campaign, select the **[!UICONTROL Manage access]** button on top of the screen. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
 
 1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more](author-web.md)
 
@@ -87,49 +87,62 @@ To start building your web experience through a campaign, follow the steps below
 
     ![](assets/web-campaign-audience.png)
 
-    You can also select a specific audience using the corresponding button.
-
-    ![](assets/web-campaign-select-audience.png)
-
-1. You can edit the **[!UICONTROL Identity namespace]**. An identity namespace serves to match a customer's multiple identities across systems.
+    You can also select a specific audience. Use the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
 
     >[!NOTE]
     >
-    >Learn more on namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
+    >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
 
-1. Define a **[!UICONTROL Schedule]** for your web campaign.
+    ![](assets/web-campaign-select-audience.png)
+
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
+
+1. Define a **[!UICONTROL Schedule]** for your web campaign. [Learn more](../campaigns/create-campaign.md#schedule)
 
     ![](assets/web-campaign-schedule.png)
 
-    By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times.
+    By default, it starts when manually activated and ends when manually stopped, but you can also define specific dates and times for your modifications to be visible.
 
     ![](assets/web-campaign-schedule-start.png)
 
 ## Activate the web campaign {#activate-web-campaign}
 
-1. Once you defined your [web campaign settings](#configure-web-campaign) and edited your content as desired using the [web designer](author-web.md), you can review and activate your web campaign.
+Once you defined your [web campaign settings](#configure-web-campaign) and you edited your content as desired using the [web designer](author-web.md), you can review and activate your web campaign. Follow the steps below.
 
 >[!NOTE]
 >
 >You can also preview your web campaign content before activating it. [Learn more](author-web.md#test-web-campaign)
 
-1. Select **[!UICONTROL Review to activate]**.
+1. From your web campaign, select **[!UICONTROL Review to activate]**.
 
     ![](assets/web-designer-review.png)
 
-1. Review and edit the properties, content, audience and schedule if needed.
+1. Review and edit if needed the content, properties, surface, audience and schedule.
 
 1. Select **[!UICONTROL Activate]**.
 
     ![](assets/web-designer-activate.png)
 
-Your web campaign is now visible to the selected audience. Each recipient of your campaign can see the modifications you added to your website using the [!DNL Journey Optimizer] web designer.
+Your web campaign takes the **[!UICONTROL Live]** status and is now visible to the selected audience. Each recipient of your campaign can see the modifications you added to your website using the [!DNL Journey Optimizer] web designer.
 
-## Stop a web campaign
+>[!NOTE]
+>
+>If you defined a schedule for your web campaign, it has the **[!UICONTROL Scheduled]** status until the start date and time are reached.
+>
+>If you activate a web campaign impacting the same pages as another campaign which is already live, that campaign will have the **[!UICONTROL Scheduled]** status until the other live campaign is stopped.
 
-1. Select the campaign.
+Learn more on activating campaigns in [this section](../campaigns/review-activate-campaign.md).
+
+## Stop a web campaign {#stop-web-campaign}
+
+When a web campaign is live, you can stop it to prevent your audience from seeing your modifications. Follow the steps below.
+
+1. Select a live campaign from the list.
 
 1. From the top menu, select **[!UICONTROL Stop campaign]**.
 
 1. The modifications you added will not be visible anymore to the audience you defined.
 
+>[!NOTE]
+>
+>Once a web campaign is stopped, you cannot edit or activate it again. You can only duplicate it and activate the duplicated campaign.
