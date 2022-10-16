@@ -91,7 +91,7 @@ To start building your web experience through a campaign, follow the steps below
 
     >[!NOTE]
     >
-    >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
+    >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](../campaigns/api-triggered-campaigns.md)
 
     ![](assets/web-campaign-select-audience.png)
 
