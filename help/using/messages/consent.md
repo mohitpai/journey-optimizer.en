@@ -169,7 +169,7 @@ Once your message is sent through a [journey](../building-journeys/journey.md), 
 >id="ajo_admin_preset_unsubscribe"
 >title="Add unsubscribe link to email header"
 >abstract="Enable List-Unsubscribe to add an unsubscribe link to the email header. To set an unsubscribe URL, insert a one-click opt-out link into the email content."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="One-click opt-out"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="One-click opt-out"
 
 If the [List-Unsubscribe option](../configuration/channel-surfaces.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
 
