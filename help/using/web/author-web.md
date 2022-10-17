@@ -127,9 +127,11 @@ You can easily manage all the components, adjustments and styles you added to yo
     >
     >Proceed with care when deleting an action as it may impact subsequent actions.
 
-1. You can also cancel and redo actions using the corresponding buttons on top right of the screen.
+1. You can also cancel and redo actions using the **[!UICONTROL Undo/Redo]** button on top right of the screen.
 
-    <!--![](assets/web-designer-cancel-redo.png)-->
+    ![](assets/web-designer-undo-redo.png)
+
+    Click and hold the button to switch between the **[!UICONTROL Undo]** and **[!UICONTROL Redo]** options. Then click the button itself to apply the desired action.
 
 ## Add personalization and offers
 

@@ -115,13 +115,13 @@ Once you defined your [web campaign settings](#configure-web-campaign) and you e
 
 1. From your web campaign, select **[!UICONTROL Review to activate]**.
 
-    ![](assets/web-designer-review.png)
+    ![](assets/web-campaign-review.png)
 
 1. Review and edit if needed the content, properties, surface, audience and schedule.
 
 1. Select **[!UICONTROL Activate]**.
 
-    ![](assets/web-designer-activate.png)
+    ![](assets/web-campaign-activate.png)
 
 Your web campaign takes the **[!UICONTROL Live]** status and is now visible to the selected audience. Each recipient of your campaign can see the modifications you added to your website using the [!DNL Journey Optimizer] web designer.
 
@@ -140,6 +140,8 @@ When a web campaign is live, you can stop it to prevent your audience from seein
 1. Select a live campaign from the list.
 
 1. From the top menu, select **[!UICONTROL Stop campaign]**.
+
+    ![](assets/web-campaign-stop.png)
 
 1. The modifications you added will not be visible anymore to the audience you defined.
 
