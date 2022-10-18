@@ -20,6 +20,12 @@ Adobe Experience Platform allows you to label your fields and create marketing a
 
 In Journey Optimizer, you can apply these policies to your custom actions to prevent specific fields from being exported to third-party systems. 
 
+For more information on the Data Governance framework and how to work with labels and policies, refer to Adobe Experience Platform documentation:
+
+* [Data Governance service overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
+* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
+* [Data usage policies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
+
 ## Important notes {#important-notes}
 
 * Data governance only applies to custom actions in journeys. Campaign Classic and Campaign Standard actions are not supported.

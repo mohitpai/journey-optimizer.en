@@ -11,6 +11,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
+
+## October 2022 {#oct-2022-release}
+
+### Improvements{#oct-2022-improvements}
+
+**Journeys**
+
+* The **Force reentrance on recurrence** option has been added in recurring read segment schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
 ## September 2022 Release{#sept-2022-release}
 
 ### New capabilities{#sept-2022-features}

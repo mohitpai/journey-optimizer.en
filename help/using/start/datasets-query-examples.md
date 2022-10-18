@@ -305,7 +305,17 @@ Dataset to store entity metadata for messages sent to the end user.
 
 The related schema is AJO Entity Schema.
 
-This dataset allows you to enrich various datasets with key marketer friendly metadata. The messageID attribute helps stitch various datasets such as Message Feedback Dataset and Experience Event Tracking Datasets to get details of a message delivery from sending to tracking at a profile level.
+This dataset gives you access to marketer defined metadata which allows you to get better reporting insights when Journey Optimizer datasets are exported out for reporting visualization in external tools. This is achieved using the messageID attribute which helps stitch various datasets such as Message Feedback Dataset and Experience Event Tracking Datasets to get details of a message delivery from sending to tracking at a profile level.
+
+**Important notes**
+
+* An entry for a message is created only after journey or campaign is published.
+
+* You may see the entry 30 minutes after the publication of the campaign/journey.
+
+>[!NOTE]
+>
+>For the time being, there are two entries for each message publication in the entity dataset for future compatibility reasons. This does not impact your ability to use join queries as needed across datasets to fetch the desired information.
 
 The following query helps you get the associated message template for a given campaign:
 
