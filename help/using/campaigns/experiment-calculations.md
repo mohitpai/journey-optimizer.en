@@ -25,7 +25,7 @@ For expert users, the technical details and references are detailed in [this pag
 
 ## Statistical Testing and Controlling Errors {#statistical-testing}
 
-![](assets/technote_1.png)
+![](assets/technote_1.png){align="center"}
 
 As illustrated in the table above, many statistical inferencing methodologies are designed to control two types of errors:
 
