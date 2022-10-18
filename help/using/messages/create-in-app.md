@@ -1,17 +1,17 @@
 ---
-title: Create an In-App notification
-description: Learn how to create an In-App message in Journey Optimizer
+title: Create an In-app notification
+description: Learn how to create an In-app message in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 ---
 
-# Create an In-App message {#create-in-app}
+# Create an In-app message {#create-in-app}
 
-## Create a campaign and an In-App message{#create-in-app-in-a-campaign}
+## Create a campaign and an In-app message{#create-in-app-in-a-campaign}
 
-To create an In-App message, follow the steps below:
+To create an In-app message, follow the steps below:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -31,7 +31,7 @@ To create an In-App message, follow the steps below:
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
-1. Choose the frequency of your trigger when your In-App message is active:
+1. Choose the frequency of your trigger when your In-app message is active:
 
     * **[!UICONTROL Show every time]**
     * **[!UICONTROL Show once]**
@@ -40,7 +40,7 @@ To create an In-App message, follow the steps below:
 1. Choose the event that triggers your message from the **[!UICONTROL Mobile app trigger]**
 drop-down. 
     
-    By choosing a trigger, you choose which user action causes the In-App message to display.
+    By choosing a trigger, you choose which user action causes the In-app message to display.
 
     ![](assets/in_app_create_3.png)
 
@@ -50,10 +50,9 @@ drop-down.
 
     ![](assets/in_app_create_4.png)
 
+## Design your In-app content {#design-content}
 
-## Design your In-App content {#design-content}
-
-Edit the In-App content to configure experience options, including the message layout and display, text, and button options.
+Edit the In-app content to configure experience options, including the message layout and display, text, and button options.
 
 You can preview the experience directly from your browser.
 
@@ -61,11 +60,13 @@ To configure the message content, click the **[!UICONTROL Edit content]** button
 
 ![](assets/edit-in-app-content.png)
 
-Use the options on the left section of the screen to design your In-App message content.
+Use the options on the left section of the screen to design your In-app message content.
 
 ![](assets/edit-content.png)
 
 The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
+
+Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
 
 ### Message layout {#message-layout}
 
@@ -95,13 +96,13 @@ From the **[!UICONTROL Message Layout]** section, select one of the four differe
 
 ### Content tab {#content-tab}
 
-From the **Content** tab, you can define and personalize: the content of the notification and the style of the **Close** button. You can also add a media to your In-App notification, and add action buttons from this tab.
+From the **Content** tab, you can define and personalize: the content of the notification and the style of the **Close** button. You can also add a media to your In-app notification, and add action buttons from this tab.
 
 #### Close button {#close-button}
 
-Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**.
-
 ![](assets/in_app_content_2.png)
+
+Choose the **[!UICONTROL Style]** of your **[!UICONTROL Close button]**.
 
 Available styles are:
 
@@ -181,39 +182,65 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ### Settings tab {#settings-tab}
 
-From the **Settings** tab, you can define the message layout and preview your In-App message. You can also access advanced formatting options.
+From the **Settings** tab, you can define the message layout and preview your In-app message. You can also access advanced formatting options.
 
 #### Preview {#preview-tab}
 
-With the URL provided in the App preview field, you can preview your In-app message directly from your browser.
+![](assets/in_app_content_6.png)
+
+The **[!UICONTROL App Preview]** allows you to add a background behind your In-app message:
+
+* A media from an URL link.
+
+* An asset from your Assets library.
+
+* A background color.
 
 #### Layout {#layout-options}
 
-Choose your **[!UICONTROL Background color]** or **[!UICONTROL Background image]** 
+![](assets/in_app_content_7.png)
+
+The **[!UICONTROL App Preview]** allows you to add a background to your In-app message:
+
+* A media from an URL link.
+
+* A background color.
 
 #### Message {#message-tab}
 
-UI takeover
+![](assets/in_app_content_8.png)
+
+The UI takeover option, enabled by default, allows you to darken the background behind your In-app message to emphasize the focus on your content.
 
 +++More options with advanced formatting
 
 If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further personalize your message with the following options:
 
-* **[!UICONTROL Customize gestures]**
-* **[!UICONTROL UI takeover]**
-* **[!UICONTROL Customize UI takeover]**
-* **[!UICONTROL Customize size]**
-* **[!UICONTROL Customize position]**
-* **[!UICONTROL Customize animation]**
-* **[!UICONTROL Message round corner]**
-* **[!UICONTROL Corner radius]**
+* **[!UICONTROL Customize gestures]**: allows you to personalize how your users can dismiss your In-app message, e.g. swiping down or left.
+
+* **[!UICONTROL Customize UI takeover]**: allows you to select a color to display in the background and its opacity.
+
+* **[!UICONTROL Customize size]**: allows you to adjust your In-app notification's width and height.
+
+* **[!UICONTROL Customize position]**: allows you to customize the position of your In-app messages on your users' screen. You can change the Vertical and Horizontal alignments.
+
+* **[!UICONTROL Customize animation]**: allows you to customize your Display and Dismiss animations, e.g. if you In-app notification appears from the left or top of your user's device.
+
+* **[!UICONTROL Message round corner]**: allows you to add round corner to your In-app notification by changing the **[!UICONTROL Corner radius]**.
 
 +++
 
 ### Preview on device {#preview-device}
 
-You can preview the In-App notification in a specific device.
+You can preview the In-app notification in a specific device.
 
+1. Click **[!UICONTROL Preview on device]**.
 
-Once your In-App message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
+1. From the **[!UICONTROL Connect to device]** window, click **[!UICONTROL Start]**.
+
+1. Type in the base URL of your application and click **[!UICONTROL Next]**.
+
+1. Scan the QR code with your device and enter the PIN code displayed. 
+
+Your In-app message is now displayed directly on your device allowing you to preview you message to better increase your user engagement.
 
