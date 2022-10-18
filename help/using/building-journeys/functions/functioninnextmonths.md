@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inNextMonths
 description: Learn about the function inNextMonths
 feature: Journeys

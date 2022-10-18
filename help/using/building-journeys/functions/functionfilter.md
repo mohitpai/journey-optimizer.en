@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: filter
 description: Learn about the function filter
 feature: Journeys

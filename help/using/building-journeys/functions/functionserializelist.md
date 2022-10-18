@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: serializeList
 description: Learn about the function serializeList
 feature: Journeys

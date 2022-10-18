@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: substr
 description: Learn about the function substr
 feature: Journeys

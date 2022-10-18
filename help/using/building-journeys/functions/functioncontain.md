@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: contain
 description: Learn about the function contain
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Object level access control
 description: Learn about Object level access control
 feature: Access Management

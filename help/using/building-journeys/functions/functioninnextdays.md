@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inNextDays
 description: Learn about the function inNextDays
 feature: Journeys

@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: sum
 description: Learn about the function sum
 feature: Journeys

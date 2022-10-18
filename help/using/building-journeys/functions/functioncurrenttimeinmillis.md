@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: currentTimeInMillis
 description: Learn about the function currentTimeInMillis
 feature: Journeys

@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: distinct
 description: Learn about the function distinct
 feature: Journeys

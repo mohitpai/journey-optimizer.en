@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inLastDays
 description: Learn about the function inLastDays
 feature: Journeys

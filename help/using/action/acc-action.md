@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Integrate with Adobe Campaign v7/v8
 description: Learn how to integrate with Adobe Campaign v7/v8
 feature: Actions

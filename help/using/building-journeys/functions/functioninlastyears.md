@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inLastYears
 description: Learn about the function inLastYears
 feature: Journeys

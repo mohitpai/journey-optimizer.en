@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: notEqualIgnoreCase
 description: Learn about the function notEqualIgnoreCase
 feature: Journeys

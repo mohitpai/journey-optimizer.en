@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: intersect
 description: Learn about the function intersect
 feature: Journeys

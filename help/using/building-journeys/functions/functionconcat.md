@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: concat
 description: Learn about the function concat
 feature: Journeys

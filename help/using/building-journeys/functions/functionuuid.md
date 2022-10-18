@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: uuid
 description: Learn about the function uuid
 feature: Journeys

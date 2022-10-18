@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Built-in product profiles
 description: Learn about the built-in product profiles
 feature: Access Management

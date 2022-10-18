@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: distinctCount
 description: Learn about the function distinctCount
 feature: Journeys

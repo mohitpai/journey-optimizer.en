@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Configure a custom action
 description: Learn how to configure a custom action
 feature: Actions

@@ -1,5 +1,6 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Conditional instruction (if, then, else)
 description: Learn about conditional instruction
 feature: Journeys
