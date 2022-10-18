@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get Started with Queries in Journey Optimizer
 description: Learn how to create queries in Adobe Journey Optimizer
 feature: Schemas

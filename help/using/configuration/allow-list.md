@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Allowed list
-description: Learn how to use the allowed list.
+description: Learn how to use the allowed list
 feature: Deliverability
 topic: Content Management
 role: User

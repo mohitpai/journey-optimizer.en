@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer Get started for Marketers
 description: As a Journey Practicioner, learn more how to work with Journey Optimizer
 level: Intermediate

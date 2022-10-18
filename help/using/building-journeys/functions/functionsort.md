@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: sort
 description: Learn about the function sort
 feature: Journeys

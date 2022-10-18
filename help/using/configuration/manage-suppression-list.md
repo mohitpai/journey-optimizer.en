@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Manage the suppression list
 description: Learn how to access and manage the Journey Optimizer suppression list
 feature: Application Settings

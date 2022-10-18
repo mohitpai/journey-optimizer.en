@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Publish and modify a message
 description: Learn how to publish and update your messages
 feature: Journeys

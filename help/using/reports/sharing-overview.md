@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey step sharing overview
 description: Journey step sharing overview
 feature: Reporting

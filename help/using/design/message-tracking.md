@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Track your messages
 description: Learn how to add links and track sent messages
 feature: Monitoring

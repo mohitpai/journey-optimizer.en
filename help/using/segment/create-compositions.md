@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create composition workflows
 description: Learn how to create composition workflows to combine and arrange existing audiences.
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Add messages in journeys
 description: Learn how to add messages in a journey
 feature: Overview

@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: setHours
 description: Learn about the function setHours
 feature: Journeys

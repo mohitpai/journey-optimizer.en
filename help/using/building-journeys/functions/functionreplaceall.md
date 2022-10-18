@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: replaceAll
 description: Learn about the function replaceAll
 feature: Journeys

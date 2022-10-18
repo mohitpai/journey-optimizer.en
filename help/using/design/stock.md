@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Work with Adobe Stock images
 description: Get Started with Adobe Stock
 feature: Overview

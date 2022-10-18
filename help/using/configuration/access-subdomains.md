@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Access delegated subdomains
 description: Learn how to access delegated subdomains.
 feature: Application Settings

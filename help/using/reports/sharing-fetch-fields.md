@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
 feature: Reporting

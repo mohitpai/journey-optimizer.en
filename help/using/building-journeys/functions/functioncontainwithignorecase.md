@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: containIgnoreCase
 description: Learn about the function containIgnoreCase
 feature: Journeys

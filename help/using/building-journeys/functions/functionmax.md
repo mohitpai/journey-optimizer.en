@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: max
 description: Learn about the function max
 feature: Journeys

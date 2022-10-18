@@ -1,5 +1,6 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Field references
 description: Learn about field references in advanced expressions
 feature: Journeys

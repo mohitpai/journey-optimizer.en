@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: nowWithDelta
 description: Learn about the function nowWithDelta
 feature: Journeys

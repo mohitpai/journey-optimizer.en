@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Campaign live report
 description: Learn how to use data from the Campaign live report
 feature: Reporting

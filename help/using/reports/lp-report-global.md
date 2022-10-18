@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Landing page global report
 description: Learn how to use data from your landing pages global report
 feature: Journeys

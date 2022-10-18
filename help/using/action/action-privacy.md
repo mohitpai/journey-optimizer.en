@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Data Governance
 description: Data Governance
 feature: Actions

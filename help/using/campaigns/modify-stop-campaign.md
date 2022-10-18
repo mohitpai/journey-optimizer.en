@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Modify or stop a campaign
 description: Learn how to modify, stop or duplicate live campaigns in [!DNL Journey Optimizer]
 feature: Overview

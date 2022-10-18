@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Suppression list
-description: Learn what the suppression list is, its purpose and what is included in it.
+description: Learn how to use the suppression list is
 feature: Deliverability
 topic: Content Management
 role: User

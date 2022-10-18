@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: avg
 description: Learn about the function avg
 feature: Journeys

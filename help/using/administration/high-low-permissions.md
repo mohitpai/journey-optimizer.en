@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Permission levels
 description: Learn about high and low level permissions
 topic: Administration

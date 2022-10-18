@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toDecimal
 description: Learn about the function toDecimal
 feature: Journeys

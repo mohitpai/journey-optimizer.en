@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toString
 description: Learn about the function toString
 feature: Journeys

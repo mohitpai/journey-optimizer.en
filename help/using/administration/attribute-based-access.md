@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Attribute-based access control
 description: Learn about Attribute-based access control
 feature: Access Management

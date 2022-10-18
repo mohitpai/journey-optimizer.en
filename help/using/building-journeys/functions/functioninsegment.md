@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inSegment
 description: Learn about the function inSegment
 feature: Journeys

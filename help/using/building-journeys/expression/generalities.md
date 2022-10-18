@@ -1,5 +1,6 @@
 ---
-product: Journey Optimizer
+solution: Journey Optimizer
+product: journey optimizer
 title: Syntax
 description: Learn about the advanced expression editor
 feature: Journeys

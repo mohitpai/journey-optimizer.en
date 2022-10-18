@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Segment Qualification events
 description: Learn about segment qualification events
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer
 description: Discover Adobe Journey Optimizer key features and use cases
 feature: Overview

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Campaign Global report
 description: Learn how to use data from the Campaign Global report
 feature: Reporting

@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: lastIndexOf
 description: Learn about the function lastIndexOf
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey versions
 description: Learn about journey versions
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create an direct mail message
 description: Learn how to create an direct mail message in Journey Optimizer
 feature: Overview

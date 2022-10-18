@@ -1,5 +1,6 @@
 ---
-product: Journey Optimizer
+solution: Journey Optimizer
+product: journey optimizer
 title: AI service overview
 description: AI service overview
 role: User

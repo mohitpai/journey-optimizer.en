@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Audit actions on Journey Optimizer resources
 description: Learn how to track actions performed on Journey Optimizer resources.
 feature: Monitoring

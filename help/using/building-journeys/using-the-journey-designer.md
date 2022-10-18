@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Design your journey
 description: Learn how to design your journey
 feature: Journeys

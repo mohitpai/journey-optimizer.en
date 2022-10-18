@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Define landing page presets
 description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
 role: Admin

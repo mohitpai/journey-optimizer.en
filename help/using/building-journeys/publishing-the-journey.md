@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Publish the journey
 description: Learn how to publish a journey
 feature: Journeys

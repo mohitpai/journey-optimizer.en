@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: isNotEmpty
 description: Learn about the function isNotEmpty
 feature: Journeys

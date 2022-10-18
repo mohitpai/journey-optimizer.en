@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Quick Start
 description: As a Marketer, Administrator or Data Engineer, learn and discover the power of Adobe Journey Optimizer with step-by-step guidance
 feature: Overview

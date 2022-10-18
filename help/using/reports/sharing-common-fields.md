@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: journeysteps events common fields
 description: journeysteps events common fields
 feature: Reporting

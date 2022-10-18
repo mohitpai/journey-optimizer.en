@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Send time optimization
 description: Learn how to parameter send time optimization in your messages
 feature: Journeys

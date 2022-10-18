@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
 feature: Journeys

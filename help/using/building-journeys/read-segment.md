@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use a segment in a journey
 description: Learn how to use a segment in a journey
 feature: Journeys

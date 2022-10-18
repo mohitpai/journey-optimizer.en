@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: journey fields
 description: journey fields
 feature: Reporting

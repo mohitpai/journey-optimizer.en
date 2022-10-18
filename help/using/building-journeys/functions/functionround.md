@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: round
 description: Learn about the function round
 feature: Journeys

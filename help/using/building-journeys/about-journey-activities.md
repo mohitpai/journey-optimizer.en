@@ -1,5 +1,6 @@
 ---
-title: About journey activities
+solution: Journey Optimizer
+product: journey optimizer
 description: Learn about journey activities
 feature: Journeys
 topic: Content Management

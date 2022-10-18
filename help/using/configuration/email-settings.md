@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure email settings
 description: Learn how to configure email settings at the channel surface level
 feature: Application Settings

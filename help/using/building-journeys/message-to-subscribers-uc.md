@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Send a message to subscribers
 description: Learn how to build a journey to send a message to the subscribers of a list
 feature: Journeys

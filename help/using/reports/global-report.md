@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Global report
 description: Learn how to use data from the global report
 feature: Reporting

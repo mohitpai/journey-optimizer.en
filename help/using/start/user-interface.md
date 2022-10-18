@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: User Interface
 description: Learn more about Journey Optimizer User Interface
 feature: Overview

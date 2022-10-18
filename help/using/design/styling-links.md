@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Define a style for links
 description: Learn how to define a style for links
 feature: Overview

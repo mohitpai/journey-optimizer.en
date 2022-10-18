@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Alerts
 description: Learn how to manage alerts
 feature: Alerts

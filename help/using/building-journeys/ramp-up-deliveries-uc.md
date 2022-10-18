@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Ramp up your deliveries
 description: Learn how to ramp up your deliveries
 feature: Journeys

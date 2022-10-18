@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: matchRegExp
 description: Learn about the function matchRegExp
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create conditions
 description: Learn how to create conditions
 feature: Personalization

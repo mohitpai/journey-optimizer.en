@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create an SMS message
 description: Learn how to create an SMS message in Journey Optimizer
 feature: Overview

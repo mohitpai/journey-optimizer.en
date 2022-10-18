@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Archiving support in Journey Optimizer
-description: Learn how to configure BCC email at the channel surface level
+description: Learn how to archive messages
 feature: Application Settings
 topic: Administration
 role: Admin
