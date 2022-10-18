@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey troubleshooting
 description: Learn how to troubleshoot errors in journeys
 feature: Journeys

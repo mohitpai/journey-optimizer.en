@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Retries
 description: Learn how retries are performed before sending an address to the suppression list
 feature: Application Settings

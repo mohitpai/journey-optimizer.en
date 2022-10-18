@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Copy a journey to another sandox
 description: Learn how to copy a journey to another sandox
 feature: Journeys

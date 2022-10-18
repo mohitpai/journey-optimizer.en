@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journeys use cases
 description: Journeys use cases
 feature: Journeys

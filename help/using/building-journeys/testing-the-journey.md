@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Test your journey
 description: Learn how to test your journey
 feature: Journeys

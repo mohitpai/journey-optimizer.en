@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with journeys
 description: Key steps to build your first journey with Adobe Journey Optimizer
 feature: Journeys

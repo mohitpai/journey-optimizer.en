@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Condition activity
 description: Learn about condition activity
 feature: Journeys

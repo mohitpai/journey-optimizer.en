@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Ending a journey
 description: Ending a journey
 feature: Journeys

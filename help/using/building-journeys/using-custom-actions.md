@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use custom actions
 description: Learn how to use custom actions
 feature: Actions

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Reactions events
 description: Learn about reaction events
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with [!DNL Journey Optimizer] configuration
 description: Learn more about [!DNL Journey Optimizer] configuration
 role: Admin

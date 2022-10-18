@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Add a Google TXT record to a subdomain
 description: Learn how to add a Google TXT record to a subdomain
 feature: Application Settings

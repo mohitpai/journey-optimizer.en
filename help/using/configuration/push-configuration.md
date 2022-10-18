@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
 role: Admin

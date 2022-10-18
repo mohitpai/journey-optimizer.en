@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with campaigns
 description: Learn more about campaigns in [!DNL Journey Optimizer]
 feature: Overview

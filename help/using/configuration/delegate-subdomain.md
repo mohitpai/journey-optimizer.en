@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Delegate a subdomain
 description: Learn how to delegate your subdomains.
 feature: Application Settings
