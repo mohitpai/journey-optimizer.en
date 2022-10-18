@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Design emails in Journey Optimizer
 description: Learn how to design your emails content from scratch
 feature: Overview

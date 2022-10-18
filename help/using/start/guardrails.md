@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer guardrails and limitations
 description: Learn more about Journey Optimizer guardrails
 feature: Journeys

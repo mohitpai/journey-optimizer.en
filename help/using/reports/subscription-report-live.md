@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Subscription live report
 description: Learn how to use data from your subscription services with the Subscription live report
 feature: Journeys

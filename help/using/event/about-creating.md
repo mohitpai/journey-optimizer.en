@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure a unitary event
 description: Learn how to configure a unitary event
 feature: Events

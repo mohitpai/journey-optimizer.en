@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Work with the composition canvas
 description: Learn how to work with the composition canvas
 feature: Journeys

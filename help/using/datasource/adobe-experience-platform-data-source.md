@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Experience Platform data source
 description: Learn how to configure Adobe Experience Platform data source
 feature: Data Sources

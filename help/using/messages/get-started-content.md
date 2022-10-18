@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with messages
 description: Learn how to create messages in Journey Optimizer
 feature: Overview

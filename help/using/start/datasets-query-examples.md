@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Dataset query examples
 description: Dataset query examples
 feature: Reporting

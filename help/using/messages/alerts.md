@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Alerts in messages
 description: Learn how to check message content validation and troubleshoot
 feature: Journeys

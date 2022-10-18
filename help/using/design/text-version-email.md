@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create the text version of an email
 description: Learn how to create the text version of an email
 feature: Overview

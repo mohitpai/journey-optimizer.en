@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey live report
 description: Learn how to use data from the journey live report
 feature: Reporting

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with deliverability
 description: Learn deliverability guidelines
 feature: Deliverability

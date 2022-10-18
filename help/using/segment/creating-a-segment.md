@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Build a segment
 description: Learn how to build segments
 feature: Journeys

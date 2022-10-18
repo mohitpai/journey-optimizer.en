@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Add personalized offers
 description: Learn how to add personalized offers to your messages
 feature: Journeys

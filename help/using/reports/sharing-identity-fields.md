@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: journeyStep event identity fields
 description: journeyStep event identity fields
 feature: Reporting

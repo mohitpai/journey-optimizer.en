@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use email designer content components
 description: Learn how to use content components in your emails
 feature: Overview

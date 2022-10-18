@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure a data source
 description: Learn how to configure a data source
 feature: Data Sources

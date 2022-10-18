@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
 feature: Events

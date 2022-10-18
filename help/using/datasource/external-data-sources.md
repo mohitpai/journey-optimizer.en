@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: External data sources
 description: Learn how to configure external data sources
 feature: Data Sources

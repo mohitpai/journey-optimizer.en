@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create an email
 description: Learn how to create an email in Journey Optimizer
 feature: Overview

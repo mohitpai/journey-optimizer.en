@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Code your own email content
 description: Learn how to code your own email content
 feature: Overview

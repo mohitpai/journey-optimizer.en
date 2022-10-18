@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure a push notification
 description: Learn how to create a push notification in Journey Optimizer
 feature: Overview
