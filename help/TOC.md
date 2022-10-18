@@ -402,6 +402,7 @@ solution: Journey Optimizer
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
+    + [Configure direct mail](using/configuration/direct-mail-configuration.md)    
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
