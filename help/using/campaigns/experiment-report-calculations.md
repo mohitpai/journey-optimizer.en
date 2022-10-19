@@ -22,14 +22,9 @@ Here, $Y_iν$ is the value of the objective metric for each profile `i`, that ha
 
 Wherever needed, the sample standard deviation is used, with the expression:
 
-![](assets/statistical_2.png)
-
 ## Lift {#lift}
 
 The lift between a variant  *ν*, and the control variant  *ν<sub>0</sub>* is the relative "delta" in conversion rates, defined as the calculation below where the individual conversion rates are as defined above. This is displayed as a percentage. 
-
-![](assets/statistical_3.png)
-
 
 ## Anytime Valid Confidence Intervals for individual treatments
 
@@ -40,8 +35,6 @@ https://doi.org/10.48550/arXiv.2103.06476)).
 
 Suppose one is interested in estimating a target parameter `ψ` (like the conversion rate of a variant in an Experiment). Then, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
 
-![](assets/statistical_4.png)
-
 In words - for a regular Confidence Interval , the probabilistic guarantee that the target parameter lies within the range of values $Ċ_n$ is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds ![](assets/statistical_13.png).
 
 This has a few deep implications which are very important for online testing:
@@ -51,8 +44,6 @@ This has a few deep implications which are very important for online testing:
 * The type-I error is controlled at all stopping times, including data-dependent times.
 
 Adobe uses Asymptotic Confidence Sequences, which for an individual variant with mean estimate `μ` has the form
-
-![](assets/statistical_5.png)
 
 Where:
 
@@ -67,31 +58,17 @@ The confidence used by Adobe is an "anytime valid" confidence, which is obtained
 
 To be precise, we note that in a two sample *t* test for the difference in means between two variants, there is a 1:1 mapping between the *p*-value for this test, and the confidence interval for the difference in means. By analogy, an anytime valid *p*-value can be obtained by inverting the (anytime valid) confidence sequence for the average treatment effect estimator:
 
-![](assets/statistical_6.png)
-
 Here, *E* is an expectation. The estimator we use is an inverse propensity weighted (IPW) estimator. Consider N = $N_0$ +$N_1$ units, the variant assignments for each unit `i` labeled by $A_i$=0,1 if the unit is assigned to variant `ν`=0,1. If the users are assigned with fixed probability (propensity) $π_0$, (1-$π_0$), and their outcome metric is $Y_i$, then the IPW estimator for the average treatment effect is 
-
-![](assets/statistical_7.png)
 
 Noting that *f* is the influence function, Waudby-Smith et al. showed that the Confidence Sequence for this estimator is:
 
-![](assets/statistical_8.png)
-
 Replacing the assignment probability by its empirical estimates: $π_0$ = $N_0$/N, the variance term can be expressed in terms of individual sample mean estimates $μ_{0,1}$ and standard deviation estimates, $σ_{0,1}$ as:
-
-![](assets/statistical_9.png)
 
 Next, recall that for a regular hypothesis test with test statistic z =  ($μ_1$ - $μ_0$/ $σ_p$)there is a correspondence between $p$-values and confidence intervals:
 
-![](assets/statistical_10.png)
-
 where `Φ` is the cumulative distribution of the standard normal. For anytime valid `p`-values, given the confidence sequence for the average treatment effect defined above, we can invert this relationship:
 
-![](assets/statistical_11.png)
-
 Finally, the **anytime valid *confidence*** is 
-
-![](assets/statistical_12.png)
 
 ## Declaring an Experiment to be Conclusive
 
