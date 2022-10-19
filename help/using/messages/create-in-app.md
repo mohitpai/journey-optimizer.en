@@ -17,7 +17,9 @@ To create an In-app message, follow the steps below:
 
 1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign. [Learn more](../campaigns/create-campaign.md#create).
 
-1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL Channel surface]** to use to send your message, then click **[!UICONTROL Create]**. [Learn more](../configuration/channel-surfaces.md).
+1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL App surface]** previously configured for your In-app message. Then, click **[!UICONTROL Create]**. 
+
+    [Learn more on In-app configuration](../configuration/inapp-configuration.md).
 
     ![](assets/in_app_create_1.png)
 

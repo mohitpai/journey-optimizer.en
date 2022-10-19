@@ -8,7 +8,15 @@ level: Intermediate
 
 Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
 
-1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
+1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+
+1. Select the [!DNL Adobe Experience Platform] service. Then, select **[!UICONTROL AJO Push Tracking Experience Event Dataset]** as **[!UICONTROL Event Dataset]** ​and **[!UICONTROL CJM Push Profile Dataset]** as **[!UICONTROL Profile Dataset]**.
+
+    [!DNL Edge Segmentation] and [!DNL Offer Decisioning] must be selected.
+
+    ![](assets/inapp_config_6.png)
+
+1. Then, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
 
     ![](assets/inapp_config_1.png)
 
@@ -28,7 +36,7 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
 1. After creating your app surface, you now need to create a mobile property. 
 
-    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#create-or-configure-a-property) for the detailed procedure.
+    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) for the detailed procedure.
 
     ![](assets/inapp_config_4.png)
 
@@ -36,8 +44,11 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
     * Adobe Experience Platform Edge Network
     * Adobe Journey Optimizer
+    * AEP Assurance
     * Consent
     * Identify
+    * Mobile Core
+    * Profile
 
     Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) for the detailed procedure.
 
