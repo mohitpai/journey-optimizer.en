@@ -35,7 +35,7 @@ https://doi.org/10.48550/arXiv.2103.06476)).
 
 Suppose one is interested in estimating a target parameter `ψ` (like the conversion rate of a variant in an Experiment). Then, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
 
-In words - for a regular Confidence Interval , the probabilistic guarantee that the target parameter lies within the range of values $Ċ_n$ is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds ![](assets/statistical_13.png).
+In words - for a regular Confidence Interval , the probabilistic guarantee that the target parameter lies within the range of values $Ċ_n$ is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds.
 
 This has a few deep implications which are very important for online testing:
 
