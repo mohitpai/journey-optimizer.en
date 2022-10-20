@@ -1,6 +1,6 @@
 ---
-title: Create a direct mail message
-description: Learn how to create a direct mail message in Journey Optimizer
+title: Direct mail configuration
+description: Learn how to configure direct mail channel in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ hide: yes
 hidefromtoc: yes
 
 ---
-# Direct mail configuration {#create-direct}
+# Direct mail configuration {#direct-mail-configuration}
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 
