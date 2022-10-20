@@ -22,7 +22,7 @@ Here, Y<sub>iν</sub> is the value of the objective metric for each profile `i`,
 
 Wherever needed, the sample standard deviation is used, with the expression:
 
-![](assets/statistical_2.png){width="200" align="center"}
+![](assets/statistical_2.png){width="300" align="center"}
 
 ## Lift {#lift}
 
