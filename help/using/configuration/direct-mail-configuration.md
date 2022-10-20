@@ -109,13 +109,7 @@ Once file routing has been configured, you need to create a channel surface to b
 
 1. Select the file format: **[!UICONTROL CSV]** or **[!UICONTROL Text delimited]**.
 
-1. In the **[!UICONTROL Insertion]** section, specify if you want to respect the sort order defined here in the surface settings or in the [direct mail message](../messages/create-direct-mail.md).<!--TBC by PM, not sure to leave it here as it's confusing for the user to override or not the setting defined in the message i.e. somewhere else in the UI-->
-
-    ![](assets/surface-direct-mail-sort.png)
-
-    If you select this option, the sorting will be done by profile ID. You can define if the sort order is ascending (at the start of the file) or descending (at the end of the file).
-
-1. You can choose to automatically remove duplicate rows. <!--what are the conditions? use case, example for not selecting it? asked to PM-->
+1. In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
 
 1. Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
 
