@@ -237,11 +237,14 @@ solution: Journey Optimizer
         + [upper](using/building-journeys/functions/functionupper.md)
         + [uuid](using/building-journeys/functions/functionuuid.md)
   + Use cases {#journey-use-cases}
-    + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
-    + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-    + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
-    + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    + Business use cases {#business-use-cases}
+        + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
+        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+        + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
+    + Technical use cases {#technical-use-cases}
+        + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
+        + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+        + [Limit throughput with External Data Sources and Custom Actions](using/building-journeys/limit-throughput.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
