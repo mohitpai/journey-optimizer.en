@@ -57,6 +57,7 @@ solution: Journey Optimizer
   + [Get started with web channel](using/web/get-started-web.md)
   + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
+  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)

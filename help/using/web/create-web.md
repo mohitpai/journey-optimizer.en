@@ -15,6 +15,8 @@ level: Beginner
 >
 >Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
+## Prerequisites
+
 To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites below:
 
 * To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
@@ -25,7 +27,17 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 >
 >Google Chrome is currently the only browser that supports authoring web pages in [!DNL Journey Optimizer].
 
-<!--Add link to Target??-->
+For the web experience to be delivered correctly, the following settings must be defined:
+
+* In the [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}, make sure you have a datastream defined such as under the **[!UICONTROL Adobe Experience Platform]** service you have both the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options enabled. This ensures that the Journey Optimizer inbound events are correctly handled by the Adobe Experience Platform Edge. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Adobe Journey Optimizer]** option can be enabled only when the **[!UICONTROL Edge Segmentation]** option is already enabled.
+
+    ![](assets/web-aep-data-collection-datastream.png)
+
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}, make sure that you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
 ## Create a web campaign {#create-web-campaign}
 
@@ -123,13 +135,17 @@ Once you defined your [web campaign settings](#configure-web-campaign) and you e
 
     ![](assets/web-campaign-activate.png)
 
+    >[!NOTE]
+    >
+    >After you click **[!UICONTROL Activate]**, it can take up to 15 minutes for web campaigns changes to be available live on your website.
+
 Your web campaign takes the **[!UICONTROL Live]** status and is now visible to the selected audience. Each recipient of your campaign can see the modifications you added to your website using the [!DNL Journey Optimizer] web designer.
 
 >[!NOTE]
 >
 >If you defined a schedule for your web campaign, it has the **[!UICONTROL Scheduled]** status until the start date and time are reached.
 >
->If you activate a web campaign impacting the same pages as another campaign which is already live, that campaign will have the **[!UICONTROL Scheduled]** status until the other live campaign is stopped.
+>If you activate a web campaign impacting the same pages as another campaign which is already live, all the changes will be applied to your web pages.
 
 Learn more on activating campaigns in [this section](../campaigns/review-activate-campaign.md).
 
