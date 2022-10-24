@@ -9,6 +9,10 @@ level: Beginner
 ---
 # Author web pages {#author-web}
 
+In [!DNL Journey Optimizer] web authoring is powered by the Adobe Experience Cloud Visual Helper chrome browser extension. [Learn more](visual-editing-helper.md)
+
+To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites listed in [this section](create-web.md#prerequesites).
+
 ## Edit web page content {#edit-web-content}
 
 Once you created a web action from the campaign, you can edit your content using the web designer. To do so, follow the steps below.

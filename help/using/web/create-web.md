@@ -15,13 +15,13 @@ level: Beginner
 >
 >Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
-## Prerequisites
+## Prerequisites {#prerequesites}
 
 To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites below:
 
 * To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
 
-* To access the [!DNL Journey Optimizer] web designer, you must download the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browser extension on Chrome.
+* To access the [!DNL Journey Optimizer] web designer, you must download the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browser extension on Chrome. [Learn more](visual-editing-helper.md)
 
 >[!CAUTION]
 >
