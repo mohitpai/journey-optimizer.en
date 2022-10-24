@@ -16,7 +16,7 @@ Use Journey Optimizer to create In-app notifications, and configure experience o
 
 ![](assets/new-in-app.png)
 
-## Prerequisites{#prerequisistes-in-app}
+## Prerequisites{#prerequisites-in-app}
 
 Before sending In-app messages, you need to configure your **[!UICONTROL App surfaces]** in Adobe Experience Platform Data Collection. [Learn more](../configuration/inapp-configuration.md)
 

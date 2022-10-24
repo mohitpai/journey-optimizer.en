@@ -9,6 +9,20 @@ level: Beginner
 
 # Send your In-App messages{#in-app-send}
 
+## Preview on device {#preview-device}
+
+You can preview the In-app notification in a specific device.
+
+1. Click **[!UICONTROL Preview on device]**.
+
+1. From the **[!UICONTROL Connect to device]** window, click **[!UICONTROL Start]**.
+
+1. Type in the base URL of your application and click **[!UICONTROL Next]**.
+
+1. Scan the QR code with your device and enter the PIN code displayed. 
+
+Your In-app message can now be triggered directly on your device allowing you to preview and review your message on an actual device. 
+
 ## Review and activate your In-App notification{#in-app-review}
 
 Once your In-App message is created, and its content defined and personalized, you can review and activate it.
@@ -27,23 +41,3 @@ Your campaign is now activated. The In-App notification configured in the campai
 
 Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md).
 
-## Send the In-App message {#in-app-msg-send}
-
-In-App messages are sent according to the campaign schedule.
-
-Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
-
-![](assets/in-app-schedule.png)
-
-## Display the notification{#in-app-display}
-
-Once In-App messages are sent, In-App notifications are displayed in your user device according to the conditions defined in the campaign.
-
-The events which trigger the notification are  selected from from the **[!UICONTROL Mobile app trigger]**
-drop-down. 
-
-You can also customize the frequency of your trigger at the campaign level.
-
-![](assets/in_app_create_3.png)
-
-Learn more about this configuration in [this section](create-in-app.md#create-in-app-in-a-campaign).
