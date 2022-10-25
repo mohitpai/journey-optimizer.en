@@ -47,6 +47,12 @@ solution: Journey Optimizer
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
++ Web channel{#web}
+  + [Get started with web channel](using/web/get-started-web.md)
+  + [Create web experiences](using/web/create-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
+  + [Web reporting](using/web/web-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
