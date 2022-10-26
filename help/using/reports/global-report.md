@@ -300,7 +300,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </table>
 -->
 
-### Push notification metrics {#push-notification-metrics}
+### Push notification metrics
 
 <table> 
  <thead> 
@@ -427,7 +427,7 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### Push notification metrics
 
 <table> 
  <thead> 
