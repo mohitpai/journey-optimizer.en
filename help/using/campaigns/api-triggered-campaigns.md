@@ -70,6 +70,7 @@ The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype on
 >[!IMPORTANT]
 >
 >The `context.system` syntax is restricted to Adobe internal usage only, and should not be used to pass contextual attributes.
+
 Note that, for now, no contextual attribute is available for use in the left rail menu. Attributes must be typed directly in your personalization expression, with no check being performed by [!DNL Journey Optimizer].
 
 ## Execute the campaign {#execute}

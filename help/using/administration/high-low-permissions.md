@@ -269,6 +269,7 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific: 
   * schemas.read
 -->
+
 ### [!DNL Manage channel surface] permission {#manage-channel-surface}
 
 The **[!DNL Manage channel surface]** high-level permission allows users to create, edit and delete channel surfaces across channels at the sandbox level.

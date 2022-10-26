@@ -25,8 +25,8 @@ If you are already using outbound channels such as email, SMS or push notificati
 
 Through an intuitive visual interface, this capability allows you to modify your web properties easily in order to experiment, optimize and personalize your end-user campaigns.
 
-<!-->
-➡️ [Learn more on web channel in this video](#video)
+<!--
+[Learn more on web channel in this video](#video)
 -->
 
 <table>
@@ -37,7 +37,7 @@ Through an intuitive visual interface, this capability allows you to modify your
 </tr>
 </table>
 
-<!-->
+<!--
 ## How-to video{#video}
 
 The video below shows how to 

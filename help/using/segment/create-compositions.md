@@ -46,7 +46,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
     ![](assets/audiences-publish.png)
 
-1. Once your composition is ready, click the [**!UICONTROL Publish]** button to publish the composition and save the resulting audiences into Adobe Experience Platform.
+1. Once your composition is ready, click the **[!UICONTROL Publish]** button to publish the composition and save the resulting audiences into Adobe Experience Platform.
 
     If any error occurs during publishing, alerts will display with information on how to resolve the issue.
 
