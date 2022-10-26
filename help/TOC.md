@@ -53,6 +53,12 @@ solution: Journey Optimizer
   + [Author web pages](using/web/author-web.md)
   + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
++ In-app channel{#in-app}
+  + [Get started with In-app channel](using/in-app/get-started-in-app.md)
+  + [Configure In-app channel](using/in-app/inapp-configuration.md)
+  + [Create an In-app message](using/in-app/create-in-app.md)
+  + [Design your In-app content](using/in-app/design-in-app.md)
+  + [In-app report](using/in-app/inapp-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)

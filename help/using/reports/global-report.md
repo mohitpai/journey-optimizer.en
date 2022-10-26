@@ -427,3 +427,105 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
+### Push notification metrics {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Actions<br/> </td> 
+   <td> Total number of actions on the push notification delivered, e.g. button click or dismissal.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Bounces<br/> </td> 
+   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Bounce Rate<br/> </td> 
+   <td> Percentage of push notifications that bounced compared to push notifications sent.<br/> </td>
+</tr>
+  <tr> 
+   <td> Delivered<br/> </td> 
+   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Delivery rate<br/> </td> 
+   <td> Percentage of push notifications successfully sent.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Engagements<br/> </td> 
+   <td> Total number of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Engagement Rate<br/> </td> 
+   <td> Percentage of opens and actions for this push notification, i.e. if the profile opened the push or if a button was clicked on.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Errors<br/> </td> 
+   <td> Total number of errors that occurred during a delivery preventing it from being sent to profiles.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Error Rate<br/> </td> 
+   <td> Percentage of errors that occurred during a delivery preventing it from being sent compared to push notifications sent.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Excluded<br/> </td> 
+   <td> Number of profiles which have been excluded by Adobe Journey Optimizer.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Opens<br/> </td> 
+   <td> Total number of push notifications delivered to the device and clicked on by users thus opening the app. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Open rate<br/> </td> 
+   <td> Percentage of opened push notifications.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Sent<br/> </td> 
+   <td> Total number of sends for the delivery.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Targeted<br/> </td> 
+   <td> Total number of push messages processed during the delivery analysis.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
