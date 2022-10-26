@@ -64,7 +64,7 @@ To send a direct mail message, you need to create a file and upload it to a serv
 
     ![](assets/file-routing-config-sftp-details.png)
 
-1. If you selected **[!UICONTROL Amazon S3]**, you can choose the AWS region where you want to export and upload your direct mail files.
+1. If you selected **[!UICONTROL Amazon S3]**, choose the AWS region where you want to export and upload your direct mail files.
 
     ![](assets/file-routing-config-aws-region.png)
 
