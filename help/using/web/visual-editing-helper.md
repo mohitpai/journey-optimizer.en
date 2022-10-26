@@ -7,7 +7,6 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
 ---
 # Visual Editing Helper extension {#visual-editing-helper}
 
@@ -21,7 +20,7 @@ In order to rapidly author and preview your web experiences, the Adobe Experienc
 
 To obtain and install the Visual Editing Helper browser extension, follow the steps below.
 
-1. From the Google Chrome Web Store, navigate to the [Adobe Experience Cloud Visual Editing Helper ]((https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}) browser extension.
+1. From the Google Chrome Web Store, navigate to the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browser extension.
 
 1. Click **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 

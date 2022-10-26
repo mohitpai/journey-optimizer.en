@@ -155,6 +155,7 @@ group by _experience.customerJourneyManagement.pushChannelContext.platform
 select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
+
 ## Journey Step Event{#journey-step-event}
 
 _Internal name: Journey Step Events (system dataset)_

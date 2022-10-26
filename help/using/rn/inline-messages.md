@@ -67,7 +67,7 @@ Here are the main changes in the interface:
 
 Adobe's vision is to simplify the product continuously to provide efficient and optimized user flows. This new way of creating messages brings a more streamlined user process.
 
-We designed this new workflow to centralize content in one place, directly where it is used.	
+We designed this new workflow to centralize content in one place, directly where it is used.
 
 The creation of content is now performed directly inside the journey. The immediate **benefits** you get are:
 
