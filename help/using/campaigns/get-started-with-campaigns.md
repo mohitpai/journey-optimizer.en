@@ -66,7 +66,9 @@ Check the following prerequisites before starting creating your first campaign i
 
 Campaigns are accessible from the **[!UICONTROL Campaigns]** menu.
 
-By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses. To display stopped, completed, and archived campaigns, you need to clear the filter.
+By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses.
+
+To display stopped, completed, and archived campaigns, you need to clear the filter.
 
 ![](assets/create-campaign-list.png)
 
@@ -78,9 +80,9 @@ Campaigns can have multiple statuses:
 * **[!UICONTROL Activating]**: The campaign is being activated.
 * **[!UICONTROL Live]**: The campaign has been activated.
 * **[!UICONTROL Scheduled]**: The campaign is configured to be activated on a specific start date.
-* **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn more](modify-stop-campaign.md#stop)
+* **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn how to stop a campaign](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: The campaign is complete. This status is automatically assigned 3 days after a campaign has been activated, or at the campaign's end date if it has a recurring execution.
-* **[!UICONTROL Archived]**: The campaign has been archived.
+* **[!UICONTROL Archived]**: The campaign has been archived. [Learn how to archive campaigns](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

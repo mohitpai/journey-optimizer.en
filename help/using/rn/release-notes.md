@@ -22,6 +22,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * The **Force reentrance on recurrence** option has been added in recurring read segment schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
+**Campaigns**
+
+* You can now archive completed and stopped campaigns. [Learn more](../campaigns/modify-stop-campaign.md#archive)
+
 ## September 2022 Release{#sept-2022-release}
 
 ### New capabilities{#sept-2022-features}
