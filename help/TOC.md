@@ -446,7 +446,6 @@ solution: Journey Optimizer
   + [Attribute-based access control](using/administration/attribute-based-access.md)
   + [Object level access control](using/administration/object-based-access.md)
 + Privacy {#privacy}
-  + [Get started with privacy](using/privacy/get-started-privacy.md)
   + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)

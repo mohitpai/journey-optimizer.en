@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Data usage policies
 description: Learn more on data usage policies and the Data Governance service.
 feature: Monitoring
