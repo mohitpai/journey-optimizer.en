@@ -46,7 +46,7 @@ To create an In-app message, follow the steps below:
     1. From the left drop-down, select the event required to trigger the message.
     1. From the right drop-down, select the validation required on the selected event.
     1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown and **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
 
     ![](assets/in_app_create_3.png)
 
