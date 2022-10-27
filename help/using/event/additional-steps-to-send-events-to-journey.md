@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Additional steps to send events to a journey
 description: Learn additional steps to send events to a journey
 feature: Events

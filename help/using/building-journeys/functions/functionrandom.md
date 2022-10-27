@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: random
 description: Learn about the function random
 feature: Journeys

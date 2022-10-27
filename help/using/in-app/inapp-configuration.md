@@ -3,6 +3,8 @@ title: In-app configuration
 description: Learn how to configure your environment to send In-app messages with Journey Optimizer
 role: Admin
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Configure In-app channel {#inapp-configuration}
 
@@ -10,9 +12,9 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
 1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
-1. Select the [!DNL Adobe Experience Platform] service. Then, select **[!UICONTROL AJO Push Tracking Experience Event Dataset]** as **[!UICONTROL Event Dataset]** ​and **[!UICONTROL CJM Push Profile Dataset]** as **[!UICONTROL Profile Dataset]**.
+1. Select the [!DNL Adobe Experience Platform] service.
 
-    [!DNL Edge Segmentation] and [!DNL Offer Decisioning] must be selected.
+    [!DNL Edge Segmentation], [!DNL Offer Decisioning] and [!DNL Adobe Journey Optimizer] must be selected.
 
     ![](assets/inapp_config_6.png)
 
@@ -32,7 +34,7 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
     ![](assets/inapp_config_3.png)
 
-    Your **[!UICONTROL App surface]** will now be available when creating a new campaign with an In-app message. [Learn more](../messages/create-in-app.md)
+    Your **[!UICONTROL App surface]** will now be available when creating a new campaign with an In-app message. [Learn more](create-in-app.md)
 
 1. After creating your app surface, you now need to create a mobile property. 
 
@@ -58,5 +60,7 @@ The In-app channel is now configured. You can start sending In-app messages to y
 
 **Related topics:**
 
-* [Create an In-app message](../messages/create-in-app.md)
+* [Create an In-app message](create-in-app.md)
 * [Create a campaign](../campaigns/create-campaign.md)
+* [Design In-app message](design-in-app.md)
+* [In-app report](inapp-report.md)

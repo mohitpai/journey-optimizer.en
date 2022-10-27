@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Step event field list
 description: Step event field list
 feature: Reporting

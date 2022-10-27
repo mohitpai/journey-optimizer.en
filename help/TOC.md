@@ -35,31 +35,30 @@ solution: Journey Optimizer
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
-    + [Statistical Calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
-  + [Get started with messages](using/messages/get-started-content.md)
-  + [Add messages journeys](using/messages/messages-in-journeys.md)
-  + [Add messages campaigns](using/messages/messages-in-campaigns.md)
+  + Get started with messages{#get-started-msg}
+    + [Overview](using/messages/get-started-content.md)
+    + [Add messages in journeys](using/messages/messages-in-journeys.md)
+    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
-  + [Manage consent](using/messages/consent.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
-+ In-app channel{#in-app-channel}
-  + [Get started with In-app channel](using/messages/get-started-in-app.md)
-  + [Configure the In-app channel](using/configuration/inapp-configuration.md)
-  + [Create an In-app message](using/messages/create-in-app.md)
-  + [Design your In-app content](using/messages/design-in-app.md)
-  + [Send your In-app messages](using/messages/send-in-app.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
   + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
   + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
++ In-app channel{#in-app}
+  + [Get started with In-app channel](using/in-app/get-started-in-app.md)
+  + [Configure In-app channel](using/in-app/inapp-configuration.md)
+  + [Create an In-app message](using/in-app/create-in-app.md)
+  + [Design your In-app content](using/in-app/design-in-app.md)
+  + [In-app report](using/in-app/inapp-report.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
@@ -250,11 +249,14 @@ solution: Journey Optimizer
         + [upper](using/building-journeys/functions/functionupper.md)
         + [uuid](using/building-journeys/functions/functionuuid.md)
   + Use cases {#journey-use-cases}
-    + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
-    + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-    + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
-    + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    + Business use cases {#business-use-cases}
+        + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
+        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+        + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
+    + Technical use cases {#technical-use-cases}
+        + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
+        + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+        + [Limit throughput with External Data Sources and Custom Actions](using/building-journeys/limit-throughput.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
@@ -405,7 +407,7 @@ solution: Journey Optimizer
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
     + [Configure SMS channel](using/configuration/sms-configuration.md)
-    + [Configure direct mail](using/configuration/direct-mail-configuration.md)    
+    + [Configure direct mail](using/configuration/direct-mail-configuration.md)
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
@@ -446,8 +448,9 @@ solution: Journey Optimizer
   + [Attribute-based access control](using/administration/attribute-based-access.md)
   + [Object level access control](using/administration/object-based-access.md)
 + Privacy {#privacy}
-  + [Data usage policies](using/privacy/policies.md)  
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)
-  + [Consent](using/action/consent.md)
+  + Manage consent {#consent}
+    + [Manage opt-out](using/privacy/opt-out.md)
+    + [Work with consent policies](using/action/consent.md)
   + [Data Governance](using/action/action-privacy.md)

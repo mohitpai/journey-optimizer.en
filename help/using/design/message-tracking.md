@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Track your messages
 description: Learn how to add links and track sent messages
 feature: Monitoring
@@ -46,11 +48,11 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](../messages/consent.md#one-click-opt-out).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](../privacy/opt-out.md#one-click-opt-out).
 
     * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
 
-    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](../messages/consent.md#opt-out-management).
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](../privacy/opt-out.md#opt-out-management).
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
@@ -69,7 +71,7 @@ To insert links into your email content, follow the steps below:
 
 >[!NOTE]
 >
->Marketing-type email messages must include an [opt-out link](../messages/consent.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](../messages/get-started-content.md#create-new-message).
+>Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](../messages/get-started-content.md#create-new-message).
 
 ## Link to a mirror page {#mirror-page}
 

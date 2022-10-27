@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Statistical Calculations used by Adobe Journey Optimizer Experimentation
 description: Learn more about statistical calculations used when running experiments
 feature: A/B Testing
@@ -25,7 +27,7 @@ For expert users, the technical details and references are detailed in [this pag
 
 ## Statistical Testing and Controlling Errors {#statistical-testing}
 
-![](assets/technote_1.png){align="center"}
+![](assets/technote_1.png)
 
 As illustrated in the table above, many statistical inferencing methodologies are designed to control two types of errors:
 

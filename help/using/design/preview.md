@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Preview messages and send proofs
 description: Learn how to preview and test your messages
 feature: Journeys

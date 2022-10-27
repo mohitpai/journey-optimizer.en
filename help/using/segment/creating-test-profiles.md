@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create a test profile
 description: Learn how to create a test profile
 feature: Journeys
@@ -222,6 +224,7 @@ curl -X POST \
 }
 }'
 ```
+
 ## How-to video {#video}
 
 Learn how to create test profiles.

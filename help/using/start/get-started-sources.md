@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get Started with Sources connectors in Journey Optimizer
 description: Learn how to ingest data from external sources in Adobe Journey Optimizer
 feature: Schemas

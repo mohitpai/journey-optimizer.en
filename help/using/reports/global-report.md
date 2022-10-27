@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Global report
 description: Learn how to use data from the global report
 feature: Reporting
@@ -298,7 +300,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </table>
 -->
 
-### Push notification metrics {#push-notification-metrics}
+### Push notification metrics
 
 <table> 
  <thead> 
@@ -425,7 +427,7 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### Push notification metrics
 
 <table> 
  <thead> 
@@ -494,8 +496,8 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
+<!--
 ### In-app metrics {#inapp-metrics}
-
 <table> 
  <thead> 
   <tr> 
@@ -526,3 +528,4 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
  </tbody> 
 </table>
+-->

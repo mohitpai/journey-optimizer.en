@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Release notes 2022
 description: Journey Optimizer 2022 Release notes
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
@@ -517,7 +519,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>In Journey Optimizer message content, you can now add UTM parameters to your links: they can provide additional data about that link, and help you identify where and why a person clicked on your link.</p>
-<p>For more information, refer to the <a href="../configuration/channel-surfaces.md#configure-email-settings">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/channel-surfaces.md#configure-email-settings">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

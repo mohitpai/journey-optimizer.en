@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Campaign live report
 description: Learn how to use data from the Campaign live report
 feature: Reporting
@@ -36,6 +38,7 @@ The **[!UICONTROL Campaign Statistics]** widget details the main information rel
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
+
 ## Email tab {#email-live}
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your campaign.

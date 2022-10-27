@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get Started with Profiles in Journey Optimizer
 description: Learn how to create and manage profiles in Adobe Journey Optimizer
 feature: Profiles

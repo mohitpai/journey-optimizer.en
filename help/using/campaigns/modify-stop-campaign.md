@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Modify or stop a campaign
 description: Learn how to modify, stop or duplicate live campaigns in [!DNL Journey Optimizer]
 feature: Overview
@@ -7,11 +9,11 @@ role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 ---
-# Manage live campaigns {#modify-stop-campaign}
+# Manage campaigns {#modify-stop-campaign}
 
 Once a campaign has been activated, you can modify or stop it at any time. These operations are available for campaigns with a recurring execution only. 
 
-Additionally, you can duplicate live campaigns (executed once or with a recurring execution) to create new ones.
+Additionally, you can duplicate live campaigns (executed once or with a recurring execution) to create new ones, and archive completed or stopped campaigns.
 
 ## Modify a recurring campaign {#modify}
 
@@ -50,3 +52,13 @@ To stop a recurring campaign, open it then click the **[!UICONTROL Stop campaign
 You can duplicate a live campaign to create a new one. To do this, open the campaign, then click **[!UICONTROL Duplicate]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## Archive a campaign {#archive}
+
+With time, the list of campaigns keeps growing and eventually makes it more difficult to browse completed and stopped campaigns.
+
+To prevent this, you can archive completed and stopped campaigns that you do not need anymore. To do this, click the ellipse button then select **[!UICONTROL Archive]**.
+
+![](assets/create-campaign-archive.png)
+
+Archived campaigns can then be retrieved using the dedicated filter in the list. [Learn how to access campaigns](get-started-with-campaigns.md#access)

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer Get Started for Data Engineer
 description: As a Data Engineer, learn more how to work with Journey Optimizer
 level: Intermediate

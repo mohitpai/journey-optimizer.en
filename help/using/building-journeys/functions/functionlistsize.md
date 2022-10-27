@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: listSize
 description: Learn about the function listSize
 feature: Journeys

@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
 # Design your In-app content {#design-content}
 
@@ -16,7 +18,7 @@ To configure the message content, click the **[!UICONTROL Edit content]** button
 
 The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
 
-Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
+Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](create-in-app.md#in-app-send).
 
 ## Message layout {#message-layout}
 
@@ -149,7 +151,7 @@ The **[!UICONTROL App Preview]** allows you to add a background behind your In-a
 
 ![](assets/in_app_content_7.png)
 
-The **[!UICONTROL App Preview]** field allows you to add a background to your In-app message:
+The **[!UICONTROL Background image]** field allows you to add a background to your In-app message:
 
 * A media from an URL link.
 
@@ -179,5 +181,9 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 
 +++
 
+**Related topics:**
 
+* [Create In-app message](create-in-app.md)
+* [In-app report](inapp-report.md)
+* [In-app configuration](inapp-configuration.md)
 

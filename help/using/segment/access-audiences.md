@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Access and manage audiences
 description: Learn how to access and manage audiences
 feature: Journeys

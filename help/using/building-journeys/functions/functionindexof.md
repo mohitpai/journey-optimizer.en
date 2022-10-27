@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: indexOf
 description: Learn about the function indexOf
 feature: Journeys

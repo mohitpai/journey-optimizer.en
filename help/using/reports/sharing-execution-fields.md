@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
 feature: Reporting

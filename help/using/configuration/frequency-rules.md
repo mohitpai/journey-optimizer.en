@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Frequency rules
 description: Learn how to define frequency rules
 feature: Overview
@@ -17,7 +19,7 @@ To do this, you can use a frequency rule which will cap the number of messages s
 
 >[!NOTE]
 >
->Message frequency rules are different from opt-out management, which allows users to unsubscribe from receiving communications from a brand. [Learn more](../messages/consent.md#opt-out-management)
+>Message frequency rules are different from opt-out management, which allows users to unsubscribe from receiving communications from a brand. [Learn more](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Discover this feature in video](#video)
 

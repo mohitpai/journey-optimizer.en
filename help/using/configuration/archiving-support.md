@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Archiving support in Journey Optimizer
-description: Learn how to configure BCC email at the channel surface level
+description: Learn how to archive messages
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -207,7 +209,7 @@ Depending on what information you are looking for, you can run the following que
 
 1. Run this query to fetch all recipient addresses who have not received the message whereas its BCC entry exists within the last 30 days:
 
-    ```
+   ```
     SELECT
         DISTINCT 
     bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
@@ -222,4 +224,4 @@ Depending on what information you are looking for, you can run the following que
    mfe.timestamp > now() - INTERVAL '30' DAY AND
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
-    ```
+   ```

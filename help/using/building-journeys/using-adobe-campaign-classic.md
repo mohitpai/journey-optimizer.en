@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Campaign v7/v8 actions
 description: Learn about Adobe Campaign v7/v8 actions
 feature: Actions

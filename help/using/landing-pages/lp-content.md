@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Define landing page-specific content
 description: Learn how to design landing page specific content in Journey Optimizer
 feature: Landing Pages

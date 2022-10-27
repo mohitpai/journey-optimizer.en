@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: upper
 description: Learn about the function upper
 feature: Journeys

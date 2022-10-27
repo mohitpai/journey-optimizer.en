@@ -1,13 +1,15 @@
 ---
-title: Create a direct mail message
-description: Learn how to create a direct mail message in Journey Optimizer
+title: Direct mail configuration
+description: Learn how to configure direct mail channel in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 
 ---
-# Direct mail configuration {#create-direct}
+# Direct mail configuration {#direct-mail-configuration}
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 
@@ -20,12 +22,12 @@ To send a direct mail message, you need to create a file and upload it to a serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Define the settings of the file routing configuration"
->abstract="You need to define where the file will be exported and uploaded for your direct mail provider to use."
+>abstract="When creating the direct mail message, you will generate the file containing all the required profile information. This file needs to be exported and uploaded onto a server so that your direct mail provider can access and use that file for delivering direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Define the settings of the file routing configuration"
->abstract="When creating the direct mail message, you will generate the file containing all the required profile information. This file needs to be exported and uploaded onto a server so that your direct mail provider can access and use that file for delivering direct mail."
+>abstract="You need to define where the file will be exported and uploaded for your direct mail provider to use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -35,12 +37,12 @@ To send a direct mail message, you need to create a file and upload it to a serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Select the server type for your file routing"
->abstract="Select the server that you want to use for uploading and storing the direct mail files."
+>abstract="Choose which server you want to use for uploading and storing the direct mail files. Currently only Amazon S3 and SFTP are supported."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Choose the AWS region"
->abstract="Select the server that you want to use for uploading and storing the direct mail files. Currently only Amazon S3  and SFTP are supported."
+>abstract="Select the geographic region where you want to export and upload your direct mail files. For optimal usage, it is recommended to choose the closest region to host your cloud infrastructure."
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** menu, then click **[!UICONTROL Create routing configuration]**.
 
@@ -48,7 +50,7 @@ To send a direct mail message, you need to create a file and upload it to a serv
 
 1. Set a name for your configuration.
 
-1. Select the configuration **[!UICONTROL Type]**, i.e. the server that you want to use for uploading and storing the direct mail files.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Select the configuration **[!UICONTROL Server type]**, i.e. the server that you want to use for uploading and storing the direct mail files.
 
     ![](assets/file-routing-config-type.png)
 
@@ -58,13 +60,11 @@ To send a direct mail message, you need to create a file and upload it to a serv
 
     When creating the direct mail message, you will generate the file containing all the required profile information. This file needs to be exported and uploaded onto a server so that your direct mail provider can access and use that file for delivering direct mail.
 
-1. Fill in the details and credentials specific to the selected configuration type, such as server address, access key, etc. <!--need to detail more?-->
-
-    <!--![](assets/file-routing-config-aws-details.png)-->
+1. Fill in the details and credentials specific to the selected configuration type, such as server address, access key, etc.
 
     ![](assets/file-routing-config-sftp-details.png)
 
-1. If you selected **[!UICONTROL Amazon S3]**, you can choose the AWS region where you want to export and upload your direct mail files.
+1. If you selected **[!UICONTROL Amazon S3]**, choose the AWS region where you want to export and upload your direct mail files.
 
     ![](assets/file-routing-config-aws-region.png)
 
@@ -83,12 +83,13 @@ To send a direct mail message, you need to create a file and upload it to a serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Define the direct mail settings"
->abstract="A direct mail surface contains the settings related to the formatting of the file containing profile data for direct mail. You can (define the sorting configuration), remove duplicate rows, split records into multiple files and select the file routing configuration."
+>abstract="A direct mail surface contains the settings related to the formatting of the file containing profile data for direct mail. You must also define where the file will be exported by selecting the file routing configuration."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
 >title="Define the sort order"
->abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -121,7 +122,7 @@ Once file routing has been configured, you need to create a channel surface to b
     >
     >You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 
-1. Finally, select the [file routing configuration](#file-routing-configuration) amongst the ones that you created. This defines where the file will be exported and uploaded for your direct mail provider to use.
+1. Finally, select the **[!UICONTROL File routing configuration]** amongst the ones that you created. This defines where the file will be exported and uploaded for your direct mail provider to use.
 
     >[!CAUTION]
     >

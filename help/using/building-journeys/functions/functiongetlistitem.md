@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: getListItem
 description: Learn about the function gstListItem
 feature: Journeys

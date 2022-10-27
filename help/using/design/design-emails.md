@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Design emails
 description: Learn how to design your emails
 feature: Overview

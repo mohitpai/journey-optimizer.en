@@ -1,5 +1,6 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey properties
 description: Learn about journey properties
 feature: Journeys

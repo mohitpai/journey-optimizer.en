@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with audience composition
 description: Learn more on audience composition
 feature: Journeys

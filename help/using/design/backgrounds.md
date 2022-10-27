@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalize your email background
-description: Learn how to Personalize your email background
+description: Learn how to personalize your email background
 feature: Overview
 topic: Content Management
 role: User

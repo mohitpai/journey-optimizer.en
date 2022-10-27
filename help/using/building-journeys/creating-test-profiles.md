@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create a test profile
 description: Learn how to create a test profile
 feature: Journeys
@@ -11,7 +13,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 
 Test profiles are required when using the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your content](../design/preview.md).
 
-There are several ways to create test profiles. You can:
+There are several ways to create test profiles. You can find in this page details to:
 
 * Turn an [existing profile](#turning-profile-into-test) into a test profile
 
@@ -222,6 +224,7 @@ curl -X POST \
 }
 }'
 ```
+
 ## How-to video {#video}
 
 Learn how to create test profiles.

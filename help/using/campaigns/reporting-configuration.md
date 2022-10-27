@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure Journey Optimizer reporting for experimentation
 description: Learn how to set up reporting data source
 feature: Data Sources

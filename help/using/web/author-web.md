@@ -5,9 +5,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 
 ---
 # Author web pages {#author-web}
+
+>[!AVAILABILITY]
+>
+>The web channel feature is currently available as a beta to select users only.
 
 In [!DNL Journey Optimizer] web authoring is powered by the Adobe Experience Cloud Visual Helper chrome browser extension. [Learn more](visual-editing-helper.md)
 

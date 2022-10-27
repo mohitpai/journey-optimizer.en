@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create dynamic content
 description: Learn how to add dynamic into your messages.
 feature: Personalization

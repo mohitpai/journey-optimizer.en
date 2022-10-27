@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Manage opt-out
 description: Learn how to manage opt-out and privacy
 feature: Journeys
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 ---
-# Manage consent {#consent}
+# Manage opt-out {#consent}
 
 Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions.
 
@@ -35,7 +37,7 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](../messages/get-started-content.md#create-new-message).
 
 ### External opt-out {#opt-out-external-lp}
 
@@ -49,7 +51,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. Host it on the third-party system of your choice.
 
-1. [Create a message](get-started-content.md) in a journey.
+1. [Create a message](../messages/get-started-content.md) in a journey.
 
 1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar.
 
@@ -205,7 +207,14 @@ For example, upon downloading or when using your app, they can select to stop no
 
 ## SMS opt-out management {#sms-opt-out-management}
 
-In accordance with the industry standards and regulations, SMS recipients can reply with opt-in and opt-out keywords.
-Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
+In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. Once unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
-For more information on SMS opt-out, refer to this [page](../messages/create-sms.md#opt-in-and-opt-out).
+>[!NOTE]
+>
+>Adding an unsubscription link is not mandatory for transactional messages.
+
+ Adobe Journey Optimizer automatically processes the following keywords in incoming messages: **START**, **STOP**, and **UNSTOP**. These keywords trigger automatic standard replies from the SMS provider.
+
+To learn more on how native inbound keyword support (start, stop and unstop) works for SMS, refer to the following video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

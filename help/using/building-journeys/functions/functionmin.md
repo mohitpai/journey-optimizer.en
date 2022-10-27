@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: min
 description: Learn about the function min
 feature: Journeys

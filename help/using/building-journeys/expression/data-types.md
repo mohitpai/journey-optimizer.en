@@ -1,5 +1,6 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Data types
 description: Learn about data types in advanced expressions
 feature: Journeys

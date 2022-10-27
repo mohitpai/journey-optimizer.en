@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Landing page use cases
 description: Discover the most common use cases with landing pages in Journey Optimizer
 feature: Landing Pages
@@ -83,7 +85,7 @@ All the users who registered for your event will receive the confirmation email.
 
 To enable your recipients to unsubscribe from your communications, you can include a link to an opt-out landing page into your emails.
 
-Learn more on managing your recipients' consent and why this is important in [this section](../messages/consent.md).
+Learn more on managing your recipients' consent and why this is important in [this section](../privacy/opt-out.md).
 
 ### Opt-out management {#opt-out-management}
 
@@ -160,11 +162,11 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
 
 ////////
 

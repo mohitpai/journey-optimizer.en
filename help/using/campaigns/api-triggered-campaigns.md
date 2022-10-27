@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Trigger campaigns using APIs
 description: Learn how to trigger campaigns using [!DNL Journey Optimizer] APIs
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
@@ -68,6 +70,7 @@ The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype on
 >[!IMPORTANT]
 >
 >The `context.system` syntax is restricted to Adobe internal usage only, and should not be used to pass contextual attributes.
+
 Note that, for now, no contextual attribute is available for use in the left rail menu. Attributes must be typed directly in your personalization expression, with no check being performed by [!DNL Journey Optimizer].
 
 ## Execute the campaign {#execute}

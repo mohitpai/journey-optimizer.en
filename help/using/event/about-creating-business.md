@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure a business event
 description: Learn how to create a business event
 feature: Events

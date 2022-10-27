@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inNextHours
 description: Learn about the function inNextHours
 feature: Journeys

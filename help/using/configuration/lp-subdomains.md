@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure landing page subdomains
 description: Learn how to configure landing page subdomains with Journey Optimizer
 role: Admin

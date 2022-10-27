@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Work with email templates
 description: Learn how to save your email content as a template and reuse it in Journey Optimizer
 feature: Overview

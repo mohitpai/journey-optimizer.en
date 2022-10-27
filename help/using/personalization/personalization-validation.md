@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalization validation
 description: Learn more about personalization validation and how to troubleshoot.
 feature: Personalization

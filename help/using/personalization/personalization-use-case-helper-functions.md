@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalization use case&colon; cart abandonment email
 description: Learn how to personalize the body of an email message through a use case.
 feature: Personalization

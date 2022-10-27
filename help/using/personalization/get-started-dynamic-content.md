@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with dynamic content
 description: Learn more on dynamic content
 feature: Personalization

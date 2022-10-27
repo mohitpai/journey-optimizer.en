@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Set up channel surfaces
 description: Learn how to configure and monitor channel surfaces
 feature: Application Settings

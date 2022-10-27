@@ -5,12 +5,18 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 
 ---
 
 # Web report {#web-report}
 
-The Web report is available in the Campaign report. 
+The Web report is available in the Campaign report.
+
+>[!NOTE]
+>
+>The web channel feature is currently available as a beta to select users only.
 
 The Campaign report page will be displayed with the following tabs:
 
@@ -26,7 +32,7 @@ For a detailed list of every metric available in Adobe Journey Optimizer, refer 
 
 ## Web tab {#web-tab}
 
-![](assets/report.png)
+![](assets/web-report.png)
 
 The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
 

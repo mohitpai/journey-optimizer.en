@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: now
 description: Learn about the function now
 feature: Journeys

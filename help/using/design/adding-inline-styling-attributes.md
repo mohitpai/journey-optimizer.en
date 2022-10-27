@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Add inline styling attributes
 description: Learn how to add inline styling attributes
 feature: Overview

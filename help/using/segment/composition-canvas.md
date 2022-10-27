@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Work with the composition canvas
 description: Learn how to work with the composition canvas
 feature: Journeys
@@ -113,7 +115,7 @@ The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specif
 
 1.  Select the attribute that you want to look up and specify a ranking order (ascending or descending).
 
-    >[NOTE]
+    >[!NOTE]
     >
     >You can select attributes with the following data types: integer, numbers, short <!--(other?)-->
 

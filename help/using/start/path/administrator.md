@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer Get Started for System Admin
 description: As a System Administrator, learn more how to work with Journey Optimizer
 level: Intermediate

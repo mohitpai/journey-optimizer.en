@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: step event field list
 description: legacy fields
 feature: Reporting

@@ -2,10 +2,8 @@
 keywords: Journey Optimizer;home;popular topics
 title: Journey Optimizer product documentation
 description: Adobe Journey Optimizer product help center
-feature: Overview
-topic: Content Management
-role: User
-level: Beginner
+solution: Journey Optimizer
+product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 ---
 # Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}

@@ -1,5 +1,6 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Collection management functions
 description: Learn about data types in collection management functions
 feature: Journeys

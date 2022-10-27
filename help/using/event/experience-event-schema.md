@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: About ExperienceEvent Schemas for journey events
 description: Learn about ExperienceEvent Schemas for journey events
 feature: Schemas

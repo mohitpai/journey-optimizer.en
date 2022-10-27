@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use a segment in a journey
 description: Learn how to use a segment in a journey
 feature: Journeys
@@ -25,7 +27,6 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 >For journeys using a Read Segment activity, there is a maximum number of journeys that can start at the exact same time. Retries will be performed by the system but please avoid having more than five journeys (with Read Segment, scheduled or starting "as soon as possible") starting at the exact same time by spreading them over time, for example 5 to 10 minutes apart.
 >
 >Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
-
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 
@@ -79,7 +80,9 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](assets/read-segment-schedule-list.png)
 
-    **Incremental read** option: when a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. On the next occurrence, all the profiles enter the journey again, even if they were already inside. The old instance of the profile in the journey is stopped and a new instance is created. The **Incremental read** option allows you to target, after the first occurence, the individuals who entered the segment since the last execution of the journey. 
+    **Incremental read** option: when a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. This option allows you to target, after the first occurence, only the individuals who entered the segment since the last execution of the journey. 
+
+    **Force reentrance on recurrence**: this option allows you to make all profiles still present in the journey automatically exit it on the next execution. For example, if you have a 2 days wait in a daily recurrent journey, by activating this option, profiles will always be moved on the next journey execution (so the day after), whether they are in the next run audience or not. If the lifespan of your profiles in this journey may be longer than the recurrence frequency, do not activate this option to make sure that profiles can finish their journey.
 
 <!--
 
@@ -103,8 +106,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >One-shot Read segment journeys move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence.
->
->You need to be cautious while using wait activities in recurring read segment journeys as the lifespan of such journeys ends at to the next execution. Meaning that if a journey runs daily, the journey instance that started today will last until tomorrow's execution. For instance, if you added a 2 days wait in that journey, profiles will always be moved on the next journey execution (so the day after), whether they are in the next run audience or not. Profiles will never be able to stay in that journey for 2 days.
 
 ### Test and publish the journey {#testing-publishing}
 

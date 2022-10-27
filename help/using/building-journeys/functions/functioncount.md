@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: count
 description: Learn about the function count
 feature: Journeys

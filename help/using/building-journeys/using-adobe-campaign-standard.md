@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Campaign Standard actions
 description: Learn about Adobe Campaign Standard actions
 feature: Actions

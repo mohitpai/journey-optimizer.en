@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Alerts
 description: Learn how to manage alerts
 feature: Alerts
@@ -18,7 +20,7 @@ In the left menu, under **Administration**, click **Alerts**. A pre-configured a
 
 ![](assets/alerts1.png)
 
-If such an unexpected behavior occurs, an alert notification is sent to subscribers of the alert through email and in-app notification, in the top right corner of the interface.
+If such an unexpected behavior occurs, an alert notification is sent to subscribers of the alert through email, in the top right corner of the interface.
 
 ![](assets/alerts2.png)
 

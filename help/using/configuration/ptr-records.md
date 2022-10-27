@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: PTR records
 description: Learn how to manage PTR records
 feature: Application Settings

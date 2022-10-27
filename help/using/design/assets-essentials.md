@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use Assets Essentials in Journey Optimizer
 description: Get Started with Assets Essentials
 feature: Overview

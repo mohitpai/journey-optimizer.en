@@ -5,9 +5,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 
 ---
 # Create web experiences {#create-web}
+
+>[!AVAILABILITY]
+>
+>The web channel feature is currently available as a beta to select users only.
 
 [!DNL Journey Optimizer] allows you to personalize the web experience you deliver to your customers through inbound web campaigns.
 
@@ -29,15 +35,21 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 For the web experience to be delivered correctly, the following settings must be defined:
 
-* In the [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}, make sure you have a datastream defined such as under the **[!UICONTROL Adobe Experience Platform]** service you have both the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options enabled. This ensures that the Journey Optimizer inbound events are correctly handled by the Adobe Experience Platform Edge. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+* In the [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}, make sure you have a datastream defined such as under the **[!UICONTROL Adobe Experience Platform]** service you have both the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options enabled.
+
+    This ensures that the Journey Optimizer inbound events are correctly handled by the Adobe Experience Platform Edge. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+
+    ![](assets/web-aep-datastream-ajo.png)
 
     >[!NOTE]
     >
     >The **[!UICONTROL Adobe Journey Optimizer]** option can be enabled only when the **[!UICONTROL Edge Segmentation]** option is already enabled.
 
-    ![](assets/web-aep-data-collection-datastream.png)
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}, make sure that you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+    This merge policy is used by [!DNL Journey Optimizer] inbound channels to correctly activate and publish inbound campaigns on the edge. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+
+    ![](assets/web-aep-merge-policy.png)
 
 ## Create a web campaign {#create-web-campaign}
 

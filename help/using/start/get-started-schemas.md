@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get Started with Schemas
 description: Learn how to use Adobe Experience Platform Schemas in Adobe Journey Optimizer
 feature: Schemas

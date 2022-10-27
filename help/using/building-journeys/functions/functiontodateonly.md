@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toDateOnly
 description: Learn about the function toDateOnly
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with content experiment
 description: Learn more about content experiment in [!DNL Journey Optimizer]
 feature: A/B Testing

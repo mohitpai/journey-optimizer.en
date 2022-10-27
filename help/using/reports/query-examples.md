@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Examples of queries
 description: Examples of queries
 feature: Reporting

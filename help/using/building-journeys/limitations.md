@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey limitations
 description: Learn more about Journey limitations
 feature: Journeys
