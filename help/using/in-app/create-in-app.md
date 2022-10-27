@@ -37,9 +37,18 @@ To create an In-app message, follow the steps below:
 
 1. Choose the frequency of your trigger when your In-app message is active:
 
-    * **[!UICONTROL Show every time]**
-    * **[!UICONTROL Show once]**
-    * **[!UICONTROL Show until click through]**
+    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+
+1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+
+    1. From the left drop-down, select the event required to trigger the message.
+    1. From the right drop-down, select the validation required on the selected event.
+    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
+    1. Select how your events are linked, e.g. **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown and **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+
+    ![](assets/in_app_create_3.png)
 
 1. Choose the event that triggers your message from the **[!UICONTROL Mobile app trigger]**
 drop-down. 
