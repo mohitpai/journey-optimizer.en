@@ -34,7 +34,7 @@ Leverage Audit logs to identify actions performed by users in the system, troubl
 
 Track customers' consent for communication and manage their preferences and subscriptions. [Learn more](opt-out.md) 
 
-Adopt and enforce marketing policies to respect the consent preferences of your customers. [Learn more](policies.md)
+Adopt and enforce marketing policies to respect the consent preferences of your customers. [Learn more](../action/consent.md)
 
 ## Apply governance policies
 
