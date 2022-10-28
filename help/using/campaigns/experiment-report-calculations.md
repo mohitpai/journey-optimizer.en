@@ -78,15 +78,15 @@ Noting that *f* is the influence function, Waudby-Smith et al. showed that the C
 
 Replacing the assignment probability by its empirical estimates: π<sub>0</sub> = N<sub>0</sub>/N, the variance term can be expressed in terms of individual sample mean estimates μ<sub>0,1</sub> and standard deviation estimates, σ<sub>0,1</sub> as:
 
-![](assets/statistical_8.png){width="600" align="center"}
+![](assets/statistical_8.png){width="700" align="center"}
 
 Next, recall that for a regular hypothesis test with test statistic z =  (μ<sub>A</sub>-μ<sub>0</sub>/σ<sub>p</sub>) there is a correspondence between `p`-values and confidence intervals:
 
-![](assets/statistical_9.png){width="600" align="center"}
+![](assets/statistical_9.png){width="700" align="center"}
 
 where `Φ` is the cumulative distribution of the standard normal. For anytime valid `p`-values, given the confidence sequence for the average treatment effect defined above, we can invert this relationship:
 
-![](assets/statistical_10.png){width="600" align="center"}
+![](assets/statistical_10.png){width="700" align="center"}
 
 Finally, the **anytime valid *confidence*** is 
 
