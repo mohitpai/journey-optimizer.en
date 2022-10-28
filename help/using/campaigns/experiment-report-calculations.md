@@ -86,7 +86,7 @@ Next, recall that for a regular hypothesis test with test statistic z =  (μ<sub
 
 where `Φ` is the cumulative distribution of the standard normal. For anytime valid `p`-values, given the confidence sequence for the average treatment effect defined above, we can invert this relationship:
 
-![](assets/statistical_10.png){width="700" align="center"}
+![](assets/statistical_10.png){width="800" align="center"}
 
 Finally, the **anytime valid *confidence*** is 
 
