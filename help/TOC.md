@@ -35,6 +35,7 @@ solution: Journey Optimizer
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
+    + [Statistical Calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
   + Get started with messages{#get-started-msg}
