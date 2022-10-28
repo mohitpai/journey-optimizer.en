@@ -41,7 +41,7 @@ https://doi.org/10.48550/arXiv.2103.06476)).
 
 Suppose one is interested in estimating a target parameter `ψ` (like the conversion rate of a variant in an Experiment). Then, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
 
-![](assets/statistical_4.png){width="400" align="center"}
+![](assets/statistical_4.png){width="500" align="center"}
 
 In words - for a regular Confidence Interval , the probabilistic guarantee that the target parameter lies within the range of values Ċ<sub>n</sub> is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds.
 
@@ -53,7 +53,7 @@ This has a few deep implications which are very important for online testing:
 
 Adobe uses Asymptotic Confidence Sequences, which for an individual variant with mean estimate `μ` has the form
 
-![](assets/statistical_5.png){width="300" align="center"}
+![](assets/statistical_5.png){width="400" align="center"}
 
 Where:
 
@@ -74,19 +74,19 @@ Here, *E* is an expectation. The estimator we use is an inverse propensity weigh
 
 Noting that *f* is the influence function, Waudby-Smith et al. showed that the Confidence Sequence for this estimator is:
 
-![](assets/statistical_7.png){width="500" align="center"}
+![](assets/statistical_7.png){width="600" align="center"}
 
 Replacing the assignment probability by its empirical estimates: π<sub>0</sub> = N<sub>0</sub>/N, the variance term can be expressed in terms of individual sample mean estimates μ<sub>0,1</sub> and standard deviation estimates, σ<sub>0,1</sub> as:
 
-![](assets/statistical_8.png){width="500" align="center"}
+![](assets/statistical_8.png){width="600" align="center"}
 
 Next, recall that for a regular hypothesis test with test statistic z =  (μ<sub>A</sub>-μ<sub>0</sub>/σ<sub>p</sub>) there is a correspondence between `p`-values and confidence intervals:
 
-![](assets/statistical_9.png){width="500" align="center"}
+![](assets/statistical_9.png){width="600" align="center"}
 
 where `Φ` is the cumulative distribution of the standard normal. For anytime valid `p`-values, given the confidence sequence for the average treatment effect defined above, we can invert this relationship:
 
-![](assets/statistical_10.png){width="500" align="center"}
+![](assets/statistical_10.png){width="600" align="center"}
 
 Finally, the **anytime valid *confidence*** is 
 
