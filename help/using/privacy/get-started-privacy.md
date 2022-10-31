@@ -6,38 +6,29 @@ description: Learn more on privacy in Adobe Journey Optimizer and Adobe Experien
 feature: Monitoring
 role: User
 level: Intermediate
-exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 ---
 
 # Get started with privacy {#privacy}
-
 
 Journey Optimizer is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. This is why privacy needs to be managed carefully.
 
 Adobe Experience Platform and Journey Optimizer provide various tools to help you ensure privacy management.
 
-## Manage data requests
+* **Manage data requests**: Use Adobe Experience Platform Privacy Service to manage customer requests to access and delete personal data. [Learn more](requests.md)
 
-<img src="assets/do-not-localize/request.svg" width="60px">
+* **Audit users' actions**: Leverage Audit logs to identify actions performed by users in the system, troubleshoot issues, and help your business comply with regulations and corporate data stewardship policies. [Learn more](audit-logs.md)
 
-Use Adobe Experience Platform Privacy Service to manage customer requests to access and delete personal data. [Learn more](requests.md)
+* **Track and manage consent**: Track customers' consent for communication and manage their preferences and subscriptions. [Learn more](opt-out.md)
 
-## Audit users' actions
+    Adopt and enforce marketing policies to respect the consent preferences of your customers. [Learn more](../action/consent.md)
 
-<img src="assets/do-not-localize/audit.svg" width="60px">
+* **Apply governance policies**: Leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. [Learn more](../action/action-privacy.md)
 
-Leverage Audit logs to identify actions performed by users in the system, troubleshoot issues, and help your business comply with regulations and corporate data stewardship policies. [Learn more](audit-logs.md)
-
-## Track and manage consent
-
-<img src="assets/do-not-localize/consent.svg" width="60px">
-
-Track customers' consent for communication and manage their preferences and subscriptions. [Learn more](opt-out.md) 
-
-Adopt and enforce marketing policies to respect the consent preferences of your customers. [Learn more](../action/consent.md)
-
-## Apply governance policies
-
-<img src="assets/do-not-localize/governance.svg" width="60px">
-
-Leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. [Learn more](../action/action-privacy.md)
+<table>
+<tr>
+<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="create-lp.md">Manage data requests</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="subscription-list.md">Audit users' actions</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="design-lp.md">Track and manage consent</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../reports/lp-report-live.md">Apply governance policies</a></p></td>
+</tr>
+</table>
