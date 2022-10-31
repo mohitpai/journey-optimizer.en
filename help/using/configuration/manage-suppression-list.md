@@ -19,7 +19,7 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 
 >[!NOTE]
 >
->The suppression list is operated at the sandbox level.
+>The suppression list is managed at the sandbox level.
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
@@ -84,7 +84,7 @@ To export the suppression list as a CSV file, follow the steps below.
 
     >[!NOTE]
     >
-    >Download time depends on the file size, meaning the number of email addresses that are on the suppression list.
+    >Download time depends on the file size, meaning the number of addresses that are on the suppression list.
     >
     >One download request can be processed at a time for a given sandbox.
 
