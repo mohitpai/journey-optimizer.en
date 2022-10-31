@@ -32,6 +32,6 @@ Adobe Experience Platform and Journey Optimizer provide various tools to help yo
 <td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Audit users' actions</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Track and manage consent</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Track and manage consent</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../reports/action-privacy.md">Apply governance policies</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Apply governance policies</a></p></td>
 </tr>
 </table>
