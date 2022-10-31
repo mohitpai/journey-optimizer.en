@@ -13,7 +13,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 
 A suppression list consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates.
 
-The [!DNL Journey Optimizer] suppression list is managed at your own environment level.
+The [!DNL Journey Optimizer] suppression list is managed at your own environment level, i.e. for a given sandbox.
 
 It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an organization ID associated with a sandbox ID.
 

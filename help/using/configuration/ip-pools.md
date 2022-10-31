@@ -14,7 +14,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Set up an IP pool"
->abstract="You can create IP pools to group together the IP addresses of your subdomains for improved email deliverability."
+>abstract="IP pools gather the IP addresses of your subdomains for improved email deliverability."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -28,6 +28,10 @@ With [!DNL Journey Optimizer], you can create IP pools to group together the IP 
 Creating IP pools is strongly recommended for email deliverability. By doing so, you can prevent the reputation of a subdomain from impacting your other subdomains.
 
 For example, one best practice is to have one IP pool for your marketing messages, and another one for your transactional messages. This way, if one of your marketing messages performs badly and is declared as spam by a customer, this will not affect the transactional messages sent to this same customer, who will still receive transactional messages (purchase confirmations, password recovery messages, etc.).
+
+>[!CAUTION]
+>
+>IP pool configuration is common to all environments. Therefore any IP pool creation or edition will also impact the production sandboxes.
 
 ## Create an IP pool {#create-ip-pool}
 
@@ -57,7 +61,7 @@ The IP pool is now created and displays in the list. You can select it to acces
 
 ## Edit an IP pool {#edit-ip-pool}
 
-To edit an IP pool:
+To edit an IP pool, follow the steps below.
 
 1. From the list, click the IP pool name to open it.
 

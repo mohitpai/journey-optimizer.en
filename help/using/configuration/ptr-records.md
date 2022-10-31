@@ -42,11 +42,9 @@ You can modify a PTR record to edit the subdomain associated with an IP address.
 
 >[!CAUTION]
 >
->Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.<!--why?-->
-
->[!NOTE]
+>PTR records are common to all environments. Therefore any modification to an PTR record will also impact the production sandboxes.
 >
->You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
+>Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.
 
 ### Fully delegated subdomains {#fully-delegated-subdomains}
 
@@ -61,6 +59,10 @@ To edit a PTR record with a subdomain that is [fully delegated](delegate-subdoma
     ![](assets/ptr-record-subdomain.png)
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
+
+>[!NOTE]
+>
+>You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
 ### Delegated subdomains using the CNAME method {#edit-ptr-subdomains-cname}
 
@@ -85,6 +87,10 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
     >   * Records across the DNS may not synchronize immediately. Wait for a few minutes, and try again.
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
+
+>[!NOTE]
+>
+>You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
 ## Check PTR record update details {#check-ptr-record-update}
 

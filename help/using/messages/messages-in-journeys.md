@@ -76,7 +76,7 @@ Use **[!UICONTROL Send-time optimization]** to schedule personalized send times 
 
 Advanced parameters are read-only and hidden by default. 
 
-To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane. Click the same icon to hide advanced settings.
 
 ![](assets/show-read-only.png)
 
@@ -86,14 +86,20 @@ For push notifications, you can display the following parameters: Token, AppID, 
 
 ![](assets/push-adv-parameters.png)
 
-For email, you can display the primary email address.
+For email, you can display the [primary email address](../configuration/primary-email-addresses.md).
 
-For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+In specific contexts, you can override these values for specific use. To force a value, click the **[!UICONTROL Enable parameter override]** icon to the right of the field.
 
-* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+![](assets/email-adv-parameters.png)
+
+This option may be useful for example to:
+
+* Test an email. You can add your email address; after you have published the journey, the email is sent to you.
 * Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
 
-Click the same icon to hide advanced settings.
+>[!NOTE]
+>
+>Email address override should only be used for specific use cases. Most of the time, you do not need to change the email address because the value defined as the primary address in the **[!UICONTROL Execution fields]** is the one that should be used. [Learn more](../configuration/primary-email-addresses.md)
 
 ## Browse messages{#browse-message}
 

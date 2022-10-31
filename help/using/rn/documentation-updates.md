@@ -14,7 +14,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a journey use case on how to limit throughput using External Data Sources and Custom Actions. [Read more](../building-journeys/limit-throughput.md)
 * The journey use case section has been reorganized into two categories: [Business use cases](../building-journeys/journeys-uc.md) and [Technical use cases](../building-journeys/collections.md).
 * The **Entity Dataset** section has been updated with more details. [Learn more](../start/datasets-query-examples.md#entity-dataset)
-* Information related to opt-out management and consent policies have been reorganized into a new section. [Read more](../privacy/opt-out.md) 
+* Information related to opt-out management and consent policies have been reorganized into a new section. [Read more](../privacy/opt-out.md)
+* The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../messages/messages-in-journeys.md#adv-settings)
+* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../configuration/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 
