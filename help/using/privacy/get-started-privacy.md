@@ -18,17 +18,20 @@ Adobe Experience Platform and Journey Optimizer provide various tools to help yo
 
 * **Audit users' actions**: Leverage Audit logs to identify actions performed by users in the system, troubleshoot issues, and help your business comply with regulations and corporate data stewardship policies. [Learn more](audit-logs.md)
 
-* **Track and manage consent**: Track customers' consent for communication and manage their preferences and subscriptions. [Learn more](opt-out.md)
+* **Track and manage consent**:
 
-    Adopt and enforce marketing policies to respect the consent preferences of your customers. [Learn more](../action/consent.md)
+    Track customers' consent for communication and manage their preferences and subscriptions. [Learn more](opt-out.md)
+
+    Define Adobe Experience Platform consent policies and apply them to your custom actions in order to respect the preferences of your customers. [Learn more](../action/consent.md)
 
 * **Apply governance policies**: Leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. [Learn more](../action/action-privacy.md)
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="create-lp.md">Manage data requests</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="subscription-list.md">Audit users' actions</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="design-lp.md">Track and manage consent</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../reports/lp-report-live.md">Apply governance policies</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Manage data requests</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Audit users' actions</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Track and manage consent</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Track and manage consent</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../reports/action-privacy.md">Apply governance policies</a></p></td>
 </tr>
 </table>
