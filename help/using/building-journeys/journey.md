@@ -26,27 +26,38 @@ Design multistep advanced scenarios powered by following capabilities:
 
 ## Steps to create a journey{#steps-journey}
 
-Adobe Journey Optimizer includes an omnichannel orchestration canvas which allows marketers to harmonize marketing outreach with one-to-one customer engagement. The user interface allows you to easily drag and drop activities from the palette into the canvas to build your journey. Note that you can also double-click on an activity to add it in the canvas, at the next available step. 
+Use Adobe Journey Optimizer to Ddesign and orchestrate personalized journeys from a single canvas.
+
+Adobe Journey Optimizer includes an omnichannel orchestration canvas which allows marketers to harmonize marketing outreach with one-to-one customer engagement. The user interface allows you to easily drag and drop activities from the palette into the canvas to build your journey. 
+
+![](assets/interface-journeys.png)
 
 Learn how to start and create your first journey in [this page](journey-gs.md).
 
-Learn how to use the journey designer and combine activities to orchestrate powerful omnichannel journeys in [this section](using-the-journey-designer.md).
+The omnichannel journey designer helps you build multi-step journeys with targeted audiences, updates based on real-time customer or business interactions, and omnichannel messages using an intuitive drag-and-drop interface.
 
-As an data engineer, learn how to configure your journeys, including Data Sources, Events and Actions in [this section](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+Read more in [this section](using-the-journey-designer.md).
+
+As an data engineer, steps to configure your journeys, including Data Sources, Events and Actions are detailed in [this section](../configuration/about-data-sources-events-actions.md).
 
 
 ## Use cases{#uc-journey}
 
-Discover the following end-to-end use cases to levera
-* Business use cases
-    * [Send multi-channel messages](journeys-uc.md)
-    * [Send a message using Campaign v7/v8](campaign-classic-use-case.md)
-    * [Send a message to subscribers](message-to-subscribers-uc.md)
+Learn how to build journeys in the following end-to-end use cases.
 
-* Technical use cases
-    * [Pass collections dynamically using custom actions](collections.md)
-    * [Ramp up deliveries](ramp-up-deliveries-uc.md)
-    * [Limit throughput with External Data Sources and Custom Actions](limit-throughput.md)
+Business use cases:
+
+* [Send multi-channel messages](journeys-uc.md)
+* [Send a message using Campaign v7/v8](campaign-classic-use-case.md)
+* [Send a message to subscribers](message-to-subscribers-uc.md)
+
+Technical use cases:
+
+* [Pass collections dynamically using custom actions](collections.md)
+* [Ramp up deliveries](ramp-up-deliveries-uc.md)
+* [Limit throughput with External Data Sources and Custom Actions](limit-throughput.md)
 
 ## Journey versions{#journey-versions}
 
