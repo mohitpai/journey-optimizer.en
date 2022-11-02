@@ -1,16 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: General principle
-description: General principle
+title: Get started with journeys
+description: Get started with journeys
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 ---
 
-# General principle{#jo-general-principle}
+# Get started with journeys{#jo-general-principle}
 
 Use [!DNL Journey Optimizer] to build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
