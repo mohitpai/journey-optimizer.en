@@ -50,7 +50,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
     ![](assets/audiences-alerts.png)
 
-1. The composition is published. The resulting audiences are saved into Adobe Experience Platform and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)
+1. The composition is published. The resulting audiences are saved into Adobe Experience Platform and are ready to be targeted in Journey Optimizer campaigns. [Learn how to work with campaigns](../campaigns/get-started-with-campaigns.md)
 
 ## Access compositions {#access}
 
