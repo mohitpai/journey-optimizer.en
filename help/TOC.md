@@ -26,19 +26,19 @@ solution: Journey Optimizer
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
-  + About journeys{#about-journeys}
+  + Get started with journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
     + [Journey lifecycle](using/building-journeys/journey-end.md) 
     + [Journey versions](using/building-journeys/journey-versions.md)
-    + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
-    + [Get started with journeys](using/building-journeys/journey-gs.md)
+    + [Create your first journey](using/building-journeys/journey-gs.md)
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
     + [Copy a journey to another sandbox](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
+    + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Activities {#about-journey-building}
     + [About journey activities](using/building-journeys/about-journey-activities.md)
     + [General events](using/building-journeys/general-events.md)
