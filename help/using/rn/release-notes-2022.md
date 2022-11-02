@@ -341,7 +341,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Journeys**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the [documentation](../building-journeys/journey.md#journey-ending) and [feature video](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the [documentation](../building-journeys/end-journey.md) and [feature video](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * The **Profile time zone** option is now unchecked by default in journey properties. [Learn more](../building-journeys/timezone-management.md#timezone-from-profiles)

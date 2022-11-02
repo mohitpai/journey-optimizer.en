@@ -32,7 +32,10 @@ solution: Journey Optimizer
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
+  + Manage your journeys{#mannage-journey}
+    + [End your journey](using/building-journeys/end-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
+    + [Profile entry management](using/building-journeys/entry-management.md)
     + [Copy a journey to another sandbox](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
@@ -138,6 +141,14 @@ solution: Journey Optimizer
         + [upper](using/building-journeys/functions/functionupper.md)
         + [uuid](using/building-journeys/functions/functionuuid.md)
   + Use cases {#journey-use-cases}
+    + Business use cases {#business-use-cases}
+        + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
+        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+        + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
+    + Technical use cases {#technical-use-cases}
+        + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
+        + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+        + [Limit throughput with External Data Sources and Custom Actions](using/building-journeys/limit-throughput.md)
 + Campaigns{#campaigns}
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
@@ -246,14 +257,6 @@ solution: Journey Optimizer
     + [Create composition workflows](using/segment/create-compositions.md)
     + [Work with the composition canvas](using/segment/composition-canvas.md)
     + [Access and manage audiences](using/segment/access-audiences.md)
-    + Business use cases {#business-use-cases}
-        + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
-        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-        + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
-    + Technical use cases {#technical-use-cases}
-        + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
-        + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-        + [Limit throughput with External Data Sources and Custom Actions](using/building-journeys/limit-throughput.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
