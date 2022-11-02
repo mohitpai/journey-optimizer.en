@@ -39,7 +39,7 @@ The omnichannel journey designer helps you build multi-step journeys with target
 
 Read more in [this section](using-the-journey-designer.md).
 
-As an data engineer, steps to configure your journeys, including Data Sources, Events and Actions are detailed in [this section](../configuration/about-data-sources-events-actions.md).
+As a data engineer, steps to configure your journeys, including Data Sources, Events and Actions are detailed in [this section](../configuration/about-data-sources-events-actions.md).
 
 
 ## Use cases{#uc-journey}
