@@ -25,7 +25,7 @@ Design multistep advanced scenarios powered by following capabilities:
 
 ## Steps to create a journey{#steps-journey}
 
-Use Adobe Journey Optimizer to Ddesign and orchestrate personalized journeys from a single canvas.
+Use Adobe Journey Optimizer to design and orchestrate personalized journeys from a single canvas.
 
 Adobe Journey Optimizer includes an omnichannel orchestration canvas which allows marketers to harmonize marketing outreach with one-to-one customer engagement. The user interface allows you to easily drag and drop activities from the palette into the canvas to build your journey. 
 
