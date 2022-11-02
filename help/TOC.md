@@ -26,10 +26,7 @@ solution: Journey Optimizer
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
-  + Get started with journeys{#about-journeys}
-    + [General principle](using/building-journeys/journey.md)
-    + [Journey lifecycle](using/building-journeys/journey-end.md) 
-    + [Journey versions](using/building-journeys/journey-versions.md)
+  + [Get started with journeys](using/building-journeys/journey.md)
   + Create a journey{#create-journey}
     + [Create your first journey](using/building-journeys/journey-gs.md)
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
@@ -40,7 +37,7 @@ solution: Journey Optimizer
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Activities {#about-journey-building}
-    + [About journey activities](using/building-journeys/about-journey-activities.md)
+    + [Get started with journey activities](using/building-journeys/about-journey-activities.md)
     + [General events](using/building-journeys/general-events.md)
     + [Reaction](using/building-journeys/reaction-events.md)
     + [Segment qualification](using/building-journeys/segment-qualification-events.md)
