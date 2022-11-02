@@ -15,10 +15,6 @@ hidefromtoc: yes
 
 Audiences are accessible from the **[!UICONTROL Audiences]** tab in the **[!UICONTROL Segments]** menu.
 
->[!IMPORTANT]
->
->For now, audiences resulting from composition workflows cannot be targeted into Journey Optimizer.
-
 This tab lists all audiences stored into Adobe Experience Platform. Audiences created using audience compositions are identifiable by the **[!UICONTROL Audience composition]** origin.
 
 ![](assets/audiences-list.png)

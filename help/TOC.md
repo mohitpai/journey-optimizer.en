@@ -25,114 +25,6 @@ solution: Journey Optimizer
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
   + [Guardrails](using/start/guardrails.md)
-+ Campaigns{#campaigns}
-  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
-  + [Create a campaign](using/campaigns/create-campaign.md)
-  + [Review and activate a campaign](using/campaigns/review-activate-campaign.md)
-  + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
-  + Content experiment {#content-experiment}
-    + [Get started with content experiment](using/campaigns/get-started-experiment.md)
-    + [Create a content experiment](using/campaigns/content-experiment.md)
-    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
-    + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
-  + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-+ Messages {#messages}
-  + Get started with messages{#get-started-msg}
-    + [Overview](using/messages/get-started-content.md)
-    + [Add messages in journeys](using/messages/messages-in-journeys.md)
-    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
-  + [Create an email](using/messages/create-email.md)
-  + [Create a push notification](using/messages/create-push.md)
-  + [Create an SMS message](using/messages/create-sms.md)
-  + [Create a direct mail](using/messages/create-direct-mail.md)
-  + [Check alerts](using/messages/alerts.md)
-  + [Send time optimization](using/messages/send-time-optimization.md)
-+ Web channel{#web}
-  + [Get started with web channel](using/web/get-started-web.md)
-  + [Create web experiences](using/web/create-web.md)
-  + [Author web pages](using/web/author-web.md)
-  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
-  + [Web reporting](using/web/web-report.md)
-+ In-app channel{#in-app}
-  + [Get started with In-app channel](using/in-app/get-started-in-app.md)
-  + [Configure In-app channel](using/in-app/inapp-configuration.md)
-  + [Create an In-app message](using/in-app/create-in-app.md)
-  + [Design your In-app content](using/in-app/design-in-app.md)
-  + [In-app report](using/in-app/inapp-report.md)
-+ Design content {#design}
-  + [Get started with email design](using/design/design-emails.md)
-  + [Start from scratch ](using/design/create-email-content.md)
-  + [Import your email content](using/design/existing-content.md)
-  + [Code your own content](using/design/code-content.md)
-  + [Work with templates](using/design/email-templates.md)
-  + Content design {#design-content}
-    + [Use content components](using/design/content-components.md)
-    + [Background settings](using/design/backgrounds.md)
-    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
-    + [Define a style for links](using/design/styling-links.md)
-    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
-  + Email settings {#design-email}
-    + [Generate the text version](using/design/text-version-email.md)
-    + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}
-    + [Work with Assets Essentials](using/design/assets-essentials.md)
-    + [Work with Adobe Stock](using/design/stock.md)
-  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
-  + [Add links and track messages](using/design/message-tracking.md)
-  + [Preview and proofs](using/design/preview.md)
-+ Landing pages {#landing-pages}
-  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
-  + [Create a landing page](using/landing-pages/create-lp.md)
-  + Design content {#landing-pages-design}
-    + [About landing page design](using/landing-pages/design-lp.md)
-    + [Create the landing page content](using/landing-pages/lp-content.md)
-    + [Create templates](using/landing-pages/lp-templates.md)
-    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
-  + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Use cases](using/landing-pages/lp-use-cases.md)
-+ Personalization & dynamic content {#personalized-dynamic-content}  
-  + Personalization {#personalization}
-    + [Get started with personalization](using/personalization/personalize.md)
-    + [Personalization contexts](using/personalization/personalization-contexts.md)
-    + Build expressions {#build-expressions}
-      + [Personalization syntax](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-        + [Work with saved expressions](using/personalization/personalization-library.md)  
-        + [Personalization validation](using/personalization/personalization-validation.md)
-      + Helper functions{#functions}
-        + [Get started with helper functions](using/personalization/functions/functions.md)
-        + [Aggregation functions](using/personalization/functions/aggregation.md)
-        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-        + [Date functions](using/personalization/functions/dates.md)
-        + [Boolean and comparison functions](using/personalization/functions/operators.md)
-        + [Helpers](using/personalization/functions/helpers.md)
-        + [Map functions](using/personalization/functions/maps.md)
-        + [Object functions](using/personalization/functions/objects.md)
-        + [String functions](using/personalization/functions/string.md) 
-    + Use cases{#personalization-use-cases}    
-      + [Order status notification](using/personalization/personalization-use-case.md)
-      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
-  + Dynamic content {#dynamic}
-    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
-    + [Create conditional rules](using/personalization/create-conditions.md)
-    + [Create dynamic content](using/personalization/dynamic-content.md)
-+ Segments, profiles and identity{#segment}
-  + Segments {#segments}
-    + [Get started with segments](using/segment/about-segments.md)
-    + [Build segments](using/segment/creating-a-segment.md)
-  + Profiles{#profiles}
-    + [Get started with profiles](using/segment/get-started-profiles.md)
-    + [Create test profiles](using/segment/creating-test-profiles.md)
-  + [Identities](using/segment/get-started-identity.md)
-  + Compose audiences {#audience-orchestration}
-    + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
-    + [Create composition workflows](using/segment/create-compositions.md)
-    + [Work with the composition canvas](using/segment/composition-canvas.md)
-    + [Access and manage audiences](using/segment/access-audiences.md)
-  + [License usage](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -249,6 +141,114 @@ solution: Journey Optimizer
         + [upper](using/building-journeys/functions/functionupper.md)
         + [uuid](using/building-journeys/functions/functionuuid.md)
   + Use cases {#journey-use-cases}
++ Campaigns{#campaigns}
+  + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
+  + [Create a campaign](using/campaigns/create-campaign.md)
+  + [Review and activate a campaign](using/campaigns/review-activate-campaign.md)
+  + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
+  + Content experiment {#content-experiment}
+    + [Get started with content experiment](using/campaigns/get-started-experiment.md)
+    + [Create a content experiment](using/campaigns/content-experiment.md)
+    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
+    + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
+  + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
++ Messages {#messages}
+  + Get started with messages{#get-started-msg}
+    + [Overview](using/messages/get-started-content.md)
+    + [Add messages in journeys](using/messages/messages-in-journeys.md)
+    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
+  + [Create an email](using/messages/create-email.md)
+  + [Create a push notification](using/messages/create-push.md)
+  + [Create an SMS message](using/messages/create-sms.md)
+  + [Create a direct mail](using/messages/create-direct-mail.md)
+  + [Check alerts](using/messages/alerts.md)
+  + [Send time optimization](using/messages/send-time-optimization.md)
++ Web channel{#web}
+  + [Get started with web channel](using/web/get-started-web.md)
+  + [Create web experiences](using/web/create-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
+  + [Web reporting](using/web/web-report.md)
++ In-app channel{#in-app}
+  + [Get started with In-app channel](using/in-app/get-started-in-app.md)
+  + [Configure In-app channel](using/in-app/inapp-configuration.md)
+  + [Create an In-app message](using/in-app/create-in-app.md)
+  + [Design your In-app content](using/in-app/design-in-app.md)
+  + [In-app report](using/in-app/inapp-report.md)
++ Design content {#design}
+  + [Get started with email design](using/design/design-emails.md)
+  + [Start from scratch ](using/design/create-email-content.md)
+  + [Import your email content](using/design/existing-content.md)
+  + [Code your own content](using/design/code-content.md)
+  + [Work with templates](using/design/email-templates.md)
+  + Content design {#design-content}
+    + [Use content components](using/design/content-components.md)
+    + [Background settings](using/design/backgrounds.md)
+    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
+    + [Define a style for links](using/design/styling-links.md)
+    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
+  + Email settings {#design-email}
+    + [Generate the text version](using/design/text-version-email.md)
+    + [Add a preheader](using/design/preheader.md)
+  + Add and manage assets {#manage-asset}
+    + [Work with Assets Essentials](using/design/assets-essentials.md)
+    + [Work with Adobe Stock](using/design/stock.md)
+  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
+  + [Add links and track messages](using/design/message-tracking.md)
+  + [Preview and proofs](using/design/preview.md)
++ Landing pages {#landing-pages}
+  + [Get started with landing pages](using/landing-pages/get-started-lp.md)
+  + [Create a landing page](using/landing-pages/create-lp.md)
+  + Design content {#landing-pages-design}
+    + [About landing page design](using/landing-pages/design-lp.md)
+    + [Create the landing page content](using/landing-pages/lp-content.md)
+    + [Create templates](using/landing-pages/lp-templates.md)
+    + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
+  + [Create a subscription list](using/landing-pages/subscription-list.md)
+  + [Use cases](using/landing-pages/lp-use-cases.md)
++ Personalization & dynamic content {#personalized-dynamic-content}  
+  + Personalization {#personalization}
+    + [Get started with personalization](using/personalization/personalize.md)
+    + [Personalization contexts](using/personalization/personalization-contexts.md)
+    + Build expressions {#build-expressions}
+      + [Personalization syntax](using/personalization/personalization-syntax.md)
+      + Work with the Expression Editor {#expression-editor}
+        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+        + [Work with saved expressions](using/personalization/personalization-library.md)  
+        + [Personalization validation](using/personalization/personalization-validation.md)
+      + Helper functions{#functions}
+        + [Get started with helper functions](using/personalization/functions/functions.md)
+        + [Aggregation functions](using/personalization/functions/aggregation.md)
+        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+        + [Date functions](using/personalization/functions/dates.md)
+        + [Boolean and comparison functions](using/personalization/functions/operators.md)
+        + [Helpers](using/personalization/functions/helpers.md)
+        + [Map functions](using/personalization/functions/maps.md)
+        + [Object functions](using/personalization/functions/objects.md)
+        + [String functions](using/personalization/functions/string.md) 
+    + Use cases{#personalization-use-cases}    
+      + [Order status notification](using/personalization/personalization-use-case.md)
+      + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Dynamic content {#dynamic}
+    + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
+    + [Create conditional rules](using/personalization/create-conditions.md)
+    + [Create dynamic content](using/personalization/dynamic-content.md)
++ Segments, profiles and identity{#segment}
+  + Segments {#segments}
+    + [Get started with segments](using/segment/about-segments.md)
+    + [Build segments](using/segment/creating-a-segment.md)
+  + Profiles{#profiles}
+    + [Get started with profiles](using/segment/get-started-profiles.md)
+    + [Create test profiles](using/segment/creating-test-profiles.md)
+  + [Identities](using/segment/get-started-identity.md)
+  + [License usage](using/segment/license-usage.md)
+  + Compose audiences {#audience-orchestration}
+    + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
+    + [Create composition workflows](using/segment/create-compositions.md)
+    + [Work with the composition canvas](using/segment/composition-canvas.md)
+    + [Access and manage audiences](using/segment/access-audiences.md)
     + Business use cases {#business-use-cases}
         + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
         + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
@@ -448,6 +448,7 @@ solution: Journey Optimizer
   + [Attribute-based access control](using/administration/attribute-based-access.md)
   + [Object level access control](using/administration/object-based-access.md)
 + Privacy {#privacy}
+  + [Get started with privacy](using/privacy/get-started-privacy.md)
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)
   + Manage consent {#consent}

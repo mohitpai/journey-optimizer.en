@@ -22,24 +22,28 @@ The steps to configure a composition in the composition canvas are as follows:
 
 ## Select the starting audience {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Merge types"
->abstract="Specify how the profiles of the selected audiences should be merged."
-
 The first step to create a composition is to select one or multiple existing audiences as a basis of your composition.
 
-Select the **[!UICONTROL Audience]** activity then click the **[!UICONTROL Add audience]** button then select one or multiple audiences.
+1. Select the **[!UICONTROL Audience]** activity then provide a label for the activity.
+
+1. Choose the audience to target:
+
+    * Click the **[!UICONTROL Add audience]** button to select one or multiple existing audiences,
+    * Click the **[!UICONTROL Build rule]** button to create a new segment definition using the [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+    ![](assets/audiences-choose-audience.png)
+
+1. If multiple audiences are selected, specify how the profiles of these audiences should be merged:
+
+* **[!UICONTROL Union]**: include all profiles from the selected audiences,
+* **[!UICONTROL Intersection]**: include profiles that are common to all the selected audiences,
+* **[!UICONTROL Exclude overlap]**: include profiles that belong to one of the audiences only. Profiles belonging to more than one audiences will not be included.
 
 In this example, we want to target all profiles belonging to the gold and silver audiences.
 
 ![](assets/audiences-starting-audience.png)
 
-If you select multiple audiences, specify how the profiles of these audiences should be merged:
-
-* **[!UICONTROL Union]**: include all profiles from the selected audiences,
-* **[!UICONTROL Intersection]**: include profiles that are common to all the selected audiences,
-* **[!UICONTROL Exclude overlap]**: include profiles that belong to one of the audiences only. Profiles belonging to more than one audiences will not be included.
+Once audiences have been selected, the estimated number of profiles displays at the bottom of the activity.
 
 ## Add activites {#action-activities}
 
@@ -68,6 +72,11 @@ Available activites are:
 >id="ajo_ao_audience"
 >title="Audience activity"
 >abstract="The Audience activity allows you to include in your composition additional profiles belonging to an existing audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Merge types"
+>abstract="Specify how the profiles of the selected audiences should be merged."
 
 The **[!UICONTROL Audience]** activity allows you to include in your composition additional profiles belonging to an existing audience.
 
