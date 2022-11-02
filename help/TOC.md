@@ -35,7 +35,7 @@ solution: Journey Optimizer
   + Manage your journeys{#mannage-journey}
     + [End your journey](using/building-journeys/end-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
-    + [Profile entry management](using/building-journeys/entry-management.md)
+    + [Profile entrance management](using/building-journeys/entry-management.md)
     + [Copy a journey to another sandbox](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
