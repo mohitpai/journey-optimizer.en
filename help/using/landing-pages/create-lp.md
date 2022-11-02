@@ -182,7 +182,7 @@ To define the subpage settings, follow the steps below.
 
 ## Test the landing page {#test-landing-page}
 
-Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
+Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, using test profile data.
 
 >[!CAUTION]
 >

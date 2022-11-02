@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 
 # Get started with journeys{#jo-general-principle}
 
-Use [!DNL Journey Optimizer] to build real-time orchestration use cases leveraging contextual data stored in events or data sources.
+Use [!DNL Journey Optimizer] to build real-time orchestration use cases using contextual data stored in events or data sources.
 
 Design multistep advanced scenarios powered by following capabilities:
 
@@ -68,7 +68,7 @@ When you search for a journey, newest versions appear at the top of the list the
 
 >[!NOTE]
 >
->In most cases, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](end-journey.md).
+>Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](end-journey.md).
 
 If you need to modify to a live journey, create a new version of your journey.
 

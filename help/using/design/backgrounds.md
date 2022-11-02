@@ -19,7 +19,7 @@ exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
 1. Apply a background color to the body of your email if required by your design.
-1. In most cases, set background colors at the column level.
+1. Usually, set background colors at the column level.
 1. Try not to use background colors on image or text components as they are difficult to manage.
 
 Below are the available background settings that you can use.

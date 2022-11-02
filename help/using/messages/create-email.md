@@ -38,7 +38,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
-Adapt the content of your messages to the targeted profiles by leveraging [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
+Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 
 ## Email tracking{#email-tracking}
 
