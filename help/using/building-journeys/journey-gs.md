@@ -87,15 +87,9 @@ The **Copy technical details** allows you to copy technical information about th
 
 ### Entrance{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
+By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
-When a journey "ends", it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
-
-After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
-
->[!NOTE]
->
->Unitary journeys (starting with an event or a segment qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
+Learn more about profile entrance mannagement, in [this section](entry-management.md).
 
 ### Timeout and error in journey activities {#timeout_and_error}
 
