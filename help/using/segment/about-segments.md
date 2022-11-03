@@ -25,7 +25,7 @@ You can leverage segments in journeys in different ways:
 
 * Build **complex conditions** in your journeys using the simple or advanced expression editor. Learn more in [this section](../building-journeys/condition-activity.md#using-a-segment).
 
-## Audience evaluation method {#evaluation-method-in-journey-optimizer}
+## Audience evaluation methods{#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer, audiences are generated from segment definitions using one of these evaluation methods:
 
