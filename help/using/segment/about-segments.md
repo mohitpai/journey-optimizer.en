@@ -30,7 +30,7 @@ You can leverage segments in journeys in different ways:
 In Adobe Journey Optimizer, audiences are generated from segment definitions using one of these evaluation methods:
 
 * Streaming segmentation – the audience list for the segment is kept up-to-date in real time while new data flows into the system.
-* Batch segmentation – the audience list for the segment is updated on an hourly basis, based on data that has arrived in the past hour.
+* Batch segmentation – the audience list for the segment is evaluated every 24 hours. However, for existing segments, incremental segmentation keeps segments fresh for up to an hour.
 
 The determination between batch segmentation and streaming segmentation is made by the system for each segment definition, based on the complexity and the cost of evaluating the segment rule.
 
