@@ -6,8 +6,8 @@ description: Learn more on privacy in Adobe Journey Optimizer and Adobe Experien
 feature: Monitoring
 role: User
 level: Intermediate
+exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 ---
-
 # Get started with privacy {#privacy}
 
 Journey Optimizer is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. This is why privacy needs to be managed carefully.

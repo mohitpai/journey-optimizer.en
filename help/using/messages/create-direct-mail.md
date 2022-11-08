@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 ---
 # Create a direct mail message {#create-direct}
 

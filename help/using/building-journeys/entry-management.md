@@ -6,8 +6,8 @@ description: Learn how to manage profile entry
 feature: Journeys
 role: User
 level: Intermediate
+exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 ---
-
 # Profile entry management {#entry-management}
 
 By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.

@@ -7,6 +7,7 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 ---
 # Object level access control {#object-level-access}
 
@@ -87,6 +88,3 @@ To have access to this object, users will need to have the specific **[!UICONTRO
 For example, a user with the C1 label will only have access to C1 labeled or unlabeled objects.
 
 For more information on how to assign **[!UICONTROL Label]** to a **[!UICONTROL Role]**, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
-
-
-

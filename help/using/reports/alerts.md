@@ -7,7 +7,7 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 ---
 # Get Started with Alerts {#alerts}
 

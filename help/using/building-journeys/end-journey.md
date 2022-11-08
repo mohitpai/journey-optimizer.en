@@ -6,8 +6,8 @@ description: Learn how a journey ends in Journey Optimizer
 feature: Journeys
 role: User
 level: Beginner
+exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 ---
-
 # End a journey{#journey-ending}
 
 A journey can end for an individual in two specific contexts:
@@ -84,4 +84,3 @@ You can also:
 1. On the top-right, click on the down arrow.
    ![](assets/finish_drop_down_list.png)
 1. Click **[!UICONTROL Stop]**, and confirm in the dialog box.
-

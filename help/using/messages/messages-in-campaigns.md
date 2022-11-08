@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 12892db9-e778-48fe-90a3-5de51dc02e4d
 ---
-
 # Add messages in campaigns
 
 In your campaigns, select the channel to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push to your campaign, you can send it immediately or schedule the message.

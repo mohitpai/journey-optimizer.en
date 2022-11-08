@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 ---
 # Direct mail configuration {#direct-mail-configuration}
 

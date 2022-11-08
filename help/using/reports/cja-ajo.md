@@ -7,6 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 ---
 # Work with [!DNL Customer Journey Analytics] {#cja-ajo}
 

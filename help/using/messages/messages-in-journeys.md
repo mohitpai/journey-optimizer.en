@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 ---
-
 # Add messages in journeys{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]

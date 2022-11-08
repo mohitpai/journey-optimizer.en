@@ -7,8 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 ---
-
 # Work with conditional rules {#conditions}
 
 Conditional rules are sets of rules that define which content should be displayed in your messages, depending on various criteria like profiles' attributes, segment membership or contextual events.
