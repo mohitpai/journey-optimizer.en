@@ -216,6 +216,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </table>
 
 ### Experimentation metrics {#experimentation-metrics}
+
 <table> 
  <thead> 
   <tr> 
