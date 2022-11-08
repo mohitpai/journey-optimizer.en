@@ -215,7 +215,6 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
-<!--
 ### Experimentation metrics {#experimentation-metrics}
 <table> 
  <thead> 
@@ -298,7 +297,6 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr> 
 </tbody> 
 </table>
--->
 
 ### Push notification metrics
 
