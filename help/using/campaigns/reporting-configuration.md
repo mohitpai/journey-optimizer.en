@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure Journey Optimizer reporting for experimentation
 description: Learn how to set up reporting data source
 feature: Data Sources
@@ -19,7 +21,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Select a dataset"
->abstract="You can only select an event-type dataset which must contain at least one of the supported field groups: Application Details, Commerce Details, Web Details."
+>abstract="You can only select an event-type dataset, which must contain at least one of the supported field groups: Application Details, Commerce Details, Web Details."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 

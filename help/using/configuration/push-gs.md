@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with push configuration
 description: Understand push notification data flow and components
 topic: Mobile

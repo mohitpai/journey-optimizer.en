@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: General events
 description: Learn how to use general events
 feature: Journeys

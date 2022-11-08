@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toDuration
 description: Learn about the function toDuration
 feature: Journeys

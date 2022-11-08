@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Alerts in messages
 description: Learn how to check message content validation and troubleshoot
 feature: Journeys
@@ -39,7 +41,7 @@ The settings and elements checked by the system are listed below. You will also 
 
 **Warnings**:
 
-* **[!UICONTROL The opt-out link is not present in the email body]**: adding an unsubscription link into your email body is a best practice. Learn how to configure it in [this section](consent.md#opt-out-management).
+* **[!UICONTROL The opt-out link is not present in the email body]**: adding an unsubscription link into your email body is a best practice. Learn how to configure it in [this section](../privacy/opt-out.md#opt-out-management).
 
     >[!NOTE]
     >

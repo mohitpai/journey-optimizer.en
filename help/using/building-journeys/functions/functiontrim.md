@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: trim
 description: Learn about the function trim
 feature: Journeys

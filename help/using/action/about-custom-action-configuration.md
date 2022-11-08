@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Configure a custom action
 description: Learn how to configure a custom action
 feature: Actions
@@ -26,6 +27,13 @@ Custom actions come with a few limitations listed in [this page](../start/guardr
 In custom action parameters, you can pass a simple collection, as well as a collection of objects. Learn more about collection limitations in [this page](../building-journeys/collections.md#limitations). 
 
 Also note that the custom actions parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Learn more in this [use case](../building-journeys/collections.md).
+
+## Consent and data governance {#privacy}
+
+In Journey Optimizer, you can apply data governance and consent policies to your custom actions to prevent specific fields from being exported to third-party systems or exclude customers who have not consented to receive email, push or SMS communication. For more information, refer to the following pages:
+
+* [Data governance](../action/action.md).
+* [Consent](../action/action.md).
 
 
 ## Configuration steps {#configuration-steps}

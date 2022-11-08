@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get Started with Identities in Journey Optimizer
 description: Learn how to manage identities in Adobe Journey Optimizer
 feature: Profiles

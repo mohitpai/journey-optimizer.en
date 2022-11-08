@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: endWith
 description: Learn about the function endWith
 feature: Journeys

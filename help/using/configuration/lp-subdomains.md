@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure landing page subdomains
 description: Learn how to configure landing page subdomains with Journey Optimizer
 role: Admin
@@ -8,10 +10,9 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 # Configure landing page subdomains {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_config_lp_subdomain"
->title="Create a landing page preset"
->abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Create landing page presets"
+>id="ajo_admin_subdomain_lp_header"
+>title="Delegate a landing page subdomain"
+>abstract="You will be setting up your subdomain for a landing page use. You can use a subdomain that is already delegated to Adobe or configure another subdomain."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
@@ -19,9 +20,21 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 >abstract="You must configure a subdomain to use for your landing pages, as you will need this subdomain to create a landing page preset. You can use a subdomain already delegated to Adobe or configure a new subdomain."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Create landing page presets"
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain"
+>title="Create a landing page preset"
+>abstract="To be able to create a landing page preset, make sure you have previously configured at least one landing page subdomain to pick from the Subdomain name list."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Create landing page presets"
+
 To be able to [create landing page presets](lp-presets.md), you  must set up the subdomains you will use for your landing pages.
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>Landing page subdomain configuration is common to all environments. Therefore any modification to a landing page subdomain will also impact the production sandboxes.
+
+Note that capital letters should not be allowed in a subdomain
 
 ## Use an existing subdomain {#lp-use-existing-subdomain}
 
@@ -50,6 +63,8 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
     >[!NOTE]
     >
     >You cannot select a subdomain that is already used as landing page subdomain.
+    
+    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
     ![](assets/lp_prefix-and-subdomain.png)
 
@@ -93,6 +108,8 @@ To configure a new subdomain, follow the steps below.
     >[!CAUTION]
     >
     >You cannot use an existing landing page subdomain.
+    >
+    >Capital letters are not allowed in subdomains.
     
     Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     

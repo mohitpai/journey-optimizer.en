@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: limit
 description: Learn about the function limit
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Time zone management
 description: Learn about time zone management
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Landing page use cases
 description: Discover the most common use cases with landing pages in Journey Optimizer
 feature: Landing Pages
@@ -83,7 +85,7 @@ All the users who registered for your event will receive the confirmation email.
 
 To enable your recipients to unsubscribe from your communications, you can include a link to an opt-out landing page into your emails.
 
-Learn more on managing your recipients' consent and why this is important in [this section](../messages/consent.md).
+Learn more on managing your recipients' consent and why this is important in [this section](../privacy/opt-out.md).
 
 ### Opt-out management {#opt-out-management}
 
@@ -160,9 +162,65 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
--->
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
+
+////////
+
+
+## Leverage landing page submission event {#leverage-lp-event}
+
+You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+
+To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
+
+    ![](assets/lp_subscription-uc-configurations.png)
+
+1. The list of events displays. Select **[!UICONTROL Create Event]**.
+
+    ![](assets/lp_subscription-uc-create-event.png)
+
+1. The event configuration pane opens on the right side of the screen. Configure a rule-based unitary event. [Learn more](../event/about-creating.md)
+
+1. Define the schema: select **[!UICONTROL AJO Email Tracking Experience Event Schema v.1]** (available by default in [!DNL Journey Optimizer]).
+
+    ![](assets/lp_subscription-uc-event-schema.png)
+
+1. In the **[!UICONTROL Fields]** section, select the following elements:
+
+    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Interaction Type]**
+    
+    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Landing Page Details]** > **[!UICONTROL Landing Page ID]**
+
+    ![](assets/lp_subscription-uc-event-fields.png)
+
+1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
+
+    ![](assets/lp_subscription-uc-event-id-condition.png)
+
+    >[!NOTE]
+    >
+    >To find the landing page ID, you can insert the landing page as a link into an email and select the source code from the contextual toolbar to display the landing page information.
+    >
+    >![](assets/lp_subscription-uc-lp-id.png)
+
+1. Save your changes.
+
+1. Create a [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
+
+    ![](assets/lp_subscription-uc-event-create-journey.png)
+
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+
+    ![](assets/lp_subscription-uc-journey-event.png)
+
+1. Unfold the **[!UICONTROL Actions]** category and drop an email action into the canvas.
+
+    ![](assets/lp_subscription-uc-journey-email.png)
+
+///How do you use the information from the event to send an email to the users? -->

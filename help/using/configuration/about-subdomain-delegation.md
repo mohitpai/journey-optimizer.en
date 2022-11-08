@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Subdomain delegation in [!DNL Journey Optimizer]
 description: Learn how to delegate your subdomains
 feature: Application Settings

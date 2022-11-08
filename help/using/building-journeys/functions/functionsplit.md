@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: split
 description: Learn about the function split
 feature: Journeys

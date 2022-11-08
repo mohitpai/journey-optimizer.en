@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with journeys
 description: Key steps to build your first journey with Adobe Journey Optimizer
 feature: Journeys
@@ -75,7 +77,7 @@ Here are the main steps to send messages through journeys:
 
 Click on the pencil icon, in the top right to access the journey's properties.
 
-You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and, as an Admin user, define a **[!UICONTROL Timeout and error]** duration. If enabled for your organization, you can also activate [burst messaging](#burst).
+You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and, as an Admin user, define a **[!UICONTROL Timeout and error]** duration. 
 
 For live journeys, this screen displays the publication date and the name of the user who published the journey.
 
@@ -85,11 +87,9 @@ The **Copy technical details** allows you to copy technical information about th
 
 ### Entrance{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
+By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
-When a journey "ends", it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
-
-After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+Learn more about profile entrance mannagement, in [this section](entry-management.md).
 
 ### Timeout and error in journey activities {#timeout_and_error}
 
@@ -121,31 +121,8 @@ If a time zone is defined in Adobe Experience Platform profile, it can be retrie
 
 For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
 
-### Burst mode {#burst}
+### Manage access {#access}
 
-Burst mode is a Journey Optimizer add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a **Read segment** activity and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+To assign custom or core data usage labels to the journey, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
 
-Burst messaging comes with the following requirements:
-
-* The journey must start with a **Read segment** activity. Events are not allowed.
-* The next step must be a push message. No other channel, activity or step is allowed.
-* No personalization is allowed in the push message.
-* The message must be small (<2KB).
-
->[!CAUTION]
->
->If any of the requirements is not fulfilled, burst mode will not be available in the journey.
-
-To activate **Burst mode**, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
-
-![](assets/burst.png)
-
-Burst mode is automatically deactivated if you modify a burst journey and add an activity that is not compliant with burst messaging, such as an email message, any other action, an event etc.
-
-![](assets/burst2.png)
-
-Then test and publish your journey as usual. Note that, in test mode, messages are not sent via the burst mode.
-
-Understand the applicable use cases for burst messaging, and how to configure a journey for burst messages, in this video:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

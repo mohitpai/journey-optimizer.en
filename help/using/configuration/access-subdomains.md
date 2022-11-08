@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Access delegated subdomains
 description: Learn how to access delegated subdomains.
 feature: Application Settings
@@ -20,10 +22,17 @@ The **[!UICONTROL Status]** column provides information on the subdomain delegat
 * **[!UICONTROL Success]**: The subdomain has gone through the checks successfully and can be used to deliver messages,
 * **[!UICONTROL Failed]**: One or several checks have failed after the subdomain delegation was submitted.
 
-To access detailed information about a subdomain, open it from the list. You can:
+To access detailed information about a subdomain with the **[!UICONTROL Success]** status, open it from the list.
+
+![](assets/subdomain-delegated.png)
+
+You can:
     
 * Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror pages, tracking URLs),
 
 * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
-    
-![](assets/subdomain-delegated.png)
+
+
+>[!CAUTION]
+>
+>Subdomain configuration is common to all environments. Therefore any modification to a subdomain will also impact the production sandboxes.

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalize content in Journey Optimizer
 description: Get Started with personalization.
 feature: Personalization

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Use email designer content components
 description: Learn how to use content components in your emails
 feature: Overview
@@ -10,9 +12,24 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 # Use the Email designer content components {#content-components}
 
 >[!CONTEXTUALHELP]
->id="ac_content_components"
+>id="ac_content_components_email"
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
 
 When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
@@ -68,8 +85,7 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
-
-1. For a better user experience, you can add personalization fields to target your audience. For more on this, refer to this [section](../personalization/personalize.md).
+    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles. [Learn more about dynamic content](../personalization/get-started-dynamic-content.md).
 
 1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
 
@@ -126,10 +142,24 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 ## Video {#Video}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_video"
+>id="ac_edition_video_email"
 >title="Video settings"
 >abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Additional info"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="Video settings"
+>abstract="Use this component to insert a video in your landing page. Note that videos do not work on all message clients. We advise to set a fallback image."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="Video settings"
+>abstract="Use this component to insert a video in your fragment. Note that videos do not work on all message clients. We advise to set a fallback image."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="Video settings"
+>abstract="Use this component to insert a video in your template. Note that videos do not work on all message clients. We advise to set a fallback image."
 
 Use the **[!UICONTROL Video]** component to insert a video in your email through an URL link.
 
@@ -173,7 +203,7 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 ## Offer Decision {#offer-decision}
 
-Use the **[!UICONTROL Offer decision]** component to insert decisions into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
+Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
 
 Related topics:
 

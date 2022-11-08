@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: length
 description: Learn about the function length
 feature: Journeys

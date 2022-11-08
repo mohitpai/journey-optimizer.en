@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create an SMS message
 description: Learn how to create an SMS message in Journey Optimizer
 feature: Overview
@@ -15,6 +17,10 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >abstract="Add your text message and start personalizing it with the Expression editor."
 
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
+
+>[!NOTE]
+>
+>In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS deliveries can be created:
 
@@ -36,7 +42,7 @@ To start personalizing your SMS message, follow these steps:
 
     ![](assets/sms-content.png)
 
-1. Use the Expression editor to define content. You can use any attribute to personalize content, such as the profile name or city. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md).
+1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
 1. Click **[!UICONTROL Save]** and check your message in the preview.
 
@@ -48,24 +54,13 @@ To start personalizing your SMS message, follow these steps:
 >
 > For better deliverability, you should always use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
 
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
+Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, using test profile data.
 
 To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Opt-in and opt-out{#sms-opt-in-out}
-
-For all marketing messages, the SMS must contain a way for the recipients to easily unsubscribe. Once unsubscribed, the profiles are automatically removed from the audience of future marketing messages. Adding an unsubscription link is not mandatory for transactional messages.
-
-SMS recipients can reply with opt-in and opt-out keywords. In accordance with the industry standards and regulations, Adobe Journey Optimizer automatically processes the following keywords in incoming messages: START, STOP, and UNSTOP. These keywords trigger automatic standard replies from the SMS provider.
-
-To learn more on how native inbound keyword support (start, stop and unstop) works for SMS, refer to the following video.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

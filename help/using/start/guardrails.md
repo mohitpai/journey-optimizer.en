@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer guardrails and limitations
 description: Learn more about Journey Optimizer guardrails
 feature: Journeys
@@ -39,8 +41,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received.
 * The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](../building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * You cannot place two actions in parallel, you must add them one after the other.
-* There's a technical limitation in journeys today that prevent a profile to be present multiple times in the same journey, at the same time. A profile can still reenter a journey (based on a setting), but cannot do it until he fully exited that previous instance of the journey.
-* In most cases, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](../building-journeys/journey-end.md)
+* Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](../building-journeys/end-journey.md)
 
 ### Journey versions {#journey-versions-g}
 
@@ -62,6 +63,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
 * Business events cannot be used in conjunction with unitary events or segment qualification activities.
+* Unitary journeys (starting with an event or a segment qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
 
 ### Data sources {#data-sources-g}
 
@@ -83,3 +85,8 @@ You can choose from one of these two solutions:
 
 * Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.
 * For journeys using a Read Segment activity, there is a maximum number of journeys that can start at the exact same time. Retries will be performed by the system but please avoid having more than five journeys (with Read Segment, scheduled or starting "as soon as possible") starting at the exact same time by spreading them over time, for example 5 to 10 minutes apart.
+
+### Expression editor {#expression-editor}
+
+* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
+

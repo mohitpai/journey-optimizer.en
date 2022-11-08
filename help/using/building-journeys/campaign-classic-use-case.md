@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Send a message using Campaign v7/v8
 description: Learn how to send a message using Campaign v7/v8
 feature: Actions

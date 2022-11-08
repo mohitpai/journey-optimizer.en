@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: updateTimeZone
 description: Learn about the function updateTimeZone
 feature: Journeys

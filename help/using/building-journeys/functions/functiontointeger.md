@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toInteger
 description: Learn about the function toInteger
 feature: Journeys

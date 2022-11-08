@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Publish the journey
 description: Learn how to publish a journey
 feature: Journeys
@@ -13,7 +15,7 @@ You can publish a journey after testing its validity.
 
 ➡️ [Discover this feature in video](#video)
 
-If you need to make modifications to a published journey, you need to create a new version of your journey. See [this page](../building-journeys/journey-versions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
+If you need to make modifications to a published journey, you need to create a new version of your journey. See [this page](../building-journeys/journey.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
 
 If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
 

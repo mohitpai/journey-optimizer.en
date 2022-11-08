@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Sandboxes management
 description: Learn how to manage sandboxes
 feature: Sandboxes

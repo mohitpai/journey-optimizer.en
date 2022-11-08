@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Dataset query examples
 description: Dataset query examples
 feature: Reporting
@@ -18,6 +20,7 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 [Decisioning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
 [Consent Service Dataset](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC Feedback Event Dataset](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Entity Dataset](../start/datasets-query-examples.md#entity-dataset)
 
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
@@ -152,6 +155,7 @@ group by _experience.customerJourneyManagement.pushChannelContext.platform
 select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
+
 ## Journey Step Event{#journey-step-event}
 
 _Internal name: Journey Step Events (system dataset)_
@@ -294,4 +298,73 @@ WHERE
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
             mfe._experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category = 'async' AND 
             mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus
+```
+
+## Entity Dataset{#entity-dataset}
+
+_Name in the interface: ajo_entity_dataset (system dataset)_
+
+Dataset to store entity metadata for messages sent to the end user.
+
+The related schema is AJO Entity Schema.
+
+This dataset gives you access to marketer defined metadata which allows you to get better reporting insights when Journey Optimizer datasets are exported out for reporting visualization in external tools. This is achieved using the messageID attribute which helps stitch various datasets such as Message Feedback Dataset and Experience Event Tracking Datasets to get details of a message delivery from sending to tracking at a profile level.
+
+**Important notes**
+
+* An entry for a message is created only after journey or campaign is published.
+
+* You may see the entry 30 minutes after the publication of the campaign/journey.
+
+>[!NOTE]
+>
+>For the time being, there are two entries for each message publication in the entity dataset for future compatibility reasons. This does not impact your ability to use join queries as needed across datasets to fetch the desired information.
+
+The following query helps you get the associated message template for a given campaign:
+
+```sql
+SELECT
+  AE._experience.customerJourneyManagement.entities.channelDetails.template
+from
+  ajo_entity_dataset AE
+    WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
+```
+
+The following query helps get the Journey Details and email subject associated with all feedback events:
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
+```
+
+You can stitch journey step events, Message Feedback and tracking datasets to get the stats for a particular profile:
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.PROFILEID,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF 
+    ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+    INNER JOIN journey_step_events JE
+    ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```

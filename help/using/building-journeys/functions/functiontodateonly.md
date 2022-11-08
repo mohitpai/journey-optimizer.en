@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toDateOnly
 description: Learn about the function toDateOnly
 feature: Journeys
@@ -9,7 +9,7 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 ---
 # toDateOnly{#toDateOnly}
 
-Converts an argument value into a date only value.
+Converts an argument into a dateOnly type value. To learn more on data types, refer to this [section](../expression/data-types.md).
 
 ## Category
 
@@ -23,19 +23,33 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| date in ISO-8601 or "YYYY-MM-DD" format (XDM Date format) | string |
-| date | date |
+| String representation of a date as "YYYY-MM-DD" (XDM format). Also supports ISO-8601 format: only **full-date** part is considered (Refer to [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| date time | dateTime|
+| date time without time zone | dateTimeOnly|
+| integer value of an epoch in milliseconds| integer |
 
 ## Signatures and returned types
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-Return a datetime without considering time zone.
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+Returns a dateOnly type value.
 
 ## Examples
 
 `toDateOnly("2016-08-18")`
 
-returns a dateOnly object representing 2016-08-18.
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+all return a dateOnly object representing 2016-08-18.
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+Returns a dateOnly.

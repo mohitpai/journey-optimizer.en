@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Add messages in journeys
 description: Learn how to add messages in a journey
 feature: Overview
@@ -19,14 +21,14 @@ level: Beginner
 >title="Channel surface"
 >abstract="A channel surface is an instance of that channel that has all the settings to deliver an action successfully via a campaign or a journey. It is defined by a system administrator."
 
-In your journeys, use the channel actions to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push action to the journey canevas, you are creating a triggered send. When contacts reach that channel action, Adobe Journey Optimizer automatically sends the message.
+In your journeys, use the channel actions to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push action to the journey canvas, you are creating a triggered send. When contacts reach that channel action, Adobe Journey Optimizer automatically sends the message.
 
 
 >[!NOTE]
 >You can also create campaigns to send scheduled messages. Learn more [in this section](../campaigns/get-started-with-campaigns.md).
 
 
-To add messages in a journey, add a push, SMS or email activity in the journey canevas. 
+To add messages in a journey, add a push, SMS or email activity in the journey canvas. 
 
 1. Start your journey with an [Event](../building-journeys/general-events.md) or a [Read Segment](../building-journeys/read-segment.md) activity.
 
@@ -38,15 +40,13 @@ To add messages in a journey, add a push, SMS or email activity in the journey c
 
 1. Select the message **[!UICONTROL Category]**: choose **Marketing** for commercial messages, or **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information.
 
-   >[!CAUTION]
-   >
-   >If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
-
    ![](assets/inline-message-category.png)
-
+   
    >[!CAUTION]
    >
-   >Marketing-type messages must include an [opt-out link](../messages/consent.md#opt-out-management). This is not required for transactional messages as these messages can be sent to profiles who unsubscribed from marketing communications.
+   >* If you defined [frequency rules](../configuration/frequency-rules.md) for a specific channel and category, they are automatically applied to the message upon selecting that channel and category. Currently only the **[!UICONTROL Marketing]** category is available for frequency rules.
+   >
+   >* Marketing messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management). This is not required for transactional messages as these messages can be sent to profiles who unsubscribed from marketing communications.
 
 1. Select the channel **[!UICONTROL Surface]** (i.e. message preset) to use to send your message. 
 
@@ -76,7 +76,7 @@ Use **[!UICONTROL Send-time optimization]** to schedule personalized send times 
 
 Advanced parameters are read-only and hidden by default. 
 
-To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane. Click the same icon to hide advanced settings.
 
 ![](assets/show-read-only.png)
 
@@ -86,14 +86,20 @@ For push notifications, you can display the following parameters: Token, AppID, 
 
 ![](assets/push-adv-parameters.png)
 
-For email, you can display the primary email address.
+For email, you can display the [primary email address](../configuration/primary-email-addresses.md).
 
-For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+In specific contexts, you can override these values for specific use. To force a value, click the **[!UICONTROL Enable parameter override]** icon to the right of the field.
 
-* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+![](assets/email-adv-parameters.png)
+
+This option may be useful for example to:
+
+* Test an email. You can add your email address; after you have published the journey, the email is sent to you.
 * Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
 
-Click the same icon to hide advanced settings.
+>[!NOTE]
+>
+>Email address override should only be used for specific use cases. Most of the time, you do not need to change the email address because the value defined as the primary address in the **[!UICONTROL Execution fields]** is the one that should be used. [Learn more](../configuration/primary-email-addresses.md)
 
 ## Browse messages{#browse-message}
 
@@ -117,7 +123,7 @@ To perform this, follow the steps below:
 
 1. Enter **crtl+V** to paste the message.
 
-   The message is added to the journey canevas. All settings and configuration will be copied to the new message.
+   The message is added to the journey canvas. All settings and configuration will be copied to the new message.
 
    ![](assets/message-duplicated.png)
 

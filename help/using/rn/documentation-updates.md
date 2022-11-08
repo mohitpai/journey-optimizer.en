@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Documentation Updates
 description: Learn about latest documentation updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
@@ -6,6 +8,28 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 # Documentation updates {#latest-updates}
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
+
+## October 2022 {#october-2022}
+
+* Added a journey use case on how to limit throughput using External Data Sources and Custom Actions. [Read more](../building-journeys/limit-throughput.md)
+* The journey use case section has been reorganized into two categories: [Business use cases](../building-journeys/journeys-uc.md) and [Technical use cases](../building-journeys/collections.md).
+* The **Entity Dataset** section has been updated with more details. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+* Information related to opt-out management and consent policies have been reorganized into a new section. [Read more](../privacy/opt-out.md)
+* The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../messages/messages-in-journeys.md#adv-settings)
+* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../configuration/lp-subdomains.md)
+
+## September 2022 {#september-2022}
+
+* All new features and improvements coming with [!DNL Journey Optimizer] September '22 release have been detailed in the documentation. [Read more](release-notes.md)
+* Added a best practice related to the use of wait activities in recurring read segment journeys. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Added new step event query examples as well as information on the difference between id, instanceid and profileid. [Read more](../reports/query-examples.md).
+* Updated the pages related to the [toDateOnly](../building-journeys/functions/functiontodateonly.md) and [toString](../building-journeys/functions/functiontostring.md) functions.
+* Added details on the time condition parameters. [Read more](../building-journeys/condition-activity.md#time_condition)
+* Added information on built-in datasets. [Read more](../start/get-started-datasets.md#access-datasets)
+* The Global report and Live report sections have been reorganized for improved readability. [Read more](../reports/global-report.md)
+* A list of every reporting metric available in Adobe Journey Optimizer has been added.
+[Read more](../reports/global-report.md#email-and-sms-metrics)
+* The BCC email section has been moved to the new Support for archiving page. [Read more](../configuration/archiving-support.md)
 
 ## August 2022 {#august-2022}
 
@@ -30,11 +54,10 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## June 2022 {#june-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] June '22 release have been detailed in the documentation. [Read more](release-notes.md)
-* A new section about Data usage policies has been added to the documentation. [Read more](../privacy/policies.md)
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey-end.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md#journey-versions)
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../start/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
@@ -89,7 +112,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new section on the schema requirements needed to be able to send in event types when using a ranking strategy has been added. [Read more](../offers/ranking/schema-requirement.md)
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
-* The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../messages/consent.md#opt-out-management)
+* The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../privacy/opt-out.md#opt-out-management)
 * The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../design/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
@@ -153,7 +176,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the Enable the allow list section. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](../configuration/retries.md#retry-duration)
-* Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../messages/consent.md#one-click-opt-out-link)
+* Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](../privacy/opt-out.md#one-click-opt-out-link)
 * Updated the Delegate a subdomain section with more detailed information on the validation process performed by Adobe. [Read more](../configuration/delegate-subdomain.md#subdomain-validation)
 * Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Updated the [Access the suppression list](../configuration/manage-suppression-list.md#access-suppression-list) section and [Retries](../configuration/retries.md) sections to reflect the new user interface.

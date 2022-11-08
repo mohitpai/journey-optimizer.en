@@ -26,6 +26,7 @@ The `countOnlyNull` function is used to count the number of null values in a lis
 ```sql
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
+
 Returns 3.
 
 ## Count With Null {#count-with-null}
@@ -63,6 +64,7 @@ The following operation specifies people who have placed orders in more than one
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+
 ## Distinct Count With Null {#distinct-count-with-null}
 
 The `distinctCountWithNull` function is used to count the number of different values in a list including the null values.

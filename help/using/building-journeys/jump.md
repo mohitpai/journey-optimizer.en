@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Jumping from one journey to another
 description: Jumping from one journey to another
 feature: Journeys

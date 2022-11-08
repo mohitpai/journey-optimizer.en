@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Start journey execution
 description: Learn how to start your journey and send messages
 ---

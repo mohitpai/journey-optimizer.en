@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Data usage policies
 description: Learn more on data usage policies and the Data Governance service.
 feature: Monitoring
@@ -7,6 +9,7 @@ level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 ---
 # Data usage policies {#Policies}
+
 
 With Adobe Experience Platform **Data Governance service**, you can enforce data usage restrictions through the use of labels, marketing actions, and policies.
 

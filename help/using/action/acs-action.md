@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Integrate with Adobe Campaign Standard
 description: Learn how to integrate with Adobe Campaign Standard
 feature: Actions

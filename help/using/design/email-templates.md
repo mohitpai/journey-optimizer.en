@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Work with email templates
 description: Learn how to save your email content as a template and reuse it in Journey Optimizer
 feature: Overview
@@ -18,6 +20,11 @@ You can choose from:
 * Saved templates. [Learn more](#save-as-template)
 
 ## Save as template {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Learn how to migrate your messages"
+>abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 
 Once you designed your [email content](design-emails.md), you can save it for future reuse. To do this, follow the steps below.
 

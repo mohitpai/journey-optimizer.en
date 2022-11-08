@@ -1,16 +1,15 @@
 ---
 solution: Journey Optimizer
-title: Consent
-description: Consent
+product: journey optimizer
+title: Work with consent policies
+description: Learn how to work with Adobe Experience PLatform consent policies
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
-# Consent management (beta) {#consent-management}
+# Work with consent policies {#consent-management}
 
 Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -18,7 +17,7 @@ In Journey Optimizer, you can apply these consent policies to your custom action
 
 >[!NOTE]
 >
->This feature is released as a private beta. It is not available to all Journey Optimizer customers.
+>Consent policies are currently only available for organizations that have purchased the Healthcare Shield add-on offering.
 
 In Journey Optimizer, consent is defined at several levels:
 
@@ -33,8 +32,8 @@ With consent management, two journey activities are analyzed:
 
 * Read segment: the retrieved segment is taken into account.
 * Custom action: consent management takes into account the attributes used ([action parameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) as well as the  marketing action(s) defined (required marketing action and additional marketing action).
-
-Consent only applies when a marketing action (required or additional) is set at the custom action level. 
+* Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
+* Consent policies only apply when a marketing action (required or additional) is set at the custom action level. 
 
 All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
 

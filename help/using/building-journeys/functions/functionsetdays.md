@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: setDays
 description: Learn about the function setDays
 feature: Journeys

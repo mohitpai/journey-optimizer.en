@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Set up channel surfaces
 description: Learn how to configure and monitor channel surfaces
 feature: Application Settings
@@ -9,7 +11,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Set up channel surfaces {#set-up-channel-surfaces}
 
-With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, and more. 
+With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, SMS configuration, and more. 
 
 >[!CAUTION]
 >
@@ -17,7 +19,7 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 >
 > * You must perform the [Email configuration](#configure-email-settings), [Push configuration](../configuration/push-configuration.md) and [SMS configuration](../configuration/sms-configuration.md) steps before creating channel surfaces.
 
-Once channel surfaces have been configured, you will be able to select them when creating messages from a journey.
+Once channel surfaces have been configured, you will be able to select them when creating messages from a journey or a campaign.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -26,9 +28,14 @@ Once channel surfaces have been configured, you will be able to select them when
 ## Create a channel surface {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Channel surface settings"
+>abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your sending, such as email type, sender name, mobile apps, SMS configuration, and more."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="When setting up a channel surface, select the channel it applies to, and define all the technical parameters required for your messages, such as message type, subdomain, sender name, mobile apps, and more."
+>abstract="To be able to create actions such as emails from a journey or a campaign, you must first create a channel surface that defines all the technical settings required for your messages. You must have the Manage channel surface permission to create, edit and delete channel surfaces."
 
 To create a channel surface, follow these steps:
 
@@ -76,7 +83,10 @@ To create a channel surface, follow these steps:
     
 1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+    During this step, several checks will be performed to verify that it has been configured properly. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+    >[!NOTE]
+    >When creating the first email surface for a given subdomain, the processing time can take **10 minutes to 10 days**. If the selected subdomain is already used in another email surface, it will take only up to 3 hours.
 
     These checks include configuration and technical tests that are performed by the Adobe team:
 
@@ -87,6 +97,7 @@ To create a channel surface, follow these steps:
     * Helo host check
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
+    * FBL registration (this check will be performed only the first time an email surface is created for a given subdomain)
 
     >[!NOTE]
     >
@@ -124,7 +135,7 @@ If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe
     * Blocklisting of the allocated IPs
     * Invalid `helo` name
     * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+    * Unable to deliver emails to inboxes of major ISPs
 
 ## Edit a channel surface {#edit-channel-surface}
 

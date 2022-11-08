@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: SMS configuration
-description: Learn how to configure your environment to send SMS messages with Journey Optimizer
+description: Learn how to configure your environment to send SMS with Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
@@ -19,13 +21,19 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 ## Create new API credential {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="Select the SMS Vendor configuration"
+>id="ajo_admin_sms_api_header"
+>title="Configure your SMS vendor with Journey Optimizer"
 >abstract="Select your vendor and fill in your SMS API credentials."
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configure your SMS vendor with Journey Optimizer"
+>abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Select the SMS Vendor configuration"
+>title="Select the SMS vendor configuration"
 >abstract="Select the API credentials configured for your SMS vendor."
 
 To configure your SMS vendor with Journey Optimizer, follow these steps:
@@ -55,7 +63,7 @@ After creating and configuring your API credential, you now need to create a cha
 >id="ajo_admin_surface_sms_type"
 >title="Define the SMS category"
 >abstract="Select the type of SMS messages that will be sent when using this surface: Marketing for promotional SMS messages, which require user consent, or Transactional for non-commercial SMS messages, that can also be sent to unsubscribed profiles in specific contexts."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Opt-out in marketing SMS messages"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Opt-out in marketing SMS messages"
 
 Once your SMS channel has been configured, you need to create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
 

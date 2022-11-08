@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Create an email
 description: Learn how to create an email in Journey Optimizer
 feature: Overview
@@ -35,6 +37,8 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 [!DNL Journey Optimizer] comes with a set of [built-in templates](../design/email-templates.md) to help you start. Any email can also be saved as a template.
 
 Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+
+Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 
 ## Email tracking{#email-tracking}
 

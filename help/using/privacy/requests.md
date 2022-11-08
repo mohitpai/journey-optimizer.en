@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Privacy requests
 description: Learn more on privacy requests and the Privacy Service.
 feature: Monitoring

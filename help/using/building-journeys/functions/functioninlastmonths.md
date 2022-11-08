@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inLastMonths
 description: Learn about the function inLastMonths
 feature: Journeys

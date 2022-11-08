@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Get started with campaigns
 description: Learn more about campaigns in [!DNL Journey Optimizer]
 feature: Overview
@@ -16,18 +18,16 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 
 Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule.
 
-Create campaigns to send simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+You can create two types of campaigns:
+
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.
 
 The main steps to create a campaign are as follows:
 
 ![](assets/create-campaign-process.png)
 
 ➡️ [Discover this feature in video](#video)
-
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Before starting {#campaign-prerequisites}
 
@@ -66,7 +66,9 @@ Check the following prerequisites before starting creating your first campaign i
 
 Campaigns are accessible from the **[!UICONTROL Campaigns]** menu.
 
-By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses. To display stopped, completed, and archived campaigns, you need to clear the filter.
+By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses.
+
+To display stopped, completed, and archived campaigns, you need to clear the filter.
 
 ![](assets/create-campaign-list.png)
 
@@ -78,9 +80,9 @@ Campaigns can have multiple statuses:
 * **[!UICONTROL Activating]**: The campaign is being activated.
 * **[!UICONTROL Live]**: The campaign has been activated.
 * **[!UICONTROL Scheduled]**: The campaign is configured to be activated on a specific start date.
-* **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn more](modify-stop-campaign.md#stop)
+* **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn how to stop a campaign](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: The campaign is complete. This status is automatically assigned 3 days after a campaign has been activated, or at the campaign's end date if it has a recurring execution.
-* **[!UICONTROL Archived]**: The campaign has been archived.
+* **[!UICONTROL Archived]**: The campaign has been archived. [Learn how to archive campaigns](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

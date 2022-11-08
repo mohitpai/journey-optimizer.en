@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Previous Release notes (2021)
 description: Journey Optimizer 2021 Release notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
@@ -264,7 +266,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Content Design**
 
 * **Background** - Background images are now supported in live preview. [Learn more](../design/preview.md)
-* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalization**
 

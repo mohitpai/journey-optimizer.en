@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Attribute-based access control
 description: Learn about Attribute-based access control
 feature: Access Management
@@ -11,7 +13,7 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 
 >[!IMPORTANT]
 >
->The use of Attribute-based access control is currently only available for a set of organizations (Limited Availability). If you want to leverage this feature, contact your Adobe account executive.
+>The use of Attribute-based access control is currently restricted to selected customers, and will be deployed to all environments in a future release.
 
 Attribute-based access control (ABAC) lets you define authorizations to manage data access for specific teams or groups of users. Its purpose is to protect sensitive digital assets from unauthorized users allowing further protection of personal data. 
 
@@ -36,7 +38,7 @@ Note that **[!UICONTROL Roles]**, **[!UICONTROL Policies]** and **[!UICONTROL Pr
 >Before managing permissions for a role, you will first need to create a policy. For more on this, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
 
 **[!UICONTROL Roles]** are a set of users that share the same permissions, labels and sandboxes within your organization. Each user belonging to a **[!UICONTROL Role]** is entitled with the Adobe apps and services contained in the product.
-You can also create your own **[!UICONTROL Roles]** if you want to fine-tune your users’ access to certain functionalities or objects in the interface.
+You can also create your own **[!UICONTROL Roles]** if you want to fine-tune your users' access to certain functionalities or objects in the interface.
 
 We now want to grant selected users access to the **Nationality** field, labeled C2. To do so, we need to create a new **[!UICONTROL Role]** with a specific set of users and grant them the label C2 allowing them to use the **Nationality** details in a **[!UICONTROL Journey]**.
 
@@ -119,7 +121,7 @@ For our example, a first user X with access to objects labeled C2 will create a 
 
     ![](assets/journey_1.png)
 
-1. Add a new **[!UICONTROL Field group]** of your newly created **[!UICONTROL Schema]** to the built-in **[!UICONTROL Data source]**. You can also create a new external **[!UICONTROLDdata source]** and associated **[!UICONTROL Field groups]**.
+1. Add a new **[!UICONTROL Field group]** of your newly created **[!UICONTROL Schema]** to the built-in **[!UICONTROL Data source]**. You can also create a new external **[!UICONTROL data source]** and associated **[!UICONTROL Field groups]**.
 
     ![](assets/journey_2.png)
 

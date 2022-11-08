@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer Get started for Marketers
 description: As a Journey Practicioner, learn more how to work with Journey Optimizer
 level: Intermediate
@@ -12,7 +14,7 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Create segments**. Journey Optimizer allows you to create audience segments directly from the **Segments** menu, and leverage them into your journeys.  Learn more about segments [in this page](../../segment/about-segments.md). Discover how to build segments [in this sample](../../segment/creating-a-segment.md).
 
-1. **Add personalization**. Leverage Journey Optimizer personalization capabilities to adapt your message to your audience. Learn more about personalization [in this section](../../personalization/personalize.md).
+1. **Add personalization and dynamic content**. Leverage Journey Optimizer personalization and dynamic content capabilities to adapt your message to your audience. Learn more about [personalization](../../personalization/personalize.md) and [dynamic content](../../personalization/get-started-dynamic-content.md).
 
     ![](../assets/perso_ee2.png)
     
@@ -22,9 +24,9 @@ Refer to the following sections to set up your first journey, add offers and ass
 
     ![](../assets/offers-e2e-offers-displayed.png)
     
-1. **Test and validate**. Once your content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../design/preview.md).
+1. **Test and validate**. Once your content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../../personalization/personalize.md), you will be able to check how this content is displayed in the message, using test profile data. In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to test and validate your messages [in this section](../../design/preview.md).
 
-1. **Design customer journeys** to deliver personalized, contextual experiences. [!DNL Journey Optimizer] allow you to build real-time orchestration use cases leveraging contextual data stored in events or data sources. Design multistep advanced scenarios powered by following capabilities:
+1. **Design customer journeys** to deliver personalized, contextual experiences. [!DNL Journey Optimizer] allow you to build real-time orchestration use cases with contextual data stored in events or data sources. Design multistep advanced scenarios powered by following capabilities:
 
     * Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
 

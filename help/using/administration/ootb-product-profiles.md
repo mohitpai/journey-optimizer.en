@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Built-in product profiles
 description: Learn about the built-in product profiles
 feature: Access Management
@@ -12,7 +14,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 
 ## About permissions related to messages{#message-permissions}
 
-Adobe Journey Optimizer released new inline authoring capabilities which allows you to create and author your messages directly from a journey or a campaign. For more on this new feature, [refer to this page](../rn/inline-messages.md).
+Adobe Journey Optimizer released new inline authoring capabilities which allows you to create and author your messages directly from a journey or a campaign. 
 
 This feature will impact the permissions as follows:
 

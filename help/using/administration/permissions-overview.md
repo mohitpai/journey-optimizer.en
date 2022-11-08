@@ -1,6 +1,8 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: User management overview
-description: Learn about permission
+description: Learn how to define and manage permissions
 feature: Access Management
 topic: Administration
 role: Admin

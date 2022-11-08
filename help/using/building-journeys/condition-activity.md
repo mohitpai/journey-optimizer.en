@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Condition activity
 description: Learn about condition activity
 feature: Journeys
@@ -77,9 +79,15 @@ This allows you to perform different actions according to the hour of the day an
 
 >[!NOTE]
 >
->The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. Refer to [this page](../building-journeys/timezone-management.md).
+>The time zone is not specific to a condition and is defined at the journey level in the journey properties. Refer to [this page](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Three time filtering options are available:
+
+* Hour: allows you to set up a condition based on the time of the day. You then define the start and end times. Individuals will enter the path only during the defined hour range.
+* Day of the week: allows you to set up a condition based on the day of the week. You then select which days you want individuals to enter the path.
+* Day of the week and hour: this option combines the first two options.
 
 ## Percentage split {#percentage_split}
 

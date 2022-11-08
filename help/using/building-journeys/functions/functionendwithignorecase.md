@@ -1,5 +1,5 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: endWithIgnoreCase
 description: Learn about the function endWithIgnoreCase
 feature: Journeys

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Examples of queries
 description: Examples of queries
 feature: Reporting
@@ -12,6 +14,90 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 This section lists several commonly used examples to query Journey Step Events in Data Lake. 
 
 Make sure that the fields used in your queries have associated values in the corresponding schema.
+
+**What's the difference between id, instanceid and profileid**
+
+* id: unique for all the step event entries. Two different step events cannot have the same id.
+* instanceId: instanceID is the same for all the step events associated to a profile within a journey execution. If a profile reenters the journey, a different instanceId will be used. This new instanceId will be same for all the step events of the reentered instance (from start to end).
+* profileID: the profile’s identity corosponding to the journey namespace.
+
+## Basic use cases/common queries {#common-queries}
+
+**How many profiles entered a journey in a certain time frame**
+
+This query gives the number of distinct profiles that entered the given journey in the given time frame.
+
+_Data Lake query_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**How many errors occurred on each node of a specific journey fo a certain amount of time**
+
+_Data Lake query_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**How many events were discarded from a specific journey in a certain time frame**
+
+_Data Lake query_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**What happens to a specific profile in a specific journey in a specific time frame**
+
+_Data Lake query_
+
+This query returns all the step events and service events for the given profile and journey for the specified time in chronological order.
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## Message/Action Errors {#message-action-errors}
 

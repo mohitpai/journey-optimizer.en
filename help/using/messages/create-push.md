@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configure a push notification
 description: Learn how to create a push notification in Journey Optimizer
 feature: Overview
@@ -40,7 +42,7 @@ If this is your first time creating an Push Notification, make sure the Push cha
 
 ## Title and Body {#push-title-body}
 
-To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content and personalization data. Learn more about personalization in the Expression editor in [this section](../personalization/personalize.md)
+To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
     
 Use the device preview section to visualize how the push notification displays on iOS and Android devices.
 

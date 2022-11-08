@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: License usage dashboard
 description: Learn about the Journey Optimizer License usage dashboard
 feature: Overview
