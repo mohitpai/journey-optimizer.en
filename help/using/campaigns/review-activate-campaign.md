@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 ---
 # Review and activate a campaign {#review-activate} 
 
