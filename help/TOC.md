@@ -60,7 +60,7 @@ solution: Journey Optimizer
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [In-app report](using/in-app/inapp-report.md)
 + Push notification channel{#push}
-  + [Get started with push notification](using/in-app/get-started-push.md)
+  + [Get started with push notification](using/push/get-started-push.md)
   + Configure push notifications{#push-config}
     + [Get started with push configuration](using/push/push-gs.md)
     + [Configure push notification channel](using/push/push-configuration.md)  
