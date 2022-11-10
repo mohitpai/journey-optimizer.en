@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 ---
 # Create a campaign {#create-campaign}
 
