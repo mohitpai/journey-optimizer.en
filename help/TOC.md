@@ -43,7 +43,6 @@ solution: Journey Optimizer
     + [Add messages in journeys](using/messages/messages-in-journeys.md)
     + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
-  + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
@@ -60,6 +59,13 @@ solution: Journey Optimizer
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [In-app report](using/in-app/inapp-report.md)
++ Push notification channel{#push}
+  + [Get started with push notification](using/in-app/get-started-push.md)
+  + Configure push notifications{#push-config}
+    + [Get started with push configuration](using/push/push-gs.md)
+    + [Configure push notification channel](using/push/push-configuration.md)  
+  + [Create a push notification](using/push/create-push.md)
+  + [Design your push notification](using/push/design-push.md)
 + Design content {#design}
   + [Get started with email design](using/design/design-emails.md)
   + [Start from scratch ](using/design/create-email-content.md)
@@ -391,9 +397,6 @@ solution: Journey Optimizer
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}
-    + Configure push notifications{#push-config}
-      + [Get started with push configuration](using/configuration/push-gs.md)
-      + [Configure push notification channel](using/configuration/push-configuration.md)
     + Configure emails {#email-configuration}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
