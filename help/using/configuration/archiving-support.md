@@ -58,15 +58,7 @@ The BCC email address setting is immediately saved and processed at the surface 
 
 ![](assets/preset-bcc-in-msg.png)
 
-However, the BCC address gets picked up for sending communications following the logic below:
-
-* For batch and burst journeys, it does not apply to batch or burst execution that had already started before the BCC setting is made. The change will be picked up at the next recurrence or new execution.
-
-* For transactional messages, the change is picked up immediately for the next communication (up to one minute delay).
-
->[!NOTE]
->
->You do not need to republish your journey for the BCC setting to be picked up.
+However, the BCC address gets picked up for sending communications following the logic described [here](email-settings.md).
 
 ### Recommendations and limitations {#bcc-recommendations-limitations}
 
