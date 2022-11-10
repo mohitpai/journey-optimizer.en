@@ -46,6 +46,12 @@ Click the three dots next to a landing page to select the desired action.
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish the landing page"
 
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Assign labels to your landing page"
+>abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Create landing page presets"
+
 The steps to create a landing page are as follows.
 
 1. From the landing page list, click **[!UICONTROL Create landing page]**.
