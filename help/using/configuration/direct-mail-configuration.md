@@ -124,21 +124,11 @@ A direct mail surface must also include the file routing configuration which def
 
     ![](assets/surface-direct-mail-settings.png)
 
+    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. Select the file format: **[!UICONTROL CSV]** or **[!UICONTROL Text delimited]**.
 
-1. In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
-
-1. Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
-
-    ![](assets/surface-direct-mail-split.png)
-
-    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
-
-    >[!NOTE]
-    >
-    >You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
-
-1. Finally, select the **[!UICONTROL File routing configuration]** amongst the ones that you created. This defines where the file will be exported for your direct mail provider to use.
+1. Select the **[!UICONTROL File routing configuration]** amongst the ones that you created. This defines where the file will be exported for your direct mail provider to use.
 
     >[!CAUTION]
     >
@@ -146,6 +136,29 @@ A direct mail surface must also include the file routing configuration which def
 
     ![](assets/surface-direct-mail-file-routing.png)
 
+    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. Submit the direct mail surface.
 
 You can now [create a direct mail message](../messages/create-direct-mail.md) inside a campaign. Once the campaign is started, the file containing the targeted audience data will automatically be exported to the server that you defined. The direct mail provider will then be able to retrieve that file and proceed with the direct mail delivery.
+
+>[!NOTE]
+>
+>Duplicate rows will be automatically removed.
+>
+>If the maximum number of records (i.e. rows) for each file containing profile data is too high, another file will be automatically created for the remaining records.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->
