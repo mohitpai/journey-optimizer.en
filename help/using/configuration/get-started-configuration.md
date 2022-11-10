@@ -24,9 +24,9 @@ To be able to create your journeys and send messages, you need to go though thes
 
     * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
-    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../configuration/push-gs.md)
+    * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push/push-gs.md)
 
-    <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
+    <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
     * Configure your instance to send SMS (currently only available for a set of organizations - Limited Availability). [Learn more](sms-configuration.md)
     

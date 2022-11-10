@@ -26,13 +26,11 @@ To create a push notification, follow the steps below:
 
 1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL App surface]** previously configured for your push notification. Then, click **[!UICONTROL Create]**. 
 
-    [Learn more on Push configuration](push-configuration.md).
+    [Learn more on Push configuration](../push/push-configuration.md).
 
 1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
 1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
-
-    ![](assets/in_app_create_2.png)
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
@@ -60,8 +58,8 @@ You must also check alerts in the upper section of the editor.  Some of them are
 **Related topics**
 
 <!--
-* [Understand push notification flow](push-gs.md)
+* [Understand push notification flow](../push/push-gs.md)
 -->
-* [Configure push channel](../configuration/push-gs.md)
+* [Configure push channel](../push/push-gs.md)
 * [Create a new message](get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

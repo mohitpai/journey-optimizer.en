@@ -82,7 +82,7 @@ Use the **[!UICONTROL Custom data]** section to add key-value pairs.
 
 ## Custom data
 
-In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](../configuration/push-gs.md)
+In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](../push/push-gs.md)
 
 ## Advanced options {#advanced-options-push}
 

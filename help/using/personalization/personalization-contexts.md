@@ -49,7 +49,7 @@ You can also personalize your **Push notifications** in the following fields:
 
 ![](assets/perso_push.png)
 
-Learn more about Push notification configuration in [this section](../configuration/push-gs.md).
+Learn more about Push notification configuration in [this section](../push/push-gs.md).
 
 ## Personalize your offers {#personalize-offers}
 

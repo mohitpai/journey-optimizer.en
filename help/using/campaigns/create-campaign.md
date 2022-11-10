@@ -53,7 +53,7 @@ level: Intermediate
         Learn detailed steps to create your message content in the following page:
 
         * [Create an email](../messages/create-email.md)
-        * [Create a push notifications](../messages/create-push.md)
+        * [Create a push notifications](../push/create-push.md)
         * [Create an SMS message](../messages/create-sms.md)
 
     1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../design/preview.md).

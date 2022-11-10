@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 ---
 # Configure push notification channel {#push-notification-configuration}
 
-[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](push-gs.md). 
+[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](../push/push-gs.md). 
 
 ## Before starting {#before-starting}
 
@@ -351,5 +351,5 @@ Learn how to create and configure a channel surface in [this section](../configu
 
 You are now ready to send push notifications with Journey Optimizer.
 
-* Learn how to create a push message in [this page](../messages/create-push.md).
+* Learn how to create a push message in [this page](../push/create-push.md).
 * Learn how to add a message to a journey in [this section](../building-journeys/journeys-message.md).
