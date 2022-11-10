@@ -24,7 +24,7 @@ Once messages are added to your journey or your campaign, learn how to design an
 
 * **Create an email** - Learn how to create an email content and validate your message [in this page](create-email.md).
 
-* **Create a push notification** - Learn how to create push notifications for iOS and Android devices [in this page](create-push.md).
+* **Create a push notification** - Learn how to create push notifications for iOS and Android devices [in this page](../push/create-push.md).
 
 * **Create an SMS** - Learn how to create an SMS content and validate your message [in this page](create-sms.md).
 

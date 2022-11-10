@@ -11,7 +11,7 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 ---
 # Get started with push configuration {#get-started-push}
 
-This page will help you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. Learn how to create push notifications on [this page](../messages/create-push.md).
+This page will help you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. Learn how to create push notifications on [this page](create-push.md).
 
 Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed on [this page](push-configuration.md).
 

@@ -21,5 +21,5 @@ Learn how to add and configure messages in a campaign [in this section](../campa
    Learn detailed steps to create your message content in the following page:
 
    * [Create an email](create-email.md)
-   * [Create a push notifications](create-push.md)
+   * [Create a push notifications](../push/create-push.md)
    * [Create an SMS message](create-sms.md)

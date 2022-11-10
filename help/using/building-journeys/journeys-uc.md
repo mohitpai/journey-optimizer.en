@@ -102,7 +102,7 @@ The event is now configured and ready to be used in your journey. Using the corr
 
 1. Connect the three paths to the purchase event created previously. The event is triggered when an individual makes a purchase.
 
-1. After the event, drop a **Push** action activity and define the content of the "thank you" message. Refer to this [section](../messages/create-push.md) to learn how to configure and design a push.
+1. After the event, drop a **Push** action activity and define the content of the "thank you" message. Refer to this [section](../push/create-push.md) to learn how to configure and design a push.
 
 ## Test and publish the journey
 

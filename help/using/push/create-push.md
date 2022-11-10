@@ -51,7 +51,7 @@ Once your message content has been defined, you can use test profiles to preview
 
 To visualize how your push notification displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
 
-You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](alerts.md).
+You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Learn more in [this section](../messages/alerts.md).
 
 ![](assets/push-alert-button.png)
 
@@ -61,5 +61,5 @@ You must also check alerts in the upper section of the editor.  Some of them are
 * [Understand push notification flow](../push/push-gs.md)
 -->
 * [Configure push channel](../push/push-gs.md)
-* [Create a new message](get-started-content.md)
+* [Create a new message](../messages/get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
