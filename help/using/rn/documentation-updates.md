@@ -25,7 +25,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added new step event query examples as well as information on the difference between id, instanceid and profileid. [Read more](../reports/query-examples.md).
 * Updated the pages related to the [toDateOnly](../building-journeys/functions/functiontodateonly.md) and [toString](../building-journeys/functions/functiontostring.md) functions.
 * Added details on the time condition parameters. [Read more](../building-journeys/condition-activity.md#time_condition)
-* Added information on built-in datasets. [Read more](../start/get-started-datasets.md#access-datasets)
+* Added information on built-in datasets. [Read more](../data/get-started-datasets.md#access-datasets)
 * The Global report and Live report sections have been reorganized for improved readability. [Read more](../reports/global-report.md)
 * A list of every reporting metric available in Adobe Journey Optimizer has been added.
 [Read more](../reports/global-report.md#email-and-sms-metrics)
@@ -84,7 +84,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * All new features and improvements coming with [!DNL Journey Optimizer] April '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
-* The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../start/get-started-datasets.md)
+* The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
 * Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
