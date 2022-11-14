@@ -14,13 +14,13 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 In this page, you will find the list of Adobe Journey Optimizer datasets and related use cases:
 
 [Email Tracking Experience Event Dataset](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Message Feedback Event Dataset](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Push Tracking Experience Event Dataset](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Journey Step Event](../start/datasets-query-examples.md#journey-step-event)
-[Decisioning Event Dataset](../start/datasets-query-examples.md#ode-decisionevents)
-[Consent Service Dataset](../start/datasets-query-examples.md#consent-service-dataset)
-[BCC Feedback Event Dataset](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Entity Dataset](../start/datasets-query-examples.md#entity-dataset)
+[Message Feedback Event Dataset](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[Push Tracking Experience Event Dataset](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Journey Step Event](../data/datasets-query-examples.md#journey-step-event)
+[Decisioning Event Dataset](../data/datasets-query-examples.md#ode-decisionevents)
+[Consent Service Dataset](../data/datasets-query-examples.md#consent-service-dataset)
+[BCC Feedback Event Dataset](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Entity Dataset](../data/datasets-query-examples.md#entity-dataset)
 
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 

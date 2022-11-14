@@ -23,9 +23,9 @@ Before using [!DNL Customer Journey Analytics] for your journeys, you must first
 1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to Adobe Experience Platform. 
 
     The following [!DNL Journey Optimizer] can be configured:
-    * [Journey Step Event](../start/datasets-query-examples.md#journey-step-event): allows you to view who enters your journeys and how far they get. 
-    * [Message Feedback/Tracking datasets](../start/datasets-query-examples.md#message-feedback-event-dataset): allows you to view delivery information about your messages sent through [!DNL Journey Optimizer].
-    * [Entity and Journey datasets](../start/datasets-query-examples.md#entity-dataset): allows you to search Friendly names and use them in your reporting. 
+    * [Journey Step Event](../data/datasets-query-examples.md#journey-step-event): allows you to view who enters your journeys and how far they get. 
+    * [Message Feedback/Tracking datasets](../data/datasets-query-examples.md#message-feedback-event-dataset): allows you to view delivery information about your messages sent through [!DNL Journey Optimizer].
+    * [Entity and Journey datasets](../data/datasets-query-examples.md#entity-dataset): allows you to search Friendly names and use them in your reporting. 
 
 1. [Create a data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) to configure the dimensions and metrics you want to use for your report.
 
