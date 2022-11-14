@@ -42,7 +42,7 @@ The SDK did not combine these libraries and is a new implementation from the gro
 
 1. Install the SDK. There are multiple methods of doing so, which are covered on the [Install the SDK page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). This page will continue with each different method of implementation. 
 
-In order to use the SDK, you must have a [schema](../../../data/get-started-schemas.md) and a [datastream](../../../start/get-started-datasets.md) defined.
+In order to use the SDK, you must have a [schema](../../../data/get-started-schemas.md) and a [datastream](../../../data/get-started-datasets.md) defined.
 
 <!-- ****TODO - Configure schema**** -->
 
