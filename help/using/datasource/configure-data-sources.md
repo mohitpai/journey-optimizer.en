@@ -11,11 +11,12 @@ exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 ---
 # Configure a data source {#configure-data-source}
 
-Here are the main data source configuration steps:
 
 >[!NOTE]
 >
 >The data source configuration is always performed by a **technical user**.
+
+To configure a data source, follow the steps below:
 
 1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Data Sources]** section, click **[!UICONTROL Manage]**. The list of data sources is displayed. See [this page](../start/user-interface.md) for more information on the interface. 
 
@@ -45,7 +46,7 @@ The number of journeys that use a field group is displayed in the **[!UICONTROL 
 
 >[!NOTE]
 >
->Note that if a field group has no field, it won’t be displayed in the expression editor.
+>Note that if a field group has no field, it is not displayed in the expression editor.
 
  ![](assets/journey3bis.png)
 

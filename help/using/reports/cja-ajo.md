@@ -20,7 +20,7 @@ After creating your journey in [!DNL Journey Optimizer], you can import your cus
 
 Before using [!DNL Customer Journey Analytics] for your journeys, you must first configure this integration:
 
-1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to the Platform. 
+1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to Adobe Experience Platform. 
 
     The following [!DNL Journey Optimizer] can be configured:
     * [Journey Step Event](../start/datasets-query-examples.md#journey-step-event): allows you to view who enters your journeys and how far they get. 

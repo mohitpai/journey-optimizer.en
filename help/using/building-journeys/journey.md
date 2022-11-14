@@ -49,7 +49,7 @@ Learn how to build journeys in the following end-to-end use cases.
 Business use cases:
 
 * [Send multi-channel messages](journeys-uc.md)
-* [Send a message using Campaign v7/v8](campaign-classic-use-case.md)
+* [Send a message using Campaign v7/v8](ajo-ac.md)
 * [Send a message to subscribers](message-to-subscribers-uc.md)
 
 Technical use cases:

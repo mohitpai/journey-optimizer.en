@@ -1,19 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Get Started with Queries in Journey Optimizer
+title: Get Started with queries in Journey Optimizer
 description: Learn how to create queries in Adobe Journey Optimizer
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 ---
-# Get Started with Queries {#queries-gs}
+# Get Started with queries {#queries-gs}
 
 Query Editor is an interactive tool provided by Adobe Experience Platform Query Service, which allows you to write, validate, and run queries for customer experience data within [!DNL Adobe Journey Optimizer] user interface. 
 
 Query Editor supports developing queries for analysis and data exploration, and allows you to run interactive queries for development purposes as well as non-interactive queries to populate [datasets](get-started-datasets.md).
-
 
 ![](assets/queries-home.png)
 

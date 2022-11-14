@@ -144,7 +144,7 @@ solution: Journey Optimizer
   + Use cases {#journey-use-cases}
     + Business use cases {#business-use-cases}
         + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
-        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+        + [Send a message using Campaign v7/v8](using/building-journeys/ajo-ac.md)
         + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + Technical use cases {#technical-use-cases}
         + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
@@ -383,11 +383,12 @@ solution: Journey Optimizer
         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
-  + [Schemas](using/start/get-started-schemas.md)
-  + Datasets {#datasets}
-    + [Get started with datasets](using/start/get-started-datasets.md)
-    + [Query examples](using/start/datasets-query-examples.md)
-  + [Queries](using/start/get-started-queries.md)
+  + [Get started with data management](using/data/gs-data.md)
+  + [Work with schemas](using/data/get-started-schemas.md)
+  + Journey Optimizer datasets {#datasets}
+    + [Get started with datasets](using/data/get-started-datasets.md)
+    + [Query examples](using/data/datasets-query-examples.md)
+  + [Queries](using/data/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration-message}
