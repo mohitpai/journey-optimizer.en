@@ -28,7 +28,10 @@ Broadly, the flexibility you want from your data is three-fold:
     <br>
   </td>
   <td>
-    <div>Available in other destinations – While Journey Optimizer synergizes and integrates data for a hyper-personalized customer experience, you want this data in other systems in your overall tech landscape, while you look-out for other ways to leverage this data. <a href="../start/ajo-integrations.md">Learn more</a><</div>
+    <div>Available in other destinations – While Journey Optimizer synergizes and integrates data for a hyper-personalized customer experience, you want this data in other systems in your overall tech landscape, while you look-out for other ways to leverage this data.
+    <div>
+     <a href="../start/ajo-integrations.md">Learn more</a></div>
+    </div>
     <br>
   </td>
 </tr>
