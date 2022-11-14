@@ -17,13 +17,14 @@ solution: Journey Optimizer
   + [Documentation updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
-  + Quick Start{#quick-start}
+  + Quick start guides{#quick-start}
     + [Overview](using/start/quick-start.md)
     + [Get started as a Marketer](using/start/path/marketer.md)
     + [Get started as a Data engineer](using/start/path/data-engineer.md)
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
+  + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
   + [Get started with journeys](using/building-journeys/journey.md)
