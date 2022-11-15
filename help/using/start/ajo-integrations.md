@@ -16,8 +16,8 @@ With Adobe Journey Optimizer, you can easily manage, retain, and export this dat
 
 >[!NOTE]
 >
-> Built on Adobe Experience Platform, Adobe Journey Optimizer is natively connected to [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}. This built-in data source is pre-configured, and is designed to retrieve and use data from Real-time Customer Profile (for example, check if the person who entered a journey is a client or not). It allows you to use Profile data and Experience Events data.
-
+> Built on Adobe Experience Platform, Adobe Journey Optimizer is natively connected to [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}. This built-in data source is pre-configured, and is designed to retrieve and use data from Real-time Customer Profile (for example, check if the person who entered a journey is a client or not). It allows you to use Profile data and Experience Events data. [Learn more](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Reporting{#integration-reporting}
 
@@ -39,7 +39,7 @@ Learn more about [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Machine learning{#integration-intelligent-service}
 
-The integration with Adobe Intelligent Services allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company’s needs using business-level configurations without the need for data science expertise.
+The integration with Adobe Intelligent Services allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company’s needs using business-level configurations without the need for data science expertise. [Learn more](../building-journeys/ai-services-overview.md).
 
 ## Send messages {#integration-messages}
 
