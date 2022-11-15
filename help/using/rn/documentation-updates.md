@@ -9,6 +9,10 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## November 2022 {#november-2022}
+
+A recommendation has been added regarding the length of mirror pages URLs. [Read more](../design/message-tracking.md)
+
 ## October 2022 {#october-2022}
 
 * Added a journey use case on how to limit throughput using External Data Sources and Custom Actions. [Read more](../building-journeys/limit-throughput.md)

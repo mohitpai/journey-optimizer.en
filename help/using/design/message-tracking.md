@@ -83,9 +83,9 @@ To add a link to a mirror page in your email, [insert a link](#insert-links) and
 
 The mirror page is automatically created.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->You cannot edit the auto-generated link.
+>Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
 
 Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
 
