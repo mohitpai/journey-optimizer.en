@@ -36,7 +36,7 @@ You can leverage all of the Adobe Analytics behavioral event data that you are a
 
 Learn more about [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## Machine learning{#integration-intelligent-service}
+## Adobe Intelligent Services{#integration-intelligent-service}
 
 The integration with Adobe Intelligent Services allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company’s needs using business-level configurations without the need for data science expertise. [Learn more](../building-journeys/ai-services-overview.md).
 
