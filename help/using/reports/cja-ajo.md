@@ -11,8 +11,10 @@ exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 ---
 # Work with [!DNL Customer Journey Analytics] {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] integration with [!DNL Customer Journey Analytics] provides an holistic view of all your journeys with automated report distribution and custom visualizations of the data.
+
+![](assets/cja.png)
 
 After creating your journey in [!DNL Journey Optimizer], you can import your customer data to [!DNL Customer Journey Analytics] to start reports and understand the impact of every interaction a customer has with your journeys. 
 
