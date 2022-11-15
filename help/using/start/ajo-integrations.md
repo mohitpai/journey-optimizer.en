@@ -8,6 +8,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 ---
 # Integrate with other solutions {#integration}
 
@@ -51,6 +52,3 @@ Learn more about [Journey Optimizer + Campaign](../building-journeys/ajo-ac.md).
 Journey Optimizer allows you to configure connections to external systems via custom data sources and custom actions. This allows you, for example, to enrich your journeys with data coming from an external reservation system, or send messages using a third-party system such as Epsilon or Facebook.
 
 Learn how to use external data sources to define a connection to a third-party system in [this section](../datasource/external-data-sources.md).
-
-
-
