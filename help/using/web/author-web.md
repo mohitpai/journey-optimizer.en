@@ -23,7 +23,11 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 Once you created a web action from the campaign, you can edit your content using the web designer. To do so, follow the steps below.
 
-1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>To be accessed in [!DNL Journey Optimizer], your web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+
+1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign.
 
 1. If you created a pages matching rule, you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
 
@@ -37,7 +41,7 @@ Once you created a web action from the campaign, you can edit your content using
 
     >[!CAUTION]
     >
-    >To be accessed, the web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+    >The web page must include the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
     
 1. Click **[!UICONTROL Open web designer]** to edit it. [Learn more](author-web.md)
 
