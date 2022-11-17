@@ -11,7 +11,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## November 2022 {#november-2022}
 
-* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)
+<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
 * A recommendation has been added regarding the length of mirror pages URLs. [Read more](../design/message-tracking.md)
 
 ## October 2022 {#october-2022}

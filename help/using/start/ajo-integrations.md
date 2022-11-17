@@ -6,6 +6,8 @@ description: Learn more how to integrate Journey Optimizer with other solutions
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 ---
 # Integrate with other solutions {#integration}
