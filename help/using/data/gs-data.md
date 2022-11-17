@@ -25,32 +25,23 @@ Broadly, the flexibility you want from your data is three-fold:
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <img alt="destinations" src="assets/do-not-localize/dest.png" />
-    <br>
-  </td>
-  <td>
-    <div>Available in other destinations – While Journey Optimizer synergizes and integrates data for a hyper-personalized customer experience, you want this data in other systems in your overall tech landscape, while you look-out for other ways to leverage this data.
+    <div><img alt="destinations" src="assets/do-not-localize/dest.png" /> 
+    <br>Available in other destinations – While Journey Optimizer synergizes and integrates data for a hyper-personalized customer experience, you want this data in other systems in your overall tech landscape, while you look-out for other ways to leverage this data.
     <div>
      <a href="../start/ajo-integrations.md">Learn more</a></div>
     </div>
     <br>
   </td>
 </tr>
-<tr style="border: 0;">
   <td>
-    <img alt="retention" src="assets/do-not-localize/retention.png" />
-  </td>
-  <td>
-    <div>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
+    <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
+    <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <img alt="policy" src="assets/do-not-localize/policy.png" />
-    <br>
-  </td>
-  <td>
-    <div>Deleted basis an agreed timeline or your policy – Data deletion is a critical aspect of data protection and is a key step in all data governance processes. Journey Optimizer may produce more data than required. Also, you want to take utmost care of what happens after the required duration for a dataset – be it because of utility or regulation. The control you need, is to delete data at any given point in time.</div>
+    <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
+    <br>Deleted basis an agreed timeline or your policy – Data deletion is a critical aspect of data protection and is a key step in all data governance processes. Journey Optimizer may produce more data than required. Also, you want to take utmost care of what happens after the required duration for a dataset – be it because of utility or regulation. The control you need, is to delete data at any given point in time. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Learn more about data hygiene in Adobe Experience Platform documentation</a></div>
   </td>
 </tr>
 </table>
@@ -61,18 +52,23 @@ All data is considered the property of Customers and can only be maintained, enc
 
 You can use the Journey Optimizer’s data flexibility to address your specific requirements related to data retention, archival or deletion: 
 
-* **Data Extraction / Export**: You can initiate the extraction of source data at any time via the data access API with no penalties or time delays. The [Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) provides users with a RESTful interface focused on the discoverability and accessibility of ingested datasets within the Experience Platform. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Data Extraction / Export**: You can initiate the extraction of source data at any time via the data access API with no penalties or time delays. The [Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} provides users with a RESTful interface focused on the discoverability and accessibility of ingested datasets within the Experience Platform. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
     
     Note that content used in journeys or campaigns cannot be extracted via API or Destination methods mentioned above.
 
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
 
-* **Purges and archiving mechanisms**: Purging of data and archival can be freely defined and automated in Journey Optimizer to automate data retention policies. It is possible to define different aging strategies for the different data entities. Export mechanisms can also be defined to automatically export aging data before it is purged or archived.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
+
+* **Purges and archiving mechanisms**: Purging of data and archival can be freely defined and automated in Journey Optimizer to automate data retention policies. It is possible to define different aging strategies for the different data entities. Export mechanisms can also be defined to automatically export aging data before it is purged or archived. 
+  
+  The Data Hygiene workspace in the Adobe Experience Platform UI allows you to create and monitor various data hygiene tasks, including deleting consumer identities and scheduling dataset expirations. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
 
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
     
     * for 7 days to facilitate the onboarding of Customer Data into the Profile Services, after which it may be permanently deleted, or
     * until chosen to be deleted by you
+
 
 * **Data Extract at Engagement Termination/ Exit**: When the contract is terminated, your data is completely removed from Adobe's storage space. Also, you can pull full profile extracts prior to terminating an agreement. There is no additional cost for this feature. This can be done at any time and not just upon termination. 
 
