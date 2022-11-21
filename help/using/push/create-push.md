@@ -61,9 +61,7 @@ To create a push notification, follow the steps below:
     For more information on how to configure a campaign, refer to [this page](../campaigns/create-campaign.md).
     +++
 
-1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content.
-
-1. Define your push content. [Design a push notification](design-push.md)
+1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
 
 1. Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, leveraging test profile data.
 
