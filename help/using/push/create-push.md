@@ -71,7 +71,7 @@ To create a push notification, follow the steps below:
 
     >[!IMPORTANT]
     >
-    >Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. [Learn how to check alerts on your messages](alerts.md).
+    >Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. [Learn how to check alerts on your messages](../messages/alerts.md).
 
 1. When your push is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
 
