@@ -62,7 +62,7 @@ You can use the Journey Optimizer’s data flexibility to address your specific 
 
 * **Purges and archiving mechanisms**: Purging of data and archival can be freely defined and automated in Journey Optimizer to automate data retention policies. It is possible to define different aging strategies for the different data entities. Export mechanisms can also be defined to automatically export aging data before it is purged or archived. 
   
-  The Data Hygiene workspace in the Adobe Experience Platform UI allows you to create and monitor various data hygiene tasks, including deleting consumer identities and scheduling dataset expirations. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+  The Data Hygiene workspace in the Adobe Experience Platform UI allows you to create and monitor various data hygiene tasks, including deleting consumer identities and scheduling dataset expirations. This workspace is available with the Security & Privacy Shield and with the Healthcare Shield. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
 
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
     
