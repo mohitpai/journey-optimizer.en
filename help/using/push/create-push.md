@@ -82,9 +82,6 @@ To create a push notification, follow the steps below:
 
 **Related topics**
 
-<!--
-* [Understand push notification flow](push-gs.md)
--->
 * [Configure push channel](../configuration/push-gs.md)
-* [Create a new message](get-started-content.md)
+* [Create a new message](../messages/get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
