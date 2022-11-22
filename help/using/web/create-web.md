@@ -53,6 +53,11 @@ For the web experience to be delivered correctly, the following settings must be
 
 ## Create a web campaign {#create-web-campaign}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Define a web surface"
+>abstract="A web surface can match a single page URL or multiple pages, allowing you to deliver content modifications across one or several web pages."
+
 To start building your web experience through a campaign, follow the steps below.
 
 1. Create a campaign. [Learn more](../campaigns/create-campaign.md)

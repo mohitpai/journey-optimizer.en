@@ -21,6 +21,14 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 ## Edit web page content {#edit-web-content}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Enter the URL to edit"
+>abstract="Enter the URL of a specific web page to use for editing the content that will be applied on the web surface defined above. The page must be implemented using the Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
+
 Once you created a web action from the campaign, you can edit your content using the web designer. To do so, follow the steps below.
 
 >[!CAUTION]
@@ -67,6 +75,11 @@ Once you created a web action from the campaign, you can edit your content using
 
 ## Use content components {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Add content components to your web page"
+>abstract="You can add a number of components to your web page and edit them as you need."
+
 1. From the **[!UICONTROL Components]** pane on the left, you can add the following components to your web page and edit them as you need:
 
     * [Divider](../design/content-components.md#divider)
@@ -107,6 +120,11 @@ Once you created a web action from the campaign, you can edit your content using
 
 ### Swap to browse mode {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Use the browse mode"
+>abstract="From this mode, you can navigate to the exact page from the selected surface you want to personalize."
+
 You can swap from the default **[!UICONTROL Design]** mode to the **[!UICONTROL Browse]** mode using the dedicated button.
 
 ![](assets/web-designer-browse-mode.png)
@@ -124,6 +142,11 @@ You can also change the zoom focus - from 25% to 400%.
 ![](assets/web-designer-device.png)
 
 ## Manage modifications {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Easily manage all your changes"
+>abstract="Using this pane, you can navigate through and manage all the adjustments and styles you added to your web page."
 
 You can easily manage all the components, adjustments and styles you added to your web page.
 
@@ -158,6 +181,11 @@ Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/g
 ![](assets/web-designer-offer.png)
 
 ## Test the web campaign {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Preview your web experience"
+>abstract="Get a simulation of what your web experience will look like."
 
 To display a preview of your modified web experience, follow the steps below.
 

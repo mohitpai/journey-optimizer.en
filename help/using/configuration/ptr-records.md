@@ -16,6 +16,11 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 >title="Subdomains' PTR records"
 >abstract="A pointer record (PTR) is a type of DNS record that provides the domain name linked to an IP address, which helps the receiving mail servers to verify the senders' IP addresses. Only edit a PTR record after due considerations and discussion with your deliverability expert."
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="Subdomains' PTR records"
+>abstract="Once a subdomain is delegated to Adobe in Journey Optimizer, a PTR record is automatically created and associated with this subdomain."
+
 ## About PTR records {#about-ptr-records}
 
 A pointer record (PTR) is a type of Domain Name System (DNS) record that provides the domain name linked to an IP address.
