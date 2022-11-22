@@ -256,6 +256,11 @@ User interface is currently available in the following languages:
 * English
 * French
 * German
+* Italian
+* Spanish
+* Portuguese (Brazilian)
+* Japanese
+* Korean
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
