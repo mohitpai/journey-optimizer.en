@@ -25,38 +25,37 @@ To create a push notification, follow the steps below:
 >[!BEGINTABS]
 >[!TAB Add a Push to a Journey]
 
-    1. Open your journey then drag and drop a Push activity from the Actions section of the palette.
+1. Open your journey then drag and drop a Push activity from the Actions section of the palette.
 
-        ![](assets/push_create_1.png)
+    ![](assets/push_create_1.png)
 
-    1. Provide basic information on your message (label, description, category), then choose the message surface to use.
+1. Provide basic information on your message (label, description, category), then choose the message surface to use.
 
-        ![](assets/push_create_2.png)
+    ![](assets/push_create_2.png)
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
 >[!TAB Add a Push to a Campaign]
 
-    1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Push notification]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on Push configuration](push-configuration.md).
+1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Push notification]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on Push configuration](push-configuration.md).
 
+    ![](assets/push_create_3.png)
 
-        ![](assets/push_create_3.png)
+1. Click **[!UICONTROL Create]**.
 
-    1. Click **[!UICONTROL Create]**.
+1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-    1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
+    ![](assets/push_create_4.png)
 
-        ![](assets/push_create_4.png)
+1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
 
-    1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
-    1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
+    ![](assets/push_create_5.png)
 
-        ![](assets/push_create_5.png)
+1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
 
-    1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
-
-    1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your push notification:
+1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your push notification:
 
     * Once
     * Daily
