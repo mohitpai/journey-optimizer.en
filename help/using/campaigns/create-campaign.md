@@ -60,18 +60,19 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     <table style="table-layout:fixed">
     <tr style="border: 0;">
     <td>
+    <a href="../messages/create-email.md">
     <img alt="Lead" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../messages/create-emails.md"><strong>Create emails</strong>
+    <div><a href="../messages/create-email.md"><strong>Create emails</strong>
     </div>
     <p>
     </td>
     <td>
-    <a href="../messages/create-push.md">
+    <a href="../push/create-push.md">
       <img alt="Infrequent" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
-    <a href="../messages/create-push.md"><strong>Create push notifications</strong></a>
+    <a href="../push/create-push.md"><strong>Create push notifications</strong></a>
     </div>
     <p>
     </td>
@@ -80,7 +81,7 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
       <img alt="Validation" src="assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="validation.md"><strong>Create SMS messages</strong></a>
+    <a href="../messages/create-sms.md"><strong>Create SMS messages</strong></a>
     </div>
     <p>
     </td>
