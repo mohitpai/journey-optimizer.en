@@ -22,9 +22,15 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 ## Edit web page content {#edit-web-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_web_url_to_personalize_header"
+>id="ajo_web_url_to_edit_surface"
 >title="Enter the URL to edit"
->abstract="Enter the URL of a specific web page to use for editing the content that will be applied on the web surface defined above. The page must be implemented using the Adobe Experience Platform Web SDK."
+>abstract="Enter the URL of a specific web page to use for editing the content that will be applied on the web surface defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Enter the URL to edit"
+>abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
