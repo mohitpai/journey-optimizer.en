@@ -22,9 +22,8 @@ To create a push notification, follow the steps below:
 
 1. Add a Push action in a journey or a campaign:
 
-    >[!BEGINTABS]
-
-    >[!TAB Add a Push to a Journey]
+>[!BEGINTABS]
+>[!TAB Add a Push to a Journey]
 
     1. Open your journey then drag and drop a Push activity from the Actions section of the palette.
 
@@ -36,7 +35,7 @@ To create a push notification, follow the steps below:
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
-    >[!TAB Add a Push to a Campaign]
+>[!TAB Add a Push to a Campaign]
 
     1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Push notification]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on Push configuration](push-configuration.md).
 
@@ -64,7 +63,7 @@ To create a push notification, follow the steps below:
     * Weekly
     * Monthly
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
 
