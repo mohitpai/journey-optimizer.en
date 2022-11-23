@@ -60,11 +60,9 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     <table style="table-layout:fixed">
     <tr style="border: 0;">
     <td>
-    <a href="git-workflow-adobe-leads.md">
     <img alt="Lead" src="assets/do-not-localize/email.jpg">
     </a>
-    <div>
-    <a href="git-workflow-adobe-leads.md"><strong>Create emails</strong></a>
+    <div><a href="../messages/create-emails.md"><strong>Create emails</strong>
     </div>
     <p>
     </td>
@@ -84,49 +82,6 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     <div>
     <a href="validation.md"><strong>Create SMS messages</strong></a>
     </div>
-    <p>
-    </td>
-    </tr>
-    </table>
-
-
-
-
-
-
-xxxx
-
-
-    <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="git-workflow-adobe-leads.md">
-    <img alt="Lead" src="assets/leads-home.png"/>
-    </a>
-    <div>
-    <a href="git-workflow-adobe-leads.md"><strong>Create emails</strong></a>
-    </div>
-    <em>Learn how to create emails.</em>
-    <p>
-    </td>
-    <td>
-    <a href="../messages/create-email.md">
-      <img alt="Infrequent" src="assets/infrequent.png">
-    </a>
-    <div>
-    <a href="../messages/create-push.md"><strong>Create SMS messages</strong></a>
-    </div>
-    <em>Learn how to create push notifications</em>
-    <p>
-    </td>
-    <td>
-    <a href="../messages/create-sms.md">
-      <img alt="Validation" src="assets/validation.png">
-    </a>
-    <div>
-    <a href="validation.md"><strong>Create SMS messages</strong></a>
-    </div>
-    <em>Learn how to create SMS messages.</em>
     <p>
     </td>
     </tr>
