@@ -22,47 +22,48 @@ To create a push notification, follow the steps below:
 
 1. Add a Push action in a journey or a campaign:
 
->[!BEGINTABS]
->[!TAB Add a Push to a Journey]
+    >[!BEGINTABS]
 
-1. Open your journey then drag and drop a Push activity from the Actions section of the palette.
+    >[!TAB Add a Push to a Journey]
 
-    ![](assets/push_create_1.png)
+    1. Open your journey then drag and drop a Push activity from the Actions section of the palette.
 
-1. Provide basic information on your message (label, description, category), then choose the message surface to use.
+        ![](assets/push_create_1.png)
 
-    ![](assets/push_create_2.png)
+    1. Provide basic information on your message (label, description, category), then choose the message surface to use.
 
-    For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
+        ![](assets/push_create_2.png)
 
->[!TAB Add a Push to a Campaign]
+        For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
-1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Push notification]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on Push configuration](push-configuration.md).
+    >[!TAB Add a Push to a Campaign]
 
-    ![](assets/push_create_3.png)
+    1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Push notification]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on Push configuration](push-configuration.md).
 
-1. Click **[!UICONTROL Create]**.
+        ![](assets/push_create_3.png)
 
-1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
+    1. Click **[!UICONTROL Create]**.
 
-    ![](assets/push_create_4.png)
+    1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
+        ![](assets/push_create_4.png)
 
-1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
+    1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
 
-    ![](assets/push_create_5.png)
+    1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
-1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
+        ![](assets/push_create_5.png)
 
-1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your push notification:
+    1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
 
-    * Once
-    * Daily
-    * Weekly
-    * Monthly
+    1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your push notification:
 
->[!ENDTABS]
+        * Once
+        * Daily
+        * Weekly
+        * Monthly
+
+    >[!ENDTABS]
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
 
