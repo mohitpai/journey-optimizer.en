@@ -23,14 +23,42 @@ A landing page is a standalone web page that a user is directed to after clickin
 * Provide your recipients with the **capability to unsubscribe** from receiving your communications. [Read more](lp-use-cases.md#opt-out)
 * Send a **confirmation email** upon opt-in or opt-out. [Read more](lp-use-cases.md#send-confirmation-email)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Design landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">Reporting</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-lp.md">
+<img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
+</a>
+<div><a href="create-lp.md"><strong>Create landing pages</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="subscription-list.md">
+<img alt="Infrequent" src="../assets/do-not-localize/lp-list.jpg">
+</a>
+<div>
+<a href="subscription-list.md"><strong>Create subscription lists</strong></a>
+</div>
+<p></td>
+<td>
+<a href="design-lp.md">
+<img alt="Validation" src="../assets/do-not-localize/lp-design.jpg">
+</a>
+<div>
+<a href="design-lp.md"><strong>Design landing pages</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/lp-report-live.md">
+<img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
+</a>
+<div>
+<a href="../reports/lp-report-live.md"><strong>Reporting</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 ## How-to video{#video}
 
