@@ -24,12 +24,48 @@ Adobe Experience Platform and Journey Optimizer provide various tools to help yo
 
 * **Apply governance policies**: Leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. [Learn more](../action/action-privacy.md)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Manage data requests</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Audit users' actions</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Track and manage consent</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Apply consent policies</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Apply governance policies</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="requests.md">
+<img alt="Lead" src="../assets/do-not-localize/privacy-request.jpeg">
+</a>
+<div><a href="requests.md"><strong>Manage data requests</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="audit-logs.md">
+<img alt="Infrequent" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div>
+<a href="audit-logs.md"><strong>Audit users' actions</strong></a>
+</div>
+<p></td>
+<td>
+<a href="opt-out.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-track-consent.jpeg">
+</a>
+<div>
+<a href="opt-out.md"><strong>Track & manage consent</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/consent.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-consent-policies.jpeg">
+</a>
+<div>
+<a href="../action/consent.md"><strong>Apply consent policies</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/action-privacy.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-governance.jpeg">
+</a>
+<div>
+<a href="../action/action-privacy.md"><strong>Apply governance policies</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
