@@ -40,9 +40,9 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** - Create, configure, and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - Create, design, test and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - Create, design, test, and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -269,7 +269,7 @@ To change your language:
 * Click **Preferences** from your avatar, on the top right.
     ![](assets/preferences.png)
 * Then click the language displayed under your email address
-* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
+* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
     ![](assets/select-language.png)
 
 ## Search{#unified-search}
