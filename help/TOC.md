@@ -223,6 +223,7 @@ solution: Journey Optimizer
   + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
 + Design content {#design}
+  + [Get started with email design](using/design/design-emails.md)
   + Start creating content {#start-creating-content}
     + [Start from scratch ](using/design/create-email-content.md)
     + [Import your email content](using/design/existing-content.md)
