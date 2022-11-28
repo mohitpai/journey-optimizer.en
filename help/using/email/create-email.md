@@ -20,34 +20,34 @@ To create an email, follow the steps below.
 
 1. Add an **[!UICONTROL Email]** action to a journey or a campaign, and follow the steps below according to your case.
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Add an email to a journey]
+>[!TAB Add an email to a journey]
 
-    Open your journey, then drag and drop an **[!UICONTROL Email]** activity from the **[!UICONTROL Actions]** section of the palette. Provide basic information on your message (label, description, category), then choose the [email surface](email-settings.md) to use.
+Open your journey, then drag and drop an **[!UICONTROL Email]** activity from the **[!UICONTROL Actions]** section of the palette. Provide basic information on your message (label, description, category), then choose the [email surface](email-settings.md) to use.
 
-    ![](assets/email_journey.png)
+![](assets/email_journey.png)
 
-    For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
-    >[!TAB Add an email to a campaign]
+>[!TAB Add an email to a campaign]
 
-    Create a new scheduled or API-triggered campaign, select **[!UICONTROL Email]** as your action and choose the [email surface](email-settings.md) to use.
+Create a new scheduled or API-triggered campaign, select **[!UICONTROL Email]** as your action and choose the [email surface](email-settings.md) to use.
 
-    ![](assets/email_campaign.png)
+![](assets/email_campaign.png)
    
-    <!--
+<!--
     From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
     ![](assets/email_campaign_tracking.png)
-    -->
+-->
 
-    Click **[!UICONTROL Create]** and complete the steps to create an email campaign.
+Click **[!UICONTROL Create]** and complete the steps to create an email campaign.
 
-    ![](assets/email_campaign_steps.png)
+![](assets/email_campaign_steps.png)
 
-    For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
+For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Learn more](design-emails.md)
 
