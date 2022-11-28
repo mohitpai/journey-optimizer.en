@@ -154,11 +154,7 @@ To do this, enable the **[!UICONTROL BCC email]** optional feature at the channe
 
 ## Email retry parameters {#email-retry}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_retryperiod"
->title="Adjust the retry time period"
->abstract="Retries are performed for 3.5 days (84 hours) when an email delivery fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="About retries"
+
 
 You can configure the **Email retry parameters**.
 
@@ -176,15 +172,7 @@ Learn more on retries in [this section](retries.md).
 
 ## URL tracking {#url-tracking}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Define URL tracking parameters"
->abstract="Use this section to automatically append tracking parameters to the URLs present in your email content. This feature is optional."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Preview URL tracking parameters"
->abstract="Review how tracking parameters will be appended to the URLs present in your email content."
 
 You can use **[!UICONTROL URL tracking parameters]** to measure the effectiveness of your marketing efforts across channels. This feature is optional.
 

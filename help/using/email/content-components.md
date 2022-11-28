@@ -125,26 +125,6 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 ## Video {#Video}
 
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Video settings"
->abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Video settings"
->abstract="Use this component to insert a video in your landing page. Note that videos do not work on all message clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Video settings"
->abstract="Use this component to insert a video in your fragment. Note that videos do not work on all message clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Video settings"
->abstract="Use this component to insert a video in your template. Note that videos do not work on all message clients. We advise to set a fallback image."
-
 Use the **[!UICONTROL Video]** component to insert a video in your email through an URL link.
 
 1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Video]** in a **[!UICONTROL Structure component]**.
