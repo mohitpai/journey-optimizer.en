@@ -63,11 +63,11 @@ To create an email, follow the steps below:
 
 >[!ENDTABS]
 
-2. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Design an email](design-emails.md)
+1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Design an email](design-emails.md)
 
-3. Once your message content has been defined, you can use test profiles to preview and test it. 
+1. Once your message content has been defined, you can use test profiles to preview and test it. 
 
-4. When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+1. When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
 
     To track the behavior of your recipients through email openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md) or [campaign](../campaigns/create-campaign.md). 
 
