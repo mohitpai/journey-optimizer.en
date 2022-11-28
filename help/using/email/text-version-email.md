@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 ---
 # Create the text version of an email {#text-version-email}
 

@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 ---
 # Adjust vertical alignment and padding {#adjusting-vertical-alignment-and-padding}
 

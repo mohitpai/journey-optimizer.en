@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---
 # Start from scratch {#create-email-content}
 

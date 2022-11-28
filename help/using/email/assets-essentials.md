@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
 # Create and manage assets with [!DNL Assets Essentials]{#experience-manager-assets}
 
@@ -19,7 +18,7 @@ Bring marketing and creative workflows together using [!DNL Adobe Experience Man
 
 Learn more in [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when [designing an email content](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content.
 
 ## Prerequisites{#assets-prerequisites}
 

@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 ---
 # Use the Email designer content components {#content-components}
 

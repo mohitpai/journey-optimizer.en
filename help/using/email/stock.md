@@ -7,7 +7,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 ---
 # Work with [!DNL Adobe Stock] images {#stock}
 
@@ -94,7 +93,7 @@ To license and download your image, follow the steps below:
 
 ## Related topics{#stock-related-topics}
 
-* [Email design in Journey Optimizer](design-emails.md)
+* Email design in Journey Optimizer
 * [Components settings for email design](content-components.md)
 * [Adobe Stock Get Started](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

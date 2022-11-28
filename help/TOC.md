@@ -164,11 +164,6 @@ solution: Journey Optimizer
 + Messages {#messages}
   + Get started with messages{#get-started-msg}
     + [Overview](using/messages/get-started-content.md)
-    + [Add messages in journeys](using/messages/messages-in-journeys.md)
-    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
-  + [Create an email](using/messages/create-email.md)
-  + [Create an SMS message](using/messages/create-sms.md)
-  + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
 + Email channel {#email}
@@ -218,7 +213,7 @@ solution: Journey Optimizer
   + [SMS opt-out management](using/sms/sms-opt-out.md) 
   + [Configure SMS channel](using/sms/sms-configuration.md)
 + Direct mail {#direct-mail}
-  + Get started with direct mail
+  + [Get started with direct mail](using/direct-mail/direct-mail-start.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Configure direct mail](using/configuration/direct-mail-configuration.md)
 + Web channel{#web}
@@ -228,7 +223,6 @@ solution: Journey Optimizer
   + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
 + Design content {#design}
-  + [Get started with email design](using/design/design-emails.md)
   + Start creating content {#start-creating-content}
     + [Start from scratch ](using/design/create-email-content.md)
     + [Import your email content](using/design/existing-content.md)
@@ -449,7 +443,6 @@ solution: Journey Optimizer
         + [Suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
         + [Allowed list](using/configuration/allow-list.md)
-    + [Configure SMS channel](using/configuration/sms-configuration.md)
     + Set up channel surfaces {#set-up-channels}
       + [Create channel surfaces](using/configuration/channel-surfaces.md)
       + [Configure email settings](using/configuration/email-settings.md)
