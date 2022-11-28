@@ -153,8 +153,6 @@ If the [List-Unsubscribe option](../configuration/channel-surfaces.md#list-unsub
 
 For example, the unsubscribe link will display like this in Gmail:
 
-![](assets/unsubscribe-header.png)
-
 >[!NOTE]
 >
 >To display the unsubscribe link in the email header, the recipients' email client must support this feature.
