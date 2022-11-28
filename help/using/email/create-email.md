@@ -11,10 +11,6 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#configure-email}
 
->[!CONTEXTUALHELP]
->id="ajo_message_email"
->title="Email creation"
->abstract="Define your email parameters in just three simple steps."
 
 To create an email, follow the steps below:
 

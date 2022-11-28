@@ -10,10 +10,7 @@ level: Intermediate
 ---
 # Add a preheader {#preheader}
 
->[!CONTEXTUALHELP]
->id="ac_edition_preheader"
->title="Adding a preheader"
->abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+
 
 A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long. 
 

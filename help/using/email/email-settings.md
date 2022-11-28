@@ -26,10 +26,6 @@ The email surface configuration gets picked up for sending communications follow
 
 ## Type of email {#email-type}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_emailtype"
->title="Define the email category"
->abstract="Select the type of emails that will be sent when using this surface: Marketing for promotional emails, which require user consent, or Transactional for non-commercial emails, that can also be sent to unsubscribed profiles in specific contexts."
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **Marketing** or **Transactional**.
 

@@ -10,11 +10,6 @@ level: Intermediate
 ---
 # Personalize your email background {#backgrounds}
 
->[!CONTEXTUALHELP]
->id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
-
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
 1. Apply a background color to the body of your email if required by your design.

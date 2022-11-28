@@ -10,25 +10,6 @@ level: Intermediate
 ---
 # Use the Email designer content components {#content-components}
 
->[!CONTEXTUALHELP]
->id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
-
->[!CONTEXTUALHELP]
->id="ac_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
-
->[!CONTEXTUALHELP]
->id="ac_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
-
->[!CONTEXTUALHELP]
->id="ac_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
 When creating your email content, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 
