@@ -168,7 +168,7 @@ solution: Journey Optimizer
   + [Send time optimization](using/messages/send-time-optimization.md)
 + Email channel {#email}
   + [Get started with email design](using/design/design-emails.md)
-  + [Create an email](using/messages/create-email.md)
+  + [Create an email](using/email/create-email.md)
   + Design email {#design-email}
     + Start creating content {#start-creating-content}
       + [Start from scratch](using/email/create-email-content.md)

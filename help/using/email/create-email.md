@@ -11,59 +11,42 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#configure-email}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_email"
+>title="Email creation"
+>abstract="Define your email parameters in just three simple steps."
 
-To create an email, follow the steps below:
-
-1. Add an **[!UICONTROL Email]** action in a journey or a campaign:
+To create an email, add an **[!UICONTROL Email]** action in a journey or a campaign, and follow the steps below according to your case.
 
 >[!BEGINTABS]
 
->[!TAB Add an Email to a Journey]
+>[!TAB Add an email to a journey]
 
-1. Open your journey, then drag and drop an Email activity from the **[!UICONTROL Actions]** section of the palette.
+1. Open your journey, then drag and drop an **[!UICONTROL Email]** activity from the **[!UICONTROL Actions]** section of the palette. Provide basic information on your message (label, description, category), then choose the [email surface](email-settings.md) to use.
 
-    ![](assets/email-edit-content.png)
+   ![](assets/email_journey.png)
 
-1. Provide basic information on your message (label, description, category), then choose the channel surface to use.
+    For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
-    ![](assets/xxx)
+>[!TAB Add an email to a campaign]
 
-    For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
-
->[!TAB Add an email to a Campaign]
-
-1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Email]** as your action and choose the channel surface to use. [Learn more on Email configuration](email-settings.md).
+1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL Email]** as your action and choose the [email surface](email-settings.md) to use. Click **[!UICONTROL Create]**.
 
    ![](assets/email_campaign.png)
+   <!--
+   From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
+   ![](assets/email_campaign_tracking.png)
+   -->
 
-1. Click **[!UICONTROL Create]**.
-
-1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
-
-    ![](assets/xxx)
-
-1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
-
-1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
-
-    ![](assets/push_create_5.png)
-
-1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
-
-1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your email:
-
-    * Once
-    * Daily
-    * Weekly
-    * Monthly
+    For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
-1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Design an email](design-emails.md)
+2. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Design an email](design-emails.md)
 
-1. Once your message content has been defined, you can use test profiles to preview and test it. 
+3. Once your message content has been defined, you can use test profiles to preview and test it. 
 
-1. When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+4. When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
 
     To track the behavior of your recipients through email openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md) or [campaign](../campaigns/create-campaign.md). 
 
