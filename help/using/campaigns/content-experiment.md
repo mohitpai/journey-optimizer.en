@@ -13,6 +13,11 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 ---
 # Create a content experiment {#content-experiment}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment"
+>title="Content experiment"
+>abstract="TBC"
+
 >[!AVAILABILITY]
 >
 >The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.

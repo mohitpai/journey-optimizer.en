@@ -18,7 +18,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 >* [Create channel surfaces](../configuration/channel-surfaces.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
-## Create your 1st campaign {#create}
+## Create your first campaign {#create}
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -28,10 +28,12 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 
     ![](assets/create-campaign.png)
 
-1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. In the **[!UICONTROL Properties]** section, specify how you want to execute the campaign:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+    * **[!UICONTROL Scheduled]**
+    * **[!UICONTROL API-triggered]**
+
+    For more information about the campaign type and associated involvements, refer to this [section](#campaigntype).
 
 1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
@@ -89,7 +91,40 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 
 Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
 
+## Campaign type {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Campaign type"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Campaign category"
+>abstract="TBC"
+
+There are two types of campaign available:
+
+* **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
+
+* **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+
 ## Schedule a campaign {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Campaign start"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Campaign end"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign action triggers"
+>abstract="TBC"
 
 By default, campaigns start once they have been activated manually, and end as soon as the message has been sent once.
 
@@ -99,14 +134,14 @@ If you do not want to execute your campaign right after its activation, you can 
 
 ![](assets/create-campaign-schedule.png)
 
-## Rapid delivery mode {#rapid-delivery}
+## Rapid delivery mode for Push campaign {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Rapid delivery mode"
 >abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
 
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
+Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
 
 Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 
