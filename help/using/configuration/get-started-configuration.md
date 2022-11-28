@@ -28,7 +28,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
     <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
-    * Configure your instance to send SMS (currently only available for a set of organizations - Limited Availability). [Learn more](sms-configuration.md)
+    * Configure your instance to send SMS (currently only available for a set of organizations - Limited Availability). 
     
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
 

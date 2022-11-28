@@ -48,7 +48,7 @@ Follow the steps listed below:
 
     * Create **channel surfaces** (i.e. message presets) to configure all the technical parameters required for email, sms and push notification. [Learn more](../../configuration/channel-surfaces.md)
 
-    * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../configuration/sms-configuration.md)
+    * Configure the **SMS channel** to configure all the technical parameters required for SMS. 
 
     * Manage the number of days during which **retries** are performed before sending email addresses to the suppression list. [Learn more](../../configuration/manage-suppression-list.md)
 

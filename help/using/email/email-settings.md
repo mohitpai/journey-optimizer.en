@@ -10,9 +10,7 @@ level: Intermediate
 ---
 # Configure email settings {#email-settings}
 
-Define the email settings in the dedicated section of the channel surface (i.e. message preset) configuration. Learn how to create surfaces in [this section](channel-surfaces.md).
-
-![](assets/preset-email-settings.png)
+Define the email settings in the dedicated section of the channel surface (i.e. message preset) configuration. Learn how to create surfaces in.
 
 The email surface configuration gets picked up for sending communications following the logic below:
 
@@ -43,29 +41,23 @@ When [creating a message](../messages/get-started-content.md), you must choose a
 
 In the **Subdomain & IP pools** section, you must:
 
-1. Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
+1. Select the subdomain to use to send the emails.
 
-1. Select the IP pool to associate with the surface. [Learn more](ip-pools.md)
+1. Select the IP pool to associate with the surface.
 
-![](assets/preset-subdomain-ip-pool.png)
-
-You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. Otherwise, the oldest version of the IP pool/subdomain association will still be used. If this is the case, save the surface as draft and retry once the IP pool has the **[!UICONTROL Success]** status.
+You cannot proceed with surface creation while the selected IP pool is under (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. Otherwise, the oldest version of the IP pool/subdomain association will still be used. If this is the case, save the surface as draft and retry once the IP pool has the **[!UICONTROL Success]** status.
 
 >[!NOTE]
 >
->For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
+>For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to  and use the IPs from the pool assigned to your organization.
 
 ## List-Unsubscribe {#list-unsubscribe}
 
-Upon [selecting a subdomain](#subdomains-and-ip-pools) from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
-
-![](assets/preset-list-unsubscribe.png)
+Upon selecting a subdomain from the list, the **[!UICONTROL Enable List-Unsubscribe]** option displays.
 
 This option is enabled by default.
 
 If you leave it enabled, an unsubscribe link will automatically be included into the email header, such as:
-
-![](assets/preset-list-unsubscribe-header.png)
 
 If you disable this option, no unsubscribe link will display in the email header.
 
@@ -73,21 +65,17 @@ The unsubscribe link consists in two elements:
 
 * An **unsubscribe email address**, which all unsubscribe requests are sent to.
 
-    In [!DNL Journey Optimizer], the unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the channel surface, based on the [selected subdomain](#subdomains-and-ip-pools).
-
-    ![](assets/preset-list-unsubscribe-mailto.png)
+    In [!DNL Journey Optimizer], the unsubscribe email address is the default **[!UICONTROL Mailto (unsubscribe)]** address displayed in the channel surface, based on the.
 
 * The **unsubscribe URL**, which is the URL of the landing page where the user will be redirected once unsubscribed.
 
     If you add a [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) to a message created using this surface, the unsubscribe URL will be the URL defined for the one-click opt-out link.
 
-    ![](assets/preset-list-unsubscribe-opt-out-url.png)
-
     >[!NOTE]
     >
     >If you do not add a one-click opt-out link into your message content, no landing page will be displayed to the user.
 
-Learn more on adding a header unsubscribe link to your messages in [this section](../privacy/opt-out.md#unsubscribe-header).
+Learn more on adding a header unsubscribe link to your messages in.
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
@@ -107,9 +95,7 @@ In the **[!UICONTROL Header parameters]** section, enter the sender names and em
 
 >[!CAUTION]
 >
->The **[!UICONTROL Sender email]** and **[!UICONTROL Error email]** addresses must use the current selected [delegated subdomain](about-subdomain-delegation.md). For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com* and *error@marketing.luma.com*.
-
-![](assets/preset-header.png)
+>The **[!UICONTROL Sender email]** and **[!UICONTROL Error email]** addresses must use the current selected delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com* and *error@marketing.luma.com*.
 
 >[!NOTE]
 >
@@ -148,19 +134,14 @@ The forward email address will be set up by Adobe. This can take 3 to 4 days.
 
 You can send an identical copy (or blind carbon copy) of emails sent by [!DNL Journey Optimizer] to a BCC inbox where they will be stored for compliance or archival purposes.
 
-To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level. [Learn more](archiving-support.md#bcc-email)
+To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level.
 
-![](assets/preset-bcc.png)
 
 ## Email retry parameters {#email-retry}
 
-
-
 You can configure the **Email retry parameters**.
 
-![](assets/preset-retry-parameters.png)
-
-By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+By default, the is set to 84 hours, but you can adjust this setting to better suit your needs.
 
 You must enter an integer value (in hours or minutes) within the following range:
 
@@ -168,7 +149,7 @@ You must enter an integer value (in hours or minutes) within the following range
 * For transactional emails, the minimum retry period is 10 minutes.
 * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
 
-Learn more on retries in [this section](retries.md).
+Learn more on retries in.
 
 ## URL tracking {#url-tracking}
 
@@ -182,8 +163,6 @@ The parameters defined in this section will be appended to the end of the URLs i
 
 You can add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.
 
-![](assets/preset-url-tracking.png)
-
 To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields.
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
@@ -191,15 +170,11 @@ To configure a URL tracking parameter, you can directly enter the desired values
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
-![](assets/preset-url-tracking-source.png)
-
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
 You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
-
-![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
@@ -215,4 +190,3 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 
 You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
 
-![](assets/preset-url-tracking-preview.png)

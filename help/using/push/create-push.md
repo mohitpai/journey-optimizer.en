@@ -113,4 +113,4 @@ Rapid delivery messaging comes with the following requirements:
     >
     >Ensure that the message content does not include any personalization, and that the audience contains less than 30M profiles.
 
-1. Review and activate your campaign as usual. Note that, in test mode, messages are not sent via the Rapid delivery mode. [Learn how to review and activate a campaign](review-activate-campaign.md)
+1. Review and activate your campaign as usual. Note that, in test mode, messages are not sent via the Rapid delivery mode.
