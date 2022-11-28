@@ -76,7 +76,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * New query examples related to [segment qualification](../reports/query-examples.md#segment-qualification-queries) and [events](../reports/query-examples.md#event-based-queries) have been added.
-* The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
+* The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../email/design-emails.md)
 * Links to key resources have been updated in Journey Optimizer documentation home page.
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
 * A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)

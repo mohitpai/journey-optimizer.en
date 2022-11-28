@@ -27,4 +27,4 @@ From there, you can:
 
 >[!NOTE]
 >
->The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../design/design-emails.md).
+>The landing page content designer is mostly similar to the email designer. Learn more on [designing content with [!DNL Journey Optimizer]](../email/design-emails.md).

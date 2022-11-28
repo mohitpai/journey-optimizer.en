@@ -61,7 +61,7 @@ To improve your deliverability rate and make sure that your emails reach your re
 
 * **Unsubscribe link and landing page**: The unsubscribe link is essential. It must be visible and valid, and the form must be functional.
 
-[Learn more about designing email content](../design/design-emails.md).
+[Learn more about designing email content](../email/design-emails.md).
 
 ## Establish your reputation as a sender
 

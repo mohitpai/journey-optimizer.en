@@ -36,7 +36,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>
     <div>
-      <a href="using/design/design-emails.md">Design an email content</a>
+      <a href="using/email/design-emails.md">Design an email content</a>
     </div>
     <p>
     Design a new email or import an existing HTML content
