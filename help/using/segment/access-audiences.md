@@ -9,15 +9,11 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 ---
-
 # Access and manage audiences {#access-manage-audiences}
 
 Audiences are accessible from the **[!UICONTROL Audiences]** tab in the **[!UICONTROL Segments]** menu.
-
->[!IMPORTANT]
->
->For now, audiences resulting from composition workflows cannot be targeted into Journey Optimizer.
 
 This tab lists all audiences stored into Adobe Experience Platform. Audiences created using audience compositions are identifiable by the **[!UICONTROL Audience composition]** origin.
 

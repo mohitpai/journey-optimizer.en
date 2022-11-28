@@ -11,17 +11,18 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 ---
 # Leverage Adobe Analytics data{#analytics-data}
 
-You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
+You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into Adobe Experience Platform in order to trigger journeys and automate experiences for your customers.
 
 >[!NOTE]
 >
 >This section only applies for rule-based events and customers who need to use Adobe Analytics data.
 
-For this to work, you need to activate, in Adobe Experience Platform, the report suite that you want to leverage:
+For this to work, you need to activate, in Adobe Experience Platform, the report suite that you want to use. To do this, follow the steps below:
 
-1. In Adobe Experience Platform, select **[!UICONTROL Sources]** then **[!UICONTROL Add data]** in the Adobe Analytics section. The list of available Adobe Analytics report suites is displayed.
+1. Connect to Adobe Experience Platform and browse to **[!UICONTROL Sources]**.
+1. In the Adobe Analytics section, select **[!UICONTROL Add data]**: the list of available Adobe Analytics report suites is displayed.
 
-1. Pick the report suite you want to enable, click **[!UICONTROL Next]** and click **[!UICONTROL Finish]**. 
+1. Select the report suite to enable, click **[!UICONTROL Next]** and **[!UICONTROL Finish]**. 
 
 1. Share the source Data ID with your Beta program point of contact. 
 

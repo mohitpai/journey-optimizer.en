@@ -22,28 +22,6 @@ To create a push notification, follow the steps below:
 
 1. Add a Push action in a journey or a campaign:
 
-1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
-
-1. Once your message content has been defined, you can use test profiles to preview and test it. If you inserted personalized content, you can check how this content is displayed in the message, leveraging test profile data.
-
-    To do this, click the **[!UICONTROL Simulate content]** tab. [Learn how to preview and test your messages](../design/preview.md).
-
-    >[!IMPORTANT]
-    >
-    >Check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. [Learn how to check alerts on your messages](../messages/alerts.md).
-
-    ![](assets/push_create_6.png)
-
-1. When your push is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
-
-    To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md) or [campaign](../campaigns/create-campaign.md). 
-
-**Related topics**
-
-* [Configure push channel](push-gs.md)
-* [Create a new message](../messages/get-started-content.md)
-* [Add a message in a journey](../building-journeys/journeys-message.md)
-
 >[!BEGINTABS]
 
 >[!TAB Add a Push to a Journey]
@@ -86,3 +64,53 @@ To create a push notification, follow the steps below:
     * Monthly
 
 >[!ENDTABS]
+
+1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
+
+1. Once your message content has been defined, you can use test profiles to preview and test it. 
+
+1. When your push is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+
+    To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md) or [campaign](../campaigns/create-campaign.md). 
+
+**Related topics**
+
+* [Configure push channel](push-gs.md)
+* [Create a new message](../messages/get-started-content.md)
+* [Add a message in a journey](../building-journeys/journeys-message.md)
+
+## Rapid delivery mode {#rapid-delivery}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rapid_delivery"
+>title="Rapid delivery mode"
+>abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
+
+Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
+
+Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+
+For more information on performances when using Rapid delivery mode, refer to [Adobe Journey Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
+
+### Prerequisites {#prerequisites}
+
+Rapid delivery messaging comes with the following requirements:
+
+* Rapid delivery is available for **[!UICONTROL Scheduled]** campaigns only, and is not available for API-triggered campaigns,
+* No personalization is allowed in the push message,
+* The target audience must contain less than 30M profiles,
+* You can execute up to 5 campaigns simulateneously using the Rapid delivery mode.
+
+### Activate Rapid delivery mode
+
+1. Create a push notification campaign and toggle on the **[!UICONTROL Rapid delivery]** option.
+
+![](assets/create-campaign-burst.png)
+
+1. Configure the message content and select the audience to target. [Learn how to create a campaign](#create)
+    
+    >[!IMPORTANT]
+    >
+    >Ensure that the message content does not include any personalization, and that the audience contains less than 30M profiles.
+
+1. Review and activate your campaign as usual. Note that, in test mode, messages are not sent via the Rapid delivery mode. [Learn how to review and activate a campaign](review-activate-campaign.md)

@@ -9,6 +9,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 ---
 # Get started with audience composition {#get-start-audience-composition}
 
@@ -25,13 +26,13 @@ hidefromtoc: yes
  
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 
-Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences.<!--, and can be **leveraged in campaigns** to target customers.-->
+Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be **leveraged in campaigns** to target customers. [Learn how to work with campaigns](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->For now, audiences resulting from composition workflows cannot be targeted into Journey Optimizer. They cannot either be targeted in Adobe Experience Platform Destinations.
+>Audiences resulting from composition workflows can be targeted into Journey Optimizer campaigns only. They are not available for use in journeys.
 
 ## Access audience composition {#access}
 

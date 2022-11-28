@@ -17,7 +17,12 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 >abstract="Journey Optimizer allows you to delegate your subdomains to Adobe. You can fully delegate a subdomain to Adobe, which is the recommended method. You can also create a subdomain using CNAMEs to point to Adobe-specific records, but this approach requires you to maintain and manage DNS records on your own."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Subdomain configuration methods"
 
-Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the “example.com” zone, you can delegate the sub-zone “marketing.example.com” to Adobe. Learn more on [subdomain delegation](about-subdomain-delegation.md)
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname_header"
+>title="Subdomain delegation"
+>abstract="To start sending emails, you will be delegating your subdomain to Adobe. Once done, DNS records, inboxes, sender, reply to and bounce addresses will be configured for you."
+
+Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the "example.com" zone, you can delegate the sub-zone "marketing.example.com" to Adobe. Learn more on [subdomain delegation](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
@@ -28,6 +33,8 @@ You can fully delegate a subdomain, or create a subdomain using CNAMEs to point 
 >[!CAUTION]
 >
 >The full subdomain delegation is the recommended method. Learn more on the differences between both [subdomain configuration methods](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>Subdomain configuration is common to all environments. Therefore any modification to a subdomain will also impact the production sandboxes.
 
 ## Full subdomain delegation {#full-subdomain-delegation}
 
@@ -61,6 +68,8 @@ To fully delegate a new subdomain to Adobe, follow the steps below:
     >
     >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
+    <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
 1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
@@ -86,8 +95,6 @@ To fully delegate a new subdomain to Adobe, follow the steps below:
     >[!NOTE]
     >
     >The subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
-
-    <!-- later on, users will be notified in Pulse -->
 
 Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record is automatically created and associated with this subdomain. [Learn more](ptr-records.md)
 
@@ -127,6 +134,8 @@ To delegate a subdomain using CNAMEs, follow the steps below:
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
     >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
+
+    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 

@@ -16,6 +16,11 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 >title="Subdomains' PTR records"
 >abstract="A pointer record (PTR) is a type of DNS record that provides the domain name linked to an IP address, which helps the receiving mail servers to verify the senders' IP addresses. Only edit a PTR record after due considerations and discussion with your deliverability expert."
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="Subdomains' PTR records"
+>abstract="Once a subdomain is delegated to Adobe in Journey Optimizer, a PTR record is automatically created and associated with this subdomain."
+
 ## About PTR records {#about-ptr-records}
 
 A pointer record (PTR) is a type of Domain Name System (DNS) record that provides the domain name linked to an IP address.
@@ -42,11 +47,9 @@ You can modify a PTR record to edit the subdomain associated with an IP address.
 
 >[!CAUTION]
 >
->Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.<!--why?-->
-
->[!NOTE]
+>PTR records are common to all environments. Therefore any modification to an PTR record will also impact the production sandboxes.
 >
->You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
+>Proceed with extra care when editing PTR records. In case of any doubt, contact a deliverability expert.
 
 ### Fully delegated subdomains {#fully-delegated-subdomains}
 
@@ -61,6 +64,10 @@ To edit a PTR record with a subdomain that is [fully delegated](delegate-subdoma
     ![](assets/ptr-record-subdomain.png)
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
+
+>[!NOTE]
+>
+>You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
 ### Delegated subdomains using the CNAME method {#edit-ptr-subdomains-cname}
 
@@ -85,6 +92,10 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
     >   * Records across the DNS may not synchronize immediately. Wait for a few minutes, and try again.
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
+
+>[!NOTE]
+>
+>You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
 ## Check PTR record update details {#check-ptr-record-update}
 

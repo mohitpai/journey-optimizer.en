@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 ---
 # Configure push notification channel {#push-notification-configuration}
 
-[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](../push/push-gs.md). 
+[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](push-gs.md). 
 
 ## Before starting {#before-starting}
 
@@ -30,7 +30,7 @@ Before creating a mobile application, you first need to make sure that you have 
 
 >[!CAUTION]
 >
->Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Tags** permissions in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target="_blank"}.
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Tags** permissions in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -43,7 +43,7 @@ To assign **Property** and **Company** rights, follow the steps below:
 
 1. Access the **[!DNL Admin Console]**.
 
-1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Launch]** card.
+1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
 
     ![](assets/push_product_1.png)
 
@@ -71,7 +71,7 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Manage App Configurations]**
     * **[!UICONTROL Manage Properties]**
 
-    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification channel surfaces (i.e. message presets) in **Adobe Journey Optimizer**.
+    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Platform Data Collection** and define Push Notification channel surfaces (i.e. message presets) in **Adobe Journey Optimizer**.
 
     ![](assets/push_product_5.png)
 
@@ -81,7 +81,7 @@ To assign this **[!UICONTROL Product profile]** to users, follow the steps below
 
 1. Access the **[!DNL Admin Console]**.
 
-1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Launch]** card.
+1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
 
 1. Select your previously configured **[!UICONTROL Product profile]**.
 
@@ -351,5 +351,5 @@ Learn how to create and configure a channel surface in [this section](../configu
 
 You are now ready to send push notifications with Journey Optimizer.
 
-* Learn how to create a push message in [this page](../push/create-push.md).
+* Learn how to create a push message in [this page](create-push.md).
 * Learn how to add a message to a journey in [this section](../building-journeys/journeys-message.md).

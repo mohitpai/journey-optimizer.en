@@ -215,8 +215,8 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
+<!--
 ### Experimentation metrics {#experimentation-metrics}
-
 <table> 
  <thead> 
   <tr> 
@@ -225,6 +225,14 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
  </thead> 
  <tbody>
+  <tr> 
+   <td>App installs<br/> </td> 
+   <td><br/> </td> 
+</tr>
+  <tr> 
+   <td>App launches<br/> </td> 
+   <td><br/> </td> 
+</tr>
  <tr> 
    <td>Average lift<br/> </td> 
    <td> Percentage improvement in conversion rate of a given treatment over the baseline.<a href="../campaigns/experiment-calculations.md#understand-lift">Learn more</a>.<br/> </td> 
@@ -242,49 +250,12 @@ The tables below give you the list of metrics used in reports and their definiti
    <td>Total value of the Experiment objective metric divided by the number of profiles.<br/> </td> 
 </tr>
   <tr> 
-   <td>Lift over baseline<br/> </td> 
-   <td> Percentage difference in performance between the baseline and the best performing treatment.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Outbound Clicks<br/> </td> 
-   <td>Total value of the Experiment objective metric for the best performer.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Profiles<br/> </td> 
-   <td>Number of profiles targeted for this treatment.<br/> </td> 
-</tr> 
-</tbody> 
-</table>
-
-#### Experiment objectives {#experiment-objectives}
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
-  <tr> 
-   <td>App installs<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>App launches<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Checkouts<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
    <td>Email Opens<br/> </td> 
-   <td>Number of times the email delivery was opened.<br/> </td> 
+   <td>.<br/> </td> 
 </tr>
   <tr> 
    <td>Email Unsubscribes<br/> </td> 
-   <td>Total number of clicks on the unsubscription link.<br/> </td> 
+   <td><br/> </td> 
 </tr>
   <tr> 
    <td>First app launches<br/> </td> 
@@ -295,60 +266,12 @@ The tables below give you the list of metrics used in reports and their definiti
    <td><br/> </td> 
 </tr>
   <tr> 
-   <td>Page views<br/> </td> 
-   <td><br/> </td> 
+   <td>Profiles<br/> </td> 
+   <td>Number of profiles targeted for this treatment.<br/> </td> 
 </tr>
-  <tr> 
-   <td>Payment amount<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Price total<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product list adds<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product list opens<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product list removals<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product list views<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product price total<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product quantity<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Product views<br/> </td> 
-   <td><br/> </td> 
-</tr>
-  <tr> 
-   <td>Purchases<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Save for later<br/> </td> 
-   <td><br/> </td> 
-</tr>  
-   <tr> 
-   <td>Unique checkouts<br/> </td> 
-   <td><br/> </td> 
-</tr>  
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td>Number of recipients who opened the email delivery.<br/> </td>
+   <td><br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
@@ -366,34 +289,6 @@ The tables below give you the list of metrics used in reports and their definiti
    <td>Unique outbound clicks<br/> </td> 
    <td><br/> </td> 
 </tr>
-   <tr> 
-   <td>Unique save for laters<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Unique product list adds<br/> </td> 
-   <td><br/> </td> 
-</tr>  
-   <tr> 
-   <td>Unique product list opens<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Unique product list removals<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Unique product list views<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Unique product views<br/> </td> 
-   <td><br/> </td> 
-</tr>
-   <tr> 
-   <td>Unique purchases<br/> </td> 
-   <td><br/> </td> 
-</tr>
   <tr> 
    <td>Unique upgrades<br/> </td> 
    <td><br/> </td> 
@@ -403,6 +298,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr> 
 </tbody> 
 </table>
+-->
 
 ### Push notification metrics
 

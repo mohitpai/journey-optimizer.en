@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 ---
 # Create a direct mail message {#create-direct}
 
@@ -17,7 +18,7 @@ hidefromtoc: yes
 
 Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
 
-When you create a direct mail, Journey Optimizer generates a file including all the targeted profiles and the chosen data (postal address, profile attributes for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
+When you create a direct mail, Journey Optimizer generates a file including all the targeted profiles and the chosen data (postal address, profile attributes for example). Your direct mail provider will then be able to retrieve that file and will take care of the actual sending.
 
 Direct mail messages can only be created in the context of scheduled campaigns. They are not available for use in API-triggered campaigns or in journeys.
 
@@ -25,14 +26,14 @@ Direct mail messages can only be created in the context of scheduled campaigns. 
 >
 >Before sending a direct mail message, make sure you have configured:
 >
->* A [file routing configuration](../configuration/direct-mail-configuration.md#file-routing-configuration) which specifies the server where the extraction file should be uploaded and stored,
->* A [direct mail message surface](../configuration/direct-mail-configuration.md#direct-mail-surface) which will reference the file routing configuration.
+>1. A [file routing configuration](../configuration/direct-mail-configuration.md#file-routing-configuration) which specifies the server where the extraction file should be uploaded and stored,
+>1. A [direct mail message surface](../configuration/direct-mail-configuration.md#direct-mail-surface) which will reference the file routing configuration.
 
 ## Create your direct mail message {#create}
 
-The steps to create and send a Direct mail message are as follows:
+The steps to create and send a direct mail message are as follows:
 
-1. Create a new scheduled campaign, select **[!UICONTROL Direct mail]** as your action and choose the message surface to use.
+1. Create a new scheduled campaign, select **[!UICONTROL Direct mail]** as your action and choose the channel surface to use. [Learn how to create a direct mail surface](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -68,4 +69,4 @@ The steps to create and send a Direct mail message are as follows:
 
 1. Once the direct mail content has been defined, complete the configuration of your campaign.
 
-   When the campaign will start, the extraction file will be automatically generated and uploaded to the server specified in your [file routing configuration](../configuration/direct-mail-configuration.md).
+   When the campaign will start, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../configuration/direct-mail-configuration.md).

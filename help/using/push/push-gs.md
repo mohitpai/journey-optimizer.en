@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Get started with push configuration
+title: Push Notifications and Adobe Journey Optimizer
 description: Understand push notification data flow and components
 topic: Mobile
 feature: Push
@@ -9,13 +9,11 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 ---
-# Get started with push configuration {#get-started-push}
+# Push Notifications and Adobe Journey Optimizer {#get-started-push}
 
 This page will help you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. Learn how to create push notifications on [this page](create-push.md).
 
 Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed on [this page](push-configuration.md).
-
-## Push Notifications and [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
 The following pictorial shows the systems and services involved with associated data flows highlighting how push notifications are delivered from an end-to-end service standpoint.
 

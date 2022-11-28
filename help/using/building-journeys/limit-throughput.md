@@ -2,8 +2,8 @@
 solution: Journey Optimizer
 title: Limit throughput with External Data Sources and Custom Actions
 description: Limit throughput with External Data Sources and Custom Actions
+exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 ---
-
 # Use case: limit throughput with External Data Sources and Custom Actions{#limit-throughput}
 
 ## Description of the use case
@@ -59,4 +59,3 @@ As an additional guardrail, you can also use Capping capabilities.
 >[!NOTE]
 >
 >Unlike Capping capabilities, which protect an endpoint by being global to all journeys of a sandbox, this workaround works only at journey level. This means that if multiple journeys are running in parallel and are targeting the same endpoint, you will need to take that into account while designing your journey. This workaround is therefore not suitable for every use case.
-

@@ -16,11 +16,13 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 >title="Design your journey"
 >abstract="The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available."
 
-The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on. 
+Adobe Journey Optimizer includes an omnichannel orchestration canvas which allows marketers to harmonize marketing outreach with one-to-one customer engagement. The user interface allows you to easily drag and drop activities from the palette into the canvas to build your journey. Note that you can also double-click on an activity to add it in the canvas, at the next available step. 
+
+Events, orchestration and action activities have a specific role and place in the process. The activities are sequenced: when an activity is finished, the flow continues and processes the next activity, and so on. 
 
 ## Get started with journey design {#gs-journey-design}
 
-The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** and **[!UICONTROL Actions]**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. 
+The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: [Events](#jo-event), [Orchestration](#jo-orch) and [Actions](#jo-actions). You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. 
 
 When starting a new journey, elements that cannot be dropped in the canvas as the first step are hidden. This concerns all actions, the condition activity, the wait and the reaction.
 
@@ -52,35 +54,41 @@ Depending on the journey's status, you can perform different actions on your jou
 
 When you design your journey, the first question you want to ask is how profiles will enter the journey. There are two possibilities:
 
-**Start with an event**: when a journey is set to listen to events, individuals enter the journey **unitarily** in real-time. Messages included in your journey are sent to the person currently flowing into the journey. [Learn more about events](../event/about-events.md)
+1. **Start with an event**: when a journey is set to listen to events, individuals enter the journey **unitarily** in real-time. Messages included in your journey are sent to the person currently flowing into the journey. [Learn more about events](../event/about-events.md)
 
-**Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
+1. **Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
 
 ## Define the next steps{#define-next-steps}
 
 After your first event or Read Segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
 
-**Events**
+### Events{#jo-event}
 
-When you start your journey with an event, the journey will be triggered when the event is received. The person will then follow, individually, the next steps defined in your journey. 
+Events are what trigger a personalized journey, such as an online purchase. Once someone enters a journey, they move through as an individual, and no two individuals are moving along at the same rate or along the same path.
 
-You can add **several events** in your journey, as long as they use the same namespace. Events are configured beforehand. [Learn more about events](about-journey-activities.md#event-activities)
+When you start your journey with an event, the journey is triggered when the event is received. Each person in the journey then follows, individually, the next steps defined in your journey. 
 
-You can also add a **Reaction** event after a message to react to tracking data related to the message. This allows you, for example, to send another message if the individual opened the previous message or clicked inside it. Learn more in this [section](reaction-events.md).
+You can add **several events** in your journey, as long as they use the same namespace. Events are configured beforehand. [Learn more about journey events](about-journey-activities.md#event-activities)
 
-The **Segment Qualification** event activity allows you to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
+You can also add a **Reaction** event after a message to react to tracking data related to the message. This allows you, for example, to send another message if the individual opened the previous message or clicked inside it. [Learn more about reaction events](reaction-events.md).
 
-**Orchestration**
+Use **Segment Qualification** event activity to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
 
-In the orchestration activities, you'll find the **Read Segment** activity which allows you to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read Segment activity](read-segment.md).
+### Orchestration{#jo-orch}
 
-The other activities allow you to add conditions to your journey to define several paths, set a waiting time before executing the next activity, or end your journey. Learn more in this [section](about-journey-activities.md#orchestration-activities).
+Orchestration activities are different conditions that help determine the next step in the journey.
 
-**Actions**
+From the orchestration activities, use the **Read Segment** activity to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read Segment activity](read-segment.md).
 
-You will find here the channel action activity which allows you to include a message designed in [!DNL Journey Optimizer]. [Learn more about the channel action activities](journeys-message.md)
+The other activities allow you to add conditions to your journey to define several paths, set a waiting time before executing the next activity, or end your journey. [Learn more about orchestration activities](about-journey-activities.md#orchestration-activities).
 
-You will also find the custom actions that you've configured to send messages with third-party systems. Learn more in this [section](about-journey-activities.md#action-activities).
+### Actions{#jo-actions}
+
+Actions are what you want to happen as result of some kind of trigger, like sending a message. It is the piece of journey that the customer experiences. This could be an email, SMS or Push message, or a third-party action, such as a Slack message.
+
+The channel action activities allows you to include a message designed in [!DNL Journey Optimizer]. [Learn more about the channel action activities](journeys-message.md)
+
+From the action activities, use custom actions to send messages with third-party systems. [Learn more about custom actions](about-journey-activities.md#action-activities).
 
 ## Add alternative paths{#paths}
 

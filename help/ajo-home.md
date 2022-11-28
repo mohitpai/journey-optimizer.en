@@ -11,7 +11,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 ![](using/assets/do-not-localize/banner-cjm.jpg) 
 
 <table style="table-layout:fixed">
-<tr>
+<tr style="border: 0;">
   <td>
     <div><strong>Get started</strong>
     </div>
@@ -97,7 +97,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </li>
     </div>
   </td>
-   <td>
+   <td align="right">
    <div><strong>Direct links to key resources</strong>
     </div>
     <p>
@@ -126,13 +126,13 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>DATA MANAGEMENT</p>
     <li>
-      <a href="using/start/get-started-schemas.md">Schemas</a>
+      <a href="using/data/get-started-schemas.md">Schemas</a>
     </li>
      <li>
-      <a href="using/start/get-started-datasets.md">Datasets</a>
+      <a href="using/data/get-started-datasets.md">Datasets</a>
     </li>
         <li>
-      <a href="using/start/get-started-queries.md">Queries</a>
+      <a href="using/data/get-started-queries.md">Queries</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitoring</a>

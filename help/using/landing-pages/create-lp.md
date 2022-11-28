@@ -46,6 +46,12 @@ Click the three dots next to a landing page to select the desired action.
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish the landing page"
 
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Assign labels to your landing page"
+>abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Create landing page presets"
+
 The steps to create a landing page are as follows.
 
 1. From the landing page list, click **[!UICONTROL Create landing page]**.
@@ -182,7 +188,7 @@ To define the subpage settings, follow the steps below.
 
 ## Test the landing page {#test-landing-page}
 
-Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, leveraging test profile data.
+Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, using test profile data.
 
 >[!CAUTION]
 >

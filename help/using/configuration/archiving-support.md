@@ -17,7 +17,7 @@ Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a
 
 * For the email channel, [!DNL Journey Optimizer] provides a built-in BCC email capability. [Learn more](#bcc-email)
 
-* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data is not exported - only the template (format and structure of the message) is taken into account. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data is not exported - only the template (format and structure of the message) is taken into account. [Learn more](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -58,15 +58,7 @@ The BCC email address setting is immediately saved and processed at the surface 
 
 ![](assets/preset-bcc-in-msg.png)
 
-However, the BCC address gets picked up for sending communications following the logic below:
-
-* For batch and burst journeys, it does not apply to batch or burst execution that had already started before the BCC setting is made. The change will be picked up at the next recurrence or new execution.
-
-* For transactional messages, the change is picked up immediately for the next communication (up to one minute delay).
-
->[!NOTE]
->
->You do not need to republish your journey for the BCC setting to be picked up.
+However, the BCC address gets picked up for sending communications following the logic described [here](email-settings.md).
 
 ### Recommendations and limitations {#bcc-recommendations-limitations}
 
@@ -121,11 +113,11 @@ To do this, follow the steps below.
 
 Reporting as such on BCC is not available in the journey and message reports. However, information is stored on a system dataset called **[!UICONTROL AJO BCC Feedback Event Dataset]**. You can run queries against this dataset to find useful information for debugging purpose for example.
 
-You can access this dataset through the user interface. Select **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** and enable the **[!UICONTROL Show system datasets]** toggle from the filter to display the system-generated datasets. Learn more on how to access datasets in [this section](../start/get-started-datasets.md#access-datasets).
+You can access this dataset through the user interface. Select **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** and enable the **[!UICONTROL Show system datasets]** toggle from the filter to display the system-generated datasets. Learn more on how to access datasets in [this section](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-To run queries against this dataset, you can use the Query Editor provided by the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. To access it, select **[!UICONTROL Data management]** > **[!UICONTROL Queries]** and click **[!UICONTROL Create query]**. [Learn more](../start/get-started-queries.md)
+To run queries against this dataset, you can use the Query Editor provided by the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. To access it, select **[!UICONTROL Data management]** > **[!UICONTROL Queries]** and click **[!UICONTROL Create query]**. [Learn more](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -150,7 +142,7 @@ Depending on what information you are looking for, you can run the following que
 
     >[!NOTE]
     >
-    >To get the `<journey version id>`parameter, select the corresponding [journey version](../building-journeys/journey-versions.md) from the **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** menu. The journey version ID is displayed at the end of the URL displayed in your web browser.
+    >To get the `<journey version id>`parameter, select the corresponding [journey version](../building-journeys/journey.md#journey-versions) from the **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** menu. The journey version ID is displayed at the end of the URL displayed in your web browser.
     >
     >![](assets/preset-bcc-action-id.png)
 

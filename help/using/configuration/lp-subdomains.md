@@ -30,6 +30,12 @@ To be able to [create landing page presets](lp-presets.md), you  must set up the
 
 You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
 
+>[!CAUTION]
+>
+>Landing page subdomain configuration is common to all environments. Therefore any modification to a landing page subdomain will also impact the production sandboxes.
+
+Note that capital letters should not be allowed in a subdomain
+
 ## Use an existing subdomain {#lp-use-existing-subdomain}
 
 To use a subdomain that is already delegated to Adobe, follow the steps below.
@@ -57,6 +63,8 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
     >[!NOTE]
     >
     >You cannot select a subdomain that is already used as landing page subdomain.
+    
+    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
     ![](assets/lp_prefix-and-subdomain.png)
 
@@ -100,6 +108,8 @@ To configure a new subdomain, follow the steps below.
     >[!CAUTION]
     >
     >You cannot use an existing landing page subdomain.
+    >
+    >Capital letters are not allowed in subdomains.
     
     Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     

@@ -17,7 +17,7 @@ The connection between the Journey Optimizer and Campaign instances is setup by 
 
 For this to work, you need to configure a dedicated action. Refer to this [section](../action/acc-action.md).
 
-An end-to-end use case is presented in this [section](../building-journeys/campaign-classic-use-case.md).
+An end-to-end use case is presented in this [section](../building-journeys/ajo-ac.md).
 
 1. Design your journey, starting with an event. See this [section](../building-journeys/journey.md).
 1. In the **Action** section of the palette, select a Campaign action and add it to your journey.

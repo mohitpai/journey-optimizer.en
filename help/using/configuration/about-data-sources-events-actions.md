@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configure journeys
-description: Learn how to configure Data Sources, Events and Actions.
+description: Learn how to configure Data Sources, Events and Actions
 feature: Application Settings
 topic: Administration
 role: Admin

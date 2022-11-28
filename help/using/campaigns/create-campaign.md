@@ -77,11 +77,11 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     <p>
     </td>
     <td>
-    <a href="../messages/create-sms.md">
+    <a href="../sms/create-sms.md">
       <img alt="Validation" src="assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../messages/create-sms.md"><strong>Create SMS messages</strong></a>
+    <a href="../sms/create-sms.md"><strong>Create SMS messages</strong></a>
     </div>
     <p>
     </td>
@@ -127,41 +127,3 @@ If you do not want to execute your campaign right after its activation, you can 
 ![](assets/create-campaign-schedule.png)
 
 Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
-
-<!-- to move in push doc
-## Rapid delivery mode {#rapid-delivery}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_rapid_delivery"
->title="Rapid delivery mode"
->abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
-
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
-
-Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
-
-For more information on performances when using Rapid delivery mode, refer to [Adobe Journey Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
-### Prerequisites {#prerequisites}
-
-Rapid delivery messaging comes with the following requirements:
-
-* Rapid delivery is available for **[!UICONTROL Scheduled]** campaigns only, and is not available for API-triggered campaigns,
-* No personalization is allowed in the push message,
-* The target audience must contain less than 30M profiles,
-* You can execute up to 5 campaigns simulateneously using the Rapid delivery mode.
-
-### Activate Rapid delivery mode
-
-1. Create a push notification campaign and toggle on the **[!UICONTROL Rapid delivery]** option.
-
-![](assets/create-campaign-burst.png)
-
-1. Configure the message content and select the audience to target. [Learn how to create a campaign](#create)
-    
-    >[!IMPORTANT]
-    >
-    >Ensure that the message content does not include any personalization, and that the audience contains less than 30M profiles.
-
-1. Review and activate your campaign as usual. Note that, in test mode, messages are not sent via the Rapid delivery mode. [Learn how to review and activate a campaign](review-activate-campaign.md)
--->

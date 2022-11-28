@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 ---
 # Get started with web channel {#get-sarted-web}
 

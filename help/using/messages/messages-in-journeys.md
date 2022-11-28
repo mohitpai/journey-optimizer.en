@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 ---
-
 # Add messages in journeys{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ To add messages in a journey, add a push, SMS or email activity in the journey c
 
    * [Create an email](create-email.md)
    * [Create a push notifications](../push/create-push.md)
-   * [Create an SMS message](create-sms.md)
+   * [Create an SMS message](../sms/create-sms.md)
 
 ## Enable Send-time optimization{#sto-in-journeys}
 
@@ -76,7 +76,7 @@ Use **[!UICONTROL Send-time optimization]** to schedule personalized send times 
 
 Advanced parameters are read-only and hidden by default. 
 
-To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane.
+To access advanced parameters, click the **[!UICONTROL Show read-only fields]** icon on the top of the messsage pane. Click the same icon to hide advanced settings.
 
 ![](assets/show-read-only.png)
 
@@ -84,16 +84,20 @@ Advanced parameters are displayed at the bottom of the message pane. These param
 
 For push notifications, you can display the following parameters: Token, AppID, AppPlatform.
 
-![](assets/push-adv-parameters.png)
+For email, you can display the [primary email address](../configuration/primary-email-addresses.md).
 
-For email, you can display the primary email address.
+In specific contexts, you can override these values for specific use. To force a value, click the **[!UICONTROL Enable parameter override]** icon to the right of the field.
 
-For specific use, you can override these values in specific contexts. To force a value, click the **Enable parameter override** icon to the right of the field. This option may be useful for example to:
+![](assets/email-adv-parameters.png)
 
-* Test an email, you can add your email address. After you have published the journey, the email is sent to you.
+This option may be useful for example to:
+
+* Test an email. You can add your email address; after you have published the journey, the email is sent to you.
 * Refer to the email address of the subscribers of a list. Learn more in [this use case](../building-journeys/message-to-subscribers-uc.md).
 
-Click the same icon to hide advanced settings.
+>[!NOTE]
+>
+>Email address override should only be used for specific use cases. Most of the time, you do not need to change the email address because the value defined as the primary address in the **[!UICONTROL Execution fields]** is the one that should be used. [Learn more](../configuration/primary-email-addresses.md)
 
 ## Browse messages{#browse-message}
 
@@ -121,7 +125,7 @@ To perform this, follow the steps below:
 
    ![](assets/message-duplicated.png)
 
-1. Rename the message to be able to differenciate the initial message from the copy, for example when editing messages, as below:
+1. Rename the message to be able to differentiate the initial message from the copy, for example when editing messages, as below:
 
    ![](assets/multi-message.png)
 

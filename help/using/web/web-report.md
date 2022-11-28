@@ -7,9 +7,8 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
 ---
-
 # Web report {#web-report}
 
 The Web report is available in the Campaign report.

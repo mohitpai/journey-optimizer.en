@@ -9,6 +9,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 ---
 # Create composition workflows {#create-compositions}
 
@@ -34,13 +35,11 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
     For more information on how to configure activities in the composition workflow canvas, refer to [Work with the composition canvas](composition-canvas.md).
 
-1. Select the **[!UICONTROL Audience]** activity, then specify a label for your composition.
+1. Open the composition properties to specify a title and a description. 
 
-    >[!IMPORTANT]
-    >
-    >The **[!UICONTROL Audience]** activity label is the label of your composition. Make sure to provide a meaningful name to retrieve the composition more easily in the list.
+    If no title is defined in the properties, the composition label will be the one of the starting **[!UICONTROL Audience]** activity.
 
-    ![](assets/audiences-new-composition.png)
+    ![](assets/audiences-properties.png)
 
 1. Configure your composition by adding as many activites as needed between the **[!UICONTROL Audience]** and **[!UICONTROL Save]** activities. [Learn how to work with the composition canvas](composition-canvas.md) 
 
@@ -52,7 +51,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
     ![](assets/audiences-alerts.png)
 
-1. The composition is published. The resulting audiences are saved into Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. The composition is published. The resulting audiences are saved into Adobe Experience Platform and are ready to be targeted in Journey Optimizer campaigns. [Learn how to work with campaigns](../campaigns/get-started-with-campaigns.md)
 
 ## Access compositions {#access}
 
@@ -64,7 +63,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 All created compositions can be accessed from the **[!UICONTROL Compositions]** tab. They can have multiple statuses:
 
 * **[!UICONTROL Draft]**: the composition is in progress and has not been published.
-* **[!UICONTROL Published]**: the composition has been published, resulting audiences have been saved. <!-- and are available for use.-->
+* **[!UICONTROL Published]**: the composition has been published, resulting audiences have been saved and are available for use.
 * **[!UICONTROL Archived]**: the composition has been archived.
 
 ![](assets/audiences-compositions.png)

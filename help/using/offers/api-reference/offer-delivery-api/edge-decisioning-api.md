@@ -17,7 +17,7 @@ The Experience Platform Web SDK supports querying the personalization solutions 
 
 There are two ways to implement decision management with the [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). One way is geared towards developers and requires knowledge of websites and programming. The other way is using the Adobe Experience Platform user interface to set up offers which only requires a small script to be referenced in the header of the HTML page.
 
-Refer to the documentation on [decision management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) for more information on how to deliver personalized offers using the Platform Web SDK.
+Refer to the documentation on [decision management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) for more information on how to deliver personalized offers using Adobe Experience Platform Web SDK.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ The SDK did not combine these libraries and is a new implementation from the gro
 
 1. Install the SDK. There are multiple methods of doing so, which are covered on the [Install the SDK page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). This page will continue with each different method of implementation. 
 
-In order to use the SDK, you must have a [schema](../../../start/get-started-schemas.md) and a [datastream](../../../start/get-started-datasets.md) defined.
+In order to use the SDK, you must have a [schema](../../../data/get-started-schemas.md) and a [datastream](../../../data/get-started-datasets.md) defined.
 
 <!-- ****TODO - Configure schema**** -->
 
@@ -60,7 +60,7 @@ This option is more user-friendly for people who may have less coding experience
 
 1. [Add the embed code](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. Install and configure the Platform Web SDK extension with the Datastream you created by selecting the configuration from the “Datastream” dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Install and configure Adobe Experience Platform Web SDK extension with the Datastream you created by selecting the configuration from the “Datastream” dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
     ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 

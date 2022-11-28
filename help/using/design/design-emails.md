@@ -27,19 +27,23 @@ Once you have [created your message](../messages/get-started-content.md), you ca
 
 1. From your newly created message, select **[!UICONTROL Email designer]** in the **[!UICONTROL Body]** section.
 
-    ![](assets/import-html_1.png)
+    <!--![](assets/import-html_1.png)-- to remove>
+
+    ![](assets/email_designer_edit_email_body.png)   
+
+    <!--change screen? On stage now I can see 2 buttons: Edit email body / Code Editor, but it looks temporary...-->
 
 1. In the Email Designer home page, choose how you want to design your email from the following options:
 
-    * **Design your email from scratch** through the email designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your email content or use built-in templates [in this section](create-email-content.md).
+    * **Design your email from scratch** through the email designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your email content or use built-in templates in [this section](create-email-content.md).
 
-    * **Copy from existing email** from a list of sample templates. 
+    * **Select an existing content** from a list of sample templates. Learn more in [this section](email-templates.md).
 
-    * **Code or paste raw HTML** directly in the email designer. Learn how to code your own content [in this section](code-content.md).
+    * **Code or paste raw HTML** directly in the email designer. Learn how to code your own content in [this section](code-content.md).
 
-    * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content [in this section](existing-content.md).
+    * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content in [this section](existing-content.md).
 
-    ![](assets/email_designer_25.png)
+    ![](assets/email_designer_create_options.png)
 
 These features are all available when accessing the Email Designer from the message creation screen. [Learn more about message creation](../messages/get-started-content.md).
 
