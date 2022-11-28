@@ -22,7 +22,7 @@ All messages are editable in-line as part of an action on the Journey canvas, or
 
 Once messages are added to your journey or your campaign, learn how to design and configure your messages in the following sections:
 
-* **Create an email** - Learn how to create an email content and validate your message [in this page](create-email.md).
+* **Create an email** - Learn how to create an email content and validate your message [in this page](../email/create-email.md).
 
 * **Create a push notification** - Learn how to create push notifications for iOS and Android devices [in this page](../push/create-push.md).
 

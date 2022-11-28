@@ -60,10 +60,10 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     <table style="table-layout:fixed">
     <tr style="border: 0;">
     <td>
-    <a href="../messages/create-email.md">
+    <a href="../email/create-email.md">
     <img alt="Lead" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../messages/create-email.md"><strong>Create emails</strong>
+    <div><a href="../email/create-email.md"><strong>Create emails</strong>
     </div>
     <p>
     </td>
