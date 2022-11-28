@@ -19,7 +19,7 @@ You can choose from:
 * Saved templates. [Learn more](#use-saved-template)
 
 ## Save as template {#save-as-template}
-ass
+
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="Learn how to migrate your messages"
