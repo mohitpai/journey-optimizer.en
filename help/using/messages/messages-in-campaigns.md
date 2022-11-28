@@ -14,7 +14,7 @@ exl-id: 12892db9-e778-48fe-90a3-5de51dc02e4d
 In your campaigns, select the channel to design and personalize the message you want to send to your audience. When you add an email, a SMS or a Push to your campaign, you can send it immediately or schedule the message.
 
 >[!NOTE]
->You can also create journeys to send triggered messages. Learn more [in this section](messages-in-journeys.md).
+>You can also create journeys to send triggered messages. Learn more 
 
 Learn how to add and configure messages in a campaign [in this section](../campaigns/create-campaign.md).
 

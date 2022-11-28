@@ -18,7 +18,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 
 Use [!DNL Journey Optimizer] to create and deliver personalized push notifications, SMS and email messages. 
 
-All messages are editable in-line as part of [an action on the Journey canvas](messages-in-journeys.md), or [in the context of a campaign](messages-in-campaigns.md).  
+All messages are editable in-line as part of an action on the Journey canvas, or in the context of a campaign
 
 Once messages are added to your journey or your campaign, learn how to design and configure your messages in the following sections:
 
