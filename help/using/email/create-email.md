@@ -64,8 +64,6 @@ For more information on how to configure a campaign, refer to [this page](../cam
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content email body]** button to configure the email content. [Learn more](design-emails.md)
 
-    ![](assets/email_campaign_edit_email_body.png)
-
 1. Click the **[!UICONTROL Edit email body]** button.
 
     ![](assets/email_designer_edit_email_body.png)
