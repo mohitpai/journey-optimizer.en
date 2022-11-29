@@ -11,6 +11,10 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 
 Returns a listObject with objects having the key attribute matching one of the given key values.
 
+>[!NOTE]
+>
+>If the target list is a listObject, this function can only be used in custom action expressions.
+
 ## Category
 
 List

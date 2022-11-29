@@ -11,7 +11,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
 # Email, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] comes wit built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and [define settings and content](../messages/messages-in-journeys.md). It is then executed and sent in the context of the journey.
+[!DNL Journey Optimizer] comes with built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and [define settings and content](../messages/messages-in-journeys.md). It is then executed and sent in the context of the journey.
 
 You can also set up specific actions to send you messages:
 
@@ -33,4 +33,12 @@ To add a message in a journey, follow the steps below:
 
    All steps to configure the message and define its content are detailed in [this section](../messages/get-started-content.md).
 
+## Update live content{#update-live-content}
 
+You can update the content of a message (email, sms, push) in a live journey. 
+
+To do this, open your live journey, select the message activity and click **Edit content**.
+
+![](assets/add-a-message2.png)
+
+However, you cannot change the attributes used in personalisation, whether they are profile attributes or contextual data (from event or journey properties).

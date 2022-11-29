@@ -14,6 +14,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
 * Added a recommendation about the length of mirror pages URLs. [Read more](../design/message-tracking.md)
 * A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../configuration/email-settings.md#reply-to-email)
+* Added a section on how to modify the content of a message in a live journey. [Read more](../building-journeys/journeys-message.md#update-live-content)
 
 ## October 2022 {#october-2022}
 

@@ -86,6 +86,10 @@ For push notifications, you can display the following parameters: Token, AppID, 
 
 ![](assets/push-adv-parameters.png)
 
+>[!NOTE]
+>
+>If you overwrite one of these attributes, all three need to be overridden too. 
+
 For email, you can display the [primary email address](../configuration/primary-email-addresses.md).
 
 In specific contexts, you can override these values for specific use. To force a value, click the **[!UICONTROL Enable parameter override]** icon to the right of the field.
