@@ -222,28 +222,6 @@ solution: Journey Optimizer
   + [Author web pages](using/web/author-web.md)
   + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
-+ Design content {#design}
-  + [Get started with email design](using/design/design-emails.md)
-  + Start creating content {#start-creating-content}
-    + [Start from scratch ](using/design/create-email-content.md)
-    + [Import your email content](using/design/existing-content.md)
-    + [Code your own content](using/design/code-content.md)
-    + [Work with templates](using/design/email-templates.md)
-  + Add content {#add-content}
-    + [Use content components](using/design/content-components.md)
-    + [Add links and track messages](using/design/message-tracking.md)
-    + Add and manage assets {#manage-asset}
-      + [Work with Assets Essentials](using/design/assets-essentials.md)
-      + [Work with Adobe Stock](using/design/stock.md)
-    + [Generate the text version](using/design/text-version-email.md)
-    + [Add a preheader](using/design/preheader.md)
-  + Edit style {#edit-style}
-    + [Background settings](using/design/backgrounds.md)
-    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
-    + [Define a style for links](using/design/styling-links.md)
-    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
-  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
-  + [Preview and proofs](using/design/preview.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
