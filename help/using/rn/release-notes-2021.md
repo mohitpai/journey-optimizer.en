@@ -265,7 +265,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Content Design**
 
-* **Background** - Background images are now supported in live preview. [Learn more](../design/preview.md)
+* **Background** - Background images are now supported in live preview. [Learn more](../email/preview.md)
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalization**
@@ -340,9 +340,9 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Preview and test**
 
-* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../design/preview.md#preview-your-messages)
+* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../email/preview.md#preview-your-messages)
 * The number of test emails for proofs is now restricted to 10.
-* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../design/preview.md#send-proofs)
+* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../email/preview.md#send-proofs)
 
 **Personalization expression editor**
 

@@ -32,9 +32,9 @@ Emails can be created:
 
 ## Define your email content{#email-content}
 
-Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../design/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../design/existing-content.md), or [code your own content](../design/code-content.md) in [!DNL Journey Optimizer]. 
+Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../email/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../email/existing-content.md), or [code your own content](../email/code-content.md) in [!DNL Journey Optimizer]. 
 
-[!DNL Journey Optimizer] comes with a set of [built-in templates](../design/email-templates.md) to help you start. Any email can also be saved as a template.
+[!DNL Journey Optimizer] comes with a set of [built-in templates](../email/email-templates.md) to help you start. Any email can also be saved as a template.
 
 Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
@@ -44,11 +44,11 @@ Adapt the content of your messages to the targeted profiles by using [!DNL Journ
 
 If you want to track the behavior of your recipients through openings and/or clicks on links, enable the following options: **[!UICONTROL Email opens]** and **[!UICONTROL Click on email]**. 
 
-Learn more about tracking in [this section](../design/message-tracking.md).
+Learn more about tracking in [this section](../email/message-tracking.md).
 
 ## Validate your email content{#email-content-validate}
 
-Control the rendering of your email, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../design/preview.md).
+Control the rendering of your email, and check personalization settings with test profiles, using the preview section on the left-hand side. For more on this, refer to [this section](../email/preview.md).
 
 ![](assets/messages-simple-preview.png)
 

@@ -121,7 +121,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>CONTENT MANAGEMENT</p>
     <li>
-      <a href="using/design/assets-essentials.md">Assets</a>
+      <a href="using/email/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>DATA MANAGEMENT</p>

@@ -12,7 +12,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## November 2022 {#november-2022}
 
 * Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
-* Added a recommendation about the length of mirror pages URLs. [Read more](../design/message-tracking.md)
+* Added a recommendation about the length of mirror pages URLs. [Read more](../email/message-tracking.md)
 * A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../configuration/email-settings.md#reply-to-email)
 
 ## October 2022 {#october-2022}
@@ -119,7 +119,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
 * The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../privacy/opt-out.md#opt-out-management)
-* The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../design/message-tracking.md#insert-links)
+* The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../email/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -197,8 +197,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added links to [!DNL Journey Optimizer] product description in the home page
 * Added tutorial videos in multiple pages
 * Optimized home page imagery
-* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../design/message-tracking.md)
-* Added a subsection on mirror pages. [Read more](../design/message-tracking.md#mirror-page)
+* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../email/message-tracking.md)
+* Added a subsection on mirror pages. [Read more](../email/message-tracking.md#mirror-page)
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](../personalization/personalization-use-case-helper-functions.md)
 * Updated the Read segment documentation to reflect materialized segment impacts. [Read more](../building-journeys/read-segment.md)

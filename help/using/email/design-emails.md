@@ -13,11 +13,11 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 
 You can import an existing content in [!DNL Journey Optimizer] or leverage content design capabilities:
 
-* Use [!DNL Journey Optimizer] **email designing capabilities** to design or import responsive emails. [Learn more](../design/create-email-content.md)
+* Use [!DNL Journey Optimizer] **email designing capabilities** to design or import responsive emails. [Learn more](../email/create-email-content.md)
 
-* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database. [Learn more](../design/assets-essentials.md)
+* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database. [Learn more](../email/assets-essentials.md)
 
-* Find **Adobe Stock photos** to build your content and improve your email design. [Learn more](../design/stock.md)
+* Find **Adobe Stock photos** to build your content and improve your email design. [Learn more](../email/stock.md)
 
 * Enhance customers' experience by creating personalized and dynamic messages based on their profile attributes. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md).
 

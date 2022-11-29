@@ -399,7 +399,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <td>
 <p>The Adobe Stock and Adobe Journey Optimizer Email Designer integration plugin provides customers an easy way to navigate, license and save imagery for use in message authoring. </br> The new <b>Find similar Stock photos</b> option also allows you to locate Stock photos that will match the content, color, and composition of your images. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>For more information, refer to the <a href="../design/stock.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../email/stock.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -468,7 +468,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Email**
 
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages. [Learn more](../design/email-templates.md)
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages. [Learn more](../email/email-templates.md)
 
 
 **Administration**

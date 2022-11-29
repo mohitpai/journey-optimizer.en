@@ -27,7 +27,7 @@ Before you start, ensure you know how to configure these elements:
 * A unitary event. [Learn more](../event/about-events.md).
 * A journey that starts with an event. [Learn more](../building-journeys/using-the-journey-designer.md).
 * An email message in your journey. [Learn more](../messages/get-started-content.md)
-* The body of an email. [Learn more](../design/create-email-content.md).
+* The body of an email. [Learn more](../email/create-email-content.md).
 
 Follow these steps:
 

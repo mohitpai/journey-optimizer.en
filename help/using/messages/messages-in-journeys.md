@@ -105,7 +105,7 @@ When multiple messages are used in a journey, you can switch from one to another
 
 ![](assets/inline-messages-multi-content.png)
 
-You can then [check alerts](alerts.md) and [simulate](../design/preview.md) each content from a single view.
+You can then [check alerts](alerts.md) and [simulate](../email/preview.md) each content from a single view.
 
 ## Duplicate a message {#duplicate-message}
 
@@ -132,7 +132,7 @@ To perform this, follow the steps below:
 
 >[!NOTE]
 >
->For emails, you can also turn an existing message to a template. [Learn more](../design/email-templates.md).
+>For emails, you can also turn an existing message to a template. [Learn more](../email/email-templates.md).
 
 ## Delete a message{#delete-message}
 

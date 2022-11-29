@@ -36,7 +36,7 @@ You first need to add an unsubscribe link into a message. To do this, follow the
 
 1. [Create a message](../messages/get-started-content.md) in a journey.
 
-1. Select text in your content and [insert a link](../design/message-tracking.md#insert-links) using the contextual toolbar.
+1. Select text in your content and [insert a link](../email/message-tracking.md#insert-links) using the contextual toolbar.
 
     ![](assets/opt-out-insert-link.png)
 
@@ -120,7 +120,7 @@ Once you configured the unsubscribe link to your landing page and implemented th
 
 To add an opt-out link in your email, follow the steps below.
 
-1. [Insert a link](../design/message-tracking.md#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
+1. [Insert a link](../email/message-tracking.md#insert-links) and select **[!UICONTROL One click Opt-out]** as the type of link.
 
     ![](assets/message-tracking-opt-out.png)
 

@@ -93,7 +93,7 @@ To start personalizing your SMS message, follow these steps:
 
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, using test profile data.
 
-To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../design/preview.md).
+To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../email/preview.md).
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message.
 

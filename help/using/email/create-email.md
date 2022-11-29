@@ -53,7 +53,7 @@ For more information on how to configure a campaign, refer to [this page](../cam
 
     >[!NOTE]
     >
-    >Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../design/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../design/existing-content.md), or [code your own content](../design/code-content.md) in [!DNL Journey Optimizer]. [!DNL Journey Optimizer] also comes with a set of [built-in templates](email-templates.md) to help you start.
+    >Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../email/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../email/existing-content.md), or [code your own content](../email/code-content.md) in [!DNL Journey Optimizer]. [!DNL Journey Optimizer] also comes with a set of [built-in templates](email-templates.md) to help you start.
 
 1. Once your message content has been defined, you can preview it to control the rendering of your email, and check personalization settings with test profiles. [Learn more](preview.md)
 
@@ -67,7 +67,7 @@ For more information on how to configure a campaign, refer to [this page](../cam
 
 ## Define your email content {#email-content}
 
-Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../email/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../design/existing-content.md), or [code your own content](../design/code-content.md) in [!DNL Journey Optimizer]. 
+Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../email/create-email-content.md). If you have an existing content, you can [import it in the Email Designer](../email/existing-content.md), or [code your own content](../email/code-content.md) in [!DNL Journey Optimizer]. 
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 

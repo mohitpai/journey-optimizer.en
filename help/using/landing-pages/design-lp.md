@@ -17,11 +17,11 @@ To start creating content for your landing [primary page](create-lp.md#configure
 
 From there, you can:
 
-* **Design your landing page from scratch** through the content designer's interface, and leverage images from [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Learn how to design your content <!--or use built-in templates--> [in this section](../design/create-email-content.md).
+* **Design your landing page from scratch** through the content designer's interface, and leverage images from [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Learn how to design your content <!--or use built-in templates--> [in this section](../email/create-email-content.md).
 
-* **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../design/code-content.md).
+* **Code or paste raw HTML** directly into the content designer. Learn how to code your own content [in this section](../email/code-content.md).
 
-* **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../design/existing-content.md).
+* **Import existing HTML content** from a file or a .zip folder. Learn how to import content [in this section](../email/existing-content.md).
 
 * **Use a saved landing page template** created in [!DNL Journey Optimizer]. [Learn more](lp-templates.md)
 
