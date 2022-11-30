@@ -13,6 +13,10 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 
 Deliverability is a measure of the success of your deliveries reaching your recipients inboxes.
 
+>[!NOTE]
+>
+>For customers licensing Healthcare Shield, Adobe uses Transport Layer Security (TLS) 1.2 to secure the data exchange between users’ systems (recipients) and Journey Optimizer (sender). If the receiving mail server doesn't support TLS 1.2, customers will experience deliverability issues including email bouncing back to the originating sender.
+
 **Email deliverability** refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.
 
 The **deliverability rate** is the number of messages that hit the recipients' inboxes compared to the number of messages that were delivered. It depends on numerous factors, particularly:
