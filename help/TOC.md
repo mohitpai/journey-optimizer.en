@@ -170,8 +170,6 @@ solution: Journey Optimizer
   + [Create an email bis](using/messages/create-email-bis.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
-  + [Create an SMS message bis](using/messages/create-sms-bis.md)
-  + [Create a push notification bis](using/messages/create-push-bis.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
   + [Check alerts](using/messages/alerts.md)
   + [Send time optimization](using/messages/send-time-optimization.md)
