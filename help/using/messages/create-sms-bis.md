@@ -16,7 +16,7 @@ hidefromtoc: yes
 >
 >In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. 
 
-## Create an SMS message in a journey or campaign {#sms-content}
+## Create an SMS message in a journey or campaign
 
 To start personalizing your SMS message, follow these steps:
 
@@ -59,7 +59,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 >[!ENDTABS]
 
-## Define your SMS content{#sms-content}
+## Define your SMS content
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
 
@@ -71,7 +71,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 1. When your SMS message is ready, complete the configuration of your to send it.
 
-## Validate your SMS{#sms-preview}
+## Validate your SMS
 
 >[!NOTE]
 >

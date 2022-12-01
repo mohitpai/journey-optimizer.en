@@ -12,7 +12,7 @@ hidefromtoc: yes
 ---
 # Create a push notification {#create-push-notification-bis}
 
-## Create the push notification in a journey or campaign {#create}
+## Create the push notification in a journey or campaign
 
 To create a push notification, follow the steps below:
 
@@ -65,7 +65,7 @@ To create a push notification, follow the steps below:
 
 >[!ENDTABS]
 
-## Rapid delivery mode {#rapid-delivery}
+## Rapid delivery mode 
 
 Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
 
@@ -73,7 +73,7 @@ Rapid delivery is used when delay in message delivery is business-critical, when
 
 For more information on performances when using Rapid delivery mode, refer to.
 
-### Prerequisites {#prerequisites}
+### Prerequisites 
 
 Rapid delivery messaging comes with the following requirements:
 
