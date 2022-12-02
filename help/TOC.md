@@ -167,7 +167,6 @@ solution: Journey Optimizer
     + [Add messages in journeys](using/messages/messages-in-journeys.md)
     + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
   + [Create an email](using/messages/create-email.md)
-  + [Create an email bis](using/messages/create-email-bis.md)
   + [Create a push notification](using/messages/create-push.md)
   + [Create an SMS message](using/messages/create-sms.md)
   + [Create a direct mail](using/messages/create-direct-mail.md)
