@@ -9,6 +9,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 07993d85-1905-4a2c-97e0-e158e0571ed4
 ---
 # Create an email {#create-email-bis}
 
@@ -97,4 +98,3 @@ When your email is ready, complete the configuration of your [journey](../buildi
 >To track the behavior of your recipients through email openings and/or interactions, make sure that the dedicated options in the **[!UICONTROL Tracking]** section are enabled in the journey's [email activity](../building-journeys/journeys-message.md) or in the email [campaign](../campaigns/create-campaign.md).
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. [Learn more](alerts.md)
-
