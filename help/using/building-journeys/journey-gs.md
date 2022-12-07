@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Get started with journeys
+title: Create your first journey
 description: Key steps to build your first journey with Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
-# Get started with journeys{#jo-quick-start}
+# Create your first journey{#jo-quick-start}
 
 ## Prerequisites{#start-prerequisites}
 
@@ -87,7 +87,7 @@ The **Copy technical details** allows you to copy technical information about th
 
 ### Entrance{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. 
+By default, new journeys allow re-entrance. You can uncheck the option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
 Learn more about profile entrance mannagement, in [this section](entry-management.md).
 
