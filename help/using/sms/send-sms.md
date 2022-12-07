@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 ---
 # Send your SMS message {#send-sms}
 

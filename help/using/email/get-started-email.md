@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 ---
 # Get started with email {#get-started-email}
 
@@ -62,4 +63,3 @@ Email deliveries can be created:
 <p>
 </td>
 </tr></table>
-

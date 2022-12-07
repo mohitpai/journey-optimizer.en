@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 ---
 # Get started with SMS {#get-started-sms}
 

@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 ---
 # Send your push notification {#send-push}
 
@@ -53,4 +54,3 @@ You must also check alerts in the upper section of the editor.  Some of them are
 ![](assets/push_alert.png)
 
 When your Push notification is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
-

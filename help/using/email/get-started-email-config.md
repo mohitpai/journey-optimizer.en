@@ -7,8 +7,8 @@ role: Admin
 level: Intermediate
 feature: Application Settings
 topic: Administration
+exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 ---
-
 # Get started with email configuration {#get-starte-email-config}
 
 To be able to send emails through journeys and campaigns in [!DNL Journey Optimizer], you need to go through a number of configuration steps.

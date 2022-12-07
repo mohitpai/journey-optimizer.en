@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 ---
 # Get started with push notification {#gs-push-notification}
 
