@@ -31,7 +31,8 @@ Before being able to generate this file, you need to create:
 >id="ajo_dm_file_routing_details"
 >title="Define the file routing configuration"
 >abstract="After you create a direct mail message, the file containing the targeted audience data will be generated and exported to a server. You need to specify the server details so that your direct mail provider can access and use that file for delivering direct mail."
-<!-->
+
+<!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
