@@ -176,7 +176,7 @@ To define the subpage settings, follow the steps below.
 
     >[!NOTE]
     >
-    >You can insert a link to the primary page from any subpage of the same landing page. For example, to redirect users who made a mistake and want to subscribe again, you can add a link from the confirmation subpage to the subscription primary page. Learn how to insert links in [this section](../design/message-tracking.md#insert-links).
+    >You can insert a link to the primary page from any subpage of the same landing page. For example, to redirect users who made a mistake and want to subscribe again, you can add a link from the confirmation subpage to the subscription primary page. Learn how to insert links in [this section](../email/message-tracking.md#insert-links).
 
 1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-subdomains.md)
 
@@ -206,7 +206,7 @@ Once your landing page settings and content have been defined, you can use test 
 
     ![](assets/lp_test-profiles.png)
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../design/preview.md#select-test-profiles).
+    The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../email/preview.md#select-test-profiles).
 
 1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
 
@@ -269,7 +269,7 @@ Once your landing page is ready, you can publish it to make it available for use
 
 Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
 
-It is now live and ready to be used in a [!DNL Journey Optimizer] [message](../messages/get-started-content.md) that will be sent through a [journey](../building-journeys/journey.md).
+It is now live and ready to be used in a [!DNL Journey Optimizer] message that will be sent through a [journey](../building-journeys/journey.md).
 
 >[!NOTE]
 >

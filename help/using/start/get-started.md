@@ -63,7 +63,6 @@ Understand the basic architecture of [!DNL Adobe Journey Optimizer], the points 
 **See also**
 
 * [Key steps to start](quick-start.md)
-* [Create your first message](../messages/get-started-content.md)
 * [Design journeys and send messages](../building-journeys/journey-gs.md)
 * [Live reports](../reports/live-report.md)
 * [Journey Optimizer FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)

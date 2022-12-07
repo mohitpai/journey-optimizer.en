@@ -27,7 +27,7 @@ In order to send messages with journeys, the following configurations are requir
 
    ![](assets/jo-datasource.png)  
 
-1. **Configure an action**: If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. If you're using Journey Optimizer built-in message capabilities, you just need to add a channel action to your journey and design your content. See [this section](../messages/get-started-content.md). 
+1. **Configure an action**: If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. If you're using Journey Optimizer built-in message capabilities, you just need to add a channel action to your journey and design your content.
 
     ![](assets/custom2.png)
 

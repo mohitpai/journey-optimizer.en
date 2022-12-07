@@ -17,13 +17,13 @@ You can define your landing page content using custom JavaScript. For example, i
 
 To insert custom JavaScript into landing page content, you can either do the following:
 
-* Import existing HTML content when starting to create your content, and select the file which includes your custom JavaScript code. Learn how to import content [in this section](../design/existing-content.md).
+* Import existing HTML content when starting to create your content, and select the file which includes your custom JavaScript code. Learn how to import content [in this section](../email/existing-content.md).
 
-* Design your landing page from scratch or from a saved template. Drag and drop the **[!UICONTROL HTML]** content component into the canvas and show the source code to add your JavaSCript into the component. Learn how to use the HTML component in [this section](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Design your landing page from scratch or from a saved template. Drag and drop the **[!UICONTROL HTML]** content component into the canvas and show the source code to add your JavaSCript into the component. Learn how to use the HTML component in [this section](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
     ![](assets/lp_designer-html-component.png)
 
-* Enter or paste JavaScript code directly into the content designer. Learn how to code your own content [in this section](../design/code-content.md).
+* Enter or paste JavaScript code directly into the content designer. Learn how to code your own content [in this section](../email/code-content.md).
 
 >[!NOTE]
 >

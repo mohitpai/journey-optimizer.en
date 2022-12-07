@@ -44,11 +44,11 @@ Follow the steps listed below:
 
 1. **Configure messages and channels**: define surfaces, adapt and customize email, sms and push messages settings
 
-    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../configuration/push-gs.md)
+    * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../../push/push-gs.md)
 
     * Create **channel surfaces** (i.e. message presets) to configure all the technical parameters required for email, sms and push notification. [Learn more](../../configuration/channel-surfaces.md)
 
-    * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../configuration/sms-configuration.md)
+    * Configure the **SMS channel** to configure all the technical parameters required for SMS. [Learn more](../../sms/sms-configuration.md)
 
     * Manage the number of days during which **retries** are performed before sending email addresses to the suppression list. [Learn more](../../configuration/manage-suppression-list.md)
 

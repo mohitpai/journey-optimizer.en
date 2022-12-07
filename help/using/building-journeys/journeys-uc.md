@@ -82,11 +82,11 @@ The event is now configured and ready to be used in your journey. Using the corr
 
    ![](assets/jo-uc4.png)
 
-1. Drop an **Email** action activity and define the content of the "first message". This message is sent to all individuals in the journey. Refer to this [section](../messages/create-email.md) to learn how to configure and design an email.
+1. Drop an **Email** action activity and define the content of the "first message". This message is sent to all individuals in the journey. Refer to this [section](../email/create-email.md) to learn how to configure and design an email.
 
    ![](assets/jo-uc5.png)
 
-1. Place your cursor on the email activity and click on the “+” symbol to create a new path.
+1. Place your cursor on the email activity and click on the "+" symbol to create a new path.
 
 1. In the first path, add a **Reaction** event and select **Push opened**. The event is triggered when an individual belonging to the segment opens the push version of the first message.
 
@@ -98,11 +98,11 @@ The event is now configured and ready to be used in your journey. Using the corr
    >
    >When configuring a timeout on multiple events (the two reactions in this case), you only need to configure the timeout on one these events.
 
-1. In the timeout path, drop an **Email** action activity and define the content of the "follow-up" message. This message is sent to the individuals who do not open the email or push first message in the next day. Refer to this [section](../messages/create-email.md) to learn how to configure and design an email.
+1. In the timeout path, drop an **Email** action activity and define the content of the "follow-up" message. This message is sent to the individuals who do not open the email or push first message in the next day. Refer to this [section](../email/create-email.md) to learn how to configure and design an email.
 
 1. Connect the three paths to the purchase event created previously. The event is triggered when an individual makes a purchase.
 
-1. After the event, drop a **Push** action activity and define the content of the "thank you" message. Refer to this [section](../messages/create-push.md) to learn how to configure and design a push.
+1. After the event, drop a **Push** action activity and define the content of the "thank you" message. Refer to this [section](../push/create-push.md) to learn how to configure and design a push.
 
 ## Test and publish the journey
 

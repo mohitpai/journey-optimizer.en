@@ -35,7 +35,7 @@ The steps to add dynamic content in expressions are as follows:
 
     ![](assets/conditions-language-sample.png)
 
-1. Once your content is ready, you can preview the different variants using the **[!UICONTROL Simulate content]** button. [Learn how to test and preview messages](../design/preview.md)
+1. Once your content is ready, you can preview the different variants using the **[!UICONTROL Simulate content]** button. [Learn how to test and preview messages](../email/preview.md)
 
     ![](assets/conditions-preview.png)
 

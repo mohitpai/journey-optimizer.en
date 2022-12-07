@@ -15,6 +15,32 @@ Once a campaign has been activated, you can modify or stop it at any time. These
 
 Additionally, you can duplicate live campaigns (executed once or with a recurring execution) to create new ones, and archive completed or stopped campaigns.
 
+## Access campaigns {#access}
+
+Campaigns are accessible from the **[!UICONTROL Campaigns]** menu.
+
+By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses.
+
+To display stopped, completed, and archived campaigns, you need to clear the filter.
+
+![](assets/create-campaign-list.png)
+
+## Campaign statuses {#statuses}
+
+Campaigns can have multiple statuses:
+
+* **[!UICONTROL Draft]**: The campaign is being edited, it has not been activated.
+* **[!UICONTROL Activating]**: The campaign is being activated.
+* **[!UICONTROL Live]**: The campaign has been activated.
+* **[!UICONTROL Scheduled]**: The campaign is configured to be activated on a specific start date.
+* **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn how to stop a campaign](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completed]**: The campaign is complete. This status is automatically assigned 3 days after a campaign has been activated, or at the campaign's end date if it has a recurring execution.
+* **[!UICONTROL Archived]**: The campaign has been archived. [Learn how to archive campaigns](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>The "Open draft version" icon next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indicates that a new version of the campaign has been created and has not been activated yet. [Learn more](modify-stop-campaign.md#modify).
+
 ## Modify a recurring campaign {#modify}
 
 To modify and create a new version of a recurring campaign, follow these steps:

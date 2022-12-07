@@ -12,6 +12,8 @@ exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 
 Journey Optimizer is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. This is why privacy needs to be managed carefully.
 
+Moreover, regulations such as GDPR state that you must comply with specific requirements before being able to use information from Data Subjects. Moreover, Data Subjects should be able to modify their consent at any time.
+
 Adobe Experience Platform and Journey Optimizer provide various tools to help you ensure privacy management.
 
 * **Manage data requests**: Use Adobe Experience Platform Privacy Service to manage customer requests to access and delete personal data. [Learn more](requests.md)
