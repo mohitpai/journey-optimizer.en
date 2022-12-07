@@ -99,7 +99,7 @@ To configure the file routing, follow the steps below.
 >id="ajo_dm_surface_settings"
 >title="Define the direct mail settings"
 >abstract="A direct mail surface contains the settings for the formatting of the file which contains the targeted audience data and will be used by the mail provider. You must also define where the file will be exported by selecting the file routing configuration."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configure file routing"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configure file routing"
 
 <!--
 >[!CONTEXTUALHELP]
