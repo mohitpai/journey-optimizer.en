@@ -30,8 +30,8 @@ To do this, the organization would:
 >
 >Batch decisioning can also be performed using Journey Optimizer interface. For more information, refer to [this section](../../batch-delivery.md), which provides information on global prerequisites and limitations to take inbto account when using batch decisioning.
 
-  * **The number of running batch jobs per dataset**: Up to five batch jobs can be run at a time, per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
-  * **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
+* **The number of running batch jobs per dataset**: Up to five batch jobs can be run at a time, per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
+* **Frequency capping**: A batch runs off of the profile snapshot that occurs once a day. The [!DNL Batch Decisioning] API caps the frequency and always loads profiles from the most recent snapshot.
 
 ## Getting started {#getting-started}
 

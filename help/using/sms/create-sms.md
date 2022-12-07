@@ -20,7 +20,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >
 >In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## Create an SMS message in a journey or campaign {#sms-content}
+## Create an SMS message in a journey or campaign {#create-sms-journey-campaign}
 
 To start personalizing your SMS message, follow these steps:
 
