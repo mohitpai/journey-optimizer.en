@@ -9,6 +9,14 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## December 2022 {#december-2022}
+
+* The Messages guide has been reorganized and split into dedicated guides for each channel:
+
+    * [Email channel](../email/get-started-email.md)
+    * [Push notification channel](../push/get-started-push.md)
+    * [SMS channel](../sms/get-started-sms.md)
+
 ## November 2022 {#november-2022}
 
 * Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
@@ -23,7 +31,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The **Entity Dataset** section has been updated with more details. [Read more](../data/datasets-query-examples.md#entity-dataset)
 * The opt-out management and consent policies sections have been reorganized. [Read more](../privacy/opt-out.md)
 * The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. 
-* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../configuration/lp-subdomains.md)
+* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../landing-pages/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 
@@ -82,7 +90,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
 * A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)
 * Links to how-to videos have been updated.
-* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
+* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../landing-pages/lp-subdomains.md) sections have been reorganized for improved readability.
 * The URL tracking section has been updated and improved with examples. [Read more](../email/email-settings.md#url-tracking)
 * A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../email/email-settings.md#forward-email)
 

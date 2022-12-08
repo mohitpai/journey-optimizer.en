@@ -18,21 +18,31 @@ To be able to create your journeys and send messages, you need to go through the
 
 ## Configure messages and channels
 
-Define channel surfaces, adapt and customize the messages.
+1. To be able to create and send messages, you need to perform specific configurations depending on the channel.
 
-* [Delegate to Adobe the subdomains](about-subdomain-delegation.md) you want to use to send emails and [create IP pools](ip-pools.md) to group together IP addresses provisioned with your instance.
+    * For the **Email** channel, you need to delegate subdomains to Adobe and create IP pools to group together IP addresses. [Learn more](../email/get-started-email-config.md)
 
-* Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
+    * For the **Push** channel, you need to define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push/push-configuration.md)
 
-* Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push/push-gs.md)
+    * For the **SMS** channel, you need to configure your instance to send SMS, including integrating the provider settings with [!DNL Journey Optimizer]. [Learn more](../sms/sms-configuration.md)
 
-    <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. Once done, you must create **channel surfaces** to configure all the technical parameters required to deliver messages. [Learn more](channel-surfaces.md)
 
-* Configure your instance to send SMS (currently only available for a set of organizations - Limited Availability). [Learn more](../sms/sms-configuration.md)
+1. You can also:
 
-* Create channel surfaces to configure all the technical parameters required to deliver messages. [Learn more](channel-surfaces.md)
+    * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
-* Determine which email address and/or phone number to use in priority for your recipients when several addresses/numbers are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
+    * Enable the **BBC email option** to keep a copy of messages sent to individuals. [Learn more](archiving-support.md#enable-bcc)
+
+    * Configure **frequency rules** to avoid over-solicitating your recipients. [Learn more](frequency-rules.md)
+
+    * Determine which email address and/or phone number to use in priority for your recipients when several addresses/numbers are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>These steps must be performed by an [Adobe Journey Optimizer system administrator](../start/path/administrator.md).
 
 ## Configure journeys
 

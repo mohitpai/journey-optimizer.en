@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Design emails
-description: Learn how to adjust your email content style
+title: Get started with email style
+description: Discover the different ways you can adjust your email content style
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 ---
-# Get started with email content style {#get-started-email-style}
+# Get started with email style {#get-started-email-style}
 
 Once you started creating your email content in [!DNL Journey Optimizer], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
 

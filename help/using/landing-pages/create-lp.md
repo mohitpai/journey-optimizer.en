@@ -66,7 +66,7 @@ The steps to create a landing page are as follows.
 
     <!--You can add a tag. See AEP documentation?-->
 
-1. Select a preset. Learn how to create landing page presets in [this section](../configuration/lp-presets.md#lp-create-preset).
+1. Select a preset. Learn how to create landing page presets in [this section](../landing-pages/lp-presets.md#lp-create-preset).
 
     ![](assets/lp_create-lp-presets.png)
 
@@ -107,7 +107,7 @@ To define the primary page settings, follow the steps below.
 
     ![](assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../configuration/lp-presets.md#lp-create-preset) you selected. [Learn more](../configuration/lp-subdomains.md)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the [preset](../landing-pages/lp-presets.md#lp-create-preset) you selected. [Learn more](../landing-pages/lp-subdomains.md)
 
     >[!CAUTION]
     >
@@ -178,7 +178,7 @@ To define the subpage settings, follow the steps below.
     >
     >You can insert a link to the primary page from any subpage of the same landing page. For example, to redirect users who made a mistake and want to subscribe again, you can add a link from the confirmation subpage to the subscription primary page. Learn how to insert links in [this section](../email/message-tracking.md#insert-links).
 
-1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../configuration/lp-subdomains.md)
+1. Define your landing page URL. The first part of the URL requires you previously set up a landing page subdomain. [Learn more](../landing-pages/lp-subdomains.md)
 
     >[!CAUTION]
     >

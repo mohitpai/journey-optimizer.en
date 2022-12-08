@@ -177,10 +177,11 @@ solution: Journey Optimizer
       + Manage assets {#manage-asset}
         + [Work with Assets Essentials](using/email/assets-essentials.md)
         + [Work with Adobe Stock](using/email/stock.md)
-      + [Add personalized offers](using/email/add-offers-email.md)
+      + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
       + [Add a preheader](using/email/preheader.md)
     + Edit style {#edit-style}
+      + [Get started with email style](using/email/get-started-email-style.md)
       + [Edit background settings](using/email/backgrounds.md)
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
       + [Define a style for links](using/email/styling-links.md)
@@ -228,7 +229,10 @@ solution: Journey Optimizer
     + [Create templates](using/landing-pages/lp-templates.md)
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Use cases](using/landing-pages/lp-use-cases.md)
+  + [Learn through use cases](using/landing-pages/lp-use-cases.md)
+  + Configure landing pages {#lp-configuration}
+    + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
+    + [Define landing page presets](using/landing-pages/lp-presets.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
@@ -405,28 +409,20 @@ solution: Journey Optimizer
   + [Queries](using/data/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
-  + Configure messages {#configuration-message}
-    + Configure emails {#email-configuration}
-      + Delegate subdomains {#delegate-subdomains}
-        + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
-        + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
-        + [Access delegated subdomains](using/configuration/access-subdomains.md)
-      + Manage subdomain-related actions {#subdomain-related-actions}
-        + [Add a Google TXT record](using/configuration/google-txt.md)
-        + [Access and edit PTR records](using/configuration/ptr-records.md)
-        + [Create IP pools](using/configuration/ip-pools.md)
-      + Monitor email addresses {#monitor-reputation}  
-        + [Suppression list](using/configuration/manage-suppression-list.md)
-        + [Retries](using/configuration/retries.md)
-        + [Allowed list](using/configuration/allow-list.md)
-    + Set up channel surfaces {#set-up-channels}
-      + [Create channel surfaces](using/configuration/channel-surfaces.md)
-    + [Support for archiving](using/configuration/archiving-support.md)
-    + [Manage execution addresses](using/configuration/primary-email-addresses.md)
-    + [Configure frequency rules](using/configuration/frequency-rules.md)  
-  + Configure landing pages {#lp-configuration}
-    + [Configure landing page subdomains](using/configuration/lp-subdomains.md)
-    + [Define landing page presets](using/configuration/lp-presets.md)
+  + Delegate email subdomains {#delegate-subdomains}
+    + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
+    + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
+    + [Add a Google TXT record](using/configuration/google-txt.md)
+    + [Access and edit PTR records](using/configuration/ptr-records.md)
+    + [Create IP pools](using/configuration/ip-pools.md)
+  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
+  + Monitor email addresses {#monitor-reputation}  
+    + [Suppression list](using/configuration/manage-suppression-list.md)
+    + [Retries](using/configuration/retries.md)
+    + [Allowed list](using/configuration/allow-list.md)
+  + [Support for archiving](using/configuration/archiving-support.md)
+  + [Configure frequency rules](using/configuration/frequency-rules.md)
+  + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)

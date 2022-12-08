@@ -28,7 +28,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 
 To be able to [create landing page presets](lp-presets.md), you  must set up the subdomains you will use for your landing pages.
 
-You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](delegate-subdomain.md).
+You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -72,11 +72,11 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
     >[!CAUTION]
     >
-    >If you select a domain that was delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-delegation), you must create the DNS record on your hosting platform. To generate the DNS record, the process is the same as when you configure a new landing page subdomain. Learn how in [this section](#lp-configure-new-subdomain).
+    >If you select a domain that was delegated to Adobe using the [CNAME method](../configuration/delegate-subdomain.md#cname-subdomain-delegation), you must create the DNS record on your hosting platform. To generate the DNS record, the process is the same as when you configure a new landing page subdomain. Learn how in [this section](#lp-configure-new-subdomain).
 
 1. Click **[!UICONTROL Submit]**.
 
-1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
+1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
     ![](assets/lp_subdomain-processing.png)
 
@@ -127,7 +127,7 @@ To configure a new subdomain, follow the steps below.
     >
     >When you configure a new landing page subdomain, it will always point to a CNAME record.
 
-1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).<!--Same statuses?-->
+1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
     >[!NOTE]
     >

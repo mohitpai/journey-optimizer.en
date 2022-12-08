@@ -11,7 +11,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 ---
 # Subdomain delegation in [!DNL Journey Optimizer] {#subdomain-delegation}
 
-Creating a subdomain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the IP warming process and improve deliverability overall. If you share a domain and it gets blocked or added to the deny list, it could impact your corporate mail delivery. However, reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email. Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder.
+Creating a subdomain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the IP warming process and improve deliverability overall. If you share a domain and it gets blocked or added to the deny list, it could impact your corporate mail delivery. However, reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email. Using your main domain as the sender or 'From' address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder.
 
 >[!NOTE]
 >
@@ -62,3 +62,31 @@ The table below provides a summary of how these methods work, as well as the imp
 Additional information on domain configuration is available in [this documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 If you have any question regarding subdomain configuration methods, reach out to Adobe, or eventually contact Customer Care to request Deliverability consulting.
+
+## Access delegated subdomains {#access-delegated-subdomains}
+
+All your delegated subdomains display in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu. Filters are available to help you refine the list (delegation date, user or status).
+
+![](assets/subdomain-list.png)
+
+The **[!UICONTROL Status]** column provides information on the subdomain delegation process:
+
+* **[!UICONTROL Draft]**: The subdomain delegation has been saved as a draft. Click the subdomain name to resume the delegation process,
+* **[!UICONTROL Processing]**: The subdomain is going through several configuration checks before it can be used,
+* **[!UICONTROL Success]**: The subdomain has gone through the checks successfully and can be used to deliver messages,
+* **[!UICONTROL Failed]**: One or several checks have failed after the subdomain delegation was submitted.
+
+To access detailed information about a subdomain with the **[!UICONTROL Success]** status, open it from the list.
+
+![](assets/subdomain-delegated.png)
+
+You can:
+    
+* Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror pages, tracking URLs),
+
+* Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
+
+
+>[!CAUTION]
+>
+>Subdomain configuration is common to all environments. Therefore any modification to a subdomain will also impact the production sandboxes.
