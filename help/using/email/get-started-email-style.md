@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 ---
 # Get started with email style {#get-started-email-style}
 
