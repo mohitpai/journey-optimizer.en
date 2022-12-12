@@ -18,24 +18,29 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 >* [Create channel surfaces](../configuration/channel-surfaces.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
-## Create your first campaign {#create}
+To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**. You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
 
-1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
+![](assets/create-campaign.png)
 
-    >[!NOTE]
-    >
-    >You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
+## Choose the campaign type and channel {#campaigntype}
 
-    ![](assets/create-campaign.png)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Campaign type"
+>abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or card abandonment, the **API-triggered** type is the best choice."
 
-1. In the **[!UICONTROL Properties]** section, specify how you want to execute the campaign:
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Campaign category"
+>abstract="Category value is directly associated to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
 
-    * **[!UICONTROL Scheduled]**
-    * **[!UICONTROL API-triggered]**
+1. In the **[!UICONTROL Properties]** section, specify how you want to execute the campaign. There are two types of campaign available:
 
-    For more information about the campaign type and associated involvements, refer to this [section](#campaigntype).
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
 
-1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+
+1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message.
 
     A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
@@ -45,12 +50,18 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
     >
     >Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
 
+1. Click **[!UICONTROL Create]** to create the campaign.
+
+## Define the campaign properties {#create}
+
 1. Specify a title and a description for the campaign.
 
     <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
 
+    ![](assets/create-campaign-properties.png)
+    
 ## Create the message {#content}
 
 In the **[!UICONTROL Actions]** section, create the message to send with the campaign. 
@@ -123,38 +134,24 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="Campaign start"
->abstract="TBC"
+>abstract="Specify a date and time at which the message should be sent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="Campaign end"
->abstract="TBC"
+>abstract="Specify when a recurring campaign should stop being executed."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
 >title="Campaign action triggers"
->abstract="TBC"
+>abstract="Define a frequency at which the campaign's message should be sent."
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn how to schedule campaigns](#schedule)
+By default, campaigns start once they have been activated manually, and end as soon as the message has been sent once.
 
-1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
+You can define a frequency at which the campaign's message should be sent. To do this, use the **[!UICONTROL Action triggers]** options in the campaign creation screen to specify if the campaign should be executed daily, weekly, or monthly.
+
+If you do not want to execute your campaign right after its activation, you can specify a date and time at which the message should be sent using the **[!UICONTROL Campaign start]** option. The **[!UICONTROL Campaign end]** option allows you to specify when a recurring campaign should stop being executed.
+
+![](assets/create-campaign-schedule.png)
 
 Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
-
-## Campaign type {#campaigntype}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_type"
->title="Campaign type"
->abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or card abandonment, the **API-triggered** type is the best choice."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Campaign category"
->abstract="Category value is directly associated to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
-
-There are two types of campaign available:
-
-* **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-
-* **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
