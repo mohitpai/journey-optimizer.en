@@ -43,7 +43,7 @@ Click the three dots next to a landing page to select the desired action.
 >id="ajo_lp_create"
 >title="Define and configure your landing page"
 >abstract="To create a landing page, you need to select a preset, then configure the primary page and subpages, and finally test your page before publishing it."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish the landing page"
 
 >[!CONTEXTUALHELP]
@@ -94,8 +94,8 @@ Once you configured and designed the [primary page](#configure-primary-page), an
 >id="ajo_lp_access_settings"
 >title="Define your landing page URL"
 >abstract="In this section, define a unique landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the preset you selected."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configure landing page subdomains"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configure landing page subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Create landing page presets"
 
 The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website.
 

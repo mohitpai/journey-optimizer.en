@@ -165,7 +165,7 @@ To do this, enable the **[!UICONTROL BCC email]** optional feature at the channe
 >id="ajo_admin_presets_retryperiod"
 >title="Adjust the retry time period"
 >abstract="Retries are performed for 3.5 days (84 hours) when an email delivery fails due to a temporary soft bounce error. You can adjust this default retry time period to better suit your needs."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="About retries"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="About retries"
 
 You can configure the **Email retry parameters**.
 
