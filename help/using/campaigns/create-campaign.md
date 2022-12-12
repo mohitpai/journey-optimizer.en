@@ -131,12 +131,12 @@ Once your campaign is ready, you can review and publish it. [Learn more](#review
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Campaign type"
->abstract="TBC"
+>abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or card abandonment, the **API-triggered** type is the best choice."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campaign category"
->abstract="TBC"
+>abstract="Category value is directly linked to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
 
 There are two types of campaign available:
 

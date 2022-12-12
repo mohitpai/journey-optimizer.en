@@ -105,7 +105,7 @@ The payload definition allows you to choose the information the system expects t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="Identity Namespace"
->abstract="TBC"
+>abstract="Select the key to identify the customer profile associated to the event."
 
 The namespace allows you to define the type of key used to identify the person associated to the event. Its configuration is optional. It is required if you want to retrieve, in your journeys, additional information coming from the [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}. The namespace definition is not needed if you're only using data coming from a third-party system through a custom data source.
 
