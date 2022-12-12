@@ -120,6 +120,21 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 ## Schedule the campaign {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Campaign start"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Campaign end"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign action triggers"
+>abstract="TBC"
+
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn how to schedule campaigns](#schedule)
 
 1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
@@ -136,7 +151,7 @@ Once your campaign is ready, you can review and publish it. [Learn more](#review
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campaign category"
->abstract="Category value is directly linked to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
+>abstract="Category value is directly associated to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
 
 There are two types of campaign available:
 
