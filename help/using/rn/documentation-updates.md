@@ -17,6 +17,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
     * [Push notification channel](../push/get-started-push.md)
     * [SMS channel](../sms/get-started-sms.md)
 
+* The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
+
 ## November 2022 {#november-2022}
 
 * Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
