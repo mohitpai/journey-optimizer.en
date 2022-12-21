@@ -10,7 +10,9 @@ hidefromtoc: yes
 ---
 # Statistical Calculations in Experimentation report {#experiment-report-calculations}
 
-This page documents the detailed statistical calculations used in the Experimentation report for Campaigns in Adobe Journey Optimizer. This is intended for technical users.
+This page documents the detailed statistical calculations used in the Experimentation report for Campaigns in Adobe Journey Optimizer. 
+
+Note that this page is intended for technical users.
 
 ## Conversion Rate
 
@@ -34,16 +36,15 @@ The lift between a variant  *ν*, and the control variant  *ν<sub>0</sub>* is t
 
 ## Anytime Valid Confidence Intervals for individual treatments
 
-The AJO experimentation panel displays "anytime valid" confidence intervals (confidence sequences) for individual treatments in an experiment. 
+The Journey Experimentation panel displays "anytime valid" confidence intervals (confidence sequences) for individual treatments in an experiment. 
 
-The confidence sequence for an individual variant `ν` is central to the statistical methodology used by Adobe, and so is defined here (reproduced from [Waudby-Smith et al.](
-https://doi.org/10.48550/arXiv.2103.06476)). 
+The confidence sequence for an individual variant `ν` is central to the statistical methodology used by Adobe. You can find its definition in [this page](https://doi.org/10.48550/arXiv.2103.06476) (reproduced from [Waudby-Smith et al.]). 
 
-Suppose one is interested in estimating a target parameter `ψ` (like the conversion rate of a variant in an Experiment). Then, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
+If you are interested in estimating a target parameter `ψ` such as the conversion rate of a variant in an Experiment, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
-In words - for a regular Confidence Interval , the probabilistic guarantee that the target parameter lies within the range of values Ċ<sub>n</sub> is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds.
+For a regular Confidence Interval, the probabilistic guarantee that the target parameter lies within the range of values Ċ<sub>n</sub> is valid only at a single fixed value of `n` (where `n` is the number of samples). Conversely for a Confidence Sequence, we are guaranteed that at all times/ all values of the sample size `t`, the "true" value of the parameter of interest lies within the bounds.
 
 This has a few deep implications which are very important for online testing:
 
@@ -51,14 +52,14 @@ This has a few deep implications which are very important for online testing:
 * Experiments can be continuously monitored, adaptively stopped, or continued.
 * The type-I error is controlled at all stopping times, including data-dependent times.
 
-Adobe uses Asymptotic Confidence Sequences, which for an individual variant with mean estimate `μ` has the form
+Adobe uses Asymptotic Confidence Sequences, which for an individual variant with mean estimate `μ` has the form:
 
 ![](assets/statistical_5.png){width="400" align="center"}
 
 Where:
 
-* `N` is the number of units for that variant
-* `σ` is a sample estimate of the standard deviation (defined above)
+* `N` is the number of units for that variant.
+* `σ` is a sample estimate of the standard deviation (defined above).
 * `α` is the desired level of type-I error (or miscoverage probability). This is always set to 0.05. 
 * ρ<sup>2</sup> is a constant that tunes the sample size at which the CS is tightest. Adobe has chosen a universal value of ρ<sup>2</sup> = 10<sup>-2.8</sup>, which is appropriate for the types of conversion rates seen in online experiments.
 
@@ -66,9 +67,9 @@ Where:
 
 The confidence used by Adobe is an "anytime valid" confidence, which is obtained by inverting the confidence sequence for the average treatment effect. 
 
-To be precise, we note that in a two sample *t* test for the difference in means between two variants, there is a 1:1 mapping between the *p*-value for this test, and the confidence interval for the difference in means. By analogy, an anytime valid *p*-value can be obtained by inverting the (anytime valid) confidence sequence for the average treatment effect estimator:
+To be precise, in a two sample *t* test for the difference in means between two variants, there is a 1:1 mapping between the *p*-value for this test, and the confidence interval for the difference in means. By analogy, an anytime valid *p*-value can be obtained by inverting the (anytime valid) confidence sequence for the average treatment effect estimator:
 
-Here, *E* is an expectation. The estimator we use is an inverse propensity weighted (IPW) estimator. Consider N = N<sub>0</sub> +N<sub>1</sub> units, the variant assignments for each unit `i` labeled by A<sub>i</sub>=0,1 if the unit is assigned to variant `ν`=0,1. If the users are assigned with fixed probability (propensity) π<sub>0</sub>, (1-π<sub>0</sub>), and their outcome metric is Y<sub>i</sub>, then the IPW estimator for the average treatment effect is
+Here, *E* is an expectation. The estimator used is an inverse propensity weighted (IPW) estimator. Consider N = N<sub>0</sub> +N<sub>1</sub> units, the variant assignments for each unit `i` labeled by A<sub>i</sub>=0,1 if the unit is assigned to variant `ν`=0,1. If the users are assigned with fixed probability (propensity) π<sub>0</sub>, (1-π<sub>0</sub>), and their outcome metric is Y<sub>i</sub>, then the IPW estimator for the average treatment effect is:
 
 ![](assets/statistical_6.png){width="300" align="center"}
 
@@ -88,16 +89,15 @@ where `Φ` is the cumulative distribution of the standard normal. For anytime va
 
 ![](assets/statistical_10.png){width="800" align="center"}
 
-Finally, the **anytime valid *confidence*** is 
+Finally, the **anytime valid confidence** is: 
 
 ![](assets/statistical_11.png){width="300" align="center"}
 
 ## Declaring an Experiment to be Conclusive
 
-For an Experiment with two arms, the AJO Experimentation panel displays a message stating that an Experiment is **conclusive** when the anytime valid confidence exceeds 95% (i.e., the anytime valid `p`-value is below 5%). 
+For an Experiment with two arms, the Journey Optimizer Experimentation panel displays a message stating that an Experiment is **conclusive** when the anytime valid confidence exceeds 95% (i.e., the anytime valid `p`-value is below 5%). 
 
-When more than two variants are present, the Bonferonni correction is applied to control the family wise error rate. For an experiment with `K` treatments, and a single baseline (control) treatment, there are `K-1` independent hypothesis tests. The Bonferonni correction means that we reject the null hypothesis that the control and a given variant have equal means, if the anytime valid `p`-value (defined above) is below a threshold of `α/(K-1)`. 
-
+When more than two variants are present, the Bonferonni correction is applied to control the family wise error rate. For an experiment with `K` treatments, and a single baseline (control) treatment, there are `K-1` independent hypothesis tests. The Bonferonni correction means that we reject the null hypothesis that the control and a given variant have equal means, if the anytime valid `p`-value (defined above) is below a threshold of `α/(K-1)`.
 
 ## Best performing arm
 
