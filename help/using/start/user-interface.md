@@ -40,9 +40,9 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** - Create, configure, and orchestrate your customer journeys. [Learn more](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - Create, design, test and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - Create, design, test, and publish landing pages. [Learn more](../landing-pages/get-started-lp.md)
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -52,15 +52,15 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../design/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../email/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - Use Adobe Experience Platform to create and manage Experience Data Model (XDM) schemas in an interactive visual canvas called the Schema Editor. [Learn more](get-started-schemas.md)
+* **[!UICONTROL Schemas]** - Use Adobe Experience Platform to create and manage Experience Data Model (XDM) schemas in an interactive visual canvas called the Schema Editor. [Learn more](../data/get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - All data that is ingested into Adobe Experience Platform is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows). [Learn more](get-started-datasets.md)
+* **[!UICONTROL Datasets]** - All data that is ingested into Adobe Experience Platform is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows). [Learn more](../data/get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - Use Adobe Experience Platform Query Service to write and execute queries, view previously executed queries, and access queries saved by users within your organization. [Learn more](get-started-queries.md)
+* **[!UICONTROL Queries]** - Use Adobe Experience Platform Query Service to write and execute queries, view previously executed queries, and access queries saved by users within your organization. [Learn more](../data/get-started-queries.md)
 
 * **[!UICONTROL Monitoring]** - Use this menu to monitor your data ingestion within Adobe Experience Platform user interface. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
@@ -256,6 +256,11 @@ User interface is currently available in the following languages:
 * English
 * French
 * German
+* Italian
+* Spanish
+* Portuguese (Brazilian)
+* Japanese
+* Korean
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
@@ -264,7 +269,7 @@ To change your language:
 * Click **Preferences** from your avatar, on the top right.
     ![](assets/preferences.png)
 * Then click the language displayed under your email address
-* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
+* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
     ![](assets/select-language.png)
 
 ## Search{#unified-search}

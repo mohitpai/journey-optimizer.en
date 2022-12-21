@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 ---
 # Visual Editing Helper extension {#visual-editing-helper}
 

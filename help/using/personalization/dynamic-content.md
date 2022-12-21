@@ -7,8 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 ---
-
 # Create dynamic content {#dynamic-content}
 
 Adobe Journey Optimizer allows you to leverage conditional rules created in the library to add dynamic content into your messages.
@@ -35,7 +35,7 @@ The steps to add dynamic content in expressions are as follows:
 
     ![](assets/conditions-language-sample.png)
 
-1. Once your content is ready, you can preview the different variants using the **[!UICONTROL Simulate content]** button. [Learn how to test and preview messages](../design/preview.md)
+1. Once your content is ready, you can preview the different variants using the **[!UICONTROL Simulate content]** button. [Learn how to test and preview messages](../email/preview.md)
 
     ![](assets/conditions-preview.png)
 
@@ -80,4 +80,4 @@ The steps to create variants of a content component in the Email Designer are as
     >[!NOTE]
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]**.
     >
-    >Conditional content will be evaluated against associated rules in the order in which the variants are displayed. The default variant is always displayed if no other conditions are met. 
+    >Conditional content will be evaluated against associated rules in the order in which the variants are displayed. The default variant is always displayed if no other conditions are met.

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Get started with journeys
+title: Create your first journey
 description: Key steps to build your first journey with Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
-# Get started with journeys{#jo-quick-start}
+# Create your first journey{#jo-quick-start}
 
 ## Prerequisites{#start-prerequisites}
 
@@ -27,7 +27,7 @@ In order to send messages with journeys, the following configurations are requir
 
    ![](assets/jo-datasource.png)  
 
-1. **Configure an action**: If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. If you're using Journey Optimizer built-in message capabilities, you just need to add a channel action to your journey and design your content. See [this section](../messages/get-started-content.md). 
+1. **Configure an action**: If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. If you're using Journey Optimizer built-in message capabilities, you just need to add a channel action to your journey and design your content.
 
     ![](assets/custom2.png)
 
@@ -87,7 +87,7 @@ The **Copy technical details** allows you to copy technical information about th
 
 ### Entrance{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. 
+By default, new journeys allow re-entrance. You can uncheck the option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
 Learn more about profile entrance mannagement, in [this section](entry-management.md).
 

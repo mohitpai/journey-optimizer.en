@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 ---
 # Create a campaign {#create-campaign}
 
@@ -17,22 +18,29 @@ level: Intermediate
 >* [Create channel surfaces](../configuration/channel-surfaces.md) 
 >* [Get started with segments](../segment/about-segments.md)
 
-## Create your 1st campaign {#create}
+To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**. You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
 
-1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
+![](assets/create-campaign.png)
 
-    >[!NOTE]
-    >
-    >You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
+## Choose the campaign type and channel {#campaigntype}
 
-    ![](assets/create-campaign.png)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Campaign type"
+>abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or card abandonment, the **API-triggered** type is the best choice."
 
-1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Campaign category"
+>abstract="Category value is directly associated to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
+
+1. In the **[!UICONTROL Properties]** section, specify how you want to execute the campaign. There are two types of campaign available:
 
     * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
+
     * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
 
-1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message.
 
     A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
@@ -42,29 +50,68 @@ level: Intermediate
     >
     >Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
 
+1. Click **[!UICONTROL Create]** to create the campaign.
+
+## Define the campaign properties {#create}
+
 1. Specify a title and a description for the campaign.
 
     <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. In the **[!UICONTROL Actions]** section, configure the message to send with the campaign:
+1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
 
-    1. Click the **[!UICONTROL Edit content]** button, then configure and design your message content. [Learn more on messages](../messages/get-started-content.md).
+    ![](assets/create-campaign-properties.png)
+    
+## Create the message {#content}
 
-        Learn detailed steps to create your message content in the following page:
+In the **[!UICONTROL Actions]** section, create the message to send with the campaign. 
 
-        * [Create an email](../messages/create-email.md)
-        * [Create a push notifications](../messages/create-push.md)
-        * [Create an SMS message](../messages/create-sms.md)
+1. Click the **[!UICONTROL Edit content]** button, then create and design your message content.
 
-    1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../design/preview.md).
+    Learn detailed steps to create your message content in the following pages:
 
-    1. Click the arrow to go back to the campaign creation screen.
+    <table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Create emails</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Infrequent" src="../assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/create-push.md"><strong>Create push notifications</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Create SMS messages</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-        ![](assets/create-campaign-design.png)
+1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../email/preview.md).
 
-    1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery: you can track clicks and/or opens.
+1. Click the arrow to go back to the campaign creation screen.
+
+    ![](assets/create-campaign-design.png)
+
+1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery: you can track clicks and/or opens.
         
-        Tracking results will be accessible from the campaign report once the campaign has been executed. [Learn more on campaign reports](../reports/campaign-global-report.md)
+    Tracking results will be accessible from the campaign report once the campaign has been executed. [Learn more on campaign reports](../reports/campaign-global-report.md)
+
+## Define the audience {#audience}
 
 1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
 
@@ -82,54 +129,29 @@ level: Intermediate
 
     <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn how to schedule campaigns](#schedule)
+## Schedule the campaign {#schedule}
 
-1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Campaign start"
+>abstract="Specify a date and time at which the message should be sent."
 
-Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Campaign end"
+>abstract="Specify when a recurring campaign should stop being executed."
 
-## Schedule a campaign {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign action triggers"
+>abstract="Define a frequency at which the campaign's message should be sent."
 
 By default, campaigns start once they have been activated manually, and end as soon as the message has been sent once.
 
 You can define a frequency at which the campaign's message should be sent. To do this, use the **[!UICONTROL Action triggers]** options in the campaign creation screen to specify if the campaign should be executed daily, weekly, or monthly.
 
-If you do not want to execute your campaign right after its activation, you can specify the a date and time at which the message should be sent using the **[!UICONTROL Campaign start]** option. The  **[!UICONTROL Campaign end]** option allows you to specify when a recurring campaign should stop being executed.
+If you do not want to execute your campaign right after its activation, you can specify a date and time at which the message should be sent using the **[!UICONTROL Campaign start]** option. The **[!UICONTROL Campaign end]** option allows you to specify when a recurring campaign should stop being executed.
 
 ![](assets/create-campaign-schedule.png)
 
-## Rapid delivery mode {#rapid-delivery}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_rapid_delivery"
->title="Rapid delivery mode"
->abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
-
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
-
-Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
-
-For more information on performances when using Rapid delivery mode, refer to [Adobe Journey Optimizer product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
-### Prerequisites {#prerequisites}
-
-Rapid delivery messaging comes with the following requirements:
-
-* Rapid delivery is available for **[!UICONTROL Scheduled]** campaigns only, and is not available for API-triggered campaigns,
-* No personalization is allowed in the push message,
-* The target audience must contain less than 30M profiles,
-* You can execute up to 5 campaigns simulateneously using the Rapid delivery mode.
-
-### Activate Rapid delivery mode
-
-1. Create a push notification campaign and toggle on the **[!UICONTROL Rapid delivery]** option.
-
-![](assets/create-campaign-burst.png)
-
-1. Configure the message content and select the audience to target. [Learn how to create a campaign](#create)
-    
-    >[!IMPORTANT]
-    >
-    >Ensure that the message content does not include any personalization, and that the audience contains less than 30M profiles.
-
-1. Review and activate your campaign as usual. Note that, in test mode, messages are not sent via the Rapid delivery mode. [Learn how to review and activate a campaign](review-activate-campaign.md)
+Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)

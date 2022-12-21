@@ -176,7 +176,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <td>
 <p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe’s AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../messages/send-time-optimization.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -265,7 +265,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Content Design**
 
-* **Background** - Background images are now supported in live preview. [Learn more](../design/preview.md)
+* **Background** - Background images are now supported in live preview. [Learn more](../email/preview.md)
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalization**
@@ -340,9 +340,9 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Preview and test**
 
-* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../design/preview.md#preview-your-messages)
+* Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](../email/preview.md#preview-your-messages)
 * The number of test emails for proofs is now restricted to 10.
-* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../design/preview.md#send-proofs)
+* Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](../email/preview.md#send-proofs)
 
 **Personalization expression editor**
 

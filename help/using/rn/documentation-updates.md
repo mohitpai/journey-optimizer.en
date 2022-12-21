@@ -9,14 +9,31 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## December 2022 {#december-2022}
+
+* The Messages guide has been reorganized and split into dedicated guides for each channel:
+
+    * [Email channel](../email/get-started-email.md)
+    * [Push notification channel](../push/get-started-push.md)
+    * [SMS channel](../sms/get-started-sms.md)
+
+* The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
+
+## November 2022 {#november-2022}
+
+* Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
+* Added a recommendation about the length of mirror pages URLs. [Read more](../email/message-tracking.md)
+* A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../email/email-settings.md#reply-to-email)
+* Added a section on how to modify the content of a message in a live journey. [Read more](../building-journeys/journeys-message.md#update-live-content)
+
 ## October 2022 {#october-2022}
 
 * Added a journey use case on how to limit throughput using External Data Sources and Custom Actions. [Read more](../building-journeys/limit-throughput.md)
 * The journey use case section has been reorganized into two categories: [Business use cases](../building-journeys/journeys-uc.md) and [Technical use cases](../building-journeys/collections.md).
-* The **Entity Dataset** section has been updated with more details. [Learn more](../start/datasets-query-examples.md#entity-dataset)
-* Information related to opt-out management and consent policies have been reorganized into a new section. [Read more](../privacy/opt-out.md)
-* The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../messages/messages-in-journeys.md#adv-settings)
-* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../configuration/lp-subdomains.md)
+* The **Entity Dataset** section has been updated with more details. [Read more](../data/datasets-query-examples.md#entity-dataset)
+* The opt-out management and consent policies sections have been reorganized. [Read more](../privacy/opt-out.md)
+* The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. 
+* Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../landing-pages/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 
@@ -25,8 +42,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added new step event query examples as well as information on the difference between id, instanceid and profileid. [Read more](../reports/query-examples.md).
 * Updated the pages related to the [toDateOnly](../building-journeys/functions/functiontodateonly.md) and [toString](../building-journeys/functions/functiontostring.md) functions.
 * Added details on the time condition parameters. [Read more](../building-journeys/condition-activity.md#time_condition)
-* Added information on built-in datasets. [Read more](../start/get-started-datasets.md#access-datasets)
-* The Global report and Live report sections have been reorganized for improved readability. [Read more](../reports/global-report.md)
+* Added information on built-in datasets. [Read more](../data/get-started-datasets.md#access-datasets)
+* The Global report and Live report sections have been improved and reorganized. [Read more](../reports/global-report.md)
 * A list of every reporting metric available in Adobe Journey Optimizer has been added.
 [Read more](../reports/global-report.md#email-and-sms-metrics)
 * The BCC email section has been moved to the new Support for archiving page. [Read more](../configuration/archiving-support.md)
@@ -59,32 +76,32 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
 * Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md#journey-versions)
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
-* Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../start/datasets-query-examples.md)
+* Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
 * The Suppression list page has been updated to clarify some information, including the fact that all ASCII characters comprised between 32 and 126 are allowed in the reason for suppression field. [Read more](../configuration/manage-suppression-list.md)
 * The link to guardrails and static limits for Decision management has been added. [Read more](../start/guardrails.md)
-* Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../messages/send-time-optimization.md)
+* Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../building-journeys/journeys-message.md#send-time-optimization)
 * The Batch Decisioning API has been added to the list of available APIs to delivery personalized offers. [Read more](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## May 2022 {#may-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * New query examples related to [segment qualification](../reports/query-examples.md#segment-qualification-queries) and [events](../reports/query-examples.md#event-based-queries) have been added.
-* The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../design/design-emails.md)
+* The email design section now mentions new built-in templates available to start content with. Related screenshots have been updated. [Read more](../email/get-started-email-design.md)
 * Links to key resources have been updated in Journey Optimizer documentation home page.
 * Screenshots for landing page and subscription reporting have been updated. [Read more](../reports/live-report.md)
 * A note has been added stating that the Delete method is not supported in custom actions. [Read more](../action/about-custom-action-configuration.md)
 * Links to how-to videos have been updated.
-* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../configuration/lp-subdomains.md) sections have been reorganized for improved readability.
-* The URL tracking section has been updated and improved with examples. [Read more](../configuration/email-settings.md#url-tracking)
-* A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../configuration/email-settings.md#forward-email)
+* The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../landing-pages/lp-subdomains.md) sections have been reorganized for improved readability.
+* The URL tracking section has been updated and improved with examples. [Read more](../email/email-settings.md#url-tracking)
+* A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../email/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] April '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
-* The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../start/get-started-datasets.md)
+* The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
 * Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
@@ -113,7 +130,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
 * The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../privacy/opt-out.md#opt-out-management)
-* The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../design/message-tracking.md#insert-links)
+* The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../email/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -191,8 +208,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added links to [!DNL Journey Optimizer] product description in the home page
 * Added tutorial videos in multiple pages
 * Optimized home page imagery
-* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../design/message-tracking.md)
-* Added a subsection on mirror pages. [Read more](../design/message-tracking.md#mirror-page)
+* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](../email/message-tracking.md)
+* Added a subsection on mirror pages. [Read more](../email/message-tracking.md#mirror-page)
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](../personalization/personalization-use-case-helper-functions.md)
 * Updated the Read segment documentation to reflect materialized segment impacts. [Read more](../building-journeys/read-segment.md)

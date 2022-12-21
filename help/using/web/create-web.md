@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 ---
 # Create web experiences {#create-web}
 
@@ -52,6 +52,11 @@ For the web experience to be delivered correctly, the following settings must be
     ![](assets/web-aep-merge-policy.png)
 
 ## Create a web campaign {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Define a web surface"
+>abstract="A web surface can match a single page URL or multiple pages, allowing you to deliver content modifications across one or several web pages."
 
 To start building your web experience through a campaign, follow the steps below.
 

@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 ---
 # Suppression list {#suppression-list}
 
-A suppression list consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates.
+A suppression list consists of addresses and domains that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates.
 
 The [!DNL Journey Optimizer] suppression list is managed at your own environment level, i.e. for a given sandbox.
 
@@ -19,7 +19,7 @@ It gathers email addresses and domains that are suppressed across all mailings i
 
 >[!NOTE]
 >
->Adobe keeps an updated list of known bad email addresses which have been proven to be detrimental to engagement and mailing reputation, and ensures emails are not delivered to them. This list is managed in a global suppression list which is common across all Adobe customers. The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery reports.
+>Adobe keeps an updated list of known bad addresses which have been proven to be detrimental to engagement and mailing reputation, and ensures emails are not delivered to them. This list is managed in a global suppression list which is common across all Adobe customers. The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery reports.
 
 ## Why a suppression list? {#why-suppression-list}
 
@@ -31,11 +31,11 @@ The recipients whose email addresses are suppressed are automatically excluded f
 
 ## What's on the suppression list? {#what-s-on-suppression-list}
 
-Email addresses are added to the suppression list as follows:
+Addresses are added to the suppression list as follows:
 
-* All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
+* All **hard bounces** and **spam complaints** automatically send the corresponding addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** do not immediately send an email address to the suppression list, but they increment an error counter. Several [retries](../configuration/retries.md) are then performed, and when the error counter reaches the threshold, the address is added to the suppression list.
+* **Soft bounces** do not immediately send an address to the suppression list, but they increment an error counter. Several [retries](../configuration/retries.md) are then performed, and when the error counter reaches the threshold, the address is added to the suppression list.
 
 * You can also [**manually** add an address or a domain](../configuration/manage-suppression-list.md#add-addresses-and-domains) to the suppression list.
 

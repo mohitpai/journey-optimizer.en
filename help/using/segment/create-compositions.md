@@ -9,6 +9,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 ---
 # Create composition workflows {#create-compositions}
 

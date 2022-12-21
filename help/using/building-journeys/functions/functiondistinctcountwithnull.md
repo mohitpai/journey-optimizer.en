@@ -11,6 +11,10 @@ exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 
 Counts the number of different values including the null values.
 
+>[!NOTE]
+>
+>If the target list is a listObject, this function can only be used in custom action expressions.
+
 ## Category
 
 Aggregation

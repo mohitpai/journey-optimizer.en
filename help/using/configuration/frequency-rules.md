@@ -109,7 +109,7 @@ The rule's status will change to **[!UICONTROL Inactive]** and the rule will not
  
 To apply a frequency rule to a message, follow the steps below.
 
-1. [Create a message](../messages/get-started-content.md#create-new-message) by selecting one of the channels you defined for your rule.
+1. Create a message by selecting one of the channels you defined for your rule.
 
 1. Select the category you defined for the [rule you created](#create-new-rule).
 
@@ -156,9 +156,9 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. Save and [activate](#activate-rule) the rule.
 
-1. Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../messages/get-started-content.md#create-new-message)
+1. Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
 
-1. Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../messages/get-started-content.md#create-new-message)
+1. Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;

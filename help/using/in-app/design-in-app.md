@@ -1,5 +1,5 @@
 ---
-title: Design your In-app content 
+title: Design your In-app content
 description: Learn how to design your In-app content in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
 
@@ -74,7 +75,7 @@ The **[!UICONTROL Media]** field allows you to add media to your In-app message 
 
 ![](assets/in_app_content_3.png)
 
-Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../design/assets-essentials.md).
+Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../email/assets-essentials.md).
 You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
 
 +++More options with advanced formatting
@@ -186,4 +187,3 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * [Create In-app message](create-in-app.md)
 * [In-app report](inapp-report.md)
 * [In-app configuration](inapp-configuration.md)
-

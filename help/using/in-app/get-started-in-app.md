@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}
 
@@ -26,9 +27,39 @@ Before sending In-app messages, you need to:
 
 Once done, you can create, configure and sent your first In-app message. Learn how to achieve this in [this section](create-in-app.md).
 
-**Related topics:**
-
-* [Create In-app message](create-in-app.md)
-* [Design In-app message](design-in-app.md)
-* [In-app report](inapp-report.md)
-* [In-app configuration](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>Create In-app message</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="Infrequent" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>Design your In-app content</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>In-app report</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validation" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configure In-app channel</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

@@ -14,7 +14,12 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Define which address to use"
->abstract="When several addresses are available in the database (personal, professional, etc.), you can choose which address to prioritize for sending."
+>abstract="When several email addresses or phone numbers are available in the database (personal, professional, etc.), you can choose which one to prioritize for sending."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="Define which address to use"
+>abstract="Edit the fields used to determine the profiles' email address or phone number to prioritize for sending."
 
 When you target a profile, several email addresses or phone numbers may be available in the database (professional email address, personal phone number, etc.).
 

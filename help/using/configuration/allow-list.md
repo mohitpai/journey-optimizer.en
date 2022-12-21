@@ -67,7 +67,7 @@ The allowed list logic applies when the feature is active. Learn more in [this s
 
 >[!NOTE]
 >
->When activated, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](../design/preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
+>When activated, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](../email/preview.md#send-proofs) and testing journeys using the [test mode](../building-journeys/testing-the-journey.md).
 
 ## Deactivate the allowed list {#deactivate-allow-list}
 

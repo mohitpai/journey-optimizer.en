@@ -52,6 +52,6 @@ Learn how to use contextual event information from a journey to personalize a me
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Learn how to use contextual event information from a journey to personalize a message.
+Learn how to add profile-based personalization to a message and how to use segment membership as a pre-condition to a personalization block.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

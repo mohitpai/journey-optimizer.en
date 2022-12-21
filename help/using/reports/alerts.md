@@ -7,7 +7,7 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 ---
 # Get Started with Alerts {#alerts}
 
@@ -24,7 +24,7 @@ If such an unexpected behavior occurs, an alert notification is sent to subscrib
 
 ![](assets/alerts2.png)
 
-When [viewing alert rules in the Platform UI](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), you can subscribe to each rule individually. When subscribing to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
+When [viewing alert rules in Adobe Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), you can subscribe to each rule individually. When subscribing to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >

@@ -17,7 +17,7 @@ Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a
 
 * For the email channel, [!DNL Journey Optimizer] provides a built-in BCC email capability. [Learn more](#bcc-email)
 
-* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data is not exported - only the template (format and structure of the message) is taken into account. [Learn more](../start/datasets-query-examples.md#entity-dataset)
+* Additionnaly, for all channels, you can use the 'Template' field in the **Entity Dataset**, which contains the details of the non-personalized message templates. Export the dataset with this field to save metadata such as: who sent the message, to whom and when. Note that personalized data is not exported - only the template (format and structure of the message) is taken into account. [Learn more](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -54,19 +54,11 @@ All email messages using this surface will be blind-copied to the BCC email addr
 >
 >Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
-The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md) using this surface, the BCC email address is automatically displayed.
+The BCC email address setting is immediately saved and processed at the surface level. When you create a new message using this surface, the BCC email address is automatically displayed.
 
 ![](assets/preset-bcc-in-msg.png)
 
-However, the BCC address gets picked up for sending communications following the logic below:
-
-* For batch and burst journeys, it does not apply to batch or burst execution that had already started before the BCC setting is made. The change will be picked up at the next recurrence or new execution.
-
-* For transactional messages, the change is picked up immediately for the next communication (up to one minute delay).
-
->[!NOTE]
->
->You do not need to republish your journey for the BCC setting to be picked up.
+However, the BCC address gets picked up for sending communications following the logic described [here](../email/email-settings.md).
 
 ### Recommendations and limitations {#bcc-recommendations-limitations}
 
@@ -121,11 +113,11 @@ To do this, follow the steps below.
 
 Reporting as such on BCC is not available in the journey and message reports. However, information is stored on a system dataset called **[!UICONTROL AJO BCC Feedback Event Dataset]**. You can run queries against this dataset to find useful information for debugging purpose for example.
 
-You can access this dataset through the user interface. Select **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** and enable the **[!UICONTROL Show system datasets]** toggle from the filter to display the system-generated datasets. Learn more on how to access datasets in [this section](../start/get-started-datasets.md#access-datasets).
+You can access this dataset through the user interface. Select **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** and enable the **[!UICONTROL Show system datasets]** toggle from the filter to display the system-generated datasets. Learn more on how to access datasets in [this section](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-To run queries against this dataset, you can use the Query Editor provided by the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. To access it, select **[!UICONTROL Data management]** > **[!UICONTROL Queries]** and click **[!UICONTROL Create query]**. [Learn more](../start/get-started-queries.md)
+To run queries against this dataset, you can use the Query Editor provided by the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. To access it, select **[!UICONTROL Data management]** > **[!UICONTROL Queries]** and click **[!UICONTROL Create query]**. [Learn more](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -133,20 +125,20 @@ Depending on what information you are looking for, you can run the following que
 
 1. For all the other queries below, you will need the journey action ID. Run this query to fetch all action IDs associated with a particular journey version ID within the last 2 days:
 
-        ```
-        SELECT
-        DISTINCT
-        CAST(TIMESTAMP AS DATE) AS EventTime,
-        _experience.journeyOrchestration.stepEvents.journeyVersionID,
-        _experience.journeyOrchestration.stepEvents.actionName, 
-        _experience.journeyOrchestration.stepEvents.actionID 
-        FROM journey_step_events 
-        WHERE 
-        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
-        _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
-        TIMESTAMP > NOW() - INTERVAL '2' DAY 
-        ORDER BY EventTime DESC;
-        ```
+    ```
+    SELECT
+    DISTINCT
+    CAST(TIMESTAMP AS DATE) AS EventTime,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionName, 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    FROM journey_step_events 
+    WHERE 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+    _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+    TIMESTAMP > NOW() - INTERVAL '2' DAY 
+    ORDER BY EventTime DESC;
+    ```
 
     >[!NOTE]
     >
@@ -156,27 +148,27 @@ Depending on what information you are looking for, you can run the following que
 
 1. Run this query to fetch all message feedback events (especially feedback status) generated for a particular message targeted to a specific user within the last 2 days:
 
-        ```
-        SELECT  
-        _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
-        _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
-        timestamp AS EventTime, 
-        _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
-        _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
-        CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
-            WHEN 'sent' THEN 'Sent'
-            WHEN 'delay' THEN 'Retry'
-            WHEN 'out_of_band' THEN 'Bounce' 
-            WHEN 'bounce' THEN 'Bounce'
-        END AS FeedbackStatusCategory
-        FROM cjm_message_feedback_event_dataset 
-        WHERE  
-            timestamp > now() - INTERVAL '2' day  AND
-            _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
-            _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
-            _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
-            ORDER BY EventTime DESC;
-        ```
+    ```
+    SELECT  
+    _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+    _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+    timestamp AS EventTime, 
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+    CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+        WHEN 'sent' THEN 'Sent'
+        WHEN 'delay' THEN 'Retry'
+        WHEN 'out_of_band' THEN 'Bounce' 
+        WHEN 'bounce' THEN 'Bounce'
+    END AS FeedbackStatusCategory
+    FROM cjm_message_feedback_event_dataset 
+    WHERE  
+        timestamp > now() - INTERVAL '2' day  AND
+        _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+        _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+        _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
+        ORDER BY EventTime DESC;
+    ```
 
     >[!NOTE]
     >

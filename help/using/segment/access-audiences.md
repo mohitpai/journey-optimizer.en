@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 ---
-
 # Access and manage audiences {#access-manage-audiences}
 
 Audiences are accessible from the **[!UICONTROL Audiences]** tab in the **[!UICONTROL Segments]** menu.

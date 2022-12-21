@@ -18,6 +18,10 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
+>[!NOTE]
+>
+>Guardrails when working with external systems are listed in [this page](../configuration/external-systems.md).
+
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.
 
 Let's take the example of a weather API service that I want to use to customize my journey's behaviors according to real-time weather data.

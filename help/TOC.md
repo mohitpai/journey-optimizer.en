@@ -17,13 +17,14 @@ solution: Journey Optimizer
   + [Documentation updates](using/rn/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/start/get-started.md)
-  + Quick Start{#quick-start}
+  + Quick start guides{#quick-start}
     + [Overview](using/start/quick-start.md)
     + [Get started as a Marketer](using/start/path/marketer.md)
     + [Get started as a Data engineer](using/start/path/data-engineer.md)
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
+  + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
   + [Get started with journeys](using/building-journeys/journey.md)
@@ -143,7 +144,7 @@ solution: Journey Optimizer
   + Use cases {#journey-use-cases}
     + Business use cases {#business-use-cases}
         + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
-        + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+        + [Send a message using Campaign v7/v8](using/building-journeys/ajo-ac.md)
         + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
     + Technical use cases {#technical-use-cases}
         + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
@@ -153,57 +154,72 @@ solution: Journey Optimizer
   + [Get started with campaigns](using/campaigns/get-started-with-campaigns.md)
   + [Create a campaign](using/campaigns/create-campaign.md)
   + [Review and activate a campaign](using/campaigns/review-activate-campaign.md)
-  + [Manage live campaigns](using/campaigns/modify-stop-campaign.md)
+  + [Manage campaigns](using/campaigns/modify-stop-campaign.md)
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
-+ Messages {#messages}
-  + Get started with messages{#get-started-msg}
-    + [Overview](using/messages/get-started-content.md)
-    + [Add messages in journeys](using/messages/messages-in-journeys.md)
-    + [Add messages in campaigns](using/messages/messages-in-campaigns.md)
-  + [Create an email](using/messages/create-email.md)
-  + [Create a push notification](using/messages/create-push.md)
-  + [Create an SMS message](using/messages/create-sms.md)
-  + [Create a direct mail](using/messages/create-direct-mail.md)
-  + [Check alerts](using/messages/alerts.md)
-  + [Send time optimization](using/messages/send-time-optimization.md)
-+ Web channel{#web}
-  + [Get started with web channel](using/web/get-started-web.md)
-  + [Create web experiences](using/web/create-web.md)
-  + [Author web pages](using/web/author-web.md)
-  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
-  + [Web reporting](using/web/web-report.md)
++ Email channel {#email}
+  + [Get started with emails](using/email/get-started-email.md)
+  + [Create an email](using/email/create-email.md)
+  + Design your email content {#design-email}
+    + [Get started with email design](using/email/get-started-email-design.md)
+    + Start creating content {#start-creating-content}
+      + [Start from scratch](using/email/content-from-scratch.md)
+      + [Import your email content](using/email/existing-content.md)
+      + [Code your own content](using/email/code-content.md)
+      + [Work with templates](using/email/email-templates.md)
+    + Design your content {#add-content}
+      + [Use content components](using/email/content-components.md)
+      + [Add links and track messages](using/email/message-tracking.md)
+      + Manage assets {#manage-asset}
+        + [Work with Assets Essentials](using/email/assets-essentials.md)
+        + [Work with Adobe Stock](using/email/stock.md)
+      + [Insert personalized offers](using/email/add-offers-email.md)
+      + [Generate the text version](using/email/text-version-email.md)
+      + [Add a preheader](using/email/preheader.md)
+    + Edit style {#edit-style}
+      + [Get started with email style](using/email/get-started-email-style.md)
+      + [Edit background settings](using/email/backgrounds.md)
+      + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
+      + [Define a style for links](using/email/styling-links.md)
+      + [Add inline styling attributes](using/email/inline-styling.md)
+  + [Preview and test your email](using/email/preview.md)
+  + [Manage email opt-out](using/email/email-opt-out.md) 
+  + Configure email channel {#configure-email}
+    + [Get started with email configuration](using/email/get-started-email-config.md)
+    + [Configure email surface settings](using/email/email-settings.md)
 + In-app channel{#in-app}
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
   + [Configure In-app channel](using/in-app/inapp-configuration.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [In-app report](using/in-app/inapp-report.md)
-+ Design content {#design}
-  + [Get started with email design](using/design/design-emails.md)
-  + [Start from scratch ](using/design/create-email-content.md)
-  + [Import your email content](using/design/existing-content.md)
-  + [Code your own content](using/design/code-content.md)
-  + [Work with templates](using/design/email-templates.md)
-  + Content design {#design-content}
-    + [Use content components](using/design/content-components.md)
-    + [Background settings](using/design/backgrounds.md)
-    + [Adjust vertical alignment and padding](using/design/adjusting-vertical-alignment-and-padding.md)
-    + [Define a style for links](using/design/styling-links.md)
-    + [Add inline styling attributes](using/design/adding-inline-styling-attributes.md)
-  + Email settings {#design-email}
-    + [Generate the text version](using/design/text-version-email.md)
-    + [Add a preheader](using/design/preheader.md)
-  + Add and manage assets {#manage-asset}
-    + [Work with Assets Essentials](using/design/assets-essentials.md)
-    + [Work with Adobe Stock](using/design/stock.md)
-  + [Add personalized offers](using/design/deliver-personalized-offers.md)  
-  + [Add links and track messages](using/design/message-tracking.md)
-  + [Preview and proofs](using/design/preview.md)
++ Push notification channel{#push}
+  + [Get started with push notification](using/push/get-started-push.md)
+  + [Create a push notification](using/push/create-push.md)
+  + [Design your push notification](using/push/design-push.md)
+  + [Send your push notification](using/push/send-push.md)
+  + Configure push notifications{#push-config}
+    + [Push Notifications and Adobe Journey Optimizer](using/push/push-gs.md)
+    + [Configure push notification channel](using/push/push-configuration.md)
++ SMS channel{#sms}
+  + [Get started with SMS](using/sms/get-started-sms.md)
+  + [Create an SMS message](using/sms/create-sms.md)
+  + [Send an SMS message](using/sms/send-sms.md)
+  + [Manage SMS opt-out](using/sms/sms-opt-out.md) 
+  + [Configure SMS channel](using/sms/sms-configuration.md)
++ Direct mail {#direct-mail}
+  + [Create a direct mail](using/direct-mail/create-direct-mail.md)
+  + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
++ Web channel{#web}
+  + [Get started with web channel](using/web/get-started-web.md)
+  + [Create web experiences](using/web/create-web.md)
+  + [Author web pages](using/web/author-web.md)
+  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
+  + [Web reporting](using/web/web-report.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
@@ -213,7 +229,10 @@ solution: Journey Optimizer
     + [Create templates](using/landing-pages/lp-templates.md)
     + [Add custom JavaScript](using/landing-pages/lp-custom-js.md)
   + [Create a subscription list](using/landing-pages/subscription-list.md)
-  + [Use cases](using/landing-pages/lp-use-cases.md)
+  + [Learn through use cases](using/landing-pages/lp-use-cases.md)
+  + Configure landing pages {#lp-configuration}
+    + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
+    + [Define landing page presets](using/landing-pages/lp-presets.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
@@ -251,12 +270,12 @@ solution: Journey Optimizer
     + [Get started with profiles](using/segment/get-started-profiles.md)
     + [Create test profiles](using/segment/creating-test-profiles.md)
   + [Identities](using/segment/get-started-identity.md)
-  + [License usage](using/segment/license-usage.md)
   + Compose audiences {#audience-orchestration}
     + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
     + [Create composition workflows](using/segment/create-compositions.md)
     + [Work with the composition canvas](using/segment/composition-canvas.md)
     + [Access and manage audiences](using/segment/access-audiences.md)
+  + [License usage](using/segment/license-usage.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
@@ -382,41 +401,28 @@ solution: Journey Optimizer
         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
-  + [Schemas](using/start/get-started-schemas.md)
-  + Datasets {#datasets}
-    + [Get started with datasets](using/start/get-started-datasets.md)
-    + [Query examples](using/start/datasets-query-examples.md)
-  + [Queries](using/start/get-started-queries.md)
+  + [Get started with data management](using/data/gs-data.md)
+  + [Work with schemas](using/data/get-started-schemas.md)
+  + Journey Optimizer datasets {#datasets}
+    + [Get started with datasets](using/data/get-started-datasets.md)
+    + [Query examples](using/data/datasets-query-examples.md)
+  + [Queries](using/data/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
-  + Configure messages {#configuration-message}
-    + Configure push notifications{#push-config}
-      + [Get started with push configuration](using/configuration/push-gs.md)
-      + [Configure push notification channel](using/configuration/push-configuration.md)
-    + Configure emails {#email-configuration}
-      + Delegate subdomains {#delegate-subdomains}
-        + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
-        + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
-        + [Access delegated subdomains](using/configuration/access-subdomains.md)
-      + Manage subdomain-related actions {#subdomain-related-actions}
-        + [Add a Google TXT record](using/configuration/google-txt.md)
-        + [Access and edit PTR records](using/configuration/ptr-records.md)
-        + [Create IP pools](using/configuration/ip-pools.md)
-      + Monitor email addresses {#monitor-reputation}  
-        + [Suppression list](using/configuration/manage-suppression-list.md)
-        + [Retries](using/configuration/retries.md)
-        + [Allowed list](using/configuration/allow-list.md)
-    + [Configure SMS channel](using/configuration/sms-configuration.md)
-    + [Configure direct mail](using/configuration/direct-mail-configuration.md)
-    + Set up channel surfaces {#set-up-channels}
-      + [Create channel surfaces](using/configuration/channel-surfaces.md)
-      + [Configure email settings](using/configuration/email-settings.md)
-    + [Support for archiving](using/configuration/archiving-support.md)
-    + [Manage execution addresses](using/configuration/primary-email-addresses.md)
-    + [Configure frequency rules](using/configuration/frequency-rules.md)  
-  + Configure landing pages {#lp-configuration}
-    + [Configure landing page subdomains](using/configuration/lp-subdomains.md)
-    + [Define landing page presets](using/configuration/lp-presets.md)
+  + Delegate email subdomains {#delegate-subdomains}
+    + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
+    + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
+    + [Add a Google TXT record](using/configuration/google-txt.md)
+    + [Access and edit PTR records](using/configuration/ptr-records.md)
+    + [Create IP pools](using/configuration/ip-pools.md)
+  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
+  + Monitor email addresses {#monitor-reputation}  
+    + [Suppression list](using/configuration/manage-suppression-list.md)
+    + [Retries](using/configuration/retries.md)
+    + [Allowed list](using/configuration/allow-list.md)
+  + [Support for archiving](using/configuration/archiving-support.md)
+  + [Configure frequency rules](using/configuration/frequency-rules.md)
+  + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)

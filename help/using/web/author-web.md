@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
-
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 ---
 # Author web pages {#author-web}
 
@@ -21,9 +21,27 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 ## Edit web page content {#edit-web-content}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="Enter the URL to edit"
+>abstract="Enter the URL of a specific web page to use for editing the content that will be applied on the web surface defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Enter the URL to edit"
+>abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
+
 Once you created a web action from the campaign, you can edit your content using the web designer. To do so, follow the steps below.
 
-1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign. [Learn more](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>To be accessed in [!DNL Journey Optimizer], your web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+
+1. From the **[!UICONTROL Action]** tab of the campaign, select **[!UICONTROL Edit content]** to start authoring your web campaign.
 
 1. If you created a pages matching rule, you must enter any URL matching this rule. The changes will be applied to all pages matching the rule.
 
@@ -37,7 +55,7 @@ Once you created a web action from the campaign, you can edit your content using
 
     >[!CAUTION]
     >
-    >To be accessed, the web page must be implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+    >The web page must include the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
     
 1. Click **[!UICONTROL Open web designer]** to edit it. [Learn more](author-web.md)
 
@@ -63,15 +81,20 @@ Once you created a web action from the campaign, you can edit your content using
 
 ## Use content components {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Add content components to your web page"
+>abstract="You can add a number of components to your web page and edit them as you need."
+
 1. From the **[!UICONTROL Components]** pane on the left, you can add the following components to your web page and edit them as you need:
 
-    * [Divider](../design/content-components.md#divider)
-    * [HTML](../design/content-components.md#HTML)
-    * [Image](../design/content-components.md#image)
-    * Heading - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../design/content-components.md#text)
-    * Paragraph - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../design/content-components.md#text)
-    * Link - Learn how to define link styling in [this section](../design/styling-links.md)
-    * [Offer decision](../design/deliver-personalized-offers.md)
+    * [Divider](../email/content-components.md#divider)
+    * [HTML](../email/content-components.md#HTML)
+    * [Image](../email/content-components.md#image)
+    * Heading - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../email/content-components.md#text)
+    * Paragraph - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../email/content-components.md#text)
+    * Link - Learn how to define link styling in [this section](../email/styling-links.md)
+    * [Offer decision](../email/add-offers-email.md)
 
     ![](assets/web-designer-components.png)
 
@@ -103,6 +126,11 @@ Once you created a web action from the campaign, you can edit your content using
 
 ### Swap to browse mode {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Use the browse mode"
+>abstract="From this mode, you can navigate to the exact page from the selected surface you want to personalize."
+
 You can swap from the default **[!UICONTROL Design]** mode to the **[!UICONTROL Browse]** mode using the dedicated button.
 
 ![](assets/web-designer-browse-mode.png)
@@ -120,6 +148,11 @@ You can also change the zoom focus - from 25% to 400%.
 ![](assets/web-designer-device.png)
 
 ## Manage modifications {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Easily manage all your changes"
+>abstract="Using this pane, you can navigate through and manage all the adjustments and styles you added to your web page."
 
 You can easily manage all the components, adjustments and styles you added to your web page.
 
@@ -149,11 +182,16 @@ To add personalization, select a container and select the personalization icon f
 
 ![](assets/web-designer-personalization.png)
 
-Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../design/deliver-personalized-offers.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
+Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../email/add-offers-email.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
 
 ![](assets/web-designer-offer.png)
 
 ## Test the web campaign {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Preview your web experience"
+>abstract="Get a simulation of what your web experience will look like."
 
 To display a preview of your modified web experience, follow the steps below.
 

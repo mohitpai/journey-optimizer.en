@@ -34,7 +34,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc5.png)
 
-1. Configure and design your push notification message. Refer to this [section](../messages/get-started-content.md).
+1. Configure and design your push notification message. Refer to this [section](../push/create-push.md).
 
 ## Step 2 - Add personalization on profile {#add-perso}
 

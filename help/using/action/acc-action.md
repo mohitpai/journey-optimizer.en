@@ -20,7 +20,7 @@ This integration is available for Adobe Campaign Classic v7 starting 7.1 release
 
 The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time.
 
-An end-to-end use case is presented in this [section](../building-journeys/campaign-classic-use-case.md).
+An end-to-end use case is presented in this [section](../building-journeys/ajo-ac.md).
 
 For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
