@@ -1,5 +1,5 @@
 ---
-title: Statistical Calculations used in the Experimentation report.
+title: Statistical calculations used in the Experimentation report.
 description: Learn more about statistical calculations used when running experiment reports
 feature: A/B Testing
 topic: Content Management
@@ -8,7 +8,7 @@ level: Experienced
 hide: yes
 hidefromtoc: yes
 ---
-# Statistical Calculations in Experimentation report {#experiment-report-calculations}
+# Statistical calculations in Experimentation report {#experiment-report-calculations}
 
 This page documents the detailed statistical calculations used in the Experimentation report for Campaigns in Adobe Journey Optimizer. 
 
