@@ -11,6 +11,11 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 ---
 # Journey global report {#journey-global-report}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="Journey global report"
+>abstract="The Journey global report allows you to measure the impact of your journeys over a selected time period. Your report is divided into different widgets detailing your journey's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 Journey global report can be accessed directly from your journey with the **[!UICONTROL View report]** button. 
 
 ![](assets/report_journey.png)
@@ -132,7 +137,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -222,7 +227,7 @@ The **[!UICONTROL Push notification summary]** graph contains the data available
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../messages/send-time-optimization.md).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 

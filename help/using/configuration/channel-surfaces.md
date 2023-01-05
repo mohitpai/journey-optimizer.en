@@ -11,13 +11,18 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Set up channel surfaces {#set-up-channel-surfaces}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_channel_surfaces"
+>title="App surface"
+>abstract="A surface is a configuration which has been defined by a System Administrator. It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc."
+
 With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message presets) that define all the technical parameters required for your messages: email type, sender email and name, mobile apps, SMS configuration, and more. 
 
 >[!CAUTION]
 >
 > * To create, edit and delete channel surfaces, you must have the [Manage channel surface](../administration/high-low-permissions.md#manage-channel-surface) permission.
 >
-> * You must perform the [Email configuration](email-settings.md), [Push configuration](../push/push-configuration.md) and SMS configuration steps before creating channel surfaces.
+> * You must perform the [Email configuration](../email/get-started-email-config.md), [Push configuration](../push/push-configuration.md) and [SMS configuration](../sms/sms-configuration.md) steps before creating channel surfaces.
 
 Once channel surfaces have been configured, you will be able to select them when creating messages from a journey or a campaign.
 
@@ -51,7 +56,7 @@ To create a channel surface, follow these steps:
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](../email/email-settings.md).
 
     ![](assets/preset-email.png)
 
@@ -63,13 +68,13 @@ To create a channel surface, follow these steps:
     >
     >For more on how to configure your environment to send push notifications, refer to [this section](../push/push-gs.md).
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in this section.
+1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](../sms/sms-configuration.md#message-preset-sms).
 
     ![](assets/preset-sms.png)
 
     >[!NOTE]
     >
-    >For more on how to configure your environment to send SMS messages, refer to this section.
+    >For more on how to configure your environment to send SMS messages, refer to [this section](../sms/sms-configuration.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
 

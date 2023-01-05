@@ -167,7 +167,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 * When activating or deactivating the allowed list, a new warning now displays to detail the impacts of each action. [Learn more](../configuration/allow-list.md#enable-allow-list)
 * The user interface for creating channel surfaces, creating IP pools, managing the suppression list and the allowed list, and configuring the SMS channel has been updated.
 * Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. [Learn more](../configuration/channel-surfaces.md#create-channel-surface)
-* The user interface for creating landing page presets and landing page subdomains has been updated. [Learn more](../configuration/lp-subdomains.md)
+* The user interface for creating landing page presets and landing page subdomains has been updated. [Learn more](../landing-pages/lp-subdomains.md)
 
 **Audit controls**
 
@@ -278,7 +278,6 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <td>
 <p>Journey Optimizer provides a new flow for message authoring in Journeys. In-line messaging will save users significant time and streamline the workflow process to create and deliver an email, a push notification or an SMS in Journey Optimizer. By removing Messages as a separate step and instead making them editable in-line as part of an action on the Journey Canvas, users will need to click fewer buttons and navigate fewer screens to design and edit their content.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>For more information, refer to the <a href="../messages/get-started-content.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -358,7 +357,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 * **Allowed list logic update** - Now the allowed list logic applies as soon as the feature is enabled, even if the list is empty. [Learn more](../configuration/allow-list.md#logic)
 
-* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your email surfaces (i.e presets). [Learn more](../configuration/email-settings.md#url-tracking)
+* **URL tracking parameters** - You can now use the Expression Editor to configure URL tracking parameters in your email surfaces (i.e presets). [Learn more](../email/email-settings.md#url-tracking)
 
 **Decision management**
 
@@ -473,7 +472,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Administration**
 
-* **Preview tracking URL parameters** - When configuring a message preset, if you define URL tracking parameters, a dynamic preview of the resulting tracking URL is now displayed. [Learn more](../configuration/email-settings.md#url-tracking)
+* **Preview tracking URL parameters** - When configuring a message preset, if you define URL tracking parameters, a dynamic preview of the resulting tracking URL is now displayed. [Learn more](../email/email-settings.md#url-tracking)
 
 * **Message preset edition** - Now when updating a message preset, the processing time can only take up to 3 hours. [Learn more](../configuration/channel-surfaces.md#edit-channel-surface)
 

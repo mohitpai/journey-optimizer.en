@@ -320,6 +320,8 @@ This dataset gives you access to marketer defined metadata which allows you to g
 >
 >For the time being, there are two entries for each message publication in the entity dataset for future compatibility reasons. This does not impact your ability to use join queries as needed across datasets to fetch the desired information.
 
+If you want to sort, in your reports, the emails sent by a specific journey according to the action that sent them. you can join the Message Feedback dataset with the Entity dataset. The fields to use are: `_experience.decisioning.propositions.scopeDetails.correlationID` and `_id field in entity dataset`.
+
 The following query helps you get the associated message template for a given campaign:
 
 ```sql

@@ -11,6 +11,11 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 ---
 # Landing page live report {#lp-report-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="Landing page live report"
+>abstract="The Landing page live report allows you to measure and visualize in real-time the impact and performances of your landing page only over the last 24 hours. Your report is divided into different widgets detailing your landing page success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 The landing page **[!UICONTROL Live report]** report displays details about the impact of your landing pages over the last 24 hours only. To measure your landing page data over a selected time period, refer to the [Landing page global report](lp-report-global.md).
 
 To access your reports, select **[!UICONTROL Report]** from the advanced menu of your selected landing page.

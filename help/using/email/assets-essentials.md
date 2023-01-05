@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
 # Create and manage assets with [!DNL Assets Essentials]{#experience-manager-assets}
 
@@ -18,7 +19,7 @@ Bring marketing and creative workflows together using [!DNL Adobe Experience Man
 
 Learn more in [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content.
+[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when [designing an email content](get-started-email-design.md).
 
 ## Prerequisites{#assets-prerequisites}
 
@@ -55,7 +56,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Once your asset is uploaded, you can now insert your assets in one of your messages via the Email designer.
+1. Once your asset is uploaded, you can now insert your assets in one of your messages via the Email Designer.
 
     Your asset can also be further edited with the **Edit** mode of [!DNL Assets Essentials]. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
@@ -65,20 +66,20 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_5.png)
 
-1. Select your Assets folder. You can also search for your asset or your folder in the search bar.
+1. Select your **[!UICONTROL Assets]** folder. You can also search for your asset or your folder in the search bar.
 
 1. Drag and drop your asset in your email content.
 
     ![](assets/media_library_6.png)
-<!--
-1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
+
+1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
+
+    ![](assets/media_library_13.png)
+
+    <!--
+    After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
 
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
--->
-
-1. You can further customize your assets such as adding an external link or a text with the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
-
-    ![](assets/media_library_13.png)
-
+    -->

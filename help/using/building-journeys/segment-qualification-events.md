@@ -61,6 +61,10 @@ This type of event can be positioned as the first step or later in the journey.
 
 1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
 
+    >[!NOTE]
+    >
+    >You can only select a people-based identity namespace. If you have defined a namespace for a lookup table (for example: ProductID namespace for a Product lookup), it will not be available in the **Namespace** dropdown list.
+
    ![](assets/segment7.png)
 
 The payload contains the following context information, which you can use in conditions and actions:

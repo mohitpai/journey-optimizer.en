@@ -11,7 +11,12 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 ---
 # Subscription live report {#subscription-report-live}
 
-The subscription **[!UICONTROL Live report]** displays details about the activity of your subscribers over the last 24 hours only. To measure your subscriptions over a selected time period, refer to the [Subscription global report](subscription-report-global.md).
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="Subscription live report"
+>abstract="The Subscription live report allows you to measure and visualize in real-time the activity of your subscribers only over the last 24 hours. Your report is divided into different widgets detailing your subscriptions and unsubscriptions. Each reporting dashboard can be modified by resizing or removing widgets."
+
+The Subscription **[!UICONTROL Live report]** displays details about the activity of your subscribers over the last 24 hours only. To measure your subscriptions over a selected time period, refer to the [Subscription global report](subscription-report-global.md).
 
 To access your reports, click the **[!UICONTROL Report]** icon of your selected subscription list.
 

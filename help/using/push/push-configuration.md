@@ -329,7 +329,7 @@ Your event is now created and can now be used in a journey.
 
 1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Push]** activity to your journey.
 
-1. Configure the push notification. For more information on how to create push notifications, refer to this [page](../messages/get-started-content.md).
+1. Configure the push notification. For more information on how to create push notifications, refer to this [page](create-push.md).
 
 1. Click the **[!UICONTROL Test]** toggle to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
 

@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 ---
 # Get started with push notification {#gs-push-notification}
 
@@ -30,12 +31,43 @@ Push notifications can be created:
 
 Use the dedicated tabs to define the push notification settings for **iOS** and **Android** operating systems.
 
+>[!NOTE]
+>
+>While **[!DNL Journey Optimizer]** provides ways of managing opt-out in emails and SMS messages, push notifications do not require any action on your side, as recipients can unsubscribe through their devices themselves. For example, upon downloading or when using your app, they can select to stop notifications. Similarly, they can change the notification settings through the mobile operating system.
 
-**Related topics**
-
-<!--
-* [Understand push notification flow](push-gs.md)
--->
-* [Configure push channel](push-gs.md)
-* [Create a new message](../messages/get-started-content.md)
-* [Add a message in a journey](../building-journeys/journeys-message.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="Lead" src="../assets/do-not-localize/push-create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>Create a push notification</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-push.md">
+<img alt="Infrequent" src="../assets/do-not-localize/push-design.jpg">
+</a>
+<div>
+<a href="design-push.md"><strong>Design your push notification</strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="Validation" src="../assets/do-not-localize/push-sending.jpg">
+</a>
+<div>
+<a href="send-push.md"><strong>Send your push notification</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="push-gs.md">
+<img alt="Validation" src="../assets/do-not-localize/push-config.jpg">
+</a>
+<div>
+<a href="push-gs.md"><strong>Configure push notifications</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

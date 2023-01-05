@@ -36,15 +36,10 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>
     <div>
-      <a href="using/email/design-emails.md">Design an email content</a>
+      <a href="using/email/get-started-email-design.md">Design an email content</a>
     </div>
     <p>
     Design a new email or import an existing HTML content
-    <p>
-    <div>
-      <a href="using/messages/get-started-content.md">Send messages</a>
-    </div>
-    <p>Learn how to add push, SMS and email messages in your customer journeys
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Create your first journey</a>

@@ -20,7 +20,7 @@ Actions are connections through which you deliver personalized, real-time experi
 
 ➡️ [Discover this feature in video](#video)
 
-[!DNL Journey Optimizer] comes with built-in message capability. Refer to 
+[!DNL Journey Optimizer] comes with built-in message capability.
 
 If you have Adobe Campaign v7 or v8, an integration is available upon request. Refer to [this page](../action/acc-action.md).
 

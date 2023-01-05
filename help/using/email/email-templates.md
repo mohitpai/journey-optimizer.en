@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
 # Work with email templates {#email-templates}
 
@@ -20,8 +21,12 @@ You can choose from:
 
 ## Save as template {#save-as-template}
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Learn how to migrate your messages"
+>abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 
-Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
+Once you designed your [email content](get-started-email-design.md), you can save it for future reuse. To do this, follow the steps below.
 
 1. Click the ellipsis on top right of the screen.
 
@@ -41,7 +46,7 @@ Next time you create an email, you can use this template to build your content. 
 
 ## Use a saved template {#use-saved-template}
 
-1. Open the [email designer](create-email-content.md).
+1. Open the [email designer](content-from-scratch.md).
 
 1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
 

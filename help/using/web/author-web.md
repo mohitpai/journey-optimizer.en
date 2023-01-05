@@ -94,7 +94,7 @@ Once you created a web action from the campaign, you can edit your content using
     * Heading - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../email/content-components.md#text)
     * Paragraph - Using this component is similar to using the **[!UICONTROL Text]** component in the email designer. [Learn more](../email/content-components.md#text)
     * Link - Learn how to define link styling in [this section](../email/styling-links.md)
-    * [Offer decision](../email/deliver-personalized-offers.md)
+    * [Offer decision](../email/add-offers-email.md)
 
     ![](assets/web-designer-components.png)
 
@@ -182,7 +182,7 @@ To add personalization, select a container and select the personalization icon f
 
 ![](assets/web-designer-personalization.png)
 
-Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../email/deliver-personalized-offers.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
+Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../email/add-offers-email.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
 
 ![](assets/web-designer-offer.png)
 

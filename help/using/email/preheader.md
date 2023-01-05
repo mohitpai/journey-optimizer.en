@@ -7,12 +7,18 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 ---
 # Add a preheader {#preheader}
 
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
+A preheader is a short summary text that follows the subject line when viewing an email from your email client.
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long. 
+In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
@@ -20,13 +26,15 @@ A preheader is a short summary text that follows the subject line when viewing a
 
 To define the email preheader, follow the steps below:
 
-1. From the Email designer, add a **[!UICONTROL Structure components]** to start designing your email.
+1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
 
-    ![](assets/preheader_1.png)
+1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
 
-1. From the **[!UICONTROL Body settings]** right pane, click **Edit** next to the **[!UICONTROL Preheader]** field to add content.
+    ![](assets/preheader_body.png)
 
-    ![](assets/preheader_2.png)
+1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+
+    ![](assets/preheader_body_settings.png)
 
 1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
 

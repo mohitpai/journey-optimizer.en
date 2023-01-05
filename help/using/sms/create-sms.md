@@ -20,11 +20,9 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 >
 >In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## Define your SMS content{#sms-content}
+## Create an SMS message in a journey or campaign {#create-sms-journey-campaign}
 
 To start personalizing your SMS message, follow these steps:
-
-1. Add an SMS action in a journey or a campaign:
 
 >[!BEGINTABS]
 
@@ -39,6 +37,8 @@ To start personalizing your SMS message, follow these steps:
     ![](assets/sms_create_2.png)
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
+
+You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Design your SMS content](#sms-content)
 
 >[!TAB Add an SMS message to a Campaign]
 
@@ -67,9 +67,13 @@ To start personalizing your SMS message, follow these steps:
     * Once
     * Daily
     * Weekly
-    * Monthly
+    * Month
+    
+You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Design your SMS content](#sms-content)
 
 >[!ENDTABS]
+
+## Define your SMS content{#sms-content}
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
 
@@ -79,29 +83,12 @@ To start personalizing your SMS message, follow these steps:
 
 1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
-1. Click **[!UICONTROL Save]** and check your message in the preview.
+1. Click **[!UICONTROL Save]** and check your message in the preview. [Learn more](send-sms.md)
 
     ![](assets/sms-content-preview.png)
-
-1. When your SMS message is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
-
-## Validate your SMS{#sms-preview}
-
->[!NOTE]
->
-> For better deliverability, you should always use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
-
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, using test profile data.
-
-To visualize how your SMS message displays on mobile devices, click the **[!UICONTROL Simulate content]** tab. Learn more about content simulation in [this section](../email/preview.md).
-
-You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message.
-
-![](assets/sms-alert-button.png)
 
 **Related topics**
 
 * [Configure SMS channel](sms-configuration.md)
 * [SMS report](../reports/journey-global-report.md#sms-global)
-* [Create a new message](../messages/get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

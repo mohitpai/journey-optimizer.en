@@ -31,7 +31,7 @@ Learn how to manage opt-out in Journey Optimizer email and SMS messages in these
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../email/email-opt-out.md">
-<img alt="Lead" src="../assets/do-not-localize/privacy-email-optout.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%>
 </a>
 <div><a href="../email/email-opt-out.md"><strong>Email opt-out management</strong>
 </div>
@@ -39,7 +39,7 @@ Learn how to manage opt-out in Journey Optimizer email and SMS messages in these
 </td>
 <td>
 <a href="../sms/sms-opt-out.md">
-<img alt="Infrequent" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg">
+<img alt="Infrequent" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%>
 </a>
 <div>
 <a href="../sms/sms-opt-out.md"><strong>SMS opt-out management</strong></a>

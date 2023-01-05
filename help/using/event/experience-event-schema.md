@@ -74,6 +74,16 @@ In Journey Optimizer, you can then leverage all the fields from the linked table
 * in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
 * in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
+### Arrays{#relationships_limitations}
+
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
+
+![](assets/schema15.png)
+
+However, you cannot define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will not be available in journeys (conditions, custom actions, etc.) and message personalization. 
+
+![](assets/schema16.png)
+
 ### Event configuration{#unitary_event_configuration}
 
 The linked schema fields are available in unitary and business event configuration:

@@ -16,11 +16,9 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 >title="Push message creation"
 >abstract="Add your push message and start personalizing it with the Expression editor."
 
-## Create the push notification {#create}
+## Create the push notification in a journey or campaign {#create}
 
 To create a push notification, follow the steps below:
-
-1. Add a Push action in a journey or a campaign:
 
 >[!BEGINTABS]
 
@@ -34,7 +32,19 @@ To create a push notification, follow the steps below:
 
     ![](assets/push_create_2.png)
 
+    >[!NOTE]
+    >
+    >If you are sending a push notification from a journey, you can leverage Adobe Journey Optimizer's Send-Time Optimization feature to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
+
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
+
+1. From the journey configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
+
+1. Once your message content has been defined, you can use test profiles to preview and test it. 
+
+1. When your push is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) to send it.
+
+    To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md).
 
 >[!TAB Add a Push to a Campaign]
 
@@ -63,20 +73,19 @@ To create a push notification, follow the steps below:
     * Weekly
     * Monthly
 
->[!ENDTABS]
-
-1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
+1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the push content. [Design a push notification](design-push.md)
 
 1. Once your message content has been defined, you can use test profiles to preview and test it. 
 
-1. When your push is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+1. When your push is ready, complete the configuration of your [campaign](../campaigns/create-campaign.md) to send it.
 
-    To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journeys-message.md) or [campaign](../campaigns/create-campaign.md). 
+    To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [campaign](../campaigns/create-campaign.md).
+
+>[!ENDTABS]
 
 **Related topics**
 
 * [Configure push channel](push-gs.md)
-* [Create a new message](../messages/get-started-content.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
 
 ## Rapid delivery mode {#rapid-delivery}
@@ -86,7 +95,7 @@ To create a push notification, follow the steps below:
 >title="Rapid delivery mode"
 >abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
 
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on  that allows very fast push message sending in large volumes though campaigns.
+Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
 
 Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 
@@ -99,7 +108,7 @@ Rapid delivery messaging comes with the following requirements:
 * Rapid delivery is available for **[!UICONTROL Scheduled]** campaigns only, and is not available for API-triggered campaigns,
 * No personalization is allowed in the push message,
 * The target audience must contain less than 30M profiles,
-* You can execute up to 5 campaigns simulateneously using the Rapid delivery mode.
+* You can execute up to 5 campaigns simultaneously using the Rapid delivery mode.
 
 ### Activate Rapid delivery mode
 

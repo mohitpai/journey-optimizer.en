@@ -7,6 +7,7 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 ---
 # Add links and track messages {#tracking}
 
@@ -14,9 +15,19 @@ Use [!DNL Journey Optimizer] to add links to your content and track the messages
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when [creating your message](../messages/get-started-content.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when creating your message inside a journey or a campaign.
 
-![](assets/message-tracking.png)
+>[!BEGINTABS]
+
+>[!TAB Enable tracking in a journey]
+
+![](assets/message-tracking-journey.png)
+
+>[!TAB Enable tracking in a campaign]
+
+![](assets/message-tracking-campaign.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -70,7 +81,7 @@ To insert links into your email content, follow the steps below:
 
 >[!NOTE]
 >
->Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](../messages/get-started-content.md#create-new-message).
+>Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when creating the message.
 
 ## Link to a mirror page {#mirror-page}
 
@@ -96,7 +107,7 @@ The retention period for a mirror page is 60 days. After that delay, the mirror 
 
 ## Manage tracking {#manage-tracking}
 
-The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
+The [Email Designer](content-from-scratch.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
 
 1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content that will be tracked.
 

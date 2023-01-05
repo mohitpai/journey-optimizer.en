@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 ---
 # SMS opt-out management {#sms-opt-out}
 

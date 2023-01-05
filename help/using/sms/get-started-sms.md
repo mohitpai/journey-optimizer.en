@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 ---
 # Get started with SMS {#get-started-sms}
 
@@ -28,14 +29,45 @@ SMS deliveries can be created:
 
 If this is your first time creating an SMS message, make sure the SMS channel has been configured. [Learn more](sms-configuration.md).
 
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-sms.md">
+<img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
+</a>
+<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="send-sms.md">
+<img alt="Infrequent" src="../assets/do-not-localize/sms-sending.jpg">
+</a>
+<div>
+<a href="send-sms.md"><strong>Send an SMS message</strong></a>
+</div>
+<p></td>
+<td>
+<a href="sms-opt-out.md">
+<img alt="Validation" src="../assets/do-not-localize/sms-opt-out.jpg">
+</a>
+<div>
+<a href="sms-opt-out.md"><strong>SMS opt-out management</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="sms-configuration.md">
+<img alt="Validation" src="../assets/do-not-localize/sms-config.jpg">
+</a>
+<div>
+<a href="sms-configuration.md"><strong>Configure SMS channel</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
 ## How-to video
 
 Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
-**Related topics**
-
-* [Configure SMS channel](sms-configuration.md)
-* [Create an SMS message](create-sms.md)
-* [Add a message in a journey](../building-journeys/journeys-message.md)

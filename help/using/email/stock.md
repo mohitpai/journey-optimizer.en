@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 ---
 # Work with [!DNL Adobe Stock] images {#stock}
 
@@ -16,7 +17,7 @@ The [!DNL Adobe Stock] and [!DNL Adobe Journey Optimizer] Email Designer integra
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} provides access to millions of high-quality, curated, royalty-free photos, videos, illustrations, and vector graphics. You can choose to purchase a credit pack to license assets or only buy one Standard or Extended license for the needed asset. Adobe Stock also provides a free collection of assets.
 
-With [!DNL Adobe Journey Optimizer], you can upload images to your emails directly from [!DNL Adobe Stock] and add it to your Assets folder using the **[!UICONTROL Find Adobe Stock photos]** option. In addition, the **[!UICONTROL Find Similar Stock photos]** option helps you find images that match the content, color, and composition of the asset used in your delivery.
+With [!DNL Adobe Journey Optimizer], you can upload images to your emails directly from [!DNL Adobe Stock] and add it to your **[!UICONTROL Assets]** folder using the **[!UICONTROL Find Adobe Stock photos]** option. In addition, the **[!UICONTROL Find Similar Stock photos]** option helps you find images that match the content, color, and composition of the asset used in your delivery.
 
 ## Permissions{#stock-permissions}
 
@@ -93,7 +94,7 @@ To license and download your image, follow the steps below:
 
 ## Related topics{#stock-related-topics}
 
-* Email design in Journey Optimizer
+* [Email design in Journey Optimizer](get-started-email-design.md)
 * [Components settings for email design](content-components.md)
 * [Adobe Stock Get Started](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

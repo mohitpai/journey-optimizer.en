@@ -64,6 +64,7 @@ Here are the first steps to configure a new event:
    >The advanced expression editor is not available when defining the **[!UICONTROL Event ID condition]**. In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
 
 1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [this section](../event/about-creating.md#select-the-namespace).
+
 1. Define the profile identifier: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, journeys picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [this section](../event/about-creating.md#define-the-event-key). 
 
     ![](assets/jo-event7.png)
@@ -102,6 +103,11 @@ The payload definition allows you to choose the information the system expects t
 
 ## Select the namespace {#select-the-namespace}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="Identity Namespace"
+>abstract="Select the key to identify the customer profile associated to the event."
+
 The namespace allows you to define the type of key used to identify the person associated to the event. Its configuration is optional. It is required if you want to retrieve, in your journeys, additional information coming from the [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}. The namespace definition is not needed if you're only using data coming from a third-party system through a custom data source.
 
 You can either use one of the predefined ones or create a new one using the Identity Namespace service. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
@@ -112,12 +118,15 @@ When selecting fields, primary identity fields are tagged.
 
 ![](assets/primary-identity.png)
 
-
 Select a namespace from the drop-down list.
 
 ![](assets/journey17.png)
 
 Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [this page](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>You can only select a people-based identity namespace. If you have defined a namespace for a lookup table (for example: ProductID namespace for a Product lookup), it will not be available in the **Namespace** dropdown list.
 
 ## Define the profile identifier {#define-the-event-key}
 

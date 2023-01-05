@@ -54,11 +54,11 @@ All email messages using this surface will be blind-copied to the BCC email addr
 >
 >Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
-The BCC email address setting is immediately saved and processed at the surface level. When you [create a new message](../messages/get-started-content.md) using this surface, the BCC email address is automatically displayed.
+The BCC email address setting is immediately saved and processed at the surface level. When you create a new message using this surface, the BCC email address is automatically displayed.
 
 ![](assets/preset-bcc-in-msg.png)
 
-However, the BCC address gets picked up for sending communications following the logic described [here](email-settings.md).
+However, the BCC address gets picked up for sending communications following the logic described [here](../email/email-settings.md).
 
 ### Recommendations and limitations {#bcc-recommendations-limitations}
 
@@ -125,20 +125,20 @@ Depending on what information you are looking for, you can run the following que
 
 1. For all the other queries below, you will need the journey action ID. Run this query to fetch all action IDs associated with a particular journey version ID within the last 2 days:
 
-        ```
-        SELECT
-        DISTINCT
-        CAST(TIMESTAMP AS DATE) AS EventTime,
-        _experience.journeyOrchestration.stepEvents.journeyVersionID,
-        _experience.journeyOrchestration.stepEvents.actionName, 
-        _experience.journeyOrchestration.stepEvents.actionID 
-        FROM journey_step_events 
-        WHERE 
-        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
-        _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
-        TIMESTAMP > NOW() - INTERVAL '2' DAY 
-        ORDER BY EventTime DESC;
-        ```
+    ```
+    SELECT
+    DISTINCT
+    CAST(TIMESTAMP AS DATE) AS EventTime,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionName, 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    FROM journey_step_events 
+    WHERE 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+    _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+    TIMESTAMP > NOW() - INTERVAL '2' DAY 
+    ORDER BY EventTime DESC;
+    ```
 
     >[!NOTE]
     >
@@ -148,27 +148,27 @@ Depending on what information you are looking for, you can run the following que
 
 1. Run this query to fetch all message feedback events (especially feedback status) generated for a particular message targeted to a specific user within the last 2 days:
 
-        ```
-        SELECT  
-        _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
-        _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
-        timestamp AS EventTime, 
-        _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
-        _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
-        CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
-            WHEN 'sent' THEN 'Sent'
-            WHEN 'delay' THEN 'Retry'
-            WHEN 'out_of_band' THEN 'Bounce' 
-            WHEN 'bounce' THEN 'Bounce'
-        END AS FeedbackStatusCategory
-        FROM cjm_message_feedback_event_dataset 
-        WHERE  
-            timestamp > now() - INTERVAL '2' day  AND
-            _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
-            _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
-            _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
-            ORDER BY EventTime DESC;
-        ```
+    ```
+    SELECT  
+    _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+    _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+    timestamp AS EventTime, 
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+    CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+        WHEN 'sent' THEN 'Sent'
+        WHEN 'delay' THEN 'Retry'
+        WHEN 'out_of_band' THEN 'Bounce' 
+        WHEN 'bounce' THEN 'Bounce'
+    END AS FeedbackStatusCategory
+    FROM cjm_message_feedback_event_dataset 
+    WHERE  
+        timestamp > now() - INTERVAL '2' day  AND
+        _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+        _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+        _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
+        ORDER BY EventTime DESC;
+    ```
 
     >[!NOTE]
     >

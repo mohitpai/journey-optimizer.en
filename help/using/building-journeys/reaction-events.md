@@ -22,7 +22,7 @@ You can react to clicked or opened messages.
 
 You can also use this mechanism to perform an action when there is no reaction to your messages. To do this, create a second path parallel to the reaction activity and add a wait activity. If there is no reaction during the period defined in the wait activity, the second path will be chosen. You can choose to send, for example, a follow-up message. 
 
-Note that you can only use a reaction activity in the canvas if there is a channel action activity before (Email, push, SMS).
+Note that you can only use a reaction activity in the canvas if there is a channel action activity before (Email and push).
 
 See [About action activities](../building-journeys/about-journey-activities.md#action-activities).
 
