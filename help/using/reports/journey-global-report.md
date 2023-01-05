@@ -11,6 +11,11 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 ---
 # Journey global report {#journey-global-report}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="Journey global report"
+>abstract="The Journey global report allows you to measure the impact of your journeys over a selected time period. Your report is divided into different widgets detailing your journey's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 Journey global report can be accessed directly from your journey with the **[!UICONTROL View report]** button. 
 
 ![](assets/report_journey.png)

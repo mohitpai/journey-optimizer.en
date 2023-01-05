@@ -11,6 +11,11 @@ exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 ---
 # Landing page global report {#lp-report-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="Landing page global report"
+>abstract="The Landing page global report allows you to measure the impact of your landing pages over a selected time period. Your report is divided into different widgets detailing your landing page success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 The landing page **[!UICONTROL Global report]** report displays details about the impact of your landing pages over a selected time period. To measure your landing page data over the last 24 hours only, refer to the [Landing page live report](lp-report-live.md).
 
 To access your reports, select **[!UICONTROL Report]** from the advanced menu of your selected landing page.
