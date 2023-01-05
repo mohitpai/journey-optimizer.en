@@ -69,9 +69,11 @@ The confidence used by Adobe is an "anytime valid" confidence, which is obtained
 
 To be precise, in a two sample *t* test for the difference in means between two variants, there is a 1:1 mapping between the *p*-value for this test, and the confidence interval for the difference in means. By analogy, an anytime valid *p*-value can be obtained by inverting the (anytime valid) confidence sequence for the average treatment effect estimator:
 
+![](assets/statistical_6.png){width="300" align="center"}
+
 Here, *E* is an expectation. The estimator used is an inverse propensity weighted (IPW) estimator. Consider N = N<sub>0</sub> +N<sub>1</sub> units, the variant assignments for each unit `i` labeled by A<sub>i</sub>=0,1 if the unit is assigned to variant `ν`=0,1. If the users are assigned with fixed probability (propensity) π<sub>0</sub>, (1-π<sub>0</sub>), and their outcome metric is Y<sub>i</sub>, then the IPW estimator for the average treatment effect is:
 
-![](assets/statistical_6.png){width="300" align="center"}
+![](assets/statistical_12.png){width="300" align="center"}
 
 Noting that *f* is the influence function, Waudby-Smith et al. showed that the Confidence Sequence for this estimator is:
 
