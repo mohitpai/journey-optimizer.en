@@ -18,19 +18,19 @@ Note that this page is intended for technical users.
 
 The conversion rate or **mean**, μ<sub>ν</sub> for each treatment `ν` in an Experiment is defined as a ratio of the sum of the metric to the number of profiles assigned to that metric, N<sub>ν</sub>:
 
-![](assets/statistical_1.png){width="200" align="center"}
+![](assets/statistical_1.png){width="170" align="center"}
 
 Here, Y<sub>iν</sub> is the value of the objective metric for each profile `i`, that has been assigned to a given variant *ν*. When the objective metric is a "unique" metric, i.e., it is a count of the number of profiles doing a particular action, this is displayed as a conversion rate, and formatted as a percentage. When the metric is a "count" or "total value" metric (e.g. email opens, revenue respectively), the mean estimate for the metric is displayed as a "Count per Profile", or "Value per Profile". 
 
 Wherever needed, the sample standard deviation is used with the expression:
 
-![](assets/statistical_2.png){width="300" align="center"}
+![](assets/statistical_2.png){width="270" align="center"}
 
 ## Lift {#lift}
 
 The lift between a variant  *ν*, and the control variant  *ν<sub>0</sub>* is the relative "delta" in conversion rates, defined as the calculation below where the individual conversion rates are as defined above. This is displayed as a percentage. 
 
-![](assets/statistical_3.png){width="200" align="center"}
+![](assets/statistical_3.png){width="170" align="center"}
 
 </br>
 
