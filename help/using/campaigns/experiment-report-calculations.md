@@ -22,7 +22,7 @@ The conversion rate or **mean**, μ<sub>ν</sub> for each treatment `ν` in an E
 
 Here, Y<sub>iν</sub> is the value of the objective metric for each profile `i`, that has been assigned to a given variant *ν*. When the objective metric is a "unique" metric, i.e., it is a count of the number of profiles doing a particular action, this is displayed as a conversion rate, and formatted as a percentage. When the metric is a "count" or "total value" metric (e.g. email opens, revenue respectively), the mean estimate for the metric is displayed as a "Count per Profile", or "Value per Profile". 
 
-Wherever needed, the sample standard deviation is used, with the expression:
+Wherever needed, the sample standard deviation is used with the expression:
 
 ![](assets/statistical_2.png){width="300" align="center"}
 
