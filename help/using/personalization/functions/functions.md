@@ -21,7 +21,7 @@ In the [!DNL Journey Optimizer] Expression editor, helper functions are grouped 
 
 Select a category, to access sub-categories and functions.
 
-Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automaticaly added to the personalization screen. 
+Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automatically added to the personalization screen. 
 
 Click the `...` icon to view the description of the function and add it to your favorites. [Learn more](../personalize.md#fav)
 
@@ -140,7 +140,7 @@ Click the `...` icon to view the description of the function and add it to your 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absolute</a></td><td>This function converts a number it's absolute value</td>
+        <td><a href="math.md#absolute">Absolute</a></td><td>This function converts a number its absolute value</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
