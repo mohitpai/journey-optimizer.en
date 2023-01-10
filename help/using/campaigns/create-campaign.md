@@ -154,4 +154,4 @@ If you do not want to execute your campaign right after its activation, you can 
 
 ![](assets/create-campaign-schedule.png)
 
-Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
+Once your campaign is ready, you can review and publish it. [Learn more](review-activate-campaign.md)
