@@ -140,22 +140,22 @@ Click the `...` icon to view the description of the function and add it to your 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absolute</a></td><td>This function converts a number it's absolute value</td>
+        <td><a href="math.md#absolute">Absolute</a></td><td>This function converts a number it's absolute value</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
+        <td><a href="math.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Round down</a></td><td>This function rounds down a number</td>
+        <td><a href="math.md#round-down">Round down</a></td><td>This function rounds down a number</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Round up</a></td><td>This function rounds up a number</td>
+        <td><a href="math.md#round-up">Round up</a></td><td>This function rounds up a number</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
+        <td><a href="math.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
+        <td><a href="math.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
     </tr>
 </table>
 
