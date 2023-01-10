@@ -286,7 +286,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#sub-string">Sub string</a></td><td>This function returns the sub-string of the string expression between the begin index and the end index.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Title Case</a></td><td>This function is used to capitalize first letters of each words of a string</td>
+        <td><a href="string.md#titleCase">Title Case</a></td><td>This function is used to capitalize first letters of each word of a string</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">To Bool</a></td><td>This function Converts an argument value into a boolean value, depending on its type.</td>
@@ -295,7 +295,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#to-date-time">To Date Time</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>This function converts an argument value into a date time only value.. It returns the epoch date as output for invalid input.</td>
+        <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>This function converts an argument value into a date time only value. It returns the epoch date as output for invalid input.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Trim</a></td><td>This function removes white spaces from the beginning and from end of a string</td>
@@ -319,7 +319,7 @@ Helpers are detailed in [this page](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Default fallback value</a></td><td>This function allows to render a variable with default</td>
+        <td><a href="helpers.md#default">Default fallback value</a></td><td>This function is used to render a variable with default</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>This function is used to iterate over an array</td>
