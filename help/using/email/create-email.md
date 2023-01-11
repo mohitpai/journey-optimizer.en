@@ -66,6 +66,13 @@ For more information on how to configure a campaign, refer to [this page](../cam
 
 ## Define your email content {#define-email-content}
 
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="Configure email content"
+>abstract="Create the content of your email. Define its subject, then leverage the Email Designer to build and personalize the body of the email."
+
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Learn more](get-started-email-design.md)
 
     ![](assets/email_campaign_edit_content.png)
