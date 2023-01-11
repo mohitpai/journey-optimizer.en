@@ -31,11 +31,15 @@ Broadly, the flexibility you want from your data is:
     <br>
   </td>
 </tr>
+</table>
+
   <!--td>
     <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
     <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
-  </td-->
+  </td>
 </tr>
+<tr style="border: 0;"-->
+<table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
