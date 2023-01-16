@@ -109,6 +109,11 @@ Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record
 >title="Generate the matching DNS and validation records"
 >abstract="To delegate a subdomain using CNAMEs, you need to copy-paste the Adobe nameserver information and the SSL CDN URL validation record displayed in the Journey Optimizer interface into your hosting platform. Once the checks are successful, the subdomain is ready to be used to deliver messages."
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="Copy the validation record"
+>abstract="Adobe generates a validation record. You need to create the corresponding record on your hosting platform for CDN URL validation."
+
 If you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
 
 CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.
