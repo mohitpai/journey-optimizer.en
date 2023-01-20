@@ -16,7 +16,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 >title="Google TXT records"
 >abstract="To ensure successful delivery of emails to Gmail addresses, you can add special Google site verification TXT records to your subdomain to make sure that it is verified."
 
-TXT records are a type of DNS records used to provide text information about a domain, that can be read by external sources.
+TXT records are a type of DNS record used to provide text information about a domain, that can be read by external sources.
 
 In order to ensure optimal deliverability and successful delivery of emails to Gmail addresses, [!DNL Journey Optimizer] allows you to add special Google site verification TXT records to your subdomain to make sure that it is verified.
 
