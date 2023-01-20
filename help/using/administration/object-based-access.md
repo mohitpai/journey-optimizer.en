@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Object level access control
-description: Learn about Object level access control
+description: Learn about Object level access control that lets you define authorizations to manage data access to a selection of objects
 feature: Access Management
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Developer, Architect
+level: Experienced
+keywords: object, level, access, control, labels, olac, authorization
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 ---
 # Object level access control {#object-level-access}
