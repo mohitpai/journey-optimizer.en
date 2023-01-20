@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Data Governance
 description: Define a governance policy linked to a label and a marketing action
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin
 level: Intermediate
