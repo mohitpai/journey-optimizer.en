@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: profile, update, journey, activity
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 ---
 # Update Profile {#update-profile}

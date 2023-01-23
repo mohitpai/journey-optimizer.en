@@ -7,6 +7,7 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: journey, integration, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 ---
 # Adobe Campaign v7/v8 actions {#using_campaign_classic} 

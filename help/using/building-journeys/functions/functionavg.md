@@ -3,8 +3,9 @@ product: journey optimizer
 title: avg
 description: Learn about the function avg
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: avg, function, expression, journey
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 ---
 # avg {#avg}

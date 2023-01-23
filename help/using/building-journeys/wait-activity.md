@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: wait, activity, journey, next, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 ---
 # Wait activity{#wait-activity}

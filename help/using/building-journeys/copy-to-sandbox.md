@@ -5,8 +5,9 @@ title: Copy a journey to another sandox
 description: Learn how to copy a journey to another sandox
 feature: Journeys
 topic: Content Management
-role: User
+role: User, Developer
 level: Intermediate
+keywords: sandbox, journey, copy, environment
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 ---
 # Copy a journey to another sandbox {#copy-to-sandbox}

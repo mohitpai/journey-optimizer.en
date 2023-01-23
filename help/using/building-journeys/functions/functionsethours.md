@@ -3,8 +3,9 @@ product: journey optimizer
 title: setHours
 description: Learn about the function setHours
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: setHours, function, expression, journey
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 ---
 # setHours {#setHours}

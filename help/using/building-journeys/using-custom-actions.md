@@ -5,8 +5,9 @@ title: Use custom actions
 description: Learn how to use custom actions
 feature: Actions
 topic: Content Management
-role: User
+role: User, Developer
 level: Intermediate
+keywords: action, custom, API,journey, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 ---
 # Use custom actions {#use-custom-actions}

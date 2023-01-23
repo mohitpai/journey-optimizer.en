@@ -3,8 +3,9 @@ product: journey optimizer
 title: inLastMonths
 description: Learn about the function inLastMonths
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inLastMonths, function, expression, journey
 exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
 ---
 # inLastMonths {#inLastMonths}

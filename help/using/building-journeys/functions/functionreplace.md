@@ -3,8 +3,9 @@ product: journey optimizer
 title: replace
 description: Learn about the function replace
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: replace, function, expression, journey
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 ---
 # replace {#replace}

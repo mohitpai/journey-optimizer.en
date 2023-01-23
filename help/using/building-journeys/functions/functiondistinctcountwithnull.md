@@ -3,8 +3,9 @@ product: journey optimizer
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinctCountWithNull, function, expression, journey
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 ---
 # distinctCountWithNull {#distinctCountWithNull}

@@ -3,8 +3,9 @@ product: journey optimizer
 title: toDateTimeOnly
 description: Learn about the function toDateTime
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDateTimeOnly, function, expression, journey
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 ---
 # toDateTimeOnly{#toDateTimeOnly}

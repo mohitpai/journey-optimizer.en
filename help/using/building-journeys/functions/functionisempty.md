@@ -3,8 +3,9 @@ product: journey optimizer
 title: isEmpty
 description: Learn about the function isEmpty
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: isEmpty, function, expression, journey
 exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 ---
 # isEmpty {#isEmpty}

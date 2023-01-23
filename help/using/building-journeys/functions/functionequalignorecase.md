@@ -3,8 +3,9 @@ product: journey optimizer
 title: equalIgnoreCase
 description: Learn about the function equalIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: equalIgnoreCase, function, expression, journey
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
 ---
 # equalIgnoreCase {#equalIgnoreCase}
