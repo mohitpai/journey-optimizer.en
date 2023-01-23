@@ -6,6 +6,7 @@ description: Learn how to manage profile entry
 feature: Journeys
 role: User
 level: Intermediate
+keywords: re-entrance, journey, profile, recurring
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 ---
 # Profile entry management {#entry-management}
@@ -14,7 +15,7 @@ By default, new journeys allow re-entrance. You can uncheck the option for “on
 
 ![](assets/journey-re-entrance.png)
 
-When a journey ends, its status is **[!UICONTROL Closed]**. TNew individuals can no loger enter the journey. Persons already in the journey finish the journey normally.
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no loger enter the journey. Persons already in the journey finish the journey normally.
 
 After the default global timeout of 30 days, the journey switches to the **Finished** status.  [Learn more](journey-gs.md#global_timeout).
 

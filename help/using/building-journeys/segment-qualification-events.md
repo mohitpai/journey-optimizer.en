@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: qualification, events, segment, journey, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 ---
 # Segment Qualification events {#segment-qualification}
@@ -60,6 +61,10 @@ This type of event can be positioned as the first step or later in the journey.
    >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
 1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
+
+    >[!NOTE]
+    >
+    >You can only select a people-based identity namespace. If you have defined a namespace for a lookup table (for example: ProductID namespace for a Product lookup), it will not be available in the **Namespace** dropdown list.
 
    ![](assets/segment7.png)
 

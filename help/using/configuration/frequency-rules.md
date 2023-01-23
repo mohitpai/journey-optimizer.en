@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: message, frequency, rules, pressure
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 ---
 # Message frequency rules {#frequency-rules}
@@ -42,6 +43,21 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 Learn more about permissions in [this section](../administration/high-low-permissions.md).
 
 ## Create a rule {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="Select the message rule category"
+>abstract="When activated and applied to a message, all the frequency rules matching the selected category will be automatically applied to this message. Currently only the Marketing category is available."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile each month. Frequency cap will be based on a monthly calendar period and will be reset at the beginning of each month."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="Define the channel(s) the rule applies to"
+>abstract="Select at least one channel. Capping applies across channels as a total count."
 
 To create a new rule, follow the steps below.
 
@@ -109,26 +125,23 @@ The rule's status will change to **[!UICONTROL Inactive]** and the rule will not
  
 To apply a frequency rule to a message, follow the steps below.
 
-1. Create a message by selecting one of the channels you defined for your rule.
+1. When creating a [journey](../building-journeys/journey-gs.md), add a message by selecting one of the channels you defined for your rule.
 
 1. Select the category you defined for the [rule you created](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >Currently only the **[!UICONTROL Marketing]** category is available for message frequency rules.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules screen in a new tab. [Learn more](#access-rules)
 
-1. All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
+   All the frequency rules matching the selected category and channel(s) will be automatically applied to this message.
 
    >[!NOTE]
    >
-   >Messages <!--that do not have any selected category or messages -->where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against frequency rules.
 
 1. You can view the number of profiles excluded from delivery in the [Global report](../reports/global-report.md), and in the [Live report](../reports/live-report.md), where frequency rules will be listed as a possible reason for users excluded from delivery.
 

@@ -5,8 +5,9 @@ title: About actions
 description: Learn how to configure an action
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: actions, journey, messages, sending, connections
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 ---
 # About actions {#about_actions}

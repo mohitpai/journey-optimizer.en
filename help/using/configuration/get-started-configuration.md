@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with [!DNL Journey Optimizer] configuration
 description: Learn more about [!DNL Journey Optimizer] configuration
-role: Admin
+role: Admin, Developer
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
+keywords: configuration, configure, messages, channel, sandbox, optimizer
 ---
 
 # Get started with [!DNL Journey Optimizer] configuration {#start-optimizer-configuration}

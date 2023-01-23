@@ -3,8 +3,9 @@ product: journey optimizer
 title: limit
 description: Learn about the function limit
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: limit, function, expression, journey
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 ---
 # limit {#limit}

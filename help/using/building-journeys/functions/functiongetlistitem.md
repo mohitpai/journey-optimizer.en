@@ -3,8 +3,9 @@ product: journey optimizer
 title: getListItem
 description: Learn about the function gstListItem
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: getListItem, function, expression, journey
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 ---
 # getListItem {#gestListItem}

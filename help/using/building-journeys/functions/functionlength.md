@@ -3,8 +3,9 @@ product: journey optimizer
 title: length
 description: Learn about the function length
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: length, function, expression, journey
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 ---
 # length {#length}

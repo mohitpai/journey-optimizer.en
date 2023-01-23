@@ -3,8 +3,9 @@ product: journey optimizer
 title: updateTimeZone
 description: Learn about the function updateTimeZone
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: updateTimeZone, function, expression, journey
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 ---
 # updateTimeZone {#updateTimeZone}

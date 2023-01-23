@@ -3,8 +3,9 @@ product: journey optimizer
 title: concat
 description: Learn about the function concat
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: concat, function, expression, journey
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 ---
 # concat {#concat}

@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: IP, pools, group, subdomais, deliverability
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
 # Create IP pools {#create-ip-pools}

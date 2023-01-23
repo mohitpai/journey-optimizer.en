@@ -7,6 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: configuration, experimentation, reporting, optimizer
 hide: yes
 hidefromtoc: yes
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8

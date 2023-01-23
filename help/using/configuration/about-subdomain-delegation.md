@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: subdomain, optimizer, delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 ---
 # Subdomain delegation in [!DNL Journey Optimizer] {#subdomain-delegation}
@@ -17,7 +18,7 @@ Creating a subdomain for email campaigns allows brands to isolate varying types 
 >
 >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-## Why setting up subdomains? {#why-setting-up-subdomains}
+## Why set up subdomains? {#why-set-up-subdomains}
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic - for example transactional messages and marketing communications.
 

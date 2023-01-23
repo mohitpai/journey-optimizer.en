@@ -119,7 +119,7 @@ The `topN` function is used to return the first `N` items in an array, when sort
 
 **Example**
 
-The following operation returns the top five orders with the highest price.
+The following operation returns the first five orders with the lowest price.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -217,7 +217,7 @@ The `bottomN` function is used to return the last `N` items in an array, when so
 
 **Example**
 
-The following operation returns the top five orders with the lowest price.
+The following operation returns the last five orders with the highest price.
 
 ```sql
 {%= bottomN(orders,price, 5) %}

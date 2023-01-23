@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: activity, journey, read, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 ---
 # Use a segment in a journey {#segment-trigger-activity}
@@ -58,7 +59,7 @@ The steps to configure the Read Segment activity are as follows:
 
     >[!NOTE]
     >
-    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
+    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey. You can only select a people-based identity namespace. If you have defined a namespace for a lookup table (for example: ProductID namespace for a Product lookup), it will not be available in the **Namespace** dropdown list.
 
 1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read segment activity.
 

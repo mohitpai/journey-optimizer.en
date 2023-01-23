@@ -11,6 +11,11 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 ---
 # Journey live report {#journey-live-report}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="Journey live report"
+>abstract="The Journey live report allows you to measure and visualize in real-time the impact and performances of your journeys only over the last 24 hours. Your report is divided into different widgets detailing your journey's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 Journey live report can be accessed directly from your journey with the **[!UICONTROL View report]** button. 
 
 ![](assets/report_journey.png)

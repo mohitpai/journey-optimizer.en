@@ -5,6 +5,7 @@ title: Integrate Journey Optimizer with external systemps
 description: Learn the best practices when integrating Journey Optimizer with external systems
 role: User
 level: Beginner
+keywords: external, API, optimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
 # Integrate with external systems {#external-systems}

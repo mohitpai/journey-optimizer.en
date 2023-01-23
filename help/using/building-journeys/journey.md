@@ -6,6 +6,7 @@ description: Get started with journeys
 feature: Journeys
 role: User
 level: Beginner
+keywords: journey, discover, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 ---
 

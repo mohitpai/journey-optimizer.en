@@ -7,6 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: external, sources, data, configuration, connection, third-party
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
 # External data sources {#external-data-sources}

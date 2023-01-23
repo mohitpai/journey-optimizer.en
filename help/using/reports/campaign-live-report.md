@@ -11,6 +11,11 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 ---
 # Campaign live report {#campaign-live-report}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Campaign live report"
+>abstract="The Campaign live report allows you to measure and visualize in real-time the impact and performances of your campaigns only over the last 24 hours. Your report is divided into different widgets detailing your campaign's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
+
 Campaign live report can be accessed directly from your campaign with the **[!UICONTROL Live view]** button. 
 
 The Campaign **[!UICONTROL Live report]** page will be displayed with the following tabs:
@@ -19,7 +24,6 @@ The Campaign **[!UICONTROL Live report]** page will be displayed with the follow
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
-
 
 The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/live-report.md#modify-dashboard).
 

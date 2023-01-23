@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Get started with content experiment
-description: Learn more about content experiment in [!DNL Journey Optimizer]
+description: Learn more about content experiment in Journey Optimizer
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
+keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc

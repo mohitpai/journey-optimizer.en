@@ -5,8 +5,9 @@ title: Built-in product profiles
 description: Learn about the built-in product profiles
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, User
 level: Intermediate
+keywords: permissions, authoring, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in product profiles {#ootb-product-profiles}

@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: jump, actvity, journey, split, splitting
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 ---
 # Jump from one journey to another {#jump}

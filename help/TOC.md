@@ -253,6 +253,7 @@ solution: Journey Optimizer
         + [Boolean and comparison functions](using/personalization/functions/operators.md)
         + [Helpers](using/personalization/functions/helpers.md)
         + [Map functions](using/personalization/functions/maps.md)
+        + [Math functions](using/personalization/functions/math.md)
         + [Object functions](using/personalization/functions/objects.md)
         + [String functions](using/personalization/functions/string.md) 
     + Use cases{#personalization-use-cases}    
