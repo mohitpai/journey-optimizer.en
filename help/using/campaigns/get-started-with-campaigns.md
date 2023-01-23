@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Get started with campaigns
-description: Learn more about campaigns in [!DNL Journey Optimizer]
+description: Learn more about campaigns in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campaign, how to , start, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 ---
 # Get started with campaigns {#get-started-campaigns}

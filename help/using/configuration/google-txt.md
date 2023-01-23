@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: subdomain, google, txt, record, gmail, deliverability
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 ---
 # Add a Google TXT record to a subdomain {#google-txt-record}

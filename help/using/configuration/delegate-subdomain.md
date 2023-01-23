@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: subdomain, delegation, domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---
 # Delegate a subdomain {#delegate-subdomain}

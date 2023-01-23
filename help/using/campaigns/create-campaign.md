@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Create a campaign
-description: Learn how to create campaigns in [!DNL Journey Optimizer]
+description: Learn how to create campaigns in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: create, optimizer, campaign, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 ---
 # Create a campaign {#create-campaign}

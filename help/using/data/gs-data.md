@@ -1,12 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Get started with data in [!DNL Journey Optimizer]
-description: Learn how to work with data in [!DNL Journey Optimizer]
+title: Get started with data in Journey Optimizer
+description: Learn how to work with data in Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: data, management, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 ---
 # Get started with data management in [!DNL Journey Optimizer] {#about-data}

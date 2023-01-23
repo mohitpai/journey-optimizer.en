@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: suppression, list, bounce, email, optimizer
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 ---
 # Manage the suppression list {#manage-suppression-list}

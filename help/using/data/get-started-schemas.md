@@ -6,6 +6,7 @@ description: Learn how to use Adobe Experience Platform Schemas in Adobe Journey
 feature: Schemas
 role: User
 level: Beginner
+keywords: schemas, platform, data, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 ---
 # Get Started with Schemas {#schemas-gs}

@@ -7,6 +7,7 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
+keywords: content, experiment, statistical, calculation
 hide: yes
 hidefromtoc: yes
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9

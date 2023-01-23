@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: subdomain, PTR, records, DNS, domain, mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
 # PTR records {#ptr-records}

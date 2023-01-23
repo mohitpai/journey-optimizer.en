@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: channel, surface, technical, parameters, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 ---
 # Set up channel surfaces {#set-up-channel-surfaces}
