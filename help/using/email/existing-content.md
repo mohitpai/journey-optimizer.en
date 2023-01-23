@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 ---
 # Import your email content {#existing-content}

@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, use case, personalization
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 ---
 # Personalization use case: order status notification {#personalization-use-case}

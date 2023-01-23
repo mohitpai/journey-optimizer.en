@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+keywords: in-app, message, report
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
 ---
 # In-app report {#inapp-report}

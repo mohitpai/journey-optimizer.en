@@ -7,6 +7,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: landing, landing page, creation, publish
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}

@@ -7,6 +7,7 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: schemas, XDM, platform, streaming, ingestion, journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 ---
 # About ExperienceEvent Schemas for [!DNL Journey Optimizer] Events {#about-experienceevent-schemas}

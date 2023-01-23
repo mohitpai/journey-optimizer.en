@@ -7,6 +7,7 @@ role: Admin
 level: Intermediate
 feature: Application Settings
 topic: Administration
+keywords: email, configuration, surface, subdomains
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 ---
 # Get started with email configuration {#get-starte-email-config}

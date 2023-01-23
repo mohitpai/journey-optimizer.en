@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: background, email, color, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 ---
 # Personalize your email background {#backgrounds}

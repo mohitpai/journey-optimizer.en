@@ -7,6 +7,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: event, unitary, create, journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 ---
 # Configure a unitary event {#configure-an-event}

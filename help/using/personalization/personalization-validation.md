@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, validation,errors, personalization
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 ---
 # Personalization validation {#personalization-validation}

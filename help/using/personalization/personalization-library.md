@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, library, personalization
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 ---
 # Work with saved expressions {#expression-library}

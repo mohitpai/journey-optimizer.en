@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+keywords: in-app, message, creation, start
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}

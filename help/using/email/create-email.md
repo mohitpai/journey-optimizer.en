@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: create, email, start, journey, campaign
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#create-email}

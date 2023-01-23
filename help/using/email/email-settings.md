@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: settings, email, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 ---
 # Configure email settings {#email-settings}
