@@ -11,7 +11,7 @@ level: Intermediate
 
 >[!AVAILABILITY]
 >
->Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering. It is available to Privacy and Security Shield as well, apart from Healthcare Shield
+>Data Hygiene capabilities are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
 
 
 As data is continuously ingested into Adobe Experience Platform, it becomes crucial to ensure your data is used as intended, updated when necessary, and deleted per organizational policies.
