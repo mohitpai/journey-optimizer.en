@@ -15,7 +15,7 @@ Use Map functions in personalization to make interaction with maps easier.
 
 The `get` function is used to retrieve the value of a map for a given key.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= get(map, string) %}
@@ -33,7 +33,7 @@ The following operation gets the value of the identity map for the key `example@
 
 The `keys` function is used to retrieve all the keys for a given map.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= keys(map) %}
@@ -51,7 +51,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 The `values` function is used to retrieve all the values of a given map.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= values(map) %}

@@ -15,7 +15,7 @@ Arithmetic functions are used to perform basic calculations on values.
 
 The `+` (addition) function is used to find the sum of two argument expressions.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double + double %}
@@ -33,7 +33,7 @@ The following operation sums the price of two different products.
 
 The `*` (multiplication) function is used to find the product of two argument expressions.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double * double %}
@@ -51,7 +51,7 @@ The following operation finds the product of the inventory and the price of a pr
 
 The `-` (subtraction) function is used to find the difference of two argument expressions.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double - double %}
@@ -69,7 +69,7 @@ The following operation finds the difference in price between two different prod
 
 The `/` (division) function is used to find the quotient of two argument expressions.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double / double %}
@@ -87,7 +87,7 @@ The following operation finds the quotient between the total products sold and t
 
 The `%` (modulo/remainder) function is used to find the remainder after dividing the two argument expressions. 
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double % double %}

@@ -7,48 +7,96 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
+[!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes. 
+
+Previous release notes are available in [this page](release-notes-2022.md). You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
 
 [!DNL Adobe Journey Optimizer] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## October 2022 Release {#oct-2022-release}
+## January 2023 Release {#jan-2023-release}
 
-<!--
+### New capabilities{#jan-2023-features}
 
-### New capability{#oct-2022-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+<th><strong>Data Hygiene</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+<p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
+<p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
+<p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
+<p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--table>
+<thead>
+<tr>
+<th><strong>Email content templates</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
+<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 -->
 
-### Improvements {#oct-2022-improvements}
+### Improvements {#jan-2023-improvements}
 
 **Journeys**
+<!--
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
 
-* The **Force reentrance on recurrence** option has been added in recurring read segment schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
+-->
+* When adding a **Segment qualification** or **Read segment** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the [Segment qualification](../building-journeys/segment-qualification-events.md#about-segment-qualification) and [Read segment](../building-journeys/read-segment.md#configuring-segment-trigger-activity) sections.
+
+* In the journey canvas, a new button is available in the toolbar which allows you to download a screenshot of your journey. 
+
+**Email Designer**
+
+* You can now export the email content from the **Export HTML** menu. Exported files are available in an archive (.ZIP) file.
 
 **Administration**
 
-* A message was added to the user interface to warn that subdomain, landing page subdomain, PTR record and IP pool configurations are common to all sandboxes and thus any modification to one of these configurations will also impact the production sandboxes.
-* The steps to upload the suppression list as a CSV file from the user interface have been modified. [Learn more](../configuration/manage-suppression-list.md#download-suppression-list)
+* A new subsection provides recommendations on building the **Reply to (email)** address and ensuring proper reply management. [Learn more](../email/email-settings.md#reply-to-email)
+
+* When creating or editing **IP pools**, the associated PTR records are now displayed in the IP list and when hovering over the selected IP addresses. [Learn more](../configuration/ip-pools.md#create-ip-pool)
+
+* After an IP pool has been selected in a channel surface, PTR record information is now visible when hovering over the IP addresses. [Learn more](../email/email-settings.md#subdomains-and-ip-pools)
+
+* The user interface for editing [PTR records](../configuration/ptr-records.md#edit-ptr-record) and [execution fields](../configuration/primary-email-addresses.md) has been updated.
+
+* The user interface for creating and editing subdomains has been improved. [Learn more](../configuration/delegate-subdomain.md)
+
+* The suppression list **Recent uploads** screen has been updated. [Learn more](../configuration/manage-suppression-list.md#recent-uploads)
 
 **Campaigns**
 
-* You can now archive completed and stopped campaigns. [Learn more](../campaigns/modify-stop-campaign.md#archive)
+* A sample cURL request allowing API-triggered campaigns execution is now automatically generated and made available in the campaign screen. [Learn more](../campaigns/api-triggered-campaigns.md)
+
+<!--
+**Decision management**
+
+* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+
+<!--* It is now possible to reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+**Personalization**
+
+* New helper functions are available: formatCurrency, charCodeAt, stringToDate, toString, formatNumber, and toHexString. Additionally, the toDateTimeOnly function now accepts string, date, long and int field types. [Learn more](../personalization/functions/functions.md)

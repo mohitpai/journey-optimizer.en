@@ -47,6 +47,10 @@ Once you have [added an email](create-email.md) to a journey or a campaign, you 
 
     ![](assets/email_designer_create_options.png)
 
+1. Once your email content has been defined and personalized, you can export your content for validation or for later use. Click **[!UICONTROL Export HTML]** to save on your computer a zip file which will include your HTML and assets.
+
+   ![](assets/email_designer_export.png)
+
 ## How-to video {#video}
 
 Learn how to create email content with the message editor.

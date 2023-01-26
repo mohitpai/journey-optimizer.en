@@ -15,7 +15,7 @@ Learn how to use String functions in the Expression editor.
 
 The `camelCase` function capitalizes the first letter of each word of a string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= camelCase(string)%}
@@ -29,11 +29,29 @@ The following function will capitalize the first letter of word in the profile's
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Char code at {#char-code-at}
+
+The `charCodeAt` function returns ASCII value of a character, like the charCodeAt function in JavaScript. It takes a string and an integer (defining the position of character) as input arguments and returns its corresponding ASCII value.
+
+**Syntax**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Example**
+
+The following function returns the ASCII value of o i.e 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 The `concat` function combines two strings into one.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= concat(string,string) %}
@@ -51,7 +69,7 @@ The following function will combine profile city and country in a single string.
 
 The `contains` function is used to determine if a string contains a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -81,7 +99,7 @@ The `contains` function is used to determine if a string contains a specified su
 
 The `doesNotContain` function is used to determine if a string does not contain a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -106,7 +124,7 @@ The following query determines, with case sensitivity, if the person's email add
 
 The `doesNotEndWith` function is used to determine if a string does not end with a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -130,7 +148,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 The `doesNotStartWith` function is used to determine if a string does not start with a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -154,7 +172,7 @@ The following query determines, with case sensitivity, if the person's name does
 
 The `encode64` function is used to encode a string to preserve Personal Information (PI) if to be included for example in a URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= encode64(string) %}
@@ -164,7 +182,7 @@ The `encode64` function is used to encode a string to preserve Personal Informat
 
 The `endsWith` function is used to determine if a string ends with a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -189,7 +207,7 @@ The following query determines, with case sensitivity, if the person's email add
 
 The `equals` function is used to determine if a string is equal to the specified string, with case sensitivity.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -213,7 +231,7 @@ The following query determines, with case sensitivity, if the person's name is "
 
 The `equalsIgnoreCase` function is used to determine if a string is equal to the specified string, without case sensitivity.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -237,7 +255,7 @@ The following query determines, without case sensitivity, if the person's name i
 
 The `extractEmailDomain` function is used to extract the domain of an email address.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -251,11 +269,29 @@ The following query extracts the email domain of the personal email address.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Format currency {#format-currency}
+
+The `formatCurrency` function is used to convert any number into its corresponding language-sensitive currency representation depending on the locale passed as a string in the second argument.
+
+**Syntax**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Example**
+
+This query returns £56.00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## Get url host {#get-url-host}
 
 The `getUrlHost` function is used to retrieve the hostname of a URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -273,7 +309,7 @@ Returns "www.myurl.com"
 
 The `getUrlPath` function is used to retrieve the path after the domain name of a URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -292,7 +328,7 @@ Returns "/contact.html"
 
 The `getUrlProtocol` function is used to retrieve the protocol of a URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -310,7 +346,7 @@ Returns "http"
 
 The `indexOf` function is used to return the position (in the first argument) of the first occurrence of the second parameter. Returns -1 if there is no match.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -333,7 +369,7 @@ Returns 6.
 
 The `isEmpty` function is used to determine if a string is empty.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= isEmpty(string) %}
@@ -351,7 +387,7 @@ The following function returns 'true' if the profile's mobile phone number is em
 
 The `isNotEmpty` function is used to determine if a string is not empty.
 
-**Format**
+**Syntax**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -369,7 +405,7 @@ The following function returns 'true' if the profile's mobile phone number is no
 
 The `lastIndexOf` function is used to return the position (in the first argument) of the last occurrence of the second parameter. Returns -1 if there is no match.
 
-**Format**
+**Syntax**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -392,7 +428,7 @@ Returns 7.
 
 The `leftTrim` function is used to remove white spaces from beginning of a string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= leftTrim(string) %}
@@ -402,7 +438,7 @@ The `leftTrim` function is used to remove white spaces from beginning of a strin
 
 The `length` function is used to get the number of characters in a string or an expression.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= length(string) %}
@@ -420,7 +456,7 @@ The following function returns the length of the profile's city name.
 
 The `like` function is used to determine if a string matches a specified pattern.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -461,7 +497,7 @@ This function converts the profile first name to lower case letters.
 
 The `matches` function is used to determine if a string matches a specific regular expression. Please refer to [this document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) for more information on matching patterns in regular expressions.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -479,7 +515,7 @@ The following query determines, without case sensitivity, if the person's name s
 
 The `Mask` function is used to replace a part of a string with "X" characters.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -499,7 +535,7 @@ The query returns `1XXXXXX89`.
 
 The `md5` function is used to calculate and return the md5 hash of a string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= md5(string) %}: string
@@ -517,7 +553,7 @@ Returns "5eb63bbbe01eeed093cb22bb8f5acdc3"
 
 The `notEqualTo` function is used to determine if a string is not equal to the specified string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -540,7 +576,7 @@ The following query determines, with case sensitivity, if the person's name is n
 
 The `notEqualWithIgnoreCase` function is used to compare two strings ignoring case.
 
-**Format**
+**Syntax**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -563,7 +599,7 @@ The following query determines if the person's name is not "john", with no case 
 
 The `Group` function is used to extract specific information, based on the regular expression provided.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -587,7 +623,7 @@ The following query is used to extract the domain name from an email address.
 
 The `replace` function is used to replace a given substring in a string with another substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -611,7 +647,7 @@ Returns "Hello Mark, here is your monthly newsletter!"
 
 The `replaceAll` function is used to replace all substrings of a text that matches the "target" with the specified literal "replacement" string. The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
 
-**Format**
+**Syntax**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -621,7 +657,7 @@ The `replaceAll` function is used to replace all substrings of a text that match
 
 The `rightTrim` function is used removes white spaces from end of a string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= rightTrim(string) %}
@@ -631,7 +667,7 @@ The `rightTrim` function is used removes white spaces from end of a string.
 
 The `split` function is used to split a string by a given character.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= split(string,string) %}
@@ -641,7 +677,7 @@ The `split` function is used to split a string by a given character.
 
 The `startsWith` function is used to determine if a string starts with a specified substring.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -662,11 +698,27 @@ The following query determines, with case sensitivity, if the person's name star
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## String to date {#string-to-date}
+
+The `stringToDate' function converts a string value into a date-time value. It takes two arguments: string representation of a date-time and string representation of the formatter.
+
+**Syntax**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Example**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## String to integer {#string-to-integer}
 
 The `string_to_integer` function is used to convert a string value into an integer value.
 
-**Format**
+**Syntax**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -676,7 +728,7 @@ The `string_to_integer` function is used to convert a string value into an integ
 
 The `stringToNumber` function is used to convert a string into number. It returns the same string as output for invalid input.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -685,7 +737,7 @@ The `stringToNumber` function is used to convert a string into number. It return
 ## Sub string {#sub-string}
 
 The `Count string` function is used to return the sub-string of the string expression between the begin index and the end index.
-**Format**
+**Syntax**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -713,7 +765,7 @@ If the person lives in Washington high street, this function will return Washing
 
 The `toBool` function is used to convert an argument value into a boolean value, depending on its type.
 
-**Format**
+**Syntax**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -723,7 +775,7 @@ The `toBool` function is used to convert an argument value into a boolean value,
 
 The `toDateTime` function is used to convert string to date. It returns the epoch date as output for invalid input.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -731,15 +783,15 @@ The `toDateTime` function is used to convert string to date. It returns the epoc
 
 ## To Date Time Only {#to-date-time-only}
 
-The `toDateTimeOnly` function is used to convert an argument value into a date time only value.. It returns the epoch date as output for invalid input. 
+The `toDateTimeOnly` function is used to convert an argument value into a date time only value. It returns the epoch date as output for invalid input. This function accepts string, date, long and int field types.
 
-**Format**
+**Syntax**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Trim{#trim}
+## Trim {#trim}
 
 The **trim** function removes all white spaces from the beginning and at the end of a string.
 
@@ -767,11 +819,11 @@ This function converts the profile last name to upper case letters.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url decode {#url-decode}
+## Url decode {#url-decode}
 
 The `urlDecode` function is used to decode a url encoded string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -781,7 +833,7 @@ The `urlDecode` function is used to decode a url encoded string.
 
 The `Count only null` function is used to url encode a string.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= urlEncode(string) %}: string

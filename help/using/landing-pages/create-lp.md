@@ -51,7 +51,7 @@ Click the three dots next to a landing page to select the desired action.
 >id="ajo_lp_access_management_labels"
 >title="Assign labels to your landing page"
 >abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Object level access control"
 
 The steps to create a landing page are as follows.
 

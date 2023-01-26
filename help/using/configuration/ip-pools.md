@@ -55,7 +55,19 @@ To create an IP pool, follow these steps:
     >[!NOTE]
     >
     >All the IP addresses provisioned with your instance are available in the list.
-    
+
+When selecting IPs, you can see from the list the PTR records associated with the IPs. This allows you to verify the branding information for each IP when creating an IP pool, and to select IPs with the same branding information for example. [Learn more on PTR records](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>If no PTR record is configured for an IP, you cannot select that IP. Reach out to your Adobe representative for configuring the PTR record of that IP.
+
+After an IP pool has been created, PTR information is visible when hovering over the IP addresses displayed below the IP pool drop-down list.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
+  
 The IP pool is now created and displays in the list. You can select it to access its properties and display the associated channel surface (i.e. message preset). For more on how to associate a channel surface with an IP pool, refer to [this section](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)

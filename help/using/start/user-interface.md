@@ -148,12 +148,32 @@ You can use these shortcuts in specific parts of Journey Optimizer:
   </tr>
   <tr>
     <td>Select all the activities</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Delete the selected activities</td>
     <td>Delete or Backspace, then Enter to confirm the deletion</td>
   </tr>
+  <tr>
+    <td>Zoom in and out (focus on canvas or any of its child elements)</td>
+    <td>CTRL +/- (Windows) or CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navigate between each activity and path (focus on canvas), or between toolbar buttons (focus on toolbar)</td>
+    <td>ARROW keys</td>
+  </tr>   
+  <tr>
+    <td>Move focus to the next actionable element on the canvas, the toolbar being the first one</td>
+    <td>Tab</td>
+  </tr>  
+  <tr>
+    <td>Open the right configuration pane (focus on an activity)</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>Move an activity in the canvas (focus on an activity)</td>
+    <td>SHIFT + ARROW keys</td>
+  </tr>  
   <tr>
   <td rowspan="3">
   
