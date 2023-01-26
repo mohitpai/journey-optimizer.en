@@ -47,7 +47,7 @@ Broadly, the flexibility you want from your data is:
     <br>Deleted basis an agreed timeline or your policy – Data deletion is a critical aspect of data protection and is a key step in all data governance processes. [!DNL Adobe Journey Optimizer] may produce more data than required. Also, you want to take utmost care of what happens after the required duration for a dataset – be it because of utility or regulation. The control you need, is to delete data at any given point in time. 
     </div>
       <div>
-     <a href="../privacy/gs-data.md">Learn more</a></div>
+     <a href="../privacy/data-hygiene.md">Learn more</a></div>
     </div>
   </td>
 </tr>
