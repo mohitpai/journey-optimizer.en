@@ -166,6 +166,7 @@ The format of this authentication is:
 You can change the cache duration of the token for a custom authentication data source. Below is an example of a custom authentication payload. The cache duration is defined in the "cacheDuration" parameter. It specifies the retention duration of the generated token in the cache. The unit can be milliseconds, seconds, minutes, hours, days, months, years.
 
 Here is an example for the bearer authentication type:
+
 ```
 {
   "authentication": {

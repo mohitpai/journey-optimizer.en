@@ -85,6 +85,7 @@ The `toHexString` function converts any number into its hexadecimal string.
 **Example**
 
 This query returns the hexadecimal value of 158 i.e 9e.
+
 ```sql
 {%= toHexString(158) %}
 ```

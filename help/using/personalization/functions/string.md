@@ -700,7 +700,7 @@ The following query determines, with case sensitivity, if the person's name star
 
 ## String to date {#string-to-date}
 
-The `stringToDate' function converts a string value into a date-time value. It takes two arguments: string representation of a date-time and string representation of the formatter.
+The `stringToDate` function converts a string value into a date-time value. It takes two arguments: string representation of a date-time and string representation of the formatter.
 
 **Syntax**
 

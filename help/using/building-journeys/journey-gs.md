@@ -89,9 +89,11 @@ The **Copy technical details** allows you to copy technical information about th
 ### Entrance{#entrance}
 
 By default, new journeys allow re-entrance. You can uncheck the **Allow re-entrance** option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
+
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 -->
+
 Learn more about profile entrance mannagement, in [this section](entry-management.md).
 
 ### Manage access {#access}
@@ -111,11 +113,13 @@ If a time zone is defined in Adobe Experience Platform profile, it can be retrie
 For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
 
 ### Start and end dates {#dates}
+
 <!--
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
+
 You can define a **Start date**. You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout. 
 
 ### Timeout and error in journey activities {#timeout_and_error}
