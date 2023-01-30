@@ -23,24 +23,30 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
     
-## Identifier
++++ Identifier
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
++++
+
++++ _experience
 
 **Field:** _experience
 **Type:** object
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **Field:** decisioning
 **Type:** object
 
-+++ criteria
++++
+
++++ _experience > decisioning > criteria
 
 **Field:** criteria
 **Title:** Criteria
@@ -49,7 +55,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > description
++++ _experience > decisioning > criteria > description**
 
 **Field:** description
 **Title:** Description
@@ -58,7 +64,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > optionSelection
++++_experience > decisioning > criteria > optionSelection
 
 **Field:** optionSelection
 **Title:** Option Selection
@@ -98,7 +104,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > placements
++++_experience > decisioning > criteria > placements**
 
 **Field:** placements
 **Title:** Placement Restrictions
@@ -113,7 +119,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > profileConstraints
++++_experience > decisioning > criteria > profileConstraints**
 
 **Field:** profileConstraints
 **Title:** Profile Constraint
@@ -122,7 +128,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > profileConstraints > Description
++++_experience > decisioning > criteria > profileConstraints > Description
 
 **Field:** description
 **Title:** Description
@@ -131,7 +137,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > Eligibility Rule
++++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
 
 **Field:** eligibilityRule
 **Title:** Eligibility Rule
@@ -140,7 +146,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > Profile Constraint Type
++++ _experience > decisioning > criteria > profileConstraints > Profile Constraint Type
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
@@ -155,7 +161,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > segmentIdentities
++++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
 **Field:** segmentIdentities
 **Title:** Segment Identifiers
@@ -193,7 +199,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > ranking
++++_experience > decisioning > criteria > ranking**
 
 **Field:** ranking
 **Title:** Ranking Details
@@ -202,7 +208,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++ 
 
-+++criteria > ranking > order
++++_experience > decisioning > criteria > ranking > order
 
 **Field:** order
 **Title:** Order Evaluation
@@ -233,7 +239,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > ranking > Priority
++++ _experience > decisioning > criteria > ranking > Priority
 
 **Field:** priority
 **Title:** Priority
@@ -244,7 +250,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ Activity End Date and Time
++++ _experience > decisioning > Activity End Date and Time
 
 **Field:** endTime
 **Title:** Activity End Date and Time
@@ -253,7 +259,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ Fallback Option
++++ _experience > decisioning > Fallback Option
 
 **Field:** fallback
 **Title:** Fallback Option
@@ -262,7 +268,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ Activity Name
++++ _experience > decisioning > Activity Name
 
 **Field:** name
 **Title:** Activity Name
@@ -271,7 +277,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++Activity Start Date and Time
++++_experience > decisioning > Activity Start Date and Time
 
 **Field:** startTime
 **Title:** Activity Start Date and Time
@@ -280,10 +286,12 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Field:** _repo
 **Type:** object
+
++++
 
 +++ _repo > Activity ETag
 
