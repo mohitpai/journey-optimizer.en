@@ -30,26 +30,16 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience
+## _experience > decisioning
 
-**Field:** _experience
-**Type:** object
-
-### _experience > decisioning
-
-**Field:** decisioning
-**Type:** object
-
-+++ criteria
+### criteria
 
 **Field:** criteria
 **Title:** Criteria
 **Description:** Defines a set of decision criteria where each contains a set of constraints.
 **Type:** array
 
-+++
-
-+++ criteria > description
++++ description
 
 **Field:** description
 **Title:** Description
@@ -58,7 +48,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > optionSelection
++++ optionSelection
 
 **Field:** optionSelection
 **Title:** Option Selection
@@ -98,7 +88,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > placements
++++ placements
 
 **Field:** placements
 **Title:** Placement Restrictions
@@ -113,7 +103,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > profileConstraints
++++ profileConstraints
 
 **Field:** profileConstraints
 **Title:** Profile Constraint
@@ -122,7 +112,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > profileConstraints > Description
++++ profileConstraints > Description
 
 **Field:** description
 **Title:** Description
@@ -131,7 +121,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > Eligibility Rule
++++ profileConstraints > Eligibility Rule
 
 **Field:** eligibilityRule
 **Title:** Eligibility Rule
@@ -140,7 +130,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > Profile Constraint Type
++++ profileConstraints > Profile Constraint Type
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
@@ -155,7 +145,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > profileConstraints > segmentIdentities
++++ profileConstraints > segmentIdentities
 
 **Field:** segmentIdentities
 **Title:** Segment Identifiers
@@ -193,7 +183,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++criteria > ranking
++++ ranking
 
 **Field:** ranking
 **Title:** Ranking Details
@@ -202,7 +192,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++ 
 
-+++criteria > ranking > order
++++ ranking > order
 
 **Field:** order
 **Title:** Order Evaluation
@@ -233,7 +223,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ criteria > ranking > Priority
++++ ranking > Priority
 
 **Field:** priority
 **Title:** Priority
@@ -244,41 +234,33 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ Activity End Date and Time
+### Activity End Date and Time
 
 **Field:** endTime
 **Title:** Activity End Date and Time
 **Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on http://schema.org/Action.
 **Type:** string
 
-+++
-
-+++ Fallback Option
+### Fallback Option
 
 **Field:** fallback
 **Title:** Fallback Option
 **Description:** The reference to a fallback option that is used when decisioning in the context of this decision does not qualify any of the regular options (this typically happens when hard constraints are applied). The value is the URI (@id) of the fallback option that is referenced.
 **Type:** string
 
-+++
-
-+++ Activity Name
+### Activity Name
 
 **Field:** name
 **Title:** Activity Name
 **Description:** Decision (formerly known as activity) name that is displayed in various user interfaces.
 **Type:** string
 
-+++
-
-+++Activity Start Date and Time
+### Activity Start Date and Time
 
 **Field:** startTime
 **Title:** Activity Start Date and Time
 **Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on http://schema.org/Action.
 **Type:** string
-
-+++
 
 ## _repo {#repo}
 
