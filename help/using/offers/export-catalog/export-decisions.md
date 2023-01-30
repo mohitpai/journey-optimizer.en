@@ -54,7 +54,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         **Description:** Criterion description. It is used to convey human readable intentions on how or why this criterion was constructed and how it is affecting the decision.
         **Type:** string
 
-    +++
+        +++
 
     * +++ optionSelection
 
@@ -109,7 +109,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         **Description:** A reference to a placement entity. The value is the URI (@id) of the placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
         **Type:** string
 
-    +++
+        +++
 
     * +++ profileConstraints**
 
@@ -125,7 +125,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             **Description:** Profile constraint description. It is used to convey human readable intentions on how or why this profile constraint was constructed and/or what option will be included or excluded by it.
             **Type:** string
 
-        +++
+            +++
 
         * +++ Eligibility Rule
 
@@ -134,7 +134,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             **Description:** A reference to a decision rule that evaluates to true or false for a given profile and/or other given contextual XDM objects. The rule is used to decide if the option qualifies for a given profile. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/rule.
             **Type:** string
 
-        +++
+            +++
 
         * +++ Profile Constraint Type
 
@@ -150,7 +150,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             * "allSegments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed."
             * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed."
 
-        +++
+            +++
 
         * +++ segmentIdentities
 
@@ -188,7 +188,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
                 **Description:** When present, this value represents a cross-namespace identifier that is unique across all namespace-scoped identifiers in all namespaces.
                 **Type:** string
 
-        +++
+            +++
 
     +++
 
@@ -228,7 +228,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
                 **Description:** A reference to a strategy that ranks a list of decision option. Decision options will be returned in an ordered list. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
                 **Type:** string
 
-        +++
+            +++
 
         * +++ Priority
 
@@ -239,9 +239,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             **Minimum value:** 0
             **Default value:** 0
         
-    +++
+        +++
 
-+++
+    +++
 
 * +++ Activity End Date and Time
 
@@ -250,7 +250,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on http://schema.org/Action.
     **Type:** string
 
-+++
+    +++
 
 * +++ Fallback Option
 
@@ -259,7 +259,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** The reference to a fallback option that is used when decisioning in the context of this decision does not qualify any of the regular options (this typically happens when hard constraints are applied). The value is the URI (@id) of the fallback option that is referenced.
     **Type:** string
 
-+++
+    +++
 
 * +++ Activity Name
 
@@ -268,7 +268,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** Decision (formerly known as activity) name that is displayed in various user interfaces.
     **Type:** string
 
-+++
+    +++
 
 * +++ Activity Start Date and Time
 
@@ -277,7 +277,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on http://schema.org/Action.
     **Type:** string
 
-+++
+    +++
 
 ## _repo {#repo}
 
@@ -291,4 +291,4 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Description:** The revision that the decision (formerly known as activity) object was at when the snapshot was taken.
 **Type:** string
 
-+++
+    +++
