@@ -196,12 +196,12 @@ The table below lists all codes that can be returned in the response:
 |Code|Description|
 |  ---  |  ---  |
 |200|Success. Decision was made for given activities|
-|400|Invalid request parameter. The request cannot be understood by the server due to malformed syntax.
-|403|Forbidden, insufficient permissions.
-|422|Unprocessable entity. The request syntax is correct, however, due to semantic errors it is unable to be processed.
-|429|Too many requests. The user has sent too many requests in a given amount of time.
-|500|Internal server error. The server encountered an unexpected condition which prevented it from fulfilling the request.
-|503|Service unavailable due to server overload. The server is currently unable to handle the request due to a temporary overloading.
+|400|Invalid request parameter. The request cannot be understood by the server due to malformed syntax.|
+|403|Forbidden, insufficient permissions.|
+|422|Unprocessable entity. The request syntax is correct, however, due to semantic errors it is unable to be processed.|
+|429|Too many requests. The user has sent too many requests in a given amount of time.|
+|500|Internal server error. The server encountered an unexpected condition which prevented it from fulfilling the request.|
+|503|Service unavailable due to server overload. The server is currently unable to handle the request due to a temporary overloading.|
 
 ## Tutorial video {#video}
 
