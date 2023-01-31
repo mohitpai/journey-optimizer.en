@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keyword: direct, mail, configuration, direct-mail, provider
 hide: yes
 hidefromtoc: yes
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041

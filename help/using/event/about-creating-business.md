@@ -7,6 +7,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: event, journey, business, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 ---
 # Configure a business event {#configure-a-business-event}

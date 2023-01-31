@@ -165,30 +165,67 @@ The format of this authentication is:
 
 You can change the cache duration of the token for a custom authentication data source. Below is an example of a custom authentication payload. The cache duration is defined in the "cacheDuration" parameter. It specifies the retention duration of the generated token in the cache. The unit can be milliseconds, seconds, minutes, hours, days, months, years.
 
+Here is an example for the bearer authentication type:
+
 ```
-"authentication": {
-    "type":"customAuthorization",
-    "authorizationType":"Bearer",
-    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
-    "method":"POST",
+{
+  "authentication": {
+    "type": "customAuthorization",
+    "authorizationType": "Bearer",
+    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "method": "POST",
     "headers": {
-        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
-        },
+      "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"
+    },
     "body": {
-        "bodyType":"form",
-        "bodyParams": {
-             "scope":"cn mail givenname uid employeeNumber",
-             "grant_type":"password",
-             "username":"${epsilonUserName}",
-             "password":"${epsilonUserPassword}"
-             }
-        },
-    "tokenInResponse":"json://access_token",
-    "cacheDuration":
-             { "duration":5, "timeUnit":"seconds" }
+      "bodyType": "form",
+      "bodyParams": {
+        "scope": "cn mail givenname uid employeeNumber",
+        "grant_type": "password",
+        "username": "<epsilon User Name>",
+        "password": "<epsilon User Password>"
+      }
+    },
+    "tokenInResponse": "json://access_token",
+    "cacheDuration": {
+      "duration": 5,
+      "timeUnit": "minutes"
     }
+  }
+}
 ```
 
 >[!NOTE]
 >
 >Cache duration helps to avoid too many calls to the authentication endpoints. Authentication token retention is cached in services, there is no persistence. If a service is restarted, it starts with a clean cache. The cache duration by default is 1 hour. In the custom authentication payload, it can be adapted by specifying another retention duration.
+
+Here is an example for the header authentication type:
+
+```
+{
+  "type": "customAuthorization",
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token",
+  "endpoint": "https://myapidomain.com/v2/user/login",
+  "method": "POST",
+  "headers": {
+    "x-retailer": "any value"
+  },
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "secret": "any value",
+      "username": "any value"
+    }
+  },
+  "tokenInResponse": "json://token"
+} 
+```
+
+Here is an example of the response of the login API call:
+
+```
+{
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+}
+```

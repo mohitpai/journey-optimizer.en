@@ -7,6 +7,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: landing, landing page, creation, publish
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}
@@ -50,7 +51,7 @@ Click the three dots next to a landing page to select the desired action.
 >id="ajo_lp_access_management_labels"
 >title="Assign labels to your landing page"
 >abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Create landing page presets"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Object level access control"
 
 The steps to create a landing page are as follows.
 

@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: inline, styling, attributes, editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 ---
 # Add inline styling attributes {#inline-styling}

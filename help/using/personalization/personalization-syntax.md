@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, syntax, personalization
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 ---
 # Personalization syntax {#personalization-syntax}

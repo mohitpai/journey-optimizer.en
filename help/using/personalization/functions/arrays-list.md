@@ -15,7 +15,7 @@ Use these functions to make interaction with arrays, lists, and strings easier.
 
 The `countOnlyNull` function is used to count the number of null values in a list.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -33,7 +33,7 @@ Returns 3.
 
 The `countWithNull` function is used to count all the elements of a list including null values.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= countWithNull(array) %}
@@ -51,7 +51,7 @@ Returns 6.
 
 The `distinct` function is used to get values from an array or list with duplicate values removed.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= distinct(array) %}
@@ -69,7 +69,7 @@ The following operation specifies people who have placed orders in more than one
 
 The `distinctCountWithNull` function is used to count the number of different values in a list including the null values.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -87,7 +87,7 @@ Returns 3.
 
 The `head` function is used to return the first item in an array or list.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= head(array) %}
@@ -105,7 +105,7 @@ The following operation returns the first of the top five orders with the highes
 
 The `topN` function is used to return the first `N` items in an array, when sorted in ascending order based on the given numerical expression.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -129,7 +129,7 @@ The following operation returns the first five orders with the lowest price.
 
 The `in` function is used to determine if an item is a member of an array or list.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= in(value, array) %}
@@ -147,7 +147,7 @@ The following operation defines people with birthdays in March, June, or Septemb
 
 The `includes` function is used to determine if an array or list contains a given item.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= includes(array,item) %}
@@ -165,7 +165,7 @@ The following operation defines people whose favorite color includes red.
 
 The `intersects` function is used to determine if two arrays or lists have at least one common member.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -184,7 +184,7 @@ The following operation defines people whose favorite colors include at least on
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -203,7 +203,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 The `bottomN` function is used to return the last `N` items in an array, when sorted in ascending order based on the given numerical expression.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -231,7 +231,7 @@ The `notIn` function is used to determine if an item is not a member of an array
 >
 >The `notIn` function *also* ensures that neither value is equal to null. Therefore, the results are not an exact negation of the `in` function.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= notIn(value, array) %}
@@ -250,7 +250,7 @@ The following operation defines people with birthdays that are not in March, Jun
 
 The `subsetOf` function is used to determine if a specific array (array A) is a subset of another array (array B). In other words, that all elements in array A are elements of array B.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -268,7 +268,7 @@ The following operation defines people who have visited all of their favorite ci
 
 The `supersetOf` function is used to determine if a specific array (array A) is a superset of another array (array B). In other words, that array A contains all elements in array B.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= supersetOf(array1, array2) %}

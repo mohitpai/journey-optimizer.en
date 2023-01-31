@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: email, templates, design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
 # Work with email templates {#email-templates}

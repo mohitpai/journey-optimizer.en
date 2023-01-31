@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: assets, essentials, experience manager, integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
 # Create and manage assets with [!DNL Assets Essentials]{#experience-manager-assets}

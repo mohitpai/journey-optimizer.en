@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, context, personalization
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
 # Personalization contexts{#personalization-areas}

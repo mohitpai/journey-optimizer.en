@@ -7,6 +7,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: landing, landing page, start, get start
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 ---
 # Get started with landing pages {#get-sarted-lp}

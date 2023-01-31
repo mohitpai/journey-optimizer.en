@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: email, start, creation, preview
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 ---
 # Get started with email {#get-started-email}

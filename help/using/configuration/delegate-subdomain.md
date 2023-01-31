@@ -161,13 +161,15 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
-    ![](assets/subdomain-cdn-url-validation.png)
+    <!--![](assets/subdomain-cdn-url-validation.png)-->
 
     >[!NOTE]
     >
     >You can also create the validation record and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
 1. Once the CNAME subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
+
+    ![](assets/subdomain-cname-processing.png)
 
     Before being able to use that subdomain to send messages, you must wait until Adobe performs the required checks, which usually takes 2 to 3 hours. Learn more in [this section](#subdomain-validation).
 

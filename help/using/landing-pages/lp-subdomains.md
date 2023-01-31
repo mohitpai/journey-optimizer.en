@@ -5,6 +5,7 @@ title: Configure landing page subdomains
 description: Learn how to configure landing page subdomains with Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: landing, landing page, subdomains, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 ---
 # Configure landing page subdomains {#lp-subdomains}

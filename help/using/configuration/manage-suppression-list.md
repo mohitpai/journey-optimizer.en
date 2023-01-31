@@ -241,11 +241,17 @@ To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICON
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+The latest uploads you submitted and their corresponding statuses are displayed:
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+* **[!UICONTROL Pending]**: The file upload is processing.
+* **[!UICONTROL Error]**: The file upload process failed due to a technical issue or to a file format error.
+* **[!UICONTROL Complete]**: The file upload process was successfully completed.
 
-![](assets/suppression-list-recent-uploads-error.png)
+During the upload, if some addresses are not in the correct format, they are not added to the [!DNL Journey Optimizer] suppression list.
+
+In that case, when the upload is complete, it is associated with a report. You can download it to check the errors encountered<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Below is an example of the type of entries you can find in the error report:
 

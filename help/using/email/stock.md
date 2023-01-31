@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: stock, images, integration, photos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 ---
 # Work with [!DNL Adobe Stock] images {#stock}

@@ -55,7 +55,7 @@ The steps to configure the Read Segment activity are as follows:
 
    ![](assets/read-segment-copy.png)
 
-1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
+1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. By default, the field is pre-filled with the last used namespace. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
 
     >[!NOTE]
     >

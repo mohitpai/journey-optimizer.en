@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+keywords: in-app, message, design, formatting
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}

@@ -44,7 +44,11 @@ Broadly, the flexibility you want from your data is:
 <tr style="border: 0;">
   <td>
     <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
-    <br>Deleted basis an agreed timeline or your policy – Data deletion is a critical aspect of data protection and is a key step in all data governance processes. [!DNL Adobe Journey Optimizer] may produce more data than required. Also, you want to take utmost care of what happens after the required duration for a dataset – be it because of utility or regulation. The control you need, is to delete data at any given point in time. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Learn more about data hygiene in Adobe Experience Platform documentation</a></div>
+    <br>Deleted basis an agreed timeline or your policy – Data deletion is a critical aspect of data protection and is a key step in all data governance processes. [!DNL Adobe Journey Optimizer] may produce more data than required. Also, you want to take utmost care of what happens after the required duration for a dataset – be it because of utility or regulation. The control you need, is to delete data at any given point in time. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">Learn more</a></div>
+    </div>
   </td>
 </tr>
 </table>
@@ -67,7 +71,7 @@ You can use the [!DNL Journey Optimizer]'s data flexibility to address your spec
 
 * **Purges and archiving mechanisms**: Purging of data and archival can be freely defined and automated in [!DNL Adobe Journey Optimizer] to automate data retention policies. It is possible to define different aging strategies for the different data entities. Export mechanisms can also be defined to automatically export aging data before it is purged or archived. 
   
-  The Data Hygiene workspace in the Adobe Experience Platform UI allows you to create and monitor various data hygiene tasks, including deleting consumer identities and scheduling dataset expirations. This workspace is available with the Security & Privacy Shield and with the Healthcare Shield. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+  The Data Hygiene workspace allows you to create and monitor various data hygiene tasks, including deleting consumer identities and scheduling dataset expirations. This workspace is available with the Security & Privacy Shield and with the Healthcare Shield. Learn more in [this page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

@@ -140,7 +140,10 @@ Click the `...` icon to view the description of the function and add it to your 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absolute</a></td><td>This function converts a number its absolute value</td>
+        <td><a href="math.md#absolute">Absolute</a></td><td>This function formats any number into its language-sensitive representation.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Format number</a></td><td>This function formats any number into its language-sensitive representation.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
@@ -152,10 +155,16 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="math.md#round-up">Round up</a></td><td>This function rounds up a number</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">To hex string</a></td><td>cconverts any number into its hexadecimal string.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">To string</a></td><td>This function converts any number into its string representation. </td>
     </tr>
 </table>
 
@@ -175,6 +184,9 @@ Click the `...` icon to view the description of the function and add it to your 
 <table>
     <tr>
         <td><a href="string.md#camelCase">Camel Case</a></td><td>This function is used to capitalize the first letter of each word of a string</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Char code at</a></td><td>This function returns ASCII value of a character, like the charCodeAt function in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>This function is used to combine two strings into one</td>
@@ -206,6 +218,9 @@ Click the `...` icon to view the description of the function and add it to your 
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Extract Email Domain</a></td><td>This function is used to extract the domain of an email address</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Format currency</a></td><td>This function converts any number into its corresponding language-sensitive currency representation depending on the locale passed as a string in the second argument</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Get url host</a></td><td>This function is used to get url host.</td>
@@ -274,7 +289,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#startsWith">Starts with</a></td><td>This function is used to determine if a string starts with a specified substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">String to date</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
+        <td><a href="string.md#string-to-date">String to date</a></td><td>This function converts a string value into a date-time value</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">String to integer</a></td><td>This function Converts a string value into an integer value.</td>
