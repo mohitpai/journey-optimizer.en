@@ -193,7 +193,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-+++ _repo {#repo}
++++ _repo
 
 **Field:** _repo
 **Type:** object
