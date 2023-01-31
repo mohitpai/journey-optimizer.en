@@ -23,24 +23,30 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
     
-## Identifier {#identifier}
++++ Identifier
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience {#experience}
++++
+
++++ _experience {#experience}
 
 **Field:** _experience
 **Type:** object
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **Field:** decisioning
 **Type:** object
 
-#### _experience > decisioning > calendarConstraints 
++++
+
++++ _experience > decisioning > calendarConstraints 
 
 **Field:** calendarConstraints
 **Title:** Calendar Constraint Details
@@ -61,21 +67,27 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** The start date of a decision options validity. Options that have not reached their start date cannot be proposed yet in the decisioning process.
     **Type:** string
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **Field:** characteristics
 **Title:** Decision Option Characteristics
 **Description:** Additional properties or attributes belonging to this particular decision option. Different instances can have different characteristics (keys in the map). The characteristics are name value pairs used to distinguish one decision option from others. Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an option. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from decision option detail.
 **Type:** object
 
-#### _experience > decisioning > contents
++++
+
++++ _experience > decisioning > contents
 
 **Field:** contents
 **Title:** Content Details
 **Description:** Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
 **Type:** array
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **Field:** components
 **Description:** The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
@@ -162,14 +174,16 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Type:** string
     **Example:** "https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg"
 
-**_experience > decisioning > contents > Placement**
++++_experience > decisioning > contents > Placement
 
 **Field:** placement
 **Title:** Placement
 **Description:** Placement to comply with. The value is the URI (@id) of the offer placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
 **Type:** string
 
-#### _experience > decisioning > Lifecycle Status
++++
+
++++ _experience > decisioning > Lifecycle Status
 
 **Field:** lifecycleStatus
 **Title:** Lifecycle Status
@@ -177,35 +191,45 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Type:** string
 **Possible values:** "Draft" (default), "Approved", "Live", "Completed", "Archived"
 
-#### _experience > decisioning > Decision Option Name
++++
+
++++ _experience > decisioning > Decision Option Name
 
 **Field:** name
 **Title:** Decision Option Name
 **Description:** Option name that is displayed in various user interfaces.
 **Type:** string
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **Field:** profileConstraints
 **Title:** Profile Constraint Details
 **Description:** The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifying option of the option selection.
 **Type:** object
 
-**_experience > decisioning > profileConstraints > Description**
++++
+
++++_experience > decisioning > profileConstraints > Description
 
 **Field:** description
 **Title:** Description
 **Description:** Profile constraint description. It is used to convey human readable intentions on how or why this profile constraint was constructed and/or what option will be included or excluded by it.
 **Type:** string
 
-**_experience > decisioning > profileConstraints > Eligibility Rule**
++++
+
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Field:** eligibilityRule
 **Title:** Eligibility Rule
 **Description:** A reference to a decision rule that evaluates to true or false for a given profile and/or other given contextual XDM objects. The rule is used to decide if the option qualifies for a given profile. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/rule.
 **Type:** string
 
-**_experience > decisioning > profileConstraints > Profile Constraint Type**
++++
+
++++_experience > decisioning > profileConstraints > Profile Constraint Type
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
@@ -218,7 +242,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 * "allSegments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed."
 * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed."
 
-**_experience > decisioning > profileConstraints > Segment Identifiers**
++++
+
++++_experience > decisioning > profileConstraints > Segment Identifiers
 
 **Field:** segmentIdentities
 **Title:** Segment Identifiers
@@ -254,14 +280,18 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** When present, this value represents a cross-namespace identifier that is unique across all namespace-scoped identifiers in all namespaces.
     **Type:** string
 
-#### _experience > decisioning > ranking
++++
+
++++ _experience > decisioning > ranking
 
 **Field:** ranking
 **Title:** Ranking Details
 **Description:** Rank (priority). Defines what is considered the \"best action\" given the context of the decision criterion. Among all the selected options that meet the eligibility constraint, the ranking order will decide the top (or top N) option(s) to be proposed.
 **Type:** object
 
-**_experience > decisioning > ranking > Order Evaluation**
++++
+
++++_experience > decisioning > ranking > Order Evaluation
 
 **Field:** order
 **Title:** Order Evaluation
@@ -290,7 +320,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Description:** A reference to a strategy that ranks a list of decision option. Decision options will be returned in an ordered list. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
     **Type:** string
 
-**_experience > decisioning > ranking > Priority**
++++
+
++++_experience > decisioning > ranking > Priority
     
 **Field:** priority
 **Title:** Priority
@@ -299,23 +331,31 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Minimum value:** 0
 **Default value:** 0
 
-#### _experience > decisioning > tags
++++
+
++++ _experience > decisioning > tags
 
 **Field:** tags
 **Title:** Tags
 **Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a subset (category).
 **Type:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Field:** _repo
 **Type:** object
-    
-### _repo > Decision Option ETag
+
++++ 
+
++++ _repo > Decision Option ETag
 
 **Field:** etag
 **Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
+
++++

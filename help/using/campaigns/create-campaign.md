@@ -45,11 +45,13 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 
     A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
+    Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
+
     ![](assets/create-campaign-action.png)
 
     >[!NOTE]
     >
-    >Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
+    >If you are creating a push notification campaign, you can enable the **[!UICONTROL Rapid delivery mode]**, which is a Journey Optimizer add-on that allows very fast push message sending in large volumes. [Learn more](../push/create-push.md#rapid-delivery)
 
 1. Click **[!UICONTROL Create]** to create the campaign.
 

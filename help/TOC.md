@@ -24,6 +24,7 @@ solution: Journey Optimizer
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
+  + [Accessibility](using/start/accessibility.md)
   + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}

@@ -12,30 +12,6 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in product profiles {#ootb-product-profiles}
 
-
-## About permissions related to messages{#message-permissions}
-
-Adobe Journey Optimizer released new inline authoring capabilities which allows you to create and author your messages directly from a journey or a campaign. 
-
-This feature will impact the permissions as follows:
-
-| Permission's name | Will be included in |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**After July 25**, permissions related to **Messages** are still be available since Messages can still be accessed to enable transition and you can still save them as template.
-
-**As of September 6th**, permissions related to **Messages** will be removed and Messages will not be accessible anymore.
-
->[!WARNING]
->
->If you have users assigned to the **[!DNL Message Manager]** product profile only, without the **[!DNL Journey manager]** product profile, you need to assign a new product profile for them to be able to continue editing content.
-
-
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
 The **[!DNL Campaign Administrator]** product profile allows the administration menus with the possibility to manage and publish Campaigns and Decision management. 
@@ -99,6 +75,7 @@ This product profile includes the following permissions:
 |Decision management|<ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisions.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete ranking strategies.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: grant access to sandboxes.</li><li>**[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Read Identity namespace]**: read-only access to identity namespace.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
 |Journey Optimizer Library|<ul><li>**[!DNL Manage Library Items]**: add and delete saved expressions in the [!DNL Journey Optimizer] Library.</li></ul>|
+|Data Governance|<ul><li>**[!DNL Manage usage label]**: read, create, and delete usage labels.</li><li>**[!DNL Manage data usage policies]**: read, create, edit, and delete data usage policies.</li><li>**[!DNL View data usage policies]**: read-only access to data usage policies.</li><li>**[!DNL View user activity log]**: read and export audit logs.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
