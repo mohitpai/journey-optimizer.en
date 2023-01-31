@@ -18,7 +18,8 @@ Use the **[!UICONTROL Select design template]** section to start building your c
 
 You can choose from:
 * 20 out-of-the-box email templates.
-* Saved templates. [Learn more](#use-saved-template)
+* Saved email templates. [Learn more](#use-saved-template)
+* Content templates. [Learn more](content-templates.md)
 
 ## Save as template {#save-as-template}
 
@@ -28,6 +29,10 @@ You can choose from:
 >abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 
 Once you designed your [email content](get-started-email-design.md), you can save it for future reuse. To do this, follow the steps below.
+
+>[!CAUTION]
+>
+>To save a content as template, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. Click the ellipsis on top right of the screen.
 
@@ -40,6 +45,8 @@ Once you designed your [email content](get-started-email-design.md), you can sav
     ![](assets/email_designer-template-name.png)
 
 1. Click **[!UICONTROL Save]**.
+
+This template is saved into the content template list. [Learn more](content-templates.md)
 
 Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
 

@@ -118,10 +118,22 @@ This product profile includes the following permissions:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-The **[!DNL Decisioning manager]** product profile only allows the **[!UICONTROL Decision management]** menu. Users assigned to this product profile will only be able to manage, view and publish decisions. 
+The **[!DNL Decisioning manager]** product profile only allows access to the **[!UICONTROL Decision management]** menu. Users assigned to this product profile will only be able to manage, view and publish decisions. 
 
 This product profile includes the following permissions:
 
 | Capability | Permissions|
 |-|-|
 |Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL View decisions]**:  read-only access to decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom reports and use action features.</li><li>**[!DNL Publish decisions]**: activate or deactivate decisioning activities.</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+The **[!DNL Content Library Manager]** product profile only allows access to the **[!UICONTROL Content templates]** menu. Users assigned to this product profile will only be able to access the template library to create content without accessing the journeys or campaigns.
+
+This product profile includes the following permissions:
+
+| Capability | Permissions|
+|-|-|
+|Journey Optimizer Library| <ul><li>**[!DNL Manage library items]**: read, create, edit, and delete Journey Optimizer Library items.</li><li>**[!DNL Manage simulate content]**: access to the **[!UICONTROL Simulate content]** option for preview and proof.</li></ul>|
+|Decision management|<ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom reports and use action features.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: read, create, edit, and delete segments.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
