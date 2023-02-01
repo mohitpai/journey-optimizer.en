@@ -3,8 +3,9 @@ product: journey optimizer
 title: nowWithDelta
 description: Learn about the function nowWithDelta
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: nowWithDelta, function, expression, journey
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 ---
 # nowWithDelta {#nowWithDelta}

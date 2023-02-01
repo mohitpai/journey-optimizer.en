@@ -3,8 +3,9 @@ product: journey optimizer
 title: toDuration
 description: Learn about the function toDuration
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDuration, function, expression, journey
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 ---
 # toDuration {#toDuration}

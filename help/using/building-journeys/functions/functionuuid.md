@@ -3,8 +3,9 @@ product: journey optimizer
 title: uuid
 description: Learn about the function uuid
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: uuid, function, expression, journey
 exl-id: ac3bc4e7-7097-4efb-a6f7-22aa00d01380
 ---
 # uuid {#uuid}

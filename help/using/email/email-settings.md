@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: settings, email, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 ---
 # Configure email settings {#email-settings}
@@ -61,6 +62,14 @@ You cannot proceed with surface creation while the selected IP pool is under [ed
 >[!NOTE]
 >
 >For non-production environments, Adobe does not create out-of-the-box test subdomains nor grant access to a shared sending IP pool. You need to [delegate your own subdomains](../configuration/delegate-subdomain.md) and use the IPs from the pool assigned to your organization.
+
+After an IP pool has been selected, PTR information is visible when hovering over the IP addresses displayed below the IP pool drop-down list. [Learn more on PTR records](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>If a PTR record is not configured, reach out to your Adobe representative.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

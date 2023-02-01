@@ -13,7 +13,7 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 
 The `isNull` function determines if an object reference does not exist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= isNull(object) %}
@@ -31,7 +31,7 @@ The following operation checks if the person's home address does not exist.
 
 The `isNotNull` function determines if an object reference exists.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= isNotNull(object) %}

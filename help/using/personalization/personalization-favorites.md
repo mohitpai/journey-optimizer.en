@@ -7,6 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, editor, attribute, personalization
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 ---
 # Add attributes to favorites {#fav}

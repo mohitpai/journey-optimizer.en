@@ -5,6 +5,7 @@ title: Define landing page presets
 description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: landing, landing page, configure, environment, subdomain, presets
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 ---
 # Define landing page presets {#lp-presets}

@@ -7,6 +7,7 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
+keywords: content, experiment, multiple, audience, treatment
 hide: yes
 hidefromtoc: yes
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121

@@ -21,40 +21,50 @@ The most recent successful batch in the dataset is displayed on the right. The h
 
 Here is the list of all the fields that can be used in the **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
-## Identifier {#identifier}
++++ Identifier
     
 **Field:** _id
 **Title:** Identifier
 **Description:** A unique identifier for the record.
 **Type:** string
 
-## _experience {#experience}
++++
+
++++ _experience
 
 **Field:** _experience
 **Type:** object
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **Field:** decisioning
 **Type:** object
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **Field:** characteristics
 **Title:** Decision Option Characteristics
 **Description:** Additional properties or attributes belonging to this particular decision option. Different instances can have different characteristics (keys in the map). The characteristics are name value pairs used to distinguish one decision option from others. Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an option. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from decision option detail.
 **Type:** object
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning > contents
++++ _experience > decisioning > contents
 
 **Field:** contents
 **Title:** Content Details
 **Description:** Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
 **Type:** array
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **Field:** components
 **Description:** The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
@@ -142,14 +152,18 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Type:** string
     **Example:** "https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg"
 
-**_experience > decisioning > contents > Placement**
++++
+
++++ _experience > decisioning > contents > Placement
     
- **Field:** placement
+**Field:** placement
 **Title:** Placement
 **Description:** Placement to comply with. The value is the URI (@id) of the offer placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
 **Type:** string
 
-#### _experience > decisioning > Lifecycle Status
++++ 
+
++++ _experience > decisioning > Lifecycle Status
 
 **Field:** lifecycleStatus
 **Title:** Lifecycle Status
@@ -157,30 +171,40 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Type:** string
 **Possible values:** "Draft" (default), "Approved", "Live", "Completed", "Archived"
 
-#### _experience > decisioning > Decision Option Name
++++
+
++++ _experience > decisioning > Decision Option Name
 
 **Field:** name
 **Title:** Decision Option Name
 **Description:** Option name that is displayed in various user interfaces.
 **Type:** string
 
-#### _experience > decisioning > tags
++++
+
++++ _experience > decisioning > tags
 
 **Field:** tags
 **Title:** Tags
 **Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a sub set (category).
 **Type:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo
 
 **Field:** _repo
 **Type:** object
-    
-### _repo > Decision Option ETag
+
++++
+
++++ _repo > Decision Option ETag
 
 **Field:** etag
 **Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
+
++++

@@ -3,8 +3,9 @@ product: journey optimizer
 title: inNextDays
 description: Learn about the function inNextDays
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inNextDays, function, expression, journey
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 ---
 # inNextDays {#inNextDays}

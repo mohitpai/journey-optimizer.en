@@ -2,7 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trigger campaigns using APIs
-description: Learn how to trigger campaigns using [!DNL Journey Optimizer] APIs
+description: Learn how to trigger campaigns using Journey Optimizer APIs
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: campaigns, API-triggered, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 ---
 # Trigger campaigns using APIs {#trigger-campaigns}
@@ -16,6 +20,8 @@ To do this, you first need to create an API-triggered campaign in Journey Optimi
 Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
 ## Create an API-triggered campaign {#create}
+
+### Configure and activate the campaign {#create-activate}
 
 The process to create API-triggered campaigns remains the same as scheduled campaigns, except for the audience selection which is performed in the API payload. Detailed information on how to create a campaign is available in [this section](create-campaign.md).
 
@@ -45,11 +51,23 @@ To create an API-triggered campaign, follow these steps:
 
     If you configure a specific start and/or end date for a campaign, it will not be executed outside these dates, and API calls will fail if the campaign is triggered by APIs.
 
-1. In the **[!UICONTROL cURL request]** section, retrieve the **[!UICONTROL Campaign ID]** to use in the API payload.
+1. Click **[!UICONTROL Review to activate]** to check that your campaign is correctly configured, then activate it.
+
+You are now ready to execute the campaign from the APIs. [Learn more](#execute)
+
+### Execute the campaign {#execute}
+
+Once your campaign has been activated, you need to retrieve the generated sample cURL request and use it into the API to build your payload and trigger the campaign.
+
+1. Open the campaign, then copy-paste the sample request from the **[!UICONTROL cURL request]** section.
 
     ![](assets/api-triggered-curl.png)
 
-1. Click **[!UICONTROL Review to activate]** to check that your campaign is correctly configured, then activate it.
+1. Use this cURL request into the APIs to build your payload and trigger the campaign. For more information, refer to the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+    >[!NOTE]
+    >
+    >If you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
 
 ## Use contextual attributes in API-triggered campaigns {#contextual}
 
@@ -72,16 +90,6 @@ The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype on
 >The `context.system` syntax is restricted to Adobe internal usage only, and should not be used to pass contextual attributes.
 
 Note that, for now, no contextual attribute is available for use in the left rail menu. Attributes must be typed directly in your personalization expression, with no check being performed by [!DNL Journey Optimizer].
-
-## Execute the campaign {#execute}
-
-To execute an API-triggered campaign, you first need to retrieve its ID and pass it into the API payload. To do this, open the campaign, then copy-paste the ID from the **[!UICONTROL cURL request]** section.
-
-![](assets/api-triggered-id.png)
-
-You can then use this ID into your API payload to trigger the campaign. Refer to the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) for more information.
-
-Note that if you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
 
 ## Profile creation at campaign execution {#profile-creation}
 

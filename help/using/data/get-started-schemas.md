@@ -6,6 +6,7 @@ description: Learn how to use Adobe Experience Platform Schemas in Adobe Journey
 feature: Schemas
 role: User
 level: Beginner
+keywords: schemas, platform, data, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 ---
 # Get Started with Schemas {#schemas-gs}
@@ -24,7 +25,7 @@ The **Schemas** workspace in [!DNL Adobe Journey Optimizer] user interface allow
 
 Learn how to use Schemas user interface in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
-Step by step documentation to create a schema using the Schema Editor is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}
+Step-by-step documentation to create a schema using the Schema Editor is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}
 
 
 ## How-to video{#video-schema}

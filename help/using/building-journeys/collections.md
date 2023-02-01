@@ -3,6 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Pass collections dynamically using custom actions
 description: Sending a message using Campaign v7/v8
+feature: Journeys
+topic: Content Management
+role: Developer
+level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 ---
 

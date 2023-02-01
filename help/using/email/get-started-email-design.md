@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: email, design, stock, assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 ---
 # Get started with email design {#get-started-content-design}
@@ -39,12 +40,15 @@ Once you have [added an email](create-email.md) to a journey or a campaign, you 
         >
         >In a campaign, you can also select the **[!UICONTROL Code Editor]** button from the **[!UICONTROL Edit content]** screen. [Learn more](create-email.md#define-email-content)
 
-
     * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content in [this section](existing-content.md).
 
     * **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](email-templates.md).
 
     ![](assets/email_designer_create_options.png)
+
+1. Once your email content has been defined and personalized, you can export your content for validation or for later use. Click **[!UICONTROL Export HTML]** to save on your computer a zip file which will include your HTML and assets.
+
+   ![](assets/email_designer_export.png)
 
 ## How-to video {#video}
 

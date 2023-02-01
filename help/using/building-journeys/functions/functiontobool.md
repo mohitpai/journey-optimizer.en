@@ -3,8 +3,9 @@ product: journey optimizer
 title: toBool
 description: Learn about the function toBool
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: tobool, function, expression, journey
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 ---
 # toBool {#toBool}

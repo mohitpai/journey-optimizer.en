@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: preview, content, email, proof, test, profile
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 ---
 # Preview and test your messages {#preview-and-proof}

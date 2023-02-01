@@ -15,7 +15,7 @@ Aggregation functions are used to group together multiple values to form a singl
 
 The `average` function returns the arithmetic mean of all the selected values within the array.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= average(array) %}
@@ -33,7 +33,7 @@ The following operation returns the average price of all the orders.
 
 The `count` function returns the number of elements within the given array.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= count(array) %}
@@ -51,7 +51,7 @@ The following operation returns the number of orders in the array.
 
 The `max` function returns the largest of all the selected values within the array.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= max(array) %}
@@ -69,7 +69,7 @@ The following operation returns the highest price of all the orders.
 
 The `min` function returns the smallest of all the selected values within the array.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= min(array) %}
@@ -87,7 +87,7 @@ The following operation returns the lowest price of all the orders.
 
 The `sum` function returns the sum of all the selected values within the array.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= sum(array) %}

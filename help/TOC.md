@@ -24,6 +24,7 @@ solution: Journey Optimizer
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
+  + [Accessibility](using/start/accessibility.md)
   + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
@@ -160,7 +161,7 @@ solution: Journey Optimizer
     + [Create a content experiment](using/campaigns/content-experiment.md)
     + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
-    + [Statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)  
+    + [Statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Email channel {#email}
   + [Get started with emails](using/email/get-started-email.md)
@@ -188,6 +189,7 @@ solution: Journey Optimizer
       + [Define a style for links](using/email/styling-links.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
+  + [Create content templates](using/email/content-templates.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
@@ -254,6 +256,7 @@ solution: Journey Optimizer
         + [Boolean and comparison functions](using/personalization/functions/operators.md)
         + [Helpers](using/personalization/functions/helpers.md)
         + [Map functions](using/personalization/functions/maps.md)
+        + [Math functions](using/personalization/functions/math.md)
         + [Object functions](using/personalization/functions/objects.md)
         + [String functions](using/personalization/functions/string.md) 
     + Use cases{#personalization-use-cases}    
@@ -458,6 +461,7 @@ solution: Journey Optimizer
   + [Get started with privacy](using/privacy/get-started-privacy.md)
   + [Privacy requests](using/privacy/requests.md)
   + [Audit actions on resources](using/privacy/audit-logs.md)
+  + [Perform data hygiene operations](using/privacy/data-hygiene.md)
   + Manage consent {#consent}
     + [Manage opt-out](using/privacy/opt-out.md)
     + [Work with consent policies](using/action/consent.md)

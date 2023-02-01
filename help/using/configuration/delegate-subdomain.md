@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: subdomain, delegation, domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---
 # Delegate a subdomain {#delegate-subdomain}
@@ -109,6 +110,11 @@ Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record
 >title="Generate the matching DNS and validation records"
 >abstract="To delegate a subdomain using CNAMEs, you need to copy-paste the Adobe nameserver information and the SSL CDN URL validation record displayed in the Journey Optimizer interface into your hosting platform. Once the checks are successful, the subdomain is ready to be used to deliver messages."
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="Copy the validation record"
+>abstract="Adobe generates a validation record. You need to create the corresponding record on your hosting platform for CDN URL validation."
+
 If you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
 
 CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.
@@ -155,13 +161,15 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
 1. Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
-    ![](assets/subdomain-cdn-url-validation.png)
+    <!--![](assets/subdomain-cdn-url-validation.png)-->
 
     >[!NOTE]
     >
     >You can also create the validation record and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
 1. Once the CNAME subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
+
+    ![](assets/subdomain-cname-processing.png)
 
     Before being able to use that subdomain to send messages, you must wait until Adobe performs the required checks, which usually takes 2 to 3 hours. Learn more in [this section](#subdomain-validation).
 

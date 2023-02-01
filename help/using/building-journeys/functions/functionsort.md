@@ -3,8 +3,9 @@ product: journey optimizer
 title: sort
 description: Learn about the function sort
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: sort, function, expression, journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 ---
 # sort {#sort}

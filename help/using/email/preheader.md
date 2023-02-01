@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: preheader, editor, summary, email
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 ---
 # Add a preheader {#preheader}

@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Attribute-based access control
-description: Learn about Attribute-based access control
+description: Attribute-based access control (ABAC) lets you define authorizations to manage data access for specific teams or groups of users.
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin,Leader
 level: Intermediate
+keywords: abac, attribute, authorizations, data, access, sensitive, assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 ---
 # Attribute-based access control {#attribute-based-access}

@@ -21,7 +21,7 @@ In the [!DNL Journey Optimizer] Expression editor, helper functions are grouped 
 
 Select a category, to access sub-categories and functions.
 
-Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automaticaly added to the personalization screen. 
+Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automatically added to the personalization screen. 
 
 Click the `...` icon to view the description of the function and add it to your favorites. [Learn more](../personalize.md#fav)
 
@@ -140,22 +140,31 @@ Click the `...` icon to view the description of the function and add it to your 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absolute</a></td><td>This function converts a number it's absolute value</td>
+        <td><a href="math.md#absolute">Absolute</a></td><td>This function formats any number into its language-sensitive representation.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
+        <td><a href="math.md#format-number">Format number</a></td><td>This function formats any number into its language-sensitive representation.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Round down</a></td><td>This function rounds down a number</td>
+        <td><a href="math.md#random">Random</a></td><td>This function returns a random value between 0 and 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Round up</a></td><td>This function rounds up a number</td>
+        <td><a href="math.md#round-down">Round down</a></td><td>This function rounds down a number</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
+        <td><a href="math.md#round-up">Round up</a></td><td>This function rounds up a number</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
+    <td><a href="math.md#to-hex-string">To hex string</a></td><td>cconverts any number into its hexadecimal string.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-percentage">To percentage</a></td><td>This function converts a number to percentage</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-precision">To precision</a></td><td>This function converts a number to required precision</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">To string</a></td><td>This function converts any number into its string representation. </td>
     </tr>
 </table>
 
@@ -175,6 +184,9 @@ Click the `...` icon to view the description of the function and add it to your 
 <table>
     <tr>
         <td><a href="string.md#camelCase">Camel Case</a></td><td>This function is used to capitalize the first letter of each word of a string</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Char code at</a></td><td>This function returns ASCII value of a character, like the charCodeAt function in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>This function is used to combine two strings into one</td>
@@ -206,6 +218,9 @@ Click the `...` icon to view the description of the function and add it to your 
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Extract Email Domain</a></td><td>This function is used to extract the domain of an email address</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Format currency</a></td><td>This function converts any number into its corresponding language-sensitive currency representation depending on the locale passed as a string in the second argument</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Get url host</a></td><td>This function is used to get url host.</td>
@@ -274,7 +289,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#startsWith">Starts with</a></td><td>This function is used to determine if a string starts with a specified substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">String to date</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
+        <td><a href="string.md#string-to-date">String to date</a></td><td>This function converts a string value into a date-time value</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">String to integer</a></td><td>This function Converts a string value into an integer value.</td>
@@ -286,7 +301,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#sub-string">Sub string</a></td><td>This function returns the sub-string of the string expression between the begin index and the end index.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Title Case</a></td><td>This function is used to capitalize first letters of each words of a string</td>
+        <td><a href="string.md#titleCase">Title Case</a></td><td>This function is used to capitalize first letters of each word of a string</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">To Bool</a></td><td>This function Converts an argument value into a boolean value, depending on its type.</td>
@@ -295,7 +310,7 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="string.md#to-date-time">To Date Time</a></td><td>This function is used to convert string to date. It returns the epoch date as output for invalid input.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>This function converts an argument value into a date time only value.. It returns the epoch date as output for invalid input.</td>
+        <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>This function converts an argument value into a date time only value. It returns the epoch date as output for invalid input.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Trim</a></td><td>This function removes white spaces from the beginning and from end of a string</td>
@@ -319,7 +334,7 @@ Helpers are detailed in [this page](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Default fallback value</a></td><td>This function allows to render a variable with default</td>
+        <td><a href="helpers.md#default">Default fallback value</a></td><td>This function is used to render a variable with default</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>This function is used to iterate over an array</td>

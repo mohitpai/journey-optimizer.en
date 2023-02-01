@@ -1,7 +1,7 @@
 ---
 keywords: Journey Optimizer;home;popular topics
 title: Journey Optimizer product documentation
-description: Adobe Journey Optimizer product help center
+description: Learn how to use Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
@@ -92,7 +92,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </li>
     </div>
   </td>
-   <td align="right">
+   <td>
    <div><strong>Direct links to key resources</strong>
     </div>
     <p>
@@ -100,6 +100,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <p>JOURNEY MANAGEMENT</p>
     <li>
+      <a href="using/campaigns/get-started-with-campaigns.md">Campaigns</a>
+    </li>
+        <li>
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
@@ -117,6 +120,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>CONTENT MANAGEMENT</p>
     <li>
       <a href="using/email/assets-essentials.md">Assets</a>
+    </li>
+    <li>
+      <a href="using/email/content-templates.md">Content templates</a>
     </li>
     <p>
     <p>DATA MANAGEMENT</p>
@@ -164,6 +170,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>ADMINISTRATION</p>
     <li>
       <a href="using/configuration/about-data-sources-events-actions.md">Configurations</a>
+    </li>
+    <li>
+      <a href="using/configuration/frequency-rules.md">Rules</a>
     </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Channels</a>

@@ -10,6 +10,47 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2022. 
 
 
+
+## October 2022 Release {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Improvements {#oct-2022-improvements}
+
+**Journeys**
+
+* The **Force reentrance on recurrence** option has been added in recurring read segment schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Administration**
+
+* A message was added to the user interface to warn that subdomain, landing page subdomain, PTR record and IP pool configurations are common to all sandboxes and thus any modification to one of these configurations will also impact the production sandboxes.
+* The steps to upload the suppression list as a CSV file from the user interface have been modified. [Learn more](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campaigns**
+
+* You can now archive completed and stopped campaigns. [Learn more](../campaigns/modify-stop-campaign.md#archive)
+
+
 ## September 2022 Release{#sept-2022-release}
 
 ### New capabilities{#sept-2022-features}
@@ -187,7 +228,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 ### Other changes{#sept-2022-other}
 
-* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../campaigns/create-campaign.md#rapid-delivery)
+* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../push/create-push.md#rapid-delivery)
 * To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment, a Segment qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
 * The 1 hour limitation for scheduled read segment journeys has been removed. These journeys can now be executed with no delay.
 

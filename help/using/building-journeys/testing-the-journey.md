@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: test, journey, check, error, troubleshooting
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 ---
 # Test your journey{#testing_the_journey}

@@ -5,8 +5,9 @@ title: About data sources
 description: Learn how to configure a data source
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: data, source, journey, plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 ---
 # About data sources {#about-data-sources}

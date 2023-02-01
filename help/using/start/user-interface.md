@@ -104,138 +104,6 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
 
-## Accessibility{#accessibility}
-
-The accessibility features in [!DNL Adobe Journey Optimizer] are inherited from Adobe Experience Platform:
-
-* Keyboard accessibility
-* Color contrast
-* Validation of required fields
-
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentation.
-
-You can use these common keyboard shortcuts in [!DNL Journey Optimizer]:
-
-| Action | Shortcut |
-| --- | --- |
-| Move between user interface elements, sections, and menu groups | Tab |
-| Move backward between user interface elements, sections, and menu groups | Shift + Tab |
-| Move within sections to set focus to individual elements | Arrow |
-| Select or clear an element that is in focus | Enter or Spacebar |
-| Cancel a selection, collapse a pane, or close a dialog box | Esc |
-
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentation.
-
-You can use these shortcuts in specific parts of Journey Optimizer:
-
-<table>
-  <thead>
-    <tr>
-      <th>Interface element</th>
-      <th>Action</th>
-      <th>Shortcut</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>List of journeys, actions, data sources, or events</td>
-    <td>Create a journey, an action, a data source, or an event</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Journey canvas in draft status</td>
-    <td>Add an activity from the left palette at the first available position, from top to bottom</td>
-    <td>Double-click on the activity</td>
-  </tr>
-  <tr>
-    <td>Select all the activities</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td>Delete the selected activities</td>
-    <td>Delete or Backspace, then Enter to confirm the deletion</td>
-  </tr>
-  <tr>
-  <td rowspan="3">
-  
-  Configuration pane of these elements:
-
-<ul>
-  <li>Activity in a journey</li>
-  <li>Event</li>
-  <li>Data source</li>
-  <li>Action</li>
-</ul>
-
-  </td>
-    <td>Move to the next field to be configured</td>
-    <td>Tab</td>
-  </tr>
-  <tr>
-    <td>Save changes and close the configuration pane</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Discard changes and close the configuration pane</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Journey in test mode</td>
-    <td>Enable or disable the test mode</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Trigger an event in an event-based journey</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-  Trigger an event in a segment-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
-
-  </td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Display the test logs</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>Text field</td>
-    <td>Select all the text in the selected field</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Pop-up window</td>
-    <td>Save changes or confirm the action</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Close the window</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>Simple expression editor</td>
-    <td>Select and add a field</td>
-    <td>Double-click on a field</td>
-  </tr>
-  <tr>
-    <td>Browsing through XDM fields</td>
-    <td>Select all the fields of a node</td>
-    <td>Select the parent node</td>
-  </tr>
-  <tr>
-    <td>Payload preview</td>
-    <td>Select the payload</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-</table>
 
 ## Find help and support {#find-help}
 
@@ -286,9 +154,9 @@ Press **Enter** to access all results and filter by business object.
 
 ## Filter lists{#filter-lists}
 
-In most of the lists, a search bar allows you to search for a specific item and select filtering criteria.
+In most of the lists, use the search bar to find specific items, and define filtering criteria.
 
-Filters can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
+Filters can be accessed by clicking on the filter icon on the top left of a list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
 
 In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
 

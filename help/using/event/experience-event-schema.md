@@ -7,6 +7,7 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: schemas, XDM, platform, streaming, ingestion, journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 ---
 # About ExperienceEvent Schemas for [!DNL Journey Optimizer] Events {#about-experienceevent-schemas}
@@ -31,7 +32,7 @@ Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet
 
    ![](assets/schema3.png)
 
-* Declare an identity field for identifying the subject of the event. If no identity is specified, an identity map can be used. This is not recommended.
+* Declare an identity field for identifying individual profiles in the event. If no identity is specified, an identity map can be used. This is not recommended.
 
    ![](assets/schema4.png)
 

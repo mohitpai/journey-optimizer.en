@@ -5,6 +5,7 @@ role: Admin
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}

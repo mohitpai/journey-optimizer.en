@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Work with consent policies
-description: Learn how to work with Adobe Experience PLatform consent policies
-feature: Actions
+description: Learn how to work with Adobe Experience Platform consent policies
+feature: Privacy
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin,Developer
+level: Experienced
+keywords: policies, governance, platform, healthcare shield, consent
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
 # Work with consent policies {#consent-management}

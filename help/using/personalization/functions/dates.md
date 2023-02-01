@@ -15,7 +15,7 @@ Date and time functions are used to perform date and time operations on values w
 
 The `age` function is used to retrieve the age from a given date.
 
-**Format**
+**Syntax**
 
 ```sql
  {%= age(datetime) %}
@@ -35,7 +35,7 @@ The following operation gets the value of the identity map for the key `example@
 
 The `currentTimeInMillis` function is used to retrieve current time in epoch milliseconds.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -55,7 +55,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 The `dateDiff` function is used to retrieve the difference between two dates in number of days.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -76,7 +76,7 @@ The following operation gets all the values for the map `identityMap`.
 
 The `dayOfWeek` function is used to retrieve the day of week.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -96,7 +96,7 @@ The following operation gets all the values for the map `identityMap`.
 
 The `dayOfYear` function is used to retrieve the day of year.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -116,7 +116,7 @@ The following operation gets all the values for the map `identityMap`.
 
 The `formatDate` function is used to format a date time value. The format should be a valid Java DateTimeFormat pattern.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -128,7 +128,7 @@ Where the first string is the date attribute and the second value is how you wou
 >
 > If a date pattern is invalid the date will fallback to ISO standard format.
 >
-> You can use Java date formatting functions as summarized [in Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> You can use Java date formatting functions as summarized in [Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Example**
 
@@ -142,7 +142,7 @@ The following operation will return the date in the following format: MM/DD/YY.
 
 The `setDays` function is used to set the day of the month for the given date-time.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -162,7 +162,7 @@ The following operation gets all the values for the map `identityMap`.
 
 The `setHours` function is used to set the hour of the date-time.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -184,7 +184,7 @@ The following operation gets all the values for the map `identityMap`.
 The `toUTC` function is used to convert a datetime to UTC.
 
 
-**Format**
+**Syntax**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -205,7 +205,7 @@ The following operation gets all the values for the map `identityMap`.
 
 The `weekOfYear` function is used to retrieve the week of the year.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= weekOfYear(datetime) %}

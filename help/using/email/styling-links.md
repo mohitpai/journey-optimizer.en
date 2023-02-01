@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: style, links, color, email, editor
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
 ---
 # Define a style for links {#styling-links}

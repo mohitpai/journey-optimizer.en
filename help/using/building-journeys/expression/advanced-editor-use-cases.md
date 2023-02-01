@@ -4,8 +4,9 @@ product: journey optimizer
 title: Using the advanced expression editor
 description: Learn how to build advanced expressions
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: expression, condition, use-cases, events
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 ---
 # Advanced expression examples{#advanced-expression-examples}

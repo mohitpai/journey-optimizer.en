@@ -7,6 +7,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: steps, configuration, journey, events, stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 ---
 # Additional steps to send events {#additional-steps-to-send-events}

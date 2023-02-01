@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: opt-out, email, link, unsubscribe
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 ---
 # Email opt-out management {#email-opt-out}

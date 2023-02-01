@@ -7,6 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: journey, use case, message, subscribers, list, read
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 ---
 # Use case: send a message to the subscribers of a list{#send-a-message-to-the-subscribers-of-a-list}

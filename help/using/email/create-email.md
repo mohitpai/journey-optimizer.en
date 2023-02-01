@@ -7,6 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: create, email, start, journey, campaign
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#create-email}
@@ -65,6 +66,13 @@ For more information on how to configure a campaign, refer to [this page](../cam
 >[!ENDTABS]
 
 ## Define your email content {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="Configure email content"
+>abstract="Create the content of your email. Define its subject, then leverage the Email Designer to build and personalize the body of the email."
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the email content. [Learn more](get-started-email-design.md)
 

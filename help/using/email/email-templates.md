@@ -7,52 +7,50 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: email, templates, design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
 # Work with email templates {#email-templates}
 
-Use the **[!UICONTROL Select design template]** section to start building your content from a template.
+From the **[!UICONTROL Create your email]** screen, use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)
 
 You can choose from:
-* 20 out-of-the-box email templates.
-* Saved templates. [Learn more](#use-saved-template)
+* Sample templates. [Learn more](#use-sample-template)
+* Content templates that:
+    * You created from scratch using the **[!UICONTROL Content templates]** menu. [Learn more](content-templates.md#create-content-templates)
+    * You saved as template from an email content. [Learn more](content-templates.md#save-as-template)
 
-## Save as template {#save-as-template}
+## Use a sample template {#use-sample-template}
 
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Learn how to migrate your messages"
->abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
+The [!DNL Journey Optimizer] interface offes 20 out-of-the-box email templates that you can choose from.
 
-Once you designed your [email content](get-started-email-design.md), you can save it for future reuse. To do this, follow the steps below.
+1. Access the Email Designer from the email **[!UICONTROL Edit content]** screen. [Learn more](get-started-email-design.md).
 
-1. Click the ellipsis on top right of the screen.
+1. On the **[!UICONTROL Create your email]** screen, the **[!UICONTROL Sample templates]** tab is selected by default.
 
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+1. Select the template of your choice from the list.
 
-    ![](assets/email_designer-save-template.png)
+1. Once selected, you can navigate between all the sample templates using the right and left arrrows.
 
-1. Add a name for this template.
+    ![](assets/email_designer-sample-templates-navigate.png)
 
-    ![](assets/email_designer-template-name.png)
+1. Click **[!UICONTROL Use this template]** on top right of the screen.
 
-1. Click **[!UICONTROL Save]**.
-
-Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
-
-![](assets/email_designer-saved-template.png)
+1. Edit your content as desired using the Email Designer.
 
 ## Use a saved template {#use-saved-template}
 
-1. Open the [email designer](content-from-scratch.md).
+To start building your content, you can also use a custom template that you created either from the [content template](content-templates.md#create-content-templates) list, either from a journey or a campaign using the [Save as template](content-templates.md#save-as-template) option. Follow the steps below.
+
+1. Access the Email Designer from the email **[!UICONTROL Edit content]** screen. [Learn more](get-started-email-design.md).
 
 1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
 
     ![](assets/email_designer-saved-templates-tab.png)
 
-1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
+1.  The list of all previously [saved templates](content-templates.md#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
     ![](assets/email_designer-saved-templates.png)
 
@@ -64,4 +62,4 @@ Next time you create an email, you can use this template to build your content. 
 
 1. Click **[!UICONTROL Use this email]** on top right of the screen.
 
-1. Edit your content as desired using the email designer.
+1. Edit your content as desired using the Email Designer.

@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Review and activate a campaign
-description: Learn how to review and activate campaigns in [!DNL Journey Optimizer]
+description: Learn how to review and activate campaigns in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campaign, review, validation, activation, activating, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 ---
 # Review and activate a campaign {#review-activate} 

@@ -7,6 +7,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: events, event, journey, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 ---
 # About events{#about-events}

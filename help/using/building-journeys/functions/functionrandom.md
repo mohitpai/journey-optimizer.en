@@ -3,8 +3,9 @@ product: journey optimizer
 title: random
 description: Learn about the function random
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: random, function, expression, journey
 exl-id: df006301-d309-4cb0-b505-317f623df494
 ---
 # random {#random}

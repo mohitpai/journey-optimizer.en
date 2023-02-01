@@ -7,6 +7,7 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
+keywords: links, tracking, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 ---
 # Add links and track messages {#tracking}

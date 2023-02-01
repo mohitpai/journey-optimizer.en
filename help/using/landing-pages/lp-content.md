@@ -7,6 +7,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 ---
 # Define landing page-specific content {#lp-content}

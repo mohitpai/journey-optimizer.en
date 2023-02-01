@@ -2,11 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Create a campaign
-description: Learn how to create campaigns in [!DNL Journey Optimizer]
+description: Learn how to create campaigns in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: create, optimizer, campaign, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 ---
 # Create a campaign {#create-campaign}
@@ -44,11 +45,13 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 
     A surface is a configuration which has been defined by a [System Administrator](../start/path/administrator.md). It contains all the technical parameters for sending the message, such as header parameters, subdomain, mobile apps, etc. [Learn more](../configuration/channel-surfaces.md).
 
+    Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
+
     ![](assets/create-campaign-action.png)
 
     >[!NOTE]
     >
-    >Only channel surfaces compatible with the marketing campaign type are listed in the drop-down list.
+    >If you are creating a push notification campaign, you can enable the **[!UICONTROL Rapid delivery mode]**, which is a Journey Optimizer add-on that allows very fast push message sending in large volumes. [Learn more](../push/create-push.md#rapid-delivery)
 
 1. Click **[!UICONTROL Create]** to create the campaign.
 
@@ -154,4 +157,4 @@ If you do not want to execute your campaign right after its activation, you can 
 
 ![](assets/create-campaign-schedule.png)
 
-Once your campaign is ready, you can review and publish it. [Learn more](#review-activate)
+Once your campaign is ready, you can review and publish it. [Learn more](review-activate-campaign.md)

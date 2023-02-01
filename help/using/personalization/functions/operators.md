@@ -17,7 +17,7 @@ Boolean functions are used to perform boolean logic on different elements.
 
 The `and` function is used to create a logical conjunction.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= query1 and query2 %}
@@ -35,7 +35,7 @@ The following operation will return all people with home country as France and b
 
 The `or` function is used to create a logical disjunction.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= query1 or query2 %}
@@ -54,7 +54,7 @@ The following operation will return all people with home country as France or bi
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -78,7 +78,7 @@ Comparison functions are used to compare between different expressions and value
 
 The `=` (equals) function checks whether one value or expression is equal to another value or expression.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression = value %}
@@ -96,7 +96,7 @@ The following operation checks if the home address country is France.
 
 The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression != value %}
@@ -114,7 +114,7 @@ The following operation checks if the home address country is not France.
 
 The `>` (greater than) function is used to check if the first value is greater than the second value.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -132,7 +132,7 @@ The following operation defines people born strictly after 1970.
 
 The `>=` (greater than or equal to) function is used to check if the first value is greater than or equal to the second value.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -150,7 +150,7 @@ The following operation defines people born in or after 1970.
 
 The `<` (less than) comparison function is used to check if the first value is less than the second value.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -168,7 +168,7 @@ The following operation defines people born before 2000.
 
 The `<=` (less than or equal to) comparison function is used to check if the first value is less than or equal to the second value.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 <= expression2 %}

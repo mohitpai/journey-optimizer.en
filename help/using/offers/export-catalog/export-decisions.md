@@ -55,7 +55,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ _experience > decisioning > criteria > description**
++++ _experience > decisioning > criteria > description
 
 **Field:** description
 **Title:** Description
@@ -104,7 +104,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++_experience > decisioning > criteria > placements**
++++_experience > decisioning > criteria > placements
 
 **Field:** placements
 **Title:** Placement Restrictions
@@ -119,7 +119,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints**
++++_experience > decisioning > criteria > profileConstraints
 
 **Field:** profileConstraints
 **Title:** Profile Constraint
@@ -199,7 +199,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++_experience > decisioning > criteria > ranking**
++++_experience > decisioning > criteria > ranking
 
 **Field:** ranking
 **Title:** Ranking Details
@@ -286,7 +286,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Field:** _repo
 **Type:** object

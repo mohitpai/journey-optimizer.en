@@ -7,6 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: primary, execution, email, target, profile, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 ---
 # Change the primary addresses {#change-primary-email}
