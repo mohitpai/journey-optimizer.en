@@ -121,6 +121,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/email/assets-essentials.md">Assets</a>
     </li>
+    <li>
+      <a href="using/email/content-templates.md">Content templates</a>
+    </li>
     <p>
     <p>DATA MANAGEMENT</p>
     <li>
@@ -167,6 +170,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>ADMINISTRATION</p>
     <li>
       <a href="using/configuration/about-data-sources-events-actions.md">Configurations</a>
+    </li>
+    <li>
+      <a href="using/configuration/frequency-rules.md">Rules</a>
     </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Channels</a>
