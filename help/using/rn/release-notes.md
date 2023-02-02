@@ -50,9 +50,8 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>.
-<p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.
 </p>
 </td>
 </tr>
