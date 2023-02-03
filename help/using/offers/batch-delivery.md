@@ -23,7 +23,7 @@ Before configuring a job request, make sure you have created:
 
     >[!NOTE]
     >
-    >A batch job runs off of the profile snapshot that occurs once a day. Batch decisioning caps the frequency and always loads profiles from the most recent snapshot.
+    >A batch job runs off of the profile snapshot that occurs once a day. Batch decisioning caps the frequency and always loads profiles from the most recent snapshot. Please expect to wait up to 24 hours after you create a segment before you try the batch decisioning API.
 
 * **A decision** in Adobe Journey Optimizer. [Learn how to create a decision](offer-activities/create-offer-activities.md)
 
