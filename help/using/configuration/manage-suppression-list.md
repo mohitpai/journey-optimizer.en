@@ -7,32 +7,24 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: suppression, list, bounce, email, optimizer
+keywords: suppression, list, bounce, email, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 ---
 # Manage the suppression list {#manage-suppression-list}
 
-With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey or a campaign, such as:
+With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey or a campaign, such as hard bounces, soft bounces, and spam complaints.
 
-* Addresses that are invalid (hard bounces).
-* Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
-* Recipients who issue a spam complaint of some kind against one of your email messages.
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. A suppression list consists of addresses and domains to exclude from your audiences. It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an organization ID associated with a sandbox ID.
 
->[!NOTE]
->
->The suppression list is managed at the sandbox level.
-
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
-
-You can also [**manually** add an address or a domain](#add-addresses-and-domains) to the suppression list.
+Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
 >[!NOTE]
 >
->It will take between 0 and 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+>It can take until 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
 
 ## Access the suppression list {#access-suppression-list}
 
-To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
+To access the detailed list of excluded email addresses and domains, browse to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
 >
@@ -48,90 +40,28 @@ You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Addre
 
 ![](assets/suppression-list-filtering-example.png)
 
-If you manually add an email address or a domain by mistake, the **[!UICONTROL Delete]** button enables you to remove that entry.
 
->[!CAUTION]
->
->Never use the **[!UICONTROL Delete]** button to remove suppressed email addresses or domains.
-
-![](assets/suppression-list-delete.png)
-
-Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../reports/suppression-list.md).
-
->[!NOTE]
->
->Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
-
-From the **[!UICONTROL Suppression list]** view, you can also edit suppression rules. [Learn more](retries.md)
-
-## Download the suppression list {#download-suppression-list}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list_download"
->title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
--->
-
-To export the suppression list as a CSV file, follow the steps below.
-
-1. Select the **[!UICONTROL Download CSV]** button.
-
-    ![](assets/suppression-list-download-csv.png)
-
-1. Wait until the file is generated.
-
-    ![](assets/suppression-list-download-generate.png)
-
-    >[!NOTE]
-    >
-    >Download time depends on the file size, meaning the number of addresses that are on the suppression list.
-    >
-    >One download request can be processed at a time for a given sandbox.
-
-1. Once the file is generated, you receive a notification. Click the bell icon on top right of the screen to display it.
-
-1. Click the notification itself to download the file.
-
-    ![](assets/suppression-list-download-notification.png)
-
-    >[!NOTE]
-    >
-    >The link is valid for 24 hours.
-
-<!--When downloading the CSV file, you can choose to either:
-
-* Download the file that was previously generated by another user or yourself.
-
-* Generate a new file in order to export the current suppression list.-->
-
-## Suppression categories and reasons {#suppression-categories-and-reasons}
+## Understand failure reasons {#suppression-categories-and-reasons}
 
 When a message fails to be delivered to an email address, [!DNL Journey Optimizer] determines why the delivery failed and associates it with a **[!UICONTROL Suppression category]**.
 
 The suppression categories are as follows:
 
-* **Hard**: The email address is immediately sent to the suppression list.
+* **Hard**: A hard bounce indicates an invalid email address (i.e. an email address that does not exist). This involves a bounce message from the receiving email server that explicitly states that the address is invalid. The email address is immediately sent to the suppression list.
 
-    >[!NOTE]
-    >
-    >When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
+    When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
-* **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
+* **Soft**: A soft bounce is a temporary email bounce that occurred for a valid email address. The email address is added to the suppression list after several retries. Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more about retries](retries.md)
 
-* **Manual**: You can also manually add an email address or a domain to the suppression list. [Learn more](#add-addresses-and-domains)
-
->[!NOTE]
->
->Learn more on soft bounces and hard bounces in the [Delivery failure types](../reports/suppression-list.md#delivery-failures) section.
+* **Manual**: Manual errors have been added manualy to the suppression list. [Learn more](#add-addresses-and-domains)
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
 ![](assets/suppression-list.png)
 
-The possible reasons for a delivery failure are:
+Possible reasons for a delivery failure are:
 
-| Reason | Description | Suppression category |
+| Reason | Description | Category |
 | --- | --- | --- |
 | **[!UICONTROL Invalid Recipient]** | The recipient is invalid or does not exist. | Hard |
 | **[!UICONTROL Soft Bounce]** | The message soft bounced for a reason other than the soft errors listed in this table, such as when sending over the allowed rate recommended by an ISP. | Soft |
@@ -145,7 +75,13 @@ The possible reasons for a delivery failure are:
 >
 >Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../privacy/opt-out.md)
 
-## Manually add addresses and domains {#add-addresses-and-domains}
+
+### Suppression rules  {#suppression-rules}
+
+From the **[!UICONTROL Suppression list]** view, you can also edit the retry parameter associated to the suppression rules from the **[!UICONTROL Edit suppression rules button]**. Use this option to update the retry threshold for the current sandbox. [Learn more](retries.md)
+
+
+## Add addresses and domains to the suppression list{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -186,7 +122,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     >
     >Make sure you enter a valid email address (such as abc@company.com) or domain (such as abc.company.com).
 
-1. Specify a reason if needed.
+1. (optional) Enter a reason.
 
     >[!NOTE]
     >
@@ -264,3 +200,67 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
+
+
+## Remove an address from the suppression list{#remove-from-suppression-list}
+
+You can update manually the suppression list. Removing an email address from quarantine is a sensitive operation and can affect your IP reputation and deliverability rates. Make sure to proceed with caution. When deleting an email address or a domain from the suppression list, Adobe Journey Optimizer can start again delivering to this address or domain.  Learn more about deliverability in [this section](../reports/deliverability.md).
+
+To remove an address from the suppression list, use the **[!UICONTROL Delete]** button.
+
+![](assets/suppression-list-delete.png)
+
+
+>[!NOTE]
+>
+>Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
+
+
+For example in the case of an ISP outage, emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient. These addresses must be removed from the suppresssion list.
+
+To perform this, filter the suppression list to display affected email adresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2023 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
+
+![](assets/remove-from-supp-list.png)
+
+Once identified, these addresses can be manually removed from the suppression list using the **[!UICONTROL Delete]** button. These addresses can then be included in future email campaigns. 
+
+## Download the suppression list {#download-suppression-list}
+
+<!--
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Export the list as a CSV file"
+>abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+-->
+
+To export the suppression list as a CSV file, follow the steps below.
+
+1. Select the **[!UICONTROL Download CSV]** button.
+
+    ![](assets/suppression-list-download-csv.png)
+
+1. Wait until the file is generated.
+
+    ![](assets/suppression-list-download-generate.png)
+
+    >[!NOTE]
+    >
+    >Download time depends on the file size, meaning the number of addresses that are on the suppression list.
+    >
+    >One download request can be processed at a time for a given sandbox.
+
+1. Once the file is generated, you receive a notification. Click the bell icon on top right of the screen to display it.
+
+1. Click the notification itself to download the file.
+
+    ![](assets/suppression-list-download-notification.png)
+
+    >[!NOTE]
+    >
+    >The link is valid for 24 hours.
+
+<!--When downloading the CSV file, you can choose to either:
+
+* Download the file that was previously generated by another user or yourself.
+
+* Generate a new file in order to export the current suppression list.-->
