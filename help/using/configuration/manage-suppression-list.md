@@ -34,7 +34,7 @@ Filters are available to help you browse through the list.
 
 ![](assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
+You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select one or more options for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -51,7 +51,7 @@ The suppression categories are as follows:
 
 * **Soft**: A soft bounce is a temporary email bounce that occurred for a valid email address. The email address is added to the suppression list after several retries. Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more about retries](retries.md)
 
-* **Manual**: Manual errors have been added manualy to the suppression list. [Learn more](#add-addresses-and-domains)
+* **Manual**: Manual errors have been added manually to the suppression list. [Learn more](#add-addresses-and-domains)
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
@@ -137,7 +137,7 @@ To add an email address or a domain to the suppression list, follow the steps be
 >title="Upload CSV to add items to the suppression list"
 >abstract="You can populate the suppression list by uploading a CSV file filled in with the email addresses/domains you want to exclude."
 
-To add an group of email addresses or a domains to the suppression list, follow the steps below:
+To add a group of email addresses or a domains to the suppression list, follow the steps below:
 
 1. Select the **[!UICONTROL Add email or domain]** button.
 1. Choose the **[!UICONTROL Upload CSV]** option.
@@ -215,7 +215,7 @@ To remove an address from the suppression list, use the **[!UICONTROL Delete]** 
 
 For example in the case of an Internet Service Provider (ISP) outage, emails are wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
 
-To perform this, filter the suppression list to display affected email adresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
+To perform this, filter the suppression list to display affected email addresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
 
 ![](assets/remove-from-supp-list.png)
 
