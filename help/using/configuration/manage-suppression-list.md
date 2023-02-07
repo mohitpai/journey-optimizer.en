@@ -34,7 +34,7 @@ Filters are available to help you browse through the list.
 
 ![](assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
+You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select one or more options for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ![](assets/suppression-list-filtering-example.png)
 
