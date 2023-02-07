@@ -24,11 +24,13 @@ Learn more on the suppression list concept and usage in [this section](../report
 
 To access the detailed list of excluded email addresses and domains, browse to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
 
