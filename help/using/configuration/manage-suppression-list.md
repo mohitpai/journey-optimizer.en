@@ -232,7 +232,7 @@ Once identified, these addresses can be manually removed from the suppression li
 >abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
-To export the suppression list as a CSV file, follow the steps below.
+To export the suppression list as a CSV file, follow the steps below:
 
 1. Select the **[!UICONTROL Download CSV]** button.
 
