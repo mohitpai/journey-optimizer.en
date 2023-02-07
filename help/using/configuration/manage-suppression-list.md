@@ -18,9 +18,7 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 
 Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
->[!NOTE]
->
->It can take until 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -97,11 +95,11 @@ When a message fails to be delivered to an email address, this address is automa
 
 However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
 
+>[!NOTE]
+>
+>It can take up to 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+
 You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
-
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
-
-![](assets/suppression-list-add-email.png)
 
 ### Add one address or domain {#add-one-address-or-domain}
 
@@ -110,11 +108,17 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 >title="Add one item to the suppression list"
 >abstract="You can populate the suppression list by adding email addresses and/or domains one by one."
 
-1. Select the **[!UICONTROL One by one]** option.
+To add an email address or a domain to the suppression list, follow the steps below:
+
+1. Select the **[!UICONTROL Add email or domain]** button.
+
+    ![](assets/suppression-list-add-email.png)
+
+1. Choose the **[!UICONTROL One by one]** option.
 
     ![](assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. Select the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
 
 1. Enter the email address or domain you want to exclude from your sending.
 
@@ -122,13 +126,9 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     >
     >Make sure you enter a valid email address (such as abc@company.com) or domain (such as abc.company.com).
 
-1. (optional) Enter a reason.
+1. (optional) Enter a reason. All ASCII printable characters comprised between 32 and 126 are allowed in this field.
 
-    >[!NOTE]
-    >
-    >All ASCII characters comprised between 32 and 126 are allowed in the **[!UICONTROL Reason]** field. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example.
-
-1. Click **[!UICONTROL Submit]**.
+1. Use the **[!UICONTROL Submit]** button to confirm.
 
 ### Upload a CSV file {#upload-csv-file}
 
@@ -137,7 +137,10 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 >title="Upload CSV to add items to the suppression list"
 >abstract="You can populate the suppression list by uploading a CSV file filled in with the email addresses/domains you want to exclude."
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+To add an group of email addresses or a domains to the suppression list, follow the steps below:
+
+1. Select the **[!UICONTROL Add email or domain]** button.
+1. Choose the **[!UICONTROL Upload CSV]** option.
 
     ![](assets/suppression-list-upload-csv.png)
 
@@ -149,35 +152,28 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     DOMAIN,somedomain.com,Comment
     ```
 
+1. Fill in the CSV template with the email addresses and/or domains to add to the suppression list. All ASCII printable characters comprised between 32 and 126 are allowed in the **COMMENT** column. 
+
     >[!CAUTION]
     >
-    >Do not change the names of the columns in the CSV template.
+    >Do not change the name of the columns in the CSV template.
     >
     >The file size should not exceed 1 MB.
-
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
-
-    >[!NOTE]
     >
-    >All ASCII characters comprised between 32 and 126 are allowed in the **Comment** column. The full list can be found on [this page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} for example. 
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Submit]**.
+1. Once completed, drag and drop your CSV file, and use the **[!UICONTROL Submit]** button to confirm.
 
     ![](assets/suppression-list-upload-csv-submit.png)
 
->[!NOTE]
->
->Once the upload is done, make sure it was successful by checking its status from the interface. [Learn how](#recent-uploads)
+Once the upload is done, you can check its status from the [Recent uploads](#recent-uploads) button, as detailed below.
 
-### Check recent uploads status {#recent-uploads}
+### Check uploads status {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
-
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+Use the **[!UICONTROL Recent uploads]** button to check the status of the latest uploaded CSV files.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed:
+Possible statuses are:
 
 * **[!UICONTROL Pending]**: The file upload is processing.
 * **[!UICONTROL Error]**: The file upload process failed due to a technical issue or to a file format error.
@@ -201,10 +197,11 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-
 ## Remove an address from the suppression list{#remove-from-suppression-list}
 
-You can update manually the suppression list. Removing an email address from quarantine is a sensitive operation and can affect your IP reputation and deliverability rates. Make sure to proceed with caution. When deleting an email address or a domain from the suppression list, Adobe Journey Optimizer can start again delivering to this address or domain.  Learn more about deliverability in [this section](../reports/deliverability.md).
+You can update manually the suppression list. Removing an email address from quarantine is a sensitive operation and can affect your IP reputation and deliverability rates. Make sure to proceed with caution.
+
+When deleting an email address or a domain from the suppression list, Adobe Journey Optimizer can start again delivering to this address or domain.  Learn more about deliverability in [this section](../reports/deliverability.md).
 
 To remove an address from the suppression list, use the **[!UICONTROL Delete]** button.
 
@@ -216,11 +213,13 @@ To remove an address from the suppression list, use the **[!UICONTROL Delete]** 
 >Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
 
 
-For example in the case of an ISP outage, emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient. These addresses must be removed from the suppresssion list.
+For example in the case of an Internet Service Provider (ISP) outage, emails are wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
 
-To perform this, filter the suppression list to display affected email adresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2023 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
+To perform this, filter the suppression list to display affected email adresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
 
 ![](assets/remove-from-supp-list.png)
+
+You also need to add a filter on the type of hard bounce, depending on the details of the outage. These details are provided by the ISP, such as the exact error code returned to the sender. For example: `550 <email address> recipient rejected` or `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 Once identified, these addresses can be manually removed from the suppression list using the **[!UICONTROL Delete]** button. These addresses can then be included in future email campaigns. 
 
