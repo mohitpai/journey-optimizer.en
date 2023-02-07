@@ -137,7 +137,7 @@ To add an email address or a domain to the suppression list, follow the steps be
 >title="Upload CSV to add items to the suppression list"
 >abstract="You can populate the suppression list by uploading a CSV file filled in with the email addresses/domains you want to exclude."
 
-To add an group of email addresses or a domains to the suppression list, follow the steps below:
+To add a group of email addresses or a domains to the suppression list, follow the steps below:
 
 1. Select the **[!UICONTROL Add email or domain]** button.
 1. Choose the **[!UICONTROL Upload CSV]** option.
