@@ -188,3 +188,9 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 * [Create In-app message](create-in-app.md)
 * [In-app report](inapp-report.md)
 * [In-app configuration](inapp-configuration.md)
+
+## How-to video{#video}
+
+The video below shows how to author and test your In-app messages.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

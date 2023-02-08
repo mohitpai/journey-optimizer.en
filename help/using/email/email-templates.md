@@ -12,14 +12,24 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
 # Use email templates {#email-templates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="Build content from a custom template"
+>abstract="To start creating your email content, select an existing template that was created from scratch or saved as template from a previous email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Create content templates"
+
 From the **[!UICONTROL Create your email]** screen, use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)
 
 You can choose from:
+
 * **Sample templates**. The [!DNL Journey Optimizer] interface offers 20 out-of-the-box email templates that you can choose from.
+
 * **Saved templates**. You can also use a custom template that you either:
+
     * Created from scratch using the **[!UICONTROL Content templates]** menu. [Learn more](content-templates.md#create-template-from-scratch)
+
     * Saved from an email in a journey or a campaign using the **[!UICONTROL Save as content template]** option. [Learn more](content-templates.md#save-as-template)
 
  To start building your content with one of the sample or saved templates, follow the steps below.

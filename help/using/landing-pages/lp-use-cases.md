@@ -155,6 +155,13 @@ To check that the corresponding profile's choice has been updated, go to Experie
 
 In the **[!UICONTROL Attributes]** tab, you can see that the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
+The opt-out information is stored in the **Consent Service Dataset**. [Learn more on datasets](../data/get-started-datasets.md)
+
+>[!NOTE]
+>
+>If the merge method for your default [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+
+
 <!--
 
 ### Other ways to opt out

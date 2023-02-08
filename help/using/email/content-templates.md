@@ -11,11 +11,6 @@ level: Beginner
 ---
 # Work with content templates {#content-templates}
 
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Create content templates"
->abstract="Create standalone templates to reuse content across journeys and campaigns."
-
 For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Journey Optimizer] campaigns and journeys.
 
 This functionality enables content-oriented users to work on templates outside campaigns or journeys. Marketing users can then reuse and adapt these standalone content templates inside their own journeys or campaigns.
@@ -53,6 +48,11 @@ To delete a template, select the trash icon next to the desired template.
 >When a template is edited or deleted, campaigns or journeys including emails created using this template are not impacted.
 
 ## Create content templates {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Define your own content template"
+>abstract="Create a standalone custom template from scratch to make your content reusable across multiple journeys and campaigns."
 
 There are two ways you can create content templates:
 
