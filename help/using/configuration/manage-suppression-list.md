@@ -78,7 +78,7 @@ Possible reasons for a delivery failure are:
 
 ### Suppression rules  {#suppression-rules}
 
-From the **[!UICONTROL Suppression list]** view, you can also edit the retry parameter associated to the suppression rules from the **[!UICONTROL Edit suppression rules button]**. Use this option to update the retry threshold for the current sandbox. [Learn more](retries.md)
+From the **[!UICONTROL Suppression list]** view, you can also edit the retry parameter associated to the suppression rules from the **[!UICONTROL Edit suppression rules]** button. Use this option to update the retry threshold for the current sandbox. [Learn more about retries](retries.md).
 
 
 ## Add addresses and domains to the suppression list{#add-addresses-and-domains}
@@ -120,7 +120,7 @@ To add an email address or a domain to the suppression list, follow the steps be
 
     ![](assets/suppression-list-add-email-address.png)
 
-1. Select the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. Select the address type: **[!UICONTROL Email]** or **[!UICONTROL Domain]**.
 
 1. Enter the email address or domain you want to exclude from your sending.
 
