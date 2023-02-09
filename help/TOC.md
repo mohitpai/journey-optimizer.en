@@ -24,6 +24,7 @@ solution: Journey Optimizer
     + [Get started as an Administrator](using/start/path/administrator.md)
     + [Get started as a Developer](using/start/path/developer.md)
   + [User interface](using/start/user-interface.md)
+  + [Accessibility](using/start/accessibility.md)
   + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
@@ -188,6 +189,7 @@ solution: Journey Optimizer
       + [Define a style for links](using/email/styling-links.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
+  + [Create content templates](using/email/content-templates.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
@@ -405,10 +407,10 @@ solution: Journey Optimizer
 + Data management {#data-management}
   + [Get started with data management](using/data/gs-data.md)
   + [Work with schemas](using/data/get-started-schemas.md)
+  + [Queries](using/data/get-started-queries.md)
   + Journey Optimizer datasets {#datasets}
     + [Get started with datasets](using/data/get-started-datasets.md)
     + [Query examples](using/data/datasets-query-examples.md)
-  + [Queries](using/data/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Delegate email subdomains {#delegate-subdomains}

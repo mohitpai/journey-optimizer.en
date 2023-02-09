@@ -53,7 +53,9 @@ Click the three dots next to a landing page to select the desired action.
 >abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Object level access control"
 
-The steps to create a landing page are as follows.
+The main steps to create landing pages are as follows:
+
+![](assets/lp-creation-process.png)
 
 1. From the landing page list, click **[!UICONTROL Create landing page]**.
 

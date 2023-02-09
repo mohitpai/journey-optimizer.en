@@ -109,3 +109,9 @@ Once sent, you can measure the impact of your In-App messages within the Campaig
 * [Design In-app message](design-in-app.md)
 * [In-app report](inapp-report.md)
 * [In-app configuration](inapp-configuration.md)
+
+## How-to video{#video}
+
+The video below shows how to create, configure, and publish In-app messages in your campaigns.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

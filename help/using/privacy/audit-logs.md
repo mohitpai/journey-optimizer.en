@@ -12,11 +12,15 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 
 ## About audit logs {#audit-logs}
 
+>[!IMPORTANT]
+>
+>To view and export audit log, you must have the **[!DNL View User Activity Log]** permission granted. [Learn more](../administration/ootb-product-profiles.md)
+
 With Journey Optimizer, you can identify actions performed by users in the system on various services and capabilities like journeys, messages, landing pages etc.
 
 This allows you to increase the visibility of activities performed in the system, troubleshoot issues, and help your business comply with regulations and corporate data stewardship policies.
 
-Each action is recorded with metadata in "audit logs" which are accessible in Adobe Experience Platform. For more on audit logs, including how to view and manage them in UI or API, refer to [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
+Each action is recorded with metadata in "audit logs" which are accessible in Adobe Experience Platform. For more on audit logs, including how to view and manage them in UI or API, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
 
 ![](assets/audit-logs.png)
 

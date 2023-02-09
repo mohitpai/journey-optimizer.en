@@ -171,7 +171,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
-<p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 ### Other changes{#sept-2022-other}
 
-* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../campaigns/create-campaign.md#rapid-delivery)
+* Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../push/create-push.md#rapid-delivery)
 * To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment, a Segment qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
 * The 1 hour limitation for scheduled read segment journeys has been removed. These journeys can now be executed with no delay.
 

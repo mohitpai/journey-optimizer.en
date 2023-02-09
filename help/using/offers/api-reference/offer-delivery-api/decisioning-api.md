@@ -26,7 +26,9 @@ The following table shows the valid values which comprise the *Content-Type* and
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API format**
+## API request {#request}
+
+### API format
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -37,7 +39,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Request**
+### Request
 
 ```shell
 curl -X POST \
@@ -116,7 +118,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | This flag identifies the specific metadata information returned for `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | This flag identifies the specific metadata information returned for `xdm:placement`. | `name`, `channel`, `componentType` |
 
-**Response**
+### Response
 
 A successful response returns information on your proposition, including its unique `xdm:propositionId`.
 
@@ -186,6 +188,20 @@ A successful response returns information on your proposition, including its uni
 | `xdm:propositions.xdm:fallback.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats. | `"dc:format": "image/png"` or `"image/jpeg"`|
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | An optional URL to read the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly from a user agent. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | The time when the decision response message was created. This is represented as epoch time. | `"ode:createDate": 1566497582038` |
+
+**Response codes**
+
+The table below lists all codes that can be returned in the response:
+
+|Code|Description|
+|  ---  |  ---  |
+|200|Success. Decision was made for given activities|
+|400|Invalid request parameter. The request cannot be understood by the server due to malformed syntax.|
+|403|Forbidden, insufficient permissions.|
+|422|Unprocessable entity. The request syntax is correct, however, due to semantic errors it is unable to be processed.|
+|429|Too many requests. The user has sent too many requests in a given amount of time.|
+|500|Internal server error. The server encountered an unexpected condition which prevented it from fulfilling the request.|
+|503|Service unavailable due to server overload. The server is currently unable to handle the request due to a temporary overloading.|
 
 ## Tutorial video {#video}
 

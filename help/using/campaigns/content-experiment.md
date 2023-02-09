@@ -23,7 +23,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 >
 >The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-Use Journey Optimizer Content Experiment to define multiple delivery treatments. The audience of interest is randomly allocated to each treatment in order to determine which one performs best with respect to the metric of interest. You can choose to vary the delivery content, subject, or sender. 
+The Journey Optimizer Content Experiment enables you to define multiple delivery treatments in order to measure which one performs best for your target audience. You can choose to vary the delivery content, subject, or sender. The audience of interest is randomly allocated to each treatment to determine which one works best in terms of the specified metric.
 
 >[!NOTE]
 >
@@ -46,68 +46,53 @@ The goal here is to see if recipients will interact with the email depending on 
 
     ![](assets/content_experiment_1.png)
 
-1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
+1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery and click **[!UICONTROL Create]**. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
     ![](assets/content_experiment_2.png)
 
-1. Click **[!UICONTROL Create]**.
-
 1. Set up the **[!UICONTROL Properties]** of your delivery:
-    * **[!UICONTROL Title]**
+    * **[!UICONTROL Name]**
     * **[!UICONTROL Description]**
-    * **[!UICONTROL Category]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transactional]**
-
-1. To start your content experiment, toggle the **[!UICONTROL Content experiment]** option. The **[!UICONTROL Content experiment]** menu appears.
-
-    ![](assets/content_experiment_3.png)
 
 1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
 
     In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](get-started-experiment.md#content-experiment-work)
 
-1. To execute your campaign on a specific date or on a recurring frequency, configure the Schedule section. [Learn more](create-campaign.md)
+    ![](assets/content_experiment_16.png)
 
-1. Click **[!UICONTROL Edit content]** to start personalizing your different **[!UICONTROL Treatments]**.
+1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track how your recipients react to your delivery: you can track clicks and/or opens.
+        
+    Tracking results will be accessible from the campaign report once the campaign has been executed.
 
-    ![](assets/content_experiment_4.png)
+1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn more](create-campaign.md)
 
-## Create your treatments {#treatment-experiment}
+1. Click **[!UICONTROL Edit content]** to start personalizing your delivery. [Learn more](../email/content-from-scratch.md)
 
-1. From the **[!UICONTROL Edit content]** window, start personalizing your treatment A.
+    ![](assets/content_experiment_17.png)
 
-    For this treatment, we will specify the special offer directly in the subject line.
+1. From the **[!UICONTROL Edit content]** window, start personalizing the treatment A.
+
+    For this treatment, we will specify the special offer directly in the subject line and add personalization.
 
     ![](assets/content_experiment_5.png)
 
-1. After designing your first treatment, from the **[!UICONTROL More actions]** button, click **[!UICONTROL Duplicate]**. 
-
-    You can also choose to start a new treatment from scratch clicking the **[!UICONTROL Content experiment]** button ![](assets/content_experiment_16.png) to access the advanced options then **[!UICONTROL Add treatment]**.
-
-    ![](assets/content_experiment_7.png)
-
-1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.
-
-    ![](assets/content_experiment_8.png)
-
-1. Personalize your second treatment as needed. 
-
-    Here, we choose to not specify the offer in the **[!UICONTROL Subject line]**.
-
-    ![](assets/content_experiment_9.png)
-
-Once your treatments are personalized, you can start configuring your Content Experiment.
-
 ## Configure your content experiment {#configure-experiment}
 
-1. When both deliveries are personalized, from the **[!UICONTROL Edit content]** window, select **[!UICONTROL Configure content experiment]**.
+1. When your delivery personalized, from the Campaign summary page, click **[!UICONTROL Create experiment]** to start configuring your content experiment.
 
-    ![](assets/content_experiment_10.png)
+    ![](assets/content_experiment_3.png)
 
-1. Select the objectives you want to set for your experiment.
+1. Select the **[!UICONTROL Success metric]** you want to set for your experiment.
 
     For our experiment, we select **[!UICONTROL Email open]** to test if recipients will open their emails if the promo code is in the subject line.
 
     ![](assets/content_experiment_11.png)
+
+1. Click **[!UICONTROL Add treatment]** to create as many new treatment as needed.
+
+    ![](assets/content_experiment_8.png)
+
+1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.
 
 1. Choose to add a **[!UICONTROL Holdout]** group to your delivery. This group will not receive any content from this campaign. 
 
@@ -119,9 +104,31 @@ Once your treatments are personalized, you can start configuring your Content Ex
 
     ![](assets/content_experiment_13.png)
 
-1. Click **[!UICONTROL Save]** when your configuration is set.
+1. Click **[!UICONTROL Create]** when your configuration is set.
 
-1. When your content experiment is ready, you can click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
+## Design your treatments {#treatment-experiment}
+
+1. From the **[!UICONTROL Edit content]** window, select your treatment B to change the content.
+
+    Here, we choose to not specify the offer in the **[!UICONTROL Subject line]**.
+
+    ![](assets/content_experiment_18.png)
+
+1. Click **[!UICONTROL Edit email body]** to further personalize your treatment B.
+
+    ![](assets/content_experiment_9.png)
+
+1. After designing your treatments, click **[!UICONTROL More actions]** to access options related to your treatments: **[!UICONTROL Rename]**, **[!UICONTROL Duplicate]** and **[!UICONTROL Delete]**.
+
+    ![](assets/content_experiment_7.png)
+
+1. If needed, access the **[!UICONTROL Experiment settings]** menu to change your treatments configuration.
+
+    ![](assets/content_experiment_19.png)
+
+1. Once your message content has been defined, click the **[!UICONTROL Simulate content]** button to control the rendering of your delivery, and check personalization settings with test profiles. [Learn more](../email/preview.md)
+
+1. When your content experiment is ready, from your Campaign summary page, you can click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
 
     ![](assets/content_experiment_15.png)
 

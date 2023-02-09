@@ -39,7 +39,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Email content templates</strong><br/></th>
@@ -49,12 +49,14 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+</p>
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### Improvements {#jan-2023-improvements}
 
