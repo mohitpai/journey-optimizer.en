@@ -1,7 +1,7 @@
 ---
 title: Get started with web channel
 description: Learn about web channel in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner

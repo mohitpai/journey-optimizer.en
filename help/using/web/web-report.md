@@ -1,7 +1,7 @@
 ---
 title: Web report
 description: Learn how to use data from the web report
-feature: Reporting
+feature: Reporting, Web channel
 topic: Content Management
 role: User
 level: Beginner

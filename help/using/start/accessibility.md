@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accessibility features in Journey Optimizer
 description: Learn more about accessibility in Journey Optimizer User Interface
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
 ---

@@ -1,7 +1,7 @@
 ---
 title: Create web experiences
 description: Learn how to author a web page and edit its content in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
