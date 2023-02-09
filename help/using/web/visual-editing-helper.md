@@ -1,7 +1,7 @@
 ---
 title: Visual Editing Helper extension
 description: Discover the Visual Editing Helper Chrome extension that allows you to author and preview web pages in Journey Optimizer
-feature: Web channel
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
