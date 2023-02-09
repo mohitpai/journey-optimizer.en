@@ -214,16 +214,15 @@ To remove an address from the suppression list, use the **[!UICONTROL Delete]** 
 >
 >Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
 
+For example in the case of an Internet Service Provider (ISP) outage, emails are wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
 
-For example in the case of an Internet Service Provider (ISP) outage, emails can be wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
+To retrieve those addresses, run a specific query with custom parameters, based on the context of the outage. [Learn more in this sample](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-To perform this, filter the suppression list to display affected email addresses or domains. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
+Once the affected email addresses are identified, filter the suppression list to display them. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
 
 ![](assets/remove-from-supp-list.png)
 
-You also need to add a filter on the type of bounce, depending on the details of the outage. These details are provided by the ISP, such as the exact error code returned to the sender. For example: `550 <email address> recipient rejected` or `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Once identified, these addresses can be manually removed from the suppression list using the **[!UICONTROL Delete]** button. These addresses can then be included in future email campaigns. 
+You can then remove quarantined email addresses from the suppression list using the **[!UICONTROL Delete]** button.
 
 ## Download the suppression list {#download-suppression-list}
 
@@ -231,7 +230,7 @@ Once identified, these addresses can be manually removed from the suppression li
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 To export the suppression list as a CSV file, follow the steps below:
