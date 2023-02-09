@@ -159,9 +159,10 @@ solution: Journey Optimizer
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
-    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
-    + [Statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
+    + Technotes {#technotes}
+      + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
+      + [Understand statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Email channel {#email}
   + [Get started with emails](using/email/get-started-email.md)

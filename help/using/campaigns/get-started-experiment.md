@@ -8,8 +8,6 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: get started, start, content, experiment
-hide: yes
-hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
 # Get started with content experiments {#get-started-experiment}
