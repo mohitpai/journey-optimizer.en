@@ -216,7 +216,7 @@ To remove an address from the suppression list, use the **[!UICONTROL Delete]** 
 
 For example in the case of an Internet Service Provider (ISP) outage, emails are wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
 
-To retrieve those addresses, run a specific query with custom parameters, based on the context of the outage. [Learn more in this sample](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+To retrieve those addresses, run a specific query with custom parameters, based on the context of the outage. [Learn more in this sample](../data/datasets-query-examples.md#isp-outage-query).
 
 Once the affected email addresses are identified, filter the suppression list to display them. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
 
