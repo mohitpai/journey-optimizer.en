@@ -119,3 +119,15 @@ Enable Send-Time Optimization on an email or push message by selecting the **Sen
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
 You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, [!DNL Journey Optimizer] will check each user profile and pick the optimal send time within six hours from the journey execution time.
+
+**What happens if the optimal time is outside the window?**
+
+Let's take an example with the following setup:
+
+* Optimize on clicks
+* Action is meant to start at 10 AM
+* Window is 3 hours
+
+A profile can have an optimal open time which is oustide the window. For example, John has optimal open on click at 5 PM. 
+
+At profile level, there are scores for every hour of the week. In this example, the email will always be sent within the window. At run time, the system checks the list of scores within that window (3 hour window starting at 10 AM). The system then compares the scores for 10, 11 and noon and decides which of the three is highest. The email is sent at that time.
