@@ -128,6 +128,6 @@ Let's take an example with the following setup:
 * Action is meant to start at 10 AM
 * Window is 3 hours
 
-A profile can have an optimal open time which is oustide the window. For example, John has optimal open on click at 5 PM. 
+A profile can have an optimal open time which is oustide the window. For example, John's optimal open on click is at 5 PM. 
 
-At profile level, there are scores for every hour of the week. In this example, the email will always be sent within the window. At run time, the system checks the list of scores within that window (3 hour window starting at 10 AM). The system then compares the scores for 10, 11 and noon and decides which of the three is highest. The email is sent at that time.
+At profile level, there are scores for every hour of the week. In this example, the email will always be sent within the window. At run time, the system checks the list of scores within that window (3 hour window starting at 10 AM). The system then compares the scores for 10, 11 and noon and selects the highest. The email is sent at that time.
