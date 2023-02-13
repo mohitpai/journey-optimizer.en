@@ -67,12 +67,12 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
 After creating and configuring your API credential, you now need to create a channel surface (i.e. message preset) for SMS messages.
 
-## Create a channel surface {#message-preset-sms}
+## Create a SMS surface {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Define the SMS category"
->abstract="Select the type of SMS messages that will be sent when using this surface: Marketing for promotional SMS messages, which require user consent, or Transactional for non-commercial SMS messages, that can also be sent to unsubscribed profiles in specific contexts."
+>abstract="Select the type of SMS messages using this surface: Marketing for promotional SMS messages, which require user consent, or Transactional for non-commercial SMS messages, such as password reset."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Opt-out in marketing SMS messages"
 
 Once your SMS channel has been configured, you must create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
@@ -96,6 +96,15 @@ To create a channel surface, follow these steps:
      ![](assets/preset-sms.png)
 
     * Select the **[!UICONTROL SMS Type]** that will be sent with the surface: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+        * Choose **Marketing** for promotional SMS: these messages require user consent.
+        * Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+
+        >[!CAUTION]
+        >
+        >**Transactional** SMS messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+
+        When creating a SMS message, you must choose a valid channel surface matching the category you selected for your message.
     
     * Select the **[!UICONTROL SMS configuration]** to associate with the surface.
         
