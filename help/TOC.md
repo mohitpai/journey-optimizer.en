@@ -211,7 +211,7 @@ solution: Journey Optimizer
 + SMS channel{#sms}
   + [Get started with SMS](using/sms/get-started-sms.md)
   + [Create an SMS message](using/sms/create-sms.md)
-  + [Send an SMS message](using/sms/send-sms.md)
+  + [Preview and test your SMS](using/sms/send-sms.md)
   + [Manage SMS opt-out](using/sms/sms-opt-out.md) 
   + [Configure SMS channel](using/sms/sms-configuration.md)
 + Direct mail {#direct-mail}
