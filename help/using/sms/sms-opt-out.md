@@ -15,7 +15,7 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 
 >[!IMPORTANT]
 >
->Text message campaigns may be subject to various legal compliance requirements depending on the nature of your text messaging campaign, the location from where you are sending your text messages, and the location of your recipients. While Adobe Journey Optimizer will handle the messages on long codes and toll-free numbers as detailed below, you should consult your legal counsel to ensure that your text messaging campaign conforms to all applicable legal compliance requirements.
+>Text message communications may be subject to various legal compliance requirements depending on its nature, the location from where you are sending your text messages, and the location of your recipients. While Adobe Journey Optimizer handles the messages on long codes and toll-free numbers as detailed below, consult your legal counsel to ensure that your text messaging communications conform to all applicable legal compliance requirements.
 >
 
 ## Native inbound keywords{#sms-native-keywords}
@@ -24,7 +24,7 @@ By default, Adobe Journey Optimizer handles standard English-language reply mess
 
 These keywords typically trigger an automatic standard reply from your 3rd party provider (e.g. Twilio, Sinch, etc.). You can confirm this directly with your provider or via their documentation site. 
 
-No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START are automatically recognized. Profiles opt-out status are updated in real-time in Adobe Journey Optimizer.
+No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
 
 
 ## Block lists{#sms-blocklists}
