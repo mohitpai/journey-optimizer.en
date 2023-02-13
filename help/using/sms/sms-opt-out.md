@@ -22,14 +22,14 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 
 By default, Adobe Journey Optimizer handles standard English-language reply messages such as STOP, UNSTOP, and START for Toll-Free and Long Code messages, in accordance with industry standards for native integration such as Sinch and Twilio. 
 
-These keywords typically trigger an automatic standard reply from your 3rd party provider (e.g. Twilio, Sinch, etc.). You can confirm this directly with your provider or via their documentation site. 
+These keywords typically trigger an automatic standard reply from your third party provider (such as Twilio or Sinch). You can confirm this directly with your provider or via their documentation site. 
 
 No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
 
 
-## Block lists{#sms-blocklists}
+## Blocklists{#sms-blocklists}
 
-In addition to Adobe Journey Optimizer stopping the send based on the opt-out status (for direct integrations with Twilio or Sinch), most SMS gateway providers also maintain a block list ensuring you that an SMS message will not be delivered to an individual who has chosen to opt out. If you are using a provider other than Sinch or Twilio and sending an SMS via [custom channel](../building-journeys/using-custom-actions.md), you need to confirm this with your provider. 
+In addition to Adobe Journey Optimizer stopping the send based on the opt-out status (for direct integrations with Twilio or Sinch), most SMS gateway providers also maintain a blocklist ensuring you that an SMS message is not delivered to an individual who has chosen to opt out. If you are using a provider other than Sinch or Twilio, and sending an SMS via [custom channel](../building-journeys/using-custom-actions.md), you need to confirm this with your provider. 
 
 
 ## Short Codes {#short-codes}
