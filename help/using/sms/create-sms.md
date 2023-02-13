@@ -18,7 +18,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 ## Add an SMS message {#create-sms-journey-campaign}
 
-Browse the tabs below to learn how to add a SMS in a campaign or in a journey.
+Browse the tabs below to learn how to add an SMS message in a campaign or a journey.
 
 >[!BEGINTABS]
 
@@ -80,9 +80,11 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. [Learn more](send-sms.md)
+1. Click **[!UICONTROL Save]** and check your message in the preview. 
 
     ![](assets/sms-content-preview.png)
+
+You can now test and send your SMS message to your audience. [Learn more](send-sms.md)
 
 >[!NOTE]
 >
@@ -90,6 +92,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 **Related topics**
 
+* [Preview, test and send your SMS message](send-sms.md)
 * [Configure SMS channel](sms-configuration.md)
 * [SMS report](../reports/journey-global-report.md#sms-global)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
