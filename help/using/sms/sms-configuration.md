@@ -125,3 +125,5 @@ You are now ready to send SMS messages with Journey Optimizer.
 
 * [Create an SMS message](create-sms.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
+* [Add a message in a campaign](../campaigns/create-campaign.md)
+
