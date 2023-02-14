@@ -33,7 +33,7 @@ Availability: **February 22, 2023**
 <tr>
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports. </p>
-<img src="assets/do-not-localize/performance-report.gif"/>
+<img src="assets/do-not-localize/performance_report.gif"/>
 <!--p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p-->
 </td>
 </tr>
