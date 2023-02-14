@@ -82,8 +82,7 @@ Note that each widget can be resized and deleted if needed.
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.	</p>
-<!--p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p-->
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +90,7 @@ Note that each widget can be resized and deleted if needed.
 
 
 
-### Improvements {#jan-2023-improvements}
+### Improvements {#feb-2023-improvements}
 
 **Journeys**
 
