@@ -18,6 +18,11 @@ When a certain set of conditions in your operations is reached (such as a potent
 Learn more on alerts in Adobe Experience Platform [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 To learn how to subscribe to alerts and configure them, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
+>[!AVAILABILITY]
+>
+>Some design changes are in progress for the ‘Read Segment Trigger Unsuccessful’ alert, hence this alert is paused for now. Once changes are released, this alert will be surfaced again, and you will be able to subscribe to it.
+>
+
 In the left menu, under **Administration**, click **Alerts**. 
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -28,10 +33,7 @@ If an unexpected behavior occurs, an alert notification is sent to subscribers o
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->Some design changes are in progress for the ‘Read Segment Trigger Unsuccessful’ alert, hence this alert is paused for now. Once changes are released, this alert will be surfaced again, and you will be able to subscribe to it.
->
+
 
 When [viewing alert rules in Adobe Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), you can subscribe to each rule individually. When subscribing to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. 
 
