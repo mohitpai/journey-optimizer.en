@@ -53,7 +53,9 @@ Click the three dots next to a landing page to select the desired action.
 >abstract="To protect sensitive digital assets, you can define authorizations to manage data access to your landing page using labels."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Object level access control"
 
-The steps to create a landing page are as follows.
+The main steps to create landing pages are as follows:
+
+![](assets/lp-creation-process.png)
 
 1. From the landing page list, click **[!UICONTROL Create landing page]**.
 
@@ -188,6 +190,12 @@ To define the subpage settings, follow the steps below.
 ![](assets/lp_subpage-settings.png)
 
 ## Test the landing page {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Preview and test your landing page"
+>abstract="Once you defined your landing page settings and content, you can use test profiles to preview it."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Select test profiles"
 
 Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, using test profile data.
 

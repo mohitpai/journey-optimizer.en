@@ -82,7 +82,7 @@ To insert links into your email content, follow the steps below:
 
 >[!NOTE]
 >
->Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when creating the message.
+>Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined in the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) when creating the message.
 
 ## Link to a mirror page {#mirror-page}
 

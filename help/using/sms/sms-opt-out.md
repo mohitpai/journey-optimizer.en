@@ -13,21 +13,28 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 
 In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. [Learn more on privacy & opt-out management](../privacy/opt-out.md)
 
-By default, Adobe Journey Optimizer handles standard English-language reply messages such as STOP, UNSTOP, and START for Toll-Free and Long Code messages, in accordance with industry standards for native integration such as Sinch and Twilio. These keywords typically trigger an automatic standard reply from your 3rd party provider (e.g. Twilio, Sinch, etc.). You can confirm this directly with your provider or via their documentation site. 
-
-No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START will be automatically recognized.
-
-In addition to Adobe Journey Optimizer stopping the send based on the opt-out status (for direct integrations with Twilio or Sinch), most SMS gateway providers also maintain a block list ensuring you that an SMS message will not be delivered to an individual who has chosen to opt out. If you are using a provider other than Sinch or Twilio and sending an SMS via [custom channel](../building-journeys/using-custom-actions.md), you need to confirm this with your provider. 
-
 >[!IMPORTANT]
 >
->Text message campaigns may be subject to various legal compliance requirements depending on the nature of your text messaging campaign, the location from where you are sending your text messages, and the location of your recipients. <br>While Adobe Journey Optimizer will handle the messages on long codes and toll-free numbers as detailed above, you should consult your legal counsel to ensure that your text messaging campaign conforms to all applicable legal compliance requirements.
+>Text message communications may be subject to various legal compliance requirements depending on its nature, the location from where you are sending your text messages, and the location of your recipients. While Adobe Journey Optimizer handles the messages on long codes and toll-free numbers as detailed below, consult your legal counsel to ensure that your text messaging communications conform to all applicable legal compliance requirements.
+>
+
+## Native inbound keywords{#sms-native-keywords}
+
+By default, Adobe Journey Optimizer handles standard English-language reply messages such as STOP, UNSTOP, and START for Toll-Free and Long Code messages, in accordance with industry standards for native integration such as Sinch and Twilio. 
+
+These keywords typically trigger an automatic standard reply from your third party provider (such as Twilio or Sinch). You can confirm this directly with your provider or via their documentation site. 
+
+No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
+
+
+## Blocklists{#sms-blocklists}
+
+In addition to Adobe Journey Optimizer stopping the send based on the opt-out status (for direct integrations with Twilio or Sinch), most SMS gateway providers also maintain a blocklist ensuring you that an SMS message is not delivered to an individual who has chosen to opt out. If you are using a provider other than Sinch or Twilio, and sending an SMS via [custom channel](../building-journeys/using-custom-actions.md), you need to confirm this with your provider. 
+
 
 ## Short Codes {#short-codes}
 
-By default, Adobe Journey Optimizer will not handle opt-out, opt-in or help keywords for short code numbers.
-
-You must ensure that your short code is compliant to all industry rules and regulations for opt-out handling.
+By default, Adobe Journey Optimizer does not handle opt-out, opt-in or help keywords for short code numbers. You must ensure that your short code is compliant to all industry rules and regulations for opt-out handling.
 
 ## Alphanumeric Sender ID {#alphanumeric}
 

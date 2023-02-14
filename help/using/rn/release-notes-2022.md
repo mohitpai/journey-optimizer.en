@@ -171,7 +171,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tr>
 <td>
 <p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
-<p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>

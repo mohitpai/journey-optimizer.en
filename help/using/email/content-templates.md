@@ -9,12 +9,7 @@ role: User
 level: Beginner
 
 ---
-# Content templates {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Create content templates"
->abstract="Create standalone templates to reusa content across journeys and campaigns."
+# Work with content templates {#content-templates}
 
 For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Journey Optimizer] campaigns and journeys.
 
@@ -22,37 +17,64 @@ This functionality enables content-oriented users to work on templates outside c
 
 For example, a user within your company is in charge of content only, and therefore has no access to campaigns or journeys. However, this user can create an email template that your organization's marketers will be able to select for use in all emails as a starting point.
 
->[!NOTE]
->
->* Changes made to content templates are not propagated to campaigns or journeys, whether they are live or draft.
->
->* Similarly, when templates are used in a campaign or a journey, any edits you make to your campaign and journey content do not affect the previously used content template.
-
-There are two ways you can create content templates:
-
-* Create a content template from scratch, using the left rail **[!UICONTROL Content Templates]** menu. [Learn how](#create-content-templates)
-
-* When designing an email withing a campaign or a journey, save your email content as template. [Learn how](#save-as-template)
-
 ➡️ [Learn how to create and use templates in this video](#video-templates)
-
-## Create a content template {#create-content-templates}
-
-To create a content template from scratch, follow the steps below.
 
 >[!CAUTION]
 >
 >To create, edit and delete content templates, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. To access the content template list, select **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** from the left menu.
+## Access and manage templates {#access-manage-templates}
+
+To access the content template list, select **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** from the left menu.
+
+![](assets/content-template-list.png)
+
+All the templates that were created on the current sandbox - either from a journey or a campaign using the [Save as template](#save-as-template) option, either from the **[!UICONTROL Content Templates]** menu - are displayed.
+
+You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.
+
+![](assets/content-template-list-filters.png)
+
+To edit a template content, click the desired item from the list and select **[!UICONTROL Edit content]**.
+
+![](assets/content-template-list-edit.png)
+
+To delete a template, select the trash icon next to the desired template.
+
+![](assets/content-template-list-delete.png)
+
+>[!NOTE]
+>
+>When a template is edited or deleted, campaigns or journeys including emails created using this template are not impacted.
+
+## Create content templates {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Define your own content template"
+>abstract="Create a standalone custom template from scratch to make your content reusable across multiple journeys and campaigns."
+
+There are two ways you can create content templates:
+
+* Create a content template from scratch, using the left rail **[!UICONTROL Content Templates]** menu. [Learn how](#create-template-from-scratch)
+
+* When designing an email within a campaign or a journey, save your email content as template. [Learn how](#save-as-template)
+
+Once saved, your content template is available for use in a campaign or a journey. Whether created from scratch or from a previous email, you can now use this template when building any [email](get-started-email-design.md) within [!DNL Journey Optimizer]. [Learn how](email-templates.md)
+
+>[!NOTE]
+>
+>* Changes made to content templates are not propagated to campaigns or journeys, whether they are live or draft.
+>
+>* Similarly, when templates are used in a campaign or a journey, any edits you make to your campaign and journey content do not impact the previously used content template.
+
+### Create template from scratch {#create-template-from-scratch}
+
+To create a content template from scratch, follow the steps below.
+
+1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** left menu.
 
     ![](assets/content-template-list.png)
-
-1. All the templates that were created on the current sandbox - either from a journey or a campaign using the [Save as template](#save-as-template) option, either from the **[!UICONTROL Content Templates]** menu - are displayed.
-
-    >[!NOTE]
-    >
-    >You can sort content templates by creation or modification date.
 
 1. Select **[!UICONTROL Create template]**.
 
@@ -66,46 +88,23 @@ To create a content template from scratch, follow the steps below.
 
 1. To assign custom or core data usage labels to the template, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
-1. Click **[!UICONTROL Create]** and choose how you want to design your email from the following options:
+1. Click **[!UICONTROL Create]** and choose how you want to design your email from the different options:
 
-    * **[!UICONTROL Design from scratch]**
-    * **[!UICONTROL Code your own]**
-    * **[!UICONTROL Import HTML]**
-    * **[!UICONTROL Select design template]**
-
-    ![](assets/content-template-design.png)
-
-    >[!NOTE]
-    >
-    >If you select a template, you can choose between **[!UICONTROL Sample templates]**, which are out-of-the-box email templates, and **[!UICONTROL Saved templates]**, which are the ones that were created either from a journey, a campaign or from the **[!UICONTROL Content Templates]** menu. [Learn more](email-templates.md#save-as-template)
-
-1. The [Email Designer](get-started-email-design.md) displays. Edit your content as needed, the same way you would do for any email inside a journey or a campaign, according to the option you selected:
-
-    * [Design your email from scratch](content-from-scratch.md) through the designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md).
+    * [Design your email from scratch](content-from-scratch.md) through the Email Designer's interface.
 
     * [Code or copy-paste raw HTML](code-content.md) directly into the Email Designer.
 
     * [Import existing HTML content](existing-content.md) from a file or a .zip folder.
 
-    * [Use existing content](email-templates.md) from a list of built-in or custom templates.
+    * Use existing content from a list of built-in or custom templates. The steps to use a content template in an email are described in [this section](email-templates.md).
+
+    ![](assets/content-template-design.png)
+
+1. The [Email Designer](get-started-email-design.md) displays. Edit your content as needed, the same way you would do for any email inside a journey or a campaign, according to the option you selected.
 
     ![](assets/content-template-designer.png)
 
-1. Click **[!UICONTROL Simulate Content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more](preview.md)
-
-    >[!CAUTION]
-    >
-    >To simulate content, you must have the **[!DNL Manage Simulate Content]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
-
-    ![](assets/content-template-stimulate.png)
-
-1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
-
-    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](preview.md#send-proofs).
-    
-    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
-
-        ![](assets/content-template-stimulate-proof-surface.png)
+1. You can test your content if needed. [Learn how](#test-template)
 
 1. Once your template is ready, click **[!UICONTROL Save]**.
 
@@ -113,22 +112,16 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-designer-back.png)
 
-1. You can now use this content template when building any [email](get-started-email-design.md) within [!DNL Journey Optimizer]. [Learn how](email-templates.md#use-saved-template)
+This template is now ready to be used when building any email within [!DNL Journey Optimizer]. [Learn how](email-templates.md)
 
-    ![](assets/email_designer-saved-templates.png)
-
-## Save as template {#save-as-template}
+### Save as template {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="Learn how to migrate your messages"
 >abstract="On July 25 2022, the Messages menu disappeared and messages are now authored directly from a Journey. If you want to re-use your legacy messages in journeys, you need to save them as templates."
 
-When designing an [email](get-started-email-design.md) in a campaign or a journey, you can also save your email content for future reuse. To do this, follow the steps below.
-
->[!CAUTION]
->
->To save a content as template, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+When designing an [email](get-started-email-design.md) in a campaign or a journey, you can save your email content for future reuse. To do this, follow the steps below.
 
 1. In the Email Designer, click the ellipsis on top right of the screen.
 
@@ -142,21 +135,39 @@ When designing an [email](get-started-email-design.md) in a campaign or a journe
 
 1. Click **[!UICONTROL Save]**.
 
-1. The template is saved into the **[!UICONTROL Content Templates]** list, accessible from the [!DNL Journey Optimizer] dedicated menu. [Learn more](content-templates.md)
+1. The template is saved into the **[!UICONTROL Content Templates]** list, accessible from the [!DNL Journey Optimizer] dedicated menu. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
 
-    ![](assets/content-template-list.png)
-
-Once saved, this template becomes a standalone content template that can be accessed, edited and deleted from the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu, as any other item on that list.
+You can now use this template when building any [email](get-started-email-design.md) within [!DNL Journey Optimizer]. [Learn how](email-templates.md)
 
 >[!NOTE]
 >
->When accessed from the **[!UICONTROL Content Templates]** menu, any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
+>Any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
 
-Next time you create an [email](get-started-email-design.md) in [!DNL Journey Optimizer], you can use this template to start building your content. [Learn how](email-templates.md#use-saved-template)
+## Test your content template {#test-template}
 
-![](assets/email_designer-saved-template.png)
+You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
 
-## How-to video{#video-templates}
+>[!CAUTION]
+>
+>To simulate content, you must have the **[!DNL Manage Simulate Content]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+
+1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
+
+1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
+
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](preview.md)
+
+    ![](assets/content-template-stimulate.png)
+
+1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
+
+    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](preview.md#send-proofs).
+    
+    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
+
+        ![](assets/content-template-stimulate-proof-surface.png)
+
+## How-to video {#video-templates}
 
 Learn how to create, edit, and use content templates in [!DNL Journey Optimizer].
 

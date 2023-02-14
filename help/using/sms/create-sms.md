@@ -13,22 +13,18 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="SMS creation"
->abstract="Add your text message and start personalizing it with the Expression editor."
+>title="Create an SMS message"
+>abstract="Add your SMS message and start personalizing it with the Expression editor."
 
->[!NOTE]
->
->In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## Add an SMS message {#create-sms-journey-campaign}
 
-## Create an SMS message in a journey or campaign {#create-sms-journey-campaign}
-
-To start personalizing your SMS message, follow these steps:
+Browse the tabs below to learn how to add an SMS message in a campaign or a journey.
 
 >[!BEGINTABS]
 
 >[!TAB Add an SMS message to a Journey]
 
-1. Open your journey then drag and drop an SMS activity from the Actions section of the palette.
+1. Open your journey then drag and drop an SMS activity from the **Actions** section of the palette.
 
     ![](assets/sms_create_1.png)
 
@@ -38,7 +34,7 @@ To start personalizing your SMS message, follow these steps:
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
-You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Design your SMS content](#sms-content)
+You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Define your SMS content](#sms-content)
 
 >[!TAB Add an SMS message to a Campaign]
 
@@ -73,6 +69,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 >[!ENDTABS]
 
+
 ## Define your SMS content{#sms-content}
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
@@ -83,12 +80,20 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. [Learn more](send-sms.md)
+1. Click **[!UICONTROL Save]** and check your message in the preview. 
 
     ![](assets/sms-content-preview.png)
 
+You can now test and send your SMS message to your audience. [Learn more](send-sms.md)
+
+>[!NOTE]
+>
+>In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Related topics**
 
+* [Preview, test and send your SMS message](send-sms.md)
 * [Configure SMS channel](sms-configuration.md)
 * [SMS report](../reports/journey-global-report.md#sms-global)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
+* [Add a message in a campaign](../campaigns/create-campaign.md)

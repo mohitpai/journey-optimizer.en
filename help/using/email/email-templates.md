@@ -10,56 +10,48 @@ level: Beginner
 keywords: email, templates, design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 ---
-# Work with email templates {#email-templates}
+# Use email templates {#email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="Build content from a custom template"
+>abstract="To start creating your email content, select an existing template that was created from scratch or saved as template from a previous email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Create content templates"
 
 From the **[!UICONTROL Create your email]** screen, use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)
 
 You can choose from:
-* Sample templates. [Learn more](#use-sample-template)
-* Content templates that:
-    * You created from scratch using the **[!UICONTROL Content templates]** menu. [Learn more](content-templates.md#create-content-templates)
-    * You saved as template from an email content. [Learn more](content-templates.md#save-as-template)
 
-## Use a sample template {#use-sample-template}
+* **Sample templates**. The [!DNL Journey Optimizer] interface offers 20 out-of-the-box email templates that you can choose from.
 
-The [!DNL Journey Optimizer] interface offes 20 out-of-the-box email templates that you can choose from.
+* **Saved templates**. You can also use a custom template that you either:
 
-1. Access the Email Designer from the email **[!UICONTROL Edit content]** screen. [Learn more](get-started-email-design.md).
+    * Created from scratch using the **[!UICONTROL Content templates]** menu. [Learn more](content-templates.md#create-template-from-scratch)
+
+    * Saved from an email in a journey or a campaign using the **[!UICONTROL Save as content template]** option. [Learn more](content-templates.md#save-as-template)
+
+ To start building your content with one of the sample or saved templates, follow the steps below.
+
+1. [Access the Email Designer](get-started-email-design.md) from the email **[!UICONTROL Edit content]** screen.
 
 1. On the **[!UICONTROL Create your email]** screen, the **[!UICONTROL Sample templates]** tab is selected by default.
 
-1. Select the template of your choice from the list.
-
-1. Once selected, you can navigate between all the sample templates using the right and left arrrows.
-
-    ![](assets/email_designer-sample-templates-navigate.png)
-
-1. Click **[!UICONTROL Use this template]** on top right of the screen.
-
-1. Edit your content as desired using the Email Designer.
-
-## Use a saved template {#use-saved-template}
-
-To start building your content, you can also use a custom template that you created either from the [content template](content-templates.md#create-content-templates) list, either from a journey or a campaign using the [Save as template](content-templates.md#save-as-template) option. Follow the steps below.
-
-1. Access the Email Designer from the email **[!UICONTROL Edit content]** screen. [Learn more](get-started-email-design.md).
-
-1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
+1. To use a custom template, go to the **[!UICONTROL Saved templates]** tab.
 
     ![](assets/email_designer-saved-templates-tab.png)
 
-1.  The list of all previously [saved templates](content-templates.md#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
+1.  The list of all [content templates](content-templates.md#create-content-templates) created on the current sandbox displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
-    ![](assets/email_designer-saved-templates.png)
+    ![](assets/email_designer-saved-templates-filter.png)
 
 1. Select the template of your choice from the list.
 
-1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
+1. Once selected, you can navigate between all the templates of one category (sample or saved depending on your selection) using the right and left arrrows.
 
     ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Click **[!UICONTROL Use this email]** on top right of the screen.
+1. Click **[!UICONTROL Use this template]** on top right of the screen.
 
 1. Edit your content as desired using the Email Designer.

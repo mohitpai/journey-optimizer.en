@@ -1,7 +1,7 @@
 ---
 title: Author web pages
 description: Learn how to author a web page and edit its content in Journey Optimizer
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner

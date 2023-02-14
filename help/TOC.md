@@ -211,7 +211,7 @@ solution: Journey Optimizer
 + SMS channel{#sms}
   + [Get started with SMS](using/sms/get-started-sms.md)
   + [Create an SMS message](using/sms/create-sms.md)
-  + [Send an SMS message](using/sms/send-sms.md)
+  + [Preview and test your SMS](using/sms/send-sms.md)
   + [Manage SMS opt-out](using/sms/sms-opt-out.md) 
   + [Configure SMS channel](using/sms/sms-configuration.md)
 + Direct mail {#direct-mail}
@@ -407,10 +407,10 @@ solution: Journey Optimizer
 + Data management {#data-management}
   + [Get started with data management](using/data/gs-data.md)
   + [Work with schemas](using/data/get-started-schemas.md)
+  + [Queries](using/data/get-started-queries.md)
   + Journey Optimizer datasets {#datasets}
     + [Get started with datasets](using/data/get-started-datasets.md)
     + [Query examples](using/data/datasets-query-examples.md)
-  + [Queries](using/data/get-started-queries.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Delegate email subdomains {#delegate-subdomains}

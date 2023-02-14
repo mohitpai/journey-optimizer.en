@@ -163,44 +163,6 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
 
-## Video {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Video settings"
->abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Video settings"
->abstract="Use this component to insert a video in your landing page. Note that videos do not work on all message clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Video settings"
->abstract="Use this component to insert a video in your fragment. Note that videos do not work on all message clients. We advise to set a fallback image."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Video settings"
->abstract="Use this component to insert a video in your template. Note that videos do not work on all message clients. We advise to set a fallback image."
-
-Use the **[!UICONTROL Video]** component to insert a video into your email content through an URL link.
-
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Video]** compnent into a **[!UICONTROL Structure component]**.
-
-    ![](assets/email_designer_17.png)
-
-1. Click your newly added component.
-
-1. In the **[!UICONTROL Video link]** field of the **[!UICONTROL Components settings]** pane, add your video URL.
-
-    ![](assets/email_designer_18.png)
-
-1. You can add a **[!UICONTROL Poster image]** to your video in order to specify an image to be shown until your audience click the play button.
-
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
-
 ## Social {#social}
 
 Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.

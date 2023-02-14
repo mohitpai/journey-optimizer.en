@@ -85,7 +85,10 @@ The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype on
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>The contextual attributes passed into the request cannot exceed 50kb.
 >
 >The `context.system` syntax is restricted to Adobe internal usage only, and should not be used to pass contextual attributes.
 

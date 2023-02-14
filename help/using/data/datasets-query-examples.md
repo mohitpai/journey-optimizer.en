@@ -139,6 +139,28 @@ Permanent errors grouped by bounce code:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+### Identify quarantined addresses after an ISP outage{#isp-outage-query}
+
+In case of an Internet Service Provider (ISP) outage, you need to idenfity email addresses wrongly maked as bounces (quarantined) for specific domains, during a timeframe. To get those adresses, use the following query:
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+where the format of dates is: YYYY-MM-DD HH:MM:SS.
+
+Once identified, remove those addresses from Journey Optimizer suppression list. [Learn more](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
 ## Push Tracking Experience Event Dataset {#push-tracking-experience-event-dataset}
 
 _Name in the interface: CJM Push Tracking Experience Event Dataset_

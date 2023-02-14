@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Send your push notification
+title: Preview and test your push notification
 description: Learn how to preview and test your push notification in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 ---
-# Send your push notification {#send-push}
+# Preview and test your push notification {#send-push}
 
 ## Preview your push notification {#preview-push}
 
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted personalized content, you can check how this content is displayed in the message, leveraging test profile data.
+Once your message content has been defined, you can use test profiles to preview and test it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
 1. Click **[!UICONTROL Simulate content]**.
 
@@ -23,23 +23,18 @@ Once your message content has been defined, you can use test profiles to preview
 
     ![](assets/push_preview_1.png)
 
-1. Apply the same steps as described above to select a test profile, and 
+1. Once you selected your test profile, you can close the **[!UICONTROL Add test profile]** window.
 
-    ![](assets/push_preview_2.png)
-
-1. In the push preview, test profile data is leveraged in the message content.
+1. From the **Preview & test** window, test profile data is added to the message content.
 
     Select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
 
     ![](assets/push_preview_3.png)
 
-## Validate your Push notification {#push-validate}
+## Validate your push notification {#push-validate}
 
->[!NOTE]
->
-> For better deliverability, you should always use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
 
-You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. Two types of alerts can happen:
+You must check alerts in the upper section of the editor. Some of them are simple warnings, but others can prevent you from sending the message. Two types of alerts can happen: warnings and errors.
 
 * **Warnings** refer to recommendations and best practices.
 
@@ -51,6 +46,22 @@ You must also check alerts in the upper section of the editor.  Some of them are
 
     * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: the push notification size cannot exceed 4KB. To respect this limit, try to reduce the use of images or emojis. Learn how to manage your push notification content in [this section](../push/create-push.md).
 
-![](assets/push_alert.png)
+    ![](assets/push_alert.png)
 
-When your Push notification is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+
+>[!NOTE]
+>
+> For better deliverability, you should always use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
+
+## Send your push notification{#push-send}
+
+When your push message is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+
+**Related topics**
+
+* [Configure push channel](push-configuration.md)
+* [Push notification report](../reports/journey-global-report.md#push-global)
+* [Create a push notification](create-push.md)
+* [Add a message in a journey](../building-journeys/journeys-message.md)
+* [Add a message in a campaign](../campaigns/create-campaign.md)
+

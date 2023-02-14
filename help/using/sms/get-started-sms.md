@@ -11,10 +11,6 @@ exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 ---
 # Get started with SMS {#get-started-sms}
 
->[!IMPORTANT]
->
->If this is your first time creating an SMS, make sure the SMS channel has been configured. [Learn more](sms-configuration.md).
-
 Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
 SMS deliveries can be created:
@@ -27,7 +23,10 @@ SMS deliveries can be created:
 
     For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
 
-If this is your first time creating an SMS message, make sure the SMS channel has been configured. [Learn more](sms-configuration.md).
+
+>[!IMPORTANT]
+>
+>If this is your first time creating an SMS, make sure the SMS channel has been configured. [Learn more](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

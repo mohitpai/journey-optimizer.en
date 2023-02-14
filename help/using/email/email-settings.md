@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure email settings
 description: Learn how to configure email settings at the channel surface level
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
