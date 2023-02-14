@@ -58,14 +58,14 @@ Note that each widget can be resized and deleted if needed.
 <table>
 <thead>
 <tr>
-<th><strong>Export Journey Optimizer datasets to cloud storage destinations (beta)</strong><br/></th>
+<th><strong>Export Journey Optimizer Datasets to Cloud Storage Destinations (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>You can now establish a live connection with cloud storage locations in order to export the content of your datasets. Available destinations are: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
-<p>This feature is currently available as a beta to select users only.</p>
+<p>NOTE - This feature is currently available as a beta to select users only.</p>
 <!--p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -76,7 +76,7 @@ Note that each widget can be resized and deleted if needed.
 <table>
 <thead>
 <tr>
-<th><strong>Tags in journeys</strong><br/></th>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
