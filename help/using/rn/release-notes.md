@@ -116,10 +116,6 @@ Note that each widget can be resized and deleted as needed.
 
 * **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each Value field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
 
-* **PTR records** - You can now edit the PTR records to associate a delegated subdomain when topping up IPs provisioned. [Learn more](../configuration/ptr-records.md)
-
-
-
 **Decision Management**
 
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
