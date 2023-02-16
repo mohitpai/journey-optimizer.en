@@ -18,7 +18,7 @@ Use Abobe Journey Optimizer to personalize and send messages built from Adobe Ex
 >[!AVAILABILITY]
 >
 >Integration with Adobe Experience Manager is currently available as a beta to select users only.
-> As a beta user, you use [this form](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} to share feedback.
+> As a beta user, use [this form](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} to share feedback.
 
 ## Before starting{#aem-templates-start}
 
