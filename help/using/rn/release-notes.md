@@ -21,6 +21,9 @@ This section contains prerelease information. Release dates, features, and other
 
 Availability: **February 22, 2023**
 
+### New capabilities{#feb-2023-features}
+
+
 <table>
 <thead>
 <tr>
