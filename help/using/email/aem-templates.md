@@ -32,7 +32,10 @@ As a part of the beta program, the Cloud Service configuration was performed by 
 
 ### Permissions{#aem-templates-permissions}
 
-To create, edit and delete content templates, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+To share a template in Adobe Experience Manager, the following permissions are required: 
+
+To create, edit and delete content templates in Adobe Journey Optimizer, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+
 
 ### Guardrails and limitations{#aem-templates-limitations}
 
@@ -63,7 +66,7 @@ The template is added to Adobe Journey Optimizer content templates of the select
 
 Once the Experience Manager template is available in Journey Optimizer as a content template, you can identify and incorporate the necessary content for the email, including personalization.
 
-Learn how to edit an personalize an email content in [this section](content-from-scratch.md).
+Learn how to edit and personalize an email content in [this section](content-from-scratch.md).
 
-When your content template is ready, [test and validate it](content-templates.md#test-template). You can then create emails based on this template, and complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send the message.
+When your content template is ready, [test and validate it](content-templates.md#test-template). You can then [create emails based on this template](email-templates.md), and complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send the message.
 
