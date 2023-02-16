@@ -98,7 +98,7 @@ Note that each widget can be resized and deleted as needed.
 
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
-* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths.	
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths.
 
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
@@ -111,7 +111,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Email surface** - An additional check has been added to the email surface settings: if the MX record for the subdomain used in the Reply to (email) address or in the BCC email address is not properly configured, the email surface cannot be created anymore. You must have it configured or use another one. [Learn more](../email/email-settings.md#email-header)
 
-* **Email surface** - In the URL tracking parameters section of an email surface settings, the limit for each Value field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking.	[Learn more](../email/email-settings.md#url-tracking)
+* **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each Value field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
 
 * **PTR records** - You can now edit the PTR records to associate a delegated subdomain when topping up IPs provisioned. [Learn more](../configuration/ptr-records.md)
 
@@ -123,7 +123,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
-* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping.	[Learn more](../offers/offer-library/add-constraints.md#capping)
+* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
 
