@@ -24,7 +24,7 @@ Availability: **February 22, 2023**
 ### New capabilities{#feb-2023-features}
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Performance Measurement in campaigns</strong><br/></th>
@@ -35,7 +35,7 @@ Availability: **February 22, 2023**
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the <strong>Objective</strong> tab of your campaign reports. </p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<!--p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
-
+-->
 
 
 <table>
