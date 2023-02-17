@@ -84,7 +84,7 @@ If there are condition rules that you will frequently reuse, you can save save t
 
 ## Edit and delete saved conditional rules {#edit-delete}
 
-You can delete a conditional rule at any time using the ellipse button.
+You can delete a conditional rule at any time using the ellipsis button.
 
 ![](assets/conditions-open.png)
 

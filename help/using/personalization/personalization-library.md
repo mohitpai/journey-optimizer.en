@@ -63,7 +63,7 @@ To save an expression to the library, follow these steps:
 
 To edit an existing expression, add it to the editor, then modify it according to your needs. Click **[!UICONTROL Add to library]** to validate the syntax and save the expression.
 
-To delete an expression, click the ellipse button then click **[!UICONTROL Delete]**.
+To delete an expression, click the ellipsis button then click **[!UICONTROL Delete]**.
 
 ## How-to video{#video}
 
