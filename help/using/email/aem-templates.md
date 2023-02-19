@@ -9,6 +9,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 
 ---
 # Work with Adobe Experience Manager templates {#aem-templates}
