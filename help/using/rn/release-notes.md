@@ -115,9 +115,9 @@ Note that each widget can be resized and deleted as needed.
 
 * **Allowed list** - You can now download the allowed list as a .csv file. [Learn more](../configuration/allow-list.md)
 
-* **Email surface** - An additional check has been added to the email surface settings: if the MX record for the subdomain used in the Reply to (email) address or in the BCC email address is not properly configured, the email surface cannot be created anymore. You must have it configured or use another one. [Learn more](../email/email-settings.md#email-header)
+* **Email surface** - An additional check has been added to the email surface settings: if the MX record for the subdomain used in the **Reply to (email) address** or in the **BCC email address** is not properly configured, the email surface cannot be created anymore. You must have it configured or use another one. [Learn more](../email/email-settings.md#email-header)
 
-* **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each Value field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
+* **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each **Value** field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
 
 **Decision Management**
 
