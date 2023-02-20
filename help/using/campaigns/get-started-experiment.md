@@ -106,6 +106,11 @@ To gain true business insights, you should stick to just one Experiment. Instead
 
 ## Interpret the results of your Experiments {#interpret-results}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Summary widget"
+>abstract="The Summary widget provides an overview of your experiment results, including whether they are conclusive or not. It offers a quick and easy way to understand the outcome of your experiment."
+
 ![](assets/experimentation_report_3.png)
 
 This section describes the Experiment reports and how to understand the various statistical quantities that are presented.
