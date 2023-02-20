@@ -5,7 +5,7 @@ title: Release notes
 description: Journey Optimizer Release notes
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
-# Release Notes {#release-notes}
+# Release notes {#release-notes}
 
 [!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes. 
 
