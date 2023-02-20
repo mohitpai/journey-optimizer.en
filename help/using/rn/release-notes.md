@@ -55,7 +55,7 @@ Note that each widget can be resized and deleted as needed.
 +++
 -->
 
-
+<!--
 <table>
 <thead>
 <tr>
@@ -67,11 +67,12 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>You can now establish a live connection with cloud storage locations in order to export the content of your datasets. Available destinations are: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Caution</strong> - This feature is currently available as a beta to all Adobe Journey Optimizer users.</p>
-<!--p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 
 <table>
