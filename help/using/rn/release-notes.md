@@ -21,10 +21,11 @@ This section contains prerelease information. Release dates, features, and other
 
 Availability: **February 22, 2023**
 
+<!--
 ### New capabilities{#feb-2023-features}
 
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Performance Measurement in campaigns</strong><br/></th>
@@ -53,9 +54,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
--->
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -72,7 +72,7 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
--->
+
 
 
 <table>
@@ -90,7 +90,7 @@ Note that each widget can be resized and deleted as needed.
 </tbody>
 </table>
 
-
+-->
 
 ### Improvements {#feb-2023-improvements}
 
