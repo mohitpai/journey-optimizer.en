@@ -16,6 +16,43 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
+## February 2023 Early Release Notes {#feb-2023}
+
+This section contains prerelease information. Release dates, features, and other information are subject to change without notice. Detailed documentation will be available at the release date.
+
+Availability: **February 22, 2023**
+
+### Improvements {#feb-2023-improvements}
+
+**Journeys**
+
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. 
+
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. 
+
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes.
+
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths.
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+
+
+**Administration**
+
+* **Allowed list** - You can now download the allowed list as a .csv file. 
+
+* **Email surface** - An additional check has been added to the email surface settings: if the MX record for the subdomain used in the **Reply to (email) address** or in the **BCC email address** is not properly configured, the email surface cannot be created anymore. You must have it configured or use another one.
+
+* **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each **Value** field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. 
+
+**Decision Management**
+
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. 
+
+* **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor.
+
+
+
 ## January 2023 Release {#jan-2023-release}
 
 ### New capabilities{#jan-2023-features}
