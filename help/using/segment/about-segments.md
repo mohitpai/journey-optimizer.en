@@ -14,7 +14,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Segment"
->abstract=""By leveraging Real-Time Customer Profile data, Adobe Experience Platform enables you to easily create targeted segments that capture the unique behaviors and preferences of your customers."
+>abstract="By leveraging Real-Time Customer Profile data, Adobe Experience Platform enables you to easily create targeted segments that capture the unique behaviors and preferences of your customers."
 
 [!DNL Journey Optimizer]  allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and use them into your journeys or campaigns.
 
