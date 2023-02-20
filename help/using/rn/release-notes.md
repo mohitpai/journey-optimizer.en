@@ -30,13 +30,6 @@ Availability: **February 22, 2023**
 
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. 
 
-* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes.
-
-* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths.
-
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-
-
 **Administration**
 
 * **Allowed list** - You can now download the allowed list as a .csv file. 
