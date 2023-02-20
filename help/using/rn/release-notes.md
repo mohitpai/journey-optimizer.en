@@ -104,9 +104,11 @@ Note that each widget can be resized and deleted as needed.
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths.
 
+<!--
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
+-->
 
 
 **Administration**
