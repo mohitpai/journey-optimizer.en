@@ -25,7 +25,7 @@ This tab lists all audiences stored into Adobe Experience Platform. Audiences cr
 
 The **[!UICONTROL Profile count]** column provides information on the number of profiles included in an audience. Click the "i" button for more information on the date this information has been calculated.
 
-To assign custom or core data usage labels to an audience, click the ellipse button then select **[!UICONTROL Manage Access]**. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
+To assign custom or core data usage labels to an audience, click the ellipsis button then select **[!UICONTROL Manage Access]**. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

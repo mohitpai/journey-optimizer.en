@@ -70,7 +70,7 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 
 >[!NOTE]
 >
->You can duplicate or delete an existing composition at any time using the ellipse button in the list.
+>You can duplicate or delete an existing composition at any time using the ellipsis button in the list.
 
 Learn more:
 
