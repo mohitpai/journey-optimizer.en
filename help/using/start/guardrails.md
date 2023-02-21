@@ -71,6 +71,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 ### Data sources {#data-sources-g}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
+* Internal Adobe addresses (.adobe.) are not allowed.
 
 ### Journeys and profile creation {#journeys-limitation-profile-creation}
  
