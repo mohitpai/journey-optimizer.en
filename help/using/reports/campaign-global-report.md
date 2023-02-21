@@ -142,7 +142,7 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 
 >[!IMPORTANT]
 >
->The In-app feature is currently available as a beta to select users only. 
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your campaign.
 

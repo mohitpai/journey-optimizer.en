@@ -13,7 +13,7 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 
 >[!IMPORTANT]
 >
->The In-app feature is currently available as a beta to select users only. 
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care. 
 
 In-app messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
 

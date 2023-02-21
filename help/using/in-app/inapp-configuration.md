@@ -11,7 +11,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 
 >[!IMPORTANT]
 >
->The In-app feature is currently available as a beta to select users only. 
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care. 
 
 Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
 

@@ -13,7 +13,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
 >[!IMPORTANT]
 >
->The In-app feature is currently available as a beta to select users only. 
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 ## Create a campaign and an In-app message{#create-in-app-in-a-campaign}
 
