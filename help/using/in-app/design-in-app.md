@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, design, formatting
+badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}

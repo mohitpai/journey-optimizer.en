@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, creation, start
+badge: label="Beta" type="Informative"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}

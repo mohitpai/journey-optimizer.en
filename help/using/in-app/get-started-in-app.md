@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, creation, start
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}

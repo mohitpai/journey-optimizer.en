@@ -4,6 +4,7 @@ description: Learn how to configure your environment to send In-app messages wit
 role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
+badge: label="Beta" type="Informative"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}
