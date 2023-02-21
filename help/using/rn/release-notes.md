@@ -15,7 +15,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-## February 2023 Early Release Notes {#feb-2023}
+## February 2023 Early Release Notes {#feb-2023-2}
 
 This section contains prerelease information. Release dates, features, and other information are subject to change without notice.
 
