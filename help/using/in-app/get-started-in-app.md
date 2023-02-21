@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, creation, start
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
@@ -46,11 +44,11 @@ Once done, you can create, configure and sent your first In-app message. Learn h
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>In-app report</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-app report</strong></a>
 </div>
 <p>
 </td>

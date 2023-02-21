@@ -21,9 +21,27 @@ This section contains prerelease information. Release dates, features, and other
 
 Availability: **February 22, 2023**
 
-<!--
 ### New capabilities{#feb-2023-features}
 
+<table>
+<thead>
+<tr>
+<th><strong>In-app channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>
+This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
 
 <table>
 <thead>

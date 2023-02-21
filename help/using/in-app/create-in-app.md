@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, creation, start
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
@@ -102,12 +100,12 @@ To perform this, follow the steps below:
 
 Your campaign is now activated. The In-App notification configured in the campaign is sent immediately, or on the specified date.
 
-Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](inapp-report.md).
+Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md#inapp-report).
 
 **Related topics:**
 
 * [Design In-app message](design-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)
 * [In-app configuration](inapp-configuration.md)
 
 ## How-to video{#video}

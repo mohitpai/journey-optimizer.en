@@ -23,8 +23,8 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Enter the URL to edit"
->abstract="Enter the URL of a specific web page to use for editing the content that will be applied on the web surface defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
+>title="Confirm the URL to edit"
+>abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web surface defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]

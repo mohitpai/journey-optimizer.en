@@ -3,8 +3,6 @@ title: In-app configuration
 description: Learn how to configure your environment to send In-app messages with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
@@ -65,4 +63,4 @@ The In-app channel is now configured. You can start sending In-app messages to y
 * [Create an In-app message](create-in-app.md)
 * [Create a campaign](../campaigns/create-campaign.md)
 * [Design In-app message](design-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)

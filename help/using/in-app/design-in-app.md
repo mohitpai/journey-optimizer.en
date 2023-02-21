@@ -5,8 +5,6 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, design, formatting
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
@@ -186,7 +184,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 **Related topics:**
 
 * [Create In-app message](create-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)
 * [In-app configuration](inapp-configuration.md)
 
 ## How-to video{#video}
