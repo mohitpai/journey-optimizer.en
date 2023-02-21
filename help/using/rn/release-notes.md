@@ -21,7 +21,7 @@ This section contains prerelease information. Release dates, features, and other
 
 Availability: **February 22, 2023**
 
-### New capabilities{#feb-2023-features}
+### New capabilities{#feb-2023-features-2}
 
 <table>
 <thead>
@@ -110,7 +110,7 @@ Note that each widget can be resized and deleted as needed.
 
 -->
 
-### Improvements {#feb-2023-improvements}
+### Improvements {#feb-2023-improvements-2}
 
 **Journeys**
 
