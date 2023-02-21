@@ -59,7 +59,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * Only POST and PUT call methods are supported
 * The name of the query parameter or header must not start with "." or "$"
 * IP addresses are not allowed
-* Internal Adobe addresses (.adobe.) are not allowed.
+* Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
 
 ### Events {#events-g}
 
@@ -71,7 +71,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 ### Data sources {#data-sources-g}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
-* Internal Adobe addresses (.adobe.) are not allowed.
+* Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
 
 ### Journeys and profile creation {#journeys-limitation-profile-creation}
  
