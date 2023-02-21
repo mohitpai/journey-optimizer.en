@@ -5,7 +5,7 @@ title: Release notes
 description: Journey Optimizer Release notes
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
-# Release Notes {#release-notes}
+# Release notes {#release-notes}
 
 [!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes. 
 
@@ -151,6 +151,36 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
+
+
+## February 2023 Early Release Notes {#feb-2023}
+
+This section contains prerelease information. Release dates, features, and other information are subject to change without notice. Detailed documentation will be available at the release date.
+
+Availability: **February 22, 2023**
+
+### Improvements {#feb-2023-improvements}
+
+**Journeys**
+
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. 
+
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. 
+
+**Administration**
+
+* **Allowed list** - You can now download the allowed list as a .csv file. 
+
+* **Email surface** - An additional check has been added to the email surface settings: if the MX record for the subdomain used in the **Reply to (email) address** or in the **BCC email address** is not properly configured, the email surface cannot be created anymore. You must have it configured or use another one.
+
+* **Email surface** - In the URL tracking parameters section of the email surface settings, the limit for each **Value** field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. 
+
+**Decision Management**
+
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. 
+
+* **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor.
+
 
 
 ## January 2023 Release {#jan-2023-release}

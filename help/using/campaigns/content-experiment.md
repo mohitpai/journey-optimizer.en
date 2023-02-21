@@ -158,6 +158,11 @@ Note that each widget can be resized and deleted if needed. For more information
 
 ## Experimentation report {#experimentation-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Unique clicks per profile"
+>abstract="The Unique clicks per profile metric helps you understand how effectively your experiment is engaging your audience and driving clicks to your target destination. It calculates the number of distinct clicks on a particular link, divided by the total number of profiles that were exposed to the link."
+
 >[!AVAILABILITY]
 >
 >The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
