@@ -10,6 +10,10 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
 
+>[!IMPORTANT]
+>
+>The In-app feature is currently available as a beta to select users only. 
+
 You can edit the In-app content to configure experience options, including the message layout and display, text, and button options.
 
 To configure the message content, click the **[!UICONTROL Edit content]** button and  use the options on the right section of the screen to design your In-app message content.

@@ -10,6 +10,10 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}
 
+>[!IMPORTANT]
+>
+>The In-app feature is currently available as a beta to select users only. 
+
 In-app messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
 
 Use Journey Optimizer to create In-app notifications, and configure experience options, including the message layout and display, text, and button options.

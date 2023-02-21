@@ -10,6 +10,10 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
+>[!IMPORTANT]
+>
+>The In-app feature is currently available as a beta to select users only. 
+
 ## Create a campaign and an In-app message{#create-in-app-in-a-campaign}
 
 To create an In-app message, follow the steps below:
