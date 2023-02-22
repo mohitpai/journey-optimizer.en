@@ -11,7 +11,7 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 

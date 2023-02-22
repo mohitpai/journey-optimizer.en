@@ -5,6 +5,7 @@ title: Export datasets to cloud storage locations
 description: Learn how to export your datasets using Adobe Experience Platform cloud storage destinations.
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: platform, data lake, create, lake, datasets, profile
 ---
 

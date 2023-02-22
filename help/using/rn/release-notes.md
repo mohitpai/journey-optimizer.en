@@ -22,15 +22,14 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel</strong><br/></th>
+<th><strong>In-app channel (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
-<p>
-This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p><strong>Caution</strong> - This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </td>
@@ -49,9 +48,7 @@ This feature is currently in beta version and only available to beta customers. 
 <td>
 <p>You can now establish a live connection with cloud storage locations in order to export the content of your datasets. Available destinations are: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Caution</strong> - This feature is currently in beta and available to all Adobe Journey Optimizer users. Please work with your Adobe representative on getting access to Destinations if you do not already have access.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>For more information, refer to the <a href="../data/export-datasets.md">detailed documentation</a>.</p>
 </td>
 </tr>
