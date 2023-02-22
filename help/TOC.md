@@ -196,10 +196,9 @@ solution: Journey Optimizer
     + [Configure email surface settings](using/email/email-settings.md)
 + In-app channel{#in-app}
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
-  + [Configure In-app channel](using/in-app/inapp-configuration.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
-  + [In-app report](using/in-app/inapp-report.md)
+  + [Configure In-app channel](using/in-app/inapp-configuration.md)
 + Push notification channel{#push}
   + [Get started with push notification](using/push/get-started-push.md)
   + [Create a push notification](using/push/create-push.md)
@@ -410,6 +409,7 @@ solution: Journey Optimizer
   + [Queries](using/data/get-started-queries.md)
   + Journey Optimizer datasets {#datasets}
     + [Get started with datasets](using/data/get-started-datasets.md)
+    + [Export Journey Optimizer datasets](using/data/export-datasets.md)
     + [Query examples](using/data/datasets-query-examples.md)
 + Configuration{#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)

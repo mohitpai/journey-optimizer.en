@@ -145,6 +145,14 @@ To ensure proper reply management, follow the recommandations below:
 
 * Do not mark messages as spam in the reply inbox, as it will impact all the other replies sent to this address.
 
+Additionally, when defining the **[!UICONTROL Reply to (email)]** address, make sure to use a subdomain that has a valid MX record configuration, otherwise the email surface processing will fail.
+
+If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
+
+>[!NOTE]
+>
+>If the subdomain of the address you entered is a domain that was [fully delegated](../configuration/delegate-subdomain.md#full-subdomain-delegation) to Adobe, contact your Adobe account executive.
+
 ### Forward email {#forward-email}
 
 If you want to forward to a specific email address all emails received by [!DNL Journey Optimizer] for the delegated subdomain, contact Adobe Customer Care. You will need to provide:
@@ -167,6 +175,10 @@ You can send an identical copy (or blind carbon copy) of emails sent by [!DNL Jo
 To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level. [Learn more](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Additionally, when defining the **[!UICONTROL Bcc email]** address, make sure to use a subdomain that has a valid MX record configuration, otherwise the email surface processing will fail.
+
+If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
 
 ## Email retry parameters {#email-retry}
 
@@ -231,7 +243,7 @@ You can also edit each **[!UICONTROL Value]** field using the [Expression Editor
 
 >[!NOTE]
 >
->You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
+>You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain a number of characters up to the limit of 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

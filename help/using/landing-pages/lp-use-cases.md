@@ -160,6 +160,8 @@ The opt-out information is stored in the **Consent Service Dataset**. [Learn mor
 >[!NOTE]
 >
 >If the merge method for your default [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>
+>Even if no batches have been added to this dataset, it will still contain the opt-in/opt-out information.
 
 
 <!--

@@ -84,7 +84,7 @@ You can duplicate a live campaign to create a new one. To do this, open the camp
 
 With time, the list of campaigns keeps growing and eventually makes it more difficult to browse completed and stopped campaigns.
 
-To prevent this, you can archive completed and stopped campaigns that you do not need anymore. To do this, click the ellipse button then select **[!UICONTROL Archive]**.
+To prevent this, you can archive completed and stopped campaigns that you do not need anymore. To do this, click the ellipsis button then select **[!UICONTROL Archive]**.
 
 ![](assets/create-campaign-archive.png)
 

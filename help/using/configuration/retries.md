@@ -66,5 +66,5 @@ For example, you may set the retry period to 24 hours for a transactional email 
 >
 >The retry period cannot exceed 84 hours. The minimum retry period is 6 hours for marketing emails and 10 minutes for transactional emails.
 
-Learn how to adjust the email retry parameters when creating a channel surface in [this section](channel-surfaces.md#create-channel-surface).
+Learn how to adjust the email retry parameters when creating a channel surface in [this section](../email/email-settings.md#email-retry).
 

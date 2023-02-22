@@ -5,18 +5,19 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, creation, start
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}
 
-In-app messages are notifications you can send to users inside your app to direct them toward specific points of interest. In-app notifications can be used to propose a service, promote a new feature, a special offer, or onboard a new user. 
+>[!IMPORTANT]
+>
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+
+In-app messages are notifications that can be sent to users within your app, guiding them to specific points of interest. These notifications can be used for different purposes, such as promoting new features, presenting special offers, or facilitating user onboarding. By leveraging In-app messages, you can effectively engage with your audience and steer them towards important aspects of your application.
 
 Use Journey Optimizer to create In-app notifications, and configure experience options, including the message layout and display, text, and button options.
-
-![](assets/new-in-app.png)
 
 ## Prerequisites{#prerequisites-in-app}
 
@@ -46,11 +47,11 @@ Once done, you can create, configure and sent your first In-app message. Learn h
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>In-app report</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-app report</strong></a>
 </div>
 <p>
 </td>

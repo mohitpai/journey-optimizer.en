@@ -77,7 +77,6 @@ However, the BCC address gets picked up for sending communications following the
 
 * Do not mark messages as spam in the BCC inbox, as it will impact all the other emails sent to this address.
 
-
 >[!CAUTION]
 >
 >Do not click the unsubscribe link in the emails sent to the BCC address as you will immediately unsubscribe the corresponding recipients.

@@ -5,12 +5,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, design, formatting
+badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
+
+>[!IMPORTANT]
+>
+>The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 You can edit the In-app content to configure experience options, including the message layout and display, text, and button options.
 
@@ -186,7 +189,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 **Related topics:**
 
 * [Create In-app message](create-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)
 * [In-app configuration](inapp-configuration.md)
 
 ## How-to video{#video}
