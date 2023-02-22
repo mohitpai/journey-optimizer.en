@@ -160,8 +160,8 @@ Note that each widget can be resized and deleted if needed. For more information
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Unique clicks per profile"
->abstract="The Unique clicks per profile metric helps you understand how effectively your experiment is engaging your audience and driving clicks to your target destination. It calculates the number of distinct clicks on a particular link, divided by the total number of profiles that were exposed to the link."
+>title="Success metric"
+>abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
 
 >[!AVAILABILITY]
 >
