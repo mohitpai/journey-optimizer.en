@@ -14,52 +14,63 @@ badge: label="Beta" type="Informative"
 ---
 # Work with Adobe Experience Manager templates {#aem-templates}
 
-Use Abobe Journey Optimizer to personalize and send messages built from Adobe Experience Manager templates. You can use Adobe Experience Manager as a source of content to create and design templates, and send them to Adobe Journey Optimizer. Once shared, these templates are available as email templates in Adobe Journey Optimizer email designer.
-
 >[!AVAILABILITY]
 >
 >Integration with Adobe Experience Manager is currently available as a beta to select users only.
 > As a beta user, use [this form](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} to share feedback.
 
-## Before starting{#aem-templates-start}
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager templates. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Before starting using this capability, make sure your are aligned with the following requirements.
+## Prerequesites {#prerequesites}
 
-### Experience Manager settings{#aem-templates-settings}
+Before starting using this capability, make sure your are aligned with the following requirements:
 
-This capability is available starting Adobe Experience Manager 6.5.14. You must connect to Adobe Experience Manager Sites on your Managed Services Author environment.
+* **Experience Manager settings**
 
-As a part of the beta program, the Cloud Service configuration was performed by Adobe in Adobe Experience Manager to connect to Adobe Journey Optimizer. 
+    This capability is available starting Adobe Experience Manager 6.5.14. You must connect to Adobe Experience Manager Sites on your Managed Services Author environment.
 
-### Permissions{#aem-templates-permissions}
+    As a part of the beta program, the Cloud Service configuration was performed by Adobe in Adobe Experience Manager to connect to Adobe Journey Optimizer. 
 
-To share a template in Adobe Experience Manager, the following permissions are required: 
+* **Permissions**
 
-To create, edit and delete content templates in Adobe Journey Optimizer, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+    To create, edit and delete content templates in Adobe Journey Optimizer, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
 
-### Guardrails and limitations{#aem-templates-limitations}
+## Guardrails and limitations{#aem-templates-limitations}
 
-* The Experience Manager template must not contain personalization. Personalization is performed in Journey Optimizer only.
-* Bulk template export is not supported: you can export Experience Manager templates one by one only.
+To further optimize your use of Adobe Experience Manager with Adobe Journey Optimizer, it's important to be aware of the following additional guardrails and limitations:
+
+* The Experience Manager template must not contain personalization. Personalization should only be performed in Journey Optimizer.
+
+* Bulk template export is not currently supported, templates must be exported individually.
+
+* Syncing between Experience Manager and Journey Optimizer is currently not available. If changes are made to an Experience Manager template after it has been sent to Journey Optimizer, the user will need to re-export the template and re-send it to Journey Optimizer.
+
+* Experience fragment is not currently supported.
 
 ## Send a template to Journey Optimizer{#aem-templates-send}
 
 To export an Adobe Experience Manager template to Adobe Journey Optimizer, follow the steps below:
 
-1. Browse to the **Outbound Marketing** section of the user interface.
+1. From your Adobe Experience Manager homepage, select the **[!UICONTROL Outbound Marketing]**.
 
     ![](assets/aem-outbound-menu.png)
 
-1. Access your content library, select your template and choose **Send to**.
+1. Access your content library and select the template you want to export to Journey Optimizer.
+
+    You can also create a new page from scratch. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
     ![](assets/aem-send-template.png)
 
-1. Enter the name of the content template and select the target sandbox.
+1. After selecting your template, select **[!UICONTROL Send to]** from the advanced menu. 
+
+    ![](assets/aem-advanced-menu.png)
+
+1. Enter the **[!UICONTROL Name]** of the Content template and select the target **[!UICONTROL Sandbox]**.
 
     ![](assets/aem-send-template-settings.png)
     
-1. Click the **Send** button to validate. Once export is finished, a message is displayed in the user interface.
+1. After you have clicked the **[!UICONTROL Send]** button, the export process will begin. Once the export is complete, you will see the following message in the user interface: "Template "XX" sent successfully to AJO".
 
 The template is added to Adobe Journey Optimizer content templates of the selected sandbox.
 
