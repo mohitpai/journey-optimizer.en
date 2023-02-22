@@ -52,7 +52,7 @@ This feature is currently in beta version and only available to beta customers. 
 
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 
-<p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../data/export-datasets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
