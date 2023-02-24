@@ -19,11 +19,11 @@ badge: label="Beta" type="Informative"
 >Integration with Adobe Experience Manager is currently available as a beta to select users only.
 > As a beta user, use [this form](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} to share feedback.
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager templates. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-## Prerequesites {#prerequesites}
+## Prerequisites {#prerequisites}
 
-Before starting using this capability, make sure your are aligned with the following requirements:
+Before starting using this capability, make sure you are aligned with the following requirements:
 
 * **Experience Manager settings**
 
@@ -45,8 +45,6 @@ To further optimize your use of Adobe Experience Manager with Adobe Journey Opti
 * Bulk template export is not currently supported, templates must be exported individually.
 
 * Syncing between Experience Manager and Journey Optimizer is currently not available. If changes are made to an Experience Manager template after it has been sent to Journey Optimizer, the user will need to re-export the template and re-send it to Journey Optimizer.
-
-* Experience fragment is not currently supported.
 
 ## Send a template to Journey Optimizer{#aem-templates-send}
 
@@ -78,7 +76,28 @@ The template is added to Adobe Journey Optimizer content templates of the select
 
 Once the Experience Manager template is available in Journey Optimizer as a content template, you can identify and incorporate the necessary content for the email, including personalization.
 
-Learn how to edit and personalize an email content in [this section](content-from-scratch.md).
+1. In Journey Optimizer, from the **[!UICONTROL Content template]** menu, access your imported template.
 
-When your content template is ready, [test and validate it](content-templates.md#test-template). You can then [create emails based on this template](email-templates.md), and complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send the message.
+    ![](assets/aem_ajo_1.png)
 
+1. By clicking the **[!UICONTROL Alert]** button, you can quickly check if any important settings are missing. This will help ensure that your messages are properly configured and prevent any potential errors or issues.
+
+    ![](assets/aem_ajo_2.png)
+
+1. In the Template properties window, click the **[!UICONTROL Manage access]** button to assign custom or core data usage labels to your template. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
+
+1. To further personalize your AEM template and add custom personalization to your content, click **[!UICONTROL Edit content]**. This will allow you to easily make changes and tailor the template to your specific needs. [Learn more](get-started-email-design.md)
+
+    >[!NOTE]
+    >
+    > If you want to edit and personalize your template, you will only be able to use the compatibility mode. 
+
+1. When your content template is ready, [test and validate it](content-templates.md#test-template).
+
+1. Once your content has been defined, you can use it when creating new email by browsing the **[!UICONTROL Saved templates]** collection. Then, select **[!UICONTROL Use this template]**.
+
+    Learn how to edit and personalize an email content in [this section](content-from-scratch.md).
+
+    ![](assets/aem_ajo_3.png)
+
+When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md), and activate it to send the message.
