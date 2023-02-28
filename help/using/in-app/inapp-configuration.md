@@ -9,7 +9,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
@@ -19,7 +19,7 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
 1. Select the [!DNL Adobe Experience Platform] service.
 
-    [!DNL Edge Segmentation], [!DNL Offer Decisioning] and [!DNL Adobe Journey Optimizer] must be selected.
+    [!DNL Edge Segmentation] and [!DNL Adobe Journey Optimizer] must be selected.
 
     ![](assets/inapp_config_6.png)
 

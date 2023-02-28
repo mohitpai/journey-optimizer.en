@@ -11,7 +11,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
