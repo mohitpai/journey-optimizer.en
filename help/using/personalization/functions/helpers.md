@@ -98,16 +98,6 @@ The `elseif` statement will specify a new condition to test if the first stateme
     {%/if%}
     ```
 
-1. **Determine if a profile is already a member**
-
-    ```sql
-    {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-        You're a member!
-    {%else%}
-        You should be a member! Sign up now!
-    {%/if%}
-    ```
-
 >[!NOTE]
 >
 >To learn more about segmentation and segmentation service, refer to this [section](../../segment/about-segments.md).
