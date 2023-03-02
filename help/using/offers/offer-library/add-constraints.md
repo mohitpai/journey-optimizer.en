@@ -138,6 +138,11 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 >title="Set the capping frequency"
 >abstract="You can choose to reset the offer capping counter on a daily, weekly or monthly basis."
 
+[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="The use of impressions as capping events is available for inbound channels only."
+
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
 Limiting the number of times users get specific offers allows you to avoid over-solicitating your customers and thus to optimize each touchpoint with the best offer.

@@ -191,6 +191,7 @@ solution: Journey Optimizer
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
   + [Create content templates](using/email/content-templates.md)
+  + [Use Experience Manager templates](using/email/aem-templates.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
