@@ -10,8 +10,6 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-hide: yes
-hidefromtoc: yes
 ---
 # Work with Adobe Experience Manager templates {#aem-templates}
 
