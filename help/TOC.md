@@ -34,13 +34,14 @@ solution: Journey Optimizer
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
     + [Test your journey](using/building-journeys/testing-the-journey.md)
     + [Publish your journey](using/building-journeys/publishing-the-journey.md)
-  + Manage your journeys{#mannage-journey}
+  + Manage your journeys{#manage-journey}
     + [End your journey](using/building-journeys/end-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
     + [Profile entrance management](using/building-journeys/entry-management.md)
     + [Copy a journey to another sandbox](using/building-journeys/copy-to-sandbox.md)
     + [Troubleshoot your journey](using/building-journeys/troubleshooting.md)
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
+    + [Manage tags in journeys](using/building-journeys/tags.md) 
   + Activities {#about-journey-building}
     + [Get started with journey activities](using/building-journeys/about-journey-activities.md)
     + [General events](using/building-journeys/general-events.md)
@@ -199,7 +200,6 @@ solution: Journey Optimizer
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
-  + [Send an In-app message](using/in-app/send-in-app.md)
   + [Configure In-app channel](using/in-app/inapp-configuration.md)
 + Push notification channel{#push}
   + [Get started with push notification](using/push/get-started-push.md)
@@ -328,10 +328,7 @@ solution: Journey Optimizer
       + AI model types {#ai-model-types}
         + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
         + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
-      + Create AI models {#configure-ai-model}
-        + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
-        + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
-        + [Configure events capture](using/offers/ranking/schema-requirement.md)
+      + [Create AI models](using/offers/ranking/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
@@ -344,9 +341,13 @@ solution: Journey Optimizer
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
     + [Create simulations](using/offers/offer-activities/simulation.md)
   + [Batch decisioning](using/offers/batch-delivery.md)
+  + Collect event data {#collect-event-data}
+    + [Getting started with Decision management data collection](using/offers/data-collection/data-collection.md)
+    + [Create a dataset to collect events](using/offers/data-collection/create-dataset.md)
+    + [Configure events capture](using/offers/data-collection/schema-requirement.md)
   + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
-    + [Decision Management events key information](using/offers/reports/key-information.md)
+    + [Decision management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
   + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)

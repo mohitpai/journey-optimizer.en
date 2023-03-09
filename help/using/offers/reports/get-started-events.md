@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 ---
-# Get started with Decision Management events {#monitor-offer-events}
+# Get started with Decision management events {#monitor-offer-events}
 
-Each time Decision Management makes a decision for a given profile, information related to these events are automatically sent to Adobe Experience Platform.
+Each time Decision management makes a decision for a given profile, information related to these events are automatically sent to Adobe Experience Platform.
 
 This allows you to export these data to analyze them into your own reporting system. You can also leverage Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) in combination with other tools for enhanced analysis and reporting purposes.
 
-The datasets containing Decision Management events are accessible from Adobe Experience Platform **[!UICONTROL Datasets]** menu. One dataset is automatically created on provisioning for each of your instances.
+The datasets containing Decision management events are accessible from Adobe Experience Platform **[!UICONTROL Datasets]** menu. One dataset is automatically created on provisioning for each of your instances.
 
 ![](../assets/events-datasets-list.png)
 

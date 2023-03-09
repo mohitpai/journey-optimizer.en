@@ -8,21 +8,25 @@ role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 ---
-# Configure events capture {#schema-requirements}
+# Configure data collection {#schema-requirements}
 
-At this point, you must have:
+<!--To send in feedback data, you must define how the experience events will be captured.-->
 
-* created the AI model,
-* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
-* and in which dataset you want to collect the event data.
+To be able to get feedback on event types other than decision events, you must set the correct value for each event type in an **experience event** that is sent into Adobe Experience Platform.
 
-Now each time an offer is displayed and/or clicked, you want the corresponding event to be automatically captured by the **[!UICONTROL Experience Event - Proposition Interactions]** field group using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK.
+For each event type, make sure the schema used in the dataset has the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. [Learn more](create-dataset.md)
 
-To be able to send in event types (offer displayed or offer clicked), you must set the correct value for each event type in an experience event that is sent into Adobe Experience Platform. Below are the schema requirements you need to implement into your JavaScript code:
+Below are the schema requirements you need to implement into your JavaScript code.
 
-## Offer displayed scenario
+>[!NOTE]
+>
+>Decision events do not need to be sent in as Decision management will generate these events automatically and put them in the **[!UICONTROL ODE DecisionEvents]** dataset<!--to check--> that is auto-generated.
 
-**Event type:** `decisioning.propositionDisplay`
+## Track impressions
+
+Make sure the event type and source are as follows:
+
+**Experience event type:** `decisioning.propositionDisplay`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 +++**Sample payload:**
 
@@ -52,9 +56,11 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 
 +++
 
-### Offer clicked scenario
+## Track clicks
 
-**Event type:** `decisioning.propositionInteract`
+Make sure the event type and source are as follows:
+
+**Experience event type:** `decisioning.propositionInteract`
 **Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) or batch ingestion
 +++**Sample payload:**
 
@@ -83,6 +89,10 @@ To be able to send in event types (offer displayed or offer clicked), you must s
 ```
 
 +++
+
+## Track custom events
+
+For custom events, the schema used in the dataset must also have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it, but there is no specific requirement on the experience event type that must be used to tag these events.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
