@@ -15,6 +15,13 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
+
+## March 2023 Improvements {#march-2023}
+
+**Manage Tags in your Journeys**
+
+As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
+
 ## February 2023 Release Notes {#feb-2023}
 
 ### New capabilities{#feb-2023-features}
