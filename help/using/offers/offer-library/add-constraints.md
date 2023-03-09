@@ -9,25 +9,6 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 ---
 # Add constraints to an offer {#add-constraints}
 
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="About offer constraints"
->abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_constraints"
->title="About offer constraints"
->abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="About offer priority"
->abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_priority"
->title="Set priority"
->abstract="The priority helps define the priority of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers."
 
 Constraints allow you to define the conditions under which an offer will be displayed.
 
@@ -55,21 +36,6 @@ For example, if you set the following constraints:
 
 ## Eligibility {#eligibility}
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_eligibility"
->title="Define eligibility"
->abstract="By default, any profile will be eligible to be presented the offer, but you can use segments or decision rules to restrict the offer to specific profiles."
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="About offer eligibility"
->abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
->additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_total_profile_estimate"
->title="Total profile estimate"
->abstract="When you select segments or decision rules, you can see information on the estimated qualified profiles."
 
 The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer to specific profiles that you define using segments or decision rules.
 
@@ -123,26 +89,6 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
 ## Capping {#capping}
 
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_capping"
->title="Use capping"
->abstract="To avoid over-solicitating your customers, use capping to define the maximum number of times an offer can be presented."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Changing dates can impact capping"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="Set the capping frequency"
->abstract="You can choose to reset the offer capping counter on a daily, weekly or monthly basis. Note that after saving your offer, you will not be able to change the selected frequency."
-
-[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="The use of impressions as capping events is available for inbound channels only."
 
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
@@ -256,10 +202,6 @@ If you have defined several [representations](add-representations.md) for your o
 
 ### Impact of changing dates on capping {#capping-change-date}
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_offer_change_date"
->title="Changing dates can impact capping"
->abstract="If capping is applied to this offer, it can be impacted when you change the start or end date."
 
 You must proceed with care when changing the date of an offer, because this can have an impact on capping if the following conditions are met:
 
