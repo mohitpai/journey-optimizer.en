@@ -24,9 +24,15 @@ As a Journey Optimizer practitioner, you can now organize your business objects 
 
 **Decision management tags renamed to Collection qualifiers**
 
-To prevent any potential confusion with the recent release of tags feature across  Adobe Experience Platform, Decision Management tags have been renamed to "Collection qualifiers”.
+To prevent any potential confusion with the recent release of tags feature across  Adobe Experience Platform, Decision Management tags have been renamed to "Collection qualifiers".
 
-Note that although the term “tag” is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
+Note that although the term "tag" is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
+
+**Decision management capping**
+
+* You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
+
+* You can also choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
 ## February 2023 Release Notes {#feb-2023}
 
@@ -150,17 +156,13 @@ Note that each widget can be resized and deleted as needed.
 
 * **Email surface** - In the **URL tracking parameters** section of the email surface settings, the limit for each **Value** field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
 
-**Decision Management**
+**Decision management**
 
 <!--
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
-
-* **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
-
-* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
 ## January 2023 Release {#jan-2023-release}
 
