@@ -34,12 +34,11 @@ Before starting using this capability, make sure you are aligned with the follow
 
     To create, edit and delete content templates in Adobe Journey Optimizer, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
-
 ## Guardrails and limitations{#aem-templates-limitations}
 
 To further optimize your use of Adobe Experience Manager with Adobe Journey Optimizer, it's important to be aware of the following additional guardrails and limitations:
 
-* The Experience Manager template must not contain personalization. Personalization should only be performed in Journey Optimizer.
+* Proper Journey Optimizer syntax is required for personalization in the Experience Manager template to be effective. [Learn more](../personalization/personalization-syntax.md)
 
 * Bulk template export is not currently supported, templates must be exported individually.
 
@@ -53,13 +52,13 @@ To export an Adobe Experience Manager template to Adobe Journey Optimizer, follo
 
     ![](assets/aem-outbound-menu.png)
 
-1. Access your content library and select the template you want to export to Journey Optimizer.
+1. From your content library, you can use previously configured templates or create one from scratch. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
-    You can also create a new page from scratch. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. By incorporating Journey Optimizer personalization syntax into your template, you can enhance its customization capabilities. [Learn more](../personalization/personalization-syntax.md)
 
-    ![](assets/aem-send-template.png)
+    ![](assets/aem_ajo_4.png)
 
-1. After selecting your template, select **[!UICONTROL Send to]** from the advanced menu. 
+1. Select the template you want to export to Journey Optimizer and click **[!UICONTROL Send to]** from the advanced menu. 
 
     ![](assets/aem-advanced-menu.png)
 
@@ -85,7 +84,7 @@ Once the Experience Manager template is available in Journey Optimizer as a cont
 
 1. In the **[!UICONTROL Template properties]** window, click the **[!UICONTROL Manage access]** button to assign custom or core data usage labels to your template. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
 
-1. To further personalize your AEM template and add custom personalization to your content, click **[!UICONTROL Edit content]**. This will allow you to easily make changes and tailor the template to your specific needs. [Learn more](get-started-email-design.md)
+1. To further personalize your Experience Manager template and add custom personalization to your content, click **[!UICONTROL Edit content]**. This will allow you to easily make changes and tailor the template to your specific needs. [Learn more](get-started-email-design.md)
 
     >[!NOTE]
     >
@@ -95,8 +94,22 @@ Once the Experience Manager template is available in Journey Optimizer as a cont
 
 1. Once your content has been defined, you can use it when creating new email by browsing the **[!UICONTROL Saved templates]** collection. Then, select **[!UICONTROL Use this template]**.
 
-    Learn how to edit and personalize an email content in [this section](content-from-scratch.md).
-
     ![](assets/aem_ajo_3.png)
+
+1. You can now edit and personalize your content. For more information on how to build your email content, refer to this [page](content-from-scratch.md).
+
+    ![](assets/aem_ajo_5.png)
+
+1. If you added personalized content to your Experience Manager template, click **[!UICONTROL Simulate Content]** to preview how it will appear in the message using test profiles. 
+
+    [Learn more on preview and test profiles](../email/preview.md)
+
+    ![](assets/aem_ajo_6.png)
+
+1. When viewing the message preview, any personalized elements are automatically replaced with the corresponding data from the selected test profile. 
+
+    If needed, additional test profiles can be added through the **[!UICONTROL Manage test profiles]** button.
+
+    ![](assets/aem_ajo_7.png)
 
 When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md), and activate it to send the message.
