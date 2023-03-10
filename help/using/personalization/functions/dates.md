@@ -138,6 +138,35 @@ The following operation will return the date in the following format: MM/DD/YY.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
+## Format date with Locale support{#format-date-locale}
+
+The `formatDate` function is used to format a date time value into it's corresponding language sensitive representation i.e in a desired locale. The format should be a valid Java DateTimeFormat pattern.
+
+**Syntax**
+
+```sql
+{%= formatDate(datetime, format, locale) %}
+```
+
+Where the first string is the date attribute, second value is how you would like the date to be converted and displayed and the third value represents the locale in string format.
+
+>[!NOTE]
+>
+> If a date pattern is invalid the date will fallback to ISO standard format.
+>
+> You can use Java date formatting functions as summarized in [Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+>
+> You can use formatting and valid locales as summarized in [Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) and [Supported locales](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+
+
+**Example**
+
+The following operation will return the date in the following format: MM/DD/YY and locale FRANCE.
+
+```sql
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
+```
+
 ## Set days{#set-days}
 
 The `setDays` function is used to set the day of the month for the given date-time.
