@@ -25,7 +25,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
     ![](assets/in_app_journey_1.png)
 
-1. Provide basic information on your message (label, description, category).
+1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
 
 1. Choose the [In-app surface](inapp-configuration.md) to use.
 
