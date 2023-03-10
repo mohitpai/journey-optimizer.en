@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: journey, message, push, sms, email
+keywords: journey, message, push, sms, email, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
-# Email, SMS, Push{#add-a-message-in-a-journey}
+# Email, In-app, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] comes with built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and define settings and content. It is then executed and sent in the context of the journey.
+[!DNL Journey Optimizer] comes with built-in message capabilities. You can simply add, in your journey, a push, an SMS, an In-app or email message activity and define settings and content. It is then executed and sent in the context of the journey.
 
 You can also set up specific actions to send you messages:
 
@@ -27,7 +27,7 @@ To add a message in a journey, follow the steps below:
 
 1. Start your journey with an [Event](general-events.md) or a [Read Segment](read-segment.md) activity.
 
-1. From the **Actions** section of the palette, drag and drop an **email**, an **SMS** or a **Push** activity into the canvas.
+1. From the **Actions** section of the palette, drag and drop an **email**, an **In-app**, an **SMS** or a **Push** activity into the canvas.
 
 1. Configure your activity. Learn detailed steps to create your message content in the following pages:
 
@@ -38,6 +38,14 @@ To add a message in a journey, follow the steps below:
    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Create emails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Create In-app messages</strong>
    </div>
    <p>
    </td>
@@ -64,13 +72,13 @@ To add a message in a journey, follow the steps below:
 
 ## Update live content{#update-live-content}
 
-You can update the content of a message (email, sms, push) in a live journey. 
+You can update the content of a message (email, In-app, Push, SMS) in a live journey. 
 
 To do this, open your live journey, select the message activity and click **Edit content**.
 
 ![](assets/add-a-message2.png)
 
-However, you cannot change the attributes used in personalisation, whether they are profile attributes or contextual data (from event or journey properties).
+However, you cannot change the attributes used in personalization, whether they are profile attributes or contextual data (from event or journey properties).
 
 ## Send-Time Optimization{#send-time-optimization}
 

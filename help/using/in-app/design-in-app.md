@@ -11,19 +11,23 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
-You can edit the In-app content to configure experience options, including the message layout and display, text, and button options.
+You can edit the In-app content to configure experience options:
 
-To configure the message content, click the **[!UICONTROL Edit content]** button and  use the options on the right section of the screen to design your In-app message content.
+* In a **[!UICONTROL Campaign]**, from the **[!UICONTROL Action]** menu,  to configure the message content click the **[!UICONTROL Edit content]** button.
 
-![](assets/edit-in-app-content.png)
+    ![](assets/edit-in-app-content.png)
+
+* In a **[!UICONTROL Journey]**, from the advanced menu of your In-app **[!UICONTROL Action]**, you can start designing your content with the **[!UICONTROL Edit content]** button.
+    
+    ![](assets/design_inapp_journey.png)
 
 The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
 
-Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](create-in-app.md#in-app-send).
+Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
 
 ## Message layout {#message-layout}
 

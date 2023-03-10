@@ -49,7 +49,7 @@ solution: Journey Optimizer
     + [Condition](using/building-journeys/condition-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
-    + [Email, SMS, Push](using/building-journeys/journeys-message.md)
+    + [Email, In-app, Push, SMS](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
