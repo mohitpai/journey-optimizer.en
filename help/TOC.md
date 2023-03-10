@@ -370,7 +370,7 @@ solution: Journey Optimizer
             + [Create a decision rule](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Update a decision rule](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Delete a decision rule](using/offers/api-reference/offers-api/decision-rules/delete.md)
-        + Tags {#tags}
+        + Collection qualifiers {#tags}
             + [List collection qualifiers](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Lookup a collection qualifier](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Create a collection qualifier](using/offers/api-reference/offers-api/tags/create.md)
