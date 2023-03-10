@@ -22,6 +22,12 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
 
+**Decision management tags renamed to Collection qualifiers**
+
+To prevent any potential confusion with the recent release of tags feature across  Adobe Experience Platform, Decision Management tags have been renamed to "Collection qualifiers”.
+
+Note that although the term “tag” is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
+
 ## February 2023 Release Notes {#feb-2023}
 
 ### New capabilities{#feb-2023-features}

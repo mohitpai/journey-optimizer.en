@@ -319,7 +319,7 @@ solution: Journey Optimizer
   + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
-    + [Create tags](using/offers/offer-library/creating-tags.md)
+    + [Create collection qualifiers](using/offers/offer-library/creating-tags.md)
   + Create rankings {#rankings}
     + [Get started with rankings](using/offers/ranking/get-started-rankings.md)
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
@@ -371,11 +371,11 @@ solution: Journey Optimizer
             + [Update a decision rule](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Delete a decision rule](using/offers/api-reference/offers-api/decision-rules/delete.md)
         + Tags {#tags}
-            + [List tags](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Lookup a tag](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Create a tag](using/offers/api-reference/offers-api/tags/create.md)
-            + [Update a tag](using/offers/api-reference/offers-api/tags/update.md)
-            + [Delete a tag](using/offers/api-reference/offers-api/tags/delete.md)
+            + [List collection qualifiers](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Lookup a collection qualifier](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Create a collection qualifier](using/offers/api-reference/offers-api/tags/create.md)
+            + [Update a collection qualifier](using/offers/api-reference/offers-api/tags/update.md)
+            + [Delete a collection qualifier](using/offers/api-reference/offers-api/tags/delete.md)
         + Personalized offers {#personalized-offers}
             + [List personalized offers](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Lookup a personalized offer](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

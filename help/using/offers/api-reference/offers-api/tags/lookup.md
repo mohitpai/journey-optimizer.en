@@ -1,15 +1,15 @@
 ---
-title: Look up a tag
-description: Tags allow you to better organize and sort through your offers.
+title: Look up a collection qualifier
+description: Collection qualifiers allow you to better organize and sort through your offers.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 ---
-# Look up a tag {#look-up-tag}
+# Look up a collection qualifier {#look-up-tag}
 
-You can look up specific tags by making a GET request to the [!DNL Offer Library] API that includes either the tag `@id` or the name of the tag in the request path.
+You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the [!DNL Offer Library] API that includes either the collection qualifier `@id` or the name of the collection qualifier in the request path.
 
 **API format**
 
@@ -20,8 +20,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | The container where the collection qualifiers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Defines the schema associated with collection qualifiers. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameters `id` and `name` cannot be used together. | `xcore:tag:124e147572cd7866` |
 | `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Holiday sales and promotions` |
 
@@ -39,7 +39,7 @@ curl -X GET \
 
 **Response**
 
-A successful response returns the details of the tag including information about your container ID, instance ID and, unique tag `@id`.
+A successful response returns the details of the collection qualifier including information about your container ID, instance ID and, unique collection qualifier `@id`.
 
 ```json
 {
