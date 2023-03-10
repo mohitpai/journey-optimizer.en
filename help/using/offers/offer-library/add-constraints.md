@@ -158,7 +158,9 @@ To set capping, follow the main steps below.
 
 1. Define which **[!UICONTROL Capping event]** will be taken into account to increase the counter. [Learn more](#capping-event)
 
-1. Define the number of times the offer can be presented. [Learn more](#capping-type)
+1. Set the number of times the offer can be presented. [Learn more](#capping-count)
+
+1. Choose if you want the capping to be applied to all users or just one profile. [Learn more](#capping-type)
 
 1. Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. [Learn more](#frequency-capping)
 
@@ -178,6 +180,8 @@ The number of times an offer is proposed is calculated at email preparation time
 
 The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTROL Capping event]** will be taken into account to increase the counter:
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL Decision event]** (default value): Maximum number of times an offer can be presented.
 * **[!UICONTROL Impression]**: Maximum number of times the offer can be displayed to a user.
 
@@ -186,21 +190,25 @@ The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTRO
     >The use of impressions as capping events is available for **inbound channels** only.
 
 * **[!UICONTROL Clicks]**: Maximum number of times the offer can be clicked by a user.
-* **[!UICONTROL Custom event]**: you can define a custom event that will be used to cap the number of offers sent. For example, you can cap on the number of redemptions until a given profile has redeemed 1 time. To do so, use [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} schemas to build a custom event rule.
-    
-    ![](../assets/offer-capping-event.png)
+* **[!UICONTROL Custom event]**: You can define a custom event that will be used to cap the number of offers sent. For example, you can cap on the number of redemptions until they equal 10000, or until a given profile has redeemed 1 time. To do so, use [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} schemas to build a custom event rule.
         
-    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-    <!--![](../assets/offer-capping-custom-event.png)-->
+    In the example below, you want to cap on the number of subscriptions. Select **[!UICONTROL Custom event]** from the list and use the **[!UICONTROL Create custom event rules]** builder to select the relevant events.
+
+    ![](../assets/offer-capping-custom-event.png)
+
+    Once the rule is created, it displays in the **[!UICONTROL Custom event query]** field.
+
+    ![](../assets/offer-capping-custom-event-query.png)
 
     >[!CAUTION]
     >
     >For all capping events except decision event, the decision management feedback may not be automatically collected, so make sure that data is coming in. [Learn more on data collection](../data-collection/data-collection.md)
 
-### Capping type {#capping-type}
+### Capping count {#capping-count}
 
-The **[!UICONTROL Capping type]** field allows you to specify the number of times the offer can be presented.
+The **[!UICONTROL Capping count]** field allows you to specify the number of times the offer can be presented.
 
 ![](../assets/offer-capping-times.png)
 
@@ -208,9 +216,9 @@ The **[!UICONTROL Capping type]** field allows you to specify the number of time
 >
 >The number must be an integer greater than 0.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### Capping type {#capping-type}
 
 You can also specify if you want the capping to be applied accross all users or to one specific profile:
 
