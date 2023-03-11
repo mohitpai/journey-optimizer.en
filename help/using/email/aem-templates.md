@@ -26,9 +26,9 @@ Before starting using this capability, make sure you are aligned with the follow
 
 * **Experience Manager settings**
 
-    This capability is available starting Adobe Experience Manager 6.5.14. You must connect to Adobe Experience Manager Sites on your Managed Services Author environment.
+    This capability is available with [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
-    As a part of the beta program, the Cloud Service configuration was performed by Adobe in Adobe Experience Manager to connect to Adobe Journey Optimizer. 
+    As a part of the beta program, the Cloud Service configuration is performed by Adobe in Adobe Experience Manager to connect to Adobe Journey Optimizer. 
 
 * **Permissions**
 
