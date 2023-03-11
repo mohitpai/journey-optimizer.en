@@ -31,7 +31,7 @@ Use the  **[!UICONTROL Components]** menu to manage the components required to c
 
 * **[!UICONTROL Placements]**: Create and manage placements where your offers will display. See [Creating placements](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Tags]**: Create and manage tags to organize and filter your offers. See [Creating tags](../offer-library/creating-tags.md).
+* **[!UICONTROL Collection qualifiers]**: Create and manage collection qualifiers (previously known as "tags") to organize and filter your offers. See [Creating collection qualifiers](../offer-library/creating-tags.md).
 
 * **[!UICONTROL Rules]**: Manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/creating-decision-rules.md).
 

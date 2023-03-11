@@ -20,6 +20,8 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 To create an AI model, follow the steps below:
 
+1. Create a dataset where conversion events will be collected. [Learn how](../data-collection/create-dataset.md)
+
 1. In the **[!UICONTROL Components]** menu, access the **[!UICONTROL Ranking]** tab, then select **[!UICONTROL AI models]**.
 
     ![](../assets/ai-ranking-list.png)
@@ -45,7 +47,7 @@ To create an AI model, follow the steps below:
     >
     >These events are automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-1. Select the dataset(s) where the conversion and impression events are collected. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. Select the dataset(s) where the conversion and impression events are collected. Learn how to create such dataset in [this section](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
     ![](../assets/ai-ranking-dataset-id.png)
     
@@ -64,3 +66,13 @@ To create an AI model, follow the steps below:
 1. Save and activate the AI model.
 
     ![](../assets/ai-ranking-save-activate.png)
+
+<!--At this point, you must have:
+
+* created the AI model,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.-->
+
+Now each time an offer is displayed and/or clicked, you want the corresponding event to be automatically captured by the **[!UICONTROL Experience Event - Proposition Interactions]** field group using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK.
+
+To be able to send in event types (offer displayed or offer clicked), you must set the correct value for each event type in an experience event that is sent into Adobe Experience Platform. [Learn how](../data-collection/schema-requirement.md)

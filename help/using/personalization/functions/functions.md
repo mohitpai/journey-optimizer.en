@@ -108,6 +108,9 @@ Click the `...` icon to view the description of the function and add it to your 
         <td><a href="dates.md#format-date">Format date</a></td><td>This function formats a date time value</td>
     </tr>
     <tr>
+        <td><a href="dates.md#format-date-locale">Format date with locale support</a></td><td>This function formats a date time value into its corresponding language sensitive representation, i.e in a desired locale.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#set-days">Set Days</a></td><td>This function sets the day of the month for the given date-time</td>
     </tr>
     <tr>

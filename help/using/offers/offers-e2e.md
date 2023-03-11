@@ -19,7 +19,7 @@ The key steps to configure offers, include them in a decision and leverage this 
     
     * Create placements
     * Create decision rules
-    * Create tags
+    * Create collection qualifiers (previously known as "tags")
     * Create rankings (optional)
 
 1. [Configure the offers](#configure-offers)
@@ -86,15 +86,15 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
     The detailed steps to create rules are described in [this section](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. You can also create a **tag**.
+1. You can also create a **collection qualifier**.
 
-    You will then be able to associate it to your offers and use this tag to group your offers together into a collection.
+    You will then be able to associate it to your offers and use this collection qualifier to group your offers together into a collection.
 
-    In this example, create the *Yoga* tag.
+    In this example, create the *Yoga* collection qualifier.
 
     ![](assets/offers-e2e-tag.png)
 
-    The detailed steps to create tags are described in [this section](../../using/offers/offer-library/creating-tags.md).
+    The detailed steps to create collection qualifiers are described in [this section](../../using/offers/offer-library/creating-tags.md).
 
 1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a **ranking formula**.
 
@@ -175,7 +175,7 @@ When configuring the decision, you will need to add your personalized offers as 
 
 1. To speed up the decision process, create a dynamic collection.
 
-1. Use the *Yoga* tag to select the four personalized offers you created earlier.
+1. Use the *Yoga* collection qualifier to select the four personalized offers you created earlier.
 
     ![](assets/offers-e2e-collection-using-tag.png)
 

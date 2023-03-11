@@ -32,7 +32,7 @@ Two types of AI models are available in [!DNL Journey Optimizer]:
 
 The main steps to create and use AI models are as follows:
 
-1. Create a dataset where conversion and impression events will be collected. [Learn more](create-dataset.md)
+1. Create a dataset where conversion and impression events will be collected. [Learn more](../data-collection/create-dataset.md)
 1. Create an AI model that will leverage events from the dataset to rank offers. [Learn more](create-ranking-strategies.md)
-1. Configure your offer schema to automatically capture events. [Learn more](schema-requirement.md)
+1. Configure your offer schema to automatically capture events. [Learn more](../data-collection/schema-requirement.md)
 1. Assign the AI model to a placement in a decision to rank eligible offers. [Learn more](../offer-activities/configure-offer-selection.md)

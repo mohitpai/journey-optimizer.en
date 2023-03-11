@@ -319,7 +319,7 @@ solution: Journey Optimizer
   + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
-    + [Create tags](using/offers/offer-library/creating-tags.md)
+    + [Create collection qualifiers](using/offers/offer-library/creating-tags.md)
   + Create rankings {#rankings}
     + [Get started with rankings](using/offers/ranking/get-started-rankings.md)
     + [Ranking formulas](using/offers/ranking/create-ranking-formulas.md)
@@ -328,10 +328,7 @@ solution: Journey Optimizer
       + AI model types {#ai-model-types}
         + [Auto-optimization model](using/offers/ranking/auto-optimization-model.md)
         + [Personalized optimization model](using/offers/ranking/personalized-optimization-model.md)
-      + Create AI models {#configure-ai-model}
-        + [Create a dataset to collect events](using/offers/ranking/create-dataset.md)
-        + [Create an AI model](using/offers/ranking/create-ranking-strategies.md)
-        + [Configure events capture](using/offers/ranking/schema-requirement.md)
+      + [Create AI models](using/offers/ranking/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + Configure offers {#configure-offers}
       + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
@@ -343,10 +340,14 @@ solution: Journey Optimizer
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
     + [Create simulations](using/offers/offer-activities/simulation.md)
-  + [Batch decisioning](using/offers/batch-delivery.md)
+  + [Use batch decisioning](using/offers/batch-delivery.md)
+  + Collect event data {#collect-event-data}
+    + [Getting started with data collection](using/offers/data-collection/data-collection.md)
+    + [Create a dataset to collect events](using/offers/data-collection/create-dataset.md)
+    + [Configure events capture](using/offers/data-collection/schema-requirement.md)
   + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
-    + [Decision Management events key information](using/offers/reports/key-information.md)
+    + [Decision management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
   + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)
@@ -370,12 +371,12 @@ solution: Journey Optimizer
             + [Create a decision rule](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Update a decision rule](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Delete a decision rule](using/offers/api-reference/offers-api/decision-rules/delete.md)
-        + Tags {#tags}
-            + [List tags](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Lookup a tag](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Create a tag](using/offers/api-reference/offers-api/tags/create.md)
-            + [Update a tag](using/offers/api-reference/offers-api/tags/update.md)
-            + [Delete a tag](using/offers/api-reference/offers-api/tags/delete.md)
+        + Collection qualifiers {#tags}
+            + [List collection qualifiers](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Lookup a collection qualifier](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Create a collection qualifier](using/offers/api-reference/offers-api/tags/create.md)
+            + [Update a collection qualifier](using/offers/api-reference/offers-api/tags/update.md)
+            + [Delete a collection qualifier](using/offers/api-reference/offers-api/tags/delete.md)
         + Personalized offers {#personalized-offers}
             + [List personalized offers](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Lookup a personalized offer](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

@@ -10,7 +10,9 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 ---
 # Create a dataset to collect events {#create-dataset}
 
-Before creating an AI model, you need to create a dataset where conversion events will be collected. Start by creating the schema that will be used in your dataset:
+To collect experience events, you first need to create a dataset where these events will be sent.
+
+Start by creating the schema that will be used in your dataset:
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
 
@@ -69,4 +71,6 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 
     ![](../assets/ai-ranking-dataset-name.png)
 
-The dataset is now ready to be selected to collect event data when [creating a ranking strategy](#create-ranking-strategy).
+>[!NOTE]
+>
+>This dataset can now be selected to collect event data when [creating a ranking strategy](#create-ranking-strategy).

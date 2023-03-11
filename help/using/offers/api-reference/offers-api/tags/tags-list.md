@@ -1,19 +1,19 @@
 ---
-title: List tags
-description: Tags allow you to better organize and sort through your offers.
+title: List collection qualifiers
+description: Collection qualifiers allow you to better organize and sort through your offers.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 ---
-# List tags {#list-tags}
+# List collection qualifiers {#list-tags}
 
-Tags allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
+Collection qualifiers (previously known as "tags") allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" collection qualifier. You can then use the search functionality in the Offer Library to easily locate all of the offers with that collection qualifier.
 
-Tags can also be used to group offers together into collections. For more information, see the tutorial on [creating collections](../../../offer-library/creating-collections.md).
+Collection qualifiers can also be used to group offers together into collections. For more information, see the tutorial on [creating collections](../../../offer-library/creating-collections.md).
 
-You can view a list of all tags within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all collection qualifiers within a container by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 
@@ -24,8 +24,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | The container where the collection qualifiers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Defines the schema associated with collection qualifiers. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
 **Request**
@@ -54,11 +54,11 @@ The most common query parameters for paging include:
 | `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
 | `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
-| `limit` | Limit the number of tags returned. | `limit=5` |
+| `limit` | Limit the number of collection qualifiers returned. | `limit=5` |
 
 **Response**
 
-A successful response returns a list of tags that are present within the container you have access to.
+A successful response returns a list of collection qualifiers that are present within the container you have access to.
 
 ```json
 {

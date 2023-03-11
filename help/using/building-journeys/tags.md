@@ -8,8 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: journey, tags
-hidefromtoc: yes
-hide: yes
 badge: label="Beta" type="Informative"
 
 ---
