@@ -194,13 +194,21 @@ The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTRO
         
     <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-    In the example below, you want to cap on the number of subscriptions. Select **[!UICONTROL Custom event]** from the list and use the **[!UICONTROL Create custom event rules]** builder to select the relevant events.
+    In the example below, you want to cap on the number of checkouts.
 
-    ![](../assets/offer-capping-custom-event.png)
+    1. Select **[!UICONTROL Custom event]** from the list and use the **[!UICONTROL Add custom event]** button.
+    
+        ![](../assets/offer-capping-custom-event-add.png)
+        
+    1. Use the **[!UICONTROL Create custom event rules]** builder to select the relevant event. You can choose any user action that you want to cap offers on.
+    
+        Here choose **[!UICONTROL Commerce]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Value]** and select **[!UICONTROL exists]** from the drop-down list.
 
-    Once the rule is created, it displays in the **[!UICONTROL Custom event query]** field.
+        ![](../assets/offer-capping-custom-event.png)
 
-    ![](../assets/offer-capping-custom-event-query.png)
+    1. Once the rule is created, it displays in the **[!UICONTROL Custom event query]** field.
+
+        ![](../assets/offer-capping-custom-event-query.png)
 
     >[!CAUTION]
     >
@@ -216,7 +224,7 @@ The **[!UICONTROL Capping count]** field allows you to specify the number of tim
 >
 >The number must be an integer greater than 0.
 
-For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.
+For example, you defined a custom capping event such as the number of checkouts is taken into account. If you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 checkouts.
 
 ### Capping type {#capping-type}
 
