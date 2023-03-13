@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create composition workflows
+title: Create your first composition workflow
 description: Learn how to create composition workflows to combine and arrange existing audiences.
 feature: Journeys
 topic: Content Management
@@ -10,8 +10,14 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
+badge: label="Beta" type="Informative"
 ---
-# Create composition workflows {#create-compositions}
+# Create your first composition workflow {#create-compositions}
+
+* [Get started with audience composition](get-started-audience-orchestration.md)
+* **[Create your first composition workflow](create-compositions.md)**
+* [Work with the composition canvas](composition-canvas.md)
+* [Access and manage audiences](access-audiences.md)
 
 Composition workflows allow you to combine and arrange existing audiences to create new audiences.
 
@@ -37,7 +43,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
 1. Open the composition properties to specify a title and a description. 
 
-    If no title is defined in the properties, the composition label will be the one of the starting **[!UICONTROL Audience]** activity.
+    If no title is defined in the properties, the composition's label is set to  "Composition" followed by its creation date and time.
 
     ![](assets/audiences-properties.png)
 
@@ -71,9 +77,3 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 >[!NOTE]
 >
 >You can duplicate or delete an existing composition at any time using the ellipsis button in the list.
-
-Learn more:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
