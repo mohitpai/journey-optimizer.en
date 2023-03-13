@@ -10,6 +10,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
+badge: label="Beta" type="Informative"
 ---
 # Get started with audience composition {#get-start-audience-composition}
 
@@ -20,10 +21,14 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 
 >[!AVAILABILITY]
 >
->Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice.
+>Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the IMS Organization level, which means that it will impact all sandboxes within your organization.
 
-## About audience composition {#about}
- 
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Learn how to create a composition workflow to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.</td><td><ul>
+<li><b><a href="get-started-audience-orchestration.md">Get started with audience composition</a></b></li>
+<li><a href="create-compositions.md">Create your first composition workflow</a></li>
+<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
+<li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
+
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 
 Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be **leveraged in campaigns** to target customers. [Learn how to work with campaigns](../campaigns/get-started-with-campaigns.md)
@@ -34,22 +39,23 @@ Once done, the **resulting audiences** are saved backed into Adobe Experience Pl
 >
 >Audiences resulting from composition workflows can be targeted into Journey Optimizer campaigns only. They are not available for use in journeys.
 
-## Access audience composition {#access}
+Audience composition is accessible from Adobe Journey Optimizer **[!UICONTROL Segments]** menu:
 
-Audience composition is accessible from the **[!UICONTROL Segments]** menu:
+![](assets/audiences-browse.png)
 
-* The **[!UICONTROL Audiences]** tab lists all existing audiences stored into Adobe Experience Platform. [Learn how to access and manage audiences](access-audiences.md)
+* The **[!UICONTROL Overview]** tab provides a dedicated dashboard with key metrics related to your organization’s segment data. To learn more, refer to [Adobe Experience Platform Dashboards guide](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
-* The **[!UICONTROL Compositions]** tab allows you to create composition workflows where you can combine and arrange audiences to create new ones. [Learn how to create composition workflows](create-compositions.md)
+* The **[!UICONTROL Browse]** tab lists all existing audiences stored into Adobe Experience Platform.
 
-![](assets/audiences-list.png)
+* The **[!UICONTROL Compositions]** tab allows you to create composition workflows where you can combine and arrange audiences to create new ones.
 
->[!NOTE]
->
->This documentation applies to audience composition only. The **[!UICONTROL Overview]** and **[!UICONTROL Segments]** tab are used in the context of segment definitions creation. For more on this, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Click on each card to learn how to work with audience composition:
 
-Learn more:
-
-* [Create composition workflows](create-compositions.md)
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="create-compositions.md"><img alt="Create composition workflows" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>Create your first composition workflow</strong></aW</div></td>
+<td><a href="composition-canvas.md"><img alt="Work with the composition canvas" src="../assets/do-not-localize/ao-canvas.jpg"></a>
+<div><a href="composition-canvas.md"><strong>Work with the composition canvas</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Access and manage audiences" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Access and manage audiences</strong></a></div></td>
+</tr></table>
