@@ -14,14 +14,15 @@ badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
 
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* **[Create your first composition workflow](create-compositions.md)**
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
-
-Composition workflows allow you to combine and arrange existing audiences to create new audiences.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to create composition workflows to combine and arrange existing audiences.</td><td><ul>
+<li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
+<li><b><a href="create-compositions.md">Create your first composition workflow</a></b></li>
+<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
+<li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
 
 ## Create a composition workflow {#create}
+
+To create a composition workflow, follow these steps:
 
 1. Access the **[!UICONTROL Segments]** menu and select **[!UICONTROL Create Audience]**.
 

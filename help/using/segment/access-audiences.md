@@ -14,10 +14,11 @@ badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Create your first composition workflow](create-compositions.md)
-* [Work with the composition canvas](composition-canvas.md)
-* **[Access and manage audiences](access-audiences.md)**
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to access and manage audiences created with the audience composition feature.</td><td><ul>
+<li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
+<li><a href="create-compositions.md">Create your first composition workflow</a></li>
+<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
+<li><b><a href="access-audiences.md">Access and manage audiences</a></b></li></ul></td></tr></table>
 
 Audiences resulting from audience composition are accessible from the **[!UICONTROL Browse]** tab in the **[!UICONTROL Segments]** menu.
 
