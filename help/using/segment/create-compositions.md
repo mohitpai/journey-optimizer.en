@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to create composition workflows to combine and arrange existing audiences.</td><td><ul>
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation</td><td><ul>
 <li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
 <li><b><a href="create-compositions.md">Create your first composition workflow</a></b></li>
 <li><a href="composition-canvas.md">Work with the composition canvas</a></li>

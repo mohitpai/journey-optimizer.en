@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to access and manage audiences created with the audience composition feature.</td><td><ul>
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation</td><td><ul>
 <li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
 <li><a href="create-compositions.md">Create your first composition workflow</a></li>
 <li><a href="composition-canvas.md">Work with the composition canvas</a></li>

@@ -19,15 +19,15 @@ badge: label="Beta" type="Informative"
 >title="Create a composition"
 >abstract="Create a composition workflow to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences."
 
->[!AVAILABILITY]
->
->Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the IMS Organization level, which means that it will impact all sandboxes within your organization.
-
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to create a composition workflow that combines existing Adobe Experience Platform audiences into a visual canvas and leverages various activites (split, exclude...) to create new audiences.</td><td><ul>
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation<br/><ul>
 <li><b><a href="get-started-audience-orchestration.md">Get started with audience composition</a></b></li>
 <li><a href="create-compositions.md">Create your first composition workflow</a></li>
 <li><a href="composition-canvas.md">Work with the composition canvas</a></li>
 <li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
+
+>[!AVAILABILITY]
+>
+>Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the IMS Organization level, which means that it will impact all sandboxes within your organization.
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 

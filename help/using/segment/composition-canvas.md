@@ -14,11 +14,13 @@ badge: label="Beta" type="Informative"
 ---
 # Work with the composition canvas {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td valign="middle">Learn how to work with the visual composition canvas to create an audience and learn more on the various activites available to compose your audience.</td><td><ul>
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation</td><td><ul>
 <li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
 <li><a href="create-compositions.md">Create your first composition workflow</a></li>
 <li><b><a href="composition-canvas.md">Work with the composition canvas</a></b></li>
 <li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
+
+Audience composition provides a visual canvas that allows you to create audiences and using various activites (split, enrich, etc.).
 
 The steps to compose an audience in the canvas are as follows:
 
