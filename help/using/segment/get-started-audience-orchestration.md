@@ -53,7 +53,7 @@ Click on each card to learn how to work with audience composition:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Create composition workflows" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>Create your first composition workflow</strong></aW</div></td>
+<div><a href="create-compositions.md"><strong>Create your first composition workflow</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="Work with the composition canvas" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>Work with the composition canvas</strong></a></div></td>
 <td><a href="access-audiences.md"><img alt="Access and manage audiences" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
