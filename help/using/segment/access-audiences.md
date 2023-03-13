@@ -10,10 +10,17 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
+badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
-Audiences are accessible from the **[!UICONTROL Audiences]** tab in the **[!UICONTROL Segments]** menu.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
+<li><a href="create-compositions.md">Create your first composition workflow</a></li>
+<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
+<li><b><a href="access-audiences.md">Access and manage audiences</a></b></li></ul></td></tr></table>
+
+Audiences resulting from audience composition are accessible from the **[!UICONTROL Browse]** tab in the **[!UICONTROL Segments]** menu.
 
 This tab lists all audiences stored into Adobe Experience Platform. Audiences created using audience compositions are identifiable by the **[!UICONTROL Audience composition]** origin.
 
@@ -21,7 +28,9 @@ This tab lists all audiences stored into Adobe Experience Platform. Audiences cr
 
 >[!NOTE]
 >
->For more information on other types of audiences available in Adobe Experience Platform, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html). 
+>For this beta version, several components and/or metadata that were initially displayed in the segments inventory do not appear in this tab (e.g., breakdown, evaluation method, etc.).
+>
+>For more information on other types of audiences available in Adobe Experience Platform, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 The **[!UICONTROL Profile count]** column provides information on the number of profiles included in an audience. Click the "i" button for more information on the date this information has been calculated.
 
@@ -30,9 +39,3 @@ To assign custom or core data usage labels to an audience, click the ellipsis bu
 <!--
 -edit an audience?
 -->
-
-Learn more:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Create composition workflows](create-compositions.md)
-* [Work with the composition canvas](composition-canvas.md)

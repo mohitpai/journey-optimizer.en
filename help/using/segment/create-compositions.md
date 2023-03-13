@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create composition workflows
+title: Create your first composition workflow
 description: Learn how to create composition workflows to combine and arrange existing audiences.
 feature: Journeys
 topic: Content Management
@@ -10,12 +10,19 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
+badge: label="Beta" type="Informative"
 ---
-# Create composition workflows {#create-compositions}
+# Create your first composition workflow {#create-compositions}
 
-Composition workflows allow you to combine and arrange existing audiences to create new audiences.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
+<li><b><a href="create-compositions.md">Create your first composition workflow</a></b></li>
+<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
+<li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
 
 ## Create a composition workflow {#create}
+
+To create a composition workflow, follow these steps:
 
 1. Access the **[!UICONTROL Segments]** menu and select **[!UICONTROL Create Audience]**.
 
@@ -37,7 +44,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
 1. Open the composition properties to specify a title and a description. 
 
-    If no title is defined in the properties, the composition label will be the one of the starting **[!UICONTROL Audience]** activity.
+    If no title is defined in the properties, the composition's label is set to  "Composition" followed by its creation date and time.
 
     ![](assets/audiences-properties.png)
 
@@ -71,9 +78,3 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 >[!NOTE]
 >
 >You can duplicate or delete an existing composition at any time using the ellipsis button in the list.
-
-Learn more:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
