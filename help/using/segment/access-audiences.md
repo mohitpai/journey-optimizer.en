@@ -14,12 +14,14 @@ badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
->[!BEGINSHADEBOX "What you'll find in this documentation:]
+>[!BEGINSHADEBOX]
 
-[Get started with audience composition](get-started-audience-orchestration.md)
-[Create your first composition workflow](create-compositions.md)
-[Work with the composition canvas](composition-canvas.md)
-[Access and manage audiences](access-audiences.md)
+What you'll find in this documentation:
+
+* [Get started with audience composition](get-started-audience-orchestration.md)
+* [Create your first composition workflow](create-compositions.md)
+* [Work with the composition canvas](composition-canvas.md)
+* **[Access and manage audiences](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
