@@ -8,14 +8,23 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
+badge: label="Beta" type="Informative"
 ---
 # Web report {#web-report}
 
-The Web report is available in the Campaign report.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->The web channel feature is currently available as a beta to select users only.
+What you'll find in this documentation:
+
+* [Get started with web channel](get-started-web.md)
+* [Create web experiences](create-web.md)
+* [Author web pages](author-web.md)
+* [Visual Editing Helper extension](visual-editing-helper.md)
+* **[Web reporting](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+The Web report is available in the Campaign report.
 
 The Campaign report page will be displayed with the following tabs:
 

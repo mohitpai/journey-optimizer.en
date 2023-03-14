@@ -11,6 +11,7 @@ keywords: content, experiment, multiple, audience, treatment
 hide: yes
 hidefromtoc: yes
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+badge: label="Beta" type="Informative"
 ---
 # Create a content experiment {#content-experiment}
 
@@ -19,9 +20,17 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 >title="Content experiment"
 >abstract="You can choose to vary the delivery content, subject, or sender in order to define multiple delivery treatments and determine the best combination for your audiences."
 
->[!AVAILABILITY]
->
->The **Content Experiment** feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with content experiment](get-started-experiment.md)
+* **[Create a content experiment](content-experiment.md)**
+* [Understand statistical calculations](experiment-calculations.md)
+* [Configure experimentation reports](reporting-configuration.md)
+* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 The Journey Optimizer Content Experiment enables you to define multiple delivery treatments in order to measure which one performs best for your target audience. You can choose to vary the delivery content, subject, or sender. The audience of interest is randomly allocated to each treatment to determine which one works best in terms of the specified metric.
 

@@ -8,12 +8,21 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+badge: label="Beta" type="Informative"
 ---
 # Author web pages {#author-web}
 
->[!AVAILABILITY]
->
->The web channel feature is currently available as a beta to select users only.
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with web channel](get-started-web.md)
+* [Create web experiences](create-web.md)
+* **[Author web pages](author-web.md)**
+* [Visual Editing Helper extension](visual-editing-helper.md)
+* [Web reporting](web-report.md)
+
+>[!ENDSHADEBOX]
 
 In [!DNL Journey Optimizer] web authoring is powered by the Adobe Experience Cloud Visual Helper chrome browser extension. [Learn more](visual-editing-helper.md)
 

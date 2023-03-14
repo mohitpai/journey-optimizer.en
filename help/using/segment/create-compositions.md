@@ -14,11 +14,16 @@ badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>What you'll find in this documentation:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Get started with audience composition</a></li>
-<li><b><a href="create-compositions.md">Create your first composition workflow</a></b></li>
-<li><a href="composition-canvas.md">Work with the composition canvas</a></li>
-<li><a href="access-audiences.md">Access and manage audiences</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with audience composition](get-started-audience-orchestration.md)
+* **[Create your first composition workflow](create-compositions.md)**
+* [Work with the composition canvas](composition-canvas.md)
+* [Access and manage audiences](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 ## Create a composition workflow {#create}
 

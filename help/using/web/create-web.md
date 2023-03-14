@@ -8,12 +8,21 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+badge: label="Beta" type="Informative"
 ---
 # Create web experiences {#create-web}
 
->[!AVAILABILITY]
->
->The web channel feature is currently available as a beta to select users only.
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with web channel](get-started-web.md)
+* **[Create web experiences](create-web.md)**
+* [Author web pages](author-web.md)
+* [Visual Editing Helper extension](visual-editing-helper.md)
+* [Web reporting](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] allows you to personalize the web experience you deliver to your customers through inbound web campaigns.
 

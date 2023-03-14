@@ -8,14 +8,23 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
+badge: label="Beta" type="Informative"
 ---
 # Visual Editing Helper extension {#visual-editing-helper}
 
-In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->The web channel feature is currently available as a beta to select users only.
+What you'll find in this documentation:
+
+* [Get started with web channel](get-started-web.md)
+* [Create web experiences](create-web.md)
+* [Author web pages](author-web.md)
+* **[Visual Editing Helper extension](visual-editing-helper.md)**
+* [Web reporting](web-report.md)
+
+>[!ENDSHADEBOX]
+
+In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.
 
 ## Install the Visual Editing Helper extension {#install-visual-editing-helper}
 

@@ -11,8 +11,21 @@ keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+badge: label="Beta" type="Informative"
 ---
 # Get started with content experiments {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* **[Get started with content experiment](get-started-experiment.md)**
+* [Create a content experiment](content-experiment.md)
+* [Understand statistical calculations](experiment-calculations.md)
+* [Configure experimentation reports](reporting-configuration.md)
+* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

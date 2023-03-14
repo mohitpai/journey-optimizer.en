@@ -8,8 +8,21 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
+badge: label="Beta" type="Informative"
 ---
 # Get started with web channel {#get-sarted-web}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* **[Get started with web channel](get-started-web.md)**
+* [Create web experiences](create-web.md)
+* [Author web pages](author-web.md)
+* [Visual Editing Helper extension](visual-editing-helper.md)
+* [Web reporting](web-report.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

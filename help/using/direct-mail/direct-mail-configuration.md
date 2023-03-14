@@ -9,8 +9,18 @@ keyword: direct, mail, configuration, direct-mail, provider
 hide: yes
 hidefromtoc: yes
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+badge: label="Beta" type="Informative"
 ---
 # Direct mail configuration {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Create a direct mail](create-direct-mail.md)
+* **[Configure direct mail](direct-mail-configuration.md)**
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 
@@ -34,7 +44,7 @@ Before being able to generate this file, you need to create:
 >abstract="After you create a direct mail message, the file containing the targeted audience data will be generated and exported to a server. You need to specify the server details so that your direct mail provider can access and use that file for delivering direct mail."
 
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -100,7 +110,7 @@ To configure the file routing, follow the steps below.
 >id="ajo_dm_surface_settings"
 >title="Define the direct mail settings"
 >abstract="A direct mail surface contains the settings for the formatting of the file which contains the targeted audience data and will be used by the mail provider. You must also define where the file will be exported by selecting the file routing configuration."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configure file routing"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configure file routing"
 
 <!--
 >[!CONTEXTUALHELP]
