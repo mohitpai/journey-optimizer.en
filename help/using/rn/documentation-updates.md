@@ -26,11 +26,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a new page about data management in [!DNL Journey Optimizer]. [Read more](../data/gs-data.md)
 * Added a table listing all codes that can be returned in the response when delivering offers using the Decisioning API. [Read more](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-## 2022
++++ 2022
 
-+++
-
-### December 2022 {#december-2022}
+## December 2022 {#december-2022}
 
 * The Messages guide has been reorganized and split into dedicated guides for each channel:
 
@@ -40,14 +38,14 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 
-### November 2022 {#november-2022}
+## November 2022 {#november-2022}
 
 * Added a new page about Journey Optimizer integrations. [Read more](../start/ajo-integrations.md)
 * Added a recommendation about the length of mirror pages URLs. [Read more](../email/message-tracking.md)
 * A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../email/email-settings.md#reply-to-email)
 * Added a section on how to modify the content of a message in a live journey. [Read more](../building-journeys/journeys-message.md#update-live-content)
 
-### October 2022 {#october-2022}
+## October 2022 {#october-2022}
 
 * Added a journey use case on how to limit throughput using External Data Sources and Custom Actions. [Read more](../building-journeys/limit-throughput.md)
 * The journey use case section has been reorganized into two categories: [Business use cases](../building-journeys/journeys-uc.md) and [Technical use cases](../building-journeys/collections.md).
@@ -56,7 +54,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The section on advanced parameters in journey messages has been clarified and now specifies that email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. 
 * Added a note to the **Configure landing page subdomains** section to specify that capital letters are not allowed in landing page subdomains. [Read more](../landing-pages/lp-subdomains.md)
 
-### September 2022 {#september-2022}
+## September 2022 {#september-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] September '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a best practice related to the use of wait activities in recurring read segment journeys. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
@@ -69,7 +67,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 [Read more](../reports/global-report.md#email-and-sms-metrics)
 * The BCC email section has been moved to the new Support for archiving page. [Read more](../configuration/archiving-support.md)
 
-### August 2022 {#august-2022}
+## August 2022 {#august-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The Frequency rules section has been updated to reflect the new in-line messaging flow. [Read more](../configuration/frequency-rules.md#apply-frequency-rule)
@@ -79,7 +77,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A section on how to schedule a campaign has been added. [Read more](../campaigns/create-campaign.md)
 * General syntax rules section for expression editor has been updated to take into account the new rule regarding the backslash symbol escaping in literal functions. The existing published messages are not impacted by this change. Only the new or draft messages must be updated. [Read more](../personalization/personalization-syntax.md#general-rules)
 
-### July 2022 {#july-2022}
+## July 2022 {#july-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] July '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **Set up channel surfaces** section has been clarified and updated with links to the page describing how to configure the SMS channel. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
@@ -89,7 +87,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added recommendations on the **Profile cap** condition type. [Read more](../building-journeys/condition-activity.md#profile_cap)
 * Added a limitation on business events. [Read more](../start/guardrails.md#events-g)
 
-### June 2022 {#june-2022}
+## June 2022 {#june-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] June '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
@@ -104,7 +102,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Send-Time Optimization is now available for all customers. The beta mention has been removed. [Read more](../building-journeys/journeys-message.md#send-time-optimization)
 * The Batch Decisioning API has been added to the list of available APIs to delivery personalized offers. [Read more](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
-### May 2022 {#may-2022}
+## May 2022 {#may-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] May '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * New query examples related to [segment qualification](../reports/query-examples.md#segment-qualification-queries) and [events](../reports/query-examples.md#event-based-queries) have been added.
@@ -117,7 +115,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The URL tracking section has been updated and improved with examples. [Read more](../email/email-settings.md#url-tracking)
 * A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../email/email-settings.md#forward-email)
 
-### April 2022 {#april-2022}
+## April 2022 {#april-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] April '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
@@ -127,7 +125,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
-### March 2022 {#march-2022}
+## March 2022 {#march-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] March '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * A new page on getting started with AI models has been added to the **Offer decisioning** section, including a thorough description of the [auto-optimization model](../offers/ranking/auto-optimization-model.md), the algorithm it uses and more technical details. [Read more](../offers/ranking/ai-models.md)
@@ -137,13 +135,13 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new section has been added to describe the impacts that changing an offer's start and/or end dates may have on this offer's frequency capping. [Read more](../offers/offer-library/add-constraints.md#capping-change-date)
 * The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)
 
-### February 2022 {#feb-2022}
+## February 2022 {#feb-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Feb '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The [replace](../building-journeys/functions/functionreplace.md#example_2) and [replaceAll](../building-journeys/functions/functionreplaceall.md#example) function documentation pages have been updated with additional information and examples regarding the target parameter.
 * Best practices have been added to the [Operators](../building-journeys/expression/operators.md#important-notes) page.
 
-### January 2022 {#january-2022}
+## January 2022 {#january-2022}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Jan '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **Offer decisioning AI rankings** section has been updated with a more detailed description of the auto-optimization model. [Read more](../offers/ranking/auto-optimization-model.md)
@@ -155,16 +153,14 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 +++
 
-## 2021
++++ 2021
 
-+++
-
-### November 2021 {#november-2021}
+## November 2021 {#november-2021}
 
 * A full description of the **advanced expression editor** used in journeys is now available. [Read more](../building-journeys/expression/expressionadvanced.md)
 * A new section about **CNAME subdomain delegation method** has been added. [Read more](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
-### October 2021 {#october-2021}
+## October 2021 {#october-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added **Date time function** list. [Read more](../personalization/functions/dates.md)
@@ -177,7 +173,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated **Add decision scopes** section. [Read more](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Updated **Define content for your representations** section, including a new [subsection](../offers/offer-library/creating-personalized-offers.md#custom-text) on how to define and personalize custom text. [Read more](../offers/offer-library/creating-personalized-offers.md#content)
 
-### September 2021 {#september-2021}
+## September 2021 {#september-2021}
 
 * The following function pages have been updated: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
 
@@ -205,7 +201,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added a subsection on how to edit IP pools. [Read more](../configuration/ip-pools.md#edit-ip-pool)
 
-### August 2021 {#august-2021}
+## August 2021 {#august-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Updated Decision management permissions. [Read more](../administration/ootb-product-profiles.md)
@@ -224,7 +220,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the [Access the suppression list](../configuration/manage-suppression-list.md#access-suppression-list) section and [Retries](../configuration/retries.md) sections to reflect the new user interface.
 * The new flow to add and configure representations when creating an offer has been documented. [Read more](../offers/offer-library/creating-personalized-offers.md#representations)
 
-### July 2021 {#july-2021}
+## July 2021 {#july-2021}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] July '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
