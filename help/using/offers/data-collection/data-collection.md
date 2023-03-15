@@ -38,17 +38,15 @@ Feedback on impressions and clicks is captured depending on the [!DNL Journey Op
 
     * Emails authored by [!DNL Journey Optimizer]
     * Mobile push notifications authored by [!DNL Journey Optimizer]
-    * Mobile apps using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK<!--TBC--> to render offers <!--need more info + link-->
 
-    >[!NOTE]
-    >
-    >If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback. 
+    <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. On the other hand, some channels require impressions and clicks data to be sent into Adobe Experience Platform as an **experience event**.
 
-    Except mobile apps using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} or Mobile SDK<!--TBC-->, all channels that use a decisioning API request to receive offers need feedback sent in as an experience event. This includes:
+    All channels that use a decisioning API request to receive offers need feedback sent in as an experience event. This includes:
 
-    * Web pages
+    * Web pages using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} to render offers
+    * Mobile apps using the [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers
     * Kiosks
     * Messages sent through third-party applications
 
