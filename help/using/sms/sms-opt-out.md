@@ -20,11 +20,11 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 
 ## Native inbound keywords{#sms-native-keywords}
 
-By default, Adobe Journey Optimizer handles standard English-language reply messages such as STOP, UNSTOP, and START for Toll-Free and Long Code messages, in accordance with industry standards for native integration such as Sinch and Twilio. 
+By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Toll-Free and Long Code messages: STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE. Note that only Sinch supports Native keywords when used with Journey Optimizer.
+ 
+These keywords typically trigger an automatic standard reply from your third party provider. You can confirm this directly with your provider or via their documentation site.
 
-These keywords typically trigger an automatic standard reply from your third party provider (such as Twilio or Sinch). You can confirm this directly with your provider or via their documentation site. 
-
-No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, and START are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
+No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
 
 
 ## Blocklists{#sms-blocklists}
@@ -34,7 +34,9 @@ In addition to Adobe Journey Optimizer stopping the send based on the opt-out st
 
 ## Short Codes {#short-codes}
 
-By default, Adobe Journey Optimizer does not handle opt-out, opt-in or help keywords for short code numbers. You must ensure that your short code is compliant to all industry rules and regulations for opt-out handling.
+By default, opt-in or help keywords for short code numbers are not handled by Adobe Journey Optimizer. To ensure compliance with industry regulations and rules for opt-out handling, it's essential to verify that your short code adheres to all guidelines. 
+
+However, Journey Optimizer does support global opt-outs based on incoming keywords with different sender-IDs.
 
 ## Alphanumeric Sender ID {#alphanumeric}
 
