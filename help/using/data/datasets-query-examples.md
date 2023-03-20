@@ -23,6 +23,8 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 [BCC Feedback Event Dataset](#bcc-feedback-event-dataset)
 [Entity Dataset](#entity-dataset)
 
+To view the complete list of fields and attributes for each schema, consult the [Journey Optimizer schema dictionary](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
 _Name in the interface : CJM Email Tracking Experience Event Dataset_
