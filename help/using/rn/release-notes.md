@@ -16,19 +16,48 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## March 2023 Improvements {#march-2023}
+# March 2023 Early Release Notes {#mar-2023}
 
-**Manage Tags in your Journeys**
+### New capabilities{#mar-2023-features}
 
-As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
+<table>
+<thead>
+<tr>
+<th><strong></strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>xxxx</p>
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+</td>
+</tr>
+<tr>
+<th><strong>xxxx</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>xxxx</p>
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Decision management tags renamed to Collection qualifiers**
+### Improvements {#mar-2023-improvements}
 
-To prevent any potential confusion with the recent release of tags feature across  Adobe Experience Platform, Decision Management tags have been renamed to "Collection qualifiers".
+**Journeys**
 
-Note that although the term "tag" is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
+* As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
 
-**Decision management capping**
+**Decision management**
+
+* To prevent any potential confusion with the recent release of tags feature across  Adobe Experience Platform, Decision Management tags have been renamed to "Collection qualifiers".
+
+    Note that although the term "tag" is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
 
 * You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
