@@ -23,6 +23,8 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
+    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+
     ![](assets/in_app_journey_1.png)
 
 1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
