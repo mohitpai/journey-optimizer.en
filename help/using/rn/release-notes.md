@@ -23,14 +23,14 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong></strong><br/></th>
+<th><strong>SMS click tracking</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>xxxx</p>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
 </td>
 </tr>
 <tr>
