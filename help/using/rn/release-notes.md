@@ -51,28 +51,25 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Use Tags in your Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Improvements {#mar-2023-improvements}
 
 **Journeys**
 
 * As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
 * The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. 
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them at the end of a path. [Learn more](../building-journeys/using-the-journey-designer.md)
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
+* The default Timeout and error duration in journey properties has been changed from 5 to 30 seconds. The default Throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second.
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not allowed.
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+
+<!--
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+-->
 
 **Decision management**
 
