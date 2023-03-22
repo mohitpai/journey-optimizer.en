@@ -33,6 +33,10 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
 </td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
 <th><strong>xxxx</strong><br/></th>
 </tr>
@@ -42,6 +46,22 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>xxxx</p>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
 </td>
 </tr>
 </tbody>
