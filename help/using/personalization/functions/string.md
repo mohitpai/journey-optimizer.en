@@ -652,13 +652,13 @@ The `replaceAll` function is used to replace all substrings of a text that match
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> If the regex expression taken as second argument is a special regex character then we need to use double back-slash (`//`) to handle such cases.  
->
-> List of special regex characters [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> When the expression taken as second argument is a special regex character, use double back-slash (`//`).  Special regex characters are: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> This is summarized in [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Learn more in [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Right trim {#rightTrim}
 
