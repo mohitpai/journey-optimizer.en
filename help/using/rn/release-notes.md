@@ -18,7 +18,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## March 2023 Early Release Notes {#mar-2023}
 
-Information below is subject to change without prior notice until the release availability date. Links to updated documentation will be added with the release.
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Availability date**: March 29
 
