@@ -65,10 +65,12 @@ Once this configuration is done, contact Adobe to enable your Journey Optimizer 
 1. Send an email to Adobe Customer Care with the following details:
     
     * Subject: Enable Journey Optimizer for Adobe Analytics events
-    * Content: 
-        Please enable my environment to use AA events. 
-        Organization ID: "XXX@AdobeOrg"
-        Data source ID: "ID: xxxxx"
+
+    * Content: Please enable my environment to use AA events. 
+        
+        * Organization ID: "XXX@AdobeOrg"
+        
+        * Data source ID: "ID: xxxxx"
 
 1. Once you have a confirmation that your environment is ready, you can use Adobe Analytics or Adobe Experience Platform Web SDK data in your journeys.
 
