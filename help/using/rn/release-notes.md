@@ -18,6 +18,10 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## March 2023 Early Release Notes {#mar-2023}
 
+Information below is subject to change without prior notice until the release availability date. Links to updated documentation will be added with the release.
+
+**Availability date**: March 29
+
 ### New capabilities{#mar-2023-features}
 
 <table>
@@ -30,7 +34,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
-<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
+<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -39,7 +43,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (general availability)</strong><br/></th>
+<th><strong>In-app channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -52,14 +56,30 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys.</p>
+<p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### Improvements {#mar-2023-improvements}
 
 **Journeys**
 
-* As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys. [Learn more](../building-journeys/tags.md)
 * The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. 
-* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them at the end of a path. [Learn more](../building-journeys/using-the-journey-designer.md)
-* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them at the end of a path. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. <!--[Learn more](../reports/alerts.md)-->
 * The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second.
 * A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account.
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -78,11 +98,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
     Note that although the term "tag" is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
 
-* You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* You can now reset the offer capping counter on a daily, weekly or monthly basis. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
-* You can also choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* You can also choose which Adobe Experience Platform event should be looked at for offer decisioning capping. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
-* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
 
 ## February 2023 Release Notes {#feb-2023}
 
@@ -99,7 +119,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <p><strong>Caution</strong> - This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<img src="assets/do-not-localize/in-app.gif"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -155,25 +174,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
-
-
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Use Tags in your Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 -->
 
 ### Improvements {#feb-2023-improvements}
