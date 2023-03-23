@@ -17,7 +17,7 @@ You can leverage all of the web behavioral event data  that you are already capt
 For this to work with Adobe Analytics, you must:
 
 1. Activate the report suite you want to use. [Learn more](#leverage-analytics-data)
-1. Enable Journey Optimizer to use the data source. [Learn more](#activate-analytics-data)
+1. Enable Journey Optimizer to use your Adobe Analytics data source. [Learn more](#activate-analytics-data)
 1. Add a specific event in your journey. [Learn more](#event-analytic)
 
 >[!NOTE]
@@ -59,12 +59,12 @@ Learn more about Adobe Analytics source connector in  [Adobe Experience Platform
 
 ## Activate this configuration {#activate-analytics-data}
 
-Once this configuration is done, contact Adobe to enable your Journey Optimizer environment to use this data source. To perform this:
+Once this configuration is done, contact Adobe to enable your Journey Optimizer environment to use this data source. This step is only required for Adobe Analytics data sources. To perform this:
 
 1. Get the data source ID. This information is available in the user interface: browse to the data source you created from the **Dataflows** tab of the **Sources** menu. The easiest way to find it is to filter on Adobe Analytics sources.
-1. Send an email to Adobe Customer Care with the following details:
+1. Contact Adobe Customer Care with the following details:
     
-    * Subject: Enable Journey Optimizer for Adobe Analytics events
+    * Subject: Enable Adobe Analytics events for journeys
 
     * Content: Please enable my environment to use AA events. 
         
@@ -72,7 +72,7 @@ Once this configuration is done, contact Adobe to enable your Journey Optimizer 
         
         * Data source ID: "ID: xxxxx"
 
-1. Once you have a confirmation that your environment is ready, you can use Adobe Analytics or Adobe Experience Platform Web SDK data in your journeys.
+1. Once you have a confirmation that your environment is ready, you can use Adobe Analytics data in your journeys.
 
 ## Create a journey with an event using Adobe Analytics or Web SDK data {#event-analytics}
 
