@@ -11,6 +11,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## March 2023 {#march-2023}
 
+* Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
 
 ## February 2023 {#feb-2023}
