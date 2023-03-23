@@ -24,21 +24,6 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#mar-2023-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>SMS click tracking</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -55,6 +40,23 @@ Information below is subject to change without prior notice until the release av
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS click tracking</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
+<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
