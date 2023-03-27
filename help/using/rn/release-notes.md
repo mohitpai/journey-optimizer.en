@@ -81,7 +81,7 @@ Information below is subject to change without prior notice until the release av
 
 * The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. 
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them at the end of a path. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* A new type of system alert has been introduced. You can now get notified when a custom action fails. <!--[Learn more](../reports/alerts.md)-->
+<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
 * The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second.
 * A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account.
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
