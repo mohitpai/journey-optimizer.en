@@ -433,10 +433,13 @@ solution: Journey Optimizer
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)
+      + [Capping API](using/configuration/capping.md)
+      + [Throttling API](using/configuration/throttling.md)
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
       + Configure a unitary event {#unitary-events}  
-        + [Get started with unitary events](using/event/about-creating.md)
+        + [Get
+         started with unitary events](using/event/about-creating.md)
         + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
         + [Leverage Adobe Analytics](using/event/about-analytics.md)
       + [Configure a business event](using/event/about-creating-business.md)
