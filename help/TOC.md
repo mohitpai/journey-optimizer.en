@@ -438,8 +438,7 @@ solution: Journey Optimizer
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
       + Configure a unitary event {#unitary-events}  
-        + [Get
-         started with unitary events](using/event/about-creating.md)
+        + [Get started with unitary events](using/event/about-creating.md)
         + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
         + [Leverage Adobe Analytics](using/event/about-analytics.md)
       + [Configure a business event](using/event/about-creating-business.md)
