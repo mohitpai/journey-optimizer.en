@@ -432,7 +432,8 @@ solution: Journey Optimizer
   + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
-    + [Integrate with external systems](using/configuration/external-systems.md)
+    + Integrate with external systems {#external-systems}
+      + [Journeys integration with external systems](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
     + Event configuration {#events-journeys}

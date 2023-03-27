@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrate Journey Optimizer with external systems
+title: Journeys integration with external systems
 description: Learn the best practices when integrating Journey Optimizer with external systems
 role: User
 level: Beginner
 keywords: external, API, optimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
-# Integrate with external systems {#external-systems}
+# Journeys integration with external systems {#external-systems}
 
 This page presents the different guardrails provided by Journey Optimizer when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work. 
 
