@@ -20,7 +20,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Availability date**: March 29
+**Availability date**: March 29, 2023
 
 ### New capabilities{#mar-2023-features}
 
@@ -36,7 +36,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys.</p>
-<p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
