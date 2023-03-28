@@ -105,6 +105,10 @@ Information below is subject to change without prior notice until the release av
 
 * Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
 
+**Personalization**
+
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+
 ## February 2023 Release Notes {#feb-2023}
 
 ### New capabilities{#feb-2023-features}
