@@ -5,8 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, message, design, formatting
 badge: label="Beta" type="Informative"
+keywords: in-app, message, design, formatting
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
@@ -17,9 +17,9 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 
 You can edit the In-app content to configure experience options, including the message layout and display, text, and button options.
 
-To configure the message content, click the **[!UICONTROL Edit content]** button and  use the options on the right section of the screen to design your In-app message content.
+To configure the message content, click the **[!UICONTROL Edit content]** button and use the options on the right section of the screen to design your In-app message content.
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
 

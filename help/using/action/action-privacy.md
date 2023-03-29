@@ -33,7 +33,6 @@ For more information on the Data Governance framework and how to work with label
 
 * Data governance only applies to custom actions in journeys. Campaign Classic and Campaign Standard actions are not supported.
 * Governance policies only apply when a marketing action (required or additional) is set at the custom action level. 
-* Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
 
 ## Define governance policies {#governance-policies}
 

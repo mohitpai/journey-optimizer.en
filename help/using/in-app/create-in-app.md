@@ -5,8 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, message, creation, start
 badge: label="Beta" type="Informative"
+keywords: in-app, message, creation, start
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
@@ -31,7 +31,7 @@ To create an In-app message, follow the steps below:
 
 1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
-1. To assign custom or core data usage labels to the landing page, select **[!UICONTROL Manage access]**. [Learn more](../administration/object-based-access.md).
+1. To assign custom or core data usage labels to the In-app message, select **[!UICONTROL Manage access]**. [Learn more](../administration/object-based-access.md).
 
 1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
 
@@ -39,27 +39,22 @@ To create an In-app message, follow the steps below:
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
+1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message:
+
+    1. Click **[!UICONTROL Add] condition** if you want the trigger to consider multiple events or criteria. 
+    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click **[!UICONTROL Make group]** to group triggers together.
+
+    ![](assets/in_app_create_3.png)
+
 1. Choose the frequency of your trigger when your In-app message is active:
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+    * **[!UICONTROL Everytime]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+    * **[!UICONTROL X number of times]**: Show this message X time.
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
-
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-
-    ![](assets/in_app_create_3.png)
-
-1. Choose the event that triggers your message from the **[!UICONTROL Mobile app trigger]**
-drop-down. 
-    
-    By choosing a trigger, you choose which user action causes the In-app message to display.
-
-    ![](assets/in_app_create_3.png)
+1. If needed, choose which **[!UICONTROL Day of the week]** or **[!UICONTROL Time of day]** the In-app message will be displayed.
 
 1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
 
@@ -105,7 +100,7 @@ To perform this, follow the steps below:
 
 Your campaign is now activated. The In-App notification configured in the campaign is sent immediately, or on the specified date.
 
-Once sent, you can measure the impact of your In-App messages within the Campaign report. For more on reporting, refer to [this section](../reports/campaign-global-report.md#inapp-report).
+Once sent, you can measure the impact of your In-App messages within the Campaign or Journey reports. For more on reporting, refer to [this section](../reports/campaign-global-report.md#inapp-report).
 
 **Related topics:**
 

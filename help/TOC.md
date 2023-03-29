@@ -215,6 +215,7 @@ solution: Journey Optimizer
   + [Preview and test your SMS](using/sms/send-sms.md)
   + [Manage SMS opt-out](using/sms/sms-opt-out.md) 
   + [Configure SMS channel](using/sms/sms-configuration.md)
+  + [Set up SMS subdomains](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
@@ -433,7 +434,10 @@ solution: Journey Optimizer
   + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
-    + [Integrate with external systems](using/configuration/external-systems.md)
+    + Integrate with external systems {#external-systems}
+      + [Journeys integration with external systems](using/configuration/external-systems.md)
+      + [Capping API](using/configuration/capping.md)
+      + [Throttling API](using/configuration/throttling.md)
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
       + Configure a unitary event {#unitary-events}  

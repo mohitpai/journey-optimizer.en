@@ -14,8 +14,8 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Build content from a custom template"
->abstract="To start creating your email content, select an existing template that was created from scratch or saved as template from a previous email."
+>title="Build content from a template"
+>abstract="To start creating your email content, select either an out-of-the-box template or a custom existing template - created from scratch or saved as template from a previous email."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Create content templates"
 
 From the **[!UICONTROL Create your email]** screen, use the **[!UICONTROL Select design template]** section to start building your content from a template.

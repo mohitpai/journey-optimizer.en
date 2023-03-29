@@ -52,6 +52,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * The segment and namespace chosen in **Segment Qualification** (first node) cannot be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Segment** cannot start with another event in next versions.
+* You cannot create a new version of a read segment journey with incremental read. You need to duplicate the journey.
 
 ### Custom actions {#custom-actions-g}
 

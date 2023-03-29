@@ -276,6 +276,9 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+
 +++
 
 ## Additional resources

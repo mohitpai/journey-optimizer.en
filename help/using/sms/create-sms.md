@@ -34,6 +34,8 @@ Browse the tabs below to learn how to add an SMS message in a campaign or a jour
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+
 You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Define your SMS content](#sms-content)
 
 >[!TAB Add an SMS message to a Campaign]
@@ -69,7 +71,6 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 >[!ENDTABS]
 
-
 ## Define your SMS content{#sms-content}
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
@@ -80,11 +81,24 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. 
+1. After defining your content, you can add your track URLs to your message. To do this, access the **[!UICONTROL Helper functions]** menu and select **[!UICONTROL Helpers]**.
+
+    Note that in order to use the URL shortening function, you must first configure a subdomain which will be then linked to your surface. [Learn more](sms-subdomains.md)
+
+    ![](assets/sms_tracking_1.png)
+
+1. Within the **[!UICONTROL Helper functions]** menu, click **[!UICONTROL URL function]** and then select **[!UICONTROL Add URL]**.
+
+    ![](assets/sms_tracking_2.png)
+
+1. In the `originalUrl` field, paste the URL that you want to shorten.
+
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can use **[!UICONTROL Simulate content]** to preview your shortened URLs or personalized content.
 
     ![](assets/sms-content-preview.png)
 
 You can now test and send your SMS message to your audience. [Learn more](send-sms.md)
+Once sent, you can measure the impact of your SMS within the Campaign or Journey reports. For more on reporting, refer to [this section](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >

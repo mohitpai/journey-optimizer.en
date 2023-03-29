@@ -21,9 +21,13 @@ This can be done with :
 
 * **Custom Actions**: to send information to external systems, for example to send emails through an external solution using Journey Optimizer's orchestration capabilities alongside profile information, audience data and journey context.
 
-If you're working with external data sources or custom actions, you may want to protect your external systems by limiting journey throughput: up to 5000 instances/second for unitary journeys and up to 20000 instances/second for segment-triggered ones. You can define a capping limits at endpoint level to avoid overwhelming those external systems through Journey Optimizer's Capping APIs. However, all remaining requests after the limit is reached will be dropped.
+If you're working with external data sources or custom actions, you may want to protect your external systems by limiting journey throughput: up to 5000 instances/second for unitary journeys and up to 20000 instances/second for segment-triggered ones. 
 
-In this section, you will find workarounds that you can use to optimize your throughput. For more information on how to integrate with external systems, refer to this [page](../configuration/external-systems.md).
+For custom actions, throttling capabilities are available at product level. Refer to this [page](../configuration/external-systems.md#capping).
+
+For external data sources, you can define a capping limits at endpoint level to avoid overwhelming those external systems through Journey Optimizer's Capping APIs. However, all remaining requests after the limit is reached will be dropped. In this section, you will find workarounds that you can use to optimize your throughput. 
+
+For more information on how to integrate with external systems, refer to this [page](../configuration/external-systems.md).
 
 ## Implementation
 

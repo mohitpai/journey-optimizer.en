@@ -129,7 +129,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL SMS]** tab de
 
 +++Learn more on the different metrics and widgets available for the SMS report.
 
-The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+The **[!UICONTROL SMS - Statistics]** table details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
 
@@ -142,6 +142,8 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+* **[!UICONTROL Clicks]**: Total number of URL visits.
 
 The **[!UICONTROL SMS Performance by date]** widget details the main information relative to your message with a graph:
 

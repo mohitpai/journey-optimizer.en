@@ -32,6 +32,8 @@ For a detailed list of every metric available in Adobe Journey Optimizer, refer 
 
 Each reporting dashboard can be modified by resizing or removing widgets. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
+1. From the **[!UICONTROL Actions]** drop-down, choose if you want to report on one particular action of your journeys.
+
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
 
     Note that the **[!UICONTROL Exclude test events]** option is only available for Journey reports.
@@ -51,6 +53,10 @@ Each reporting dashboard can be modified by resizing or removing widgets. Changi
     ![](assets/report_modify_9.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
+
+1. To customize the way your data is displayed, you can switch from different visualization options, such as graphs, tables, and donut charts.
+
+   ![](assets/report_modify_11.png)
 
 Your dashboard is now saved. Your different changes will be reapplied for a later use of your live reports. If needed, use the **[!UICONTROL Reset]** option to restore the default widgets and widgets' order.
 

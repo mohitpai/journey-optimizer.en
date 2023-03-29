@@ -55,9 +55,13 @@ Each reporting dashboard can be modified by changing the time period and resizin
 
 1. Click **[!UICONTROL Remove]** to remove any widget you don't need.
 
-    ![](assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. Once you are satisfied with the display order and the size of your widgets, click **[!UICONTROL Save]**.
+
+1. To customize the way your data is displayed, you can switch from different visualization options, such as graphs, tables, and donut charts.
+
+   ![](assets/report_modify_10.png)
 
 Your dashboard is now saved. Your different changes will be reapplied for a later use of your live reports. If needed, use the **[!UICONTROL Reset]** option to restore the default widgets and widgets' order.
 

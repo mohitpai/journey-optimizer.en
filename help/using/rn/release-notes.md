@@ -16,7 +16,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## March 2023 Early Release Notes {#mar-2023}
+## March 2023 Release Notes {#mar-2023}
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -24,7 +24,7 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#mar-2023-features}
 
-
+<!--
 <table>
 <thead>
 <tr>
@@ -36,10 +36,11 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -51,7 +52,8 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/sms-tracking.gif"/>
+<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -79,10 +81,11 @@ Information below is subject to change without prior notice until the release av
 
 **Journeys**
 
-* The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. 
-* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them at the end of a path. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second.
-* A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account.
+* The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. [Learn more](../configuration/external-systems.md)
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty place holders have been removed. You can now simply add your activities by dragging them at the end of a path.
+* In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
+* The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. [Learn more](../configuration/external-systems.md#timeout)
+* The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -99,15 +102,23 @@ Information below is subject to change without prior notice until the release av
 
     Note that although the term "tag" is no longer used in Decision management user interface, it is still used in backend services such as APIs and datasets.
 
-* You can now reset the offer capping counter on a daily, weekly or monthly basis. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
-* You can also choose which Adobe Experience Platform event should be looked at for offer decisioning capping. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* You can also choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
-* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-**Personalization**
+<!--**Personalization**
 
-* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+
+<!--
+**Reporting**
+
+* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
+-->
 
 ## February 2023 Release Notes {#feb-2023}
 
@@ -124,6 +135,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <p><strong>Caution</strong> - This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -179,6 +191,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 -->
 
 ### Improvements {#feb-2023-improvements}
@@ -212,6 +243,10 @@ Note that each widget can be resized and deleted as needed.
 * **Email surface** - In the **URL tracking parameters** section of the email surface settings, the limit for each **Value** field has been updated from 255 characters to 5 KB for compatibility with Adobe Analytics tracking. [Learn more](../email/email-settings.md#url-tracking)
 
 **Decision management**
+
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
 

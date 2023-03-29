@@ -28,7 +28,7 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Campaign type"
->abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or cart abandonment, the **API-triggered** type is the best choice."
+>abstract="For a marketing message by specifying a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or cart abandonment, the **API-triggered** type is the best choice."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

@@ -55,7 +55,7 @@ To use the test mode, follow these steps:
 
 ## Important notes {#important_notes}
 
-* An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
+* In test mode, you can fire events using the interface.
 * Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../segment/creating-test-profiles.md). 
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
@@ -97,8 +97,6 @@ When clicking the **[!UICONTROL Send]** button, the test begins. The progression
 When you select a different test profile in the event configuration screen and run the test again, the visual flow is cleared and shows the path of the new individual.
 
 When opening a journey in test, the displayed path corresponds to the last test executed.
-
-The visual flow works whether the event is triggered via the interface or externally (using Postman, for example). 
 
 ## Test mode for rule-based journeys {#test-rule-based}
 
