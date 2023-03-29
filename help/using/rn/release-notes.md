@@ -20,8 +20,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Availability date**: March 29, 2023
-
 ### New capabilities{#mar-2023-features}
 
 <!--
@@ -45,7 +43,8 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>SMS click tracking</strong><br/></th>
+<th><p><strong>SMS click tracking</strong></p><br/>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +62,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Use Tags in your Journeys (Beta)</strong><br/></th>
+<th><p><strong>Use Tags in your Journeys (Beta)</strong></pr><br/></th>
 </tr>
 </thead>
 <tbody>
