@@ -21,7 +21,7 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 To create a ranking formula, follow the steps below:
 
-1. Access the **[!UICONTROL Components]** menu, then select the **[!UICONTROL Ranking]** tab. The **[!UICONTROL Formulas]** tab is selected by default. The list of previously created formulas is displayed.
+1. Access the **[!UICONTROL Components]** menu, then select the **[!UICONTROL Rankings]** tab. The list of rankings previously created is displayed.
 
     ![](../assets/rankings-list.png)
 
@@ -29,7 +29,7 @@ To create a ranking formula, follow the steps below:
 
     ![](../assets/ranking-create-formula.png)
 
-1. Specify the formula name, description, and formula. 
+1. Specify the ranking formula name, description, and formula. 
 
     In this example, we want to boost the priority of all offers with the "hot" attribute if the actual weather is hot. To do this, the **contextData.weather=hot** was passed in the decisioning call.
 
