@@ -10,19 +10,21 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
+In-app messages are created in the context of a campaign.
+
 To create an In-app message, follow the steps below:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
-1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign.
+1. In the **[!UICONTROL Properties]** section, select when the campaign execution type: Scheduled or API-triggered. Learn more about campaign types in [this page](../campaigns/create-campaign.md#campaigntype).
 
 1. In the **[!UICONTROL Actions]** section, choose the **[!UICONTROL In-app message]** and the **[!UICONTROL App surface]** previously configured for your In-app message. Then, click **[!UICONTROL Create]**. 
 
-    [Learn more on In-app configuration](inapp-configuration.md).
+    Learn more about In-app configuration in [this page](inapp-configuration.md).
 
     ![](assets/in_app_create_1.png)
 
-1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
+1. From the **[!UICONTROL Properties]** section, enter the **[!UICONTROL Title]** and the **[!UICONTROL Description]** description.
 
 1. To assign custom or core data usage labels to the In-app message, select **[!UICONTROL Manage access]**. [Learn more](../administration/object-based-access.md).
 
@@ -34,13 +36,13 @@ To create an In-app message, follow the steps below:
 
 1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message:
 
-    1. Click **[!UICONTROL Add] condition** if you want the trigger to consider multiple events or criteria. 
+    1. Click **Add condition** if you want the trigger to consider multiple events or criteria. 
     1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
     1. Click **[!UICONTROL Make group]** to group triggers together.
 
     ![](assets/in_app_create_3.png)
 
-1. Choose the frequency of your trigger when your In-app message is active:
+1. Choose the frequency of your trigger when your In-app message is active. The following options are available:
 
     * **[!UICONTROL Everytime]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
     * **[!UICONTROL Once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
