@@ -200,7 +200,7 @@ solution: Journey Optimizer
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
-  + [Test and send your In-app notification](using/push/send-in-app.md)
+  + [Test and send your In-app notification](using/in-app/send-in-app.md)
   + [Configure In-app channel](using/in-app/inapp-configuration.md)
 + Push notification channel{#push}
   + [Get started with push notification](using/push/get-started-push.md)
