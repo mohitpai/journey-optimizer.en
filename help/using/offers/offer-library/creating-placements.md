@@ -41,6 +41,25 @@ To create a placement, follow these steps:
 
     ![](../assets/offers_placement_creation_properties.png)
 
+
+1. The **[!UICONTROL Request settings]** and **[!UICONTROL Response format]** sections provide additional parameters:
+
+    * **[!UICONTROL Allow Duplicates across placements]**: Control whether the same offer can be proposed multiple times across different placements. If enabled, the system will consider the same offer for multiple placements. By default, the parameter is set to false.
+
+        If this option is set to false for any placement in a decisioning request, all placements in the request will inherit the “false” setting.
+
+    * **[!UICONTROL Request offer]**: By default, one offer of the decision scope is returned for each profile. You can adjust the number of returned offers using this option. For example, if you select 2, the best 2 offers will display for the selected decision scope.
+
+    * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**: specify if the offer’s content and metadata should be returned in the API response. You can include all metadata or specific fields only. By default, Include metadata value is set to true.
+
+    These parameters can also be set directly into your API request if you are working with the [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). However, configuring them in the user interface can help you save time as you will not have to pass them in each API request. Note that if you configure the parameters both in user interface and the API request, values from the API request will prevail over the ones from the interface.
+    
+    >[!NOTE]
+    >
+    >If you are working with the [Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), you cannot set these parameters into your request. You need to define them in this screen.
+    >
+    >If you are working with the [Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md), you can set these parameters either in this screen or in your API request. If there is a mismatch of parameter values between the screen and the APi request, the request values will be used.
+
 1. Click **[!UICONTROL Save]** to confirm.
 
 1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it.
