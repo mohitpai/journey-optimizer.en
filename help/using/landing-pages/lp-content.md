@@ -87,7 +87,19 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Once you added all the desired checkboxes, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
+1. You can also add a **[!UICONTROL Text field]**.
+
+    ![](assets/lp_designer-form-add-text-field.png)
+
+    * Enter the **[!UICONTROL Label]** that will be displayed on top of the field in the form.
+    
+    * Enter a **[!UICONTROL Placeholder]** text. It will be displayed inside the field before the user fills in the field.
+
+    * Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field. If a mandatory field is not filled in, an error message will display when the user submits the page.
+
+    ![](assets/lp_designer-form-text-field.png)
+
+1. Once you added all the desired checkboxes and/or text fields, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
 
     ![](assets/lp_designer-form-call-to-action.png)
 
