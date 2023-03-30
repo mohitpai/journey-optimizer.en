@@ -47,6 +47,8 @@ For more information on how to work with the APIs, refer to these sections:
 * [Capping API](capping.md)
 * [Throttling API](throttling.md)
 
+A detailed description of the APIs is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+
 ### Data sources & custom actions capacity {#capacity}
 
 For **external data sources**, the maximum number of calls per second is limited to 15. If this limit is exceeded, any additional calls are either discarded or queued depending on the API in use. It is possible to increase this limit for private external data sources by contacting Adobe to include the endpoint in the allowlist, but this is not an option for public external data sources. * [Learn how to configure data sources](../datasource/about-data-sources.md).
