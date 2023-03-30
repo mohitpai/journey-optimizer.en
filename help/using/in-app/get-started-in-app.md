@@ -5,15 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: in-app, message, creation, start
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 ---
 # Get started with In-app channel {#gs-in-app}
-
->[!AVAILABILITY]
->
->The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 In-app messages are notifications that can be sent to users within your app, guiding them to specific points of interest. These notifications can be used for different purposes, such as promoting new features, presenting special offers, or facilitating user onboarding. By leveraging In-app messages, you can effectively engage with your audience and steer them towards important aspects of your application.
 

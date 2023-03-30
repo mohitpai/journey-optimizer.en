@@ -3,15 +3,10 @@ title: In-app configuration
 description: Learn how to configure your environment to send In-app messages with Journey Optimizer
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Informative"
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}
-
->[!AVAILABILITY]
->
->The In-app feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
 

@@ -23,7 +23,6 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#mar-2023-features}
 
-<!--
 <table>
 <thead>
 <tr>
@@ -40,7 +39,7 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-
+<!--
 <table>
 <thead>
 <tr>
