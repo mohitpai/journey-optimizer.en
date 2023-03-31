@@ -39,7 +39,6 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
@@ -56,7 +55,6 @@ Information below is subject to change without prior notice until the release av
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
