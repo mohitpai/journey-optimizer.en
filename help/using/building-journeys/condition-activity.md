@@ -124,7 +124,7 @@ You can use this condition type to ramp up the volume of your deliveries. See th
 
 The default cap is 1000.
 
-The counter applies only to the selected journey version. The counter resets to zero after one month, after a new journey version or on a duplicate version of the journey. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+The counter applies only to the selected journey version. The counter resets to zero when the journey is duplicated or when a new version is created. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
 When profile cap is defined on a recurring journey, the counter does not reset after each recurrence.
 
