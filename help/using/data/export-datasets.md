@@ -79,6 +79,4 @@ Detailed information on each step is available in Adobe Experience Platform docu
 
 Once the export is complete, the content of your dataset is deposited on your cloud storage location according to the schedule you have configured. [Learn how to verify successful dataset export](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
 
-## Use case: export sends, opens and clicks to an SFTP server {#use-case}
-
-
+>[!VIDEO](assets/do-not-localize/dataset_export.mov)
