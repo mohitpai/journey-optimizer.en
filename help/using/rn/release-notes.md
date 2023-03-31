@@ -108,13 +108,11 @@ Information below is subject to change without prior notice until the release av
 
 * You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)
 
-<!--
 **Reporting**
 
 * The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
 
     To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
 
 ## February 2023 Release Notes {#feb-2023}
 
