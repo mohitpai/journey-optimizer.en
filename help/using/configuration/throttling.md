@@ -18,6 +18,8 @@ This section provides global information on how to work with the API. A detailed
 >Only one configuration is currently allowed per organisation. A configuration must be defined on a production sandbox (given through x-sandbox-name in the headers).
 >
 >A configuration is applied at organization level.
+>
+>When the limit set in the API is reached, further events are queued for up to 6 hours. This value cannot be modified.
 
 ## Throttling API description {#description}
 
