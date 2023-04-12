@@ -12,7 +12,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## April 2023 {#apr-2023}
 
 * Adobe Experience Manager Assets Essentials and Adobe Stock have been added to the multi-solution integration page. [Read more](../start/ajo-integrations.md)
-* The warning on multilevel email subdomains not being allowed has been removed as they are now supported. [Read more](../configuration/delegate-subdomain.md)
+* The warning on multi-level email subdomains not being allowed has been removed as they are now supported. [Read more](../configuration/delegate-subdomain.md)
 
 ## March 2023 {#march-2023}
 
