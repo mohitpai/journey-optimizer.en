@@ -6,8 +6,8 @@ description: Learn how to work with the Capping API
 role: User
 level: Beginner
 keywords: external, API, optimizer, capping
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 ---
-
 # Work with the Capping API {#work}
 
 The Capping API helps you create, configure and monitor your capping configurations.

@@ -6,6 +6,7 @@ description: Learn how to work with the Throttling API
 role: User
 level: Beginner
 keywords: external, API, optimizer, capping
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 ---
 # Work with the Throttling API
 

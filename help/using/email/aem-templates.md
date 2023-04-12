@@ -10,6 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
+exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 ---
 # Work with Adobe Experience Manager templates {#aem-templates}
 
