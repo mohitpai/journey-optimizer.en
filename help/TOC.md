@@ -170,8 +170,8 @@ solution: Journey Optimizer
   + Design your email content {#design-email}
     + [Get started with email design](using/email/get-started-email-design.md)
     + Start creating content {#start-creating-content}
-      + [Start from scratch](using/email/content-from-scratch.md)
-      + [Import your email content](using/email/existing-content.md)
+      + [Design content from scratch](using/email/content-from-scratch.md)
+      + [Import your content](using/email/existing-content.md)
       + [Code your own content](using/email/code-content.md)
       + [Work with templates](using/email/email-templates.md)
     + Design your content {#add-content}
