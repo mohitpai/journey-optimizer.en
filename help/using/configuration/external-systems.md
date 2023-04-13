@@ -22,7 +22,7 @@ When Journey Optimizer executes a call to an external API, the technical guardra
 
 1. Capping or throttling rules are applied: if the maximum rate is reached, remaining calls are discarded or queued.
 
-2. Timeout and retry: if the capping rule is fulfilled, Journey Optimizer tries to perform the call until the end of the timeout duration is reached. 
+2. Timeout and retry: if the capping or throttling rule is fulfilled, Journey Optimizer tries to perform the call until the end of the timeout duration is reached. 
 
 ## Capping & throttling APIs {#capping}
 
@@ -30,7 +30,7 @@ When Journey Optimizer executes a call to an external API, the technical guardra
 
 When configuring a datasource or an action, you establish a connection to a system to either retrieve additional information to use in your journeys or send messages or API calls.
 
-Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the the number of events sent per second.
+Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the number of events sent per second.
 
 Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued for up to 6 hours and processed as soon as possible in the order they were received if you are using the Throttling API.
 

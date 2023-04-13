@@ -10,7 +10,7 @@ exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 ---
 # Work with the Throttling API
 
-The Throttling API helps you create, configure and monitor your throttling configurations.
+The Throttling API helps you create, configure and monitor your throttling configurations in order to limit the number of events sent per second.
 
 This section provides global information on how to work with the API. A detailed API description is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/).
 
