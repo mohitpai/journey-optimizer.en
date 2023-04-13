@@ -20,7 +20,7 @@ Use [!DNL Journey Optimizer] to send email messages to your customers. You can c
 
 Email deliveries can be created:
 
-* In a **Journey**: once you added an **[!UICONTROL Email]** activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Email]** right pane to create the content for the SMS message. 
+* In a **Journey**: once you added an **[!UICONTROL Email]** activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Email]** right pane to create the content for the message. 
 
     For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
 
