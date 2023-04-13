@@ -13,6 +13,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Adobe Experience Manager Assets Essentials and Adobe Stock have been added to the multi-solution integration page. [Read more](../start/ajo-integrations.md)
 * The warning on multi-level email subdomains not being allowed has been removed as they are now supported. [Read more](../configuration/delegate-subdomain.md)
+* A note has been added to specify that, if changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it. [Read more](../building-journeys/publishing-the-journey.md)
 
 ## March 2023 {#march-2023}
 

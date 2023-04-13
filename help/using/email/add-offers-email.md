@@ -16,9 +16,12 @@ In [!DNL Journey Optimizer] emails, you can insert decisions that will leverage 
 
 For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
-For more on how to create and manage offers, refer to [this section](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
 
-For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](../offers/offers-e2e.md#insert-decision-in-email).
+* For more on how to create and manage offers, refer to [this section](../offers/get-started/starting-offer-decisioning.md).
+* For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Learn how to add offers as personalization in this video](#video-offers)
 

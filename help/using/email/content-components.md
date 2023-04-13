@@ -191,3 +191,6 @@ Use the **[!UICONTROL Offer decision]** component to insert offers into your mes
 
 Learn how to add personalized offers into an email in [this section](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
