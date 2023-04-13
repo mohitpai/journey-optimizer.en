@@ -67,15 +67,13 @@ After saving your changes, your offers are ready to be displayed to the relevant
 
 ## Preview offers in an email {#preview-offers-in-email}
 
-You can preview the different offers that are part of the decision added to the email using the **[!UICONTROL Offers]** section or the content components arrows.
+You can preview the different offers that are part of the decision added to the email using the **[!UICONTROL Offer]** section or the content components arrows.
 
 ![](assets/deliver-offer-preview.png)
 
 To display the different offers that are part of the decision with a customer profile, follow the steps below.
 
-1. Click **[!UICONTROL Preview]**.
-
-    ![](assets/deliver-offer-preview-button.png)
+1. Click the **[!UICONTROL Simulate Content button]** button.
 
     >[!NOTE]
     >
@@ -114,4 +112,3 @@ Learn more on the detailed steps to check the message preview in [this section](
 Learn how to add a decision management component to messages in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

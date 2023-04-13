@@ -57,7 +57,7 @@ To define specific content that will enable users to select and submit their cho
 
     >[!NOTE]
     >
-    >Switch to the **[!UICONTROL Form style]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
+    >Switch to the **[!UICONTROL Styles]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
 
 1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
 
@@ -77,7 +77,7 @@ To define specific content that will enable users to select and submit their cho
 
     * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on [subscription lists](subscription-list.md).
 
-        ![](assets/lp_designer-form-subs-list.png)
+        <!--![](assets/lp_designer-form-subs-list.png)-->
 
     * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from all your communications.
 
@@ -130,21 +130,25 @@ To define specific content that will enable users to select and submit their cho
 
 ## Define landing page form styles {#lp-form-styles}
 
-1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Form style]** tab.
+1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Style]** tab.
 
     ![](assets/lp_designer-form-style.png)
 
-1. Expand the **[!UICONTROL Checkboxes]** section to define the appearance of the checkboxes and corresponding text. For example, you can adjust the font family or size, and the checkbox border color.
+1. The **[!UICONTROL Fields]** section is expanded by default and enables you to edit the appearance of the text field, such as the label and placeholder font, the position of the label, the field background color, or the field border.
+
+    ![](assets/lp_designer-form-style-fields.png)
+
+1. Expand the **[!UICONTROL Checkboxes]** section to define the appearance of the checkboxes and corresponding text. For example, you can adjust the font family or size, or the checkbox border color.
 
     ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can add a border, edit the label color on hover, or adjust the alignment of the button.
+1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can change the font, add a border, edit the label color on hover, or adjust the alignment of the button.
 
     ![](assets/lp_designer-form-style-buttons.png)
 
-    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
+    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Simulate content]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
 
-    ![](assets/lp_designer-form-style-buttons-preview.png)
+    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Expand the **[!UICONTROL Form layout]** section to edit the layout settings such as the background color, padding, or margin.
 
@@ -188,11 +192,15 @@ To do so, follow the steps below:
 
 1. Save your changes.
 
+Now when users select one of the checkboxes,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Now when users select one of the checkboxes, the message corresponding to the selected checkbox is displayed upon submitting the form.
+the message corresponding to the selected checkbox is displayed upon submitting the form.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

@@ -203,15 +203,15 @@ Once your landing page settings and content have been defined, you can use test 
 >
 >You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
-1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
+1. From the landing page interface, click the **[!UICONTROL Simulate content]** button to access the test profile selection.
 
-    ![](assets/lp_preview-button.png)
+    ![](assets/lp_simulate-button.png)
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Preview]** button is also accessible from the content designer.
+    >The **[!UICONTROL Simulate content]** button is also accessible from the content designer.
 
-1. From the **[!UICONTROL Preview & test]** screen, select one or more test profiles.
+1. From the **[!UICONTROL Simulate ]** screen, select one or more test profiles.
 
     ![](assets/lp_test-profiles.png)
 

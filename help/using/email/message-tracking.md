@@ -67,8 +67,6 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
-    ![](assets/message-tracking-links.png)
-
 1. You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md#perso-urls).
 
 1. Save your changes.
@@ -115,8 +113,6 @@ The [Email Designer](content-from-scratch.md) allows you to manage the tracked U
     This list enables you to have a centralized view and to locate each URL in the email content.
 
 1. To edit a link, click the corresponding pencil icon.
-
-    ![](assets/message-tracking-edit-links.png)
 
 1. You can modify the **[!UICONTROL Tracking Type]** if needed:
 

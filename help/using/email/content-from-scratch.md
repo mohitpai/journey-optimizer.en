@@ -76,15 +76,13 @@ To start building your email content, follow the steps below:
 
     Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
-    ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
+1. From the **[!UICONTROL Content components]** list, add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Each component can be further customized using the **[!UICONTROL Settings]** or **[!UICONTROL Style]** tabs in the right menu. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_structure_component.png)
 
@@ -98,7 +96,7 @@ To start building your email content, follow the steps below:
 
     ![](assets/email_designer_personalization.png)
 
-1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
+1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 
     ![](assets/email_designer_dynamic-content.png)
 
@@ -106,7 +104,7 @@ To start building your email content, follow the steps below:
 
     ![](assets/email_designer_links.png)
 
-1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+1. You can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
 
     ![](assets/email_designer_switch-to-code.png)
 
