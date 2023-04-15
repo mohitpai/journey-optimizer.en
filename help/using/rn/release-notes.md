@@ -15,10 +15,30 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
+## April 2023 Updates {#apr-2023}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta.</p>
+<img src="../push/assets/mobile-wf-home.png"/>
+<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## March 2023 Release Notes {#mar-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
 
 
 ### New capabilities{#mar-2023-features}
@@ -72,22 +92,6 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta.</p>
-<img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### Improvements {#mar-2023-improvements}
