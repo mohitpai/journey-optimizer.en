@@ -32,12 +32,12 @@ To create a composition workflow, follow these steps:
 1. Access the **[!UICONTROL Segments]** menu and select **[!UICONTROL Create Audience]**.
 
 1. Select **[!UICONTROL Compose Audience]**.
+    
+    ![](assets/audiences-create.png)
 
     >[!NOTE]
     >
     >The **[!UICONTROL Build rule]** creation method allows you to create a new segment definition using the [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
-    
-    ![](assets/audiences-create.png)
 
 1. The composition canvas displays with two default activites:
 

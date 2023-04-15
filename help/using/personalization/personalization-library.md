@@ -25,9 +25,7 @@ To access the saved expressions, click the **[!UICONTROL Library]** button in th
 
 >[!NOTE]
 >
->You can use the info button to get more information about the contents of a saved expression. If you have the appropriate permissions to manage library items, the information button will appear in the ellipse menu.
-    
-![](assets/library-list.png)
+>You can get more information about the content of a saved expression from the ellipsis button. Note that the information button will appear in the ellipsis if you have the appropriate permissions to manage library items.
 
 Click the + to insert the expression into the editor. You can then customize and validate your personalization content as usual. [Learn more](../personalization/personalization-build-expressions.md)
 

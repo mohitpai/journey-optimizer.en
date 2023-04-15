@@ -51,29 +51,23 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
 1. From the **[!UICONTROL Upload files]**, click **[!UICONTROL Browse]** and choose if you want to **[!UICONTROL Browse files]** or **[!UICONTROL Browse folders]**.
 
-    ![](assets/media_library_3.png)
+1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**. To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**. 
-
-    To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. Once your asset is uploaded, you can now insert your assets in one of your messages via the Email Designer.
-
-    Your asset can also be further edited with the **Edit** mode of [!DNL Assets Essentials]. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. To further edit your assets with Adobe Photoshop Express, double-click the assets. Then, from the right-hand menu, select the **[!UICONTROL Edit mode]** icon. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
     ![](assets/media_library_12.png)
 
-1.  From [!DNL Adobe Journey Optimizer], select **[!UICONTROL Asset picker]** from the left pane of the email designer.
+1.  From [!DNL Adobe Journey Optimizer], select the **[!UICONTROL Asset picker]** menu from the left pane of the email designer.
 
     ![](assets/media_library_5.png)
 
-1. Select your **[!UICONTROL Assets]** folder. You can also search for your asset or your folder in the search bar.
+1. Select your previously created **[!UICONTROL Assets]** folder. You can also search for your asset or your folder in the search bar.
 
 1. Drag and drop your asset in your email content.
 
     ![](assets/media_library_6.png)
 
-1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
+1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](content-components.md)
 
     ![](assets/media_library_13.png)
 

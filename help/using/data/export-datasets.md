@@ -7,8 +7,8 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform, data lake, create, lake, datasets, profile
+exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 ---
-
 # Export datasets to cloud storage locations {#export-datasets}
 
 >[!AVAILABILITY]

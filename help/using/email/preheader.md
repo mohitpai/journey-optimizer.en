@@ -33,13 +33,9 @@ To define the email preheader, follow the steps below:
 
     ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+1. From the **[!UICONTROL Settings]** tab, click the personalization icon next to the **[!UICONTROL Preheader]** field to add content.
 
     ![](assets/preheader_body_settings.png)
-
-1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
-
-    ![](assets/preheader_3.png)
 
 1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
 

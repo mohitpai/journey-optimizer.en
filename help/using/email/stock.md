@@ -44,7 +44,6 @@ To add images from [!DNL Adobe Stock] to your content, follow the steps below:
 
     If the image you selected is not licensed, you must [get the license](#license-stock-image).
 
-
 ## Find similar photos {#similar-stock-image}
 
 You can replace any existing image in your email content by a photo from [!DNL Adobe Stock]. Note that this option is available for all images: licensed/unlicensed Stock images and images from your Assets folder.
@@ -62,7 +61,7 @@ To browse similar photos, follow the steps below:
     
     If the image you selected is not licensed, you must [get the license](#license-stock-image).
 
-1. Customize your image, if needed, with the **[!UICONTROL Components settings]** menu. [Learn more about components settings](content-components.md).
+1. Customize your image, if needed, with the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](content-components.md).
 
 ## Get the license from [!DNL Adobe Stock] {#license-stock-image}
 
@@ -74,7 +73,7 @@ To license and download your image, follow the steps below:
 
     ![](assets/stock-license-icon.png)
 
-    You are then redirected to the [!DNL Adobe Stock] website to but the license.
+    You are then redirected to the [!DNL Adobe Stock] website to buy the license.
 
     ![](assets/stock-license-photo.png)
 

@@ -66,8 +66,6 @@ To fully delegate a new subdomain to Adobe, follow the steps below:
     >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
-    >
-    >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
     <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -138,8 +136,6 @@ To delegate a subdomain using CNAMEs, follow the steps below:
     >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
-    >
-    >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
     <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

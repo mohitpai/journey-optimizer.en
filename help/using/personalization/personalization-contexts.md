@@ -26,7 +26,7 @@ When you create an email, you can add personalization in the **[!UICONTROL Subje
 
 In the Email designer, you can personalize the content:
 
-* In the **message**: click inside a text block, click the **Personalize** icon from the contextual toolbar and select **Insert personalization** field. For more on the Email Designer interface, see this [section](../email/get-started-email-design.md).
+* In the **message**: click inside a text block, click the **Add Personalization** icon from the contextual toolbar. For more on the Email Designer interface, see this [section](../email/get-started-email-design.md).
     
     ![](assets/perso_insert.png)
 

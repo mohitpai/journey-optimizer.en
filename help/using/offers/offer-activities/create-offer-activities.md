@@ -179,6 +179,10 @@ From the decision list, you can select the decision to display its properties. F
 
 Select the **[!UICONTROL Edit]** button to go back to the decision edition mode, where you can modify the decision's [details](#create-activity), [decision scopes](#add-decision-scopes) and [fallback offer](#add-fallback).
 
+>[!IMPORTANT]
+>
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
+
 Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
 
 To set again the status to **[!UICONTROL Live]**, select the **[!UICONTROL Activate]** button that is now displayed.

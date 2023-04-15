@@ -54,5 +54,3 @@ Below are the available background settings that you can use.
   >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
   You can also set a background image at the column level, but this is rarely used.
-
-  ![](assets/background_5.png)

@@ -8,6 +8,7 @@ level: Experienced
 hide: yes
 hidefromtoc: yes
 badge: label="Beta" type="Informative"
+exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
 ---
 # Statistical calculations in Experimentation report {#experiment-report-calculations}
 

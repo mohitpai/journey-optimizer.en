@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-
+exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 ---
 # Decision management data collection {#data-collection}
 
@@ -60,4 +60,3 @@ To send in feedback data, you need to create a dataset to collect events and, fo
 * Learn how to create a dataset where the experience events will be collected in [this section](create-dataset.md).
 
 * Learn how to define experience events to send in feedback data in [this section](schema-requirement.md).
-

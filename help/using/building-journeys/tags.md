@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: journey, tags
 badge: label="Beta" type="Informative"
-
+exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 ---
 # Manage tags in journeys {#journey_tags}
 

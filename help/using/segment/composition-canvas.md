@@ -25,7 +25,7 @@ What you'll find in this documentation:
 
 >[!ENDSHADEBOX]
 
-Audience composition provides a visual canvas that allows you to create audiences and using various activites (split, enrich, etc.).
+Audience composition provides a visual canvas that allows you to create audiences and use various activites (split, enrich, etc.).
 
 The steps to compose an audience in the canvas are as follows:
 
@@ -70,7 +70,7 @@ Available activites are:
 
 * [Audience](#audience): include additional profiles belonging to one or multiple existing audiences,
 * [Exclude](#exclude): exclude profiles belonging to an existing audience or exclude profiles based on specific attributes,
-* [Enrich]{#enrich}: enrich your audience with additional attributes coming from Adobe Experience Platform datasets,
+* [Enrich](#enrich): enrich your audience with additional attributes coming from Adobe Experience Platform datasets,
 * [Rank](#rank): rank profiles based on a specific attribute, specify the number of profiles to keep and include them into your composition,
 * [Split](#split): divide your composition into multiple paths based on random percentages or on attributes. 
 

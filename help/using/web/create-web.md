@@ -67,6 +67,11 @@ For the web experience to be delivered correctly, the following settings must be
 >title="Define a web surface"
 >abstract="A web surface can match a single page URL or multiple pages, allowing you to deliver content modifications across one or several web pages."
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="Build a pages matching rule"
+>abstract="A pages matching rule enables to target multiple URLs matching the same rule - for example, if you want to apply the changes to a hero banner accross a whole website or add a top image that displays on all the product pages of a website."
+
 To start building your web experience through a campaign, follow the steps below.
 
 1. Create a campaign. [Learn more](../campaigns/create-campaign.md)
