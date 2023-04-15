@@ -208,8 +208,9 @@ solution: Journey Optimizer
   + [Design your push notification](using/push/design-push.md)
   + [Send your push notification](using/push/send-push.md)
   + Configure push notifications{#push-config}
-    + [Push Notifications and Adobe Journey Optimizer](using/push/push-gs.md)
+    + [Push Notification flow](using/push/push-gs.md)
     + [Configure push notification channel](using/push/push-configuration.md)
+    + [Mobile onboarding quick start workflow](using/push/mobile-onboarding-wf.md)
 + SMS channel{#sms}
   + [Get started with SMS](using/sms/get-started-sms.md)
   + [Create an SMS message](using/sms/create-sms.md)

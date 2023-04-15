@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push Notifications and Adobe Journey Optimizer
+title: Push Notification flow in Adobe Journey Optimizer
 description: Understand push notification data flow and components
 topic: Mobile
 feature: Push
@@ -9,9 +9,17 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 ---
-# Push Notifications and Adobe Journey Optimizer {#get-started-push}
+# Push notification data flow and components {#get-started-push}
 
-This page will help you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. Learn how to create push notifications on [this page](create-push.md).
+This page helps you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. 
+
+
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection Home screen as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+
+Learn how to create push notifications on [this page](create-push.md).
 
 Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed on [this page](push-configuration.md).
 
@@ -32,7 +40,7 @@ The following pictorial shows the systems and services involved with associated 
 1. Push notifications are delivered to end-user devices
 1. End-user push notification interactions are send in as Experience Events from the end-user client via SDK integration
 
-## Roles of Key Services in Push Notifications {#roles-of-key-services}
+## Roles of key services in push notifications {#roles-of-key-services}
 
 * **Push notification service providers** are the core component web services that deliver notifications from remote servers to mobile apps.
     
@@ -52,8 +60,16 @@ The following pictorial shows the systems and services involved with associated 
 
 * **[!DNL Adobe Journey Optimizer]** : once your mobile app integrations with above mentioned components are in place and your customer profiles in Adobe Experience Platform, you may author and orchestrate push notifications in [!DNL Adobe Journey Optimizer] to engage with your users.
 
-## Push Technical Setup and Practitioner Workflows {#push-technical-setup}
+## Push technical setup and practitioner workflows {#push-technical-setup}
 
 The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 
 ![](assets/user-flow.png)
+
+**Related topics**
+
+* [Configure push channel](push-configuration.md)
+* [Push notification report](../reports/journey-global-report.md#push-global)
+* [Create a push notification](create-push.md)
+* [Add a message in a journey](../building-journeys/journeys-message.md)
+* [Add a message in a campaign](../campaigns/create-campaign.md)
