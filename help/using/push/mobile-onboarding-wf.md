@@ -39,19 +39,22 @@ Below are a few additional features:
 
 The first step of this workflow auto creates and configures all necessary Data Collection, and Journey Optimizer assets, such as Mobile Properties, Mobile Extensions, Journey Optimizer Extension, Rules, Data Elements, etc.
 
+After accepting Beta Terms & Conditions, enter the name of your mobile app and click **[!DNL Next]**.
+
 ![](assets/mobile-wf-setup.png)
 
+Provide information for iOS and Android platforms, including your App ID and authentification keys or key file.
 
 ## Implement{#implement-mobile-wf}
 
-Next step provides step-by-step guidance to install the code to your app.
+Next step provides step-by-step guidance to install the code to your mobile app.
 
 ![](assets/mobile-wf-add-code.png)
 
 
 ## Validate{#valid-mobile-wf}
 
-Review and check the implementation to validate it. 
+Review and check the implementation to validate it. You can sent a test push notification.
 
 ![](assets/mobile-wf-valid.png)
 
