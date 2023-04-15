@@ -14,13 +14,15 @@ badge: label="Beta" type="Informative"
 
 # Mobile onboarding quick start workflow {#mobile-wf}
 
-The new **mobile onboarding quick start workflow** is a new product feature to rapidly configure the Mobile SDK, start collecting and validating mobile event data, and send push notifications with Journey Optimizer. 
+The new **mobile onboarding quick start workflow** is a new product feature to rapidly configure the Mobile SDK, start collecting and validating mobile event data, and send push notifications with [!DNL Journey Optimizer]. 
 
-This capability is accessible via the **Adobe Experience Platform Data Collection** home page to all customers as a public Beta.
+This capability is accessible via the **[!DNL Adobe Experience Platform Data Collection]** home page to all customers as a public Beta.
 
 ## Get started{#gs-mobile-wf}
 
 This new workflow automates Data Collection setup by reducing the total clicks and accelerating the mobile configuration for Journey Optimizer. This quick start workflow takes you through four easy steps to [set up](##setup-mobile-wf), [implement](#implement-mobile-wf), [validate](#valid-mobile-wf), and [review](#review-mobile-wf) your mobile configuration. 
+
+To access the new mobile onboarding quick start workflow, browse to **[!DNL Data Collection]** from the solution switcher. Then select the **[!DNL Start Collecting Mobile Data]** card on the home page.
 
 ![](assets/mobile-wf-home.png)
 
