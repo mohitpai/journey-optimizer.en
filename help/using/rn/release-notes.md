@@ -82,7 +82,7 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection Home screen as a public beta.</p>
-<p>For more information, refer to the <a href="../push/mobile-onborading-wf.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
