@@ -59,6 +59,10 @@ To create a composition workflow, follow these steps:
 
 1. Once your composition is ready, click the **[!UICONTROL Publish]** button to publish the composition and save the resulting audiences into Adobe Experience Platform.
 
+    >[!IMPORTANT]
+    >
+    >You can publish up to 75 compositions in a given sandbox. If you have reached this threshold, you need to delete a composition to free up space and publish a new one.
+ 
     If any error occurs during publishing, alerts will display with information on how to resolve the issue.
 
     ![](assets/audiences-alerts.png)
