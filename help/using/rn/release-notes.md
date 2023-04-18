@@ -27,7 +27,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Web channel</strong><br/></th>
+<th><strong>Web channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
