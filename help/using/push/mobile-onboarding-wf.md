@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mobile onboarding quick start workflow 
-description: Learn how to use the Mobile onboarding quick start workflow 
+title: Mobile onboarding quick start workflow
+description: Learn how to use the Mobile onboarding quick start workflow
 topic: Mobile
 feature: Push
 role: Admin
@@ -10,8 +10,8 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta" type="Informative"
+exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 ---
-
 # Mobile onboarding quick start workflow {#mobile-wf}
 
 The new **mobile onboarding quick start workflow** is a new product feature to rapidly configure the Mobile SDK, start collecting and validating mobile event data, and send push notifications with [!DNL Journey Optimizer]. 
