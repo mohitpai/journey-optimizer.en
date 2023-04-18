@@ -18,8 +18,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## April 2023 early Release Notes {#apr-e-rn-2023}
 
-
-
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Release date**: April 26, 2023
@@ -61,7 +59,7 @@ Information below is subject to change without prior notice until the release av
 
 
 
-### Improvements {#mar-2023-improvements}
+### Improvements {#apr-2023-improvements}
 
 **Journeys**
 
