@@ -15,9 +15,32 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-<!--
-## April 2023 Updates {#apr-2023}
 
+## April 2023 early Release Notes {#apr-e-rn-2023}
+
+
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: April 26, 2023
+
+### New capabilities{#mar-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Web channel (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Web channel is now available in Journey Optimizer. You can author and deliver a personalized web experience to your users inside a campaign.</p>
+<!--img src="assets/do-not-localize/in-app.gif"/>
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -35,12 +58,47 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tr>
 </tbody>
 </table>
--->
+
+
+
+### Improvements {#mar-2023-improvements}
+
+**Journeys**
+
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+
+* The journey canvas now displays the activity ID. This improves reporting and retargeting.
+* The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.	
+* New guardrails have been added to journeys:
+    * The number of nodes in a journey is now limited to 50 maximum
+    * The number of live journeys in one org is now limited to 50 maximum. Journeys in test mode are not taken into account.
+
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* You can now define static or dynamic query parameters in your custom actions.	
+
+
+**Reporting**
+
+* Journey Optimizer reporting capabilities have been improved to bring:
+    * Better readability and usability
+    * Ability to schedule and share reports
+    * New view to display cross-campaign/cross-channel reports
+    * Capability to create custom dashboards
+    * Action oriented reports, for ex. Filtering by audience
+    * Goals tracking across journeys and campaigns
+    * Programatic way to bring Journey Optimizer reports to Customer Journey Analytics
+
+
+**Content Designer**
+
+* The Adobe Journey Optimizer Content Designer has been updated, and access to design styles and components is now easier. This new version propose an improved user experience, and comes with increased performances, dark mode partial compatibility, and new accessibility standards support.
+
+
 
 ## March 2023 Release Notes {#mar-2023}
-
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
-
 
 ### New capabilities{#mar-2023-features}
 
