@@ -62,10 +62,11 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * Personalization can only contain profile attributes.
 
-* In-app display is tied to the journey lifespan, meaning that when the journey ends for a profile, all In-app messages in that journey will stop being displayed for that profile. This mean that you cannot stop an In-app directly from a journey activity. You have to end that journey. 
-* In-app display is linked to the lifespan of a journey, meaning that once a journey is completed for a particular user profile, all In-app messages within that journey will cease to be displayed for that profile. Consequently, it is not possible to stop an In-app message directly from a journey activity. Instead, you will need to end the entire journey to stop the In-app messages from being displayed to the profile.
+* In-app display is tied to the journey lifespan, meaning that when the journey ends for a profile, all In-app messages within that journey will cease to be displayed for that profile.  Consequently, it is not possible to stop an In-app message directly from a journey activity. Instead, you will need to end the entire journey to stop the In-app messages from being displayed to the profile.
 
-* With this feature, you will not yet be able to use **[!UICONTROL Reaction]** activities to react to an In-app open or click.
+* In test mode, the In-app display depends on the journey's lifespan. To prevent the journey from ending too early during testing, adjust the **[!UICONTROL Wait time]** value for your **[!UICONTROL Wait]** activities. 
+
+* **[!UICONTROL Reaction]** activities can not be used to react to an In-app open or click.
 
 * An activation delay happens between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message. This delay can range from 15 minutes to 1 hour.
 
