@@ -18,13 +18,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## April 2023 early Release Notes {#apr-e-rn-2023}
 
-
-
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Release date**: April 26, 2023
 
-### New capabilities{#mar-2023-features}
+### New capabilities{#apr-2023-features}
 
 <table>
 <thead>
@@ -60,25 +58,22 @@ Information below is subject to change without prior notice until the release av
 </table>
 
 
-
-### Improvements {#mar-2023-improvements}
+### Improvements {#april-2023-improvements}
 
 **Journeys**
-
 
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
 
 * The journey canvas now displays the activity ID. This improves reporting and retargeting.
-* The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.	
+* The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
 * New guardrails have been added to journeys:
     * The number of nodes in a journey is now limited to 50 maximum
     * The number of live journeys in one org is now limited to 50 maximum. Journeys in test mode are not taken into account.
 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
-* You can now define static or dynamic query parameters in your custom actions.	
-
+* You can now define static or dynamic query parameters in your custom actions.
 
 **Reporting**
 
