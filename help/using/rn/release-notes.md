@@ -33,7 +33,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience.</p>
+<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can now author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience.</p>
 <img src="../web/assets/web-designer.png"/>
 <!--img src="assets/do-not-localize/in-app.gif"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
