@@ -12,7 +12,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 
 ## Preview on device {#preview-device}
 
-Once you [created the In-app message](create-in-app.md) and [defined its content](design-in-app.md), you can preview the In-app notification in a specific device.
+If you want to get a sneak peek of the In-app notification before it goes live for all users, you have the ability to preview it on a specific device. This functionality allows you to ensure that the notification looks and functions as intended on the chosen device, providing a better user experience for your audience.
 
 To perform this, follow the steps below: 
 
@@ -32,7 +32,7 @@ Your In-app message can now be triggered directly on your device allowing you to
 
 ## Review and activate your In-App notification{#in-app-review}
 
-Once your In-App message is ready, you can review and activate it.
+Once your In-App message is created, and its content defined and personalized, you can review and activate it.
 
 To perform this, follow the steps below:
 

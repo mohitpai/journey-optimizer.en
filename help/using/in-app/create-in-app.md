@@ -12,7 +12,55 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
 In-app messages are created in the context of a campaign.
 
-To create an In-app message, follow the steps below:
+>[!BEGINTABS]
+
+>[!TAB Add an In-app message to a journey]
+
+>[!AVAILABILITY]
+>
+>The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+
+1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
+
+    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+
+    ![](assets/in_app_journey_1.png)
+
+1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
+
+1. Choose the [In-app surface](inapp-configuration.md) to use.
+
+    ![](assets/in_app_journey_2.png)
+
+1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
+
+1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+
+    ![](assets/in_app_journey_4.png)
+
+1. Choose the frequency of your trigger when your In-app message is active:
+
+    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+
+1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+
+    1. From the left drop-down, select the event required to trigger the message.
+    1. From the right drop-down, select the validation required on the selected event.
+    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
+    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+
+    ![](assets/in_app_journey_3.png)
+    
+1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
+
+1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
+
+For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+
+>[!TAB Add an In-app message to a campaign]
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -59,6 +107,7 @@ To create an In-app message, follow the steps below:
 
     ![](assets/in_app_create_4.png)
 
+>[!ENDTABS]
 
 ## How-to video{#video}
 

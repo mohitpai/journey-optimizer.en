@@ -50,7 +50,7 @@ solution: Journey Optimizer
     + [Condition](using/building-journeys/condition-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
-    + [Email, SMS, Push](using/building-journeys/journeys-message.md)
+    + [Email, In-app, Push, SMS](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
@@ -199,6 +199,7 @@ solution: Journey Optimizer
 + In-app channel{#in-app}
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
+  + [Create an In-app message in a Journey](using/in-app/create-in-app-journey.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [Test and send your In-app notification](using/in-app/send-in-app.md)
   + [Configure In-app channel](using/in-app/inapp-configuration.md)
