@@ -35,11 +35,6 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * You cannot add a preheader to a landing page.
 * You cannot select the **Code your own** option when designing a landing primary page.
 
-## In-app guardrails {#inapp-guardrails}
-
-* Once the journey involving an in-app activity comes to an end, the in-app will no longer be active.
-* A maximum of 50 live In-app messages can be active at any given time per sandbox.
-
 ## Journey guardrails {#journeys-guardrails}
 
 ### General actions {#general-actions-g}
