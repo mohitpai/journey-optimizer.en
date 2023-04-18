@@ -16,7 +16,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## April 2023 early Release Notes {#apr-e-rn-2023}
+## April 2023 early release notes {#apr-e-rn-2023}
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -110,7 +110,7 @@ Information below is subject to change without prior notice until the release av
 
 
 
-## March 2023 Release Notes {#mar-2023}
+## March 2023 release notes {#mar-2023}
 
 ### New capabilities{#mar-2023-features}
 
@@ -206,7 +206,7 @@ Information below is subject to change without prior notice until the release av
 
     To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
 
-## February 2023 Release Notes {#feb-2023}
+## February 2023 release notes {#feb-2023}
 
 ### New capabilities{#feb-2023-features}
 
@@ -334,7 +334,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
 
-## January 2023 Release {#jan-2023-release}
+## January 2023 release notes{#jan-2023-release}
 
 ### New capabilities{#jan-2023-features}
 
