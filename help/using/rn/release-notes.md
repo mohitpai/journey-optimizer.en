@@ -27,13 +27,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Web channel (General Availability)</strong><br/></th>
+<th><strong>Web channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The Web channel is now available in Journey Optimizer. You can author and deliver a personalized web experience to your users inside a campaign.</p>
+<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience.</p>
+<img src="../web/assets/web-designer.png"/>
 <!--img src="assets/do-not-localize/in-app.gif"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
