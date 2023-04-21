@@ -58,6 +58,7 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
@@ -73,7 +74,7 @@ Information below is subject to change without prior notice until the release av
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### Improvements {#april-2023-improvements}
 
