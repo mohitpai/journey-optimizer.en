@@ -152,7 +152,7 @@ You can easily manage all the components, adjustments and styles you added to yo
 
 This ability in the web designer allows you to select any element of your website and track the clicks on that element.
 
-Once your campaign is live, you can check the number of clicks for each element in the campaign web report. This information can be useful to improve your website users' experience. For example, if the [web reports](../web-report.md) show that many users click an element that is not actually clickable, you may want to add a link to that element.
+Once your campaign is live, you can check the number of clicks for each element in the campaign web report. This information can be useful to improve your website users' experience. For example, if the [web reports](web-report.md) show that many users click an element that is not actually clickable, you may want to add a link to that element.
 
 1. Select an element in your page and choose **[!UICONTROL Click track element]** from the contextual menu.
 
