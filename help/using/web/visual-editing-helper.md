@@ -17,9 +17,12 @@ badge: label="Beta" type="Informative"
 What you'll find in this documentation:
 
 * [Get started with web channel](get-started-web.md)
+* [Prerequisites](web-prerequisites.md)
 * [Create web experiences](create-web.md)
 * [Author web pages](author-web.md)
+* [Visual Editing Helper extension](visual-editing-helper.md)
 * **[Visual Editing Helper extension](visual-editing-helper.md)**
+* [Configure web subdomains](web-subdomains.md)
 * [Web reporting](web-report.md)
 
 >[!ENDSHADEBOX]
