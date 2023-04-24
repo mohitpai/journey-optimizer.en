@@ -6,7 +6,6 @@ description: Learn how to set up web subdomains with Journey Optimizer
 role: Admin
 level: Intermediate
 keywords: web, subdomains, configuration
-badge: label="Beta" type="Informative"
 
 ---
 # Configure web subdomains {#web-subdomains}

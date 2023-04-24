@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
+
 ---
 # Web channel prerequisites {#web-prerequisites}
 

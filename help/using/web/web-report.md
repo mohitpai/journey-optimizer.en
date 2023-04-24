@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-badge: label="Beta" type="Informative"
+
 ---
 # Web report {#web-report}
 
