@@ -39,8 +39,6 @@ To do so, you must choose from the list of subdomains already delegated to Adobe
 
 You can create several web subdomains, but only the **default** subdomain will be used. You can change the default web subdomain, but only one can be used at a time.
 
-## Set up a web subdomain
-
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**.
 
     ![](assets/web-access-subdomains.png)
@@ -65,25 +63,15 @@ You can create several web subdomains, but only the **default** subdomain will b
     >
     >Only the **default** subdomain will be used. You can change the default web subdomain, but only one can be used at a time.
 
-1. Click **[!UICONTROL Submit]**.
-
-1. Once submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).
-
-    <!--Before being able to use that subdomain for your web experiences, you must wait until Adobe performs the required checks, which can take up to 4-5 business hours.-->
-
-1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used for your web experiences.<!--statuses to check)-->
+1. Click **[!UICONTROL Submit]**. The subdomain gets the **[!UICONTROL Success]** status. It is ready to be used for your web experiences.
 
 1. The **[!UICONTROL Default]** badge is displayed next the subdomain that is currently used as default. To change the default subdomain, select **[!UICONTROL Set as default]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
     ![](assets/web-subdomain-default.png)
 
-    >[!NOTE]
-    >
-    >Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
+    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.-->
 
-1. You can delete a subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
+1. You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
-    >[!NOTE]
-    >
-    >You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
+<!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
 

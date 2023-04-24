@@ -18,6 +18,8 @@ In [!DNL Journey Optimizer], web authoring is powered by the **Adobe Experience 
 >
 >To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, make sure you follow the prerequisites listed in [this section](web-prerequisites.md).
 
+[Learn how to author a web campaign in this video](#video)
+
 ## Edit web page content {#edit-web-content}
 
 >[!CONTEXTUALHELP]
@@ -113,6 +115,16 @@ To start authoring your web campaign, follow the steps below.
 
     ![](assets/web-designer-header-style.png)
 
+## Add personalization and offers 
+
+To add personalization, select a container and select the personalization icon from the contextual menu bar that displays. Add your changes using the Expression editor. [Learn more](../personalization/personalization-build-expressions.md)
+
+![](assets/web-designer-personalization.png)
+
+Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../email/add-offers-email.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
+
+![](assets/web-designer-offer.png)
+
 ## Manage modifications {#manage-modifications}
 
 >[!CONTEXTUALHELP]
@@ -166,7 +178,7 @@ Once your campaign is live, you can check the number of clicks for each element 
 
     ![](assets/web-designer-click-track-pane.png)
 
-1. Add a label to manage all your tracked elements and find them easily in the reports.
+1. Add a meaningful label to manage all your tracked elements and find them easily in the reports. The **[!UICONTROL CSS selector]** field shows information to locate the selected element.
 
     ![](assets/web-designer-click-tracking-label.png)
 
@@ -219,17 +231,9 @@ The ability to change the device size is designed for responsive sites that rend
 
 >[!CAUTION]
 >
->You can edit a web experience with a specific device size. However, these changes apply to all sizes and devices, not just the device size that you're working in. Similarly, editing an experience in the normal desktop view changes the page for all screen sizes, not just the desktop view. Currently, [!DNL Journey Optimizer] does not support device size-specific page changes.
-
-## Add personalization and offers 
-
-To add personalization, select a container and select the personalization icon from the contextual menu bar that displays. Add your changes using the Expression editor. [Learn more](../personalization/personalization-build-expressions.md)
-
-![](assets/web-designer-personalization.png)
-
-Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/get-started/starting-offer-decisioning.md) into your web pages. The process is the same as when [adding an offer to an email](../email/add-offers-email.md). It will leverage Decision Management to pick the best offer to deliver to your customers.
-
-![](assets/web-designer-offer.png)
+>You can edit a web experience with a specific device size. However, as long as the selectors are the same, these changes apply to all sizes and devices, not just the device size that you're working in. Similarly, editing an experience in the normal desktop view applies the changes to all screen sizes, not just the desktop view.
+>
+>Currently, [!DNL Journey Optimizer] does not support device size-specific page changes. This means that for example if you have a separate mobile website with a separate site structure, you should make the changes specific to your mobile site in a different campaign.
 
 ## Test the web campaign {#test-web-campaign}
 
@@ -261,3 +265,8 @@ To display a preview of your modified web experience, follow the steps below.
     >
     >When copying the test URL, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].
 
+## How-to video{#video}
+
+The video below shows how to author a web experience using the web designer in [!DNL Journey Optimizer] campaigns.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

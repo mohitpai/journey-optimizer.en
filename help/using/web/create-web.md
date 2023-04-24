@@ -16,6 +16,8 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 >
 >Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**.
 
+[Learn how to create a web campaign in this video](#video)
+
 ## Create a web campaign {#create-web-campaign}
 
 >[!CONTEXTUALHELP]
@@ -121,3 +123,9 @@ When a web campaign is live, you can stop it to prevent your audience from seein
 >[!NOTE]
 >
 >Once a web campaign is stopped, you cannot edit or activate it again. You can only duplicate it and activate the duplicated campaign.
+
+## How-to video{#video}
+
+The video below shows how to create a web campaign, configure its properties, review, and publish it.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -23,7 +23,7 @@ Currently two types of implementations are supported to enable authoring and del
 
 * Client-side only – To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
 
-* Hybrid mode – You can use the [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Ntwork Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Hybrid mode – You can use the [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -47,9 +47,9 @@ To download and install the Visual Editing Helper browser extension, follow the 
 
 1. Open a new tab in your browser (Google Chrome or Microsoft Edge).
 
-1. If you are using Microsoft Edge, select **[!UICONTROL Allow extensions from other stores]** on the top banner. This will allow you to add extensions from the Chrome Web Store to Microsoft Edge.
-
 1. Go to the [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
+
+1. If you are using Microsoft Edge, select **[!UICONTROL Allow extensions from other stores]** on the top banner. This will allow you to add extensions from the Chrome Web Store to Microsoft Edge.
 
 1. Search and navigate to the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browser extension.
 

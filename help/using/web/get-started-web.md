@@ -26,11 +26,9 @@ Through an intuitive visual interface, this capability allows you to modify your
 
 Once you created a campaign, select **Web** as your action and define basic settings. For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
 
-If this is your first time creating a web experience, make sure you follow the prerequisites described in [this section](web-prerequisites.md).
+[Learn how to create a web campaign in this video](create-web.md#video)
 
-<!--
-[Learn more on web channel in this video](#video)
--->
+If this is your first time creating a web experience, make sure you follow the prerequisites described in [this section](web-prerequisites.md).
 
 <table>
 <tr>
@@ -45,10 +43,4 @@ If this is your first time creating a web experience, make sure you follow the p
 >
 >[!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
-<!--
-## How-to video{#video}
 
-The video below shows how to 
-
->[!VIDEO]()
--->
