@@ -70,7 +70,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p> The Journey dashboard is now split in two tabs:</p>
 <ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access list of all journeys.</li></ul>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
 <p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
