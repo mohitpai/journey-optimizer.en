@@ -95,15 +95,7 @@ Information below is subject to change without prior notice until the release av
 
 **Reporting**
 
-* Journey Optimizer reporting capabilities have been improved to bring:
-    * Better readability and usability
-    * Ability to schedule and share reports
-    * New view to display cross-campaign/cross-channel reports
-    * Capability to create custom dashboards
-    * Action oriented reports, for ex. Filtering by audience
-    * Goals tracking across journeys and campaigns
-    * Programatic way to bring Journey Optimizer reports to Customer Journey Analytics
-
+* You can now export Journey Optimizer reports as PDF.
 
 **Content Designer**
 
