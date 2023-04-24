@@ -24,6 +24,7 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#apr-2023-features}
 
+
 <table>
 <thead>
 <tr>
@@ -33,13 +34,13 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can now author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience.</p>
-<img src="../web/assets/web-designer.png"/>
-<!--img src="assets/do-not-localize/in-app.gif"/>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can now author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience. Note that currently in Journey Optimizer you can only create web experiences in campaigns.</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
@@ -61,7 +62,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -69,8 +70,9 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p> The Journey dashboard is now split in two tabs:</p>
 <ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the **Browse** tab to access list of all journeys.</li></ul>
-<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
+<li>Use the <strong>Browse</strong> tab to access list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
