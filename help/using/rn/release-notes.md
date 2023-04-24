@@ -20,7 +20,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: April 26, 2023
+**Release date**: April 27, 2023
 
 ### New capabilities{#apr-2023-features}
 
@@ -71,7 +71,7 @@ Information below is subject to change without prior notice until the release av
 <p> The Journey dashboard is now split in two tabs:</p>
 <ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
 <li>Use the <strong>Browse</strong> tab to access list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta</p>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
