@@ -58,6 +58,24 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>New Journey dashboard</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the **Browse** tab to access list of all journeys.</li></ul>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -80,15 +98,11 @@ Information below is subject to change without prior notice until the release av
 
 **Journeys**
 
-* The Journey dashboard is now split in two tabs:
-    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
-    * Use the **Browse** tab to access list of all journeys.
-
-* The journey canvas now displays the activity ID. This improves reporting and retargeting.
+* The journey canvas now displays the activity ID on action nodes and end tags. This improves reporting and retargeting.
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
 * New guardrails have been added to journeys:
     * The number of nodes in a journey is now limited to 50 maximum
-    * The number of live journeys in one org is now limited to 50 maximum. Journeys in test mode are not taken into account.
+    * The number of live journeys in one org is now limited to 100 maximum. Journeys in test mode are not taken into account.
 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * You can now define static or dynamic query parameters in your custom actions.
