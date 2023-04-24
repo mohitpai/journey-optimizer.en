@@ -224,10 +224,9 @@ solution: Journey Optimizer
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
-  + [Web channel prerequisites](using/web/web-prerequisites.md)
   + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
-  + [Configure web subdomains](using/web/web-delegated-subdomains.md)
+  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
   + [Web reporting](using/web/web-report.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)

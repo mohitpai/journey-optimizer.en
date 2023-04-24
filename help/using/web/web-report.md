@@ -5,16 +5,33 @@ feature: Reporting, Web Channel
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-
+badge: label="Beta" type="Informative"
 ---
 # Web report {#web-report}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with web channel](get-started-web.md)
+* [Create web experiences](create-web.md)
+* [Author web pages](author-web.md)
+* [Visual Editing Helper extension](visual-editing-helper.md)
+* **[Web reporting](web-report.md)**
+
+>[!ENDSHADEBOX]
 
 The Web report is available in the Campaign report.
 
 The Campaign report page will be displayed with the following tabs:
 
 * [Campaign](../reports/campaign-global-report.md#campaign-live)
+* [Email](../reports/campaign-global-report.md#email-live)
+* [Push](../reports/campaign-global-report.md#push-live)
+* [SMS](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
@@ -31,9 +48,4 @@ The **[!UICONTROL Web performance]** KPIs detail the main information relative t
 
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Click rate]**: percentage of visitors who interacted with the various elements on your web pages.
-
-The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
-
-The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
-
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions and unique impressions) for the concerned period.
