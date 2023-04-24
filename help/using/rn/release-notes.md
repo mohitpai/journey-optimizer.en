@@ -15,8 +15,31 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## April 2023 early release notes {#apr-e-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: April 27, 2023
+
+### New capabilities{#apr-2023-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Web channel (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can now author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience. Note that currently in Journey Optimizer you can only create web experiences in campaigns.</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 
 <table>
@@ -35,12 +58,68 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tr>
 </tbody>
 </table>
--->
 
-## March 2023 Release Notes {#mar-2023}
+<table>
+<thead>
+<tr>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
+### Improvements {#april-2023-improvements}
+
+**Journeys**
+
+* The journey canvas now displays the activity ID on action nodes and end tags. This improves reporting and retargeting.
+* The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
+* New guardrails have been added to journeys:
+    * The number of nodes in a journey is now limited to 50 maximum
+    * The number of live journeys in one org is now limited to 100 maximum. Journeys in test mode are not taken into account.
+
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* You can now define static or dynamic query parameters in your custom actions.
+
+**Reporting**
+
+* You can now export Journey Optimizer reports as PDF.
+
+**Content Designer**
+
+* The Adobe Journey Optimizer Content Designer has been updated, and access to design styles and components is now easier. This new version propose an improved user experience, and comes with increased performances, dark mode partial compatibility, and new accessibility standards support.
+
+
+
+## March 2023 release notes {#mar-2023}
 
 ### New capabilities{#mar-2023-features}
 
@@ -136,7 +215,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
     To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
 
-## February 2023 Release Notes {#feb-2023}
+## February 2023 release notes {#feb-2023}
 
 ### New capabilities{#feb-2023-features}
 
@@ -264,7 +343,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL personalization** - When adding URLs as content to your offers' representations, you can now personalize these URLs using the Expression Editor. [Learn more](../offers/offer-library/add-representations.md)
 
-## January 2023 Release {#jan-2023-release}
+## January 2023 release notes{#jan-2023-release}
 
 ### New capabilities{#jan-2023-features}
 

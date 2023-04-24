@@ -13,12 +13,11 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 
 This page helps you setup and understand key services and workflows involved with push notifications in [!DNL Journey Optimizer]. 
 
-<!--
+
 >[!AVAILABILITY]
 >
 >The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
 >
--->
 
 Learn how to create push notifications on [this page](create-push.md).
 
