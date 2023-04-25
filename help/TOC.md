@@ -350,8 +350,7 @@ solution: Journey Optimizer
     + [Create a dataset to collect events](using/offers/data-collection/create-dataset.md)
     + [Configure events capture](using/offers/data-collection/schema-requirement.md)
   + Create Decision Management reports {#create-reports}
-    + [Get started with Decision management events](using/offers/reports/get-started-events.md)
-    + [Decision management events key information](using/offers/reports/key-information.md)
+    + [Work with Decision management events](using/offers/reports/get-started-events.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
   + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)

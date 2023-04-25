@@ -78,10 +78,10 @@ The steps to create and send a direct mail message are as follows:
 
 1. Repeat these steps to add as many columns as needed to build your extraction file. Note that you can add up to 50 columns.
 
-   ![](assets/direct-mail-complete.png)
-
    You can delete a column at any time by selecting it and clicking the **[!UICONTROL Remove]** button from the **[!UICONTROL Formatting]** section.
 
+   ![](assets/direct-mail-complete.png)
+   
 1. Once the direct mail content has been defined, complete the configuration of your campaign.
 
    When the campaign will start, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).
