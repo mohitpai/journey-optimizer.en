@@ -24,6 +24,14 @@ You can import an existing content in [!DNL Journey Optimizer] or leverage conte
 
 ➡️ [Discover this feature in video](#video)
 
+## Email design best practices {#best-practices}
+
+When sending emails, it’s important to consider that recipients may forward them, which can sometimes cause issues with the email’s rendering. This is particularly true when using CSS classes that may not be supported by the email provider used for forwarding, for example, if you’re using the “is-desktop-hidden” CSS class to hide an image on mobile devices.
+
+To minimize these rendering issues, we recommend keeping your email design structure as simple as possible. Try to use a single design that works well for both desktop and mobile devices, and avoid using complex CSS classes or other design elements that may not be fully supported by all email clients. By following these best practices, you can help ensure that your emails are consistently rendered correctly, regardless of how they are viewed or forwarded by recipients.
+
+## Key steps to create email content {#key-steps}
+
 Once you have [added an email](create-email.md) to a journey or a campaign, you can start creating your email content.
 
 1. From the journey or campaign configuration screen, go through the **[!UICONTROL Edit content]** screen to access the Email Designer. [Learn more](create-email.md#define-email-content)
