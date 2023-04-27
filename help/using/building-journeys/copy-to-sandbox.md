@@ -20,7 +20,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Sandbox details"
->abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your IMS organization are available."
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -52,7 +52,7 @@ To copy a journey to another sandbox, follow these steps:
 
    ![](assets/copy-sandbox2.png)
 
-3. Select the **Target sandbox** from the drop-down field. Only sandboxes within your IMS organization are available.
+3. Select the **Target sandbox** from the drop-down field. Only sandboxes within your organization are available.
 
 4. Review the **Dependent objects** section. This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID.
 

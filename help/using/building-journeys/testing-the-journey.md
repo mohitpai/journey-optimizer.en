@@ -123,6 +123,7 @@ The **[!UICONTROL Show log]** button allows you to view the test results. This p
 
 ![](assets/journeytest3.png)
 
+
 >[!NOTE]
 >
 >In the test logs, in case of an error when calling a third-party system (data source or action), the error code and error response are displayed.

@@ -53,8 +53,6 @@ The steps to create and send a direct mail message are as follows:
    ![](assets/direct-mail-campaign.png)
 
 1. Click **[!UICONTROL Create]** then define basic information on your campaign (name, description). [Learn how to configure a campaign](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
    
 1. Click the **[!UICONTROL Edit content]** button to configure the extraction file to send to your direct mail provider. 
 

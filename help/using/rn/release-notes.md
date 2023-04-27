@@ -18,9 +18,9 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## April 2023 early release notes {#apr-e-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: April 27, 2023
+**Release date**: April 27, 2023-->
 
 ### New capabilities{#apr-2023-features}
 
@@ -36,7 +36,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for web channel. You can now author, change, and preview web experiences as any other channel, through a smart and intuitive visual interface to personalize your end-users experience. Note that currently in Journey Optimizer you can only create web experiences in campaigns.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -59,6 +59,7 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
@@ -73,13 +74,12 @@ Information below is subject to change without prior notice until the release av
 <li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
 <p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -101,14 +101,14 @@ Information below is subject to change without prior notice until the release av
 
 **Journeys**
 
-* The journey canvas now displays the activity ID on action nodes and end tags. This improves reporting and retargeting.
+* The journey canvas now displays the activity ID on message activities and end tags. This improves reporting and retargeting.
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
 * New guardrails have been added to journeys:
-    * The number of nodes in a journey is now limited to 50 maximum
-    * The number of live journeys in one org is now limited to 100 maximum. Journeys in test mode are not taken into account.
+    * The number of activities in a journey is now limited to 50. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
+    * The number of **live journeys** in one organization is now limited to 100 per sandbox. Journeys in test mode are not taken into account. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 
-* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
-* You can now define static or dynamic query parameters in your custom actions.
+* When adding an [Email](../email/create-email.md), [SMS](../sms/create-sms.md) or [Push](../push/create-push.md) action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel, in the current journey.
+* You can now define static or dynamic query parameters in your custom actions. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
 
 **Reporting**
 
@@ -184,6 +184,8 @@ Information below is subject to change without prior notice until the release av
 * In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
 * The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. [Learn more](../configuration/external-systems.md#timeout)
 * The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account. [Learn more](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

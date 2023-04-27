@@ -32,7 +32,7 @@ What you'll find in this documentation:
 
 >[!AVAILABILITY]
 >
->Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the IMS Organization level, which means that it will impact all sandboxes within your organization.
+>Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the organization level, which means that it will impact all sandboxes within your organization.
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 

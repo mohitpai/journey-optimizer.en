@@ -37,6 +37,11 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 
 ## Journey guardrails {#journeys-guardrails}
 
+### General journey guardrails {#journeys-guardrails-journeys}
+
+* The number of activities in a journey is limited to 50. The number of activities is displayed on the upper left section of the journey canvas.
+* The number of **live journeys** in one organization is limited to 100 per sandbox. When this limit is reached, you can no longer publish a new journey.
+
 ### General actions {#general-actions-g}
 
 * There is no sending throttling.
@@ -61,6 +66,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * The name of the query parameter or header must not start with "." or "$"
 * IP addresses are not allowed
 * Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
+* Built-in custom actions cannot be removed.
 
 ### Events {#events-g}
 
@@ -93,5 +99,6 @@ You can choose from one of these two solutions:
 
 ### Expression editor {#expression-editor}
 
-* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
+* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity. You need to create a new segment and use an insegment condition in the journey.
+
 

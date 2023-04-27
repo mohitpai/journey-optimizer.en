@@ -51,7 +51,7 @@ However, **most channels** require impressions and clicks data to be sent into A
 
 ### Custom events
 
-Feedback on custom events tied to an offer can be sent into Adobe Experience Platform according to your own preferences. For example, if an offer has multiple buttons such as *Interested*, *Not interested*, etc., you may want to send in those events separately, but these can also be sent in as experience events. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Feedback on custom events tied to an offer can be sent into Adobe Experience Platform according to your own preferences. For example, if an offer has multiple buttons such as *Interested*, *Not interested*, etc., you may want to send in those events separately, but these can also be sent in as experience events.
 
 ## Sending in feedback data
 

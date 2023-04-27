@@ -14,11 +14,9 @@ To collect experience events, you first need to create a dataset where these eve
 
 Start by creating the schema that will be used in your dataset:
 
-1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
+1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]** and go to the **[!UICONTROL Browse]** tab.
 
-    ![](../assets/ai-ranking-create-schema.png)
-
-1. Choose **[!UICONTROL XDM ExperienceEvent]**.
+1. Click **[!UICONTROL Create schema]** and choose **[!UICONTROL XDM ExperienceEvent]**.
 
     ![](../assets/ai-ranking-xdm-event.png)
 
@@ -30,20 +28,15 @@ Start by creating the schema that will be used in your dataset:
 
     ![](../assets/ai-ranking-fields-groups.png)
 
-1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select the **[!UICONTROL Experience Event - Proposition Interactions]** field group.
+1. In the **[!UICONTROL Search]** field, type "proposition interaction".
 
-    ![](../assets/ai-ranking-proposition-interactions.png)
+1. Select the **[!UICONTROL Experience Event - Proposition Interactions]** field group and click **[!UICONTROL Add field groups]**.
+
+    ![](../assets/ai-ranking-add-field-group.png)
 
     >[!CAUTION]
     >
     >The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your ranking strategy.
-
-1. Click **[!UICONTROL Add field groups]**.
-
-    ![](../assets/ai-ranking-add-field-group.png)
-
-    >[!NOTE]
-    >Field group was previously known as mixin.
 
 1. Type a name and save the schema.
 
@@ -53,19 +46,13 @@ Start by creating the schema that will be used in your dataset:
 
 You're now ready to create a dataset using this schema. To do this, follow the steps below:
 
-1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Datasets]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create dataset]**.
+1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Datasets]** and go to the **[!UICONTROL Browse]** tab.
 
-    ![](../assets/ai-ranking-create-dataset.png)
-
-1. Select **[!UICONTROL Create dataset from schema]**.
+1. Click **[!UICONTROL Create dataset]** and select **[!UICONTROL Create dataset from schema]**.
 
     ![](../assets/ai-ranking-create-dataset-from-schema.png)
     
-1. Select the schema you just created from the list.
-
-    ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. Click **[!UICONTROL Next]**.
+1. Select the schema you just created from the list and click **[!UICONTROL Next]**.
 
 1. Provide a unique name for the dataset in the **[!UICONTROL Name]** field and click **[!UICONTROL Finish]**.
 

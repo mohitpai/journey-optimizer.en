@@ -18,7 +18,9 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 
 Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe keeps an updated list of known bad addresses which have been proven to be detrimental to engagement and mailing reputation, and ensures emails are not delivered to them. This list is managed in a global suppression list which is common across all Adobe customers. The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery reports.
 
 ## Access the suppression list {#access-suppression-list}
 

@@ -47,11 +47,9 @@ For more information on how to manage policies, refer to this [documentation](ht
 Let's take the example of the blood type field that you need to label as sensitive and restrict from being exported to a third-party. Here are the different steps:
 
 1. In the left menu, under **Privacy**, click **Policies**.
-    ![](assets/action-privacy0.png)
 1. Select the **Labels** tab and click **Create label**.
     ![](assets/action-privacy1.png)
 1. Define a name and friendly name for this label. For example, _ePHI1_.
-    ![](assets/action-privacy2.png)
 1. In the left menu, under **Data management**, click **Schemas**, and click the **Apply access and data governance labels** button. Select your schema and field (blood type) and select the label previously created, _ePHI1_ in our example.
     ![](assets/action-privacy3.png)
 1. Go back to the **Policies** menu, select the **Marketing action** tab and click **Create marketing action**. We recommend that you create one marketing action for each third-party custom action used in your journeys. For example, let's create a _Slack marketing action_ which will be used for your Slack custom action.

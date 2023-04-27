@@ -224,10 +224,10 @@ solution: Journey Optimizer
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
+  + [Web channel prerequisites](using/web/web-prerequisites.md)
   + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
-  + [Visual Editing Helper extension](using/web/visual-editing-helper.md)
-  + [Web reporting](using/web/web-report.md)
+  + [Configure web subdomains](using/web/web-delegated-subdomains.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
@@ -288,12 +288,14 @@ solution: Journey Optimizer
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
+    + [List of components](using/reports/live-report-components.md)
     + [Journey Live report](using/reports/journey-live-report.md)
     + [Campaign Live report](using/reports/campaign-live-report.md)
     + [Landing page Live report](using/reports/lp-report-live.md)
     + [Subscription list Live report](using/reports/subscription-report-live.md)
   + Global report {#global-report}
     + [Get started with Global report](using/reports/global-report.md)
+    + [List of components](using/reports/global-report-components.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Campaign Global report](using/reports/campaign-global-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
