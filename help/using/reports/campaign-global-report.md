@@ -27,6 +27,7 @@ The Campaign **[!UICONTROL Global report]** page will be displayed with the foll
 * [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
@@ -275,6 +276,27 @@ The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!U
 
 The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
 
++++
+
+## Web tab {#web-tab}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
+
+![](assets/web-report.png)
+
++++Learn more on the different metrics and widgets available for the Web report.
+
+The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
+
+* **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of visitors who interacted with the various elements on your web pages.
+
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+
+The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
 +++
 
 ## Additional resources

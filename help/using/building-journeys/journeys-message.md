@@ -80,6 +80,10 @@ To do this, open your live journey, select the message activity and click **Edit
 
 However, you cannot change the attributes used in personalization, whether they are profile attributes or contextual data (from event or journey properties).
 
+If you modified contextual data, the following error message will be displayed: ERR_AUTHORING_JOURNEYVERSION_201
+
+If you modified profile attributes, the following error message will be displayed: ERR_AUTHORING_JOURNEYVERSION_202
+
 Note that for the In-app activity, any changes can be made to the content while the journey is live, but In-app triggers cannot be modified.
 
 ## Send-Time Optimization{#send-time-optimization}

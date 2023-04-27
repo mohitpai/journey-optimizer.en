@@ -49,7 +49,7 @@ To further optimize your use of Adobe Experience Manager with Adobe Journey Opti
 
 To export an Adobe Experience Manager template to Adobe Journey Optimizer, follow the steps below:
 
-1. From your Adobe Experience Manager homepage, select the **[!UICONTROL Outbound Marketing]**.
+1. From your Adobe Experience Manager homepage, select **[!UICONTROL Outbound Marketing]**.
 
     ![](assets/aem-outbound-menu.png)
 

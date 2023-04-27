@@ -15,10 +15,8 @@ The exported offer catalog is accessible in Adobe Experience Platform **[!UICONT
 
 Click a dataset to access its details.
 
+The **[!UICONTROL Preview dataset]** button allows you to display the most recent successful batch in the dataset.
+
 ![](../assets/dataset-activity.png)
-
-The **[!UICONTROL Preview dataset]** button allows you to display the most recent successful batch in the dataset. The left pane provides information on the types of data that have been exported.
-
-![](../assets/dataset-preview.png)
 
 For more information on how to browse and use datasets, refer to [this page](../../data/get-started-datasets.md).

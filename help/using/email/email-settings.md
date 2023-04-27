@@ -237,9 +237,23 @@ To configure a URL tracking parameter, you can directly enter the desired values
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
+You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the available contextual attributes and/or directly edit the text.
 
 ![](assets/preset-url-tracking-editor.png)
+
+The following predefined values are available through the Expression Editor:
+
+* **Source action id**: ID of the Email action added to the journey or campaign.
+
+* **Source action name**: name of the Email action added to the journey or campaign.
+
+* **Source id**: ID of the journey or campaign the email was sent with.
+
+* **Source name**: name of the journey or campaign the email was sent with.
+
+* **Source version id**: ID of the journey or campaign version the email was sent with.
+
+* **Offer id**: ID of the offer used in the email.
 
 >[!NOTE]
 >

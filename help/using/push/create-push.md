@@ -28,7 +28,7 @@ To create a push notification, follow the steps below:
 
     ![](assets/push_create_1.png)
 
-1. Provide basic information on your message (label, description, category), then choose the message surface to use.
+1. Provide basic information on your message (label, description, category), then choose the message surface to use. The **[!UICONTROL Surface]** field is pre-filled, by default, with the last surface used for that channel by the user.
 
     ![](assets/push_create_2.png)
 

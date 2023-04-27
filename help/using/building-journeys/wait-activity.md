@@ -60,6 +60,8 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 ![](assets/journey57.png)
 
+To validate that the wait activity works as expected, you can use step events. See [this page](../reports/query-examples.md#common-queries).
+
 <!--## Email send time optimization{#email_send_time_optimization}
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
@@ -79,3 +81,5 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ![](assets/journey57bis.png)-->
+
+

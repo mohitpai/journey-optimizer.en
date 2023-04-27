@@ -10,11 +10,11 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 ---
 # Configure data collection {#schema-requirements}
 
-<!--To send in feedback data, you must define how the experience events will be captured.-->
-
 To be able to get feedback on event types other than decision events, you must set the correct value for each event type in an **experience event** that is sent into Adobe Experience Platform.
 
-For each event type, make sure the schema used in the dataset has the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. [Learn more](create-dataset.md)
+>[!CAUTION]
+>
+>For each event type, make sure the schema used in the dataset has the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. [Learn more](create-dataset.md)
 
 Below are the schema requirements you need to implement into your JavaScript code.
 

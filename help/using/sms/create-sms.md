@@ -34,7 +34,7 @@ Browse the tabs below to learn how to add an SMS message in a campaign or a jour
 
     For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+    The **[!UICONTROL Surface]** field is pre-filled, by default, with the last surface used for that channel by the user.
 
 You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Define your SMS content](#sms-content)
 

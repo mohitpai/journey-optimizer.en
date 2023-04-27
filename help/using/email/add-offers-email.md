@@ -41,25 +41,21 @@ To insert a decision into an email message, follow the steps below:
 
     Learn how to use content components in [this section](content-components.md).
 
-1. The **[!UICONTROL Offer decision]** tab displays in the right palette. Click **[!UICONTROL Select Offer decision]**.
+1. The **[!UICONTROL Offer decision]** tab displays in the right palette. Click **[!UICONTROL Select Offer decision]**:
 
-    ![](assets/deliver-offer-tab.png)
+    1. In the window that displays, select the placement corresponding to the offers that you want to display.
 
-1. In the window that displays, select the placement corresponding to the offers that you want to display.
+        [Placements](../offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
 
-    [Placements](../offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
+    1. Decisions matching the selected placement display. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
 
-1. Decisions matching the selected placement display. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
+        >[!NOTE]
+        >
+        >Only decisions that are compatible with the selected placement display in the list. In this example, only one offer activity matches the "email top image" placement.
 
-    >[!NOTE]
-    >
-    >Only decisions that are compatible with the selected placement display in the list. In this example, only one offer activity matches the "email top image" placement.
+        ![](assets/deliver-offer-placement.png)
 
-    ![](assets/deliver-offer-placement.png)
-
-The decision is now added to the component.
-
-After saving your changes, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
+The decision is now added to the component. After saving your changes, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
 
 >[!NOTE]
 >
@@ -73,39 +69,33 @@ You can preview the different offers that are part of the decision added to the 
 
 To display the different offers that are part of the decision with a customer profile, follow the steps below.
 
-1. Click the **[!UICONTROL Simulate Content button]** button.
+>[!NOTE]
+>
+>You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
-    >[!NOTE]
-    >
-    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../segment/creating-test-profiles.md).
+1. Select the test profiles to use to preview the offer:
 
-1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
+    1. Click the **[!UICONTROL Simulate Content button]** button then choose the namespace to use to identify test profiles from the **[!UICONTROL Identity namespace]** field.
 
-    >[!NOTE]
-    >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../segment/get-started-identity.md).
+        >[!NOTE]
+        >
+        >In this example, we use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../segment/get-started-identity.md).
 
-1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
-
-1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
+    1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
 
     <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-1. Add other profiles so that you can test different variants of the message depending on the profile data.
+    1. Add other profiles so that you can test different variants of the message depending on the profile data.
 
-    ![](assets/deliver-offer-test-profiles.png)
+        ![](assets/deliver-offer-test-profiles.png)
 
-1. Click the **[!UICONTROL Preview]** tab to test your message.
-
-1. Select a test profile. The offer corresponding to the selected profile (a woman) is displayed.
+1. Click the **[!UICONTROL Preview]** tab to test your message then select a test profile. The offer corresponding to the selected profile (a woman) is displayed.
 
     ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. Select other test profiles to preview the email content for each variant of your message. In the message content, the offer corresponding to the selected test profile (now a man) is now displayed.
+    You can select other test profiles to preview the email content for each variant of your message. In the message content, the offer corresponding to the selected test profile (now a man) is now displayed.
 
-    ![](assets/deliver-offer-test-profile-male-preview.png)
-
-Learn more on the detailed steps to check the message preview in [this section](#preview-your-messages).
+Learn more on the detailed steps to check message preview in [this section](#preview-your-messages).
 
 ## How-to video{#video-offers}
 

@@ -49,18 +49,13 @@ The concatenated URL has this form:
 
 ![](assets/journey-custom-action-url.png)
 
-### Headers
+### Headers and query parameters {#headers}
 
-The **[!UICONTROL URL Configuration]** section shows the dynamic header fields, but not the constant header fields. Dynamic header fields are HTTP header fields whose value is configured as a variable. [Learn more](../action/about-custom-action-configuration.md).
+The **[!UICONTROL URL Configuration]** section shows the dynamic header and query parameter fields, but not the constant fields. Dynamic header and query parameter fields are defined as variable in the action configuration screen. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
 
-If required, specify the value of dynamic header fields:
+To specify the value of dynamic header and query parameter fields, click inside the field or on the pencil icon and select the desired field.
 
-1. Select the custom action in the journey.
-1. In the configuration pane, click the pencil icon next to the header field in the **[!UICONTROL URL Configuration]** section.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Select a field and click **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Action parameters
 

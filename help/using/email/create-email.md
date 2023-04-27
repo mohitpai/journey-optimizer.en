@@ -35,7 +35,7 @@ Add an **[!UICONTROL Email]** action to a journey or a campaign, and follow the 
 
     ![](assets/email_journey.png)
 
-<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
+    The field is pre-filled, by default, with the last surface used for that channel by the user.
 
 >[!NOTE]
 >

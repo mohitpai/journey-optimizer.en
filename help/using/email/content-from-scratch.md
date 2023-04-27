@@ -104,13 +104,11 @@ To start building your content, follow the steps below:
 
     ![](assets/email_designer_links.png)
 
-1. If needed, you can further personalize your content by clicking **[!UICONTROL Switch to code editor]** from the top **More** button. [Learn more about the code editor](code-content.md)
-
-    ![](assets/email_designer_switch-to-code.png)
+1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. This allows you to edit the email source code, for example to add tracking or custom HTML tags. [Learn more about the code editor](code-content.md)
 
     >[!CAUTION]
     >
-    >You cannot revert back to the visual designer for this content after switching to the code editor.
+    >You cannot revert back to the visual designer for this email after switching to the code editor.
 
 1. Once your content is ready, click the **[!UICONTROL Simulate content]** button to check rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](preview.md)
 
