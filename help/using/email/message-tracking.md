@@ -135,7 +135,7 @@ To add personalized URL tracking parameters to your links, follow the steps belo
 
 1. Select a link and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
-2. Select the personalization icon. It is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+1. Select the personalization icon. It is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
     ![](assets/message-tracking-insert-link-perso.png)
 
@@ -152,6 +152,3 @@ Now when the email is sent out, this parameter will be automatically appended to
 >[!NOTE]
 >
 >To verify the final URL, you can [send a proof](preview.md#send-proofs) and click the link in the content of the email once you receive the proof. The URL should display the tracking parameter. In the example above, the final URL will be: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
-
-
-
