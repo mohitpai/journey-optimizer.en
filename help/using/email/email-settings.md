@@ -231,11 +231,13 @@ To configure a URL tracking parameter, you can directly enter the desired values
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
-![](assets/preset-url-tracking-source.png)
+
 
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
+
+![](assets/preset-url-tracking-source.png)
 
 You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the available contextual attributes and/or directly edit the text.
 

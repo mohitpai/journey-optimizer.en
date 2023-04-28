@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 ---
-# Web channel prerequisites {#web-prerequisites}
+# Prerequisites and guardrails {#web-prerequisites}
 
 To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, follow the prerequisites below:
 
@@ -16,6 +16,13 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 * To access the [!DNL Journey Optimizer] web designer, you must have a specific Google Chrome browser extension installed. [Learn more](#visual-authoring-prerequesites)
 
 * For the web experience to be delivered correctly, make sure you define the Adobe Experience Platform settings detailed [here](#delivery-prerequisites).
+
+## Cautions
+
+Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
 ## Implementation prerequisites {#implementation-prerequisites}
 

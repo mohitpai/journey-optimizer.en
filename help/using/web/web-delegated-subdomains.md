@@ -24,7 +24,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Set a default subdomain"
+>title="Set a subdomain"
 >abstract="You can create several web subdomains, but only the default subdomain will be used. You can change the default web subdomain, but only one can be used at a time."
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content.
