@@ -257,3 +257,7 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>You can also add dynamic personalized tracking parameters to the links present in your email content, but this is not possible at the surface level. You need to do this when authoring your message using the email designer. [Learn more](message-tracking.md#url-tracking)

@@ -80,7 +80,7 @@ To insert links into your email content, follow the steps below:
 
 >[!NOTE]
 >
->Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined in the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) when creating the message.
+>Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined in the [channel surface](../configuration/channel-surfaces.md#email-type) when creating the message.
 
 ## Link to a mirror page {#mirror-page}
 
@@ -126,3 +126,32 @@ The [Email Designer](content-from-scratch.md) allows you to manage the tracked U
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Reporting on openings and clicks is available in the [Live report](../reports/live-report.md) and in the [Global report](../reports/global-report.md).
+
+## URL tracking {#url-tracking}
+
+Usually [URL tracking](email-settings.md#url-tracking) is managed at the surface level, but profile attributes are not supported. Currently the only way to do it is to [personalize URLs](../personalization/personalization-syntax.md#perso-urls) in the email designer.
+
+To add personalized URL tracking parameters to your links, follow the steps below.
+
+1. Select a link and click **[!UICONTROL Insert link]** from the contextual toolbar.
+
+2. Select the personalization icon. It is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+
+    ![](assets/message-tracking-insert-link-perso.png)
+
+1. Add the URL tracking parameter and select the profile attribute of your choice from the expression editor.
+
+    ![](assets/message-tracking-perso-parameter.png)
+
+1. Save your changes.
+
+1. Repeat the steps above for each link you want to add this tracking parameter to.
+
+Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
+
+>[!NOTE]
+>
+>To verify the final URL, you can [send a proof](preview.md#send-proofs) and click the link in the content of the email once you receive the proof. The URL should display the tracking parameter. In the example above, the final URL will be: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
+
+
+
