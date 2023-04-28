@@ -111,7 +111,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 **Reporting**
 
-* You can now export Journey Optimizer reports as PDF.
+* You can now export Journey Optimizer reports as PDF. [Learn more](../reports/global-report.md#export-reports)
 
 **Content Designer**
 
