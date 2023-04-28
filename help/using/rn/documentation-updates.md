@@ -17,7 +17,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A note has been added to specify that, if changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it. [Read more](../building-journeys/publishing-the-journey.md)
 * Explanation on how to make sure events are correctly accounted for in the capping counter has been clarified in the decision management **Capping event** section. [Read more](../offers/offer-library/add-constraints.md#capping-event)
 * A new section has been added to the **Change execution addresses** page. It specifies that it is possible to override the execution field set globally in the journey advanced parameters, but the email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../configuration/primary-email-addresses.md#journey-parameters)
-* The **URL tracking** section now provides the list and description of all contextual attributes that can be set for URL tracking in an email channel surface. [Read more](../offers/offer-library/add-constraints.md)
+* The **URL tracking** section now provides the list and description of all contextual attributes that can be set for URL tracking in an email channel surface. [Read more](../email/email-settings.md#url-tracking)
 
 ## March 2023 {#march-2023}
 
