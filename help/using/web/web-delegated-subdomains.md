@@ -24,8 +24,8 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Set a subdomain"
->abstract="You can create several web subdomains, but only the default subdomain will be used. You can change the default web subdomain, but only one can be used at a time."
+>title="Set a web subdomain"
+>abstract="Select a subdomain from the list of subdomains delegated to Adobe. You can set this web subdomain as the default one, but only one default subdomain can be used at a time."
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content.
 
@@ -61,11 +61,15 @@ You can create several web subdomains, but only the **default** subdomain will b
 
     >[!NOTE]
     >
-    >Only the **default** subdomain will be used. You can change the default web subdomain, but only one can be used at a time.
+    >Only the **default** subdomain will be used.
 
 1. Click **[!UICONTROL Submit]**. The subdomain gets the **[!UICONTROL Success]** status. It is ready to be used for your web experiences.
 
 1. The **[!UICONTROL Default]** badge is displayed next the subdomain that is currently used as default. To change the default subdomain, select **[!UICONTROL Set as default]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
+
+    >[!NOTE]
+    >
+    >You can change the default web subdomain, but only one can be used at a time.
 
     ![](assets/web-subdomain-default.png)
 
