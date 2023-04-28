@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 ---
 # Web channel prerequisites {#web-prerequisites}
 
@@ -117,6 +117,3 @@ For the web experience to be delivered correctly, the following settings must be
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-

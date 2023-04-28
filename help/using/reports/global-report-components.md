@@ -7,6 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
 ---
 # List of components {#list-of-components-global}
 
@@ -406,6 +407,3 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
  </tbody> 
 </table>
-
-
-

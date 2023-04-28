@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 keywords: web, subdomains, configuration
-
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 ---
 # Configure web subdomains {#web-subdomains}
 
@@ -74,4 +74,3 @@ You can create several web subdomains, but only the **default** subdomain will b
 1. You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-
