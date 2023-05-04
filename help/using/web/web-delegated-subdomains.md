@@ -5,8 +5,6 @@ title: Configure web subdomains
 description: Learn how to set up web subdomains with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 keywords: web, subdomains, configuration
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 ---
