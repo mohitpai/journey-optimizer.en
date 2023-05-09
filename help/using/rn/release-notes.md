@@ -58,7 +58,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
@@ -73,11 +72,13 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
 <p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 
 <table>
 <thead>
