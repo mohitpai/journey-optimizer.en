@@ -53,6 +53,8 @@ You can create several web subdomains, but only the **default** subdomain will b
     >
     >You cannot select a subdomain that is already used as web subdomain.
 
+1. The prefix that will display in your web URL is automatically added.
+
 1. To set this subdomain as default, select the corresponding option.
 
     ![](assets/web-subdomain-details-default.png)
@@ -71,8 +73,8 @@ You can create several web subdomains, but only the **default** subdomain will b
 
     ![](assets/web-subdomain-default.png)
 
-    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.-->
+    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
-1. You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
+    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
-<!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
