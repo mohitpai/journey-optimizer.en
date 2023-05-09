@@ -32,7 +32,6 @@ In order to send messages with journeys, the following configurations are requir
 
     ![](assets/custom2.png)
 
-<!--
 ## Access journeys {#journey-access}
 
 In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
@@ -43,16 +42,16 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 **Overview**: this tab displays a dashboard with key metrics related to your journeys:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Profiles processed**: total number of profiles processed over the last 24 hours
+* **Live journeys**: total number of live journeys with traffic over the last 24 hours. Live journeys include **Unitary journeys** (event-based) and **Batch journeys** (read segment).
+* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered over the last 24 hours. 
+* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered over the last 24 hours. 
+
+>[!NOTE]
+>
+>This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. 
 
 ![](assets/journeys-dashboard.png)  
-
--->
 
 ## Build your journey{#jo-build}
 
@@ -65,15 +64,7 @@ This step is performed by the **business user**. This is where you create your j
 
 Here are the main steps to send messages through journeys:
 
-1. In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
-
-    ![](assets/interface-journeys.png)
-
-1. Click **[!UICONTROL Create Journey]** to create a new journey. 
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. From the **Browse** tab, click **[!UICONTROL Create Journey]** to create a new journey.
 
 1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](journey-gs.md#change-properties).
 
