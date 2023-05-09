@@ -23,11 +23,6 @@ You will find below additional guardrails and limitations when using [!DNL Adobe
 * You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage] for example.
 
 
-## Decision management guardrails {#offer-guardrails}
-
-Performance guardrails and static limits for decisioning are listed in the [Adobe Offer Decisioning App Service product description page](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
-
-
 ## Landing pages guardrails {#lp-guardrails}
 
 * Only one **Form** component can be used in a single primary page.
