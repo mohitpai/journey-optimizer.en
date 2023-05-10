@@ -120,7 +120,6 @@ For the web experience to be delivered correctly, the following settings must be
 
     ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## Branded domains for assets {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)
