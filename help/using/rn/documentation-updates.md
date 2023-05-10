@@ -9,6 +9,10 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## May 2023 {#may-2023}
+
+* The **Configure web subdomains** page has been created: if you add content coming from the Adobe Experience Manager Assets Essentials to your web experiences, you  must set up the subdomain that will be used to publish this content. [Read more](../web/web-delegated-subdomains.md)
+
 ## April 2023 {#apr-2023}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] April '23 release have been detailed in the documentation. [Read more](release-notes.md)
