@@ -71,11 +71,11 @@ You can create several web subdomains, but only the **default** subdomain will b
 
 1. The **[!UICONTROL Default]** badge is displayed next the subdomain that is currently used as default. To change the default subdomain, select **[!UICONTROL Set as default]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
+    ![](assets/web-subdomain-default.png)
+
     >[!NOTE]
     >
     >You can change the default web subdomain, but only one can be used at a time.
-
-    ![](assets/web-subdomain-default.png)
 
     <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
