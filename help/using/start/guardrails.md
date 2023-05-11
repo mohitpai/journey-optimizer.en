@@ -17,6 +17,10 @@ You also need to be aware of [Guardrails for Real-time Customer Profile data bef
 
 You will find below additional guardrails and limitations when using [!DNL Adobe Journey Optimizer].
 
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+
 ## Message guardrails {#message-guardrails}
 
 * You cannot add attachments to an email with [!DNL Journey Optimizer].

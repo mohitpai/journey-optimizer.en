@@ -36,10 +36,6 @@ In order to send messages with journeys, the following configurations are requir
 
 In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
-
-![](assets/journeys-browse.png)  
-
 **Overview**: this tab displays a dashboard with key metrics related to your journeys:
 
 * **Profiles processed**: total number of profiles processed over the last 24 hours
@@ -52,6 +48,22 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 >This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. 
 
 ![](assets/journeys-dashboard.png)  
+
+**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)  
+
+In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**.
+
+You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. Additionally, the **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
+
+In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
+
+![](assets/journey3bis.png)
 
 ## Build your journey{#jo-build}
 
@@ -95,7 +107,7 @@ Here are the main steps to send messages through journeys:
 
 Click on the pencil icon, in the top right to access the journey's properties.
 
-You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and, as an Admin user, define a **[!UICONTROL Timeout and error]** duration. 
+You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and, as an Admin user, define a **[!UICONTROL Timeout and error]** duration. You can also assign Adobe Experience Platform Unified Tags to your journey. This allows you to easily classify them and improve search from the campaigns list. [Learn how to work with tags](../start/search-filter-categorize.md#tags)
 
 For live journeys, this screen displays the publication date and the name of the user who published the journey.
 
