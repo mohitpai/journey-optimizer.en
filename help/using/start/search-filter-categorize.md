@@ -47,7 +47,7 @@ With Adobe Experience Platform [Unified Tags](https://experienceleague.adobe.com
 >
 >Unified tags are currently in Beta. The documentation and the functionality are subject to change.
 
-## Add tags to an object
+### Add tags to an object
 
 The **Tags** field, in the [journey](../building-journeys/journey-gs.md#change-properties) or [campaign](../campaigns/create-campaign.md#create) properties, allows you to define tags for your object. You can either select an existing tag, or create a new one.
 
@@ -63,7 +63,7 @@ The list of tags defined is displayed below the **Tags** field.
 > 
 > If you duplicate or create a new version of a journey or campaign, tags are preserved.
 
-## Filter on tags
+### Filter on tags
 
 The journeys and campaigns lists display a dedicated column so you can easily visualize your tags. 
 
@@ -75,7 +75,7 @@ You can add or remove tags from any type of journey or campaign (live, draft, et
 
 ![](assets/tags3.png)
 
-## Manage tags
+### Manage tags
 
 Administrators can delete tags and organize them by categories using the **Tags** menu, under **ADMINISTRATION**. Learn more on tags management in the [Unified Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html). 
 
