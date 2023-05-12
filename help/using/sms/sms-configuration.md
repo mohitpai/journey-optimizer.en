@@ -21,6 +21,9 @@ Prior to SMS configuration, you must create an account with one of these SMS pro
 
 Your use of SMS services will be subject to additional terms and conditions from the applicable SMS provider. Given that Sinch and Twilio are third-party products available to Adobe Journey Optimizer users via an integration, for any issues or inquiries related to the SMS services, users of Sinch or Twilio will need to contact the applicable SMS provider for assistance. Adobe does not control and is not responsible for third-party products.
 
+>[!CAUTION]
+>
+>To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
 
 ## Create new API credential {#create-api}
 

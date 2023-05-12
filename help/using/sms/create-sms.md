@@ -84,6 +84,10 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 1. After defining your content, you can add your track URLs to your message. To do this, access the **[!UICONTROL Helper functions]** menu and select **[!UICONTROL Helpers]**.
 
     Note that in order to use the URL shortening function, you must first configure a subdomain which will be then linked to your surface. [Learn more](sms-subdomains.md)
+    
+    >[!CAUTION]
+    >
+    > To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
 
     ![](assets/sms_tracking_1.png)
 
