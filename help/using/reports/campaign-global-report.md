@@ -61,6 +61,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### Experimentation report {#experimentation-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Success metric"
+>abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
+
 ![](assets/experimentation_report_3.png)
 
 The **[!UICONTROL Experimentation]** tab provides key insights into the performance of each variant, and identifies the most successful one.
