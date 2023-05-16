@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create composition workflows
+title: Create your first composition workflow
 description: Learn how to create composition workflows to combine and arrange existing audiences.
 feature: Journeys
 topic: Content Management
@@ -10,22 +10,34 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
+badge: label="Beta" type="Informative"
 ---
-# Create composition workflows {#create-compositions}
+# Create your first composition workflow {#create-compositions}
 
-Composition workflows allow you to combine and arrange existing audiences to create new audiences.
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Get started with audience composition](get-started-audience-orchestration.md)
+* **[Create your first composition workflow](create-compositions.md)**
+* [Work with the composition canvas](composition-canvas.md)
+* [Access and manage audiences](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 ## Create a composition workflow {#create}
+
+To create a composition workflow, follow these steps:
 
 1. Access the **[!UICONTROL Segments]** menu and select **[!UICONTROL Create Audience]**.
 
 1. Select **[!UICONTROL Compose Audience]**.
+    
+    ![](assets/audiences-create.png)
 
     >[!NOTE]
     >
     >The **[!UICONTROL Build rule]** creation method allows you to create a new segment definition using the [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
-    
-    ![](assets/audiences-create.png)
 
 1. The composition canvas displays with two default activites:
 
@@ -37,7 +49,7 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
 1. Open the composition properties to specify a title and a description. 
 
-    If no title is defined in the properties, the composition label will be the one of the starting **[!UICONTROL Audience]** activity.
+    If no title is defined in the properties, the composition's label is set to  "Composition" followed by its creation date and time.
 
     ![](assets/audiences-properties.png)
 
@@ -47,6 +59,10 @@ Composition workflows allow you to combine and arrange existing audiences to cre
 
 1. Once your composition is ready, click the **[!UICONTROL Publish]** button to publish the composition and save the resulting audiences into Adobe Experience Platform.
 
+    >[!IMPORTANT]
+    >
+    >You can publish up to 75 compositions in a given sandbox. If you have reached this threshold, you need to delete a composition to free up space and publish a new one.
+ 
     If any error occurs during publishing, alerts will display with information on how to resolve the issue.
 
     ![](assets/audiences-alerts.png)
@@ -70,10 +86,4 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 
 >[!NOTE]
 >
->You can duplicate or delete an existing composition at any time using the ellipse button in the list.
-
-Learn more:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
+>You can duplicate or delete an existing composition at any time using the ellipsis button in the list.

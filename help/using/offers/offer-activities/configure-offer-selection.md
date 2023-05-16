@@ -32,7 +32,7 @@ For example, you can boost the priority of all offers where the end date is less
 
 Learn how to create a ranking formula in [this section](../ranking/create-ranking-formulas.md).
 
-Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
+Once a formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
@@ -40,17 +40,17 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
 
-1. Select **[!UICONTROL Ranking formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
+1. Select **[!UICONTROL Formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
 
     ![](../assets/offer-activity-ranking.png)
 
-1. Select the desired ranking formula, then click **[!UICONTROL Select]**.
+1. Select the desired formula, then click **[!UICONTROL Select]**.
 
     ![](../assets/ranking-selection.png)
 
 The ranking formula is now associated to the placement.
 
-If multiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
+If multiple offers are eligible to be presented in this placement, the decision will use the selected formula to calculate which offer to deliver first.
 
 ## AI ranking {#use-ranking-strategy}
 

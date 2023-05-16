@@ -9,8 +9,18 @@ keyword: direct, mail, configuration, direct-mail, provider
 hide: yes
 hidefromtoc: yes
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+badge: label="Beta" type="Informative"
 ---
 # Direct mail configuration {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* [Create a direct mail](create-direct-mail.md)
+* **[Configure direct mail](direct-mail-configuration.md)**
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 

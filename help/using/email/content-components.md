@@ -54,13 +54,17 @@ To add content components to your email and adjust them to your needs, follow th
     >
     >You can add several components into a single structure component and into each column of a structure component.
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Adjust the styling attributes for each component using the **[!UICONTROL Settings]** and **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_content_components_settings.png)
 
+1. From the advanced menu of your **[!UICONTROL Content component]**, you can easily delete or duplicate any content components as needed. 
+
+    ![](assets/email_designer_content_components_settings_2.png)
+
 ## Container {#container}
 
-You can add a simple container inside which you will be able to add another content component. This allows you to apply a specific styling to the container, which will be different from the component used inside.
+To apply specific styling to a group of content components, you can add a **[!UICONTROL Container]** component and then add your desired content component(s) inside it. This enables you to apply a distinct style to the container, which will differ from the style applied to the content components inside.
 
 For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
 
@@ -72,11 +76,11 @@ Use the **[!UICONTROL Button]** component to insert one or multiple buttons into
 
 1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
 
-1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
+1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs in the Email Designer right pane.
 
     ![](assets/email_designer_button_component.png)
 
-1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
+1. From the **[!UICONTROL Link]** menu, add the URL you want to redirect to when clicking the button.
 
 1. Choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down list:
 
@@ -92,13 +96,13 @@ Use the **[!UICONTROL Button]** component to insert one or multiple buttons into
 
 ## Text {#text}
 
-Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
+Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Styles]** tab.
 
 ![](assets/email_designer_text_component.png)
 
 1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Text]** component into a **[!UICONTROL Structure component]**.
 
-1. Click your newly added component to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the Email Designer.
+1. Click your newly added component to personalize the text and to have access to the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs in the right pane of the Email Designer.
 
 1. Change your text with the following options available in the toolbar:
 
@@ -109,20 +113,25 @@ Use the **[!UICONTROL Text]** component to insert text into your email, and adju
     * **[!UICONTROL Create list]**: add bullet or number list to your text.
     * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
     * **Font size**: select the font size of your text in pixels.
+    * **[!UICONTROL Change font color]**: choose the color of your font.  
+    * **[!UICONTROL Insert link]**: add any type of link to your content. 
     * **[!UICONTROL Edit image]**: add an image or an asset to your text component. [Learn more about asset management](assets-essentials.md)
+    * **[!UICONTROL Change font color]**: choose the color of your font.  
+    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md)
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
+    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles. [Learn more about dynamic content](../personalization/get-started-dynamic-content.md)
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md)
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles. [Learn more about dynamic content](../personalization/get-started-dynamic-content.md)
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
+1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Styles]** tab.
+
+    ![](assets/email_designer_text_component_2.png)
 
 ## Divider {#divider}
 
 Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
+You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
 
 ![](assets/email_designer_divider.png)
 
@@ -150,18 +159,22 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Image]** component into a **[!UICONTROL Structure component]**.
 
+    ![](assets/email_designer_image_content.png)
+
 1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
 
    To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
+1. Click your newly added component and set up your image properties from the **[!UICONTROL Settings]** tab:
 
     * **[!UICONTROL Image title]** lets you define a title to your image.
     * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
 
     ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
+1. You can also choose to **[!UICONTROL Find similar Stock photos]**. [Learn more](stock.md)
+
+1. From the **[!UICONTROL Styles]** tab, adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
 
 ## Social {#social}
 
@@ -169,9 +182,9 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
 
-1. Click your newly added component.
+1. Select your newly added component.
 
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
+1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Settings]** tab, choose which social media you want to add or remove.
 
     ![](assets/email_designer_20.png)
 
@@ -181,13 +194,28 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
     ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. You can also change the icons of each of your social media if needed from your Assets.
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
+1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Styles]** tab.
 
 ## Offer decision {#offer-decision}
 
 Use the **[!UICONTROL Offer decision]** component to insert offers into your messages. The [decision management](../offers/get-started/starting-offer-decisioning.md) engine will pick the best offer to deliver to your customers.
 
+1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Offer decision]** component into a **[!UICONTROL Structure component]**.
+
+1. Click **[!UICONTROL Add]** to select your **[!UICONTROL Offer decision]**.
+
+    ![](assets/component_offers.png)
+
+1. From the drop-down, select your **[!UICONTROL Placements]**.  Then, select the the **[!UICONTROL Offer decision]** you want to add to your content and click **[!UICONTROL Add]**.
+
+    ![](assets/component_offers_2.png)
+
+1. From the **[!UICONTROL Offer decision]** tab, you can preview or change the inserted Offer.
+
 Learn how to add personalized offers into an email in [this section](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.

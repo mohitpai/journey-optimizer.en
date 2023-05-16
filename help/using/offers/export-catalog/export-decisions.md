@@ -82,7 +82,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** filter
     **Title:** Option Filter
-    **Description:** The reference to a tag based filter that matches options from an inventory using their attached tags. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/filter.
+    **Description:** The reference to a collection qualifier (previously known as "tag") based filter that matches options from an inventory using their attached collection qualifiers. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/filter.
     **Type:** string
 
 * Profile Constraint Type

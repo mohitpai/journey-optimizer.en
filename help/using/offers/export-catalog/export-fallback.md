@@ -186,12 +186,12 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** tags
 **Title:** Tags
-**Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a sub set (category).
+**Description:** The set of collection qualifiers (previously known as "tags") associated with this entity. The collection qualifiers are used in filter expressions to constrain the overall inventory to a sub set (category).
 **Type:** array
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under collection qualifiers: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++ _repo
 

@@ -9,6 +9,7 @@ role: User
 level: Beginner
 keywords: content, experiment, multiple, audience, treatment
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+badge: label="Beta" type="Informative"
 ---
 # Create a content experiment {#content-experiment}
 
@@ -40,6 +41,15 @@ The goal here is to see if recipients will interact with the email depending on 
 
     ![](assets/content_experiment_1.png)
 
+<!--
+1. In the **[!UICONTROL Properties]** section, choose your **[!UICONTROL Campaign type]**:
+
+    * **[!UICONTROL Scheduled]**: designed to send marketing messages and can be executed immediately or at a specified date.
+
+    * **[!UICONTROL API-Triggered]**: designed to send transactional messages, such as password reset notifications or cart abandonment reminders. 
+    
+        To execute an API-triggered campaign, you will need to make an API call. [Learn more](api-triggered-campaigns.md)
+-->
 1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery and click **[!UICONTROL Create]**. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
     ![](assets/content_experiment_2.png)
@@ -131,5 +141,3 @@ The goal here is to see if recipients will interact with the email depending on 
     ![](assets/content_experiment_14.png)
 
 After configuring your experimentation and campaign, you can follow the success of your delivery with the Campaign report. [Learn more](../reports/campaign-global-report.md#experimentation-report)
-
-

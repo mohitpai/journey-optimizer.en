@@ -18,7 +18,9 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 
 Learn more on the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe keeps an updated list of known bad addresses which have been proven to be detrimental to engagement and mailing reputation, and ensures emails are not delivered to them. This list is managed in a global suppression list which is common across all Adobe customers. The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery reports.
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -216,7 +218,7 @@ To remove an address from the suppression list, use the **[!UICONTROL Delete]** 
 
 For example in the case of an Internet Service Provider (ISP) outage, emails are wrongly marked as hard bounces because they cannot be successfully delivered to their recipient. These email addresses must be removed from the suppression list.
 
-To retrieve those addresses, run a specific query with custom parameters, based on the context of the outage. [Learn more in this sample](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+To retrieve those addresses, run a specific query with custom parameters, based on the context of the outage. [Learn more in this sample](../data/datasets-query-examples.md#isp-outage-query).
 
 Once the affected email addresses are identified, filter the suppression list to display them. For example if an ISP outage happened from Nov 11, 2022 to Nov 13, 2022 on the **test.com** domain, filter the addresses added to the suppression list in that timeframe, as below:
 

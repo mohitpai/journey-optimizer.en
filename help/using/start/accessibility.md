@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accessibility features in Journey Optimizer
 description: Learn more about accessibility in Journey Optimizer User Interface
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
+exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 ---
 # Accessibility in Journey Optimizer{#accessibility}
 

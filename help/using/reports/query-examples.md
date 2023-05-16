@@ -98,6 +98,152 @@ AND
 ORDER BY timestamp;
 ```
 
+**How much time elapsed between two nodes** 
+
+These queries can be used, for example, to estimate the time spent in a wait activity. This allows you to make sure that the wait activity is correctly configured.
+
+_Data Lake query_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    T1.INSTANCE_ID AS INSTANCE_ID,
+    T1.NODE_NAME AS START_NODE_NAME,
+    T2.NODE_NAME AS END_NODE_NAME,
+    DATEDIFF(millisecond,T1.TS_START,T2.TS_END) AS ELAPSED_TIME_MS
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+_Data Lake query_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    AVG(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS AVERAGE_ELAPSED_TIME,
+    MIN(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MIN_ELAPSED_TIME,
+    MAX(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MAX_ELAPSED_TIME
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+**How to check the details of a serviceEvent** 
+
+The Journey Step Events dataset contains all the stepEvents and serviceEvents. stepEvents are used in reporting, as they relate to activities (event, actions, etc.) of profiles in a journey. serviceEvents are stored in the same dataset, and they indicate additional information for debugging purposes, for example the reason for an experiance event discard. 
+
+Here is an example of query to check the detail of a serviceEvent:
+
+_Data Lake query_
+
+```sql
+SELECT
+
+     _experience.journeyOrchestration.profile.ID, 
+     _experience.journeyOrchestration.journey.versionID, 
+     to_json(_experience.journeyOrchestration.serviceEvents) 
+
+FROM journey_step_event 
+
+WHERE _experience.journeyOrchestration.serviceType is not null;
+```
 
 ## Message/Action Errors {#message-action-errors}
 
@@ -1060,4 +1206,3 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
-

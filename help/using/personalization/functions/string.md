@@ -645,13 +645,20 @@ Returns "Hello Mark, here is your monthly newsletter!"
 
 ## Replace All{#replaceAll}
 
-The `replaceAll` function is used to replace all substrings of a text that matches the "target" with the specified literal "replacement" string. The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
+The `replaceAll` function is used to replace all substrings of a text that matches the "regex" expression with the specified literal "replacement" string. Regex has special handling of "\" and "+" and all regex expressions follow PQL escaping strategy. The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
 
 **Syntax**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
+>[!NOTE]
+>
+> When the expression taken as second argument is a special regex character, use double back-slash (`//`).  Special regex characters are: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 
+> Learn more in [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Right trim {#rightTrim}
 

@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: journey, message, push, sms, email
+keywords: journey, message, push, sms, email, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
-# Email, SMS, Push{#add-a-message-in-a-journey}
+# Email, In-app, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] comes with built-in message capabilities. You can simply add, in your journey, a push, an SMS, or email message activity and define settings and content. It is then executed and sent in the context of the journey.
+[!DNL Journey Optimizer] comes with built-in message capabilities. You can simply add, in your journey, a push, an SMS, an In-app or email message activity and define settings and content. It is then executed and sent in the context of the journey.
 
 You can also set up specific actions to send you messages:
 
@@ -27,7 +27,7 @@ To add a message in a journey, follow the steps below:
 
 1. Start your journey with an [Event](general-events.md) or a [Read Segment](read-segment.md) activity.
 
-1. From the **Actions** section of the palette, drag and drop an **email**, an **SMS** or a **Push** activity into the canvas.
+1. From the **Actions** section of the palette, drag and drop an **email**, an **In-app**, an **SMS** or a **Push** activity into the canvas.
 
 1. Configure your activity. Learn detailed steps to create your message content in the following pages:
 
@@ -38,6 +38,14 @@ To add a message in a journey, follow the steps below:
    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Create emails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Create In-app messages</strong>
    </div>
    <p>
    </td>
@@ -64,13 +72,19 @@ To add a message in a journey, follow the steps below:
 
 ## Update live content{#update-live-content}
 
-You can update the content of a message (email, sms, push) in a live journey. 
+You can update the content of a message (email, In-app, Push, SMS) in a live journey. 
 
 To do this, open your live journey, select the message activity and click **Edit content**.
 
 ![](assets/add-a-message2.png)
 
-However, you cannot change the attributes used in personalisation, whether they are profile attributes or contextual data (from event or journey properties).
+However, you cannot change the attributes used in personalization, whether they are profile attributes or contextual data (from event or journey properties).
+
+If you modified contextual data, the following error message will be displayed: ERR_AUTHORING_JOURNEYVERSION_201
+
+If you modified profile attributes, the following error message will be displayed: ERR_AUTHORING_JOURNEYVERSION_202
+
+Note that for the In-app activity, any changes can be made to the content while the journey is live, but In-app triggers cannot be modified.
 
 ## Send-Time Optimization{#send-time-optimization}
 
@@ -119,3 +133,15 @@ Enable Send-Time Optimization on an email or push message by selecting the **Sen
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
 You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, [!DNL Journey Optimizer] will check each user profile and pick the optimal send time within six hours from the journey execution time.
+
+**What happens if the optimal time is outside the window?**
+
+Let's take an example with the following setup:
+
+* Optimize on clicks
+* Action is meant to start at 10 AM
+* Window is 3 hours
+
+A profile can have an optimal open time which is outside the window. For example, John's optimal open on click is at 5 PM. 
+
+At profile level, there are scores for every hour of the week. In this example, the email will always be sent within the window. At run time, the system checks the list of scores within that window (3 hour window starting at 10 AM). The system then compares the scores for 10, 11 and noon and selects the highest. The email is sent at that time.

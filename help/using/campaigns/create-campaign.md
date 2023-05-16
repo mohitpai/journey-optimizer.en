@@ -21,14 +21,12 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 
 To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**. You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
 
-![](assets/create-campaign.png)
-
 ## Choose the campaign type and channel {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Campaign type"
->abstract="For a marketing message by specifiyng a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or card abandonment, the **API-triggered** type is the best choice."
+>abstract="For a marketing message by specifying a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or cart abandonment, the **API-triggered** type is the best choice."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -39,7 +37,7 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 
     * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
 
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, cart abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
 
 1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message.
 
@@ -57,15 +55,15 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 
 ## Define the campaign properties {#create}
 
-1. Specify a title and a description for the campaign.
+1. In the **[!UICONTROL Properties]** section, specify a name and a description for the campaign.
 
     <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
+1. The **Tags** field allows you to assign Adobe Experience Platform Unified Tags to your campaign. This allows you to easily classify them and improve search from the campaigns list. [Learn how to work with tags](../start/search-filter-categorize.md#tags) 
 
-    ![](assets/create-campaign-properties.png)
+1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
     
-## Create the message {#content}
+## Create the message and configure tracking {#content}
 
 In the **[!UICONTROL Actions]** section, create the message to send with the campaign. 
 
@@ -116,21 +114,21 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 ## Define the audience {#audience}
 
-1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
+Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
 
-    >[!NOTE]
-    >
-    >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
 
-    In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
+In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
 
-    ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
     >[!NOTE]
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
-    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Schedule the campaign {#schedule}
 

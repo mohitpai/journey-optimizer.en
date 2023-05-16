@@ -42,7 +42,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     Design a new email or import an existing HTML content
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Create your first journey</a>
+    <a href="using/building-journeys/journey-gs.md">Create your first journey</a>
     </div>
     <p>Learn how to build and execute a journey
     <p>
@@ -140,6 +140,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </li>
     <p>
     <p>CONNECTIONS</p>
+      <li>
+      <a href="using/data/get-started-datasets.md">Destinations</a>
+    </li>
     <li>
       <a href="using/start/get-started-sources.md">Sources</a>
     </li>

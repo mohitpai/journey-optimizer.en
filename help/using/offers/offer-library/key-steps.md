@@ -23,7 +23,7 @@ Before starting to create offers, you must define several components that you wi
 
 1. **Create decision rules** that will specify the conditions under which the offers will be presented.
 
-1. **Create tags** that you will associate to the offers, allowing you to easily organize and search them into the library.
+1. **Create collection qualifiers** (previously known as "tags") that you will associate to the offers, allowing you to easily organize and search them into the library.
 
 1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can **create a ranking formula**.
 

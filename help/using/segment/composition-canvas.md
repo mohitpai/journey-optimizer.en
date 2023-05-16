@@ -10,12 +10,24 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
+badge: label="Beta" type="Informative"
 ---
 # Work with the composition canvas {#composition-canvas}
 
-The composition canvas is a visual canvas that allows you to create compositions by leveraging audiences and activities (split, exclude...).
+>[!BEGINSHADEBOX]
 
-The steps to configure a composition in the composition canvas are as follows:
+What you'll find in this documentation:
+
+* [Get started with audience composition](get-started-audience-orchestration.md)
+* [Create your first composition workflow](create-compositions.md)
+* **[Work with the composition canvas](composition-canvas.md)**
+* [Access and manage audiences](access-audiences.md)
+
+>[!ENDSHADEBOX]
+
+Audience composition provides a visual canvas that allows you to create audiences and use various activites (split, enrich, etc.).
+
+The steps to compose an audience in the canvas are as follows:
 
 1. [Define your starting audience(s)](#starting-audience)
 1. [Add one or multiple activities](#action-activities)
@@ -50,22 +62,21 @@ Once audiences have been selected, the estimated number of profiles displays at 
 
 Add activites after selecting your starting audience to refine your selection.
 
-To do this, click the + button on the composition path then select the desired activity. The right pane opens, allowing you to configure the activity.
+To do this, click the + button on the composition path then select the desired activity. The right pane opens, allowing you to configure the newly added activity.
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->You can add as many **[!UICONTROL Audience]** and **[!UICONTROL Exclude]** activities as needed in your composition. However, no additional activity can be added after **[!UICONTROL Rank]** and **[!UICONTROL Split]** activites.
-
-You can remove an activity from the canvas at any time by clicking the delete button in the right pane. All activities added after this activity will be also removed from the canvas.
 
 Available activites are: 
 
 * [Audience](#audience): include additional profiles belonging to one or multiple existing audiences,
 * [Exclude](#exclude): exclude profiles belonging to an existing audience or exclude profiles based on specific attributes,
+* [Enrich](#enrich): enrich your audience with additional attributes coming from Adobe Experience Platform datasets,
 * [Rank](#rank): rank profiles based on a specific attribute, specify the number of profiles to keep and include them into your composition,
 * [Split](#split): divide your composition into multiple paths based on random percentages or on attributes. 
+
+You can add as many **[!UICONTROL Audience]** and **[!UICONTROL Exclude]** activities as needed in your composition. However, no additional activity can be added after **[!UICONTROL Rank]** and **[!UICONTROL Split]** activites.
+
+You can remove an activity from the canvas at any time by clicking the delete button in the right pane.  If the activity that you want to delete is a parent of other activites in the composition, a message displays, allowing you to specify if you want to delete the selected activity only, or all its child activities.
 
 ### Audience activity {#audience}
 
@@ -109,11 +120,51 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 
     ![](assets/audiences-exclude-attribute.png)
 
+### Enrich {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Enrich activity"
+>abstract="Use the Enrich activity  to exclude profiles belonging to an existing audience. The Exclude using attribute type allows you to exclude profiles based on a specific attribute."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Enrichment dataset"
+>abstract="Select the enrichment dataset containing the data that you want to associate to the audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Enrichment criteria"
+>abstract="Select the fields to use as reconciliation key between the source dataset, i.e. the audience, and the enrichment dataset."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Enrichment attributes"
+>abstract="Select one or multiple attributes from the enrichment dataset to associate to the audience. Once the composition is published, these attributes are associated to the audience and can be leveraged in campaigns to personalize deliveries."
+
+The **[!UICONTROL Enrich]** activity allows you to enrich your audience with additional attributes coming from Adobe Experience Platform datasets. For example, you can add information related to the product purchased like its name, price, or manufacturer ID and leverage these information to personalize the deliveries sent to the audience.
+
+>[!IMPORTANT]
+>
+>For now, labels on the dataset, either at the dataset level or at the field level, are not propagated to the newly created audience. This may affect access control and/or data governance for the resulting audience. For this reason, please use only test data when composing audiences.
+
+To configure the activity, follow these steps:
+
+1. Select the **[!UICONTROL Enrichment dataset]** containing the data that you want to associate to the audience.
+
+1. In the **[!UICONTROL Enrichment criteria]** section, select the fields to use as reconciliation key between the source dataset, i.e. the audience, and the enrichment dataset. In this example, we are using the ID of the purchased product as reconciliation key.
+
+1. Click the **[!UICONTROL Add atttributes]** button then select one or multiple attributes from the enrichment dataset to associate to the audience.
+
+    ![](assets/audiences-enrich-activity.png)
+
+Once the composition is published, the selected attributes are associated to the audience and can be leveraged in campaigns to personalize deliveries.
+
 ### Rank activity {#rank}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Ranking activity"
+>title="Rank activity"
 >abstract="The Rank activity allows you to rank profiles based on a specific attribute and include them into your composition. For example, include the 50 profiles with the largest amount of loyalty points."
 
 >[!CONTEXTUALHELP]
@@ -135,10 +186,10 @@ The **[!UICONTROL Rank]** activity allows you to rank profiles based on a specif
 
 ### Split activity {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
 >title="Control Group"
->abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -159,9 +210,9 @@ The **[!UICONTROL Split]** activity allows you to divide your composition into m
 
 This operation automatically adds a **[!UICONTROL Save]** activity at the end of each path. When publishing the composition, one audience will be saved into Adobe Experience Platform for each path.
 
- Two types of split operations are available:
+Two types of split operations are available:
 
-* **[!UICONTROL Percent split]**: randomly split profiles into two or more paths. For example, you can split the profiles into 2 distinct paths of 45% each, and add an additional path for control group.
+* **[!UICONTROL Percent split]**: randomly split profiles into two or more paths. For example, you can split the profiles into 2 distinct paths of 50% each. <!--and add an additional path for control group.-->
 
     ![](assets/audiences-split-percentage.png)
 
@@ -182,9 +233,3 @@ To do this, select the **[!UICONTROL Save audience]** activity at the end of eac
 ![](assets/audiences-publish.png)
 
 Once your composition is ready, you can publish it. [Learn how to create compositions](create-compositions.md)
-
-Learn more:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Create composition workflows](create-compositions.md)
-* [Access and manage audiences](access-audiences.md)

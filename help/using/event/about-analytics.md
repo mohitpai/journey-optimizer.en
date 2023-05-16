@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics integration
-description: Learn how to leverage Adobe Analytics data
+description: Learn how to leverage Adobe Analytics data in Journey Optimizer
 feature: Events
 topic: Administration
 role: Admin
@@ -10,19 +10,30 @@ level: Intermediate
 keywords: analytics, integration, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 ---
-# Adobe Analytics integration {#analytics-data}
+# Work with Adobe Analytics data {#analytics-data}
 
-## Leverage Adobe Analytics or Web SDK data {#leverage-analytics-data}
+You can leverage all of the web behavioral event data  that you are already capturing through Adobe Analytics or Web SDK, and streaming into Adobe Experience Platform, in order to trigger journeys and automate experiences for your customers.
 
-You can leverage all of the web behavioral event data (through Adobe Analytics or Web SDK) that you are already capturing and streaming into Adobe Experience Platform in order to trigger journeys and automate experiences for your customers.
+For this to work with Adobe Analytics, you must:
+
+1. Activate the report suite you want to use. [Learn more](#leverage-analytics-data)
+1. Enable Journey Optimizer to use your Adobe Analytics data source. [Learn more](#activate-analytics-data)
+1. Add a specific event in your journey. [Learn more](#event-analytic)
 
 >[!NOTE]
 >
->This section only applies for rule-based events and customers who need to use Adobe Analytics or WebSDK data.
+>This section only applies for rule-based events and customers who need to use Adobe Analytics or Web SDK data.
+> 
+>If you are using Adobe Customer Journey Analytics, refer to [this page](../reports/cja-ajo.md).
+>
 
-For this to work with Adobe Analytics, you need to activate, in Adobe Experience Platform, the report suite that you want to use. To do this, follow the steps below:
+## Configure Adobe Analytics or Web SDK data {#leverage-analytics-data}
 
-1. Connect to Adobe Experience Platform and browse to **[!UICONTROL Sources]**.
+Data coming from Adobe Analytics or Adobe Experience Platform Web SDK need to be enabled to be used in your journeys.
+
+To do this, follow the steps below:
+
+1. Browse to the **[!UICONTROL Sources]** menu.
 
 1. In the Adobe Analytics section, select **[!UICONTROL Add data]**
 
@@ -46,14 +57,31 @@ This enables the Analytics source connector for that report suite. Whenever the 
 
 Learn more about Adobe Analytics source connector in  [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
+## Activate this configuration {#activate-analytics-data}
+
+Once this configuration is done, contact Adobe to enable your Journey Optimizer environment to use this data source. This step is only required for Adobe Analytics data sources. To perform this:
+
+1. Get the data source ID. This information is available in the user interface: browse to the data source you created from the **Dataflows** tab of the **Sources** menu. The easiest way to find it is to filter on Adobe Analytics sources.
+1. Contact Adobe Customer Care with the following details:
+    
+    * Subject: Enable Adobe Analytics events for journeys
+
+    * Content: Please enable my environment to use AA events. 
+        
+        * Organization ID: "XXX@AdobeOrg"
+        
+        * Data source ID: "ID: xxxxx"
+
+1. Once you have a confirmation that your environment is ready, you can use Adobe Analytics data in your journeys.
+
 ## Create a journey with an event using Adobe Analytics or Web SDK data {#event-analytics}
 
-After implementing your integration with Adobe Analytics with the [Adobe Analytics sources](#leverage-analytics-data) or with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), you can create an event which can later be used in a journey.
+You can now create an event based on Adobe Analytics or Adobe Experience Platform Web SDK data to be used in a journey.
 
-In this example, we will target users who added a product to their carts:
+In the example below, learn how to target users who added a product to their carts:
 
-* If the order is completed, they will receive a follow-up email two days later to ask for feedbacks.
-* If the order is not completed, they will receive an email to remind them to complete the order.
+* If the order is completed, users receive a follow-up email two days later to ask for feedbacks.
+* If the order is not completed, users receive an email to remind them to complete the order.
 
 1. From Adobe Journey Optimizer, access the **[!UICONTROL Configuration]** menu. 
 
@@ -68,24 +96,26 @@ In this example, we will target users who added a product to their carts:
     * **[!UICONTROL Name]**: Personalize the name of your **[!UICONTROL Event]**.
     * **[!UICONTROL Type]**: Choose the **[!UICONTROL Unitary]** Type. [Learn more](../event/about-events.md)
     * **[!UICONTROL Event ID type]**: Choose the **[!UICONTROL Rule based]** Event ID type. [Learn more](../event/about-events.md#event-id-type)
-    * **[!UICONTROL Schema]**: Select the Analytics or WebSDK schema created in the section above.
+    * **[!UICONTROL Schema]**: Select the Analytics or WebSDK schema [created before](#leverage-analytics-data).
     * **[!UICONTROL Fields]**: Select the Payload fields. [Learn more](../event/about-creating.md#define-the-payload-fields)
-    * **[!UICONTROL Event ID condition]**: Define the condition that will be used by the system to identify the events that will trigger your journey. 
+    * **[!UICONTROL Event ID condition]**: Define the condition to identify the events that will trigger your journey. 
         
         Here, the Event is triggered when customers add an item to their carts.
-    * **[!UICONTROL Profile Identifier]**: Choose a field from your payload fields or define a formula to identify the person associated to the event.
+    * **[!UICONTROL Profile Identifier]**: Choose a field from your payload fields, or define a formula, to identify the person associated to the event.
 
     ![](assets/ajo-aa_6.png)
 
-1. When configured, select **[!UICONTROL Save]**. Your event is now ready to be used in a journey.
+1. When configured, select **[!UICONTROL Save]**.
 
-1. From the **[!UICONTROL Journeys]**, you can now start creating your journey. For more on this, refer to [this section](../building-journeys/journey-gs.md).
+Now that the event is ready, create a journey to use it.
 
-1. Add your previously configured Analytics events to your journey.
+1. From the **[!UICONTROL Journeys]** menu, open or create a journey. For more on this, refer to [this section](../building-journeys/journey-gs.md).
+
+1. Add your previously configured Analytics event to your journey.
 
     ![](assets/ajo-aa_8.png)
 
-1. Add an Event which will be triggered if an order is completed.
+1. Add an event which will be triggered if an order is completed.
 
 1. From your **[!UICONTROL Event menu]**, select the **[!UICONTROL Define the event timeout]** and **[!UICONTROL Set a timeout path]** options.
 
@@ -99,6 +129,6 @@ In this example, we will target users who added a product to their carts:
 
 1. Then, add an **[!UICONTROL Email action]**. In this email, the customers will be prompted to give feedbacks on the placed order.
 
-You can now publish your journey after testing its validity. [Learn more](../building-journeys/publishing-the-journey.md)
+You can now test and publish your journey. [Learn more](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)

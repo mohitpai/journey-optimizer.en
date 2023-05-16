@@ -9,6 +9,7 @@ keywords: direct mail, message, campaign
 hide: yes
 hidefromtoc: yes
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
+badge: label="Beta" type="Informative"
 ---
 # Create a direct mail message {#create-direct}
 
@@ -16,6 +17,19 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 >id="ajo_direct_mail"
 >title="Direct mail creation"
 >abstract="Create direct mail messages in scheduled campaigns and design the extraction files required by direct mail providers to send mail to your customers."
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* **[Create a direct mail](create-direct-mail.md)**
+* [Configure direct mail](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Direct mail is currently available as a private beta, and may be subject to frequent updates without notice.
 
 Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
 
@@ -39,8 +53,6 @@ The steps to create and send a direct mail message are as follows:
    ![](assets/direct-mail-campaign.png)
 
 1. Click **[!UICONTROL Create]** then define basic information on your campaign (name, description). [Learn how to configure a campaign](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
    
 1. Click the **[!UICONTROL Edit content]** button to configure the extraction file to send to your direct mail provider. 
 
@@ -64,10 +76,10 @@ The steps to create and send a direct mail message are as follows:
 
 1. Repeat these steps to add as many columns as needed to build your extraction file. Note that you can add up to 50 columns.
 
-   ![](assets/direct-mail-complete.png)
-
    You can delete a column at any time by selecting it and clicking the **[!UICONTROL Remove]** button from the **[!UICONTROL Formatting]** section.
 
+   ![](assets/direct-mail-complete.png)
+   
 1. Once the direct mail content has been defined, complete the configuration of your campaign.
 
    When the campaign will start, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).

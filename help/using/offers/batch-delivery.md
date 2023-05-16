@@ -70,7 +70,7 @@ Once a job request has been created, the batch job goes through multiple statuse
 
 >[!NOTE]
 >
->To make sure you are getting the latest information on a job request's status, use the ellipse button next to the job to refresh it.
+>To make sure you are getting the latest information on a job request's status, use the ellipsis button next to the job to refresh it.
 
 1. **[!UICONTROL Queued]**: The job request has been created and has entered the processing queue. Up to 5 batch jobs can be run at a time per dataset. Any other batch requests with the same output dataset are added to the queue. A queued job is picked up to process once the previous job has finished running. 
 1. **[!UICONTROL Processing]**: The job request is being processed

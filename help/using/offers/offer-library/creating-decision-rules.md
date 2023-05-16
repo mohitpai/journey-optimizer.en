@@ -35,7 +35,7 @@ To create a decision rule, follow these steps:
 
     >[!NOTE]
     >
-    >The Segment Builder provided to create decision rules presents some specificities compared to the one used with the **[!UICONTROL Audience Destinations]** service. For example, the **[!UICONTROL Segments]** tab is not available for use. However, the global process described in the [Segment Builder](../../segment/about-segments.md) documentation is still valid to build offers decisions rules. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+    >The Segment Builder provided to create decision rules presents some specificities compared to the one used with the **[!UICONTROL Segmentation]** service. For example, the **[!UICONTROL Segments]** tab is not available for use. However, the global process described in the [Segment Builder](../../segment/about-segments.md) documentation is still valid to build offers decisions rules. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. As you are adding and configuring new fields in the workspace, the **[!UICONTROL Segment properties]** pane displays information on the estimated profiles belonging to the segment. Click **[!UICONTROL Refresh estimate]** to update data.
 

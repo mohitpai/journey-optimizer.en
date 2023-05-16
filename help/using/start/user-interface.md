@@ -21,7 +21,6 @@ Components and capabilities available in the user interface depend on your [perm
 >
 >This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
-
 ## Left navigation {#left-nav}
 
 Browse the links on the left to access [!DNL Journey Optimizer] capabilities.
@@ -84,7 +83,6 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
 
-
 ## In-product use cases {#in-product-uc}
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
@@ -104,7 +102,6 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
 
-
 ## Find help and support {#find-help}
 
 Access Adobe Journey Optimizer key help pages from the lower section of the home page.
@@ -112,10 +109,6 @@ Access Adobe Journey Optimizer key help pages from the lower section of the home
 Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/ajo-help.png)
-
-## Supported browsers {#browsers}
-
-Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 
 ## Language preferences {#language-pref}
 
@@ -139,39 +132,3 @@ To change your language:
 * Then click the language displayed under your email address
 * Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
     ![](assets/select-language.png)
-
-## Search{#unified-search}
-
-Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, and more across your sandboxes. 
-
-Start entering content to display top results. Help articles about the entered keywords also show up in the results.
-
-![](assets/unified-search.png)
-
-Press **Enter** to access all results and filter by business object.
-
-![](assets/search-and-filter.png)
-
-## Filter lists{#filter-lists}
-
-In most of the lists, use the search bar to find specific items, and define filtering criteria.
-
-Filters can be accessed by clicking on the filter icon on the top left of a list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
-
-In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->Note that columns displayed can be personalized using the configuration button on the top right of the lists. Personalization is saved for each user.
-
-Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
-
-![](assets/filter-journeys.png)
-
-In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
-
-![](assets/journey3bis.png)
-
-In the lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
-
-![](assets/journey4.png)

@@ -9,8 +9,21 @@ role: User
 level: Beginner
 keywords: get started, start, content, experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+badge: label="Beta" type="Informative"
 ---
 # Get started with content experiments {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+What you'll find in this documentation:
+
+* **[Get started with content experiment](get-started-experiment.md)**
+* [Create a content experiment](content-experiment.md)
+* [Understand statistical calculations](experiment-calculations.md)
+* [Configure experimentation reports](reporting-configuration.md)
+* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -103,6 +116,11 @@ To gain true business insights, you should stick to just one Experiment. Instead
 +++
 
 ## Interpret the results of your Experiments {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Summary widget"
+>abstract="The Summary widget provides an overview of your experiment results, including whether they are conclusive or not. It offers a quick and easy way to understand the outcome of your experiment."
 
 ![](assets/experimentation_report_3.png)
 

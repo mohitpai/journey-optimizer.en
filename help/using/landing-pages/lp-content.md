@@ -11,14 +11,37 @@ keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 ---
 # Define landing page-specific content {#lp-content}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Use content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page. To define specific content that will enable users to select and submit their choices, use the form component."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Add content components"
     
-To define specific content that will enable users to select and submit their choices from your landing page, use the the **[!UICONTROL Form]** component. To do so, follow the steps below.
+To design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
+
+To design specific content that will enable users to select and submit their choices, [use the form component](#use-form-component) and define its [landing page-specific styles](#lp-form-styles).
 
 >[!NOTE]
 >
 >You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
 
+Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)
+
 ## Use the form component {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="Set the form component fields"
+>abstract="Define how your recipients will see and submit their choices from your landing page."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Define landing page form styles"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="What happens when clicking the button"
+>abstract="Define what will happen upon users submitting the landing page form."
+
+To define specific content that will enable users to select and submit their choices from your landing page, use the **[!UICONTROL Form]** component. To do so, follow the steps below.
 
 1. Drag and drop the landing page-specific **[!UICONTROL Form]** component from the left palette into the main workspace.
 
@@ -34,7 +57,7 @@ To define specific content that will enable users to select and submit their cho
 
     >[!NOTE]
     >
-    >Switch to the **[!UICONTROL Form style]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
+    >Switch to the **[!UICONTROL Styles]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
 
 1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
 
@@ -54,7 +77,7 @@ To define specific content that will enable users to select and submit their cho
 
     * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on [subscription lists](subscription-list.md).
 
-        ![](assets/lp_designer-form-subs-list.png)
+        <!--![](assets/lp_designer-form-subs-list.png)-->
 
     * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from all your communications.
 
@@ -64,7 +87,19 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Once you added all the desired checkboxes, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
+1. You can also add a **[!UICONTROL Text field]**.
+
+    ![](assets/lp_designer-form-add-text-field.png)
+
+    * Enter the **[!UICONTROL Label]** that will be displayed on top of the field in the form.
+    
+    * Enter a **[!UICONTROL Placeholder]** text. It will be displayed inside the field before the user fills in the field.
+
+    * Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field. If a mandatory field is not filled in, an error message will display when the user submits the page.
+
+    ![](assets/lp_designer-form-text-field.png)
+
+1. Once you added all the desired checkboxes and/or text fields, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
 
     ![](assets/lp_designer-form-call-to-action.png)
 
@@ -95,21 +130,25 @@ To define specific content that will enable users to select and submit their cho
 
 ## Define landing page form styles {#lp-form-styles}
 
-1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Form style]** tab.
+1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Style]** tab.
 
     ![](assets/lp_designer-form-style.png)
 
-1. Expand the **[!UICONTROL Checkboxes]** section to define the appearance of the checkboxes and corresponding text. For example, you can adjust the font family or size, and the checkbox border color.
+1. The **[!UICONTROL Fields]** section is expanded by default and enables you to edit the appearance of the text field, such as the label and placeholder font, the position of the label, the field background color, or the field border.
+
+    ![](assets/lp_designer-form-style-fields.png)
+
+1. Expand the **[!UICONTROL Checkboxes]** section to define the appearance of the checkboxes and corresponding text. For example, you can adjust the font family or size, or the checkbox border color.
 
     ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can add a border, edit the label color on hover, or adjust the alignment of the button.
+1. Expand the **[!UICONTROL Buttons]** section to modify the appearance of the button in the component form. For example, you can change the font, add a border, edit the label color on hover, or adjust the alignment of the button.
 
     ![](assets/lp_designer-form-style-buttons.png)
 
-    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Preview]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
+    You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Simulate content]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
 
-    ![](assets/lp_designer-form-style-buttons-preview.png)
+    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Expand the **[!UICONTROL Form layout]** section to edit the layout settings such as the background color, padding, or margin.
 
@@ -123,13 +162,13 @@ To define specific content that will enable users to select and submit their cho
 
 You can use contextual data coming from another page within the same landing page.
 
-For example, if you link a checkbox<!-- or the submission of the page--> to a [subscription list](subscription-list.md) on the primary landing page, you can use that subscription list on the "thank you" subpage.
+For example, if you link a checkbox <!-- or the submission of the page--> to a [subscription list](subscription-list.md) on the primary landing page, you can use that subscription list on the "thank you" subpage.
 
 Let's say you link two checkboxes on your primary page to two different subscription lists. If a user subscribes to one of these, you want to display a specific message upon submitting the form, depending on which checkbox they selected.
 
 To do so, follow the steps below:
 
-1. On the primary page, link each checkbox to the relevant subscription list. [Learn more](#use-form-component).
+1. On the primary page, link each checkbox of the **[!UICONTROL Form]** component to the relevant subscription list. [Learn more](#use-form-component).
 
     ![](assets/lp_designer-form-luma-newsletter.png)
 
@@ -153,11 +192,15 @@ To do so, follow the steps below:
 
 1. Save your changes.
 
+Now when users select one of the checkboxes,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Now when users select one of the checkboxes, the message corresponding to the selected checkbox is displayed upon submitting the form.
+the message corresponding to the selected checkbox is displayed upon submitting the form.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

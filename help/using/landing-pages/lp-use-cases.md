@@ -64,11 +64,11 @@ For example, let's say you organize an event next month and you want to launch a
 
 Additionally, you can send a confirmation email to the recipients who registered for your event. To do so, follow the steps below.
 
-1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
+1. Create another [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. [Learn more](create-lp.md#configure-primary-page)
 
     ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. [Learn more](../building-journeys/segment-qualification-events.md)
 
 1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
 
@@ -121,13 +121,9 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 1. Once you configured and defined the content of your pages, [publish](create-lp.md#publish) the landing page.
 
-    ![](assets/lp_opt-out-publish.png)
-
 1. [Create an email message](../email/get-started-email-design.md) in a journey.
 
 1. Select text in your content and [insert a link](../email/message-tracking.md#insert-links) using the contextual toolbar. You can also use a link on a button.
-
-    ![](assets/lp_opt-out-insert-link.png)
 
 1. Select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down list and select the [landing page](create-lp.md#configure-primary-page) that you created for opting out.
 
@@ -160,6 +156,8 @@ The opt-out information is stored in the **Consent Service Dataset**. [Learn mor
 >[!NOTE]
 >
 >If the merge method for your default [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>
+>Even if no batches have been added to this dataset, it will still contain the opt-in/opt-out information.
 
 
 <!--

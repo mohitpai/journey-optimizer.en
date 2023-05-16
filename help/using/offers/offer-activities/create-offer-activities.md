@@ -92,19 +92,19 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_constraint-estimate.png)
 
-1. Define the ranking method you want to use to select the best offer for each profile.
+1. Define the ranking method you want to use to select the best offer for each profile. [Learn more](../offer-activities/configure-offer-selection.md).
 
     ![](../assets/activity_ranking-method.png)
 
-    * By default, if multiple offers are eligible for this placement, the offer with the highest priority score will be delivered to the customer.
+    * By default, if multiple offers are eligible for this placement, the **[!UICONTROL Offer priority]** method uses the value defined in the offers: the offer with the highest priority score will be delivered to the user.
 
-    * If you want to use a specific formula to choose which eligible offer to deliver, select **[!UICONTROL Ranking formula]**. Learn how to rank offers in [this section](../offer-activities/configure-offer-selection.md).
+    * If you want to use a specific calculated score to choose which eligible offer to deliver, select **[!UICONTROL Formula]** or **[!UICONTROL AI model]**. [Learn more](../offer-activities/configure-offer-selection.md).
 
 1. Click **[!UICONTROL Add]** to define more criteria for the same placement.
 
     ![](../assets/activity_add-collection.png)
 
-1. When you add several criteria, they will be evaluated in a specific order. The first collection that was added to the sequence will be evaluated first, and so on.
+1. When you add several criteria, they will be evaluated in a specific order. The first collection that was added to the sequence will be evaluated first, and so on. [Learn more](#evaluation-criteria-order)
     
     To change the default sequence, you can drag and drop the collections to reorder them as wanted.
 
@@ -114,13 +114,27 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_move-collection.png)
 
-    They now have the same rank and thus will be evaluated at the same time.
+    They now have the same rank and thus will be evaluated at the same time. [Learn more](#evaluation-criteria-order)
 
     ![](../assets/activity_same-rank-collections.png)
 
 1. To add another placement for your offers as part of this decision, use the **[!UICONTROL New scope]** button. Repeat the steps above for each decision scope.
 
     ![](../assets/activity_new-scope.png)
+
+### Evaluation criteria order {#evaluation-criteria-order}
+
+As described above, an evaluation criteria consists of a collection, eligibility constraints, and a ranking method. You can set the sequential order you want for the evaluation criteria to be evaluated, but you can also combine multiple evaluation criteria so they are evaluated together and not separately.
+
+For example, you have two collections, one in evaluation criteria A and one in evaluation criteria B. The request is for two offers to be sent back. Let's say there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B.
+
+* If the two evaluation criteria are **not combined** and/or in sequential order (1 and 2), the top two eligible offers from the evaluation criteria will be returned in the first row. If there are not two eligible offers for the first evaluation criteria, the decision engine will move on to the next evaluation criteria in sequence to find as many offers are still needed, and ultimately will return a fallback if needed.
+
+    ![](../assets/activity_consecutive-rank-collections.png)
+
+* If the two collections are **evaluated at the same time**, as there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B, the five offers will all be stack ranged together based on the value determined by the respective ranking methods. Two offers are requested, therefore the top two eligible offers from these five offers will be returned.
+
+    ![](../assets/activity_same-rank-collections.png)
 
 ## Add a fallback offer {#add-fallback}
 
@@ -164,6 +178,10 @@ From the decision list, you can select the decision to display its properties. F
 ![](../assets/decision_created.png)
 
 Select the **[!UICONTROL Edit]** button to go back to the decision edition mode, where you can modify the decision's [details](#create-activity), [decision scopes](#add-decision-scopes) and [fallback offer](#add-fallback).
+
+>[!IMPORTANT]
+>
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
 
 Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
 

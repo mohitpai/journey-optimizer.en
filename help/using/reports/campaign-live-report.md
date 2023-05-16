@@ -24,6 +24,7 @@ The Campaign **[!UICONTROL Live report]** page will be displayed with the follow
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [Web](#web-tab)
 
 The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/live-report.md#modify-dashboard).
 
@@ -129,7 +130,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL SMS]** tab de
 
 +++Learn more on the different metrics and widgets available for the SMS report.
 
-The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+The **[!UICONTROL SMS - Statistics]** table details the success of your delivery:
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
 
@@ -143,6 +144,8 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
+* **[!UICONTROL Clicks]**: Total number of URL visits.
+
 The **[!UICONTROL SMS Performance by date]** widget details the main information relative to your message with a graph:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
@@ -154,6 +157,25 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
++++
+
+## Web tab {#web-tab}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
+
++++Learn more on the different metrics and widgets available for the Web report.
+
+The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
+
+* **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
+
+* **[!UICONTROL Clicks]**: total number of URL visits.
+
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+
+The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
 +++
 
 ## Additional resources

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Preview messages and send proofs
-description: Learn how to preview and test your messages
+description: Learn how to preview and test your email
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ level: Intermediate
 keywords: preview, content, email, proof, test, profile
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 ---
-# Preview and test your messages {#preview-and-proof}
+# Preview and test your email {#preview-and-proof}
 
 Once your email content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the message, using test profile data.
 

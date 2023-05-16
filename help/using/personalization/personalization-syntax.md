@@ -155,7 +155,7 @@ Journey Optimizer allows you to personalize one or several URLs in your message 
 1. Create a link in your message content. [Learn more](../email/message-tracking.md#insert-links)
 1. From the personalization icon, select the attributes. The personalization icon is only available for these types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
-![](assets/perso-url.png)
+    ![](assets/perso-url.png)
 
 >[!NOTE]
 >

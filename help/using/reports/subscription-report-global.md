@@ -14,7 +14,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Subscription global report"
->abstract="The Subscription give report allows you to measure and visualize the activity of your subscribers over a selected time period. Your report is divided into different widgets detailing your subscriptions and unsubscriptions. Each reporting dashboard can be modified by resizing or removing widgets."
+>abstract="The Subscription global report allows you to measure and visualize the activity of your subscribers over a selected time period. Your report is divided into different widgets detailing your subscriptions and unsubscriptions. Each reporting dashboard can be modified by resizing or removing widgets."
 
 The subscription **[!UICONTROL Global report]** displays details about the activity of your subscribers over a selected time period. To measure your subscriptions over the last 24 hours only, refer to the [Subscription live report](subscription-report-live.md).
 

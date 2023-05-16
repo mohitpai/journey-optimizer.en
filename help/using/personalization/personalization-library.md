@@ -25,9 +25,7 @@ To access the saved expressions, click the **[!UICONTROL Library]** button in th
 
 >[!NOTE]
 >
->You can use the info button to get more information about the contents of a saved expression. If you have the appropriate permissions to manage library items, the information button will appear in the ellipse menu.
-    
-![](assets/library-list.png)
+>You can get more information about the content of a saved expression from the ellipsis button. Note that the information button will appear in the ellipsis if you have the appropriate permissions to manage library items.
 
 Click the + to insert the expression into the editor. You can then customize and validate your personalization content as usual. [Learn more](../personalization/personalization-build-expressions.md)
 
@@ -63,7 +61,7 @@ To save an expression to the library, follow these steps:
 
 To edit an existing expression, add it to the editor, then modify it according to your needs. Click **[!UICONTROL Add to library]** to validate the syntax and save the expression.
 
-To delete an expression, click the ellipse button then click **[!UICONTROL Delete]**.
+To delete an expression, click the ellipsis button then click **[!UICONTROL Delete]**.
 
 ## How-to video{#video}
 

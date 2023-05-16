@@ -49,6 +49,8 @@ Here are the different datasets available:
 
 * _Send-Time Optimization Scores / Engagement Scores_: Output scores of Journey AI.
 
+To view the complete list of fields and attributes for each schema, consult the [Journey Optimizer schema dictionary](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## Preview datasets{#preview-datasets}
 
 From the Dataset activity screen, select **Preview dataset** near the top-right corner of your screen to preview the most recent successful batch in this dataset. When a dataset is empty, the preview link is deactivated.

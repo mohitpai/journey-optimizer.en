@@ -17,15 +17,14 @@ You also need to be aware of [Guardrails for Real-time Customer Profile data bef
 
 You will find below additional guardrails and limitations when using [!DNL Adobe Journey Optimizer].
 
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+
 ## Message guardrails {#message-guardrails}
 
 * You cannot add attachments to an email with [!DNL Journey Optimizer].
 * You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage] for example.
-
-
-## Decision management guardrails {#offer-guardrails}
-
-Performance guardrails and static limits for decisioning are listed in the [Adobe Offer Decisioning App Service product description page](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Landing pages guardrails {#lp-guardrails}
@@ -36,6 +35,11 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * You cannot select the **Code your own** option when designing a landing primary page.
 
 ## Journey guardrails {#journeys-guardrails}
+
+### General journey guardrails {#journeys-guardrails-journeys}
+
+* The number of activities in a journey is limited to 50. The number of activities is displayed on the upper left section of the journey canvas.
+* The number of **live journeys** in one organization is limited to 100 per sandbox. When this limit is reached, you can no longer publish a new journey.
 
 ### General actions {#general-actions-g}
 
@@ -52,6 +56,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * The segment and namespace chosen in **Segment Qualification** (first node) cannot be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Segment** cannot start with another event in next versions.
+* You cannot create a new version of a read segment journey with incremental read. You need to duplicate the journey.
 
 ### Custom actions {#custom-actions-g}
 
@@ -59,7 +64,8 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 * Only POST and PUT call methods are supported
 * The name of the query parameter or header must not start with "." or "$"
 * IP addresses are not allowed
-* Internal Adobe addresses (.adobe.) are not allowed.
+* Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
+* Built-in custom actions cannot be removed.
 
 ### Events {#events-g}
 
@@ -71,6 +77,7 @@ Performance guardrails and static limits for decisioning are listed in the [Adob
 ### Data sources {#data-sources-g}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
+* Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
 
 ### Journeys and profile creation {#journeys-limitation-profile-creation}
  
@@ -91,5 +98,6 @@ You can choose from one of these two solutions:
 
 ### Expression editor {#expression-editor}
 
-* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity.
+* Experience event field groups can not be used in journeys starting with a Read segment, a Segment qualification or a business event activity. You need to create a new segment and use an insegment condition in the journey.
+
 

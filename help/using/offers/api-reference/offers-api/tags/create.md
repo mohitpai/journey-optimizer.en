@@ -1,15 +1,15 @@
 ---
-title: Create a tag
-description: Tags allow you to better organize and sort through your offers.
+title: Create a collection qualifier
+description: Collection qualifiers allow you to better organize and sort through your offers.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 ---
-# Create a tag {#create-tag}
+# Create a collection qualifier {#create-tag}
 
-You can create a tag by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a collection qualifier (previously known as "tag") by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -29,7 +29,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | The container where the collection qualifiers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Request**
 
@@ -49,7 +49,7 @@ curl -X POST \
 
 **Response**
 
-A successful response returns information on the newly created tag, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your tag. You can use your unique tag `@id` in later tutorials to create collections and personalized offers.
+A successful response returns information on the newly created collection qualifier, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `@id` in later tutorials to create collections and personalized offers.
 
 ```json
 {

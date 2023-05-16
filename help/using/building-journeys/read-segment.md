@@ -63,7 +63,7 @@ The steps to configure the Read Segment activity are as follows:
 
 1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read segment activity.
 
-    This value is stored in the journey version payload. The default value is 20,000 messages per second. You can modify this value from 500 to 20,000 messages per second.
+    This value is stored in the journey version payload. The default value is 5,000 messages per second. You can modify this value from 500 to 20,000 messages per second.
 
     >[!NOTE]
     >

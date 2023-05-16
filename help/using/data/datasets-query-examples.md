@@ -19,9 +19,10 @@ In this page, you will find the list of Adobe Journey Optimizer datasets and rel
 [Push Tracking Experience Event Dataset](#push-tracking-experience-event-dataset)
 [Journey Step Event](#journey-step-event)
 [Decisioning Event Dataset](#ode-decisionevents)
-[Consent Service Dataset](#consent-service-dataset)
 [BCC Feedback Event Dataset](#bcc-feedback-event-dataset)
 [Entity Dataset](#entity-dataset)
+
+To view the complete list of fields and attributes for each schema, consult the [Journey Optimizer schema dictionary](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
@@ -250,6 +251,7 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
+<!--
 ## Consent Service Dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
@@ -279,6 +281,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## BCC Feedback Event Dataset{#bcc-feedback-event-dataset}
 

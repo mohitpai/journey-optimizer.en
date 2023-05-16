@@ -13,7 +13,7 @@ Before creating an offer, make sure that you created:
 
 * A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
 * If you want to add an eligibility condition: a **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../offer-library/creating-decision-rules.md).
-* One or several **tags** that you may want to associate to the offer. See [Create tags](../offer-library/creating-tags.md).
+* One or several **collection qualifiers** (previously known as "tags") that you may want to associate to the offer. See [Create collection qualifiers](../offer-library/creating-tags.md).
 
 ➡️ [Discover this feature in video](#video)
 
@@ -47,7 +47,7 @@ To create an **offer**, follow these steps:
     >
     >Updating the start/end dates can have an impact on capping. [Learn more](add-constraints.md#capping-change-date)
 
-1. You can also associate one or several existing **[!UICONTROL tags]** to the offer, allowing you to search and organize the Offer Library more easily. [Learn more](creating-tags.md).
+1. You can also associate one or several existing **[!UICONTROL collection qualifiers]** to the offer, allowing you to search and organize the Offer Library more easily. [Learn more](creating-tags.md).
 
 1. The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
 
