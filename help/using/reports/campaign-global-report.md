@@ -73,21 +73,17 @@ The **[!UICONTROL Experiment result]** widget details the performance of each va
 
 The table presents the following metrics:
 
-* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
-
-*  **[!UICONTROL Outbound clicks]**: Total count of clicks across outbound channels.
-
-*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
-
-*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals).
-
-*  **[!UICONTROL Average lift]**: Percentage improvement in conversion rate of a given treatment over the baseline. [Learn more](../campaigns/experiment-calculations.md#understand-lift)
+* **[!UICONTROL Lift over baseline]**: Measure of the percentage improvement in conversion rate of a given treatment over the baseline.
 
 *  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
 
-The Count per profile - Value over time or Daily value details 
+*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
 
-Profiles - Value over time or Daily value
+* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
+
+*  **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
+
+The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals). 
 +++
 
 For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
