@@ -75,7 +75,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
