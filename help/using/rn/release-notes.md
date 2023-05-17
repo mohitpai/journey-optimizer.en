@@ -139,7 +139,10 @@ Information below is subject to change without prior notice until the release av
 **Terminology**
 
 * Segment is now “Audience. Documentation and product UI have been updated to reflect this change.
-* Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
 
 **Audiences**
 
