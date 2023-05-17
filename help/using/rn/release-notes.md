@@ -88,7 +88,7 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>You can now author, use, and manage fragments in emails. A fragment is a reusable component that can be referenced in one or more emails.</p>
-<!--img src="assets/do-not-localize/ai-ranking.gif"/-->
+<img src="assets/fragment-insert.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p-->
 </td>
 </tr>
