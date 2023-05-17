@@ -164,7 +164,7 @@ Once the composition is published, the selected attributes are associated to the
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Ranking activity"
+>title="Rank activity"
 >abstract="The Rank activity allows you to rank profiles based on a specific attribute and include them into your composition. For example, include the 50 profiles with the largest amount of loyalty points."
 
 >[!CONTEXTUALHELP]

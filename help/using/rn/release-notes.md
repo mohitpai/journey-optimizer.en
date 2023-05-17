@@ -15,6 +15,24 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
+## May 2023 improvements {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now assign Adobe Experience Platform Unified Tags to your campaigns. This allows you to easily classify them and improve search from the campaigns list. Note that Unified tags feature is currently in beta.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## April 2023 release notes {#apr-rn-2023}
 
@@ -39,7 +57,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -167,13 +184,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. This feature is currently in beta and only available for Journeys.</p>
-<p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Improvements {#mar-2023-improvements}
 

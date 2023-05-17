@@ -59,6 +59,8 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 
     <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
+1. The **Tags** field allows you to assign Adobe Experience Platform Unified Tags to your campaign. This allows you to easily classify them and improve search from the campaigns list. [Learn how to work with tags](../start/search-filter-categorize.md#tags) 
+
 1. To assign custom or core data usage labels to the campaign, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
     
 ## Create the message and configure tracking {#content}
@@ -122,9 +124,9 @@ In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
+    >[!NOTE]
+    >
+    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
