@@ -136,16 +136,18 @@ Information below is subject to change without prior notice until the release av
 
 ### Improvements {#may-2023-improvements}
 
+**Terminology**
+
+* Segment is now “Audience. Documentation and product UI have been updated to reflect this change.
+* Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+
 **Audiences**
 
 * Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
-* Segment is now “Audience. Documentation and product UI have been updated to reflect this change.
-
 
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-* Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
 
 
 **Decision Management**
