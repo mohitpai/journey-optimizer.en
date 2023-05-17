@@ -462,8 +462,8 @@ solution: Journey Optimizer
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
-  + [Access control overview](using/administration/permissions-overview.md)
-    + [Access control overview](using/administration/permissions-overview.md)
+  + Access control overview {#privacy}
+    + [Get started with user management](using/administration/permissions-overview.md)
     + [Built-in roles](using/administration/ootb-product-profiles.md)
     + [Built-in permissions](using/administration/ootb-permissions.md)
     + [Permission levels](using/administration/high-low-permissions.md)
