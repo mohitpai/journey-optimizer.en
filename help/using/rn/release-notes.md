@@ -51,8 +51,8 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>Adobe Journey Optimizer now supports experiments in campaigns. Experiments are randomized trials, which in the context of online testing, means that we expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, we then measure the outcome metrics we are interested in, such as opens of emails, subscriptions, or purchases.</p>
-<img src="../campaigns/assets/content_experiment_13.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -69,8 +69,8 @@ Information below is subject to change without prior notice until the release av
 <tr>
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
-<img src="../campaigns/assets/performance_report.gif"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/performance_report.gif"/>
+<!--p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
