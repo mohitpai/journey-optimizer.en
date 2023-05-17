@@ -463,12 +463,14 @@ solution: Journey Optimizer
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + [Access control overview](using/administration/permissions-overview.md)
-  + [Built-in product profiles](using/administration/ootb-product-profiles.md)
-  + [Manage users and product profiles](using/administration/permissions.md)
-  + [Permission levels](using/administration/high-low-permissions.md)
-  + [Sandboxes management](using/administration/sandboxes.md)
+    + [Access control overview](using/administration/permissions-overview.md)
+    + [Built-in roles](using/administration/ootb-product-profiles.md)
+    + [Built-in permissions](using/administration/ootb-permissions.md)
+    + [Permission levels](using/administration/high-low-permissions.md)
+  + [Manage users and roles](using/administration/permissions.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
   + [Object level access control](using/administration/object-based-access.md)
+  + [Sandboxes management](using/administration/sandboxes.md)
 + Privacy {#privacy}
   + [Get started with privacy](using/privacy/get-started-privacy.md)
   + [Privacy requests](using/privacy/requests.md)
