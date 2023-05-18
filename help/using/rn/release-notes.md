@@ -15,6 +15,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
+
 ## May 2023 early release notes {#may-rn-2023}
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -105,7 +106,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>You can now assign Adobe Experience Platform Unified Tags to your campaigns. This allows you to easily classify them and improve search from the campaigns list. Note that Unified tags feature is currently in beta.
+<p>You can now assign Adobe Experience Platform Unified Tags to your campaigns. This allows you to easily classify them and improve search from the campaigns list. Note that Unified tags feature is currently in beta.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
@@ -150,13 +151,13 @@ Information below is subject to change without prior notice until the release av
 
 **SMS channel**
 
-* Infobip has been added as a vendor provider when configuring your SMS channel surfaces
+* Infobip has been added as a vendor provider when configuring your SMS channel surfaces.
 * Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account.
 
 **In-app channel**
 
-* Added new message trigger rules for Adobe Places Service
-* Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules
+* Added new message trigger rules for Adobe Places Service.
+* Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
 
 **Journeys**
 
@@ -164,21 +165,21 @@ Information below is subject to change without prior notice until the release av
 
 **Campaigns**
 
-* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu
-* You can now delete draft modifications to a Live campaign
-* The steps for activating a campaign have now been streamlined
+* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu.
+* You can now delete draft modifications to a Live campaign.
+* The steps for activating a campaign have now been streamlined.
 
 **Decision Management**
 
-* You can now edit the frequency capping if the offer has the Draft status and was never published before.	
+* You can now edit the frequency capping if the offer has the Draft status and was never published before.
 
 **Personalization**
 
-* You can now select and insert asset references directly from Personalization Editor when working in HTML content
+* You can now select and insert asset references directly from Personalization Editor when working in HTML content.
 
 ### Fixes{#may-2023-fixes}
 
-* In-App Messages – Fixed an issue where campaign scheduling conflicted with message frequency settings
+* In-App Messages – Fixed an issue where campaign scheduling conflicted with message frequency settings.
 
 
 ## April 2023 release notes {#apr-rn-2023}
