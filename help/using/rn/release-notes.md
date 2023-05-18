@@ -148,14 +148,37 @@ Information below is subject to change without prior notice until the release av
 
 * Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
+**SMS channel**
+
+* Infobip has been added as a vendor provider when configuring your SMS channel surfaces
+* Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account.
+
+**In-app channel**
+
+* Added new message trigger rules for Adobe Places Service
+* Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules
+
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 
+**Campaigns**
+
+* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu
+* You can now delete draft modifications to a Live campaign
+* The steps for activating a campaign have now been streamlined
 
 **Decision Management**
 
 * You can now edit the frequency capping if the offer has the Draft status and was never published before.	
+
+**Personalization**
+
+* You can now select and insert asset references directly from Personalization Editor when working in HTML content
+
+### Fixes{#may-2023-fixes}
+
+* In-App Messages – Fixed an issue where campaign scheduling conflicted with message frequency settings
 
 
 ## April 2023 release notes {#apr-rn-2023}
