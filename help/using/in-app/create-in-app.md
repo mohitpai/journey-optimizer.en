@@ -10,8 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
-In-app messages are created in the context of a campaign.
-
+<!--
 >[!BEGINTABS]
 
 >[!TAB Add an In-app message to a journey]
@@ -61,6 +60,7 @@ In-app messages are created in the context of a campaign.
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
 >[!TAB Add an In-app message to a campaign]
+-->
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -107,8 +107,9 @@ For more information on how to configure a journey, refer to [this page](../buil
 
     ![](assets/in_app_create_4.png)
 
+<!--
 >[!ENDTABS]
-
+-->
 ## How-to video{#video}
 
 The video below shows how to create, configure, and publish In-app messages in your campaigns.
