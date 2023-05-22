@@ -24,7 +24,8 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#may-2023-features}
 
-<!--table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Audience Composition</strong><br/></th>
@@ -39,7 +40,8 @@ Information below is subject to change without prior notice until the release av
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+-->
 
 <table>
 <thead>
@@ -141,6 +143,7 @@ Information below is subject to change without prior notice until the release av
 
 * "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
 -->
+
 <!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
 -->
 
