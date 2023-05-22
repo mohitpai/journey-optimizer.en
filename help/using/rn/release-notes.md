@@ -88,9 +88,9 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>You can now author, use, and manage fragments in emails. A fragment is a reusable component that can be referenced in one or more emails.</p>
+<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/fragment-insert.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -139,7 +139,7 @@ Information below is subject to change without prior notice until the release av
 
 **Terminology**
 
-* Segment is now “Audience. Documentation and product UI have been updated to reflect this change.
+* Segment is now "Audience. Documentation and product UI have been updated to reflect this change.
 
 <!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
 -->
