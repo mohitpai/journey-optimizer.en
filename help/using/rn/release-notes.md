@@ -24,7 +24,6 @@ Information below is subject to change without prior notice until the release av
 
 ### New capabilities{#may-2023-features}
 
-
 <table>
 <thead>
 <tr>
@@ -158,6 +157,10 @@ Information below is subject to change without prior notice until the release av
 
 * Added new message trigger rules for Adobe Places Service.
 * Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
+
+**SMS channel**
+
+* Infobip has been added to the list of built-in providers.
 
 **Journeys**
 
