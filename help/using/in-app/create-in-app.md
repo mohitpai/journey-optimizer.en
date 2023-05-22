@@ -110,6 +110,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 <!--
 >[!ENDTABS]
 -->
+
 ## How-to video{#video}
 
 The video below shows how to create, configure, and publish In-app messages in your campaigns.
