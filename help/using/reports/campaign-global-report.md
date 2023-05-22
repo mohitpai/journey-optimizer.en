@@ -47,6 +47,7 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 * **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
 
+<!--
 ### Objectives report {#objectives-global}
 
 ![](assets/performance_report.gif)
@@ -58,6 +59,7 @@ The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** t
 After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
 
 With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
 
 ### Experimentation report {#experimentation-global}
 
