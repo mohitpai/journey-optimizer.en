@@ -35,7 +35,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
 <img src="../segment/assets/audiences-publish.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -50,7 +50,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer now supports experiments in campaigns. Experiments are randomized trials, which in the context of online testing, means that we expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, we then measure the outcome metrics we are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Adobe Journey Optimizer now supports experiments in campaigns. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
 </td>
@@ -99,7 +99,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Use Tags in your campaigns</strong><br/></th>
+<th><strong>Use Tags in your campaigns (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -136,10 +136,11 @@ Information below is subject to change without prior notice until the release av
 
 ### Improvements {#may-2023-improvements}
 
+<!--
 **Terminology**
 
 * "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
-
+-->
 <!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
 -->
 
@@ -208,7 +209,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Mobile onboarding quick start workflow (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -225,7 +226,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>New Journey dashboard (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -368,7 +369,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (beta)</strong><br/></th>
+<th><strong>In-app channel (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -386,7 +387,7 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Export Journey Optimizer Datasets to Cloud Storage Destinations (beta)</strong><br/></th>
+<th><strong>Export Journey Optimizer Datasets to Cloud Storage Destinations (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
