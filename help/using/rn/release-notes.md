@@ -59,7 +59,7 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-
+<!--
 <table>
 <thead>
 <tr>
@@ -71,12 +71,12 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<!--p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 
 <table>
