@@ -158,11 +158,6 @@ Information below is subject to change without prior notice until the release av
 * Added new message trigger rules for Adobe Places Service.
 * Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
 
-
-**SMS channel**
-
-* Infobip has been added to the list of built-in providers, along with Twilio and Sinch.
-
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
