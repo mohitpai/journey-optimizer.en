@@ -12,11 +12,6 @@ hidefromtoc: yes
 ---
 # Campaign global report {#objective-report}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_report"
->title="Campaign global report"
->abstract="The Campaign global report allows to measure the impact of your campaigns over a selected time period. Your report is divided into different widgets detailing your campaign's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
-
 Campaign global report can be accessed directly from your Campaign with the **[!UICONTROL View report]** button.
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
@@ -54,11 +49,6 @@ After selecting the Objectives you want to target on, the two **[!UICONTROL Perf
 With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
 
 ### Experimentation report {#experimentation-global-objectives}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Success metric"
->abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
 
 ![](assets/experimentation_report_3.png)
 
