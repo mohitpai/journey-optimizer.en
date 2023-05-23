@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Built-in Roles
+title: Journey Optimizer built-in Roles
 description: Learn about the built-in Roles
 feature: Access Management
 topic: Administration

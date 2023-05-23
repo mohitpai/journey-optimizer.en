@@ -15,24 +15,175 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-## May 2023 improvements {#may-improvements}
 
+## May 2023 early release notes {#may-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: May 25, 2023
+
+### New capabilities{#may-2023-features}
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Use Tags in your campaigns</strong><br/></th>
+<th><strong>Audience Composition</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now assign Adobe Experience Platform Unified Tags to your campaigns. This allows you to easily classify them and improve search from the campaigns list. Note that Unified tags feature is currently in beta.
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Content Experimentation in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports experiments in campaigns. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Create and use fragments in your email content</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your campaigns (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now assign Adobe Experience Platform Unified Tags to your campaigns. This allows you to easily classify them and improve search from the campaigns list. Note that Unified tags feature is currently in beta.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### Improvements {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**Audiences**
+
+* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+
+**SMS channel**
+
+* Infobip has been added as a vendor provider when configuring your SMS channel surfaces.
+* Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account.
+
+**In-app channel**
+
+* Added new message trigger rules for Adobe Places Service.
+* Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
+
+**Journeys**
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+
+**Campaigns**
+
+* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu.
+* You can now delete draft modifications to a Live campaign.
+* The steps for activating a campaign have now been streamlined.
+
+**Decision Management**
+
+* You can now edit the frequency capping if the offer has the Draft status and was never published before.
+
+**Personalization**
+
+* You can now select and insert asset references directly from Personalization Editor when working in HTML content.
+
+### Fixes{#may-2023-fixes}
+
+* In-App Messages – Fixed an issue where campaign scheduling conflicted with message frequency settings.
+
 
 ## April 2023 release notes {#apr-rn-2023}
 
@@ -61,7 +212,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Mobile onboarding quick start workflow (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,7 +229,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>New Journey dashboard (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -94,25 +245,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### Improvements {#april-2023-improvements}
 
@@ -240,7 +372,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (beta)</strong><br/></th>
+<th><strong>In-app channel (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -258,7 +390,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <table>
 <thead>
 <tr>
-<th><strong>Export Journey Optimizer Datasets to Cloud Storage Destinations (beta)</strong><br/></th>
+<th><strong>Export Journey Optimizer Datasets to Cloud Storage Destinations (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
