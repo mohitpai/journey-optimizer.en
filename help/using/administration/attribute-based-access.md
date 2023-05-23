@@ -90,7 +90,7 @@ In this example, we want to restrict access to the **Nationality** field. This f
 
 Note that you can also add  **[!UICONTROL Label]** to  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** and  **[!UICONTROL Segments]**.
 
-1. Create your **[!UICONTROL Schema]**. For more on this, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Create your **[!UICONTROL Schema]**. For more on this, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html).
 
     ![](assets/label_1.png)
 
