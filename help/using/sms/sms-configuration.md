@@ -69,7 +69,7 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL App ID]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page. [Learn more](https://www.infobip.com/docs/api)
+        * **[!UICONTROL API base URL]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page to find your credentials. [Learn more](https://www.infobip.com/docs/api)
 
     ![](assets/sms_7.png)
 
