@@ -1,5 +1,5 @@
 ---
-title: User interface
+title: Offer Library User interface
 description: Learn more about the Offer Library User Interface
 feature: Offers
 topic: Integrations
@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 ---
-# User Interface {#user-interface}
+# Offer Library User Interface {#user-interface}
 
 The **[!UICONTROL Decision management]** section in the left rail provides two menus that give you access to decision managements capabilities: 
 

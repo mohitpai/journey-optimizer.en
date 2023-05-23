@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: User Interface
+title: Search, filter, organize
 description: Learn more about Journey Optimizer User Interface
 feature: Overview
 topic: Content Management
