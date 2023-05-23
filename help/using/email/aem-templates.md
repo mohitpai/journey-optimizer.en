@@ -87,7 +87,7 @@ Once the Experience Manager template is available in Journey Optimizer as a cont
 
 1. To further personalize your Experience Manager template and add custom personalization to your content, click **[!UICONTROL Edit content]**. This will allow you to easily make changes and tailor the template to your specific needs. [Learn more](get-started-email-design.md)
 
-    >[!NOTE]
+    >[!WARNING]
     >
     > If you want to edit and personalize your template, you will only be able to use the compatibility mode. 
 
