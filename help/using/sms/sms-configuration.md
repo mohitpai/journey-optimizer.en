@@ -49,25 +49,22 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
     ![](assets/sms_6.png)
 
-1. Select your **[!UICONTROL SMS vendor]**.
+1. Select your **[!UICONTROL SMS vendor]**:
 
-1. Configure your SMS API credentials:
+    * **[!DNL Sinch]**
 
-    * For **[!DNL Sinch]**:
+        To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access SMS > APIs menu from your Sinch account.
 
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
+    * **[!DNL Twilio]**
 
-        * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab.  [Learn more](https://developers.sinch.com/docs/sms/getting-started/)
+        To find your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**, access the Account Info pane of the Console Dashboard page.
 
-    * For **[!DNL Twilio]**:
 
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
+1. Enter a **[!UICONTROL Name]** for your API Credential.
 
-        * **[!UICONTROL Account SID]** and **[!UICONTROL Auth Token]**: access the Account Info pane of your Twilio Console Dashboard page to find your credentials.
+1. Enter your **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**.
 
-        * **[!UICONTROL Message SID]**: enter the unique identifier assigned to every message created by Twilio's API. [Learn more](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
-      
-        ![](assets/sms_7.png)
+    ![](assets/sms_7.png)
 
 1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
 
