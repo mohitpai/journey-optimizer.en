@@ -23,9 +23,9 @@ The Campaign **[!UICONTROL Global report]** is divided into different widgets de
 
 For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](global-report.md#list-of-components-global.md)
 
-## Campaign tab {#campaign-global}
+## Campaign tab {#campaign-global-objectives}
 
-### Delivery {#delivery-global}
+### Delivery {#delivery-global-objectives}
 
 ![](assets/campaign_report_global_1.png)
 
@@ -37,7 +37,7 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 
 * **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
 
-### Objectives report {#objectives-global}
+### Objectives report {#objective-global}
 
 >[!AVAILABILITY]
 >
@@ -53,7 +53,7 @@ After selecting the Objectives you want to target on, the two **[!UICONTROL Perf
 
 With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
 
-### Experimentation report {#experimentation-global}
+### Experimentation report {#experimentation-global-objectives}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
