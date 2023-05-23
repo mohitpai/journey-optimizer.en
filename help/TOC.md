@@ -299,6 +299,7 @@ solution: Journey Optimizer
     + [List of components](using/reports/global-report-components.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Campaign Global report](using/reports/campaign-global-report.md)
+    + [Objective report](using/reports/objective-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}

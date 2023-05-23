@@ -9,7 +9,6 @@ role: User
 level: Beginner
 keywords: content, experiment, multiple, audience, treatment
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
 ---
 # Create a content experiment {#content-experiment}
 
@@ -52,6 +51,8 @@ The goal here is to see if recipients will interact with the email depending on 
 -->
 1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery and click **[!UICONTROL Create]**. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
+    In this exampe, we choose to send a campaign using emails.
+
     ![](assets/content_experiment_2.png)
 
 1. Set up the **[!UICONTROL Properties]** of your delivery:
@@ -70,7 +71,7 @@ The goal here is to see if recipients will interact with the email depending on 
 
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn more](create-campaign.md)
 
-1. Click **[!UICONTROL Edit content]** to start personalizing your delivery. [Learn more](../email/content-from-scratch.md)
+1. Click **[!UICONTROL Edit content]** to start personalizing your delivery.
 
     ![](assets/content_experiment_17.png)
 

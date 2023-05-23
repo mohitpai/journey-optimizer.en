@@ -82,6 +82,8 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
+1. Click **[!UICONTROL Create experiment]** to start configuring your content experiment and create treatments to measure their performance and identify the best option for your target audience. [Learn more](../campaigns/content-experiment.md)
+
 1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message:
 
     1. Click **Add condition** if you want the trigger to consider multiple events or criteria. 

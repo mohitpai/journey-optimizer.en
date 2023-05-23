@@ -9,21 +9,8 @@ role: User
 level: Experienced
 keywords: content, experiment, statistical, calculation
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-badge: label="Beta" type="Informative"
 ---
 # Understand statistical calculations {#experiment-calculations}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with content experiment](get-started-experiment.md)
-* [Create a content experiment](content-experiment.md)
-* **[Understand statistical calculations](experiment-calculations.md)**
-* [Configure experimentation reports](reporting-configuration.md)
-* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 This article describes the statistical calculations used when you run Experiments in Adobe Journey Optimizer. 
 
