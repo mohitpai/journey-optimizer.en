@@ -58,12 +58,11 @@ To have your recipients opted out when they submit their choice from the landing
 
 This POST call is as follows:
 
-Endpoint: platform.adobe.io/journey/imp/consent/preferences
+Endpoint: https://platform.adobe.io/journey/imp/consent/preferences
 
 Query parameters:
 
 * **params**: contains the encrypted payload
-* **sig**: signature
 * **pid**: encrypted profile ID
 
 These three parameters will be included into the third-party landing page URL sent to your recipient:

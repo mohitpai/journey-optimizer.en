@@ -214,7 +214,7 @@ The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTRO
 >
 >For all capping events except decision event, the decision management feedback may not be automatically collected, which could result in the capping counter not being correctly incremented. [Learn more](../data-collection/data-collection.md)
 >
->To make sure each capping event is tracked and accouned for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. [Learn more](../data-collection/schema-requirement.md)
+>To make sure each capping event is tracked and accounted for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. [Learn more](../data-collection/schema-requirement.md)
 
 ### Capping count {#capping-count}
 
