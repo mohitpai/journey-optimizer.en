@@ -57,30 +57,59 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL External link]**: Insert a link to an external URL.
 
-    * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
+    * **[!UICONTROL Landing page]**: Insert a link to a landing page. [Learn more ](../landing-pages/get-started-lp.md)
 
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](../privacy/opt-out.md#one-click-opt-out).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. [Learn more](email-opt-out.md#one-click-opt-out).
 
     * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
 
-    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](../privacy/opt-out.md#opt-out-management).
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](email-opt-out.md#opt-out-management).
 
-    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
+    * **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more](#mirror-page)
 
-1. You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md#perso-urls).
+1. Enter the desired URL in the corresponding field, or select a landing page, and define the link settings and styles. [Learn more](#adjust-links)
+
+    >[!NOTE]
+    >
+    >For interpreting URLs, [!DNL Journey Optimizer] complies with the URI syntax ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986)), which disables some special international characters in the URL. When trying to send the proof or email, if you are returned an error involving a URL added to your content, you can URL encode the string as a workaround.
+
+1. You can personalize your links. [Learn more](../personalization/personalization-syntax.md#perso-urls)
 
 1. Save your changes.
 
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
-
-    * You can edit the link and change its type.
-    * You can choose to underline the link or not by checking the corresponding option.
+1. Once the link is created, you can still modify it from the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** panes on the right.
 
     ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined in the [channel surface](../configuration/channel-surfaces.md#email-type) when creating the message.
+
+## Adjust links {#adjust-links}
+
+You can underline a link and select its color and target in the Email Designer.
+
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
+
+1. From the **[!UICONTROL Settings]** tab, choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down:
+
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+
+   ![](assets/link_2.png)
+
+1. Check **[!UICONTROL Underline link]** to underline the label text of your link.
+
+   ![](assets/link_1.png)
+
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the **[!UICONTROL Styles]** tab.
+
+   ![](assets/link_3.png)
+
+1. Save your changes.
 
 ## Link to a mirror page {#mirror-page}
 
