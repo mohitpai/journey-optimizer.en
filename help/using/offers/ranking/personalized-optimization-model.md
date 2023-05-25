@@ -8,11 +8,7 @@ role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 ---
-# Personalized Optimization model {#personalized-optimization-model}
-
->[!CAUTION]
->
->The use of Personalized Optimization models is currently available in early access to select users only.
+# Personalized optimization model {#personalized-optimization-model}
 
 ## Overview {#overview}
 
@@ -29,14 +25,14 @@ For example if a bank has two credit cards offers with the only difference being
 
 ## How It Works {#how}
 
-Auto-personalization learns complex feature interactions between offers, users' information and contextual information to recommend personalized offers to end users. Features are inputs into the model.
+The model learns complex feature interactions between offers, users' information and contextual information to recommend personalized offers to end users. Features are inputs into the model.
 
 There are 3 types of features:
 
 | Feature types | How to add features to models |
 |--------------|----------------------------|
-| Decisioning objects (placementID, activityID, decisionScopeID)| Part of the decision management feedback Experience Events sent to AEP|
 | Segments| 0-50 segments can be added as features when creating the Ranking AI model|
+| Decisioning objects (placementID, activityID, decisionScopeID)| Part of the decision management feedback Experience Events sent to AEP|
 | Context data| Part of the decisioning feedback Experience Events sent to AEP. Available context data to add to schema: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, placeContext|
 
 The model has two phases:
@@ -60,7 +56,7 @@ Basically, this is the idea of learning and memorizing historical feature intera
 Cold-start problem occurs when there isn't enough data to make recommendation. For auto-personalization, there are two types of cold-start problems.
 
 * **After creating a new ranking strategy with no historical data**, offers will be randomly served for a period of time to collect data, and the data will be used to train the first model.
-* A**fter the first model is released**, 10% of total traffic will be allocated for random serving while 90% of traffic will be used for model recommendations. Therefore, if new offers were added to the ranking strategy, they would be delivered as part of the 10% of traffic. The data collected on those offers would determine the number of times it is selected among the 90% of traffic as the model continues to get updated.  
+* **After the first model is released**, 10% of total traffic will be allocated for random serving while 90% of traffic will be used for model recommendations. Therefore, if new offers were added to the ranking strategy, they would be delivered as part of the 10% of traffic. The data collected on those offers would determine the number of times it is selected among the 90% of traffic as the model continues to get updated.  
 
 ## Re-training {#re-training}
 
