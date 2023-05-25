@@ -63,9 +63,9 @@ When leveraging offers, personalization preferences are not automatically implem
 
 
 
-1. Create an [Adobe Experience Platform audience](../segment/about-segments.md) using a profile attribute such as: *"Consents to Personalization = True"* to target users who have consented to personalization.
+1. Create an [Adobe Experience Platform segment](../segment/about-segments.md) using a profile attribute such as: *"Consents to Personalization = True"* to target users who have consented to personalization.
 
-1. When creating a [decision](../offers/offer-activities/create-offer-activities.md), add a decision scope and define an eligibility constraint based on this audience for each evaluation criteria collection that contains personalized offers.
+1. When creating a [decision](../offers/offer-activities/create-offer-activities.md), add a decision scope and define an eligibility constraint based on this segment for each evaluation criteria collection that contains personalized offers.
 
 1. Create a [fallback offer](../offers/offer-library/creating-fallback-offers.md) that does not include personalized content.
 
