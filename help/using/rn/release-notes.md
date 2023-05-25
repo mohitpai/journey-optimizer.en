@@ -179,7 +179,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 **Decision Management**
 
-* You can now edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled.
+* You can now edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled. [Learn more](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalization**
 
