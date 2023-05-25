@@ -9,9 +9,6 @@ role: Admin
 level: Intermediate
 keywords: configuration, experimentation, reporting, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informative"
-hide: yes
-hidefromtoc: yes
 ---
 # Configure reporting for experimentation {#reporting-configuration}
 
