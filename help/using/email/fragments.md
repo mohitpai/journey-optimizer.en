@@ -7,8 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-
+hide: yes
+hidefromtoc: yes
 ---
+
 # Work with fragments {#fragments}
 
 A fragment is a reusable component that can be referenced in one or more emails across [!DNL Journey Optimizer] campaigns and journeys.

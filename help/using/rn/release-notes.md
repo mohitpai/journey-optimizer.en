@@ -80,7 +80,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 -->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Create and use fragments in your email content</strong><br/></th>
@@ -95,7 +95,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
