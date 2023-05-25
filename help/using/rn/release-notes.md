@@ -54,7 +54,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>Adobe Journey Optimizer now supports experiments in campaigns. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
