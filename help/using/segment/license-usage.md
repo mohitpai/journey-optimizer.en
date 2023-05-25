@@ -19,7 +19,7 @@ To access this dashboard, go to **[!UICONTROL Administration]** > **[!UICONTROL 
 
 >[!NOTE]
 >
->To be able to view the dashboard, you must be granted the [View License Usage Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permission.
+>To be able to view the dashboard, you must be granted the [View License Usage Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} permission.
 
 Learn more in the Adobe Experience Platform documentation:
 

@@ -53,7 +53,7 @@ To export an Adobe Experience Manager template to Adobe Journey Optimizer, follo
 
     ![](assets/aem-outbound-menu.png)
 
-1. From your content library, you can use previously configured templates or create one from scratch. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. From your content library, you can use previously configured templates or create one from scratch. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. By incorporating Journey Optimizer personalization syntax into your template, you can enhance its customization capabilities. [Learn more](../personalization/personalization-syntax.md)
 
@@ -87,7 +87,7 @@ Once the Experience Manager template is available in Journey Optimizer as a cont
 
 1. To further personalize your Experience Manager template and add custom personalization to your content, click **[!UICONTROL Edit content]**. This will allow you to easily make changes and tailor the template to your specific needs. [Learn more](get-started-email-design.md)
 
-    >[!NOTE]
+    >[!WARNING]
     >
     > If you want to edit and personalize your template, you will only be able to use the compatibility mode. 
 

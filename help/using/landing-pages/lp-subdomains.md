@@ -33,7 +33,11 @@ You can use a subdomain that is already delegated to Adobe, or you can configure
 
 >[!CAUTION]
 >
->Landing page subdomain configuration is common to all environments. Therefore any modification to a landing page subdomain will also impact the production sandboxes.
+>Landing page subdomain configuration is common to all environments. Therefore:
+>
+>* To access and edit landing page subdomains, you must have the **[!UICONTROL Manage Landing Page Subdomains]** permission on the production sandbox.
+>
+> * Any modification to a landing page subdomain will also impact the production sandboxes.
 
 ## Use an existing subdomain {#lp-use-existing-subdomain}
 

@@ -22,5 +22,5 @@ Data usage policies are rules that describe the kinds of marketing actions that 
 For more information on the Data Governance framework and how to work with labels and policies, refer to Adobe Experience Platform documentation:
 
 * [Data Governance service overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
+* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Data usage policies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)

@@ -74,8 +74,6 @@ To create a content template from scratch, follow the steps below.
 
 1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** left menu.
 
-    ![](assets/content-template-list.png)
-
 1. Select **[!UICONTROL Create template]**.
 
 1. Fill in the template details.
@@ -88,7 +86,7 @@ To create a content template from scratch, follow the steps below.
 
 1. To assign custom or core data usage labels to the template, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
-1. Click **[!UICONTROL Create]** and choose how you want to design your email from the different options:
+1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
     * [Design your email from scratch](content-from-scratch.md) through the Email Designer's interface.
 

@@ -52,9 +52,9 @@ The main steps to export a dataset to a cloud storage location are as follows:
 
 ![](assets/dataset-export-process.png)
 
-Detailed information on each step is available in Adobe Experience Platform documentation: [Export datasets to cloud storage destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en).
+Detailed information on each step is available in Adobe Experience Platform documentation: [Export datasets to cloud storage destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **Setup your cloud storage destination**. If you have not done so already, connect to a cloud storage destination from the destinations catalog. [Learn how to create a new destination connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en#setup)
+1. **Setup your cloud storage destination**. If you have not done so already, connect to a cloud storage destination from the destinations catalog. [Learn how to create a new destination connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
     <!--![](assets/dataset-export-setup.png)-->
 

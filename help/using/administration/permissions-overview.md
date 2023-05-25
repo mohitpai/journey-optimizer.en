@@ -10,7 +10,7 @@ level: Intermediate
 keywords: permissions, rights, restrictions, access, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 ---
-# User management overview {#permissions-overview}
+# Get started with user management {#permissions-overview}
 
 [!DNL Journey Optimizer] allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access access to in-product features and capabilities. 
 

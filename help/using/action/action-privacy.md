@@ -26,7 +26,7 @@ In Journey Optimizer, you can apply these policies to your custom actions to pre
 For more information on the Data Governance framework and how to work with labels and policies, refer to Adobe Experience Platform documentation:
 
 * [Data Governance service overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
+* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Data usage policies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
 
 ## Important notes {#important-notes}
@@ -42,7 +42,7 @@ You can use existing labels, marketing actions and policies. Here are the main c
 * Define a marketing action for each third-party custom action used in your journeys.
 * Create a governance policy and associate it to the label and marketing action.
 
-For more information on how to manage policies, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
+For more information on how to manage policies, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)
 
 Let's take the example of the blood type field that you need to label as sensitive and restrict from being exported to a third-party. Here are the different steps:
 

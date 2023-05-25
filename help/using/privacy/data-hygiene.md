@@ -24,4 +24,4 @@ These tasks can be accomplished using the **[!UICONTROL Data Hygiene]** menu, wh
 For more information on the Privacy Service and how to perform data hygiene operations, refer to Adobe Experience Platform documentation:
 
 * [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Data Hygiene in Adobe Experience Patform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=en)
+* [Data Hygiene in Adobe Experience Patform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)

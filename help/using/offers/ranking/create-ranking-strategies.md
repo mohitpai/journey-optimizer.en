@@ -33,7 +33,7 @@ To create an AI model, follow the steps below:
 1. Specify a unique name and a description for the AI model, then select the type of AI model you want to create:
     
     * **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
 
     ![](../assets/ai-ranking-fields.png)
 
@@ -45,7 +45,7 @@ To create an AI model, follow the steps below:
     >* **Impression events** (offers that are displayed)
     >* **Conversion events** (offers that result in clicks via email or web).
     >
-    >These events are automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+    >These events are automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Select the dataset(s) where the conversion and impression events are collected. Learn how to create such dataset in [this section](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -55,7 +55,7 @@ To create an AI model, follow the steps below:
     >
     >Only the datasets created from schemas associated with the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) are displayed in the drop-down list.
 
-1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. If you are creating a **[!UICONTROL Personalized optimization]** AI model, select the segment(s) to use to train the AI model.
 
     ![](../assets/ai-ranking-segments.png)
 

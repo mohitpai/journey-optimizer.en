@@ -160,9 +160,10 @@ solution: Journey Optimizer
   + Content experiment {#content-experiment}
     + [Get started with content experiment](using/campaigns/get-started-experiment.md)
     + [Create a content experiment](using/campaigns/content-experiment.md)
-    + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
     + [Configure experimentation reports](using/campaigns/reporting-configuration.md)
-    + [Statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
+    + Technotes {#technotes}
+      + [Understand statistical calculations](using/campaigns/experiment-calculations.md)
+      + [Understand statistical calculations in Experimentation report](using/campaigns/experiment-report-calculations.md)
   + [Trigger campaigns using APIs](using/campaigns/api-triggered-campaigns.md)
 + Email channel {#email}
   + [Get started with emails](using/email/get-started-email.md)
@@ -187,11 +188,11 @@ solution: Journey Optimizer
       + [Get started with email style](using/email/get-started-email-style.md)
       + [Edit background settings](using/email/backgrounds.md)
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
-      + [Define a style for links](using/email/styling-links.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
   + [Create content templates](using/email/content-templates.md)
   + [Use Experience Manager templates](using/email/aem-templates.md)
+  + [Work with fragments](using/email/fragments.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
@@ -298,6 +299,7 @@ solution: Journey Optimizer
     + [List of components](using/reports/global-report-components.md)
     + [Journey Global report](using/reports/journey-global-report.md)
     + [Campaign Global report](using/reports/campaign-global-report.md)
+    + [Objective report](using/reports/objective-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
   + Journey reports {#reports}
@@ -462,13 +464,15 @@ solution: Journey Optimizer
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
-  + [Access control overview](using/administration/permissions-overview.md)
-  + [Built-in product profiles](using/administration/ootb-product-profiles.md)
-  + [Manage users and product profiles](using/administration/permissions.md)
-  + [Permission levels](using/administration/high-low-permissions.md)
-  + [Sandboxes management](using/administration/sandboxes.md)
+  + Access control overview {#privacy}
+    + [Get started with user management](using/administration/permissions-overview.md)
+    + [Built-in roles](using/administration/ootb-product-profiles.md)
+    + [Built-in permissions](using/administration/ootb-permissions.md)
+    + [Permission levels](using/administration/high-low-permissions.md)
+  + [Manage users and roles](using/administration/permissions.md)
   + [Attribute-based access control](using/administration/attribute-based-access.md)
   + [Object level access control](using/administration/object-based-access.md)
+  + [Sandboxes management](using/administration/sandboxes.md)
 + Privacy {#privacy}
   + [Get started with privacy](using/privacy/get-started-privacy.md)
   + [Privacy requests](using/privacy/requests.md)

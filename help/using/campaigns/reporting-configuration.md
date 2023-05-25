@@ -8,10 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuration, experimentation, reporting, optimizer
-hide: yes
-hidefromtoc: yes
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informative"
 ---
 # Configure reporting for experimentation {#reporting-configuration}
 
@@ -24,18 +21,6 @@ badge: label="Beta" type="Informative"
 >id="ajo_admin_reporting_dataset"
 >title="Select a dataset"
 >abstract="You can only select an event-type dataset, which must contain at least one of the supported field groups: Application Details, Commerce Details, Web Details."
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with content experiment](get-started-experiment.md)
-* [Create a content experiment](content-experiment.md)
-* [Understand statistical calculations](experiment-calculations.md)
-* **[Configure experimentation reports](reporting-configuration.md)**
-* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -54,7 +39,7 @@ For this configuration, you need to add one or more datasets containing the addi
 ## Prerequisites
 
 
-Before being able to add a dataset to the reporting configuration, you must create that dataset. Learn how in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target="_blank"}.
+Before being able to add a dataset to the reporting configuration, you must create that dataset. Learn how in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * You can only add event-type datasets.
 
@@ -74,7 +59,7 @@ Before being able to add a dataset to the reporting configuration, you must crea
 
 >[!NOTE]
 >
->Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target="_blank"}.
+>Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 ## Objectives corresponding to each field group {#objective-list}
 

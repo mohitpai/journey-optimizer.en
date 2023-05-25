@@ -52,7 +52,7 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
     * Mobile Core
     * Profile
 
-    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) for the detailed procedure.
+    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) for the detailed procedure.
 
     ![](assets/inapp_config_5.png)
 
