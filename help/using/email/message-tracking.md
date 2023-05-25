@@ -71,7 +71,7 @@ To insert links into your email content, follow the steps below:
 
     >[!NOTE]
     >
-    >For interpreting URLs, [!DNL Journey Optimizer] complies with the URI syntax ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986)), which disables some special international characters in the URL. When trying to send the proof or email, if you are returned an error involving a URL added to your content, you can URL encode the string as a workaround.
+    >For interpreting URLs, [!DNL Journey Optimizer] complies with the URI syntax ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986)), which disables some special international characters in URLs. When trying to send the proof or email, if you are returned an error involving a URL added to your content, you can URL encode the string as a workaround.
 
 1. You can personalize your links. [Learn more](../personalization/personalization-syntax.md#perso-urls)
 
@@ -87,7 +87,7 @@ To insert links into your email content, follow the steps below:
 
 ## Adjust links {#adjust-links}
 
-You can underline a link and select its color and target in the Email Designer.
+You can make adjustments to your links using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** panes on the right. You can underline a link, edit its color and select its target.
 
 1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 

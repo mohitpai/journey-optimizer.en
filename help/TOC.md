@@ -187,7 +187,6 @@ solution: Journey Optimizer
       + [Get started with email style](using/email/get-started-email-style.md)
       + [Edit background settings](using/email/backgrounds.md)
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
-      + [Define a style for links](using/email/styling-links.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
   + [Create content templates](using/email/content-templates.md)
