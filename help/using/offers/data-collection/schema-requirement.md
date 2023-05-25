@@ -94,6 +94,15 @@ Make sure the event type and source are as follows:
 
 For custom events, the schema used in the dataset must also have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it, but there is no specific requirement on the experience event type that must be used to tag these events.
 
+>[!NOTE]
+>
+>To have your custom events accounted for in [frequency capping](../offer-library/add-constraints.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
+>
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
+>
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
+
 <!--
 ## Using a ranking strategy {#using-ranking}
 

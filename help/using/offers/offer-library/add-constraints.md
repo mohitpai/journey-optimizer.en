@@ -134,16 +134,6 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 >abstract="To avoid over-solicitating your customers, use capping to define the maximum number of times an offer can be presented."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Changing dates can impact capping"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="Set the capping frequency"
->abstract="You can choose to reset the offer capping counter on a daily, weekly or monthly basis. Note that after saving your offer, you will not be able to change the selected frequency."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="The use of impressions as capping events is available for inbound channels only."
-
 Capping is used as a constraint to define the maximum number of times an offer can be presented.
 
 Limiting the number of times users get specific offers allows you to avoid over-solicitating your customers and thus to optimize each touchpoint with the best offer.
@@ -177,6 +167,11 @@ The number of times an offer is proposed is calculated at email preparation time
 >Capping counters will reset when the offer expires or 2 years after the offer start date, whichever comes first. Learn how to define an offer's date in [this section](creating-personalized-offers.md#create-offer).
 
 ### Capping event {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="The use of impressions as capping events is available for inbound channels only."
 
 The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTROL Capping event]** will be taken into account to increase the counter:
 
@@ -244,6 +239,11 @@ You can also specify if you want the capping to be applied accross all users or 
 
 ### Frequency capping {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Set the capping frequency"
+>abstract="You can choose to reset the offer capping counter on a daily, weekly or monthly basis. Note that after publishing the offer with frequency capping enabled, you will not be able to change the frequency that has been defined."
+
 The **[!UICONTROL Frequency]** section allows you to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
 
 ![](../assets/offer-capping-frequency.png)
@@ -256,7 +256,9 @@ For example, if you want the capping count to be reset every 2 weeks, select **[
 
 >[!CAUTION]
 >
->After saving your offer, you will not be able to change the time period (monthly, weekly or daily) you selected for the frequency.
+>After publishing your offer, you will not be able to change the time period (monthly, weekly or daily) you selected for the frequency.
+>
+>You can still edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled.
 
 ### Capping and placements {#placements}
 
