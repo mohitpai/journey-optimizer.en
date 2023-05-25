@@ -90,7 +90,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -138,14 +138,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ### Improvements {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Audiences**
@@ -163,9 +155,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
    * Brazilian Portuguese: público-alvo
    * Spanish: público destinatario
 
-    The changes will be rolled out gradually with the next UI and documentation releases.
-
-<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
+* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **SMS channel**
 
