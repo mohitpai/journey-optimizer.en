@@ -13,8 +13,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * All new features and improvements coming with [!DNL Journey Optimizer] May '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * A new page has been added to describe how to set up the subdomain that will be used to publish content coming from the Adobe Experience Manager Assets Essentials in your web experiences. [Read more](../web/web-delegated-subdomains.md)
-* A new subsection has been added to explain how to add personalized tracking parameters to URLs in the Email Designer. [Learn more](../email/message-tracking.md#url-tracking)
-* A new section has been added to describe how to ensure that the choice of your customers who opt out from having their profile data used for personalization is honored. [Learn more](../privacy/opt-out.md#opt-out-personalization)
+* A new subsection has been added to explain how to add personalized tracking parameters to URLs in the Email Designer. [Read more](../email/message-tracking.md#url-tracking)
+* A new section has been added to describe how to ensure that the choice of your customers who opt out from having their profile data used for personalization is honored. [Read more](../privacy/opt-out.md#opt-out-personalization)
 
 ## April 2023 {#apr-2023}
 
