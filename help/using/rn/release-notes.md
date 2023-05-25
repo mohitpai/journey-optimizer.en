@@ -166,7 +166,7 @@ Information below is subject to change without prior notice until the release av
    * Spanish: público destinatario
 
 
-* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **SMS channel**
 
