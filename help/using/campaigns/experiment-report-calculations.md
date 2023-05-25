@@ -5,24 +5,8 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: yes
-hidefromtoc: yes
-badge: label="Beta" type="Informative"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
 ---
-# Statistical calculations in Experimentation report {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with content experiment](get-started-experiment.md)
-* [Create a content experiment](content-experiment.md)
-* [Understand statistical calculations](experiment-calculations.md)
-* [Configure experimentation reports](reporting-configuration.md)
-* **[Statistical calculations in Experimentation report](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# Understand statistical calculations in Experimentation report {#experiment-report-calculations}
 
 This page documents the detailed statistical calculations used in the Experimentation report for Campaigns in Adobe Journey Optimizer. 
 

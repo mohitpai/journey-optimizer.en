@@ -8,10 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: content, experiment, multiple, audience, treatment
-hide: yes
-hidefromtoc: yes
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
 ---
 # Create a content experiment {#content-experiment}
 
@@ -20,23 +17,11 @@ badge: label="Beta" type="Informative"
 >title="Content experiment"
 >abstract="You can choose to vary the delivery content, subject, or sender in order to define multiple delivery treatments and determine the best combination for your audiences."
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with content experiment](get-started-experiment.md)
-* **[Create a content experiment](content-experiment.md)**
-* [Understand statistical calculations](experiment-calculations.md)
-* [Configure experimentation reports](reporting-configuration.md)
-* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-The Journey Optimizer Content Experiment enables you to define multiple delivery treatments in order to measure which one performs best for your target audience. You can choose to vary the delivery content, subject, or sender. The audience of interest is randomly allocated to each treatment to determine which one works best in terms of the specified metric.
-
 >[!NOTE]
 >
 >Before starting with Content Experiment, make sure that your reporting configuration is set for your custom datasets. Learn more in [this section](reporting-configuration.md).
+
+The Journey Optimizer Content Experiment enables you to define multiple delivery treatments in order to measure which one performs best for your target audience. You can choose to vary the delivery content, subject, or sender. The audience of interest is randomly allocated to each treatment to determine which one works best in terms of the specified metric.
 
 In the example below, the delivery target has been split into two groups, each representing 45% of the targeted population, and a holdout group of 10%, who will not receive the delivery.
 
@@ -66,6 +51,8 @@ The goal here is to see if recipients will interact with the email depending on 
 -->
 1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery and click **[!UICONTROL Create]**. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
+    In this exampe, we choose to send a campaign using emails.
+
     ![](assets/content_experiment_2.png)
 
 1. Set up the **[!UICONTROL Properties]** of your delivery:
@@ -84,7 +71,7 @@ The goal here is to see if recipients will interact with the email depending on 
 
 1. To execute your campaign on a specific date or on a recurring frequency, configure the **[!UICONTROL Schedule]** section. [Learn more](create-campaign.md)
 
-1. Click **[!UICONTROL Edit content]** to start personalizing your delivery. [Learn more](../email/content-from-scratch.md)
+1. Click **[!UICONTROL Edit content]** to start personalizing your delivery.
 
     ![](assets/content_experiment_17.png)
 
@@ -154,57 +141,4 @@ The goal here is to see if recipients will interact with the email depending on 
 
     ![](assets/content_experiment_14.png)
 
-After configuring your experimentation and campaign, you can follow the success of your delivery with the Campaign report.
-
-## Objectives report {#objectives-global}
-
->[!AVAILABILITY]
->
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
-![](assets/performance_report.gif)
-
-The **[!UICONTROL Objectives]** tab of your Campaign report allows you to better fine-tune your deliveries' reports by targeting one specific metric.
-
-The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](reporting-configuration.md).
-
-After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
-
-With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
-
-Note that each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
-
-## Experimentation report {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Success metric"
->abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
-
->[!AVAILABILITY]
->
->The Content experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
-![](assets/experimentation_report_3.png)
-
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is a best performer.
-
-Note that defining the best performer might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
-
-The **[!UICONTROL Experiment result]** widget details the performance of each variant. You can change your baseline by selecting one of the treatment from the **[!UICONTROL Baseline]** the drop-down. The best treatment will be represented with a star icon.
-
-The table presents the following metrics:
-
-* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
-
-*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
-
-*  **[!UICONTROL Count per profile]**: Total value of the Experiment objective metric divided by the number of profiles.
-
-*  **[!UICONTROL Confidence interval]**: Percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals).
-
-*  **[!UICONTROL Average lift]**: Percentage improvement in conversion rate of a given treatment over the baseline. [Learn more](../campaigns/experiment-calculations.md#understand-lift)
-
-*  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
-
-For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
+After configuring your experimentation and campaign, you can follow the success of your delivery with the Campaign report. [Learn more](../reports/campaign-global-report.md#experimentation-report)

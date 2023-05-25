@@ -8,28 +8,13 @@ topic: Content Management
 role: User
 level: Experienced
 keywords: content, experiment, statistical, calculation
-hide: yes
-hidefromtoc: yes
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-badge: label="Beta" type="Informative"
 ---
 # Understand statistical calculations {#experiment-calculations}
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with content experiment](get-started-experiment.md)
-* [Create a content experiment](content-experiment.md)
-* **[Understand statistical calculations](experiment-calculations.md)**
-* [Configure experimentation reports](reporting-configuration.md)
-* [Statistical calculations in Experimentation report](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
 This article describes the statistical calculations used when you run Experiments in Adobe Journey Optimizer. 
 
-Experimentation uses advanced statistical methods to calculate **Confidence sequences** and **Confidence**, which allow you to run your experiments for as long as needed, and to monitor your results continuously.
+Experimentation uses [advanced statistical methods](../campaigns/assets/confidence_sequence_technical_details.pdf) to calculate **Confidence sequences** and **Confidence**, which allow you to run your experiments for as long as needed, and to monitor your results continuously.
 
 This article describes how the Experimentation works, and provides an intuitive introduction to Adobe's **Any Time Valid Confidence Sequences**. 
 
@@ -37,12 +22,23 @@ For expert users, the technical details and references are detailed in [this pag
 
 ## Statistical Testing and Controlling Errors {#statistical-testing}
 
+When you run an experiment you are trying to determine if there is a difference between two populations and the likelihood that difference is due to chance. 
+
+Generally there are two hypothesis:
+
+* the **Null Hypothesis** meaning that there is no effect to the treatment.
+* the **Alternative Hypothesis** meaning there is an effect to the treatment. 
+
+In statistical significance, the goal is to try assessing the strength of the evidence to reject the null hypothesis. One important point to note is that statistical significance is used to judge how likely the treatments are to be different, not how likely they are to be successful. This is why statistical significance is used in combination with **Lift**. 
+
+Effective experimentation requires to take into account different types of errors that could cause incorrect inferences.
+
 ![](assets/technote_1.png)
 
-As illustrated in the table above, many statistical inferencing methodologies are designed to control two types of errors:
+The table above illustrates the different types of errors:
 
-* **False Positives (Type-I errors)**: is an incorrect rejection of the null hypothesis, when in fact it is true. In the context of online Experimentations, this means that we falsely conclude that the outcome metric is different between each treatment, though it was the same.
-</br>Before we run the experiment, we typically pick a threshold `\alpha`. After the experiment has run, the `p-value` is computed, and we reject the `null if p < \alpha`. A commonly used threshold is `\alpha = 0.05`, which means that in the long run, we expect 5 out of every 100 experiments to be false positives.
+* **False Positives (Type-I errors)**: are an incorrect rejection of the null hypothesis, when in fact it is true. In the context of online Experiments, this means that we falsely conclude that the outcome metric is different between each treatment, though it was the same.
+</br>Before we run the experiment, we typically pick a threshold `\alpha`. After the experiment has run, the `p-value` is computed, and we reject the `null if p < \alpha`.Choosing an `/alpha` is based on the consequences of getting the wrong answer for example in a clinical trial where someone's life could be affected you might decide to have an `\alpha = 0.005`. A commonly used threshold in online experimentation is `\alpha = 0.05`, which means that in the long run, we expect 5 out of every 100 experiments to be false positives.
 
 * **False Negatives (Type-II Errors)**: means that we fail to reject the null hypothesis though it is false. For Experimentations, this means that we do not reject the null hypothesis, when in fact it is different. To control this type of error, we generally need to have enough users in our experiment to guarantee a certain Power, defined as `1 - \beta`(i.e. one minus the probability of a type-II error).
 
@@ -64,7 +60,7 @@ The theoretical foundations of **Confidence Sequences** come from the study of s
 
 >[!NOTE]
 >
->Confidence sequences can be interpreted as safe sequential analogs of confidence intervals.You can look at and interpret data in your Experiments any time you want, and safely stop, or continue experiments. The corresponding Any Time Valid Confidence, or `p-value`, is also safe to interpret.
+>Confidence sequences can be interpreted as safe sequential analogs of confidence intervals. With confidence intervals you can only interpret the experiment once you have reached the predetermined sample size. However, with confidence sequences you can look at and interpret data in your Experiments any time you want, and safely stop, or continue experiments. The corresponding Any Time Valid Confidence, or `p-value`, is also safe to interpret at anytime.
 
 It is important to note that since confidence sequences are "any time valid", they will be more conservative than a fixed horizon methodology used at the same sample size. The confidence sequence's bounds are generally wider than a confidence interval calculation, while the any time valid confidence will be smaller than a fixed horizon confidence calculation. The benefit of this conservatism is that you can safely interpret your results at all times.
 
