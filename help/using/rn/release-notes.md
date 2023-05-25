@@ -91,7 +91,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -142,14 +142,14 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 **Audiences**
 
-* In preparation for the generally availability of the Audience Portal feature, Adobe Experience Platform is updating the usage of “audiences” and “segment” within the system and the documentation.
+* In preparation for the generally availability of the Audience Portal feature, Adobe Experience Platform is updating the usage of "audiences" and "segment" within the system and the documentation.
 
     * Audience: A set of people, accounts, households, or other entities that share common characteristics and behaviors.
-    * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as “segment”.
+    * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as "segment".
 
-    As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you’ll see “Segments” replaced with “Audiences” to reflect this new path of audience creation and management.
+    As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
 
-    The translations of the term “audience” when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for some languages:
+    The translations of the term "audience" when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for some languages:
    
    * German: Zielgruppe
    * Brazilian Portuguese: público-alvo
