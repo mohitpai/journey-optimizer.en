@@ -159,7 +159,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 **SMS channel**
 
-* Infobip has been added as a vendor provider when configuring your SMS channel surfaces.
+* Infobip has been added as a vendor provider when configuring your SMS channel surfaces. [Read more](../sms/sms-configuration.md)
 * Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account.
 
 **In-app channel**
