@@ -16,7 +16,7 @@ In order to provide the capability to recipients to unsubscribe from receiving e
 
 To do this, you can:
 
-* Insert a **link to an external landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. [Learn how to add a nexternal opt-out link](#opt-out-external-lp)
+* Insert a **link to an external landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. [Learn how to add an external opt-out link](#opt-out-external-lp)
 
 * Add a **one-click opt-out link** into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process. [Learn how to add a one-click opt-out link](#one-click-opt-out)
 
@@ -24,7 +24,7 @@ Additionally, if the **[!UICONTROL List-Unsubscribe]** option is enabled at the 
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when creating the message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) level and when creating the message).
 
 ## External opt-out {#opt-out-external-lp}
 
