@@ -160,11 +160,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 **SMS channel**
 
 * Infobip has been added as a vendor provider when configuring your SMS channel surfaces. [Read more](../sms/sms-configuration.md)
-* Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account.
+* Twillio - API credential setup now includes the ability to add Messaging service SID for seamless integration with your Twilio account. [Read more](../sms/sms-configuration.md)
 
 **In-app channel**
 
-* Added new message trigger rules for Adobe Places Service.
+* Added new message trigger rules for Adobe Places Service. [Read more](../in-app/inapp-configuration.md)
 * Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
 
 **Journeys**
@@ -173,13 +173,13 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 **Campaigns**
 
-* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu.
+* It is now possible to duplicate a campaign from the inventory screen using the ellipsis action menu. [Read more](../campaigns/modify-stop-campaign.md#duplicate)
 * You can now delete draft modifications to a Live campaign.
-* The steps for activating a campaign have now been streamlined.
+* The steps for activating a campaign have now been streamlined. [Read more](../campaigns/modify-stop-campaign.md)
 
 **Decision Management**
 
-* You can now edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled. [Learn more](../offers/offer-library/add-constraints.md#frequency-capping)
+* You can now edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled. [Read more](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalization**
 
