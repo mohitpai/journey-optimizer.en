@@ -93,7 +93,7 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
 
     >[!CAUTION]
     >
-    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, you will not be able to leverage it in an offer.
 
 When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
@@ -214,7 +214,7 @@ The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTRO
 >
 >For all capping events except decision event, the decision management feedback may not be automatically collected, which could result in the capping counter not being correctly incremented. [Learn more](../data-collection/data-collection.md)
 >
->To make sure each capping event is tracked and accouned for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. [Learn more](../data-collection/schema-requirement.md)
+>To make sure each capping event is tracked and accounted for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. [Learn more](../data-collection/schema-requirement.md)
 
 ### Capping count {#capping-count}
 

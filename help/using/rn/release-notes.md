@@ -16,11 +16,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## May 2023 early release notes {#may-rn-2023}
+## May 2023 release notes {#may-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: May 25, 2023
+**Release date**: May 25, 2023-->
 
 ### New capabilities{#may-2023-features}
 
@@ -91,7 +91,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -138,33 +138,22 @@ Information below is subject to change without prior notice until the release av
 
 ### Improvements {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Audiences**
 
-* In preparation for the generally availability of the Audience Portal feature, Adobe Experience Platform is updating the usage of “audiences” and “segment” within the system and the documentation.
+* In preparation for the generally availability of the Audience Portal feature, Adobe Experience Platform is updating the usage of "audiences" and "segment" within the system and the documentation.
 
     * Audience: A set of people, accounts, households, or other entities that share common characteristics and behaviors.
-    * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as “segment”.
+    * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as "segment".
 
-    As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you’ll see “Segments” replaced with “Audiences” to reflect this new path of audience creation and management.
+    As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
 
-    The changes will be rolled out gradually with the next UI and documentation releases.
-
-    The translations of the term “audience” when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for the following languages:
+    The translations of the term "audience" when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for some languages:
    
    * German: Zielgruppe
    * Brazilian Portuguese: público-alvo
    * Spanish: público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -190,7 +179,7 @@ Information below is subject to change without prior notice until the release av
 
 **Decision Management**
 
-* You can now edit the frequency capping if the offer has the Draft status and was never published before.
+* You can now edit the frequency capping if the offer has the **[!UICONTROL Draft]** status and was never published before with frequency capping enabled. [Learn more](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalization**
 

@@ -9,12 +9,9 @@ keywords: in-app, message, creation, start
 hide: yes
 hidefromtoc: yes
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+badge: label="Beta" type="Informative"
 ---
 # Create an In-app message in a Journey {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 

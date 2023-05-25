@@ -12,6 +12,10 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}
 
+>[!CAUTION]
+>
+>To be able to test and publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+
 ## Access landing pages {#access-landing-pages}
 
 To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
@@ -201,6 +205,8 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
+>To be able to test landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+>
 >You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../segment/creating-test-profiles.md).
 
 1. From the landing page interface, click the **[!UICONTROL Simulate content]** button to access the test profile selection.
@@ -267,6 +273,10 @@ Two types of alerts can happen:
 -->
 
 ## Publish the landing page {#publish-landing-page}
+
+>[!CAUTION]
+>
+>To be able to publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 
 Once your landing page is ready, you can publish it to make it available for use in a message.
 

@@ -63,7 +63,7 @@ To create a new dataset, start by selecting **Create dataset** in the Datasets d
 
 You can:
 
-* Create dataset from schema. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* Create dataset from schema. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
 * Create dataset from CSV file. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
 Watch this video to learn how to create a dataset, map it to a schema, add data to it, and confirm that the data has been ingested.

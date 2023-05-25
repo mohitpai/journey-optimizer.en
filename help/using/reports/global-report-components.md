@@ -199,11 +199,11 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
   <tr> 
    <td>Email Opens<br/> </td> 
-   <td>.<br/> </td> 
+   <td>Number of times the email was opened.<br/> </td> 
 </tr>
   <tr> 
    <td>Email Unsubscribes<br/> </td> 
-   <td><br/> </td> 
+   <td>Number of clicks on the unsubscription link.<br/> </td> 
 </tr>
   <tr> 
    <td>First app launches<br/> </td> 
@@ -219,11 +219,11 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who opened the email.<br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who clicked on the unsubscription link.<br/> </td>
 </tr>
   <tr> 
    <td>Unique installs<br/> </td> 

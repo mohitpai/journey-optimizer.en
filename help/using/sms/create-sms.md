@@ -50,13 +50,15 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
     ![](assets/sms_create_4.png)
 
-1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track clicks on links in your SMS message.
-
 1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
 
 1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
 
     ![](assets/sms_create_5.png)
+
+1. Click **[!UICONTROL Create experiment]** to start configuring your content experiment and create treatments to measure their performance and identify the best option for your target audience. [Learn more](../campaigns/content-experiment.md)
+
+1. In the **[!UICONTROL Actions tracking]** section, specify if you want to track clicks on links in your SMS message.
 
 1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
 
