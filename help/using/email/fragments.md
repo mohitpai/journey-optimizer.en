@@ -58,12 +58,12 @@ From the **[!UICONTROL More actions]** icon next to each fragment, you can:
 To edit a fragment, follow the steps below.
 
 1. Click the desired item from the **[!UICONTROL Fragment]** list.
-
-2. From the fragment properties, you can [explore references](#explore-references), [manage its access](../administration/object-based-access.md) and update the fragment details.
+1. From the fragment properties, you can [explore references](#explore-references), [manage its access](../administration/object-based-access.md) and update the fragment details.
 
     ![](assets/fragment-edit-content.png)
 
 1. Select the corresponding button to edit content as you would do when creating a fragment from scratch. [Learn more](#create-from-scratch)
+
 
 >[!NOTE]
 >
