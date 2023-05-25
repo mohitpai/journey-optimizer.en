@@ -84,7 +84,7 @@ To configure the file routing, follow the steps below.
 
     >[!NOTE]
     >
-    >Currently only Amazon S3 and SFTP are supported in [!DNL Journey Optimizer].
+    >Currently Amazon S3, SFTP and Azure are supported in [!DNL Journey Optimizer].
 
 1. Fill in the details and credentials for your server, such as server address, access key, etc.
 
@@ -140,6 +140,10 @@ A direct mail surface must also include the file routing configuration which def
     <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Select the file format: **[!UICONTROL CSV]** or **[!UICONTROL Text delimited]**.
+
+1. If you select **[!UICONTROL Text delimited]**, define the column separator of your choice: tabulation, semicolon, pipe or ampersand.
+
+    ![](assets/surface-direct-mail-column-separator.png)
 
 1. Select the **[!UICONTROL File routing configuration]** amongst the ones that you created. This defines where the file will be exported for your direct mail provider to use.
 
