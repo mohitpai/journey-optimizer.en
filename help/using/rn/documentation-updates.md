@@ -15,6 +15,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A new page has been added to describe how to set up the subdomain that will be used to publish content coming from the Adobe Experience Manager Assets Essentials in your web experiences. [Read more](../web/web-delegated-subdomains.md)
 * A new subsection has been added to explain how to add personalized tracking parameters to URLs in the Email Designer. [Read more](../email/message-tracking.md#url-tracking)
 * A new section has been added to describe how to ensure that the choice of your customers who opt out from having their profile data used for personalization is honored. [Read more](../privacy/opt-out.md#opt-out-personalization)
+* A note has been added about using special international characters in URLs included in email contents. [Read more](../email/message-tracking.md#insert-links)
+* The permission needed to test and publish landing pages has been added. [Read more](../landing-pages/create-lp.md)
+* A note has been added about the Adobe Experience Platform endpoints needed to have your custom events accounted for in Management Decisioning frequency capping. [Read more](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## April 2023 {#apr-2023}
 
