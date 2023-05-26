@@ -167,9 +167,11 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 * Added new message trigger rules for Adobe Places Service. [Read more](../in-app/inapp-configuration.md)
 * Added new Adobe Experience Platform Assurance capabilities to capture device events to add as trigger rules.
 
+<!--
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campaigns**
 
