@@ -7,8 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
+
 ---
 
 # Work with fragments {#fragments}
