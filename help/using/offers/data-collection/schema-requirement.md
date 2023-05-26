@@ -22,7 +22,7 @@ Below are the schema requirements you need to implement into your JavaScript cod
 >
 >Decision events do not need to be sent in as Decision management will generate these events automatically and put them in the **[!UICONTROL ODE DecisionEvents]** dataset<!--to check--> that is auto-generated.
 
-## Track impressions
+## Track impressions {#track-impressions}
 
 Make sure the event type and source are as follows:
 
@@ -56,7 +56,7 @@ Make sure the event type and source are as follows:
 
 +++
 
-## Track clicks
+## Track clicks {#track-clicks}
 
 Make sure the event type and source are as follows:
 
@@ -90,7 +90,7 @@ Make sure the event type and source are as follows:
 
 +++
 
-## Track custom events
+## Track custom events {#track-custom-events}
 
 For custom events, the schema used in the dataset must also have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it, but there is no specific requirement on the experience event type that must be used to tag these events.
 
@@ -102,22 +102,3 @@ For custom events, the schema used in the dataset must also have the **[!UICONTR
 >* POST /ee/v2/collect
 >
 >If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
-
-<!--
-## Using a ranking strategy {#using-ranking}
-
-To use the ranking strategy you created above, follow the steps below:
-
-Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
-
-1. Create a decision.
-1. Add a placement.
-1. Add a collection.
-1. Choose to rank offers by AI ranking (select it from the drop-down list).
-1. Click Add ranking.
-1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
-1. Click Next to confirm.
-1. Save your decision.
-
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
--->
