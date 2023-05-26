@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 ---
-
 # Search, filter, organize {#search-filter-organize}
 
 ## Search{#unified-search}

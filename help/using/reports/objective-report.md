@@ -9,6 +9,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: b0ba68ec-0e1c-4dbe-86d8-3f3653bb7b5c
 ---
 # Campaign global report {#objective-report}
 
@@ -76,4 +77,3 @@ The **[!UICONTROL Confidence interval]** graph measures uncertainty around impro
 +++
 
 For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
-

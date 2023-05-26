@@ -5,6 +5,7 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
+exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
 ---
 # Understand statistical calculations in Experimentation report {#experiment-report-calculations}
 
