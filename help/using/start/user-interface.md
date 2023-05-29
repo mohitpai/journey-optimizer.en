@@ -122,6 +122,8 @@ User interface is currently available in the following languages:
 * Portuguese (Brazilian)
 * Japanese
 * Korean
+* Tradional Chinese
+* Simplified Chinese
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
