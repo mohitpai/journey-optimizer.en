@@ -15,8 +15,7 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 This functionality allows to prebuild multiple custom content blocks that can be used by non-technical marketing users to quickly assemble email contents in an improved design process.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [Learn how to manage, author and use fragments in this video](#video-fragments)
 
 >[!CAUTION]
 >
@@ -260,12 +259,9 @@ To break inheritance, follow the steps below:
 
 1. That fragment becomes a standalone element that is not linked anymore to the original fragment. Edit it as any other content component in your content. [Learn more](content-components.md)
 
-<!--
+## How-to video {#video-fragments}
 
-## How-to video {#video-templates}
+Learn how to manage, author, and use fragments in [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
