@@ -112,6 +112,8 @@ Use the **Help** icon to access help pages, contact support, and share feedback.
 
 In each page, use contextual help buttons to learn more about a feature, and browse to **[!DNL Adobe Experience League]** documentation.
 
+![](assets/do-not-localize/Context-help.gif)
+
 ## Language preferences {#language-pref}
 
 User interface is available in the following languages:
