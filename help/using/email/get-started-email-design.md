@@ -58,8 +58,12 @@ Once you have [added an email](create-email.md) to a journey or a campaign, you 
 
    ![](assets/email_designer_export.png)
 
-## How-to video {#video}
+## How-to videos {#video}
 
 Learn how to create email content with the message editor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Learn how to configure content experiments to A/B test and explore email content best drives your business objectives.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
