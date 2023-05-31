@@ -45,9 +45,9 @@ You can find below the full list of services and capabilities available in the l
         
 **[!UICONTROL DECISION MANAGEMENT]**
 
-* **[!UICONTROL Offers]** - Access your recent sources and datasets from this menu. Use this section to create new offers. [Learn more](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offers]** - Access your recent sources and datasets from this menu. Use this section to create offers. [Learn more](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - Create placements, rules and tags. [Learn more](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Components]** - Create placements, rules, and tags. [Learn more](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
@@ -65,11 +65,11 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - Use this menu to ingest data from a variety of sources - such as Adobe applications, cloud-based storages, databases, and more -, and structure, label and enhance incoming data. [Learn more](get-started-sources.md)
+* **[!UICONTROL Sources]** - Use this menu to ingest data from a variety of sources - such as Adobe applications, cloud-based storages, databases, and more. You can structure, label and enhance incoming data. [Learn more](get-started-sources.md)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions and leverage them into your journeys. [Learn more](../segment/about-segments.md)
+* **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions, and use them into your journeys. [Learn more](../segment/about-segments.md)
 
 * **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](../segment/get-started-profiles.md)
 
@@ -77,7 +77,7 @@ You can find below the full list of services and capabilities available in the l
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - Use this menu to configure [events](../event/about-events.md), [data sources](../datasource/about-data-sources.md) and [actions](../action/action.md) to use in your journeys.
+* **[!UICONTROL Journey Administration]** - Use this menu to configure [events](../event/about-events.md), [data sources](../datasource/about-data-sources.md), and [actions](../action/action.md) to use in your journeys.
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more](../administration/sandboxes.md)
 
@@ -85,7 +85,7 @@ You can find below the full list of services and capabilities available in the l
 
 ## In-product use cases {#in-product-uc}
 
-Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
+From [!DNL Adobe Journey Optimizer] home page, product use cases provide a quick inputs to create a customer journey.
 
 ![](assets/use-cases-home.png)
 
@@ -96,9 +96,9 @@ Available use cases are:
 * **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
 
-Click **[!UICONTROL View details]** to learn more about each use case.
+To learn more about each use case, click the **[!UICONTROL View details]** link.
 
-Click the **[!UICONTROL Begin]** button to start the use case.
+To run a use case, click the **[!UICONTROL Begin]** button.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
 
@@ -106,13 +106,17 @@ You can access executed use cases from the **[!UICONTROL View use case library]*
 
 Access Adobe Journey Optimizer key help pages from the lower section of the home page.
 
-Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+Use the **Help** icon to access help pages, contact support, and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/ajo-help.png)
 
+In each page, use contextual help buttons to learn more about a feature, and browse to **[!DNL Adobe Experience League]** documentation.
+
+![](assets/do-not-localize/Context-help.gif)
+
 ## Language preferences {#language-pref}
 
-User interface is currently available in the following languages:
+User interface is available in the following languages:
 
 * English
 * French
@@ -122,6 +126,8 @@ User interface is currently available in the following languages:
 * Portuguese (Brazilian)
 * Japanese
 * Korean
+* Traditional Chinese
+* Simplified Chinese
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
