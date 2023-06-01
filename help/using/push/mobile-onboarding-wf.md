@@ -7,8 +7,6 @@ topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 ---
