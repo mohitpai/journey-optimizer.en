@@ -46,6 +46,8 @@ badge: label="Beta" type="Informative"
     * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
     * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
 
+1. Select the day of the week and the specific time when you want your In-app message to be triggered and click **[!UICONTROL Save]**.
+
 1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
 
 1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
@@ -64,7 +66,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * **[!UICONTROL Reaction]** activities can not be used to react to an In-app open or click.
 
-* An activation delay happens between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message. This delay can range from 15 minutes to 1 hour.
+* An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
 
 **Related topics:**
 
