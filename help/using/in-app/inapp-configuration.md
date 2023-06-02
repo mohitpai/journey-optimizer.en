@@ -48,7 +48,7 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
     * Adobe Journey Optimizer
     * AEP Assurance
     * Consent
-    * Identify
+    * Identity
     * Mobile Core
     * Profile
 
