@@ -42,9 +42,9 @@ badge: label="Beta" type="Informative"
 
 1. Choose the frequency your trigger when your In-app message is active:
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+    * **[!UICONTROL Every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
     * **[!UICONTROL X number of times]**: Only show the message a specific number of times, determined by the value set in the **[!UICONTROL Times to display]** field.
 
 1. Select the day of the week and the specific time when you want your In-app message to be triggered and click **[!UICONTROL Save]**.
