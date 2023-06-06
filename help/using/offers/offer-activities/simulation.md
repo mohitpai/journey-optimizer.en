@@ -12,7 +12,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="Simulate offer decisions"
->abstract="Simulation allows you to simulate which offers will be delivered to a test profile for a given placement. This enables you to test and refine various versions of your offers with no impact on the targeted recipients.
+>abstract="Simulation allows you to simulate which offers will be delivered to a test profile for a given placement. This enables you to test and refine various versions of your offers with no impact on the targeted recipients."
 
 ## About simulation {#about-simulation}
 
