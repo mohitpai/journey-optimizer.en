@@ -300,7 +300,7 @@ The `getUrlHost` function is used to retrieve the hostname of a URL.
 **Example**
 
 ```sql
-{%= getUrlHost("http://www.myurl.com/contact") %}
+{%= getUrlHost("https://www.myurl.com/contact") %}
 ```
 
 Returns "www.myurl.com"
@@ -319,7 +319,7 @@ The `getUrlPath` function is used to retrieve the path after the domain name of 
 **Example**
 
 ```sql
-{%= getUrlPath("http://www.myurl.com/contact.html") %}
+{%= getUrlPath("https://www.myurl.com/contact.html") %}
 ```
 
 Returns "/contact.html"
@@ -337,7 +337,7 @@ The `getUrlProtocol` function is used to retrieve the protocol of a URL.
 **Example**
 
 ```sql
-{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+{%= getUrlProtocol("https://www.myurl.com/contact.html") %}
 ```
 
 Returns "http"

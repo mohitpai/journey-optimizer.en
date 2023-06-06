@@ -177,7 +177,7 @@ Here is an example for the bearer authentication type:
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

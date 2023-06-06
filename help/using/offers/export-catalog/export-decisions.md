@@ -254,7 +254,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** endTime
 **Title:** Activity End Date and Time
-**Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on http://schema.org/Action.
+**Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on https://schema.org/Action.
 **Type:** string
 
 +++
@@ -281,7 +281,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** startTime
 **Title:** Activity Start Date and Time
-**Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on http://schema.org/Action.
+**Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on https://schema.org/Action.
 **Type:** string
 
 +++

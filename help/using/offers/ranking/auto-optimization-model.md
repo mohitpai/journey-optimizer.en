@@ -80,7 +80,7 @@ For Auto-optimization, as shown in the example above, we start with a prior dist
 
 For a deeper dive on Thompson sampling, read the following research papers:
 * [An Empirical Evaluation of Thompson Sampling](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Analysis of Thompson Sampling for the Multi-armed Bandit Problem](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Analysis of Thompson Sampling for the Multi-armed Bandit Problem](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Cold-start problem {#cold-start}
 

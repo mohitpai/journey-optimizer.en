@@ -111,7 +111,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             
         **Field:** format
         **Title:** Format
-        **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats).
+        **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](https://www.iana.org/assignments/media-types/) defining computer media formats).
         **Type:** string
         **Example:** "application/vnd.adobe.photoshop"
 

@@ -11,7 +11,7 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 
 You can modify or update decision rules in in your container by making a PATCH request to the [!DNL Offer Library] API.
 
-For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
+For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 

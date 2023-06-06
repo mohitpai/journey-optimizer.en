@@ -11,7 +11,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 
 You can modify or update a collection qualifier (previously known as "tag") in your container by making a PATCH request to the [!DNL Offer Library] API.
 
-For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
+For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
