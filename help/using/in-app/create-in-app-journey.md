@@ -69,6 +69,35 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
 
+## In-app report {#inapp-report}
+
+From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your journeys.
+
+Learn more about [Journey global report](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+
+* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
+
+The **[!UICONTROL Clicks by button]** graphs and table contain the available data for recipient behavior per button:
+
+* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
++++
+
 **Related topics:**
 
 * [Design In-app message](design-in-app.md)
