@@ -259,10 +259,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 * The journey canvas now displays the activity ID on message activities and end tags. This improves reporting and retargeting.
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
-* New guardrails have been added to journeys:
-    * The number of activities in a journey is now limited to 50. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
-    * The number of **live journeys** in one organization is now limited to 100 per sandbox. Journeys in test mode are not taken into account. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
-
+* New insight to number of nodes on canvas with safeguards for helping grow: keep journeys easy to read, QA and troubleshoot with a maximum number of nodes per journey at 50. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 * When adding an [Email](../email/create-email.md), [SMS](../sms/create-sms.md) or [Push](../push/create-push.md) action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel, in the current journey.
 * You can now define static or dynamic query parameters in your custom actions. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
 
