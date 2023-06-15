@@ -61,7 +61,7 @@ To create a composition workflow, follow these steps:
 
     >[!IMPORTANT]
     >
-    >You can publish up to 75 compositions in a given sandbox. If you have reached this threshold, you need to delete a composition to free up space and publish a new one.
+    >You can publish up to 10 compositions in a given sandbox. If you have reached this threshold, you need to delete a composition to free up space and publish a new one.
  
     If any error occurs during publishing, alerts will display with information on how to resolve the issue.
 
@@ -80,7 +80,6 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 
 * **[!UICONTROL Draft]**: the composition is in progress and has not been published.
 * **[!UICONTROL Published]**: the composition has been published, resulting audiences have been saved and are available for use.
-* **[!UICONTROL Archived]**: the composition has been archived.
 
 ![](assets/audiences-compositions.png)
 

@@ -32,7 +32,7 @@ What you'll find in this documentation:
 
 >[!AVAILABILITY]
 >
->Audience composition is currently only available as a private beta, and may be subject to frequent updates without notice. The beta is provisioned at the organization level, which means that it will impact all sandboxes within your organization.
+>Audience composition is only available to a limited group of customers at this time. Please contact your Adobe representative if you have any questions.
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 
@@ -43,6 +43,8 @@ Once done, the **resulting audiences** are saved backed into Adobe Experience Pl
 >[!IMPORTANT]
 >
 >Audiences resulting from composition workflows can be targeted into Journey Optimizer campaigns only. They are not available for use in journeys.
+>
+>Campaigns in Adobe Journey Optimizer are not yet integrated with the policy enforcement service. Therefore, any data usage labels you apply to your audience attributes will not be enforced in Journey Optimizer campaigns.
 
 Audience composition is accessible from Adobe Journey Optimizer **[!UICONTROL Segments]** menu:
 
