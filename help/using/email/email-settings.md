@@ -37,13 +37,9 @@ The email surface configuration gets picked up for sending communications follow
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **Marketing** or **Transactional**.
 
-* Choose **Marketing** for promotional email: these messages require user consent.
+* Choose **Marketing** for promotional email, such as weekly promotions for a retail store. These messages require user consent.
 
-* Choose **Transactional** for non-commercial email such as order confirmation, password reset notifications, or delivery information for example.
-
->[!CAUTION]
->
->**Transactional** emails can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+* Choose **Transactional** for non-commercial email, such as order confirmation, password reset notifications, or delivery information for example. These emails can be sent to profiles who **unsubscribed** from marketing communications. These messages can only be sent in specific contexts.
 
 When creating a message, you must choose a valid channel surface matching the category you selected for your email.
 
