@@ -16,7 +16,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-
+<!--
 ## June 2023 early release notes {#june-rn-2023}
 
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -57,7 +57,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
 
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
-
+--> 
 
 ## May 2023 release notes {#may-rn-2023}
 
