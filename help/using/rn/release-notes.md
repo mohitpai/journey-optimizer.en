@@ -16,11 +16,50 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
+
+## June 2023 early release notes {#june-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: June 21-22, 2023
+
+### New capabilities{#june-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
+<img src="assets/do-not-localize/api-triggered.gif"/>
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Improvements {#june-2023-improvements}
+
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
+
+**Journeys**
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+
+
 ## May 2023 release notes {#may-rn-2023}
-
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
-
-**Release date**: May 25, 2023-->
 
 ### New capabilities{#may-2023-features}
 
@@ -137,8 +176,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 
 ### Improvements {#may-2023-improvements}
-
-
 
 **Audiences**
 
