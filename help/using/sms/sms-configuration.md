@@ -15,7 +15,7 @@ Before sending SMS, configure your instance. You need to [integrate the provider
 
 ## Prerequisites{#sms-prerequisites}
 
-Adobe Journey Optimizer currently integrates with third-party providers such as Sinch and Twilio, who offer SMS services independent of Adobe Journey Optimizer.  
+Adobe Journey Optimizer currently integrates with third-party providers such as Sinch, Twilio and Infobip, who offer SMS services independent of Adobe Journey Optimizer.  
 
 Prior to SMS configuration, you must create an account with one of these SMS providers to receive the API Token and Service ID which will enable you to establish the connection between Adobe Journey Optimizer and the applicable SMS provider. 
 
