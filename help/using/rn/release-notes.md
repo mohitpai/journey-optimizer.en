@@ -23,7 +23,8 @@ Information below is subject to change without prior notice until the release av
 
 **Release date**: June 21-22, 2023
 
-### New capabilities{#june-2023-features}
+<!--
+### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>
