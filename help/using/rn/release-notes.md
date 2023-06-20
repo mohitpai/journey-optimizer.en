@@ -43,18 +43,18 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
-<!--**Audiences**
+**Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **Journeys**
 
 You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-
+-->
 
 ## May 2023 release notes {#may-rn-2023}
 
