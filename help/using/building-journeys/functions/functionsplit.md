@@ -35,7 +35,7 @@ Returns a listString.
 
 ## Example
 
-`split(["A_B_C"], "_")`
+`split("A_B_C", "_")`
 
 Returns `["A","B","C"]`
 
