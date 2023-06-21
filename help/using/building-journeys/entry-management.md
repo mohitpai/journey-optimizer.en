@@ -26,7 +26,7 @@ Unitary journeys (starting with an event or a segment qualification) include a g
 
 In addition:
 
-* If re-entrance is enabled, a profile can enter a journey several times, but cannot do it until he fully exited that previous instance of the journey.
+* If re-entrance is enabled, a profile can enter a journey several times, but cannot do it until they fully exited that previous instance of the journey.
 
 * If re-entrance is disabled, a profile cannot enter multiple times the same journey
 

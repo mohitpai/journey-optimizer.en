@@ -38,7 +38,7 @@ With consent management, two journey activities are analyzed:
 
 All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
 
-In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him, but he continues the journey. The profile does not go to the timeout and error path when using a condition.
+In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to them, but they continue the journey. The profile does not go to the timeout and error path when using a condition.
 
 Before refreshing policies in a custom action positioned in a journey, make sure your journey has no error. 
 

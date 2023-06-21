@@ -21,7 +21,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 
 Use the **Read Segment** activity to make all individuals of a segment enter the journey. Entrance into a journey can be executed either once, or on a regular basis.
 
-Let's take as an example the "Luma app opening and checkout" segment created in the [Build segments](../segment/about-segments.md) use case. With the Read Segment activity, you can make all individuals belonging to this segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
+Let's take as an example the "Luma app opening and checkout" segment created in the [Build segments use case](../segment/about-segments.md). With the **[!UICONTROL Read Segment]** activity, you can make all individuals belonging to a segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
 >[!NOTE]
 >
