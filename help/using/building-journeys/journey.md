@@ -41,7 +41,7 @@ Adobe Journey Optimizer includes an omnichannel orchestration canvas which allow
 
 Learn how to start and create your first journey in [this page](journey-gs.md).
 
-The omnichannel journey designer helps you build multi-step journeys with targeted audiences, updates based on real-time customer or business interactions, and omnichannel messages using an intuitive drag-and-drop interface.
+The omnichannel journey designer assists you in constructing multi-step journeys, specifically targeting audiences, and incorporating updates based on real-time customer or business interactions. It also enables you to create omnichannel messages through an intuitive drag-and-drop interface.
 
 ![](assets/journey38.png)
 
