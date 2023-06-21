@@ -51,7 +51,7 @@ The goal here is to see if recipients will interact with the email depending on 
 -->
 1. Select your channel then the **[!UICONTROL Surface]** you want to use for this delivery and click **[!UICONTROL Create]**. For more on this, refer to the [Channel surfaces](../configuration/channel-surfaces.md) page.
 
-    In this exampe, we choose to send a campaign using emails.
+    In this example, we choose to send a campaign using emails.
 
     ![](assets/content_experiment_2.png)
 
