@@ -81,9 +81,9 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](assets/read-segment-schedule-list.png)
 
-    **Incremental read** option: when a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. This option allows you to target, after the first occurence, only the individuals who entered the segment since the last execution of the journey. 
+    When a journey with a recurring **Read segment** executes for the first time, all the profiles in the segment enter the journey. Use the **Incremental read** option to target, after the first occurence, only the individuals who entered the segment since the last execution of the journey. 
 
-    **Force reentrance on recurrence**: this option allows you to make all profiles still present in the journey automatically exit it on the next execution. For example, if you have a 2 days wait in a daily recurrent journey, by activating this option, profiles will always be moved on the next journey execution (so the day after), whether they are in the next run audience or not. If the lifespan of your profiles in this journey may be longer than the recurrence frequency, do not activate this option to make sure that profiles can finish their journey.
+    Enabling the **Force reentrance on recurrence** option allows you to automatically remove all profiles that are currently in the journey during the next execution. For instance, if there is a 2-day wait in a daily recurring journey, activating this option will consistently move profiles to the subsequent journey execution (the following day), regardless of whether they are part of the next run audience. However, if the duration of profiles in this journey can exceed the recurrence frequency, it is advisable not to enable this option to ensure that profiles can complete their journey.
 
 <!--
 
