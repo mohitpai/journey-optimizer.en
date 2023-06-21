@@ -110,13 +110,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Test and publish the journey {#testing-publishing}
 
-The **[!UICONTROL Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
+The **[!UICONTROL Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 random test profiles selected among the profiles qualified for the segment.
 
-To do this, activate the test mode, then select the desired option from the left pane.
+To do this, activate the **test mode**. Then, select the desired option from the left pane.
 
 ![](assets/read-segment-test-mode.png)
 
-You can then configure and run the test mode as usual. [Learn how to test a journey](testing-the-journey.md).
+You can then configure and run the **test mode** as usual. [Learn how to test a journey](testing-the-journey.md).
 
 Once the test is running, the **[!UICONTROL Show logs]** button allows you to see the test results according to the selected test option:
 
