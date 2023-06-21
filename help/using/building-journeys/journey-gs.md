@@ -147,7 +147,7 @@ You can also add an **End date**. This allows profiles to exit automatically whe
 
 ### Timeout and error in journey activities {#timeout_and_error}
 
-When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action. 
+When editing an action or condition activity, you have the option to specify an alternative path in the event of an error or timeout. If the processing of the activity, which involves querying a third-party system, surpasses the duration specified in the journey's properties for timeout and error handling (**[!UICONTROL Timeout and  error]** field), the second path will be selected to execute a fallback action if necessary.
 
 Authorized values are between 1 and 30 seconds.
 
