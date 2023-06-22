@@ -19,6 +19,10 @@ To do this, you first need to create an API-triggered campaign in Journey Optimi
 
 Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
+>[!NOTE]
+>
+>As of now, Rapid delivery is not not supported for push notification API-triggered campaigns.
+
 ## Create an API-triggered campaign {#create}
 
 ### Configure and activate the campaign {#create-activate}
@@ -32,10 +36,6 @@ To create an API-triggered campaign, follow the steps below. Detailed informatio
 1. Choose one of the supported channels and associated channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
     ![](assets/api-triggered-type.png)
-
-    >[!NOTE]
-    >
-    >As of now, Rapid delivery is not not supported for push notification API-triggered campaigns.
     
 1. Specify a title and a description for the campaign, then click **[!UICONTROL Edit content]** to configure the message to send.
 
