@@ -13,7 +13,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 
 ## About API-triggered campaigns {#about}
 
-With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various operational and transactional messaging needs like password resets, OTP token, among others. 
+With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various marketing and transactional messaging needs like password resets, OTP token, among others. 
 
 To do this, you first need to create an API-triggered campaign in Journey Optimizer, and then launch its execution through an API call.
 
@@ -23,15 +23,19 @@ Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
 ### Configure and activate the campaign {#create-activate}
 
-The process to create API-triggered campaigns remains the same as scheduled campaigns, except for the audience selection which is performed in the API payload. Detailed information on how to create a campaign is available in [this section](create-campaign.md).
-
-To create an API-triggered campaign, follow these steps:
+To create an API-triggered campaign, follow the steps below. Detailed information on how to create a campaign is available in [this section](create-campaign.md).
 
 1. Create a new campaign with the **[!UICONTROL API-triggered]** type.
 
-1. Choose the channel and the channel surface to use to send your message, then click **[!UICONTROL Create]**.
+1. Choose the **[!UICONTROL Marketing]** or **[!UICONTROL Transactional]** category depending on the type of communication that you want to send.
+
+1. Choose one of the supported channels and associated channel surface to use to send your message, then click **[!UICONTROL Create]**.
 
     ![](assets/api-triggered-type.png)
+
+    >[!NOTE]
+    >
+    >As of now, Rapid delivery is not not supported for push notification API-triggered campaigns.
     
 1. Specify a title and a description for the campaign, then click **[!UICONTROL Edit content]** to configure the message to send.
 
@@ -41,9 +45,11 @@ To create an API-triggered campaign, follow these steps:
     >
     >Using a large number or heavy contextual data in your content may impact performances.
 
-1. In the **[!UICONTROL Audience]** section, specify the namespace to use to identify the individuals from the segment.
+1. In the **[!UICONTROL Audience]** section, specify the namespace to use to identify the individuals.
 
-    The **[!UICONTROL Create new profiles]** option allows you to automatically create profiles that do not exist in the database. [Learn more on profile creation at campaign execution](#profile-creation)
+    * If you are creating a **transactional**-type campaign, the targeted profiles need to be defined in the API call. The **[!UICONTROL Create new profiles]** option allows you to automatically create profiles that do not exist in the database. [Learn more on profile creation at campaign execution](#profile-creation)
+
+    * For **marketing**-type campaigns, click the **[!UICONTROL Audience]** button to choose the audience to target.
 
 1. Configure the campaign's start and end dates. 
 
@@ -62,6 +68,8 @@ Once your campaign has been activated, you need to retrieve the generated sample
     ![](assets/api-triggered-curl.png)
 
 1. Use this cURL request into the APIs to build your payload and trigger the campaign. For more information, refer to the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+    API call examples are also available in [this page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
     >[!NOTE]
     >
@@ -86,7 +94,7 @@ The `{{context.<contextualAttribute>}}` syntax is mapped to a String datatype on
 
 >[!IMPORTANT]
 >
->The contextual attributes passed into the request cannot exceed 50kb.
+>The contextual attributes passed into the request cannot exceed 50kb and are always consider of type string.
 >
 >The `context.system` syntax is restricted to Adobe internal usage only, and should not be used to pass contextual attributes.
 
@@ -100,9 +108,9 @@ When a profile does not exist in the database, Journey Optimizer allows you to a
 
 >[!IMPORTANT]
 >
->This feature is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
+>In case of transactional messages, this feature is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
 
-To activate profile creation at campaign execution, toggle the **[!UICONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. 
+To activate profile creation at campaign execution, toggle the **[!UICONTROL Create new profiles]** option on in the **[!UICONTROL Audience]** section. If this option is disabled, unknown profiles will be rejected for any sending and the API call will fail.
 
 ![](assets/api-triggered-create-profile.png)
 

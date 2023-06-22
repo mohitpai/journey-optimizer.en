@@ -22,7 +22,7 @@ Use Journey Optimizer campaigns to deliver one-time content to a specific segmen
 You can create two types of campaigns:
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, cart abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.
+* **API-triggered campaigns** allow either for marketing communications to reach out to an audience at the right time, or for transactional/operational messages to an individual like a password reset, where the need may involve personalization by not just using profile attribute but also the real-time context data in the trigger which is a REST API payload. 
 
 The main steps to create a campaign are as follows:
 
