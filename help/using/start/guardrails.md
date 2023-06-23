@@ -46,7 +46,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received.
 * The built-in **Reaction** event allows you to react to out-of-the-box actions. Learn more in [this page](../building-journeys/reaction-events.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * You cannot place two actions in parallel, you must add them one after the other.
-* Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until they fully exited that previous instance of the journey. [Read more](../building-journeys/end-journey.md)
+* A profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](../building-journeys/end-journey.md)
 
 ### Journey versions {#journey-versions-g}
 

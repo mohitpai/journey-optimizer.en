@@ -53,7 +53,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 ![](assets/journeys-browse.png)  
 
-In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**.
+In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]** or **[!UICONTROL Business event]**.
 
 You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. Additionally, the **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
 
