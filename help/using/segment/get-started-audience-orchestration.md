@@ -36,7 +36,7 @@ What you'll find in this documentation:
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 
-Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged to target customers in [Journey Optimizer campaigns](../campaigns/get-started-with-campaigns.md), or in Adobe [Real-Time Customer Data Platform destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
+Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged to target customers in [Journey Optimizer campaigns](../campaigns/get-started-with-campaigns.md), or in Adobe [Real-Time Customer Data Platform destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
