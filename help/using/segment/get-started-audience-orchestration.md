@@ -36,13 +36,13 @@ What you'll find in this documentation:
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 
-Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be **leveraged in campaigns** to target customers. [Learn how to work with campaigns](../campaigns/get-started-with-campaigns.md)
+Once done, the **resulting audiences** are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged to target customers in [Journey Optimizer campaigns](../campaigns/get-started-with-campaigns.md), or in Adobe [Real-Time Customer Data Platform destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Audiences resulting from composition workflows can be targeted into Journey Optimizer campaigns only. They are not available for use in journeys.
+>As of now, audiences resulting from composition workflows are not available for use in journeys.
 >
 >Campaigns in Adobe Journey Optimizer are not yet integrated with the policy enforcement service. Therefore, any data usage labels you apply to your audience attributes will not be enforced in Journey Optimizer campaigns.
 
