@@ -28,7 +28,7 @@ Object level access control (OLAC) lets you define authorizations to manage data
 * Fragment
 * Landing page
 * Offers
-* Offer collection
+* Static offer collection
 * Offer decisioning
 * Template
 
