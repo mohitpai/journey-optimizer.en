@@ -25,12 +25,12 @@ Object level access control (OLAC) lets you define authorizations to manage data
 
 * Journey
 * Campaign
+* Template
 * Fragment
 * Landing page
-* Offers
+* Offer
 * Static offer collection
-* Offer decisioning
-* Template
+* Offer decision
 
 Its purpose is to protect sensitive digital assets from unauthorized users allowing further protection of personal data. 
 
