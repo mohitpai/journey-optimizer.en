@@ -39,6 +39,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 ### General journey guardrails {#journeys-guardrails-journeys}
 
 * The number of activities in a journey is limited to 50. The number of activities is displayed on the upper left section of the journey canvas. This will help in readability, QA and troubleshooting. 
+* As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 100 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 100 live journeys at a time, please create a ticket for customer care and we will help you reach your goals. 
 
 ### General actions {#general-actions-g}
 

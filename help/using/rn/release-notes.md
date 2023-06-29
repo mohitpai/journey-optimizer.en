@@ -295,9 +295,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * The journey canvas now displays the activity ID on message activities and end tags. This improves reporting and retargeting.
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
-* New insight to number of nodes on canvas with safeguards for helping grow: keep journeys easy to read, QA and troubleshoot with a maximum number of nodes per journey at 50. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 * When adding an [Email](../email/create-email.md), [SMS](../sms/create-sms.md) or [Push](../push/create-push.md) action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel, in the current journey.
 * You can now define static or dynamic query parameters in your custom actions. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
+* New guardrails to manage growth of experiences delivered by Journeys:
+    * We recommend that you keep the number of nodes limited to 50 or less to keep your journeys performant, easy to read, QA and troubleshoot. The number of activities will be displayed on the upper left section of the journey canvas. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
+    * As you develop and launch journeys, we will notify you as you approach the milestone of 100 live journeys at one time. Should your plans require more than 100 journeys at a time, please create a ticket for support after seeing the notification and we will help you. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Reporting**
 
@@ -371,7 +373,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
 * The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. [Learn more](../configuration/external-systems.md#timeout)
 * The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account. [Learn more](../building-journeys/testing-the-journey.md)
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events sent through an external tool are not taken into account. [Learn more](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
