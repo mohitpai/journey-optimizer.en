@@ -482,3 +482,4 @@ solution: Journey Optimizer
     + [Manage opt-out](using/privacy/opt-out.md)
     + [Work with consent policies](using/action/consent.md)
   + [Data Governance](using/action/action-privacy.md)
+  + [Set up and manage Customer Managed Keys](using/privacy/cmk.md)
