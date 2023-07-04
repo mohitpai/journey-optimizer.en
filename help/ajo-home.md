@@ -26,12 +26,12 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <div>
       <a href="using/rn/release-notes.md">Release notes</a>
     </div>
-    <p>New capabilities, latest improvements and fixes</p>
+    <p>New capabilities, latest improvements, and fixes</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">Quick start guide</a>
     </div>
-    <p>Learn how to start as an Administrator, Data engineer or Journey practicionner</p>
+    <p>Learn how to start as an Administrator, Data engineer, or Journey practicionner</p>
     <p>
     <p>
     <div>
@@ -102,7 +102,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <p>
     <div>
     <p>Sign up for the <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer quarterly newsletter</a>.</p>
-    <p>Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. In each newsletter you will find:</p>
+    <p>Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. In each newsletter, you can find:</p>
     <li>Product news and updates including recently released capabilities</li>
     <li>Invitations to events and webinars and recordings for recent webinars</li>
     <li>Top discussions in the Adobe Journey Optimizer Experience League Community </li>
@@ -190,10 +190,10 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="using/privacy/requests.md">Requests</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Audit</a>
+      <a href="using/privacy/audit-logs.md"target="_blank">Audit</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Data hygiene</a>
+      <a href="using/privacy/data-hygiene.md"target="_blank">Data hygiene</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
