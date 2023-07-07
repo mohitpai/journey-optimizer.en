@@ -125,7 +125,7 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Enrich activity"
->abstract="Use the Enrich activity  to exclude profiles belonging to an existing audience. The Exclude using attribute type allows you to exclude profiles based on a specific attribute."
+>abstract="Use the Enrich activity to enrich your audience with additional attributes coming from Adobe Experience Platform datasets. For example, you can add information related to the product purchased like its name, price, or manufacturer ID and leverage these information to personalize the deliveries sent to the audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
