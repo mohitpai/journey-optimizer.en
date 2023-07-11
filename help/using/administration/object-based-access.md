@@ -17,10 +17,6 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 >title="Object level access control"
 >abstract="If you apply any labels that you don't have access to, then your access to this object will be revoked."
 
->[!IMPORTANT]
->
->The use of Object level access control is currently restricted to selected customers, and will be deployed to all environments in a future release.
-
 Object level access control (OLAC) lets you define authorizations to manage data access to a selection of objects:
 
 * Journey
