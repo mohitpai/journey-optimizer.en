@@ -199,7 +199,7 @@ To define the subpage settings, follow the steps below.
 >id="ac_preview_lp_profiles"
 >title="Preview and test your landing page"
 >abstract="Once you defined your landing page settings and content, you can use test profiles to preview it."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Select test profiles"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Select test profiles"
 
 Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, using test profile data.
 

@@ -7,8 +7,6 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 ---
@@ -18,21 +16,6 @@ badge: label="Beta" type="Informative"
 >id="ajo_ao_create_composition"
 >title="Create a composition"
 >abstract="Create a composition workflow to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences."
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* **[Get started with audience composition](get-started-audience-orchestration.md)**
-* [Create your first composition workflow](create-compositions.md)
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Audience composition is only available to a limited group of customers at this time. Please contact your Adobe representative if you have any questions.
 
 Audience composition allows you to create **composition workflows**, where you can combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences.
 

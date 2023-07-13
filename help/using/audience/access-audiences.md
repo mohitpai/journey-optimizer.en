@@ -7,23 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Create your first composition workflow](create-compositions.md)
-* [Work with the composition canvas](composition-canvas.md)
-* **[Access and manage audiences](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 Audiences resulting from audience composition are accessible from the **[!UICONTROL Browse]** tab in the **[!UICONTROL Audiences]** menu.
 
@@ -32,8 +19,6 @@ This tab lists all audiences stored into Adobe Experience Platform. Audiences cr
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->For this beta version, several components and/or metadata that were initially displayed in the audiences inventory do not appear in this tab (e.g., breakdown, evaluation method, etc.).
 >
 >For more information on other types of audiences available in Adobe Experience Platform, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

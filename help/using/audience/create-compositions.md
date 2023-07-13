@@ -7,23 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* **[Create your first composition workflow](create-compositions.md)**
-* [Work with the composition canvas](composition-canvas.md)
-* [Access and manage audiences](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 ## Create a composition workflow {#create}
 
