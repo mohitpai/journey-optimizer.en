@@ -21,10 +21,6 @@ Make sure that the fields used in your queries have associated values in the cor
 * instanceId: instanceID is the same for all the step events associated to a profile within a journey execution. If a profile reenters the journey, a different instanceId will be used. This new instanceId will be same for all the step events of the reentered instance (from start to end).
 * profileID: the profile’s identity corosponding to the journey namespace.
 
->[!NOTE]
->
->For troubleshooting purposes, we recommend using journeyVersionID instead of journeyVersionName when querying journeys.
-
 ## Basic use cases/common queries {#common-queries}
 
 **How many profiles entered a journey in a certain time frame**
@@ -423,11 +419,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-The query resturns, for the defined period, the number of profiles that entered the journey each day. If a profile entered via multiple identities, it will be counted twice. If re-entrance is enabled, profile count might be duplicated accross different days if it re-entered the journey on different day.
+The query returns, for the defined period, the number of profiles that entered the journey each day. If a profile entered via multiple identities, it will be counted twice. If re-entrance is enabled, profile count might be duplicated accross different days if it re-entered the journey on different day.
 
-## Queries related to the Read Segment {#read-segment-queries}
+## Queries related to the Read Audience {#read-segment-queries}
 
-**Time taken to finish a segment export job**
+**Time taken to finish an audience export job**
 
 _Data Lake query_
 
@@ -457,7 +453,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-The query returns the time difference, in minutes, between when time the segment export job was queued and when it finally ended.
+The query returns the time difference, in minutes, between when time the audience export job was queued and when it finally ended.
 
 **Number of profiles that got discarded by the journey because they were duplicates**
 
@@ -569,7 +565,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 The query returns all the profile Ids that were discarded by the journey due to some internal error.
 
-**Overview of the Read Segment for a given journey version**
+**Overview of the Read Audience for a given journey version**
 
 _Data Lake query_
 
@@ -598,7 +594,7 @@ It will return all service events related to the given journey version. We can f
 
 We can also detect issues such as:
 
-* errors in topic or export job creation (including timeouts on segment export API calls)
+* errors in topic or export job creation (including timeouts on audience export API calls)
 * export jobs which can be stuck (case when for a given journey version, we don't have any event regarding the export job termination)
 * worker issues, if we have received export job termination event but no worker processing termination one
 
@@ -607,7 +603,7 @@ IMPORTANT: if there is no event returned by this query, it may be due to one of 
 * the journey version has not reached the schedule
 * if the journey version is supposed to have trigger the export job by calling the orchestrator, something went wrong on the upstram flow: issue on journey deployment, business event or issue with scheduler.
 
-**Get Read Segment errors for a given journey version**
+**Get Read Audience errors for a given journey version**
 
 _Data Lake query_
 
@@ -722,7 +718,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Get aggregated metrics (segment export jobs and discards) on all export jobs**
+**Get aggregated metrics (audience export jobs and discards) on all export jobs**
 
 _Data Lake query_
 
@@ -785,9 +781,9 @@ This query is different than the previous one.
 
 It returns the overall metrics for a given journey version, regardless the jobs which can have run for it (in case of recurring journeys, business events triggered ones leveraging topic reuse).
 
-## Queries related to Segment Qualification {#segment-qualification-queries}
+## Queries related to Audience Qualification {#segment-qualification-queries}
 
-**Profile discarded because of a different segment realization than the one configured**
+**Profile discarded because of a different audience realization than the one configured**
 
 _Data Lake query_
 
@@ -809,9 +805,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-This query returns all the profile Ids that were discarded by the journey version due to wrong segment realization.
+This query returns all the profile Ids that were discarded by the journey version due to wrong audience realization.
 
-**Segment Qualification events discarded by any other reason for a specific profile**
+**Audience Qualification events discarded by any other reason for a specific profile**
 
 _Data Lake query_
 
@@ -835,7 +831,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-This query returns all events (external events / segment qualification events) that were discarded because of any other reason for a profile.
+This query returns all events (external events / audience qualification events) that were discarded because of any other reason for a profile.
 
 ## Event-based queries {#event-based-queries}
 

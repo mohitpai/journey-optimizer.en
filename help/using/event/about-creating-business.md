@@ -19,7 +19,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 
 Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. Read more on business events in [this section](../event/about-events.md). 
 
-Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.
+Read audience based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.
 
 Business events can be "a product is back in stock", "the stock price of a company reaches a certain value”, etc.
 
@@ -33,12 +33,12 @@ Business events can be "a product is back in stock", "the stock price of a compa
 * The event schema must contain a non-people based primary identity. The following fields must be selected when defining the event: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
-* Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
+* Only a read audience activity can be dropped after a business event. It is automatically added as the next step.
 * To allow multiple business event executions, activate the corresponding option in the **[!UICONTROL Execution]** section of the journey properties.
-* After a business event is triggered, there will be a delay to have the segment exported from 15 minutes to up to one hour.
+* After a business event is triggered, there will be a delay to have the audience exported from 15 minutes to up to one hour.
 * When testing a business event, you have to pass the event parameters and the identifier of the test profile that will enter the journey in test. Also, when testing a business event based journey, you can only trigger single profile entrance. See [this section](../building-journeys/testing-the-journey.md#test-business). In test mode, there is no "Code view" mode available.
 * What happens to individuals that are currently in the journey if a new business event arrives? It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. Their path is ended. As a result, marketers must pay attention to avoid building too long journeys if they expect frequent business events.
-* Business events cannot be used in conjunction with unitary events or segment qualification activities.
+* Business events cannot be used in conjunction with unitary events or audience qualification activities.
 
 ## Multiple business events {#multiple-business-events}
 
@@ -48,9 +48,9 @@ Here are a few important notes that apply when multiple business events are rece
 
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 
-**What are the guardrails to avoid over-loading materialized segments?**
+**What are the guardrails to avoid over-loading materialized audiences?**
 
-In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on audiences in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Get started with business events {#gs-business-events}
 

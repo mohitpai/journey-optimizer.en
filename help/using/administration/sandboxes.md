@@ -15,7 +15,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 ## Use sandboxes {#using-sandbox}
 
 [!DNL Journey Optimizer] allows you to partition your instance into separated virtual environments called sandboxes.
-Sandboxes are assigned through product profiles in the Admin console. [Learn how to assign sandboxes](permissions.md#create-product-profile).
+Sandboxes are assigned through roles in Permissions. [Learn how to assign sandboxes](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] reflects Adobe Experience Platform sandboxes which were created for a given organization.
 Adobe Experience Platform sandboxes can be created or reset from your Adobe Experience Platform instance. [Learn more in the Sandbox user guide](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
@@ -32,27 +32,21 @@ You can find the sandbox switcher control at the top-right of your screen next t
 >
 > Sandboxes management can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator. For more information on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-You can choose to assign different sandboxes to out-of-the-box or custom **[!UICONTROL Product profiles]**.
+You can choose to assign different sandboxes to out-of-the-box or custom **[!UICONTROL Roles]**.
 
 To assign sandboxes:
 
-1. In the [!DNL Admin Console], from the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Apps]** product.
-
-1. Select a **[!UICONTROL Product profile]**.
+1. In [!DNL Permissions], from the **[!UICONTROL Roles]** tab, select a **[!UICONTROL Role]**.
     
     ![](assets/sandbox_1.png)
 
-1. Select the **[!UICONTROL Permissions]** tab.
+1. Click **[!UICONTROL Edit]**.
 
-1. Select the **[!UICONTROL Sandboxes]** capability.
-
-    ![](assets/sandbox_2.png)
-
-1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}.
+1. From the **[!UICONTROL Sandboxes]** resource drop-down, select the sandbox which will be assigned to your role.
 
     ![](assets/sandbox_3.png)
 
-1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove sandboxes access to your **[!UICONTROL Product profile]**.
+1. If needed, click the X icon next to remove sandboxes access to your **[!UICONTROL Role]**.
 
     ![](assets/sandbox_4.png)
 

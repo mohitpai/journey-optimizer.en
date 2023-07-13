@@ -1,6 +1,6 @@
 ---
 title: Batch Decisioning API
-description: Learn how to use the Batch Decisioning API to select the best offers for segmented profiles within a predefined decision scope.
+description: Learn how to use the Batch Decisioning API to select the best offers for audiences' profiles within a predefined decision scope.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -10,9 +10,9 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 
 # Deliver offers using the [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-The [!DNL Batch Decisioning] API allows organizations to use decisioning functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
+The [!DNL Batch Decisioning] API allows organizations to use decisioning functionality for all profiles in a given audience in one call. The offer content for each profiles in the audience is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
 
-With the [!DNL Batch Decisioning] API, you can populate a dataset with the best offers for all profiles in an Adobe Experience Platform segment for decision scopes. For example, an organization may want to run [!DNL Batch Decisioning] so they can send offers to a message delivery vendor. Those offers are then used as content that is sent out for batch message delivery to the same segment of users. 
+With the [!DNL Batch Decisioning] API, you can populate a dataset with the best offers for all profiles in an Adobe Experience Platform audience for decision scopes. For example, an organization may want to run [!DNL Batch Decisioning] so they can send offers to a message delivery vendor. Those offers are then used as content that is sent out for batch message delivery to the same audience of users. 
 
 To do this, the organization would:
 
@@ -24,7 +24,7 @@ To do this, the organization would:
 
 * Export the dataset to the message delivery vendor API. 
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Before using this API, make sure you complete the following pre-requisite steps.
 
 ### Prepare the decision {#prepare-decision}
 
-To prepare one or more decisions, make sure you have created a dataset, a segment, and a decision. Those prerequisites are detailed in [this section](../../batch-delivery.md).
+To prepare one or more decisions, make sure you have created a dataset, an audience, and a decision. Those prerequisites are detailed in [this section](../../batch-delivery.md).
 
 ### API requirements {#api-requirements}
 
@@ -98,7 +98,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | Property | Description | Example |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | The value is an array that contains the unique identifier of the segment. It can only contain one value. |`609028e4-e66c-4776-b0d9-c782887e2273`|
+| `xdm:segmentIds` | The value is an array that contains the unique identifier of the audience. It can only contain one value. |`609028e4-e66c-4776-b0d9-c782887e2273`|
 | `xdm:dataSetId` | The output dataSet that decision events can be written into. |`6196b4a1a63bd118dafe093c`|
 | `xdm:propositionRequests` | A wrapper that contains the `placementId` and `activityId` ||
 | `xdm:activityId` | The unique identifier of the decision. |`xcore:offer-activity:1410cdcda196707b`|

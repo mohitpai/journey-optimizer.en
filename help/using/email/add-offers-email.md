@@ -71,7 +71,7 @@ To display the different offers that are part of the decision with a customer pr
 
 >[!NOTE]
 >
->You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../segment/creating-test-profiles.md).
+>You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../audience/creating-test-profiles.md).
 
 1. Select the test profiles to use to preview the offer:
 
@@ -79,7 +79,7 @@ To display the different offers that are part of the decision with a customer pr
 
         >[!NOTE]
         >
-        >In this example, we use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../segment/get-started-identity.md).
+        >In this example, we use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](../audience/get-started-identity.md).
 
     1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
 

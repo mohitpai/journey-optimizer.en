@@ -19,7 +19,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 
 Use test profiles to test your journey before publishing it. This mode allows you to run a test of your journey and identify issues using test profiles.
 
-Only test profiles can enter a journey in test mode. You can either create new test profiles or turn existing profiles into test profiles. Learn more about test profiles in [this section](../segment/creating-test-profiles.md). 
+Only test profiles can enter a journey in test mode. You can either create new test profiles or turn existing profiles into test profiles. Learn more about test profiles in [this section](../audience/creating-test-profiles.md). 
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ To use the test mode, follow these steps:
 ## Important notes {#important_notes}
 
 * In test mode, you can fire events using the interface.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../segment/creating-test-profiles.md). 
+* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../audience/creating-test-profiles.md). 
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
@@ -108,7 +108,7 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ## Test mode for business events {#test-business}
 
-When using a [business event](../event/about-events.md), use the test mode to trigger a single test profile entrance in the journey, simulate the event and pass the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. You cannot use the **[!UICONTROL Up to 100 profiles at once]** option that exists for other segment based journeys. In test mode, there is no "Code view" mode available for journeys based on business events.
+When using a [business event](../event/about-events.md), use the test mode to trigger a single test profile entrance in the journey, simulate the event and pass the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. You cannot use the **[!UICONTROL Up to 100 profiles at once]** option that exists for other audience based journeys. In test mode, there is no "Code view" mode available for journeys based on business events.
 
 Note that when you first trigger a business event, you cannot change the business event definition in the same test session. You can only make the same individual or a different individual enter the journey passing the same or another identifier. If you want to change business event parameters, you must stop and start again test mode.
 

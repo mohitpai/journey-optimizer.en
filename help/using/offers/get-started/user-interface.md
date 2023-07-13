@@ -20,7 +20,7 @@ Use the **[!UICONTROL Offers]** menu to manage and deliver your offers:
 * **[!UICONTROL Offers]**: Create and access your personalized and fallback offers. Learn how to create [offers](../offer-library/creating-personalized-offers.md) and [fallback offers](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL Collections]**: Organize your offers into static and dynamic collections. [Learn more](../offer-library/creating-collections.md)
 * **[!UICONTROL Decisions]**: Create and manage decisions to deliver your offers. [Learn more](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL Batch decisioning]**: Deliver offer decisions to all profiles in a given Adobe Experience Platform segment. [Learn more](../batch-delivery.md)
+* **[!UICONTROL Batch decisioning]**: Deliver offer decisions to all profiles in a given Adobe Experience Platform audience. [Learn more](../batch-delivery.md)
 * **[!UICONTROL Simulation]**: Validate your decisioning logic by simulating which offers will be delivered to a test profile for a given placement. [Learn more](../offer-activities/simulation.md)
 
 Use the **[!UICONTROL Components]** menu to create and manage components that are required to create offers and decisions:

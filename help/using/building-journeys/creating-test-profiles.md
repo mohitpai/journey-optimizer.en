@@ -88,7 +88,7 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 The following information is required:
 
-1. **Identity namespace**: The [identity namespace](../segment/get-started-identity.md) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
+1. **Identity namespace**: The [identity namespace](../audience/get-started-identity.md) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
 2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
 
@@ -112,31 +112,31 @@ You can turn an existing profile into a test profile: you can update profiles at
 
 A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICONTROL Update Profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../segment/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Browse to **Segments**, then **Create segment**, in the top right.
+1. Browse to **Audiences**, then **Create audience**, in the top right.
     ![](assets/test-profiles-22.png) 
-1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
     ![](assets/test-profiles-23.png) 
-1. Click **Save** and check that the profiles are correctly targeted by the segment.
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
     ![](assets/test-profiles-24.png) 
 
     >[!NOTE]
     >
-    > Segment calculation can take some time. Learn more on segments in [this section](../segment/about-segments.md).
+    > Audience calculation can take some time. Learn more on audiences in [this section](../audience/about-audiences.md).
 
-1. Now create a new journey and start with a **[!UICONTROL Read Segment]** orchestration activity.
-1. Choose the previously created segment and the namespace that your profiles use.
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
     ![](assets/test-profiles-25.png)
 1. Add an **[!UICONTROL Update Profile]** action activity. 
 1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
     ![](assets/test-profiles-26.png)
 1. Click **[!UICONTROL Publish]**.
-1. In the **[!UICONTROL Segments]** section, check that the profiles have been correctly updated.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
     ![](assets/test-profiles-28.png)
 
     >[!NOTE]

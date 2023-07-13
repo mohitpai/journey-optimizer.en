@@ -12,7 +12,7 @@ As a **Marketer** or a **Journey Practicionner**, you are responsible for creati
 
 Refer to the following sections to set up your first journey, add offers and assets, and send messages:
 
-1. **Create segments**. Journey Optimizer allows you to create audience segments directly from the **Segments** menu, and leverage them into your journeys.  Learn more about segments [in this page](../../segment/about-segments.md). Discover how to build segments [in this sample](../../segment/creating-a-segment.md).
+1. **Create audiences**. Journey Optimizer allows you to create audiences through segment definitions directly from the **Audiences** menu, and leverage them into your journeys.  Learn more about audiences [in this page](../../audience/about-audiences.md). Discover how to build segment definitions [in this sample](../../audience/creating-a-segment-definition.md).
 
 1. **Add personalization and dynamic content**. Leverage Journey Optimizer personalization and dynamic content capabilities to adapt your message to your audience. Learn more about [personalization](../../personalization/personalize.md) and [dynamic content](../../personalization/get-started-dynamic-content.md).
 
@@ -28,13 +28,13 @@ Refer to the following sections to set up your first journey, add offers and ass
 
 1. **Design customer journeys** to deliver personalized, contextual experiences. [!DNL Journey Optimizer] allow you to build real-time orchestration use cases with contextual data stored in events or data sources. Design multistep advanced scenarios powered by following capabilities:
 
-    * Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
+    * Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform audiences.
 
     * Leverage **contextual data** from events, information from Adobe Experience Platform, or data from third-party API services.
 
     * Use the **built-in channel actions** (Email, SMS, Push) to send messages designed in [!DNL Journey Optimizer] or create **custom actions** if you're using a third-party system to send your messages.
 
-    * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
+    * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read audience activity, add conditions and send personalized messages.
 
     ![](../assets/journey-design.png)
 

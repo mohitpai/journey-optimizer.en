@@ -58,7 +58,7 @@ For example, if you set the following constraints:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Define eligibility"
->abstract="By default, any profile will be eligible to be presented the offer, but you can use segments or decision rules to restrict the offer to specific profiles."
+>abstract="By default, any profile will be eligible to be presented the offer, but you can use audiences or decision rules to restrict the offer to specific profiles."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -69,21 +69,21 @@ For example, if you set the following constraints:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Total profile estimate"
->abstract="When you select segments or decision rules, you can see information on the estimated qualified profiles."
+>abstract="When you select audiences or decision rules, you can see information on the estimated qualified profiles."
 
-The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer to specific profiles that you define using segments or decision rules.
+The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer to specific profiles that you define using audiences or decision rules.
 
 >[!NOTE]
 >
->Learn more on using **segments** versus **decision rules** in [this section](#segments-vs-decision-rules).
+>Learn more on using **audiences** versus **decision rules** in [this section](#segments-vs-decision-rules).
 
 * By default, the **[!UICONTROL All visitors]** option is selected, meaning that any profile will be eligible to be presented the offer.
 
     ![](../assets/offer-eligibility-default.png)
 
-* You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform segments](../../segment/about-segments.md).
+* You can also limit the presentation of the offer to the members of one or several [Adobe Experience Platform audiences](../../audience/about-audiences.md).
 
-    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple audiences]** option, then add one or several audiences from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
     
     ![](../assets/offer-eligibility-segment.png)
 
@@ -95,7 +95,7 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
     >
     >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, you will not be able to leverage it in an offer.
 
-When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+When you select audiences or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -103,17 +103,17 @@ When you select segments or decision rules, you can see information on the estim
 >
 >Profile estimates are unavailable when rule parameters include data not in the profile such as context data. For example, an eligibility rule that requires the current weather to be ≥80 degrees.
 
-### Using segments vs decision rules {#segments-vs-decision-rules}
+### Using audiences vs decision rules {#segments-vs-decision-rules}
 
-To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
+To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform audiences**, or you can use a **decision rule**, both solutions corresponding to different usages.
 
-Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
+Basically, the output of an audience is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
 
-* **Segments**
+* **Audiences**
 
-    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
+    On one hand, audiences are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the audience, which may not be up-to-date when presenting the offer.
 
-    Learn more on segments in [this section](../../segment/about-segments.md).
+    Learn more on audiences in [this section](../../audience/about-audiences.md).
 
 * **Decision rules**
     

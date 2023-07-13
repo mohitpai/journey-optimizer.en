@@ -67,7 +67,7 @@ When you design your journey, the first question you want to ask is how profiles
 
 ## Define the next steps{#define-next-steps}
 
-After your first event or Read Segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
+After your first event or Read Audiences, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
 
 ### Events{#jo-event}
 
@@ -79,13 +79,13 @@ You can add **several events** in your journey, as long as they use the same nam
 
 You can also add a **Reaction** event after a message to react to tracking data related to the message. This allows you, for example, to send another message if the individual opened the previous message or clicked inside it. [Learn more about reaction events](reaction-events.md).
 
-Use **Segment Qualification** event activity to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
+Use **Audience Qualification** event activity to make individuals enter or move forward in a journey based on Adobe Experience Platform audience entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](audience-qualification-events.md).
 
 ### Orchestration{#jo-orch}
 
 Orchestration activities are different conditions that help determine the next step in the journey.
 
-From the orchestration activities, use the **Read Segment** activity to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read Segment activity](read-segment.md).
+From the orchestration activities, use the **Read Audience** activity to set your journey to listen to an Adobe Experience Platform audience. [Learn more about the Read Audience activity](read-audience.md).
 
 The other activities allow you to add conditions to your journey to define several paths, set a waiting time before executing the next activity, or end your journey. [Learn more about orchestration activities](about-journey-activities.md#orchestration-activities).
 

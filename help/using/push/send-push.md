@@ -33,6 +33,7 @@ Once your message content has been defined, you can use test profiles to preview
 
 ## Validate your push notification {#push-validate}
 
+
 You must check alerts in the upper section of the editor. Some of them are simple warnings, but others can prevent you from sending the message. Two types of alerts can happen: warnings and errors.
 
 * **Warnings** refer to recommendations and best practices.

@@ -52,10 +52,6 @@ To create a collection, follow these steps:
 
 1. To assign custom or core data usage labels to a static collection, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../../administration/object-based-access.md)
 
-    >[!NOTE]
-    >
-    >The use of OLAC is not available for dynamic collections. It has to be managed at the offer level. Consequently, it is possible that you don't see any offers in a dynamic collection if you don't have access to any of these offers.
-
 1. Once the collection is created, it displays in the list. You can select it to edit or delete it.
 
     ![](../assets/collection_created.png)

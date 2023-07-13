@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: journey, first, start, quick-start, segment, event, action
+keywords: journey, first, start, quick-start, audience, event, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Create your first journey{#jo-quick-start}
@@ -20,7 +20,7 @@ In order to send messages with journeys, the following configurations are requir
 
    ![](assets/jo-event7bis.png)  
  
-1. **Create a segment**: your journey can also listen to Adobe Experience Platform segments in order to send messages in batch to a specified set of profiles. For this, you need to create segments. [Read more](../segment/about-segments.md).
+1. **Create an audience**: your journey can also listen to Adobe Experience Platform audiences in order to send messages in batch to a specified set of profiles. For this, you need to create audiences. [Read more](../audience/about-audiences.md).
 
    ![](assets/segment2.png)  
 
@@ -39,7 +39,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 **Overview**: this tab displays a dashboard with key metrics related to your journeys:
 
 * **Profiles processed**: total number of profiles processed over the last 24 hours
-* **Live journeys**: total number of live journeys with traffic over the last 24 hours. Live journeys include **Unitary journeys** (event-based) and **Batch journeys** (read segment).
+* **Live journeys**: total number of live journeys with traffic over the last 24 hours. Live journeys include **Unitary journeys** (event-based) and **Batch journeys** (read audience).
 * **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered over the last 24 hours. 
 * **Discard rate**: ratio of all profiles discarded compared with the total number of profiles who entered over the last 24 hours. A discarded profile represents someone who is not eligible to enter the journey, for example because of an incorrect namespace or because of re-entrance rules.
 
@@ -53,7 +53,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 ![](assets/journeys-browse.png)  
 
-In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]** or **[!UICONTROL Business event]**.
+In the list of journeys, you can filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**. The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**.
 
 You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. Additionally, the **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](../building-journeys/using-the-journey-designer.md).
 
@@ -82,7 +82,7 @@ Here are the main steps to send messages through journeys:
 
     ![](assets/jo-properties.png)
 
-1. Start by drag and dropping an event or a **Read Segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
+1. Start by drag and dropping an event or a **Read Audience** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
 
     ![](assets/read-segment.png)
 
@@ -119,7 +119,7 @@ The **Copy technical details** allows you to copy technical information about th
 
 By default, new journeys allow re-entrance. You can uncheck the **Allow re-entrance** option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or an audience qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 
 Learn more about profile entrance mannagement, in [this section](entry-management.md).
 
@@ -143,11 +143,11 @@ For more information on timezone management, see [this page](../building-journey
 
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read audience journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 
 ### Timeout and error in journey activities {#timeout_and_error}
 
-When editing an action or condition activity, you have the option to specify an alternative path in the event of an error or timeout. If the processing of the activity, which involves querying a third-party system, surpasses the duration specified in the journey's properties for timeout and error handling (**[!UICONTROL Timeout and  error]** field), the second path will be selected to execute a fallback action if necessary.
+When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action. 
 
 Authorized values are between 1 and 30 seconds.
 
@@ -157,7 +157,7 @@ Journeys also uses a global timeout. See the [next section](#global_timeout).
 
 ### Global journey timeout {#global_timeout}
 
-In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30-day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
+In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
 
 >[!NOTE]
 >

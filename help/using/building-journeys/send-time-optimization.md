@@ -32,6 +32,10 @@ The model varies whether you are talking about scoring or training. Training is 
 
 This information is stored with the user's profile and is referenced at journey execution to tell Adobe Journey Optimizer when to send your message. 
 
+>[!CAUTION]
+>
+>This feature is not compatible with burst mode.
+
 ## Activate Send-Time Optimization{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]

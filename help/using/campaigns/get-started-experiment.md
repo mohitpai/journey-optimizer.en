@@ -95,7 +95,7 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 
 +++Form new hypotheses, and test continuously
 
-To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
+To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different audiences, and by examining the impact on the different metrics.
 +++
 
 ## Interpret the results of your Experiments {#interpret-results}
@@ -166,7 +166,7 @@ After running your Experiment, there are several possible follow up actions:
 
 * **Do deeper dive analyses** 
 
-    The treatment that works well for one audience may sometimes not be the best treatment for another audience. Doing deeper analyses on how treatments behaved for different segments help generate ideas for new tests. 
+    The treatment that works well for one audience may sometimes not be the best treatment for another audience. Doing deeper analyses on how treatments behaved for different audiences help generate ideas for new tests. 
     
     Similarly, studying the performance of each treatment with different metrics may also give a more comprehensive view of your Experiments. 
     

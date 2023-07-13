@@ -66,9 +66,9 @@ Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328e
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
 ```
 
-Boost multiple offers by offer ID based on the presence of a profile's segment membership
+Boost multiple offers by offer ID based on the presence of a profile's audience membership
 
-Boost the priority of offers based on whether the user is a member of a priority segment, which is configured as an attribute in the offer.
+Boost the priority of offers based on whether the user is a member of a priority audience, which is configured as an attribute in the offer.
 
 **Ranking formula:**
 

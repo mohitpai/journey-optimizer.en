@@ -46,10 +46,10 @@ solution: Journey Optimizer
     + [Get started with journey activities](using/building-journeys/about-journey-activities.md)
     + [General events](using/building-journeys/general-events.md)
     + [Reaction](using/building-journeys/reaction-events.md)
-    + [Segment qualification](using/building-journeys/segment-qualification-events.md)
+    + [Audience qualification](using/building-journeys/audience-qualification-events.md)
     + [Condition](using/building-journeys/condition-activity.md)
     + [Wait](using/building-journeys/wait-activity.md)
-    + [Read segment](using/building-journeys/read-segment.md)
+    + [Read audience](using/building-journeys/read-audience.md)
     + [Email, In-app, Push, SMS](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
@@ -272,20 +272,20 @@ solution: Journey Optimizer
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditional rules](using/personalization/create-conditions.md)
     + [Create dynamic content](using/personalization/dynamic-content.md)
-+ Segments, profiles and identity{#segment}
-  + Segments {#segments}
-    + [Get started with segments](using/segment/about-segments.md)
-    + [Build segments](using/segment/creating-a-segment.md)
++ Audiences, profiles and identity{#audiences-profiles-identities}
+  + Audiences {#audiences}
+    + [Get started with audiences](using/audience/about-audiences.md)
+    + [Build segment definitions](using/audience/creating-a-segment-definition.md)
   + Profiles{#profiles}
-    + [Get started with profiles](using/segment/get-started-profiles.md)
-    + [Create test profiles](using/segment/creating-test-profiles.md)
-  + [Identities](using/segment/get-started-identity.md)
+    + [Get started with profiles](using/audience/get-started-profiles.md)
+    + [Create test profiles](using/audience/creating-test-profiles.md)
+  + [Identities](using/audience/get-started-identity.md)
   + Compose audiences {#audience-orchestration}
-    + [Get started with audience composition](using/segment/get-started-audience-orchestration.md)
-    + [Create composition workflows](using/segment/create-compositions.md)
-    + [Work with the composition canvas](using/segment/composition-canvas.md)
-    + [Access and manage audiences](using/segment/access-audiences.md)
-  + [License usage](using/segment/license-usage.md)
+    + [Get started with audience composition](using/audience/get-started-audience-orchestration.md)
+    + [Create composition workflows](using/audience/create-compositions.md)
+    + [Work with the composition canvas](using/audience/composition-canvas.md)
+    + [Access and manage audiences](using/audience/access-audiences.md)
+  + [License usage](using/audience/license-usage.md)
 + Track and monitor {#reporting}
   + Live report {#live-report}
     + [Get started with Live Report](using/reports/live-report.md)
@@ -482,4 +482,3 @@ solution: Journey Optimizer
     + [Manage opt-out](using/privacy/opt-out.md)
     + [Work with consent policies](using/action/consent.md)
   + [Data Governance](using/action/action-privacy.md)
-  + [Set up and manage Customer Managed Keys](using/privacy/cmk.md)

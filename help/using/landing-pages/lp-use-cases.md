@@ -68,9 +68,9 @@ Additionally, you can send a confirmation email to the recipients who registered
 
     ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. [Learn more](../building-journeys/segment-qualification-events.md)
+1. Unfold the **[!UICONTROL Events]** category and drop an **[!UICONTROL Audience Qualification]** activity into your canvas. [Learn more](../building-journeys/audience-qualification-events.md)
 
-1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
+1. Click in the **[!UICONTROL Audience]** field and select the subscription list that you created.
 
     ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -221,7 +221,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

@@ -103,19 +103,11 @@ ID of the journey version. This id represents the identity reference to the jour
 
 Type: string
 
->[!NOTE]
->
->For troubleshooting purposes, we recommend using journeyVersionID instead of journeyVersionName when querying journeys.
-
 ## journeyVersionName {#journeyversionname-field}
 
 Name of the journey version.
 
 Type: string
-
->[!NOTE]
->
->For troubleshooting purposes, we recommend using journeyVersionID instead of journeyVersionName when querying journeys.
 
 ## journeyVersion {#journeyversion-field}
 

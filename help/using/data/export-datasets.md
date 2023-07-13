@@ -44,7 +44,7 @@ Check the following prerequisites before starting exporting your datasets:
 
 * To export datasets, you need the **Manage Destinations**, **View Destinations**, **Activate Destinations**, and **Manage and Activate Dataset Destinations** [access control permissions](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) or contact your product administrator to obtain the required permissions.
 
-* Make sure that the dataset that you want to export do not contain Second-generation data. This feature supports the export of First-generation data only, i.e. raw data as defined in the [Real-Time Customer Data Platform product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). First-generation data includes datasets brought in via Adobe Experience Platform Sources or datasets collected using Adobe solutions such as Analytics Data Connector and Journey Optimizer logs/report datasets.
+*  This feature supports the export of First-generation data only, i.e. raw data as defined in the [Real-Time Customer Data Platform product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Make sure that the dataset that you want to export do not contain Second-generation data.
 
 ## Main steps to export datasets {#main-steps}
 
@@ -64,7 +64,7 @@ Detailed information on each step is available in Adobe Experience Platform docu
 
     >[!NOTE]
     >
-    >If you are using Adobe Journey Optimizer along with Real-Time Customer profiles, destination cards will display an "Activate" button, allowing you to both export datasets and activate segments for this destination, depending on the permissions you have enabled.
+    >If you are using Adobe Journey Optimizer along with Real-Time Customer profiles, destination cards will display an "Activate" button, allowing you to both export datasets and activate audiences for this destination, depending on the permissions you have enabled.
 
 1. **Select the dataset(s)** that you want to export to the selected destination.
 

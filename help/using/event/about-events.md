@@ -27,14 +27,14 @@ You can configure two types of events:
 
 * **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unitary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
 
-* **Business** events: a business event is an event that, in contrast to a unitary event, is not linked to a specific profile. For example, it can be a news alert, a sports update, a flight change or cancellation, an inventory update, weather events, etc. While these events are not specific to a profile, they may be of interest to any number of profiles: individuals subscribed to particular news topics, passengers on a flight, shoppers interested in an out-of-stock product, etc. Business events are always rule-based. When you drop a business event in a journey, it automatically adds a **Read segment** activity right after. To learn how to create a business event, refer to this [page](../event/about-creating-business.md).
+* **Business** events: a business event is an event that, in contrast to a unitary event, is not linked to a specific profile. For example, it can be a news alert, a sports update, a flight change or cancellation, an inventory update, weather events, etc. While these events are not specific to a profile, they may be of interest to any number of profiles: individuals subscribed to particular news topics, passengers on a flight, shoppers interested in an out-of-stock product, etc. Business events are always rule-based. When you drop a business event in a journey, it automatically adds a **Read audience** activity right after. To learn how to create a business event, refer to this [page](../event/about-creating-business.md).
 
 
 >[!NOTE]
 >
 >If you edit an event used in a draft or live journey, you can only change the name, the description or add payload fields. We strictly limit the edition of draft or live journeys to avoid breaking journeys.
 
-Unitary journeys (starting with an event or a segment qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
+Unitary journeys (starting with an event or an audience qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
 
 ➡️ [Discover this feature in video](#video)
 
@@ -54,7 +54,7 @@ For unitary events, there are two types of event ID:
 
 >[!NOTE]
 >
->Journey Optimizer requires events to be streamed to Data Collection Core Service (DCCS) to be able to trigger a journey. Events ingested in batch or events from internal Journey Optimizer datasets (Message Feedback, Email Tracking, etc.) cannot be used to trigger a journey. For use cases where you cannot get streamed events, please build a segment based on those events and use the **Read Segment** activity instead. Segment qualification can technically be used, but can cause downstream challenges based on the actions used. This data does not necessarily need to go to the Real-Time Profile. If you would like to use the events for segmentation or lookup in a separate journey, we recommend you enable the dataset for profile.
+>Journey Optimizer requires events to be streamed to Data Collection Core Service (DCCS) to be able to trigger a journey. Events ingested in batch or events from internal Journey Optimizer datasets (Message Feedback, Email Tracking, etc.) cannot be used to trigger a journey. For use cases where you cannot get streamed events, please build an audience based on those events and use the **Read Audience** activity instead. Audience qualification can technically be used, but can cause downstream challenges based on the actions used. This data does not necessarily need to go to the Real-Time Profile. If you would like to use the events for segmentation or lookup in a separate journey, we recommend you enable the dataset for profile.
 
 ## Data cycle {#data-cycle}
 
