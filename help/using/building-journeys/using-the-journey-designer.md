@@ -63,7 +63,7 @@ When you design your journey, the first question you want to ask is how profiles
 
 1. **Start with an event**: when a journey is set to listen to events, individuals enter the journey **unitarily** in real-time. Messages included in your journey are sent to the person currently flowing into the journey. [Learn more about events](../event/about-events.md)
 
-1. **Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
+1. **Start with a Read Audience**: you can set your journey to listen to Adobe Experience Platform audiences. In this case, all individuals belonging to the specified audience enter the journey. Messages included in your journey are sent to the individuals belonging to the audience. Learn more about [read audience](read-audience.md).
 
 ## Define the next steps{#define-next-steps}
 
