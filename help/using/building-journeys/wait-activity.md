@@ -17,7 +17,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 >title="Wait activity"
 >abstract="If you want to wait before executing the next activity in the path, you can use a Wait activity. It allows you to define the moment when the next activity will be executed. Two options are available: duration and custom."
 
-If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. The following options are available:
+If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
 * [Custom](#custom) 

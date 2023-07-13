@@ -27,7 +27,7 @@ For each action configured, an action activity is available in the journey desig
 
 ## Important notes {#important-notes}
 
-* There is no throttling of messages. The system caps the number of messages that can be sent over to 4000 per 5 minutes, based on the current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
+* There is no throttling of messages. The system caps the number of messages that can be sent over to 4000 per 5 minutes, based on the current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not audiences).
 
 * You need to configure one action on the canvas per template you wish to use. You need to configure one action in Journey Optimizer for each template you wish to use from Adobe Campaign.
 
@@ -35,7 +35,7 @@ For each action configured, an action activity is available in the journey desig
 
 * There is no validation that the payload or Campaign message is correct.
 
-* You cannot use a Campaign action with a segment qualification event.
+* You cannot use a Campaign action with an audience qualification event.
 
 ## Prerequisites {#prerequisites}
 

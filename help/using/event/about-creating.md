@@ -63,8 +63,6 @@ Here are the first steps to configure a new event:
    >[!NOTE]
    >
    >The advanced expression editor is not available when defining the **[!UICONTROL Event ID condition]**. In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
-   >
-   >If you modify your schema with new enumeration values after creating the event, you need follow these steps to apply the changes to the existing event: unselect the enumeration field from the event fields, confirm the selection, then select the enumeration field again. The new enumeration value is now displayed.
 
 1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [this section](../event/about-creating.md#select-the-namespace).
 

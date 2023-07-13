@@ -45,4 +45,4 @@ Here are the different steps to configure the reaction events:
 
 >[!IMPORTANT]
 >
->Email clients such as Gmail allow image blocking. Email opens are tracked using a 0-pixel image included in the email. If images are blocked, email opens will not be taken into account.
+>Email clients such as Gmail allow image blocking. Emails opens are tracked using a 0-pixel image included in the email. If images are blocked, email opens will not be taken into account.

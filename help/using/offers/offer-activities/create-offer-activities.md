@@ -66,17 +66,17 @@ Before creating a decision, make sure that the components below have been create
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform audiences**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-    * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
+    * To restrict the selection of the offers to the members of an Experience Platform audience, select **[!UICONTROL Audiences]**, then click **[!UICONTROL Add audiences]**.
 
         ![](../assets/activity_constraint_segment.png)
     
-        Add one or several segments from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+        Add one or several audiences from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
         ![](../assets/activity_constraint_segment2.png)
 
-        Learn how to work with segments in [this section](../../segment/about-segments.md).
+        Learn how to work with audiences in [this section](../../audience/about-audiences.md).
 
     * If you want to add a selection constraint with a decision rule, use the **[!UICONTROL Decision rule]** option and select the rule of your choice.
 
@@ -84,7 +84,7 @@ Before creating a decision, make sure that the components below have been create
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
-1. When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+1. When you select audiences or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
     >[!NOTE]
     >
@@ -122,18 +122,9 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_new-scope.png)
 
-    >[!NOTE]
-    >
-    >When adding multiple decision scopes, the evaluation criteria order will be impacted. [Learn more](#multiple-scopes)
-
 ### Evaluation criteria order {#evaluation-criteria-order}
 
 As described above, an evaluation criteria consists of a collection, eligibility constraints, and a ranking method. You can set the sequential order you want for the evaluation criteria to be evaluated, but you can also combine multiple evaluation criteria so they are evaluated together and not separately.
-
-#### With one scope {#one-scope}
-
-
-Inside a single decision scope, multiple criteria and their grouping determine the priority of the criteria and ranking of eligible offers. The first criteria has the highest priority and the criteria combined within the same 'group' have the same priority.
 
 For example, you have two collections, one in evaluation criteria A and one in evaluation criteria B. The request is for two offers to be sent back. Let's say there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B.
 
@@ -144,134 +135,6 @@ For example, you have two collections, one in evaluation criteria A and one in e
 * If the two collections are **evaluated at the same time**, as there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B, the five offers will all be stack ranged together based on the value determined by the respective ranking methods. Two offers are requested, therefore the top two eligible offers from these five offers will be returned.
 
     ![](../assets/activity_same-rank-collections.png)
-
-+++ **Example with multiple criteria**
-
-Now let's consider an example where you have multiple criteria for a single scope divided into different groups.
-
-You defined three criteria. Criteria 1 and Criteria 2 are combined together in Group 1 and Criteria 3 is independent (Group 2).
-
-The eligible offers for each criteria and their priority (used in the ranking function evaluation) are as follows:
-
-* Group 1:
-    * Criteria 1 - (Offer 1, Offer 2, Offer 3) - Priority 1
-    * Criteria 2 - (Offer 3, Offer 4, Offer 5) - Priority 1
-
-* Group 2:
-    * Criteria 3 - (Offer 5, Offer 6) - Priority 0
-
-The highest priority criteria offers is evaluated first and added to the ranked offers list.
-
-**Iteration 1:**
-
-Criteria 1 and Criteria 2 offers are evaluated together (Offer 1, Offer 2, Offer 3, Offer 4, Offer 5). Let's say the result is:
-
-Offer 1 - 10
-Offer 2 - 20
-Offer 3 - 30 from Criteria 1, 45 from Criteria 2. The highest of both will be considered, so 45 is taken into account.
-Offer 4 - 40
-Offer 5 - 50
-
-The ranked offer are now as follows: Offer 5, Offer 3, Offer 4, Offer 2, Offer 1.
-
-**Iteration 2:**
-
-Criteria 3 offers are evaluated (Offer 5, Offer 6). Let's say the result is:
-
-* Offer 5 - Will not be evaluated since it already exists in the result above.
-* Offer 6 - 60
-
-The ranked offers are now as follows: Offer 5 , Offer 3, Offer 4, Offer 2, Offer 1, Offer 6.
-
-+++
-
-#### With multiple scopes {#multiple-scopes}
-
-**If duplication is off**
-
-When you add several decision scopes to a decision, and if duplication is not allowed accross placements, the eligible offers are selected sequentially in the order of the decision scopes in the request.
-
->[!NOTE]
->
->The **[!UICONTROL Allow Duplicates across placements]** parameter is set at the placement level. If duplication is set to false for any placement in a decisioning request, all placements in the request will inherit the false setting. [Learn more on duplication parameter](../offer-library/creating-placements.md)
-
-Let's take an example where you added two decision scopes such as:
-
-* Scope 1: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
-* Scope 2: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
-
-+++ **Example 1**
- 
-The selection is as follows:
-
-1. The top two eligible offers from Scope 1 will be returned (Offer 1, Offer 2).
-1. The remaining top two eligible offers from Scope 2 will be returned (Offer 3, Offer 4).
-
-+++
-
-+++ **Example 2**
- 
-In this example, Offer 1 reached its frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
-The selection is as follows:
-
-1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 3).
-1. The remaining eligible offer from Scope 2 will be returned (Offer 4).
-
-+++
-
-+++ **Example 3**
- 
-In this example, Offer 1 and Offer 3 reached their frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
-The selection is as follows:
-
-1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 4).
-1. There are no remaining eligible offers for Scope 2, so the [fallback offer](#add-fallback) is returned.
-
-+++
-
-**If duplication is on**
-
-When duplication is allowed accross all placements, the same offer can be proposed multiple times across different placements. If enabled, the system will consider the same offer for multiple placements. [Learn more on duplication parameter](../offer-library/creating-placements.md)
-
-Let's take the same example as above where you added two decision scopes such as:
-
-* Scope 1: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
-* Scope 2: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
-
-+++ **Example 1**
- 
-The selection is as follows:
-
-1. The top two eligible offers from Scope 1 will be returned (Offer 1, Offer 2).
-1. The same top two eligible offers from Scope 2 will be returned (Offer 1, Offer 2).
-
-+++
-
-+++ **Example 2**
- 
-In this example, Offer 1 reached its frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
-The selection is as follows:
-
-1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 3).
-
-1. The same remaining top two eligible offers from Scope 2 will be returned (Offer 2, Offer 3).
-
-+++
-
-+++ **Example 3**
- 
-In this example, Offer 1 and Offer 3 reached their frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
-The selection is as follows:
-
-1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 4).
-
-1. The same remaining top two eligible offers from Scope 2 will be returned (Offer 2, Offer 4).
-
-+++
 
 ## Add a fallback offer {#add-fallback}
 
@@ -318,7 +181,7 @@ Select the **[!UICONTROL Edit]** button to go back to the decision edition mode,
 
 >[!IMPORTANT]
 >
->If changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
 
 Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
 

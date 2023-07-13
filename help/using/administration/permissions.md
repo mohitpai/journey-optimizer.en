@@ -103,7 +103,7 @@ To create our **Journeys read-only** **[!UICONTROL Role]**:
 
     ![](assets/do-not-localize/access_control_13.png)
 
-1. Select between the different resources such as **[!DNL Journeys]**, **[!DNL Segments]** or **[!DNL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
+1. Select between the different capabilities such as **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> or **[!DNL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
     
     Here we select the **[!UICONTROL Journeys]** resource.
 

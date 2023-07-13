@@ -23,11 +23,11 @@ Here are limitations related to the use of journeys.
 
 ## Journey versions limitations {#journey-versions-limitations}
 
-* A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
-* A journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
-* The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
+* A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with an **Audience Qualification** event. 
+* A journey starting with an **Audience Qualification** activity in v1 must always start with an **Audience Qualification** in further versions. 
+* The audience and namespace chosen in **Audience Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
-* A journey starting with a **Read Segment** cannot start with another event in next versions.
+* A journey starting with a **Read Audience** cannot start with another event in next versions.
  
 ## Custom actions limitations
 
@@ -57,6 +57,6 @@ You can choose from one of these two solutions:
 
 * Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
 
-## Read segment limitations
+## Read audience limitations
 
-* Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.
+* Streamed audiences are always up-to-date but batch audiences will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.

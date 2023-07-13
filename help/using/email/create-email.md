@@ -53,7 +53,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Click **[!UICONTROL Create]**.
 
-1. Complete the steps to create an email campaign, such as the campaign properties, [audience](../segment/about-segments.md), and [schedule](../campaigns/create-campaign.md#schedule).
+1. Complete the steps to create an email campaign, such as the campaign properties, [audience](../audience/about-audiences.md), and [schedule](../campaigns/create-campaign.md#schedule).
 
     ![](assets/email_campaign_steps.png)
 

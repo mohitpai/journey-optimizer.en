@@ -1,15 +1,15 @@
 ---
 title: Batch decisioning
-description: Learn how to deliver offer decisions to all profiles in a given Adobe Experience Platform segment.
+description: Learn how to deliver offer decisions to all profiles in a given Adobe Experience Platform audience.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 ---
 # Batch decisioning {#deliver}
 
 ## Get started with batch decisioning {#start}
 
-Journey Optimizer allows you to deliver offer decisions to all profiles in a given Adobe Experience Platform segment.
+Journey Optimizer allows you to deliver offer decisions to all profiles in a given Adobe Experience Platform audience.
 
-To do this, you need to create a job request in Journey Optimizer that will contain information on the segment to target and the offer decision to use. The offer content for each profile in the segment is then placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
+To do this, you need to create a job request in Journey Optimizer that will contain information on the audience to target and the offer decision to use. The offer content for each profile in the audience is then placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
 
 Batch delivery can also be performed using APIs. For more on this, refer to the [Batch Decisioning API documentation](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -19,11 +19,11 @@ Before configuring a job request, make sure you have created:
 
 * **A dataset** in Adobe Experience Platform. This dataset will be used to store the decision result using the "ODE DecisionEvents" schema. Learn more in the [Datasets documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
-* **A segment** in Adobe Experience Platform. The segment should be evaluated and then updated. Learn how to update segment membership evaluation in the [Segmentation Service documentation](https://www.adobe.com/go/segmentation-overview-en)
+* **An audience** in Adobe Experience Platform. The audience should be evaluated and then updated. Learn how to update audience membership evaluation in the [Segmentation Service documentation](http://www.adobe.com/go/segmentation-overview-en)
 
     >[!NOTE]
     >
-    >A batch job runs off of the profile snapshot that occurs once a day. Batch decisioning caps the frequency and always loads profiles from the most recent snapshot. Please expect to wait up to 24 hours after you create a segment before you try the batch decisioning API.
+    >A batch job runs off of the profile snapshot that occurs once a day. Batch decisioning caps the frequency and always loads profiles from the most recent snapshot. Please expect to wait up to 24 hours after you create an audience before you try the batch decisioning API.
 
 * **A decision** in Adobe Journey Optimizer. [Learn how to create a decision](offer-activities/create-offer-activities.md)
 
@@ -39,9 +39,9 @@ To create a new job request, follow the steps below.
 
 1. Name your job request, then select the dataset where the job data should be sent into.
 
-1. Select the Adobe Experience Platform segment to target.
+1. Select the Adobe Experience Platform audience to target.
 
-1. Select one or multiple offer decision scopes that you want to use to deliver offers to the segment:
+1. Select one or multiple offer decision scopes that you want to use to deliver offers to the audience:
     1. Select a placement from the list.
     1. The decisions available for the selected placement display. Select the decision of your choice and click **[!UICONTROL Add]**.
     1. Repeat the operation to add as many decision scopes as desired.
@@ -87,11 +87,11 @@ If an error occurs while the job request is being executed, it will get the **[!
 
 The end-to-end time for every batch job is the duration from the time the workload is created to the time when the decision result is available in the output dataset.
 
-The segment size is the main factor that affects the end-to-end batch decision time. If the eligible offer has a global frequency cap enabled, then batch decisioning takes additional time to complete. Below are some approximations of end-to-end processing time for their respective segment sizes, both with and without frequency capping for eligible offers:
+The audience size is the main factor that affects the end-to-end batch decision time. If the eligible offer has a global frequency cap enabled, then batch decisioning takes additional time to complete. Below are some approximations of end-to-end processing time for their respective audience sizes, both with and without frequency capping for eligible offers:
 
 With frequency cap enabled for eligible offers:
 
-| Segment size | End-to-end processing time |
+| Audience size | End-to-end processing time |
 |--------------|----------------------------|
 | 10 thousand profiles or less| 7 minutes|
 | 1 million profiles or less| 30 minutes|
@@ -99,7 +99,7 @@ With frequency cap enabled for eligible offers:
 
 Without frequency cap for eligible offers:
 
-| Segment size | End-to-end processing time |
+| Audience size | End-to-end processing time |
 |--------------|----------------------------|
 | 10 thousand profiles or less| 6 minutes|
 | 1 million profiles or less| 8 minutes|

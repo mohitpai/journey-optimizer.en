@@ -70,7 +70,7 @@ The possible statuses are as follows:
 
 Once the subscription list is created, you can use it in a landing page. The profiles who opt in through the landing page form will be added to the list. [Learn more](design-lp.md)
 
-You can also use subscription lists as segments when [building journeys](../building-journeys/journey-gs.md#jo-build) and adding personalization.
+You can also use subscription lists as audiences when [building journeys](../building-journeys/journey-gs.md#jo-build) and adding personalization.
 
 >[!NOTE]
 >

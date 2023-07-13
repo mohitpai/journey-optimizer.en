@@ -20,7 +20,7 @@ Define the email settings in the dedicated section of the channel surface config
 
 The email surface configuration gets picked up for sending communications following the logic below:
 
-* For batch journeys, it does not apply to batch execution that had already started before the email surface configuration is made. The changes will be picked up at the next recurrence or new execution.
+* For batch and burst journeys, it does not apply to batch or burst execution that had already started before the email surface configuration is made. The changes will be picked up at the next recurrence or new execution.
 
 * For transactional messages, the change is picked up immediately for the next communication (up to five-minute delay).
 

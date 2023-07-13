@@ -14,7 +14,9 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 
 [!DNL Journey Optimizer] allows you to control how often users will receive a message or enter into a journey by setting cross-channel rules that will automatically exclude over-solicited profiles from messages and actions.
 
-For example, for a brand, a rule could be not to send more than 3 marketing messages per month to their customers. To do this, you can use a frequency rule which will cap the number of messages sent based on one or more channels during a monthly calendar period.
+For example, you don't want your brand to send more than 3 marketing messages per month to their customers.
+ 
+To do this, you can use a frequency rule which will cap the number of messages sent based on one or more channels during a monthly calendar period.
 
 >[!NOTE]
 >
@@ -177,7 +179,7 @@ In this scenario, an individual profile:
 
 >[!NOTE]
 >
->When testing frequency rules, it is recommended to use a newly created [test profile](../segment/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
+>When testing frequency rules, it is recommended to use a newly created [test profile](../audience/creating-test-profiles.md), because once a profile's frequency cap is reached, there is no way to reset the counter until the next month. Deactivating a rule will allow capped profiles to receive messages, but it will not remove or delete any counter increments.
 
 ## How-to video {#video}
 

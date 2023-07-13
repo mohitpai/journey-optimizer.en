@@ -68,7 +68,7 @@ To start building your web experience through a campaign, follow the steps below
 
 1. Once you defined the web surface, select **[!UICONTROL Create]**.
 
-1. Complete the steps to create a web campaign, such as the campaign properties, [audience](../segment/about-segments.md), and [schedule](../campaigns/create-campaign.md#schedule).
+1. Complete the steps to create a web campaign, such as the campaign properties, [audience](../audience/about-audiences.md), and [schedule](../campaigns/create-campaign.md#schedule).
 
     ![](assets/web-campaign-steps.png)
 

@@ -55,7 +55,7 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 ![](assets/journey64.png)
 
-If you're using the [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} to create your segments, you can leverage them in your journey conditions. Refer to [Using segments in conditions](../building-journeys/condition-activity.md#using-a-segment).
+If you're using the [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} to create your audiences, you can leverage them in your journey conditions. Refer to [Using audience in conditions](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -139,11 +139,11 @@ Profile cap is not taken into account in test mode.
 
 ![](assets/profile-cap-condition.png)
 
-## Using segments in conditions {#using-a-segment}
+## Using audiences in conditions {#using-a-segment}
 
-This section explains how to use a segment in a journey condition. For more on segments and how to build them, refer to [this section](../segment/about-segments.md).
+This section explains how to use an audience in a journey condition. For more on audiences and how to build them, refer to [this section](../audience/about-audiences.md).
 
-To use a segment in a journey condition, follow these steps:
+To use an audience in a journey condition, follow these steps:
 
 1. Open a journey, drop a **[!UICONTROL Condition]** activity and choose the **Data Source Condition**.
    ![](assets/journey47.png)
@@ -152,10 +152,10 @@ To use a segment in a journey condition, follow these steps:
 
    ![](assets/segment3.png)
 
-1. On the left side, unfold **[!UICONTROL Segments]** node. Drag and drop the segment you want to use for your condition. By default, the condition on the segment is true.
+1. On the left side, unfold **[!UICONTROL Audiences]** node. Drag and drop the audience you want to use for your condition. By default, the condition on the audience is true.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Note that only the individuals with the **Realized** and **Existing** segment participation statuses will be considered as members of the segment. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Note that only the individuals with the **Realized** and **Existing** audience participation statuses will be considered as members of the audience. For more on how to evaluate an audience, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

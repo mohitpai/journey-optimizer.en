@@ -16,13 +16,13 @@ Use [!DNL Journey Optimizer] to build real-time orchestration use cases using co
 
 Design multistep advanced scenarios powered by following capabilities:
 
-* Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
+* Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform audiences.
 
 * Leverage **contextual data** from events, information from Adobe Experience Platform, or data from third-party API services.
 
 * Use the **built-in actions** to send messages designed in [!DNL Journey Optimizer] or create **custom actions** if you're using a third-party system to send your messages.
 
-* With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
+* With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read audience activity, add conditions and send personalized messages.
 
 
 >[!NOTE]
@@ -41,7 +41,7 @@ Adobe Journey Optimizer includes an omnichannel orchestration canvas which allow
 
 Learn how to start and create your first journey in [this page](journey-gs.md).
 
-The omnichannel journey designer assists you in constructing multi-step journeys, specifically targeting audiences, and incorporating updates based on real-time customer or business interactions. It also enables you to create omnichannel messages through an intuitive drag-and-drop interface.
+The omnichannel journey designer helps you build multi-step journeys with targeted audiences, updates based on real-time customer or business interactions, and omnichannel messages using an intuitive drag-and-drop interface.
 
 ![](assets/journey38.png)
 
@@ -76,7 +76,7 @@ When you search for a journey, newest versions appear at the top of the list the
 
 >[!NOTE]
 >
->Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until they fully exited that previous instance of the journey. [Read more](end-journey.md).
+>Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](end-journey.md).
 
 If you need to modify to a live journey, create a new version of your journey.
 

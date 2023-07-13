@@ -20,7 +20,7 @@ In order to maximize the advantage of using auto-personalization, there are some
 
 * **Offers are different enough so that users will have different preferences among the offers in consideration**. If offers are too similar, a resulting model will have less impact as the responses are seemingly random.
 For example if a bank has two credit cards offers with the only difference being color, then it may not matter which card is recommended, but if each card has different terms, this provides rationale for why certain customers would choose one and provide enough difference between offers to build a more impactful model.
-* **User traffic composition is stable**. If user traffic composition changes dramatically during model training and predicting, model performance could degrade. For example, suppose in model training phase, only data for users in segment A is available, but the trained model is used to generate predictions for users in segment B, then model performance could be impacted.
+* **User traffic composition is stable**. If user traffic composition changes dramatically during model training and predicting, model performance could degrade. For example, suppose in model training phase, only data for users in audience A is available, but the trained model is used to generate predictions for users in audience B, then model performance could be impacted.
 * **Offers performances do not change dramatically over a short period of time** as this model updates weekly and changes to performance are conveyed as the model updates. For example, a product was very popular before, but a public report identifies the product to be harmful to our health, and this product becomes unpopular extremely fast. In this scenario, the model could continue to predict this product until the model updates with changes in user behavior.  
 
 ## How It Works {#how}
@@ -31,8 +31,8 @@ There are 3 types of features:
 
 | Feature types | How to add features to models |
 |--------------|----------------------------|
-| Segments| 0-50 segments can be added as features when creating the Ranking AI model|
 | Decisioning objects (placementID, activityID, decisionScopeID)| Part of the decision management feedback Experience Events sent to AEP|
+| Audiences| 0-50 audiences can be added as features when creating the Ranking AI model|
 | Context data| Part of the decisioning feedback Experience Events sent to AEP. Available context data to add to schema: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, placeContext|
 
 The model has two phases:

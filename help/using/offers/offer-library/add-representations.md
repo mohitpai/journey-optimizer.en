@@ -128,5 +128,5 @@ You can also insert text-type content when selecting a compatible placement.
 
     >[!NOTE]
     >
-    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
+    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Audiences]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
 
