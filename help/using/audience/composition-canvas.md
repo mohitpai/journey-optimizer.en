@@ -14,17 +14,6 @@ badge: label="Beta" type="Informative"
 ---
 # Work with the composition canvas {#composition-canvas}
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Get started with audience composition](get-started-audience-orchestration.md)
-* [Create your first composition workflow](create-compositions.md)
-* **[Work with the composition canvas](composition-canvas.md)**
-* [Access and manage audiences](access-audiences.md)
-
->[!ENDSHADEBOX]
-
 Audience composition provides a visual canvas that allows you to create audiences and use various activites (split, enrich, etc.).
 
 The steps to compose an audience in the canvas are as follows:
@@ -145,6 +134,8 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 The **[!UICONTROL Enrich]** activity allows you to enrich your audience with additional attributes coming from Adobe Experience Platform datasets. For example, you can add information related to the product purchased like its name, price, or manufacturer ID and leverage these information to personalize the deliveries sent to the audience.
 
 >[!IMPORTANT]
+>
+>Enrichment is available for **[!UICONOTROL Adobe Journey Optimizer]** users only. 
 >
 >For now, labels on the dataset, either at the dataset level or at the field level, are not propagated to the newly created audience. This may affect access control and/or data governance for the resulting audience. For this reason, please use only test data when composing audiences.
 
