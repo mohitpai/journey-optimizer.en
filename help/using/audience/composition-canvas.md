@@ -133,8 +133,6 @@ The **[!UICONTROL Enrich]** activity allows you to enrich your audience with add
 
 >[!IMPORTANT]
 >
->Enrichment is available for **[!UICONOTROL Adobe Journey Optimizer]** users only. 
->
 >For now, labels on the dataset, either at the dataset level or at the field level, are not propagated to the newly created audience. This may affect access control and/or data governance for the resulting audience. For this reason, please use only test data when composing audiences.
 
 To configure the activity, follow these steps:
