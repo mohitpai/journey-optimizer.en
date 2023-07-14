@@ -16,14 +16,28 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
+## July 2023 updates
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023
+<table>
+<thead>
+<tr>
+<th><strong>Audience Composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../audience/assets/audiences-publish.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-### New capabilities{#june-2023-features}
+
+## June 2023 release notes {#june-rn-2023}
 
 <table>
 <thead>
@@ -43,18 +57,35 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+
+**Journeys**
+
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
+
+## May 2023 release notes {#may-rn-2023}
+
+
+<!--
+## June 2023 early release notes {#june-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
 
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
 
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 --> 
@@ -63,24 +94,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### New capabilities{#may-2023-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Audience Composition</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../audience/assets/audiences-publish.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 <table>
 <thead>
