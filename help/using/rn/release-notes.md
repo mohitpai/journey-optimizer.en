@@ -70,9 +70,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
-## May 2023 release notes {#may-rn-2023}
-
-
 <!--
 ## June 2023 early release notes {#june-rn-2023}
 
