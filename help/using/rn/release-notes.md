@@ -30,7 +30,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
 <img src="../audience/assets/audiences-publish.png"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
