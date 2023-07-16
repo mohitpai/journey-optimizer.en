@@ -121,6 +121,7 @@ Click the **[!UICONTROL Select audience]** button to display the list of availab
 >[!NOTE]
 >
 >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
+
 In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
