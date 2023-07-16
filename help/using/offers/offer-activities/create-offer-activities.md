@@ -193,6 +193,7 @@ When you add several decision scopes to a decision, and if duplication is not al
 >[!NOTE]
 >
 >The **[!UICONTROL Allow Duplicates across placements]** parameter is set at the placement level. If duplication is set to false for any placement in a decisioning request, all placements in the request will inherit the false setting. [Learn more on duplication parameter](../offer-library/creating-placements.md)
+
 Let's take an example where you added two decision scopes such as:
 
 * Scope 1: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.

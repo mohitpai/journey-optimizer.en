@@ -125,9 +125,9 @@ In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!NOTE]
-    >
-    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
+>[!NOTE]
+>
+>Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
