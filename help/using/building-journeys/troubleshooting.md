@@ -52,7 +52,7 @@ Journey reporting measures people's entrances in a journey in real-time.
 
 If you're successfully sending the event but see no entrance in the journey, it means that something goes wrong between the event sending and the event reception in the journey.
 
-Here are a few things and administrator should check:
+You can start troubleshooting with the questions below:
 
 * Are you sure the journey where you expect the incoming event is in test mode or live?
 * Did you save your event before copying the payload from the payload preview?

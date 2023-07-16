@@ -23,7 +23,7 @@ This role includes the following permissions:
 |Campaigns| <ul><li> **[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL Publish campaigns]**: publish campaigns.</li><li>**[!DNL View campaigns report]**: read and edit campaigns report.</li></ul>|
 |Channel configurations|<ul><li>**[!DNL Manage subdomains delegation]**: read, create, edit, and delete subdomain delegation.</li><li>**[!DNL Manage IP pools]**: read, create, edit, and delete ip pool.</li><li>**[!DNL Manage PTR records]**: read and edit PTR records.</li><li>**[!DNL View PTR records]**: read-only access to PTR records.</li><li> **[!DNL Manage messages general settings]**: read, create, edit, and delete message general settings.</li><li>**[!DNL Manage messages presets]**: read, create, edit, and delete content branding.</li><li>**[!DNL Manage suppression rules]**: access read, create, edit and delete suppression rules.</li><li>**[!DNL Export suppression list]**: access to export suppression list as a CSV file.</li><li>**[!DNL View suppression list]**: read and export local suppression list.</li><li>**[!DNL Manage alerts]**: enable/disable alerts for campaigns, messages and entitlements.</li><li>**[!DNL Manage landing page settings]**: read, create, edit, and delete landing page settings.</li><li>**[!DNL Manage SMS settings]**: read, create, edit, and delete SMS settings.</li></ul>|
 |Decision management|<ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisions.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete ranking strategies.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: grant access to sandboxes.</li><li>**[!DNL Manage segments]**: read, create, edit, and delete segment definitions. <li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Read Identity namespace]**: read-only access to identity namespace.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: grant access to sandboxes.</li><li>**[!DNL Manage segments]**: read, create, edit, and delete segment definitions.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Read Identity namespace]**: read-only access to identity namespace.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
@@ -34,7 +34,7 @@ The **[!DNL Campaign Approver]** role allows users to approve deliveries and pub
 |Campaigns| <ul><li>**[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL Publish campaigns]**: publish campaigns.</li><li>**[!DNL View Campaigns report]**: read, edit journey reports.</li></ul>|
 |Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom messages reports and use action features.</li></ul>|
 |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: read, create, edit, and delete segment definitions.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
-|Administration| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
+|Channel configurations| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -47,7 +47,7 @@ This role includes the following permissions:
 |Campaigns| <ul><li>**[!DNL Manage campaigns]**: read, create, edit, and delete campaigns.</li><li>**[!DNL View campaigns report]**: read, edit journey report.</li></ul>|
 |Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom messages reports and use action features.</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: read, create, edit, and delete segment definitions.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
-|Administration| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
+|Channel configurations| <ul><li>**[!DNL View messages presets]**: read-only access to messages presets.</li></ul>|
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -88,7 +88,7 @@ This role includes the following permissions:
 |Journeys| <ul><li>**[!DNL Manage journeys]**: read, create, edit, and delete journeys.</li><li>**[!DNL Publish journey]**: publish journeys.</li><li>**[!DNL View journeys events, data sources and actions]**: read-only access to journey events, journey custom actions and journey data sources sources.</li><li>**[!DNL View journeys report]**: read, edit journey reports.</li></ul>|
 |Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom reports and use action features.</li></ul>|
 |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: read, create, edit, and delete segment definitions.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
-|Administration| <ul><li>**[!DNL View channel surfaces]**: read-only access to channel surfaces.</li></ul>|
+|Channel configurations| <ul><li>**[!DNL View channel surfaces]**: read-only access to channel surfaces.</li></ul>|
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -101,7 +101,7 @@ This role includes the following permissions:
 |Journeys| <ul><li>**[!DNL Manage journeys]**: read, create, edit, and delete journeys.</li><li>**[!DNL View journeys events]**: read-only access to journey events, journey custom actions and journey data sources sources.</li><li>**[!DNL View journeys report]**: read, edit journey report.</li></ul>|
 |Decision management| <ul><li>**[!DNL Manage decisions]**: read, create, edit, and delete decisioning entities.</li><li>**[!DNL Manage ranking strategies]**: read, create, edit, and delete custom reports and use action features.</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: read, create, edit, and delete segment definitions.</li><li>**[!DNL Manage profiles]**: read, create, edit, and delete profiles.</li><li>**[!DNL Read datasets]**: read-only access to datasets.</li><li>**[!DNL Read schemas]**: read-only access to schemas.</li><li>**[!DNL Manage merge policies]**: read, create, edit, and delete merge policies.</li></ul>|
-|Administration| <ul><li>**[!DNL View channel surfaces]**: read-only access to channel surfaces.</li></ul>|
+|Channel configurations| <ul><li>**[!DNL View channel surfaces]**: read-only access to channel surfaces.</li></ul>|
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

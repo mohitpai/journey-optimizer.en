@@ -54,7 +54,7 @@ To add content components to your email and adjust them to your needs, follow th
     >
     >You can add several components into a single structure component and into each column of a structure component.
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Settings]** and **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Adjust the attributes and styling for each component using the **[!UICONTROL Settings]** and **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_content_components_settings.png)
 
@@ -218,4 +218,4 @@ Learn how to add personalized offers into an email in [this section](add-offers-
 
 >[!IMPORTANT]
 >
->If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
+>If changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.

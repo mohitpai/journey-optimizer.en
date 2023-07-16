@@ -97,7 +97,7 @@ To create a push notification, follow the steps below:
 >title="Rapid delivery mode"
 >abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
 
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
+Rapid delivery mode is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
 
 Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 

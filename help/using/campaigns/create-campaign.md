@@ -26,18 +26,20 @@ To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Campaign type"
->abstract="For a marketing message by specifying a sending date, the **Scheduled** type is the most appropriate. However, if you want to send transactional messages like password reset or cart abandonment, the **API-triggered** type is the best choice."
+>abstract="**Scheduled campaigns** are executed immediately or on a specified date and are meant to send send marketing type messages. **API-triggered** campaigns are executed using an API call. They are aimed at sending either marketing messages, or transactional messages, i.e. messages sent out following an action performed by an individual: password reset, cart abandonment etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campaign category"
->abstract="Category value is directly associated to the campaign type value. Schedule campaign type for the **Marketing** category and API-triggered type for the category **Transactional**"
+>abstract="If you are creating a scheduled campaign, the **marketing** type is automatically selected. For API-triggered campaigns, choose if you want to send a **marketing** or **transactional** message, i.e. a message sent out following an action performed by an individual: password reset, cart abandonment etc."
 
 1. In the **[!UICONTROL Properties]** section, specify how you want to execute the campaign. There are two types of campaign available:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** messages. They are configured and executed from the user interface.
 
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, cart abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending either **marketing**, or **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, cart purchase etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)
+
+1. If you are creating a scheduled campaign, the **marketing** type is automatically selected. For API-triggered campaigns, choose if you want to send a **marketing** or **transactional** message."
 
 1. In the **[!UICONTROL Actions]** section, choose the channel and the channel surface to use to send your message.
 
@@ -114,19 +116,18 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 ## Define the audience {#audience}
 
-Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Learn more on audiences](../audience/about-audiences.md)
+Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
-
-In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected audience. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
+In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->Individuals belonging to an audience that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
+    >[!NOTE]
+    >
+    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

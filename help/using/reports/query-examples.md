@@ -21,6 +21,10 @@ Make sure that the fields used in your queries have associated values in the cor
 * instanceId: instanceID is the same for all the step events associated to a profile within a journey execution. If a profile reenters the journey, a different instanceId will be used. This new instanceId will be same for all the step events of the reentered instance (from start to end).
 * profileID: the profile’s identity corosponding to the journey namespace.
 
+>[!NOTE]
+>
+>For troubleshooting purposes, we recommend using journeyVersionID instead of journeyVersionName when querying journeys.
+
 ## Basic use cases/common queries {#common-queries}
 
 **How many profiles entered a journey in a certain time frame**
