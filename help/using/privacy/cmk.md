@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Customer Managed Keys
 description: Learn how to setup and manage customer keys for Adobe Journey Optimizer.
-feature: Customer Managed Keys
+feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 ---
