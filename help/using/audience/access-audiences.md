@@ -12,6 +12,12 @@ badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
+>[!BEGINSHADEBOX]
+
+This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
+
 Audiences resulting from audience composition are accessible from the **[!UICONTROL Browse]** tab in the **[!UICONTROL Audiences]** menu.
 
 This tab lists all audiences stored into Adobe Experience Platform. Audiences created using audience compositions are identifiable by the **[!UICONTROL Audience composition]** origin.

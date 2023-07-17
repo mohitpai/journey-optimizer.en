@@ -12,6 +12,12 @@ badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
 
+>[!BEGINSHADEBOX]
+
+This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
+
 ## Create a composition workflow {#create}
 
 To create a composition workflow, follow these steps:
