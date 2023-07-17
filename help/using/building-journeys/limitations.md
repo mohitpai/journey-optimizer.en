@@ -14,7 +14,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 
 Here are limitations related to the use of journeys.
 
-## General actions limitations
+## General actions limitations {#action-limitations}
 
 * There is no sending throttling. 
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
@@ -29,7 +29,7 @@ Here are limitations related to the use of journeys.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Audience** cannot start with another event in next versions.
  
-## Custom actions limitations
+## Custom actions limitations {#custom-actions-limitations}
 
 * The custom action URL does not support dynamic parameters. 
 * Only POST and PUT call methods are supported. 
@@ -37,11 +37,11 @@ Here are limitations related to the use of journeys.
 * IP addresses are not allowed. 
 * Internal Adobe addresses (.adobe.) are not allowed.
  
-## Events limitations
+## Events limitations {#events-limitations}
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
  
-## Data sources limitations
+## Data sources limitations {#data-sources-limitations}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
@@ -57,6 +57,6 @@ You can choose from one of these two solutions:
 
 * Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
 
-## Read audience limitations
+## Read audience limitations {#read-audiences-limitations}
 
 * Streamed audiences are always up-to-date but batch audiences will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.
