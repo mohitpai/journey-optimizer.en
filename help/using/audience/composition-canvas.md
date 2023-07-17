@@ -131,9 +131,11 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 
 The **[!UICONTROL Enrich]** activity allows you to enrich your audience with additional attributes coming from Adobe Experience Platform datasets. For example, you can add information related to the product purchased like its name, price, or manufacturer ID and leverage these information to personalize the deliveries sent to the audience.
 
->[!IMPORTANT]
->
->For now, labels on the dataset, either at the dataset level or at the field level, are not propagated to the newly created audience. This may affect access control and/or data governance for the resulting audience. For this reason, please use only test data when composing audiences.
+Note the following limitations when working with the **[!UICONTROL Enrich]** activity:
+
+* **Datasets** for enrichment must be of record-type (as opposed to event-type), and they cannot be a system dataset, nor be marked for profile. They must be under 1GB.
+* **Enrichment supports a 1:1 join**. This means that if the join keys have more than one match on the enrichment dataset, the system picks one of the matches and uses that for the 1:1 join.
+* **Audiences can be activated in RTCDP Destinations**, but their enrichment attributes, if any, cannot.
 
 To configure the activity, follow these steps:
 
