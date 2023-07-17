@@ -55,8 +55,8 @@ Basically, this is the idea of learning and memorizing historical feature intera
 
 Cold-start problem occurs when there isn't enough data to make recommendation. For auto-personalization, there are two types of cold-start problems.
 
-* **After creating a new ranking strategy with no historical data**, offers will be randomly served for a period of time to collect data, and the data will be used to train the first model.
-* **After the first model is released**, 10% of total traffic will be allocated for random serving while 90% of traffic will be used for model recommendations. Therefore, if new offers were added to the ranking strategy, they would be delivered as part of the 10% of traffic. The data collected on those offers would determine the number of times it is selected among the 90% of traffic as the model continues to get updated.  
+* **After creating a new AI model with no historical data**, offers will be randomly served for a period of time to collect data, and the data will be used to train the first model.
+* **After the first model is released**, 10% of total traffic will be allocated for random serving while 90% of traffic will be used for model recommendations. Therefore, if new offers were added to the AI model, they would be delivered as part of the 10% of traffic. The data collected on those offers would determine the number of times it is selected among the 90% of traffic as the model continues to get updated.  
 
 ## Re-training {#re-training}
 

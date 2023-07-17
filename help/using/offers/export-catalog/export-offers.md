@@ -309,7 +309,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         
     **Field:** orderEvaluationType
     **Title:** Order Evaluation Type
-    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or a ranking strategy that receives a list to order it.
+    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a numeric value for every option or an AI model that receives a list to order it.
     **Type:** string
     **Possible values:** "static", "scoringFunction", "rankingStrategy"
 

@@ -36,7 +36,7 @@ Start by creating the schema that will be used in your dataset:
 
     >[!CAUTION]
     >
-    >The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your ranking strategy.
+    >The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your AI model.
 
 1. Type a name and save the schema.
 
@@ -60,4 +60,4 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 
 >[!NOTE]
 >
->This dataset can now be selected to collect event data when [creating a ranking strategy](#create-ranking-strategy).
+>This dataset can now be selected to collect event data when [creating an AI model](../ranking/create-ranking-strategies.md).
