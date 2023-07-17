@@ -77,7 +77,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
-* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
+* **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -187,7 +187,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push notific
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
-* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
+* **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
