@@ -11,7 +11,7 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 
 Placements are containers that are used to showcase your offers. A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 
-You can view a list of all placements within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all placements by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 
@@ -21,9 +21,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | Defines the schema associated with placements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
 ## Using query parameters {#using-query-parameters}
@@ -36,9 +34,7 @@ The most common query parameters for paging include:
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `q` | An optional query string to search for in selected fields. The query string should be lowercase and can be surrounded by double quotes to prevent it from being tokenized and to escape special characters. The characters `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` have special meaning and should be escaped with a backslash when appearing in the query string. | Website JSON |
-| `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
-| `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
+| `property`| An optional property filter: <br> <ul> - The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=<property-expr>[&property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Property expressions are in format [!]field[op]value, with op in [==,!=,<=,>=,<,>,~], supporting regular expressions| property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description|
 | `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
 | `limit` | Limit the number of placements returned. | `limit=5` |
 
