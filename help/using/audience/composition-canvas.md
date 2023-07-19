@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-badge: label="Beta" type="Informative"
 ---
 # Work with the composition canvas {#composition-canvas}
 

@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-badge: label="Beta" type="Informative"
 ---
 # Create your first composition workflow {#create-compositions}
 

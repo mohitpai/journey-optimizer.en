@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-badge: label="Beta" type="Informative"
 ---
 # Access and manage audiences {#access-manage-audiences}
 
