@@ -133,7 +133,7 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Enrichment attributes"
->abstract="Select one or multiple attributes from the enrichment dataset to associate to the audience. Once the composition is published, these attributes are associated to the audience and can be leveraged in campaigns to personalize deliveries."
+>abstract="Select one or multiple attributes from the enrichment dataset to associate to the audience. Once the composition is published, these attributes are associated to the audience and can be leveraged in Journey Optimizer campaigns to personalize deliveries."
 
 The **[!UICONTROL Enrich]** activity allows you to enrich your audience with additional attributes coming from Adobe Experience Platform datasets. For example, you can add information related to the product purchased like its name, price, or manufacturer ID and leverage these information to personalize the deliveries sent to the audience.
 
