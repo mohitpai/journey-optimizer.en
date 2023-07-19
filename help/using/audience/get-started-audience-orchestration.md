@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-badge: label="Beta" type="Informative"
 ---
 # Get started with audience composition {#get-start-audience-composition}
 
