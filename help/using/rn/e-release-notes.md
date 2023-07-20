@@ -99,7 +99,9 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+
 
 
 **Campaigns**
@@ -117,5 +119,6 @@ With the release of the Audience Composition portal, Adobe Experience Platform a
 * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as "segment".
 
 As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
+
 
 
