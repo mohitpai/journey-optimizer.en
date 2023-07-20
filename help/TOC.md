@@ -10,6 +10,7 @@ solution: Journey Optimizer
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
+  + [Early release notes](using/rn/e-release-notes.md)
   + [Latest release notes](using/rn/release-notes.md)
   + Previous release notes {#previous-rn-new}
     + [2022 Release notes](using/rn/release-notes-2022.md)
