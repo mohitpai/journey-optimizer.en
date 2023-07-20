@@ -95,7 +95,8 @@ To create a channel surface, follow these steps:
     > When creating an email surface for a subdomain, the processing time varies as detailed below:
     >
     > * For **new subdomains**, the process for creating the first channel surface can take **10 min to 10 days**.
-    > * For **non production sandboxes**, or if the selected subdomain is **already used** in another channel surface, the process takes only **3 hours**.
+    > * For **non production sandboxes**, or if the selected subdomain is **already used** in another approved channel surface, the process takes only **3 hours**.
+
 
     These checks include configuration and technical tests that are performed by the Adobe team:
 
