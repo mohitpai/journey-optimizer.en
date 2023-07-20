@@ -49,9 +49,10 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer is expanding its cross-channel capabilities by adding support for direct mail channel. Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
