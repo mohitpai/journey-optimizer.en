@@ -84,7 +84,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>You can now assign Adobe Experience Platform Unified Tags to your landing pages, templates, content fragments and subscription lists, in addition to campaigns and journeys. This allows you to easily classify them, and improve search and navigation in all lists. This feature is currently in now GA (General Available).</p>
+<p>In addition to campaigns and journeys, you can now assign Adobe Experience Platform Unified Tags to your landing pages, templates, content fragments, and subscription lists. This allows you to easily classify them, and improve search and navigation in all lists. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
@@ -97,6 +97,16 @@ This release brings the new capabilities listed below.
 
 This release comes with the improvements listed below.
 
+**Journeys**
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
+
+
+**Campaigns**
+
+* Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
+
+
 **Audiences**
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.  
@@ -108,13 +118,4 @@ With the release of the Audience Composition portal, Adobe Experience Platform a
 
 As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
 
-
-**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
-
-
-**Campaigns**
-
-* Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
 
