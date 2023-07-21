@@ -6,10 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, message, campaign
-hide: yes
-hidefromtoc: yes
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
 ---
 # Create a direct mail message {#create-direct}
 
@@ -18,18 +15,6 @@ badge: label="Beta" type="Informative"
 >title="Direct mail creation"
 >abstract="Create direct mail messages in scheduled campaigns and design the extraction files required by direct mail providers to send mail to your customers."
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* **[Create a direct mail](create-direct-mail.md)**
-* [Configure direct mail](direct-mail-configuration.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Direct mail is currently available as a private beta, and may be subject to frequent updates without notice.
 
 Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
 
