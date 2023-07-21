@@ -222,7 +222,9 @@ solution: Journey Optimizer
   + [Configure SMS channel](using/sms/sms-configuration.md)
   + [Set up SMS subdomains](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
+  + [Get started with direct mail](using/direct-mail/get-started-direct-mail.md)
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)
+  + [Test & send a direct mail message](using/direct-mail/test-send-direct-mail.md)
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
