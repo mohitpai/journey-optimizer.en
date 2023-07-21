@@ -21,13 +21,15 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 
 1. Select the **[!UICONTROL Direct mail surface]** to use and click **[!UICONTROL Create]**. [Learn how to create a direct mail surface](direct-mail-configuration.md#direct-mail-surface).
 
-   ![](assets/direct-mail-campaign.png)
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. In the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 
 1. To define your target audience, click the **[!UICONTROL Select audience]** button and choose from the available Adobe Experience Platform audiences. [Learn more](../audience/about-audiences.md).
 
 1. In the **[!UICONTROL Identity namespace]** field, select the appropriate namespace to identify individuals within the chosen audience. [Learn more](../event/about-creating.md#select-the-namespace).
+
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
 1. Campaigns can be scheduled for a specific date or set to recur at regular intervals. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
     
@@ -45,7 +47,7 @@ You can now start configuring the extraction file to send to your direct mail pr
 
    1. Sometimes you may need to add information at the beginning or at the end of the extraction file. To do this, use the **[!UICONTROL Notes]** field then specify if you want to include the note as header or footer.
 
-      ![](assets/direct-mail-properties.png)
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. Configure the columns and the information to be displayed in the extraction file:
 
@@ -57,7 +59,7 @@ You can now start configuring the extraction file to send to your direct mail pr
 
    1. To sort the extraction file using a column, select the column and toggle on the **[!UICONTROL Sort by]** option. The **[!UICONTROL Sort By]** icon displays next to the column's label in the **[!UICONTROL Data Fields]** section.
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
    1. Repeat these steps to add as many columns as needed for your extraction file. Note that you can add up to 50 columns.
 

@@ -15,21 +15,21 @@ Once the content of the extraction file has been defined, you can use test profi
 
 1. In the extraction file content configuration screen, click **[!UICONTROL Simulate content]**.
 
-      ![](assets/direct-mail-simulate-button.png)
+      ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
 
 1. Click **[!UICONTROL Manage test profiles]** to add a test profile.
 
 1. Find your test profile with the **[!UICONTROL Identity namespace]** and **[!UICONTROL Identity value]** fields. Then, click **[!UICONTROL Add profile]**.
 
-      ![](assets/direct-mail-test-profile.png)
+      ![](assets/direct-mail-test-profile.png){width="800" align="center"}
 
 1. Once you selected your test profile, you can close the **[!UICONTROL Add test profile]** window.
 
 1. From the **Preview & test** window, test profile data is added to the extraction file content, allowing you to preview how the file will render.
 
-    ![](assets/direct-mail-simulate.png)
+    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Once that the file content is ready to be sent, click **[!UICONTROL Review to activate]** button.
+Once that the file content is ready to be sent, close the simulate screen then click the **[!UICONTROL Review to activate]** button.
 
 ## Validate & activate the direct mail campaign {#dm-validate}
 
@@ -39,7 +39,7 @@ Before activating the direct mail campaign, make sure that the campaign and the 
 
 * **Errors** prevent you from publishing the campaign, as long as they are not resolved. For example, an error message warns you when the subject line is missing.
 
-![](assets/direct-mail-review.png)
+![](assets/direct-mail-review.png){width="800" align="center"}
 
 When your direct mail campaign is ready, click the **[!UICONTROL Activate]** button. When the campaign starts, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).
 
