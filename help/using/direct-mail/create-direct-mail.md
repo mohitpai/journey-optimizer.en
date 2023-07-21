@@ -37,28 +37,30 @@ You can now start configuring the extraction file to send to your direct mail pr
 
 1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the extraction file content.
 
-1. Define the name of the extraction file in the **[!UICONTROL Filename]** field.
+1. Configure the extraction file properties:
 
-   Sometimes you may need to add information at the beginning or at the end of the extraction file. To do this, use the **[!UICONTROL Notes]** field then specify if you want to include the note as a header or footer.
+   1. Define the name of the extraction file in in the **[!UICONTROL Filename]** field.
+   
+   1. Enable the **[!UICONTROL Append timestamp to export filename]** option if you want to automatically add a timestamp to the file name specified above.
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+   1. Sometimes you may need to add information at the beginning or at the end of the extraction file. To do this, use the **[!UICONTROL Notes]** field then specify if you want to include the note as header or footer.
 
-   ![](assets/direct-mail-properties.png)
+      ![](assets/direct-mail-properties.png)
 
-1. Use the left hand-side area to define the information to be displayed as columns into the extraction file:
+1. Configure the information to be displayed as columns into the extraction file:
 
-   1. Click the **[!UICONTROL Add]** button to add a new column, then select it from the list.
+   1. Click the **[!UICONTROL Add]** button to add a new column.
 
-   1. In the **[!UICONTROL Formatting]** section, specify a label for the column then define the profile attributes to display using the [Expression Editor](../personalization/personalization-build-expressions.md).
+   1. A **[!UICONTROL Formatting]** pane displays on the right-hand side, allowing you to configure the selected column. Specify a **[!UICONTROL Label]** for the column.
+   
+   1. In the **[!UICONTOL Data]** field, select the profile attributes to display using the [Expression Editor](../personalization/personalization-build-expressions.md).
+
+   1. To sort the extraction file using a column, select the column and toggle on the **[!UICONTROL Sort by]** option. The **[!UICONTROL Sort By]** icon displays next to the column's label in the **[!UICONTROL Data Fields]** section.
 
       ![](assets/direct-mail-content.png)
-      
-   1. To sort the extraction file using the selected column, toggle the **[!UICONTROL Sort by]** option on. The **[!UICONTROL Sort By]** icon will then display next to the column's label in the file structure.
 
-1. Repeat these steps to add as many columns as needed to build your extraction file. Note that you can add up to 50 columns.
+   1. Repeat these steps to add as many columns as needed to build your extraction file. Note that you can add up to 50 columns.
 
-   You can delete a column at any time by selecting it and clicking the **[!UICONTROL Remove]** button from the **[!UICONTROL Formatting]** section.
+      To change the position of a column, drag and drop it at the desired location in the **[!UICONTROL Data field]** section. To delete a column, select it and click the **[!UICONTROL Remove]** button in the **[!UICONTROL Formatting]** pane.
 
-   ![](assets/direct-mail-complete.png)
-
-You can now test your direct mail message and send it to your audience. [Learn more](test-send-direct-mail.md)
+You can now test your direct mail message and send it to your audience. [Learn how to test & send direct mail messages](test-send-direct-mail.md)
