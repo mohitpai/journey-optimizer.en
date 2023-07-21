@@ -53,7 +53,7 @@ You can now start configuring the extraction file to send to your direct mail pr
 
    1. The **[!UICONTROL Formatting]** pane displays on the right-hand side, allowing you to set up the selected column. Specify a **[!UICONTROL Label]** for the column.
    
-   1. In the **[!UICONTOL Data]** field, select the profile attributes to display using the [Expression Editor](../personalization/personalization-build-expressions.md).
+   1. In the **[!UICONTROL Data]** field, select the profile attributes to display using the [Expression Editor](../personalization/personalization-build-expressions.md).
 
    1. To sort the extraction file using a column, select the column and toggle on the **[!UICONTROL Sort by]** option. The **[!UICONTROL Sort By]** icon displays next to the column's label in the **[!UICONTROL Data Fields]** section.
 
