@@ -57,7 +57,7 @@ Here are a few examples of use cases:
 | |previousNodeName|Previous Node Name|Name of the previous activity (node)|
 |Errors|lastNodeUIDInError|Last Node Identifier in Error|Identifier of the latest activity (node) in error|
 | |lastNodeNameInError|Last Node Name in Error|Name of the latest activity (node) in error|
-| |lastNodeTypeInError|Last Node Type in Error|Error type of the latest activity (node) in error. Possible types:<ul><li>Events: Events, Reactions, SQ (example: Segment Qualification)</li><li>Flow control: End, Condition, Wait</li><li>Actions: ACS actions, Jump, Custom Action</li></ul>|
+| |lastNodeTypeInError|Last Node Type in Error|Error type of the latest activity (node) in error. Possible types:<ul><li>Events: Events, Reactions, SQ (example: Audience Qualification)</li><li>Flow control: End, Condition, Wait</li><li>Actions: ACS actions, Jump, Custom Action</li></ul>|
 | |lastErrorCode|Last Error Code|Error code of the latest activity (node) in error. Possible errors: <ul><li>HTTP error codes</li><li>capped</li><li>timedOut</li><li>error (example: default in case of an unexpected error. Should not/extremely rarely happen)</li></ul>|
 | |lastExecutedActionErrorCode|Last Executed Action Error Code|Error code of the latest action in error |
 | |lastDataFetchErrorCode|Last Data Fetch Error Code|Error code of the latest data fetch from data sources|

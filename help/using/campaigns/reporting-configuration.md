@@ -43,11 +43,13 @@ Before being able to add a dataset to the reporting configuration, you must crea
 
 * You can only add event-type datasets.
 
-* These datasets must contain at least one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Application Details**, **Commerce Details**, **Web Details**.
+* These datasets must include the **Experience Event - Proposition Interactions** [field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
+
+* These datasets may also contain one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Application Details**, **Commerce Details**, **Web Details**.
 
     >[!NOTE]
     >
-    >Only these field groups are currently supported.
+    >Other field groups may also be included, but only the above field groups are currently supported in Journey Optimizer reporting.
 
     For example, if you want to know the impact of an email campaign on commerce data such as purchases or orders, you need to create an experience event dataset with the **Commerce Details** field group.
 

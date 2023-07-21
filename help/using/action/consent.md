@@ -31,14 +31,14 @@ In Journey Optimizer, consent can be leveraged in custom actions. If you want to
 
 With consent management, two journey activities are analyzed: 
 
-* Read segment: the retrieved segment is taken into account.
+* Read audience: the retrieved audience is taken into account.
 * Custom action: consent management takes into account the attributes used ([action parameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) as well as the  marketing action(s) defined (required marketing action and additional marketing action).
 * Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
 * Consent policies only apply when a marketing action (required or additional) is set at the custom action level. 
 
-All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
+All other activities used in a journey are not taken into account. If you start your journey with an Audience qualification, the audience is not taken into account.
 
-In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to them, but they continue the journey. The profile does not go to the timeout and error path when using a condition.
+In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him, but he continues the journey. The profile does not go to the timeout and error path when using a condition.
 
 Before refreshing policies in a custom action positioned in a journey, make sure your journey has no error. 
 
@@ -106,7 +106,7 @@ The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
 * action parameters defined in the custom action, see this [section](../action/about-custom-action-configuration.md#define-the-message-parameters) 
-* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-segment.md) 
+* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-audience.md) 
 
 >[!NOTE]
 >

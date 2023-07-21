@@ -25,7 +25,7 @@ You can also set up specific actions to send you messages:
 
 To add a message in a journey, follow the steps below:
 
-1. Start your journey with an [Event](general-events.md) or a [Read Segment](read-segment.md) activity.
+1. Start your journey with an [Event](general-events.md) or a [Read Audience](read-audience.md) activity.
 
 1. From the **Actions** section of the palette, drag and drop an **email**, an **In-app**, an **SMS** or a **Push** activity into the canvas.
 
@@ -109,6 +109,10 @@ The model varies whether you are talking about scoring or training. Training is 
 * Scoring - the application of a score to individual profiles based on the trained model
 
 This information is stored with the user's profile and is referenced at journey execution to tell Adobe Journey Optimizer when to send your message. 
+
+>[!CAUTION]
+>
+>This feature is not compatible with burst mode.
 
 ### Activate Send-Time Optimization{#activate-send-time-optimization}
 

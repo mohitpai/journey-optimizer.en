@@ -92,7 +92,7 @@ To start building your content, follow the steps below:
 
     ![](assets/email_designer_asset_picker.png)
 
-1. Insert personalization fields to customize your content from profiles attributes, Segment memberships, Contextual attributes, and more. [Learn more about content personalization](../personalization/personalize.md)
+1. Insert personalization fields to customize your content from profiles attributes, audience memberships, Contextual attributes, and more. [Learn more about content personalization](../personalization/personalize.md)
 
     ![](assets/email_designer_personalization.png)
 

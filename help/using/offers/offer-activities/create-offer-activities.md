@@ -66,17 +66,17 @@ Before creating a decision, make sure that the components below have been create
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform audiences**. Both are detailed in [this section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-    * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
+    * To restrict the selection of the offers to the members of an Experience Platform audience, select **[!UICONTROL Audiences]**, then click **[!UICONTROL Add audiences]**.
 
         ![](../assets/activity_constraint_segment.png)
     
-        Add one or several segments from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+        Add one or several audiences from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
         ![](../assets/activity_constraint_segment2.png)
 
-        Learn how to work with segments in [this section](../../segment/about-segments.md).
+        Learn how to work with audiences in [this section](../../audience/about-audiences.md).
 
     * If you want to add a selection constraint with a decision rule, use the **[!UICONTROL Decision rule]** option and select the rule of your choice.
 
@@ -84,7 +84,7 @@ Before creating a decision, make sure that the components below have been create
 
         Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
-1. When you select segments or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
+1. When you select audiences or decision rules, you can see information on the estimated qualified profiles. Click **[!UICONTROL Refresh]** to update data.
 
     >[!NOTE]
     >
@@ -131,7 +131,6 @@ Before creating a decision, make sure that the components below have been create
 As described above, an evaluation criteria consists of a collection, eligibility constraints, and a ranking method. You can set the sequential order you want for the evaluation criteria to be evaluated, but you can also combine multiple evaluation criteria so they are evaluated together and not separately.
 
 #### With one scope {#one-scope}
-
 
 Inside a single decision scope, multiple criteria and their grouping determine the priority of the criteria and ranking of eligible offers. The first criteria has the highest priority and the criteria combined within the same 'group' have the same priority.
 
@@ -201,7 +200,7 @@ Let's take an example where you added two decision scopes such as:
 * Scope 2: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
 
 +++ **Example 1**
- 
+
 The selection is as follows:
 
 1. The top two eligible offers from Scope 1 will be returned (Offer 1, Offer 2).
@@ -210,9 +209,9 @@ The selection is as follows:
 +++
 
 +++ **Example 2**
- 
+
 In this example, Offer 1 reached its frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
+
 The selection is as follows:
 
 1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 3).
@@ -221,9 +220,9 @@ The selection is as follows:
 +++
 
 +++ **Example 3**
- 
+
 In this example, Offer 1 and Offer 3 reached their frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
+
 The selection is as follows:
 
 1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 4).
@@ -241,7 +240,7 @@ Let's take the same example as above where you added two decision scopes such as
 * Scope 2: There are four eligible offers (Offer 1, Offer 2, Offer 3, Offer 4) and the request is for two offers to be sent back.
 
 +++ **Example 1**
- 
+
 The selection is as follows:
 
 1. The top two eligible offers from Scope 1 will be returned (Offer 1, Offer 2).
@@ -250,9 +249,9 @@ The selection is as follows:
 +++
 
 +++ **Example 2**
- 
+
 In this example, Offer 1 reached its frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
+
 The selection is as follows:
 
 1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 3).
@@ -262,9 +261,9 @@ The selection is as follows:
 +++
 
 +++ **Example 3**
- 
+
 In this example, Offer 1 and Offer 3 reached their frequency cap limit. [Learn more on frequency capping](../offer-library/add-constraints.md#capping)
- 
+
 The selection is as follows:
 
 1. The remaining top two eligible offers from Scope 1 will be returned (Offer 2, Offer 4).
@@ -318,7 +317,7 @@ Select the **[!UICONTROL Edit]** button to go back to the decision edition mode,
 
 >[!IMPORTANT]
 >
->If changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
+>If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
 
 Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
 

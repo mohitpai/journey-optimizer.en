@@ -16,16 +16,30 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
+## July 2023 updates
+
+<table>
+<thead>
+<tr>
+<th><strong>Audience composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved back into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+
+<img src="../audience/assets/audiences-publish.png"/>
+
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
+
+<p>Audience composition comes fully integrated with the new Adobe Experience Platform "Audiences" menu which serves as a centralized portal to audiences. You can now use a browse page that includes a new dashboard with segment trends and overlaps to find new insights and explore organizational tools for foldering and tagging. Embedded within this experience are governance controls for standardized audience labeling as well as audience lifecycle management capabilities to manage activation workflows. With this new management experience, you can now easily and securely manage audiences from one place. For more information, refer to <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform documentation</a>.</p></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## June 2023 release notes {#june-rn-2023}
-
-<!--
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
-
-**Release date**: June 21-22, 2023-->
-
-
-<!-- ### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>
@@ -58,28 +72,28 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
+<!--
+## June 2023 early release notes {#june-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+
+
+**Journeys**
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+--> 
+
 ## May 2023 release notes {#may-rn-2023}
 
 ### New capabilities{#may-2023-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Audience Composition</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 <table>
 <thead>
@@ -164,7 +178,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
@@ -295,11 +309,9 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * The journey canvas now displays the activity ID on message activities and end tags. This improves reporting and retargeting.
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
+* New insight to number of nodes on canvas with safeguards for helping grow: keep journeys easy to read, QA and troubleshoot with a maximum number of nodes per journey at 50. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 * When adding an [Email](../email/create-email.md), [SMS](../sms/create-sms.md) or [Push](../push/create-push.md) action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel, in the current journey.
 * You can now define static or dynamic query parameters in your custom actions. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
-* New guardrails to manage growth of experiences delivered by Journeys:
-    * We recommend that you keep the number of nodes limited to 50 or less to keep your journeys performant, easy to read, QA and troubleshoot. The number of activities will be displayed on the upper left section of the journey canvas. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
-    * As you develop and launch journeys, we will notify you as you approach the milestone of 100 live journeys at one time. Should your plans require more than 100 journeys at a time, please create a ticket for support after seeing the notification and we will help you. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Reporting**
 
@@ -372,8 +384,8 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty place holders have been removed. You can now simply add your activities by dragging them at the end of a path.
 * In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
 * The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. [Learn more](../configuration/external-systems.md#timeout)
-* The default throttling rate in read segment activities has been changed from 20,000 to 5,000 messages per second. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* A guardrail has been added to the test mode to only listen to events sent through the interface. Events sent through an external tool are not taken into account. [Learn more](../building-journeys/testing-the-journey.md)
+* The default throttling rate in read audience activities has been changed from 20,000 to 5,000 messages per second. [Learn more](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events send through an external tool are not taken into account. [Learn more](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -503,9 +515,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or an audience qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
 
-* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read audience** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -579,7 +591,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* When adding a **Segment qualification** or **Read segment** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the [Segment qualification](../building-journeys/segment-qualification-events.md#about-segment-qualification) and [Read segment](../building-journeys/read-segment.md#configuring-segment-trigger-activity) sections.
+* When adding an **Audience qualification** or **Read audience** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the [Audience qualification](../building-journeys/audience-qualification-events.md#about-segment-qualification) and [Read audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity) sections.
 
 * In the journey canvas, a new button is available in the toolbar which allows you to download a screenshot of your journey. 
 

@@ -29,7 +29,7 @@ Learn more about [Journey Optimizer + Customer Journey Analytics](../reports/cja
 
 ## Adobe Analytics{#integration-aa}
 
-You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into Adobe Experience Platform to trigger real time journeys and automate experiences for your customers. This data can also be used to create segments that can be engaged using Journey Optimizer.
+You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into Adobe Experience Platform to trigger real time journeys and automate experiences for your customers. This data can also be used to create audiences that can be engaged using Journey Optimizer.
 
 Learn more about [Journey Optimizer + Analytics](../event/about-analytics.md).
 

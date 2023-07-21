@@ -53,4 +53,3 @@ To create a split audience in audience composition follow these steps:
 1. Once finished, publish the audience composition.
 
 If using the segment rule builder to create your audience you can select personalization and consent value choices as exclusion parameters in the audience definition. By adding in the exclusion parameters you can create a single audience segment of profiles where individuals that have not given consent are filtered out.
-

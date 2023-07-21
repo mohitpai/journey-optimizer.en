@@ -70,13 +70,12 @@ The attributes need to be defined in the schema before being referenced in a [!D
 
 `{{profile.faxPhone.number}}`
 
-## Segments{#perso-segments}
+## Audiences{#perso-segments}
 
 Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
 
 >[!NOTE]
->To learn more about segmentation and segmentation service, refer to [this section](../segment/about-segments.md).
->
+>To learn more about the segmentation service, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Offers {#offers-syntax}
 
@@ -159,7 +158,7 @@ Journey Optimizer allows you to personalize one or several URLs in your message 
 
 >[!NOTE]
 >
->In the expression editor, when you edit a personnalized URL, helper functions and segments membership are disabled for security reasons.
+>In the expression editor, when you edit a personnalized URL, helper functions and audiences membership are disabled for security reasons.
 >
 
 **Sample personalized URLs**

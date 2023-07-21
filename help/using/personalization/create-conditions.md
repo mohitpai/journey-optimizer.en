@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 ---
 # Work with conditional rules {#conditions}
 
-Conditional rules are sets of rules that define which content should be displayed in your messages, depending on various criteria like profiles' attributes, segment membership or contextual events.
+Conditional rules are sets of rules that define which content should be displayed in your messages, depending on various criteria like profiles' attributes, audience membership or contextual events.
 
 Conditional rules are created using the expression editor and can be stored if you want to reuse them across your contents. [Learn how to save a conditional rule to the library](#save)
 
@@ -50,17 +50,17 @@ The steps to create a conditional rule are as follows:
 
 1. Build the conditional rule according to your needs. To do this, drag and drop and arrange the desired attributes from the left menu into the canvas. 
 
-    The steps to combine attributes into the canvas are similar to the segment building experience. For more information on how to work with the rule builder canvas, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+The steps to combine attributes into the canvas are similar to the segment building experience. For more information on how to work with the rule builder canvas, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
     ![](assets/conditions-create.png)
 
     Attributes are organized into three tabs:
 
     * **[!UICONTROL Profile]**:
-        * **[!UICONTROL Segment Membership]** lists all segment attributes (i.e. status, version etc.) for [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+        * **[!UICONTROL Audiences]** lists all audience attributes (i.e. status, version etc.) for [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
         * **[!UICONTROL XDM Individual profiles]** lists all the profile attributes associated to the [Experience Data Model (XDM) schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) defined in Adobe Experience Platform.
     * **[!UICONTROL Contextual]**: when your message is used in a journey, contextual journey fields are available through this tab.
-    * **[!UICONTROL Audiences]**: lists all the audiences generated from segments created in [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    * **[!UICONTROL Audiences]**: lists all the audiences generated from segment definitions created in [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Once your conditional rule is ready, you can add it to your message to create dynamic content. [Learn how to add dynamic content](dynamic-content.md)
 

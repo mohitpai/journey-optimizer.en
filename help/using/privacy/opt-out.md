@@ -61,15 +61,19 @@ When leveraging offers, personalization preferences are not automatically implem
 >
 >Decision scopes used in [!DNL Journey Optimizer] authored channels satisfy this requirement from the journey or campaign they belong to.
 
+1. Create an [Adobe Experience Platform audience](../audience/access-audiences.md) using the [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} and use a profile attribute such as **[!UICONTROL Personalize Content = Yes (opt-in)]** to target users who have consented to personalization.
 
+    ![](assets/perso-consent-od-audience.png)
 
-1. Create an [Adobe Experience Platform segment](../segment/about-segments.md) using a profile attribute such as: *"Consents to Personalization = True"* to target users who have consented to personalization.
+1. When creating a [decision](../offers/offer-activities/create-offer-activities.md), add a decision scope and define an eligibility constraint based on this audience for each evaluation criteria collection that contains personalized offers.
 
-1. When creating a [decision](../offers/offer-activities/create-offer-activities.md), add a decision scope and define an eligibility constraint based on this segment for each evaluation criteria collection that contains personalized offers.
+    ![](assets/perso-consent-od-audience-decision.png)
 
 1. Create a [fallback offer](../offers/offer-library/creating-fallback-offers.md) that does not include personalized content.
 
 1. [Assign](../offers/offer-activities/create-offer-activities.md#add-fallback) the non-personalized fallback offer to the decision.
+
+    ![](assets/perso-consent-od-audience-fallback.png)
 
 1. [Review and save](../offers/offer-activities/create-offer-activities.md#review) the decision.
 
@@ -83,3 +87,87 @@ If a user has:
 >
 >Consent for having profile data used in [data modeling](../offers/ranking/ai-models.md) is not supported yet in [!DNL Journey Optimizer].
 
+## In the Expression editor
+
+<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+
+The [Expression editor](../personalization/personalization-build-expressions.md) itself does not perform any consent checks or enforcement as it is not involved in the delivery of messages.
+
+However, the use of right-based acces control labels allows to restrict which fields can be used for personalization. The [message preview](../email/preview.md#preview-email) and [email rendering service](../email/preview.md#email-rendering) will mask the fields identified with sensitive information.
+
+>[!NOTE]
+>
+>Learn more on Object level access control (OLAC) in [this section](../administration/object-based-access.md).
+
+
+In [!DNL Journey Optimizer] campaigns, the consent policy is enforced as follows:
+
+* You can include consent policy definitions as part of the audience creation to ensure that the audience selected for the campaign has already **filtered out profiles that do not match the consent criteria**.
+
+* [!DNL Journey Optimizer] will perform a general consent check at the channel level to **ensure that profiles have opted in** to receive marketing communications on the corresponding channel.
+
+    >[!NOTE]
+    >
+    >The [!DNL Journey Optimizer] campaign object itself does not perform any additional consent policy enforcement checks at this time. 
+
+To manually enforce personalization consent in campaigns, follow one of the options below.
+
+### Using the segment rule builder
+
+You can use the segment rule builder to create an audience containing opt-out profiles.
+
+1. Create an [Adobe Experience Platform audience](../audience/access-audiences.md) using the [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+
+    ![](assets/perso-consent-audience-build-rule.png)
+
+1. Select a profile attribute such as **[!UICONTROL Personalize Content = No (opt-out)]** to exclude users who have not consented to personalization.
+
+    ![](assets/perso-consent-audience-no.png)
+
+1. Click **[!UICONTROL Save]**.
+
+You can now use this audience to filter out the profiles that have not given consent to personalization from your campaigns.
+
+### Using a split activity in a composition workflow
+
+You can also add a personalization consent check to an audience by adding a split activity to a composition workflow.
+
+1. Create an audience using the **[!UICONTROL Compose Audience]** option. [Learn more on creating a composition workflow](../audience/create-compositions.md)
+
+    ![](assets/perso-consent-audience-compose.png)
+
+1. Add your starting audience using the dedicated button on the right.
+
+1. Click the + icon and select **[!UICONTROL Split]** to create a split audience. [Learn more on the Split activity](../audience/composition-canvas.md#split)
+
+    ![](assets/perso-consent-audience-split.png)
+
+1. Select **[!UICONTROL Attribute split]** as the split type in the right pane.
+
+    ![](assets/perso-consent-audience-attribute-split.png)
+
+1. Click the pencil icon next to the **[!UICONTROL Attribute]** field  to bring up the **[!UICONTROL Select a profile attribute]** window.
+
+1. Search for the personalization consent attribute (`profile.consents.personalize.content.val`) and select it.
+
+    ![](assets/perso-consent-audience-consent-attribute.png)
+
+1. **[!UICONTROL Path 1]** will be the non-personalized audience. Choose a relevant label.
+
+1. Choose the appropriate value from this [list](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+
+    In this case we will use `n` to signify that users do not consent to the use of their data for personalization.
+
+    ![](assets/perso-consent-audience-path-1-n.png)
+
+1. You can create a separate path for other choice values. You can also choose to delete the remaining paths and turn on **[!UICONTROL Other profiles]** to include all other profiles that did not have a choice value of `n`.
+
+1. Once finished, click **[!UICONTROL Save Audience]** for each path to save the result of your workflow into a new audience. One audience will be saved into Adobe Experience Platform for each path.
+
+1. Once finished, publish the composition workflow.
+
+You can now use this audience to filter out the profiles that have not given consent to personalization from your campaigns.
+
+>[!NOTE]
+>
+>If you create an audience that has not given consent for personalization and you then select this audience in a campaign, the personalization tools will remain available. It is up to your marketing users to understand that if they are working with an audience that should not receive personalization, they should not use personalization tools.

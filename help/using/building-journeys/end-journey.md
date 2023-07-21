@@ -48,7 +48,7 @@ A journey can close because of the following reasons:
 
 * The journey is closed manually via the **[!UICONTROL Close to new entrances]** button. 
 * A one-shot segment based journey that has finished executing.
-* After the last occurrence of a recurring segment based journey.
+* After the last occurrence of a recurring audience based journey.
 
 Closing a journey manually ensures that customers who already entered the journey can finish their path but new users are not able to enter the journey. When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey stops letting new individuals enter the journey. Persons already in the journey can finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 

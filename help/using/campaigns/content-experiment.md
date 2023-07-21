@@ -59,9 +59,9 @@ The goal here is to see if recipients will interact with the email depending on 
     * **[!UICONTROL Name]**
     * **[!UICONTROL Description]**
 
-1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
+1. Define the audience to target. To do this, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Learn more on audiences](../audience/about-audiences.md)
 
-    In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](get-started-experiment.md#content-experiment-work)
+    In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected audience. [Learn more](get-started-experiment.md#content-experiment-work)
 
     ![](assets/content_experiment_16.png)
 

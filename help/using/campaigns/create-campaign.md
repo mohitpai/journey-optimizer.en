@@ -14,10 +14,10 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 
 >[!NOTE]
 >
->Before creating a new campaign, make sure you have a surface channel (i.e. message preset) and an Adobe Experience Platform segment ready for use. Learn more in these sections:
+>Before creating a new campaign, make sure you have a surface channel (i.e. message preset) and an Adobe Experience Platform audience ready for use. Learn more in these sections:
 >
 >* [Create channel surfaces](../configuration/channel-surfaces.md) 
->* [Get started with segments](../segment/about-segments.md)
+>* [Get started with audiences](../audience/about-audiences.md)
 
 To create a new campaign, access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**. You can also duplicate an existing live campaign to create a new one. [Learn more](modify-stop-campaign.md#duplicate)
 
@@ -116,7 +116,7 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 ## Define the audience {#audience}
 
-Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../segment/about-segments.md)
+Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -126,9 +126,9 @@ In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!NOTE]
-    >
-    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
+>[!NOTE]
+>
+>Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

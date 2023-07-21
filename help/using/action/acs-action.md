@@ -24,7 +24,7 @@ The Campaign Standard transactional message and its associated event must be pub
 
 * Adobe Campaign Standard integration is set up through a dedicated built-in action in the action list. This needs to be configured for each sandbox.
 
-* You cannot use a Campaign Standard action with a Segment qualification or Read segment activity.
+* You cannot use a Campaign Standard action with an Audience qualification or Read audience activity.
 
 * A journey cannot use both Messages and Campaign Standard actions.
 

@@ -33,7 +33,7 @@ To create an AI model, follow the steps below:
 1. Specify a unique name and a description for the AI model, then select the type of AI model you want to create:
     
     * **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes offers based on audiences and offer performance. [Learn more](personalized-optimization-model.md)
 
     ![](../assets/ai-ranking-fields.png)
 
@@ -63,7 +63,7 @@ To create an AI model, follow the steps below:
 
     >[!NOTE]
     >
-    >You can select up to 5 segments.
+    >You can select up to 5 audiences.
 
 1. Save and activate the AI model.
 

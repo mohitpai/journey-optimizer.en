@@ -96,13 +96,13 @@ Manage your data connections with other apps and clouds from this section.
 
 Manage your audiences and profile data from this section.
 
-* **[!UICONTROL Segments]** - Create and manage Experience Platform segment definitions, and use them into your journeys. [Learn more](../segment/about-segments.md)
+* **[!UICONTROL Audiences]** - Create and manage Experience Platform audiences, and use them into your journeys. [Learn more](../audience/about-audiences.md)
 
 * **[!UICONTROL Subscription lists]** - In [!DNL Journey Optimizer], customers who opted-in to a subscription service are gathered into a subscription list. [Learn more](../landing-pages/subscription-list.md)
 
-* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](../segment/get-started-profiles.md)
+* **[!UICONTROL Profiles]** - Real-time Customer Profile creates a holistic view of each of your individual customers, combining data from multiple channels including online, offline, CRM, and third-party data. [Learn more](../audience/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](../segment/get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service manages the cross-device, cross-channel, and near real-time identification of your customers in what is known as an identity graph within Adobe Experience Platform. [Learn more](../audience/get-started-identity.md)
 
 ### [!UICONTROL PRIVACY] {#left-nav-privacy}
 
@@ -140,7 +140,7 @@ From [!DNL Adobe Journey Optimizer] home page, product use cases provide a quick
 
 Available use cases are:
 
-* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](../segment/creating-test-profiles.md#use-case-1).
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](../audience/creating-test-profiles.md#use-case-1).
 * **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
 * **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)

@@ -22,7 +22,7 @@ Events configured by the technical user (see [this page](../event/about-events.m
 
 * [General events](../building-journeys/general-events.md)
 * [Reaction](../building-journeys/reaction-events.md)
-* [Segment Qualification](../building-journeys/segment-qualification-events.md)
+* [Audience Qualification](../building-journeys/audience-qualification-events.md)
 
  ![](assets/journey43.png)
 
@@ -38,7 +38,7 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 
 * [Condition](../building-journeys/condition-activity.md)
 * [Wait](../building-journeys/wait-activity.md)
-* [Read Segment](../building-journeys/read-segment.md)
+* [Read Audience](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

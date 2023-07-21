@@ -20,7 +20,7 @@ To learn how to subscribe to alerts and configure them, refer to this [page](htt
 
 >[!AVAILABILITY]
 >
->Some design changes are in progress for the ‘Read Segment Trigger Unsuccessful’ alert, hence this alert is paused for now, and has been temporary removed from the user interface. Once these changes are released, the alert will be surfaced again, and you will be able to subscribe to it.
+>Some design changes are in progress for the ‘Read Audience Trigger Unsuccessful’ alert, hence this alert is paused for now, and has been temporary removed from the user interface. Once these changes are released, the alert will be surfaced again, and you will be able to subscribe to it.
 >
 
 In the left menu, under **Administration**, click **Alerts**. 
