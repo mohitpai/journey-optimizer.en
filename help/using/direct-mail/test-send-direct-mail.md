@@ -31,12 +31,10 @@ You must check alerts in the upper section of the editor. Some of them are simpl
 
 * **Errors** prevent you from publishing the campaign, as long as they are not resolved. For example, an error message warns you when the subject line is missing.
 
-![](assets/sms-alert-button.png)
-
 ## Send your direct mail message {#dm-send}
 
 When your direct mail message is ready, complete the configuration of your [campaign](../campaigns/create-campaign.md) to send it.
 
 When the campaign will start, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).
 
-Once sent, you can measure the impact of your direct mail messages within the Campaign reports. For more on reporting, refer to this section
+Once sent, you can measure the impact of your direct mail messages within the Campaign reports. For more on reporting, refer to this section.

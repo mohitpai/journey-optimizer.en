@@ -33,7 +33,6 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
     
 You can now start configuring the extraction file to send to your direct mail provider.
 
-
 ## Configure the extraction file {#extraction-file}
 
 1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the extraction file content.
@@ -62,4 +61,4 @@ You can now start configuring the extraction file to send to your direct mail pr
 
    ![](assets/direct-mail-complete.png)
 
-You can now test and send your SMS message to your audience. [Learn more](test-send-direct-mail.md)
+You can now test your direct mail message and send it to your audience. [Learn more](test-send-direct-mail.md)
