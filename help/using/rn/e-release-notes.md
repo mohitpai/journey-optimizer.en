@@ -49,7 +49,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
@@ -84,7 +84,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>In addition to campaigns and journeys, you can now assign Adobe Experience Platform Unified Tags to your landing pages, templates, content fragments, and subscription lists. This allows you to easily classify them, and improve search and navigation in all lists. </p>
+<p>In addition to campaigns and journeys, you can now assign Adobe Experience Platform Unified Tags to your landing pages, content templates, fragments, and subscription lists. This allows you to easily classify them, and improve search and navigation in all lists. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
@@ -99,7 +99,7 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 
 
