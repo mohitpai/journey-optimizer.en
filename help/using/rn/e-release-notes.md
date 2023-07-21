@@ -24,6 +24,23 @@ This release brings the new capabilities listed below.
 <table>
 <thead>
 <tr>
+<th><strong>Content templates APIs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and manage Adobe Journey Optimizer content templates using dedicated APIs, providing a seamless integration with your existing content system.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Audience composition</strong><br/></th>
 </tr>
 </thead>
@@ -103,7 +120,6 @@ This release comes with the improvements listed below.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 
 
-
 **Campaigns**
 
 * Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
@@ -120,5 +136,15 @@ With the release of the Audience Composition portal, Adobe Experience Platform a
 
 As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
 
+**APIs**
+
+Adobe Journey Optimizer APIs Authentication - The JWT method to generate access tokens has been deprecated. All new integrations must be created using the OAuth Server-to-Server authentication method. Adobe also recommends that you migrate your existing integrations to the OAuth method. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**Other changes**
+
+Journey Optimizer datasets export to Cloud Storage Destinations is now available to all customers. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets. [Learn more](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>This feature is currently in beta and subject to change.</p>
