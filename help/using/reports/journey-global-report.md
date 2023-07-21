@@ -28,6 +28,7 @@ The journey **[!UICONTROL Global report]** page will be displayed with the follo
 * [Email](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [In-app](#in-app-global)
 
 The journey **[!UICONTROL Global report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](global-report.md#modify-dashboard).
 
@@ -285,4 +286,31 @@ The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which er
 
 The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
 
++++
+
+## In-app tab {#in-app-global}
+
+From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your journeys.
+
+![](assets/in-app-journey-report.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+
+* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
+
+The **[!UICONTROL Clicks by button]** graphs and table contain the available data for recipient behavior per button:
+
+* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
 +++
