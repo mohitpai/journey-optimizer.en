@@ -9,7 +9,7 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 ---
 # Get started with offer delivery APIs {#about-decisioning-apis}
 
-You can deliver offers using either the **Decisioning** or the **Edge Decisioning** API. Additionally, the **Batch Decisioning** API allows you to deliver offers to all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
+You can deliver offers using either the **Decisioning** or the **Edge Decisioning** API. Additionally, the **Batch Decisioning** API allows you to deliver offers to all profiles in a given audience in one call. The offer content for each profiles in the audience is placed in an Adobe Experience Platform dataset where it is available for custom batch workflows.
 
 In this page, you will find information on specific functionalities that are available with the **Decisioning** and **Edge Decisioning** APIs. While both allow you to deliver offers to your customers, we recommend using the **Edge Decisioning** API whenever possible for inbound use cases and to ensure better latency and throughput on your platform.
 

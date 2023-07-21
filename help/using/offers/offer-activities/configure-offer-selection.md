@@ -32,7 +32,7 @@ For example, you can boost the priority of all offers where the end date is less
 
 Learn how to create a ranking formula in [this section](../ranking/create-ranking-formulas.md).
 
-Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
+Once a formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
@@ -40,25 +40,25 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
 
-1. Select **[!UICONTROL Ranking formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
+1. Select **[!UICONTROL Formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
 
     ![](../assets/offer-activity-ranking.png)
 
-1. Select the desired ranking formula, then click **[!UICONTROL Select]**.
+1. Select the desired formula, then click **[!UICONTROL Select]**.
 
     ![](../assets/ranking-selection.png)
 
 The ranking formula is now associated to the placement.
 
-If multiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
+If multiple offers are eligible to be presented in this placement, the decision will use the selected formula to calculate which offer to deliver first.
 
 ## AI ranking {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-You can also use a trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../ranking/create-ranking-strategies.md).
+You can also use a trained model system that automatically ranks offers to display for a given profile by selecting an AI model. Learn how to create an AI model in [this section](../ranking/create-ranking-strategies.md).
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision. To do this this, follow the steps below:
+Once an AI model has been created, you can assign it to a placement in a decision. To do this this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
@@ -70,11 +70,11 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
     ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
+1. Select the AI model that you created. All the details of the model are displayed.
 
     ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Click **[!UICONTROL Select]**. The ranking strategy is now associated with the placement.
+1. Click **[!UICONTROL Select]**. The AI model is now associated with the placement.
 
 If multiple offers are eligible, the trained model system will determine which offer should be presented first for a given placement.
 

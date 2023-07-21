@@ -8,8 +8,6 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuration, experimentation, reporting, optimizer
-hide: yes
-hidefromtoc: yes
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 ---
 # Configure reporting for experimentation {#reporting-configuration}
@@ -24,9 +22,9 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 >title="Select a dataset"
 >abstract="You can only select an event-type dataset, which must contain at least one of the supported field groups: Application Details, Commerce Details, Web Details."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.
 
-The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -41,28 +39,31 @@ For this configuration, you need to add one or more datasets containing the addi
 ## Prerequisites
 
 
-Before being able to add a dataset to the reporting configuration, you must create that dataset. Learn how in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target="_blank"}.
+Before being able to add a dataset to the reporting configuration, you must create that dataset. Learn how in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * You can only add event-type datasets.
 
-* These datasets must contain at least one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Application Details**, **Commerce Details**, **Web Details**.
+* These datasets must include the **Experience Event - Proposition Interactions** [field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
+
+* These datasets may also contain one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Application Details**, **Commerce Details**, **Web Details**.
 
     >[!NOTE]
     >
-    >Only these field groups are currently supported.
+    >Other field groups may also be included, but only the above field groups are currently supported in Journey Optimizer reporting.
 
     For example, if you want to know the impact of an email campaign on commerce data such as purchases or orders, you need to create an experience event dataset with the **Commerce Details** field group.
 
     Likewise, if you want to report on mobile interactions, you need to create an experience event dataset with the **Application Details** field group.
 
-    The metrics corresponding to each field group are listed [here](#objective-list).
+    <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * You can add these field groups to one or several schemas that will be used in one or several datasets.
 
 >[!NOTE]
 >
->Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target="_blank"}.
+>Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
+<!--
 ## Objectives corresponding to each field group {#objective-list}
 
 The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
@@ -72,6 +73,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 | Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
 | Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
 | Web Details | (Unique) Page Views |
+-->
 
 ## Add datasets {#add-datasets}
 
@@ -119,6 +121,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
     >
     >If you selected a dataset which is not event-type, you will not be able to proceed.
 
+<!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
@@ -127,7 +130,7 @@ When building your campaign reports, you can now see the metrics corresponding t
 >
 >If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.

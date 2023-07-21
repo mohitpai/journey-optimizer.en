@@ -5,10 +5,9 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: yes
-hidefromtoc: yes
+exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
 ---
-# Statistical calculations in Experimentation report {#experiment-report-calculations}
+# Understand statistical calculations in Experimentation report {#experiment-report-calculations}
 
 This page documents the detailed statistical calculations used in the Experimentation report for Campaigns in Adobe Journey Optimizer. 
 

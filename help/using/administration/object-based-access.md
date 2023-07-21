@@ -17,18 +17,16 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 >title="Object level access control"
 >abstract="If you apply any labels that you don't have access to, then your access to this object will be revoked."
 
->[!IMPORTANT]
->
->The use of Object level access control is currently restricted to selected customers, and will be deployed to all environments in a future release.
-
 Object level access control (OLAC) lets you define authorizations to manage data access to a selection of objects:
 
 * Journey
 * Campaign
+* Template
+* Fragment
 * Landing page
-* Offers
-* Offer collection
-* Offer decisioning
+* Offer
+* Static offer collection
+* Offer decision
 
 Its purpose is to protect sensitive digital assets from unauthorized users allowing further protection of personal data. 
 
@@ -88,4 +86,4 @@ To assign custom or core data usage labels to your Journey Optimizer objects:
 To have access to this object, users will need to have the specific **[!UICONTROL Label]** included to their **[!UICONTROL Roles]**. 
 For example, a user with the C1 label will only have access to C1 labeled or unlabeled objects.
 
-For more information on how to assign **[!UICONTROL Label]** to a **[!UICONTROL Role]**, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+For more information on how to assign **[!UICONTROL Label]** to a **[!UICONTROL Role]**, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

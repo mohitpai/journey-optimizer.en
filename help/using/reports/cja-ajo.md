@@ -20,6 +20,12 @@ After creating your journey in [!DNL Journey Optimizer], you can import your cus
 
 ➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
+>[!NOTE]
+>
+>In addition to this integration, you can also export the content of Adobe Journey Optimizer datasets to cloud storage locations and use this information for reporting or analysis purposes. [Learn how to export datasets to cloud storage locations](../data/export-datasets.md)
+>
+>Note that the datasets export feature is currently in beta and available to all Adobe Journey Optimizer users. Please work with your Adobe representative on getting access to Destinations if you do not already have access.
+
 Before using [!DNL Customer Journey Analytics] for your journeys, you must first configure this integration:
 
 1. [Create a connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] with the **[!UICONTROL Dataset]** you want to send to Adobe Experience Platform. 
@@ -32,7 +38,6 @@ Before using [!DNL Customer Journey Analytics] for your journeys, you must first
 1. [Create a data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) to configure the dimensions and metrics you want to use for your report.
 
     You can create Journey Optimizer specific metrics to better reflect your journeys' data. [Learn more](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 Using [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] might lead to some discrepancy in reporting data caused by:
 

@@ -10,7 +10,7 @@ exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 ---
 # indexOf {#indexOf}
 
-Checks if the first argument string ends with a specific string (second argument string). If the string is not found, return -1.
+Returns the position (in the first argument) of the first occurrence of the second parameter. Returns -1 if there is no match.
 
 ## Category
 

@@ -5,22 +5,24 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, design, formatting
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 ---
 # Design your In-app content {#design-content}
 
-You can edit the In-app content to configure experience options, including the message layout and display, text, and button options.
+You can edit the In-app content to configure experience options:
 
-To configure the message content, click the **[!UICONTROL Edit content]** button and  use the options on the right section of the screen to design your In-app message content.
+* In a **[!UICONTROL Campaign]**, from the **[!UICONTROL Action]** menu,  to configure the message content click the **[!UICONTROL Edit content]** button.
 
-![](assets/edit-in-app-content.png)
+    ![](assets/edit-in-app-content.png)
+
+* In a **[!UICONTROL Journey]**, from the advanced menu of your In-app **[!UICONTROL Action]**, you can start designing your content with the **[!UICONTROL Edit content]** button.
+    
+    ![](assets/design_inapp_journey.png)
 
 The **[!UICONTROL Advanced formatting]** toggle activates additional options to customize the experience.
 
-Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](create-in-app.md#in-app-send).
+Once your In-app message is created, and its content defined and personalized, you can review and activate it. Notifications will then be sent according to the campaign schedule. Learn more in [this page](send-in-app.md).
 
 ## Message layout {#message-layout}
 
@@ -186,5 +188,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can further
 **Related topics:**
 
 * [Create In-app message](create-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)
 * [In-app configuration](inapp-configuration.md)
+
+## How-to video{#video}
+
+The video below shows how to author and test your In-app messages.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

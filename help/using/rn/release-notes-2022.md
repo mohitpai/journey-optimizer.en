@@ -39,7 +39,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Journeys**
 
-* The **Force reentrance on recurrence** option has been added in recurring read segment schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The **Force reentrance on recurrence** option has been added in recurring read audience schedule parameters. This option allows you to make all the profiles still present in the journey automatically exit it on the next execution. When the option is deactivated, profiles must finish the journey before they can reenter in another occurrence. [Learn more](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -170,8 +170,8 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Segment activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
-<p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.
+<p>As a Journey Optimizer user, you can now access system alerts through the user interface to get notified when journeys don't work as expected. You can view the available alerts and subscribe to them. The first alert available with this release will warn you if a Read Audience activity has not processed any profile during the defined time frame. More will come now that this workflow is unlocked.</p>
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -190,7 +190,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -201,7 +201,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 **Journeys**
 
 * The **Entity Dataset** is now available as an out-of-the-box dataset in Adobe Journey Optimizer. This lookup dataset includes meta data to enrich the tracking and feedback datasets information. This will help you improve your reports and queries with more comprehensible data. [Learn more](../data/datasets-query-examples.md#entity-dataset)
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
+* A new guardrail has been added to unitary journeys (starting with an event or an audience qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. [Learn more](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -229,8 +229,8 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 ### Other changes{#sept-2022-other}
 
 * Journey Burst Mode has been replaced by Campaign Rapid delivery mode. [Learn more](../push/create-push.md#rapid-delivery)
-* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read segment, a Segment qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
-* The 1 hour limitation for scheduled read segment journeys has been removed. These journeys can now be executed with no delay.
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Read audience, an Audience qualification or a business event activity. This change only applies to new journeys. Existing ones will keep the current behaviour. [Learn more](../start/guardrails.md#expression-editor)
+* The 1 hour limitation for scheduled read audience journeys has been removed. These journeys can now be executed with no delay.
 
 
 
@@ -248,7 +248,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific audience using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Learn how to create a campaign in the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a> and <a href="https://video.tv.adobe.com/v/346680">feature video</a>.
 </td>
@@ -284,7 +284,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -368,7 +368,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in decision management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in decision management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -402,7 +402,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Decision management**
 
-* **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a decision rule, when selecting a segment or a rule to set an offer eligibility, or when adding a segment or a rule to a decision scope.
+* **Audience size** - A new audience size estimate component is now displayed in the user interface when creating a decision rule, when selecting an audience or a rule to set an offer eligibility, or when adding an audience or a rule to a decision scope.
 
 
 ## June 2022 Release {#june-2022-release}
@@ -471,7 +471,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -609,12 +609,12 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Journeys**
 
-* **Read segment** - One-shot Read segment journeys now move to the Finished status 30 days after the journey execution. For scheduled Read segments, it is 30 days after the execution of the last occurrence. [Learn more](../building-journeys/read-segment.md)
+* **Read audience** - One-shot Read audience journeys now move to the Finished status 30 days after the journey execution. For scheduled Read audiences, it is 30 days after the execution of the last occurrence. [Learn more](../building-journeys/read-audience.md)
 * **Expression editor** - The [limit](../building-journeys/functions/functionlimit.md) function has been added to allow you to limit the number of items of a list. The [sort](../building-journeys/functions/functionsort.md) function now allows you to sort out a list object. The support of listObject has also been added to the [disctinct](../building-journeys/functions/functiondistinct.md) and [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) functions.
 
 **Administration**
 
-* **License usage dashboard update** – The License usage dashboard available in the [!DNL Adobe Journey Optimizer] user interface now reflects the accurate value for the **Licensed** Average profile richness. You will see a drop in this metric representation, which means the license limit is now correctly reported. [Learn more](../segment/license-usage.md)
+* **License usage dashboard update** – The License usage dashboard available in the [!DNL Adobe Journey Optimizer] user interface now reflects the accurate value for the **Licensed** Average profile richness. You will see a drop in this metric representation, which means the license limit is now correctly reported. [Learn more](../audience/license-usage.md)
 
 
 ## April 2022 Release {#april-2022-release}
@@ -667,7 +667,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 **Decision management**
 
 * You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/add-constraints.md#capping)
-* The Batch Decisioning API allows organizations to use decision management functionality for all profiles in a given segment in one call. The offer content for each profiles in the segment is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* The Batch Decisioning API allows organizations to use decision management functionality for all profiles in a given audience in one call. The offer content for each profiles in the audience is placed in an AEP dataset where it is available for custom batch workflows. [Learn more](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -794,14 +794,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Journeys - Read segment improvement</strong><br/></th>
+<th><strong>Journeys - Read audience improvement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The <strong>Incremental read</strong> option has been added to recurring <strong>Read Segment</strong> activities. This option allows you to only target the individuals who entered the segment since the last execution of the journey. The first execution always targets all segment members.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>The <strong>Incremental read</strong> option has been added to recurring <strong>Read audience</strong> activities. This option allows you to only target the individuals who entered the audience since the last execution of the journey. The first execution always targets all audience members.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>

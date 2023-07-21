@@ -18,7 +18,7 @@ Once you designed your [landing page content](lp-content.md), you can save it fo
 
 1. Click the ellipsis on top right of the screen.
 
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+1. Select **[!UICONTROL Save as content template]** from the drop-down menu.
 
     ![](assets/lp_designer-save-template.png)
 
@@ -46,7 +46,7 @@ Next time you create a landing page, you can use this template to build your con
 
     ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Click **[!UICONTROL Use this landing page]**.
+1. Click **[!UICONTROL Use this template]**.
 
 1. Edit your content as desired using the landing page designer.
 

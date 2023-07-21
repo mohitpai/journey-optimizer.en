@@ -7,14 +7,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 ---
 # Work with content templates {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Create content templates"
->abstract="Create standalone templates to reuse content across journeys and campaigns."
 
 For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Journey Optimizer] campaigns and journeys.
 
@@ -54,6 +49,11 @@ To delete a template, select the trash icon next to the desired template.
 
 ## Create content templates {#create-content-templates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Define your own content template"
+>abstract="Create a standalone custom template from scratch to make your content reusable across multiple journeys and campaigns."
+
 There are two ways you can create content templates:
 
 * Create a content template from scratch, using the left rail **[!UICONTROL Content Templates]** menu. [Learn how](#create-template-from-scratch)
@@ -74,8 +74,6 @@ To create a content template from scratch, follow the steps below.
 
 1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** left menu.
 
-    ![](assets/content-template-list.png)
-
 1. Select **[!UICONTROL Create template]**.
 
 1. Fill in the template details.
@@ -88,7 +86,7 @@ To create a content template from scratch, follow the steps below.
 
 1. To assign custom or core data usage labels to the template, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
-1. Click **[!UICONTROL Create]** and choose how you want to design your email from the different options:
+1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
     * [Design your email from scratch](content-from-scratch.md) through the Email Designer's interface.
 
@@ -102,9 +100,7 @@ To create a content template from scratch, follow the steps below.
 
 1. The [Email Designer](get-started-email-design.md) displays. Edit your content as needed, the same way you would do for any email inside a journey or a campaign, according to the option you selected.
 
-    ![](assets/content-template-designer.png)
-
-1. You can test your content if needed. [Learn how](#test-template)
+    You can test your content if needed. [Learn how](#test-template)
 
 1. Once your template is ready, click **[!UICONTROL Save]**.
 

@@ -147,6 +147,7 @@ The cart content is contextual information from the journey. Therefore, you must
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
+   
       In this example, *event_ID* represents the ID of your event.
 
       ![](assets/personalization-uc-helpers-10.png)

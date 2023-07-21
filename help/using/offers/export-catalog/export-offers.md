@@ -111,7 +111,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
             
         **Field:** format
         **Title:** Format
-        **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats).
+        **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](https://www.iana.org/assignments/media-types/) defining computer media formats).
         **Type:** string
         **Example:** "application/vnd.adobe.photoshop"
 
@@ -233,13 +233,13 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
-**Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more segment memberships.
+**Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more audience memberships.
 **Type:** string
 **Possible values:**
 * "none" (default)
 * "eligibilityRule": "The profile constraint is expressed as a single rule that must evaluate to true before the constrained action is allowed."
-* "anySegments": "The profile constraint is expressed as one or more segments and the profile must be a member of at least one of them before the constrained action is allowed."
-* "allSegments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed."
+* "anySegments": "The profile constraint is expressed as one or more audiences and the profile must be a member of at least one of them before the constrained action is allowed."
+* "allSegments": "The profile constraint is expressed as one or more audiences and the profile must be a member of all of them before the constrained action is allowed."
 * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed."
 
 +++
@@ -248,14 +248,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** segmentIdentities
 **Title:** Segment Identifiers
-**Description:** Identifiers of the segments
+**Description:** Identifiers of the audiences
 **Type:** array
 
 * **Identifier**
         
     **Field:** _id
     **Title:** Identifier
-    **Description:** Identity of the segment in the related namespace.
+    **Description:** Identity of the audiences in the related namespace.
     **Type:** string
 
 * **Namespace**
@@ -309,7 +309,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         
     **Field:** orderEvaluationType
     **Title:** Order Evaluation Type
-    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or a ranking strategy that receives a list to order it.
+    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a numeric value for every option or an AI model that receives a list to order it.
     **Type:** string
     **Possible values:** "static", "scoringFunction", "rankingStrategy"
 
@@ -337,12 +337,12 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** tags
 **Title:** Tags
-**Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a subset (category).
+**Description:** The set of collection qualifiers (previously known as "tags") associated with this entity. The collection qualifiers are used in filter expressions to constrain the overall inventory to a subset (category).
 **Type:** array
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 

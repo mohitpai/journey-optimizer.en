@@ -82,14 +82,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** filter
     **Title:** Option Filter
-    **Description:** The reference to a tag based filter that matches options from an inventory using their attached tags. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/filter.
+    **Description:** The reference to a collection qualifier (previously known as "tag") based filter that matches options from an inventory using their attached collection qualifiers. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/filter.
     **Type:** string
 
 * Profile Constraint Type
 
     **Field:** optionSelectionType
     **Title:** Profile Constraint Type
-    **Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a filter query or through one or more segment memberships.
+    **Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a filter query or through one or more audience memberships.
     **Type:** string
     **Possible values:** "none" (default), "directList", "filter"
 
@@ -150,13 +150,13 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
-**Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more segment memberships.
+**Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more audience memberships.
 **Type:** string
 **Possible values:**
 * "none" (default)
 * "eligibilityRule": "The profile constraint is expressed as a single rule that must evaluate to true before the constrained action is allowed."
-* "anySegments": "The profile constraint is expressed as one or more segments and the profile must be a member of at least one of them before the constrained action is allowed."
-* "allSegments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed."
+* "anySegments": "The profile constraint is expressed as one or more audiences and the profile must be a member of at least one of them before the constrained action is allowed."
+* "allSegments": "The profile constraint is expressed as one or more audiences and the profile must be a member of all of them before the constrained action is allowed."
 * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed."
 
 +++
@@ -165,14 +165,14 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** segmentIdentities
 **Title:** Segment Identifiers
-**Description:** Identifiers of the segments.
+**Description:** Identifiers of the audience.
 **Type:** array 
 
 * Identifier
         
     **Field:** _id
     **Title:** Identifier
-    **Description:** Identity of the segment in the related namespace.
+    **Description:** Identity of the audience in the related namespace.
     **Type:** string
 
 * namespace
@@ -226,7 +226,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** orderEvaluationType
     **Title:** Order Evaluation Type
-    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or a ranking strategy that receives a list to order it.
+    **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or an AI model that receives a list to order it.
     **Type:** string
     **Possible values:** "static", "scoringFunction", "rankingStrategy"
 
@@ -254,7 +254,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** endTime
 **Title:** Activity End Date and Time
-**Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on http://schema.org/Action.
+**Description:** Decision (formerly known as activity) end date and end time. The property has the semantic of schema.org's 'endTime' property defined on https://schema.org/Action.
 **Type:** string
 
 +++
@@ -281,7 +281,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** startTime
 **Title:** Activity Start Date and Time
-**Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on http://schema.org/Action.
+**Description:** Decision (formerly known as activity) start date and end time. The property has the semantic of schema.org's 'startTime' property defined on https://schema.org/Action.
 **Type:** string
 
 +++

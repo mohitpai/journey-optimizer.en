@@ -16,7 +16,7 @@ In order to provide the capability to recipients to unsubscribe from receiving e
 
 To do this, you can:
 
-* Insert a **link to an external landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. [Learn how to add a nexternal opt-out link](#opt-out-external-lp)
+* Insert a **link to an external landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. [Learn how to add an external opt-out link](#opt-out-external-lp)
 
 * Add a **one-click opt-out link** into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process. [Learn how to add a one-click opt-out link](#one-click-opt-out)
 
@@ -24,7 +24,7 @@ Additionally, if the **[!UICONTROL List-Unsubscribe]** option is enabled at the 
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when creating the message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) level and when creating the message).
 
 ## External opt-out {#opt-out-external-lp}
 
@@ -58,12 +58,11 @@ To have your recipients opted out when they submit their choice from the landing
 
 This POST call is as follows:
 
-Endpoint: platform.adobe.io/journey/imp/consent/preferences
+Endpoint: https://platform.adobe.io/journey/imp/consent/preferences
 
 Query parameters:
 
 * **params**: contains the encrypted payload
-* **sig**: signature
 * **pid**: encrypted profile ID
 
 These three parameters will be included into the third-party landing page URL sent to your recipient:
@@ -126,14 +125,6 @@ To add an opt-out link in your email, follow the steps below.
 
     ![](assets/message-tracking-opt-out.png)
 
-1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
-
-    ![](assets/message-tracking-opt-out-level.png)
-
-    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
-    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
-    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
-
 1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
 
     >[!NOTE]
@@ -143,6 +134,14 @@ To add an opt-out link in your email, follow the steps below.
     ![](assets/message-tracking-opt-out-confirmation.png)
 
     You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md).
+
+1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
+
+    ![](assets/message-tracking-opt-out-level.png)
+
+    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
+    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
+    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
 
 1. Save your changes.
 

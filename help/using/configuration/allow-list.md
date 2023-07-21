@@ -150,6 +150,34 @@ You can perform the **Add**, **Delete** and **Get** operations.
 
 Learn more on making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} reference documentation.
 
+## Download the allowed list {#download-allowed-list}
+
+To export the allowed list as a CSV file, follow the steps below:
+
+1. Select the **[!UICONTROL Download CSV]** button.
+
+    ![](assets/allowed-list-download-csv.png)
+
+1. Wait until the file is generated.
+
+    ![](assets/allowed-list-download-generate.png)
+
+    >[!NOTE]
+    >
+    >Download time depends on the file size, meaning the number of addresses that are on the allowed list.
+    >
+    >One download request can be processed at a time for a given sandbox.
+
+1. Once the file is generated, you receive a notification. Click the bell icon on top right of the screen to display it.
+
+1. Click the notification itself to download the file.
+
+    ![](assets/allowed-list-download-notification.png)
+
+    >[!NOTE]
+    >
+    >The link is valid for 24 hours.
+
 ## Allowed list logic {#logic}
 
 >[!CONTEXTUALHELP]
@@ -167,7 +195,7 @@ When the allowed list is [active](#enable-allow-list), the following logic appli
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [message activities](../building-journeys/journeys-message.md)), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Audience](../building-journeys/read-audience.md) and [message activities](../building-journeys/journeys-message.md)), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
 >Learn more on the [Live Report](../reports/live-report.md) and [Global Report](../reports/global-report.md).
 

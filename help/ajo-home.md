@@ -26,40 +26,44 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <div>
       <a href="using/rn/release-notes.md">Release notes</a>
     </div>
-    <p>New capabilities, latest improvements and fixes
+    <p>New capabilities, latest improvements, and fixes</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">Quick start guide</a>
     </div>
-    <p>
-    Learn how to start as an Administrator, Data engineer or Journey practicionner
+    <p>Learn how to start as an Administrator, Data engineer, or Journey practicionner</p>
     <p>
     <p>
     <div>
       <a href="using/email/get-started-email-design.md">Design an email content</a>
     </div>
-    <p>
-    Design a new email or import an existing HTML content
+    <p>Design a new email or import an existing HTML content</p>
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Create your first journey</a>
+    <a href="using/building-journeys/journey-gs.md">Create your first journey</a>
     </div>
     <p>Learn how to build and execute a journey
     <p>
+     <div>
+      <a href="using/campaigns/create-campaign.md">Create and manage campaigns</a>
+    </div>
+    <p>Create, configure and send your first campaign</p>
+    <p>
+    <div>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configure [!DNL Journey Optimizer]</a>
     </div>
-    <p>Learn key steps to configure [!DNL Journey Optimizer]
+    <p>Learn key steps to configure [!DNL Journey Optimizer]</p>
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Grant access to [!DNL Journey Optimizer]</a>
     </div>
-    <p>Define and manage the permissions assigned to [!DNL Journey Optimizer] users
+    <p>Define and manage the permissions assigned to [!DNL Journey Optimizer] users</p>
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>
     </div>
-    <p>Create offers and deliver the best offer and experience to your customers
+    <p>Create offers and deliver the best offer and experience to your customers</p>
     <p>
     <p>
     <div><strong>Additional resources</strong>
@@ -78,11 +82,6 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Adobe Journey Optimizer FAQ</a> (PDF)
-    </li>
-    </div>
-    <div>
-    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform documentation</a>
     </li>
     </div>
@@ -91,6 +90,24 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform developers resources</a>
     </li>
     </div>
+    <p>
+    </p>
+    <p>
+    </p>
+    <div>
+    </div>
+    <div><strong>Newsletter</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+    <p>Sign up for the <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer quarterly newsletter</a>.</p>
+    <p>Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. In each newsletter, you can find:</p>
+    <li>Product news and updates including recently released capabilities</li>
+    <li>Invitations to events and webinars and recordings for recent webinars</li>
+    <li>Top discussions in the Adobe Journey Optimizer Experience League Community </li>
+    <li>Case Studies and Use Cases from other Adobe Journey Optimizer Customers</li>
+    <li>Tips and tricks to help deliver the customer experiences that drive business success</li>
   </td>
    <td>
    <div><strong>Direct links to key resources</strong>
@@ -124,6 +141,9 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/email/content-templates.md">Content templates</a>
     </li>
+      <li>
+      <a href="using/email/fragments.md">Fragments</a>
+    </li>
     <p>
     <p>DATA MANAGEMENT</p>
     <li>
@@ -140,31 +160,40 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     </li>
     <p>
     <p>CONNECTIONS</p>
+      <li>
+      <a href="using/data/export-datasets.md">Destinations</a>
+    </li>
     <li>
       <a href="using/start/get-started-sources.md">Sources</a>
     </li>
     <p>
     <p>CUSTOMER</p>
     <li>
-      <a href="using/segment/about-segments.md">Segments</a>
+      <a href="using/audience/about-audiences.md">Audiences</a>
     </li>
     </li>
     <li>
       <a href="using/landing-pages/subscription-list.md">Subscription lists</a>
     </li>     
     <li>
-      <a href="using/segment/get-started-profiles.md">Profiles</a>
+      <a href="using/audience/get-started-profiles.md">Profiles</a>
     </li>
     <li>
-      <a href="using/segment/get-started-identity.md">Identity</a>
+      <a href="using/audience/get-started-identity.md">Identity</a>
     </li>
     <p>
     <p>PRIVACY</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">Policies</a>
+      <a href="using/action/action-privacy.md">Policies</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Requests</a>
+      <a href="using/privacy/requests.md">Requests</a>
+    </li>
+        <li>
+      <a href="using/privacy/audit-logs.md"target="_blank">Audit</a>
+    </li>
+        <li>
+      <a href="using/privacy/data-hygiene.md"target="_blank">Data hygiene</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
@@ -174,24 +203,18 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <li>
       <a href="using/configuration/frequency-rules.md">Rules</a>
     </li>
+        <li>
+      <a href="using/reports/alerts.md">Alerts</a>
+    </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Channels</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
+     <li>
+      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">Tags</a>
+    </li>
   </td>
 </tr>
 </table>
-
-
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today!
-
-Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. 
-
-In each newsletter you will find:
-* Product news and updates including recently released capabilities
-* Invitations to events and webinars and recordings for recent webinars
-* Top discussions in the Adobe Journey Optimizer Experience League Community 
-* Case Studies and Use Cases from other Adobe Journey Optimizer Customers
-* Tips and tricks to help deliver the exceptional customer experiences that drive business success

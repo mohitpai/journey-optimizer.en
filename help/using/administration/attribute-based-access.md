@@ -12,13 +12,9 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 ---
 # Attribute-based access control {#attribute-based-access}
 
->[!IMPORTANT]
->
->The use of Attribute-based access control is currently restricted to selected customers, and will be deployed to all environments in a future release.
-
 Attribute-based access control (ABAC) lets you define authorizations to manage data access for specific teams or groups of users. Its purpose is to protect sensitive digital assets from unauthorized users allowing further protection of personal data. 
 
-In Adobe Journey Optimizer, ABAC allows you to protect data and grant specific access to specific field elements including Experience Data Model (XDM) schemas, Profile attributes, and segments.
+In Adobe Journey Optimizer, ABAC allows you to protect data and grant specific access to specific field elements including Experience Data Model (XDM) schemas, Profile attributes, and audiences.
 
 For a more detailed list of the terminology used with ABAC, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -88,9 +84,9 @@ The users in the **Restricted role demographic** role have now access to the C2 
 **[!UICONTROL Labels]** can be used to assign specific feature areas using Attribute-based access control.
 In this example, we want to restrict access to the **Nationality** field. This field will only be accessible to users with the corresponding **[!UICONTROL Label]** to their  **[!UICONTROL Role]**. 
 
-Note that you can also add  **[!UICONTROL Label]** to  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** and  **[!UICONTROL Segments]**.
+Note that you can also add  **[!UICONTROL Label]** to  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** and  **[!UICONTROL Audiences]**.
 
-1. Create your **[!UICONTROL Schema]**. For more on this, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Create your **[!UICONTROL Schema]**. For more on this, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html).
 
     ![](assets/label_1.png)
 

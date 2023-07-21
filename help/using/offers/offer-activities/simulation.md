@@ -9,6 +9,11 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 ---
 # Create simulations {#create-simulations}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="Simulate offer decisions"
+>abstract="Simulation allows you to simulate which offers will be delivered to a test profile for a given placement. This enables you to test and refine various versions of your offers with no impact on the targeted recipients."
+
 ## About simulation {#about-simulation}
 
 To validate your decisioning logic, you can simulate which offers will be delivered to a test profile for a given placement.
@@ -39,13 +44,13 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 >id="ajo_decisioning_simulation_test_profile"
 >title="Add test profiles"
 >abstract="You can add a test profile by selecting an identity namespace and a corresponding identity value. You must have test profiles already available to be able to use them for simulation."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Create test profiles"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Create test profiles"
 
 First you need to select the test profiles that you are going to use for simulation. 
 
 >[!CAUTION]
 >
->You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../../segment/creating-test-profiles.md).
+>You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../../audience/creating-test-profiles.md).
 
 1. Click **[!UICONTROL Manage profile]**.
 
@@ -55,7 +60,7 @@ First you need to select the test profiles that you are going to use for simulat
 
     >[!NOTE]
     >
-    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](../../segment/get-started-identity.md){target="_blank"}.
+    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Enter the identity value and click **[!UICONTROL View]** to list the available profiles.
 

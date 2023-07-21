@@ -12,13 +12,13 @@ exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 ---
 # Use case: send multi-channel messages{#send-multi-channel-messages}
 
-This section presents a use case that combines a Read Segment, an event, reaction events and email/push messages.
+This section presents a use case that combines a Read Audience, an event, reaction events and email/push messages.
 
 ![](assets/jo-uc1.png)
 
 ## Description of the use case
 
-In this use case, we want to send a first message (email and push) to all customers belonging to a specific segment. 
+In this use case, we want to send a first message (email and push) to all customers belonging to a specific audience. 
 
 Based on their reaction to the first message, we want to send specific messages.
 
@@ -30,20 +30,20 @@ Then we wait for a purchase and send a push message to thank the customer.
 
 For this use case to work, you need to configure the following:
 
-* a segment for all customers living in Atlanta, San Francisco, or Seattle and born after 1980.
+* an audience for all customers living in Atlanta, San Francisco, or Seattle and born after 1980.
 * a purchase event
 
-### Create the segment
+### Create the audience
 
-In our journey, we want to leverage a specific segment of customers. All individuals belonging to the segment enter the journey and follow the different steps. In our example, we need a segment that targets all customers living in Atlanta, San Francisco, or Seattle and born after 1980. 
+In our journey, we want to leverage a specific audience of customers. All individuals belonging to the audience enter the journey and follow the different steps. In our example, we need an audience that targets all customers living in Atlanta, San Francisco, or Seattle and born after 1980. 
 
-For more information on segments, refer to this [page](../segment/about-segments.md).
+For more information on audiences, refer to this [page](../audience/about-audiences.md).
 
-1. From the CUSTOMER menu section, select **[!UICONTROL Segments]**.
+1. From the CUSTOMER menu section, select **[!UICONTROL Audiences]**.
 
-1. Click the **[!UICONTROL Create segment]** button that is located at the top right of the segment list.
+1. Click the **[!UICONTROL Create audience]** button that is located at the top right of the audience list.
 
-1. In the **[!UICONTROL Segment properties]** pane, enter a name for the segment.
+1. In the **[!UICONTROL Audience properties]** pane, enter a name for the audience.
 
 1. Drag and drop the desired fields from the left pane into the center workspace, and then configure them according to your needs. In this example, we use the **City** and **Birth year** attributes fields.
 
@@ -51,7 +51,7 @@ For more information on segments, refer to this [page](../segment/about-segments
 
    ![](assets/add-attributes.png)
 
-The segment is now created and ready to be used in your journey. Using a **Read Segment** activity, you can make all individuals belonging to the segment enter the journey. 
+The audience is now created and ready to be used in your journey. Using a **Read Audience** activity, you can make all individuals belonging to the audience enter the journey. 
 
 ### Configure the event
 
@@ -79,7 +79,7 @@ The event is now configured and ready to be used in your journey. Using the corr
 
 ## Design the journey
 
-1. Start the journey with a **Read Segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
+1. Start the journey with a **Read Audience** activity. Select the audience created previously. All individuals belonging to the audience enter the journey.
 
    ![](assets/jo-uc4.png)
 
@@ -89,7 +89,7 @@ The event is now configured and ready to be used in your journey. Using the corr
 
 1. Place your cursor on the email activity and click on the "+" symbol to create a new path.
 
-1. In the first path, add a **Reaction** event and select **Push opened**. The event is triggered when an individual belonging to the segment opens the push version of the first message.
+1. In the first path, add a **Reaction** event and select **Push opened**. The event is triggered when an individual belonging to the audience opens the push version of the first message.
 
 1. In the second path, add a **Reaction** event and select **Email opened**. The event is triggered when the individual opens the email. 
 

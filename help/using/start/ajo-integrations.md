@@ -29,9 +29,28 @@ Learn more about [Journey Optimizer + Customer Journey Analytics](../reports/cja
 
 ## Adobe Analytics{#integration-aa}
 
-You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into Adobe Experience Platform to trigger real time journeys and automate experiences for your customers. This data can also be used to create segments that can be engaged using Journey Optimizer.
+You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into Adobe Experience Platform to trigger real time journeys and automate experiences for your customers. This data can also be used to create audiences that can be engaged using Journey Optimizer.
 
 Learn more about [Journey Optimizer + Analytics](../event/about-analytics.md).
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+Bring marketing and creative workflows together using [!DNL Adobe Experience Manager Assets Essentials]. Natively integrated with [!DNL Adobe Journey Optimizer], access [!DNL Assets Essentials] to store, manage, discover and distributee digital assets. It provides a single, centralized repository of assets that you can use to populate your messages.
+
+[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section.
+
+Learn more about [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+The [!DNL Adobe Stock] and [!DNL Adobe Journey Optimizer] Email Designer integration plugin provides customers an easy way to navigate, license, and save imagery for use in message authoring.
+
+With [!DNL Adobe Journey Optimizer], you can upload images to your emails directly from [!DNL Adobe Stock] and add it to your **[!UICONTROL Assets]** folder using the **[!UICONTROL Find Adobe Stock photos]** option. In addition, the **[!UICONTROL Find Similar Stock photos]** option helps you find images that match the content, color, and composition of the asset used in your delivery.
+
+Learn more about [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 

@@ -50,3 +50,7 @@ To configure this journey, follow these steps:
       ![](assets/message-to-subscribers-uc-2.png)
 
     1. In the **[!UICONTROL Add an expression]** dialog box, click **[!UICONTROL Ok]**.
+
+>[!CAUTION]
+>
+>Email address override should only be used for specific use cases. Most of the time, you do not need to change the email address because the value defined as the primary address in the **[!UICONTROL Execution fields]** is the one that should be used. [Learn more](../configuration/primary-email-addresses.md)

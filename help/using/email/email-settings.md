@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure email settings
 description: Learn how to configure email settings at the channel surface level
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
@@ -20,7 +20,7 @@ Define the email settings in the dedicated section of the channel surface config
 
 The email surface configuration gets picked up for sending communications following the logic below:
 
-* For batch and burst journeys, it does not apply to batch or burst execution that had already started before the email surface configuration is made. The changes will be picked up at the next recurrence or new execution.
+* For batch journeys, it does not apply to batch execution that had already started before the email surface configuration is made. The changes will be picked up at the next recurrence or new execution.
 
 * For transactional messages, the change is picked up immediately for the next communication (up to five-minute delay).
 
@@ -37,13 +37,9 @@ The email surface configuration gets picked up for sending communications follow
 
 In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **Marketing** or **Transactional**.
 
-* Choose **Marketing** for promotional email: these messages require user consent.
+* Choose **Marketing** for promotional email, such as weekly promotions for a retail store. These messages require user consent.
 
-* Choose **Transactional** for non-commercial email such as order confirmation, password reset notifications, or delivery information for example.
-
->[!CAUTION]
->
->**Transactional** emails can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+* Choose **Transactional** for non-commercial email, such as order confirmation, password reset notifications, or delivery information for example. These emails can be sent to profiles who **unsubscribed** from marketing communications. These messages can only be sent in specific contexts.
 
 When creating a message, you must choose a valid channel surface matching the category you selected for your email.
 
@@ -145,6 +141,14 @@ To ensure proper reply management, follow the recommandations below:
 
 * Do not mark messages as spam in the reply inbox, as it will impact all the other replies sent to this address.
 
+Additionally, when defining the **[!UICONTROL Reply to (email)]** address, make sure to use a subdomain that has a valid MX record configuration, otherwise the email surface processing will fail.
+
+If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
+
+>[!NOTE]
+>
+>If the subdomain of the address you entered is a domain that was [fully delegated](../configuration/delegate-subdomain.md#full-subdomain-delegation) to Adobe, contact your Adobe account executive.
+
 ### Forward email {#forward-email}
 
 If you want to forward to a specific email address all emails received by [!DNL Journey Optimizer] for the delegated subdomain, contact Adobe Customer Care. You will need to provide:
@@ -167,6 +171,10 @@ You can send an identical copy (or blind carbon copy) of emails sent by [!DNL Jo
 To do this, enable the **[!UICONTROL BCC email]** optional feature at the channel surface level. [Learn more](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Additionally, when defining the **[!UICONTROL Bcc email]** address, make sure to use a subdomain that has a valid MX record configuration, otherwise the email surface processing will fail.
+
+If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
 
 ## Email retry parameters {#email-retry}
 
@@ -206,32 +214,33 @@ You can use **[!UICONTROL URL tracking parameters]** to measure the effectivenes
 
 The parameters defined in this section will be appended to the end of the URLs included in your email message content. You can then capture these parameters in web analytics tools such as Adobe Analytics or Google Analytics, and create various performance reports.
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 You can add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.
 
 ![](assets/preset-url-tracking.png)
 
 To configure a URL tracking parameter, you can directly enter the desired values in the **[!UICONTROL Name]** and **[!UICONTROL Value]** fields.
 
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
-
-You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the contextual attributes of your choice and/or directly edit the text.
+You can also edit each **[!UICONTROL Value]** field using the [Expression Editor](../personalization/personalization-build-expressions.md). Click the edition icon to open the editor. From there, you can select the available contextual attributes and/or directly edit the text.
 
 ![](assets/preset-url-tracking-editor.png)
 
+The following predefined values are available through the Expression Editor:
+
+* **Source action id**: ID of the Email action added to the journey or campaign.
+
+* **Source action name**: name of the Email action added to the journey or campaign.
+
+* **Source id**: ID of the journey or campaign the email was sent with.
+
+* **Source name**: name of the journey or campaign the email was sent with.
+
+* **Source version id**: ID of the journey or campaign version the email was sent with.
+
+* **Offer id**: ID of the offer used in the email.
+
 >[!NOTE]
 >
->You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain up to 255 characters in total.
+>You can combine typing text values and using contextual attributes from the Expression Editor. Each **[!UICONTROL Value]** field can contain a number of characters up to the limit of 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -244,3 +253,7 @@ Below are examples of Adobe Analytics and Google Analytics compatible URLs.
 You can dynamically preview the resulting tracking URL. Each time you add, edit or remove a parameter, the preview is automatically updated.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>You can also add dynamic personalized tracking parameters to the links present in your email content, but this is not possible at the surface level. You need to do this when authoring your message using the email designer. [Learn more](message-tracking.md#url-tracking)

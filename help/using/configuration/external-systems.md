@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrate Journey Optimizer with external systemps
+title: Integrate Journey Optimizer with external systems
 description: Learn the best practices when integrating Journey Optimizer with external systems
 role: User
 level: Beginner
@@ -20,37 +20,52 @@ All external systems are different in terms of performance. You need to adapt th
 
 When Journey Optimizer executes a call to an external API, the technical guardrails are executed as follows:
 
-1. Capping rules are applied: if the maximum rate is reached, remaining calls are discarded.
+1. Capping or throttling rules are applied: if the maximum rate is reached, remaining calls are discarded or queued.
 
-2. Timeout and retry: if the capping rule is fulfilled, Journey Optimizer tries to perform the call until the end of the timeout duration is reached. 
+2. Timeout and retry: if the capping or throttling rule is fulfilled, Journey Optimizer tries to perform the call until the end of the timeout duration is reached. 
 
-## Capping{#capping}
+## Capping & throttling APIs {#capping}
 
-The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. 
+### About Capping & Throttling APIs
 
-For external data sources, the maximum number of calls per second is set to 15. If the number of calls exceeds 15 per second, the remaining calls are discarded. You can increase this limit for private external data sources. Contact Adobe to include the endpoint in the allowlist. This is not possible for public external data sources. 
+When configuring a datasource or an action, you establish a connection to a system to either retrieve additional information to use in your journeys or send messages or API calls.
+
+Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the number of events sent per second.
+
+Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued for up to 6 hours and processed as soon as possible in the order they were received if you are using the Throttling API.
+
+For example, let’s say that you have defined a capping or throttling rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard or queue the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
+
+>[!IMPORTANT]
+>
+>**Capping rules** are configured at sandbox level, for a specific endpoint (the URL called) but global to all journeys of that sandbox.
+>
+>**Throttling rules** are configured on production sandboxes only, for a specific endpoint but global to all journeys across all sandboxes. You can have only one throttling configuration per organization.
+
+For more information on how to work with the APIs, refer to these sections:
+
+* [Capping API](capping.md)
+* [Throttling API](throttling.md)
+
+A detailed description of the APIs is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+
+### Data sources & custom actions capacity {#capacity}
+
+For **external data sources**, the maximum number of calls per second is limited to 15. If this limit is exceeded, any additional calls are either discarded or queued depending on the API in use. It is possible to increase this limit for private external data sources by contacting Adobe to include the endpoint in the allowlist, but this is not an option for public external data sources. * [Learn how to configure data sources](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
-> If a datasource uses a custom authentication with a different endpoint than the one used for the datasource, you need to contact Adobe to also include that endpoint in the allowlist.
+>If a datasource uses a custom authentication with a different endpoint than the one used for the datasource, you need to contact Adobe to also include that endpoint in the allowlist.
 
-For custom actions, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
-
-Capping rules are defined at sandbox level for a specific endpoint (the URL called). At runtime, Journey Optimizer verifies if there is a capping rule defined and applies the defined rate during the calls to that endpoint. If the number of calls exceeds the defined rate, the remaining calls are discarded and are counted as errors in reporting.
-
-A capping rule is specific to one endpoint but global to all the journeys of a sandbox. This means that capping slots are shared between all journeys of a sandbox.
-
-For example, let's say that you have defined a capping rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
-
-To learn more on the capping API and how to configure capping rules, refer to [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
+For **custom actions**, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping or throtlling configuration so that your system does not saturate. [Learn how to configure actions](../action/action.md)
 
 ## Timeout and retries{#timeout}
 
-If the capping rule is fulfilled, then the timeout rule is applied.
+If the capping or throttling rule is fulfilled, then the timeout rule is applied.
 
 In each journey, you can define a timeout duration. This allows you to set a maximum duration when calling an external system. Timeout duration is configured in the properties of a journey. Refer to [this page](../building-journeys/journey-gs.md#timeout_and_error).
 
-This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default, it is set to 5 seconds. 
+This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default, it is set to 30 seconds. 
 
 During the defined timeout duration, Journey Optimizer tries to call the external system. After the first call, a maximum of three retries can be performed until the end of timeout duration is reached. The number of retries cannot be changed. 
 
@@ -68,9 +83,9 @@ Let's take an example for a timeout of 5 seconds.
 
 ## Frequently asked questions{#faq}
 
-**How can I configure a capping rule? Is there a default capping rule?**
+**How can I configure a capping or throttling rule? Is there a default rule?**
 
-By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../configuration/external-systems.md#capping) and [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
+By default, there is no capping or throttling rule. Rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping or Throttling API. Refer to [this section](../configuration/external-systems.md#capping).
 
 **How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?**
 

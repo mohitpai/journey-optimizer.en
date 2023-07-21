@@ -18,7 +18,7 @@ By default, the Email Designer creates a **[!UICONTROL Plain text]** version of 
 
 If you prefer using a different content for the plain text version, follow the steps below:
 
-1. From your email, select the **[!UICONTROL Plain text]** tab.
+1. From your email, select the **[!UICONTROL Plain text]** icon.
 
     ![](assets/text_version_3.png)
 

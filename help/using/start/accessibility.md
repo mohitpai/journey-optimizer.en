@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accessibility features in Journey Optimizer
 description: Learn more about accessibility in Journey Optimizer User Interface
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
+exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 ---
 # Accessibility in Journey Optimizer{#accessibility}
 
@@ -116,7 +117,7 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
   <tr>
     <td>
 
-  Trigger an event in a segment-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
+  Trigger an event in an audience-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
 
   </td>
     <td>P</td>

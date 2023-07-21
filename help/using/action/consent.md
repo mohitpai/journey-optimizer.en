@@ -12,7 +12,7 @@ exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 ---
 # Work with consent policies {#consent-management}
 
-Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
 In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication. 
 
@@ -31,12 +31,12 @@ In Journey Optimizer, consent can be leveraged in custom actions. If you want to
 
 With consent management, two journey activities are analyzed: 
 
-* Read segment: the retrieved segment is taken into account.
+* Read audience: the retrieved audience is taken into account.
 * Custom action: consent management takes into account the attributes used ([action parameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) as well as the  marketing action(s) defined (required marketing action and additional marketing action).
 * Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
 * Consent policies only apply when a marketing action (required or additional) is set at the custom action level. 
 
-All other activities used in a journey are not taken into account. If you start your journey with a Segment qualification, the segment is not taken into account.
+All other activities used in a journey are not taken into account. If you start your journey with an Audience qualification, the audience is not taken into account.
 
 In a journey, if a profile is excluded by a consent policy in a custom action, the message is not sent to him, but he continues the journey. The profile does not go to the timeout and error path when using a condition.
 
@@ -106,7 +106,7 @@ The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
 * action parameters defined in the custom action, see this [section](../action/about-custom-action-configuration.md#define-the-message-parameters) 
-* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-segment.md) 
+* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-audience.md) 
 
 >[!NOTE]
 >

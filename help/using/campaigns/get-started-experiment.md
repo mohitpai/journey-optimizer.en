@@ -8,15 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: get started, start, content, experiment
-hide: yes
-hidefromtoc: yes
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 ---
 # Get started with content experiments {#get-started-experiment}
-
->[!AVAILABILITY]
->
->The Content Experiment feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 ## What is a content experiment?
 
@@ -101,10 +95,15 @@ Statistical methods give us a way of formalizing that uncertainty. One of the mo
 
 +++Form new hypotheses, and test continuously
 
-To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different segments, and by examining the impact on the different metrics.
+To gain true business insights, you should stick to just one Experiment. Instead, follow up experiments by formulating new hypotheses, and running new tests with different changes, on different audiences, and by examining the impact on the different metrics.
 +++
 
 ## Interpret the results of your Experiments {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Summary widget"
+>abstract="The Summary widget provides an overview of your experiment results, including whether they are conclusive or not. It offers a quick and easy way to understand the outcome of your experiment."
 
 ![](assets/experimentation_report_3.png)
 
@@ -167,7 +166,7 @@ After running your Experiment, there are several possible follow up actions:
 
 * **Do deeper dive analyses** 
 
-    The treatment that works well for one audience may sometimes not be the best treatment for another audience. Doing deeper analyses on how treatments behaved for different segments help generate ideas for new tests. 
+    The treatment that works well for one audience may sometimes not be the best treatment for another audience. Doing deeper analyses on how treatments behaved for different audiences help generate ideas for new tests. 
     
     Similarly, studying the performance of each treatment with different metrics may also give a more comprehensive view of your Experiments. 
     

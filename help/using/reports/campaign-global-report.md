@@ -16,6 +16,8 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 >title="Campaign global report"
 >abstract="The Campaign global report allows to measure the impact of your campaigns over a selected time period. Your report is divided into different widgets detailing your campaign's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
 
+Global reports, accessible from the All time tab, display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence. 
+
 Campaign global report can be accessed directly from your Campaign with the **[!UICONTROL View report]** button.
 
 ![](assets/campaign_report_global_5.png)
@@ -24,8 +26,10 @@ The Campaign **[!UICONTROL Global report]** page will be displayed with the foll
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
+* [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
@@ -44,6 +48,54 @@ The **[!UICONTROL Campaign's Statistics]** widget details the main information r
 * **[!UICONTROL Actions delivered]**: Total number of unique times an action in the journey has been delivered.
 
 * **[!UICONTROL Actions failed in %]**: Total number of unique times an action failed in the journey compared to the total number of unique times an action has been delivered.
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### Experimentation report {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Success metric"
+>abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
+
+![](assets/experimentation_report_3.png)
+
+The **[!UICONTROL Experimentation]** tab provides key insights into the performance of each variant, and identifies the most successful one.
+
+Note that defining the best performer might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
+
++++Learn more on the different metrics and widgets available for the Experimentation report.
+
+The **[!UICONTROL Experiment result]** widget details the performance of each variant. You can change your baseline by selecting one of the treatment from the **[!UICONTROL Baseline]** the drop-down. The best treatment will be represented with a star icon.
+
+The table presents the following metrics:
+
+* **[!UICONTROL Lift over baseline]**: Measure of the percentage improvement in conversion rate of a given treatment over the baseline.
+
+*  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
+
+*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
+
+* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
+
+*  **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
+
+The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals). 
++++
+
+For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Email tab {#email-global}
 
@@ -135,6 +187,33 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
++++
+
+## In-app tab {#inapp-global}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your campaign.
+
+![](assets/campaign_report_global_6.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+
+* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
+
+The **[!UICONTROL Clicks by button]** graph and table contain the available data for recipient behavior per button:
+
+* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
 +++
 
 ## Push notification tab {#push-global}
@@ -244,6 +323,30 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+
++++
+
+## Web tab {#web-tab}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
+
+![](assets/web-report.png)
+
++++Learn more on the different metrics and widgets available for the Web report.
+
+The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
+
+* **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of visitors who interacted with the various elements on your web pages.
+
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+
+The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
 +++
 
 ## Additional resources

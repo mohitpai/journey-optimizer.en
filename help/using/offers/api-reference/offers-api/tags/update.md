@@ -1,17 +1,17 @@
 ---
-title: Update tags
-description: Tags allow you to better organize and sort through your offers.
+title: Update collection qualifiers
+description: Collection qualifiers allow you to better organize and sort through your offers.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 ---
-# Update a tag {#update-tag}
+# Update a collection qualifier {#update-collection-qualifier}
 
-You can modify or update a tag in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update a collection qualifier (previously known as "tag") in your container by making a PATCH request to the [!DNL Offer Library] API.
 
-For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
+For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Response**
 
-A successful response returns the updated details of the tag, including its unique instance ID and tag `@id`.
+A successful response returns the updated details of the collection qualifier, including its unique instance ID and collection qualifier `@id`.
 
 ```json
 {

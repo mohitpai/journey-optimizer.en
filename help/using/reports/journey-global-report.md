@@ -16,6 +16,8 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 >title="Journey global report"
 >abstract="The Journey global report allows you to measure the impact of your journeys over a selected time period. Your report is divided into different widgets detailing your journey's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
 
+Global reports, accessible from the All time tab, display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence. 
+
 Journey global report can be accessed directly from your journey with the **[!UICONTROL View report]** button. 
 
 ![](assets/report_journey.png)
@@ -75,7 +77,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
-* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
+* **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -185,7 +187,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push notific
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
-* **[!UICONTROL Targeted]**: Number of profiles targeted by Adobe Journey Orchestration for any action such as send email or SMS.
+* **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -280,4 +282,7 @@ The **[!UICONTROL SMS summary]** widget details the main information relative to
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+
 +++

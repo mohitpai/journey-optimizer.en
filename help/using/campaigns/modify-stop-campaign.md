@@ -20,11 +20,11 @@ Additionally, you can duplicate live campaigns (executed once or with a recurrin
 
 Campaigns are accessible from the **[!UICONTROL Campaigns]** menu.
 
-By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses.
-
-To display stopped, completed, and archived campaigns, you need to clear the filter.
+By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, and **[!UICONTROL Live]** statuses. To display stopped, completed, and archived campaigns, you need to clear the filter.
 
 ![](assets/create-campaign-list.png)
+
+Additionally, you can filter the list based on the campaign type and channel, or the tags that have been assigned to the campaigns when creating them. [Learn how to assign tags to a campaign](create-campaign.md#create)
 
 ## Campaign statuses {#statuses}
 
@@ -84,7 +84,7 @@ You can duplicate a live campaign to create a new one. To do this, open the camp
 
 With time, the list of campaigns keeps growing and eventually makes it more difficult to browse completed and stopped campaigns.
 
-To prevent this, you can archive completed and stopped campaigns that you do not need anymore. To do this, click the ellipse button then select **[!UICONTROL Archive]**.
+To prevent this, you can archive completed and stopped campaigns that you do not need anymore. To do this, click the ellipsis button then select **[!UICONTROL Archive]**.
 
 ![](assets/create-campaign-archive.png)
 

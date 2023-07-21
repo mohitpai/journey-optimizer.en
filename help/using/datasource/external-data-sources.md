@@ -76,6 +76,11 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
 * **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. [Learn more](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
+
+    >[!NOTE]
+    >
+    >Scalar arrays are not supported in response payload definition.
+
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Dynamic Values]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
@@ -172,7 +177,7 @@ Here is an example for the bearer authentication type:
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

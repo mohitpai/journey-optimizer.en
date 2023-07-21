@@ -28,7 +28,7 @@ To create a push notification, follow the steps below:
 
     ![](assets/push_create_1.png)
 
-1. Provide basic information on your message (label, description, category), then choose the message surface to use.
+1. Provide basic information on your message (label, description, category), then choose the message surface to use. The **[!UICONTROL Surface]** field is pre-filled, by default, with the last surface used for that channel by the user.
 
     ![](assets/push_create_2.png)
 
@@ -58,11 +58,13 @@ To create a push notification, follow the steps below:
 
     ![](assets/push_create_4.png)
 
-1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform segments. [Learn more](../segment/about-segments.md).
+1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform audiences. [Learn more](../audience/about-audiences.md).
 
-1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more](../event/about-creating.md#select-the-namespace).
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected audience. [Learn more](../event/about-creating.md#select-the-namespace).
 
     ![](assets/push_create_5.png)
+
+1. Click **[!UICONTROL Create experiment]** to start configuring your content experiment and create treatments to measure their performance and identify the best option for your target audience. [Learn more](../campaigns/content-experiment.md)
 
 1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
 
@@ -95,7 +97,7 @@ To create a push notification, follow the steps below:
 >title="Rapid delivery mode"
 >abstract="Rapid delivery mode lets you perform high speed message sending on Push channel to an audience size of under 30M."
 
-Rapid delivery mode, previously known as Burst mode in journeys, is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
+Rapid delivery mode is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
 
 Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 

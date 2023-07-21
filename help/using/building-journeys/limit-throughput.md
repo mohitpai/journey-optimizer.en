@@ -21,13 +21,17 @@ This can be done with :
 
 * **Custom Actions**: to send information to external systems, for example to send emails through an external solution using Journey Optimizer's orchestration capabilities alongside profile information, audience data and journey context.
 
-If you're working with external data sources or custom actions, you may want to protect your external systems by limiting journey throughput: up to 5000 instances/second for unitary journeys and up to 20000 instances/second for segment-triggered ones. You can define a capping limits at endpoint level to avoid overwhelming those external systems through Journey Optimizer's Capping APIs. However, all remaining requests after the limit is reached will be dropped.
+If you're working with external data sources or custom actions, you may want to protect your external systems by limiting journey throughput: up to 5000 instances/second for unitary journeys and up to 20000 instances/second for audience-triggered ones. 
 
-In this section, you will find workarounds that you can use to optimize your throughput. For more information on how to integrate with external systems, refer to this [page](../configuration/external-systems.md).
+For custom actions, throttling capabilities are available at product level. Refer to this [page](../configuration/external-systems.md#capping).
+
+For external data sources, you can define a capping limits at endpoint level to avoid overwhelming those external systems through Journey Optimizer's Capping APIs. However, all remaining requests after the limit is reached will be dropped. In this section, you will find workarounds that you can use to optimize your throughput. 
+
+For more information on how to integrate with external systems, refer to this [page](../configuration/external-systems.md).
 
 ## Implementation
 
-For **segment-triggered journeys**, you can define the throttling rate of your Read Segment activity that will impact journey throughput.  [Read more](../building-journeys/read-segment.md)
+For **audience-triggered journeys**, you can define the throttling rate of your Read Audience activity that will impact journey throughput.  [Read more](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -35,9 +39,9 @@ You can modify this value from 500 to 20 000 instances per second. If you need t
 
 ![](assets/limit-throughput-2.png)
 
-Let's take an example of a **segment-triggered journeys** working with a population of **10 000 profiles** and sending data to an external system supporting **100 requests/second**.
+Let's take an example of a **audience-triggered journeys** working with a population of **10 000 profiles** and sending data to an external system supporting **100 requests/second**.
 
-1. You can define your Read Segment to read profiles with a throughput of 500 profiles/second, meaning that it will take 20 seconds to read all your profiles. On second 1, you will read 500 of them, on second 2 500 more, etc. 
+1. You can define your Read Audience to read profiles with a throughput of 500 profiles/second, meaning that it will take 20 seconds to read all your profiles. On second 1, you will read 500 of them, on second 2 500 more, etc. 
 
 1. You can then add a "percentage split" Condition activity with a 20% split to have at each second 100 profiles in each branch.
 

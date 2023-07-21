@@ -33,8 +33,8 @@ Also note that the custom actions parameters have an expected format (example: s
 
 In Journey Optimizer, you can apply data governance and consent policies to your custom actions to prevent specific fields from being exported to third-party systems or exclude customers who have not consented to receive email, push or SMS communication. For more information, refer to the following pages:
 
-* [Data governance](../action/action.md).
-* [Consent](../action/action.md).
+* [Data governance](../action/action-privacy.md).
+* [Consent](../action/action-privacy.md).
 
 
 ## Configuration steps {#configuration-steps}
@@ -92,36 +92,31 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >
     > The **DELETE** method is not supported. If you need to update an existing resource, select the **PUT** method.
 
-1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
-   1. To add a header field, click **[!UICONTROL Add a header field]**.
-   1. Enter the key of the header field.
-   1. To set a dynamic value for the key-value pair, select **[!UICONTROL Variable]**. Otherwise, select **[!UICONTROL Constant]**.
+1. Define the headers and query parameters:
 
-        For example, for a timestamp, you can set a dynamic value.
+   * In the **[!UICONTROL Headers]** section, click **[!UICONTROL Add a header field]** to define the HTTP headers of the request message to be sent to the external service. The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.
 
-   1. If you have selected **[!UICONTROL Constant]**, then enter the constant value.
+   * In the **[!UICONTROL Query parameters]** section, click **[!UICONTROL Add a Query parameter field]** to define the parameters you want to add in the URL.
 
-       If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
+    ![](assets/journeyurlconfiguration2bis.png)
 
-       ![](assets/journeyurlconfiguration2.png)
+1. Enter the label or name of the field.
 
-   1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
+1. Select the type: **[!UICONTROL Constant]** or **[!UICONTROL Variable]**. If you have selected **[!UICONTROL Constant]**, then enter the constant value in the **[!UICONTROL Value]** field. If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
-    The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.
-
-    After you have added the custom action to a journey, you can still add header fields to it if the journey is in draft status. If you do not want the journey to be affected by configuration changes, duplicate the custom action and add the header fields to the new custom action.
+    ![](assets/journeyurlconfiguration2.png)
 
     >[!NOTE]
+    >
+    >After you have added the custom action to a journey, you can still add header or query parameters fields to it if the journey is in draft status. If you do not want the journey to be affected by configuration changes, duplicate the custom action and add the fields to the new custom action.
     >
     >Headers are validated according to field parsing rules. Learn more in [this documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Define the action parameters {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 In the **[!UICONTROL Action parameters]** section, paste an example of the JSON payload to send to the external service.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -131,7 +126,7 @@ You will be able to define the parameter type (e.g.: string, integer, etc.).
 
 You will also have a choice between specifying if a parameter is a constant or a variable:
 
-* Constant means that the value of the parameter is defined in the action configuration pane by a technical persona. The value will be always the same across journeys. It will not vary and the marketer won’t see it when using the custom action in the journey. It could be for example an ID the third-party system expects. In that case, the field on the right of the toggle constant/variable is the value passed.
-* Variable means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from Adobe Experience Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
+* **Constant** means that the value of the parameter is defined in the action configuration pane by a technical persona. The value will be always the same across journeys. It will not vary and the marketer won’t see it when using the custom action in the journey. It could be for example an ID the third-party system expects. In that case, the field on the right of the toggle constant/variable is the value passed.
+* **Variable** means the value of the parameter will vary. Marketers using this custom action in a journey will be free to pass the value they wants or to specify where to retrieve the value for this parameter (e.g. from the event, from Adobe Experience Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label marketers will see in the journey to name this parameter.
 
 ![](assets/customactionpayloadmessage2.png)

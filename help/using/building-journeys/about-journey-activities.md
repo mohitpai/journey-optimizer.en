@@ -22,7 +22,7 @@ Events configured by the technical user (see [this page](../event/about-events.m
 
 * [General events](../building-journeys/general-events.md)
 * [Reaction](../building-journeys/reaction-events.md)
-* [Segment Qualification](../building-journeys/segment-qualification-events.md)
+* [Audience Qualification](../building-journeys/audience-qualification-events.md)
 
  ![](assets/journey43.png)
 
@@ -38,7 +38,7 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 
 * [Condition](../building-journeys/condition-activity.md)
 * [Wait](../building-journeys/wait-activity.md)
-* [Read Segment](../building-journeys/read-segment.md)
+* [Read Audience](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 
@@ -60,9 +60,27 @@ If you have configured custom actions, they also appear here. [Learn more](../bu
 
 ## Best practices {#best-practices}
 
+### Add a label
+
 Most activities allow you to define a **[!UICONTROL Label]**. This adds a suffix to the name that will appear under your activity in the canvas. This is useful if you use the same activity several times in your journey and want to identify them more easily. It will also make debugging easier in case of errors and it will make reports easier to read. You can also add an optional **[!UICONTROL Description]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Manage the advanced parameters {#advanced-parameters}
+
+Most activities display a number of advanced and/or technical parameters that you cannot modify.
+
+![](assets/journey-advanced-parameters.png)
+
+For better readability, you can hide these parameters using the **[!UICONTROL Hide read-only fields]** button.
+
+![](assets/journey-hide-read-only-fields.png)
+
+In some particular contexts, you can override the values of these parameters for specific use. To force a value, click the **[!UICONTROL Enable parameter override]** icon to the right of the field. [Learn more](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### Add an alternative path
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 

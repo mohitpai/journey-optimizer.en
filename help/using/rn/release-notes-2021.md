@@ -59,7 +59,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 <tbody>
 <tr>
 <td>
-<p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and segments, using the same expression editor component found throughout Journey Optimizer UI. </p>
+<p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and audiences, using the same expression editor component found throughout Journey Optimizer UI. </p>
 <p>For more information, refer to the <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Journeys**
 
-* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](../building-journeys/message-to-subscribers-uc.md)
+* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from an audience, you can now get an email address from a subscription list. [Learn more in this sample](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](../reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories. All previous step events fields are still available in the [stepEvents](../reports/sharing-legacy-fields.md) category. 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys. 
@@ -256,12 +256,12 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](../action/about-custom-action-configuration.md#url-configuration)
-* The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Learn more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The overall throttling rate for read audiences has been changed from 17,000 to 20,000 messages per second. [Learn more](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **User interface**
 
 * **Search** - On every page, you can now search business objects and help articles directly from the Unified Experience Cloud search field. [Learn more](../start/user-interface.md#unified-search)
-* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](../action/about-custom-action-configuration.md#passing-collection)
+* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Audiences, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](../action/about-custom-action-configuration.md#passing-collection)
 
 **Content Design**
 
@@ -331,12 +331,12 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Journeys**
 
-* The overall throttling rate of all the read segments that run simultaneously in the same sandbox is limited to 17,000 messages per second. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The overall throttling rate of all the read audiences that run simultaneously in the same sandbox is limited to 17,000 messages per second. [Read more](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * The **Cache duration** field has been removed from the data source configuration pane. [Read more](../datasource/about-data-sources.md)
 * For external data sources, a capping rule of 15 calls per second is now automatically defined. [Read more](../configuration/external-systems.md#capping)
 * For live journeys, the journey properties screen now displays the publication date and the name of the user who published the journey. [Read more](../building-journeys/journey-gs.md#change-properties)
 * In the journey list screen, the journey type filter has been added. [Read more](../start/user-interface.md#filter-lists)
-* The **[!UICONTROL Throttling rate]** parameter has been added in the Read segment activity. [Read more](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The **[!UICONTROL Throttling rate]** parameter has been added in the Read audience activity. [Read more](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Preview and test**
 

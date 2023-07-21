@@ -16,13 +16,18 @@ Use [!DNL Journey Optimizer] to build real-time orchestration use cases using co
 
 Design multistep advanced scenarios powered by following capabilities:
 
-* Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform segments.
+* Send real-time **unitary delivery** triggered when an event is received, or **in batch** using Adobe Experience Platform audiences.
 
 * Leverage **contextual data** from events, information from Adobe Experience Platform, or data from third-party API services.
 
 * Use the **built-in actions** to send messages designed in [!DNL Journey Optimizer] or create **custom actions** if you're using a third-party system to send your messages.
 
-* With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.
+* With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read audience activity, add conditions and send personalized messages.
+
+
+>[!NOTE]
+>
+>Journey guardrails and limitations are detailed in [this page](../start/guardrails.md)
 
 ## Steps to create a journey{#steps-journey}
 
@@ -71,7 +76,7 @@ When you search for a journey, newest versions appear at the top of the list the
 
 >[!NOTE]
 >
->Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until he fully exited that previous instance of the journey. [Read more](end-journey.md).
+>Usually, a profile cannot be present multiple times in the same journey, at the same time. If re-entrance is enabled, a profile can reenter a journey, but cannot do it until they fully exited that previous instance of the journey. [Read more](end-journey.md).
 
 If you need to modify to a live journey, create a new version of your journey.
 
@@ -92,7 +97,3 @@ From the moment the journey is published, individuals will start to flow into th
 Journey versions can be stopped individually. All versions of journeys have the same name.
 
 When you publish a new version of a journey, the previous version automatically ends and switches to the **Closed** status. No entrance in the journey can happen. Even if you stop the latest version, the previous version stays closed.
-
->[!NOTE]
->
->Learn more about journey versions guardrails and limitations, in [this page](../start/guardrails.md#journey-versions-limitations)

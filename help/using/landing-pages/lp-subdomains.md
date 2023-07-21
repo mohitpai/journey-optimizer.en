@@ -33,9 +33,11 @@ You can use a subdomain that is already delegated to Adobe, or you can configure
 
 >[!CAUTION]
 >
->Landing page subdomain configuration is common to all environments. Therefore any modification to a landing page subdomain will also impact the production sandboxes.
-
-Note that capital letters should not be allowed in a subdomain
+>Landing page subdomain configuration is common to all environments. Therefore:
+>
+>* To access and edit landing page subdomains, you must have the **[!UICONTROL Manage Landing Page Subdomains]** permission on the production sandbox.
+>
+> * Any modification to a landing page subdomain will also impact the production sandboxes.
 
 ## Use an existing subdomain {#lp-use-existing-subdomain}
 
@@ -132,7 +134,7 @@ To configure a new subdomain, follow the steps below.
 
     >[!NOTE]
     >
-    >Before being able to use that subdomain to send messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
+    >Before being able to use that subdomain for your landing pages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create landing page presets.
 

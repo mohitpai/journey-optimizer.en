@@ -88,7 +88,7 @@ The `elseif` statement will specify a new condition to test if the first stateme
     {%/if%}
     ```
 
-1. **Conditional content based on segment membership**
+1. **Conditional content based on audience membership**
 
     ```sql
     {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -98,19 +98,9 @@ The `elseif` statement will specify a new condition to test if the first stateme
     {%/if%}
     ```
 
-1. **Determine if a profile is already a member**
-
-    ```sql
-    {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-        You're a member!
-    {%else%}
-        You should be a member! Sign up now!
-    {%/if%}
-    ```
-
 >[!NOTE]
 >
->To learn more about segmentation and segmentation service, refer to this [section](../../segment/about-segments.md).
+>To learn more about audiences and the segmentation service, refer to this [section](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}

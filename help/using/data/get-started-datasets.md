@@ -34,9 +34,9 @@ Here are the different datasets available:
 
 **Reporting**
 
-* _Reporting - Message Feedback Event Dataset_: Message delivery logs. Information on all message delivery from Journey Optimizer for reporting and segment creation purposes. Feedback from Email ISPs on bounces is also recorded in this dataset.
-* _Reporting - Email Tracking Experience Event Dataset_: Interaction logs for Email channel which is used for reporting and segment creation purposes. Information stored informs on actions performed by the end-user on email (opens, clicks, etc).
-* _Reporting - Push Tracking Experience Event Dataset_: Interaction logs for Push channel which is used for reporting and segment creation purposes. Information stored informs on actions performed by the end-user on push notifications.
+* _Reporting - Message Feedback Event Dataset_: Message delivery logs. Information on all message delivery from Journey Optimizer for reporting and audience creation purposes. Feedback from Email ISPs on bounces is also recorded in this dataset.
+* _Reporting - Email Tracking Experience Event Dataset_: Interaction logs for Email channel which is used for reporting and audience creation purposes. Information stored informs on actions performed by the end-user on email (opens, clicks, etc).
+* _Reporting - Push Tracking Experience Event Dataset_: Interaction logs for Push channel which is used for reporting and audience creation purposes. Information stored informs on actions performed by the end-user on push notifications.
 * _Reporting - Journey Step Event_: Captures All Journey Step Experience Events generated from Journey Optimizer to be consumed by services like Reporting. Also critical for building reports in Customer Journey Analytics for YoY analysis. Tied to a Journey Metadata.
 * _Reporting - Journeys_: Metadata dataset housing information of each step in a journey.
 * _Reporting - BCC_: Feedback Event Dataset which stores the delivery logs for BCC emails. To be used for reporting purposes.
@@ -48,6 +48,8 @@ Here are the different datasets available:
 **Intelligent Services**
 
 * _Send-Time Optimization Scores / Engagement Scores_: Output scores of Journey AI.
+
+To view the complete list of fields and attributes for each schema, consult the [Journey Optimizer schema dictionary](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Preview datasets{#preview-datasets}
 
@@ -61,7 +63,7 @@ To create a new dataset, start by selecting **Create dataset** in the Datasets d
 
 You can:
 
-* Create dataset from schema. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* Create dataset from schema. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
 * Create dataset from CSV file. [Learn more in this documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
 Watch this video to learn how to create a dataset, map it to a schema, add data to it, and confirm that the data has been ingested.
@@ -80,7 +82,7 @@ Learn more about Data Governance and data usage labels in the [Data Governance d
 
 ## Samples and use cases{#uc-datasets}
 
-Learn how to create a schema, a dataset and ingest data to add Test profiles in Adobe Journey Optimizer in [this end-to-end sample](../segment/creating-test-profiles.md)
+Learn how to create a schema, a dataset and ingest data to add Test profiles in Adobe Journey Optimizer in [this end-to-end sample](../audience/creating-test-profiles.md)
 
 Learn more about dataset creation in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 

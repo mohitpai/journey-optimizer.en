@@ -26,14 +26,13 @@ In Journey Optimizer, you can apply these policies to your custom actions to pre
 For more information on the Data Governance framework and how to work with labels and policies, refer to Adobe Experience Platform documentation:
 
 * [Data Governance service overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
+* [Data usage labels overview](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Data usage policies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
 
 ## Important notes {#important-notes}
 
 * Data governance only applies to custom actions in journeys. Campaign Classic and Campaign Standard actions are not supported.
 * Governance policies only apply when a marketing action (required or additional) is set at the custom action level. 
-* Attributes that are part of a field group using the out-of-the-box Union Schema are not supported. These attributes will be hidden from the interface. You need to create another field group using a different schema.
 
 ## Define governance policies {#governance-policies}
 
@@ -43,16 +42,14 @@ You can use existing labels, marketing actions and policies. Here are the main c
 * Define a marketing action for each third-party custom action used in your journeys.
 * Create a governance policy and associate it to the label and marketing action.
 
-For more information on how to manage policies, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
+For more information on how to manage policies, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)
 
 Let's take the example of the blood type field that you need to label as sensitive and restrict from being exported to a third-party. Here are the different steps:
 
 1. In the left menu, under **Privacy**, click **Policies**.
-    ![](assets/action-privacy0.png)
 1. Select the **Labels** tab and click **Create label**.
     ![](assets/action-privacy1.png)
 1. Define a name and friendly name for this label. For example, _ePHI1_.
-    ![](assets/action-privacy2.png)
 1. In the left menu, under **Data management**, click **Schemas**, and click the **Apply access and data governance labels** button. Select your schema and field (blood type) and select the label previously created, _ePHI1_ in our example.
     ![](assets/action-privacy3.png)
 1. Go back to the **Policies** menu, select the **Marketing action** tab and click **Create marketing action**. We recommend that you create one marketing action for each third-party custom action used in your journeys. For example, let's create a _Slack marketing action_ which will be used for your Slack custom action.

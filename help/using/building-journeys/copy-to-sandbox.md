@@ -20,7 +20,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Sandbox details"
->abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your IMS organization are available."
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -32,7 +32,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 >title="Dependent objects"
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 
-Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from your Stage sandbox environment to your Production sandbox. In addition to the journey itself, Journey Optimizer also copies most of the objects the journey depends on: segments, surfaces (i.e. presets), schemas, events and actions. For more details on copied objects, refer to this [section](#limitations).
+Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from your Stage sandbox environment to your Production sandbox. In addition to the journey itself, Journey Optimizer also copies most of the objects the journey depends on: audiences, surfaces (i.e. presets), schemas, events and actions. For more details on copied objects, refer to this [section](#limitations).
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ To copy a journey to another sandbox, follow these steps:
 
    ![](assets/copy-sandbox2.png)
 
-3. Select the **Target sandbox** from the drop-down field. Only sandboxes within your IMS organization are available.
+3. Select the **Target sandbox** from the drop-down field. Only sandboxes within your organization are available.
 
 4. Review the **Dependent objects** section. This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID.
 
@@ -74,9 +74,9 @@ All linked elements might not be copied to the destination sandbox. Adobe strong
 
 The following objects are copied:
 
-* Segment
+* Audience
 
-   A segment can only be copied once from one sandbox to another. Once a segment is copied, it is not editable on the destination sandbox.
+   An audience can only be copied once from one sandbox to another. Once an audience is copied, it is not editable on the destination sandbox.
 
 * Schema
 
@@ -88,7 +88,7 @@ The following objects are copied:
 
 * Journey - canvas details
 
-   The representation of the journey on the canvas including the objects in the journey such as conditions, actions, events, read segments, etc. The Jump activity is excluded from the copy.
+   The representation of the journey on the canvas including the objects in the journey such as conditions, actions, events, read audiences, etc. The Jump activity is excluded from the copy.
 
 * Event
 
@@ -100,6 +100,6 @@ The following objects are copied:
 
 Surfaces (i.e. presets) are not copied over. The system automatically selects the closest possible match on the destination sandbox, based on message type and surface name. If there are no surfaces found on the target sandbox, then the surface copy will fail. This will mean that the message copy will fail as well because a message requires a surface to be available for setup. In this case at least one surface needs to be created, for the right channel of the message, in order for the copy to work.
 
-For Schemas, Merge Policies and Segments, the second time these objects attempt to be copied, they will only be referenced. They will be treated as objects that already exist and will be copied again. This means that these objects can only be copied once.
+For Schemas, Merge Policies and Audiences, the second time these objects attempt to be copied, they will only be referenced. They will be treated as objects that already exist and will be copied again. This means that these objects can only be copied once.
 
-There is a five minute delay before Adobe Journey Optimizer can reference Schemas, Merge Policies and Segments without seeing an error in the canvas. Wait five minutes and these references will be available.
+There is a five minute delay before Adobe Journey Optimizer can reference Schemas, Merge Policies and Audiences without seeing an error in the canvas. Wait five minutes and these references will be available.

@@ -24,7 +24,7 @@ The list of offer collections is accessible in the **[!UICONTROL Offers]** menu.
 
 You can create two types of collections: 
 
-* **Dynamic collections** are collections of offers based on tags. These collections are updated automatically. For example, if a new offer is created with the selected tag, it will automatically be added to the collection.
+* **Dynamic collections** are collections of offers based on collection qualifiers (previously known as "tags"). These collections are updated automatically. For example, if a new offer is created with the selected collection qualifier, it will automatically be added to the collection.
 
 * **Static collections** are collections built by manually selecting individual offers to include in the Collection. The collection can only be updated by manually adding more offers to it.
 
@@ -36,13 +36,13 @@ To create a collection, follow these steps:
 
     ![](../assets/collection_create.png)
 
-1. To create a dynamic collection, use the left pane to select the tag of the offers to add to the collection, then click **[!UICONTROL Save]**. All the offers with the selected tag will be saved in the collection.
+1. To create a dynamic collection, use the left pane to select the collection qualifier of the offers to add to the collection, then click **[!UICONTROL Save]**. All the offers with the selected collection qualifier will be saved in the collection.
 
-    For more on tags creation, see [Create tags](../offer-library/creating-tags.md).
+    For more on collection qualifiers creation, see [Create collection qualifiers](../offer-library/creating-tags.md).
 
     ![](../assets/dynamic_collection.png)
 
-1. To create a static collection, use the left pane to filter the list of offers (status, tag, date, channel, content type), then select the offers to add to the collection.
+1. To create a static collection, use the left pane to filter the list of offers (status, collection qualifier, date, channel, content type), then select the offers to add to the collection.
 
     ![](../assets/static_collection.png)
 
@@ -52,6 +52,10 @@ To create a collection, follow these steps:
 
 1. To assign custom or core data usage labels to a static collection, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../../administration/object-based-access.md)
 
+    >[!NOTE]
+    >
+    >The use of OLAC is not available for dynamic collections. It has to be managed at the offer level. Consequently, it is possible that you don't see any offers in a dynamic collection if you don't have access to any of these offers.
+    
 1. Once the collection is created, it displays in the list. You can select it to edit or delete it.
 
     ![](../assets/collection_created.png)

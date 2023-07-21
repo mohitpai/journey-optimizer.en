@@ -3,8 +3,6 @@ title: In-app configuration
 description: Learn how to configure your environment to send In-app messages with Journey Optimizer
 role: Admin
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
@@ -12,11 +10,11 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 
 Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
 
-1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
 
 1. Select the [!DNL Adobe Experience Platform] service.
 
-    [!DNL Edge Segmentation], [!DNL Offer Decisioning] and [!DNL Adobe Journey Optimizer] must be selected.
+    [!DNL Edge Segmentation] and [!DNL Adobe Journey Optimizer] must be selected.
 
     ![](assets/inapp_config_6.png)
 
@@ -50,11 +48,11 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
     * Adobe Journey Optimizer
     * AEP Assurance
     * Consent
-    * Identify
+    * Identity
     * Mobile Core
     * Profile
 
-    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) for the detailed procedure.
+    Refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) for the detailed procedure.
 
     ![](assets/inapp_config_5.png)
 
@@ -65,4 +63,4 @@ The In-app channel is now configured. You can start sending In-app messages to y
 * [Create an In-app message](create-in-app.md)
 * [Create a campaign](../campaigns/create-campaign.md)
 * [Design In-app message](design-in-app.md)
-* [In-app report](inapp-report.md)
+* [In-app report](../reports/campaign-global-report.md#inapp-report)

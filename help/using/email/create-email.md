@@ -35,6 +35,8 @@ Add an **[!UICONTROL Email]** action to a journey or a campaign, and follow the 
 
     ![](assets/email_journey.png)
 
+    The field is pre-filled, by default, with the last surface used for that channel by the user.
+
 >[!NOTE]
 >
 >If you are sending an email from a journey, you can leverage Adobe Journey Optimizer's Send-Time Optimization feature to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
@@ -51,7 +53,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Click **[!UICONTROL Create]**.
 
-1. Complete the steps to create an email campaign, such as the campaign properties, [audience](../segment/about-segments.md), and [schedule](../campaigns/create-campaign.md#schedule).
+1. Complete the steps to create an email campaign, such as the campaign properties, [audience](../audience/about-audiences.md), and [schedule](../campaigns/create-campaign.md#schedule).
 
     ![](assets/email_campaign_steps.png)
 

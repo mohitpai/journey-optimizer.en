@@ -12,6 +12,10 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 ---
 # Create and publish landing pages {#create-lp}
 
+>[!CAUTION]
+>
+>To be able to test and publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+
 ## Access landing pages {#access-landing-pages}
 
 To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
@@ -191,33 +195,41 @@ To define the subpage settings, follow the steps below.
 
 ## Test the landing page {#test-landing-page}
 
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Preview and test your landing page"
+>abstract="Once you defined your landing page settings and content, you can use test profiles to preview it."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Select test profiles"
+
 Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/personalize.md), you will be able to check how this content is displayed in the landing page, using test profile data.
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../segment/creating-test-profiles.md).
+>To be able to test landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+>
+>You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../audience/creating-test-profiles.md).
 
-1. From the landing page interface, click the **[!UICONTROL Preview & test]** button to access the test profile selection.
+1. From the landing page interface, click the **[!UICONTROL Simulate content]** button to access the test profile selection.
 
-    ![](assets/lp_preview-button.png)
+    ![](assets/lp_simulate-button.png)
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Preview]** button is also accessible from the content designer.
+    >The **[!UICONTROL Simulate content]** button is also accessible from the content designer.
 
-1. From the **[!UICONTROL Preview & test]** screen, select one or more test profiles.
+1. From the **[!UICONTROL Simulate ]** screen, select one or more test profiles.
 
     ![](assets/lp_test-profiles.png)
 
     The steps to select test profiles are the same as when testing a message. They are detailed in [this section](../email/preview.md#select-test-profiles).
 
-1. Select the **[!UICONTROL Preview]** tab and click **[!UICONTROL Open preview]** to test your landing page.
+1. Select **[!UICONTROL Open preview]** to test your landing page.
 
     ![](assets/lp_open-preview.png)
 
 1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
 
-    ![](assets/lp_preview.png)
+    <!--![](assets/lp_preview.png)-->
 
 1. Select other test profiles to preview the rendering for each variant of your landing page.
 
@@ -261,6 +273,10 @@ Two types of alerts can happen:
 -->
 
 ## Publish the landing page {#publish-landing-page}
+
+>[!CAUTION]
+>
+>To be able to publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 
 Once your landing page is ready, you can publish it to make it available for use in a message.
 
