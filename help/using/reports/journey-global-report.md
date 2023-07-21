@@ -265,8 +265,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
@@ -274,8 +272,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 The **[!UICONTROL SMS summary]** widget details the main information relative to your message with a graph:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
-
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
