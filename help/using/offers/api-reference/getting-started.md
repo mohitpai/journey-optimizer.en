@@ -41,12 +41,7 @@ All requests that contain a payload (POST, PUT, PATCH) require an additional hea
 
 ## Next steps {#next-steps}
 
-This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API, including acquiring your container ID. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
-<!--
->[!NOTE]
->
-> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
--->
+This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
 
 ## How-to video {#video}
 
