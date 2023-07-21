@@ -6,10 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, message, campaign
-hide: yes
-hidefromtoc: yes
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
 ---
 # Create a direct mail message {#create-direct}
 
@@ -18,43 +15,28 @@ badge: label="Beta" type="Informative"
 >title="Direct mail creation"
 >abstract="Create direct mail messages in scheduled campaigns and design the extraction files required by direct mail providers to send mail to your customers."
 
->[!BEGINSHADEBOX]
+## Create a direct mail campaign{#create-dm-campaign}
 
-What you'll find in this documentation:
-
-* **[Create a direct mail](create-direct-mail.md)**
-* [Configure direct mail](direct-mail-configuration.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Direct mail is currently available as a private beta, and may be subject to frequent updates without notice.
-
-Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
-
-When you create a direct mail, Journey Optimizer generates a file including all the targeted profiles and the chosen data (postal address, profile attributes for example). Your direct mail provider will then be able to retrieve that file and will take care of the actual sending.
-
-Direct mail messages can only be created in the context of scheduled campaigns. They are not available for use in API-triggered campaigns or in journeys.
-
->[!IMPORTANT]
->
->Before sending a direct mail message, make sure you have configured:
->
->1. A [file routing configuration](../direct-mail/direct-mail-configuration.md#file-routing-configuration) which specifies the server where the extraction file should be uploaded and stored,
->1. A [direct mail message surface](../direct-mail/direct-mail-configuration.md#direct-mail-surface) which will reference the file routing configuration.
-
-## Create your direct mail message {#create}
-
-The steps to create and send a direct mail message are as follows:
-
-1. Create a new scheduled campaign, select **[!UICONTROL Direct mail]** as your action and choose the channel surface to use. [Learn how to create a direct mail surface](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. Create a new scheduled campaign, select **[!UICONTROL Direct mail]** as your action and choose the **[!UICONTROL Direct mail surface]** to use. [Learn how to create a direct mail surface](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png)
 
-1. Click **[!UICONTROL Create]** then define basic information on your campaign (name, description). [Learn how to configure a campaign](../campaigns/create-campaign.md)
-   
-1. Click the **[!UICONTROL Edit content]** button to configure the extraction file to send to your direct mail provider. 
+1. Click **[!UICONTROL Create]**.
+
+1. From the **[!UICONTROL Properties]** section, edit your Campaign's **[!UICONTROL Title]** and **[!UICONTROL Description]**.
+
+1. Click the **[!UICONTROL Select audience]** button to define the audience to target from the list of available Adobe Experience Platform audiences. [Learn more](../audience/about-audiences.md).
+
+1. In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected audience. [Learn more](../event/about-creating.md#select-the-namespace).
+
+1. Campaigns are designed to be executed on a specific date or on a recurring frequency. Learn how to configure the **[!UICONTROL Schedule]** of your campaign in [this section](../campaigns/create-campaign.md#schedule). 
+    
+You can now start configuring the extraction file to send to your direct mail provider.
+
+
+## Configure the extraction file {#extraction-file}
+
+1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the extraction file content.
 
 1. Define the name of the extraction file in the **[!UICONTROL Filename]** field.
 
@@ -79,7 +61,5 @@ The steps to create and send a direct mail message are as follows:
    You can delete a column at any time by selecting it and clicking the **[!UICONTROL Remove]** button from the **[!UICONTROL Formatting]** section.
 
    ![](assets/direct-mail-complete.png)
-   
-1. Once the direct mail content has been defined, complete the configuration of your campaign.
 
-   When the campaign will start, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).
+You can now test and send your SMS message to your audience. [Learn more](test-send-direct-mail.md)
