@@ -83,6 +83,16 @@ The goal here is to see if recipients will interact with the email depending on 
 
 ## Configure your content experiment {#configure-experiment}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="Dimension"
+>abstract="Choose the specific dimension to track for your Experiment, such as specific clicks or views of specific pages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="Success metric"
+>abstract="Success metric is used to track and evaluate the best performing treatment in an experiment. Be sure to set up your dataset for certain metrics before using it."
+
 1. When your delivery personalized, from the Campaign summary page, click **[!UICONTROL Create experiment]** to start configuring your content experiment.
 
     ![](assets/content_experiment_3.png)

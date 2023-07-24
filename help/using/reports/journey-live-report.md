@@ -164,8 +164,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
-
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in a delivery.
@@ -175,8 +173,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL SMS Summary]** graph details the success of your delivery:
-
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
