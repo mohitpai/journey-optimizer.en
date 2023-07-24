@@ -37,7 +37,7 @@ You can sort content templates by creation or modification date. You can also ch
 
 To edit a template content, click the desired item from the list and select **[!UICONTROL Edit content]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 To delete a template, select the trash icon next to the desired template.
 
@@ -86,6 +86,8 @@ To create a content template from scratch, follow the steps below.
 
 1. To assign custom or core data usage labels to the template, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
+1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your template for improved search. [Learn more](../start/search-filter-categorize.md#tags)
+
 1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
     * [Design your email from scratch](content-from-scratch.md) through the Email Designer's interface.
@@ -128,6 +130,10 @@ When designing an [email](get-started-email-design.md) in a campaign or a journe
 1. Add a name and description for this template.
 
     ![](assets/email_designer-template-name.png)
+
+1. To assign custom or core data usage labels to the template, select **[!UICONTROL Manage access]**. [Learn more](../administration/object-based-access.md).
+
+1. Select or create an Adobe Experience Platform tag from the **Tags** field to categorize your template. [Learn more](../start/search-filter-categorize.md#tags)
 
 1. Click **[!UICONTROL Save]**.
 

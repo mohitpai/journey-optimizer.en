@@ -43,41 +43,52 @@ In the lists, you can perform basic actions on each element. For example, you ca
 
 With Adobe Experience Platform [Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), you can easily classify your Journey Optimizer journeys and campaigns to improve search from the lists.
 
->[!AVAILABILITY]
->
->Unified tags are currently in Beta. The documentation and the functionality are subject to change.
-
 ### Add tags to an object
 
-The **Tags** field, in the [journey](../building-journeys/journey-gs.md#change-properties) or [campaign](../campaigns/create-campaign.md#create) properties, allows you to define tags for your object. You can either select an existing tag, or create a new one.
+The **[!UICONTROL Tags]** field allows you to define tags for your object. Tags are available for the following objects:
 
-Start typing the name of the desired tag and select it from the list. If it is not available, click **Create** to create a new one and add it. You can define as many tags as needed.
+* [Journeys](../building-journeys/journey-gs.md#change-properties)
+* [Campaigns](../campaigns/create-campaign.md#create)
+* [Templates](../email/content-templates.md)
+* [Fragments](../email/fragments.md)
+* [Subscription lists](../landing-pages/subscription-list.md)
+* [Landing pages](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+You can either select an existing tag, or create a new one. To do so, follow the steps below.
 
-The list of tags defined is displayed below the **Tags** field. 
+1. Start typing the name of the desired tag and/or select it from the list.
+
+    ![](assets/tags1.png)
+
+    >[!NOTE]
+    >
+    > Tags are case-insensitive.
+
+1. If the tag you are searching is not available, click **[!UICONTROL Create ""]** to define a new one - it will be automatically added to the current object and become available for all other objects.
+
+    ![](assets/tags4.png)
+
+1. The list of the selected or created tags is displayed below the **[!UICONTROL Tags]** field. You can define as many tags as needed.
 
 >[!NOTE]
->
-> Tags are case in-sensitive
 > 
-> If you duplicate or create a new version of a journey or campaign, tags are preserved.
+> If you duplicate or create a new version of an object, tags are preserved.
 
 ### Filter on tags
 
-The journeys and campaigns lists display a dedicated column so you can easily visualize your tags. 
+Each object list displays a dedicated column so you can easily visualize your tags. 
 
-A filter is also available to only display journeys or campaigns with certain tags.
+A filter is also available to only display objects with certain tags.
 
 ![](assets/tags2.png)
 
-You can add or remove tags from any type of journey or campaign (live, draft, etc). To do this, click the **More actions** icon next to the object, and select **Edit tags**. 
+You can add or remove tags from any type of journey or campaign (live, draft, etc). To do this, click the **[!UICONTROL More actions]** icon next to the object, and select **[!UICONTROL Edit tags]**. 
 
 ![](assets/tags3.png)
 
 ### Manage tags
 
-Administrators can delete tags and organize them by categories using the **Tags** menu, under **ADMINISTRATION**. Learn more on tags management in the [Unified Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html). 
+Administrators can delete tags and organize them by categories using the **[!UICONTROL Tags]** menu, under **[!UICONTROL ADMINISTRATION]**. Learn more on tags management in the [Unified Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html). 
 
 >[!NOTE]
 >
