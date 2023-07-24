@@ -10,14 +10,9 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
-<!--
 >[!BEGINTABS]
 
 >[!TAB Add an In-app message to a journey]
-
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -60,7 +55,6 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
 >[!TAB Add an In-app message to a campaign]
--->
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -109,9 +103,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
     ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## How-to videos{#video}
 

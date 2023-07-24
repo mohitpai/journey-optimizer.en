@@ -298,9 +298,17 @@ From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** ta
 
 The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
 
-* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was displayed.
 
-* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+* **[!UICONTROL Impressions]**: total number of In-app messages displayed to all users.
+    
+    >[!NOTE]
+    >
+    >To ensure that an Impression is counted, the user must meet two criteria:
+    >* Qualification within the In-app experience, achieved by reaching the specific In-app activity in their journey.
+    >* Meeting the conditions specified in the Trigger rules.
+    > 
+    >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
 
 * **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
 
