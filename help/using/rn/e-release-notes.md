@@ -12,7 +12,6 @@ hidefromtoc: yes
 
 Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published  in the [release notes](release-notes.md), at the release date.
 
-
 ## July 2023 early release notes {#july-rn-2023}
 
 **Release date**: July 26-27
@@ -20,23 +19,6 @@ Early release notes below are subject to change without prior notice until the r
 ### New capabilities{#july-2023-features}
 
 This release brings the new capabilities listed below.
-
-<table>
-<thead>
-<tr>
-<th><strong>Content templates APIs</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create and manage Adobe Journey Optimizer content templates using dedicated APIs, providing a seamless integration with your existing content system.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -56,8 +38,7 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Direct mail channel</strong><br/></th>
@@ -72,7 +53,7 @@ This release brings the new capabilities listed below.
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -104,6 +85,23 @@ This release brings the new capabilities listed below.
 <p>In addition to campaigns and journeys, you can now assign Adobe Experience Platform Unified Tags to your landing pages, content templates, fragments, and subscription lists. This allows you to easily classify them, and improve search and navigation in all lists. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Content templates APIs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and manage Adobe Journey Optimizer content templates using dedicated APIs, providing a seamless integration with your existing content system.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -143,8 +141,8 @@ Adobe Journey Optimizer APIs Authentication - The JWT method to generate access 
 
 **Other changes**
 
-Journey Optimizer datasets export to Cloud Storage Destinations is now available to all customers. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets. [Learn more](../data/export-datasets.md)
+Journey Optimizer datasets export to Cloud Storage Destinations is now available to all customers as a public beta. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets. [Learn more](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->This feature is currently in beta and subject to change.</p>
+
+
+
