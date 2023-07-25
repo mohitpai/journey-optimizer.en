@@ -25,7 +25,7 @@ The following table shows the valid values which comprise the *Content-Type* and
 **API format**
 
 ```http
-POST /{ENDPOINT_PATH}/tags
+POST /{ENDPOINT_PATH}/offer-collections
 ```
 
 | Parameter | Description | Example |
@@ -35,15 +35,22 @@ POST /{ENDPOINT_PATH}/tags
 **Request**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
+curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{        
-    "name": "Black Friday",
-    "description": "Tag for black friday"
+-d '{
+    "name": "Test Collection with tags",
+    "filterType": "any-tags",
+    "ids": [
+        "tag1234"
+    ],
+    "labels": [
+        "core/C5",
+        "custom/myLabel"
+    ]
 }'
 ```
 

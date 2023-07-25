@@ -16,7 +16,7 @@ You can view a list of all collections within a container by performing a single
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-collections?{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
@@ -27,7 +27,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 **Request**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/tags?limit=2' \
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections?limit=2' \
 -H 'Accept: *,application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
@@ -56,42 +56,56 @@ The most common query parameters for paging include:
 A successful response returns a list of collections that are present within the container you have access to.
 
 ```json
+
 {
     "results": [
         {
-            "created": "2022-09-16T19:00:02.070+00:00",
-            "modified": "2022-09-16T19:00:02.070+00:00",
+            "created": "2022-09-16T18:59:23.063+00:00",
+            "modified": "2022-09-16T18:59:23.063+00:00",
             "etag": 1,
             "schemas": [
-                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
+                "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.4"
             ],
             "createdBy": "{CREATED_BY}",
             "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "tag1234",
-            "name": "Sneakers"
+            "id": "offerCollection1234",
+            "name": "Test Collection with tags",
+            "filterType": "any-tags",
+            "ids": [
+                "tag1234"
+            ],
+            "labels": [
+                "core/C5",
+                "custom/myLabel"
+            ]
         },
         {
-            "created": "2022-09-16T19:55:02.168+00:00",
-            "modified": "2022-09-16T19:55:02.168+00:00",
+            "created": "2023-05-15T12:50:49.887+00:00",
+            "modified": "2023-05-15T12:50:49.887+00:00",
             "etag": 1,
             "schemas": [
-                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
+                "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.4"
             ],
             "createdBy": "{CREATED_BY}",
             "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "tag5678",
-            "name": "Black Friday"
+            "id": "offerCollection5678",
+            "name": "Test Collection with offers",
+            "filterType": "offers",
+            "ids": [
+                "personalizedOffer1234",
+                "personalizedOffer5678"
+            ]
         }
     ],
     "count": 2,
-    "total": 5,
+    "total": 9,
     "_links": {
         "self": {
-            "href": "/tags?href={SELF_HREF}&limit=2",
+            "href": "/offer-collections?href={SELF_HREF}&limit=2",
             "type": "application/json"
         },
         "next": {
-            "href": "/tags?href={NEXT_HREF}&limit=2",
+            "href": "/offer-collections?href={NEXT_HREF}&limit=2",
             "type": "application/json"
         }
     }

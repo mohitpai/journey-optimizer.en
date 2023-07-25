@@ -14,13 +14,13 @@ It may occasionally be necessary to remove (DELETE) a collection. Only collectio
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
+DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform-stage.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | Optional query parameters to filter results by.| `limit=2` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | The id of the entity you wish to delete.| `offerCollection1234` |
 
 **Request**
 

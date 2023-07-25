@@ -23,44 +23,35 @@ The following table shows the valid values which comprise the *Content-Type* and
 **API format**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the fallback offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | The id of the entity you wish to update. | `fallbackOffer1234` |
 
 **Request**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-        "xdm:status": "approved",
-        "xdm:name": "Fallback for sales",
-        "xdm:representations": [
-            {
-                "xdm:components": [
-                    {
-                        "dc:language": [
-                            "en"
-                        ],
-                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
-                        "dc:format": "text/html"
-                    }
-                ],
-                "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
-                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
-            }
-        ]
-}'
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/name",
+        "value": "Updated fallback offer"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated fallback offer description"
+    }
+]'
 ```
 
 **Response**
@@ -70,14 +61,14 @@ A successful response returns information on the newly created fallback offer, i
 
 ```json
 {
-    "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
-    "@id": "xcore:fallback-offer:124e2e764b1ac1b9",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T22:28:11.111732Z",
-    "repo:lastModifiedDate": "2020-10-21T22:28:11.111732Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 2,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
 }
 ```

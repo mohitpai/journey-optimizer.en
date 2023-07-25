@@ -16,18 +16,18 @@ You can look up specific collections by making a GET request to the [!DNL Offer 
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/tags/{ID}
+GET /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 	The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | The id of the entity you wish to look up. | `tag1234` |
+| `{ID}` | The id of the entity you wish to look up. | `offerCollection1234` |
 
 **Request**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerCollection1234' \
 -H 'Accept: *,application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
@@ -41,15 +41,23 @@ A successful response returns the details of the placement including information
 
 ```json
 {
-    "created": "2022-09-16T19:00:02.070+00:00",
-    "modified": "2022-09-16T19:00:02.070+00:00",
+    "created": "2022-09-16T18:59:23.063+00:00",
+    "modified": "2022-09-16T18:59:23.063+00:00",
     "etag": 1,
     "schemas": [
-        "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
+        "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.4"
     ],
     "createdBy": "{CREATED_BY}",
     "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "tag1234",
-    "name": "Sneakers"
+    "id": "offerCollection1234",
+    "name": "Test Collection with tags",
+    "filterType": "any-tags",
+    "ids": [
+        "tag1234"
+    ],
+    "labels": [
+        "core/C5",
+        "custom/myLabel"
+    ]
 }
 ```
