@@ -124,28 +124,26 @@ This release comes with the improvements listed below.
 **Journeys**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+A new type of system alert has been introduced. You can now get notified when a custom action fails.
 
 
 **Campaigns**
 
-* Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
+Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.  
-
-With the release of the Audience Composition portal, Adobe Experience Platform and Adobe Journey Optimizer have updated the usage of "audiences" and "segment" within the system and the documentation.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences. With the release of the Audience Composition portal, Adobe Experience Platform and Adobe Journey Optimizer have updated the usage of "audiences" and "segment" within the system and the documentation.
 
 * Audience: A set of people, accounts, households, or other entities that share common characteristics and behaviors.
 * Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as "segment".
 
-As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, you'll see "Segments" replaced with "Audiences" to reflect this new path of audience creation and management.
+As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, "Segments" are replaced with "Audiences" to reflect this new path of audience creation and management.
 
 **APIs**
 
-Adobe Journey Optimizer APIs Authentication - The JWT method to generate access tokens has been deprecated. All new integrations must be created using the OAuth Server-to-Server authentication method. Adobe also recommends that you migrate your existing integrations to the OAuth method. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+The JWT method to generate access tokens for Adobe Journey Optimizer APIsauthentication has been deprecated. All new integrations must be created using the OAuth Server-to-Server authentication method. Adobe also recommends that you migrate your existing integrations to the OAuth method. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Other changes**
