@@ -112,11 +112,12 @@ This release brings the new capabilities listed below.
 
 This release comes with the improvements listed below.
 
+<!--
 **Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
-
+-->
 
 **Campaigns**
 
