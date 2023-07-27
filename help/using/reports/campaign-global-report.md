@@ -30,6 +30,7 @@ The Campaign **[!UICONTROL Global report]** page will be displayed with the foll
 * [Push](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [Direct mail](#direct-mail-global)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
@@ -93,6 +94,15 @@ The table presents the following metrics:
 *  **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
 
 The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals). 
+
+![](assets/experimentation_report_4.png)
+
+The last widget provides data related to the **[!UICONTROL Success metric]** you previously selected for your Treatments. You have the option to select a different targeted metric from the **[!UICONTROL Metric]** drop-down menu to track alternative data.
+    
+>[!CAUTION]
+>
+>When working with experimentation filtered metrics, please note that changing the Metric selection from the drop-down on the comparison page for experimentation will not retain the filter value. For example, switching from "Clicks" to "Unique clicks" will lead to the loss of the applied filter, rendering the comparison inaccurate or invalid.
+
 +++
 
 For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
@@ -343,6 +353,25 @@ The **[!UICONTROL Web performance]** KPIs detail the main information relative t
 The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
 
 The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
++++
+
+## Direct mail tab {#direct-mail-global}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
+
++++Learn more on the different metrics and widgets available for the Direct mail report.
+
+The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the delivery.
+
+The **[!UICONTROL Direct Mail - Excluded reasons]** and **[!UICONTROL Direct Mail - Error reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 +++
 
 ## Additional resources

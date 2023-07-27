@@ -20,9 +20,14 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
 1. Then, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
 
+    >[!NOTE]
+    >
+    > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
+
     ![](assets/inapp_config_1.png)
 
 1. Add a name to your **[!UICONTROL App surface]**.
+
 
 1. From the Apple iOS drop-down, type-in your **iOS Bundle ID**. Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on **Bundle ID**.
 
