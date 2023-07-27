@@ -115,11 +115,11 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## How-to videos{#video}
 
-The video below shows how to create, configure, and publish In-app messages in your campaigns.
-
+* The video below shows how to create, configure, and publish In-app messages in your campaigns.
+    
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-The video below shows how to configure and analyze content experiments to A/B test in-app messages.
+* The video below shows how to configure and analyze content experiments to A/B test in-app messages.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
