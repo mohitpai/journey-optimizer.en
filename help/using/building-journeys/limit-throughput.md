@@ -31,7 +31,11 @@ For more information on how to integrate with external systems, refer to this [p
 
 ## Implementation
 
-For **audience-triggered journeys**, you can define the throttling rate of your Read Audience activity that will impact journey throughput.  [Read more](../building-journeys/read-audience.md)
+For **audience-triggered journeys**, you can define the throttling rate of your Read Audience activity that will impact journey throughput. [Read more](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> This is the maximum number of profiles that can enter the read audience per second. This rate applies only to this activity and not other activities in the journey. [Read more](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

@@ -84,13 +84,45 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Click **[!UICONTROL Create experiment]** to start configuring your content experiment and create treatments to measure their performance and identify the best option for your target audience. [Learn more](../campaigns/content-experiment.md)
 
-1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message:
+1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message. Rule builders enable users to specify criteria and values that, when met, trigger a set of actions, such as sending an in-app message.
 
-    1. Click **Add condition** if you want the trigger to consider multiple events or criteria. 
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click the event drop-down to change your Trigger if needed.
+    
+    1. Click **[!UICONTROL Add condition]** if you want the trigger to consider multiple events or criteria.
+
+    1. Choose the **[!UICONTROL Or]** condition if you want to add more **[!UICONTROL Triggers]** to further expand your rule.
+
+        ![](assets/in_app_create_3.png)
+
+    1. Choose the **[!UICONTROL And]** condition if you want to add **[!UICONTROL Traits]** and better fine-tune your rule.
+
+        +++See available Traits.
+        
+        | Package | Traits | Definition |
+        |---|---|---|
+        |Device info|Carrier name|Triggered when one of the Carrier name from the list is met.|
+        |Device info|Device name|Triggered when one of the Device name is met.|
+        |Device info|Locale|Triggered when one of the language from the list is met.|
+        |Device info|OS version|Triggered when one of the specified OS version is met.|
+        |Device info|Previous OS version|Triggered when one of the specified Previous OS version is met.|
+        |Device info|Run mode|Triggered if Run mode is either application or extension.|
+        |Application lifecycle|App ID| Triggered when the specified App ID is met.| 
+        |Application lifecycle|Day of week|Triggered when the specified day of week is met.|
+        |Application lifecycle|Day since first use|Triggered when the specified number of day since first use is met.|
+        |Application lifecycle|Day since last use|Triggered when the specified number of day since last use is met.|
+        |Application lifecycle|Day since upgrade|Triggered when the specified number of day since last upgrade is met.|
+        |Application lifecycle|Install date|Triggered when the specified Install date is met.|
+        |Application lifecycle|Launches|Triggered when the specified number of Launches is met.|
+        |Application lifecycle|Time of day|Triggered when the specified Time of day is met.|
+        |Places|Current POI|Triggered by the Places SDK when your customer enters the specified Point of Interest (POI).|
+        |Places|Last entered POI|Triggered by the Places SDK depending on your customer last entered Point of Interest (POI).|
+        |Places|Last exited POI|Triggered by the Places SDK depending on your customer last exited Point of Interest (POI).|
+
+        +++
+        
+        ![](assets/in_app_create_8.png)
+
     1. Click **[!UICONTROL Make group]** to group triggers together.
-
-    ![](assets/in_app_create_3.png)
 
 1. Choose the frequency of your trigger when your In-app message is active. The following options are available:
 
@@ -115,13 +147,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## How-to videos{#video}
 
-The video below shows how to create, configure, and publish In-app messages in your campaigns.
+* The video below shows how to create, configure, and publish In-app messages in your campaigns.
+    
+    +++See video
+    >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+    +++
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+* The video below shows how to configure and analyze content experiments to A/B test in-app messages.
 
-The video below shows how to configure and analyze content experiments to A/B test in-app messages.
+    +++See video
+    >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+    +++
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 **Related topics:**
 
