@@ -27,6 +27,10 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 
 1. To define your target audience, click the **[!UICONTROL Select audience]** button and choose from the available Adobe Experience Platform audiences. [Learn more](../audience/about-audiences.md).
 
+   >[!IMPORTANT]
+   >
+   >For now, audience selection is restricted to 3 million profiles. This limitation can lifted upon request to your Adobe representative.
+
 1. In the **[!UICONTROL Identity namespace]** field, select the appropriate namespace to identify individuals within the chosen audience. [Learn more](../event/about-creating.md#select-the-namespace).
 
    ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
