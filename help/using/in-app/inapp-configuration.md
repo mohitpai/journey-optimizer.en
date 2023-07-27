@@ -75,4 +75,5 @@ The In-app channel is now configured. You can start sending In-app messages to y
 
 * The video below shows how to assign the **Manage app configuration** permission to access the App surfaces menu.
     
-    >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+

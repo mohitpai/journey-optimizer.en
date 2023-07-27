@@ -157,6 +157,7 @@ For more information on how to configure a journey, refer to [this page](../buil
     >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 
+
 **Related topics:**
 
 * [Design In-app message](design-in-app.md)
