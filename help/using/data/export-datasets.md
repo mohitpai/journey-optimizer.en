@@ -13,7 +13,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 
 >[!AVAILABILITY]
 >
->The datasets export feature is currently in beta and available to all Adobe Journey Optimizer users. Please work with your Adobe representative on getting access to Destinations if you do not already have access.
+>The datasets export feature is currently in beta and available to all Adobe Journey Optimizer users.
 
 Journey Optimizer allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.
 
@@ -42,7 +42,7 @@ Detailed information on each destination is available in Adobe Experience Platfo
 
 Check the following prerequisites before starting exporting your datasets:
 
-* To export datasets, you need the **Manage Destinations**, **View Destinations**, **Activate Destinations**, and **Manage and Activate Dataset Destinations** [access control permissions](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) or contact your product administrator to obtain the required permissions.
+* To export datasets, you need the **View Destinations** and **Manage and Activate Dataset Destinations** [access control permissions](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) or contact your product administrator to obtain the required permissions.
 
 * Make sure that the dataset that you want to export do not contain Second-generation data. This feature supports the export of First-generation data only, i.e. raw data as defined in the [Real-Time Customer Data Platform product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). First-generation data includes datasets brought in via Adobe Experience Platform Sources or datasets collected using Adobe solutions such as Analytics Data Connector and Journey Optimizer logs/report datasets.
 
