@@ -24,9 +24,4 @@ The main steps to send direct mail messages are as follows:
 
 Direct mail messages can only be created in the context of scheduled campaigns. They are not available for use in API-triggered campaigns or in journeys.
 
->[!IMPORTANT]
->
->Before sending a direct mail message, make sure you have configured:
->
->1. A [file routing configuration](../direct-mail/direct-mail-configuration.md#file-routing-configuration) which specifies the server where the extraction file should be uploaded and stored,
->1. A [direct mail message surface](../direct-mail/direct-mail-configuration.md#direct-mail-surface) which will reference the file routing configuration.
+

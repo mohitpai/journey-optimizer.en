@@ -15,7 +15,19 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 >title="Direct mail creation"
 >abstract="Create direct mail messages in scheduled campaigns and design the extraction files required by direct mail providers to send mail to your customers."
 
+To create direct mail messages, create a scheduled campaign, and configure the extraction file. This file is required by direct mail providers to send mail to your customers.
+
+>[!IMPORTANT]
+>
+>Before creating a direct mail message, make sure you have configured:
+>
+>1. A [file routing configuration](../direct-mail/direct-mail-configuration.md#file-routing-configuration) which specifies the server where the extraction file should be uploaded and stored,
+>1. A [direct mail message surface](../direct-mail/direct-mail-configuration.md#direct-mail-surface) which will reference the file routing configuration.
+
+
 ## Create a direct mail campaign{#create-dm-campaign}
+
+To create a direct mail campaign, follow these steps:
 
 1. Create a new scheduled campaign, and choose **[!UICONTROL Direct mail]** as the action.
 
@@ -40,6 +52,8 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 You can now start configuring the extraction file to send to your direct mail provider.
 
 ## Configure the extraction file {#extraction-file}
+
+The extraction file is required by direct mail providers to send mail to your customers. To define the extraction file configuration, follow these steps:
 
 1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the extraction file content.
 
