@@ -179,9 +179,6 @@ solution: Journey Optimizer
     + Design your content {#add-content}
       + [Use content components](using/email/content-components.md)
       + [Add links and track messages](using/email/message-tracking.md)
-      + Manage assets {#manage-asset}
-        + [Work with Assets Essentials](using/email/assets-essentials.md)
-        + [Work with Adobe Stock](using/email/stock.md)
       + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
       + [Add a preheader](using/email/preheader.md)
@@ -243,6 +240,11 @@ solution: Journey Optimizer
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
     + [Define landing page presets](using/landing-pages/lp-presets.md)
++ Content Management {#content-management}
+  + [Get started with images and assets](using/)
+  + [Work with Assets Essentials](using/content-management/assets-essentials.md)
+  + [Work with Adobe Stock](using/content-management/stock.md)
+  + [Work with Experience Variant Generation](using/content-management/stock.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
