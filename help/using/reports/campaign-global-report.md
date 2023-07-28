@@ -359,6 +359,8 @@ The **[!UICONTROL Clicks by element]** table details the main information relati
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
 
+![](assets/direct-mail-report_1.png)
+
 +++Learn more on the different metrics and widgets available for the Direct mail report.
 
 The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your delivery:
