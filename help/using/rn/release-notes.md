@@ -38,7 +38,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Direct mail channel</strong><br/></th>
@@ -54,7 +54,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
