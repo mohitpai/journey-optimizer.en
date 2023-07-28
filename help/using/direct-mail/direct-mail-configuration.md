@@ -6,21 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: yes
-hidefromtoc: yes
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
 ---
 # Direct mail configuration {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Create a direct mail](create-direct-mail.md)
-* **[Configure direct mail](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 
@@ -74,13 +62,13 @@ To configure the file routing, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** menu, then click **[!UICONTROL Create routing configuration]**.
 
-    ![](assets/file-routing-config-button.png)
+    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Set a name for your configuration.
 
 1. Select the **[!UICONTROL Server type]** that you want to use for exporting the direct mail files.
 
-    ![](assets/file-routing-config-type.png)
+    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
     >[!NOTE]
     >
@@ -92,7 +80,7 @@ To configure the file routing, follow the steps below.
 
 1. If you selected **[!UICONTROL Amazon S3]**, choose the **[!UICONTROL AWS region]** where the server infrastructure will be located.
 
-    ![](assets/file-routing-config-aws-region.png)
+    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
     >[!NOTE]
     >
@@ -131,11 +119,11 @@ A direct mail surface must also include the file routing configuration which def
 
 1. Select the **[!UICONTROL Direct mail]** channel.
 
-    ![](assets/surface-direct-mail-channel.png)
+    ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Define the direct mail settings in the dedicated section of the channel surface configuration.
 
-    ![](assets/surface-direct-mail-settings.png)
+    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
     <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -151,7 +139,7 @@ A direct mail surface must also include the file routing configuration which def
     >
     >If you have not configured any file routing option, you will not be able to create a direct mail surface. [Learn more](#file-routing-configuration)
 
-    ![](assets/surface-direct-mail-file-routing.png)
+    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
     <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
