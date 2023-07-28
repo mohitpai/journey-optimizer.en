@@ -7,11 +7,12 @@ role: User
 level: Beginner
 keywords: direct mail, message, campaign
 ---
-# Create a direct mail message {#create-direct}
+# Get started with direct mail {#create-direct}
 
 >[!AVAILABILITY]
 >
 >For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
+>
 
 Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
 
