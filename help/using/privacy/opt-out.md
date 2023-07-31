@@ -53,7 +53,7 @@ Learn how to manage opt-out in Journey Optimizer email and SMS messages in these
 
 Your customers can also opt out from being presented personalized contents. Once a profile has opted out from personalization, you need to ensure that their data is not used for personalization and you must replace any personalized content with a fallback variant.
 
-### In Decision Management
+### In Decision Management {#opt-out-decision-management}
 
 When leveraging offers, personalization preferences are not automatically implemented in [decision scopes](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) used from a [decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API request or [edge decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API request. In this case, you need to manually enforce personalization consent. To do so, follow the steps below.
 
@@ -87,9 +87,7 @@ If a user has:
 >
 >Consent for having profile data used in [data modeling](../offers/ranking/ai-models.md) is not supported yet in [!DNL Journey Optimizer].
 
-## In the Expression editor
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## In the Expression editor {#opt-out-expression-editor}
 
 The [Expression editor](../personalization/personalization-build-expressions.md) itself does not perform any consent checks or enforcement as it is not involved in the delivery of messages.
 
@@ -98,7 +96,6 @@ However, the use of right-based acces control labels allows to restrict which fi
 >[!NOTE]
 >
 >Learn more on Object level access control (OLAC) in [this section](../administration/object-based-access.md).
-
 
 In [!DNL Journey Optimizer] campaigns, the consent policy is enforced as follows:
 
