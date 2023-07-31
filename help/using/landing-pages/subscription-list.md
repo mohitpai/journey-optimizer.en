@@ -52,11 +52,11 @@ To create a subscription list, follow the steps below.
     >
     >Currently you cannot use spacing or enter a name that already exists for another subscription list in the **[!UICONTROL Title]** field.
 
-1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your landing page for improved search. [Learn more](../start/search-filter-categorize.md#tags)
-
 1. You can define a start date and end date.
 
     ![](assets/lp_subscription-list-dates.png)
+
+1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your landing page for improved search. [Learn more](../start/search-filter-categorize.md#tags)
 
 1. Click **[!UICONTROL Save]**.
 
