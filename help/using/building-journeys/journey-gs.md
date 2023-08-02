@@ -45,7 +45,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 >[!NOTE]
 >
->This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. 
+>This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. Metrics are refreshed every 30 minutes and only when new data is available. 
 
 ![](assets/journeys-dashboard.png)  
 
