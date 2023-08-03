@@ -9,7 +9,7 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 ---
 # Look up a placement {#look-up-placement}
 
-You can look up specific placements by making a GET request to the [!DNL Offer Library] API that includes the placement `@id`.
+You can look up specific placements by making a GET request to the [!DNL Offer Library] API that includes the placement `id`.
 
 **API format**
 
