@@ -89,7 +89,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **Response**
 
-A successful response returns the details of the newly created placement, including placement id. You can use the instance ID id in later steps to update or delete your placement. You can use your unique placement id in later tutorials to create decisions, decision rules, and fallback offers.
+A successful response returns the details of the newly created placement, including placement id. You can use the `id` in later steps to update or delete your placement. You can use it in later tutorials to create decisions, decision rules, and fallback offers.
 
 ```json
 {
