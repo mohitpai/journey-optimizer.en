@@ -18,18 +18,18 @@ In this example, we will focus on using Generative Sensei to update and improve 
 
 1. Select the asset you want to change with Generative Sensei.
 
-1. From the right-hand menu, select Experience generation.
+1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
 
-1. Add a prompt to better fine-tune your results and click Generate.
+1. Add a prompt to better fine-tune your results and click **[!UICONTROL Generate]**.
 
-    Enable the Enhance with current content option for Generative Sensei to personalize new assets based on your delivery, campaign name, and selected audience.
+    Enable the **[!UICONTROL Enhance with current content]** option for Generative Sensei to personalize new assets based on your delivery, campaign's name, and selected audience.
 
-1. Browse the Variation suggestions to find the desired Asset.
+1. Browse the **[!UICONTROL Variation suggestions]** to find the desired Asset.
 
-1. Once you choose your Variant, access the advanced menu of your selected Asset. 
+1. Once you choose your **[!UICONTROL Variant]**, access the advanced menu of your selected Asset. 
 
-1. You can choose Make similar to generate more variant based on the selected variant.
+1. You can choose **[!UICONTROL Make similar]** to generate more variant based on the selected variant.
 
-1. Click Edit image.
+1. Click **[!UICONTROL Edit image]**.
 
-1. Click Insert to add the generated asset to your content.
+1. Click **[!UICONTROL Insert]** to add the generated asset to your content.

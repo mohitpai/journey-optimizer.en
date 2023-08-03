@@ -20,7 +20,9 @@ By leveraging Generative Sensei, you have the opportunity to optimize your messa
 
 1. For your second **[!UICONTROL Treatment]**, we will use the Generation assistant to change the Title.
 
-    Next to your **[!UICONTROL Title]** field, click **[!UICONTROL Edit with Text generation assistant]**.
+    Next to your **[!UICONTROL Header]** field, click **[!UICONTROL Edit with Text generation assistant]**.
+
+    ![](assets/gen-ai-title-1.png)
 
 1. From the **[!UICONTROL User action]** menu, select the **[!UICONTROL Text refinement]**:
 
@@ -28,11 +30,17 @@ By leveraging Generative Sensei, you have the opportunity to optimize your messa
     
     * **[!UICONTROL Elaborate]**: Use this option to expand your content with additional creative variants from Generative Sensei.
 
+    ![](assets/gen-ai-title-2.png)
+
 1. Choose the tone of your variants with the **[!UICONTROL Change tone of voice]** menu. 
 
 1. From the **[!UICONTROL Free form]** menu, you can also choose to provide a prompt to better fine-tune your results.
 
+    ![](assets/gen-ai-title-3.png)
+
 1. Once you found the appropriate variant, click **[!UICONTROL User variant]** then **[!UICONTROL Apply]**.
+
+    ![](assets/gen-ai-title-4.png)
 
 1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering of your delivery, and check personalization settings with test profiles. [Learn more](../email/preview.md)
 
