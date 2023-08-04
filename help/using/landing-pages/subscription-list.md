@@ -56,6 +56,8 @@ To create a subscription list, follow the steps below.
 
     ![](assets/lp_subscription-list-dates.png)
 
+1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your landing page for improved search. [Learn more](../start/search-filter-categorize.md#tags)
+
 1. Click **[!UICONTROL Save]**.
 
 The list displays all the subscription lists created. You can filter them based on the creation date or modification date, and their status.

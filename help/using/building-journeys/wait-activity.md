@@ -29,9 +29,13 @@ If you want to wait before executing the next activity in the path, you can use 
 
 ## About the Wait activity{#about_wait}
 
-The maximum wait duration is 30 days. In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md) 
+The maximum wait duration is 30 days. In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md).
 
-Be cautious when using multiple Wait activities in a journey as the global journey timeout is 30 days, meaning that a profile will always drop out of the journey maximum 30 days after he/she entered it.
+Be cautious when using multiple Wait activities in a journey as the global journey timeout is 30 days, meaning that a profile will always drop out of the journey maximum 30 days after he/she entered it. See [this page](../building-journeys/journey-gs.md#global_timeout).
+
+An individual can enter a wait activity only if he or she has enough time left in the journey to complete the wait duration before the 30 days journey timeout. For example, if you add two wait activities set to 20 days each, the system will detect that the second wait will end after the 30 days timeout. The second wait will therefore be ignored and the individual will exit the journey before starting it. In that example, the customer will stay 20 days in total in the journey.
+
+It is a best practice to not use waits to block re-entrance. Instead, use the **Allow re-entrance** option at the journey properties level. See [this page](../building-journeys/journey-gs.md#entrance).
 
 ## Duration wait{#duration}
 
@@ -82,4 +86,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+Could you please draft something around that?

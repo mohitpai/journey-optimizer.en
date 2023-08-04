@@ -17,12 +17,17 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 * For the web experience to be delivered correctly, make sure you define the Adobe Experience Platform settings detailed [here](#delivery-prerequisites).
 
-## Cautions
+## Caution notes {#caution-notes-web}
 
-Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
+* Currently in [!DNL Journey Optimizer] you can only create web experiences in **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
 
-[!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
+>[!AVAILABILITY]
+>
+>For now, Web channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
+>
 
 ## Implementation prerequisites {#implementation-prerequisites}
 

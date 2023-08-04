@@ -38,9 +38,9 @@ For example, let’s say that you have defined a capping or throttling rule of 1
 
 >[!IMPORTANT]
 >
->**Capping rules** are configured at sandbox level, for a specific endpoint (the URL called) but global to all journeys of that sandbox.
+>**Capping rules** are configured at sandbox level, for a specific endpoint (the URL called) but global to all journeys of that sandbox. Capping is available on both data sources and custom actions.
 >
->**Throttling rules** are configured on production sandboxes only, for a specific endpoint but global to all journeys across all sandboxes. You can have only one throttling configuration per organization.
+>**Throttling rules** are configured on production sandboxes only, for a specific endpoint but global to all journeys across all sandboxes. You can have only one throttling configuration per organization. Throttling is only available on custom actions.
 
 For more information on how to work with the APIs, refer to these sections:
 
