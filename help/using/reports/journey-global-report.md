@@ -306,15 +306,9 @@ The **[!UICONTROL In-app performance]** KPIs detail the main information relativ
     > 
     >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
 
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+* **[!UICONTROL Interaction rate]**: percentage of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
-* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 
-The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
-
-The **[!UICONTROL Clicks by button]** graphs and table contain the available data for recipient behavior per button:
-
-* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
-
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
 +++

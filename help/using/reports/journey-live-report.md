@@ -183,18 +183,18 @@ The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which er
 
 ## In-app tab {#in-app-live}
 
+![](assets/journey_live_5.png)
+
 +++Learn more on the different metrics and widgets available for the In-app report.
 
 The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
 
-* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
-
 * **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
 
-The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
+* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
-The **[!UICONTROL Clicks by button]** graphs and table contain the available data for recipient behavior per button:
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 
-* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
 
 +++

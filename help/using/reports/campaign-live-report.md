@@ -159,21 +159,19 @@ The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!U
 
 ## Web tab {#web-tab}
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
 
 +++Learn more on the different metrics and widgets available for the Web report.
 
 The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
 
-* **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
-
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Clicks]**: total number of URL visits.
+* **[!UICONTROL Interactions]**:  total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and interactions) for the last 24 hours.
 
-The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
+The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
 +++
 
 ## Additional resources
