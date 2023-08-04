@@ -12,21 +12,21 @@ keywords: action, third-party, custom, journeys, API
 hide: yes
 hidefromtoc: yes
 ---
-# Custom action enhancements {#configure-an-action}
+# Custom action enhancements 
 
 You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 
 This capability was only available when using data sources. You can now use it with custom actions. 
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> This feature is currently available as a private beta.
+>This feature is currently available as a private beta.
 
 ## Defining the Custom Action
 
 When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
 
-### Endpoint configuration {#url-configuration}
+### Endpoint configuration 
 
 The **URL configuration** section has been renamed **Endpoint configuration**.
 
@@ -34,16 +34,16 @@ In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads {#url-configuration}
+### Payloads 
 
 The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
 * The **Request** field: this field is only available for POST and PUT calling methods.
 * The **Response** field: this is the new capability. This field as available for all calling methods.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Both these fields are optional.
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -125,9 +125,9 @@ You can also leverage the **jo_status** code to create a new path in case of an 
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Only newly created custom actions include this field out-of-the-box. If you want to use it with an existing custom action, you need to update the action. For example, you can update the description and save.
+>Only newly created custom actions include this field out-of-the-box. If you want to use it with an existing custom action, you need to update the action. For example, you can update the description and save.
 
 Here are the possible values for this field: 
 
@@ -142,9 +142,9 @@ You can personalize your messages using the response fields. In our example, in 
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> The call is performed only once per profile in a given journey. Multiple messages will not trigger new calls. 
+>The call is performed only once per profile in a given journey. Multiple messages will not trigger new calls. 
 
 ## Expression syntax
 
