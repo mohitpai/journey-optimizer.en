@@ -14,7 +14,7 @@ hidefromtoc: yes
 ---
 # Custom action enhancements 
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
 This capability was only available when using data sources. You can now use it with custom actions. 
 
@@ -49,11 +49,11 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Click inside the **Response** field. 
 
-    ![](assets/action-response3.png){width="70%" align="left"}
+    ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). 
 
-    ![](assets/action-response4.png){width="70%" align="left"}
+    ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Click **Save**.
 
@@ -115,15 +115,15 @@ Simply add the custom action to a journey. You can then leverage the response pa
 
 For example, you can add a condition to check the wind speed. When the person enters the surf shop you can send a push if the weather is too windy . 
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 In the condition, you need to use the advanced editor to leverage the action response fields, under the **Context** node.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 You can also leverage the **jo_status** code to create a new path in case of an error. 
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -136,15 +136,19 @@ Here are the possible values for this field:
 * capping error: **capped**
 * internal error: **internalError**
 
+For more information on journey activities, see [this section](../building-journeys/about-journey-activities.md).
+
 ### Message personalization
 
 You can personalize your messages using the response fields. In our example, in the push notification, we personalize the content using the speed value.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->The call is performed only once per profile in a given journey. Multiple messages will not trigger new calls. 
+>The call is performed only once per profile in a given journey. Multiple messages to the same profile will not trigger new calls. 
+
+For more information on message personalization, see [this section](../personalization/personalize.md).
 
 ## Expression syntax
 
@@ -169,4 +173,4 @@ Here are a few examples:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+For more information on field references, see [this section](../building-journeys/expression/field-references.md).
