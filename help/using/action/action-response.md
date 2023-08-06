@@ -22,7 +22,11 @@ This capability was only available when using data sources. You can now use it w
 >
 >This feature is currently available as a private beta.
 
-## Defining the Custom Action
+>[!WARNING]
+>
+>Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md).
+
+## Define the Custom Action
 
 When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
 
@@ -51,104 +55,80 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
     ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). 
+1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). Here is an example of response payload captured during the call. Our local endpoint sends the number of loyalty points of a profile. 
+
+    ```
+    {
+    "customerID" : "xY12hye",    
+    "status":"gold",
+    "points": 1290 }
+    ```
 
     ![](assets/action-response4.png){width="80%" align="left"}
 
+    Each time the API is called, the system will retrieve all the fields included in the payload example.
+
+1. Let's also add the customerID as a query parameter.
+
+    ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Click **Save**.
 
-Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **Paste a new payload** if you want to change the payload currently passed.
-
-Here is an example of a response payload captured during the call to an weather API service:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## Leveraging the response in a journey
+## Leverage the response in a journey
 
 Simply add the custom action to a journey. You can then leverage the response payload fields in conditions, other actions and message personalization.
 
-### Conditions and actions
-
-For example, you can add a condition to check the wind speed. When the person enters the surf shop you can send a push if the weather is too windy . 
+For example, you can add a condition to check the number of loyalty points. When the person enters the restaurant, your local endpoint sends a call with the profile's loyalty information. You can send a push if the profile is a gold customer. And if an error is detected in the call, send a custom action to notify your system administrator.
 
 ![](assets/action-response5.png)
 
-In the condition, you need to use the advanced editor to leverage the action response fields, under the **Context** node.
+1. Add your event and the Loyalty custom action created earlier. 
 
-![](assets/action-response6.png)
+1. In the Loyalty custom action, map the customer ID query parameter with the profile ID. Check the option **Add an alternative path in case of a timeout or error**.
 
-You can also leverage the **jo_status** code to create a new path in case of an error. 
+    ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. In the first branch, add a condition and use the advanced editor to leverage the action response fields, under the **Context** node.
 
->[!WARNING]
->
->Only newly created custom actions include this field out-of-the-box. If you want to use it with an existing custom action, you need to update the action. For example, you can update the description and save.
+    ![](assets/action-response6.png)
+
+1. Then add your push, and personalize your message using the response fields. In our example, we personalize the content using the number of loyalty points and the customer status. The action response fields are available under **Contextual attributes** > **Journey Orchestration** > **Actions**.
+
+    ![](assets/action-response8.png)
+
+    >[!NOTE]
+    >
+    >Each profile entering the custom action will trigger a call. Even if the response is always the same, Journey will still perform one call per profile.
+
+1. In the timeout and error branch, add a condition and leverage the built-in **jo_status_code** field. In our example, we're using the 
+**http_400** error type. See [this section](#error-status).
+
+    ```
+    @action{ActionLoyalty.jo_status_code} == "http_400"
+    ```
+
+    ![](assets/action-response7.png)
+
+1. Add a custom action that will be sent to your organization.
+
+    ![](assets/action-response11.png)
+
+## Error status{#error-status}
+
+The **jo_status_code** field is always available even when no response payload is defined.
 
 Here are the possible values for this field: 
 
-* http status code: for instance **http_200** or **http_400**
+* http status code: http_`<HTTP API call returned code>`, for instance http_200 or http_400
 * timeout error: **timedout**
 * capping error: **capped**
 * internal error: **internalError**
 
-For more information on journey activities, see [this section](../building-journeys/about-journey-activities.md).
+An action call is considered in error when the returned http code is greater than 2xx or if an error occurs. The journey flows to the dedicated timeout or error branch in such cases.
 
-### Message personalization
-
-You can personalize your messages using the response fields. In our example, in the push notification, we personalize the content using the speed value.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->The call is performed only once per profile in a given journey. Multiple messages to the same profile will not trigger new calls. 
-
-For more information on message personalization, see [this section](../personalization/personalize.md).
+>Only newly created custom actions include the **jo_status_code** field out-of-the-box. If you want to use it with an existing custom action, you need to update the action. For example, you can update the description and save.
 
 ## Expression syntax
 
