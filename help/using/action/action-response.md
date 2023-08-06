@@ -55,7 +55,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
     ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). Here is an example of response payload captured during the call. Our local endpoint sends the number of loyalty points of a profile. 
+1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). Here is an example of response payload captured during the call. Our local endpoint sends the number of loyalty points and the status of a profile. 
 
     ```
     {
