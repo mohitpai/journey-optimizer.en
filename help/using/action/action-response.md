@@ -141,16 +141,16 @@ Here is the syntax:
 Here are a few examples:
 
 ```json
-// action response field
-@action{<action name>.<path to the field>}
-@action{OpenWeatherMap.main.temp}
+ // action response field
+ @action{<action name>.<path to the field>}
+ @action{ActionLoyalty.status}
 ```
 
 ```json
-// action response field
-@action{<action name>.<path to the field>, defaultValue: <default value expression>}
-@action{OpenWeatherMap.main.temp, defaultValue: 273.15}
-@action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
+ // action response field
+ @action{<action name>.<path to the field>, defaultValue: <default value expression>}
+ @action{ActionLoyalty.points, defaultValue: 0}
+ @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
 For more information on field references, see [this section](../building-journeys/expression/field-references.md).
