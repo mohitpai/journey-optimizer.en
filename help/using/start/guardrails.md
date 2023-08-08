@@ -113,3 +113,5 @@ You can choose from one of these two solutions:
 * **[!UICONTROL Reaction]** activities can not be used to react to an In-app open or click.
 
 * An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
+
+* In-app message content size is limited to 2Mb. Including large images can hinder the publishing process.
