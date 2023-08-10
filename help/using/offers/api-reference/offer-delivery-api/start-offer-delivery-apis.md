@@ -13,10 +13,6 @@ You can deliver offers using either the **Decisioning** or the **Edge Decisionin
 
 In this page, you will find information on specific functionalities that are available with the **Decisioning** and **Edge Decisioning** APIs. While both allow you to deliver offers to your customers, we recommend using the **Edge Decisioning** API whenever possible for inbound use cases and to ensure better latency and throughput on your platform.
 
-|| Requests/sec | Latency |
-|---|---|---|
-| Decisioning API | 2000 | <500ms |
-| Edge Decisioning API | 5000 | <250ms |
 
 For more information on how to work with the APIs, refer to these sections:
 * [Decisioning API](decisioning-api.md)
