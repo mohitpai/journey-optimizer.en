@@ -172,7 +172,7 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
     ![](assets/email_designer_10.png)
 
-1. You can also choose to **[!UICONTROL Find similar Stock photos]**. [Learn more](stock.md)
+1. You can also choose to **[!UICONTROL Find similar Stock photos]**. [Learn more](../content-management/stock.md)
 
 1. From the **[!UICONTROL Styles]** tab, adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
 

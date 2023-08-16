@@ -243,7 +243,6 @@ solution: Journey Optimizer
     + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
     + [Define landing page presets](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
-  + [Get started with images and assets](using/)
   + [Work with Assets Essentials](using/content-management/assets-essentials.md)
   + [Work with Adobe Stock](using/content-management/stock.md)
   + Work with the Content assistant{#content-assistant}
