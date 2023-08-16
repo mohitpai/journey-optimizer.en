@@ -16,6 +16,12 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 >
 >To be able to test and publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 
+To direct your customers to a defined web page that you want to display when they click a specific link, create a landing page in [!DNL Journey Optimizer], configure the primary page and any subpages, test it and publish it.
+
+>[!CAUTION]
+>
+>You cannot access your landing page by simply copy-pasting into a web browser the URL defined when [creating the page](#create-landing-page), even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
 ## Access landing pages {#access-landing-pages}
 
 To access the landing page list, select **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** from the left menu.
@@ -89,6 +95,10 @@ The main steps to create landing pages are as follows:
 
 Once you configured and designed the [primary page](#configure-primary-page), and the [subpages](#configure-subpages) if any, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
 
+>[!CAUTION]
+>
+>You cannot access your landing page by simply copy-pasting the defined URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
 ## Configure the primary page {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -118,13 +128,11 @@ To define the primary page settings, follow the steps below.
 
     >[!CAUTION]
     >
-    >The landing page URL must be unique.  
-
-    ![](assets/lp_access-url.png)
-
-    >[!NOTE]
+    >The landing page URL must be unique.
     >
     >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
+
+    ![](assets/lp_access-url.png)
 
 1. If you want the landing page to preload the form data that is already available, select the **[!UICONTROL Pre-fill form fields with profile information]**.
 
@@ -190,6 +198,8 @@ To define the subpage settings, follow the steps below.
     >[!CAUTION]
     >
     >The landing page URL must be unique.
+    >
+    >You cannot access your subpage by simply copy-pasting this URL into a web browser, even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -292,5 +302,6 @@ It is now live and ready to be used in a [!DNL Journey Optimizer] message that w
 
 >[!NOTE]
 >
->You can monitor your landing page impacts through specific reports. [Learn more](../reports/lp-report-live.md)
+>You cannot access your landing page by simply copy-pasting into a web browser the URL defined when [creating the page](#create-landing-page), even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
 
+You can monitor your landing page impacts through specific reports. [Learn more](../reports/lp-report-live.md)
