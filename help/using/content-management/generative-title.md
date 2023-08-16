@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Title generation with Generative Sensei
-description: Get Started with Generative Sensei
+title: Title generation with the Content assistant
+description: Get Started with the Content assistant
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 ---
-# Title generation with Generative Sensei {#title-generative-sensei}
+# Title generation with the Content assistant {#title-generative-sensei}
 
-Once you have created and personalized your Emails, In-app messages, SMS, Push notifications, or Web pages, take your content to the next level with Generative Sensei. In this particular example, we will focus on sending an engaging In-app message using Content Experiment.
+Once you have created and personalized your Emails, In-app messages, SMS, Push notifications, or Web pages, take your content to the next level with the Content assistant. In this particular example, we will focus on sending an engaging In-app message using Content Experiment.
 
-By leveraging Generative Sensei, you have the opportunity to optimize your message's impact by experimenting with different main titles. Each variant will be treated as a unique Treatment, to measure and compare which title effectively generates more clicks.
+By leveraging the Content assistant, you have the opportunity to optimize your message's impact by experimenting with different main titles. Each variant will be treated as a unique Treatment, to measure and compare which title effectively generates more clicks.
 
 1. Create your delivery and add Content experimentation for this delivery. [Learn more on Experimentation](../campaigns/content-experiment.md)
 
@@ -28,7 +28,7 @@ By leveraging Generative Sensei, you have the opportunity to optimize your messa
 
     * **[!UICONTROL Summarize]**: Use this option to shorten a text and keep the essential.
     
-    * **[!UICONTROL Elaborate]**: Use this option to expand your content with additional creative variants from Generative Sensei.
+    * **[!UICONTROL Elaborate]**: Use this option to expand your content with additional creative variants from the Content assistant.
 
     ![](assets/gen-ai-title-2.png)
 
