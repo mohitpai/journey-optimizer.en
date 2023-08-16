@@ -7,10 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
-# Title generation with the Content assistant {#title-generative-sensei}
+# Title generation with the Content assistant {#title-content-assistant}
 
-Once you have created and personalized your Emails, In-app messages, SMS, Push notifications, or Web pages, take your content to the next level with the Content assistant. In this particular example, we will focus on sending an engaging In-app message using Content Experiment.
+Once you have created and personalized your delivery, take your content to the next level with the Content assistant. In this particular example, we will focus on sending an engaging Push notification using Content Experiment.
 
 By leveraging the Content assistant, you have the opportunity to optimize your message's impact by experimenting with different main titles. Each variant will be treated as a unique Treatment, to measure and compare which title effectively generates more clicks.
 
