@@ -94,7 +94,7 @@ To license and download your image, follow the steps below:
 
 ## Related topics{#stock-related-topics}
 
-* [Email design in Journey Optimizer](get-started-email-design.md)
-* [Components settings for email design](content-components.md)
+* [Email design in Journey Optimizer](../email/get-started-email-design.md)
+* [Components settings for email design](../email/content-components.md)
 * [Adobe Stock Get Started](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 
