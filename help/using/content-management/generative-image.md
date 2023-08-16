@@ -28,15 +28,29 @@ In this example, we will focus on using the Content assistant to update and impr
 
     Enable the **[!UICONTROL Enhance with current content]** option for the Content assistant to personalize new assets based on your delivery, campaign's name, and selected audience.
 
+    ![](assets/gen-ai-image-2.png)
+
 1. Browse the **[!UICONTROL Variation suggestions]** to find the desired Asset.
 
 1. Once you choose your **[!UICONTROL Variant]**, access the advanced menu of your selected Asset. 
 
+    ![](assets/gen-ai-image-3.png)
+
 1. You can choose **[!UICONTROL Make similar]** to generate more variant based on the selected variant.
 
-1. Click **[!UICONTROL Edit image]**.
+1. Click **[!UICONTROL Edit image]** to access the **[!UICONTROL Select New Image]** menu. 
+
+1. From this menu, you can generate a new Asset or choose to use an existing one from your Assets folders.
+
+    ![](assets/gen-ai-image-4.png)
 
 1. Click **[!UICONTROL Insert]** to add the generated asset to your content.
+
+    ![](assets/gen-ai-image-5.png)
+
+1. Choose in which folder you wish to save your generated asset and click **[!UICONTROL Import]**.
+
+    ![](assets/gen-ai-image-6.png)
 
 1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering of your delivery, and check personalization settings with test profiles. [Learn more](../email/preview.md)
 
