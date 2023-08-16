@@ -61,7 +61,7 @@ To browse similar photos, follow the steps below:
     
     If the image you selected is not licensed, you must [get the license](#license-stock-image).
 
-1. Customize your image, if needed, with the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](content-components.md).
+1. Customize your image, if needed, with the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](../email/content-components.md).
 
 ## Get the license from [!DNL Adobe Stock] {#license-stock-image}
 
