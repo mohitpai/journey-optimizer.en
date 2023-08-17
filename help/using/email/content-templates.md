@@ -171,6 +171,10 @@ You can test the rendering of any email content template, whether created from s
 
         ![](assets/content-template-stimulate-proof-surface.png)
 
+>[!CAUTION]
+>
+>Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](email-templates.md) in an email and [send a proof](preview.md#send-proofs).
+
 ## How-to video {#video-templates}
 
 Learn how to create, edit, and use content templates in [!DNL Journey Optimizer].
