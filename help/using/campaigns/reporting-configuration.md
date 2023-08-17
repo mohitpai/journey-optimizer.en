@@ -53,7 +53,7 @@ Before being able to add a dataset to the reporting configuration, you must crea
 
     For example, if you want to know the impact of an email campaign on commerce data such as purchases or orders, you need to create an experience event dataset with the `Commerce Details` field group.
 
-    Likewise, if you want to report on mobile interactions, you need to create an experience event dataset with the `Application Details`` field group.
+    Likewise, if you want to report on mobile interactions, you need to create an experience event dataset with the `Application Details` field group.
 
     <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
