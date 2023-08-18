@@ -35,8 +35,6 @@ In the left menu, under **Administration**, click **Alerts**. A pre-configured a
 
 If an unexpected behavior occurs, an alert notification is sent to the subscribers of the alert through email or directly within Journey Optimizer, in the top right corner of the interface, based on user preferences.
 
-![](assets/alerts2.png)
-
 When an alert is resolved, you receive a "Resolved" notification. For the custom action alert, this can happen for two reasons:
 * Over the last 5 minutes, there has not been any error on that custom action (or errors below the 1% threshold).
 * No profile reached that custom action.
