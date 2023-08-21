@@ -61,6 +61,8 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 
+Operations include: add, replace, remove, copy and test.
+
 **Response**
 
 A successful response returns the updated details of the placement, including its unique instance ID and placement `@id`.

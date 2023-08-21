@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 ---
 # Create a collection qualifier {#create-tag}
 
-You can create a collection qualifier (previously known as "tag") by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a collection qualifier (previously known as "tag") by making a POST request to the [!DNL Offer Library] API.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -28,7 +28,7 @@ POST /{ENDPOINT_PATH}/tags
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Request**
 
@@ -47,7 +47,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Response**
 
-A successful response returns information on the newly created collection qualifier, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `@id` in later tutorials to create collections and personalized offers.
+A successful response returns information on the newly created collection qualifier, including its placement `id`. You can use it in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `id` in later tutorials to create collections and personalized offers.
 
 ```json
 {

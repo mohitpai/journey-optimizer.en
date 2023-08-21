@@ -14,7 +14,7 @@ You can look up specific placements by making a GET request to the [!DNL Offer L
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | Parameter | Description | Example |
@@ -33,7 +33,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **Response**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique placement `@id`.
+A successful response returns the details of the placement including information about unique placement `id`.
 
 ```json
 {
