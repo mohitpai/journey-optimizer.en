@@ -69,4 +69,4 @@ SMS deliveries can be created:
 
 Learn how to configure, author, and include SMS messaging into your customer journeys.
 
->[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
