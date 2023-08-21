@@ -31,7 +31,7 @@ By default, new journeys allow re-entrance. You can uncheck the option for "one 
 
 ![](assets/journey-re-entrance.png)
 
-After the default global timeout of 30 days, the journey switches to the **Finished** status. Profiles already in the journey finish the journey normally. New profiles can no longer enter the journey. To align with privacy compliance, this behaviour is set for 30 days only. After that period, profiles can re-enter the journey. To avoid this, add a condition to test if the profile entered already or not. Learn more about journey timeout in [this section](journey-gs.md#global_timeout).
+After the default global timeout of 30 days, the journey switches to the **Finished** status. Profiles already in the journey finish the journey normally. New profiles can no longer enter the journey. This behaviour is set for 30 days only (journey timeout default value). After that period, profiles can re-enter the journey. To avoid this, add a condition to test if the profile entered already or not. Learn more about journey timeout in [this section](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
