@@ -9,7 +9,7 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 ---
 # Look up a collection qualifier {#look-up-tag}
 
-You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the [!DNL Offer Library] API that includes either the collection qualifier `@id` or the name of the collection qualifier in the request path.
+You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the [!DNL Offer Library] API that includes either the collection qualifier `id` or the name of the collection qualifier in the request path.
 
 **API format**
 
@@ -19,7 +19,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{ID}` | The id of the entity you wish to look up. | `tag1234` |
 
 **Request**
@@ -35,7 +35,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Response**
 
-A successful response returns the details of the collection qualifier including information about your container ID, instance ID and, unique collection qualifier `@id`.
+A successful response returns the details of the collection qualifier including information about your container ID, instance ID and, unique collection qualifier `id`.
 
 ```json
 {
