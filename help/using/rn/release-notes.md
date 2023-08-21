@@ -67,7 +67,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <td>
 <p>You can now import and convert any HTML content in Journey Optimizer's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!</p>
 <img src="assets/html-convert.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../email/existing-content.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
