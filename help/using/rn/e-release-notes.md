@@ -12,11 +12,11 @@ hidefromtoc: yes
 
 Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published  in the [release notes](release-notes.md), at the release date.
 
-## August 2023 early release notes {#july-rn-2023}
+## August 2023 early release notes {#aug-rn-2023}
 
 **Release date**: August 23-24, 2023
 
-### New capabilities{#july-2023-features}
+### New capabilities{#aug-2023-features}
 
 This release brings the new capabilities listed below.
 
@@ -30,13 +30,11 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
-<img src="assets/do-not-localize/in-app.gif"/>
+<img src="assets/in_app_journey_1.png"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
-
-
 
 
 <table>
@@ -49,7 +47,7 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of test email addresses you send an email to before sending it to your actual audience. Use this capability to monitor the email copies sent out and ensure that all display formats, URLs, images and links, are correct.</p>
-<img src="../email/assets/html-imported_2.png">
+<img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -67,8 +65,8 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -76,7 +74,7 @@ This release brings the new capabilities listed below.
 
 
 
-### Improvements {#july-2023-improvements}
+### Improvements {#aug-2023-improvements}
 
 This release comes with the improvements listed below.
 
@@ -86,7 +84,7 @@ A new API to create and manage Content Fragments is now available. [Learn more](
 
 **Email channel**
 
-* A new option is now available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+* A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
 
 **Journeys**
 
