@@ -178,8 +178,8 @@ To perform this, follow the steps below:
 
     ![Duplicate a journey](assets/duplicate-jo.png)
 
-1. Enter the name of the journey and confirm. 
+<!--1. Enter the name of the journey and confirm. 
 
-    If no name is specified, the journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end.
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
 
-1. The journey new is created and available in the journey list.
+1. The new journey is created and available in the journey list.
