@@ -46,7 +46,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of test email addresses you send an email to before sending it to your actual audience. Use this capability to monitor the email copies sent out and ensure that all display formats, URLs, images and links, are correct.</p>
+<p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of internal addresses which can be added to your actual audience and receive the exact same message as the targeted profiles at the delivery execution time. Use this capability to monitor the sent out communications and ensure that all display formats, URLs, images and links are correct.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -96,5 +96,5 @@ A new option is available in the email surface settings to include email address
 
 **Direct mail**
 
-* Support Azure Blob as a routing destination.
-* Support `&` character as a custom separator.
+* Azure can now be selected as the server type in the file routing configuration.
+* Ampersand is now available as column separator field in the direct mail surface settings.
