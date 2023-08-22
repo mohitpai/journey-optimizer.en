@@ -115,7 +115,7 @@ The **Copy technical details** allows you to copy technical information about th
 
  ![](assets/journey32.png)
 
-### Entrance{#entrance}
+### Entrance and re-entrance {#entrance}
 
 By default, new journeys allow re-entrance. You can uncheck the **Allow re-entrance** option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
@@ -166,3 +166,16 @@ In addition to the [timeout](#timeout_and_error) used in journey activities, the
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
 
 An individual can enter a wait activity only if he or she has enough time left in the journey to complete the wait duration before the 30 days journey timeout. See [this page](../building-journeys/wait-activity.md).
+
+## Duplicate a journey {#duplicate-a-journey}
+
+You can duplicate an existing journey from the **Browse** tab. To perform this, follow the steps below:
+
+
+1. Navigate to the journey you want to copy, click the **More actions** icon (the three dots next to the journey name).
+1. Select **Duplicate**.
+1. Enter the name of the journey and confirm. 
+
+    If no name is specified, the journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end.
+
+1. The journey new is created and available in the journey list.
