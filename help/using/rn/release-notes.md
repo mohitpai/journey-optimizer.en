@@ -96,7 +96,7 @@ A new option is available in the email surface settings to include email address
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta.
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta.
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
