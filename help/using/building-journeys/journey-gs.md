@@ -169,11 +169,15 @@ An individual can enter a wait activity only if he or she has enough time left i
 
 ## Duplicate a journey {#duplicate-a-journey}
 
-You can duplicate an existing journey from the **Browse** tab. To perform this, follow the steps below:
+You can duplicate an existing journey from the **Browse** tab. All objects and settings are duplicated to the journey copy.
 
+To perform this, follow the steps below:
 
 1. Navigate to the journey you want to copy, click the **More actions** icon (the three dots next to the journey name).
 1. Select **Duplicate**.
+
+    ![Duplicate a journey](assets/duplicate-jo.png)
+
 1. Enter the name of the journey and confirm. 
 
     If no name is specified, the journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end.
