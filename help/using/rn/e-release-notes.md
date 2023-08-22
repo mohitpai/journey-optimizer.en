@@ -97,4 +97,4 @@ A new API to create and manage Content Fragments is now available. [Learn more](
 **Direct mail**
 
 * Support Azure Blob as a routing destination.
-* Support `&` as a custom separator.
+* Support `&` character as a custom separator.
