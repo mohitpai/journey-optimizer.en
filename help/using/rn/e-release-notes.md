@@ -23,7 +23,7 @@ This release brings the new capabilities listed below.
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel in journeys</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -58,13 +58,14 @@ This release brings the new capabilities listed below.
 <table>
 <thead>
 <tr>
-<th><strong>Content assistant for text and images</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -88,5 +89,12 @@ A new API to create and manage Content Fragments is now available. [Learn more](
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* When duplicating a journey, you can now define the name of the journey copy.
+
+
+**Direct mail**
+
+* Support Azure Blob as a routing destination.
+* Support `&` as a custom separator.

@@ -121,7 +121,7 @@ By default, new journeys allow re-entrance. You can uncheck the **Allow re-entra
 
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or an audience qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 
-Learn more about profile entrance mannagement, in [this section](entry-management.md).
+Learn more about profile entrance and re-entrance management, in [this section](entry-management.md).
 
 ### Manage access {#access}
 
