@@ -46,7 +46,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of test email addresses you send an email to before sending it to your actual audience. Use this capability to monitor the email copies sent out and ensure that all display formats, URLs, images and links, are correct.</p>
+<p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of internal addresses which can be added to your actual audience and receive the exact same message as the targeted profiles at the delivery execution time. Use this capability to monitor the sent out communications and ensure that all display formats, URLs, images and links are correct.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -55,7 +55,7 @@ This release brings the new capabilities listed below.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -67,11 +67,11 @@ This release brings the new capabilities listed below.
 <p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 <p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -85,7 +85,7 @@ A new API to create and manage Content Fragments is now available. [Learn more](
 
 **Email channel**
 
-* A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
 
 **Journeys**
 
@@ -96,5 +96,5 @@ A new API to create and manage Content Fragments is now available. [Learn more](
 
 **Direct mail**
 
-* Support Azure Blob as a routing destination.
-* Support `&` as a custom separator.
+* Azure can now be selected as the server type in the file routing configuration.
+* Ampersand is now available as column separator field in the direct mail surface settings.
