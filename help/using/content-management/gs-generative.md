@@ -24,7 +24,7 @@ hidefromtoc: yes
 >[!ENDSHADEBOX]
 
 
-The Content assistant brings proactive content variation suggestions for text and images. It is available for email, Push, SMS, and Web channels. This new capability provides a prompt based text and image generation. Image generation is managed with Adobe Firefly.
+Adobe Journey Optimier Content assistant brings proactive content variation suggestions for text and images. It is available for email, Push, SMS, and Web channels. This new capability provides a prompt based text and image generation. Image generation is managed with Adobe Firefly.
 
 ![](assets/image-gen-ai.png)
 
