@@ -469,7 +469,7 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Custom action enhancements](using/action/action-response.md)
+      + [Use API call responses in custom actions](using/action/action-response.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + Access control overview {#privacy}

@@ -18,11 +18,12 @@ When a certain set of conditions in your operations is reached (such as a potent
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
 Learn more on alerts in Adobe Experience Platform [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
+
 To learn how to subscribe to alerts and configure them, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 >[!AVAILABILITY]
 >
->Some design changes are in progress for the ‘Read Audience Trigger Unsuccessful’ alert, hence this alert is paused for now, and has been temporary removed from the user interface. Once these changes are released, the alert will be surfaced again, and you will be able to subscribe to it.
+>Some design changes are in progress for the 'Read Audience Trigger Unsuccessful' alert, hence this alert is paused for now, and has been temporary removed from the user interface. Once these changes are released, the alert will be surfaced again, and you will be able to subscribe to it.
 
 In the left menu, under **Administration**, click **Alerts**. A pre-configured alert for Journey Optimizer is available. This alert warns you if a custom action fails. We consider there is a failure where there has been more than 1% of errors on a specific custom action over the last 5 minutes. This is evaluated every 30 seconds.
 

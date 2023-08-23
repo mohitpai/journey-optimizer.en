@@ -1,17 +1,18 @@
 ---
 title: Create an In-app notification in a Journey
-description: Learn how to create an In-app message in Journey Optimizer
+description: Learn how to add an In-app message in a journey
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, creation, start
-hide: yes
-hidefromtoc: yes
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
 ---
+
 # Create an In-app message in a Journey {#create-in-app-journey}
+
+To add an In-app message in a journey, follow these steps:
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -79,7 +80,7 @@ Learn more about [Journey global report](../reports/journey-global-report.md).
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
 

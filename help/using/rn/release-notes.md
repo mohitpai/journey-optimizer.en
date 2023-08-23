@@ -38,7 +38,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -96,9 +96,9 @@ A new option is available in the email surface settings to include email address
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. [Learn more](../action/action-response.md).
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md).
+<!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Direct mail**
