@@ -15,6 +15,8 @@ hidefromtoc: yes
 
 >[!BEGINSHADEBOX]
 
+**Table of content**
+
 * [Get started with the Content assistant](gs-generative.md)
 * **[Generate text with the Content assistant](generative-title.md)**
 * [Generate images with the Content assistant](generative-image.md)
