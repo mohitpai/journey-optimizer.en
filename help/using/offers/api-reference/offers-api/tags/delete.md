@@ -9,7 +9,7 @@ exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 ---
 # Delete a collection qualifier {#delete-tag}
 
-It may occasionally be necessary to remove (DELETE) a collection qualifier (previously known as "tag"). Without Only collection qualifiers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the collection qualifier you wish to delete.
+It may occasionally be necessary to remove (DELETE) a collection qualifier (previously known as "tag"). This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the collection qualifier you wish to delete.
 
 **API format**
 
@@ -20,7 +20,6 @@ DELETE /{ENDPOINT_PATH}/tags/{ID}
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{ID}` | The id of the entity you wish to delete. | `tag1234` |
 
 **Request**

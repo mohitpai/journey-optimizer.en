@@ -19,7 +19,7 @@ DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `[https://platform.adobe.io/data/core/dps/](https://platform.adobe.io/data/core/xcore/)` |
 | `{ID}` | The id of the entity you wish to delete. | `personalizedOffer1234` |
 
 **Request**
@@ -37,4 +37,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 A successful response returns HTTP status 200 and a blank body.
 
-You can confirm the deletion by attempting a lookup (GET) request to the placement and should receive an HTTP status 404 (Not Found) because the placement has been removed.
+You can confirm the deletion by attempting a lookup (GET) request to the personalized-offer and should receive an HTTP status 404 (Not Found) because the personalized-offer has been removed.

@@ -13,12 +13,11 @@ You can create a collection qualifier (previously known as "tag") by making a PO
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Content-Type | `application/json` |
 
 **API format**
 
@@ -47,7 +46,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Response**
 
-A successful response returns information on the newly created collection qualifier, including its placement `id`. You can use it in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `id` in later tutorials to create collections and personalized offers.
+A successful response returns information on the newly created collection qualifier, including its `id`. You can use it in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `id` in later tutorials to create collections and personalized offers.
 
 ```json
 {
@@ -59,6 +58,6 @@ A successful response returns information on the newly created collection qualif
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

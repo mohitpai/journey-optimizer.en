@@ -13,12 +13,11 @@ Decision rules are constraints added to a personalized offer and applied to a pr
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Content-Type | `application/json` |
 
 **API format**
 

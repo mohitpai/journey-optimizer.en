@@ -51,7 +51,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
 
 **Response**
 
-A successful response returns a list of placements that are present within the container you have access to.
+A successful response returns a list of placements that are present and those that you have access to.
 
 ```json
 {

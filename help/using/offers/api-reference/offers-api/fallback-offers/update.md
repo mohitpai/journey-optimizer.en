@@ -56,7 +56,7 @@ curl -X PATCH \
 
 | Parameter | Description |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
+| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, `remove`, `copy` and `test`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 

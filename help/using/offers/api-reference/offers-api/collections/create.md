@@ -15,12 +15,11 @@ You can create a collection by making a POST request to the [!DNL Offer Library]
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Content-Type | `application/json` |
 
 **API format**
 

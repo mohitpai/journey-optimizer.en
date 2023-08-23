@@ -15,12 +15,11 @@ For more information on JSON Patch, including available operations, see the offi
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Content-Type | `application/json` |
 
 **API format**
 
@@ -58,7 +57,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | Parameter | Description |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
+| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, `remove`, `copy` and `test`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 

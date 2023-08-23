@@ -13,7 +13,7 @@ You can create a placement by making a POST request to the [!DNL Offer Library] 
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprises the *Content-Type* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |

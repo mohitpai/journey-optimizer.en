@@ -15,7 +15,7 @@ For more information on JSON Patch, including available operations, see the offi
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprises the *Content-Type* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
@@ -57,15 +57,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 | Parameter | Description |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
+| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, `remove`, `copy` and `test`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 
-Operations include: add, replace, remove, copy and test.
-
 **Response**
 
-A successful response returns the updated details of the placement, including its unique instance ID and placement `@id`.
+A successful response returns the updated details of the placement, without including its unique instance ID and placement `id`.
 
 ```json
 {

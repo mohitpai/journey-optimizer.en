@@ -11,7 +11,7 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 
-You can view a list of all personalized offers within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all personalized offers by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 
@@ -45,13 +45,13 @@ The most common query parameters for paging include:
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `property`| An optional property filter: <br> <ul> - The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=<property-expr>[&property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Property expressions are in format [!]field[op]value, with op in [==,!=,<=,>=,<,>,~], supporting regular expressions| `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.|
+| `property`| An optional property filter: <br> <ul> - The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=<property-expr>[&property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Property expressions are in format [!]field[op]value, with op in [==,!=,<=,>=,<,>,~], supporting regular expressions| `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.`|
 | `orderBy` | Sort results by a specific property. Adding a - before name (orderby=-name) will sort items by name in descending order (Z-A). Path expressions are in the form of dot separated paths. This parameter can be repeated like so: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limit the number of placements returned. | `limit=5` |
 
 **Response**
 
-A successful response returns a list of personalized offers that are present within the container you have access to.
+A successful response returns a list of personalized offers that are present along with those that you have access to.
 
 ```json
 {

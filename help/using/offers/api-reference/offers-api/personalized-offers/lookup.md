@@ -37,7 +37,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **Response**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique personalized offer `id`.
+A successful response returns the details of the personalized-offer including information about your unique personalized offer `id`.
 
 ```json
 {
