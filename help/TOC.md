@@ -246,8 +246,9 @@ solution: Journey Optimizer
   + [Work with Assets Essentials](using/content-management/assets-essentials.md)
   + [Work with Adobe Stock](using/content-management/stock.md)
   + Work with the Content assistant{#content-assistant}
-    + [Title generation with the Content assistant](using/content-management/generative-title.md)
-    + [Image generation with the Content assistant](using/content-management/generative-image.md)
+    + [Get started with the Content assistant](using/content-management/gs-generative.md)
+    + [Title generation](using/content-management/generative-title.md)
+    + [Image generation](using/content-management/generative-image.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
