@@ -78,7 +78,7 @@ The **[!UICONTROL Media]** field allows you to add media to your In-app message 
 
 ![](assets/in_app_content_3.png)
 
-Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../email/assets-essentials.md).
+Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../content-management/assets-essentials.md).
 You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
 
 +++More options with advanced formatting
