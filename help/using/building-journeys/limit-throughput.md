@@ -35,7 +35,8 @@ For **audience-triggered journeys**, you can define the throttling rate of your 
 
 >[!NOTE]
 >
-> This is the maximum number of profiles that can enter the read audience per second. This rate applies only to this activity and not other activities in the journey. [Read more](../building-journeys/read-audience.md)
+> This is the maximum number of profiles that can enter the journey per second. This rate applies only to this activity and no others in the journey. [Read more](../building-journeys/read-audience.md)
+
 
 ![](assets/limit-throughput-1.png)
 

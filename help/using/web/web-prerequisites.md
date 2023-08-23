@@ -17,18 +17,27 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 * For the web experience to be delivered correctly, make sure you define the Adobe Experience Platform settings detailed [here](#delivery-prerequisites).
 
-## Cautions
+## Caution notes {#caution-notes-web}
 
-Currently in [!DNL Journey Optimizer] you can only create web experiences using **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
+* Currently in [!DNL Journey Optimizer] you can only create web experiences in **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
 
-[!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
+>[!AVAILABILITY]
+>
+>For now, Web channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
+>
 
 ## Implementation prerequisites {#implementation-prerequisites}
 
 Currently two types of implementations are supported to enable authoring and delivery of web channel campaigns on your web properties:
 
 * Client-side only – To add modifications to your website, you need to implement the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} on your website.
+
+    >[!NOTE]
+    >
+    >Make sure your AEP Web SDK version is 2.16 or above.
 
 * Hybrid mode – You can use the [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
@@ -116,6 +125,24 @@ For the web experience to be delivered correctly, the following settings must be
 
     ![](assets/web-aep-merge-policy.png)
 
+## Content experiment prerequisites {#experiment-prerequisites}
+
+To enable content experiments for the web channel, you need to make sure the [dataset](../data/get-started-datasets.md) used in your web implementation [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is also included in your reporting configuration.
+
+In other words, when configuring experiment reporting, if you add a dataset that is not present in your web datastream, web data will not display in the content experiment reports.
+
+Learn how to add datasets for content experiment reporting in [this section](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>The dataset is used read-only by the [!DNL Journey Optimizer] reporting system and doesn't affect data collection or data ingestion.
+
+If you are **not** using the following pre-defined [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), make sure to add the following field groups: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, and `Web Details`. These are needed by the [!DNL Journey Optimizer] content experiment reporting as they are tracking which experiments and treatments each profile is participating in.
+
+>[!NOTE]
+>
+>Adding these field groups doesn't impact the normal data collection. It is additive only for the pages where an experiment is running, leaving all the other tracking untouched.
+
 ## Branded domains for assets {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)
+When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)

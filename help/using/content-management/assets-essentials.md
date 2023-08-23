@@ -20,7 +20,7 @@ Bring marketing and creative workflows together using [!DNL Adobe Experience Man
 
 Learn more in [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when [designing an email content](get-started-email-design.md).
+[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section. You can also access assets and folders when [designing an email content](../email/get-started-email-design.md).
 
 ## Prerequisites{#assets-prerequisites}
 
@@ -67,7 +67,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_6.png)
 
-1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](content-components.md)
+1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](../email/content-components.md)
 
     ![](assets/media_library_13.png)
 

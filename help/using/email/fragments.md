@@ -57,7 +57,7 @@ From the **[!UICONTROL More actions]** icon next to each fragment, you can:
 To edit a fragment, follow the steps below.
 
 1. Click the desired item from the **[!UICONTROL Fragment]** list.
-1. From the fragment properties, you can [explore references](#explore-references), [manage its access](../administration/object-based-access.md) and update the fragment details.
+1. From the fragment properties, you can [explore references](#explore-references), [manage its access](../administration/object-based-access.md), and update the fragment details including [tags](../start/search-filter-categorize.md#tags).
 
     ![](assets/fragment-edit-content.png)
 
@@ -137,6 +137,8 @@ To create a fragment from scratch, follow the steps below.
 
 1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
+1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your fragment for improved search. [Learn more](../start/search-filter-categorize.md#tags)
+
 1. Click **[!UICONTROL Create]**.
 
 1. The [Email Designer](get-started-email-design.md) displays. Edit your content as needed, the same way you would do for any email inside a journey or a campaign.
@@ -182,6 +184,8 @@ When designing a [content template](content-templates.md) or an [email](get-star
     >Currently only the **[!UICONTROL Visual fragment]** type and the **Email** channel are supported.
 
 1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
+
+1. Select or create Adobe Experience Platform tags from the **Tags** field to categorize your template for improved search. [Learn more](../start/search-filter-categorize.md#tags)
 
 1. Click **[!UICONTROL Create]** again. The fragment is saved into the **[!UICONTROL Fragments]** list, accessible from the [!DNL Journey Optimizer] dedicated menu.
 

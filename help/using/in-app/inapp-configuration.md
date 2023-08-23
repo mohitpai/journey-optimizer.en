@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}
 
-Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
+Before sending In-app messages, you need to configure your In-app channel in [!DNL Adobe Experience Platform Data Collection].
 
 1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
 
@@ -18,11 +18,22 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
     ![](assets/inapp_config_6.png)
 
-1. Then, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
+    >[!NOTE]
+    >
+    >To enable content experiments for the In-app channel, you need to make sure the [dataset](../data/get-started-datasets.md) used in your In-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is also present in your reporting configuration - otherwise In-app data will not display in the content experiment reports. [Learn how to add datasets](../campaigns/reporting-configuration.md#add-datasets)
+    >
+    >The dataset is used read-only by the [!DNL Journey Optimizer] reporting system and doesn't affect data collection or data ingestion.
+
+1. Then, access the **[!UICONTROL App surfaces]** menu and click **[!UICONTROL Create App surface]**.
+
+    >[!NOTE]
+    >
+    > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
 
     ![](assets/inapp_config_1.png)
 
 1. Add a name to your **[!UICONTROL App surface]**.
+
 
 1. From the Apple iOS drop-down, type-in your **iOS Bundle ID**. Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on **Bundle ID**.
 
@@ -64,3 +75,11 @@ The In-app channel is now configured. You can start sending In-app messages to y
 * [Create a campaign](../campaigns/create-campaign.md)
 * [Design In-app message](design-in-app.md)
 * [In-app report](../reports/campaign-global-report.md#inapp-report)
+
+
+## How-to videos{#video}
+
+* The video below shows how to assign the **Manage app configuration** permission to access the App surfaces menu.
+    
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+

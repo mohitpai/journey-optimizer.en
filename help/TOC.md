@@ -179,9 +179,6 @@ solution: Journey Optimizer
     + Design your content {#add-content}
       + [Use content components](using/email/content-components.md)
       + [Add links and track messages](using/email/message-tracking.md)
-      + Manage assets {#manage-asset}
-        + [Work with Assets Essentials](using/email/assets-essentials.md)
-        + [Work with Adobe Stock](using/email/stock.md)
       + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
       + [Add a preheader](using/email/preheader.md)
@@ -222,7 +219,9 @@ solution: Journey Optimizer
   + [Configure SMS channel](using/sms/sms-configuration.md)
   + [Set up SMS subdomains](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
+  + [Get started with direct mail](using/direct-mail/get-started-direct-mail.md)
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)
+  + [Test & send a direct mail message](using/direct-mail/test-send-direct-mail.md)
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
 + Web channel{#web}
   + [Get started with web channel](using/web/get-started-web.md)
@@ -243,6 +242,13 @@ solution: Journey Optimizer
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
     + [Define landing page presets](using/landing-pages/lp-presets.md)
++ Content Management {#content-management}
+  + [Work with Assets Essentials](using/content-management/assets-essentials.md)
+  + [Work with Adobe Stock](using/content-management/stock.md)
+  + Work with the Content assistant{#content-assistant}
+    + [Get started with the Content assistant](using/content-management/gs-generative.md)
+    + [Title generation](using/content-management/generative-title.md)
+    + [Image generation](using/content-management/generative-image.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
@@ -463,6 +469,7 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
+      + [About actions](using/action/action-response.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + Access control overview {#privacy}

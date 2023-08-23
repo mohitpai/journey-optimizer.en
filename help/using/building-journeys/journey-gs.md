@@ -45,7 +45,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 >[!NOTE]
 >
->This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. 
+>This dashboard takes into account the journeys with traffic over the last 24 hours. Only the journeys you have access to are displayed. Metrics are refreshed every 30 minutes and only when new data is available. 
 
 ![](assets/journeys-dashboard.png)  
 
@@ -115,13 +115,13 @@ The **Copy technical details** allows you to copy technical information about th
 
  ![](assets/journey32.png)
 
-### Entrance{#entrance}
+### Entrance and re-entrance {#entrance}
 
 By default, new journeys allow re-entrance. You can uncheck the **Allow re-entrance** option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. 
 
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or an audience qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 
-Learn more about profile entrance mannagement, in [this section](entry-management.md).
+Learn more about profile entrance and re-entrance management, in [this section](entry-management.md).
 
 ### Manage access {#access}
 
@@ -157,7 +157,7 @@ Journeys also uses a global timeout. See the [next section](#global_timeout).
 
 ### Global journey timeout {#global_timeout}
 
-In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
+In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will not be taken into account in reporting. You could therefore see more people entering the journey than exiting.
 
 >[!NOTE]
 >
@@ -165,3 +165,4 @@ In addition to the [timeout](#timeout_and_error) used in journey activities, the
 
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
 
+An individual can enter a wait activity only if he or she has enough time left in the journey to complete the wait duration before the 30 days journey timeout. See [this page](../building-journeys/wait-activity.md).
