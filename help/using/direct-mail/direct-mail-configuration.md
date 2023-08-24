@@ -70,7 +70,7 @@ To configure the file routing, follow the steps below.
 
     >[!NOTE]
     >
-    >Currently Amazon S3 and SFTP and Azure are supported in [!DNL Journey Optimizer].
+    >Currently Amazon S3, SFTP and Azure are supported in [!DNL Journey Optimizer].
 
 1. Fill in the details and credentials for your server, such as server address, access key, etc.
 
