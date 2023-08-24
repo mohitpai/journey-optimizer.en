@@ -50,7 +50,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of internal addresses which can be added to your actual audience and receive the exact same message as the targeted profiles at the delivery execution time. Use this capability to monitor the sent out communications and ensure that all display formats, URLs, images and links are correct.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/seed-lists.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -85,9 +85,9 @@ This release comes with the improvements listed below.
 
 A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
 
-**Email channel**
+<!--**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Journeys**
 
@@ -98,8 +98,8 @@ A new option is available in the email surface settings to include email address
 
 **Direct mail**
 
-* Azure can now be selected as the server type in the file routing configuration.
-* Ampersand is now available as column separator field in the direct mail surface settings.
+* Azure can now be selected as the server type in the file routing configuration. [Learn more]
+* Ampersand is now available as column separator field in the direct mail surface settings. [Learn more]
 
 
 
