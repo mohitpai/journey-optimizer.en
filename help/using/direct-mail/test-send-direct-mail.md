@@ -44,3 +44,15 @@ Before activating the direct mail campaign, make sure that the campaign and the 
 When your direct mail campaign is ready, click the **[!UICONTROL Activate]** button. When the campaign starts, the extraction file will be automatically generated and exported to the server specified in your [file routing configuration](../direct-mail/direct-mail-configuration.md).
 
 Once sent, you can measure the impact of your direct mail campaign within the Campaign reports. For more on reporting, refer to this section.
+
+## Manage consent for direct mail {#dm-consent-management}
+
+In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications.
+
+If a profile has opted out from receiving direct mail, in the corresponding Experience Platform profile attributes, the value for `consents.marketing.postalMail.val` will be `n` and the corresponding profile will be excluded from subsequent deliveries.
+
+To enable it again, the profile attribute has to be changed back to `consents.marketing.postalMail.val` : `y`.
+
+To manage a profile's attributes, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+
+Learn more on managing opt-out in Journey Optimizer in [this section](../privacy/opt-out.md).
