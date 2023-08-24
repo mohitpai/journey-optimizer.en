@@ -98,8 +98,8 @@ A new option is available in the email surface settings to include email address
 
 **Direct mail**
 
-* Azure can now be selected as the server type in the file routing configuration. [Learn more]
-* Ampersand is now available as column separator field in the direct mail surface settings. [Learn more]
+* Azure can now be selected as the server type in the file routing configuration. [Learn more](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* Ampersand is now available as column separator field in the direct mail surface settings. [Learn more](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
