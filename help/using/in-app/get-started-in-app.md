@@ -25,7 +25,7 @@ Before sending In-app messages, you need to:
 
 * Configure the In-app channel. [Learn more](inapp-configuration.md)
 
-* Make sure you have the correct permissions on Journey Optimizer campaigns before starting<!--, even if you plan to only use in-app messages in journeys. Campaign permissions are still required-->. [Learn more](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Make sure you have the correct permissions on Journey Optimizer campaigns before starting, even if you plan to only use in-app messages in journeys. Campaign permissions are still required. [Learn more](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Once done, you can create, configure and sent your first In-app message. Learn how to achieve this in [this section](create-in-app.md).
 
