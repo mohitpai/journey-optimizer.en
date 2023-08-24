@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configure a custom action
-description: Learn how to configure a custom action
+title: Custom action enhancements
+description: Learn more about latest enhancements on custom actions
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, journeys, API
-hide: yes
-hidefromtoc: yes
 ---
-# Custom action enhancements 
+# Custom action enhancements {#custom-action-enhancements}
 
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-This capability was only available when using data sources. You can now use it with custom actions. 
+This capability was previously only available when using data sources. You can now use it with custom actions. 
 
 >[!AVAILABILITY]
 >
@@ -26,11 +24,11 @@ This capability was only available when using data sources. You can now use it w
 >
 >Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md).
 
-## Define the Custom Action
+## Define the custom action {#define-custom-action}
 
 When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
 
-### Endpoint configuration 
+### Endpoint configuration {#endpoint-configuration}
 
 The **URL configuration** section has been renamed **Endpoint configuration**.
 
@@ -38,7 +36,7 @@ In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads 
+### Payloads {#payloads-new}
 
 The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
@@ -74,7 +72,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Click **Save**.
 
-## Leverage the response in a journey
+## Leverage the response in a journey {#response-in-journey}
 
 Simply add the custom action to a journey. You can then leverage the response payload fields in conditions, other actions and message personalization.
 
@@ -113,7 +111,7 @@ For example, you can add a condition to check the number of loyalty points. When
 
     ![](assets/action-response11.png)
 
-## Error status{#error-status}
+## Error status {#error-status}
 
 The **jo_status_code** field is always available even when no response payload is defined.
 
@@ -130,7 +128,7 @@ An action call is considered in error when the returned http code is greater tha
 >
 >Only newly created custom actions include the **jo_status_code** field out-of-the-box. If you want to use it with an existing custom action, you need to update the action. For example, you can update the description and save.
 
-## Expression syntax
+## Expression syntax {#exp-syntax}
 
 Here is the syntax:
 
@@ -154,3 +152,4 @@ Here are a few examples:
 ```
 
 For more information on field references, see [this section](../building-journeys/expression/field-references.md).
+

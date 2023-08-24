@@ -176,6 +176,31 @@ Additionally, when defining the **[!UICONTROL Bcc email]** address, make sure to
 
 If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
 
+## Seed list {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Add a seed list"
+>abstract="Select the seed list of your choice to automatically include specific email seed addresses in your deliveries. These addresses will be included at the delivery execution time and will receive an exact copy of the delivery for assurance purposes."
+
+A seed list in [!DNL Journey Optimizer] enables you to automatically include specific email seed addresses in your deliveries. [Learn more](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Currently this feature only applies to the email channel.
+
+Select the list that is relevant to you in the **[!UICONTROL Seed list]** section. Learn how to create a seed list in [this section](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Only one seed list can be selected at a time.
+
+When the current surface is used in a campaign or journey, the email addresses on the selected seed list are included at the delivery execution time, meaning they will receive a copy of the delivery for assurance purposes.
+
+Learn how to use seed list in a campaign or a journey in [this section](../configuration/seed-lists.md#use-seed-list).
+
 ## Email retry parameters {#email-retry}
 
 >[!CONTEXTUALHELP]

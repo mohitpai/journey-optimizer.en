@@ -37,6 +37,7 @@ For **audience-triggered journeys**, you can define the throttling rate of your 
 >
 > This is the maximum number of profiles that can enter the journey per second. This rate applies only to this activity and no others in the journey. [Read more](../building-journeys/read-audience.md)
 
+
 ![](assets/limit-throughput-1.png)
 
 You can modify this value from 500 to 20 000 instances per second. If you need to go lower than 500/s, you can also add "percentage split" conditions with wait activities to split your journey into multiple branches and have them execute at a specific time.
