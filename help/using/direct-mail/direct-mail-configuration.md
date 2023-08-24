@@ -30,9 +30,7 @@ Before being able to generate this file, you need to create:
 >id="ajo_dm_file_routing_details"
 >title="Define the file routing configuration"
 >abstract="After you create a direct mail message, the file containing the targeted audience data will be generated and exported to a server. You need to specify the server details so that your direct mail provider can access and use that file for delivering direct mail."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -72,7 +70,7 @@ To configure the file routing, follow the steps below.
 
     >[!NOTE]
     >
-    >Currently Amazon S3 and SFTP<!--and Azure--> are supported in [!DNL Journey Optimizer].
+    >Currently Amazon S3 and SFTP and Azure are supported in [!DNL Journey Optimizer].
 
 1. Fill in the details and credentials for your server, such as server address, access key, etc.
 
@@ -129,7 +127,7 @@ A direct mail surface must also include the file routing configuration which def
 
 1. Select the file format: **[!UICONTROL CSV]** or **[!UICONTROL Text delimited]**.
 
-1. If you select **[!UICONTROL Text delimited]**, define the column separator of your choice: tabulation, semicolon, or pipe<!--or ampersand-->.
+1. If you select **[!UICONTROL Text delimited]**, define the column separator of your choice: tabulation, semicolon, pipe, or ampersand.
 
     ![](assets/surface-direct-mail-column-separator.png)
 
