@@ -9,7 +9,7 @@ keywords: in-app, message, creation, start
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 ---
 
-# Create an In-app message in a Journey {#create-in-app-journey}
+# Create an In-app message in a journey {#create-in-app-journey}
 
 To add an In-app message in a journey, follow these steps:
 
