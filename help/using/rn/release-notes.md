@@ -22,7 +22,7 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 This release brings the new capabilities listed below.
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Send In-app messages in your journeys</strong><br/></th>
@@ -36,7 +36,7 @@ This release brings the new capabilities listed below.
 <p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -81,9 +81,10 @@ This release brings the new capabilities listed below.
 
 This release comes with the improvements listed below.
 
+<!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
 <!--**Email channel**
 
