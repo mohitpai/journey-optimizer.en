@@ -429,22 +429,23 @@ solution: Journey Optimizer
     + [Query examples](using/data/datasets-query-examples.md)
     + [Built-in schemas > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
   + [Queries](using/data/get-started-queries.md)
-+ Configuration{#configuration}
++ Configuration {#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
+  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
   + Delegate email subdomains {#delegate-subdomains}
     + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
     + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
     + [Add a Google TXT record](using/configuration/google-txt.md)
     + [Access and edit PTR records](using/configuration/ptr-records.md)
     + [Create IP pools](using/configuration/ip-pools.md)
-  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
   + Monitor email addresses {#monitor-reputation}  
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)
     + [Allowed list](using/configuration/allow-list.md)
+  + [Use seed lists](using/configuration/seed-lists.md)
   + [Support for archiving](using/configuration/archiving-support.md)
+  + [Change execution addresses](using/configuration/primary-email-addresses.md)
   + [Configure frequency rules](using/configuration/frequency-rules.md)
-  + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + Integrate with external systems {#external-systems}
