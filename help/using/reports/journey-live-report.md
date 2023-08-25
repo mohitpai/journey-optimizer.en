@@ -28,6 +28,7 @@ The journey **[!UICONTROL Live report]** page will be displayed with the followi
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [In-app](#in-app-live)
 
 The journey **[!UICONTROL Live report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
 
@@ -187,9 +188,17 @@ The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which er
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+    >[!NOTE]
+    >
+    >To ensure that an Impression is counted, the user must meet two criteria:
+    >* Qualification within the In-app experience, achieved by reaching the specific In-app activity in their journey.
+    >* Meeting the conditions specified in the Trigger rules.
+    > 
+    >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
 
 * **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
