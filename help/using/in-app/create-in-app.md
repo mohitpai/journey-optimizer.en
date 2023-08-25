@@ -16,6 +16,8 @@ You can add an In-app message in a campaign or in a journey. Follow the steps de
 
 >[!TAB Add an In-app message to a journey]
 
+To add an In-app message in a journey, follow these steps:
+
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
     When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
