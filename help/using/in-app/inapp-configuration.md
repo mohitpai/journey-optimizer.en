@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 ---
 # Configure In-app channel {#inapp-configuration}
 
-Before sending In-app messages, you need to configure your in-App channel in [!DNL Adobe Experience Platform Data Collection].
+Before sending In-app messages, you need to configure your In-app channel in [!DNL Adobe Experience Platform Data Collection].
 
 1. From your [!DNL Adobe Experience Platform Data Collection] account, access the **[!UICONTROL Datastream]** menu and click **[!UICONTROL New datastream]**. For more information on datastream creation, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
 
@@ -18,7 +18,13 @@ Before sending In-app messages, you need to configure your in-App channel in [!D
 
     ![](assets/inapp_config_6.png)
 
-1. Then, access the **[!UICONTROL App surfaces]** menu, then click **[!UICONTROL Create App surface]**.
+    >[!NOTE]
+    >
+    >To enable content experiments for the In-app channel, you need to make sure the [dataset](../data/get-started-datasets.md) used in your In-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is also present in your reporting configuration - otherwise In-app data will not display in the content experiment reports. [Learn how to add datasets](../campaigns/reporting-configuration.md#add-datasets)
+    >
+    >The dataset is used read-only by the [!DNL Journey Optimizer] reporting system and doesn't affect data collection or data ingestion.
+
+1. Then, access the **[!UICONTROL App surfaces]** menu and click **[!UICONTROL Create App surface]**.
 
     >[!NOTE]
     >

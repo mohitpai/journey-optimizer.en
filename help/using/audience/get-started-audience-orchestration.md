@@ -18,7 +18,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 
 >[!BEGINSHADEBOX]
 
-This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are a Real-time Customer Profile only customer and are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are a Real-time Customer Profile only customer and are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ Audience composition is accessible from Adobe Journey Optimizer **[!UICONTROL Au
 
 ![](assets/audiences-browse.png)
 
-* The **[!UICONTROL Overview]** tab provides a dedicated dashboard with key metrics related to your organization’s audience data. To learn more, refer to [Adobe Experience Platform Dashboards guide](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* The **[!UICONTROL Overview]** tab provides a dedicated dashboard with key metrics related to your organization's audience data. To learn more, refer to [Adobe Experience Platform Dashboards guide](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
 * The **[!UICONTROL Browse]** tab lists all existing audiences stored into Adobe Experience Platform.
 

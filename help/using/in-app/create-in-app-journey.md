@@ -1,17 +1,17 @@
 ---
 title: Create an In-app notification in a Journey
-description: Learn how to create an In-app message in Journey Optimizer
+description: Learn how to add an In-app message in a journey
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, creation, start
-hide: yes
-hidefromtoc: yes
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
 ---
-# Create an In-app message in a Journey {#create-in-app-journey}
+
+# Create an In-app message in a journey {#create-in-app-journey}
+
+To add an In-app message in a journey, follow these steps:
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -57,6 +57,32 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## In-app report {#inapp-report}
 
+From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your journeys.
+
+Learn more about [Journey global report](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
+
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+
+* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
+
+The **[!UICONTROL Clicks by button]** graphs and table contain the available data for recipient behavior per button:
+
+* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
+
+* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
++++
 
 **Related topics:**
 

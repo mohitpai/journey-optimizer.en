@@ -179,9 +179,6 @@ solution: Journey Optimizer
     + Design your content {#add-content}
       + [Use content components](using/email/content-components.md)
       + [Add links and track messages](using/email/message-tracking.md)
-      + Manage assets {#manage-asset}
-        + [Work with Assets Essentials](using/email/assets-essentials.md)
-        + [Work with Adobe Stock](using/email/stock.md)
       + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
       + [Add a preheader](using/email/preheader.md)
@@ -244,6 +241,13 @@ solution: Journey Optimizer
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
     + [Define landing page presets](using/landing-pages/lp-presets.md)
++ Content Management {#content-management}
+  + [Work with Assets Essentials](using/content-management/assets-essentials.md)
+  + [Work with Adobe Stock](using/content-management/stock.md)
+  + Work with the Content assistant{#content-assistant}
+    + [Get started with the Content assistant](using/content-management/gs-generative.md)
+    + [Title generation](using/content-management/generative-title.md)
+    + [Image generation](using/content-management/generative-image.md)
 + Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
@@ -424,22 +428,23 @@ solution: Journey Optimizer
     + [Query examples](using/data/datasets-query-examples.md)
     + [Built-in schemas > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
   + [Queries](using/data/get-started-queries.md)
-+ Configuration{#configuration}
++ Configuration {#configuration}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
+  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
   + Delegate email subdomains {#delegate-subdomains}
     + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
     + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
     + [Add a Google TXT record](using/configuration/google-txt.md)
     + [Access and edit PTR records](using/configuration/ptr-records.md)
     + [Create IP pools](using/configuration/ip-pools.md)
-  + [Set up channel surfaces](using/configuration/channel-surfaces.md)
   + Monitor email addresses {#monitor-reputation}  
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)
     + [Allowed list](using/configuration/allow-list.md)
+  + [Use seed lists](using/configuration/seed-lists.md)
   + [Support for archiving](using/configuration/archiving-support.md)
+  + [Change execution addresses](using/configuration/primary-email-addresses.md)
   + [Configure frequency rules](using/configuration/frequency-rules.md)
-  + [Manage execution addresses](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + Integrate with external systems {#external-systems}
@@ -464,7 +469,7 @@ solution: Journey Optimizer
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign Standard](using/action/acs-action.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [About actions](using/action/action-response.md)
+      + [Use API call responses in custom actions](using/action/action-response.md)
   + [Sources](using/start/get-started-sources.md)
 + Access control {#access-control}
   + Access control overview {#privacy}

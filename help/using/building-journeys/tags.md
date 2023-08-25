@@ -8,16 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: journey, tags
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 ---
 # Manage tags in journeys {#journey_tags}
 
 As a Journey Optimizer practitioner, you can organize your journeys using tags. Tags are a quick and easy way of classifying objects to improve search.
-
->[!AVAILABILITY]
->
-> Unified tags are currently in Beta. The documentation and the functionality are subject to change.
 
 ## Add tags to a journey
 

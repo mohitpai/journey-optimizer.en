@@ -10,12 +10,12 @@ level: Intermediate
 keywords: configuration, experimentation, reporting, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 ---
-# Configure reporting for experimentation {#reporting-configuration}
+# Configure reporting for experiments {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Set up datasets for reporting"
->abstract="The reporting configuration allows you to retrieve additional metrics that will be used in the Objectives tab of your campaign reports. It must be performed by a technical user."
+>abstract="The reporting configuration allows you to retrieve additional metrics that will be used in your campaign reports. It must be performed by a technical user."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -24,7 +24,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 
 The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -43,17 +43,17 @@ Before being able to add a dataset to the reporting configuration, you must crea
 
 * You can only add event-type datasets.
 
-* These datasets must include the **Experience Event - Proposition Interactions** [field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
+* These datasets must include the `Experience Event - Proposition Interactions` [field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
 
-* These datasets may also contain one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Application Details**, **Commerce Details**, **Web Details**.
+* These datasets may also contain one of the following [field groups](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
     >[!NOTE]
     >
     >Other field groups may also be included, but only the above field groups are currently supported in Journey Optimizer reporting.
 
-    For example, if you want to know the impact of an email campaign on commerce data such as purchases or orders, you need to create an experience event dataset with the **Commerce Details** field group.
+    For example, if you want to know the impact of an email campaign on commerce data such as purchases or orders, you need to create an experience event dataset with the `Commerce Details` field group.
 
-    Likewise, if you want to report on mobile interactions, you need to create an experience event dataset with the **Application Details** field group.
+    Likewise, if you want to report on mobile interactions, you need to create an experience event dataset with the `Application Details` field group.
 
     <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -120,6 +120,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
     >[!CAUTION]
     >
     >If you selected a dataset which is not event-type, you will not be able to proceed.
+
+Note that for web and In-app channels, you need to make sure the [dataset](../data/get-started-datasets.md) configured for data collection is also added to this reporting configuration. Otherwise, web and In-app data will not display in the content experiment reports.
+
+* Learn more on content experiment prerequisites for web channel in [this section](../web/web-prerequisites.md#experiment-prerequisites).
+
+* Learn more on In-app channel configuration in [this section](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

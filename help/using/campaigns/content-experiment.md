@@ -15,7 +15,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Content experiment"
->abstract="You can choose to vary the delivery content, subject, or sender in order to define multiple delivery treatments and determine the best combination for your audiences."
+>abstract="You can choose to vary the message content, subject, or sender in order to define multiple treatments and determine the best combination for your audiences."
 
 >[!NOTE]
 >
@@ -93,13 +93,13 @@ The goal here is to see if recipients will interact with the email depending on 
 >title="Success metric"
 >abstract="Success metric is used to track and evaluate the best performing treatment in an experiment. Be sure to set up your dataset for certain metrics before using it."
 
-1. When your delivery personalized, from the Campaign summary page, click **[!UICONTROL Create experiment]** to start configuring your content experiment.
+1. When your message is personalized, from the campaign summary page, click **[!UICONTROL Create experiment]** to start configuring your content experiment.
 
     ![](assets/content_experiment_3.png)
 
 1. Select the **[!UICONTROL Success metric]** you want to set for your experiment.
 
-    For our experiment, we select **[!UICONTROL Email open]** to test if recipients will open their emails if the promo code is in the subject line.
+    For this example, select **[!UICONTROL Email open]** to test if profiles open their emails if the promo code is in the subject line.
 
     ![](assets/content_experiment_11.png)
 
