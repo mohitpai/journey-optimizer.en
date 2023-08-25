@@ -12,10 +12,15 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## August 2023 {#august-2023}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '23 release have been detailed in the documentation. [Read more](release-notes.md)
+* The note about **authentication cache management** in journey has been updated to detail that the token is not shared between different journeys. [Read more](../datasource/external-data-sources.md#custom-authentication-mode)
+* The page about journey **entry management** has been updated to clarify behaviour. [Read more](../building-journeys/entry-management.md)
+* Offer decisioning **export datasets** are now enabled by default. The note about the previous behavior has been removed.  [Read more](../offers/export-catalog/get-started-export.md)
+* Various **campaign report metrics** have been renamed, in both Live and Global reports. [Read more](../reports/campaign-global-report.md)
 * A new section has been added on content experiment prerequisites for the web channel. [Read more](../web/web-prerequisites.md#experiment-prerequisites)
 * A warning has been added on the **Work with content templates** page to indicate that currently tracking is not supported when testing email content templates. To test tracking, you must use the content template in an email and send a proof. [Read more](../email/content-templates.md#test-template)
 * Several warnings have been added in the **Create and publish landing pages** section to specify that you cannot access your landing page by simply copy-pasting into a web browser the URL defined when creating the page, even if published. Instead you can test it using the preview function. [Read more](../landing-pages/create-lp.md)
-* A new section has been added on how to manage consent for the direct mail channel. [Read more](../direct-mail/test-send-direct-mail.md)
+* A new section has been added on how to **manage consent** for the direct mail channel. [Read more](../direct-mail/test-send-direct-mail.md)
+
 
 ## July 2023 {#july-2023}
 

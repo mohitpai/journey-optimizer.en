@@ -34,7 +34,7 @@ Once done, you can create, configure and sent your first In-app message. Learn h
 <a href="create-in-app.md">
 <img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Create In-app message in a campaign</strong>
+<div><a href="create-in-app.md"><strong>Create In-app message</strong>
 </div>
 <p>
 </td>
