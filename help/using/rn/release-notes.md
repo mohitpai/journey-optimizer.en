@@ -33,7 +33,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../in-app/create-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>

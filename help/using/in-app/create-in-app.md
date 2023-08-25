@@ -8,7 +8,9 @@ level: Beginner
 keywords: in-app, message, creation, start
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
-# Create an In-app message in a campaign {#create-in-app}
+# Create an In-app message {#create-in-app}
+
+You can add an In-app message in a campaign or in a journey. Follow the steps detailed below to create an In-app message in both contexts.
 
 >[!BEGINTABS]
 
