@@ -1,6 +1,6 @@
 ---
-title: Create an In-app notification in a campaign
-description: Learn how to create an In-app message in a campaign in Journey Optimizer
+title: Create an In-app notification in Journey Optimizer
+description: Learn how to create an In-app message in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
