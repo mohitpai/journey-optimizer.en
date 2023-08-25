@@ -197,8 +197,7 @@ solution: Journey Optimizer
     + [Configure email surface settings](using/email/email-settings.md)
 + In-app channel{#in-app}
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
-  + [Create an In-app message in a campaign](using/in-app/create-in-app.md)
-  + [Create an In-app message in a journey](using/in-app/create-in-app-journey.md)
+  + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [Test and send your In-app notification](using/in-app/send-in-app.md)
   + [Configure In-app channel](using/in-app/inapp-configuration.md)

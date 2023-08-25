@@ -8,16 +8,13 @@ level: Beginner
 keywords: in-app, message, creation, start
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
-# Create an In-app message in a campaign {#create-in-app}
+# Create an In-app message {#create-in-app}
 
-<!--
+You can add an In-app message in a campaign or in a journey. Follow the steps detailed below to create an In-app message in both contexts.
+
 >[!BEGINTABS]
 
 >[!TAB Add an In-app message to a journey]
-
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -60,7 +57,6 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
 >[!TAB Add an In-app message to a campaign]
--->
 
 To add an In-app message in a campaign, follow these steps:
 
@@ -143,9 +139,7 @@ To add an In-app message in a campaign, follow these steps:
 
     ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## How-to videos{#video}
 

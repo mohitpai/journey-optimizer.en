@@ -213,17 +213,11 @@ The **[!UICONTROL In-app performance]** KPIs detail the main information relativ
 
 * **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
 
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+* **[!UICONTROL Interactions rate]**: percentage of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
-* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 
-The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
-
-The **[!UICONTROL Clicks by button]** graph and table contain the available data for recipient behavior per button:
-
-* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
-
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
 +++
 
 ## Push notification tab {#push-global}
@@ -348,11 +342,11 @@ The **[!UICONTROL Web performance]** KPIs detail the main information relative t
 
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Click rate]**: percentage of visitors who interacted with the various elements on your web pages.
+* **[!UICONTROL Interaction rate]**: percentage of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and interactions) for the concerned period.
 
-The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
+The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
 +++
 
 ## Direct mail tab {#direct-mail-global}

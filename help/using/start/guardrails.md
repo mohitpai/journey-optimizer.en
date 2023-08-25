@@ -99,3 +99,19 @@ You can choose from one of these two solutions:
 
 * Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity. You need to create a new audience and use an inaudience condition in the journey.
 
+
+### In-app activity limitations {#in-app-activity-limitations}
+
+* This feature is currently not available for Healthcare customers.
+
+* Personalization can only contain profile attributes.
+
+* In-app display is tied to the journey lifespan, meaning that when the journey ends for a profile, all In-app messages within that journey will cease to be displayed for that profile.  Consequently, it is not possible to stop an In-app message directly from a journey activity. Instead, you will need to end the entire journey to stop the In-app messages from being displayed to the profile.
+
+* In test mode, the In-app display depends on the journey's lifespan. To prevent the journey from ending too early during testing, adjust the **[!UICONTROL Wait time]** value for your **[!UICONTROL Wait]** activities. 
+
+* **[!UICONTROL Reaction]** activities can not be used to react to an In-app open or click.
+
+* An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
+
+* In-app message content size is limited to 2Mb. Including large images can hinder the publishing process.

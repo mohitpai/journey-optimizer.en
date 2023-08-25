@@ -180,3 +180,21 @@ The **[!UICONTROL SMS Summary]** graph details the success of your delivery:
 
 The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 +++
+
+## In-app tab {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
+
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
+
++++
