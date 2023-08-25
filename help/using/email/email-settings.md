@@ -181,7 +181,10 @@ If you get an error upon submitting the email surface, it means that the MX reco
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Add a seed list"
->abstract="Select the seed list of your choice to automatically include specific email seed addresses in your deliveries. These addresses will be included at the delivery execution time and will receive an exact copy of the delivery for assurance purposes."
+>abstract="Select the seed list of your choice to automatically add specific internal addresses to your audiences. These seed addresses will be included at the delivery execution time and will receive an exact copy of the message for assurance purposes."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="What are seed lists?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Create a seed lists"
+
 
 A seed list in [!DNL Journey Optimizer] enables you to automatically include specific email seed addresses in your deliveries. [Learn more](../configuration/seed-lists.md)
 

@@ -66,14 +66,14 @@ You can click a seed list name to edit it. <!--Use the **[!UICONTROL Edit]** but
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Define your seed list"
->abstract="Fill in the seed list details to automatically include specific seed addresses in your deliveries. These addresses will be included at the delivery execution time and will receive an exact copy of the delivery for assurance purposes."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="What are seed lists"
+>title="Define a seed list"
+>abstract="Use a seed list to automatically add specific internal addresses to your delivery audience for assurance purposes. Seed lists allow you to monitor the message copies sent out to ensure that all display elements are correct and to protect your mailing list. Currently this feature only applies to the email channel."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="What are seed lists?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Specify the seed addresses to use"
->abstract="Add the seed addresses that will be automatically included in your deliveries. You can either import a CSV file or manually enter email addresses."
+>title="Fill in the seed list"
+>abstract="Select the addresses that will be included at the delivery execution time and will receive an exact copy of your message. You can either import a CSV file or manually enter email addresses."
 
 To create a seed list, follow the steps below.
 
