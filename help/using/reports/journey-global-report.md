@@ -280,7 +280,7 @@ The **[!UICONTROL SMS summary]** widget details the main information relative to
 
 The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
-The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors' engagement with your URLs.
 
 +++
 
@@ -292,7 +292,7 @@ From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** ta
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was displayed.
 
@@ -306,7 +306,7 @@ The **[!UICONTROL In-app performance]** KPIs detail the main information relativ
     > 
     >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
 
-* **[!UICONTROL Interaction rate]**: percentage of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+* **[!UICONTROL Interaction]**: number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
 The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 
