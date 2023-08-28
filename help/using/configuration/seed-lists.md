@@ -18,7 +18,7 @@ Seed lists in [!DNL Journey Optimizer] enable you to automatically include speci
 >
 >Currently this feature only applies to the email channel.
 >
->Variants are currently not supported. Like each profile from the targeted audience, the seed addresses receive a single copy of the message and not all variants (such as the different treatments of a [content experiment](../campaigns/get-started-experiment.md)).
+>Variants are currently not supported. Like each profile from the targeted audience, the seed addresses receive a single copy of each message, but not all variants of the same message (such as the different treatments of a [content experiment](../campaigns/get-started-experiment.md)).
 
 Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
 
