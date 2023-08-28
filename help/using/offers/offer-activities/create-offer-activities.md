@@ -140,7 +140,7 @@ For example, you have two collections, one in evaluation criteria A and one in e
 
     ![](../assets/activity_consecutive-rank-collections.png)
 
-* If the two collections are **evaluated at the same time**, as there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B, the five offers will all be stack ranged together based on the value determined by the respective ranking methods. Two offers are requested, therefore the top two eligible offers from these five offers will be returned.
+* If the two collections are **evaluated at the same time**, as there are two eligible offers from evaluation criteria A and three eligible offers from evaluation criteria B, the five offers will all be stack ranked together based on the value determined by the respective ranking methods. Two offers are requested, therefore the top two eligible offers from these five offers will be returned.
 
     ![](../assets/activity_same-rank-collections.png)
 
