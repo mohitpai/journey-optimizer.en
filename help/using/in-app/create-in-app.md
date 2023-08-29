@@ -214,19 +214,25 @@ To add an In-app message in a campaign, follow these steps:
 * The video below shows how to create, configure, and publish In-app messages in your campaigns.
     
     +++See video
+
     >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
     +++
 
 * The video below shows how to configure and analyze content experiments to A/B test In-app messages.
 
     +++See video
+
     >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+
     +++
 
 * The video below shows how to create an In-app message in a journey and how to test and publish your journey.
 
     +++See video
+
     >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
     +++
 
 **Related topics:**
