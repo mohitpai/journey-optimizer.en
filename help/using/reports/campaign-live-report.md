@@ -101,7 +101,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL In-app]** tab
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
 

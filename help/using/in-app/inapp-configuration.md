@@ -30,6 +30,10 @@ Before sending In-app messages, you need to configure your In-app channel in [!D
     >
     > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
 
+    >[!NOTE]
+    >
+    > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
+
     ![](assets/inapp_config_1.png)
 
 1. Add a name to your **[!UICONTROL App surface]**.
@@ -81,5 +85,8 @@ The In-app channel is now configured. You can start sending In-app messages to y
 
 * The video below shows how to assign the **Manage app configuration** permission to access the App surfaces menu.
     
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+    +++See video
+    >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+    +++
+
 
