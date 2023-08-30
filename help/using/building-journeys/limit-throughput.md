@@ -31,7 +31,7 @@ For more information on how to integrate with external systems, refer to this [p
 
 ## Implementation
 
-For **audience-triggered journeys**, you can define the throttling rate of your Read Audience activity that will impact journey throughput. [Read more](../building-journeys/read-audience.md)
+For **audience-triggered journeys**, you can define the reading rate of your Read Audience activity that will impact journey throughput. [Read more](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
