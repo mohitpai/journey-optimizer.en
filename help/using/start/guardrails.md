@@ -60,7 +60,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 ### Custom actions {#custom-actions-g}
 
 * The custom action URL does not support dynamic parameters.
-* Only POST and PUT call methods are supported
+* POST, PUT and GET call methods are supported
 * The name of the query parameter or header must not start with "." or "$"
 * IP addresses are not allowed
 * Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
