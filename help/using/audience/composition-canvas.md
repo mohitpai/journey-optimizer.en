@@ -110,9 +110,13 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 
     Select the attribute to look up then specify the value to exclude. In this example, we are excluding from the composition profiles whose home address is in Japan.
 
+    >[!NOTE]
+    >
+    >Only one exclusion value can be specified.
+
     ![](assets/audiences-exclude-attribute.png)
 
-### Enrich {#enrich}
+### Enrich activity {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -214,9 +218,16 @@ Two types of split operations are available:
 
     ![](assets/audiences-split.png)
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Other profiles]** option allows you to create an additional path with the remaining profiles that do not match any of the conditions specified in the other paths.
+    To configure an attribute-based split activity:
+    
+    1. click the button next to the **[!UICONTROL Attribute]** field to choose the attribute to pick as criteria.
+    1. Add as many paths as desired, then specify for each path a label and the value to use to select the profiles to include in the path.
+
+        >[!NOTE]
+        >
+        >Only one value can be specified for each path.
+    
+    1. Toggle on the **[!UICONTROL Other profiles]** option to create an additional path with the remaining profiles that do not match any of the conditions specified in the other paths.
 
 ## Save your audiences {#save}
 
