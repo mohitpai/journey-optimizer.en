@@ -218,10 +218,10 @@ Two types of split operations are available:
 
     ![](assets/audiences-split.png)
 
-    To configure an attribute-based split activity:
+    To set up an attribute-based split activity, follow these steps:
     
-    1. click the button next to the **[!UICONTROL Attribute]** field to choose the attribute to pick as criteria.
-    1. Add as many paths as desired, then specify for each path a label and the value to use to select the profiles to include in the path.
+    1. Click the button located next to the **[!UICONTROL Attribute]** field to select the attribute to use as your split criteria.
+    1. Add as many paths as needed. For each path, provide a label and specify the value that will be used to determine which profiles should be included in that particular path.
 
         >[!NOTE]
         >
