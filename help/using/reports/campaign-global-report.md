@@ -139,9 +139,9 @@ The **[!UICONTROL Email Sending Statistics]** graph details the success of your 
 
 The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for recipient activity for your delivery:
 
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+* **[!UICONTROL Opens]**: Number of times the email was opened.
 
-* **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
+* **[!UICONTROL Unique Opens]**: Percentage of opened emails.
 
 * **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
@@ -190,7 +190,9 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+
+* **[!UICONTROL Opens]**: Number of times the message was opened.
+
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
 The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
@@ -207,7 +209,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** t
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
 
@@ -324,7 +326,7 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 
 The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
-The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors' engagement with your URLs.
 
 +++
 
