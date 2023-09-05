@@ -9,7 +9,7 @@ exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 ---
 # Delete a fallback offer {#delete-fallback-offer}
 
-It may occasionally be necessary to remove (DELETE) a fallback offer. Only fallback offers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.
+It may occasionally be necessary to remove (DELETE) a fallback offer. This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the fallback offer you wish to delete.
 
 **API format**
 
@@ -37,4 +37,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234
 
 A successful response returns HTTP status 200 and a blank body.
 
-You can confirm the deletion by attempting a lookup (GET) request to the offer and should receive an HTTP status 404 (Not Found) because the placement has been removed.
+You can confirm the deletion by attempting a lookup (GET) request to the offer and should receive an HTTP status 404 (Not Found) because the fallback offer has been removed.

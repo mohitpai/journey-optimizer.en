@@ -14,12 +14,12 @@ You can look up specific collection qualifiers (previously known as "tags") by m
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/tags/{ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | The id of the entity you wish to look up. | `tag1234` |
 
 **Request**

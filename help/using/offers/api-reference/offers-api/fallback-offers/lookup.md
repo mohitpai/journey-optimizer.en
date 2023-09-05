@@ -9,7 +9,7 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 ---
 # Look up fallback offers {#look-up-fallback-offers}
 
-You can look up specific fallback offers by making a GET request to the [!DNL Offer Library] API that includes either the fallback offer `@id` or the name of the fallback offer in the request path.
+You can look up specific fallback offers by making a GET request to the [!DNL Offer Library] API that includes the fallback offer id in the request path.
 
 **API format**
 
@@ -35,7 +35,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?of
 
 **Response**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique fallback offer `@id`.
+A successful response returns the details of the fallback-offer including information your fallback-offer and unique fallback offer id.
 
 ```json
 {

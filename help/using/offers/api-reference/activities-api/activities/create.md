@@ -9,7 +9,7 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 ---
 # Create a decision {#create-decision}
 
-You can create a decision by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a decision by making a POST request to the [!DNL Offer Library] API.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -72,7 +72,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Response**
 
-A successful response returns information on the newly created decision, including its unique instance ID and placement `@id`. You can use id in later steps to update or delete your decision. You can use your unique placement id in later tutorials to create decisions, decision rules, and fallback offers.
+A successful response returns information on the newly created decision, including its unique instance ID and placement `@id`. You can use id in later steps to update or delete your decision.
 
 ```json
 {
@@ -84,6 +84,6 @@ A successful response returns information on the newly created decision, includi
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

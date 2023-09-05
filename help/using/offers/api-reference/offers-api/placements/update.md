@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **Response**
 
-A successful response returns the updated details of the placement, without including its unique instance ID and placement `id`.
+A successful response returns the updated details of the placement, including its unique instance ID and placement `id`.
 
 ```json
 {
@@ -75,6 +75,6 @@ A successful response returns the updated details of the placement, without incl
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

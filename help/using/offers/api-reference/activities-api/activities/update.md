@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDeci
 
 **Response**
 
-A successful response returns the updated details of the decision, including decision `@id`.
+A successful response returns the updated details of the decision, including decision `id`.
 
 ```json
 {
@@ -76,6 +76,6 @@ A successful response returns the updated details of the decision, including dec
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

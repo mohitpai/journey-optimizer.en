@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 ---
 # Update a collection qualifier {#update-collection-qualifier}
 
-You can modify or update a collection qualifier (previously known as "tag") in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update a collection qualifier (previously known as "tag") by making a PATCH request to the [!DNL Offer Library] API.
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
@@ -75,6 +75,6 @@ A successful response returns the updated details of the collection qualifier an
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

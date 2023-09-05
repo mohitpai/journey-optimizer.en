@@ -11,7 +11,7 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 
 A decision contains the logic that informs the selection of an offer.
 
-You can view a list of all decisions within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all decisions by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 

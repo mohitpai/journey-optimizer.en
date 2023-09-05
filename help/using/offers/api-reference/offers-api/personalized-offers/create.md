@@ -88,7 +88,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **Response**
 
-A successful response returns the details of the newly created personalized-offer, including id. You can use the `id` in later steps to update or delete your placement.
+A successful response returns the details of the newly created personalized-offer, including id. You can use the `id` in later steps to update or delete your personalized offer.
 
 ```json
 {
@@ -100,7 +100,7 @@ A successful response returns the details of the newly created personalized-offe
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
 

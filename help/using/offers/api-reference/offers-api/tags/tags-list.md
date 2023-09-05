@@ -49,11 +49,11 @@ The most common query parameters for paging include:
 | --------- | ----------- | ------- |
 | `property`| An optional property filter: <br> <ul> - The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=<property-expr>[&property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Property expressions are in format [!]field[op]value, with op in [==,!=,<=,>=,<,>,~], supporting regular expressions| `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.`|
 | `orderBy` | Sort results by a specific property. Adding a - before name (orderby=-name) will sort items by name in descending order (Z-A). Path expressions are in the form of dot separated paths. This parameter can be repeated like so: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Limit the number of placements returned. | `limit=5` |
+| `limit` | Limit the number of entities returned. | `limit=5` |
 
 **Response**
 
-A successful response returns a list of collection qualifiers that are present within the container you have access to.
+A successful response returns a list of collection qualifiers that are present.
 
 ```json
 {

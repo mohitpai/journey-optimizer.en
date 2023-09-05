@@ -9,7 +9,7 @@ exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 ---
 # Delete a personalized offer {#delete-personalized-offer}
 
-It may occasionally be necessary to remove (DELETE) a personalized offer. Without Only personalized offers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the personalized offer you wish to delete.
+It may occasionally be necessary to remove (DELETE) a personalized offer. This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the personalized offer you wish to delete.
 
 **API format**
 
@@ -19,7 +19,7 @@ DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `[https://platform.adobe.io/data/core/dps/](https://platform.adobe.io/data/core/xcore/)` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | The id of the entity you wish to delete. | `personalizedOffer1234` |
 
 **Request**

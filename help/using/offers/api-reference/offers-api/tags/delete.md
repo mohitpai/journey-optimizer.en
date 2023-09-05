@@ -37,4 +37,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 A successful response returns HTTP status 200 and a blank body.
 
-You can confirm the deletion by attempting a lookup (GET) request to the placement and should receive an HTTP status 404 (Not Found) because the placement has been removed.
+You can confirm the deletion by attempting a lookup (GET) request to the collection qualifier and should receive an HTTP status 404 (Not Found) because it has been removed.

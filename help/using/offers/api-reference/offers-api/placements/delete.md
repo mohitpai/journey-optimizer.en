@@ -19,7 +19,7 @@ DELETE /{ENDPOINT_PATH}/placements/{ID}
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | The instance id of the placement you wish to update. | `offerPlacement1234` |
 
 **Request**
