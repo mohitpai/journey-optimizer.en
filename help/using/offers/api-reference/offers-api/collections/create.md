@@ -29,7 +29,7 @@ POST /{ENDPOINT_PATH}/offer-collections
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs.	 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Request**
 
