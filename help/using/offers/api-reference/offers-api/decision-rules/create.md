@@ -27,7 +27,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform-stage.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 
 **Request**
 
@@ -62,7 +62,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Response**
 
-A successful response returns information on the newly created decision rule, including placement `@id`. You can use the id in later steps to update or delete your decision rule. You can use your unique decision rule `@id` in a later tutorial to create decisions, decision rules, and fallback offers..
+A successful response returns information on the newly created decision rule, including placement `id`. You can use the `id` in later steps to update or delete your decision rule or use it in a later tutorial to create decisions, decision rules, and fallback offers.
 
 ```json
 {
@@ -74,6 +74,6 @@ A successful response returns information on the newly created decision rule, in
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

@@ -9,7 +9,7 @@ exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 ---
 # Update a decision {#update-decision}
 
-You can modify or update a decision in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update a decision by making a PATCH request to the [!DNL Offer Library] API.
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
@@ -19,8 +19,7 @@ The following table shows the valid values which comprise the *Content-Type* and
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/json` |
 
 **API format**
 
@@ -58,7 +57,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDeci
 
 | Parameter | Description |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
+| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, `remove`, `copy` and `test.  |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 

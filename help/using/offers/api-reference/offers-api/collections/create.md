@@ -11,7 +11,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
-You can create a collection by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a collection by making a POST request to the [!DNL Offer Library] API.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -55,7 +55,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Response**
 
-A successful response returns information on the newly created collection, including placement `@id`. You can use the id in later steps to update or delete your collection. You can use your unique placement id in later tutorials to create decisions, decision rules, and fallback offers.
+A successful response returns information on the newly created collection, including its unique `id`. You can use the collection `id` in later steps to update or delete your collection or use it in a later tutorial to create a decision.
 
 ```json
 {
@@ -67,6 +67,6 @@ A successful response returns information on the newly created collection, inclu
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

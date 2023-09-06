@@ -9,7 +9,7 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 ---
 # Look up a decision {#look-up-decision}
 
-You can look up specific decisions by making a GET request to the [!DNL Offer Library] API that includes either the decisions `@id` or the name of the decision in the request path.
+You can look up specific decisions by making a GET request to the [!DNL Offer Library] API that includes the decisions `id` in the request path.
 
 **API format**
 
@@ -35,7 +35,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **Response**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique decision `@id`.
+A successful response returns the details of the decision including information about your unique decision `id`.
 
 ```json
 {

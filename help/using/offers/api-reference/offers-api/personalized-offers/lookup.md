@@ -11,7 +11,7 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 
-You can look up specific personalized offers by making a GET request to the [!DNL Offer Library] API that includes either the personalized offer `id` or the name of the personalized offer in the request path.
+You can look up specific personalized offers by making a GET request to the [!DNL Offer Library] API that includes the personalized offer id in the request path.
 
 **API format**
 

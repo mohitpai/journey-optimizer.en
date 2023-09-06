@@ -9,7 +9,7 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 ---
 # Update a decision rule {#update-decision-rule}
 
-You can modify or update decision rules in in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update decision rules by making a PATCH request to the [!DNL Offer Library] API.
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
@@ -75,6 +75,6 @@ A successful response returns the updated details of the decision rule, includin
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

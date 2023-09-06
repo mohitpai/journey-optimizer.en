@@ -8,13 +8,12 @@ level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 ---
 # Look up a decision rule {#lookup-decision-rule}
-
-You can look up a specific decision rule by making a GET request to the [!DNL Offer Library] API that includes either the decision rule `@id` or the name of the decision rule in the request path.
+You can look up a specific decision rule by making a GET request to the [!DNL Offer Library] API that includes the decision rule `id` in the request path.
 
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
 | Parameter | Description | Example |
@@ -35,7 +34,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **Response**
 
-A successful response returns the details of the specific decision rule you looked up, including information about its container ID, instance ID and, unique decision rule `@id`.
+A successful response returns the details of the specific decision rule you looked up, including information about its unique decision rule `@id`.
 
 ```json
   {

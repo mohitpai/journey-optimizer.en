@@ -9,7 +9,7 @@ exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 ---
 # Delete a decision rule {#delete-decision-rule}
 
-It may occasionally be necessary to remove (DELETE) a decision rule. Only decision rules that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the instance ID of the decision rule you wish to delete.
+It may occasionally be necessary to remove (DELETE) a decision rule. This is done by performing a DELETE request to the [!DNL Offer Library] API using the `id` of the decision rule you wish to delete.
 
 **API format**
 
@@ -19,7 +19,7 @@ DELETE /{ENDPOINT_PATH}/offer-rules/{ID}
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | The id of the entity you wish to delete. | `offerRule1234` |
 
 **Request**
@@ -37,4 +37,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule123
 
 A successful response returns HTTP status 200 and a blank body.
 
-You can confirm the deletion by attempting a lookup (GET) request to the placement and should receive an HTTP status 404 (Not Found) because the placement has been removed.
+You can confirm the deletion by attempting a lookup (GET) request to the decision rule and should receive an HTTP status 404 (Not Found) because the decision rule has been removed.

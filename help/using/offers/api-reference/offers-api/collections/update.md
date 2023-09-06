@@ -29,7 +29,7 @@ PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | The id of the entity you wish to update. | `offerCollection1234` |
 
 **Request**
@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 **Response**
 
-A successful response returns the updated details of the collection, including its unique instance ID and collection `@id`.
+A successful response returns the updated details of the collection, including its unique collection `id`.
 
 ```json
 {
@@ -75,6 +75,6 @@ A successful response returns the updated details of the collection, including i
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

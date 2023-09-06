@@ -9,7 +9,7 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 ---
 # Create a fallback offer {#create-fallback-offer}
 
-You can create a fallback offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a fallback offer by making a POST request to the [!DNL Offer Library] API.
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
@@ -55,7 +55,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **Response**
 
-A successful response returns information on the newly created fallback offer, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your fallback offer. You can use your unique fallback offer `@id` in a later tutorial to create a decision.
+A successful response returns information on the newly created fallback offer, including its unique fallback offer `id`. You can use the `id` in later steps to update or delete your fallback offer or to create a decision in a later tutorial.
 
 
 ```json
@@ -68,6 +68,6 @@ A successful response returns information on the newly created fallback offer, i
     "createdDate": "2023-05-31T15:09:11.771Z",
     "lastModifiedDate": "2023-05-31T15:09:11.771Z",
     "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}""
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

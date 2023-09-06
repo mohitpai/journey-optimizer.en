@@ -9,7 +9,7 @@ exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 ---
 # Delete a decision {#delete-decision}
 
-It may occasionally be necessary to remove (DELETE) a decision. Only decisions that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.
+It may occasionally be necessary to remove (DELETE) a decision. This is done by performing a DELETE request to the [!DNL Offer Library] API using the `id` of the decision you wish to delete.
 
 **API format**
 
@@ -20,7 +20,7 @@ DELETE /{ENDPOINT_PATH}/offer-decisions/{ID}
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{CONTAINER_ID}` | The id of the entity you wish to delete. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ID}` | The id of the entity you wish to delete. | `offerDecision1234` |
 
 **Request**
 
@@ -37,4 +37,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDec
 
 A successful response returns HTTP status 200 and a blank body.
 
-You can confirm the deletion by attempting a lookup (GET) request to the placement and should receive an HTTP status 404 (Not Found) because the placement has been removed.
+You can confirm the deletion by attempting a lookup (GET) request to the decision. You should receive an HTTP status 404 (Not Found) because the decision has been removed.
