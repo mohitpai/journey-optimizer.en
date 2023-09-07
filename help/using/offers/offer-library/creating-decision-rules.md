@@ -9,11 +9,22 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 ---
 # Create decision rules {#create-decision-rules}
 
+## About decision rules {#about}
+
 You can create offer decision rules based on data available in Adobe Experience Platform. Decision rules determine to whom an offer can be shown.
 
 For example, you can specify that you only want a 'Women's Winter Clothing Offer' to be shown when (Gender = 'Female') and (Region = 'Northeast').
 
 ➡️ [Discover this feature in video](#video)
+
+Here is a list of limitations to be aware of when working with decision rules:
+
+* When creating a rule, you can use historical events but there are limitations on when these rules are usable.
+* Edge decisioning uses the edge profile which does not store events, so any rule used in an edge decision will be invalid.
+* Journeys that use Offer Decisions will not look at historical events, so these rules will be invalid.
+* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.
+
+## Create a decision rule {#create}
 
 The list of created decision rules is accessible in the **[!UICONTROL Components]** menu.
 
