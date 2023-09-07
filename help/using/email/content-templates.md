@@ -17,7 +17,7 @@ This functionality enables content-oriented users to work on templates outside c
 
 For example, a user within your company is in charge of content only, and therefore has no access to campaigns or journeys. However, this user can create an email template that your organization's marketers will be able to select for use in all emails as a starting point.
 
-You can also create and manage content templates using APIs. For more on this, refer to the [Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+You can also create and manage content templates using APIs. For more on this, refer to the [Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/content/).
 
 ➡️ [Learn how to create and use templates in this video](#video-templates)
 
