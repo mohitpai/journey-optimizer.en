@@ -101,13 +101,15 @@ The extension does not have any conditional settings and handles all the setting
 
 When using the Adobe [!DNL Journey Optimizer] web designer, if you attempt to load a website that fails to load, a message displays suggesting that you install the [Visual Editing Helper browser extension](#install-visual-editing-helper).
 
-If the Visual Editing Helper browser extension is correctly installed, but the website still fails to load or behaves unexpectedly, a potential fix is to open your website in the browser and accept cookies before trying to load it in the [!DNL Journey Optimizer] web designer.
+1. Make sure the Visual Editing Helper browser extension is correctly installed.
+
+1. If the website still behaves unexpectedly, make sure third-party cookies are allowed in your browser, otherwise the web page cannot be loaded inside the [!DNL Journey Optimizer] web designer.
 
 For pages under authentication, if the login page fails to load, or if after trying to log in you are still not logged in:
 
-* Try to log in first in a new browser tab and navigate to the desired page, then copy the URL and try to open it in the [!DNL Journey Optimizer] web designer.
+1. Try to log in first in a new browser tab and navigate to the desired page, then copy the URL and try to open it in the [!DNL Journey Optimizer] web designer.
 
-* If you still cannot load your website in the [!DNL Journey Optimizer] web designer, contact Adobe Customer Care to report the problem, making sure you specify the failing URL.
+2. If you still cannot load your website in the [!DNL Journey Optimizer] web designer, contact Adobe Customer Care to report the problem, making sure you specify the failing URL.
 
 ## Delivery prerequisites {#delivery-prerequisites}
 
