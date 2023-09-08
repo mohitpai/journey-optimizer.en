@@ -85,8 +85,8 @@ For the "long/lat" parameter set, we create a field group with the following inf
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Dynamic Values]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
 
-* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: “identifier”).
-* specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
+* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: "identifier").
+* specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": "name of your parameter" (in the example below: "identifier"). Follow the syntax below:
 
     ```
     {"id":{"param":"identifier"}}
@@ -202,7 +202,10 @@ Here is an example for the bearer authentication type:
 
 >[!NOTE]
 >
+>The authentication token is cached per journey: if two journeys are using the same custom action, each journey has his own token cached. That token is not shared between those journeys.
+>
 >Cache duration helps to avoid too many calls to the authentication endpoints. Authentication token retention is cached in services, there is no persistence. If a service is restarted, it starts with a clean cache. The cache duration by default is 1 hour. In the custom authentication payload, it can be adapted by specifying another retention duration.
+>
 
 Here is an example for the header authentication type:
 

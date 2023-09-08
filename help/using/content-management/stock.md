@@ -61,7 +61,7 @@ To browse similar photos, follow the steps below:
     
     If the image you selected is not licensed, you must [get the license](#license-stock-image).
 
-1. Customize your image, if needed, with the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](content-components.md).
+1. Customize your image, if needed, with the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](../email/content-components.md).
 
 ## Get the license from [!DNL Adobe Stock] {#license-stock-image}
 
@@ -94,7 +94,7 @@ To license and download your image, follow the steps below:
 
 ## Related topics{#stock-related-topics}
 
-* [Email design in Journey Optimizer](get-started-email-design.md)
-* [Components settings for email design](content-components.md)
+* [Email design in Journey Optimizer](../email/get-started-email-design.md)
+* [Components settings for email design](../email/content-components.md)
 * [Adobe Stock Get Started](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

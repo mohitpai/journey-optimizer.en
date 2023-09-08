@@ -1,5 +1,5 @@
 ---
-title: Create an In-app notification
+title: Create an In-app notification in Journey Optimizer
 description: Learn how to create an In-app message in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -10,14 +10,13 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
-<!--
+You can add an In-app message in a campaign or in a journey. Follow the steps detailed below to create an In-app message in both contexts.
+
 >[!BEGINTABS]
 
 >[!TAB Add an In-app message to a journey]
 
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+To add an In-app message in a journey, follow these steps:
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -33,25 +32,73 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
 1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
 
-1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message. Rule builders enable users to specify criteria and values that, when met, trigger a set of actions, such as sending an in-app message.
 
     ![](assets/in_app_journey_4.png)
 
-1. Choose the frequency of your trigger when your In-app message is active:
+    1. Click the event drop-down to change your Trigger if needed.
+        
+        +++See available Triggers.
+        
+        | Package | Trigger | Definition |
+        |---|---|---|
+        |Send data to Platform|Sent data to Platform|Triggered when the mobile app issues an edge experience event to send data to Adobe Experience Platform. Usually the API call [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) from the AEP Edge extension.|
+        |Core tracking|Track action| Triggered when the legacy functionality offered in mobile code API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) is called.|
+        |Core tracking|Track state |Triggered when the legacy functionality offered in mobile code API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) is called.|
+        |Core tracking|Collect PII|Triggered when the legacy functionality offered in mobile code API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) is called.|
+        |Application lifecycle|Application launch|Triggered at every run, including crashes and installs. Also triggered on a resume from the background when the lifecycle session timeout has been exceeded.|
+        |Application lifecycle|Application install|Triggered at the first run after installation or re-installation.|
+        |Application lifecycle|Application update|Triggered at the first run after an upgrade or when the version number changes.|
+        |Application lifecycle|Application close|Triggered when the application is closed. |
+        |Application lifecycle|Application crash|Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. Adobe Mobile crash reporting does not implement a global uncaught exception handler.|
+        |Places|Enter POI| Triggered by the Places SDK when your customer enters the Point of Interest (POI) that you configured.|
+        |Places|Exit POI| Triggered by the Places SDK when your customer exits the Point of Interest (POI) that you configured.|
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+        +++
+    
+    1. Click **[!UICONTROL Add condition]** if you want the trigger to consider multiple events or criteria.
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+    1. Choose the **[!UICONTROL Or]** condition if you want to add more **[!UICONTROL Triggers]** to further expand your rule.
 
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+        ![](assets/in_app_create_3.png)
 
-    ![](assets/in_app_journey_3.png)
+    1. Choose the **[!UICONTROL And]** condition if you want to add **[!UICONTROL Traits]** and better fine-tune your rule.
+
+        +++See available Traits.
+        
+        | Package | Traits | Definition |
+        |---|---|---|
+        |Device info|Carrier name|Triggered when one of the Carrier name from the list is met.|
+        |Device info|Device name|Triggered when one of the Device name is met.|
+        |Device info|Locale|Triggered when one of the language from the list is met.|
+        |Device info|OS version|Triggered when one of the specified OS version is met.|
+        |Device info|Previous OS version|Triggered when one of the specified Previous OS version is met.|
+        |Device info|Run mode|Triggered if Run mode is either application or extension.|
+        |Application lifecycle|App ID| Triggered when the specified App ID is met.| 
+        |Application lifecycle|Day of week|Triggered when the specified day of week is met.|
+        |Application lifecycle|Day since first use|Triggered when the specified number of day since first use is met.|
+        |Application lifecycle|Day since last use|Triggered when the specified number of day since last use is met.|
+        |Application lifecycle|Day since upgrade|Triggered when the specified number of day since last upgrade is met.|
+        |Application lifecycle|Install date|Triggered when the specified Install date is met.|
+        |Application lifecycle|Launches|Triggered when the specified number of Launches is met.|
+        |Application lifecycle|Time of day|Triggered when the specified Time of day is met.|
+        |Places|Current POI|Triggered by the Places SDK when your customer enters the specified Point of Interest (POI).|
+        |Places|Last entered POI|Triggered by the Places SDK depending on your customer last entered Point of Interest (POI).|
+        |Places|Last exited POI|Triggered by the Places SDK depending on your customer last exited Point of Interest (POI).|
+
+        +++
+        
+        ![](assets/in_app_create_8.png)
+
+    1. Click **[!UICONTROL Make group]** to group triggers together.
+
+        ![](assets/in_app_journey_3.png)
+
+    1. Choose the frequency of your trigger when your In-app message is active:
+
+        * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+        * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+        * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
     
 1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
 
@@ -60,7 +107,8 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
 >[!TAB Add an In-app message to a campaign]
--->
+
+To add an In-app message in a campaign, follow these steps:
 
 1. Access the **[!UICONTROL Campaigns]** menu, then click **[!UICONTROL Create campaign]**.
 
@@ -84,13 +132,63 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Click **[!UICONTROL Create experiment]** to start configuring your content experiment and create treatments to measure their performance and identify the best option for your target audience. [Learn more](../campaigns/content-experiment.md)
 
-1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message:
+1. Click **[!UICONTROL Edit triggers]** to choose the event(s) and criteria that will trigger your message. Rule builders enable users to specify criteria and values that, when met, trigger a set of actions, such as sending an in-app message.
 
-    1. Click **Add condition** if you want the trigger to consider multiple events or criteria. 
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click the event drop-down to change your Trigger if needed.
+        
+        +++See available Triggers.
+        
+        | Package | Trigger | Definition |
+        |---|---|---|
+        |Send data to Platform|Sent data to Platform|Triggered when the mobile app issues an edge experience event to send data to Adobe Experience Platform. Usually the API call [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) from the AEP Edge extension.|
+        |Core tracking|Track action| Triggered when the legacy functionality offered in mobile code API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) is called.|
+        |Core tracking|Track state |Triggered when the legacy functionality offered in mobile code API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) is called.|
+        |Core tracking|Collect PII|Triggered when the legacy functionality offered in mobile code API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) is called.|
+        |Application lifecycle|Application launch|Triggered at every run, including crashes and installs. Also triggered on a resume from the background when the lifecycle session timeout has been exceeded.|
+        |Application lifecycle|Application install|Triggered at the first run after installation or re-installation.|
+        |Application lifecycle|Application update|Triggered at the first run after an upgrade or when the version number changes.|
+        |Application lifecycle|Application close|Triggered when the application is closed. |
+        |Application lifecycle|Application crash|Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. Adobe Mobile crash reporting does not implement a global uncaught exception handler.|
+        |Places|Enter POI| Triggered by the Places SDK when your customer enters the Point of Interest (POI) that you configured.|
+        |Places|Exit POI| Triggered by the Places SDK when your customer exits the Point of Interest (POI) that you configured.|
+
+        +++
+    
+    1. Click **[!UICONTROL Add condition]** if you want the trigger to consider multiple events or criteria.
+
+    1. Choose the **[!UICONTROL Or]** condition if you want to add more **[!UICONTROL Triggers]** to further expand your rule.
+
+        ![](assets/in_app_create_3.png)
+
+    1. Choose the **[!UICONTROL And]** condition if you want to add **[!UICONTROL Traits]** and better fine-tune your rule.
+
+        +++See available Traits.
+        
+        | Package | Traits | Definition |
+        |---|---|---|
+        |Device info|Carrier name|Triggered when one of the Carrier name from the list is met.|
+        |Device info|Device name|Triggered when one of the Device name is met.|
+        |Device info|Locale|Triggered when one of the language from the list is met.|
+        |Device info|OS version|Triggered when one of the specified OS version is met.|
+        |Device info|Previous OS version|Triggered when one of the specified Previous OS version is met.|
+        |Device info|Run mode|Triggered if Run mode is either application or extension.|
+        |Application lifecycle|App ID| Triggered when the specified App ID is met.| 
+        |Application lifecycle|Day of week|Triggered when the specified day of week is met.|
+        |Application lifecycle|Day since first use|Triggered when the specified number of day since first use is met.|
+        |Application lifecycle|Day since last use|Triggered when the specified number of day since last use is met.|
+        |Application lifecycle|Day since upgrade|Triggered when the specified number of day since last upgrade is met.|
+        |Application lifecycle|Install date|Triggered when the specified Install date is met.|
+        |Application lifecycle|Launches|Triggered when the specified number of Launches is met.|
+        |Application lifecycle|Time of day|Triggered when the specified Time of day is met.|
+        |Places|Current POI|Triggered by the Places SDK when your customer enters the specified Point of Interest (POI).|
+        |Places|Last entered POI|Triggered by the Places SDK depending on your customer last entered Point of Interest (POI).|
+        |Places|Last exited POI|Triggered by the Places SDK depending on your customer last exited Point of Interest (POI).|
+
+        +++
+        
+        ![](assets/in_app_create_8.png)
+
     1. Click **[!UICONTROL Make group]** to group triggers together.
-
-    ![](assets/in_app_create_3.png)
 
 1. Choose the frequency of your trigger when your In-app message is active. The following options are available:
 
@@ -109,19 +207,33 @@ For more information on how to configure a journey, refer to [this page](../buil
 
     ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## How-to videos{#video}
 
-The video below shows how to create, configure, and publish In-app messages in your campaigns.
+* The video below shows how to create, configure, and publish In-app messages in your campaigns.
+    
+    +++See video
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+    >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-The video below shows how to configure and analyze content experiments to A/B test in-app messages.
+    +++
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+* The video below shows how to configure and analyze content experiments to A/B test In-app messages.
+
+    +++See video
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+
+    +++
+
+* The video below shows how to create an In-app message in a journey and how to test and publish your journey.
+
+    +++See video
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
+    +++
 
 **Related topics:**
 

@@ -24,9 +24,11 @@ The Campaign **[!UICONTROL Live report]** page will be displayed with the follow
 
 * [Campaign](#campaign-live)
 * [Email](#email-live)
+* [In-app](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Direct mail](#direct-mail-tab)
 
 The Campaign **[!UICONTROL Live report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/live-report.md#modify-dashboard).
 
@@ -93,6 +95,24 @@ The **[!UICONTROL Error Reasons]** and **[!UICONTROL Exclude Reasons]** graphs a
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 +++
 
+## In-app tab {#inapp-live}
+
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your campaign.
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
+
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
+
++++
+
 ## Push notification tab {#push-live}
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your campaign.
@@ -140,8 +160,6 @@ The **[!UICONTROL SMS - Statistics]** table details the success of your delivery
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
@@ -152,8 +170,6 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
@@ -163,21 +179,40 @@ The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!U
 
 ## Web tab {#web-tab}
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
 
 +++Learn more on the different metrics and widgets available for the Web report.
 
 The **[!UICONTROL Web performance]** KPIs detail the main information relative to your visitors' engagement with your web experiences, such as:
 
-* **[!UICONTROL Unique impressions]**: number of unique users to whom the web experience was delivered.
-
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Clicks]**: total number of URL visits.
+* **[!UICONTROL Interactions]**:  total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and interactions) for the last 24 hours.
 
-The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
+The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
++++
+
+## Direct mail tab {#direct-mail-tab}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
+
+![](assets/direct-mail-report_2.png)
+
++++Learn more on the different metrics and widgets available for the Direct mail report.
+
+The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the delivery.
+
+The **[!UICONTROL Direct Mail - Excluded reasons]** and **[!UICONTROL Direct Mail - Error reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 +++
 
 ## Additional resources

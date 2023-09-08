@@ -29,9 +29,9 @@ Regulations such as HIPAA require that [!DNL Journey Optimizer] should provide a
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Define a BCC email address"
->abstract="You can keep a copy of sent emails by sending them to a BCC inbox. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. Note that the BCC address domain should not be same as any subdomain delegated to Adobe. This feature is optional."
+>abstract="You can keep a copy of sent emails by sending them to a BCC inbox. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. Note that the BCC address domain must be different from any subdomain delegated to Adobe. This feature is optional."
 
-You can send an identical copy (or blind carbon copy) of an email sent by [!DNL Journey Optimizer] to a BCC inbox. This optional feature allows you to retain copies of email communications you send to your users for compliance and/or archival purposes. This will be invisible to the delivery recipients.
+You can send blind carbon copy (BCC) of an email sent by [!DNL Journey Optimizer] to a dedicated BCC address. This optional feature allows you to retain copies of email communications you send to your users for compliance and/or archival purposes. The BCC address is not visible to other recipients of the message.
 
 ### Enable BCC email {#enable-bcc}
 
@@ -49,11 +49,11 @@ To enable the **[!UICONTROL BCC email]** option, enter the email address of your
 
 ![](assets/preset-bcc.png)
 
-All email messages using this surface will be blind-copied to the BCC email address you entered. From there, they can be processed and archived using an external system.
+Once configuration is done, all email messages based on this surface are blind-copied to the BCC email address you entered. From there, messages can be processed and archived using an external system.
 
 >[!CAUTION]
 >
->Your BCC feature usage will be counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
+>Your BCC feature usage is counted against the number of messages you are licensed for. Hence, only enable it in the surfaces used for critical communications that you wish to archive. Check your contract for licensed volumes.
 
 The BCC email address setting is immediately saved and processed at the surface level. When you create a new message using this surface, the BCC email address is automatically displayed.
 

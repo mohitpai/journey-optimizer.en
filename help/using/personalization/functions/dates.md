@@ -135,7 +135,7 @@ Where the first string is the date attribute and the second value is how you wou
 The following operation will return the date in the following format: MM/DD/YY.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
 ## Format date with locale support{#format-date-locale}

@@ -30,6 +30,7 @@ The Campaign **[!UICONTROL Global report]** page will be displayed with the foll
 * [Push](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [Direct mail](#direct-mail-global)
 
 The Campaign **[!UICONTROL Global report]** is divided into different widgets detailing your campaign's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](../reports/global-report.md#modify-dashboard).
 
@@ -93,6 +94,15 @@ The table presents the following metrics:
 *  **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
 
 The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals). 
+
+![](assets/experimentation_report_4.png)
+
+The last widget provides data related to the **[!UICONTROL Success metric]** you previously selected for your Treatments. You have the option to select a different targeted metric from the **[!UICONTROL Metric]** drop-down menu to track alternative data.
+    
+>[!CAUTION]
+>
+>When working with experimentation filtered metrics, please note that changing the Metric selection from the drop-down on the comparison page for experimentation will not retain the filter value. For example, switching from "Clicks" to "Unique clicks" will lead to the loss of the applied filter, rendering the comparison inaccurate or invalid.
+
 +++
 
 For a deep-dive in these results and how to interpret them, refer to [this page](../campaigns/get-started-experiment.md#interpret-results).
@@ -129,9 +139,9 @@ The **[!UICONTROL Email Sending Statistics]** graph details the success of your 
 
 The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for recipient activity for your delivery:
 
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+* **[!UICONTROL Opens]**: Number of times the email was opened.
 
-* **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
+* **[!UICONTROL Unique Opens]**: Percentage of opened emails.
 
 * **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
 
@@ -180,7 +190,9 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+
+* **[!UICONTROL Opens]**: Number of times the message was opened.
+
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
 The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
@@ -197,23 +209,17 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** t
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
 
 * **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
 
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+* **[!UICONTROL Interactions rate]**: percentage of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
-* **[!UICONTROL Dismiss rate]**: percentage of In-app messages that recipients dismissed.
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 
-The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions for the concerned period.
-
-The **[!UICONTROL Clicks by button]** graph and table contain the available data for recipient behavior per button:
-
-* **[!UICONTROL Clicks]**: total number of recipients who interacted with the buttons included in the In-app message.
-
-* **[!UICONTROL Click rate]**: percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
 +++
 
 ## Push notification tab {#push-global}
@@ -306,8 +312,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
@@ -316,15 +320,13 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
-The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors’ engagement with your URLs.
+The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors' engagement with your URLs.
 
 +++
 
@@ -342,11 +344,32 @@ The **[!UICONTROL Web performance]** KPIs detail the main information relative t
 
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Click rate]**: percentage of visitors who interacted with the various elements on your web pages.
+* **[!UICONTROL Interaction rate]**: percentage of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and clicks) for the concerned period.
+The **[!UICONTROL Web summary]** graph shows the evolution of your web experiences (impressions, unique impressions and interactions) for the concerned period.
 
-The **[!UICONTROL Clicks by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
+The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your web pages.
++++
+
+## Direct mail tab {#direct-mail-global}
+
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
+
+![](assets/direct-mail-report_1.png)
+
++++Learn more on the different metrics and widgets available for the Direct mail report.
+
+The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your delivery:
+
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+
+* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the delivery.
+
+The **[!UICONTROL Direct Mail - Excluded reasons]** and **[!UICONTROL Direct Mail - Error reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 +++
 
 ## Additional resources

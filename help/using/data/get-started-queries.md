@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get Started with queries in Journey Optimizer
 description: Learn how to create queries in Adobe Journey Optimizer
-feature: Schemas
 role: User
 level: Beginner
 keywords: queries, platform, data, exploration

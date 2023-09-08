@@ -20,7 +20,7 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 
 ## Native inbound keywords{#sms-native-keywords}
 
-By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Toll-Free and Long Code messages: STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE. Note that only Sinch supports Native keywords when used with Journey Optimizer.
+By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Toll-Free and Long Code messages: STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE. Note that only Sinch and Infobip support Native keywords when used with Journey Optimizer.
  
 These keywords typically trigger an automatic standard reply from your third party provider. You can confirm this directly with your provider or via their documentation site.
 
@@ -40,7 +40,7 @@ However, Journey Optimizer does support global opt-outs based on incoming keywor
 
 ## Alphanumeric Sender ID {#alphanumeric}
 
-Alphanumeric Sender IDs are for one-way messaging only, and are unable to receive inbound messages. As a result, Adobe Journey Optimizer’s SMS STOP, START, HELP keywords are not applicable for Alpha Sender IDs. You must provide other instructions, such as writing to the Support team, calling a Support phone line, or texting another phone number or code to allow users to opt out from messages sent via Alphanumeric Sender ID.
+Alphanumeric Sender IDs are for one-way messaging only, and are unable to receive inbound messages. As a result, Adobe Journey Optimizer's SMS STOP, START, HELP keywords are not applicable for Alpha Sender IDs. You must provide other instructions, such as writing to the Support team, calling a Support phone line, or texting another phone number or code to allow users to opt out from messages sent via Alphanumeric Sender ID.
 
 ## Video {#video-sms}
 

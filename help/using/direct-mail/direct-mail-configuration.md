@@ -6,21 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: yes
-hidefromtoc: yes
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
 ---
 # Direct mail configuration {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation:
-
-* [Create a direct mail](create-direct-mail.md)
-* **[Configure direct mail](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] allows you to personalize and generate the files required by direct mail providers to send mail to your customers.
 
@@ -42,9 +30,7 @@ Before being able to generate this file, you need to create:
 >id="ajo_dm_file_routing_details"
 >title="Define the file routing configuration"
 >abstract="After you create a direct mail message, the file containing the targeted audience data will be generated and exported to a server. You need to specify the server details so that your direct mail provider can access and use that file for delivering direct mail."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -74,13 +60,13 @@ To configure the file routing, follow the steps below.
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** menu, then click **[!UICONTROL Create routing configuration]**.
 
-    ![](assets/file-routing-config-button.png)
+    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Set a name for your configuration.
 
 1. Select the **[!UICONTROL Server type]** that you want to use for exporting the direct mail files.
 
-    ![](assets/file-routing-config-type.png)
+    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
     >[!NOTE]
     >
@@ -92,7 +78,7 @@ To configure the file routing, follow the steps below.
 
 1. If you selected **[!UICONTROL Amazon S3]**, choose the **[!UICONTROL AWS region]** where the server infrastructure will be located.
 
-    ![](assets/file-routing-config-aws-region.png)
+    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
     >[!NOTE]
     >
@@ -131,17 +117,17 @@ A direct mail surface must also include the file routing configuration which def
 
 1. Select the **[!UICONTROL Direct mail]** channel.
 
-    ![](assets/surface-direct-mail-channel.png)
+    ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Define the direct mail settings in the dedicated section of the channel surface configuration.
 
-    ![](assets/surface-direct-mail-settings.png)
+    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
     <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Select the file format: **[!UICONTROL CSV]** or **[!UICONTROL Text delimited]**.
 
-1. If you select **[!UICONTROL Text delimited]**, define the column separator of your choice: tabulation, semicolon, pipe or ampersand.
+1. If you select **[!UICONTROL Text delimited]**, define the column separator of your choice: tabulation, semicolon, pipe, or ampersand.
 
     ![](assets/surface-direct-mail-column-separator.png)
 
@@ -151,7 +137,7 @@ A direct mail surface must also include the file routing configuration which def
     >
     >If you have not configured any file routing option, you will not be able to create a direct mail surface. [Learn more](#file-routing-configuration)
 
-    ![](assets/surface-direct-mail-file-routing.png)
+    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
     <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 

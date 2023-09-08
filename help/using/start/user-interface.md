@@ -66,7 +66,7 @@ Create offers and components from this section.
 
 Create and manage contents from this section.
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../email/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is a centralized repository of assets that you can use to populate your messages. [Learn more](../content-management/assets-essentials.md)
 
 * **[!UICONTROL Content templates]** - For an accelerated and improved design process, create standalone templates to easily reuse custom content across Journey Optimizer campaigns and journeys. [Learn more](../email/content-templates.md)
 
@@ -110,7 +110,7 @@ Control your privacy management and requests from this section.
 
 * **[!UICONTROL Policies]** - Adobe Experience Platform allows you to label your fields and create marketing actions for each channel. You then define a governance policy linked to a label and a marketing action. [Learn more](../action/action-privacy.md)
 
-* **[!UICONTROL Requests]** - Provacy requests are managed in the Adobe Experience Platform Privacy Service. It provides a RESTful API and user interface to help you manage customer data requests. [Learn more](../privacy/requests.md)
+* **[!UICONTROL Requests]** - Privacy requests are managed in the Adobe Experience Platform Privacy Service. It provides a RESTful API and user interface to help you manage customer data requests. [Learn more](../privacy/requests.md)
 
 * **[!UICONTROL Audit]** - Browse to this section to check activity logs. [Learn more](../privacy/audit-logs.md)
 

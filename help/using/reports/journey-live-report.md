@@ -28,6 +28,7 @@ The journey **[!UICONTROL Live report]** page will be displayed with the followi
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [In-app](#in-app-live)
 
 The journey **[!UICONTROL Live report]** is divided into different widgets detailing your journey's success and errors. Each widget can be resized and deleted if needed. For more information on this, refer to this [section](live-report.md#modify-dashboard).
 
@@ -164,8 +165,6 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
-
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in a delivery.
@@ -176,11 +175,35 @@ The **[!UICONTROL SMS - Sending statistics]** table details the success of your 
 
 The **[!UICONTROL SMS Summary]** graph details the success of your delivery:
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent.
-
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
 The **[!UICONTROL Exclude Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
++++
+
+## In-app tab {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++Learn more on the different metrics and widgets available for the In-app report.
+
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
+
+* **[!UICONTROL Impressions]**: total number of In-app messages delivered to all users.
+
+    >[!NOTE]
+    >
+    >To ensure that an Impression is counted, the user must meet two criteria:
+    >* Qualification within the In-app experience, achieved by reaching the specific In-app activity in their journey.
+    >* Meeting the conditions specified in the Trigger rules.
+    > 
+    >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
+
+The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
+
 +++

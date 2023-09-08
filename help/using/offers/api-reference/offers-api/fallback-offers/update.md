@@ -24,13 +24,14 @@ The following table shows the valid values which comprise the *Content-Type* and
 **API format**
 
 ```http
-PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | The id of the entity you wish to update. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the fallback offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the fallback offer. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Request**
 
@@ -57,7 +58,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | Parameter | Description |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, `remove`, `copy` and `test`.  |
+| `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
 

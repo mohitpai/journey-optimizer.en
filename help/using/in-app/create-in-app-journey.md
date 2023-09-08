@@ -1,6 +1,6 @@
 ---
 title: Create an In-app notification in a Journey
-description: Learn how to create an In-app message in Journey Optimizer
+description: Learn how to add an In-app message in a journey
 feature: Overview
 topic: Content Management
 role: User
@@ -9,9 +9,11 @@ keywords: in-app, message, creation, start
 hide: yes
 hidefromtoc: yes
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
 ---
-# Create an In-app message in a Journey {#create-in-app-journey}
+
+# Create an In-app message in a journey {#create-in-app-journey}
+
+To add an In-app message in a journey, follow these steps:
 
 1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
@@ -55,20 +57,6 @@ badge: label="Beta" type="Informative"
 
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
-## In-app activity limitations {#in-app-activity-limitations}
-
-* This feature is currently not available for Healthcare customers.
-
-* Personalization can only contain profile attributes.
-
-* In-app display is tied to the journey lifespan, meaning that when the journey ends for a profile, all In-app messages within that journey will cease to be displayed for that profile.  Consequently, it is not possible to stop an In-app message directly from a journey activity. Instead, you will need to end the entire journey to stop the In-app messages from being displayed to the profile.
-
-* In test mode, the In-app display depends on the journey's lifespan. To prevent the journey from ending too early during testing, adjust the **[!UICONTROL Wait time]** value for your **[!UICONTROL Wait]** activities. 
-
-* **[!UICONTROL Reaction]** activities can not be used to react to an In-app open or click.
-
-* An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
-
 ## In-app report {#inapp-report}
 
 From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your journeys.
@@ -79,7 +67,7 @@ Learn more about [Journey global report](../reports/journey-global-report.md).
 
 +++Learn more on the different metrics and widgets available for the In-app report.
 
-The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors’ engagement with your In-app messages, such as:
+The **[!UICONTROL In-app performance]** KPIs detail the main information relative to your visitors' engagement with your In-app messages, such as:
 
 * **[!UICONTROL Unique impressions]**: number of unique users to whom the In-app message was delivered.
 

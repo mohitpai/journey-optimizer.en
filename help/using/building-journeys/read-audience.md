@@ -51,7 +51,7 @@ The steps to configure the Read Audience activity are as follows:
 
    Once the audience is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
-   `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
@@ -61,13 +61,13 @@ The steps to configure the Read Audience activity are as follows:
     >
     >Individuals belonging to an audience that does not have the selected identity (namespace) among their different identities cannot enter the journey. You can only select a people-based identity namespace. If you have defined a namespace for a lookup table (for example: ProductID namespace for a Product lookup), it will not be available in the **Namespace** dropdown list.
 
-1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read audience activity.
-
-    This value is stored in the journey version payload. The default value is 5,000 messages per second. You can modify this value from 500 to 20,000 messages per second.
+1. Set the **[!UICONTROL Reading rate]**. This is the maximum number of profiles that can enter the journey per second. This rate applies only to this activity and no others in the journey. If you want to define a throttling rate on custom actions, for example, you need to use the throttling API. Refer to this [page](../configuration/throttling.md).
+    
+    This value is stored in the journey version payload. The default value is 5,000 profiles per second. You can modify this value from 500 to 20,000 profiles per second.
 
     >[!NOTE]
     >
-    >The overall throttling rate per sandbox is set to 20,000 messages per second. Therefore, the throttling rate of all the read audiences that run simultaneously in the same sandbox add up to at most 20,000 messages per second. You cannot modify this cap.
+    >The overall reading rate per sandbox is set to 20,000 profiles per second. Therefore, the reading rate of all the read audiences that run simultaneously in the same sandbox add up to at most 20,000 profiles per second. You cannot modify this cap.
 
 1. The **[!UICONTROL Read Audience]** activity allows you to specify the time at which the audience will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
@@ -151,7 +151,7 @@ The segmentation can be based on:
 * data source data
 * the context of events part of the journey data, for example: did a person click on the message received an hour ago?
 * a date, for example: are we in June when a person go through the journey?
-* a time, for example: is it morning in the person’s timezone?
+* a time, for example: is it morning in the person's timezone?
 * an algorithm splitting the audience flowing in the journey based on a percentage, for example: 90% - 10% to exclude a control group
 
 ![](assets/read-segment-audience1.png)

@@ -40,7 +40,7 @@ Bring marketing and creative workflows together using [!DNL Adobe Experience Man
 
 [!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section.
 
-Learn more about [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Learn more about [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
@@ -49,12 +49,12 @@ The [!DNL Adobe Stock] and [!DNL Adobe Journey Optimizer] Email Designer integra
 
 With [!DNL Adobe Journey Optimizer], you can upload images to your emails directly from [!DNL Adobe Stock] and add it to your **[!UICONTROL Assets]** folder using the **[!UICONTROL Find Adobe Stock photos]** option. In addition, the **[!UICONTROL Find Similar Stock photos]** option helps you find images that match the content, color, and composition of the asset used in your delivery.
 
-Learn more about [Journey Optimizer + Stock](../email/stock.md).
+Learn more about [Journey Optimizer + Stock](../content-management/stock.md).
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Adobe Intelligent Services that are native to Real Time Customer Data Platform allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company’s needs using business-level configurations without the need for data science expertise.
+Adobe Intelligent Services that are native to Real Time Customer Data Platform allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company's needs using business-level configurations without the need for data science expertise.
 
 Customer AI allows brands to create churn or conversion machine learning based scores that will be available as profile attributes in Adobe Experience Platform and that can be used to personalize a journey.
 

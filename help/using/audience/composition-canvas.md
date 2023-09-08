@@ -13,7 +13,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 
 >[!BEGINSHADEBOX]
 
-This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+This documentations provides detailed information on how to work with audience composition within Adobe Journey Optimizer. If you are not using Adobe Journey Optimizer, [click here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -110,9 +110,13 @@ The **[!UICONTROL Exclude]** activity allows you to exclude profiles from your c
 
     Select the attribute to look up then specify the value to exclude. In this example, we are excluding from the composition profiles whose home address is in Japan.
 
+    >[!NOTE]
+    >
+    >Only one exclusion value can be specified.
+
     ![](assets/audiences-exclude-attribute.png)
 
-### Enrich {#enrich}
+### Enrich activity {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -214,9 +218,16 @@ Two types of split operations are available:
 
     ![](assets/audiences-split.png)
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Other profiles]** option allows you to create an additional path with the remaining profiles that do not match any of the conditions specified in the other paths.
+    To set up an attribute-based split activity, follow these steps:
+    
+    1. Click the button located next to the **[!UICONTROL Attribute]** field to select the attribute to use as your split criteria.
+    1. Add as many paths as needed. For each path, provide a label and specify the value that will be used to determine which profiles should be included in that particular path.
+
+        >[!NOTE]
+        >
+        >Only one value can be specified for each path.
+    
+    1. Toggle on the **[!UICONTROL Other profiles]** option to create an additional path with the remaining profiles that do not match any of the conditions specified in the other paths.
 
 ## Save your audiences {#save}
 

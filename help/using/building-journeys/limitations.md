@@ -28,7 +28,7 @@ Here are limitations related to the use of journeys.
 * The audience and namespace chosen in **Audience Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 * A journey starting with a **Read Audience** cannot start with another event in next versions.
- 
+
 ## Custom actions limitations {#custom-actions-limitations}
 
 * The custom action URL does not support dynamic parameters. 
@@ -36,17 +36,17 @@ Here are limitations related to the use of journeys.
 * The name of the query parameter or header must not start with "." or "$". 
 * IP addresses are not allowed. 
 * Internal Adobe addresses (.adobe.) are not allowed.
- 
+
 ## Events limitations {#events-limitations}
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
- 
+
 ## Data sources limitations {#data-sources-limitations}
 
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
 ## Journeys starting at the same time as a profile creation {#journeys-limitation-profile-creation}
- 
+
 There is a delay associated to API based profile creation/update in Adobe Experience Platform. The Service Level Target (SLT) in terms of latency is < 1 min from ingestion to Unified Profile for 95th percentile of requests, at a volume of 20K Requests per second (RPS).
 
 If a Journey is triggered simultaneously to a profile creation and immediately checks/retrieves information from Profile Service, it might not work properly.

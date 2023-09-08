@@ -16,7 +16,98 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
 
-## July 2023 updates
+## August 2023 release notes {#aug-rn-2023}
+
+### New capabilities{#aug-2023-features}
+
+This release brings the new capabilities listed below.
+
+<table>
+<thead>
+<tr>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<img src="assets/do-not-localize/in-app-jo.gif"/>
+<p>For more information, refer to the <a href="../in-app/create-in-app.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Validate your emails with seed lists</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and manage seed lists in Journey Optimizer. A seed list consists of internal addresses which can be added to your actual audience and receive the exact same message as the targeted profiles at the delivery execution time. Use this capability to monitor the sent out communications and ensure that all display formats, URLs, images and links are correct.</p>
+<img src="../configuration/assets/seed-list-details.png">
+<p>For more information, refer to the <a href="../configuration/seed-lists.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+### Improvements {#aug-2023-improvements}
+
+This release comes with the improvements listed below.
+
+<!--
+**APIs**
+
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+
+<!--**Email channel**
+
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+
+**Journeys**
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. [Learn more](../action/action-response.md).
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md).
+<!--* When duplicating a journey, you can now define the name of the journey copy.-->
+
+
+**Direct mail**
+
+* Azure can now be selected as the server type in the file routing configuration. [Learn more](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* Ampersand is now available as column separator field in the direct mail surface settings. [Learn more](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+
+
+
+
+## July 2023 release notes {#july-rn-2023}
+
+### New capabilities{#july-2023-features}
 
 <table>
 <thead>
@@ -28,16 +119,115 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved back into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-
-<img src="../audience/assets/audiences-publish.png"/>
-
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-
 <p>Audience composition comes fully integrated with the new Adobe Experience Platform "Audiences" menu which serves as a centralized portal to audiences. You can now use a browse page that includes a new dashboard with segment trends and overlaps to find new insights and explore organizational tools for foldering and tagging. Embedded within this experience are governance controls for standardized audience labeling as well as audience lifecycle management capabilities to manage activation workflows. With this new management experience, you can now easily and securely manage audiences from one place. For more information, refer to <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform documentation</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct mail channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
+<p>For more information, refer to the <a href="../direct-mail/get-started-direct-mail.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Convert your HTML content for the email designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now import and convert any HTML content in Journey Optimizer's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!</p>
+<img src="assets/html-convert.png">
+<p>For more information, refer to the <a href="../email/existing-content.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In addition to campaigns and journeys, you can now assign Adobe Experience Platform Unified Tags to your landing pages, content templates, fragments, and subscription lists. This allows you to easily classify them, and improve search and navigation in all lists. </p>
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Content templates APIs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and manage Adobe Journey Optimizer content templates using dedicated APIs, providing a seamless integration with your existing content system.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#july-2023-improvements}
+
+This release comes with the improvements listed below.
+
+
+**Campaigns**
+
+Contextual events related to campaigns are now available for use in the personalization editor "Contextual attributes" menu.
+
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences. With the release of the Audience Composition portal, Adobe Experience Platform and Adobe Journey Optimizer have updated the usage of "audiences" and "segment" within the system and the documentation.
+
+* Audience: A set of people, accounts, households, or other entities that share common characteristics and behaviors.
+* Segment definition: In Adobe Experience Platform, the rules used to describe key characteristics or behavior of a target audience. This term was formerly known just as "segment".
+
+As a result, within Adobe Journey Optimizer and the Adobe Experience Platform UI, "Segments" are replaced with "Audiences" to reflect this new path of audience creation and management.
+
+**APIs**
+
+The JWT method to generate access tokens for Adobe Journey Optimizer APIsauthentication has been deprecated. All new integrations must be created using the OAuth Server-to-Server authentication method. Adobe also recommends that you migrate your existing integrations to the OAuth method. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+
+
+**Other changes**
+
+Journey Optimizer datasets export to Cloud Storage Destinations is now available to all customers as a public beta. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets. [Learn more](../data/export-datasets.md)
+
+
+
+
 
 ## June 2023 release notes {#june-rn-2023}
 
