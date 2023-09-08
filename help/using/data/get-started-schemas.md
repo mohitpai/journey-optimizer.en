@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get Started with Schemas
 description: Learn how to use Adobe Experience Platform Schemas in Adobe Journey Optimizer
-feature: Schemas
 role: User
 level: Beginner
 keywords: schemas, platform, data, structure
