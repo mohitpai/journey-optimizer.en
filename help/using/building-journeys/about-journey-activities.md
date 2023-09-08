@@ -66,6 +66,10 @@ Most activities allow you to define a **[!UICONTROL Label]**. This adds a suffix
 
 ![](assets/journey-action-label.png)
 
+>[!NOTE]
+>
+>For some activities, their ID is also visible in the pane. This ID can be used in reporting as a more stable key than the label, which can change.
+
 ### Manage the advanced parameters {#advanced-parameters}
 
 Most activities display a number of advanced and/or technical parameters that you cannot modify.
