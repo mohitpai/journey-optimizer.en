@@ -34,7 +34,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **Response**
 
-A successful response returns the details of the specific decision rule you looked up, including information about its unique decision rule `@id`.
+A successful response returns the details of the specific decision rule you looked up, including information about its unique decision rule `id`.
 
 ```json
   {

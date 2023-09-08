@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 
 **Response**
 
-A successful response returns the updated details of the placement, including placement id.
+A successful response returns the updated details of the personalized-offer, including `id`.
 
 ```json
 {
