@@ -71,7 +71,7 @@ curl -X PATCH \
 
 **Response**
 
-A successful response returns the updated details of the personalized offer, including its unique instance ID and personalized offer `@id`.
+A successful response returns the updated details of the personalized-offer, including `id`.
 
 ```json
 {

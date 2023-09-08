@@ -17,8 +17,7 @@ The following table shows the valid values which comprise the *Content-Type* and
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/json` |
 
 **API format**
 
@@ -66,7 +65,7 @@ curl -X POST \
 
 **Response**
 
-A successful response returns information on the newly created decision, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your decision.
+A successful response returns information on the newly created decision, including its unique `id`. You can use `id` in later steps to update or delete your decision.
 
 ```json
 {
