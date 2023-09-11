@@ -29,6 +29,7 @@ solution: Journey Optimizer
   + [Accessibility](using/start/accessibility.md)
   + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
+  + [Best practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
   + [Get started with journeys](using/building-journeys/journey.md)
   + Create a journey{#create-journey}
