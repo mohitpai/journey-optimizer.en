@@ -93,7 +93,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Information has been added on custom authentication endpoints in the capping documentation. [Read more](../configuration/external-systems.md)
 * A new custom authentication example has been added in the external datasources section. [Read more](../datasource/external-data-sources.md#custom-authentication-mode)
 * A note has been added about Data Collection Core Service (DCCS) for event-triggered journeys. [Read more](../start/guardrails.md#events-g)
-* A note on identity namespace retrieval has been added in the [Read audience](../building-journeys/read-audience.md), [Segment qualification](../building-journeys/segment-qualification-events.md) and [Event creation](../event/about-creating.md) sections.
+* A note on identity namespace retrieval has been added in the [Read audience](../building-journeys/read-audience.md), [Audience qualification](../building-journeys/audience-qualification-events.md) and [Event creation](../event/about-creating.md) sections.
 * Accessibility features in [!DNL Journey Optimizer] are now grouped in a dedicated page. [Read more](../start/accessibility.md)
 * The examples have been updated in the Operators section of the advanced expression editor documentation. [Read more](../building-journeys/expression/operators.md)
 * A note has been added about the limitation on lookup with array of objects. [Read more](../event/experience-event-schema.md#relationships_limitations)
