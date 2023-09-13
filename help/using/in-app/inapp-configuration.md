@@ -30,20 +30,47 @@ Before sending In-app messages, you need to configure your In-app channel in [!D
     >
     > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
 
-    >[!NOTE]
-    >
-    > You need the **Manage app configuration** permission to have access to the **[!UICONTROL App surfaces]** menu. For more information, refer to [this video](#video).
-
     ![](assets/inapp_config_1.png)
 
 1. Add a name to your **[!UICONTROL App surface]**.
 
+    ![](assets/inapp_config_2b.png)
 
-1. From the Apple iOS drop-down, type-in your **iOS Bundle ID**. Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on **Bundle ID**.
+1. From the **[!UICONTROL Apple iOS]** drop-down, configure your mobile application for Apple iOS.
 
-    ![](assets/inapp_config_2.png)
+    +++ Learn more
+    
+    1. Type-in your **[!UICONTROL iOS Bundle ID]**. Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on **Bundle ID**.
 
-1. From the Android drop-down, type-in your **Android package name**. Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) for more information on **Package name**.
+    1. (optional) Choose the **[!UICONTROL Sandbox]** where you want to send push notifications from. Note that choosing a specific Sandbox requires the necessary access permissions.
+
+        For more information on sandbox management, refer to [this page](../administration/sandboxes.md#assign-sandboxes).
+
+    1. Enable the **[!UICONTROL Push credentials]** option to drag and drop your .p8 auth key file if needed.
+
+        You can also enable the **[!UICONTROL Manually enter push credentials]** option to copy and paste your APNs auth key directly.
+
+    1. Enter your **[!UICONTROL Key ID]** and **[!UICONTROL Team ID]**.
+
+        ![](assets/inapp_config_2.png)
+
+    +++
+
+1. From the **[!UICONTROL Android]** drop-down, configure your mobile application for Android.
+
+    +++ Learn more
+
+    1. Type-in your **[!UICONTROL Android package name]**. Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) for more information on **Package name**.
+
+    1. (optional) Choose the **[!UICONTROL Sandbox]** where you want to send push notifications from. Note that choosing a specific Sandbox requires the necessary access permissions.
+
+        For more information on sandbox management, refer to [this page](../administration/sandboxes.md#assign-sandboxes).
+
+    1. Enable the **[!UICONTROL Push credentials]** option to drag and drop your .json private key file if needed.
+
+        You can also enable the **[!UICONTROL Manually enter push credentials]** option to copy and paste your FCM private key directly.
+
+        ![](assets/inapp_config_7.png)
 
 1. Click **[!UICONTROL Save]** when you finished the configuration of your **[!UICONTROL App surface]**.
 
