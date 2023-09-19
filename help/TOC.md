@@ -223,12 +223,17 @@ solution: Journey Optimizer
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)
   + [Test & send a direct mail message](using/direct-mail/test-send-direct-mail.md)
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
-+ Web channel{#web}
++ Web channel {#web}
   + [Get started with web channel](using/web/get-started-web.md)
   + [Web channel prerequisites](using/web/web-prerequisites.md)
   + [Create web experiences](using/web/create-web.md)
   + [Author web pages](using/web/author-web.md)
   + [Configure web subdomains](using/web/web-delegated-subdomains.md)
++ Code-based experience {#code-based-experience}
+  + [Get started with code-based channel](using/code-based/get-started-code-based.md)
+  + [Code-based prerequisites](using/code-based/code-based-prerequisites.md)
+  + [Code-based implementation samples](using/code-based/code-based-implementation-samples.md)
+  + [Create code-based experiences](using/code-based/create-code-based.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](using/landing-pages/get-started-lp.md)
   + [Create a landing page](using/landing-pages/create-lp.md)
@@ -420,6 +425,17 @@ solution: Journey Optimizer
         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ Experience Decisioning {#experience-decisioning}
+  + [Get started with Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+  + Manage your decision items {#decision-items}
+    + [Configure the items catalog](using/experience-decisioning/catalogs.md)
+    + [Create decision items](using/experience-decisioning/items.md)
+    + [Manage items collections](using/experience-decisioning/collections.md)
+  + Configure items' selection {#selection}
+    + [Create decision rules](using/experience-decisioning/rules.md)
+    + [Create ranking methods](using/experience-decisioning/ranking.md)
+  + [Create selection strategies](using/experience-decisioning/selection-strategies.md)
+  + [Create decision policies](using/experience-decisioning/create-decision.md)
 + Data management {#data-management}
   + [Get started with data management](using/data/gs-data.md)
   + [Work with schemas](using/data/get-started-schemas.md)
