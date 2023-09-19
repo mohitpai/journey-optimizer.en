@@ -34,7 +34,7 @@ For instance, let's consider a scenario where you have decision items featuring 
 
 The list of decision rules is accessible in the **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** menu.
 
-![](assets/decision-rules-list.png)
+<!--![](assets/decision-rules-list.png)-->
 
 >[!IMPORTANT]
 >
