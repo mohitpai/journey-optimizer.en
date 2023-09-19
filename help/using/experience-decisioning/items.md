@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-
+badge: label="Beta" 
 ---
 # Decision items {#items}
 

@@ -7,7 +7,7 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-
+badge: label="Beta" 
 ---
 # Create code-based experiences {#create-code-based}
 

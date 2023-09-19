@@ -7,7 +7,7 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-
+badge: label="Beta" 
 ---
 # Get started with code-based channel {#get-sarted-code-based}
 

@@ -7,7 +7,7 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-
+badge: label="Beta" 
 ---
 # Code-based implementation methods samples {#implementation-samples}
 
