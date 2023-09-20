@@ -254,30 +254,28 @@ solution: Journey Optimizer
     + [Get started with the Content assistant](using/content-management/gs-generative.md)
     + [Content generation](using/content-management/generative-content.md)
     + [Image generation](using/content-management/generative-image.md)
-+ Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization contexts](using/personalization/personalization-contexts.md)
-    + Build expressions {#build-expressions}
-      + [Personalization syntax](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-        + [Work with saved expressions](using/personalization/personalization-library.md)  
-        + [Personalization validation](using/personalization/personalization-validation.md)
-      + Helper functions{#functions}
-        + [Get started with helper functions](using/personalization/functions/functions.md)
-        + [Aggregation functions](using/personalization/functions/aggregation.md)
-        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-        + [Date functions](using/personalization/functions/dates.md)
-        + [Boolean and comparison functions](using/personalization/functions/operators.md)
-        + [Helpers](using/personalization/functions/helpers.md)
-        + [Map functions](using/personalization/functions/maps.md)
-        + [Math functions](using/personalization/functions/math.md)
-        + [Object functions](using/personalization/functions/objects.md)
-        + [String functions](using/personalization/functions/string.md) 
-    + Use cases{#personalization-use-cases}    
+    + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression Editor {#expression-editor}
+      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Work with saved expressions](using/personalization/personalization-library.md)  
+      + [Personalization validation](using/personalization/personalization-validation.md)
+    + Helper functions{#functions}
+      + [Get started with helper functions](using/personalization/functions/functions.md)
+      + [Aggregation functions](using/personalization/functions/aggregation.md)
+      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+      + [Date functions](using/personalization/functions/dates.md)
+      + [Boolean and comparison functions](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Map functions](using/personalization/functions/maps.md)
+      + [Math functions](using/personalization/functions/math.md)
+      + [Object functions](using/personalization/functions/objects.md)
+      + [String functions](using/personalization/functions/string.md) 
+    + Personalization use cases{#personalization-use-cases}    
       + [Order status notification](using/personalization/personalization-use-case.md)
       + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Dynamic content {#dynamic}
