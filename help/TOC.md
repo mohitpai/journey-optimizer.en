@@ -452,6 +452,7 @@ solution: Journey Optimizer
     + [Add a Google TXT record](using/configuration/google-txt.md)
     + [Access and edit PTR records](using/configuration/ptr-records.md)
     + [Create IP pools](using/configuration/ip-pools.md)
+  + [Implement an IP warmup plan](using/configuration/ip-warmup.md)
   + Monitor email addresses {#monitor-reputation}  
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)
