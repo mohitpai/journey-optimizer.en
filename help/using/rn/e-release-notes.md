@@ -20,6 +20,7 @@ Early release notes below are subject to change without prior notice until the r
 
 This release brings the new capabilities listed below.
 
+
 <table>
 <thead>
 <tr>
@@ -29,7 +30,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level. To access the 'Report' menu, you must have the **View Channel Reports** permission.</p>
+<p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level. To access the 'Report' menu, you must have the 'View Channel Reports' permission.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -46,7 +47,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer datasets export to Cloud Storage Destinations is now general available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
+<p>Journey Optimizer datasets export to Cloud Storage Destinations is now generally available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -54,6 +55,20 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Per-Sandbox mobile application credentials storage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
+<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Improvements {#sept-2023-improvements}
 
@@ -62,7 +77,7 @@ This release comes with the improvements listed below.
 **Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * You can now target audiences resulting from composition workflows into journeys. 
 
 **Personalization**
@@ -72,7 +87,7 @@ This release comes with the improvements listed below.
 
 **Alerting**
 
-A new type of system alert has been introduced. You can now get notified when a read segment fails.    
+* Two new types of system alerts have been introduced. You can now get notified when a custom action or read segment fails.
 
 **Web channel**
 
@@ -82,14 +97,14 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **Journeys**
 
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* The custom action response capabilities are now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * When duplicating a journey, you can now define the name of the journey copy.
-
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 
 **Email channel**
 
 A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.    
 
-**Decision management**
+<!--**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
