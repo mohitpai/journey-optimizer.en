@@ -13,6 +13,12 @@ hidefromtoc: yes
 ---
 # Get started with the Content assistant {#gs-content-assistant}
 
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="Create the email content"
+>abstract="Adobe Journey Optimier Content assistant brings proactive content variation suggestions for text and images. It is available for email, Push, SMS, and Web channels. This new capability provides a prompt based text and image generation."
+
+
 >[!BEGINSHADEBOX]
 
 **Table of content**
