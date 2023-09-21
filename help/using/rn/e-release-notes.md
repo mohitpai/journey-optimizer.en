@@ -61,7 +61,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer datasets export to Cloud Storage Destinations is now general available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
+<p>Journey Optimizer datasets export to Cloud Storage Destinations is now generally available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
