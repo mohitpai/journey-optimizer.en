@@ -53,25 +53,29 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     * You cannot select a campaign that is already in use in another IP warmup campaign.
 
-1. For each phase, the following applies:
+1. In the **[!UICONTROL Profile exclusion]** section, you can see that the profiles from the previous runs of that phase are always excluded. For example, if in Run #1 a profile got covered in the first 4800 people being targeted, the system will automatically ensure that the same profile doesn't receive the email in Run #2.
 
-    * **[!UICONTROL Profile exclusion]** - The profiles from the previous runs of that phase are always excluded. For example, if on run #1 Leo got covered in the first 6300 people being targeted, the system will automatically ensure that Leo doesn't get the mail in run #2.
+1. From the **[!UICONTROL Campaign audiences excluded]** section, select the audiences from other <!--executed/live?-->campaigns that you want to exclude from the current phase.
 
-    * **[!UICONTROL Campaign audiences excluded]** - Select the audiences from other <!--executed/live?-->campaigns that you want to exclude from the current phase.
+    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-        For example, you may be executing a phase and had to split it for any reason. In such a case, in phase 2, you would like to include the campaign used in phase 1 in this section so that in phase 2, previously contacted people from phase 1 are not included. This can be done not just with campaigns used in same IP warmup plan but also from another IP warmup plan too.
+    For example, while executing Phase 1, you had to [split it](#split-phase) for any reason. Therefore, you can exclude the campaign used in Phase 1 so that previously contacted profiles from Phase 1 are not included in Phase 2. You can also exclude campaigns from other IP warmup plans.
 
-    * **[!UICONTROL Domains groups excluded]** - Select the domains you want to exclude from that phase, for example Gmail. <!--??-->
+1. From the **[!UICONTROL Domains groups excluded]** section, select the domains you want to exclude from that phase.
 
-        After running IP warmup for some days, you realize that ISP reputation with a domain say hotmail is not good and you wish to resolve it with ISP but do not wish to stop IP warmup plan. In such a case, you may put the domain group hotmail in excluded category.
+    ![](assets/ip-warmup-plan-exclude-domains.png)
 
-        >[!NOTE]
-        >
-        >Domain exclusion requires a non-executed phase so you may have to split a running phase to add excclusions. Similarly, if domain group is not an OOTB domain group, then you may have to create domain group in Excel and upload and then exclude the same.
+    For example, after running IP warmup for some days, you realize that ISP reputation with a domain (i.e. Adobe) is not good and you wish to resolve it without stopping your IP warmup plan. In such a case, you can exclude the Adobe domain group.
+
+    >[!NOTE]
+    >
+    >Domain exclusion requires a non-executed phase, so you may have to split a running phase to add exclusions. Similarly, if domain group is not an OOTB domain group, you need to add this domain group to the Excel file, upload it and then exclude the domain.
 
     ![](assets/ip-warmup-plan-phase-1.png)
 
-1. You can add a phase if needed - it will be added after the last current phase. Use the **[!UICONTROL Delete phase]** button to remove any unwanted phase.
+1. You can add a phase if needed. It will be added after the last current phase.
+
+1. Use the **[!UICONTROL Delete phase]** button to remove any unwanted phase.
 
     ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -87,7 +91,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-send-time.png)
 
-1. Select an end time, which basically means the window within which we can execute warmup campaign in case there is any delays in audience job. If not specified, we will attempt at start time and fail. If end time is provided, we will execute the run between that window.
+1. Select an end time, which defines the window within which the IP warmup campaign can be executed in case there is any delays in audience segmentation job execution. If no end time is specified, the execution is attempted at the start time and will fail if the segmentation was not completed.
 
 1. Activate each run. Make sure you schedule a time early enough to allow for the segmentation job to be run. <!--explain how you can evaluate a proper time-->
 
@@ -95,11 +99,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
     >
     >Each run must be activated at least 12 hours before the actual send time. Otherwise, segmentation may not be completed. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+    <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. If the campaign execution has not started, you can stop a run.<!--why?-->
 
-    Once the campaign execution has started, the **[!UICONTROL Stop]** button becomes unavailable. <!--TBC in UI-->
+    >[!NOTE]
+    >
+    >Once the campaign execution has started, the **[!UICONTROL Stop]** button becomes unavailable. <!--TBC in UI-->
 
     ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -107,9 +113,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. At any point, if you want to use a different campaign starting from a specific run, select the **[!UICONTROL Split to a new phase option]** from the three dots icon. A new phase is created for the remaining runs of the current phase. Follow the steps [above](#define-phases) to define the new phase.
+## Split a phase {#split-phase}
 
-    For example, if you select this option for run #4, runs #4 to #8 will be moved to a new phase.
+At any point, if you want to use a different campaign starting from a specific run, select the **[!UICONTROL Split to a new phase option]** from the three dots icon.
+
+A new phase is created for the remaining runs of the current phase. Follow the steps [above](#define-phases) to define the new phase.
+
+For example, if you select this option for Run #4, Runs #4 to #8 will be moved to a new phase.
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.

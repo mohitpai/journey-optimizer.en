@@ -62,14 +62,11 @@ Once you [created one or more campaigns](ip-warmup-campaign.md) with a dedicated
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Set up channel surfaces"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Create IP warmup campaigns"
 
->[!CAUTION]
->
->To create, edit and delete the IP warmup plans, you must have the **[!UICONTROL Deliverability Consultant]** permission.
-<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
-
 When one or more live campaigns with the **[!UICONTROL IP warmup plan activation]** option enabled are activated, you can associate them with an IP warmup plan.
 
 >[!CAUTION]
+>
+>To create, edit and delete the IP warmup plans, you must have the **[!UICONTROL Deliverability Consultant]** permission. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 >
 >Work with your deliverability consultant to make sure your IP warmup plan template is correctly set up. <!--TBC-->
 
