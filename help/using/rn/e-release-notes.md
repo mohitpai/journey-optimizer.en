@@ -74,10 +74,10 @@ This release brings the new capabilities listed below.
 
 This release comes with the improvements listed below.
 
-**Audiences**
+<!--**Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-<!--* You can now target audiences resulting from composition workflows into journeys. -->
+* You can now target audiences resulting from composition workflows into journeys. -->
 
 **Personalization**
 
