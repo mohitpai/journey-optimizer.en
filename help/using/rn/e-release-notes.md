@@ -77,7 +77,7 @@ This release comes with the improvements listed below.
 **Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * You can now target audiences resulting from composition workflows into journeys. 
 
 **Personalization**
@@ -105,6 +105,6 @@ This release comes with the improvements listed below.
 
 A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.    
 
-**Decision management**
+<!--**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
