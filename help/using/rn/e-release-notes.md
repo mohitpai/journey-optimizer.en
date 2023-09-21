@@ -77,8 +77,7 @@ This release comes with the improvements listed below.
 **Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
-* You can now target audiences resulting from composition workflows into journeys. 
+<!--* You can now target audiences resulting from composition workflows into journeys. -->
 
 **Personalization**
 
