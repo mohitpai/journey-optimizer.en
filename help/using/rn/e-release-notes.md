@@ -20,20 +20,6 @@ Early release notes below are subject to change without prior notice until the r
 
 This release brings the new capabilities listed below.
 
-<table>
-<thead>
-<tr>
-<th><strong>Per-Sandbox mobile application credentials storage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
-<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -69,6 +55,20 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Per-Sandbox mobile application credentials storage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
+<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Improvements {#sept-2023-improvements}
 
