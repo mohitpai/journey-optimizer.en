@@ -40,7 +40,7 @@ This release brings the new capabilities listed below.
 <table>
 <thead>
 <tr>
-<th><strong>Dataset Export Generation (GA)</strong><br/></th>
+<th><strong>Dataset Export Destinations (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
