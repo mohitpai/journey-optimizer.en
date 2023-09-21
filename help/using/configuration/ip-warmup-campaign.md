@@ -38,7 +38,7 @@ To create an IP warmup campaign, follow the steps below.
 
     >[!NOTE]
     >
-    >Learn how to select the domain and IPs to use in an email surface in [this section](using/email/email-settings.md#subdomains-and-ip-pools).
+    >Learn how to select the domain and IPs to use in an email surface in [this section](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Create a [campaign](../campaigns/create-campaign.md) and select the [Email](../email/create-email.md#create-email-journey-campaign) action.
 
@@ -63,4 +63,6 @@ To create an IP warmup campaign, follow the steps below.
 >For a live campaign with IP warmup plan activated, the **[!UICONTROL Delete]** button is available until it is associated with an IP warmup plan.
 
 For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?>
 
