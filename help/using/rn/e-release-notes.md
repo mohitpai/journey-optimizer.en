@@ -30,7 +30,7 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level. To access the 'Report' menu, you must have the **View Channel Reports** permission.</p>
-<!--img src="assets/in_app_journey_1.png"/>
+<img src="assets/channel-reports.png"/>
 <p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
