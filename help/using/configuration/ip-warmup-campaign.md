@@ -64,5 +64,5 @@ To create an IP warmup campaign, follow the steps below.
 
 For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?>
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
