@@ -68,4 +68,4 @@ The key steps to implement an IP warmup plan are as follows:
 
 1. Create an IP warmup plan and upload your plan. [Learn more](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Adjust each phase of your plan and activate the runs. [Learn more](ip-warmup-running.md)
+1. Select a campaign for each phase of your plan and activate the corresponding runs. [Learn more](ip-warmup-running.md)

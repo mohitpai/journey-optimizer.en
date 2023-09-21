@@ -25,6 +25,8 @@ What you'll find in this documentation guide:
 
 >[!ENDSHADEBOX]
 
+Once you [created one or more campaigns](ip-warmup-campaign.md) with a dedicated surface and the IP warmup option enabled, you can start creating your IP warmup plan.
+
 ## Access and manage IP warmup plans {#manage-ip-warmup-plans}
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** menu. All the IP warmup plans created so far are displayed.
