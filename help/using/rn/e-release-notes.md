@@ -23,6 +23,21 @@ This release brings the new capabilities listed below.
 <table>
 <thead>
 <tr>
+<th><strong>Per-Sandbox mobile application credentials storage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
+<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Consolidated Channel Reports</strong><br/></th>
 </tr>
 </thead>
@@ -72,7 +87,7 @@ This release comes with the improvements listed below.
 
 **Alerting**
 
-A new type of system alert has been introduced. You can now get notified when a read segment fails.    
+* Two new types of system alerts have been introduced. You can now get notified when a custom action or read segment fails.
 
 **Web channel**
 
@@ -82,9 +97,9 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **Journeys**
 
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* The custom action response capabilities are now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s.
 * When duplicating a journey, you can now define the name of the journey copy.
-
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 
 **Email channel**
 
