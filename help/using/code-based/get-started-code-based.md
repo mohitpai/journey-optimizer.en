@@ -162,10 +162,10 @@ The table below lists some surface URI definition examples for various devices.
 | Web | web://domain.com/*#element | Wildcard surface - represents an individual element in each of the pages under a specific domain. |
 | Desktop | desktop://com.vendor.bundle | Represents a specific desktop application. |
 | Desktop | desktop://com.vendor.bundle#element | Represents a specific element within an application, such as a button, menu, hero banner, etc. |
-| iOS app | ios://com.vendor.bundle | Represents a specific mobile application for a single platform - in this case iOS app. |
-| iOS app | ios://com.vendor.bundle/activity | Represents a specific activity (view) within a mobile application. |
-| iOS app | ios://com.vendor.bundle/activity#element | Represents a specific element within an activity, such as a button or other view element. |
-| Android app | android://com.vendor.bundle | Represents a specific mobile application for a single platform - in this case Android app. |
+| iOS app | mobileapp://com.vendor.bundle | Represents a specific mobile application for a single platform - in this case iOS app. |
+| iOS app | mobileapp://com.vendor.bundle/activity | Represents a specific activity (view) within a mobile application. |
+| iOS app | mobileapp://com.vendor.bundle/activity#element | Represents a specific element within an activity, such as a button or other view element. |
+| Android app | mobileapp://com.vendor.bundle | Represents a specific mobile application for a single platform - in this case Android app. |
 | tvOS app | tvos://com.vendor.bundle | Represents a specific tvOS app. |
 | TV app | tvcd://com.vendor.bundle | Represents a specific smart TV or TV connected device app - bundle ID. |
 | Service | service://servicename | Represents a server-side process or other manual entity. |

@@ -54,7 +54,7 @@ To start building your code-based experience through a campaign, follow the step
     >
     >For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
-1. Edit your content as desired using the [code-based editor](#edit-code).
+1. Edit your content as desired using the Expression editor. [Learn more](#edit-code)
 
     ![](assets/code-based-campaign-edit-content.png)
 
