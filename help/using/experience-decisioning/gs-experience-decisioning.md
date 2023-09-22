@@ -60,5 +60,3 @@ The main steps to work with Experience Decisioning are as follows:
 1. **Create selection strategies**: Build selection strategies that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles.
 
 1. **Embed a decision policy into your code-based campaign**: Decision policies combine multiple selection strategies to determine the eligible decision items to display to the intended audience.
-
-<!--## Glossary-->
