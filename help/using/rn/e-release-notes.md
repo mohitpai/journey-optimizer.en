@@ -104,9 +104,9 @@ This release comes with the improvements listed below.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
-**Email channel**
+**SMS channel**
 
-A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.   
+Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider.
 
 **Reporting**
 
