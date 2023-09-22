@@ -103,7 +103,11 @@ This release comes with the improvements listed below.
 
 **Email channel**
 
-A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.    
+A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.   
+
+**Reporting**
+
+You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
