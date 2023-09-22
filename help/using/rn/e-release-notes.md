@@ -86,7 +86,7 @@ This release comes with the improvements listed below.
 
 **Alerting**
 
-* Two new types of system alerts have been introduced. You can now get notified when a custom action or read segment fails.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.
 
 **Web channel**
 
@@ -97,9 +97,12 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-* The custom action response capabilities are now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * When duplicating a journey, you can now define the name of the journey copy.
+
+<!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **Email channel**
 
