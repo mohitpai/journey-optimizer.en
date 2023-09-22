@@ -108,6 +108,10 @@ This release comes with the improvements listed below.
 
 A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.   
 
+**SMS channel**
+
+Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider.
+
 **Reporting**
 
 You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
