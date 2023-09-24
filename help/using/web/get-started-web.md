@@ -42,11 +42,11 @@ Discover the detailed steps to create a web campaign in [this video](create-web.
 </div>
 <p></td>
 <td>
-<a href="author-web.md">
+<a href="edit-web-content.md">
 <img alt="Validation" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="author-web.md"><strong>Author web pages</strong></a>
+<a href="edit-web-content.md"><strong>Author web pages</strong></a>
 </div>
 <p>
 </td>
