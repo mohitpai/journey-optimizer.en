@@ -1,5 +1,5 @@
 ---
-title: Author web pages
+title: Edit web content
 description: Learn how to author a web page and edit its content in Journey Optimizer
 feature: Web Channel
 topic: Content Management
@@ -8,9 +8,11 @@ level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 
 ---
-# Author web pages {#author-web}
+# Edit web content {#edit-web-content}
 
-Once you [added a web action](create-web.md#create-web-campaign) to your campaign, you can edit the content of your site using the web designer. 
+Once you [added a web action](create-web.md#create-web-campaign) to your campaign, you can edit the content of your site using the web designer.
+
+[Learn how to author a web campaign in this video](#video)
 
 In [!DNL Journey Optimizer], web authoring is powered by the **Adobe Experience Cloud Visual Helper** chrome browser extension. [Learn more](web-prerequisites.md#visual-authoring-prerequisites)
 
@@ -18,9 +20,13 @@ In [!DNL Journey Optimizer], web authoring is powered by the **Adobe Experience 
 >
 >To be able to access and author web pages in the [!DNL Journey Optimizer] user interface, make sure you follow the prerequisites listed in [this section](web-prerequisites.md).
 
-[Learn how to author a web campaign in this video](#video)
+Access the following sections to learn more on each topic:
 
-## Edit web page content {#edit-web-content}
+* [Manage modifications](manage-web-modifications.md)
+
+* [Monitor your web campaigns](monitor-web-campaigns.md)
+
+## Work with the web designer {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -125,70 +131,9 @@ Use the **[!UICONTROL Offer decision]** component to insert [offers](../offers/g
 
 ![](assets/web-designer-offer.png)
 
-## Manage modifications {#manage-modifications}
-
->[!CONTEXTUALHELP]
->id="ajo_web_designer_modifications"
->title="Easily manage all your changes"
->abstract="Using this pane, you can navigate through and manage all the adjustments and styles you added to your web page."
-
-You can easily manage all the components, adjustments and styles you added to your web page.
-
-1. Select the **[!UICONTROL Modifications]** icon to display the corresponding pane on the left.
-
-    ![](assets/web-designer-modifications-pane.png)
-
-1. You can review each of the changes you made to the page.
-
-1. Select an unwanted modification and click the delete icon to remove it.
-
-    ![](assets/web-designer-modifications-delete.png)
-
-    >[!CAUTION]
-    >
-    >Proceed with care when deleting an action as it may impact subsequent actions.
-
-1. Use the **[!UICONTROL More actions]** button on top of the **[!UICONTROL Modifications]** pane to delete all modifications at once.
-
-    ![](assets/web-designer-delete-modifications.png)
-
-1. From the **[!UICONTROL More actions]** menu you can also delete only the invalid modifications, meaning the changes that were overriden by other changes. For example, if you modify the color of a text and then you delete that text, the color modification becomes invalid as the text does not exist anymore.
-
-1. You can also cancel and redo actions using the **[!UICONTROL Undo/Redo]** button on top right of the screen.
-
-    ![](assets/web-designer-undo-redo.png)
-
-    Click and hold the button to switch between the **[!UICONTROL Undo]** and **[!UICONTROL Redo]** options. Then click the button itself to apply the desired action.
-
-## Use click tracking {#use-click-tracing}
-
-This ability in the web designer allows you to select any element of your website and track the clicks on that element.
-
-Once your campaign is live, you can check the number of clicks for each element in the campaign web report. This information can be useful to improve your website users' experience. For example, if the [web reports](../reports/campaign-global-report.md#web-tab) show that many users click an element that is not actually clickable, you may want to add a link to that element.
-
-1. Select an element in your page and choose **[!UICONTROL Click track element]** from the contextual menu.
-
-    ![](assets/web-designer-click-track.png)
-    
-    >[!NOTE]
-    >
-    >Any item, clickable or not, can be selected.
-
-1. The corresponding tracked action automatically displays in the **[!UICONTROL Click track]** pane on the left. 
-
-    ![](assets/web-designer-click-track-pane.png)
-
-1. Add a meaningful label to manage all your tracked elements and find them easily in the reports. The **[!UICONTROL CSS selector]** field shows information to locate the selected element.
-
-1. Repeat the steps above to select as many other elements as you need for click tracking. The corresponding actions are all listed on the left pane.
-
-    ![](assets/web-designer-click-tracking-actions.png)
-
-1. To remove click tracking on an element, select the corresponding delete icon.
-
-Once your campaign is active, you can check the campaign report **[!UICONTROL Web]** tab to compare the number of impressions, click rate and number of clicks by element. [Learn more](../reports/campaign-global-report.md#web-tab)
-
 ## Navigate through the web designer {#navigate-web-designer}
+
+This section details the different ways you can navigate through the web designer. To view and manage the modifications added to your web experience, see [this section](manage-web-modifications.md).
 
 ### Use breadcrumbs {#breadcrumbs}
 
@@ -232,36 +177,6 @@ The ability to change the device size is designed for responsive sites that rend
 >You can edit a web experience with a specific device size. However, as long as the selectors are the same, these changes apply to all sizes and devices, not just the device size that you're working in. Similarly, editing an experience in the normal desktop view applies the changes to all screen sizes, not just the desktop view.
 >
 >Currently, [!DNL Journey Optimizer] does not support device size-specific page changes. This means that for example if you have a separate mobile website with a separate site structure, you should make the changes specific to your mobile site in a different campaign.
-
-## Test the web campaign {#test-web-campaign}
-
->[!CONTEXTUALHELP]
->id="ajo_web_designer_preview"
->title="Preview your web experience"
->abstract="Get a simulation of what your web experience will look like."
-
-To display a preview of your modified web experience, follow the steps below.
-
->[!CAUTION]
->
->You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../audience/creating-test-profiles.md).
-
-1. From either the web campaign edit content screen, select **[!UICONTROL Simulate content]**.
-
-    <!--![](assets/web-designer-simulate.png)-->
-
-    ![](assets/web-campaign-simulate.png)
-
-1. Click **[!UICONTROL Manage test profiles]** to select one or more test profiles.
-1. A preview of your modified web page is displayed.
-
-    ![](assets/web-designer-preview.png)
-
-1. You can also open it in the default browser, or copy the test URL to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
-
-    >[!NOTE]
-    >
-    >When copying the test URL, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].
 
 ## How-to video{#video}
 
