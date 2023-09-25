@@ -14,7 +14,7 @@ keywords: product, profiles, sandbox
 
 >[!IMPORTANT]
 >
-> Each of the procedures detailed below can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator. For more information on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Each of the procedures detailed below can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator.
 
 **[!UICONTROL Roles]** refer to a collection of users who share the same permissions and sandboxes. These roles allow you to easily manage access and permissions for different groups of users within your organization.
 
@@ -42,13 +42,13 @@ To assign a **[!UICONTROL Role]**:
 
 1. Type in your user's name or email address or select the user fom the list and click **[!UICONTROL Save]**.
 
-   If the user was not previously created in the [!DNL Admin Console], refer to the [Add users documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   If the user was not previously created in the [!DNL Admin Console], refer to the [Add users documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
     ![](assets/do-not-localize/access_control_4.png)
 
 Your user should then receive an email redirecting to your instance.
 
-For more information on users management, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+For more information on users management, refer to the [Access control documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
 
 When accessing the instance, your user will see a specific view depending on the assigned permissions in the **[!UICONTROL Role]**. If the user does not have the right access to a feature, the following message will appear: 
 
