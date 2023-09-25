@@ -118,7 +118,7 @@ Two new fields, **Opt-in message** and **Help message**, have been added to the 
 
 **Reporting**
 
-You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
+You can now export Journey Optimizer reports as CSV file. <!--[Learn more](../reports/global-report.md#export-reports)-->
 
 <!--**Decision management**
 
