@@ -459,7 +459,7 @@ solution: Journey Optimizer
     + [Get started with IP warmup plans](using/configuration/ip-warmup-gs.md)
     + [Create IP warmup campaigns](using/configuration/ip-warmup-campaign.md)
     + [Create an an IP warmup plan](using/configuration/ip-warmup-plan.md)
-    + [Run the IP warmup plan](using/configuration/ip-warmup-running.md)
+    + [Run the IP warmup plan](using/configuration/ip-warmup-execution.md)
   + Monitor email addresses {#monitor-reputation}  
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)

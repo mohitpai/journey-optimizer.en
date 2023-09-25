@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pools, group, subdomains, deliverability
+keywords: IP, deliverability
 hide: yes
 hidefromtoc: yes
 
@@ -28,7 +28,7 @@ What you'll find in this documentation guide:
 * **[Get started with IP warmup](ip-warmup-gs.md)**
 * [Create IP warmup campaigns](ip-warmup-campaign.md)
 * [Create an IP warmup plan](ip-warmup-plan.md)
-* [Run the IP warmup plan](ip-warmup-running.md)
+* [Execute the IP warmup plan](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ With [!DNL Journey Optimizer], you can easily perform IP warmup workflows direct
 
 When emails are sent using a new platform, Internet service providers (ISPs) are suspicious of IP addresses that are not recognized. If large volumes of emails are suddenly sent, the ISPs often mark them as spam.
 
-To avoid being marked as spam, you can progressively increase the volume sent using IP warmup plan feature. A new option in the **[!UICONTROL Administration]** menu allows you to do it more smoothly instead of creating complex daily journeys. This should ensure smooth development of the start-up phase and enable you to reduce the overall rate of invalid addresses.
+To avoid being marked as spam, you can progressively increase the volume sent using the IP warmup plan feature. This new option in the **[!UICONTROL Administration]** menu allows you to do it more easily in a consolidated way instead of creating complex daily journeys. This should ensure smooth development of the start-up phase and enable you to reduce the overall rate of invalid addresses.
 
 >[!NOTE]
 >
@@ -64,8 +64,8 @@ Benefits
 
 The key steps to implement an IP warmup plan are as follows:
 
-1. You first need to create one or more campaigns with the IP warmup option enabled. [Learn more](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. You first need to create one or more campaigns with the IP warmup option enabled. [Learn more](ip-warmup-campaign.md)
 
-1. Create an IP warmup plan in [!DNL Journey Optimizer] and upload the Excel sheet previously filled in with your IP warmup data. [Learn more](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Create an IP warmup plan in [!DNL Journey Optimizer] and upload the Excel sheet prepared with the help of your deliverability consultant. [Learn more](ip-warmup-plan.md)
 
-1. Select a campaign for each phase of your plan and activate the corresponding runs. [Learn more](ip-warmup-running.md)
+1. Select a campaign for each phase of your plan and activate the corresponding runs. [Learn more](ip-warmup-execution.md)

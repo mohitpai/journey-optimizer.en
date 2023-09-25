@@ -6,8 +6,8 @@ description: Learn how to create an IP warmup campaign
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, pools, group, subdomains, deliverability
+level: Intermediate
+keywords: IP, pools, deliverability
 hide: yes
 hidefromtoc: yes
 
@@ -17,7 +17,7 @@ hidefromtoc: yes
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Activate the IP warmup plan option"
->abstract="Select the IP warmup plan activation option. Once the campaign is live, it can be associated with an IP warmup plan."
+>abstract="When you select this option, the campaign can be used in an IP warmup plan. The campaign schedule will then be driven by the IP warmup plan it is associated with."
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +26,7 @@ What you'll find in this documentation guide:
 * [Get started with IP warmup](ip-warmup-gs.md)
 * **[Create IP warmup campaigns](ip-warmup-campaign.md)**
 * [Create an IP warmup plan](ip-warmup-plan.md)
-* [Run the IP warmup plan](ip-warmup-running.md)
+* [Execute the IP warmup plan](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ To create an IP warmup campaign, follow the steps below.
     >
     >Learn how to select the domain and IPs to use in an email surface in [this section](../email/email-settings.md#subdomains-and-ip-pools).
     >
-    >If needed, work with your deliverability consultant to identify the domain and IPs to be used for your IP warmup plan.<!--TBC-->
+    >Work with your deliverability consultant to identify the domain and IPs to be used for your IP warmup plan.<!--TBC-->
 
 1. Create a [campaign](../campaigns/create-campaign.md) and select the [Email](../email/create-email.md#create-email-journey-campaign) action.
 
@@ -68,9 +68,9 @@ To create an IP warmup campaign, follow the steps below.
 
     >[!NOTE]
     >
-    >For a live campaign with IP warmup plan activated, the **[!UICONTROL Delete]** button is available until it is associated with an IP warmup plan. Once used in an IP warmup plan, the campaign cannot be deleted anymore.
+    >For a live campaign with IP warmup plan activated, the **[!UICONTROL Delete]** button is available until it is associated with an IP warmup plan. Once used in a plan, the campaign cannot be deleted anymore.
 
-1. The campaign is displayed in the **[!UICONTROL Campaigns]** list. To easily retrieve all the IP warmup campaigns created on the current sandbox, you can filter on the campaign option **[!UICONTROL IP warmup]**.
+1. The campaign is displayed in the **[!UICONTROL Campaigns]** list. To easily retrieve all the IP warmup campaigns created on the current sandbox, you can filter on the **[!UICONTROL IP warmup]** campaign option.
 
     ![](assets/ip-warmup-campaign-filter.png)
 

@@ -90,7 +90,7 @@ This release comes with the improvements listed below.
 
 **Web channel**
 
-* Single-page applications (SPAs) can be now authored in the web designer visual editor. You can now select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation; this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs.
+* Single-page applications (SPAs) can be now authored in the web designer visual editor, which allows you to select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. To create and run Adobe Journey Optimizer web campaigns on SPAs, one-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation.
 
 * When editing a page using the web designer, you can now add new changes to your content directly from the **Modifications** pane - without the need to select a component and edit it from the designer interface.
 * When setting up web subdomains, you now have the option of adding you own subdomain - in addition to using a subdomain already delegated to Adobe.    
