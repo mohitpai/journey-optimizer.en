@@ -25,7 +25,57 @@ What you'll find in this documentation guide:
 
 >[!ENDSHADEBOX]
 
-Once you [created one or more campaigns](ip-warmup-campaign.md) with a dedicated surface and the IP warmup option enabled, you can start creating your IP warmup plan.
+Once you created one or more [IP warmup campaigns](ip-warmup-campaign.md) with a dedicated surface and the corresponding option enabled, you can start creating your IP warmup plan.
+
+## Fill in the IP warmup template {#upload-plan}
+
+Before being able to create an IP warmup plan in the Journey Optimizer interface, you need to fill in a template in Excel format with all the data that will feed your plan.
+
+>[!CAUTION]
+>
+>Work with your deliverability consultant to make sure your IP warmup plan file is correctly set up.
+
+Below is an example of a file containing an IP warmup plan.
+
+![](assets/ip-warmup-sample-file.png)
+
+### IP Warmup Plan tab
+
+IP warmup is an activity which consists in gradually increasing the volume of emails going out from your IPs and domain to the main Internet service providers (ISPs) in order to establish your reputation as a legitimate sender.
+
+This activity is tipically performed with the help of a deliverability consultant or expert who prepares a well thought-to plan based on the industry domain, use case, region, ISPs and various other factors.
+
+* In this example, a plan has been prepared spanning over 17 days and to reach a target volume of xxx profiles.
+
+* This planned is executed through 6 phases.
+
+* You can have as many columns as you want for the domains you want to deliver to. In this example, the plan is divided into four columns which correspond to the domain groups to use in your plan: Gmail, Adobe, Yahoo and Others.
+
+The idea is to have more runs in the first phases and to progressively increase the number of targeted addresses while reducing the number of runs.
+
+The list of out-of-the-box domains is as follows:
+
+* Gmail
+* Adobe
+* WP
+* Comcast
+* Yahoo
+* Bigpond
+* Orange
+* Softbank
+* Docomo
+* United Internet
+* Microsoft
+* KDDI
+* Italia Online
+* La Poste
+* Apple
+
+### Custom Domain Group tab
+
+You can also add more columns with your custom domain groups. 
+
+Use the **[!UICONTROL Custom Domain Group]** tab to define a new domain and for each domain you can add all the subdomains it covers.<!--TBC-->
 
 ## Access and manage IP warmup plans {#manage-ip-warmup-plans}
 
@@ -35,10 +85,10 @@ Once you [created one or more campaigns](ip-warmup-campaign.md) with a dedicated
 
 1. You can filter on the status. The different statuses are:
 
-    * **Not started**: no run has happened
-    * **In progress**: as soon as one run has started <!--or is done?-->
-    * **Paused**
-    * **Completed**: all the runs in the plan are done
+    * **Not started**: no run has been activated yet. [Learn more](ip-warmup-running.md#define-runs)
+    * **In progress / Live**: the plan takes this status as soon as the first run in the first phase has been successfully activated. [Learn more](ip-warmup-running.md#define-runs)
+    * **Completed**: the plan has been marked as completed. This option is only available if all the runs in the plan are in **[!UICONTROL Succeeded]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**). [Learn more](ip-warmup-running.md#define-runs#mark-as-completed)
+    * **Paused**<!--: to check (user action)-->
 
 1. To delete an IP warmup plan, select the **[!UICONTROL Delete]** icon next to a list item and confirm deletion.
 
@@ -94,7 +144,7 @@ When one or more live campaigns with the **[!UICONTROL IP warmup plan activation
 
     ![](assets/ip-warmup-plan-phases.png)
 
-### Re-upload an IP warmup plan {#re-upload-plan}
+## Re-upload an IP warmup plan {#re-upload-plan}
 
 You can re-upload another IP warmup plan using the corresponding button.
 
@@ -103,17 +153,3 @@ You can re-upload another IP warmup plan using the corresponding button.
 >[!NOTE]
 >
 >The IP warmup plan details will change as per the newly uploaded file. The complete runs and the activated runs are not be affected.
-
-### Upload the file containing the plan {#upload-plan}
-
-Below is an example of a file containing an IP warmup plan.
-
-![](assets/ip-warmup-sample-file.png)
-
-Each phase correspond to a period composed of several runs, to which you will assign a single campaign.
-
-For each run, you have a certain number of recipients and you will define a date when this run will be executed.
-
-You can have as many columns as you want for the domains you want to deliver to. In this example, you have three columns: Gmail, Adobe and Others, meaning that
-
-The idea is to have more runs in the first phases and to progressively increase the number of targeted addresses while reducing the number of runs.

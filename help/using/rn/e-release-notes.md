@@ -90,9 +90,9 @@ This release comes with the improvements listed below.
 
 **Web channel**
 
-* Single-page applications (SPAs) can be now authored in web visual editor. You can now select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation, this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs.
+* Single-page applications (SPAs) can be now authored in the web designer visual editor. You can now select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation; this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs.
 
-* When editing a page using the web designer, you can now add new changes to your content directly from the Modifications pane - without the need to select a component and edit it from the designer interface.
+* When editing a page using the web designer, you can now add new changes to your content directly from the **Modifications** pane - without the need to select a component and edit it from the designer interface.
 * When setting up web subdomains, you now have the option of adding you own subdomain - in addition to using a subdomain already delegated to Adobe.    
 
 **Journeys**
@@ -107,6 +107,10 @@ This release comes with the improvements listed below.
 **Email channel**
 
 A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.   
+
+**SMS channel**
+
+Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider.
 
 **Reporting**
 
