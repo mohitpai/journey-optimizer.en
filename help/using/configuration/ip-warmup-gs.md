@@ -66,6 +66,6 @@ The key steps to implement an IP warmup plan are as follows:
 
 1. You first need to create one or more campaigns with the IP warmup option enabled. [Learn more](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Create an IP warmup plan and upload your plan. [Learn more](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Create an IP warmup plan in [!DNL Journey Optimizer] and upload the Excel sheet previously filled in with your IP warmup data. [Learn more](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Select a campaign for each phase of your plan and activate the corresponding runs. [Learn more](ip-warmup-running.md)

@@ -25,6 +25,12 @@ What you'll find in this documentation guide:
 
 >[!ENDSHADEBOX]
 
+Once you have [created an IP warmup plan](ip-warmup-plan.md) and uploaded the file prepared with your deliverability consultant, you can define the phases and runs in your plan.
+
+Each phase correspond to a period composed of several runs, to which you assign a single campaign.
+
+For each run, you have a certain number of recipients and you schedule when this run will be executed.
+
 ## Define the phases {#define-phases}
 
 >[!CONTEXTUALHELP]
@@ -91,7 +97,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-send-time.png)
 
-1. Select an end time, which defines the window within which the IP warmup campaign can be executed in case there is any delays in audience segmentation job execution. If no end time is specified, the execution is attempted at the start time and will fail if the segmentation was not completed.
+1. Optionnally, select the window within which the IP warmup campaign can be executed in case there is any delays in audience segmentation job execution. If no end time is specified, the execution is attempted at the start time and will fail if the segmentation was not completed.
 
 1. Activate each run. Make sure you schedule a time early enough to allow for the segmentation job to be run. <!--explain how you can evaluate a proper time-->
 
@@ -127,18 +133,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## Monitor the plan
+## Mark a plan as completed {#mark-as-completed}
 
-A run can have the following statuses<!--TBC with Medha-->:
+If your plan is not performing well enough or if you want to drop it to create another one, you can mark it as completed.
 
-* **[!UICONTROL Completed]**: 
-* **[!UICONTROL Failed]**:
-* **[!UICONTROL Cancelled]**: you stopped the run before the campaign execution has started.
+To do so, click the **[!UICONTROL More]** button on top right og the IP warmup plan and select **[!UICONTROL Mark as completed]**.
 
-Benefits :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* Reports will continue to show up at campaign level with similar capabilities as today. But the IP warmup plan also serves as a consolidated report at one single place of how many executions were done and so on.
+This option is only available if all the runs in the plan are in **[!UICONTROL Succeeded]** or **[!UICONTROL Draft]** status. No run can be **[!UICONTROL Live]**.
 
-* Single place to manage and view how IP warm is progressing.
+The different run statuses are listed in [this section](#monitor-plan).
 
-* Consolidated report at creative/campaign level as all runs for a phase 
+## Monitor the plan {#monitor-plan}
+
+To measure the impact of your plan, you can check the performance of your IP warmup campaigns using reports. Learn more on the campaign email [live report](../reports/campaign-live-report.md#email-live) and [global report](../reports/campaign-global-report.md##email-global).
+
+The IP warmup plan itself also serves as a consolidated report at one single place. You can check elements such as the number of **[!UICONTROL Live]** or **[!UICONTROL Succeeded]** runs for each phase, and view how your IP warmup plan is progressing.
+
+A run can have the following statuses:
+
+* **[!UICONTROL Draft]** : whenever a run is created, either when [uploading a new plan](ip-warmup-plan.md) or [adding a run](#define-runs) from the user interface, it takes the **[!UICONTROL Draft]** status.
+* **[!UICONTROL Live]**: whenever you activate a run, it takes the **[!UICONTROL Live]** status.
+* **[!UICONTROL Succeeded]**<!--TBC-->: the campaign execution for this run is completed. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** run was cancelled using the **[!UICONTROL Stop]** button. This button is only available if the campaign execution has not started. [Learn more](#define-runs)
+* **[!UICONTROL Failed]**: an error was encountered by the system or the campaign used for the current phase was stopped<!--what should the user do in that case?-->.
