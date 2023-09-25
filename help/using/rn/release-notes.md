@@ -99,7 +99,7 @@ This release comes with the improvements listed below.
 **Journeys**
 
 * Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
-* When duplicating a journey, you can now define the name of the journey copy.
+* When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
