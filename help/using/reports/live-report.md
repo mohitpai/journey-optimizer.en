@@ -62,11 +62,15 @@ Your dashboard is now saved. Your different changes will be reapplied for a late
 
 ## Export your reports {#export-reports}
 
-You can easily export your different reports to PDF format, which enables you to share or print them.
+You can easily export your different reports to PDF or CSV formats, which enables you to share or print them.
 
-1. From your report, click **[!UICONTROL Export]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB Export your report as a PDF file]
+
+1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL PDF file]**.
+
+   ![](assets/export_6.png)
 
 1. From the Print window, configure your document as needed. Note that options may vary depending on your browser.
 
@@ -75,3 +79,21 @@ You can easily export your different reports to PDF format, which enables you to
 1. Locate the folder where you want to save your file, rename it if needed and click Save.
 
 Your report is now available to view or share in a pdf file.
+
+>[!TAB Export your report as a CSV file]
+
+1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL CSV file]** to generate a CSV file at overall report-level. 
+
+   ![](assets/export_4.png)
+
+1. You can also choose to export data from a specific widget. Click **[!UICONTROL Export widget data to CSV]** next to the selected widget.
+
+   ![](assets/export_5.png)
+
+1. Your file is automatically downloaded and can be located in your local files.
+
+    If you generated the file at the report level, it contains detailed information for each widget, including its title and data.
+
+    If you generated the file at the widget level, it specifically provides data for the selected widget.
+
+>[!ENDTABS]
