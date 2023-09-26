@@ -39,7 +39,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_1.png)
 
-1. Choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository.
+1. Choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution.
 
     ![](assets/media_library_4.png)
 
