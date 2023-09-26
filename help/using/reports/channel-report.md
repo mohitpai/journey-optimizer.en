@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campaign Global report
+title: Channel-level eports
 description: Learn how to use data from the Channel reports
 feature: Reporting
 topic: Content Management
@@ -17,7 +17,7 @@ level: Intermediate
 
 >[!IMPORTANT]
 >
-> To access the Report menu, you must have the **[!UICONTROL View Channel Reports]** permission. [Learn more](../administration/permissions.md)
+> To access the **Report** menu, you must have the **[!UICONTROL View Channel Reports]** permission. [Learn more](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 The Channel reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level. The metrics are aggregated to present consolidated values for actions originating from the chosen channel, spanning across various campaigns and journeys.
 
@@ -34,9 +34,10 @@ The report page will be displayed with the following tabs:
 
 ## Email {#email}
 
-![](assets/email_channel_1.png)
 
-From your Channel reports, the Email menu details the main information relative to emails sent in your Campaigns and Journeys.
+From your Channel reports, the Email menu details the main information relative to emails sent in your Campaigns and Journeys. Metrics are detailed below.
+
+![](assets/email_channel_1.png)
 
 +++  Learn more on the different metrics and widgets available for the Email report.
 
@@ -111,9 +112,11 @@ The **[!UICONTROL Bounce Reasons by domain]**, **[!UICONTROL Sent & delivered by
 
 ## Push notification {#push}
 
+
+From your Channel reports, the Push notification menu details the main information relative to push notifications sent in your Campaigns and Journeys. Metric are detailed below.
+
 ![](assets/push_channel_1.png)
 
-From your Channel reports, the Push notification menu details the main information relative to push notifications sent in your Campaigns and Journeys.
 
 +++  Learn more on the different metrics and widgets available for the Push report.
 
@@ -170,9 +173,11 @@ The **[!UICONTROL Tracking by platform]** and **[!UICONTROL Sending by platform]
 
 ## SMS {#sms}
 
+
+From your Channel reports, the SMS menu details the main information relative to SMS sent in your Campaigns and Journeys. Metrics are detailed below.
+
 ![](assets/sms_channel_1.png)
 
-From your Channel reports, the SMS menu details the main information relative to SMS sent in your Campaigns and Journeys.
 
 +++ Learn more on the different metrics and widgets available for the SMS report.
 
@@ -220,9 +225,11 @@ The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!U
 
 ## In-app {#in-app}
 
+
+From your Channel reports, the In-app menu details the main information relative to In-app messages sent in your Campaigns and Journeys. Metrics are detailed below.
+
 ![](assets/inapp_channel_1.png)
 
-From your Channel reports, the In-app menu details the main information relative to In-app messages sent in your Campaigns and Journeys.
 
 +++  Learn more on the different metrics and widgets available for the In-app report.
 
@@ -242,9 +249,11 @@ The **[!UICONTROL In-app engagement overtime]** graph shows the evolution of you
 
 ## Web {#web}
 
+
+From your Channel reports, the Web menu details the main information relative to Web pages included in your Campaigns and Journeys. Metrics are detailed below.
+
 ![](assets/web_channel_1.png)
 
-From your Channel reports, the Web menu details the main information relative to Web pages included in your Campaigns and Journeys.
 
 +++ Learn more on the different metrics and widgets available for the Web report.
 
@@ -264,9 +273,11 @@ The **[!UICONTROL Web engagement overtime]** graph details the main information 
 
 ## Direct mail {#direct-mail}
 
+
+From your Channel reports, the Direct mail menu details the main information relative to the Direct mail messages sent in your Campaigns and Journeys. Metrucs are detailed below.
+
 ![](assets/direct_mail_channel_1.png)
 
-From your Channel reports, the Direct mail menu details the main information relative to the Direct mail messages sent in your Campaigns and Journeys.
 
 +++ Learn more on the different metrics and widgets available for the Direct mail report.
 The **[!UICONTROL Direct mail - Total sending statistics]** table details the success of your messages:
