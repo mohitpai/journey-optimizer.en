@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campaign Global report
+title: Channel reports
 description: Get started with Channel reports
 feature: Reporting
 topic: Content Management
@@ -34,9 +34,9 @@ Learn more on the different metrics and widgets available for the Channel report
         
         ![](assets/channel_permission_1.png)
 
-    1. Drag and drop the **[!UICONTROL Campaign]** resource to assign permission.
+    1. Drag and drop the **[!UICONTROL Report]** resource to assign permission.
 
-        From the **[!UICONTROL Campaign]** resource drop-down, select the **[!UICONTROL View Channel Reports]** permission.
+        From the **[!UICONTROL Report]** resource drop-down, select the **[!UICONTROL View Channel Reports]** permission.
 
         ![](assets/channel_permission_2.png)
 
