@@ -70,6 +70,22 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Computed attributes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Computed Attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer. <br/>
+Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
 ### Improvements {#sept-2023-improvements}
 
 This release comes with the improvements listed below.
@@ -82,7 +98,6 @@ This release comes with the improvements listed below.
 **Personalization**
 
 * In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.    
-* You can now use Adobe Experience Platform computed attributes for personalization in Journey Optimizer. Computed attributes are aggregated values that are computed based on Profile-enabled Experience Event datasets ingested into Adobe Experience Platform.    
 
 **Alerting**
 
