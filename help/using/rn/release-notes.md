@@ -33,7 +33,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level. To access the 'Report' menu, you must have the 'View Channel Reports' permission.</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../reports/channel-report.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -112,11 +112,15 @@ A new option in the email surface configuration allows to choose to send transac
 
 **SMS channel**
 
-Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider.
+Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider. [Learn more](../sms/sms-configuration.md)
 
 **Reporting**
 
 You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
+
+**Assets**
+
+A new option for Assets allows you to choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution. [Learn more](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
