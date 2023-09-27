@@ -119,4 +119,4 @@ To create our **Journeys read-only** **[!UICONTROL Role]**:
 
 Your **[!UICONTROL Role]** is now created and configured. You now need to assign it to users.
 
-For more information on role creation and management, refer to the [Admin Console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=en).
+For more information on role creation and management, refer to the [Admin Console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

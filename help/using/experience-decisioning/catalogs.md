@@ -59,6 +59,6 @@ To access the catalog's schema where decision items' attributes are stored, foll
     >* Boolean
     >* Number 
 
-    Detailed information on how to work with Adobe Experience Platform schemas is available in the [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
+    Detailed information on how to work with Adobe Experience Platform schemas is available in the [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Once your desired custom attributes are added, save the schema. The new field is now available in the item decisions creation screen, within the **[!UICONTROL Custom attributes]** section.
