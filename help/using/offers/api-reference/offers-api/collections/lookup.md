@@ -21,7 +21,7 @@ GET /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 	The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | The id of the entity you wish to look up. | `offerCollection1234` |
 
 **Request**
