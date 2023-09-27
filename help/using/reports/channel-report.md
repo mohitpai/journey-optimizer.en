@@ -21,9 +21,9 @@ level: Intermediate
 
 The Channel reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level. The metrics are aggregated to present consolidated values for actions originating from the chosen channel, spanning across various campaigns and journeys.
 
-You can access the Channel reports by navigating to the Reports menu within the Journey Management section. It is fully customizable, you can filter your data depending on the Report date or Action. [Learn more](channel-report-gs.md)
+You can access the Channel reports by navigating to the **Reports** menu within the **Journey Management** section. It is fully customizable, you can filter your data depending on the Report date or Action. [Learn more](channel-report-gs.md)
 
-The report page will be displayed with the following tabs:
+The report page is displayed with the following tabs:
 
 * [Email](#email)
 * [Push notifications](#push)
@@ -31,6 +31,9 @@ The report page will be displayed with the following tabs:
 * [In-app](#inapp)
 * [Web](#web)
 * [Direct mail](#direct-mail)
+
+➡️ [Discover this feature in video](#channel-report-video)
+
 
 ## Email {#email}
 
@@ -297,3 +300,9 @@ The **[!UICONTROL Direct mail - Total sending statistics]** table details the su
 The **[!UICONTROL Exclude Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred.
 +++
 
+
+## How-to video {#channel-report-video}
+
+Learn how to access, navigate, and export reports on the channel level in this video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424537?quality=12)
