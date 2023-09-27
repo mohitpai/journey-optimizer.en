@@ -13,17 +13,16 @@ Decision rules are constraints added to a personalized offer and applied to a pr
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+The following table shows the valid values which comprise the *Content-Type* field in the request header:
 
 | Header name | Value |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Content-Type | `application/json` |
 
 **API format**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offer-rules
 ```
 
 | Parameter | Description | Example |
@@ -34,29 +33,27 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 **Request**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-    "xdm:name": "Sales rule",
+curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Sales rule",
     "description": "Decisioning rule for sales",
-    "xdm:condition": {
-        "xdm:type": "PQL",
-        "xdm:format": "pql/text",
-        "xdm:value": "profile.person.name.firstName.equals(\"Joe\", false)"
+    "condition": {
+        "type": "PQL",
+        "format": "pql/text",
+        "value": "profile.person.name.firstName.equals(\"Joe\", false)"
     },
-    "xdm:definedOn": {
+    "definedOn": {
         "profile": {
-            "xdm:schema": {
-                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
+            "schema": {
+                "ref": "https://ns.adobe.com/xdm/context/profile_union",
                 "version": "1"
             },
-            "xdm:referencePaths": [
+            "referencePaths": [
                 "person.name.firstName"
             ]
         }
@@ -66,18 +63,18 @@ curl -X POST \
 
 **Response**
 
-A successful response returns information on the newly created decision rule, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your decision rule. You can use your unique decision rule `@id` in a later tutorial to create personalized offers.
+A successful response returns information on the newly created decision rule, including placement `id`. You can use the `id` in later steps to update or delete your decision rule or use it in a later tutorial to create decisions, decision rules, and fallback offers.
 
 ```json
 {
-    "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
-    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T20:13:43.048666Z",
-    "repo:lastModifiedDate": "2020-10-21T20:13:43.048666Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+   "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
