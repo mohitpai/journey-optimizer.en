@@ -11,31 +11,28 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 
 A decision contains the logic that informs the selection of an offer.
 
-You can view a list of all decisions within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all decisions by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-decisions?{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with decisions. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
 **Request**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5&limit=2' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## Using query parameters {#using-query-parameters}
@@ -48,15 +45,13 @@ The most common query parameters for paging include:
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `q` | An optional query string to search for in selected fields. The query string should be lowercase and can be surrounded by double quotes to prevent it from being tokenized and to escape special characters. The characters `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` have special meaning and should be escaped with a backslash when appearing in the query string. | `default` |
-| `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
-| `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
-| `limit` | Limit the number of decisions returned. | `limit=5` |
+| `property`| An optional property filter: <br> <ul> - The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=<property-expr>[&property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Property expressions are in format [!]field[op]value, with op in [==,!=,<=,>=,<,>,~], supporting regular expressions| `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.`|
+| `orderBy` | Sort results by a specific property. Adding a - before name (orderby=-name) will sort items by name in descending order (Z-A). Path expressions are in the form of dot separated paths. This parameter can be repeated like so: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limit the number of entities returned. | `limit=5` |
 
 **Response**
 
-A successful response returns a list of decisions that are present within the container you have access to.
+A successful response returns a list of decisions you have access to.
 
 ```json
 {
