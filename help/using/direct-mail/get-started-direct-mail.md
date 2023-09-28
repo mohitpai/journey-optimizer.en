@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, message, campaign
+exl-id: 61a0be14-c5d9-442d-9c79-516a289e660c
 ---
 # Get started with direct mail {#create-direct}
 
@@ -23,5 +24,3 @@ The main steps to send direct mail messages are as follows:
 ![](assets/dm-creation-process.png)
 
 Direct mail messages can only be created in the context of scheduled campaigns. They are not available for use in API-triggered campaigns or in journeys.
-
-

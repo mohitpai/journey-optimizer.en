@@ -5,6 +5,7 @@ title: Release notes
 description: Journey Optimizer early Release notes
 hide: yes
 hidefromtoc: yes
+exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
 ---
 # Early release notes {#e-release-notes}
 
@@ -81,7 +82,9 @@ This release brings the new capabilities listed below.
 <td>
 <p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
 Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">detailed documentation</a>.</p>
+
 <img src="assets/do-not-localize/computed-attributes.gif">
+
 </tr>
 </tbody>
 </table>

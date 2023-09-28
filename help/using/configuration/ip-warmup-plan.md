@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, group, subdomains, deliverability
 hide: yes
 hidefromtoc: yes
-
+exl-id: 184a9d99-13fb-4fe4-914b-f67a80be8ebd
 ---
 # Create an IP warmup plan {#ip-warmup}
 

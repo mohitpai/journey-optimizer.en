@@ -10,7 +10,7 @@ level: Intermediate
 keywords: IP, pools, deliverability
 hide: yes
 hidefromtoc: yes
-
+exl-id: 5325cc55-6526-4fd7-beef-9a4ea3e1e52b
 ---
 # Create IP warmup campaigns {#create-ip-warmup-campaign}
 
@@ -77,4 +77,3 @@ To create an IP warmup campaign, follow the steps below.
 Once live, the campaign is ready for use in an IP warmup plan. [Learn more](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

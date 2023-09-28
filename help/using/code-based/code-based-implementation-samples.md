@@ -7,7 +7,8 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
 ---
 # Code-based implementation methods samples {#implementation-samples}
 
@@ -269,4 +270,3 @@ If you have a hybrid implementation, check out the links below.
 
 * Adobe Tech Blog: [Hybrid Personalization in the Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK Documentation: [Hybrid personalization using Web SDK and Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

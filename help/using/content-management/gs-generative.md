@@ -10,6 +10,7 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: yes
 hidefromtoc: yes
+exl-id: 06cd70f0-baa7-44c1-9df6-9672d954bba6
 ---
 # Get started with the Content assistant {#gs-content-assistant}
 
@@ -42,4 +43,3 @@ Use the Content assistant to optimize your message's impact by experimenting wit
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer Content assistant is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
-

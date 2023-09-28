@@ -32,8 +32,10 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
+
 Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
+
 </tr>
 </tbody>
 </table>
@@ -95,7 +97,9 @@ This release comes with the improvements listed below.
 
 <!--**Personalization**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. 
+
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+
 
 **Alerting**
 
@@ -126,6 +130,10 @@ A new option in the email surface configuration allows to choose to send transac
 **SMS channel**
 
 Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider. [Learn more](../sms/sms-configuration.md)
+
+**Direct mail channel**
+
+You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key.
 
 **Direct mail channel**
 

@@ -7,7 +7,8 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: e3a362fb-6f8d-4544-b95a-01f8f5d0b00f
 ---
 # Prerequisites and guardrails {#web-prerequisites}
 
@@ -73,5 +74,3 @@ Learn how to add datasets for content experiment reporting in [this section](../
 >[!NOTE]
 >
 >The dataset is used read-only by the [!DNL Journey Optimizer] reporting system and doesn't affect data collection or data ingestion.
-
-
