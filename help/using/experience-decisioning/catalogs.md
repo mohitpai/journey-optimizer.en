@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
 ---
-
 # Items catalog {#catalog}
 
 >[!BEGINSHADEBOX]

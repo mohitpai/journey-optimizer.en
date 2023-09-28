@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 053d0a9b-62be-4d35-8a04-64c039142424
 ---
 # Monitor your web campaigns {#monitor-web-campaigns}
 

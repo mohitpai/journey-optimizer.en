@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: c3d5c548-b1b1-4ed1-b6c5-707afb581e13
 ---
 # Decision rules {#rules}
 

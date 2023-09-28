@@ -7,7 +7,8 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 797fd3fe-34f2-4973-a593-1412e36657a3
 ---
 # Get started with code-based channel {#get-sarted-code-based}
 

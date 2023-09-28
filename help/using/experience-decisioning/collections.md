@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 04d9dc5d-9801-4914-952a-260f4d3a36f3
 ---
 # Collections {#collections}
 

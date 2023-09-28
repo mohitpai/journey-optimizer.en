@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seedlist, seed, configuration
-
+exl-id: 0251f16a-37b0-4129-ac1b-fc062f613844
 ---
 # Use seed lists {#seed-lists}
 
@@ -149,4 +149,3 @@ Now each time an email message is sent out to your customers through that campai
 >[!NOTE]
 >
 >For journeys the email delivery is sent to the seed addresses only on the journey first execution.
-

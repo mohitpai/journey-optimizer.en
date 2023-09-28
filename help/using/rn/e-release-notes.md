@@ -5,6 +5,7 @@ title: Release notes
 description: Journey Optimizer early Release notes
 hide: yes
 hidefromtoc: yes
+exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
 ---
 # Early release notes {#e-release-notes}
 

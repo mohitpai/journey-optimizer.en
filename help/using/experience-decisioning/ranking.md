@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: d0114203-28ae-40dd-8a4f-fbaf864f2b29
 ---
 # Ranking methods {#rankings}
 
