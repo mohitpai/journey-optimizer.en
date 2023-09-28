@@ -301,7 +301,7 @@ The **[!UICONTROL Exclude Reasons]** and **[!UICONTROL Error Reasons]** graphs a
 +++
 
 
-## How-to video {#channel-report-video}
+## Channel report (video) {#channel-report-video}
 
 Learn how to access, navigate, and export reports on the channel level in this video
 
