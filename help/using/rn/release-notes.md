@@ -51,7 +51,7 @@ Additionally, computed attributes simplifies segmentation and journey workflows 
 <p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level.</p>
 <p>To access the <b>Report</b> menu, you must have the <b>View Channel Reports</b> permission.</p>
 <img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../reports/channel-report.md">detailed documentation</a>, and <a href="../reports/channel-report.md#how-to-video-channel-report-video">how-to video</a>.</p>
+<p>For more information, refer to the <a href="../reports/channel-report.md">detailed documentation</a>, and <a href="../reports/channel-report.md#channel-report-video">how-to video</a>.</p>
 </tr>
 </tbody>
 </table>
