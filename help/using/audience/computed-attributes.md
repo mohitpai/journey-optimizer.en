@@ -22,7 +22,7 @@ Each computed attribute is a profile attribute that you can leverage for segment
 
 To create computed attributes, navigate to the **[!UICONTROL Computed attributes]** tab in the **[!UICONTROL Profiles]** menu located on the left hand-side.
 
-From this screen, you can construct computed attributes by building rules that combine event attributes, aggreagte functions, alonside a specified lookback period. For example, you can calculate the sum of purchases made in the last three months, identify the most recent item viewed by a profile withwho hasn't made a purchase in the last week, or tally up the total reward points accumulated by each profile. 
+From this screen, you can construct computed attributes by building rules that combine event attributes, aggregate functions, alonside a specified lookback period. For example, you can calculate the sum of purchases made in the last three months, identify the most recent item viewed by a profile who hasn't made a purchase in the last week, or tally up the total reward points accumulated by each profile. 
 
 ![](assets/computed-attributes.png)
 
@@ -60,6 +60,6 @@ Detailed information on how to add field groups to the Adobe Experience Platform
 
 Computed attributes offer a versatile set of capabilities within Journey optimizer. You can use them for various purposes, such as personalizing message content, creating new audiences, or splitting journeys based on a specific computed attribute. For example, you can split a journey's path based on a profile's total purchases in the last three weeks, by adding a single computed attribute in a Condition activity. You can also personalize an email by displaying the most recently viewed item for each profile.
 
-Since computed attributes are profile attribute fields created on your profile union schema, you can access them from the Expression Editor within the **SystemComputedAttributes** field group. From there, you can then add computed attribute into your expressions, treating them like any other profile attribute to perform the desired operations.
+Since computed attributes are profile attribute fields created on your profile union schema, you can access them from the Expression Editor within the **SystemComputedAttributes** field group. From there, you can add computed attribute into your expressions, treating them like any other profile attribute to perform the desired operations.
 
 ![](assets/computed-attributes-ajo.png)
