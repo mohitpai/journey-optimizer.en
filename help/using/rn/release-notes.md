@@ -32,8 +32,8 @@ This release brings the new capabilities listed below.
 <tr>
 <td>
 <p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
-Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">detailed documentation</a>.</p>
-<img src="assets/computed-attributes.png">
+Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gi">
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ Additionally, computed attributes simplifies segmentation and journey workflows 
 <td>
 <p>Journey Optimizer datasets export to Cloud Storage Destinations is now generally available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../data/export-datasets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,11 +92,6 @@ Additionally, computed attributes simplifies segmentation and journey workflows 
 ### Improvements {#sept-2023-improvements}
 
 This release comes with the improvements listed below.
-
-<!--**Audiences**
-
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
 
 <!--**Personalization**
 
