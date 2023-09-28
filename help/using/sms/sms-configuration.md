@@ -57,6 +57,10 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab.  [Learn more](https://developers.sinch.com/docs/sms/getting-started/)
 
+        * **[!UICONTROL Opt-In Message]**: Type in the custom response that is automatically sent as your **[!UICONTROL Opt-In Message]**.
+        
+        * **[!UICONTROL Help Message]**: Type in the custom response that is automatically sent as your **[!UICONTROL  Help Message]**.
+
     * For **[!DNL Twilio]**:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.

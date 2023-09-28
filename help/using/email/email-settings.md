@@ -35,7 +35,7 @@ The email surface configuration gets picked up for sending communications follow
 >title="Define the email category"
 >abstract="Select the type of emails that will be sent when using this surface: Marketing for promotional emails, which require user consent, or Transactional for non-commercial emails, that can also be sent to unsubscribed profiles in specific contexts."
 
-In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **Marketing** or **Transactional**.
+In the **EMAIL TYPE** section, select the type of message that will be sent with the surface: **[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**.
 
 * Choose **Marketing** for promotional email, such as weekly promotions for a retail store. These messages require user consent.
 
@@ -176,6 +176,36 @@ Additionally, when defining the **[!UICONTROL Bcc email]** address, make sure to
 
 If you get an error upon submitting the email surface, it means that the MX record is not configured for the subdomain of the address you entered. Contact your administrator for configuring the corresponding MX record or use another address with a valid MX record configuration.
 
+## Sending to suppressed email addresses {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Override suppression list precedence"
+>abstract="You can decide to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list due to spam complaint. This option is disabled by default."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Manage the suppression list"
+
+>[!IMPORTANT]
+>
+>This option is only available if you selected the **[!UICONTROL Transactional]** email type. [Learn more](#email-type)
+
+In [!DNL Journey Optimizer], all the email addresses that are marked as hard bounces, soft bounces, and spam complaints are automatically collected into the [suppression list](../configuration/manage-suppression-list.md) and excluded from sending in a journey or a campaign.
+
+However, you can decide to go on sending messages of the **transactional** type to profiles even if their email addresses are on the suppression list due to spam complaint by the user.
+
+Indeed, transactional messages generally contain useful and expected information, such as an order confirmation or a password reset notification. Therefore, even if they have reported one of your marketing messages as spam, most of the time you do want your customers to receive this type of non-commercial email.
+
+To include email addresses suppressed due to spam complaint in your transactional message audience, select the corresponding option from the **[!UICONTROL Send to suppressed email addresses]** section.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>This option is disabled by default.
+
+As a deliverability best practice, this option is disabled by default to ensure your customers who have opted out are not contacted. However, you may change this default option, which then permits you to send transactional messages to your customers.
+
+Once this option is enabled, although a customer marked your marketing email as spam, such customer will be able to receive your transactional messages using the current surface. Always make sure to manage opt-out preferences in accordance with deliverability best practices.
+
 ## Seed list {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -183,7 +213,7 @@ If you get an error upon submitting the email surface, it means that the MX reco
 >title="Add a seed list"
 >abstract="Select the seed list of your choice to automatically add specific internal addresses to your audiences. These seed addresses will be included at the delivery execution time and will receive an exact copy of the message for assurance purposes."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="What are seed lists?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Create a seed lists"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Create a seed lists"
 
 
 A seed list in [!DNL Journey Optimizer] enables you to automatically include specific email seed addresses in your deliveries. [Learn more](../configuration/seed-lists.md)

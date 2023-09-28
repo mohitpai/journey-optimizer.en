@@ -26,7 +26,7 @@ Audiences can have three statuses:
 * realized: entity is entering the audience.
 * exited: entity is exiting the audience.
 
-Only the individuals with the **Realized** and **Existing** audience participation statuses will be considered as members of the audience. For more on how to evaluate an audience, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+Only the individuals with the **Realized** and **Existing** audience participation statuses will be considered as members of the audience. For more on how to evaluate an audience, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results). 
 
 `IF inSegment('segmentName') == true` means that you have a segmentMembership with the entered/existing status.
 

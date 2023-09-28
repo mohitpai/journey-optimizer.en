@@ -73,7 +73,7 @@ Boost the priority of offers based on whether the user is a member of a priority
 **Ranking formula:**
 
 ```
-if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentId")).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
 ```
 -->
 
@@ -84,7 +84,7 @@ If the profile lives in the city corresponding to the offer, then double the pri
 **Ranking formula:**
 
 ```
-if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
 ### Boost offers where the end date is less than 24 hours from now
@@ -103,7 +103,7 @@ Boost certain offers based on the context data being passed in the decisioning c
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 Note that when using the decisioning API, the context data is added to the profile element in the request body, such as in the example below.
@@ -167,6 +167,6 @@ Your ranking formula can then set the priority of each offer to equal the custom
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
 in if(score.isNotNull(), score, offer.rank.priority)
 ```

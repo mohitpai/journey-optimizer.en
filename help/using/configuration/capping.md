@@ -56,6 +56,8 @@ Here is the basic structure of an endpoint configuration:
 >The **maxHttpConnections** parameter is optional. It allows you to restrict the number of connections Journey Optimizer will open to the external system.
 >
 >The max value that can be set is 400. If nothing is specified, then the system may open up to multiple thousands of connections depending on the dynamic scaling of the system.
+>
+>When the capping configuration is deployed, if no 'maxHttpConnection' value has been provided, a default "maxHttpConnection = -1" is added into the deployed configuration, meaning that Journey Optimizer will use the default system value.
 
 ### Example:
 
@@ -67,14 +69,12 @@ Here is the basic structure of an endpoint configuration:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

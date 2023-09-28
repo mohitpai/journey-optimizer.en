@@ -56,17 +56,15 @@ Create an actionable notification by adding buttons to your push content.
 
 If the device screen is locked, these buttons are not displayed: only the the **Title** and the **Message** of the notification are visible. If their device is unlocked, recipients will see the buttons.
 
-In the iOS version, you can add up to four buttons. In the Android version, you can add up to three buttons.
+In the Android version, you can add up to three buttons.
 
->[!NOTE]
->
->For iOS, use the **[!UICONTROL iOS category]** field to associate actions with a notification category.
+In the iOS version, a notification category identifier is specified. Notification categories need to be preconfigured in the iOS app which will define the buttons to be displayed and actions taken. See the [Apple documentation](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) for more details.
 
 1. Use the **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
 
 1. Use the **[!UICONTROL Expand view]** icon under the central preview image to preview your personalized buttons.
 
-![](assets/push_buttons.png)
+    ![](assets/push_buttons.png)
 
 ## Send a silent notification {#silent-notification}
 

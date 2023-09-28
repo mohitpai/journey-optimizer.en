@@ -51,11 +51,11 @@ Discover the detailed steps to create a web campaign in [this video](create-web.
 <p>
 </td>
 <td>
-<a href="../reports/campaign-global-report.md#web-tab.md">
+<a href="monitor-web-campaigns.md">
 <img alt="Validation" src="../assets/do-not-localize/web-reporting.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#web-tab"><strong>Reporting</strong></a>
+<a href="monitor-web-campaigns.md"><strong>Reporting</strong></a>
 </div>
 <p>
 </td>

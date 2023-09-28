@@ -226,11 +226,13 @@ solution: Journey Optimizer
 + Web channel {#web}
   + [Get started with web channel](using/web/get-started-web.md)
   + [Web channel prerequisites](using/web/web-prerequisites.md)
+  + [Single-page application implementation](using/web/web-spa-implementation.md)
   + [Create web experiences](using/web/create-web.md)
   + Author web pages {#author-web-pages}
     + [Edit web page content](using/web/edit-web-content.md)
     + [Manage modifications](using/web/manage-web-modifications.md)
     + [Monitor your web campaigns](using/web/monitor-web-campaigns.md)
+    + [Author single-page applications](using/web/web-spa.md)
   + [Configure web subdomains](using/web/web-delegated-subdomains.md)
 + Code-based experience {#code-based-experience}
   + [Get started with code-based channel](using/code-based/get-started-code-based.md)
@@ -297,6 +299,7 @@ solution: Journey Optimizer
   + Profiles{#profiles}
     + [Get started with profiles](using/audience/get-started-profiles.md)
     + [Create test profiles](using/audience/creating-test-profiles.md)
+    + [Work with computed attributes](using/audience/computed-attributes.md)
   + [Identities](using/audience/get-started-identity.md)
   + [License usage](using/audience/license-usage.md)
 + Track and monitor {#reporting}
@@ -315,6 +318,9 @@ solution: Journey Optimizer
     + [Objective report](using/reports/objective-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
+  + Channel reports {#channel-report}
+    + [Get started with Channel reports](using/reports/channel-report-gs.md)
+    + [Channel reports](using/reports/channel-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
     + [Step event field list](using/reports/sharing-field-list.md)

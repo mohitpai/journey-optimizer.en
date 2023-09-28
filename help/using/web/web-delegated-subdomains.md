@@ -13,12 +13,12 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="Delegate a web subdomain"
->abstract="You will be setting up your subdomain for web channel use. Choose from the subdomains that are already delegated to Adobe."
+>abstract="You will be setting up your subdomain for web channel use. You can use a subdomain that is already delegated to Adobe or configure another subdomain."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegate a web subdomain"
->abstract="If you add content coming from the Adobe Experience Manager Assets Essentials to your web experiences, you  must set up the subdomain that will be used to publish this content. Select amongst the subdomains already delegated to Adobe."
+>abstract="If you add content coming from the Adobe Experience Manager Assets Essentials to your web experiences, you  must set up the subdomain that will be used to publish this content. Select amongst the subdomains already delegated to Adobe or configure a new subdomain."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -27,7 +27,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content.
 
-To do so, you must choose from the list of subdomains already delegated to Adobe. Learn more on delegating subdomains to Adobe in [this section](../configuration/delegate-subdomain.md).
+You can use a subdomain that is already delegated to Adobe, or you can configure another subdomain. Learn more on delegating subdomains to Adobe in [this section](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -39,13 +39,33 @@ To do so, you must choose from the list of subdomains already delegated to Adobe
 
 You can create several web subdomains, but only the **default** subdomain will be used. You can change the default web subdomain, but only one can be used at a time.
 
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**.
+## Access and manage web subdomains {#access-web-subdomains}
+
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**. All the subdomains set up with the current sandbox are displayed.
 
     ![](assets/web-access-subdomains.png)
 
+1. You can filter on the user who delegated each subdomain or one the delegation status (**[!UICONTROL Draft]**, **[!UICONTROL Processing]**, **[!UICONTROL Success]** or **[!UICONTROL Failed]**).
+
+    ![](assets/web-filter-subdomains.png)
+
+1. The **[!UICONTROL Default]** badge is displayed next the subdomain that is currently used as default. To change the default subdomain, select **[!UICONTROL Set as default]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
+
+    ![](assets/web-subdomain-default.png)
+
+    >[!NOTE]
+    >
+    >You can change the default web subdomain, but only one can be used at a time.
+
+## Use an existing subdomain {#web-use-existing-subdomain}
+
+To use a subdomain that is already delegated to Adobe, follow the steps below.
+
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**.
+
 1. Click **[!UICONTROL Set up subdomain]**.
 
-1. Select a delegated subdomain from the list.
+1. Select the **[!UICONTROL Use delegated subdomain]** option from the **[!UICONTROL Configuration type]** section and choose a delegated subdomain from the list.
 
     ![](assets/web-subdomain-details.png)
 
@@ -69,14 +89,65 @@ You can create several web subdomains, but only the **default** subdomain will b
     >
     >In very rare occasions, a subdomain setup could fail. In this case, you can delete the **[!UICONTROL Failed]** subdomain to clean up the list using the **[!UICONTROL Delete]** button from the **[!UICONTROL More actions]** icon.
 
-1. The **[!UICONTROL Default]** badge is displayed next the subdomain that is currently used as default. To change the default subdomain, select **[!UICONTROL Set as default]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
+## Configure a new subdomain {#web-configure-new-subdomain}
 
-    ![](assets/web-subdomain-default.png)
+>[!CONTEXTUALHELP]
+>id="ajo_admin_web_subdomain_dns"
+>title="Generate the matching DNS record"
+>abstract="To configure a new web subdomain, you need to copy the Adobe nameserver information displayed in the Journey Optimizer interface and paste it into your domain-hosting solution to generate the matching DNS record. Once the checks are successful, the subdomain is ready to be used to publish content coming from the Experience Manager Assets Essentials library."
+
+To configure a new subdomain, follow the steps below.
+
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL web configuration]** > **[!UICONTROL web subdomains]**.
+
+1. Click **[!UICONTROL Set up subdomain]**.
+
+1. Select **[!UICONTROL Add your own domain]** from the **[!UICONTROL Configuration type]** section.
+
+1. Specify the subdomain to delegate.
+
+    >[!CAUTION]
+    >
+    >You cannot use an existing web subdomain.
+    >
+    >Capital letters are not allowed in subdomains.
+
+    ![](assets/web-add-your-own-domain.png)
+    
+    Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    
+    >[!NOTE]
+    >
+    >Multi-level subdomains (of the same parent domain) are supported. For example, you can use 'web.marketing.yourcompany.com'.
+
+1. To set this subdomain as default, select the corresponding option.
 
     >[!NOTE]
     >
-    >You can change the default web subdomain, but only one can be used at a time.
+    >Only the **default** subdomain will be used.
 
-    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
+1. The record to be placed in your DNS servers displays. Copy this record, or download a CSV file, then navigate to your domain-hosting solution to generate the matching DNS record.
 
-    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+1. Make sure that DNS record has been generated into your domain-hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
+
+    ![](assets/web-add-your-own-domain-confirm.png)
+
+    >[!NOTE]
+    >
+    >When you configure a new web subdomain, it will always point to a CNAME record.
+
+1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+
+    >[!NOTE]
+    >
+    >Before being able to use that subdomain to send web messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.
+
+1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create web channel surfaces.
+
+    Note that the subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
+
+
+<!--
+Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
+You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
+-->
