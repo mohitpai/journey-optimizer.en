@@ -100,7 +100,7 @@ This release comes with the improvements listed below.
 
 * In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-
+<!--
 **Alerting**
 
 * A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->  
@@ -109,7 +109,7 @@ This release comes with the improvements listed below.
 
 * Single-page applications (SPAs) can be now authored in the web visual editor, which allows you to select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation; this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs.
 
-* When editing a page using the web designer, you can now add new changes to your content directly from the Modifications pane - without the need to select a component and edit it from the designer interface.
+* When editing a page using the web designer, you can now add new changes to your content directly from the Modifications pane - without the need to select a component and edit it from the designer interface. [Learn more](../web/manage-web-modifications.md#add-modifications)
 
 * When setting up web subdomains, you now have the option of adding you own subdomain - in addition to using a subdomain already delegated to Adobe. [Learn more](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
@@ -130,10 +130,6 @@ A new option in the email surface configuration allows to choose to send transac
 **SMS channel**
 
 Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider. [Learn more](../sms/sms-configuration.md)
-
-**Direct mail channel**
-
-You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key.
 
 **Direct mail channel**
 
