@@ -71,20 +71,6 @@ You can easily export your different reports to PDF or CSV formats, which enable
 
 >[!BEGINTABS]
 
->[!TAB Export your report as a PDF file]
-
-1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL PDF file]**.
-
-   ![](assets/export_2.png)
-
-1. From the Print window, configure your document as needed. Note that options may vary depending on your browser.
-
-1. Choose to print or save your report as PDF.
-
-1. Locate the folder where you want to save your file, rename it if needed and click Save.
-
-Your report is now available to view or share in a pdf file.
-
 >[!TAB Export your report as a CSV file]
 
 1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL CSV file]** to generate a CSV file at overall report-level. 
@@ -100,5 +86,21 @@ Your report is now available to view or share in a pdf file.
     If you generated the file at the report level, it contains detailed information for each widget, including its title and data.
 
     If you generated the file at the widget level, it specifically provides data for the selected widget.
+    
+>[!TAB Export your report as a PDF file]
+
+1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL PDF file]**.
+
+   ![](assets/export_2.png)
+
+1. From the Print window, configure your document as needed. Note that options may vary depending on your browser.
+
+1. Choose to print or save your report as PDF.
+
+1. Locate the folder where you want to save your file, rename it if needed and click Save.
+
+Your report is now available to view or share in a pdf file.
+
+
 
 >[!ENDTABS]
