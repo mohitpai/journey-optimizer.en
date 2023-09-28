@@ -54,7 +54,7 @@ Detailed information on how to add field groups to the Adobe Experience Platform
 
 ## Use computed attributes in Journey Optimizer {#use}
 
->[NOTE]
+>[!NOTE]
 >
 >Before starting, make sure you have added your computed attributes into Adobe Experience Platform data source. [Learn how in this section](#source).
 
