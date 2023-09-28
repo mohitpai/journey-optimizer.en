@@ -112,7 +112,7 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-* When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
+When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
