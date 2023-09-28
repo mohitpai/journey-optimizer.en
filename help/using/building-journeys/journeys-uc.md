@@ -109,6 +109,6 @@ The event is now configured and ready to be used in your journey. Using the corr
 
 1. Before testing your journey, verify that it is valid and that there is no error.
 
-1. Click on the **Test** toggle, located in the top right corner, to activate the test mode. Define how you want test profiles to enter the test: a single profile, or up to 100 at once. Refer to this [section](testing-the-journey.md) to learn how to use the test mode.
+1. Click on the **Test** toggle, located in the top right corner, to activate the test mode. Refer to this [section](testing-the-journey.md) to learn how to use the test mode.
 
 1. When the journey is ready, publish it using the **Publish** button, located in the top right corner.

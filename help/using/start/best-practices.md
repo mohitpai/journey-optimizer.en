@@ -7,8 +7,6 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 exl-id: 30b5ad5e-a85e-4630-ba96-25091af11d12
 ---
 # Best practices {#best-practices}

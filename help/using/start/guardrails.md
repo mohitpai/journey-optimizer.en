@@ -40,6 +40,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 
 * The number of activities in a journey is limited to 50. The number of activities is displayed on the upper left section of the journey canvas. This will help in readability, QA and troubleshooting. 
 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 100 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 100 live journeys at a time, please create a ticket for customer care and we will help you reach your goals. 
+* When using an audience qualification in a journey, that audience qualification activity may take up to 10 minutes to be active and listen to profiles entering or exiting the audience.
 
 ### General actions {#general-actions-g}
 
@@ -59,6 +60,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 
 ### Custom actions {#custom-actions-g}
 
+* A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions.
 * The custom action URL does not support dynamic parameters.
 * POST, PUT and GET call methods are supported
 * The name of the query parameter or header must not start with "." or "$"
