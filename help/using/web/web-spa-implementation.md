@@ -4,12 +4,9 @@ description: Learn how to implement SPA views in Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: yes
-hidefromtoc: yes
-
+level: Intermediate
 ---
-# Single-page application implementation {#web-spa-implementation}
+# Implement single-page applications (SPAs) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK provides rich features that equip your business to execute personalization on next-generation, client-side technologies such as single-page applications (SPAs).
 
@@ -19,7 +16,7 @@ Modern web applications, such as single-page applications (SPAs), have instead a
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Benefits of AEP Web SDK for SPAs
+## Benefits of Adobe Experience Platform Web SDK for SPAs {#web-spa-benefits}
 
 Here are some benefits to using Adobe Experience Platform Web SDK for your single-page applications:
 
@@ -27,7 +24,7 @@ Here are some benefits to using Adobe Experience Platform Web SDK for your singl
 * Tremendously improve the user experience on your site because offers are shown immediately via the cache without lag time introduced by traditional server calls.
 * One-time developer setup enables marketers to create and run personalization and experimentation activities via Adobe Journey Optimizer Web visual editor on your SPA.
 
-## XDM Views and single-page applications
+## XDM Views and single-page applications {#web-spa-xdm}
 
 The Adobe **[!UICONTROL Journey Optimizer]** web editor takes advantage of a concept called views: a logical group of visual elements that together make up an SPA experience. A single-page application can, therefore, be considered as transitioning through views, instead of URLs, based on user interactions. A view can typically represent a whole site, a single page or grouped visual elements within a page.
 
@@ -87,7 +84,7 @@ This requires performing the following steps in order to complete a one-time dev
 
 This section outlines two examples showing how to invoke the `sendEvent()` function in React for a hypothetical e-commerce SPA.
 
-### Example 1: A/B test home page
+### Example 1: A/B test home page {#web-spa-sample-1}
 
 The marketing team want to run A/B tests on the entire home page.
 
@@ -133,7 +130,7 @@ history.listen(onViewChange);
 
 ```
 
-### Example 2: Personalized products
+### Example 2: Personalized products {#web-spa-sample-2}
 
 The marketing team want to personalize the second row of products by changing the price label color to red after a user clicks to see all Men products.
 
