@@ -297,6 +297,7 @@ solution: Journey Optimizer
   + Profiles{#profiles}
     + [Get started with profiles](using/audience/get-started-profiles.md)
     + [Create test profiles](using/audience/creating-test-profiles.md)
+    + [Work with computed attributes](using/audience/computed-attributes.md)
   + [Identities](using/audience/get-started-identity.md)
   + [License usage](using/audience/license-usage.md)
 + Track and monitor {#reporting}
