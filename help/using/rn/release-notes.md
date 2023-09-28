@@ -134,7 +134,7 @@ You now have the ability to encrypt files intended for your direct mail provider
 
 **Reporting**
 
-You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
+You can now export Journey Optimizer reports as CSV file. Learn more in the [detailed documentation](../reports/global-report.md#export-reports) and the [how-to video](../reports/global-report.md#video-csv).
 
 **Assets**
 
