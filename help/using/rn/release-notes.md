@@ -132,10 +132,6 @@ Two new fields, **Opt-in message** and **Help message**, have been added to the 
 
 You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key. [Learn more](../direct-mail/direct-mail-configuration.md)
 
-**Direct mail channel**
-
-You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key.
-
 **Reporting**
 
 You can now export Journey Optimizer reports as CSV file. [Learn more](../reports/global-report.md#export-reports)
