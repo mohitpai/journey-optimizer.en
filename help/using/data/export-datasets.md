@@ -20,9 +20,6 @@ You can export datasets to 6 cloud storage destinations which are accessible fro
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->These destinations are all available in beta and subject to change.
 
 Detailed information on each destination is available in Adobe Experience Platform documentation:
 
