@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Create an IP warmup plan
-description: Learn how to create an IP warmup plan
+description: Learn how to create an IP warmup plan in Journey Optimizer
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pools, group, subdomains, deliverability
+keywords: IP, group, subdomains, deliverability
 hide: yes
 hidefromtoc: yes
 
@@ -21,15 +21,19 @@ What you'll find in this documentation guide:
 * [Get started with IP warmup](ip-warmup-gs.md)
 * [Create IP warmup campaigns](ip-warmup-campaign.md)
 * **[Create an IP warmup plan](ip-warmup-plan.md)**
-* [Run the IP warmup plan](ip-warmup-running.md)
+* [Execute the IP warmup plan](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 Once you created one or more [IP warmup campaigns](ip-warmup-campaign.md) with a dedicated surface and the corresponding option enabled, you can start creating your IP warmup plan.
 
-## Fill in the IP warmup template {#upload-plan}
+## Prepare the IP warmup plan file {#prepare-file}
 
-Before being able to create an IP warmup plan in the Journey Optimizer interface, you need to fill in a template in Excel format with all the data that will feed your plan.
+IP warmup is an activity which consists in gradually increasing the volume of emails going out from your IPs and domain to the main Internet service providers (ISPs) - in order to establish your reputation as a legitimate sender.
+
+This activity is tipically performed with the help of a deliverability expert who helps to prepare a well thought-out plan based on the industry domains, use cases, regions, ISPs and various other factors.
+
+When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns. Before being able to create an IP warmup plan in the [!DNL Journey Optimizer] interface, you need to fill in this template with all the data that will feed your plan.
 
 >[!CAUTION]
 >
@@ -41,19 +45,16 @@ Below is an example of a file containing an IP warmup plan.
 
 ### IP Warmup Plan tab
 
-IP warmup is an activity which consists in gradually increasing the volume of emails going out from your IPs and domain to the main Internet service providers (ISPs) in order to establish your reputation as a legitimate sender.
+* In this example, a plan has been prepared spanning over 17 days (called "**runs**") to reach a target volume of over 1 million profiles.
 
-This activity is tipically performed with the help of a deliverability consultant or expert who prepares a well thought-to plan based on the industry domain, use case, region, ISPs and various other factors.
+* This planned is executed through 6 **phases**, each of them containing at least one run.
 
-* In this example, a plan has been prepared spanning over 17 days and to reach a target volume of xxx profiles.
+* You can have as many columns as you want for the domains you want to deliver to. In this example, the plan is divided into 6 columns: 5 of which correspond to the **main domain groups** to use in your plan (Gmail, Microsoft, Yahoo, Orange and Apple) and the sixth column, **Others**, contains all the remaining addresses from other domains.
+* The **Engagement Days** column shows that only the profiles engaged with your brand over the last 30 days are targeted.
 
-* This planned is executed through 6 phases.
+The idea is to progressively increase the number of targeted addresses in each run, while reducing the number of runs for each phase.
 
-* You can have as many columns as you want for the domains you want to deliver to. In this example, the plan is divided into four columns which correspond to the domain groups to use in your plan: Gmail, Adobe, Yahoo and Others.
-
-The idea is to have more runs in the first phases and to progressively increase the number of targeted addresses while reducing the number of runs.
-
-The list of out-of-the-box domains is as follows:
+The out-of-the-box main domain groups you can add to your plan are listed below:
 
 * Gmail
 * Adobe
@@ -73,9 +74,11 @@ The list of out-of-the-box domains is as follows:
 
 ### Custom Domain Group tab
 
-You can also add more columns with your custom domain groups. 
+You can also add more columns to your plan by including custom domain groups. 
 
-Use the **[!UICONTROL Custom Domain Group]** tab to define a new domain and for each domain you can add all the subdomains it covers.<!--TBC-->
+Use the **[!UICONTROL Custom Domain Group]** tab to define a new domain group. For each domain, you can add all the subdomains it covers.<!--TBC-->
+
+For example, if you add the custom domain Luma, you want the following subdomains to be included: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
 ## Access and manage IP warmup plans {#manage-ip-warmup-plans}
 
@@ -85,12 +88,12 @@ Use the **[!UICONTROL Custom Domain Group]** tab to define a new domain and for 
 
 1. You can filter on the status. The different statuses are:
 
-    * **Not started**: no run has been activated yet. [Learn more](ip-warmup-running.md#define-runs)
-    * **In progress / Live**: the plan takes this status as soon as the first run in the first phase has been successfully activated. [Learn more](ip-warmup-running.md#define-runs)
-    * **Completed**: the plan has been marked as completed. This option is only available if all the runs in the plan are in **[!UICONTROL Succeeded]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**). [Learn more](ip-warmup-running.md#define-runs#mark-as-completed)
-    * **Paused**<!--: to check (user action)-->
+    * **Not started**: no run has been activated yet. [Learn more](ip-warmup-execution.md#define-runs)
+    * **Live**: the plan changes to this status as soon as the first run in the first phase has been successfully activated. [Learn more](ip-warmup-execution.md#define-runs)
+    * **Completed**: the plan has been marked as completed. This option is only available if all the runs in the plan are in **[!UICONTROL Succeeded]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**). [Learn more](ip-warmup-execution.md#define-runs#mark-as-completed)
+    <!--* **Paused**: to check (user action)-->
 
-1. To delete an IP warmup plan, select the **[!UICONTROL Delete]** icon next to a list item and confirm deletion.
+1. To delete an IP warmup plan, select the **[!UICONTROL Delete]** icon next to the name of a plan and confirm deletion.
 
     ![](assets/ip-warmup-delete-plan.png)
 
@@ -117,8 +120,6 @@ When one or more live campaigns with the **[!UICONTROL IP warmup plan activation
 >[!CAUTION]
 >
 >To create, edit and delete the IP warmup plans, you must have the **[!UICONTROL Deliverability Consultant]** permission. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
->
->Work with your deliverability consultant to make sure your IP warmup plan template is correctly set up. <!--TBC-->
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** menu, then click **[!UICONTROL Create IP warmup plan]**.
 
@@ -132,24 +133,15 @@ When one or more live campaigns with the **[!UICONTROL IP warmup plan activation
 
     >[!CAUTION]
     >
-    >You must select the same surface as the one selected in the campaign you want to associate with your IP warmup plan. [Learn how to create an IP warmup campaign](#create-ip-warmup-campaign)
+    >You must select the same surface as the one selected in the campaign you want to associate with your IP warmup plan. [Learn how to create an IP warmup campaign](ip-warmup-campaign.md)
 
-1. Upload the Excel file containing your IP warmup plan<!--which formats are allowed?-->. You can use the template provided by the deliverability team.<!--TBC?--> [Learn more](#upload-plan)
+1. Upload the Excel file containing your IP warmup plan. [Learn more](#prepare-file)
+    
     <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
 
     ![](assets/ip-warmup-upload-success.png)
 
-1. Click **[!UICONTROL Create]**. The number of phases defined in the file you uploaded are automatically displayed will all the runs for each phase. [Learn more](#upload-plan)
+1. Click **[!UICONTROL Create]**. All the phases, runs, columns and their content defined in the file you uploaded are automatically displayed in the [!DNL Journey Optimizer] interface. [Learn more](ip-warmup-execution.md)
 
-    ![](assets/ip-warmup-plan-phases.png)
-
-## Re-upload an IP warmup plan {#re-upload-plan}
-
-You can re-upload another IP warmup plan using the corresponding button.
-
-![](assets/ip-warmup-re-upload-plan.png)
-
->[!NOTE]
->
->The IP warmup plan details will change as per the newly uploaded file. The complete runs and the activated runs are not be affected.
+    ![](assets/ip-warmup-plan-uploaded.png)

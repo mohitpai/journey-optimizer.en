@@ -70,6 +70,23 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Computed attributes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
+Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">detailed documentation</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
+
 ### Improvements {#sept-2023-improvements}
 
 This release comes with the improvements listed below.
@@ -82,7 +99,6 @@ This release comes with the improvements listed below.
 **Personalization**
 
 * In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.    
-* You can now use Adobe Experience Platform computed attributes for personalization in Journey Optimizer. Computed attributes are aggregated values that are computed based on Profile-enabled Experience Event datasets ingested into Adobe Experience Platform.    
 
 **Alerting**
 
@@ -90,7 +106,7 @@ This release comes with the improvements listed below.
 
 **Web channel**
 
-* Single-page applications (SPAs) can be now authored in the web designer visual editor. You can now select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation; this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs.
+* Single-page applications (SPAs) can be now authored in the web designer visual editor, which allows you to select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. To create and run Adobe Journey Optimizer web campaigns on SPAs, one-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation.
 
 * When editing a page using the web designer, you can now add new changes to your content directly from the **Modifications** pane - without the need to select a component and edit it from the designer interface.
 * When setting up web subdomains, you now have the option of adding you own subdomain - in addition to using a subdomain already delegated to Adobe.    
