@@ -100,11 +100,11 @@ This release comes with the improvements listed below.
 
 <!--**Personalization**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.    -->  
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. 
 
 **Alerting**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->  
 
 **Web channel**
 
