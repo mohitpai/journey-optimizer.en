@@ -226,11 +226,13 @@ solution: Journey Optimizer
 + Web channel {#web}
   + [Get started with web channel](using/web/get-started-web.md)
   + [Web channel prerequisites](using/web/web-prerequisites.md)
+  + [Single-page application implementation](using/web/web-spa-implementation.md)
   + [Create web experiences](using/web/create-web.md)
   + Author web pages {#author-web-pages}
     + [Edit web page content](using/web/edit-web-content.md)
     + [Manage modifications](using/web/manage-web-modifications.md)
     + [Monitor your web campaigns](using/web/monitor-web-campaigns.md)
+    + [Author single-page applications](using/web/web-spa.md)
   + [Configure web subdomains](using/web/web-delegated-subdomains.md)
 + Code-based experience {#code-based-experience}
   + [Get started with code-based channel](using/code-based/get-started-code-based.md)
