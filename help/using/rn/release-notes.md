@@ -33,7 +33,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
 Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/computed-attributes.gi">
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
