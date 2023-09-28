@@ -473,7 +473,7 @@ solution: Journey Optimizer
   + [Support for archiving](using/configuration/archiving-support.md)
   + [Change execution addresses](using/configuration/primary-email-addresses.md)
   + [Configure frequency rules](using/configuration/frequency-rules.md)
-  + [Implement Single-page application](using/web/web-spa-implementation.md)
+  + [Implement Single-page applications](using/web/web-spa-implementation.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + Integrate with external systems {#external-systems}
