@@ -125,7 +125,7 @@ This release comes with the improvements listed below.
 
 **Email channel**
 
-A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe Journey Optimizer suppression list.   
+A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe [!DNL Journey Optimizer] suppression list. [Learn more](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS channel**
 
