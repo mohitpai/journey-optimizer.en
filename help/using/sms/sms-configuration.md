@@ -99,7 +99,7 @@ To create a channel surface, follow these steps:
 
 1. Enter a name and a description (optional) for the surface, then select the SMS channel.
 
-    ![](assets/sms_preset.png)
+    ![](assets/sms-create-surface.png)
 
     >[!NOTE]
     >
@@ -107,26 +107,26 @@ To create a channel surface, follow these steps:
 
 1. Define the **SMS settings**.
 
-     ![](assets/preset-sms.png)
+    ![](assets/sms-surface-settings.png)
 
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the surface: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+    Start by selecting the **[!UICONTROL SMS Type]** that will be sent with the surface: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-        * Choose **Marketing** for promotional SMS: these messages require user consent.
-        * Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
+    * Choose **Marketing** for promotional SMS: these messages require user consent.
+    * Choose **Transactional** for non-commercial messages such as order confirmation, password reset notifications, or delivery information for example.
 
-        >[!CAUTION]
-        >
-        >**Transactional** SMS messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
+    When creating a SMS message, you must choose a valid channel surface matching the category you selected for your message.
 
-        When creating a SMS message, you must choose a valid channel surface matching the category you selected for your message.
+    >[!CAUTION]
+    >
+    >**Transactional** SMS messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts.
     
-    * Select the **[!UICONTROL SMS configuration]** to associate with the surface.
+1. Select the **[!UICONTROL SMS configuration]** to associate with the surface.
         
-      For more on how to configure your environment to send SMS messages, refer to [this section](#create-api).
+    For more on how to configure your environment to send SMS messages, refer to [this section](#create-api).
 
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
 
-    * Select your **[!UICONTROL SMS Execution Field]** to select the **[!UICONTROL Profile attribute]** associated with the profiles' phone numbers.
+1. Select your **[!UICONTROL SMS Execution Field]** to select the **[!UICONTROL Profile attribute]** associated with the profiles' phone numbers.
 
 1. If you want to use the URL shortening function in your SMS messages, select an item from the **[!UICONTROL Subdomain]** list.
 
@@ -134,11 +134,15 @@ To create a channel surface, follow these steps:
     >
     >To be able to select a subdomain, make sure you have previously configured at least one SMS subdomain. [Learn how](sms-subdomains.md)
 
+1. Enter the **[!UICONTROL Opt-out number]** you want to use for this surface. When profiles opt out from this number, you are still able to send them messages from other numbers you may be using to send out SMS messages with [!DNL Journey Optimizer].
+
+    >[!NOTE]
+    >
+    >In [!DNL Journey Optimizer], SMS opt-out is no longer managed at the channel level. It is now specific to a number.
+
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
 
-    ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+    ![](assets/sms-submit-surface.png)
 
 1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
