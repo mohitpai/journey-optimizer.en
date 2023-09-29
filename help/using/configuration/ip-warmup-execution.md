@@ -117,23 +117,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-edit-run.png)
 
-1. Select the **[!UICONTROL Pause for errors]** option if you want to pause the runs in case an error happens.<!--can't see the Paused status for runs? Is it failed?-->
+1. Select the **[!UICONTROL Pause for errors]** option to cancel a run if the qualified profiles are less than the targeted profiles once the audience has been evaluated for that run.
 
     ![](assets/ip-warmup-plan-pause.png)
 
-    For example, after the segmentation job has run, if the targeted number of profiles is less than expected, the run is cancelled.
-
-1. **[!UICONTROL Activate]** the run. Make sure you have scheduled enough time to allow for the segmentation job to be executed.
-
-    ![](assets/ip-warmup-plan-activate.png)
-
-    >[!CAUTION]
-    >
-    >Each run must be activated at least 12 hours before the actual send time. Otherwise, segmentation may not be completed. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-    <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-    <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL Activate]** the run. [Learn more](#activate-run)
 
 1. The status ot this run changes to **[!UICONTROL Live]**. The different run statuses are listed in [this section](#monitor-plan). If the campaign execution has not started, you can stop a live run.<!--why?-->
 
@@ -147,6 +135,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## Activate a run {#activate-run}
+
+To activate a run, select the **[!UICONTROL Activate]** button.
+
+Make sure you have scheduled enough time to allow for the segmentation job to be executed.
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>Each run must be activated at least 12 hours before the actual send time. Otherwise, segmentation may not be completed.
+
+When you activate a run, several segments are automatically created:
+
+* If activating the first run of a phase:
+
+    * A segment is created for the campaign audiences excluded (if any).
+    * Another segment is created for the domain groups excluded (if any).
+
+* When activating any run:
+
+    * Another segment is created for the last engagement filter.
+    * An audience composition is created corresponding to the audience the campaign will be sent to.
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## Manage your plan {#manage-plan}
 
 At any point, if your IP warmup plan is not performing as expected, you can take the actions below.
@@ -159,7 +178,7 @@ If you want to add a new phase starting from a specific run, select the **[!UICO
 
 A new phase is created for the remaining runs of the current phase.
 
-For example, if you select this option for Run #4, Runs #4 to #8 will be moved to a new phase.
+For example, if you select this option for Run #4, Runs #4 to #8 will be moved to a new phase just after the current phase.
 
 Follow the steps [above](#define-phases) to define the new phase.
 
@@ -191,13 +210,23 @@ If your IP warmup plan is not performing as expected (for example, if you observ
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-All the previously executed runs will be marked as completed. The new plan is displayed under the first plan.
+All the previously executed runs will be read-only. The new plan is displayed under the first plan.
 
 Follow the steps [above](#define-phases) to define the phases from the new plan.
 
 >[!NOTE]
 >
->The IP warmup plan details will change as per the newly uploaded file. The live and completed runs are not affected.
+>The IP warmup plan details will change as per the newly uploaded file. The previously executed runs (no matter their [status](#monitor-plan)) are not affected.
+
+Let's take an example:
+
+* With the initial IP warmup plan, Phase 2 had 9 runs.
+
+* 4 runs were executed (not matter if failed, completed or cancelled - as long as a run has been attempted, it is an executed run).
+
+* If you re-upload a new plan, Phase 2 with the first 4 executed runs will go into read-only mode.
+
+* The remaining 5 runs (which are in draft state) are moved to a new phase (Phase 3) which shows up as per the newly uploaded plan.
 
 ## Monitor the plan {#monitor-plan}
 
@@ -211,6 +240,6 @@ A run can have the following statuses:
 
 * **[!UICONTROL Draft]** : whenever a run is created, either when [creating a new plan](ip-warmup-plan.md) or [adding a run](#define-runs) from the user interface, it takes the **[!UICONTROL Draft]** status.
 * **[!UICONTROL Live]**: whenever you activate a run, it takes the **[!UICONTROL Live]** status.
-* **[!UICONTROL Completed]**<!--TBC-->: the campaign execution for this run is completed. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Completed]**: the campaign execution for this run is completed. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** run was cancelled using the **[!UICONTROL Stop]** button. This button is only available if the campaign execution has not started. [Learn more](#define-runs)
-* **[!UICONTROL Failed]**: an error was encountered by the system or the campaign used for the current phase was stopped<!--what should the user do in that case?-->.
+* **[!UICONTROL Failed]**: an error was encountered by the system or the campaign used for the current phase was stopped. If a run fails, you can schedule another run for the next day.

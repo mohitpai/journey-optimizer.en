@@ -137,6 +137,8 @@ To create a channel surface, follow these steps:
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
 
     ![](assets/sms_preset_2.png)
+<!--
+1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
 
 1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
