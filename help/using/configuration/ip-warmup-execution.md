@@ -43,6 +43,11 @@ Each phase is composed of several runs, to which you assign a single campaign.
 >abstract="Select the domains that you want to exclude from the current phase. Domain exclusion requires a non-executed phase, so you may have to split a running phase to add exclusions."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Split a phase"
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="Define the phases of your plan"
+>abstract="Each phase is composed of several runs, to which you assign a single campaign."
+
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
 At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
@@ -98,6 +103,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
     >If you delete all the phases from the IP warmup plan, it is recommended to re-upload a plan. [Learn more](#re-upload-plan)
 
 ## Define the runs {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="Define each run"
+>abstract="Define and activate each run for all the phases."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="Filter on engagement"
+>abstract="This column is a filter that targets only the users engaged with your brand over the last 20 days for example. You can also change this setting through the **Edit run** option."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="Set a time window"
+>abstract="You can define a time window during which the IP warmup campaign can be executed in case there is any delays in the segmentation job."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="Cancel runs with audience errors"
+>abstract="Select this option to cancel a run if the qualified profiles are less than the targeted profiles once the audience has been evaluated for that run."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="View the qualified profiles"
+>abstract="This column displays the number of qualified profiles. Once the audience has been evaluated for a run, if there are more targeted profiles than qualified profiles, the run is still executed, unless the **Pause for errors** option is enabled. In this case, the run is cancelled."
 
 1. Select a schedule for each run.
 
