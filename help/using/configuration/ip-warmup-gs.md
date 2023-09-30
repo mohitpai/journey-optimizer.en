@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, deliverability
 hide: yes
 hidefromtoc: yes
-exl-id: 71dfa49e-2cb1-4032-bd86-67d3b258a4d5
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 ---
 # Get started with IP warmup plans {#ip-warmup-gs}
 

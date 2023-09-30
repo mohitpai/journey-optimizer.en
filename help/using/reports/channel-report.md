@@ -7,6 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 ---
 # Channel reports {#channel-report}
 

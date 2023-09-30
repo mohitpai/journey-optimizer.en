@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, message, campaign
-exl-id: 61a0be14-c5d9-442d-9c79-516a289e660c
+exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 ---
 # Get started with direct mail {#create-direct}
 

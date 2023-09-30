@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: yes
 hidefromtoc: yes
-exl-id: 01bea303-0e4e-45e4-8a00-020e69d40ee6
+exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 ---
 # Content generation with the Content assistant {#title-content-assistant}
 

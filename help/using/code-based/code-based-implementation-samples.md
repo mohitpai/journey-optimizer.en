@@ -8,7 +8,7 @@ level: Experienced
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 ---
 # Code-based implementation methods samples {#implementation-samples}
 

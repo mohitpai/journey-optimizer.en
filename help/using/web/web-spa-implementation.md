@@ -5,6 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: c36d793d-0aa6-4a7a-94f2-dbfe6b644df8
 ---
 # Implement single-page applications (SPAs) {#web-spa-implementation}
 

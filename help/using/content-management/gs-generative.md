@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: yes
 hidefromtoc: yes
-exl-id: 06cd70f0-baa7-44c1-9df6-9672d954bba6
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 ---
 # Get started with the Content assistant {#gs-content-assistant}
 

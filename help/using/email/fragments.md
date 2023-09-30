@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+exl-id: 8869f00d-47c5-4243-a199-a0c681f37c14
 ---
 # Work with fragments {#fragments}
 
@@ -268,4 +268,3 @@ To break inheritance, follow the steps below:
 Learn how to manage, author, and use fragments in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
-

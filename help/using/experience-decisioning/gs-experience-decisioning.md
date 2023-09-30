@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: 903c1cb0-3e15-4f44-a9bf-bdb436316531
+exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 ---
 # Get started with Experience Decisioning {#get-started-experience-decisioning}
 

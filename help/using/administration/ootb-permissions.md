@@ -8,7 +8,7 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 keywords: permissions, authoring, messages
-exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
+exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 ---
 # Built-in permissions {#ootb-permissions}
 

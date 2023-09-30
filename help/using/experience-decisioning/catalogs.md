@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
+exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 ---
 # Items catalog {#catalog}
 

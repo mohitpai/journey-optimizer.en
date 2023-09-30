@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: 04d9dc5d-9801-4914-952a-260f4d3a36f3
+exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 ---
 # Collections {#collections}
 

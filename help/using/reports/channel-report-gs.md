@@ -7,6 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 ---
 # Get started with Channel reports {#channel-report-gs}
 

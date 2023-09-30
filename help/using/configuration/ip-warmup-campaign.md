@@ -10,7 +10,7 @@ level: Intermediate
 keywords: IP, pools, deliverability
 hide: yes
 hidefromtoc: yes
-exl-id: 5325cc55-6526-4fd7-beef-9a4ea3e1e52b
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 ---
 # Create IP warmup campaigns {#create-ip-warmup-campaign}
 

@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 ---
 # Author single-page applications {#web-author-spas}
 

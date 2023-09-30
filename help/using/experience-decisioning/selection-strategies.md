@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: ea6baa60-6733-4d8c-ad1d-38f2f43be42e
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 ---
 # Create selection strategies {#selection-strategies}
 

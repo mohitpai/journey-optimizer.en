@@ -8,7 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 badge: label="Beta"
-exl-id: d0114203-28ae-40dd-8a4f-fbaf864f2b29
+exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 ---
 # Ranking methods {#rankings}
 

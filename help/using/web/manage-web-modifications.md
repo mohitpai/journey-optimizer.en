@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 ---
 # Manage web modifications {#manage-web-modifications}
 
@@ -179,4 +179,3 @@ Each change creates a new element in the **[!UICONTROL Modifications]** panel. B
 If you use the **[!UICONTROL Page `<head>`]** modification type for two campaigns impacting the same URL, the JavaScript is injected into the page from both campaigns. [!DNL Journey Optimizer] automatically determines the order of the delivered content. Make sure the code does not depend on placement. It is up to you to make sure there are no conflicts in the code.
 
 +++
-

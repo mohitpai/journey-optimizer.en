@@ -6,8 +6,8 @@ description: Learn how to work with computed attributes.
 feature: Profiles
 role: User
 level: Beginner
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 ---
-
 # Work with computed attributes {#computed-attributes}
 
 Computed attributes allow you to summarize individual behavioral events into computed profile attributes available on Adobe Experience Platform. These computed attributes are based on Profile-enabled Experience Event datasets ingested into Adobe Experience Platform and serve as aggregated data points stored within customer profiles.

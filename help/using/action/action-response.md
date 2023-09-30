@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, journeys, API
-exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 ---
 # Use API call responses in custom actions {#custom-action-enhancements}
 

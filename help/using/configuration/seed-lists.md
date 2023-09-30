@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seedlist, seed, configuration
-exl-id: 0251f16a-37b0-4129-ac1b-fc062f613844
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 ---
 # Use seed lists {#seed-lists}
 
