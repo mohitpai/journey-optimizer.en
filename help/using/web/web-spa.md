@@ -17,7 +17,9 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 >abstract="The changes will be applied only for selected views. Views can be discovered using the **Browse** mode and navigate to them. Can't find the view you are looking for?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
-**Single-page applications** (SPAs) can now be authored in the web designer visual editor. This allows you to select which specific views you want to apply your web page modifications to.
+**Single-page applications** (SPAs) can now be authored in the web designer visual editor. This allows you to select which specific **views** you want to apply your web page modifications to.
+
+[Learn how to author single-page applications in this video](#video)
 
 A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages.
 
@@ -49,7 +51,7 @@ Once SPAs setup is done in the Adobe Experience Platform Web SDK implementation,
 
 ## Apply modifications to other views {#apply-modifications-views}
 
-Once you adeed a modification while being in a specific view, you can apply it to other selected views. Follow the steps below.
+Once you added a modification while being in a specific view, you can apply it to other selected views. Follow the steps below.
 
 >[!CAUTION]
 >
@@ -72,3 +74,14 @@ Once you adeed a modification while being in a specific view, you can apply it t
 1. Swap to **[!UICONTROL Browse]** mode to check the modifications are applied on the desired pages.
 
     ![](assets/web-designer-modifications-applied-view.png)
+
+## How-to video{#video}
+
+This video explains how to:
+
+* Discover SPA views using **[!UICONTROL Browse]** mode
+* Perform authoring on the current view
+* Apply website modifications to multiple views or to all views that were discovered
+* Do bulk actions on modifications
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
