@@ -52,7 +52,7 @@ You can easily manage all the components, adjustments and styles you added to yo
 
 When editing a page using the web designer, you can  add new changes to your content directly from the **[!UICONTROL Modifications]** pane - without the need to select a component and edit it from the web designer interface. Follow the steps below.
 
-1. From the **[!UICONTROL Modifications]**, click the **[!UICONTROL More actions]** button.
+1. From the **[!UICONTROL Modifications]** pane, click the **[!UICONTROL More actions]** button.
 
 1. Select **[!UICONTROL Add a modification]**.
 
@@ -60,7 +60,7 @@ When editing a page using the web designer, you can  add new changes to your con
 
 1. Select the modification type:
 
-    * **[!UICONTROL CSS Selector]**- [Learn more](#css-selector)
+    * **[!UICONTROL CSS Selector]** - [Learn more](#css-selector)
     * **[!UICONTROL Page `<Head>`]** - [Learn more](#page-head)
 
 1. Enter your content and **[!UICONTROL Save]** your changes.
