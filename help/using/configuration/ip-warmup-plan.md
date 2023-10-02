@@ -80,6 +80,8 @@ Use the **[!UICONTROL Custom Domain Group]** tab to define a new domain group. F
 
 For example, if you add the custom domain Luma, you want the following subdomains to be included: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Access and manage IP warmup plans {#manage-ip-warmup-plans}
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** menu. All the IP warmup plans created so far are displayed.
@@ -90,7 +92,7 @@ For example, if you add the custom domain Luma, you want the following subdomain
 
     * **Not started**: no run has been activated yet. [Learn more](ip-warmup-execution.md#define-runs)
     * **Live**: the plan changes to this status as soon as the first run in the first phase has been successfully activated. [Learn more](ip-warmup-execution.md#define-runs)
-    * **Completed**: the plan has been marked as completed. This option is only available if all the runs in the plan are in **[!UICONTROL Succeeded]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**). [Learn more](ip-warmup-execution.md#define-runs#mark-as-completed)
+    * **Completed**: the plan has been marked as completed. This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**). [Learn more](ip-warmup-execution.md#mark-as-completed)
     <!--* **Paused**: to check (user action)-->
 
 1. To delete an IP warmup plan, select the **[!UICONTROL Delete]** icon next to the name of a plan and confirm deletion.

@@ -132,11 +132,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-send-time.png)
 
-1. Optionnally, you can define a time window during which the IP warmup campaign can be executed in case there is any delays in the segmentation job. To do so, click the Properties icon on top left, next to the name of the plan, and use the **[!UICONTROL Retry run time]** drop-down list to select a duration - up to 240 minutes (4 hours).
+1. Optionnally, you can define a time window during which the IP warmup campaign can be executed in case there is any delays in the [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} job. To do so, click the Properties icon on top left, next to the name of the plan, and use the **[!UICONTROL Retry run time]** drop-down list to select a duration - up to 240 minutes (4 hours).
 
     ![](assets/ip-warmup-plan-retry-run-time.png)
 
-    For example, if you set a send time on a given day at 9pm, and select 120 minutes as the retry run time, this will allow a window of opportunity of 2 hours for the segmentation job to be executed.
+    For example, if you set a send time on a given day at 9am, and select 120 minutes as the retry run time, this will allow a window of opportunity of 2 hours (9am - 11am) for the segmentation job to be executed.
 
     >[!NOTE]
     >
@@ -152,7 +152,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL Activate]** the run. [Learn more](#activate-run)
 
-1. The status ot this run changes to **[!UICONTROL Live]**. The different run statuses are listed in [this section](#monitor-plan). If the campaign execution has not started, you can stop a live run.<!--why?-->
+1. The status ot this run changes to **[!UICONTROL Live]**. The different run statuses are listed in [this section](#monitor-plan).
+
+1. If the campaign execution has not started, you can stop a live run.<!--why?-->
 
     ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -160,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
     >
     >Once the campaign execution has started, the **[!UICONTROL Stop]** button becomes unavailable.
 
-1. To add a run, select **[!UICONTROL Add a run below]** from the three dots icon.
+1. To add a run, select **[!UICONTROL Add a run below]** from the More actions icon.
 
     ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -168,7 +170,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 To activate a run, select the **[!UICONTROL Activate]** button.
 
-Make sure you have scheduled enough time to allow for the segmentation job to be executed.
+Make sure you have scheduled enough time to allow for the [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} job to be executed.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -176,17 +178,17 @@ Make sure you have scheduled enough time to allow for the segmentation job to be
 >
 >Each run must be activated at least 12 hours before the actual send time. Otherwise, segmentation may not be completed.
 
-When you activate a run, several segments are automatically created:
+When you activate a run, several segments are automatically created.
 
 * If activating the first run of a phase:
 
-    * A segment is created for the campaign audiences excluded (if any).
+    * A [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} is created for the campaign audiences excluded (if any).
     * Another segment is created for the domain groups excluded (if any).
 
 * When activating any run:
 
     * Another segment is created for the last engagement filter.
-    * An audience composition is created corresponding to the audience the campaign will be sent to.
+    * An [audience composition](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} is created corresponding to the audience the campaign will be sent to.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -194,14 +196,13 @@ When you activate a run, several segments are automatically created:
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## Manage your plan {#manage-plan}
 
 At any point, if your IP warmup plan is not performing as expected, you can take the actions below.
 
 ### Split a phase {#split-phase}
 
-If you want to add a new phase starting from a specific run, select the **[!UICONTROL Split to a new phase option]** from the three dots icon.
+If you want to add a new phase starting from a specific run, select the **[!UICONTROL Split to a new phase option]** from the More actions icon.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -251,7 +252,7 @@ Let's take an example:
 
 * With the initial IP warmup plan, Phase 2 had 9 runs.
 
-* 4 runs were executed (not matter if failed, completed or cancelled - as long as a run has been attempted, it is an executed run).
+* 4 runs were executed (not matter if failed, completed or cancelled<!--as long as a run has been attempted, it is an executed run-->).
 
 * If you re-upload a new plan, Phase 2 with the first 4 executed runs will go into read-only mode.
 
@@ -270,5 +271,5 @@ A run can have the following statuses:
 * **[!UICONTROL Draft]** : whenever a run is created, either when [creating a new plan](ip-warmup-plan.md) or [adding a run](#define-runs) from the user interface, it takes the **[!UICONTROL Draft]** status.
 * **[!UICONTROL Live]**: whenever you activate a run, it takes the **[!UICONTROL Live]** status.
 * **[!UICONTROL Completed]**: the campaign execution for this run is completed. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** run was cancelled using the **[!UICONTROL Stop]** button. This button is only available if the campaign execution has not started. [Learn more](#define-runs)
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** run was cancelled using the **[!UICONTROL Stop]** button, or you enabled the **[!UICONTROL Pause for errors]** option and an error happened. [Learn more](#define-runs)
 * **[!UICONTROL Failed]**: an error was encountered by the system or the campaign used for the current phase was stopped. If a run fails, you can schedule another run for the next day.
