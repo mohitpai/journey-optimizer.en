@@ -33,6 +33,8 @@ Decision rules allow you to define the audience for decision items by applying c
 
 For instance, let's consider a scenario where you have decision items featuring Yoga-related products designed for women. With decision rules, you can specigy that these items should only be displayed to profiles whose gender is 'Female' and who have indicated a 'Point of Interest' in 'Yoga'.
 
+In addition to item and selection strategy level decision rules, you can also create additional parameters for your intended audience at the campaign level. [Learn more](../campaigns/create-campaign.md)
+
 The list of decision rules is accessible in the **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** menu.
 
 <!--![](assets/decision-rules-list.png)-->
