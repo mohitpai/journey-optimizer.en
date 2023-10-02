@@ -84,7 +84,7 @@ Additionally, computed attributes simplifies segmentation and journey workflows 
 <tr>
 <td>
 <p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
-<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../in-app/inapp-configuration.md#channel-prerequisites">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
