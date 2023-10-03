@@ -7,7 +7,8 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 ---
 # Create decision policies {#create-decision}
 
@@ -178,11 +179,11 @@ The ranked offers are now as follows: Offer 5 , Offer 3, Offer 4, Offer 2, Offer
 
 ## Use the decision policy in the code editor {#use-decision-policy}
 
-Once created, the decision policy can be used in the [code editor](../code-based/create-code-based.md#edit-code). To do so, follow the steps below.
+Once created, the decision policy can be used in the [Expression editor](../code-based/create-code-based.md#edit-code). To do so, follow the steps below.
 
 >[!NOTE]
 >
->The code editor leverages the [!DNL Journey Optimizer] Expression editor with all its personalization and authoring capabilities. [Learn more](../personalization/personalization-build-expressions.md)
+>Code-based experience leverages the [!DNL Journey Optimizer] Expression editor with all its personalization and authoring capabilities. [Learn more](../personalization/personalization-build-expressions.md)
 
 1. Click the + icon. The code corresponding to the decision policy is added. Now you can add all the decision attributes you want inside that code.
 
@@ -194,7 +195,7 @@ Once created, the decision policy can be used in the [code editor](../code-based
 
 1. Click the decision policy. The decision attributes are displayed.
 
-    These attributes are stored in the **[!UICONTROL Offers]** catalog's schema. Custom attributes are stored in the **_cjmstage** folder and standard attributes in the **_experience** folder. [Learn more on the Offers catalog's schema](catalogs.md)
+    These attributes are stored in the **[!UICONTROL Offers]** catalog's schema. Custom attributes are stored in the **`_<imsOrg`>** folder and standard attributes in the **`_experience`** folder. [Learn more on the Offers catalog's schema](catalogs.md)
 
     ![](assets/decision-code-based-decision-attributes.png)
 

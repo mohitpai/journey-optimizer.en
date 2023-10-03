@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 ---
 # Create selection strategies {#selection-strategies}
 
@@ -111,4 +112,3 @@ Once created, you can use this formula in a selection strategy. If multiple offe
 You can also use a trained model system that automatically ranks offers to display for a given profile by selecting an AI model. Learn how to create an AI model in [this section](ranking.md).
 
 Once an AI model has been created, you can use it in a selection strategy. If multiple offers are eligible, the trained model system will determine which offer should be presented first for this selection strategy.
-

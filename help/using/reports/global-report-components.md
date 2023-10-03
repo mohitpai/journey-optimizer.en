@@ -7,7 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
+exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 ---
 # List of components {#list-of-components-global}
 

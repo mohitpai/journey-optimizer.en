@@ -35,6 +35,8 @@ The personalization is based on the profile data that are managed by the **XDM I
 >[!CAUTION]
 >The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
+In addition, you can also leverage **computed attributes** to personalize your content. Computed attributes are based on Profile-enabled Experience Event datasets ingested into Adobe Experience Platform and serve as aggregated data points stored within customer profiles that summarize individual behavioral events [Learn how to work with computed attributes](../audience/computed-attributes.md)
+
 ## Add personalization in different contexts {#contexts}
 
 [!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).

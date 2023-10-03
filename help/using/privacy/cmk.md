@@ -6,6 +6,7 @@ description: Learn how to setup and manage customer keys for Adobe Journey Optim
 feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
+exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 ---
 # Set up and manage Customer Managed Keys for Adobe Journey Optimizer {#cmk}
 

@@ -42,7 +42,7 @@ To create a split audience in audience composition follow these steps:
 
 1. In Path 1 - choose a label to help you define the non-personalized audience.
 
-1. Choose the appropriate value from this list: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=en#choice-values
+1. Choose the appropriate value from this list: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
 
     In this case we will use a "n" to signify NO as the opt-out for personalization
 

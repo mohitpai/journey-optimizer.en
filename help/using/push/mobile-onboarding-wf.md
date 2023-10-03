@@ -8,7 +8,7 @@ feature: Push
 role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
-exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
+exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 ---
 # Mobile onboarding quick start workflow {#mobile-wf}
 

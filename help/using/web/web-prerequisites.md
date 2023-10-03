@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 ---
 # Prerequisites and guardrails {#web-prerequisites}
 
@@ -21,7 +21,7 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 * Currently in [!DNL Journey Optimizer] you can only create web experiences in **campaigns**. [Learn more](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) page.
+* [!DNL Journey Optimizer] web campaigns target new profiles that have not been engaged before on other channels. This will increase your total engageable profile count, which may have cost implications if the contractual number of engageable profiles you purchased is exceeded. Licence metrics for each package are listed on the [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} page.
 
 
 >[!AVAILABILITY]
@@ -79,13 +79,7 @@ To download and install the Visual Editing Helper browser extension, follow the 
 
     ![](assets/web-visual-editing-extension-edge.png)
 
-<!--1. Launch [!DNL Journey Optimizer] in a new tab of your browser with the extension installed.
-
-1. Create a web channel campaign in [!DNL Journey Optimizer]. [Learn how](author-web.md#create-web-campaign)
-
-1. Open the [!DNL Journey Optimizer] web designer to start authoring your web experience. [Learn more](author-web.md)-->
-
-The Adobe Experience Cloud Visual Editing Helper is now automatically enabled when a website is opened in the [!DNL Journey Optimizer] web designer to power authoring.
+The Adobe Experience Cloud Visual Editing Helper is now automatically enabled when a website is opened in the [!DNL Journey Optimizer] [web designer](edit-web-content.md#work-with-web-designer) to power authoring.
 
 The extension does not have any conditional settings and handles all the settings automatically, including SameSite cookies settings.
 

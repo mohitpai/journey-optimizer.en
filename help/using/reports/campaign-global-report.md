@@ -16,7 +16,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 >title="Campaign global report"
 >abstract="The Campaign global report allows to measure the impact of your campaigns over a selected time period. Your report is divided into different widgets detailing your campaign's success and errors. Each reporting dashboard can be modified by resizing or removing widgets."
 
-Global reports, accessible from the All time tab, display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence. 
+Global reports, accessible from the **All time** tab, display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence. 
 
 Campaign global report can be accessed directly from your Campaign with the **[!UICONTROL View report]** button.
 

@@ -144,7 +144,7 @@ To set capping, follow the main steps below.
 
     >[!CAUTION]
     >
-    >It is not possible to enable or disable frequency capping for previously created offers. To do so, you need to duplicate the offer or create a new one.
+    >It is not possible to enable or disable frequency capping for previously created offers. To do so, you need to create a new offer.
 
 1. Define which **[!UICONTROL Capping event]** will be taken into account to increase the counter. [Learn more](#capping-event)
 

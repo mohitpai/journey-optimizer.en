@@ -110,23 +110,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Test and publish the journey {#testing-publishing}
 
-The **[!UICONTROL Read Audience]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the audience.
+The **[!UICONTROL Read Audience]** activity allows you to test the journey on a unitary profile.
 
-To do this, activate the test mode, then select the desired option from the left pane.
+To do this, activate the test mode.
 
 ![](assets/read-segment-test-mode.png)
 
-You can then configure and run the test mode as usual. [Learn how to test a journey](testing-the-journey.md).
+Configure and run the test mode as usual. [Learn how to test a journey](testing-the-journey.md).
 
-Once the test is running, the **[!UICONTROL Show logs]** button allows you to see the test results according to the selected test option:
+Once the test is running, the **[!UICONTROL Show logs]** button allows you to see the test results. For more on this, refer to [this section](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Single profile at a time]**: the test logs display the same information as when using the unitary test mode. For more on this, refer to [this section](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL Up to 100 profiles at once]**: the test logs allow you to track the progression of the audience export from Adobe Experience Platform, as well as the individual progress of all the persons that entered the journey.
-
-    Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
-
-    ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 Once the tests are successful, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the audience will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 

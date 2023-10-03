@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 ---
 # Get started with Experience Decisioning {#get-started-experience-decisioning}
 
@@ -60,5 +61,3 @@ The main steps to work with Experience Decisioning are as follows:
 1. **Create selection strategies**: Build selection strategies that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles.
 
 1. **Embed a decision policy into your code-based campaign**: Decision policies combine multiple selection strategies to determine the eligible decision items to display to the intended audience.
-
-<!--## Glossary-->

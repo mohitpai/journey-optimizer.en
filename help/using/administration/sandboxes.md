@@ -30,7 +30,7 @@ You can find the sandbox switcher control at the top-right of your screen next t
 
 >[!IMPORTANT]
 >
-> Sandboxes management can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator. For more information on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> Sandboxes management can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator.
 
 You can choose to assign different sandboxes to out-of-the-box or custom **[!UICONTROL Roles]**.
 

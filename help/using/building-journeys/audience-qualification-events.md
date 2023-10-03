@@ -25,14 +25,17 @@ Let's say you have a "silver customer" audience. With this activity, you can mak
 
 This type of event can be positioned as the first step or later in the journey.
 
->[!IMPORTANT]
->
->Keep in mind that Adobe Experience Platform audiences are calculated either once a day (**batch** audiences) or in real-time (**streamed** audiences, using the High Frequency Audiences option of Adobe Experience Platform).
->
->If the selected audience is streamed, the individuals belonging to this audience will potentially enter the journey in real-time. If the audience is batch, people newly qualified for this audience will potentially enter the journey when the audience calculation is executed on Adobe Experience Platform.
->
->Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity.
+### Important notes{#important-notes-segment-qualification}
 
+* Keep in mind that Adobe Experience Platform audiences are calculated either once a day (**batch** audiences) or in real-time (**streamed** audiences, using the High Frequency Audiences option of Adobe Experience Platform).
+
+* If the selected audience is streamed, the individuals belonging to this audience will potentially enter the journey in real-time. If the audience is batch, people newly qualified for this audience will potentially enter the journey when the audience calculation is executed on Adobe Experience Platform.
+
+* Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity.
+
+* When using an audience qualification in a journey, that audience qualification activity may take up to 10 minutes to be active and listen to profiles entering or exiting the audience.
+
+### Configure the activity{#cnfigure-segment-qualification}
 
 1. Unfold the **[!UICONTROL Events]** category and drop an **[!UICONTROL Audience Qualification]** activity into your canvas.
 
