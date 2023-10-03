@@ -118,6 +118,12 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activity_same-rank-collections.png)
 
+    >[!CAUTION]
+    >
+    >* If [AI model](../ranking/ai-models.md) is used in an evaluation criteria group, all the evaluation criteria in that group must use the AI ranking method and they must use the same specific AI model.
+    >
+    >* Only one evaluation criteria group can use AI model. Any other groups within a decision scope must use other ranking methods (priority or formula). [Learn more on ranking methods](../offer-activities/configure-offer-selection.md)
+
 1. To add another placement for your offers as part of this decision, use the **[!UICONTROL New scope]** button. Repeat the steps above for each decision scope.
 
     ![](../assets/activity_new-scope.png)
@@ -317,7 +323,7 @@ Select the **[!UICONTROL Edit]** button to go back to the decision edition mode,
 
 >[!IMPORTANT]
 >
->If changes are made to an offer decision which is being used in a journey’s message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
+>If changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it.  This will ensure that the changes are incorporated into the journey's message and that the message is consistent with the latest updates.
 
 Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
 
