@@ -176,9 +176,10 @@ solution: Journey Optimizer
       + [Design content from scratch](using/email/content-from-scratch.md)
       + [Import your content](using/email/existing-content.md)
       + [Code your own content](using/email/code-content.md)
-      + [Work with templates](using/email/email-templates.md)
+      + [Use email templates](using/email/use-email-templates.md)
     + Design your content {#add-content}
       + [Use content components](using/email/content-components.md)
+      + [Leverage visual fragments](using/email/use-visual-fragments.md)
       + [Add links and track messages](using/email/message-tracking.md)
       + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
@@ -189,9 +190,7 @@ solution: Journey Optimizer
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
-  + [Create content templates](using/email/content-templates.md)
   + [Use Experience Manager templates](using/email/aem-templates.md)
-  + [Work with fragments](using/email/fragments.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
@@ -265,7 +264,7 @@ solution: Journey Optimizer
     + Work with the Expression Editor {#expression-editor}
       + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
       + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-      + [Work with saved expressions](using/personalization/personalization-library.md)  
+      + [Use expression fragments](using/personalization/use-expression-fragments.md)  
       + [Personalization validation](using/personalization/personalization-validation.md)
     + Helper functions{#functions}
       + [Get started with helper functions](using/personalization/functions/functions.md)
@@ -282,6 +281,9 @@ solution: Journey Optimizer
     + Personalization use cases{#personalization-use-cases}    
       + [Order status notification](using/personalization/personalization-use-case.md)
       + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Manage reusable content {#reusable-content}
+    + [Work with content templates](using/content-management/content-templates.md)
+    + [Work with fragments](using/content-management/fragments.md)
   + Dynamic content {#dynamic}
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditional rules](using/personalization/create-conditions.md)

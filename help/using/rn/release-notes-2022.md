@@ -508,7 +508,7 @@ This page lists all the features and improvements for [!DNL Journey Optimizer] r
 
 **Email**
 
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages. [Learn more](../email/email-templates.md)
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages. [Learn more](../content-management/content-templates.md#save-as-template)
 
 
 **Administration**
@@ -676,7 +676,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 
 **Personalization**
 
-* You can now save more than 40 personalization expressions in the library. [Learn more](../personalization/personalization-library.md)
+* You can now save more than 40 personalization expressions in the library. [Learn more](../personalization/use-expression-fragments.md)
 
 ## February 2022 Release {#feb-2022-release}
 
@@ -708,7 +708,7 @@ As an Adobe Campaign Standard customer, you can now send emails, push notificati
 <tr>
 <td>
 <p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<p>For more information, refer to the <a href="../personalization/personalization-library.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../personalization/use-expression-fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

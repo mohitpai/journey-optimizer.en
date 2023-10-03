@@ -463,7 +463,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../content-management/fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -900,7 +900,7 @@ Note that each widget can be resized and deleted as needed.
 <p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.
+<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../content-management/content-templates.md">detailed documentation</a>.
 </p>
 </td>
 </tr>
