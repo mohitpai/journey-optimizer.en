@@ -101,4 +101,4 @@ A successful response returns information on the newly created personalized offe
 
 ## Limitations {#limitations}
 
-Offer representations and some offer constraints are currently not supported with the mobile [!DNL Experience Edge] workflows, for example `Capping`. The `Capping` field value specifies the number of times an offer can be presented across all users. For more details, see [Offer eligibility rules and constraints documentation](../../../offer-library/creating-personalized-offers.md).
+Offer representations and some offer constraints are currently not supported with the mobile [!DNL Experience Edge] workflows, for example `Capping`. The `Capping` field value specifies the number of times an offer can be presented across all users. For more details, see [Offer eligibility rules and constraints documentation](../../../../offer-library/creating-personalized-offers.md).
