@@ -1,15 +1,15 @@
 ---
-title: Update collection qualifiers
-description: Collection qualifiers allow you to better organize and sort through your offers.
+title: Update collections
+description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
+exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 ---
-# Update a collection qualifier {#update-collection-qualifier}
+# Update a collection {#update-collection}
 
-You can modify or update a collection qualifier (previously known as "tag") in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update a collection by making a PATCH request to the [!DNL Offer Library] API
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
@@ -20,7 +20,7 @@ The following table shows the valid values which comprise the *Content-Type* and
 | Header name | Value |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API format**
 
@@ -31,25 +31,30 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | The instance id of the tag you wish to update. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the collection you wish to update. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Request**
 
 ```shell
 curl -X PATCH \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0bf31c20-13f1-11eb-a752-e58fd7dc4cb3' \
   -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
 -d '[
     {
-        "op": "replace",
-          "path": "/_instance/xdm:name",
-          "value": "Sales and promotions for the holidays"
+            "op": "add",
+            "path": "/_instance/xdm:filterType",
+            "value": "anyTags"
+    },
+    {
+            "op": "add",
+            "path": "/_instance/xdm:ids",
+            "value": ["xcore:tag:124e147572cd7866"]
     }
 ]'
 ```
@@ -62,15 +67,15 @@ curl -X PATCH \
 
 **Response**
 
-A successful response returns the updated details of the collection qualifier, including its unique instance ID and collection qualifier `@id`.
+A successful response returns the updated details of the collection, including its unique instance ID and collection `@id`.
 
 ```json
 {
-    "instanceId": "d48fd160-13dc-11eb-bc55-c11be7252432",
-    "@id": "xcore:tag:124e147572cd7866",
-    "repo:etag": 2,
-    "repo:createdDate": "2020-10-21T20:34:34.486296Z",
-    "repo:lastModifiedDate": "2020-10-21T20:36:31.782607Z",
+    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
+    "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",
