@@ -35,7 +35,7 @@ To assign the corresponding permission to your **[!UICONTROL Role]**:
         
     ![](assets/channel_permission_1.png)
 
-1. Drag and drop the **[!UICONTROL Report]** resource to assign permission.
+1. Drag and drop the **[!UICONTROL Reports]** resource to assign permission.
 
     From the **[!UICONTROL Report]** resource drop-down, select the **[!UICONTROL View Channel Reports]** permission.
 
