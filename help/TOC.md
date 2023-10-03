@@ -467,11 +467,11 @@ solution: Journey Optimizer
                + [Update a collection](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
                + [Delete a collection](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
             + Decisions {#decisions-api}
-               + [List decisions](using/offers/api-reference/activities-api/legacy-apis/activities/activities-list.md)
-               + [Lookup a decision](using/offers/api-reference/activities-api/legacy-apis/activities/lookup.md)
-               + [Create a decision](using/offers/api-reference/activities-api/legacy-apis/activities/create.md)
-               + [Update a decision](using/offers/api-reference/activities-api/legacy-apis/activities/update.md)
-               + [Delete a decision](using/offers/api-reference/activities-api/legacy-apis/activities/delete.md)
+               + [List decisions](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [Lookup a decision](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [Create a decision](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [Update a decision](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [Delete a decision](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
     + Deliver offers using APIs {#offer-delivery-api}
         + [Get started with offer delivery APIs](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
