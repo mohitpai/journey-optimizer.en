@@ -108,7 +108,7 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ## Test mode for business events {#test-business}
 
-When using a [business event](../event/about-events.md), use the test mode to trigger a single test profile entrance in the journey, simulate the event and pass the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. You cannot use the **[!UICONTROL Up to 100 profiles at once]** option that exists for other audience based journeys. In test mode, there is no "Code view" mode available for journeys based on business events.
+When using a [business event](../event/about-events.md), use the test mode to trigger a single test profile entrance in the journey, simulate the event and pass the right profile ID. You have to pass the event parameters and the identifier of the test profile that will enter the journey in test. In test mode, there is no "Code view" mode available for journeys based on business events.
 
 Note that when you first trigger a business event, you cannot change the business event definition in the same test session. You can only make the same individual or a different individual enter the journey passing the same or another identifier. If you want to change business event parameters, you must stop and start again test mode.
 

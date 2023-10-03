@@ -39,6 +39,19 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_1.png)
 
+1. Choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution.
+
+    ![](assets/media_library_4.png)
+
+    +++
+    Learn how to switch Assets repository.
+
+    To change your Assets repository, select the Account icon in the upper right and click **[!UICONTROL Select Repository]**. 
+
+    ![](assets/media_library_3.png)
+
+    +++
+
 1. Double-click a folder from the central section or from the tree view to open it.
 
     You can also click **[!UICONTROL Create folder]** to create a new folder.
@@ -57,7 +70,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_12.png)
 
-1.  From [!DNL Adobe Journey Optimizer], select the **[!UICONTROL Asset picker]** menu from the left pane of the email designer.
+1. From [!DNL Adobe Journey Optimizer], select the **[!UICONTROL Asset picker]** menu from the left pane of the email designer.
 
     ![](assets/media_library_5.png)
 

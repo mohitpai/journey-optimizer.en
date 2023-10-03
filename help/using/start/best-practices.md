@@ -9,6 +9,7 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 ---
 # Best practices {#best-practices}
 
@@ -58,7 +59,4 @@ There are a number of best practices that you can adopt, that will help you stay
 * To lower the number of activities within a journey, check the condition steps. There will be many instances where you can move the conditions into segment definition or audience composition. 
 * If the same conditions are repeated across multiple journeys (consent checks, suppressions), consider moving them as part of segment definition. For example, if you have a condition to check "email address is not empty" across multiple journeys, have that condition included as part of segment definition.
 * If your journey has several conditions splitting the audience to see the numbers at each step, consider using Customer Journey Analytics or other reporting solution that are better suited for analysis.
-* If you are nearing the limit of nodes on the canvas, consider consolidation of actions with dynamic parameters or content to serve the right content instead of explicit nodes. 
-
-
-
+* If you are nearing the limit of nodes on the canvas, consider consolidation of actions with dynamic parameters or content to serve the right content instead of explicit nodes.

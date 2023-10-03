@@ -18,7 +18,7 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 >Text message communications may be subject to various legal compliance requirements depending on its nature, the location from where you are sending your text messages, and the location of your recipients. While Adobe Journey Optimizer handles the messages on long codes and toll-free numbers as detailed below, consult your legal counsel to ensure that your text messaging communications conform to all applicable legal compliance requirements.
 >
 
-## Native inbound keywords{#sms-native-keywords}
+## Native inbound keywords {#sms-native-keywords}
 
 By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Toll-Free and Long Code messages: STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE. Note that only Sinch and Infobip support Native keywords when used with Journey Optimizer.
  
@@ -27,7 +27,7 @@ These keywords typically trigger an automatic standard reply from your third par
 No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
 
 
-## Blocklists{#sms-blocklists}
+## Blocklists {#sms-blocklists}
 
 In addition to Adobe Journey Optimizer stopping the send based on the opt-out status (for direct integrations with Twilio or Sinch), most SMS gateway providers also maintain a blocklist ensuring you that an SMS message is not delivered to an individual who has chosen to opt out. If you are using a provider other than Sinch or Twilio, and sending an SMS via [custom channel](../building-journeys/using-custom-actions.md), you need to confirm this with your provider. 
 

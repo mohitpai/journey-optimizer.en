@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 ---
 # Decision rules {#rules}
 
@@ -31,6 +32,8 @@ What you'll find in this documentation guide:
 Decision rules allow you to define the audience for decision items by applying constraints, either directly at the decision item level or within a specific selection strategy. This enables you to precisely control which items should be presented to whom.
 
 For instance, let's consider a scenario where you have decision items featuring Yoga-related products designed for women. With decision rules, you can specigy that these items should only be displayed to profiles whose gender is 'Female' and who have indicated a 'Point of Interest' in 'Yoga'.
+
+In addition to item and selection strategy level decision rules, you can also create additional parameters for your intended audience at the campaign level. [Learn more](../campaigns/create-campaign.md)
 
 The list of decision rules is accessible in the **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** menu.
 

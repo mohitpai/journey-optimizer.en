@@ -29,6 +29,16 @@ In custom action parameters, you can pass a simple collection, as well as a coll
 
 Also note that the custom actions parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Learn more in this [use case](../building-journeys/collections.md).
 
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+
 ## Consent and data governance {#privacy}
 
 In Journey Optimizer, you can apply data governance and consent policies to your custom actions to prevent specific fields from being exported to third-party systems or exclude customers who have not consented to receive email, push or SMS communication. For more information, refer to the following pages:
@@ -64,11 +74,11 @@ Here are the main steps required to configure a custom action:
     >
     >When a custom action is used in a journey, most parameters are read-only. You can only modify the **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** fields and the **[!UICONTROL Authentication]** section.
 
-## URL configuration {#url-configuration}
+## Endpoint configuration {#url-configuration}
 
-When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:
+When configuring a custom action, you need to define the following **[!UICONTROL Endpoint Configuration]** parameters:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. In the **[!UICONTROL URL]** field, specify the URL of the external service:
 
@@ -86,7 +96,7 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >
     >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
-1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
+1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]**, **[!UICONTROL GET]** or **[!UICONTROL PUT]**.
 
     >[!NOTE]
     >
@@ -112,11 +122,17 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >
     >Headers are validated according to field parsing rules. Learn more in [this documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Define the action parameters {#define-the-message-parameters}
+## Define the payload parameters {#define-the-message-parameters}
 
-In the **[!UICONTROL Action parameters]** section, paste an example of the JSON payload to send to the external service.
+1. In the **[!UICONTROL Request]** section, paste an example of the JSON payload to send to the external service. This field is optional and only available for POST and PUT calling methods.
 
-![](assets/messageparameterssection.png)
+1. In the **[!UICONTROL Response]** section, paste an example of the payload returned by the call. This field is optional and available for all calling methods. For detailed information on how to leverage API call responses in custome actions, refer to [this page](../action/action-response.md).
+
+>[!NOTE]
+>
+>The response capability is currently available in beta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

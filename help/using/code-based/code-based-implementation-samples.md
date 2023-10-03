@@ -7,7 +7,8 @@ role: User
 level: Experienced
 hide: yes
 hidefromtoc: yes
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 ---
 # Code-based implementation methods samples {#implementation-samples}
 
@@ -108,7 +109,7 @@ If you have a server-side implementation, you can use one the AEP Edge Network A
 ### How it works
 
 1. The web page is requested and any cookies previously stored by the browser prefixed with `kndctr_` are included.
-1. When the page is requested from the app server, an event is sent to the [interactive data collection endpoint](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) to fetch personalization content. This sample app makes use of some helper methods to simplify building and sending requests to the API (see [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). But the request is simply a `POST` with a payload that contains an event and query. The cookies (if available) from the prior step are included with the request in the `meta>state>entries` array.
+1. When the page is requested from the app server, an event is sent to the [interactive data collection endpoint](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) to fetch personalization content. This sample app makes use of some helper methods to simplify building and sending requests to the API (see [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). But the request is simply a `POST` with a payload that contains an event and query. The cookies (if available) from the prior step are included with the request in the `meta>state>entries` array.
 
       ```javascript
       fetch(
@@ -265,8 +266,7 @@ Requests to Adobe Experience Platform API are required to get propositions and s
 
 ## Hybrid implementation {#hybrid-implementation}
 
-If you have a hybrid implementation, chek out the links below.
+If you have a hybrid implementation, check out the links below.
 
 * Adobe Tech Blog: [Hybrid Personalization in the Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK Documentation: [Hybrid personalization using Web SDK and Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

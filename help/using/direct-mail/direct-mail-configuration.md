@@ -16,7 +16,7 @@ When [creating a direct mail message](../direct-mail/create-direct-mail.md), you
 
 Before being able to generate this file, you need to create:
 
-1. A [file routing configuration](#file-routing-configuration) to specify the server where the file will be exported.
+1. A [file routing configuration](#file-routing-configuration) to specify the server where the file will be exported and encrypt the file, if necessary.
 
 1. A [direct mail surface](#direct-mail-surface) that will reference the file routing configuration.
 
@@ -83,6 +83,8 @@ To configure the file routing, follow the steps below.
     >[!NOTE]
     >
     >AWS regions are geographic areas that AWS uses to host its cloud infrastructures. As a general practice, it is preferred to choose the region that is closest to you direct mail provider's location.
+
+1. To encrypt the file, copy-paste your encryption key in the **[!UICONTROL PGP/GPG encryption key]** field.
 
 1. Select **[!UICONTROL Submit]**. The file routing configuration is created with the **[!UICONTROL Active]** status. It is now ready to be used in a [direct mail surface](#direct-mail-surface).
 

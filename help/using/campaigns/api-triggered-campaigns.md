@@ -21,7 +21,7 @@ Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
 >[!NOTE]
 >
->As of now, Rapid delivery is not not supported for push notification API-triggered campaigns.
+>As of now, Rapid delivery mode is not supported for push notification API-triggered campaigns.
 
 ## Create an API-triggered campaign {#create}
 

@@ -74,13 +74,44 @@ To start building your web experience through a campaign, follow the steps below
 
 For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
+## Test the web campaign {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Preview your web experience"
+>abstract="Get a simulation of what your web experience will look like."
+
+Once you [authored your web experience](edit-web-content.md) using the web designer, you can display a preview of your modified web pages before activating your campaign. To do so, follow the steps below.
+
+>[!CAUTION]
+>
+>You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../audience/creating-test-profiles.md).
+
+1. From either the web campaign edit content screen or the web designer, select **[!UICONTROL Simulate content]**.
+
+    <!--![](assets/web-designer-simulate.png)-->
+
+    ![](assets/web-campaign-simulate.png)
+
+1. Click **[!UICONTROL Manage test profiles]** to select one or more test profiles.
+1. A preview of your modified web page is displayed.
+
+    ![](assets/web-designer-preview.png)
+
+1. You can also open it in the default browser, or copy the test URL to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+
+    >[!NOTE]
+    >
+    >When copying the test URL, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].
+
 ## Activate the web campaign {#activate-web-campaign}
 
-Once you defined your [web campaign settings](#configure-web-campaign) and you edited your content as desired using the [web designer](author-web.md), you can review and activate your web campaign. Follow the steps below.
+Once you defined your [web campaign settings](#configure-web-campaign) and you edited your content as desired using the [web designer](edit-web-content.md#work-with-web-designer), you can review and activate your web campaign. Follow the steps below.
 
+<!--
 >[!NOTE]
 >
->You can also preview your web campaign content before activating it. [Learn more](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. From your web campaign, select **[!UICONTROL Review to activate]**.
 

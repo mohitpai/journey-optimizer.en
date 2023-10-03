@@ -15,9 +15,64 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-## September 2023 update {#sept-rn-2023}
 
-### New capability {#sept-2023-features}
+## September 2023 release notes {#sept-rn-2023}
+
+### New capabilities{#sept-2023-features}
+
+This release brings the new capabilities listed below.
+
+<table>
+<thead>
+<tr>
+<th><strong>Computed attributes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Computed attributes enables capability to easily summarize event data into profile attributes via an intuitive user interface for enhanced behavior-based segmentation, personalization, and activation. With this feature, you can create computed attributes in a self serve manner, manage them, and use them in segmentation, Real-time Customer Profile destinations or Journey Optimizer.<br/><br/>
+Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Consolidated Channel Reports</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Channel Report feature offers analysts and marketers a comprehensive overview of traffic and engagement metrics at the channel level.</p>
+<p>To access the <b>Report</b> menu, you must have the <b>View Channel Reports</b> permission.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../reports/channel-report.md">detailed documentation</a>, and <a href="../reports/channel-report.md#channel-report-video">how-to video</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Dataset Export Destinations (GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer datasets export to Cloud Storage Destinations is now generally available. This feature allows you to establish a live connection with cloud storage locations in order to export the content of your datasets.</p>
+<img src="../data/assets/dataset-export-setup.png">
+<p>For more information, refer to the <a href="../data/export-datasets.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -29,10 +84,67 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 <tr>
 <td>
 <p>This new feature allows you to easily manage and associate push credentials with a dedicated sandbox in App Surfaces.</p>
-<p>For more information, refer to the <a href="../in-app/inapp-configuration.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../in-app/inapp-configuration.md#channel-prerequisites">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+
+### Improvements {#sept-2023-improvements}
+
+This release comes with the improvements listed below.
+
+**Personalization**
+
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. [Learn more](../content-management/fragments.md#create-expression-fragment)
+
+<!--
+**Alerting**
+
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->  
+
+**Web channel**
+
+* Single-page applications (SPAs) can be now authored in the web visual editor, which allows you to select which specific views you want to apply your web page modifications to. A view can be defined as a whole site or a group of visual elements on a site, such as the home page, the entirety of the products site or the delivery preferences frame on all the checkout pages. One-time developer setup is needed to define the views in the Adobe Experience Platform Web SDK implementation; this enables marketers to create and run Adobe Journey Optimizer web campaigns on SPAs. [Learn more](../web/web-spa.md)
+
+* When editing a page using the web designer, you can now add new changes to your content directly from the Modifications pane - without the need to select a component and edit it from the designer interface. [Learn more](../web/manage-web-modifications.md#add-modifications)
+
+* When setting up web subdomains, you now have the option of adding you own subdomain - in addition to using a subdomain already delegated to Adobe. [Learn more](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+
+**Journeys**
+
+When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
+
+
+<!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
+
+**Email channel**
+
+A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe [!DNL Journey Optimizer] suppression list. [Learn more](../email/email-settings.md#send-to-suppressed-email-addresses)
+
+**SMS channel**
+
+* Two new fields, **Opt-in message** and **Help message**, have been added to the API configuration screen, allowing users to customize responses for inbound keywords. Note that this is only available for Sinch SMS provider. [Learn more](../sms/sms-configuration.md#create-api)
+
+* SMS opt-out is no longer managed at the channel level. It is now number-specific, meaning that if some profiles opt out from a given number or short code, you are still able to send them messages from other numbers you may be using to send out SMS messages. A new option enables you to select the **Opt-out number** you want to use for a given surface. [Learn more](../sms/sms-configuration.md#message-preset-sms)
+
+**Direct mail channel**
+
+You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key. [Learn more](../direct-mail/direct-mail-configuration.md)
+
+**Reporting**
+
+You can now export Journey Optimizer reports as CSV file. Learn more in the [detailed documentation](../reports/global-report.md#export-reports) and the [how-to video](../reports/global-report.md#video-csv).
+
+**Assets**
+
+A new option for Assets allows you to choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution. [Learn more](../content-management/assets-essentials.md)
+
+<!--**Decision management**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
 ## August 2023 release notes {#aug-rn-2023}
 
@@ -351,7 +463,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../content-management/fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -788,7 +900,7 @@ Note that each widget can be resized and deleted as needed.
 <p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.
+<p>Learn how to create, edit, and use content templates in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">this video</a>. For more information, refer to the <a href="../content-management/content-templates.md">detailed documentation</a>.
 </p>
 </td>
 </tr>

@@ -9,21 +9,60 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, journeys, API
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 ---
-# Custom action enhancements {#custom-action-enhancements}
+# Use API call responses in custom actions {#custom-action-enhancements}
 
-You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
-
-This capability was previously only available when using data sources. You can now use it with custom actions. 
+You can leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
 >[!AVAILABILITY]
 >
->This feature is currently available as a private beta.
+>This feature is currently available in beta.
 
->[!WARNING]
->
->Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md).
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
+
+## Important notes{#custom-action-enhancements-notes}
+
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
+
+* Scalar arrays are supported in response payload:
+
+    ```
+    "dummyScalarArray": [
+    "val1",
+    "val2"
+    ]
+    ```
+
+* Heterogeneous arrays are not supported in response payload:
+
+    ```
+    "dummyRandomArray": [
+    20,
+    "aafw",
+    false
+    ]
+    ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
 ## Define the custom action {#define-custom-action}
 
 When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
@@ -48,10 +87,15 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 >Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## Configure the custom action {#config-response}
+
+1. Create the custom action. Refer to [this page](../action/about-custom-action-configuration.md).
 
 1. Click inside the **Response** field. 
 
-    ![](assets/action-response3.png){width="80%" align="left"}
+    ![](assets/action-response2.png){width="80%" align="left"}
 
 1. Paste an example of the payload returned by the call. Verify that the field types are correct (string, integer, etc.). Here is an example of response payload captured during the call. Our local endpoint sends the number of loyalty points and the status of a profile. 
 
@@ -111,6 +155,12 @@ For example, you can add a condition to check the number of loyalty points. When
 
     ![](assets/action-response11.png)
 
+## Test mode logs {#test-mode-logs}
+
+You can access, through test mode, status logs related to custom action responses. If you have defined custom actions with responses in your journey, you will see an **actionsHistory** section on those logs displaying the payload returned by the external endpoint (as a response from that custom action). This can be very useful in terms of debugging.
+
+![](assets/action-response12.png)
+
 ## Error status {#error-status}
 
 The **jo_status_code** field is always available even when no response payload is defined.
@@ -152,4 +202,3 @@ Here are a few examples:
 ```
 
 For more information on field references, see [this section](../building-journeys/expression/field-references.md).
-

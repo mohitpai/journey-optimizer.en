@@ -176,9 +176,10 @@ solution: Journey Optimizer
       + [Design content from scratch](using/email/content-from-scratch.md)
       + [Import your content](using/email/existing-content.md)
       + [Code your own content](using/email/code-content.md)
-      + [Work with templates](using/email/email-templates.md)
+      + [Use email templates](using/email/use-email-templates.md)
     + Design your content {#add-content}
       + [Use content components](using/email/content-components.md)
+      + [Leverage visual fragments](using/email/use-visual-fragments.md)
       + [Add links and track messages](using/email/message-tracking.md)
       + [Insert personalized offers](using/email/add-offers-email.md)
       + [Generate the text version](using/email/text-version-email.md)
@@ -189,19 +190,17 @@ solution: Journey Optimizer
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
   + [Preview and test your email](using/email/preview.md)
-  + [Create content templates](using/email/content-templates.md)
   + [Use Experience Manager templates](using/email/aem-templates.md)
-  + [Work with fragments](using/email/fragments.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
     + [Get started with email configuration](using/email/get-started-email-config.md)
     + [Configure email surface settings](using/email/email-settings.md)
 + In-app channel{#in-app}
   + [Get started with In-app channel](using/in-app/get-started-in-app.md)
+  + [In-app channel prerequisites](using/in-app/inapp-configuration.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
   + [Test and send your In-app notification](using/in-app/send-in-app.md)
-  + [Configure In-app channel](using/in-app/inapp-configuration.md)
 + Push notification channel{#push}
   + [Get started with push notification](using/push/get-started-push.md)
   + [Create a push notification](using/push/create-push.md)
@@ -227,7 +226,11 @@ solution: Journey Optimizer
   + [Get started with web channel](using/web/get-started-web.md)
   + [Web channel prerequisites](using/web/web-prerequisites.md)
   + [Create web experiences](using/web/create-web.md)
-  + [Author web pages](using/web/author-web.md)
+  + Author web pages {#author-web-pages}
+    + [Edit web page content](using/web/edit-web-content.md)
+    + [Manage modifications](using/web/manage-web-modifications.md)
+    + [Monitor your web campaigns](using/web/monitor-web-campaigns.md)
+    + [Author single-page applications](using/web/web-spa.md)
   + [Configure web subdomains](using/web/web-delegated-subdomains.md)
 + Code-based experience {#code-based-experience}
   + [Get started with code-based channel](using/code-based/get-started-code-based.md)
@@ -254,32 +257,33 @@ solution: Journey Optimizer
     + [Get started with the Content assistant](using/content-management/gs-generative.md)
     + [Content generation](using/content-management/generative-content.md)
     + [Image generation](using/content-management/generative-image.md)
-+ Personalization & dynamic content {#personalized-dynamic-content}  
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization contexts](using/personalization/personalization-contexts.md)
-    + Build expressions {#build-expressions}
-      + [Personalization syntax](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-        + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
-        + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
-        + [Work with saved expressions](using/personalization/personalization-library.md)  
-        + [Personalization validation](using/personalization/personalization-validation.md)
-      + Helper functions{#functions}
-        + [Get started with helper functions](using/personalization/functions/functions.md)
-        + [Aggregation functions](using/personalization/functions/aggregation.md)
-        + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-        + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-        + [Date functions](using/personalization/functions/dates.md)
-        + [Boolean and comparison functions](using/personalization/functions/operators.md)
-        + [Helpers](using/personalization/functions/helpers.md)
-        + [Map functions](using/personalization/functions/maps.md)
-        + [Math functions](using/personalization/functions/math.md)
-        + [Object functions](using/personalization/functions/objects.md)
-        + [String functions](using/personalization/functions/string.md) 
-    + Use cases{#personalization-use-cases}    
+    + [Personalization syntax](using/personalization/personalization-syntax.md)
+    + Work with the Expression Editor {#expression-editor}
+      + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + [Add attributes to favorites](using/personalization/personalization-favorites.md)   
+      + [Use expression fragments](using/personalization/use-expression-fragments.md)  
+      + [Personalization validation](using/personalization/personalization-validation.md)
+    + Helper functions{#functions}
+      + [Get started with helper functions](using/personalization/functions/functions.md)
+      + [Aggregation functions](using/personalization/functions/aggregation.md)
+      + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+      + [Date functions](using/personalization/functions/dates.md)
+      + [Boolean and comparison functions](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Map functions](using/personalization/functions/maps.md)
+      + [Math functions](using/personalization/functions/math.md)
+      + [Object functions](using/personalization/functions/objects.md)
+      + [String functions](using/personalization/functions/string.md) 
+    + Personalization use cases{#personalization-use-cases}    
       + [Order status notification](using/personalization/personalization-use-case.md)
       + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Manage reusable content {#reusable-content}
+    + [Work with content templates](using/content-management/content-templates.md)
+    + [Work with fragments](using/content-management/fragments.md)
   + Dynamic content {#dynamic}
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditional rules](using/personalization/create-conditions.md)
@@ -296,6 +300,7 @@ solution: Journey Optimizer
   + Profiles{#profiles}
     + [Get started with profiles](using/audience/get-started-profiles.md)
     + [Create test profiles](using/audience/creating-test-profiles.md)
+    + [Work with computed attributes](using/audience/computed-attributes.md)
   + [Identities](using/audience/get-started-identity.md)
   + [License usage](using/audience/license-usage.md)
 + Track and monitor {#reporting}
@@ -314,6 +319,9 @@ solution: Journey Optimizer
     + [Objective report](using/reports/objective-report.md)
     + [Landing page Global report](using/reports/lp-report-global.md)
     + [Subscription list Global report](using/reports/subscription-report-global.md)
+  + Channel reports {#channel-report}
+    + [Get started with Channel reports](using/reports/channel-report-gs.md)
+    + [Channel reports](using/reports/channel-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
     + [Step event field list](using/reports/sharing-field-list.md)
@@ -454,6 +462,11 @@ solution: Journey Optimizer
     + [Add a Google TXT record](using/configuration/google-txt.md)
     + [Access and edit PTR records](using/configuration/ptr-records.md)
     + [Create IP pools](using/configuration/ip-pools.md)
+  + Implement an IP warmup plan {#implement-ip-warmup-plan}
+    + [Get started with IP warmup plans](using/configuration/ip-warmup-gs.md)
+    + [Create IP warmup campaigns](using/configuration/ip-warmup-campaign.md)
+    + [Create an an IP warmup plan](using/configuration/ip-warmup-plan.md)
+    + [Run the IP warmup plan](using/configuration/ip-warmup-execution.md)
   + Monitor email addresses {#monitor-reputation}  
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)
@@ -462,6 +475,7 @@ solution: Journey Optimizer
   + [Support for archiving](using/configuration/archiving-support.md)
   + [Change execution addresses](using/configuration/primary-email-addresses.md)
   + [Configure frequency rules](using/configuration/frequency-rules.md)
+  + [Implement Single-page applications](using/web/web-spa-implementation.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + Integrate with external systems {#external-systems}

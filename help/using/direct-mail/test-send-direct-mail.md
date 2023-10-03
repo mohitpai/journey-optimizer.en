@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
+exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 ---
 # Test & send a direct mail message {#direct-mail-test-send}
 

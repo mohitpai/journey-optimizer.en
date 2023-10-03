@@ -10,8 +10,15 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: yes
 hidefromtoc: yes
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 ---
 # Get started with the Content assistant {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="Create the email content"
+>abstract="Adobe Journey Optimier Content assistant brings proactive content variation suggestions for text and images. It is available for email, Push, SMS, and Web channels. This new capability provides a prompt based text and image generation."
+
 
 >[!BEGINSHADEBOX]
 
@@ -36,4 +43,3 @@ Use the Content assistant to optimize your message's impact by experimenting wit
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer Content assistant is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
-
