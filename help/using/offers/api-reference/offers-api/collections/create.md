@@ -55,7 +55,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Response**
 
-A successful response returns information on the newly created collection, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection. You can use your unique collection `@id` in a later tutorial to create a decision.
+A successful response returns information on the newly created collection, including its `id`. You can use the `id` in later steps to update or delete your collection or in a later tutorial to create a decision.
 
 ```json
 {

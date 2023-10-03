@@ -45,7 +45,7 @@ The most common query parameters for paging include:
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `property`| An optional property filter: <ul><li> The properties are grouped by AND operation. <br><br> - Parameters can be repeated like so: property=`<property-expr>`[&property=`<property-expr2>`...] or property=`<property-expr1>`[&`<property-expr2>`...] <br><br> - Property expressions are in format `[!]field[op]` value, with op in `[==,!=,'<=',>=,<,>,~]`, supporting regular expressions  </li></ul> |`property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.`|
+| `property` | An optional property filter: <ul><li>The properties are grouped by AND operation.</li><li>Parameters can be repeated like so: property={PROPERTY_EXPR}[&property={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Property expressions are in format `[!]field[op]value`, with `op` in `[==,!=,<=,>=,<,>,~]`, supporting regular expressions.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Sort results by a specific property. Adding a - before name (orderby=-name) will sort items by name in descending order (Z-A). Path expressions are in the form of dot separated paths. This parameter can be repeated like so: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limit the number of placements returned. | `limit=5` |
 

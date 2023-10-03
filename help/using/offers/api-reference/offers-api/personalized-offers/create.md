@@ -20,7 +20,6 @@ The following table shows the valid values which comprise the *Content-Type* fie
 | Header name | Value |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API format**
 
@@ -107,4 +106,4 @@ A successful response returns the details of the newly created personalized-offe
 
 ## Limitations {#limitations}
 
-Offer representations and some offer constraints are currently not supported with the mobile [!DNL Experience Edge] workflows, for example `Capping`. The `Capping` field value specifies the number of times an offer can be presented across all users. For more details, see [Offer eligibility rules and constraints documentation](../../../offer-library/creating-personalized-offers.md).
+Offer representations and some offer constraints are currently not supported with the mobile [!DNL Experience Edge] workflows, for example `Capping`. The `Capping` field value specifies the number of times an offer can be presented across all users. For more details, see [Offer eligibility rules and constraints documentation](../../../../offers/offer-library/creating-personalized-offers.md).

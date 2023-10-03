@@ -14,7 +14,7 @@ You can look up specific placements by making a GET request to the [!DNL Offer L
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | Parameter | Description | Example |

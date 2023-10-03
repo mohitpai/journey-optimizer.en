@@ -71,7 +71,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Response**
 
-A successful response returns information on the newly created decision, including its unique instance ID and placement `@id`. You can use id in later steps to update or delete your decision.
+A successful response returns information on the newly created decision, including its unique `id`. You can use the `id` in later steps to update or delete your decision.
 
 ```json
 {

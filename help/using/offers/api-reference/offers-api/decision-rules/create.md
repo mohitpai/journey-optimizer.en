@@ -27,8 +27,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Request**
 
@@ -63,7 +62,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Response**
 
-A successful response returns information on the newly created decision rule, including placement `id`. You can use the `id` in later steps to update or delete your decision rule or use it in a later tutorial to create decisions, decision rules, and fallback offers.
+A successful response returns information on the newly created decision rule `id`. You can use the `id` in later steps to update or delete your decision rule or use it in a later tutorial to create decisions, decision rules, and fallback offers.
 
 ```json
 {

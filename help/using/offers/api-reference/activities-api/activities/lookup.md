@@ -39,7 +39,7 @@ A successful response returns the details of the decision including information 
 
 ```json
 {
-       "created": "2022-11-15T16:35:06.873+00:00",
+    "created": "2022-11-15T16:35:06.873+00:00",
     "modified": "2023-05-15T15:00:27.641+00:00",
     "etag": 3,
     "schemas": [
@@ -71,8 +71,9 @@ A successful response returns the details of the decision including information 
             },
             "optionSelection": {
                 "filter": "offerCollection1234"
-            }   
+            }
         }
-                ]
+    ]
 }
+
 ```
