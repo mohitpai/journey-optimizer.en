@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 ---
 # Work with fragments {#fragments}
 

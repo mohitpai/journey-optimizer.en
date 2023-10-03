@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-
+exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
@@ -86,4 +86,3 @@ To break inheritance, follow the steps below:
     ![](assets/fragment-break-inheritance.png)
 
 1. That fragment becomes a standalone element that is not linked anymore to the original fragment. Edit it as any other content component in your content. [Learn more](content-components.md)
-
