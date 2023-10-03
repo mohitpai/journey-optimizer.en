@@ -29,20 +29,24 @@ In the left menu, under **Administration**, click **Alerts**. A pre-configured a
 
 ![](assets/alerts-custom-action.png)
 
+A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
 
-<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
-
-![](assets/alerts1.png)-->
+![](assets/alerts1.png)
 
 If an unexpected behavior occurs, an alert notification is sent to the subscribers of the alert through email or directly within Journey Optimizer, in the top right corner of the interface, based on user preferences.
 
 When an alert is resolved, you receive a "Resolved" notification. For the custom action alert, this can happen for two reasons:
+
 * Over the last 5 minutes, there has not been any error on that custom action (or errors below the 1% threshold).
+
 * No profile reached that custom action.
 
-When [viewing alert rules in Adobe Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), you can subscribe to each rule individually. When subscribing to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. The I/O event subscription name corresponding to the custom action alert is: "Journey Custom Action Failure".
+When [viewing alert rules in Adobe Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), you can subscribe to each rule individually. When subscribing to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. 
 
-<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".-->
+
+The I/O event subscription name corresponding to the custom action alert is: "Journey Custom Action Failure".
+
+The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >
