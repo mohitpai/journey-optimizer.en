@@ -20,7 +20,6 @@ The following table shows the valid values which comprise the *Content-Type* fie
 | Header name | Value |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API format**
 

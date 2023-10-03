@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **Response**
 
-A successful response returns the updated details of the fallback offer, including its unique instance `id`.
+A successful response returns the updated details of the fallback offer, including its `id`.
 
 ```json
 {

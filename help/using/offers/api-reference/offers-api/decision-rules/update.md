@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **Response**
 
-A successful response returns the updated details of the decision rule, including its unique instance ID and decision rule `@id`.
+A successful response returns the updated details of the decision rule, including its unique decision rule `id`.
 
 ```json
 {

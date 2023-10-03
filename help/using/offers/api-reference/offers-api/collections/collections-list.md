@@ -7,6 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 ---
+
 # List collections {#list-collections}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

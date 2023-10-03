@@ -9,7 +9,7 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 ---
 # List decision rules {#list-decision-rules}
 
-Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility. YYou can view a list of existing decision rules within a container by performing a single GET request to the [!DNL Offer Library] API.
+Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility. You can view a list of existing decision rules within a container by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 

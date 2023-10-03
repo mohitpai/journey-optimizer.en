@@ -56,7 +56,9 @@ A successful response returns a list of collection qualifiers that are present.
 
 ```json
 {
-                "created": "2022-09-16T19:00:02.070+00:00",
+    "results": [
+        {
+            "created": "2022-09-16T19:00:02.070+00:00",
             "modified": "2022-09-16T19:00:02.070+00:00",
             "etag": 1,
             "schemas": [
