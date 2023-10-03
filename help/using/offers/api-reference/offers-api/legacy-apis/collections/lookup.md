@@ -22,7 +22,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 	The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | The id of the entity you wish to look up. | `offerCollection1234` |
 
 **Request**

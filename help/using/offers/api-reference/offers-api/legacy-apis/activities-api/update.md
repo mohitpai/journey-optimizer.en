@@ -13,7 +13,9 @@ You can modify or update a decision in your container by making a PATCH request 
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](https://jsonpatch.com/).
 
-	@@ -19,61 +19,62 @@ The following table shows the valid values which comprise the *Content-Type* and
+## Accept and Content-Type headers {#accept-and-content-type-headers}
+
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 
 | Header name | Value |
 | ----------- | ----- |

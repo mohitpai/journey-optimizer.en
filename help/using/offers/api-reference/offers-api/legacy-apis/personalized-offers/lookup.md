@@ -33,7 +33,8 @@ curl -X GET \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -41,81 +37,60 @@ curl -X GET \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
 **Response**
 
