@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 759c58e7-af1e-409c-8400-996b9a647ba7
 ---
-
 # Update a placement {#update-placement}
 
 You can modify or update a placement in your container by making a PATCH request to the [!DNL Offer Library] API.

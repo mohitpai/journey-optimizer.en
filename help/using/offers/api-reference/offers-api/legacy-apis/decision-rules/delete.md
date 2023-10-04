@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 7c02041c-b022-4027-b932-294b207add80
 ---
-
 # Delete a decision rule {#delete-decision-rule}
 
 It may occasionally be necessary to remove (DELETE) a decision rule. Only decision rules that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the instance ID of the decision rule you wish to delete.

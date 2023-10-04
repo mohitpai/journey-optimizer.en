@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 ---
-
 # Look up a placement {#look-up-placement}
 
 You can look up specific placements by making a GET request to the [!DNL Offer Library] API that includes either the placement `@id` or the name of the placement in the request path.

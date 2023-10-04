@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 ---
-
 # Create a fallback offer {#create-fallback-offer}
 
 You can create a fallback offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

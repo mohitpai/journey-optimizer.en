@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 ---
-
 # Update a collection {#update-collection}
 
 You can modify or update a collection by making a PATCH request to the [!DNL Offer Library] API

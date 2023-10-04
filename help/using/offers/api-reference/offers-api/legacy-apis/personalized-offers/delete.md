@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 6ae37843-2679-48a3-96ef-bb93a5d4a333
 ---
-
 # Delete a personalized offer {#delete-personalized-offer}
 
 It may occasionally be necessary to remove (DELETE) a personalized offer. Only personalized offers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the personalized offer you wish to delete.

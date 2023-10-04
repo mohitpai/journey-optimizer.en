@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 ---
-
 # Look up a decision {#look-up-decision}
 
 You can look up specific decisions by making a GET request to the [!DNL Offer Library] API that includes either the decisions `@id` or the name of the decision in the request path.

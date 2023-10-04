@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 ---
-
 # Update a personalized offer {#update-personalized-offer}
 
 You can modify or update a personalized offer by making a PATCH request to the [!DNL Offer Library] API

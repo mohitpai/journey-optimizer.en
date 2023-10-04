@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 ---
-
 # Look up a collection qualifier {#look-up-tag}
 
 You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the [!DNL Offer Library] API that includes the collection qualifier `id` in the request path.

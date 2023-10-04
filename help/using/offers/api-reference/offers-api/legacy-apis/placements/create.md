@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 ---
-
 # Create a placement {#create-placement}
 
 You can create a placement by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

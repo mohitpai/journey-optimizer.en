@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 ---
-
 # List decisions {#list-decisions}
 
 A decision contains the logic that informs the selection of an offer.

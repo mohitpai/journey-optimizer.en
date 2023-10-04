@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 50f4119f-c730-4883-867e-eac83793dced
 ---
-
 # List personalized offers {#list-personalized-offers}
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.

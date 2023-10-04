@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 ---
-
 # List placements {#list-placements}
 
 Placements are containers that are used to showcase your offers. A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.

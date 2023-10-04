@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 ---
-
 # Create a collection {#create-collection}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

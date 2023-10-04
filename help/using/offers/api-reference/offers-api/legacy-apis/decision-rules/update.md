@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 ---
-
 # Update a decision rule {#update-decision-rule}
 
 You can create a fallback offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

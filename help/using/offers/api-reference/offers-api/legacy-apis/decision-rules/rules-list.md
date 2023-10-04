@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 ---
-
 # List decision rules {#list-decision-rules}
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility. You can view a list of existing decision rules within a container by performing a single GET request to the [!DNL Offer Library] API.

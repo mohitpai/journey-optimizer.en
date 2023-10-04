@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 ---
-
 # List fallback offers {#list-fallback-offers}
 
 A fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.

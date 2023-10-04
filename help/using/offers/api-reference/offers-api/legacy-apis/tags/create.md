@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 84f0efa5-28af-4569-994c-12d87828a277
 ---
-
 # Create a collection qualifier {#create-tag}
 
 You can create a collection qualifier (previously known as "tag") by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

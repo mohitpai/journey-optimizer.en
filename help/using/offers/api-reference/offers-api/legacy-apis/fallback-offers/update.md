@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 ---
-
 # Update a fallback offer {#update-fallback-offer}
 
 You can modify or update a fallback offer in your container by making a PATCH request to the [!DNL Offer Library] API.

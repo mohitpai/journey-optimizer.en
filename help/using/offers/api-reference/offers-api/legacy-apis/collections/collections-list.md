@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
 ---
-
 # List collections {#list-collections}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

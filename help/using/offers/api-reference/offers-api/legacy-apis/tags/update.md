@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 ---
-
 # Update a collection qualifier {#update-collection-qualifier}
 
 You can modify or update a collection qualifier (previously known as "tag") in your container by making a PATCH request to the [!DNL Offer Library] API.

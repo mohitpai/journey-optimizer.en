@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 ---
-
 # Create a decision {#create-decision}
 
 You can create a decision by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

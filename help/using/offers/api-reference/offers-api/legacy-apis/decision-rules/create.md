@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
 ---
-
 # Create a decision rule {#create-decision-rule}
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
