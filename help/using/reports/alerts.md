@@ -11,9 +11,11 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 ---
 # Get Started with Alerts {#alerts}
 
-## Access and subscribe alerts {#alerting-capabilities}
+## Access and subscribe alerts {#alerting-capabilities} 
 
-When a failure happens, you can get system alerts in Journey Optimizer notification center, and receive an email. From the **Alerts** menu, you can view the available alerts, and subscribe to them. When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization who subscribed to them. 
+When a failure happens, you can get system alerts in Journey Optimizer notification center (in-app alerts), and/or receive an email. 
+
+From the **Alerts** menu, you can view the available alerts, and subscribe to them. When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization who subscribed to them. 
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -27,7 +29,7 @@ You can subscribe to each alert individually from the user interface, by selecti
 
 You can also subscribe to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Alert rules are organized into different subscription packages. Event subscriptions corresponding to the specific Journey Optimizer alerts are detailed below. 
 
-If an unexpected behavior occurs, an alert notification is sent to the subscribers. Based on the user preferences, alerts are sent by email, or directly within Journey Optimizer notification center, in the top right corner of the user interface.
+If an unexpected behavior occurs, an alert notification is sent to the subscribers. Based on the user preferences, alerts are sent by email, and/or directly within Journey Optimizer notification center, in the top right corner of the user interface. By default, only in-app alerting is enabled. To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 When an alert is resolved, subscribers receive a "Resolved" notification.
 
