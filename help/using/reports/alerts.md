@@ -13,11 +13,11 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 
 ## Alerting capabilities {#alerting-capabilities}
 
-You can access system alerts through the user interface, or receive an email when a failure happens. You can view the available alerts and subscribe to them.  When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization whohave subscribed to them. 
+You can access system alerts through the user interface, or receive an email when a failure happens. From the **Alerts** menu, you can view the available alerts, and subscribe to them. When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization who subscribed to them. 
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Learn more about alerts in Adobe Experience Platform [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
+Learn more about alerts in Adobe Experience Platform in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}. 
 
 In the left menu, under **Administration**, click **Alerts**. Two pre-configured alerts for Journey Optimizer are available: the [alert for custom actions](#alert-custom-actions) and the [alert for Read Audience activities](#alert-read-audiences). These alerts are detailed below.
 
@@ -25,7 +25,7 @@ You can subscribe to each rule individually from the user interface, by selectin
 
 ![](assets/alert-subscribe.png)
 
-You can also subscribe to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), however, alert rules are organized into different subscription packages. 
+You can also subscribe to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, however, alert rules are organized into different subscription packages. 
 
 If an unexpected behavior occurs, an alert notification is sent to the subscribers. Based on the user preferences, alerts are sent by email, or directly within Journey Optimizer notification center, in the top right corner of the user interface.
 
