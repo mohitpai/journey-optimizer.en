@@ -62,7 +62,7 @@ To add expression fragments to your content, follow the steps below.
 
 >[!NOTE]
 >
->If you create an expression fragment that contains multiple line breaks and use it in [SMS](../sms/create-sms.md#sms-content) or [push](../push/design-push.md) content, the line breaks are preserved. Thus make sure to preview and test your [SMS](../sms/send-sms.md) or [push](../push/send-push.md) messsage before sending it.
+>If you create an expression fragment that contains multiple line breaks and use it in [SMS](../sms/create-sms.md#sms-content) or [push](../push/design-push.md) content, the line breaks are preserved. Thus make sure to test your [SMS](../sms/send-sms.md) or [push](../push/send-push.md) messsage before sending it.
 
 ## Break inheritance {#break-inheritance}
 
