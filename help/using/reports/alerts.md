@@ -13,7 +13,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 
 ## Access and subscribe alerts {#alerting-capabilities}
 
-You can access system alerts through the user interface, or receive an email when a failure happens. From the **Alerts** menu, you can view the available alerts, and subscribe to them. When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization who subscribed to them. 
+When a failure happens, you can get system alerts in Journey Optimizer notification center, and receive an email. From the **Alerts** menu, you can view the available alerts, and subscribe to them. When a certain set of conditions in your operations is reached (such as a potential problem when the system breaches a threshold), alert messages are delivered to any users in your organization who subscribed to them. 
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
