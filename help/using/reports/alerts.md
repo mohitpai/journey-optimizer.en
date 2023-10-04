@@ -19,11 +19,9 @@ You can access system alerts through the user interface, or receive an email whe
 
 Learn more about alerts in Adobe Experience Platform [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 
-To learn how to subscribe to alerts and configure them, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
-
 In the left menu, under **Administration**, click **Alerts**. Two pre-configured alerts for Journey Optimizer are available: the [alert for custom actions](#alert-custom-actions) and the [alert for Read Audience activities](#alert-read-audiences). These alerts are detailed below.
 
-You can subscribe to each rule individually from the user interface, by selecting the **Subscribe** option from the **Alerts** dashboard. Use the same method to unsubscribe.
+You can subscribe to each rule individually from the user interface, by selecting the **Subscribe** option from the **Alerts** dashboard. Use the same method to unsubscribe. 
 
 ![](assets/alert-subscribe.png)
 
