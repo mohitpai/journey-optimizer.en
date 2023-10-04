@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 ---
+
 # Delete a collection qualifier {#delete-tag}
 
 It may occasionally be necessary to remove (DELETE) a collection qualifier (previously known as "tag"). This is done by performing a DELETE request to the [!DNL Offer Library] API using the id of the collection qualifier you wish to delete.

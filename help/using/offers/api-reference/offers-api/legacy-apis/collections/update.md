@@ -5,7 +5,6 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 ---
 # Update a collection {#update-collection}
 

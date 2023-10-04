@@ -5,7 +5,6 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 ---
 
 # Create a personalized offer {#create-personalized-offer}
