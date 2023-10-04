@@ -19,7 +19,7 @@ You can access system alerts through the user interface, or receive an email whe
 
 Learn more about alerts in Adobe Experience Platform in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}. 
 
-In the left menu, under **Administration**, click **Alerts**. Two pre-configured alerts for Journey Optimizer are available: the [alert for custom actions](#alert-custom-actions) and the [alert for Read Audience activities](#alert-read-audiences). These alerts are detailed below.
+In the left menu, under **Administration**, click **Alerts**. Two pre-configured alerts for Journey Optimizer are available: the [Journey Custom Action Failure](#alert-custom-actions) alert and the [Read Segment Trigger Unsuccessful](#alert-read-audiences) alert. These alerts are detailed below.
 
 You can subscribe to each alert individually from the user interface, by selecting the **Subscribe** option from the **Alerts** dashboard. Use the same method to unsubscribe. 
 
