@@ -36,7 +36,26 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 **Request**
 
-	@@ -58,7 +57,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
+```shell
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/name",
+        "value": "Updated fallback offer"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated fallback offer description"
+    }
+]'
+```
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -47,7 +66,9 @@ ens35577 marked this conversation as resolved.
 Show resolved
 
 **Response**
+
 A successful response returns the updated details of the fallback offer, including its unique instance `id`.
+
 ```json
 {
     "id": "{ID}",

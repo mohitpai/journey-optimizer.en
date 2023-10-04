@@ -33,7 +33,8 @@ curl -X DELETE \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -37,6 +36,6 @@ curl -X DELETE \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
 **Response**
 

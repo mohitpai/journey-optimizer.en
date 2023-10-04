@@ -14,7 +14,12 @@ You can create a decision by making a POST request to the [!DNL Offer Library] A
 
 ## Accept and Content-Type headers {#accept-and-content-type-headers}
 
-	@@ -22,61 +22,67 @@ The following table shows the valid values which comprise the *Content-Type* and
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+
+| Header name | Value |
+| ----------- | ----- |
+| Content-Type | `application/json` |
+  
 **API format**
 
 ```http

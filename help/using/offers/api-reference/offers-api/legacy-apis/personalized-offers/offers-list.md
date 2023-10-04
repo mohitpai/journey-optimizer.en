@@ -19,10 +19,12 @@ You can view a list of all personalized offers within a container by performing 
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` |The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
+
 **Request**
 
 ```shell
@@ -34,9 +36,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## Using query parameters {#using-query-parameters}
+
 You can use query parameters to page and filter results when listing resources.
+
 ### Paging {#paging}
+
 The most common query parameters for paging include:
 
 | Parameter | Description | Example |

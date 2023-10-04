@@ -10,6 +10,10 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 
 # Look up a personalized offer {#look-up-personalized-offer}
 
+A personalized offer is a customizable marketing message based on eligibility rules and constraints.
+
+You can look up specific personalized offers by making a GET request to the **Offer Library** API that includes either the personalized offer `@id` or the name of the personalized offer in the request path.
+
 **API format**
 
 ```http
@@ -33,7 +37,8 @@ curl -X GET \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -41,81 +37,60 @@ curl -X GET \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
 **Response**
 
@@ -48,36 +53,33 @@ A successful response returns the details of the placement including information
         "results": [
             {
                 "instanceId": "fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-    "schemas": [
+                "schemas": [
                     "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
                 ],
                 "productContexts": [
                     "acp"
-    ],
+                ],
                 "repo:etag": 1,
                 "repo:createdDate": "2020-10-20T20:01:02.927874Z",
                 "repo:lastModifiedDate": "2020-10-20T20:01:02.927874Z",
-                "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
                 "_score": 0,
                 "_instance": {
                     "xdm:name": "Discount offer",
                     "xdm:representations": [
-        {
+                        {
                             "xdm:components": [
-                {
+                                {
                                     "dc:language": [
                                         "en"
-                    ],
+                                    ],
                                     "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
                                     "dc:format": "application/json"
-                }
+                                }
                             ],
                             "xdm:placement": "xcore:offer-placement:12428d436d87dc84"
-        }
-    ],
+                        }
+                    ],
                     "xdm:rank": {
                         "xdm:priority": 1
                     },
@@ -94,24 +96,11 @@ A successful response returns the details of the placement including information
                         "xcore:tag:1246d138ec8cca1f"
                     ],
                     "@id": "xcore:personalized-offer:124cc332095cfa74"
-    },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
-                    }
                 }
             }
         ],
         "total": 1,
         "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&name=Discount%20offer",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-            }
-        }
+    }
 }
 ```

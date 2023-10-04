@@ -28,7 +28,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 ## Using query parameters {#using-query-parameters}
 
 You can use query parameters to page and filter results when listing resources.
+
 ### Paging {#paging}
+
 The most common query parameters for paging include:
 
 | Parameter | Description | Example |
