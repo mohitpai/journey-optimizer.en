@@ -59,7 +59,7 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Opt-In Message]**: enter the custom response that is automatically sent as your **[!UICONTROL Opt-In Message]**.
         
-        * **[!UICONTROL Help Message]**: enter the custom response that is automatically sent as your **[!UICONTROL Help Message]**.
+        * **[!UICONTROL Help Message]**: enter the custom response that is automatically sent as your **Help Message**.
 
     * For **[!DNL Twilio]**:
 
