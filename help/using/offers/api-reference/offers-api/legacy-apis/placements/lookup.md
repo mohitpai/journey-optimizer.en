@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Look up a placement {#look-up-placement}
 
 You can look up specific placements by making a GET request to the [!DNL Offer Library] API that includes either the placement `@id` or the name of the placement in the request path.
@@ -13,7 +14,7 @@ You can look up specific placements by making a GET request to the [!DNL Offer L
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/placements/{ID}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |

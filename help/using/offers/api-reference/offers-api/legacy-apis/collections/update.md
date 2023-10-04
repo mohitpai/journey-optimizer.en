@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Update a collection {#update-collection}
 
 You can modify or update a collection by making a PATCH request to the [!DNL Offer Library] API

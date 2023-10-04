@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Update a personalized offer {#update-personalized-offer}
 
 You can modify or update a personalized offer by making a PATCH request to the [!DNL Offer Library] API
