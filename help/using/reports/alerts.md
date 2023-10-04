@@ -41,17 +41,17 @@ This alert warns you if a custom action fails. We consider there is a failure wh
 
 ![](assets/alerts-custom-action.png)
 
-Alerts on custom actions are resolved when:
+Alerts on custom actions are resolved when, over the last 5 minutes:
 
-* Over the last 5 minutes, there has not been any error on that custom action (or errors below the 1% threshold).
+* there has not been any error on that custom action (or errors below the 1% threshold),
 
-* No profile reached that custom action.
+* Or, a profile reached that custom action.
 
 The I/O event subscription name corresponding to the custom action alert is **Journey Custom Action Failure**.
 
 ## Read Segment Trigger Unsuccessful {#alert-read-audiences}
 
-This alert warns you if a **Read Segment** activity has not processed any profile 10 mins after scheduled time of execution. This failure can be caused by technical issues, because the audience is empty.
+This alert warns you if a **Read Segment** activity has not processed any profile 10 mins after scheduled time of execution. This failure can be caused by technical issues, or because the audience is empty.
 
 ![](assets/alerts1.png)
 
