@@ -21,8 +21,6 @@ The following table shows the valid values which comprise the *Content-Type* and
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
-ens35577 marked this conversation as resolved.
-Show resolved
 
 **API format**
 

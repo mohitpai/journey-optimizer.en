@@ -61,8 +61,6 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 | `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
-ens35577 marked this conversation as resolved.
-Show resolved
 
 **Response**
 

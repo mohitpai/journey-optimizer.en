@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Delete a placement {#delete-placement}
 
 It may occasionally be necessary to remove (DELETE) a placement. Only placements that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the instance ID of the placement you wish to delete.

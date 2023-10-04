@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Create a collection {#create-collection}
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
@@ -29,7 +30,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Request**
 
@@ -53,7 +55,7 @@ curl -X POST \
 
 **Response**
 
-A successful response returns information on the newly created collection, including its `id`. You can use the `id` in later steps to update or delete your collection or in a later tutorial to create a decision.
+A successful response returns information on the newly created collection, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection. You can use your unique collection `@id` in a later tutorial to create a decision.
 
 ```json
 {
