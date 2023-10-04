@@ -99,7 +99,7 @@ This release comes with the improvements listed below.
 
 **Alerting**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails. [Learn more](../reports/alerts.md).
+* A new type of system alert has been introduced. You can now get notified when a **Read Audience** activity fails. [Learn more](../reports/alerts.md).
 
 **Web channel**
 
@@ -111,7 +111,7 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
+* When duplicating a journey, you can now define the name of the journey copy. [Learn more](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -121,7 +121,7 @@ When duplicating a journey, you can now define the name of the journey copy. [Le
 
 **Email channel**
 
-A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe [!DNL Journey Optimizer] suppression list. [Learn more](../email/email-settings.md#send-to-suppressed-email-addresses)
+* A new option in the email surface configuration allows to choose to send transactional messages to profiles even if their email addresses are on the Adobe [!DNL Journey Optimizer] suppression list. [Learn more](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS channel**
 
@@ -131,15 +131,15 @@ A new option in the email surface configuration allows to choose to send transac
 
 **Direct mail channel**
 
-You now have the ability to encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key. [Learn more](../direct-mail/direct-mail-configuration.md)
+* You can now encrypt files intended for your direct mail providers when they are transferred to a server. To do this, a new field is available in the file routing configuration screen, allowing you to copy-paste your encryption key. [Learn more](../direct-mail/direct-mail-configuration.md)
 
 **Reporting**
 
-You can now export Journey Optimizer reports as CSV file. Learn more in the [detailed documentation](../reports/global-report.md#export-reports) and the [how-to video](../reports/global-report.md#video-csv).
+* You can now export Journey Optimizer reports as CSV file. Learn more in the [detailed documentation](../reports/global-report.md#export-reports) and the [how-to video](../reports/global-report.md#video-csv).
 
 **Assets**
 
-A new option for Assets allows you to choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution. [Learn more](../content-management/assets-essentials.md)
+* A new option for Assets allows you to choose the repository for your Assets in Journey Optimizer. You can opt for either an Assets Essentials repository or an Assets as a Cloud Service repository, provided you own this solution. [Learn more](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
