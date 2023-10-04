@@ -22,7 +22,7 @@ To perform this, follow the steps below:
 
 1. From the **[!UICONTROL Connect to device]** window, click **[!UICONTROL Start]**.
 
-1. Type in the **[!UICONTROL Base URL]** of your application and click **[!UICONTROL Next]**.
+1. Enter the **[!UICONTROL Base URL]** of your application and click **[!UICONTROL Next]**.
 
     ![](assets/in_app_create_7.png)
 

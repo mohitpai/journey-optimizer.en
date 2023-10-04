@@ -45,7 +45,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc2.png)
 
-1. Type in the subject and add profile personalization. Use the search bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the **+** icon. Click **Save**.
+1. Enter the subject and add profile personalization. Use the search bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the **+** icon. Click **Save**.
 
    ![](assets/perso-uc3.png)
 

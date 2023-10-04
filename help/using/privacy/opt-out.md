@@ -135,11 +135,11 @@ You can also add a personalization consent check to an audience by adding a spli
 
 1. Add your starting audience using the dedicated button on the right.
 
-1. Click the + icon and select **[!UICONTROL Split]** to create a split audience. [Learn more on the Split activity](../audience/composition-canvas.md#split)
+1. Click the **+** icon and select a **[!UICONTROL Split]** activity to create a split audience. [Learn more on the Split activity](../audience/composition-canvas.md#split)
 
     ![](assets/perso-consent-audience-split.png)
 
-1. Select **[!UICONTROL Attribute split]** as the split type in the right pane.
+1. In the right pane, select **[!UICONTROL Attribute split]** as the split type.
 
     ![](assets/perso-consent-audience-attribute-split.png)
 

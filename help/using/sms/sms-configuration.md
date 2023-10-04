@@ -55,11 +55,11 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab.  [Learn more](https://developers.sinch.com/docs/sms/getting-started/)
+        * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab.  [Learn more](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-        * **[!UICONTROL Opt-In Message]**: Type in the custom response that is automatically sent as your **[!UICONTROL Opt-In Message]**.
+        * **[!UICONTROL Opt-In Message]**: enter the custom response that is automatically sent as your **[!UICONTROL Opt-In Message]**.
         
-        * **[!UICONTROL Help Message]**: Type in the custom response that is automatically sent as your **[!UICONTROL  Help Message]**.
+        * **[!UICONTROL Help Message]**: enter the custom response that is automatically sent as your **[!UICONTROL Help Message]**.
 
     * For **[!DNL Twilio]**:
 
@@ -67,13 +67,13 @@ To configure your SMS vendor with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Account SID]** and **[!UICONTROL Auth Token]**: access the Account Info pane of your Twilio Console Dashboard page to find your credentials.
 
-        * **[!UICONTROL Message SID]**: enter the unique identifier assigned to every message created by Twilio's API. [Learn more](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+        * **[!UICONTROL Message SID]**: enter the unique identifier assigned to every message created by Twilio's API. [Learn more](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
     * For **[!DNL Infobip]**:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL API base URL]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page to find your credentials. [Learn more](https://www.infobip.com/docs/api)
+        * **[!UICONTROL API base URL]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page to find your credentials. [Learn more](https://www.infobip.com/docs/api){target="_blank"}.
 
     ![](assets/sms_7.png)
 
