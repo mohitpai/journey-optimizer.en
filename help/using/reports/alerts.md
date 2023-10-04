@@ -51,12 +51,12 @@ The I/O event subscription name corresponding to the custom action alert is **Jo
 
 ## Read Segment Trigger Unsuccessful {#alert-read-audiences}
 
-This alert warns you if a **Read Segment** activity has not processed any profile 10 mins after scheduled time of execution. This failure can be caused by technical issues, or because the audience is empty.
+This alert warns you if a **Read Audience** activity has not processed any profile 10 mins after scheduled time of execution. This failure can be caused by technical issues, or because the audience is empty.
 
 ![](assets/alerts1.png)
 
-Alerts on **Read Segment** activities only apply to recurring journeys. **Read Segment** activities in live journeys that have a schedule to run **Once** or **As soon as possible** are ignored.
+Alerts on **Read Audience** activities only apply to recurring journeys. **Read Audience** activities in live journeys that have a schedule to run **Once** or **As soon as possible** are ignored.
 
-Alerts on **Read Segment** are resolved when a profile enters the **Read Segment** node.
+Alerts on **Read Audience** are resolved when a profile enters the **Read Audience** node.
 
-The I/O event subscription name corresponding to the **Read Segment** alert is **Journey read segment Delays, Failures and Errors**.
+The I/O event subscription name corresponding to the **Read Segment Trigger Unsuccessful** alert is **Journey read segment Delays, Failures and Errors**.
