@@ -21,7 +21,7 @@ Learn more about alerts in Adobe Experience Platform in [Adobe Experience Platfo
 
 In the left menu, under **Administration**, click **Alerts**. Two pre-configured alerts for Journey Optimizer are available: the [alert for custom actions](#alert-custom-actions) and the [alert for Read Audience activities](#alert-read-audiences). These alerts are detailed below.
 
-You can subscribe to each rule individually from the user interface, by selecting the **Subscribe** option from the **Alerts** dashboard. Use the same method to unsubscribe. 
+You can subscribe to each alert individually from the user interface, by selecting the **Subscribe** option from the **Alerts** dashboard. Use the same method to unsubscribe. 
 
 ![](assets/alert-subscribe.png)
 
@@ -35,7 +35,7 @@ When an alert is resolved, subscribers receive a "Resolved" notification.
 >
 >Adobe Journey Optimizer specific alerts apply only to **live** journeys. Alerts are not triggered for journeys in test mode.
 
-## Alert on custom actions {#alert-custom-actions}
+## Journey Custom Action Failure {#alert-custom-actions}
 
 This alert warns you if a custom action fails. We consider there is a failure where there has been more than 1% of errors on a specific custom action over the last 5 minutes. This is evaluated every 30 seconds.
 
@@ -49,14 +49,14 @@ Alerts on custom actions are resolved when:
 
 The I/O event subscription name corresponding to the custom action alert is **Journey Custom Action Failure**.
 
-## Alert on Read Audience activities {#alert-read-audiences}
+## Read Segment Trigger Unsuccessful {#alert-read-audiences}
 
 This alert warns you if a **Read Segment** activity has not processed any profile 10 mins after scheduled time of execution. This failure can be caused by technical issues, because the audience is empty.
 
 ![](assets/alerts1.png)
 
-Alerts on **Read Audience** activities only apply to recurring journeys. **Read Audience** activities in live journeys that have a schedule to run **Once** or **As soon as possible** are ignored.
+Alerts on **Read Segment** activities only apply to recurring journeys. **Read Segment** activities in live journeys that have a schedule to run **Once** or **As soon as possible** are ignored.
 
-Alerts on **Read Audience** are resolved when a profile enters the **Read Audience** node.
+Alerts on **Read Segment** are resolved when a profile enters the **Read Segment** node.
 
-The I/O event subscription name corresponding to the **Read segment** alert is **Journey read segment Delays, Failures and Errors**.
+The I/O event subscription name corresponding to the **Read Segment** alert is **Journey read segment Delays, Failures and Errors**.
