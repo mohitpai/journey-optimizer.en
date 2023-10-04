@@ -45,7 +45,7 @@ Alerts on custom actions are resolved when, over the last 5 minutes:
 
 * there has not been any error on that custom action (or errors below the 1% threshold),
 
-* Or, a profile reached that custom action.
+* Or, no profile has reached that custom action.
 
 The I/O event subscription name corresponding to the custom action alert is **Journey Custom Action Failure**.
 
