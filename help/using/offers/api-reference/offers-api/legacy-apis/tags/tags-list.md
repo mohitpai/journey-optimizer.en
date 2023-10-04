@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 ---
+
 # List collection qualifiers {#list-tags}
 
 Collection qualifiers (previously known as "tags") allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" collection qualifier. You can then use the search functionality in the Offer Library to easily locate all of the offers with that collection qualifier.
