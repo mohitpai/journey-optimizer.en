@@ -95,7 +95,7 @@ This release comes with the improvements listed below.
 
 **Personalization**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. [Learn more](../content-management/fragments.md#create-expression-fragment)
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. [Learn more](../personalization/use-expression-fragments.md)
 
 **Alerting**
 
