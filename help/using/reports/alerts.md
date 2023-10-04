@@ -25,13 +25,13 @@ You can subscribe to each alert individually from the user interface, by selecti
 
 ![](assets/alert-subscribe.png)
 
-You can also subscribe to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, however, alert rules are organized into different subscription packages. 
+You can also subscribe to alerts through [I/O Event notifications](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Alert rules are organized into different subscription packages. Event subscriptions corresponding to the specific Journey Optimizer alerts are detailed below. 
 
 If an unexpected behavior occurs, an alert notification is sent to the subscribers. Based on the user preferences, alerts are sent by email, or directly within Journey Optimizer notification center, in the top right corner of the user interface.
 
 When an alert is resolved, subscribers receive a "Resolved" notification.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Adobe Journey Optimizer specific alerts apply only to **live** journeys. Alerts are not triggered for journeys in test mode.
 
@@ -45,7 +45,7 @@ Alerts on custom actions are resolved when, over the last 5 minutes:
 
 * there has not been any error on that custom action (or errors below the 1% threshold),
 
-* Or, no profile has reached that custom action.
+* or, no profile has reached that custom action.
 
 The I/O event subscription name corresponding to the custom action alert is **Journey Custom Action Failure**.
 
