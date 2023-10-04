@@ -5,7 +5,6 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 ---
 
 # About legacy APIs
