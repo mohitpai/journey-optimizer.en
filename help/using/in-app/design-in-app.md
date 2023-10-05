@@ -32,7 +32,7 @@ Once your In-app message is created, and its content defined and personalized, y
 ## Message layout {#message-layout}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_inapp_authoring_message_layout"
 >title="Define your In-app content"
 >abstract="The message layout provides you with commonly used templates to frame your message. Custom layout provides options to upload or compose custom HTML messages."
 
