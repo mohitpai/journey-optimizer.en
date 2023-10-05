@@ -7,7 +7,6 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
-badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 ---

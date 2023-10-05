@@ -7,6 +7,12 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release notes {#release-notes}
 
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card1"
+>title="What's new?"
+>abstract="**Adobe Journey Optimizer** continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes."
+
 [!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes. 
 
 Previous release notes are available in [this page](release-notes-2022.md). You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.

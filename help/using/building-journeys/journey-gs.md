@@ -12,6 +12,11 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Create your first journey{#jo-quick-start}
 
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="Create journeys"
+>abstract="Use **Adobe Journey Optimizer** to build real-time orchestration use cases using contextual data stored in events or data sources."
+
 ## Prerequisites{#start-prerequisites}
 
 In order to send messages with journeys, the following configurations are required:
