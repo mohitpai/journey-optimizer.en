@@ -43,8 +43,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_4.png)
 
-    +++
-    Learn how to switch Assets repository.
+    +++ Learn how to switch Assets repository.
 
     To change your Assets repository, select the Account icon in the upper right and click **[!UICONTROL Select Repository]**. 
 
