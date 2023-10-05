@@ -126,7 +126,7 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
 1. In the **[!UICONTROL Request]** section, paste an example of the JSON payload to send to the external service. This field is optional and only available for POST and PUT calling methods.
 
-1. In the **[!UICONTROL Response]** section, paste an example of the payload returned by the call. This field is optional and available for all calling methods. For detailed information on how to leverage API call responses in custome actions, refer to [this page](../action/action-response.md).
+1. In the **[!UICONTROL Response]** section, paste an example of the payload returned by the call. This field is optional and available for all calling methods. For detailed information on how to leverage API call responses in custom actions, refer to [this page](../action/action-response.md).
 
 >[!NOTE]
 >

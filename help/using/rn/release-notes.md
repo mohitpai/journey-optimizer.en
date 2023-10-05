@@ -115,7 +115,7 @@ This release comes with the improvements listed below.
 
 
 
-* Support of custom action responses is now GA. This capability allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 15,000 calls over 30 seconds per endpoint. [Learn more](../action/action-response.md)
+* Support of custom action responses is now GA. This capability allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 150,000 calls over 30 seconds per endpoint. [Learn more](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
