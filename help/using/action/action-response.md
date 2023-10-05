@@ -15,10 +15,6 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 
 You can leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
->[!AVAILABILITY]
->
->This feature is currently available in beta.
-
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 

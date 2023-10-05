@@ -60,7 +60,7 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 
 ### Custom actions {#custom-actions-g}
 
-* A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions.
+* A capping limit of 150,000 calls over 30 seconds is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions.
 * The custom action URL does not support dynamic parameters.
 * POST, PUT and GET call methods are supported
 * The name of the query parameter or header must not start with "." or "$"
