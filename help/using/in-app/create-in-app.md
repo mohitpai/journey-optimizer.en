@@ -10,6 +10,11 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 ---
 # Create an In-app message {#create-in-app}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="Manage In-app Triggers"
+>abstract="Efficiently control your Triggers by selecting the specific events and criteria that will activate your messages. With the Rule builder, users can define precise conditions and values. When these conditions are met, they initiate a series of actions, including the delivery of in-app messages."
+
 You can add an In-app message in a campaign or in a journey. Follow the steps detailed below to create an In-app message in both contexts.
 
 >[!BEGINTABS]

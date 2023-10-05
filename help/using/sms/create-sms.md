@@ -75,6 +75,11 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 ## Define your SMS content{#sms-content}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_sms_content"
+>title="Define your SMS content"
+>abstract="Customize and personalize your SMS messages by using the Expression editor to define the content and incorporate dynamic elements."
+
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
 
 1. Click the **[!UICONTROL Message]** field to open the Expression editor.
