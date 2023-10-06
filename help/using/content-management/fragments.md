@@ -121,7 +121,7 @@ There are two ways you can create fragments:
 
 * Create a fragment from scratch, using the **[!UICONTROL Fragments]** dedicated menu. [Learn how](#create-from-scratch)
 
-* When designing content, save a portion of your content as fragment. [Learn how](#save-as-template)
+* When designing content, save a portion of your content as fragment. [Learn how](#save-as-fragment)
 
 Once saved, your fragment is available for use in a journey, a campaign or a template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within [!DNL Journey Optimizer]. See [Add visual fragments](../email/use-visual-fragments.md) and [Leverage expression fragments](../personalization/use-expression-fragments.md)
 
@@ -142,7 +142,7 @@ To create a fragment from scratch, follow the steps below.
 
     ![](assets/fragment-details.png)
 
-1. Select the fragment type: **[!UICONTROL Visual fragment]** or **[!UICONTROL Expression fragment]**.
+1. Select the fragment type: [!UICONTROL Visual fragment](#create-visual-fragment) or [!UICONTROL Expression fragment](#create-expression-fragment).
 
 1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
