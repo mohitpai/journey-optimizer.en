@@ -99,6 +99,10 @@ Additionally, computed attributes simplifies segmentation and journey workflows 
 
 This release comes with the improvements listed below.
 
+**Decision Management**
+
+* New APIs for creation and management of decision management objects are now available. These APIs provide increased performance and enhanced user experience. The legacy APIs will be supported until 03/27/2024. [Learn more](../offers/api-reference/getting-started.md)
+
 **Personalization**
 
 * In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions. [Learn more](../personalization/use-expression-fragments.md)
