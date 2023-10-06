@@ -142,7 +142,7 @@ To create a fragment from scratch, follow the steps below.
 
     ![](assets/fragment-details.png)
 
-1. Select the fragment type: [!UICONTROL Visual fragment](#create-visual-fragment) or [!UICONTROL Expression fragment](#create-expression-fragment).
+1. Select the fragment type: [Visual fragment](#create-visual-fragment) or [Expression fragment](#create-expression-fragment).
 
 1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
 
