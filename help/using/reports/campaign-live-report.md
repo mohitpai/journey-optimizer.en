@@ -34,9 +34,9 @@ The Campaign **[!UICONTROL Live report]** is divided into different widgets deta
 
 For a detailed list of every metric available in Adobe Journey Optimizer, refer to [this page](live-report.md#list-of-components-live).
 
-## Campaign tab {#campaign-global}
+## Campaign tab {#campaign-live}
 
-### Delivery {#delivery-global}
+### Delivery {#delivery-live}
 
 The **[!UICONTROL Campaign Statistics]** widget details the main information relative to your campaign:
 
@@ -97,6 +97,21 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 
 ## In-app tab {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="In-app performance"
+>abstract="The In-app performance KPIs provide essential insights into your visitors' engagement with In-app messages in the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="Interactions by type"
+>abstract="The Interactions by type graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="In-app summary"
+>abstract="The In-app summary graph illustrates the progression of your In-app impressions and interactions over the last 24 hours."
+
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your campaign.
 
 +++Learn more on the different metrics and widgets available for the In-app report.
@@ -115,13 +130,43 @@ The **[!UICONTROL Interactions by type]** graphs and table details how users int
 
 ## Push notification tab {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="Push notification - Sending performance"
+>abstract="The Push Notification Sending Performance graph summarizes essential data about your push notifications such as Errors or Delivered messages from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="Push notification - Statistics"
+>abstract="The Push Statistics table provides data on recipient activity for your delivery from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="Push notification - Sending summary"
+>abstract="The Push Notification Sending Summary graph displays the data available for sent push notifications from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="Push notification - Excluded reasons"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="Push notification - Error reasons"
+>abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred the last 24 hours during your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="Push notification - Breakdown by platform"
+>abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications in the last 24 hours based on the recipient's operating system."
+
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your campaign.
 
 ![](assets/campaign_report_live_2.png)
 
 +++Learn more on the different metrics and widgets available for the Push report.
 
-**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** and **[!UICONTROL Sending metrics - by Push]** widgets details the main information relative to your message:
+**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** and **[!UICONTROL Push notification - Statistics]** widgets details the main information relative to your message:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -145,6 +190,31 @@ The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 
 +++
 
 ## SMS tab {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS - Statistics"
+>abstract="The SMS Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS - Performance by date"
+>abstract="The SMS Performance by Date widget provides key information from the last 24 hours about your messages through a graphical representation."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS - Error reasons"
+>abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred in the last 24 hours during your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS - Excluded reasons"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS - Bounces reasons"
+>abstract="The Bounces Reasons graphs and table contain the data available from the last 24 hours related to bounced messages."
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL SMS]** tab details the main information relative to the SMS deliveries sent in your campaign.
 
@@ -179,6 +249,21 @@ The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!U
 
 ## Web tab {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Web performance"
+>abstract="The Web Performance KPIs provide comprehensive information about your visitors' engagement with your web experiences from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Web summary"
+>abstract="The Web Summary graph illustrates the progression of your web experiences, including impressions, unique impressions, and interactions, from the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="Interactions by element"
+>abstract="The Interactions by Element table provides key information regarding your visitors' engagement with different elements on your web pages in the last 24 hours."
+
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
 
 +++Learn more on the different metrics and widgets available for the Web report.
@@ -196,7 +281,22 @@ The **[!UICONTROL Interactions by element]** table details the main information 
 
 ## Direct mail tab {#direct-mail-tab}
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="Direct Mail - Sending statistics"
+>abstract="The Direct Mail Sending Statistics table summarizes essential data from the last 24 hours about your Direct Mail messages such as Targeted or Delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="Direct Mail - Error reasons"
+>abstract="The Direct Mail - Error Reasons graphs and table enable you to identify the specific errors that occurred in the last 24 hours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="Direct Mail - Excluded reasons"
+>abstract="The Direct Mail Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
+
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
 
 ![](assets/direct-mail-report_2.png)
 

@@ -13,6 +13,11 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 
 ## Title and Body {#push-title-body}
 
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="Personalize your push notification."
+>abstract="To compose your message, enter the content in the Title and Body fields. To include personalization tokens, open the personalization dialog."
+
 To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
     
 Use the device preview section to visualize how the push notification displays on iOS and Android devices.
@@ -34,7 +39,12 @@ You can select the behavior when a user clicks on the body of the push notificat
 
 ## Add media {#add-media-push}
 
-In the iOS version of your push notification, you can add an image, a video or a GIF that will be displayed within your notification.
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="Add media to your push notification"
+>abstract="You can add an image, a video or a GIF that are displayed within your notification."
+
+In the iOS version of your push notification, you can add an image, a video or a GIF that are displayed within your notification.
 
 In the Android version, you can only add an image icon, and an image for expanded notifications. 
 
@@ -42,7 +52,7 @@ In the Android version, you can only add an image icon, and an image for expande
 
 Two options are available. You can:
 
-*  Use the **[!UICONTROL Add media]** button to select an asset in **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Use the **[!UICONTROL Add media]** button to select an asset in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
     Learn how to use **[!DNL Adobe Experience Manager Assets Essentials]** in [this page](../content-management/assets-essentials.md).
     
@@ -51,6 +61,11 @@ Two options are available. You can:
 Once added, the media displays on the right of the notification body.
 
 ## Add buttons {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="Add buttons for users to interact with your push notification."
+>abstract="This section will allow you to add call-to-action buttons to your message. For iOS, specify a notification category identifier. For Android, you can include custom text and targets for each button."
 
 Create an actionable notification by adding buttons to your push content. 
 
@@ -79,11 +94,21 @@ Select the **[!UICONTROL Silent Notification]** option to silently notify the ap
 
 Use the **[!UICONTROL Custom data]** section to add key-value pairs.
 
-## Custom data
+## Custom data {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="Configure custom data for your push notification."
+>abstract="Add custom variables to the payload, depending on your mobile application configuration."
 
 In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-gs.md)
 
 ## Advanced options {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="Configure Advanced options for your push notification."
+>abstract="This section empowers you to enhance the personalization of your push notification."
 
 You can configure **[!UICONTROL Advanced options]** for your push notification. Available parameters are listed below:
 

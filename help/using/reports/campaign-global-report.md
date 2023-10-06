@@ -40,6 +40,11 @@ For a detailed list of every metric available in Adobe Journey Optimizer, refer 
 
 ### Delivery {#delivery-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="Campaign's statistics"
+>abstract="The Campaign's Statistics widget details the main information relative to your campaign such as Entered profiles and Actions delivered."
+
 ![](assets/campaign_report_global_1.png)
 
 The **[!UICONTROL Campaign's Statistics]** widget details the main information relative to your campaign:
@@ -85,13 +90,13 @@ The table presents the following metrics:
 
 * **[!UICONTROL Lift over baseline]**: Measure of the percentage improvement in conversion rate of a given treatment over the baseline.
 
-*  **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../campaigns/experiment-calculations.md#understand-confidence)
 
-*  **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
+* **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
 
 * **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
 
-*  **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
+* **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
 
 The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../campaigns/experiment-calculations.md#confidence-intervals). 
 
@@ -203,6 +208,21 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 
 ## In-app tab {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="In-app performance"
+>abstract="The In-app performance KPIs provide essential insights into your visitors' engagement with In-app messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="Interactions by type"
+>abstract="The Interactions by type graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="In-app summary"
+>abstract="The In-app summary graph illustrates the progression of your In-app impressions and interactions over the specified period."
+
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** tab details the main information relative to the In-app deliveries sent in your campaign.
 
 ![](assets/campaign_report_global_6.png)
@@ -217,20 +237,50 @@ The **[!UICONTROL In-app performance]** KPIs detail the main information relativ
 
 * **[!UICONTROL Interactions rate]**: percentage of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
-The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
-
 The **[!UICONTROL Interactions by type]** graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction.
+
+The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app impressions and interactions for the concerned period.
 +++
 
 ## Push notification tab {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="Push notification - Sending statistics"
+>abstract="The Push Notification Sending Statistics table summarizes essential data about your push notifications such as Targeted or Delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Push notification - Tracking statistics"
+>abstract="The Push Tracking Statistics provide data on recipient activity for your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Push notification - Sending summary"
+>abstract="The Push Notification Sending Summary graph displays the data available for sent push notifications."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Push notification - Excluded reasons"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Push notification - Error reasons"
+>abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Push notification - Breakdown by platform"
+>abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the recipient's operating system."
+
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your campaign.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)The In-app performance KPIs detail the main information relative to your visitors' engagement with your In-app messages.
 
 +++Learn more on the different metrics and widgets available for the Push report.
 
-The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
+The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications
 
 * **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
 
@@ -289,14 +339,44 @@ The **[!UICONTROL Send time optimization]** details the success of your delivery
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+The **[!UICONTROL Error Reasons]** graphs and table allow you to see which error occurred during your delivery.
 
-The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
+The **[!UICONTROL Excluded reasons]** graphs and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-The **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** and **[!UICONTROL Breakdown by platform]** graphs and tables details the success of your push notification depending on your recipient's operational system.
+The **[!UICONTROL Breakdown by platform]** graph and table detail the success of your push notification depending on your recipient's operating system.
 +++
 
 ## SMS tab {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS - Sending statistics"
+>abstract="The SMS Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - Error reasons"
+>abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS - Performance by date"
+>abstract="The SMS Performance by Date widget provides key information about your messages through a graphical representation."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - Excluded reasons"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - Bounces reasons"
+>abstract="The Bounces Reasons graphs and table contain the data available related to bounced messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS - Clicks by links"
+>abstract="The SMS - Clicks by Links widget provides essential insights into your visitors' engagement with the URLs in your messages"
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL SMS]** tab details the main information relative to the SMS deliveries sent in your campaign.
 
@@ -324,13 +404,28 @@ The **[!UICONTROL SMS Performance by date]** widget details the main information
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-The **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+The **[!UICONTROL Exclude Reasons]** and **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
 
-The **[!UICONTROL SMS - Clicks by links]** and **[!UICONTROL SMS - Tracking statistics]** widgets detail the main information relative to your visitors' engagement with your URLs.
+The **[!UICONTROL SMS - Clicks by links]** widgets details the main information relative to your visitors' engagement with your URLs.
 
 +++
 
 ## Web tab {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Web performance"
+>abstract="The Web Performance KPIs provide comprehensive information about your visitors' engagement with your web experiences."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Web summary"
+>abstract="The Web Summary graph illustrates the progression of your web experiences, including impressions, unique impressions, and interactions, over the specified period."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interactions by element"
+>abstract="The Interactions by Element table provides key information regarding your visitors' engagement with different elements on your web pages."
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
 
@@ -352,6 +447,21 @@ The **[!UICONTROL Interactions by element]** table details the main information 
 +++
 
 ## Direct mail tab {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="Direct Mail - Sending statistics"
+>abstract="The Direct Mail Sending Statistics table summarizes essential data about your Direct Mail messages such as Targeted or Delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="Direct Mail - Error reasons"
+>abstract="The Direct Mail - Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="Direct Mail - Excluded reasons"
+>abstract="The Direct Mail Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail]** tab details the main information relative to your Direct mail deliveries.
 
