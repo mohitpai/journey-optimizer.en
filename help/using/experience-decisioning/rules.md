@@ -33,7 +33,10 @@ Decision rules allow you to define the audience for decision items by applying c
 
 For instance, let's consider a scenario where you have decision items featuring Yoga-related products designed for women. With decision rules, you can specigy that these items should only be displayed to profiles whose gender is 'Female' and who have indicated a 'Point of Interest' in 'Yoga'.
 
-In addition to item and selection strategy level decision rules, you can also create additional parameters for your intended audience at the campaign level. [Learn more](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>In addition to item and selection strategy level decision rules, you can also define your intended audience at the campaign level. [Learn more](../campaigns/create-campaign.md#audience)
+
 
 The list of decision rules is accessible in the **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** menu.
 
@@ -43,7 +46,7 @@ The list of decision rules is accessible in the **[!UICONTROL Configuration]** /
 >
 >For now, decision rules are managed using Journey Optimizer's **Decision management** menu. As a result, the **[!UICONTROL Decision rules]** list in Experience Decisioning encompasses rules created from both Journey Optimizer **[!UICONTROL Decision Management]** or **[!UICONTROL Experience Decisioning]** menus.
 
-To create a collection, follow these steps:
+To create a rule, follow these steps:
 
 1. Navigate to **[!UICONTROL Configuration]** / **[!UICONTROL Decision rules]**.
 1. Journey Optimizer's Decision management user interface displays in the central area. Follow the steps detailed in the [Decision management documentation](../offers/offer-library/creating-decision-rules.md) to build your rule based on your needs.
