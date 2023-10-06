@@ -35,18 +35,18 @@ To **create a schema**, follow these steps:
 
 1. In the DATA MANAGEMENT menu section, click **[!UICONTROL Schemas]**.
     ![](assets/test-profiles-0.png)
-1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
+1. Click **[!UICONTROL Create schema]**, in the top right, select a schema type, for example **Individual Profile** and click **Next**.
     ![](assets/test-profiles-1.png)
-1. Select the appropriate field groups. Make sure you add the **Profile test details** field group. 
+1. Enter a name for your schema and click **Finish**.
+    ![](assets/test-profiles-1-bis.png)
+1. In the **Field groups** section, on the left, click **Add** and select the appropriate field groups. Make sure you add the **Profile test details** field group. 
     ![](assets/test-profiles-1-ter.png)
     Once done, click **[!UICONTROL Add field groups]**: the list of field groups is displayed on the schema overview screen.
     ![](assets/test-profiles-2.png)
 
     >[!NOTE]
     >
-    >* Click the name of the schema to change it and update its properties.
-    >
-    >* Click the **[!UICONTROL Add]** button in the Field groups section to select other fields groups to add in the schema
+    >Click the name of the schema to update its properties.
 
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](assets/test-profiles-3.png)

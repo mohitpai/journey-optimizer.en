@@ -261,20 +261,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. In the left menu, browse to **[!UICONTROL Schemas]**.
-
-1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM ExperienceEvent]**.
-
+1. In the DATA MANAGEMENT menu section, click **[!UICONTROL Schemas]**.
+    ![](assets/test_push_1.png)
+1. Click **[!UICONTROL Create schema]**, in the top right, select **[!UICONTROL Experience Event]** and click **Next**.
     ![](assets/test_push_2.png)
-
-1. Select **[!UICONTROL Create a new field group]**. 
+1. Enter a name and description for your schema and click **Finish**.
+    ![](assets/test_push_3.png)
+1. In the **Field groups** section, on the left, click **Add** and select **[!UICONTROL Create a new field group]**.
 
 1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
 
 
     ![](assets/test_push_4.png)
 
-1. On the left side, select the schema. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+1. On the left side, select the schema. In the right pane, enable this schema for **[!UICONTROL Profile]**.
 
     ![](assets/test_push_4b.png)
 

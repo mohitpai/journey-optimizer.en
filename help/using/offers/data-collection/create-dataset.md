@@ -14,15 +14,18 @@ To collect experience events, you first need to create a dataset where these eve
 
 Start by creating the schema that will be used in your dataset:
 
-1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]** and go to the **[!UICONTROL Browse]** tab.
+1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**.
 
-1. Click **[!UICONTROL Create schema]** and choose **[!UICONTROL XDM ExperienceEvent]**.
+1. Click **[!UICONTROL Create schema]**, in the top right, select **[!UICONTROL Experience Event]** and click **Next**.
 
     ![](../assets/ai-ranking-xdm-event.png)
 
     >[!NOTE]
     >
     >Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+
+1. Enter a name and description for your schema and click **Finish**.
+    ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. From the **[!UICONTROL Field groups]** section on the left, select **[!UICONTROL Add]**.
 
@@ -38,7 +41,7 @@ Start by creating the schema that will be used in your dataset:
     >
     >The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your AI model.
 
-1. Type a name and save the schema.
+1. Save the schema.
 
 >[!NOTE]
 >
