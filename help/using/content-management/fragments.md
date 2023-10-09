@@ -11,6 +11,12 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 ---
 # Work with fragments {#fragments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="Define your own fragments"
+>abstract="Create and manage standalone fragments to make your content reusable across multiple journeys and campaigns."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Create fragments"
+
 A fragment is a reusable component that can be referenced in one or more emails across [!DNL Journey Optimizer] campaigns and journeys.
 
 This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
@@ -128,14 +134,9 @@ Once saved, your fragment is available for use in a journey, a campaign or a tem
 
 ### Create from scratch {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="Define your own fragment"
->abstract="Create a standalone fragment from scratch to make your content reusable across multiple journeys and campaigns."
-
 To create a fragment from scratch, follow the steps below.
 
-1. Access the fragment list through the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu.
+1. [Access the fragment list](#access-manage-fragments) through the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu.
 
 1. Select **[!UICONTROL Create fragment]**.
 
@@ -152,6 +153,12 @@ To create a fragment from scratch, follow the steps below.
 1. Click **[!UICONTROL Create]**.
 
 ### Create a visual fragment {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="Select the visual type"
+>abstract="Create a standalone visual fragment to make your content reusable in an email within a journey or a campaign, or in a content template."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Add visual fragments to your emails"
 
 1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Visual fragment]** type.
 
@@ -176,6 +183,12 @@ To create a fragment from scratch, follow the steps below.
 This fragment is now ready to be used when building any [email](../email/get-started-email-design.md) or [content template](content-templates.md) within [!DNL Journey Optimizer]. [Learn how](../email/use-visual-fragments.md)
 
 ### Create an expression fragment {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="Select the expression type"
+>abstract="Create a standalone expression fragment to make your content reusable across multiple journeys and campaigns. When using the Expression editor, you can leverage all the expression fragments that have been created on the current sandbox."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Leverage expression fragments"
 
 1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Expression fragment]** type.
 
