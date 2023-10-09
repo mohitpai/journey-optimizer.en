@@ -17,6 +17,8 @@ With [!DNL Journey Optimizer], you can create campaigns and then invoke them fro
 
 To do this, you first need to create an API-triggered campaign in Journey Optimizer, and then launch its execution through an API call.
 
+![](../rn/assets/do-not-localize/api-triggered.gif)
+
 Available channels for API-triggered campaigns are Email, SMS and Push messages.
 
 >[!NOTE]

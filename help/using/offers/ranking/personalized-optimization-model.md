@@ -14,6 +14,8 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 
 By leveraging the state-of-the-art technologies in supervised machine learning and deep learning, Auto-personalization allows a business user (marketer) to define business goals and utilizes their customer data to train business-oriented models to serve personalized offers and maximize KPIs.
 
+![](../../rn/assets/do-not-localize/ai-ranking.gif)
+
 ## Key Model Assumptions and Limitations {#key}
 
 In order to maximize the advantage of using auto-personalization, there are some key assumptions and limitations to be aware of. 

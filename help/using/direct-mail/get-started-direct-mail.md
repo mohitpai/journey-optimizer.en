@@ -19,6 +19,9 @@ Direct mail is an offline channel that allows you to personalize and generate th
 
 When creating a direct mail campaign, Journey Optimizer automatically generates a file containing all the targeted profiles and selected data, such as postal addresses and profile attributes. This file is sent to the server of your choice so that it is accessible by your chosen direct mail provider, who will handle the actual mailing process for you.
 
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
 The main steps to send direct mail messages are as follows:
 
 ![](assets/dm-creation-process.png)

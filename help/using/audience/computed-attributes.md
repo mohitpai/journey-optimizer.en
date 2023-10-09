@@ -14,6 +14,10 @@ Computed attributes allow you to summarize individual behavioral events into com
 
 Each computed attribute is a profile attribute that you can leverage for segmentation, personalization, and activation in journeys and campaigns. This simplification enhances the ability to deliver timely and meaningful personalized experiences to your customers.
 
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
+
 >[!NOTE]
 >
 >To get access to computed attributes, you need to have the appropriate permissions (**View Computed attributes** and **Manage Computed attributes**).

@@ -15,24 +15,25 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
 
+![](../rn/assets/do-not-localize/fragments.gif)
+
 ➡️ [Learn how to manage, author and use fragments in these videos](#video-fragments)
-
->[!CAUTION]
->
->To create, edit and archive fragments, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
-
+ 
 To make the best use of fragments:
 
 * Create your own fragments. You can create visual fragments or expression fragments. [Learn more](#create-fragments)
+
 * Use them as many times as needed in your content. See [Add visual fragments](../email/use-visual-fragments.md) and [Leverage expression fragments](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->Currently in [!DNL Journey Optimizer]:
->
->* Visual fragments are only available for the Email channel.
->
->* Expression fragments are not available for the Web and In-app channels.
+## Before starting {#fragment-prerequisites}
+
+To create, edit, and archive fragments, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+
+In this version, the following limitations apply:
+
+* Visual fragments are only available for the Email channel
+
+* Expression fragments are not available for the Web and In-app channels
 
 ## Access and manage fragments {#access-manage-fragments}
 

@@ -43,6 +43,9 @@ In the lists, you can perform basic actions on each element. For example, you ca
 
 With Adobe Experience Platform [Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), you can easily classify your Journey Optimizer journeys and campaigns to improve search from the lists.
 
+![](../rn/assets/do-not-localize/campaigns-tag.gif)
+
+
 ### Add tags to an object
 
 The **[!UICONTROL Tags]** field allows you to define tags for your object. Tags are available for the following objects:

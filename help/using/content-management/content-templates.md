@@ -15,6 +15,9 @@ For an accelerated and improved design process, you can create standalone templa
 
 This functionality enables content-oriented users to work on templates outside campaigns or journeys. Marketing users can then reuse and adapt these standalone content templates inside their own journeys or campaigns.
 
+![](../rn/assets/do-not-localize/content-template.gif)
+
+
 >[!NOTE]
 >
 >Currently only the **email** content templates are supported.
