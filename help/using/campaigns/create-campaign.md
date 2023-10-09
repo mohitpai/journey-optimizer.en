@@ -135,6 +135,11 @@ In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in
 ## Schedule the campaign {#schedule}
 
 >[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="Campaign schedule"
+>abstract="By default, campaigns start upon manual activation and terminate immediately after the message is sent once. Nevertheless, you have the flexibility to set a specific date and time for the message to be sent. Furthermore, you can specify an end date for recurring or API-triggered campaigns. In the Action triggers, you can also configure the message sending frequency to suit your preferences."
+
+>[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="Campaign start"
 >abstract="Specify a date and time at which the message should be sent."
