@@ -64,6 +64,7 @@ To use the test mode, follow these steps:
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 * When reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. 
 * To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week will switch back to the **Draft** status.
+* Events triggered by the test mode are stored in dedicated datasets. These datasets are labelled as follows: `JOtestmode - <schema of your event>`
 
 ## Trigger your events {#firing_events}
 
