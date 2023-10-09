@@ -114,35 +114,80 @@ For a deep-dive in these results and how to interpret them, refer to [this page]
 
 ## Email tab {#email-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_statistics"
+>title="Email - Sending statistics"
+>abstract="The Email - Sending statistics table summarizes essential data about your Email such as Targeted or Delivered."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_tracking_statistics"
+>title="Email - Tracking statistics"
+>abstract="The Email - Tracking statistics table provides data on profile activity for your Email."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_performance"
+>title="Email - Sending performance"
+>abstract="The Email - Sending performance graph presents comprehensive data regarding sent Emails, offering insights into key metrics like deliveries and bounces, allowing for a detailed analysis of the email delivery process."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_categories"
+>title="Email - Bounce categories"
+>abstract="The Email - Bounce categories graphs and table provide data on both temporary and permanent errors."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_reasons"
+>title="Email - Bounces reasons"
+>abstract="The Email - Bounces reasons graphs and table contain the data available related to bounced messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_error_reasons"
+>title="Email - Error reasons"
+>abstract="The Email - Error reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_excluded_reasons"
+>title="Email - Excluded reasons"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_top_url"
+>title="Email - Top URL"
+>abstract="The Email - Top URL graph and table offer a comprehensive overview of the URLs within your email that receive the highest visitor traffic, allowing you to identify the most popular links."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_best_recipient"
+>title="Email - Best recipient domain"
+>abstract="The Email - Best recipient domain graph and table provide a detailed breakdown of the domains that recipients most frequently use to open the email, offering valuable insights into recipient behavior."
+
 ![](assets/campaign_report_global_2.png)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab details the main information relative to the email deliveries sent in your Campaign.
 
 +++Learn more on the different metrics and widgets available for the Email report.
 
-The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
+The **[!UICONTROL Email Sending Statistics]** graph details the success of your email:
 
-* **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
+* **[!UICONTROL Targeted]**: Total number of messages processed during the sending process.
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends for your email.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Delivery Rate]**: Percentage of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounce Rate]**: Percentage of emails that bounced compared to emails sent.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
-* **[!UICONTROL Error Rate]**: Percentage of errors that occurred during a delivery preventing it from being sent compared to emails sent.
+* **[!UICONTROL Error Rate]**: Percentage of errors that occurred during the sending process preventing it from being sent compared to emails sent.
 
 * **[!UICONTROL Retries]**: Number of emails in the queue for retries.
 
 * **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
-The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for recipient activity for your delivery:
+The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for profile activity for your email:
 
 * **[!UICONTROL Opens]**: Number of times the email was opened.
 
@@ -152,23 +197,23 @@ The **[!UICONTROL Email - Tracking statistics]** widget contains the available d
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
-* **[!UICONTROL Unique Clicks]**:Number of recipients who clicked on a content in an email.
+* **[!UICONTROL Unique Clicks]**:Number of profiles who clicked on a content in an email.
 
-* **[!UICONTROL Unique Click Rate]**: Percentage of users who interacted with the delivery.
+* **[!UICONTROL Unique Click Rate]**: Percentage of users who interacted with your email.
 
 * **[!UICONTROL Unsubscriptions]**: Number of clicks on the unsubscription link.
 
 * **[!UICONTROL Spam complaints]**: Number of times a message was declared as spam or junk.
 
-The **[!UICONTROL Sending Statistics]** graph contains the data available for sent emails, such as:
+The **[!UICONTROL Sending Performance]** graph contains the data available for sent emails, such as:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Retries]**: Number of emails in the queue for retries.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
 The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
 
@@ -180,30 +225,31 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 For more information on bounces, refer to the [Suppression list](../reports/suppression-list.md) page.
 
-The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
+The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during the sending process.
 
 The **[!UICONTROL Excluded reasons]** graph and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your delivery are the most visited.
+The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your email are the most visited.
 
-The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
+The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by profiles to open the email.
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your email. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends.
 
 * **[!UICONTROL Opens]**: Number of times the message was opened.
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
-The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
+The **[!UICONTROL Send time optimization]** details the success of your email depending on the sending method: optimized or normal.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 +++
 
 ## In-app tab {#inapp-global}
@@ -252,7 +298,7 @@ The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app imp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="Push notification - Tracking statistics"
->abstract="The Push Tracking Statistics provide data on recipient activity for your delivery."
+>abstract="The Push Tracking Statistics provide data on profile activity for your push notification."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -267,12 +313,12 @@ The **[!UICONTROL In-app summary]** graph shows the evolution of your In-app imp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="Push notification - Error reasons"
->abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+>abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Push notification - Breakdown by platform"
->abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the recipient's operating system."
+>abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the profile's operating system."
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push notification]** tab details the main information relative to the push deliveries sent in your campaign.
 
@@ -282,27 +328,27 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push notifi
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications
 
-* **[!UICONTROL Targeted]**: Total number of messages processed during the delivery analysis.
+* **[!UICONTROL Targeted]**: Total number of messages processed during the analysis.
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends for the push notification.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Delivery Rate]**: Percentage of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounce Rate]**: Percentage of push notifications that bounced compared to push notifications sent.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred preventing it from being sent to profiles.
 
-* **[!UICONTROL Error Rate]**: Percentage of errors that occurred during a delivery preventing it from being sent compared to push notifications sent.
+* **[!UICONTROL Error Rate]**: Percentage of errors that occurred during preventing it from being sent compared to push notifications sent.
 
 * **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
-The **[!UICONTROL Push - Tracking statistics]** contains the available data for recipient activity for your delivery:
+The **[!UICONTROL Push - Tracking statistics]** contains the available data for profile activity for your push notification:
 
-* **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
+* **[!UICONTROL Opens]**: Number of times your push notification was opened.
 
 * **[!UICONTROL Open Rate]**: Percentage of opened push notifications.
 
@@ -314,36 +360,39 @@ The **[!UICONTROL Push - Tracking statistics]** contains the available data for 
 
 The **[!UICONTROL Push notification summary]** graph contains the data available for sent push notifications, such as:
 
-* **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
+* **[!UICONTROL Opens]**: Number of times your push notification was opened.
 
 * **[!UICONTROL Actions]**: Total number of actions on the push notification delivered, e.g. button click or dismissal.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred preventing it from being sent to profiles.
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your push notification. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+
+* **[!UICONTROL Opens]**: Number of times your push notification was opened.
+
 * **[!UICONTROL Actions]**: Total number of actions on the push notification delivered, e.g. button click or dismissal.
 
-The **[!UICONTROL Send time optimization]** details the success of your delivery depending on the sending method: optimized or normal.
+The **[!UICONTROL Send time optimization]** details the success of your push notification depending on the sending method: optimized or normal.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-The **[!UICONTROL Error Reasons]** graphs and table allow you to see which error occurred during your delivery.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
+
+The **[!UICONTROL Error Reasons]** graphs and table allow you to see which error occurred.
 
 The **[!UICONTROL Excluded reasons]** graphs and table display the different reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-The **[!UICONTROL Breakdown by platform]** graph and table detail the success of your push notification depending on your recipient's operating system.
+The **[!UICONTROL Breakdown by platform]** graph and table detail the success of your push notification depending on your profile's operating system.
 +++
 
 ## SMS tab {#sms-global}
@@ -356,7 +405,7 @@ The **[!UICONTROL Breakdown by platform]** graph and table detail the success of
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS - Error reasons"
->abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+>abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -384,27 +433,27 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL SMS]** tab 
 
 +++Learn more on the different metrics and widgets available for the SMS report.
 
-The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
+The **[!UICONTROL SMS - Sending statistics]** table details the success of your SMS message:
 
-* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles.
 
 * **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends for your SMS message.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred preventing it from being sent to profiles.
 
 The **[!UICONTROL SMS Performance by date]** widget details the main information relative to your message with a graph:
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends for your SMS messages.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred preventing it from being sent to profiles.
 
-The **[!UICONTROL Exclude Reasons]** and **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+The **[!UICONTROL Exclude Reasons]** and **[!UICONTROL Bounces Reasons]** and **[!UICONTROL Error Reasons]** graphs and tables allow you to see which error and exclusions occurred during the sending process.
 
 The **[!UICONTROL SMS - Clicks by links]** widgets details the main information relative to your visitors' engagement with your URLs.
 
@@ -456,7 +505,7 @@ The **[!UICONTROL Interactions by element]** table details the main information 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Direct Mail - Error reasons"
->abstract="The Direct Mail - Error Reasons graphs and table enable you to identify the specific errors that occurred during your delivery."
+>abstract="The Direct Mail - Error Reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
@@ -469,17 +518,17 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail
 
 +++Learn more on the different metrics and widgets available for the Direct mail report.
 
-The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your delivery:
+The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your direct mail:
 
-* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this direct mail.
 
-* **[!UICONTROL Sent]**: Total number of sends for the delivery.
+* **[!UICONTROL Sent]**: Total number of sends for this direct mail.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
-* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the delivery.
+* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive your direct mail.
 
-The **[!UICONTROL Direct Mail - Excluded reasons]** and **[!UICONTROL Direct Mail - Error reasons]** graphs and tables allow you to see which error and exclusions occurred during your delivery.
+The **[!UICONTROL Direct Mail - Excluded reasons]** and **[!UICONTROL Direct Mail - Error reasons]** graphs and tables allow you to see which error and exclusions occurred during the sending process.
 +++
 
 ## Additional resources
