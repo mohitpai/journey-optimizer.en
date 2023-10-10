@@ -117,3 +117,32 @@ You can choose from one of these two solutions:
 * An activation delay may happen between the moment a user profile reaches an In-app activity in the canvas and the time they start seeing that In-app message.
 
 * In-app message content size is limited to 2Mb. Including large images can hinder the publishing process.
+
+## Decision Management {#decision-management}
+
+### Performance guardrails {#performance-guardrails}
+
+The delivery throughput corresponds to the number of decision responses that can be delivered by the Decision Management app service in a specified amount of time. The number of decisions per second is indicated in the table below.
+
+|API | Decisions per second |
+|---------|----------|
+| Decisioning API requests | 500 per second |
+| Edge Decisioning API requests | 5000 per second |
+
+### Limitations {#offers-limitations}
+
+The Decision Management limitations are listed below.
+
+* **Approved Personalized Offers + Fallback Offers** - Up to 10,000 combined approved Personalized Offers and approved Fallback Offers.
+* **Decisions** - Up to 10,000 Decisions.
+* **Live Decisions** - Offer Decisioning App Service supports up to 1,000 Live Decisions.
+* **Offers returned per response** - Offer Decisioning supports up to 100 offers returned per request across all decision scopes in request.
+* **Collections** - Up to 10,000 Collections.
+* **Collections per Decision** - Up to 30 Collections per Decision.
+* **Decision Rules + Ranking Functions** Up to 10,000 combined Decision Rules and Ranking Functions.
+* **Placements** - Up to 1,000 Placements.
+* **Placements per Decision** - Up to 30 Placements per Decision.
+* **Ranking Method per Decision** - Offer Decisioning App Service supports up to 30 Ranking Functions per Decision.
+* **AI Ranking model** - Offer Decisioning App Service supports up to 5 AI ranking models.
+* **Collection Qualifier per Offer or Collection** - Offer Decisioning App Service supports up to 20 Collection Qualifiers in any single Personalized Offer or single Collection.
+* **Total Collection Qualifiers** - Offer Decisioning App Service supports up to 1,000 Collection Qualifiers.
