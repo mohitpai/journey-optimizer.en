@@ -41,6 +41,11 @@ In the lists, you can perform basic actions on each element. For example, you ca
 
 ## Work with Unified tags {#tags}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="Tags"
+>abstract="This field allows you to assign Adobe Experience Platform Unified Tags to your campaign. This allows you to easily classify them and improve search from the campaigns list."
+
 With Adobe Experience Platform [Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), you can easily classify your Journey Optimizer journeys and campaigns to improve search from the lists.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
