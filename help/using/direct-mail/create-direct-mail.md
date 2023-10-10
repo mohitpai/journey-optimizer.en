@@ -53,6 +53,32 @@ You can now start configuring the extraction file to send to your direct mail pr
 
 ## Configure the extraction file {#extraction-file}
 
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Data Fields"
+>abstract="Add and configure the columns and the information to be displayed in the extraction file required by direct mail providers to send mail to your customers. You can add up to 50 columns."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Extraction file formatting"
+>abstract="The <b>Sort by</b> option allows you to use the selected field to sort the extraction file's columns. When this option is disabled, the columns are sorted automatically based on the Profile ID field."
+
+1. Configure the columns and the information to be displayed in the extraction file:
+
+   1. Click the **[!UICONTROL Add]** button to create a new column.
+
+   1. The **[!UICONTROL Formatting]** pane displays on the right-hand side, allowing you to set up the selected column. Specify a **[!UICONTROL Label]** for the column.
+   
+   1. In the **[!UICONTROL Data]** field, select the profile attributes to display using the [Expression Editor](../personalization/personalization-build-expressions.md).
+
+   1. To sort the extraction file using a column, select the column and toggle on the **[!UICONTROL Sort by]** option. The **[!UICONTROL Sort By]** icon displays next to the column's label in the **[!UICONTROL Data Fields]** section.
+
+
+
+
+
+
+
 The extraction file is required by direct mail providers to send mail to your customers. To define the extraction file configuration, follow these steps:
 
 1. From the campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the extraction file content.
