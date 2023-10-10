@@ -15,7 +15,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 >id="ajo_create_fragment"
 >title="Define your own fragments"
 >abstract="Create and manage standalone fragments to make your content reusable across multiple journeys and campaigns."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Create fragments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="Create fragments"
 
 A fragment is a reusable component that can be referenced in one or more emails across [!DNL Journey Optimizer] campaigns and journeys.
 
@@ -188,7 +188,7 @@ This fragment is now ready to be used when building any [email](../email/get-sta
 >id="ajo_create_expression_fragment"
 >title="Select the expression type"
 >abstract="Create a standalone expression fragment to make your content reusable across multiple journeys and campaigns. When using the Expression editor, you can leverage all the expression fragments that have been created on the current sandbox."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Leverage expression fragments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="Leverage expression fragments"
 
 1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Expression fragment]** type.
 

@@ -65,7 +65,7 @@ To start building your code-based experience through a campaign, follow the step
 >id="ajo_code_based_experience"
 >title="Use the Expression editor"
 >abstract="Insert and edit the code you want to deliver as part of this code-based experience action."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Get started with the Expression editor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/personalization-build-expressions.html" text="Get started with the Expression editor"
 
 1. From the campaign edition screen, select **[!UICONTROL Edit code]**.
 
