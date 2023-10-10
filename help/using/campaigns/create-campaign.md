@@ -116,7 +116,7 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 ## Define the audience {#audience}
 
-Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform segments. [Learn more on segments](../audience/about-audiences.md)
+Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Learn more on audiences](../audience/about-audiences.md)
 
 >[!NOTE]
 >

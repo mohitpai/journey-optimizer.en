@@ -16,6 +16,11 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 >title="Audience"
 >abstract="By leveraging Real-Time Customer Profile data, Adobe Experience Platform enables you to easily build segment definitions to create targeted audiences that capture the unique behaviors and preferences of your customers."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="Select the campaign audience"
+>abstract="This list displays all available Adobe Experience Platform audiences. Select the audience to target with your campaign. The message configured in the campaign will be sent to all the individuals belonging to the selected audience. [Learn more on audiences](../audience/about-audiences.md)"
+
 [!DNL Journey Optimizer] allows you to build and leverage Adobe Experience Platform audiences using Real-Time Customer Profile data directly from the **[!UICONTROL Audiences]** menu, and use them into your journeys or campaigns.
 
 Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
