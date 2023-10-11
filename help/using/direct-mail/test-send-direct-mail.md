@@ -12,6 +12,11 @@ exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 
 ## Preview the extraction file {#preview-dm}
 
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_preview"
+>title="Extraction file preview"
+>abstract="In this pane, you can preview how the extraction file displays for each test profile selected in left pane. If you have inserted personalized content, you can check how this content is displayed using test profile data."
+
 Once the content of the extraction file has been defined, you can use test profiles to preview it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
 1. In the extraction file content configuration screen, click **[!UICONTROL Simulate content]**.

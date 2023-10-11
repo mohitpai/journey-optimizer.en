@@ -59,9 +59,9 @@ You can now start configuring the extraction file to send to your direct mail pr
 >abstract="Add and configure the columns and the information to be displayed in the extraction file required by direct mail providers to send mail to your customers. You can add up to 50 columns."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Extraction file formatting"
->abstract="The <b>Sort by</b> option allows you to use the selected field to sort the extraction file's columns. When this option is disabled, the columns are sorted automatically based on the Profile ID field."
+>abstract="For each field, specify a label and the information to display using the Expression Editor. <br/><br/> The <b>Sort by</b> option allows you to use the selected field to sort the extraction file's columns."
 
 1. Configure the columns and the information to be displayed in the extraction file:
 
