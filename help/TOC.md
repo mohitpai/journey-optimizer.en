@@ -281,7 +281,7 @@ solution: Journey Optimizer
       + [Math functions](using/personalization/functions/math.md)
       + [Object functions](using/personalization/functions/objects.md)
       + [String functions](using/personalization/functions/string.md) 
-    + Personalization use cases{#personalization-use-cases}    
+    + Personalization use cases{#personalization-use-cases}
       + [Order status notification](using/personalization/personalization-use-case.md)
       + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Manage reusable content {#reusable-content}
@@ -514,7 +514,7 @@ solution: Journey Optimizer
     + [Create IP warmup campaigns](using/configuration/ip-warmup-campaign.md)
     + [Create an an IP warmup plan](using/configuration/ip-warmup-plan.md)
     + [Run the IP warmup plan](using/configuration/ip-warmup-execution.md)
-  + Monitor email addresses {#monitor-reputation}  
+  + Monitor email addresses {#monitor-reputation}
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)
     + [Allowed list](using/configuration/allow-list.md)
@@ -531,7 +531,7 @@ solution: Journey Optimizer
       + [Throttling API](using/configuration/throttling.md)
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
-      + Configure a unitary event {#unitary-events}  
+      + Configure a unitary event {#unitary-events}
         + [Get started with unitary events](using/event/about-creating.md)
         + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
         + [Work with Adobe Analytics](using/event/about-analytics.md)
