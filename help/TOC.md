@@ -439,7 +439,7 @@ solution: Journey Optimizer
                + [Create a placement](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
                + [Update a placement](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
                + [Delete a placement](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
-            +  Decision rules {#decision-rules}
+            + Decision rules {#decision-rules}
                + [List decision rules](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                + [Lookup a decision rule](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
                + [Create a decision rule](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
@@ -463,7 +463,7 @@ solution: Journey Optimizer
                + [Create a fallback offer](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                + [Update a fallback offer](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                + [Delete a fallback offer](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
-           + Collections {#collections}
+            + Collections {#collections}
                + [List collections](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
                + [Lookup a collection](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
                + [Create a collection](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
