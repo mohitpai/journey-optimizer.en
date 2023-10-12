@@ -233,9 +233,9 @@ The **[!UICONTROL Email - Top Url]** graph and table details which URLs from you
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by profiles to open the email.
 
->[!NOTE]
+>[!CAUTION]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your email. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+> The **[!UICONTROL Email - Top recipient domain]** widget has an accuracy rate of 99.95%.
 
 The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
 
@@ -250,6 +250,11 @@ The **[!UICONTROL Send time optimization]** details the success of your email de
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
+
+>[!NOTE]
+>
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your email. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## In-app tab {#inapp-global}
