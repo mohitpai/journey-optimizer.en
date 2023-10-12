@@ -14,6 +14,11 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 >title="New decision management APIs"
 >abstract="New APIs for creation and management of decision management objects are now available. The legacy apis will be supported until 03/27/2024."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_api_support"
+>title="New decision management APIs"
+>abstract="New APIs for creation and management of decision management objects are now available. The legacy apis will be supported until 03/27/2024."
+
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the decisioning engine.
 
 ➡️ [Learn more on the components of Decision Management in this video](#video)
