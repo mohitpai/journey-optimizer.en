@@ -259,7 +259,7 @@ solution: Journey Optimizer
     + [Image generation](using/content-management/generative-image.md)
   + Work with Multilingual content{#content-multilingual}
     + [Create multilingual content](using/content-management/multilingual-manual.md)  
-+ Personalization & dynamic content {#personalized-dynamic-content}
++ Personalization and dynamic content {#personalized-dynamic-content}
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization contexts](using/personalization/personalization-contexts.md)
