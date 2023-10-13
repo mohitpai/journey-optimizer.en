@@ -1,7 +1,7 @@
 ---
 title: Access events XDM fields
 description: Learn more about the DecisioningEvents XDM schema.
-feature: Offers
+feature: Offers, Datasets, 
 topic: Integrations
 role: User
 level: Intermediate

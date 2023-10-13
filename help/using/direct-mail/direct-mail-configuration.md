@@ -1,10 +1,10 @@
 ---
 title: Direct mail configuration
 description: Learn how to configure direct mail channel in Journey Optimizer
-feature: Overview
+feature: Direct Mail, Surface, 
 topic: Content Management
 role: User
-level: Beginner
+level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 ---

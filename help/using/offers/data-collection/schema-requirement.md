@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Configure events capture
 description: Learn how to configure your offer schema to capture events
-feature: Ranking Formulas
+feature: Ranking Formulas, Datasets, Offers
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48

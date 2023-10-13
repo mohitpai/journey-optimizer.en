@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with audience composition
 description: Learn more on audience composition
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 ---
 # Get started with audience composition {#get-start-audience-composition}

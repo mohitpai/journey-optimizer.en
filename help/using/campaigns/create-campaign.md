@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a campaign
 description: Learn how to create campaigns in Journey Optimizer
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: create, optimizer, campaign, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 ---

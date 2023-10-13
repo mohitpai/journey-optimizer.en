@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get Started with Identities in Journey Optimizer
 description: Learn how to manage identities in Adobe Journey Optimizer
-feature: Profiles
+feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897

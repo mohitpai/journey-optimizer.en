@@ -1,7 +1,7 @@
 ---
 title: Batch Decisioning API
 description: Learn how to use the Batch Decisioning API to select the best offers for audiences' profiles within a predefined decision scope.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

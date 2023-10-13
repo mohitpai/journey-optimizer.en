@@ -1,7 +1,7 @@
 ---
 title: Data collection
 description: Learn more about Decision Management feedback data collection
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate

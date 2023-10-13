@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create conditions
 description: Learn how to create conditions
-feature: Personalization
+feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate

@@ -1,7 +1,7 @@
 ---
 title: delete placements
 description: Placements are containers that are used to showcase your offers.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

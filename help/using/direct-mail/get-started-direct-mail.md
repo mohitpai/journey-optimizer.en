@@ -1,7 +1,7 @@
 ---
 title: Get started with direct mail
 description: Learn how to create and a direct mail message in Journey Optimizer
-feature: Overview
+feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner

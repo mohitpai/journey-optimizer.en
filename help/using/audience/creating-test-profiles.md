@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a test profile
 description: Learn how to create a test profile
-feature: Journeys
+feature: Profiles, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate

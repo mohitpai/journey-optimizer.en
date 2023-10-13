@@ -1,7 +1,7 @@
 ---
 title: Legacy APIs
 description: Updated APIs for creating and managing decision management objects.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

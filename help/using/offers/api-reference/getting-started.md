@@ -1,7 +1,7 @@
 ---
 title: Getting started
 description: Learn how to start using the Offer Library API to perform key operations using the decisioning engine.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: User
 level: Intermediate
