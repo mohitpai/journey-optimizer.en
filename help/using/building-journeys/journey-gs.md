@@ -39,6 +39,11 @@ In order to send messages with journeys, the following configurations are requir
 
 ## Access journeys {#journey-access}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Journeys"
+>abstract="Design customer journeys to deliver personalized, contextual experiences. Journey Optimizer allow you to build real-time orchestration use cases with contextual data stored in events or data sources. The **Overview** tab displays a dashboard with key metrics related to your journeys. The **Browse** tab displays the list of existing journeys."
+
 In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
 
 **Overview**: this tab displays a dashboard with key metrics related to your journeys:
@@ -71,11 +76,6 @@ In the Event, Data source and Action configuration panes, the **[!UICONTROL Used
 ![](assets/journey3bis.png)
 
 ## Build your journey{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Build your journey"
->abstract="This screen displays the list of existing journeys. Open a journey or click 'Create journey', and combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios."
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 

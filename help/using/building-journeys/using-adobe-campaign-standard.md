@@ -12,6 +12,11 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 ---
 # Adobe Campaign Standard actions {#using_campaign_action}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="Custom actions"
+>abstract="An integration is available if you have Adobe Campaign Standard. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities."
+
 If you have Adobe Campaign Standard, the following built-in action activities are available: **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. 
 
 >[!NOTE]
