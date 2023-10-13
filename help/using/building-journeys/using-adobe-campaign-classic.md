@@ -12,6 +12,11 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 ---
 # Adobe Campaign v7/v8 actions {#using_campaign_classic} 
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="Custom actions"
+>abstract="An integration is available if you have Adobe Campaign v7 or v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities."
+
 An integration is available if you have Adobe Campaign v7 or v8. It will allow you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time. Contact Adobe.

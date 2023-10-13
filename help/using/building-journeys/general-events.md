@@ -14,7 +14,7 @@ exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
->title="General events"
+>title="Unitary events"
 >abstract="Events allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey. For this type of event, you can only add a label and a description. The event configuration is performed by a data engineer and cannot be edited."
 
 Events allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey.
