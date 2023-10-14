@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Work with Adobe Stock images
 description: Get Started with Adobe Stock
-feature: Overview
+feature: Assets, Integrations
 topic: Content Management
 role: User
 level: Beginner

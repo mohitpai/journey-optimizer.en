@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Search, filter, organize
 description: Learn more about Journey Optimizer User Interface
-feature: Overview
+feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate

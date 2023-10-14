@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics integration
 description: Learn how to leverage Adobe Analytics data in Journey Optimizer
-feature: Events
+feature: Reporting, Integrations
 topic: Administration
 role: Admin
 level: Intermediate

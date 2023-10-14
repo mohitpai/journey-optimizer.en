@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Work with Customer Journey Analytics
 description: Get Started with Customer Journey Analytics
-feature: Reporting
+feature: Reporting, Integrations
 topic: Content Management
 role: User
 level: Beginner

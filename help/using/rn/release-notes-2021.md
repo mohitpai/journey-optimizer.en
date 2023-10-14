@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Previous Release notes (2021)
 description: Journey Optimizer 2021 Release notes
+feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 ---
 # Release Notes 2021 {#release-notes-2021}
@@ -174,7 +175,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <tbody>
 <tr>
 <td>
-<p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe’s AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
+<p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe's AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
 <p>For more information, refer to the <a href="../building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
 </td>

@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: External data sources
 description: Learn how to configure external data sources
-feature: Data Sources
+feature: Data Sources, Integrations
 topic: Administration
 role: Admin
 level: Intermediate

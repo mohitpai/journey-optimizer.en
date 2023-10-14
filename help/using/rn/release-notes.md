@@ -2,6 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Release notes
+feature: Release Notes
 description: Journey Optimizer Release notes
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
