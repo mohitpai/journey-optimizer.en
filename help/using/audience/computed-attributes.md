@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Work with computed attributes
 description: Learn how to work with computed attributes.
-feature: Profiles
+feature: Audiences, Profiles
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 ---
 # Work with computed attributes {#computed-attributes}

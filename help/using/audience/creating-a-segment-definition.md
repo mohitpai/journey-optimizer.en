@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Build segment definitions
 description: Learn how to create audiences through segment definitions
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 ---
 # Build segment definitions {#build-segments}

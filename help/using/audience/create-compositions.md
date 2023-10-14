@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create your first composition workflow
 description: Learn how to create composition workflows to combine and arrange existing audiences.
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 ---
 # Create your first composition workflow {#create-compositions}

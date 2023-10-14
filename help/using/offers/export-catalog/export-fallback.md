@@ -1,7 +1,7 @@
 ---
 title: Fallback offers dataset
 description: This section lists all the fields used in the exported dataset for fallback offers
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate

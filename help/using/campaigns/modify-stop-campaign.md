@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Modify or stop a campaign
 description: Learn how to modify, stop or duplicate live campaigns in Journey Optimizer
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: manage campaigns, status, schedule, access, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 ---

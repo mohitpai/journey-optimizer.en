@@ -1,7 +1,7 @@
 ---
 title: List collection qualifiers
 description: Collection qualifiers allow you to better organize and sort through your offers.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

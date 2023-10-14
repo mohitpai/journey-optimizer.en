@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trigger campaigns using APIs
 description: Learn how to trigger campaigns using Journey Optimizer APIs
+Feature: Campaigns, API
 topic: Content Management
 role: Developer, Admin
-level: Intermediate, Experienced
+level: Experienced
 keywords: campaigns, API-triggered, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 ---

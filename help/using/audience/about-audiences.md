@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: About Adobe Experience Platform audiences
 description: Learn how to work with Adobe Experience Platform audiences
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 ---
 # Get started with Adobe Experience Platform audiences {#about-segments}

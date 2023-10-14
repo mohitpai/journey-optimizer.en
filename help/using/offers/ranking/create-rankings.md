@@ -1,7 +1,7 @@
 ---
 title: Create rankings
 description: Learn how to create rankings
-feature: Offers
+feature: Ranking Formulas, Offers
 topic: Integrations
 role: User
 level: Intermediate

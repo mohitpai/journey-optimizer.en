@@ -1,7 +1,7 @@
 ---
 title: Update personalized offers
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

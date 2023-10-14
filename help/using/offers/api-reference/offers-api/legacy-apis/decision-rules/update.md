@@ -1,7 +1,7 @@
 ---
 title: Update decision rules
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

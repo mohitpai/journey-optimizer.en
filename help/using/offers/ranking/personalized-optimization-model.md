@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Personalized optimization model
 description: Learn more about personalized optimization models
-feature: Ranking Formulas
+feature: Ranking Formulas, Offers
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782

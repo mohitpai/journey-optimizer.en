@@ -1,7 +1,7 @@
 ---
 title: Test & send a direct mail message
 description: Learn how to test and send a direct mail message in Journey Optimizer
-feature: Overview
+feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
