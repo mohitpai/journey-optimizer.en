@@ -24,7 +24,7 @@ Learn more in [Adobe Experience Manager Assets Essentials documentation](https:/
 
 ## Prerequisites{#assets-prerequisites}
 
-Before using [!DNL Adobe Experience Manager Assets Essentials], you must add users to the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Read more in [Assets Essentials documentation](https://experienceleague.corp.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
+Before using [!DNL Adobe Experience Manager Assets Essentials], you must add users to the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Read more in [Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >For Journey Optimizer products obtained before January 6, 2022, you must deploy [!DNL Adobe Experience Manager Assets Essentials] for your organization. Learn more in the [Deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"} section.

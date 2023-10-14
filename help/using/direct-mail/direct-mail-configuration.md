@@ -1,7 +1,7 @@
 ---
 title: Direct mail configuration
 description: Learn how to configure direct mail channel in Journey Optimizer
-feature: Direct Mail, Surface, 
+feature: Direct Mail, Surface
 topic: Content Management
 role: User
 level: Experienced
