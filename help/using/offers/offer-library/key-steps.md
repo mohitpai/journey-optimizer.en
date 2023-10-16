@@ -27,12 +27,35 @@ Before starting to create offers, you must define several components that you wi
 
 1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can **create a ranking formula**.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Create placements</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Create decision rules</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Create tags</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Create ranking formulas</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-placement.svg" width="60px">
+<div>
+<a href="../offer-library/creating-placements.md">Create placements</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-rules.svg" width="60px">
+<div>
+<a href="../offer-library/creating-decision-rules.md">Create decision rules</a>
+</div>
+<p>
+<td>
+<img src="../../assets/do-not-localize/icon-tags.svg" width="60px">
+<div>
+<a href="../offer-library/creating-tags.md">Create tags</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-ranking.svg" width="60px">
+<div>
+<a href="../ranking/create-ranking-formulas.md">Create ranking formulas</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
 
@@ -44,11 +67,29 @@ Before starting to create offers, you must define several components that you wi
 
 1. **Create a collection** to include the personalized offers you created and use them in a decision.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Create offers</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Create fallback offers</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Create collections</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
+<div>
+<a href="../offer-library/creating-personalized-offers.md">Create offers</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-fallback.svg" width="60px">
+<div>
+<a href="../offer-library/creating-fallback-offers.md">Create fallback offers</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-collection.svg" width="60px">
+<div>
+<a href="../offer-library/creating-collections.md">Create collections</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
 
@@ -60,10 +101,28 @@ Before starting to create offers, you must define several components that you wi
 
 1. If needed, you can **assign a ranking formula** to a placement when configuring the decision.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Create decisions</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Configure decisions</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Assign ranking</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-decision.svg" width="60px">
+<div>
+<a href="../offer-activities/create-offer-activities.md">Create decisions</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px">
+<div>
+<a href="../offer-activities/create-offer-activities.md#add-offers">Configure decisions</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
+<div>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Assign ranking</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
