@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a subscription list
 description: Learn how to set up a subscription list in Journey Optimizer
-feature: Landing Pages
+feature: Subscriptions
 topic: Content Management
 role: User
 level: Beginner

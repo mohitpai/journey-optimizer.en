@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create content templates
 description: Learn how to create templates to reuse content in Journey Optimizer campaigns and journeys
-feature: Overview
+feature: Templates
 topic: Content Management
 role: User
 level: Beginner
