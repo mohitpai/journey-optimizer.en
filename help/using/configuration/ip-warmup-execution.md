@@ -63,7 +63,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
     >
     >* You must select a campaign that uses the same surface as the one selected for the current IP warmup plan.
     >
-    >* You cannot select a campaign that is already in use in another IP warmup campaign.
+    >* You cannot select a campaign that is already in use in another IP warmup plan.
 
 
 1. In the **[!UICONTROL Profile exclusion]** section, you can see that the profiles from the previous runs of that phase are always excluded. For example, if in Run #1 a profile got covered in the first 4800 people being targeted, the system will automatically ensure that the same profile doesn't receive the email in Run #2.
