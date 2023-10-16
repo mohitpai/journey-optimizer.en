@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with email style
 description: Discover the different ways you can adjust your email content style
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

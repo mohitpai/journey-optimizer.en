@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Design content from scratch in Journey Optimizer
 description: Learn how to design your content from scratch
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

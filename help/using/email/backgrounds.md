@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personalize your email background
 description: Learn how to personalize your email background
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

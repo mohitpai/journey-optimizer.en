@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Preview messages and send proofs
 description: Learn how to preview and test your email
-feature: Journeys
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

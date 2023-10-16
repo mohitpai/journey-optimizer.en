@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Add inline styling attributes
 description: Learn how to add inline styling attributes
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

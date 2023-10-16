@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Add a preheader in Journey Optimizer
 description: Learn how to design your emails content
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
