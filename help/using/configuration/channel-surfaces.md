@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Set up channel surfaces
 description: Learn how to configure and monitor channel surfaces
-feature: Application Settings, Surface
+feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Intermediate

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: PTR records
 description: Learn how to manage PTR records
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomain, PTR, records, DNS, domain, mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---

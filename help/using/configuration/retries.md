@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Retries
 description: Learn how retries are performed before sending an address to the suppression list
-feature: Application Settings
+feature: Deliverability
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: retries, bounce, soft, optimizer, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 ---

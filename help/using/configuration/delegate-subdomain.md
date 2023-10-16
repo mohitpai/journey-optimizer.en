@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Delegate a subdomain
 description: Learn how to delegate your subdomains.
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomain, delegation, domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---

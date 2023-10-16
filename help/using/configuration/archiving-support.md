@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Archiving support in Journey Optimizer
 description: Learn how to archive messages
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Intermediate

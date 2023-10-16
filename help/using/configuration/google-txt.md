@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Add a Google TXT record to a subdomain
 description: Learn how to add a Google TXT record to a subdomain
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomain, google, txt, record, gmail, deliverability
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 ---
