@@ -4,7 +4,7 @@ product: journey optimizer
 title: Push Notification flow in Adobe Journey Optimizer
 description: Understand push notification data flow and components
 topic: Mobile
-feature: Push
+feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba

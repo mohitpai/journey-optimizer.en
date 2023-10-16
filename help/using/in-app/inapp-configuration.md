@@ -2,6 +2,7 @@
 title: In-app channel prerequisites
 description: Learn how to configure your environment to send In-app messages with Journey Optimizer
 role: Admin
+feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42

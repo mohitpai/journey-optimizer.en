@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Landing page live report
 description: Learn how to use data from your landing pages live report
-feature: Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
@@ -22,7 +22,7 @@ To access your reports, select **[!UICONTROL Report]** from the advanced menu of
 
 ![](assets/landing_page_report.png)
 
-The landing page **[!UICONTROL Live report]** is divided into different widgets detailing your delivery’s success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md).
+The landing page **[!UICONTROL Live report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md).
 
 +++Learn more on the different metrics and widgets available for the Landing page live report.
 

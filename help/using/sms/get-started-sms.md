@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with SMS
 description: Learn how to create an SMS in Journey Optimizer
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner

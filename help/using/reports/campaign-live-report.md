@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Campaign live report
 description: Learn how to use data from the Campaign live report
-feature: Reporting
+feature: Reporting, Campaigns
 topic: Content Management
 role: User
 level: Intermediate

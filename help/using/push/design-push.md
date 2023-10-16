@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Design a push notification
 description: Learn how to design a push notification in Journey Optimizer
-feature: Overview
+feature: Push
 topic: Content Management
 role: User
 level: Beginner

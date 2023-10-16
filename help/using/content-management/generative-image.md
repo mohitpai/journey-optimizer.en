@@ -24,8 +24,6 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 
 >[!ENDSHADEBOX]
 
-
-
 Once you have created and personalized your Emails or Web pages, take your content to the next level with the Content assistant. This powerful tool allows you to personalize and enhance your content effortlessly. 
 
 In the example below, learn how to use the Content assistant to update and improve your assets for a better user experience. Follow these steps:

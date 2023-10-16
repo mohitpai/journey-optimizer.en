@@ -4,6 +4,7 @@ product: journey optimizer
 title: Configure SMS subdomains
 description: Learn how to configure SMS subdomains with Journey Optimizer
 role: Admin
+feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomains, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1

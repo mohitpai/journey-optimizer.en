@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with push notification
 description: Learn how to create a push notification in Journey Optimizer
-feature: Overview
+feature: Overview, Push
 topic: Content Management
 role: User
 level: Beginner

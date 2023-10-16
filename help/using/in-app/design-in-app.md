@@ -1,7 +1,7 @@
 ---
 title: Design your In-app content
 description: Learn how to design your In-app content in Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner

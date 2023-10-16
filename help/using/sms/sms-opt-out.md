@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: SMS opt-out management
 description: Learn how to manage opt-out with SMS messages
-feature: Journeys
+feature: SMS
 topic: Content Management
 role: User
 level: Intermediate

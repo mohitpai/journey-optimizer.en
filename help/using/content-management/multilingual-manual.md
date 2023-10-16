@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with Multilingual content
 description: Learn more about Multilingual content in Journey Optimizer
-feature: Overview
+feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner

@@ -1,7 +1,7 @@
 ---
 title: Get started with an In-app messaging
 description: Learn how to send an In-app notifications with Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
