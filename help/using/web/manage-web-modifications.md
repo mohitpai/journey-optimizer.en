@@ -4,7 +4,7 @@ description: Learn how to manage modifications in Journey Optimizer web page con
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
+level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 ---
 # Manage web modifications {#manage-web-modifications}

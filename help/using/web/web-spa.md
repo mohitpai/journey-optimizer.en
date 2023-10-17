@@ -4,7 +4,7 @@ description: Learn how to author SPAs and apply modifications to different views
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
+level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 ---
 # Author single-page applications {#web-author-spas}

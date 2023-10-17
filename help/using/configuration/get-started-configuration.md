@@ -4,7 +4,7 @@ product: journey optimizer
 title: Get started with [!DNL Journey Optimizer] configuration
 description: Learn more about [!DNL Journey Optimizer] configuration
 role: Admin, Developer
-level: Intermediate
+level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration

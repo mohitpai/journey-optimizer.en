@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: PTR records
 description: Learn how to manage PTR records
-feature: Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced

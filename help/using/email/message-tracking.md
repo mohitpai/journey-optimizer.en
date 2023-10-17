@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Track your messages
 description: Learn how to add links and track sent messages
-feature: Monitoring
+feature: Email Design, Monitoring
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: links, tracking, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 ---

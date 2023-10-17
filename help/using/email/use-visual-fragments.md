@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use visual fragments
 description: Learn how to use visual fragments when creating emails in Journey Optimizer campaigns and journeys
-feature: Email Design
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner

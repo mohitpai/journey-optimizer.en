@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create IP pools
 description: Learn how to manage IP pools
-feature: Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced

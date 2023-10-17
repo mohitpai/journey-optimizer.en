@@ -5,7 +5,7 @@ title: Allowed list
 description: Learn how to use the allowed list
 feature: Deliverability
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 keywords: allowed list, list, safe, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422

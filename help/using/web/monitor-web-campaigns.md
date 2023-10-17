@@ -1,10 +1,10 @@
 ---
 title: Monitor your web campaigns
 description: Learn how to monitor your web campaigns in Journey Optimizer
-feature: Web Channel
+feature: Web Channel, Reporting
 topic: Content Management
 role: User
-level: Beginner
+level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 ---
 # Monitor your web campaigns {#monitor-web-campaigns}

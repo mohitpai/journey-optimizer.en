@@ -6,7 +6,7 @@ description: Learn how to use content components in your emails
 feature: Email Design
 topic: Content Management
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: components, email designer, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 ---

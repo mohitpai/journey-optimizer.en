@@ -6,7 +6,7 @@ description: Discover the different ways you can adjust your email content style
 feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: email, style, css, body, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 ---

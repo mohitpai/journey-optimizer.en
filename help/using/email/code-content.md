@@ -6,7 +6,7 @@ description: Learn how to code your own email content
 feature: Email Design
 topic: Content Management
 role: User
-level: Experienced
+level: Intermediate, Experienced
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 ---

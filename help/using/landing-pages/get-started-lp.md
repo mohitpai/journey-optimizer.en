@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with landing pages
 description: Learn about landing pages in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Beginner

@@ -4,7 +4,8 @@ product: journey optimizer
 title: Configure web subdomains
 description: Learn how to set up web subdomains with Journey Optimizer
 role: Admin
-level: Intermediate
+feature: Web Channel, Subdomains
+level: Experienced
 keywords: web, subdomains, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 ---

@@ -6,7 +6,7 @@ description: Learn how to archive messages
 feature: Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: archive, messages, HIPAA, BCC, emails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 ---

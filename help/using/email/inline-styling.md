@@ -6,7 +6,7 @@ description: Learn how to add inline styling attributes
 feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: inline, styling, attributes, editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 ---

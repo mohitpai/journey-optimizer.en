@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Define landing page presets
 description: Learn how to configure your environment to create and use landing pages with Journey Optimizer
+feature: Landing Pages, Channel Configuration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: landing, landing page, configure, environment, subdomain, presets
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 ---

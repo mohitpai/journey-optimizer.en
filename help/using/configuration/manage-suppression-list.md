@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Manage the suppression list
 description: Learn how to access and manage the Journey Optimizer suppression list
-feature: Deliverability
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced

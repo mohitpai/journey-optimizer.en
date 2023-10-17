@@ -5,7 +5,7 @@ title: Use custom JavaScript in a landing page
 description: Learn how to design the content of a landing page in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
-role: User
+role: Developer
 level: Experienced
 keywords: landing, landing page, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290

@@ -5,7 +5,7 @@ title: Get started with email configuration
 description: Learn more about email configuration in [!DNL Journey Optimizer]
 role: Admin
 level: Experienced
-feature: Channel Configuration
+feature: Channel Configuration, Email
 topic: Administration
 keywords: email, configuration, surface, subdomains
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
