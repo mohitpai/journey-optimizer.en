@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Auto-optimization models
 description: Learn more about auto-optimization models
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
