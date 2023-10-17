@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Image generation with the Content assistant
 description: Get Started with the Content assistant
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
