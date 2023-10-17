@@ -18,7 +18,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 >abstract="Use **Adobe Journey Optimizer** to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more."
 
 
-Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more.
+Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more.  
 
 ➡️ [Learn how to personalize a message in these videos](#video-perso)
 ➡️ [Discover use cases leveraging personalization](personalization-use-case.md)
