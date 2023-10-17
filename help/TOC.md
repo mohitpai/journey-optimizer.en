@@ -227,7 +227,6 @@ solution: Journey Optimizer
   + Configure web channel {#configure-web-channel}
     + [Web channel prerequisites](using/web/web-prerequisites.md)
     + [Configure web subdomains](using/web/web-delegated-subdomains.md)
-    + [Implement single-page applications](using/web/web-spa-implementation.md)
   + [Create web experiences](using/web/create-web.md)
   + Author web pages {#author-web-pages}
     + [Edit web page content](using/web/edit-web-content.md)
