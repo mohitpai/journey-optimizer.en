@@ -2,7 +2,7 @@
 title: Statistical calculations used in the Experimentation report
 description: Learn more about statistical calculations used when running experiment reports
 feature: A/B Testing
-topic: Content Management
+topic: Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
@@ -39,7 +39,7 @@ The Journey Experimentation panel displays "anytime valid" confidence intervals 
 
 The confidence sequence for an individual variant `ν` is central to the statistical methodology used by Adobe. You can find its definition in [this page](https://doi.org/10.48550/arXiv.2103.06476) (reproduced from [Waudby-Smith et al.]). 
 
-If you are interested in estimating a target parameter `ψ` such as the conversion rate of a variant in an Experiment, the dichotomy between a sequence of ‘fixed-time’ Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
+If you are interested in estimating a target parameter `ψ` such as the conversion rate of a variant in an Experiment, the dichotomy between a sequence of 'fixed-time' Confidence Intervals (CIs), and a time-uniform Confidence Sequence (CS) can be summarized as follows: 
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
