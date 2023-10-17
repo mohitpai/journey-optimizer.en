@@ -12,6 +12,11 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 ---
 # Trigger campaigns using APIs {#trigger-campaigns}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="Campaign type"
+>abstract="For limited availability feature to send messages without creating profiles, follow the steps detailed in the documentation."
+
 ## About API-triggered campaigns {#about}
 
 With [!DNL Journey Optimizer], you can create campaigns and then invoke them from an external system based on user trigger using the [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). This allows you to cover various marketing and transactional messaging needs like password resets, OTP token, among others.
