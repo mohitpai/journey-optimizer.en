@@ -1,7 +1,7 @@
 ---
 title: Get started with rankings
 description: Learn how to work with rankings
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 topic: Integrations
 role: User
 level: Intermediate
