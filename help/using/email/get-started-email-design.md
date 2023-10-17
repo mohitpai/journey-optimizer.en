@@ -6,7 +6,7 @@ description: Learn how to design your emails
 feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: email, design, stock, assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 ---
