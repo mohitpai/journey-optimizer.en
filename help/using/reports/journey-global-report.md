@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey global report
 description: Learn how to use data from the journey global report
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate

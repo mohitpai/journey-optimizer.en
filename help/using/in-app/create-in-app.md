@@ -1,7 +1,7 @@
 ---
 title: Create an In-app notification in Journey Optimizer
 description: Learn how to create an In-app message in Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner

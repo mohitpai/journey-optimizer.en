@@ -1,10 +1,10 @@
 ---
 title: Single-page application implementation
 description: Learn how to implement SPA views in Journey Optimizer
-feature: Web Channel
+feature: Web Channel, Web SDK
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Experienced
 exl-id: c36d793d-0aa6-4a7a-94f2-dbfe6b644df8
 ---
 # Implement single-page applications (SPAs) {#web-spa-implementation}

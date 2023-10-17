@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Preview and test your SMS message
 description: Learn how to preview and test your SMS message in Journey Optimizer
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner

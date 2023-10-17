@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create IP pools
 description: Learn how to manage IP pools
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: IP, pools, group, subdomais, deliverability
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---

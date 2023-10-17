@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Work with fragments
 description: Learn how to create fragments to reuse content in Journey Optimizer campaigns and journeys
-feature: Overview
+feature: Templates
 topic: Content Management
 role: User
-level: Beginner
+level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 ---
 # Work with fragments {#fragments}

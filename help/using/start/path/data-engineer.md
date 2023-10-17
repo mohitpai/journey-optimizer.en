@@ -3,6 +3,8 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Get Started for Data Engineer
 description: As a Data Engineer, learn more how to work with Journey Optimizer
+feature: Get Started
+role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 ---
@@ -36,6 +38,6 @@ In addition, to be able send messages in journeys, you must configure **[!UICONT
 
 * The **Data Source** configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys. Learn more about Data Sources [in this section](../../datasource/about-data-sources.md).
 
-* **Events** allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey. In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). Learn more about events [in this section](../../event/about-events.md).
+* **Events** allow you to trigger your journeys unitarily to send messages, in real-time, to the individual flowing into the journey. In the event configuration, you configure the events expected in the journeys. The incoming events' data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events). Learn more about events [in this section](../../event/about-events.md).
     
 * [!DNL Journey Optimizer] comes with built-in message capabilities: you can create your messages within a journey and design your content. If you are using a third-party system to send your messages, for example Adobe Campaign, create a **custom action**. Learn more about actions in this [in this section](../../action/action.md).

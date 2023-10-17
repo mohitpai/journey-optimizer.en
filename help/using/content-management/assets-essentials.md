@@ -3,8 +3,8 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use Assets Essentials in Journey Optimizer
 description: Get Started with Assets Essentials
-feature: Overview
-topic: Content Management
+feature: Assets, Integrations
+topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integration

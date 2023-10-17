@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Examples of queries
 description: Examples of queries
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
@@ -19,7 +19,7 @@ Make sure that the fields used in your queries have associated values in the cor
 
 * id: unique for all the step event entries. Two different step events cannot have the same id.
 * instanceId: instanceID is the same for all the step events associated to a profile within a journey execution. If a profile reenters the journey, a different instanceId will be used. This new instanceId will be same for all the step events of the reentered instance (from start to end).
-* profileID: the profile’s identity corosponding to the journey namespace.
+* profileID: the profile's identity corosponding to the journey namespace.
 
 >[!NOTE]
 >

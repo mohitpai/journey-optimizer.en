@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Seed lists
 description: Learn how to use seed lists in Journey Optimizer
-feature: Deliverability
+feature: Channel Configuration, Email
 topic: Content Management
 role: User
 level: Intermediate

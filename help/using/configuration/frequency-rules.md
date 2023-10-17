@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Frequency rules
 description: Learn how to define frequency rules
-feature: Overview
+feature: Rules
 topic: Content Management
 role: User
 level: Intermediate

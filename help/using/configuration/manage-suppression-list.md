@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Manage the suppression list
 description: Learn how to access and manage the Journey Optimizer suppression list
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: suppression, list, bounce, email, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 ---

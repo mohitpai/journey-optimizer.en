@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adjust vertical alignment and padding in Journey Optimizer
 description: Learn how to adjust vertical alignment and padding
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: vertical alignement, email editor, padding
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 ---

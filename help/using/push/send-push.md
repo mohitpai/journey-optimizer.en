@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Preview and test your push notification
 description: Learn how to preview and test your push notification in Journey Optimizer
-feature: Overview
+feature: Push
 topic: Content Management
 role: User
 level: Beginner

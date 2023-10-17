@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personalize your email background
 description: Learn how to personalize your email background
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: background, email, color, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 ---

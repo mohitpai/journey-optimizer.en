@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with content experiment
 description: Learn more about content experiment in Journey Optimizer
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner

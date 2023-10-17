@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Landing page global report
 description: Learn how to use data from your landing pages global report
-feature: Journeys
+feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
@@ -22,7 +22,7 @@ To access your reports, select **[!UICONTROL Report]** from the advanced menu of
 
 ![](assets/landing_page_report.png)
 
-The landing page **[!UICONTROL Global report]** is divided into different widgets detailing your delivery’s success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md).
+The landing page **[!UICONTROL Global report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](global-report.md).
 
 ![](assets/landing_page_global.png)
 

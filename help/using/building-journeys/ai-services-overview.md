@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: AI service overview
 description: AI service overview
+feature: Integrations
 role: User
 level: Intermediate
 keywords: artificial, AI, intelligent, journey, service

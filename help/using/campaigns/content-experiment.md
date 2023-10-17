@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a Content Experiment
 description: Learn how to create a content experiment in your campaigns
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner

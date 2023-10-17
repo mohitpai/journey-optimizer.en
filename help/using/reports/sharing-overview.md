@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey step sharing overview
 description: Journey step sharing overview
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate

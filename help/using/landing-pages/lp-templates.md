@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Work with landing page templates
 description: Learn how save a landing page as a template and reuse it in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Templates
 topic: Content Management
 role: User
 level: Beginner

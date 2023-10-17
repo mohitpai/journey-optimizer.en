@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create the text version of an email
 description: Learn how to create the text version of an email
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

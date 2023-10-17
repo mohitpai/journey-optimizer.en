@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
+feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983

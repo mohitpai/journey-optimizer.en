@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Image generation with the Content assistant
 description: Get Started with the Content assistant
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -23,8 +23,6 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 * **[Generate images with the Content assistant](generative-image.md)**
 
 >[!ENDSHADEBOX]
-
-
 
 Once you have created and personalized your Emails or Web pages, take your content to the next level with the Content assistant. This powerful tool allows you to personalize and enhance your content effortlessly. 
 

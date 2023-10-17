@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Subdomain delegation in [!DNL Journey Optimizer]
 description: Learn how to delegate your subdomains
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomain, optimizer, delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 ---

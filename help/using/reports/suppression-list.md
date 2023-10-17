@@ -5,8 +5,8 @@ title: Suppression list
 description: Learn how to use the suppression list is
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 ---
 # Suppression list {#suppression-list}

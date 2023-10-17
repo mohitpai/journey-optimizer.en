@@ -1,10 +1,10 @@
 ---
 title: Web channel prerequisites
 description: To be able to access and author web pages in the Journey Optimizer user interface, follow the prerequisites on this page
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 ---
 # Prerequisites and guardrails {#web-prerequisites}

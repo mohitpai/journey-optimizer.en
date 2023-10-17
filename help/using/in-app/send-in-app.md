@@ -1,7 +1,7 @@
 ---
 title: Test and send your In-app notification
 description: Learn how to test and send an In-app message in Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner

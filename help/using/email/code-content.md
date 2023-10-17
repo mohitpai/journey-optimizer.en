@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Code your own email content
 description: Learn how to code your own email content
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Intermediate, Experienced
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 ---

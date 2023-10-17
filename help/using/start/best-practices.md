@@ -3,8 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer best practices
 description: Learn more about Journey Optimizer best practices
-feature: Journeys
-topic: Content Management
+feature: Get Started
 role: User
 level: Intermediate
 hide: yes

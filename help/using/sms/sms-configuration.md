@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure the SMS channel
 description: Learn how to configure your environment to send SMS with Journey Optimizer
+feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8

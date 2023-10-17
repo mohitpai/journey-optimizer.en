@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Get started for Marketers
 description: As a Journey Practicioner, learn more how to work with Journey Optimizer
-level: Intermediate
+level: Beginner
+feature: Get Started
+Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 ---
 # Get started for Marketers {#get-started-marketers}

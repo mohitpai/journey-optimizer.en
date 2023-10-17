@@ -1,7 +1,7 @@
 ---
 title: Create an In-app notification in a Journey
 description: Learn how to add an In-app message in a journey
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Design content from scratch in Journey Optimizer
 description: Learn how to design your content from scratch
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: content, editor, email, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---

@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Import your email content
 description: Learn how to import email content
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate

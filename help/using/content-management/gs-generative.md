@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with the Content assistant
 description: Learn to access and work with Journey Optimizer's Content assistant
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner

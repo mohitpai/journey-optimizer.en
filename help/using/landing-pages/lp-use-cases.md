@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Landing page use cases
 description: Discover the most common use cases with landing pages in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
