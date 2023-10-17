@@ -227,7 +227,7 @@ Once your landing page settings and content have been defined, you can use test 
     >
     >The **[!UICONTROL Simulate content]** button is also accessible from the content designer.
 
-1. From the **[!UICONTROL Simulate ]** screen, select one or more test profiles.
+1. From the **[!UICONTROL Simulate]** screen, select one or more test profiles.
 
     ![](assets/lp_test-profiles.png)
 
