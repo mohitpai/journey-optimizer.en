@@ -1,8 +1,7 @@
 ---
 title: Statistical calculations used in the Experimentation report
 description: Learn more about statistical calculations used when running experiment reports
-feature: A/B Testing
-topic: Experimentation
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
