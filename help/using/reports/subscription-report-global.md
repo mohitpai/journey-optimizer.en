@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Subscription report
 description: Learn how to use data from your subscription services with the Subscription global report
-feature: Journeys, SUbscriptions
+feature: Journeys, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate

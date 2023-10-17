@@ -4,7 +4,7 @@ product: journey optimizer
 title: Journey Optimizer Get Started for System Admin
 description: As a System Administrator, learn more how to work with Journey Optimizer
 feature: Get Started
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 ---
