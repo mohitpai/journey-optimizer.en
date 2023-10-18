@@ -1,7 +1,9 @@
 ---
 title: Get Started for Developers
 description: As a Developer, learn more how to work with Journey Optimizer
-level: Intermediate
+feature: Get Started
+role: Developer
+level: Experienced
 hide: yes
 hidefromtoc: yes
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1

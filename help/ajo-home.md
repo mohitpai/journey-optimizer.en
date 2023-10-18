@@ -4,6 +4,7 @@ title: Journey Optimizer product documentation
 description: Learn how to use Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
+feature: Overview
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 ---
 # Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}

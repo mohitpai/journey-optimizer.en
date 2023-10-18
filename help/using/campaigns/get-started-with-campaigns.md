@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with campaigns
 description: Learn more about campaigns in Journey Optimizer
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner

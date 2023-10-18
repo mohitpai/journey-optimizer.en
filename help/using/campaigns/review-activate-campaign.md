@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Review and activate a campaign
 description: Learn how to review and activate campaigns in Journey Optimizer
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate

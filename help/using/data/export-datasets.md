@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Export datasets to cloud storage locations
 description: Learn how to export your datasets using Adobe Experience Platform cloud storage destinations.
+feature: Datasets
 role: User
 level: Beginner
 keywords: platform, data lake, create, lake, datasets, profile

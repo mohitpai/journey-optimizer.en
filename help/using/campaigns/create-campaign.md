@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a campaign
 description: Learn how to create campaigns in Journey Optimizer
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner

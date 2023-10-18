@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Integrate Journey Optimizer with external systems
 description: Learn the best practices when integrating Journey Optimizer with external systems
+feature: Integrations
 role: User
 level: Beginner
 keywords: external, API, optimizer, capping

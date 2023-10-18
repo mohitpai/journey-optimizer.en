@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Throttling API
 description: Learn how to work with the Throttling API
+feature: Journeys, API
 role: User
 level: Beginner
 keywords: external, API, optimizer, capping
