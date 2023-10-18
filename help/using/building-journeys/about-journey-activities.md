@@ -4,7 +4,7 @@ product: journey optimizer
 title: Get started with journey activities
 description: Get started with journey activities
 feature: Journeys, Activities, Overview
-topic: Journeys
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: journey, activities, get started, events, action

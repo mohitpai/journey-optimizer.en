@@ -2,8 +2,8 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Release notes
-feature: Journeys, Release Notes
-topic: Journeys
+feature: Release Notes
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 description: Journey Optimizer Release notes
