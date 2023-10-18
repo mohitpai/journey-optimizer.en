@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign Standard actions
 description: Learn about Adobe Campaign Standard actions
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 keywords: journey, integration, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5

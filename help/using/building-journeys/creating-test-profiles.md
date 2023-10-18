@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create a test profile
 description: Learn how to create a test profile
-feature: Journeys
+feature: Test Profiles, Profiles
 topic: Content Management
-role: User
+role: User, Data Engineer
 level: Intermediate
 keywords: test profiles, testing, test, journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280

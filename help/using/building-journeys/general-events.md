@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: General events
 description: Learn how to use general events
-feature: Journeys
+feature: Journeys, Events
 topic: Content Management
 role: User
 level: Intermediate

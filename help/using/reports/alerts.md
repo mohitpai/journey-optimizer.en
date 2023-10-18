@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Alerts
 description: Learn how to manage alerts
-feature: Alerts
+feature: Journeys, Alerts
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 ---

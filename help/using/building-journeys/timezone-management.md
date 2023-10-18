@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Time zone management
 description: Learn about time zone management
-feature: Journeys
+feature: Journeys, Profiles
 topic: Content Management
 role: User
 level: Intermediate

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Copy a journey to another sandox
 description: Learn how to copy a journey to another sandox
-feature: Journeys
+feature: Journeys, Sandoxes
 topic: Content Management
-role: User, Developer
-level: Intermediate
+role: User, Developer, Data Engineer
+level: Experienced
 keywords: sandbox, journey, copy, environment
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 ---

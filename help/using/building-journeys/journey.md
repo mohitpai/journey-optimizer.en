@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with journeys
 description: Get started with journeys
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: journey, discover, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 ---

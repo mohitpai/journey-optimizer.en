@@ -1,7 +1,7 @@
 ---
 title: Create decisions
 description: Learn how to create decisions
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced

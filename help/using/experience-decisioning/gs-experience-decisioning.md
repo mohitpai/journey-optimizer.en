@@ -1,7 +1,7 @@
 ---
 title: Get started with Experience Decisioning
 description: Learn more on Experience decisioning
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate

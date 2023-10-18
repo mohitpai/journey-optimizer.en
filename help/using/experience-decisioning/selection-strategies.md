@@ -1,7 +1,7 @@
 ---
 title: Create selection strategies
 description: Learn how to create selection strategies
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate

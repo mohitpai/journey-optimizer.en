@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Profile entry management
 description: Learn how to manage profile entry
-feature: Journeys
+feature: Journeys, Profiles
 role: User
 level: Intermediate
 keywords: re-entrance, journey, profile, recurring

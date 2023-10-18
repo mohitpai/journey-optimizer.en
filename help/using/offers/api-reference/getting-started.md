@@ -1,10 +1,10 @@
 ---
 title: Getting started
 description: Learn how to start using the Offer Library API to perform key operations using the decisioning engine.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
-role: User
-level: Intermediate
+role: Data Engineer
+level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 ---
 # Decision Management API developer guide {#decision-management-api-developer-guide}
@@ -55,7 +55,7 @@ This document covered the prerequisite knowledge required to make calls to the [
 <!--
 >[!NOTE]
 >
-> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = "Mobile_Sheliak"`.
 -->
 
 ## How-to video {#video}

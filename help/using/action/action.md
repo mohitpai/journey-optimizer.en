@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: About actions
 description: Learn how to configure an action
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: actions, journey, messages, sending, connections
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 ---

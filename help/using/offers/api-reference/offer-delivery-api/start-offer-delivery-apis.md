@@ -1,7 +1,7 @@
 ---
 title: Get started with offer delivery APIs
 description: Learn more on the APIs available to deliver personalized offers.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

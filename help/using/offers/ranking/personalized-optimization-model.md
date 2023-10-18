@@ -3,9 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: Personalized optimization model
 description: Learn more about personalized optimization models
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
-level: Intermediate
+level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 ---
 # Personalized optimization model {#personalized-optimization-model}

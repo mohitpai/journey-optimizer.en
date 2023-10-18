@@ -1,7 +1,7 @@
 ---
 title: List placements
 description: Placements are containers that are used to showcase your offers.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

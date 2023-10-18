@@ -1,9 +1,9 @@
 ---
 title: Get started with code-based experiences
 description: Learn about code-based experiences in Journey Optimizer
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: User, Developer, Admin
 level: Experienced
 hide: yes
 hidefromtoc: yes

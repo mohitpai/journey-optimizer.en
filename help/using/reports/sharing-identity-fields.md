@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyStep event identity fields
 description: journeyStep event identity fields
-feature: Reporting, Journeys
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
 ---
 # journeyStep event identity fields {#sharing-identity-fields}

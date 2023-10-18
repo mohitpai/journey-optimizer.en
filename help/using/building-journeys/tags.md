@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Manage tags in journeys
 description: Manage tags in journeys
-feature: Journeys
+feature: Journeys, Tags
 topic: Content Management
 role: User
 level: Intermediate

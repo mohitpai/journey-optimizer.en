@@ -1,7 +1,7 @@
 ---
 title: Ranking methods
 description: Learn how to work with ranking methods
-feature: Offers
+feature: Experience Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate

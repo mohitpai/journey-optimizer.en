@@ -1,7 +1,7 @@
 ---
 title: Ranking formulas
 description: Learn how to create formulas to rank offers
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
-feature: Reporting, Journeys
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}

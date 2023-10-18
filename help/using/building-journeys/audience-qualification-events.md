@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Audience Qualification events
 description: Learn about audience qualification events
-feature: Journeys
+feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate

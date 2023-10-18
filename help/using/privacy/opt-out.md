@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Manage opt-out
 description: Learn how to manage opt-out and privacy
-feature: Privacy
+feature: Privacy, Consent Management
 topic: Content Management
 role: User
 level: Intermediate

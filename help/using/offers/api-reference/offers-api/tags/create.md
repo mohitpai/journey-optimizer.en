@@ -1,7 +1,7 @@
 ---
 title: Create a collection qualifier
 description: Collection qualifiers allow you to better organize and sort through your offers.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

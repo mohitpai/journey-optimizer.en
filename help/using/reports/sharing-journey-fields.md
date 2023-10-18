@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journey fields
 description: journey fields
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 ---
 # Journey fields {#sharing-journey-fields}

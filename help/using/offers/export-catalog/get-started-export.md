@@ -1,9 +1,9 @@
 ---
 title: Get started with offer catalog export
 description: Learn how to export your offer catalog as a dataset
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 ---

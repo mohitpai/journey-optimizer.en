@@ -1,9 +1,9 @@
 ---
 title: Decisions dataset
 description: This section lists all the fields used in the exported dataset for decisions
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 ---

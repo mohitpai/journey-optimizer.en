@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with IP warmup plans
 description: Learn how to implement an IP warmup plan
-feature: Channel Configuration
+feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced

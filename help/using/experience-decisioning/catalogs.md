@@ -1,7 +1,7 @@
 ---
 title: Items catalog
 description: Learn how to work with the items catalog
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate

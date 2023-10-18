@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Update Profile
 description: Learn how to use the Update Profile activity in a journey
-feature: Journeys
+feature: Journeys, Profiles, Activities
 topic: Content Management
 role: User
 level: Intermediate

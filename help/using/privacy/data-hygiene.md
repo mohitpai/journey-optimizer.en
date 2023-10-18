@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Perform data hygiene operations
 description: Learn how to perform data hygiene operations
-feature: Monitoring
+feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68

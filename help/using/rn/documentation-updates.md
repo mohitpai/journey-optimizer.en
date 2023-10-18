@@ -3,6 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Documentation Updates
 description: Learn about latest documentation updates
+feature: Journeys, Release Notes
+topic: Journeys
+role: User
+level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 ---
 # Documentation updates {#latest-updates}

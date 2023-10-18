@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use expression fragments
 description: Learn how to use expression fragments in the [!DNL Journey Optimizer] Expression editor.
-feature: Personalization, Templates
+feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate

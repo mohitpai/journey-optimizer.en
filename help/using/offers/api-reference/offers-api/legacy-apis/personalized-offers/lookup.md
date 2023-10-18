@@ -1,7 +1,7 @@
 ---
 title: Look up a personalized offer
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

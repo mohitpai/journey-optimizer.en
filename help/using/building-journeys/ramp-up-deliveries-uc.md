@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ramp up your deliveries
 description: Learn how to ramp up your deliveries
-feature: Journeys
+feature: Journeys, Use Cases, IP Warmup Plans
 topic: Content Management
-role: User
-level: Intermediate
+role: User, Data Engineer
+level: Intermediate, Experienced
 keywords: deliverability, journey, use case, email, reputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 ---

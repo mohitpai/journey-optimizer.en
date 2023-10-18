@@ -1,9 +1,9 @@
 ---
 title: Placements dataset
 description: This section lists all the fields used in the exported dataset for placements
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 ---

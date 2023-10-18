@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create IP warmup campaigns
 description: Learn how to create an IP warmup campaign
-feature: Channel Configuration
+feature: Campaigns, IP Warmup Plans
 topic: Administration
 role: Admin
 level: Intermediate

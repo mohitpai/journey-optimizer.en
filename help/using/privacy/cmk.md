@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Customer Managed Keys
 description: Learn how to setup and manage customer keys for Adobe Journey Optimizer.
-feature: Monitoring
+feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01

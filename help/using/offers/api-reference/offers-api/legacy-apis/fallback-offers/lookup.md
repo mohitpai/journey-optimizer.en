@@ -1,7 +1,7 @@
 ---
 title: lookup fallback offers
 description: A fallback offer is sent to customers if they are not eligible for other offers
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced

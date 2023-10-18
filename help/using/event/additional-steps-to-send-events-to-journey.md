@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Additional steps to send events to a journey
 description: Learn additional steps to send events to a journey
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: steps, configuration, journey, events, stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 ---

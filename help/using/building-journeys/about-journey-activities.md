@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with journey activities
 description: Get started with journey activities
-feature: Journeys
-topic: Content Management
+feature: Journeys, Activities, Overview
+topic: Journeys
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: journey, activities, get started, events, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 ---

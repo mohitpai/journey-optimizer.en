@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Get started with privacy
 description: Learn more on privacy in Adobe Journey Optimizer and Adobe Experience Platform.
-feature: Monitoring
+feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef

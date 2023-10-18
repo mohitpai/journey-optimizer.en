@@ -1,7 +1,7 @@
 ---
 title: Create collections
 description: Learn how to organize offers using collections
-feature: Offers, Collections
+feature: Decision Management, Collections
 topic: Integrations
 role: User
 level: Intermediate

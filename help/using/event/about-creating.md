@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure a unitary event
 description: Learn how to configure a unitary event
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: event, unitary, create, journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 ---

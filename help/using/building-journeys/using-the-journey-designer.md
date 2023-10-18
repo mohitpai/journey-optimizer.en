@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Design your journey
 description: Learn how to design your journey
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate

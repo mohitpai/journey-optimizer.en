@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Create your first journey
 description: Key steps to build your first journey with Adobe Journey Optimizer
-feature: Journeys
+feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Intermediate

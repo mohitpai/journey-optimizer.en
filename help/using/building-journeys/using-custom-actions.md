@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use custom actions
 description: Learn how to use custom actions
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Content Management
 role: User, Developer
 level: Intermediate

@@ -1,7 +1,7 @@
 ---
 title: Deliver offers using the Edge Decisioning API
 description: The Adobe Experience Platform Web SDK allows you to retrieve and render personalized offers that you have created using APIs or the Offer Library.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
@@ -60,7 +60,7 @@ This option is more user-friendly for people who may have less coding experience
 
 1. [Add the embed code](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. Install and configure Adobe Experience Platform Web SDK extension with the Datastream you created by selecting the configuration from the “Datastream” dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
+1. Install and configure Adobe Experience Platform Web SDK extension with the Datastream you created by selecting the configuration from the "Datastream" dropdown. See the documentation on [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
     ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -74,7 +74,7 @@ This option is more user-friendly for people who may have less coding experience
 
 1. Create your [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
 
-    Add a Platform Web SDK Send Event action and add the relevant decisionScopes to that action’s configuration
+    Add a Platform Web SDK Send Event action and add the relevant decisionScopes to that action's configuration
 
     ![Render Offer](../../assets/rule-render-offer.png)
 

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Send a message using Campaign v7/v8
 description: Learn how to send a message using Campaign v7/v8
-feature: Integrations
+feature: Journeys, Integrations, Custom Actions, Use Cases
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Data Engineer, User
+level: Intermediate, Experienced
 keywords: journey, message, campaign, integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 ---

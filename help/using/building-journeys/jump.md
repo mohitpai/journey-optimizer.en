@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Jumping from one journey to another
 description: Jumping from one journey to another
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate

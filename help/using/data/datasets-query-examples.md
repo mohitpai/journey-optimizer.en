@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Dataset query examples
 description: Dataset query examples
-feature: Reporting
+feature: Journeys, Reporting, Use Cases, Datasets, Data Management
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: dataset, optimizer, use cases
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 ---

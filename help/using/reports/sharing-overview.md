@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey step sharing overview
 description: Journey step sharing overview
-feature: Reporting, Journeys
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 ---
 # Create journey reports {#design-jo-reports}

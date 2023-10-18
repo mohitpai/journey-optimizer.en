@@ -1,9 +1,9 @@
 ---
 title: Access the exported offer catalog
 description: Learn how to access the offer catalog on Adobe Experience Platform once it has been exported
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 ---

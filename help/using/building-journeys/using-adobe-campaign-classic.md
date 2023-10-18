@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign v7/v8 actions
 description: Learn about Adobe Campaign v7/v8 actions
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 keywords: journey, integration, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68

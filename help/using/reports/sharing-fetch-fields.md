@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}

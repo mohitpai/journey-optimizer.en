@@ -1,7 +1,7 @@
 ---
 title: Create collection qualifiers
 description: Learn how to create collection qualifiers for your offers
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

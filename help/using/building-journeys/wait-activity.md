@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Wait activity
 description: Learn about the wait activity
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate

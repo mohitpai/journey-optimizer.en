@@ -1,10 +1,10 @@
 ---
 title: Work with Decision Management events
 description: Learn how to create Decision Management reports in Adobe Experience Platform.
-feature: Offers
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
-level: Beginner
+role: User, Data Engineer
+level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 ---
 # Get started with Decision management events {#monitor-offer-events}

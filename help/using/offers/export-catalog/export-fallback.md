@@ -1,9 +1,9 @@
 ---
 title: Fallback offers dataset
 description: This section lists all the fields used in the exported dataset for fallback offers
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 ---

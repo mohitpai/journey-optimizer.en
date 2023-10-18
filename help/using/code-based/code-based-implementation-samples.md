@@ -1,9 +1,9 @@
 ---
 title: Code-based implementation samples
 description: This page shows samples of the implementation methode for Journey Optimizer code-based feature
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Developer
 level: Experienced
 hide: yes
 hidefromtoc: yes

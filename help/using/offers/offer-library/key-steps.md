@@ -1,7 +1,7 @@
 ---
 title: Key steps to create an offer
 description: Discover the key steps that are required to create an offer
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

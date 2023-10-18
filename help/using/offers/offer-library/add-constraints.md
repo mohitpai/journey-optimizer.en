@@ -1,7 +1,7 @@
 ---
 title: Add constraints to an offer
 description: Learn how to define the conditions for an offer to be displayed
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

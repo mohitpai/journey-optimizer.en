@@ -1,7 +1,7 @@
 ---
 title: Create decision rules
 description: Learn how to create decision rules to define to whom offers can be displayed
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

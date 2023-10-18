@@ -3,9 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure a custom action
 description: Learn how to configure a custom action
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb

@@ -1,7 +1,7 @@
 ---
 title: Create decisions
 description: Learn how to create decisions
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

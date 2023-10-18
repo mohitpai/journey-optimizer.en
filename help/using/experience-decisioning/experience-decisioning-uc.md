@@ -1,10 +1,10 @@
 ---
 title: Experience decisioning use case
 description: Learn how to create decisions using experiments with the code-based channel
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
-level: Intermediate
+level: Intermediate, Experienced
 hide: yes
 hidefromtoc: yes
 badge: label="Beta" 

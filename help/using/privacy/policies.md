@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Data usage policies
 description: Learn more on data usage policies and the Data Governance service.
-feature: Monitoring
+feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab

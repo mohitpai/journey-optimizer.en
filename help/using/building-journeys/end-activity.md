@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: End activity
 description: Learn how to use the end activity
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate

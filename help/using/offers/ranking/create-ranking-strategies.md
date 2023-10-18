@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Create AI models
 description: Learn how to create AI models to rank offers
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22

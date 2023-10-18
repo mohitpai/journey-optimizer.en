@@ -5,7 +5,7 @@ title: Journey ending
 description: Learn how a journey ends in Journey Optimizer
 feature: Journeys
 role: User
-level: Beginner
+level: Intermediate
 keywords: re-enter, journey, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 ---

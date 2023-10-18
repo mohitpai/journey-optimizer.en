@@ -1,9 +1,9 @@
 ---
 title: Code-based experience prerequisites
 description: To be able to edit apps and web pages using the Journey Optimizer code-based feature, follow the prerequisites on this page
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: yes
 hidefromtoc: yes

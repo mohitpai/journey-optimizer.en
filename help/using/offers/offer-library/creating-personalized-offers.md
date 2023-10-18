@@ -1,7 +1,7 @@
 ---
 title: Create personalized offers
 description: Learn how to create, configure and manage your offers
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

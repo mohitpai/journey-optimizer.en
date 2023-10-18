@@ -1,10 +1,10 @@
 ---
 title: Offer Library User interface
 description: Learn more about the Offer Library User Interface
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 ---
 # Offer Library User Interface {#user-interface}

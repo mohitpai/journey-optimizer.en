@@ -1,7 +1,7 @@
 ---
 title: Use personalized offers in an email
 description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
-feature: Offers
+feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate

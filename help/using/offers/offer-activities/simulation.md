@@ -1,7 +1,7 @@
 ---
 title: Create simulations
 description: Learn how to simulate which offers will be delivered for a given placement in order to validate your decisioning logic
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate

@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: External data sources
 description: Learn how to configure external data sources
-feature: Data Sources, Integrations
+feature: Journeys, Data Sources, Integrations
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: external, sources, data, configuration, connection, third-party
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---

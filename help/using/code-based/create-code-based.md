@@ -1,7 +1,7 @@
 ---
 title: Create code-based experiences
 description: Learn how to create code-based experiences in Journey Optimizer
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced

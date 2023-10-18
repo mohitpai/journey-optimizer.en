@@ -1,7 +1,7 @@
 ---
 title: Decision items
 description: Learn how to work with decision items
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate

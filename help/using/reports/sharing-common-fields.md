@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeysteps events common fields
 description: journeysteps events common fields
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 ---
 # journeysteps events common fields {#sharing-common-fields}

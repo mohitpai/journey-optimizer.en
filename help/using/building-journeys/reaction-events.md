@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Reactions events
 description: Learn about reaction events
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate

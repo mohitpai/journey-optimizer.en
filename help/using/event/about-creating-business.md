@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure a business event
 description: Learn how to create a business event
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: event, journey, business, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 ---

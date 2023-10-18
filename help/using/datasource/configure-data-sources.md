@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configure a data source
 description: Learn how to configure a data source
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: data, source, configuration, field
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 ---

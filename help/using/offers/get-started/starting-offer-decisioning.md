@@ -1,10 +1,10 @@
 ---
 title: Get started with Decision Management
 description: Learn how Adobe Journey Optimizer can help you send your customers the right offer at the right time
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 ---
 # About Decision Management {#about-decision-management}

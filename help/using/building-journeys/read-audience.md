@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use an audience in a journey
 description: Learn how to use an audience in a journey
-feature: Journeys
+feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
