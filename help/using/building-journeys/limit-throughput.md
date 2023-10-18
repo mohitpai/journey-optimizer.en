@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 title: Limit throughput with External Data Sources and Custom Actions
 description: Limit throughput with External Data Sources and Custom Actions
-feature: Journeys, Use Cases, Custom actions, Data Sources
+feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
