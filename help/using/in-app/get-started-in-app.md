@@ -16,8 +16,7 @@ Use Journey Optimizer to create In-app notifications, and configure experience o
 
 >[!AVAILABILITY]
 >
->For now, In-app channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
->
+>For now, In-app channel is not available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
 
 ## Prerequisites{#prerequisites-in-app}
 

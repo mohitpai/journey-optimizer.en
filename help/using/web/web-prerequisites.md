@@ -26,8 +26,7 @@ To be able to access and author web pages in the [!DNL Journey Optimizer] user i
 
 >[!AVAILABILITY]
 >
->For now, Web channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
->
+>For now, Web channel is not available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
 
 ## Implementation prerequisites {#implementation-prerequisites}
 

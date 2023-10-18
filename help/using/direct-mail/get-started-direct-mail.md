@@ -10,10 +10,9 @@ exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 ---
 # Get started with direct mail {#create-direct}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.
->
+>For now, Direct mail channel is not available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
 
 Direct mail is an offline channel that allows you to personalize and generate the extraction files required by direct mail providers to send mail to your customers.
 
