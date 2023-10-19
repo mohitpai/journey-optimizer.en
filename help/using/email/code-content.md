@@ -38,7 +38,7 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
     >
     >This action opens the selected template in the Email Designer. From there, you can either complete the design of your email, or go back to the code editor using the **[!UICONTROL Switch to code editor]** option.
 
-1. Click the **[!UICONTROL Preview]** button to check the message design and personalization using test profiles. [Learn more](preview.md)
+1. Click the **[!UICONTROL Preview]** button to check the message design and personalization using test profiles. [Learn more](../content-management/preview-test.md)
 
     ![](assets/code-editor-preview.png)
 

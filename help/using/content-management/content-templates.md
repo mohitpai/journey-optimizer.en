@@ -158,21 +158,17 @@ You can now use this template when building any [email](../email/get-started-ema
 
 You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
 
->[!CAUTION]
->
->To simulate content, you must have the **[!DNL Manage Simulate Content]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
 
 1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
 
-1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](../email/preview.md)
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](../content-management/preview-test.md)
 
     ![](../email/assets/content-template-stimulate.png)
 
 1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
 
-    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](../email/preview.md#send-proofs).
+    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](../content-management/proofs.md).
     
     * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
 
@@ -180,7 +176,7 @@ You can test the rendering of any email content template, whether created from s
 
 >[!CAUTION]
 >
->Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](../email/use-email-templates.md) in an email and [send a proof](../email/preview.md#send-proofs).
+>Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](../email/use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).
 
 ## How-to video {#video-templates}
 

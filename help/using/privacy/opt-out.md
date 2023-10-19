@@ -91,7 +91,7 @@ If a user has:
 
 The [Expression editor](../personalization/personalization-build-expressions.md) itself does not perform any consent checks or enforcement as it is not involved in the delivery of messages.
 
-However, the use of right-based acces control labels allows to restrict which fields can be used for personalization. The [message preview](../email/preview.md#preview-email) and [email rendering service](../email/preview.md#email-rendering) will mask the fields identified with sensitive information.
+However, the use of right-based acces control labels allows to restrict which fields can be used for personalization. The [message preview](../content-management/preview.md) and [email rendering service](../content-management/rendering.md) will mask the fields identified with sensitive information.
 
 >[!NOTE]
 >

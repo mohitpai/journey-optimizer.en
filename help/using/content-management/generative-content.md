@@ -74,7 +74,7 @@ In this particular example, learn how to send an engaging Push notification usin
 
     ![](assets/gen-ai-title-7.png)
 
-1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../email/preview.md)
+1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../content-management/preview-test.md)
 
 1. When your content experiment is ready, from your campaign summary page, you can click **[!UICONTROL Review to activate]** to display a summary of the campaign. Alerts display if any parameter is incorrect or missing.
 

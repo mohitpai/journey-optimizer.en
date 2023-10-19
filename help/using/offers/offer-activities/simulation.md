@@ -80,8 +80,6 @@ First you need to select the test profiles that you are going to use for simulat
 
 1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
 
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
-
 ## Add decision scopes {#add-decision-scopes}
 
 Now select the offer decisions that you want to simulate on your test profiles.

@@ -81,28 +81,19 @@ For more information on how to configure a campaign, refer to [this page](../cam
 >title="Preview your web experience"
 >abstract="Get a simulation of what your web experience will look like."
 
-Once you [authored your web experience](edit-web-content.md) using the web designer, you can display a preview of your modified web pages before activating your campaign. To do so, follow the steps below.
+Once you [authored your web experience](edit-web-content.md) using the web designer, you can use test profiles to preview your modified web pages. If you inserted personalized content, you can check how this content is displayed, using test profile data.
 
->[!CAUTION]
+To do this, click **[!UICONTROL Simulate content]** from either the web campaign edit content screen or the web designer, then add a test profile to check your web page using the test profile data.
+
+![](assets/web-designer-preview.png)
+
+You can also open it in the default browser, or copy the test URL to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+
+>[!NOTE]
 >
->You must have test profiles available to simulate which offers will be delivered to them. Learn how to [create test profiles](../audience/creating-test-profiles.md).
+>When copying the test URL, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].
 
-1. From either the web campaign edit content screen or the web designer, select **[!UICONTROL Simulate content]**.
-
-    <!--![](assets/web-designer-simulate.png)-->
-
-    ![](assets/web-campaign-simulate.png)
-
-1. Click **[!UICONTROL Manage test profiles]** to select one or more test profiles.
-1. A preview of your modified web page is displayed.
-
-    ![](assets/web-designer-preview.png)
-
-1. You can also open it in the default browser, or copy the test URL to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
-
-    >[!NOTE]
-    >
-    >When copying the test URL, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 ## Activate the web campaign {#activate-web-campaign}
 

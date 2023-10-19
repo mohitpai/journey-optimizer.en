@@ -1,38 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Preview and test your push notification
-description: Learn how to preview and test your push notification in Journey Optimizer
+title: Check and send your push notification
+description: Learn how to check and send your push notification in Journey Optimizer
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 ---
-# Preview and test your push notification {#send-push}
+# Check and send your push notification {#send-push}
 
 ## Preview your push notification {#preview-push}
 
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Once your message content has been defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-1. Click **[!UICONTROL Simulate content]**.
+To do this, click **[!UICONTROL Simulate content]** then add a test profile. You can then select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
 
-1. Click **[!UICONTROL Manage test profiles]** to add a test profile.
+![](assets/push_preview_3.png)
 
-1. Find your test profile with the **[!UICONTROL Identity namespace]** and **[!UICONTROL Identity value]** fields. Then, click **[!UICONTROL Add profile]**.
-
-    ![](assets/push_preview_1.png)
-
-1. Once you selected your test profile, you can close the **[!UICONTROL Add test profile]** window.
-
-1. From the **Preview & test** window, test profile data is added to the message content.
-
-    Select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
-
-    ![](assets/push_preview_3.png)
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 ## Validate your push notification {#push-validate}
-
 
 You must check alerts in the upper section of the editor. Some of them are simple warnings, but others can prevent you from sending the message. Two types of alerts can happen: warnings and errors.
 

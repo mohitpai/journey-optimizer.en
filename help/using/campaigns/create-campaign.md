@@ -104,7 +104,7 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
     </tr>
     </table>
 
-1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../email/preview.md).
+1. Once your content is defined, use the **[!UICONTROL Simulate content]** button to preview and test your content with test profiles. [Learn more](../content-management/preview-test.md).
 
 1. Click the arrow to go back to the campaign creation screen.
 

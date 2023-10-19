@@ -1,6 +1,6 @@
 ---
-title: Test and send your In-app notification
-description: Learn how to test and send an In-app message in Journey Optimizer
+title: Check and send your In-app notification
+description: Learn how to check and send an In-app message in Journey Optimizer
 feature: In App
 topic: Content Management
 role: User
@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, message, creation, start
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 ---
-# Test and send your In-app notification {#create-in-app}
+# Check and send your In-app notification {#create-in-app}
 
 ## Preview on device {#preview-device}
 

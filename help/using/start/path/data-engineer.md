@@ -29,7 +29,7 @@ Steps to create an identity namespace and a dataset enabled for profiles, and te
 
 1. **Configure sources connectors**. Adobe Journey Optimzer allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others. Learn more about Source connectors [in this page](../get-started-sources.md).
 
-1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../email/preview.md) before sending. Steps to create test profiles are detailed [in this page](../../audience/creating-test-profiles.md).
+1. **Create test profiles**. Test profiles are required when using the [test mode](../../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../../content-management/preview-test.md) before sending. Steps to create test profiles are detailed [in this page](../../audience/creating-test-profiles.md).
 
 
 In addition, to be able send messages in journeys, you must configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. Learn more [in this section](../../configuration/about-data-sources-events-actions.md).

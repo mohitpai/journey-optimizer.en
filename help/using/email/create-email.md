@@ -140,11 +140,15 @@ Two types of alerts can happen:
 >
 >To be able to test or activate the journey/campaign using the email, you must resolve all **error** alerts.
 
-## Preview and send your email
+## Check and send your email
 
-Once your message content has been defined, you can preview it to control the rendering of your email, and check personalization settings with test profiles. [Learn more](preview.md)
+Once your message content has been defined, you can use test profiles to preview it, send proofs and control its rendering in popular desktop, mobile and web-based clients. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+
+To do this, click **[!UICONTROL Simulate content]** then add a test profile to check your message using the test profile data.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 When your email is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md), and activate it to send the message.
 

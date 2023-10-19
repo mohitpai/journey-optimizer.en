@@ -102,7 +102,7 @@ Now as soon as your developer makes an API or SDK call to fetch content for the 
 >title="Preview your code-based experience"
 >abstract="Get a simulation of what your code-based experience will look like."
 
-To display a preview of your modified code-based experience, follow the steps below.
+To display a preview of your modified code-based experience, follow the steps below. Detailed information on how to select test profiles and preview your content is available in the  [Preview and test your content page](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

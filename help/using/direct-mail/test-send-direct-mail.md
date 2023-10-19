@@ -1,6 +1,6 @@
 ---
-title: Test & send a direct mail message
-description: Learn how to test and send a direct mail message in Journey Optimizer
+title: Check & send a direct mail message
+description: Learn how to check and send a direct mail message in Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
@@ -8,27 +8,17 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 ---
-# Test & send a direct mail message {#direct-mail-test-send}
+# Check & send a direct mail message {#direct-mail-test-send}
 
 ## Preview the extraction file {#preview-dm}
 
 Once the content of the extraction file has been defined, you can use test profiles to preview it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-1. In the extraction file content configuration screen, click **[!UICONTROL Simulate content]**.
+To do this, click **[!UICONTROL Simulate content]** then add a test profile to check how the extraction file rendering using the test profile data.
 
-      ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. Click **[!UICONTROL Manage test profiles]** to add a test profile.
-
-1. Find your test profile with the **[!UICONTROL Identity namespace]** and **[!UICONTROL Identity value]** fields. Then, click **[!UICONTROL Add profile]**.
-
-      ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. Once you selected your test profile, you can close the **[!UICONTROL Add test profile]** window.
-
-1. From the **Preview & test** window, test profile data is added to the extraction file content, allowing you to preview how the file will render.
-
-    ![](assets/direct-mail-simulate.png){width="800" align="center"}
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 Once that the file content is ready to be sent, close the simulate screen then click the **[!UICONTROL Review to activate]** button.
 

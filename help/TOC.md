@@ -189,7 +189,6 @@ solution: Journey Optimizer
       + [Edit background settings](using/email/backgrounds.md)
       + [Adjust vertical alignment and padding](using/email/alignment-and-padding.md)
       + [Add inline styling attributes](using/email/inline-styling.md)
-  + [Preview and test your email](using/email/preview.md)
   + [Use Experience Manager templates](using/email/aem-templates.md)
   + [Manage email opt-out](using/email/email-opt-out.md) 
   + Configure email channel {#configure-email}
@@ -200,12 +199,12 @@ solution: Journey Optimizer
   + [In-app channel prerequisites](using/in-app/inapp-configuration.md)
   + [Create an In-app message](using/in-app/create-in-app.md)
   + [Design your In-app content](using/in-app/design-in-app.md)
-  + [Test and send your In-app notification](using/in-app/send-in-app.md)
+  + [Check and send your In-app notification](using/in-app/send-in-app.md)
 + Push notification channel{#push}
   + [Get started with push notification](using/push/get-started-push.md)
   + [Create a push notification](using/push/create-push.md)
   + [Design your push notification](using/push/design-push.md)
-  + [Send your push notification](using/push/send-push.md)
+  + [Check and send your push notification](using/push/send-push.md)
   + Configure push notifications{#push-config}
     + [Push Notification flow](using/push/push-gs.md)
     + [Configure push notification channel](using/push/push-configuration.md)
@@ -213,14 +212,14 @@ solution: Journey Optimizer
 + SMS channel{#sms}
   + [Get started with SMS](using/sms/get-started-sms.md)
   + [Create an SMS message](using/sms/create-sms.md)
-  + [Preview and test your SMS](using/sms/send-sms.md)
+  + [Check and send your SMS](using/sms/send-sms.md)
   + [Manage SMS opt-out](using/sms/sms-opt-out.md) 
   + [Configure SMS channel](using/sms/sms-configuration.md)
   + [Set up SMS subdomains](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
   + [Get started with direct mail](using/direct-mail/get-started-direct-mail.md)
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)
-  + [Test & send a direct mail message](using/direct-mail/test-send-direct-mail.md)
+  + [Check and send a direct mail message](using/direct-mail/test-send-direct-mail.md)
   + [Configure direct mail](using/direct-mail/direct-mail-configuration.md)
 + Web channel {#web}
   + [Get started with web channel](using/web/get-started-web.md)
@@ -251,15 +250,16 @@ solution: Journey Optimizer
   + Configure landing pages {#lp-configuration}
     + [Configure landing page subdomains](using/landing-pages/lp-subdomains.md)
     + [Define landing page presets](using/landing-pages/lp-presets.md)
-+ Content Management {#content-management}
-  + [Work with Assets Essentials](using/content-management/assets-essentials.md)
-  + [Work with Adobe Stock](using/content-management/stock.md)
++ Content management {#content-management}
   + Work with the Content assistant{#content-assistant}
     + [Get started with the Content assistant](using/content-management/gs-generative.md)
     + [Content generation](using/content-management/generative-content.md)
     + [Image generation](using/content-management/generative-image.md)
   + Work with Multilingual content{#content-multilingual}
     + [Create multilingual content](using/content-management/multilingual-manual.md)
+  + Assets/Images {#assets-images}
+    + [Work with Assets Essentials](using/content-management/assets-essentials.md)
+    + [Work with Adobe Stock](using/content-management/stock.md)
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization contexts](using/personalization/personalization-contexts.md)
@@ -291,6 +291,12 @@ solution: Journey Optimizer
     + [Get started with dynamic content](using/personalization/get-started-dynamic-content.md)
     + [Create conditional rules](using/personalization/create-conditions.md)
     + [Create dynamic content](using/personalization/dynamic-content.md)
+  + Preview and test your content {#preview-test}
+    + [Get started with preview and test](using/content-management/preview-test.md)
+    + [Select test profiles](using/content-management/test-profiles.md)
+    + [Preview your content](using/content-management/preview.md)
+    + [Send email proofs](using/content-management/proofs.md)
+    + [Test email rendering](using/content-management/rendering.md)
 + Audiences, profiles and identity{#audiences-profiles-identities}
   + Audiences {#audiences}
     + [Get started with audiences](using/audience/about-audiences.md)

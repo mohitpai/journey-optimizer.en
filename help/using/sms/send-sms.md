@@ -1,34 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Preview and test your SMS message
-description: Learn how to preview and test your SMS message in Journey Optimizer
+title: Check and test your SMS message
+description: Learn how to check and send your SMS message in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 ---
-# Preview and test your SMS message {#send-sms}
+# Check and send your SMS message {#send-sms}
 
 ## Preview your SMS {#preview-sms}
 
-Once your message content has been defined, you can use test profiles to preview and test it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Once your message content has been defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-1. Click **[!UICONTROL Simulate content]**.
+To do this, click **[!UICONTROL Simulate content]** then add a test profile to check your message using the test profile data.
 
-1. Click **[!UICONTROL Manage test profiles]** to add a test profile.
+![](assets/sms_preview_2.png)
 
-1. Find your test profile with the **[!UICONTROL Identity namespace]** and **[!UICONTROL Identity value]** fields. Then, click **[!UICONTROL Add profile]**.
-
-    ![](assets/sms_preview_3.png)
-
-1. Once you selected your test profile, you can close the **[!UICONTROL Add test profile]** window.
-
-1. From the **Preview & test** window, test profile data is added to the message content.
-
-    ![](assets/sms_preview_2.png)
-
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 ## Validate your SMS{#sms-validate}
 

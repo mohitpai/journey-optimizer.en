@@ -69,10 +69,6 @@ You can preview the different offers that are part of the decision added to the 
 
 To display the different offers that are part of the decision with a customer profile, follow the steps below.
 
->[!NOTE]
->
->You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](../audience/creating-test-profiles.md).
-
 1. Select the test profiles to use to preview the offer:
 
     1. Click the **[!UICONTROL Simulate Content button]** button then choose the namespace to use to identify test profiles from the **[!UICONTROL Identity namespace]** field.

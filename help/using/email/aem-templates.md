@@ -103,7 +103,7 @@ Once the Experience Manager template is available in Journey Optimizer as a cont
 
 1. If you added personalized content to your Experience Manager template, click **[!UICONTROL Simulate Content]** to preview how it will appear in the message using test profiles. 
 
-    [Learn more on preview and test profiles](../email/preview.md)
+    [Learn more on preview and test profiles](../content-management/preview-test.md)
 
     ![](assets/aem_ajo_6.png)
 

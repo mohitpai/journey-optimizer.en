@@ -129,7 +129,7 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 
 >[!NOTE]
 >
->In the [proof](preview.md#send-proofs) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>In the [proof](../content-management/proofs.md) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
 
@@ -180,4 +180,4 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 >[!NOTE]
 >
->To verify the final URL, you can [send a proof](preview.md#send-proofs) and click the link in the content of the email once you receive the proof. The URL should display the tracking parameter. In the example above, the final URL will be: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>To verify the final URL, you can [send a proof](../content-management/preview-test.md#send-proofs) and click the link in the content of the email once you receive the proof. The URL should display the tracking parameter. In the example above, the final URL will be: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
