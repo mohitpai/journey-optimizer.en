@@ -82,7 +82,6 @@ This release comes with the improvements listed below.
 **Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into your journeys.
 
 **Spam scoring for emails**
 
