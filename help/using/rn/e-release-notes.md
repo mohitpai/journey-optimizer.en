@@ -25,24 +25,6 @@ Early release notes below are subject to change without prior notice until the r
 
 This release brings the new capabilities listed below.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -60,7 +42,38 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Composed audiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Improvements {#oct-2023-improvements}
 
@@ -69,7 +82,6 @@ This release comes with the improvements listed below.
 **Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into your journeys.
 
 **Spam scoring for emails**
 
