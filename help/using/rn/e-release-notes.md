@@ -42,7 +42,7 @@ This release brings the new capabilities listed below.
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
 <th><strong>Composed audiences in journeys</strong><br/></th>
@@ -56,7 +56,7 @@ This release brings the new capabilities listed below.
 <p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table -->
 
 
 <table>
