@@ -34,7 +34,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>You can use the sandbox tooling feature in Adobe Journey Optimizer to select different objects and export them into a package. A package can consist of a single object, multiple objects, or an entire sandbox. Any objects that are included in a package must be from the same sandbox.</p>
+<p>Sandbox tooling allows you to copy objects across multiple sandboxes by leveraging package export and import. A package can consist of a single object or multiple objects. Any objects that are included in a package must be from the same sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
