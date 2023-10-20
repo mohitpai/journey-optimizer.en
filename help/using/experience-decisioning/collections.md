@@ -12,6 +12,21 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 ---
 # Collections {#collections}
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="Create collections"
+>abstract="Collections allow you to categorize and group your decision items according to your preferences. These categories are created by crafting rules that leverage the attributes of decision items."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="Define rules for your collection"
+>abstract="Add one or multiple rules to determine the items to be included in the collection. Choose an item attribute to use as criterion. Select the desired operator and input the value to filter on. Add as many rules as necessary."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="Choose a collection"
+>abstract="Select the collection that contains the offers to consider. This step is mandatory when creating a selection strategy. Collections allow you to categorize and group your decision items according to your preferences. For instance, you can create a collection that includes all decision items with the "Yoga" value in the "Category" custom attribute."
+
 >[!BEGINSHADEBOX]
 
 What you'll find in this documentation guide:

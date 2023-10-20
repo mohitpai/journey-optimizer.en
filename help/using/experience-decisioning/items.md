@@ -12,6 +12,12 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 ---
 # Decision items {#items}
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="Manage decision items"
+>abstract="Journey Optimizer allows you to create marketing offers, known as decision items, that you can create and organize into a centralized catalog and collections. Currently, all created decision items are consolidated within a single "Offers" catalog. From this screen, you can also access the catalog's schema using the **Edit schema** button and create custom attributes for your decision items."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configure the items catalog"
+
 >[!BEGINSHADEBOX]
 
 What you'll find in this documentation guide:
@@ -34,6 +40,24 @@ Journey Optimizer allows you to create marketing offers, known as decision items
 Before creating a decision item, make sure you have created a **decision rule** if you want to set conditions to determine to whom the decision item can be shown. [Learn how to create decision rules](rules.md). 
 
 ## Create your first decision item
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="Define the decision item's priority"
+>abstract="If a profile qualifies for multiple items, the priority enables to compare this decision item to others. A higher priority grants the item precedence over others."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Define the custom attributes"
+>abstract="Custom attributes are specific attributes tailored to your needs that you can assign to a decision item. They are created in the decision items' catalog schema. This section only displays if you have added at least one custom attribute to the catalog schema."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configure the items catalog"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="Add audiences or decision rules"
+>abstract="By default, all profiles are eligible to receive the decision item, but you can use audiences or rules to restrict the item to specific profiles only."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Use decision rules"
 
 To create a decision item, follow these steps:
 

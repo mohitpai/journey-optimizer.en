@@ -12,6 +12,19 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 ---
 # Create selection strategies {#selection-strategies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_strategies"
+>title="Define your selection strategies"
+>abstract="A selection strategy is a reusable item, which consists in a collection associated with an eligibility constraint and a ranking method to determine the offers to be shown when selected in a decision policy."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Create decision policies"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_eligibility"
+>title="Restrict the eligible profiles"
+>abstract="You can restrict the selection of offers for this selection strategy. By default, all profiles are eligible, but you can use audiences or rules to limit the offer selection to specific profiles only."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Use decision rules"
+
 >[!BEGINSHADEBOX]
 
 What you'll find in this documentation guide:
@@ -63,7 +76,7 @@ To create a selection strategy, follow the steps below.
 
     ![](assets/strategy-create-screen.png)
 
-1. Select the offer [collection](collections.md) that contains the offers to consider.
+1. Select the [collection](collections.md) that contains the offers to consider.
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this selection strategy.
 
@@ -84,6 +97,12 @@ To create a selection strategy, follow the steps below.
 1. Click **[!UICONTROL Create]**. It is now ready to be used in a [decision](create-decision.md)
 
 ## Select a ranking method {#select-ranking-method}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_ranking"
+>title="Define how to rank offers"
+>abstract="If several offers are eligible for a given selection strategy, choose the method that will select the best offer for each profile when creating a selection strategy: priority or ranking formula."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Create decision policies"
 
 If several offers are eligible for a given selection strategy, you can choose the method that will select the best offer for each profile when creating a selection strategy. You can rank offers by:
 

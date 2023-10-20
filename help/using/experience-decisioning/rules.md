@@ -12,6 +12,11 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 ---
 # Decision rules {#rules}
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="Create decision rules"
+>abstract="Decision rules allow you to define the audience for decision items by applying constraints, either directly at the decision item level or within a specific selection strategy. This enables you to precisely control which items should be presented to whom."
+
 >[!BEGINSHADEBOX]
 
 What you'll find in this documentation guide:
