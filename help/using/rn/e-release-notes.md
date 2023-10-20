@@ -99,10 +99,6 @@ This release comes with the improvements listed below.
 
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 
-**Landing pages**
-
-* When using the landing page form component, you can now add an email field with its own specific options.
-
 **Consent in channel configuration**
 
 * You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
