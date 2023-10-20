@@ -7,6 +7,11 @@ level: Beginner
 ---
 # Select test profiles {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="Use test profiles to check your content"
+>abstract="Use test profiles to preview and test your content. If you added personalized fields, you can check how they are displayed using test profile data."
+
 Before previewing or testing your content, you first need to select test profiles, which are additional recipients who do not match the defined targeting criteria. [Learn how to create test profiles](../audience/creating-test-profiles.md)
 
 To select test profiles, follow these steps: 

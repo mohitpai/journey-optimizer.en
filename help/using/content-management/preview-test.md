@@ -9,8 +9,13 @@ level: Beginner
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Preview and test your messages"
->abstract="Once your message content has been defined, you can use test profiles to preview its content."
+>title="Check how your content is rendering"
+>abstract="Once your content has been defined, you can use test profiles to preview it and check if the rendering is correct according to the channel you are using."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="Check how your content is rendering"
+>abstract="Once your content has been defined, you can preview it and check if the rendering is correct according to the channel you are using."
 
 ## About content preview and test {#about}
 
