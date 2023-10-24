@@ -10,11 +10,29 @@ level: Beginner
 keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 ---
-# Create multilingual content {#multilingual}
+# Create multilingual content with manual translation {#multilingual-manual}
 
-The multilingual feature enables you to effortlessly create content in multiple languages within a single campaign. With this feature, you can switch between languages when editing your campaign, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.
+>[!BEGINSHADEBOX]
+
+**Table of content**
+
+* [Get started with multilingual content](multilingual-gs.md)
+* **[Create multilingual content with manual translation](multilingual-manual.md)**
+* [Create multilingual content with automated translation](multilingual-automated.md)
+* [Multilingual campaign report](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Using the manual flow, you can effortlessly translate your content directly in your Email, Push notification or SMS campaign, giving you precise control and customization options for your multilingual messages. Additionally, you can easily import pre-existing multilingual content with the Import HTML option.
+
+Follow these steps to create multilingual content using manual translation: 
+
+1. [Create your locale](#create-locale).
+
+1. [Create language settings](#create-language-settings).
+
+1. [Create a multilingual campaign](#create-a-multilingual-campaign).
 
 ## Create locale {#create-locale}
 
@@ -80,7 +98,9 @@ In this section, you can set your primary language and its associated locales fo
 
 ## Create a multilingual campaign {#create-multilingual-campaign}
 
-1. Begin by creating and configuring your campaign according to your requirements. [Learn more](../campaigns/create-campaign.md)
+After setting up your multilingual content, you're ready to craft your campaign and customize the content for each of your selected locales.
+
+1. Begin by creating and configuring your Email, SMS or Push notification campaign according to your requirements. [Learn more](../campaigns/create-campaign.md)
 
 1. Navigate to the **[!UICONTROL Actions]** menu, and select **[!UICONTROL Edit content]**.
 
@@ -126,34 +146,6 @@ Your campaign is now activated. The message configured in the campaign is sent i
 
 Once sent, you can measure the impact of your Campaigns within the Campaign reports.
 
-## Multilingual campaign report {#multilingual-campaign-report}
-
-Global reports, accessible from the **All time** tab, display events that occurred at least two hours ago and cover events over a selected time period. Campaign global report can be accessed directly from your Campaign with the **[!UICONTROL View report]** button.
-
-For more information on data available in the Campaign report, refer to [this page](../reports/campaign-global-report.md).
-
-+++Learn more on the different metrics and widgets available for your multilingual content.
-
-![](assets/report_multilingual.png)
-
-The **[!UICONTROL Email sending statistics by languages]** widget details the success of your delivery depending on your **[!UICONTROL Locales]**:
-
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
-
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
-
-The **[!UICONTROL Email tracking statistics by languages]** widget contains the available data for recipient activity for your delivery depending on your **[!UICONTROL Locales]**:
-
-* **[!UICONTROL Unsubscribes]**: Number of clicks on the unsubscription link.
-
-* **[!UICONTROL Opens]**: Number of times the message was opened.
-
-* **[!UICONTROL Clicks]**: Number of times a content was clicked on.
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -161,14 +153,4 @@ The **[!UICONTROL Email tracking statistics by languages]** widget contains the 
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->

@@ -256,7 +256,10 @@ solution: Journey Optimizer
     + [Content generation](using/content-management/generative-content.md)
     + [Image generation](using/content-management/generative-image.md)
   + Work with Multilingual content{#content-multilingual}
-    + [Create multilingual content](using/content-management/multilingual-manual.md)
+    + [Get started with multilingual content](using/content-management/multilingual-gs.md)
+    + [Create multilingual content with manual translation](using/content-management/multilingual-manual.md)
+    + [Create multilingual content with automated translation](using/content-management/multilingual-automated.md)
+    + [Multilingual campaign report](using/content-management/multilingual-report.md)
   + Assets/Images {#assets-images}
     + [Work with Assets Essentials](using/content-management/assets-essentials.md)
     + [Work with Adobe Stock](using/content-management/stock.md)
