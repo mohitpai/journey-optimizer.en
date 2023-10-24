@@ -118,7 +118,11 @@ You can choose from one of these two solutions:
 
 * In-app message content size is limited to 2Mb. Including large images can hinder the publishing process.
 
-## Decision Management {#decision-management}
+## Audiences guardrails {#audience}
+
+* You can publish up to 10 audience compositions in a given sandbox. If you have reached this threshold, you need to delete a composition to free up space and publish a new one.
+
+## Decision management guardrails {#decision-management}
 
 ### Performance guardrails {#performance-guardrails}
 
