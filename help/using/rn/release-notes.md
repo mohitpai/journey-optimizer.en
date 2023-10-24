@@ -113,11 +113,7 @@ This release comes with the improvements listed below.
 
    * the **Amount of Time** field in the [wait activity](../building-journeys/wait-activity.md)
    * the **Re-entrance wait period** in [journey properties](../building-journeys/journey-gs.md#entrance)
-   * the **Wait for** field in the timeout definition of [general](../building-journeys/general-events.md#events-specific-time) and [reaction](../building-journeys/reaction-events.md) events. 
-
-**Landing pages**
-
-* When using the landing page form component, you can now add an email field with its own specific options.
+   * the **Wait for** field in the timeout definition of [general](../building-journeys/general-events.md#events-specific-time) and [reaction](../building-journeys/reaction-events.md) events.
 
 **Consent in channel configuration**
 
