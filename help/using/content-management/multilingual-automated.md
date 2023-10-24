@@ -70,7 +70,10 @@ Start your translation project by specifying the Target Locale, indicating the s
 
     ![](assets/translation_project_2.png)
 
-1. Choose if your translations are automatically publish after approval and if you want to enable the review workflow.
+1. Choose if you want to enable the following options:
+
+    * **[!UICONTROL Automatically publish approved translations]**: Once translations are approved, they are automatically integrated into the campaign without the need for manual intervention.
+    * **[!UICONTROL Enable Review workflow]**: Only applicable to human-translated locales. This allows an internal reviewer to efficiently evaluate and either approve or reject translated content. [Learn more](#review-translation-project)
 
 1. Click **[!UICONTROL Add locale]** to access the menu and define the languages for your translation project.
 
@@ -80,7 +83,9 @@ Start your translation project by specifying the Target Locale, indicating the s
 
 1. Select from the list your **[!UICONTROL Target locale(s)]** and choose which **[!UICONTROL Translation provider]** you want to use for each locale.
 
-1. Click **[!UICONTROL Add a locale]** when you finished linking your Target locale with the correct Translation provider. Then, click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Add a locale]** when you finished linking your Target locale with the correct Translation provider. Then, click **[!UICONTROL Save]**. 
+
+    Note that if a provider is greyed out for a target locale, it indicates that the provider does not support that particular locale. 
 
     ![](assets/translation_project_4.png)
 
@@ -186,12 +191,33 @@ Your campaign is now activated. The message configured in the campaign is sent i
 
 Once sent, you can measure the impact of your Campaigns within the Campaign reports.
 
+## Manage In-house translation project {#manage-ht-project}
+
+If you selected the In-house translation when configuring your Language settings, you can translate your content directly in your Translation project.
+
+1. From your **[!UICONTROL Translation project]**, access the **[!UICONTROL More actions]** menu and select **[!UICONTROL In-house translation]**.
+
+    ![](assets/inhouse-translation-1.png)
+
+1. You can export your CSV file for translation using external translation software. Alternatively, you can import the CSV file back into your translation project by clicking the **[!UICONTROL Import CSV]** button.
+
+    ![](assets/inhouse-translation-3.png)
+
+1. Click **[!UICONTROL Edit]** to add your translation content.
+
+    ![](assets/inhouse-translation-2.png)
+
+1. If you are ready to publish the translated text, click **[!UICONTROL Finalize]**. 
+
 ## Review your translation project {#review-translation-project}
 
 If you selected the **[!UICONTROL Enable review worflow]** in your **[!UICONTROL Translation project]**, you can review the translation directly in Journey Optimizer after completion by your selected Translation provider.
-Note that if this option is disabled, once the translation is finished by your provider, the translation task status is automatically set to **[!UICONTROL Reviewed]**, allowing you to quickly proceed by clicking **[!UICONTROL Send to Product]**.
+
+Note that if this option is disabled, once the translation is finished by your provider, the translation task status is automatically set to **[!UICONTROL Reviewed]**, allowing you to quickly proceed by clicking **[!UICONTROL Publish]**.
 
 1. Once your translation has been completed from your service provider, you can access the translation for review from your **[!UICONTROL Translation project]** or directly from your **[!UICONTROL Campaign]**.
+
+    From the **[!UICONTROL More actions]** menu, click **[!UICONTROL Review]**.
 
     ![](assets/translation_review_1.png)
 
@@ -213,7 +239,7 @@ Note that if this option is disabled, once the translation is finished by your p
 
 1. Click **[!UICONTROL Preview]** to check the rendering of your translated content in each language.
 
-1. Once you are satisfied with the translation, click **[!UICONTROL Finalize]**. 
+1. If you are ready to publish the translated text, click **[!UICONTROL Finalize]**. 
 
     ![](assets/translation_review_5.png)
 
@@ -223,7 +249,7 @@ Note that if this option is disabled, once the translation is finished by your p
 
 1. Once your **[!UICONTROL Translation project]** status is set to Reviewed, you can send it to your Campaign. 
 
-    From the advanced menu, click **[!UICONTROL Publish]**.
+    From the **[!UICONTROL More actions]** menu, click **[!UICONTROL Publish]**.
 
     ![](assets/translation_review_7.png)
 
