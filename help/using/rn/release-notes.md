@@ -68,7 +68,7 @@ This release brings the new capabilities listed below.
 </tbody>
 </table -->
 
-<table>
+<!--<table>
 <thead>
 <tr>
 <th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
@@ -77,7 +77,7 @@ This release brings the new capabilities listed below.
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
