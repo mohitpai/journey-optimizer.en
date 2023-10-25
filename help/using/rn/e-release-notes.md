@@ -94,7 +94,7 @@ This release comes with the improvements listed below.
 
 **Campaigns**
 
-* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * When an error occurs within one of your campaigns, a warning icon now appears in the campaigns list alongside the campaign's status.
 
 **Journeys**
