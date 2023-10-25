@@ -19,10 +19,9 @@ For example, you can specify that you only want a 'Women's Winter Clothing Offer
 
 Here is a list of limitations to be aware of when working with decision rules:
 
-* When creating a rule, you can use historical events but there are limitations on when these rules are usable.
 * Edge decisioning uses the edge profile which does not store events, so any rule used in an edge decision will be invalid.
-* Journeys that use Offer Decisions will not look at historical events, so these rules will be invalid.
-* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.
+* When creating a decision rule, looking back into a previous period of time is not supported. For instance, if you specify an experience event that occurred within the last month as a component of the rule. Any attempt to include a lookback period during rule creation will trigger an error when saving it.
+<!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Create a decision rule {#create}
 

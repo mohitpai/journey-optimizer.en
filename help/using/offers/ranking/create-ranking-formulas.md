@@ -35,6 +35,10 @@ To create a ranking formula, follow the steps below:
 
     ![](../assets/ranking-syntax.png)
 
+    >[!IMPORTANT]
+    >
+    >When creating a ranking formula, looking back into a previous period of time is not supported. For instance, if you specify an experience event that occurred within the last month as a component of the formula. Any attempt to include a lookback period during formula creation will trigger an error when saving it.
+
 1. Click **[!UICONTROL Save]**. Your ranking formula is created, you can select it from the list to get details and edit or delete it.
 
     It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).

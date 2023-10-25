@@ -13,7 +13,6 @@ You can deliver offers using either the **Decisioning** or the **Edge Decisionin
 
 In this page, you will find information on specific functionalities that are available with the **Decisioning** and **Edge Decisioning** APIs. While both allow you to deliver offers to your customers, we recommend using the **Edge Decisioning** API whenever possible for inbound use cases and to ensure better latency and throughput on your platform.
 
-
 For more information on how to work with the APIs, refer to these sections:
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
@@ -121,7 +120,6 @@ When passing context data with an Edge Decisioning API request, data is stored i
 
 The functionalities listed below are only available with the Decisioning API. If you need to leverage one of them to meet your requirements, use the Decisioning API. Otherwise, we recommend using the Edge Decisioning APIs.
 
-* **Experience events**: leverage experience events to build your decisioning rules.
 * **Offer content and characteristics**: you can choose not to return the content and characteristics of an offer using a dedicated option.
 * **Offer metadata**: enable an option to return the metadata of an offer.
 * **Merge policy**: use in your request a different merge policy from the one associated to your sandbox.
