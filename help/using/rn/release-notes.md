@@ -27,10 +27,6 @@ Previous release notes are available in [this page](release-notes-2022.md). You 
 
 ## October 2023 early release notes {#oct-rn-2023}
 
-Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published at the release date.
-
-**Release date**: Oct 25-26, 2023
-
 ### New capabilities{#oct-2023-features}
 
 This release brings the new capabilities listed below.
