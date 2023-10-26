@@ -88,14 +88,14 @@ This release brings the new capabilities listed below.
 
 This release comes with the improvements listed below.
 
-<!--**Audiences**
+**Audiences**
 
 * You can now target audiences uploaded from a CSV file into journeys and campaigns.
 * You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
 
 >[!AVAILABILITY]
 >
->These capabilities are currently available as a private beta.-->
+>These capabilities are currently available as a private beta.
 
 <!--
 **Spam scoring for emails**
