@@ -113,7 +113,7 @@ This release comes with the improvements listed below.
 
    * the **Amount of Time** field in the [wait activity](../building-journeys/wait-activity.md)
    * the **Re-entrance wait period** in [journey properties](../building-journeys/journey-gs.md#entrance)
-   * the **Wait for** field in the timeout definition of [general](../building-journeys/general-events.md#events-specific-time) and [reaction](../building-journeys/reaction-events.md) events.
+   * the **Wait for** field in the timeout definition of [event activities](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
