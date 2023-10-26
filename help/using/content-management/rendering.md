@@ -1,7 +1,7 @@
 ---
 title: Test email rendering
 description: Learn how to test email rendering.
-feature: Preview, Proofs
+feature: Preview
 role: User
 level: Beginner
 ---
