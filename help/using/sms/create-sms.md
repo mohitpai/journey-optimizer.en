@@ -102,7 +102,23 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
     ![](assets/sms_tracking_2.png)
 
-1. In the `originalUrl` field, paste the URL that you want to shorten.
+1. In the `originalUrl` field, paste the URL that you want to shorten and click **[!UICONTROL Save]**.
+
+1. Enable the MMS option to add media to your SMS content.
+
+    MMS comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
+
+    >[!NOTE]
+    >
+    > The MMS option is only available with Sinch. You need to create a specific API credential to create MMS. [Learn more](sms-configuration.md#create-new-api)
+
+    ![](assets/sms_create_6.png)
+
+1. Add a **[!UICONTROL Title]** to your media.
+
+1. Enter the URL of your media in the **[!UICONTROL Media]** field.
+
+    ![](assets/sms_create_7.png)
 
 1. Click **[!UICONTROL Save]** and check your message in the preview. You can use **[!UICONTROL Simulate content]** to preview your shortened URLs or personalized content.
 

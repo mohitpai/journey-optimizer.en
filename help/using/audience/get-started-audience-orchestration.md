@@ -30,7 +30,7 @@ Once done, the **resulting audiences** are saved backed into Adobe Experience Pl
 
 >[!IMPORTANT]
 >
->Audiences resulting from composition workflows can be targeted into Journey Optimizer campaigns only. They are not available for use in journeys.
+>For now, the use of audiences resulting from composition workflows into journeys is available as a private beta. For more information, contact your Adobe representative.
 >
 >Campaigns in Adobe Journey Optimizer are not yet integrated with the policy enforcement service. Therefore, any data usage labels you apply to your audience attributes will not be enforced in Journey Optimizer campaigns.
 

@@ -147,6 +147,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     ![](assets/ip-warmup-plan-edit-run.png)
 
+    >[!NOTE]
+    >
+    >If you don't want to apply the **[!UICONTROL Last engagement]** parameter to the current run, set it to 0.
+
 1. Select the **[!UICONTROL Pause for errors]** option to cancel a run if the qualified profiles are less than the targeted profiles once the audience has been evaluated for that run.
 
     ![](assets/ip-warmup-plan-pause.png)

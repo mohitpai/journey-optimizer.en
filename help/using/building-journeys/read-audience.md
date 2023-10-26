@@ -23,11 +23,13 @@ Use the **Read Audience** activity to make all individuals of a audience enter t
 
 Let's take as an example the "Luma app opening and checkout" audience created in the [Build audiences](../audience/about-audiences.md) use case. With the Read Audience activity, you can make all individuals belonging to this audience enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
->[!NOTE]
->
->For journeys using a Read Audience activity, there is a maximum number of journeys that can start at the exact same time. Retries will be performed by the system but please avoid having more than five journeys (with Read Audience, scheduled or starting "as soon as possible") starting at the exact same time by spreading them over time, for example 5 to 10 minutes apart.
->
->Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity.
+## Must-read {#must-read}
+
+* For journeys using a Read Audience activity, there is a maximum number of journeys that can start at the exact same time. Retries will be performed by the system but please avoid having more than five journeys (with Read Audience, scheduled or starting "as soon as possible") starting at the exact same time by spreading them over time, for example 5 to 10 minutes apart.
+
+* Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity.
+
+* For now, the use of audiences [imported from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) or resulting from [composition workflows](../audience/get-started-audience-orchestration.md) into journeys is available as a private beta. For more information, contact your Adobe representative.
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 

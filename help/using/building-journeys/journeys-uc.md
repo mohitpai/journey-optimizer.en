@@ -18,13 +18,13 @@ This section presents a use case that combines a Read Audience, an event, reacti
 
 ## Description of the use case
 
-In this use case, we want to send a first message (email and push) to all customers belonging to a specific audience. 
+In this use case, we want to send a first email message to all customers belonging to a specific audience. 
 
 Based on their reaction to the first message, we want to send specific messages.
 
-After the first message, we wait one day for customers to open the push or email. If there is no reaction, we send them a follow-up email.
+If the customer opens the email, we wait for a purchase and send a push message to thank the customer. 
 
-Then we wait for a purchase and send a push message to thank the customer. 
+If there is no reaction, we send them a follow-up email.
 
 ## Prerequisites
 
@@ -87,21 +87,13 @@ The event is now configured and ready to be used in your journey. Using the corr
 
    ![](assets/jo-uc5.png)
 
-1. Place your cursor on the email activity and click on the "+" symbol to create a new path.
+1. Add a **Reaction** event and select **Email opened**. The event is triggered when an individual belonging to the audience opens the email.
 
-1. In the first path, add a **Reaction** event and select **Push opened**. The event is triggered when an individual belonging to the audience opens the push version of the first message.
-
-1. In the second path, add a **Reaction** event and select **Email opened**. The event is triggered when the individual opens the email. 
-
-1. In one of the reaction activities, check the **Define the event timeout** box, define a duration (1 day in our example) and check **Set a timeout path**. This creates another path for individuals who do not open the push or email first message.
-
-   >[!NOTE]
-   >
-   >When configuring a timeout on multiple events (the two reactions in this case), you only need to configure the timeout on one these events.
+1. Check the **Define the event timeout** box, define a duration (1 day in our example) and check **Set a timeout path**. This creates another path for individuals who do not open the push or email first message.
 
 1. In the timeout path, drop an **Email** action activity and define the content of the "follow-up" message. This message is sent to the individuals who do not open the email or push first message in the next day. Refer to this [section](../email/create-email.md) to learn how to configure and design an email.
 
-1. Connect the three paths to the purchase event created previously. The event is triggered when an individual makes a purchase.
+1. In the first path, add the purchase event created previously. The event is triggered when an individual makes a purchase.
 
 1. After the event, drop a **Push** action activity and define the content of the "thank you" message. Refer to this [section](../push/create-push.md) to learn how to configure and design a push.
 

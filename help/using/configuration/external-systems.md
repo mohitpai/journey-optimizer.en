@@ -35,13 +35,15 @@ Journeys APIs support up to 5000 event per second but some external systems or A
 
 Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued for up to 6 hours and processed as soon as possible in the order they were received if you are using the Throttling API.
 
-For example, let’s say that you have defined a capping or throttling rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard or queue the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
+For example, let’s say that you have defined a capping or throttling rule of 200 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 300 calls per second, it will use the 200 slots available and discard or queue the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
 
 >[!IMPORTANT]
 >
 >**Capping rules** are configured at sandbox level, for a specific endpoint (the URL called) but global to all journeys of that sandbox. Capping is available on both data sources and custom actions.
 >
 >**Throttling rules** are configured on production sandboxes only, for a specific endpoint but global to all journeys across all sandboxes. You can have only one throttling configuration per organization. Throttling is only available on custom actions.
+>
+>The **maxCallsCount** value has to be greater than 1.
 
 For more information on how to work with the APIs, refer to these sections:
 
@@ -58,7 +60,7 @@ For **external data sources**, the maximum number of calls per second is limited
 >
 >If a datasource uses a custom authentication with a different endpoint than the one used for the datasource, you need to contact Adobe to also include that endpoint in the allowlist.
 
-For **custom actions**, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping or throtlling configuration so that your system does not saturate. [Learn how to configure actions](../action/action.md)
+For **custom actions**, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 200 calls per second, you need to define a capping or throtlling configuration so that your system does not saturate. [Learn how to configure actions](../action/action.md)
 
 ## Timeout and retries{#timeout}
 

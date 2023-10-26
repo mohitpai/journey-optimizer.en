@@ -89,7 +89,7 @@ The **[!UICONTROL Offer eligibility]** section allows you to restrict the offer 
 
 * If you want to associate a specific [decision rule](../offer-library/creating-decision-rules.md) to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
 
-    ![](../assets/offer_rule.png)
+    ![](../assets/offer-rule.png)
 
     >[!CAUTION]
     >
@@ -140,7 +140,7 @@ Limiting the number of times users get specific offers allows you to avoid over-
 
 To set capping, follow the main steps below.
 
-1. Make sure the **[!UICONTROL Include capping]** toggle button is selected. Capping is included by default.
+1. Make sure the **[!UICONTROL Enable capping]** toggle button is selected. Capping is enabled by default.
 
     >[!CAUTION]
     >
@@ -154,7 +154,7 @@ To set capping, follow the main steps below.
 
 1. Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. [Learn more](#frequency-capping)
 
-1. If you have defined several [representations](add-representations.md) for your offer, specify whether you want to apply capping **[!UICONTROL Across all placements]** or **[!UICONTROL For each placement]**. [Learn more](#placements)
+1. If you have defined several [representations](add-representations.md) for your offer, specify whether you want to apply capping **across all placements** or **to each placement**. [Learn more](#placements)
 
 1. Once saved and approved, if the offer has been presented the number of times you have specified in this field according to the criteria and the timeframe you defined, its delivery will stop.
 
@@ -173,7 +173,7 @@ The number of times an offer is proposed is calculated at email preparation time
 >title="Impression"
 >abstract="The use of impressions as capping events is available for inbound channels only."
 
-The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTROL Capping event]** will be taken into account to increase the counter:
+The **[!UICONTROL Capping event]** field allows you to define which event will be taken into account to increase the counter:
 
 ![](../assets/offer-capping-event.png)
 
@@ -213,7 +213,7 @@ The **[!UICONTROL Capping event]** field allows you to define which **[!UICONTRO
 
 ### Capping count {#capping-count}
 
-The **[!UICONTROL Capping count]** field allows you to specify the number of times the offer can be presented.
+The **[!UICONTROL Capping count limit]** field allows you to specify the number of times the offer can be presented.
 
 ![](../assets/offer-capping-times.png)
 
@@ -221,7 +221,7 @@ The **[!UICONTROL Capping count]** field allows you to specify the number of tim
 >
 >The number must be an integer greater than 0.
 
-For example, you defined a custom capping event such as the number of checkouts is taken into account. If you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 checkouts.
+For example, you defined a custom capping event such as the number of checkouts is taken into account. If you enter 10 in the **[!UICONTROL Capping count limit]** field, no more offers will be sent after 10 checkouts.
 
 ### Capping type {#capping-type}
 
@@ -252,7 +252,7 @@ The **[!UICONTROL Frequency]** section allows you to define how often the cappin
 >
 >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday. Any duration you choose cannot exceed 2 years (i.e. the corresponding number of months, weeks or days).
     
-For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the corresponding drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
 
 >[!CAUTION]
 >
@@ -262,15 +262,15 @@ For example, if you want the capping count to be reset every 2 weeks, select **[
 
 ### Capping and placements {#placements}
 
-If you have defined several [representations](add-representations.md) for your offer, specify whether you want to apply capping **[!UICONTROL Across all placements]** or **[!UICONTROL For each placement]**.
+If you have defined several [representations](add-representations.md) for your offer, specify whether you want to apply capping across all placements or to each placement.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Across all placements]**: capping counts will total all decisions across the placements associated with the offer.
+* **[!UICONTROL Apply capping across all placements]**: capping counts will total all decisions across the placements associated with the offer.
     
     For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile across all placements**, then each profile could receive the offer up to 2 times in total, regardless of the placement mix.
 
-* **[!UICONTROL For each placement]**: capping counts will apply decision counts for each placement separately.
+* **[!UICONTROL Apply capping to each placement]**: capping counts will apply decision counts for each placement separately.
     
     For example, if an offer has an **Email** placement and a **Web** placement, and you set the capping at **2 per profile for each placement**, then each profile could receive the offer up to 2 times for the email placement, and an additional 2 times for the web placement.
 

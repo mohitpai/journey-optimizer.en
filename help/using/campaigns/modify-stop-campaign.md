@@ -26,7 +26,7 @@ By default, the list shows all campaigns with the **[!UICONTROL Draft]**, **[!UI
 
 Additionally, you can filter the list based on the campaign type and channel, or the tags that have been assigned to the campaigns when creating them. [Learn how to assign tags to a campaign](create-campaign.md#create)
 
-## Campaign statuses {#statuses}
+## Campaign statuses and alerts {#statuses}
 
 Campaigns can have multiple statuses:
 
@@ -41,6 +41,10 @@ Campaigns can have multiple statuses:
 >[!NOTE]
 >
 >The "Open draft version" icon next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indicates that a new version of the campaign has been created and has not been activated yet. [Learn more](modify-stop-campaign.md#modify).
+
+When an error occurs within one of your campaigns, a warning icon appears alongside the campaign's status. Click on it to display information regarding the alert. These alerts may occur in various situations, such as when the campaign message has not been published or if the chosen surface is incorrect.
+
+![](assets/campaign-alerts.png)
 
 ## Modify a recurring campaign {#modify}
 

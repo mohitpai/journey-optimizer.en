@@ -146,7 +146,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr> 
   <tr> 
    <td> Unique Clicks<br/> </td> 
-   <td> Number of recipients who clicked on a content in an email.<br/> </td> 
+   <td> Number of recipients who clicked on a content in an email.<br> Note that when calculating unique clicks, the last 10 days are taken into account. If a profile registers multiple clicks within the 10-day period, they will be counted as unique clicks. However, if a profile has 2 clicks more than 10 days apart, they will not be considered as unique clicks.<br/> </td> 
 </tr> 
   <tr> 
    <td>Unique Click Rate<br/> </td> 
@@ -154,7 +154,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
   <tr> 
    <td> Unique Opens<br/> </td> 
-   <td>Number of recipients who opened the delivery.<br/> </td> 
+   <td>Number of recipients who opened the delivery. <br> Note that when calculating unique opens, the last 10 days are taken into account. If a profile registers multiple opens within the 10-day period, they will be counted as unique opens. However, if a profile has 2 opens more than 10 days apart, they will not be considered as unique opens.<br/> </td> 
 </tr> 
   <tr> 
    <td> Unsubscriptions<br/> </td> 

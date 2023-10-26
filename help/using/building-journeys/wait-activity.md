@@ -39,7 +39,7 @@ It is a best practice to not use waits to block re-entrance. Instead, use the **
 
 ## Duration wait{#duration}
 
-Select the duration of the wait before the execution of the next activity.
+Select the duration of the wait before the execution of the next activity. The maximum duration is 29 days.
 
 ![](assets/journey55.png)
 

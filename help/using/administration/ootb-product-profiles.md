@@ -12,6 +12,8 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in roles {#ootb-product-profiles}
 
+Built-in roles are a set of unitary rights which allows users access to certain functionalities or objects in the interface. Refer to [this page](ootb-permissions.md) for the list of available permissions to build your role.
+
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
 The **[!DNL Campaign Administrator]** role allows the administration menus with the possibility to manage and publish Campaigns and Decision management. 

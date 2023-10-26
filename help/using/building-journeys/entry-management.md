@@ -29,6 +29,8 @@ In unitary journeys, you can enable or disable re-entrance:
 
 By default, new journeys allow re-entrance. You can uncheck the option for "one shot" journeys, for example if you want to offer a one-time gift when a person visits a shop. In that case, the customer must not be able to re-enter the journey and receive the offer again. When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey finish the journey normally. [Learn more](journey-gs.md#entrance)
 
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field allows you to define the time to wait before allowing a profile to enter the journey again. This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. The maximum duration is 29 days.
+
 ![](assets/journey-re-entrance.png)
 
 After the default [global timeout](journey-gs.md#global_timeout) of 30 days, the journey switches to the **Finished** status. Profiles already in the journey finish the journey normally. New profiles can no longer enter the journey. This behaviour is set for 30 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 30 days after they entered. After that period, profiles can re-enter the journey. To avoid this, and fully disable re-entrance for those profiles, you can add a condition to test if the profile entered already or not, using profile or audience data.
@@ -36,9 +38,7 @@ After the default [global timeout](journey-gs.md#global_timeout) of 30 days, the
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-Unitary journeys (starting with an event or an audience qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
-
-The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
+The key is used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
 ## Read audience journeys{#entry-read-segment}
 

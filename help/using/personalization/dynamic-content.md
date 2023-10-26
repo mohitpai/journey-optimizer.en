@@ -54,13 +54,13 @@ The steps to add dynamic content in expressions are as follows:
 
 The steps to create variants of a content component in the Email Designer are as follows:
 
-1. In the Email Designer, select a content component, then click **[!UICONTROL Enable conditional content]**.
+1. In the [Email Designer](../email/content-from-scratch.md), select a content component, then click **[!UICONTROL Enable conditional content]**.
 
     ![](assets/conditions-enable-conditional.png)
 
 1. The **[!UICONTROL Conditional Content]** pane displays on the left. In this pane, you can create multiple variants of the selected content component using conditions.
     
-    Configure your first variant by selecting the **[!UICONTROL Apply condition]** button.
+    Configure your first variant by selecting the **[!UICONTROL Select condition]** button.
 
     ![](assets/conditions-apply.png)
 
@@ -70,9 +70,11 @@ The steps to create variants of a content component in the Email Designer are as
 
     You can also create a new rule by clicking **[!UICONTROL Create new]**. [Learn how to create conditions](create-conditions.md)
 
-1. The conditional rule is associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipse menu.
+1. The conditional rule is associated to the variant. For better readability, rename the variant by selecting the **[!UICONTROL Rename]** action from the More actions icon.
 
-    Now configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
+    ![](assets/conditions-rename.png)
+
+1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
     ![](assets/conditions-design.png)
 
@@ -82,3 +84,7 @@ The steps to create variants of a content component in the Email Designer are as
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]**.
     >
     >Conditional content will be evaluated against associated rules in the order in which the variants are displayed. The default variant is always displayed if no other conditions are met.
+
+1. To delete a variant, click the More actions icon next to the desired variant and select **[!UICONTROL Delete]**.
+
+    ![](assets/conditions-delete.png)

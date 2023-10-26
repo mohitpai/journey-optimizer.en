@@ -118,17 +118,17 @@ In the **[!UICONTROL Actions]** section, create the message to send with the cam
 
 Click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Learn more on audiences](../audience/about-audiences.md)
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>For now, the use of audiences [imported from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) into campaigns is available as a private beta. For more information, contact your Adobe representative.
 >
 >For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)
 
-In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
+In the **[!UICONTROL Identity namespace]** field, choose the namespace to use in order to identify the individuals from the selected segment.
+
+Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign. [Learn more on namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities will not be targeted by the campaign.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
