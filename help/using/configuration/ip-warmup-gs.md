@@ -44,7 +44,7 @@ With [!DNL Journey Optimizer], you can easily perform IP warmup workflows direct
 
 When emails are sent using a new platform, Internet service providers (ISPs) are suspicious of IP addresses that are not recognized. If large volumes of emails are suddenly sent, the ISPs often mark them as spam.
 
-To avoid being marked as spam, you can progressively increase the volume sent using the IP warmup plan feature. This new option in the **[!UICONTROL Administration]** menu allows you to do it more easily in a consolidated way instead of creating complex daily journeys. This should ensure smooth development of the start-up phase and enable you to reduce the overall rate of invalid addresses.
+To avoid being marked as spam, you can progressively increase the volume sent using the IP warmup plan feature. This new option in the **[!UICONTROL Administration]** menu allows you to do it more easily in a consolidated way instead of creating complex daily journeys.
 
 >[!NOTE]
 >

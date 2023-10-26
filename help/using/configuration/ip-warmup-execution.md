@@ -55,20 +55,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. For each phase, select the campaign you want to associate with this phase of the IP warmup plan.
 
+    >[!NOTE]
+    >
+    >You cannot select a campaign that is already in use in another IP warmup plan. However, the same campaign can be used in one or more phases of the same IP warmup plan.
+
     ![](assets/ip-warmup-plan-select-campaign.png)
 
     >[!IMPORTANT]
     >
-    >    * Only the campaigns with the **[!UICONTROL IP warmup plan activation]** option enabled <!--and live?--> are available for selection. [Learn more](#create-ip-warmup-campaign)
+    >* Only the campaigns with the **[!UICONTROL IP warmup plan activation]** option enabled are available for selection. [Learn more](#create-ip-warmup-campaign)
     >
     >* You must select a campaign that uses the same surface as the one selected for the current IP warmup plan.
-    >
-    >* You cannot select a campaign that is already in use in another IP warmup plan.
-
 
 1. In the **[!UICONTROL Profile exclusion]** section, you can see that the profiles from the previous runs of that phase are always excluded. For example, if in Run #1 a profile got covered in the first 4800 people being targeted, the system will automatically ensure that the same profile doesn't receive the email in Run #2.
 
-1. From the **[!UICONTROL Campaign audiences excluded]** section, select the audiences from other <!--executed/live?-->campaigns that you want to exclude from the current phase.
+1. From the **[!UICONTROL Campaign audiences excluded]** section, select the campaign audiences from other <!--executed/live?-->campaigns that you want to exclude from the current phase.
 
     ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -149,7 +150,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
     >[!NOTE]
     >
-    >If you don't want to apply the **[!UICONTROL Last engagement]** parameter to the current run, set it to 0.
+    >If you don't want to apply any engagement period to a run, enter 0 in the **[!UICONTROL Last engagement]** field.
 
 1. Select the **[!UICONTROL Pause for errors]** option to cancel a run if the qualified profiles are less than the targeted profiles once the audience has been evaluated for that run.
 

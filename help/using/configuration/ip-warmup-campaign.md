@@ -30,7 +30,7 @@ What you'll find in this documentation guide:
 
 >[!ENDSHADEBOX]
 
-Before creating the IP warmup plan itself in [!DNL Journey Optimizer], you first need to create one or more campaigns with the dedicated option enabled so that they can be used in an IP warmup plan.
+Before creating the IP warmup plan itself in [!DNL Journey Optimizer], you first need to create one or more campaigns specifically designed for use in an IP warmup plan<!--through a dedicated option-->.
 
 To create an IP warmup campaign, follow the steps below.
 
@@ -42,7 +42,9 @@ To create an IP warmup campaign, follow the steps below.
     >
     >Work with your deliverability consultant to identify the domain and IPs to be used for your IP warmup plan.<!--TBC-->
 
-1. Create a [campaign](../campaigns/create-campaign.md) and select the [Email](../email/create-email.md#create-email-journey-campaign) action.
+1. Create a scheduled marketing [campaign](../campaigns/create-campaign.md) and select the [Email](../email/create-email.md#create-email-journey-campaign) action.
+
+    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 
 1. Select the surface that you created for IP warmup.
 
@@ -64,7 +66,7 @@ To create an IP warmup campaign, follow the steps below.
     >
     >For more information on how to configure a campaign, refer to [this page](../campaigns/get-started-with-campaigns.md).
 
-1. [Activate](../campaigns/review-activate-campaign.md) the campaign.
+1. [Activate](../campaigns/review-activate-campaign.md) the campaign. Its status changes to **[!UICONTROL Live]**.
 
     >[!NOTE]
     >
@@ -76,4 +78,9 @@ To create an IP warmup campaign, follow the steps below.
 
 Once live, the campaign is ready for use in an IP warmup plan. [Learn more](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+An IP warmup campaign can only be used in one IP warmup plan. However, the same campaign can be used in one or more phases of the same IP warmup plan. [Learn more](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>When a live campaign is used in an IP warmup plan, after the plan is [marked as completed](ip-warmup-execution.md#mark-as-completed), the status of that campaign changes to **[!UICONTROL Stopped]**.
+
