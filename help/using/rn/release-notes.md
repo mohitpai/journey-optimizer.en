@@ -115,9 +115,10 @@ This release comes with the improvements listed below.
    * the **Re-entrance wait period** in [journey properties](../building-journeys/journey-gs.md#entrance)
    * the **Wait for** field in the timeout definition of [general](../building-journeys/general-events.md#events-specific-time) and [reaction](../building-journeys/reaction-events.md) events.
 
+<!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Decision management**
 
