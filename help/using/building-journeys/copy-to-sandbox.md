@@ -79,7 +79,7 @@ To copy a journey to another sandbox, follow these steps:
 
    ![](assets/journey-sandbox9.png)
 
-## Import the journey {#export}
+## Import the journey {#import}
 
 1. From the package list, click the + icon, next to the package name. 
 
