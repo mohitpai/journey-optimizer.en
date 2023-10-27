@@ -68,7 +68,9 @@ To create a composition workflow, follow these steps:
 >title="Publish your audience"
 >abstract="Publish your composition to save the resulting audience(s) into Adobe Experience Platform."
 
-All created compositions can be accessed from the **[!UICONTROL Compositions]** tab. They can have multiple statuses:
+All created compositions can be accessed from the **[!UICONTROL Compositions]** tab. You can duplicate or delete an existing composition at any time using the ellipsis button in the list.
+
+Compositions can have multiple statuses:
 
 * **[!UICONTROL Draft]**: the composition is in progress and has not been published.
 * **[!UICONTROL Published]**: the composition has been published, resulting audiences have been saved and are available for use.
@@ -77,4 +79,4 @@ All created compositions can be accessed from the **[!UICONTROL Compositions]** 
 
 >[!NOTE]
 >
->You can duplicate or delete an existing composition at any time using the ellipsis button in the list.
+>Audience composition is currently not integrated with the sandbox reset capability. Before initiating a sandbox reset, you need to delete your compositions manually to ensure that the associated audience data is cleaned up properly. Detailed information is available in Adobe Experience Platform [Sandbox documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
