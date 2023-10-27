@@ -29,7 +29,7 @@ If you want to wait before executing the next activity in the path, you can use 
 
 ## About the Wait activity{#about_wait}
 
-The maximum wait duration is 30 days. In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md).
+The maximum wait duration is 29 days. In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md).
 
 Be cautious when using multiple Wait activities in a journey as the global journey timeout is 30 days, meaning that a profile will always drop out of the journey maximum 30 days after he/she entered it. See [this page](../building-journeys/journey-gs.md#global_timeout).
 
