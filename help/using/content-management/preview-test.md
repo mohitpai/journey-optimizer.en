@@ -4,6 +4,7 @@ description: Learn how to preview and test your content.
 feature: Preview, Proofs
 role: User
 level: Beginner
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 ---
 # Preview and test your content {#preview-test}
 

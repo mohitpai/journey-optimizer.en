@@ -4,6 +4,7 @@ description: Learn how to test email rendering.
 feature: Preview
 role: User
 level: Beginner
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 ---
 # Test email rendering {#email-rendering}
 

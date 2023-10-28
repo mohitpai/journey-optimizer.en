@@ -4,6 +4,7 @@ description: Learn how to select test profiles to preview and test content.
 feature: Preview, Proofs
 role: User
 level: Beginner
+exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 ---
 # Select test profiles {#select-test-profiles}
 

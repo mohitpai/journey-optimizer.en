@@ -10,6 +10,7 @@ level: Beginner
 keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 ---
 # Create multilingual content with manual translation {#multilingual-manual}
 

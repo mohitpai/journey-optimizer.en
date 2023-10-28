@@ -6,6 +6,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 ---
 # Use Spam report {#spam-report}
 
@@ -73,6 +74,3 @@ They should also get suggestions on how to improve the score better to be confid
 
     ![](assets/spam-report-alert.png)
 -->
-
-
-

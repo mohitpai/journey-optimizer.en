@@ -9,6 +9,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
 ---
 # Create an MMS message {#create-mms}
 

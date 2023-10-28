@@ -10,6 +10,7 @@ level: Beginner
 keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
+exl-id: 662681ad-5044-4025-aff1-204626fee052
 ---
 # Multilingual campaign report {#multilingual-campaign-report}
 

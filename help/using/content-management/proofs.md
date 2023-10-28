@@ -4,6 +4,7 @@ description: Learn how to send email proofs.
 feature: Preview, Proofs
 role: User
 level: Beginner
+exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 ---
 # Send email proofs {#send-proofs}
 
