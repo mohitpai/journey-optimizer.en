@@ -38,6 +38,10 @@ Sandbox Tooling allows you to copy objects across multiple sandboxes by leveragi
 
 This page describes the Sandbox tooling use case in the context of Journey Optimizer. For more information on the feature itself, refer to the [Experience Platform documentation](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>This feature requires the following permissions: manage-sandbox (or view-sandbox) and manage-package.
+
 ## Get started with Sandbox Tooling{#sandbox-gs}
 
 Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from your Stage sandbox environment to your Production sandbox. In addition to the journey itself, Journey Optimizer also copies most of the objects the journey depends on: audiences, schemas, events and actions. For more details on copied objects, refer to this [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -48,13 +52,18 @@ Journey Optimizer allows you to copy an entire journey from one sandbox to anoth
 
 The copied objects in the target sandbox are unique and there is no risk of overwriting existing elements. Both the journey and any messages inside the journey are brought over in draft mode. This allows you to perform a thorough validation before publication on the target sandbox. The copy process only copies over the metadata about the journey and the objects in that Journey. No profile or dataset data is being copied as part of this process. 
 
-## Export the journey {#export}
+The copy process is carried via a package export and import between the source and target sandboxes. Here are the general steps to copy a journey from one sandbox to another:
 
-To copy a journey to another sandbox, follow these steps:
+1. Add the journey as a package in the source sandbox. 
+1. Export the package to the target sandbox.
+
+## Add the journey as a package{#export}
+
+To copy a journey to another sandbox, you first need to add the journey as a package in the source sandbox. Follow these steps:
 
 1. In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
 
-1.  Search for the journey you want to copy, click the **More actions** icon (the three dots next to the journey name) and click **Add to package**.
+1. Search for the journey you want to copy, click the **More actions** icon (the three dots next to the journey name) and click **Add to package**.
 
    ![](assets/journey-sandbox1.png)
 
@@ -79,9 +88,11 @@ To copy a journey to another sandbox, follow these steps:
 
    ![](assets/journey-sandbox9.png)
 
-## Import the journey {#import}
+## Export the package to the target sandbox {#import}
 
-1. From the package list, click the + icon, next to the package name. 
+Once the package is published, you need to export it to the target sandbox. 
+
+1. In the source sandbox, click the **[!UICONTROL Sandboxes]** menu, select the **Packages** tab and click the + icon, next to the package you want to export. 
 
    ![](assets/journey-sandbox5.png)
 
