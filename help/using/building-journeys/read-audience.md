@@ -41,13 +41,13 @@ The steps to configure the Read Audience activity are as follows:
 
 1. Add a **[!UICONTROL Label]** to the activity (optional).
 
-1. In the **[!UICONTROL Audience]** field, choose Adobe Experience Platform audience that will enter the journey, then click **[!UICONTROL Save]**.
-
-    Note that you can customize the columns displayed in the list and sort them.
+1. In the **[!UICONTROL Audience]** field, choose Adobe Experience Platform audience that will enter the journey, then click **[!UICONTROL Save]**. You can select any Adobe Experience Platform audience generated using [segment definitions](../audience/creating-a-segment-definition.md).
 
     >[!NOTE]
     >
-    >Only the individuals with the **Realized** and **Existing** audience participation statuses will enter the journey. For more on how to evaluate an audience, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
+    >In addition, you can also target Adobe Experience Platform audiences created using [audience compositions](../audience/get-started-audience-orchestration.md) or [uploaded from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. These capabilities are currently available as a private beta.
+
+    Note that you can customize the columns displayed in the list and sort them.
 
     ![](assets/read-segment-selection.png)
 
@@ -56,6 +56,10 @@ The steps to configure the Read Audience activity are as follows:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+    >[!NOTE]
+    >
+    >Only the individuals with the **Realized** and **Existing** audience participation statuses will enter the journey. For more on how to evaluate an audience, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. By default, the field is pre-filled with the last used namespace. [Learn more about namespaces](../event/about-creating.md#select-the-namespace).
 

@@ -21,11 +21,15 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 >title="Select the campaign audience"
 >abstract="This list displays all available Adobe Experience Platform audiences. Select the audience to target with your campaign. The message configured in the campaign will be sent to all the individuals belonging to the selected audience. [Learn more on audiences](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] allows you to build and leverage Adobe Experience Platform audiences using Real-Time Customer Profile data directly from the **[!UICONTROL Audiences]** menu, and use them into your journeys or campaigns.
-
-Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+[!DNL Journey Optimizer] allows you to build and leverage Adobe Experience Platform audiences using Real-Time Customer Profile data directly from the **[!UICONTROL Audiences]** menu, and use them into your journeys or campaigns. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Use audiences in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+You can select in campaigns and journeys any Adobe Experience Platform audience generated using [segment definitions](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>In addition, you can also target Adobe Experience Platform audiences created using [audience compositions](../audience/get-started-audience-orchestration.md) or [uploaded from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. These capabilities are currently available as a private beta.
 
 You can leverage audiences in **[!DNL Journey Optimizer]** in different ways:
 

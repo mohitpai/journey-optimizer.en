@@ -86,7 +86,7 @@ This release comes with the improvements listed below.
 
 **Audiences**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences uploaded from a CSV file into journeys and campaigns. [Learn more](../audience/about-audiences.md#segments-in-journey-optimizer)
 * You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. [Learn more](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
