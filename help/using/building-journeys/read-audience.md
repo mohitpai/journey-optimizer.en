@@ -31,7 +31,7 @@ Let's take as an example the "Luma app opening and checkout" audience created in
 
 * For now, the use of audiences [imported from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) or resulting from [composition workflows](../audience/get-started-audience-orchestration.md) into journeys is available as a private beta. For more information, contact your Adobe representative.
 
-### Configure the activity {#configuring-segment-trigger-activity}
+## Configure the activity {#configuring-segment-trigger-activity}
 
 The steps to configure the Read Audience activity are as follows:
 
@@ -110,7 +110,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >One-shot Read audience journeys move to the Finished status 30 days after the journey execution. For scheduled Read audiences, it is 30 days after the execution of the last occurrence.
 
-### Test and publish the journey {#testing-publishing}
+## Test and publish the journey {#testing-publishing}
 
 The **[!UICONTROL Read Audience]** activity allows you to test the journey on a unitary profile.
 
