@@ -57,6 +57,8 @@ The copy process is carried via a package export and import between the source a
 1. Add the journey as a package in the source sandbox. 
 1. Export the package to the target sandbox.
 
+In addition, you can leverage Journey Optimizer **Object Copy Service REST API** to manage sandboxes' objects. [Learn how to work with the Object Copy Service REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+
 ## Add the journey as a package{#export}
 
 To copy a journey to another sandbox, you first need to add the journey as a package in the source sandbox. Follow these steps:

@@ -16,17 +16,15 @@ It is possible to define a specific sending-safe list at the [sandbox](../admini
 
 This allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox.
 
->[!NOTE]
+>[!CAUTION]
 >
->This feature is available on production and non-production sandboxes.
+>This feature only applies to the email channel. It is available on production and non-production sandboxes.
 
 For example, on a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to real customer addresses, and therefore provides a secured environment for testing purpose.
 
 Also, when the allowed list is active but empty, no mail will go out. Hence if you encounter some major issue, you can use this feature to stop  all outgoing communications from [!DNL Journey Optimizer] until you fix the problem. Learn more on the [allowed list logic](#logic).
 
->[!CAUTION]
->
->This feature only applies to the email channel.
+In addition, you can leverage Journey Optimizer **Suppression REST API** to control your outgoing messages using suppression and allow lists. [Learn how to work with the Suppression REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## Access the allowed list {#access-allowed-list}
 

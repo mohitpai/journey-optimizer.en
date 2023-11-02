@@ -24,6 +24,11 @@ When sending messages from journeys or campaigns, you must always ensure that cu
 
 While **[!DNL Journey Optimizer]** provides ways of managing opt-out in emails and SMS messages, push notifications do not require any action on your side, as recipients can unsubscribe through their devices themselves. For example, upon downloading or when using your app, they can select to stop notifications. Similarly, they can change the notification settings through the mobile operating system.
 
+>[!NOTE]
+>
+>In addition, you can leverage Journey Optimizer **Suppression REST API** to control your outgoing messages using suppression and allow lists. [Learn how to work with the Suppression REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+
+
 Learn how to manage opt-out in Journey Optimizer email and SMS messages in these sections: 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -87,7 +92,7 @@ If a user has:
 >
 >Consent for having profile data used in [data modeling](../offers/ranking/ai-models.md) is not supported yet in [!DNL Journey Optimizer].
 
-## In the Expression editor {#opt-out-expression-editor}
+### In the Expression editor {#opt-out-expression-editor}
 
 The [Expression editor](../personalization/personalization-build-expressions.md) itself does not perform any consent checks or enforcement as it is not involved in the delivery of messages.
 
