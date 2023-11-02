@@ -20,7 +20,7 @@ In this example, we will build an audience to target all customers living in Atl
 
 ➡️ [Learn how to create audiences in this video](#video-segment)
 
-1. Access the **[!UICONTROL Audiences]** menu, then click the **[!UICONTROL Create audience]** button.
+1. From the **[!UICONTROL Audiences]** menu, click the **[!UICONTROL Create audience]** button and select **[!UICONTROL Build rule]**.
     
     ![](assets/create-segment.png)
 

@@ -184,7 +184,7 @@ Make sure you have scheduled enough time to allow for the [segmentation](https:/
 >
 >Each run must be activated at least 12 hours before the actual send time. Otherwise, segmentation may not be completed.
 
-When you activate a run, several segments are automatically created.
+When you activate a run, several audiences are automatically created.
 
 * If activating the first run of a phase:
 
