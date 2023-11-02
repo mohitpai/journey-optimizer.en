@@ -31,6 +31,8 @@ Available channels for API-triggered campaigns are Email, SMS and Push messages.
 >
 >As of now, Rapid delivery mode is not supported for push notification API-triggered campaigns.
 
+➡️ [Discover this feature in video](#video)
+
 ## Create an API-triggered campaign {#create}
 
 ### Configure and activate the campaign {#create-activate}
@@ -126,3 +128,9 @@ To activate profile creation at campaign execution, toggle the **[!UICONTROL Cre
 >[!NOTE]
 >
 >Unknown profiles are created in the **AJO Interactive Messaging Profile Dataset** dataset, in three default namespace (email, phone and ECID) respectively for each outbound channels (Email, SMS and Push).
+
+## How-to video {#video}
+
+Learn how to create a campaign and trigger it from an external system based on user interactions, using the Interactive Message Execution REST API.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
