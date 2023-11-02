@@ -39,6 +39,10 @@ Constraints allow you to define the conditions under which an offer will be disp
 
    ![](../assets/offer-priority.png)
 
+    >[!NOTE]
+    >
+    >The offer priority must be an integer value (no decimals).
+
 1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented. [Learn more](#capping)
 
    ![](../assets/offer-capping.png)

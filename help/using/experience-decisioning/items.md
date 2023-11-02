@@ -71,6 +71,10 @@ To create a decision item, follow these steps:
 
     ![](assets/item-attributes.png)
 
+    >[!NOTE]
+    >
+    >The priority is an integer data type. All attributes that are integer data types should contain integer values (no decimals).
+
 1. Custom attributes are specific attributes tailored to your needs that you can assign to a decision item. They are defined in the decision items' catalog schema. [Learn how to work with catalogs](catalogs.md)
 
 1. Once the decision item's attributes are defined, click **[!UICONTROL Next]** to set profile constraints for the item.
