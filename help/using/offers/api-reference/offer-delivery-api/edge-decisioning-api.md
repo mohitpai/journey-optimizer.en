@@ -19,10 +19,6 @@ There are two ways to implement decision management with the [Platform Web SDK](
 
 Refer to the documentation on [decision management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) for more information on how to deliver personalized offers using Adobe Experience Platform Web SDK.
 
->[!NOTE]
->
->The use of Decision Management in Adobe Experience Platform Web SDK is only available for a set of organizations (Limited Availability). If you want to leverage this feature, contact your Adobe account executive.
-
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
 Platform Web SDK replaces the following SDKs:
