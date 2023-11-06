@@ -60,6 +60,6 @@ The audience can now be used in your journeys. For more on this, refer to [this 
 
 ## How-to video{#video-segment}
 
-Learn how to create audiences.
+Understand how Journey Optimizer uses rules to generate audience and learn how to use attributes, events, and existing audiences to create an audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
