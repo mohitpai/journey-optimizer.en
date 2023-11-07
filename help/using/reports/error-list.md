@@ -11,7 +11,7 @@ level: Intermediate
 # Error reasons list {#error-list}
 
 |Exclusion reason | Error code | Channel | Explanation |
-|:-:|:-:|:-:|:-:|
+|-|-|-|-|
 | RuntimeDispatchError | 050301 | All Channels | Generic exclusion event for any Runtime dispatch error.|
 | RuntimeRenderingError | 050302 | All Channels | Generic exclusion event for any Runtime rendering error. |
 | NamespaceErrorForExperimentation | 050017 | All Channels | An exclusion event is generated when Namespace in Experiment is different from the namespace of the profile. |
