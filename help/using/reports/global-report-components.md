@@ -84,6 +84,11 @@ The tables below give you the list of metrics used in reports and their definiti
    <td> Error Rate<br/> </td> 
    <td> Percentage of errors that occurred during a delivery preventing it from being sent compared to emails sent.<br/> </td> 
 </tr>
+</tr> 
+  <tr> 
+   <td> Error Reason<br/> </td> 
+   <td> Name of the specific original cause of the error. <a href="error-list.md">Learn more on error reasons</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Excluded<br/> </td> 
    <td> Number of profiles which have been excluded by Adobe Journey Optimizer.<br/> </td> 
@@ -326,7 +331,11 @@ The tables below give you the list of metrics used in reports and their definiti
   <tr> 
    <td> Error Rate<br/> </td> 
    <td> Percentage of errors that occurred during a delivery preventing it from being sent compared to push notifications sent.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Error Reason<br/> </td> 
+   <td> Name of the specific original cause of the error. <a href="error-list.md">Learn more on error reasons</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Excluded<br/> </td> 
    <td> Number of profiles which have been excluded by Adobe Journey Optimizer.<br/> </td> 
@@ -350,7 +359,7 @@ The tables below give you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
-### Landing page metrics {#landing-page-metrics}
+## Landing page metrics {#landing-page-metrics}
 
 <table> 
  <thead> 

@@ -167,6 +167,8 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Email]** ta
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your email:
 
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring email. To target only one or multiple recurring emails, select it from the **[!UICONTROL Execution time]** drop-down. 
+
 * **[!UICONTROL Targeted]**: Total number of messages processed during the sending process.
 
 * **[!UICONTROL Sent]**: Total number of sends for your email.
@@ -188,6 +190,8 @@ The **[!UICONTROL Email Sending Statistics]** graph details the success of your 
 * **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
 The **[!UICONTROL Email - Tracking statistics]** widget contains the available data for profile activity for your email:
+
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring email. To target only one or multiple recurring emails, select it from the **[!UICONTROL Execution time]** drop-down. 
 
 * **[!UICONTROL Opens]**: Number of times the email was opened.
 
@@ -237,7 +241,7 @@ The **[!UICONTROL Email - Top recipient domain]** graph and table details which 
 >
 > The **[!UICONTROL Email - Top recipient domain]** widget has an accuracy rate of 99.95%.
 
-The **[!UICONTROL Optimized vs non optimized]** graph details the main information relative to your message whether they are optimized or not:
+The **[!UICONTROL Email - Optimized vs Normal]** graph details the main information relative to your message whether they are optimized or not:
 
 * **[!UICONTROL Sent]**: Total number of sends.
 
@@ -245,7 +249,7 @@ The **[!UICONTROL Optimized vs non optimized]** graph details the main informati
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
 
-The **[!UICONTROL Send time optimization]** details the success of your email depending on the sending method: optimized or normal.
+The **[!UICONTROL Email - Send time optimization]** details the success of your email depending on the sending method: optimized or normal.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -331,7 +335,9 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Push notifi
 
 +++Learn more on the different metrics and widgets available for the Push report.
 
-The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications
+The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications:
+
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring push notification. To target only one or multiple recurring push notifications, select it from the **[!UICONTROL Execution time]** drop-down. 
 
 * **[!UICONTROL Targeted]**: Total number of messages processed during the analysis.
 
@@ -352,6 +358,8 @@ The **[!UICONTROL Push notification - Sending statistics]** table details the ma
 * **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
 The **[!UICONTROL Push - Tracking statistics]** contains the available data for profile activity for your push notification:
+
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring push notification. To target only one or multiple recurring push notifications, select it from the **[!UICONTROL Execution time]** drop-down. 
 
 * **[!UICONTROL Opens]**: Number of times your push notification was opened.
 
@@ -440,6 +448,8 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL SMS]** tab 
 
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your SMS message:
 
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring SMS message. To target only one or multiple recurring SMS messages, select it from the **[!UICONTROL Execution time]** drop-down. 
+
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles.
 
 * **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
@@ -524,6 +534,8 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Direct mail
 +++Learn more on the different metrics and widgets available for the Direct mail report.
 
 The **[!UICONTROL Direct Mail - Sending statistics]** table details the success of your direct mail:
+
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring Direct mail. To target only one or multiple recurring Direct mail, select it from the **[!UICONTROL Execution time]** drop-down. 
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this direct mail.
 

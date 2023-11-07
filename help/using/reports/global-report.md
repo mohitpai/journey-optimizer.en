@@ -39,6 +39,12 @@ Each reporting dashboard can be modified by changing the time period and resizin
 
     ![](assets/report_modify_1.png)
 
+1. For your Journey reports that involve multiple configured **[!UICONTROL Actions]**, choose a specific **[!UICONTROL Action]** from the drop-down menu.
+
+1. If you want to target only one or multiple recurring messages, select it from the **[!UICONTROL Execution time]** drop-down.
+
+    ![](assets/report_modify_12.png)
+
 1. Choose if you want to exclude test events from your reports with the toggle bar. For more information on test events, refer to [this page](../building-journeys/testing-the-journey.md).
 
     Note that the **[!UICONTROL Exclude test events]** option is only available for Journey reports.
