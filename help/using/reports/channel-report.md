@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Channel-level eports
+title: Channel-level reports
 description: Learn how to use data from the Channel reports
 feature: Reporting
 topic: Content Management
