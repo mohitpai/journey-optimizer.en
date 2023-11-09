@@ -21,7 +21,7 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 
 >[!CAUTION]
 >
-> * To create, edit and delete channel surfaces, you must have the [Manage channel surface](../administration/high-low-permissions.md#manage-channel-surface) permission.
+> * To create, edit and delete channel surfaces, you must have the [Manage messages presets](../administration/high-low-permissions.md#administration-permissions) permission.
 >
 > * You must perform the [Email configuration](../email/get-started-email-config.md), [Push configuration](../push/push-configuration.md) and [SMS configuration](../sms/sms-configuration.md) steps before creating channel surfaces.
 
@@ -41,7 +41,7 @@ Once channel surfaces have been configured, you will be able to select them when
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Channel surface settings"
->abstract="To be able to create actions such as emails from a journey or a campaign, you must first create a channel surface that defines all the technical settings required for your messages. You must have the Manage channel surface permission to create, edit and delete channel surfaces."
+>abstract="To be able to create actions such as emails from a journey or a campaign, you must first create a channel surface that defines all the technical settings required for your messages. You must have the Manage messages presets permission to create, edit and delete channel surfaces."
 
 To create a channel surface, follow these steps:
 

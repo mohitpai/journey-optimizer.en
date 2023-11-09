@@ -282,20 +282,6 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
 
 ## Channel configurations resource {#administration-permissions}
 
-* **[!DNL Manage channel surface]** high-level permission allows users to create, edit and delete channel surfaces across channels at the sandbox level.
-
-  +++ It includes the following low-level permissions:  
-
-  * Journey Optimizer specific:
-    * messages_presets.read
-    * messages_presets.write
-    * messages_presets.delete
-    * subdomains_delegation.read
-    * IP_pools.read
-    * mobile_setting.read (from Adobe Experience Platform Launch)
-
-  +++
-
 * **[!DNL Manage IP pools]** high-level permission allows users to create, edit and delete the affinity definition.
 
   +++ It includes the following low-level permissions:  
@@ -335,7 +321,7 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
 
   +++
 
-* **[!DNL Manage messages presets]** high-level permission allows users to read, create, edit, and delete content branding.
+* **[!DNL Manage messages presets]** high-level permission allows users to read, create, edit, and delete channel surfaces across channels at the sandbox level.
 
   +++ It includes the following low-level permissions: 
 
@@ -347,7 +333,7 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
     * IP_pools.read
 
   * Data Collection specific:
-    * Mobile_setting.read
+    * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
   +++
 
@@ -384,7 +370,7 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
 
   +++
 
-* **[!DNL Manage subdomains delegation]** high-level permission allows users to create, edit and delete subdomain delegations (including IP pool).
+* **[!DNL Manage subdomains delegations]** high-level permission allows users to create, edit and delete subdomain delegations (including IP pool).
 
   +++ It includes the following low-level permissions:  
   * Journey Optimizer specific: 

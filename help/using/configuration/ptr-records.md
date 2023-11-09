@@ -20,7 +20,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Subdomains' PTR records"
->abstract="Once a subdomain is delegated to Adobe in Journey Optimizer, a PTR record is automatically created and associated with this subdomain."
+>abstract="Once the first subdomain is delegated to Adobe in Journey Optimizer, PTR records are automatically created."
 
 ## About PTR records {#about-ptr-records}
 
@@ -30,7 +30,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records {#access-ptr-records}
 
-Once [a subdomain is delegated](delegate-subdomain.md) in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Once you [delegate](delegate-subdomain.md) your first subdomain to Adobe in [!DNL Journey Optimizer], PTR records are automatically created for your IPs. You can access them from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](assets/ptr-records.png)
 
