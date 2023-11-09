@@ -78,7 +78,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab
 
 The **[!UICONTROL Email Sending Statistics]** graph details the success of your delivery:
 
-* **[!UICONTROL Execution time]**: Start time of every execution of your recurring email in your journey. To target only one or multiple recurring emails, select it from the **[!UICONTROL Execution time]** drop-down. 
+* **[!UICONTROL Execution time]**: Start time of every journey execution in case of recurring journeys. To target only one or multiple recurrences, select it from the **[!UICONTROL Execution time]** drop-down. 
 
 * **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
@@ -192,7 +192,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push notific
 
 The **[!UICONTROL Push notification - Sending statistics]** table details the main information relative to your push notifications with graph and KPIs:
 
-* **[!UICONTROL Execution time]**: Start time of every execution of your recurring push notification in your journey. To target only one or multiple recurring push notifications, select it from the **[!UICONTROL Execution time]** drop-down. 
+* **[!UICONTROL Execution time]**: Start time of every journey execution in case of recurring journeys. To target only one or multiple recurrences, select it from the **[!UICONTROL Execution time]** drop-down.
 
 * **[!UICONTROL Targeted]**: Number of profiles targeted for any action such as send email or SMS.
 
@@ -212,7 +212,7 @@ The **[!UICONTROL Push notification - Sending statistics]** table details the ma
 
 The **[!UICONTROL Push - Tracking statistics]** contains the available data for recipient activity for your delivery:
 
-* **[!UICONTROL Execution time]**: Start time of every execution of your recurring push notification in your journey. To target only one or multiple recurring push notifications, select it from the **[!UICONTROL Execution time]** drop-down. 
+* **[!UICONTROL Execution time]**: Start time of every journey execution in case of recurring journeys. To target only one or multiple recurrences, select it from the **[!UICONTROL Execution time]** drop-down.
 
 * **[!UICONTROL Opens]**: Number of times a message was opened in a delivery.
 
@@ -268,7 +268,7 @@ The SMS **[!UICONTROL Global report]** is divided into different widgets detaili
 
 The **[!UICONTROL SMS - Sending statistics]** table details the success of your delivery:
 
-* **[!UICONTROL Execution time]**: Start time of every execution of your recurring SMS message in your journey. To target only one or multiple recurring SMS messages, select it from the **[!UICONTROL Execution time]** drop-down. 
+* **[!UICONTROL Execution time]**: Start time of every journey execution in case of recurring journeys. To target only one or multiple recurrences, select it from the **[!UICONTROL Execution time]** drop-down.
 
 * **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for this delivery.
 
