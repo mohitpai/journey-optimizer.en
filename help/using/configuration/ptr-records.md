@@ -34,7 +34,7 @@ Once you [delegate](delegate-subdomain.md) your first subdomain to Adobe in [!DN
 
 ![](assets/ptr-records.png)
 
-The list shows the PTR records generated for each delegated subdomain, using the syntax below:
+The list shows the PTR records generated using the syntax below:
 
 * "r" for record,
 * "xx" for the two last figures of the IP address,
