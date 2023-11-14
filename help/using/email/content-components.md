@@ -161,11 +161,17 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
     ![](assets/email_designer_image_content.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. From the **[!UICONTROL Settings]** tab, click **[!UICONTROL Browse]** to choose an image file from your assets or **[!UICONTROL Import media]** to upload an asset to Assets Essentials.
 
    To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Click your newly added component and set up your image properties from the **[!UICONTROL Settings]** tab:
+    >[!NOTE]
+    >
+    > To ensure your links remain active and avoid any expiration issues, we recommend using Adobe Assets instead of relying on a source URL for your images.
+
+1. You can also directly search in Adobe Stock with the **[!UICONTROL Find Adobe Stock photos]** option.
+
+1. Click your newly added component and set up your image properties:
 
     * **[!UICONTROL Image title]** lets you define a title to your image.
     * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
