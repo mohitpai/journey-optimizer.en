@@ -15,13 +15,9 @@ Use [!DNL Journey Optimizer] to send text messages to your customers on their mo
 
 SMS deliveries can be created:
 
-* In a **Journey**: Once you added an SMS activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message. 
+* In a **Journey**: Once you added an SMS activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: SMS]** right pane to create the content for the SMS message. [Learn how to create a journey](../building-journeys/journey-gs.md)
 
-    For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
-
-* In a **Campaign**: Once you created a campaign, select SMS as your action and define basic settings. 
-
-    For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
+* In a **Campaign**: Once you created a campaign, select SMS as your action and define basic settings. [Learn how to create a campaign](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
