@@ -21,13 +21,9 @@ Push notifications help you reach your mobile app users at any time - especially
 
 Push notifications can be created:
 
-* In a **Journey**: Once you added a Push activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: Push]** right pane to create the content for the Push notifications. 
+* In a **Journey**: Once you added a Push activity in your journey, and defined basic settings, use the **[!UICONTROL Actions: Push]** right pane to create the content for the Push notifications. [Lean how to create a journey](../building-journeys/journey-gs.md)
 
-    For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
-
-* In a **Campaign**: Once you created a campaign, select Push notification as your action and define basic settings. 
-
-    For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
+* In a **Campaign**: Once you created a campaign, select Push notification as your action and define basic settings. [Learn how to create a campaign](../campaigns/create-campaign.md#configure)
 
 Use the dedicated tabs to define the push notification settings for **iOS** and **Android** operating systems.
 

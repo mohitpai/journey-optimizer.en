@@ -21,19 +21,14 @@ Use [!DNL Journey Optimizer] to send email messages to your customers. You can c
 
 Email deliveries can be created:
 
-* In a **Journey**: once you added an **[!UICONTROL Email]** activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Email]** right pane to create the content for the message. 
+* In a **Journey**: once you added an **[!UICONTROL Email]** activity to your journey, and defined basic settings, use the **[!UICONTROL Actions: Email]** right pane to create the content for the message. [Learn how to create a journey](../building-journeys/journey-gs.md)
 
-    For more information on how to configure your journey, refer to this [page](../building-journeys/journey-gs.md).
-
-* In a **Campaign**: once you created a campaign, select **[!UICONTROL Email]** as your action and define basic settings. 
-
-    For more information on how to configure your campaign, refer to this [page](../campaigns/create-campaign.md#configure).
+* In a **Campaign**: once you created a campaign, select **[!UICONTROL Email]** as your action and define basic settings. [Learn ow to create a campaign](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >If this is your first time creating an email, make sure the email channel has been configured. [Learn more](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

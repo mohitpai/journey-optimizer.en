@@ -27,8 +27,16 @@ To perform this, follow the steps below:
     ![](assets/in_app_create_7.png)
 
 1. Scan the QR code with your device and enter the PIN code displayed. 
-
+ 
 Your In-app message can now be triggered directly on your device allowing you to preview and review your message on an actual device. 
+
+## Preview with test profiles {#simulate}
+
+Once your in-app message has been defined, you can use test profiles to preview it. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+
+To do this, click **[!UICONTROL Simulate content]** then add a test profile to check your message using the test profile data.
+
+Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
 ## Review and activate your In-App notification{#in-app-review}
 
