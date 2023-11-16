@@ -6,6 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 ---
+
 # Update a decision {#update-decision}
 
 You can modify or update a decision in your container by making a PATCH request to the [!DNL Offer Library] API.
