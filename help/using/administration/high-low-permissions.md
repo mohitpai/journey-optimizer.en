@@ -282,6 +282,17 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
 
 ## Channel configurations resource {#administration-permissions}
 
+* **[!DNL Manage file routing]** high-level permission allows users to create, edit and delete file routing configurations.
+
+  +++ It includes the following low-level permissions:  
+  * Journey Optimizer specific: 
+
+    * file_routing.read
+    * file_routing.write
+    * file_routing.delete
+
+  +++
+
 * **[!DNL Manage IP pools]** high-level permission allows users to create, edit and delete the affinity definition.
 
   +++ It includes the following low-level permissions:  
@@ -393,13 +404,12 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
 
   +++
 
-* **[!DNL View PTR records]** high-level permission allows users to view PTR records that have been configured based on the subdomain.
+* **[!DNL View file routing]** high-level permission allows users to view file routing configurations.
 
-  +++ It includes the following low-level permissions: 
+  +++ It includes the following low-level permissions:  
   * Journey Optimizer specific: 
 
-    * PTR_records.read
-    * subdomains_delegation.read
+    * file_routing.read
 
   +++
 
@@ -428,6 +438,17 @@ For example, the **[!DNL Journey administrator]** role is assigned the **[!DNL M
     * Mobile_setting.read
 
   +++
+
+* **[!DNL View PTR records]** high-level permission allows users to view PTR records that have been configured based on the subdomain.
+
+  +++ It includes the following low-level permissions: 
+  * Journey Optimizer specific: 
+
+    * PTR_records.read
+    * subdomains_delegation.read
+
+  +++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
