@@ -18,11 +18,11 @@ Before being able to generate this file, you need to create:
 
 1. A [file routing configuration](#file-routing-configuration) to specify the server where the file will be exported and encrypt the file, if necessary.
 
-1. A [direct mail surface](#direct-mail-surface) that will reference the file routing configuration.
+    >[!CAUTION]
+    >
+    >To create a file routing configuration, you need to have the **[!DNL Manage file routing]** built-in permission. [Learn more](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->If you have not configured any file routing option, you will not be able to create a direct mail surface.
+1. A [direct mail surface](#direct-mail-surface) that will reference the file routing configuration. If you have not configured any file routing option, you will not be able to create a direct mail surface.
 
 ## Configure file routing {#file-routing-configuration}
 
