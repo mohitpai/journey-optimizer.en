@@ -27,9 +27,43 @@ What you'll find in this documentation guide:
 
 Once you created one or more [IP warmup campaigns](ip-warmup-campaign.md) with a dedicated surface and the corresponding option enabled, you can start creating your IP warmup plan.
 
->[!CAUTION]
->
->To access, create, edit and delete the IP warmup plans, you must have the **[!UICONTROL Deliverability Consultant]** permission. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+To access, create, edit and delete the IP warmup plans, you must have the **[!UICONTROL Deliverability Consultant]** role or IP warmup plans related permissions. 
+
++++Learn how to assign the Deliverability Consultant role or IP warmup plans related permissions
+
+To assign the corresponding permission to a specific **[!UICONTROL Role]**:
+
+1. From the [!DNL Permissions] product, navigate to the **[!UICONTROL Roles]** menu and select the role that you want to update with the new **[!UICONTROL IP Warmup Configurations]** permissions.
+
+1. From your **[!UICONTROL Role]** dashboard, click **[!UICONTROL Edit]**.
+
+    ![](assets/ip_permissions_1.png)
+
+1. Drag and drop the **[!UICONTROL IP Warmup Configurations]** resource to assign permission.
+
+1. From the **[!UICONTROL IP Warmup Configurations]** resource drop-down, select which permission(s) your user needs.
+
+    ![](assets/ip_permissions_2.png)
+
+1. Click **[!UICONTROL Save]**.
+
+To assign the corresponding role to a **[!UICONTROL User]**:
+
+1. From the [!DNL Permissions] product, navigate to the **[!UICONTROL Roles]** menu and select the **[!UICONTROL Deliverability Consultant]** built-in role.
+
+1. From your **[!UICONTROL Role]** dashboard, access the **[!UICONTROL Users]** tab.
+
+    ![](assets/ip_permissions_3.png)
+       
+1. Click **[!UICONTROL Add user]** to assign the **[!UICONTROL Deliverability Consultant]** built-in role.
+
+    ![](assets/ip_permissions_4.png)
+
+1. Select your **[!UICONTROL User]** and click **[!UICONTROL Save]**.
+
+    ![](assets/ip_permissions_5.png)
+
++++
 
 ## Prepare the IP warmup plan file {#prepare-file}
 
@@ -258,5 +292,9 @@ To create an IP warmup plan, follow the steps below.
 1. Click **[!UICONTROL Create]**. All the phases, runs, columns and their content defined in the file you uploaded are automatically displayed in the [!DNL Journey Optimizer] interface.
 
     ![](assets/ip-warmup-plan-uploaded.png)
+
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Targeted]** column shows the sum of all the profiles targeted for each run, meaning all the profiles from each domain groups that you defined, including the **Others** column if any. 
 
 You are now ready to execute your IP warmup plan. [Learn more](ip-warmup-execution.md)
