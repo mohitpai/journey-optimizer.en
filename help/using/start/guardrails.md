@@ -41,6 +41,11 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 * Message feedback syncing is not currently available for MMS.
 * Consent management operates at the SMS channel level for MMS.
 
+## Fragments guardrails {#fragments-guardrails}
+
+* Visual fragments are only available for the Email channel.
+* Expression fragments are not available for the Web and In-app channels.
+
 ## Journey guardrails {#journeys-guardrails}
 
 ### General journey guardrails {#journeys-guardrails-journeys}
