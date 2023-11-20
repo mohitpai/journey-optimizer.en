@@ -30,7 +30,7 @@ You can also create and manage content templates using APIs. For more on this, r
 
 >[!CAUTION]
 >
->To create, edit and delete content templates, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+>To create, edit and delete content templates, you must have the **[!DNL Manage library items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Access and manage templates {#access-manage-templates}
 

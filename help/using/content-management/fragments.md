@@ -35,7 +35,9 @@ In addition, you can leverage Journey Optimizer **Content REST API** to manage c
 
 ## Before starting {#fragment-prerequisites}
 
-To create, edit, and archive fragments, you must have the **[!DNL Manage Library Items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+>[!CAUTION]
+>
+>To create, edit, and archive fragments, you must have the **[!DNL Manage library items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
 
 In this version, the following limitations apply:
 
