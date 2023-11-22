@@ -7,6 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
 ---
 # Error reasons list {#error-list}
 
