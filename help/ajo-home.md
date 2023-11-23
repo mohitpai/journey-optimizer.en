@@ -4,216 +4,108 @@ title: Journey Optimizer product documentation
 description: Learn how to use Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
-feature: Overview
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 ---
 # Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
 
+## What's new ?
+
+Get a glimpse of the newest enhancements in Journey Optimizer! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB Sandbox tooling]
+
+Sandbox tooling allows you to copy objects across multiple sandboxes by leveraging package export and import. A package can consist of a single object or multiple objects. Any objects that are included in a package must be from the same sandbox.
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+
+>[!TAB Multimedia Message Service (MMS) in SMS] 
+
+With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+
+>[!ENDTABS]
+
+## Start with the basics
+
 <table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><strong>Get started</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <div>
-      <a href="using/start/get-started.md">What is [!DNL Journey Optimizer]?</a>
-    </div>
-    <p>Discover key features and use cases
-    <p>
-    <div>
-      <a href="using/rn/release-notes.md">Release notes</a>
-    </div>
-    <p>New capabilities, latest improvements, and fixes</p>
-   <p>
-    <div>
-      <a href="using/start/quick-start.md">Quick start guide</a>
-    </div>
-    <p>Learn how to start as an Administrator, Data engineer, or Journey practicionner</p>
-    <p>
-    <p>
-    <div>
-      <a href="using/email/get-started-email-design.md">Design an email content</a>
-    </div>
-    <p>Design a new email or import an existing HTML content</p>
-    <p>
-    <div>
-    <a href="using/building-journeys/journey-gs.md">Create your first journey</a>
-    </div>
-    <p>Learn how to build and execute a journey
-    <p>
-     <div>
-      <a href="using/campaigns/create-campaign.md">Create and manage campaigns</a>
-    </div>
-    <p>Create, configure and send your first campaign</p>
-    <p>
-    <div>
-    <div>
-    <a href="using/configuration/get-started-configuration.md">Configure [!DNL Journey Optimizer]</a>
-    </div>
-    <p>Learn key steps to configure [!DNL Journey Optimizer]</p>
-    <p>
-    <div>
-    <a href="using/administration/permissions-overview.md">Grant access to [!DNL Journey Optimizer]</a>
-    </div>
-    <p>Define and manage the permissions assigned to [!DNL Journey Optimizer] users</p>
-    <p>
-    <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>
-    </div>
-    <p>Create offers and deliver the best offer and experience to your customers</p>
-    <p>
-    <p>
-    <div><strong>Additional resources</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer product description</a>
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security Overview</a> (PDF)
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform documentation</a>
-    </li>
-    </div>
-    <div>
-      <li>
-      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform developers resources</a>
-    </li>
-    </div>
-    <p>
-    </p>
-    <p>
-    </p>
-    <div>
-    </div>
-    <div><strong>Newsletter</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <p>Sign up for the <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer quarterly newsletter</a>.</p>
-    <p>Receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter. In each newsletter, you can find:</p>
-    <li>Product news and updates including recently released capabilities</li>
-    <li>Invitations to events and webinars and recordings for recent webinars</li>
-    <li>Top discussions in the Adobe Journey Optimizer Experience League Community </li>
-    <li>Case Studies and Use Cases from other Adobe Journey Optimizer Customers</li>
-    <li>Tips and tricks to help deliver the customer experiences that drive business success</li>
-  </td>
-   <td>
-   <div><strong>Direct links to key resources</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <p>JOURNEY MANAGEMENT</p>
-    <li>
-      <a href="using/campaigns/get-started-with-campaigns.md">Campaigns</a>
-    </li>
-        <li>
-      <a href="using/building-journeys/journey-gs.md">Journeys</a>
-    </li>
-    <li>
-      <a href="using/landing-pages/get-started-lp.md">Landing pages</a>
-    </li>
-    <p>
-    <p>DECISION MANAGEMENT</p>
-    <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">Offers</a>
-    </li>
-     <li>
-      <a href="using/offers/offer-library/key-steps.md">Components</a>
-    </li>
-    <p>
-    <p>CONTENT MANAGEMENT</p>
-    <li>
-      <a href="using/content-management/assets-essentials.md">Assets</a>
-    </li>
-    <li>
-      <a href="using/content-management/content-templates.md">Content templates</a>
-    </li>
-      <li>
-      <a href="using/content-management/fragments.md">Fragments</a>
-    </li>
-    <p>
-    <p>DATA MANAGEMENT</p>
-    <li>
-      <a href="using/data/get-started-schemas.md">Schemas</a>
-    </li>
-     <li>
-      <a href="using/data/get-started-datasets.md">Datasets</a>
-    </li>
-        <li>
-      <a href="using/data/get-started-queries.md">Queries</a>
-    </li>
-     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitoring</a>
-    </li>
-    <p>
-    <p>CONNECTIONS</p>
-      <li>
-      <a href="using/data/export-datasets.md">Destinations</a>
-    </li>
-    <li>
-      <a href="using/start/get-started-sources.md">Sources</a>
-    </li>
-    <p>
-    <p>CUSTOMER</p>
-    <li>
-      <a href="using/audience/about-audiences.md">Audiences</a>
-    </li>
-    </li>
-    <li>
-      <a href="using/landing-pages/subscription-list.md">Subscription lists</a>
-    </li>     
-    <li>
-      <a href="using/audience/get-started-profiles.md">Profiles</a>
-    </li>
-    <li>
-      <a href="using/audience/get-started-identity.md">Identity</a>
-    </li>
-    <p>
-    <p>PRIVACY</p>
-    <li>
-      <a href="using/action/action-privacy.md">Policies</a>
-    </li>
-    <li>
-      <a href="using/privacy/requests.md">Requests</a>
-    </li>
-        <li>
-      <a href="using/privacy/audit-logs.md"target="_blank">Audit</a>
-    </li>
-        <li>
-      <a href="using/privacy/data-hygiene.md"target="_blank">Data hygiene</a>
-    </li>
-    <p>
-    <p>ADMINISTRATION</p>
-    <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">Configurations</a>
-    </li>
-    <li>
-      <a href="using/configuration/frequency-rules.md">Rules</a>
-    </li>
-        <li>
-      <a href="using/reports/alerts.md">Alerts</a>
-    </li>
-    <li>
-      <a href="using/configuration/get-started-configuration.md">Channels</a>
-    </li>
-     <li>
-      <a href="using/administration/sandboxes.md">Sandboxes</a>
-    </li>
-     <li>
-      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">Tags</a>
-    </li>
-  </td>
-</tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <div><strong>Quick start guides</strong><br/>Learn how to achieve your goals faster in Journey Optimizer with your personalized approach depending on your role.</div>
+    </td>
+    <td>
+    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>User interface</strong><br/>Learn how to navigate and optimize your experience in Journey Optimizer.</div><br/>
+    </td>
+    <td>
+    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
+    <div><strong>Create your first journey</strong><br/>Design and orchestrate personalized omnichannel journeys to harmonize marketing outreach with one-to-one customer engagement. 
+    </div></td>
+    <td>
+    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
+    <div><strong>Launch your first campaign</strong><br/>Create and start your first campaign in Journey Optimizer to deliver targeted, one-time content to a specific audience.</div>
+    </td>
+  </tr>
 </table>
+
+## Explore the documentation
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
+    <td>
+      <strong>Customer's experience</strong><br/><a href="using/building-journeys/journey.md">Journeys</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campaigns</a> - <a href="using/landing-pages/get-started-lp.md">Landing pages</a> - <a href="using/reports/live-report.md">Reporting</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+    </td>
+    <td>
+      <strong>Configuration & administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
+    </td>
+    <td>
+      <strong>Communication channels</strong><br/><a href="using/email/get-started-email.md">Email</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">In-app</a> - <a href="using/push/get-started-push.md">Push notifications</a> - <a href="using/direct-mail/get-started-direct-mail.md">Direct mail</a> - <a href="using/web/get-started-web.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+    </td>
+    <td>
+      <strong>Content management</strong><br/><a href="using/content-management/assets-essentials.md">Assets/images</a> - <a href="using/personalization/personalize.md">Personalization</a> - <a href="using/content-management/content-templates.md">Reusable</a> & <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test & preview content</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
+    </td>
+    <td>
+      <strong>Profiles & audiences</strong><br/><a href="using/audience/about-audiences.md">Audiences</a> - <a href="using/audience/get-started-profiles.md">Profiles</a> - <a href="using/audience/get-started-identity.md">Identities</a> - <a href="using/audience/license-usage.md">License usage</a> - <a href="using/privacy/get-started-privacy.md">Privacy management</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
+    </td>
+    <td>
+      <strong>Data management</strong><br/><a href="using/data/get-started-schemas.md">Schemas</a> - <a href="using/data/get-started-datasets.md">Datasets</a> - <a href="using/data/get-started-queries.md">Queries</a>
+    </td>
+  </tr>
+</table> 
+
+## Additional resources
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=en" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Product description</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a>
+</td>
+<td><strong>Adobe Experience Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentation</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Developers resources</a>
+</td>
+</tr></table>
+
+<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table>
+
