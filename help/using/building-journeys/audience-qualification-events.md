@@ -53,7 +53,7 @@ This type of event can be positioned as the first step or later in the journey.
 
    Once the audience is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -99,9 +99,11 @@ Moreover, if the batch audience is newly created and immediately used in a journ
 
 ### Streamed audiences{#streamed-speed-segment-qualification}
 
-When using audience qualification for streamed audiences, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the audience. Still, if the audience definition leads to making a large volume of customers qualify at the same time, there might be a peak too. 
+When using audience qualification for streamed audiences, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the audience. Still, if the audience definition leads to making a large volume of customers qualify at the same time, there might be a peak too.
 
-For more information on streaming segmentation, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Avoid using open and send events with streaming segmentation. Instead, use real user-activity signals like clicks, purchases, or beacon data. For frequency or suppression logic, use business rules rather than send events. [Learn more](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+For more information on streaming segmentation, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
 ### How to avoid overloads{#overloads-speed-segment-qualification}
 

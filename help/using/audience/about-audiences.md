@@ -21,7 +21,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 >title="Select the campaign audience"
 >abstract="This list displays all available Adobe Experience Platform audiences. Select the audience to target with your campaign. The message configured in the campaign will be sent to all the individuals belonging to the selected audience. [Learn more on audiences](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] allows you to build and leverage Adobe Experience Platform audiences using Real-Time Customer Profile data directly from the **[!UICONTROL Audiences]** menu, and use them into your journeys or campaigns. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+[!DNL Journey Optimizer] allows you to build and leverage Adobe Experience Platform audiences using Real-Time Customer Profile data directly from the **[!UICONTROL Audiences]** menu, and use them into your journeys or campaigns. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Use audiences in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -47,24 +47,68 @@ You can leverage audiences in **[!DNL Journey Optimizer]** in different ways:
 
 ## Audience evaluation methods{#evaluation-method-in-journey-optimizer}
 
-In Adobe Journey Optimizer, audiences are generated from segment definitions using one of two evaluation methods:
+In Adobe Journey Optimizer, audiences are generated from segment definitions using one of three evaluation methods below.
 
-* **Streaming segmentation**: The profiles list for the audience is kept up-to-date in real-time as new data flows into the system.
++++ Streaming segmentation
 
-    Streaming segmentation is an ongoing data selection process that updates your audiences in response to user activity. Once a segment definition has been built and the resulting audience has been saved, the segment definition is applied against incoming data to Journey Optimizer. This means that individuals are added or removed from the audience as their profile data changes, ensuring that your target audience is always relevant.
+The profiles list for the audience is kept up-to-date in real-time as new data flows into the system.
 
-* **Batch segmentation**: The profiles list for the audience is evaluated every 24 hours.
+Streaming segmentation is an ongoing data selection process that updates your audiences in response to user activity. Once a segment definition has been built and the resulting audience has been saved, the segment definition is applied against incoming data to Journey Optimizer. This means that individuals are added or removed from the audience as their profile data changes, ensuring that your target audience is always relevant. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
 
-    Batch segmentation is an alternative to streaming segmentation that processes all profile data at once through segment definitions. This creates a snapshot of the audience that can be saved and exported for use. However, unlike streaming segmentation, batch segmentation does not continuously update the audience list in real-time, and new data that comes in after the batch process will not be reflected in the audience until the next batch process."
+>[!NOTE]
+>
+>Make sure to use the right events as streaming segmentation criteria. [Learn more](#open-and-send-event-guardrails)
 
-The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
++++
+
++++ Batch segmentation
+
+The profiles list for the audience is evaluated every 24 hours.
+
+Batch segmentation is an alternative to streaming segmentation that processes all profile data at once through segment definitions. This creates a snapshot of the audience that can be saved and exported for use. However, unlike streaming segmentation, batch segmentation does not continuously update the audience list in real-time, and new data that comes in after the batch process will not be reflected in the audience until the next batch process. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+
++++
+
++++ Edge segmentation
+
+Edge segmentation is the ability to evaluate segments in Adobe Experience Platform instantaneously [on the edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+
++++
+
+If you know what evaluation method you want to use, select it using the drop-down list. You can also click the browse icon folder icon with a magnifying glass to see a list of the available segment definition evaluation methods. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+
+![](assets/evaluation-methods.png)
+
+<!--The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
     
 ![](assets/evaluation-method.png)
 
 >[!NOTE]
 >
->If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.
+>If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
 After you have first defined an audience, profiles are added to the audience when they qualify.
 
 Backfilling the audience from prior data can take up to 24&nbsp;hours. After the audience has been backfilled, the audience is continuously kept up-to-date and is always ready for targeting.
+
+### Event usage with streaming segmentation {#open-and-send-event-guardrails}
+
+Streaming segmentation is useful for real-time personalization with high-value use cases. However, it is important to choose the right [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} to use as segmentation criteria.
+
+Consequently, for straming segmentation optimal performance, avoid using the following events:
+
+* **Message Opened** Interaction Type event
+
+    When building your audience, the use of **Message Opened** interaction events became unreliable, because they are not actual indicators of user activity and can negatively impact segmentation performance. Learn why in this [Adobe Blog post](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
+
+    Hence, Adobe recommends not using **Message Opened** interaction events with streaming segmentation. Instead, use real user-activity signals like clicks, purchases, or beacon data.
+
+* **Message sent** Feedback Status event
+
+    The **Message sent** feedback event is often used for frequency or suppression checking prior to sending an email. Adobe recommends avoiding it if possible as it takes space in the current overall capacity of how many events can stream per second.
+
+    Therefore, for frequency or suppression logic, use business rules rather than **Message sent** feedback events. Note that daily frequency caps for individual profiles will soon be available, complementing the existing monthly cadence for business rules.
+
+>[!NOTE]
+>
+>You can use **Message Opened** and **Message Sent** events in batch segmentation without any performance concerns.
