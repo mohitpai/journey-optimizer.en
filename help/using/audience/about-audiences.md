@@ -105,7 +105,7 @@ Consequently, for straming segmentation optimal performance, avoid using the fol
 
 * **Message sent** Feedback Status event
 
-    The **Message sent** feedback event is often used for frequency or suppression checking prior to sending an email. Adobe recommends avoiding it if possible as it takes space in the current overall capacity of how many events can stream per second.
+    The **Message sent** feedback event is often used for frequency or suppression checking prior to sending an email. Adobe recommends avoiding it as it puts pressure on performance and may cause degradation of the system.
 
     Therefore, for frequency or suppression logic, use business rules rather than **Message sent** feedback events. Note that daily frequency caps for individual profiles will soon be available, complementing the existing monthly cadence for business rules.
 
