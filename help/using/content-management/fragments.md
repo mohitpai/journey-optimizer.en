@@ -31,6 +31,10 @@ To make the best use of fragments:
 
 * Use them as many times as needed in your content. See [Add visual fragments](../email/use-visual-fragments.md) and [Leverage expression fragments](../personalization/use-expression-fragments.md)
 
+>[!NOTE]
+>
+>**Visual fragments** can be used in the [Email Designer](../email/get-started-email-design.md), whereas **expression fragments** are accessible through the [Expression editor](../personalization/personalization-build-expressions.md).
+
 In addition, you can leverage Journey Optimizer **Content REST API** to manage content fragments. For more on this, refer to the [Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Before starting {#fragment-prerequisites}

@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 ---
 # Leverage expression fragments {#use-expression-fragments}
 
-When using the Expression editor, you can leverage all the expression fragments that have been created or saved to the current sandbox.
+When using the **Expression editor**, you can leverage all the expression fragments that have been created or saved to the current sandbox.
 
 Learn how to create and manage fragments in [this section](../content-management/fragments.md).
 
