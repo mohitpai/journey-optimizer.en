@@ -50,6 +50,10 @@ In this example, we will build an audience to target all customers living in Atl
 
         ![](assets/add-events.png)
 
+        >[!NOTE]
+        >
+        >Adobe recommends not using open and send events with streaming segmentation. Instead, use real user-activity signals like clicks, purchases, or beacon data. For frequency or suppression logic, use business rules rather than send events. [Learn more](about-audiences.md#open-and-send-event-guardrails)
+
 1. As you are adding and configuring new fields in the workspace, the **[!UICONTROL Audience Properties]** pane is automatically updated with information on the estimated profiles belonging to the audience.
 
     ![](assets/segment-estimate.png)
