@@ -45,7 +45,7 @@ You can leverage audiences in **[!DNL Journey Optimizer]** in different ways:
 
 * Use the **Condition** activity in a journey to build conditions based on audience membership. [Learn how to use audiences in conditions](../building-journeys/condition-activity.md#using-a-segment).
 
-## Audience evaluation methods{#evaluation-method-in-journey-optimizer}
+## Audience evaluation methods {#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer, audiences are generated from segment definitions using one of three evaluation methods below.
 
@@ -91,11 +91,11 @@ After you have first defined an audience, profiles are added to the audience whe
 
 Backfilling the audience from prior data can take up to 24&nbsp;hours. After the audience has been backfilled, the audience is continuously kept up-to-date and is always ready for targeting.
 
-### Event usage with streaming segmentation {#open-and-send-event-guardrails}
+### Event usage with streaming segmentation {#streaming-segmentation-events-guardrails}
 
 Streaming segmentation is useful for real-time personalization with high-value use cases. However, it is important to choose the right [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} to use as segmentation criteria.
 
-Consequently, for straming segmentation optimal performance, avoid using the following events:
+Consequently, for streaming segmentation optimal performance, avoid using the following events:
 
 * **Message Opened** Interaction Type event
 
