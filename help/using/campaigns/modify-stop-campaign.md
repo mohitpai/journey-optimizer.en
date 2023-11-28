@@ -32,6 +32,7 @@ Campaigns can have multiple statuses:
 
 * **[!UICONTROL Draft]**: The campaign is being edited, it has not been activated.
 * **[!UICONTROL Activating]**: The campaign is being activated.
+* **[!UICONTROL Processing]** *(email campaigns only)*: The audience export is complete, the campaign is in being published.
 * **[!UICONTROL Live]**: The campaign has been activated.
 * **[!UICONTROL Scheduled]**: The campaign is configured to be activated on a specific start date.
 * **[!UICONTROL Stopped]**: The campaign has been stopped manually. You cannot activate or reuse it anymore. [Learn how to stop a campaign](modify-stop-campaign.md#stop)
