@@ -180,6 +180,10 @@ inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 laposte.net
 +++
 
++++Apple
+mac.com;icloud.com;apple.com;me.com
++++
+
 ### Custom Domain Group tab {#custom-domain-group-tab}
 
 You can also add more columns to your plan by including custom domain groups. 
