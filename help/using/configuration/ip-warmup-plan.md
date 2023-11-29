@@ -106,6 +106,7 @@ The idea is to progressively increase the number of targeted addresses in each r
 
 The out-of-the-box main domain groups you can add to your plan are listed below:
 
+<!--
 * Gmail
 * Adobe
 * WP
@@ -121,13 +122,14 @@ The out-of-the-box main domain groups you can add to your plan are listed below:
 * Italia Online
 * La Poste
 * Apple
+-->
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++ Adobe
-
+adobe.com
 +++
 
 +++WP
