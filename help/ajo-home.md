@@ -53,7 +53,7 @@ With the SMS Channel, you can now enhance your communication by sending Multimed
 
 ## Explore the documentation
 
-<table style="table-layout:fixed">
+<table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
