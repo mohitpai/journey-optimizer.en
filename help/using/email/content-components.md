@@ -115,7 +115,7 @@ Use the **[!UICONTROL Text]** component to insert text into your email, and adju
     * **Font size**: select the font size of your text in pixels.
     * **[!UICONTROL Change font color]**: choose the color of your font.  
     * **[!UICONTROL Insert link]**: add any type of link to your content. 
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component. [Learn more about asset management](../content-management/assets-essentials.md)
+    * **[!UICONTROL Edit image]**: add an image or an asset to your text component. [Learn more about asset management](../content-management/assets.md)
     * **[!UICONTROL Change font color]**: choose the color of your font.  
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md)
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
@@ -161,9 +161,9 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
     ![](assets/email_designer_image_content.png)
 
-1. From the **[!UICONTROL Settings]** tab, click **[!UICONTROL Browse]** to choose an image file from your assets or **[!UICONTROL Import media]** to upload an asset to Assets Essentials.
+1. From the **[!UICONTROL Settings]** tab, click **[!UICONTROL Browse]** to choose an image file from your assets or **[!UICONTROL Import media]** to upload an asset to Adobe Experience Manager Assets.
 
-   To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   To learn more on [!DNL Adobe Experience Manager Assets], refer to [Adobe Experience Manager Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
     >[!NOTE]
     >

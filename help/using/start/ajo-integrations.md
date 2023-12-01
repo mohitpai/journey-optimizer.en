@@ -34,13 +34,13 @@ You can leverage all of the Adobe Analytics behavioral event data that you are a
 Learn more about [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-Bring marketing and creative workflows together using [!DNL Adobe Experience Manager Assets Essentials]. Natively integrated with [!DNL Adobe Journey Optimizer], access [!DNL Assets Essentials] to store, manage, discover and distributee digital assets. It provides a single, centralized repository of assets that you can use to populate your messages.
+Bring marketing and creative workflows together using [!DNL Adobe Experience Manager Assets]. Natively integrated with [!DNL Adobe Journey Optimizer], access [!DNL Adobe Experience Manager Assets] to store, manage, discover and distributee digital assets. It provides a single, centralized repository of assets that you can use to populate your messages.
 
-[!DNL Adobe Experience Manager Assets Essentials] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section.
+[!DNL Adobe Experience Manager Assets] can be accessed directly from [!DNL Adobe Journey Optimizer] through the left menu **[!UICONTROL Assets]** section.
 
-Learn more about [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
+Learn more about [Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

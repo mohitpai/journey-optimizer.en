@@ -262,7 +262,7 @@ solution: Journey Optimizer
     + [Create multilingual content with automated translation](using/content-management/multilingual-automated.md)
     + [Multilingual campaign report](using/content-management/multilingual-report.md)
   + Assets/Images {#assets-images}
-    + [Work with Assets Essentials](using/content-management/assets-essentials.md)
+    + [Work with Experience Manager Assets](using/content-management/assets.md)
     + [Work with Adobe Stock](using/content-management/stock.md)
   + Personalization {#personalization}
     + [Get started with personalization](using/personalization/personalize.md)

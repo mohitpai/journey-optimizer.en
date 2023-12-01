@@ -62,7 +62,7 @@ You can add different types of content to a representation.
 
 ### Add images {#images}
 
-If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
+If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >

@@ -24,7 +24,7 @@ With [!DNL Adobe Journey Optimizer], you can upload images to your emails direct
 
  The **[!UICONTROL Find Adobe Stock photos]** and **[!UICONTROL Find Similar Image]** options are available to users with access to an AEM Assets Essentials Product Profile. 
  
- For more on this, refer to [Assets essential documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+ For more on this, refer to [Experience Manager Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Insert an image from [!DNL Adobe Stock] {#add-stock-image}
 
@@ -90,7 +90,7 @@ To license and download your image, follow the steps below:
 
     ![](assets/stock_6.png)
 
-1. Select in which folder to store your asset. For more information on [!DNL Assets Essentials], refer to this [page](assets-essentials.md#get-started-assets-essentials).
+1. Select in which folder to store your asset. For more information on [!DNL Experience Manager Assets], refer to this [page](assets.md#get-started-assets).
 
 ## Related topics{#stock-related-topics}
 
