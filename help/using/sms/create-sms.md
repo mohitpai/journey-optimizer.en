@@ -103,7 +103,7 @@ To configure your SMS content, follow the steps below. Settings for MMS are deta
     
     >[!CAUTION]
     >
-    > To access and edit SMS/MMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
+    > To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 
     ![](assets/sms_tracking_1.png)
 

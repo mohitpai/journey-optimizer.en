@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configure subdomains for text messages (SMS/MMS)
-description: Learn how to configure SMS/MMS subdomains with Journey Optimizer
+description: Learn how to configure SMS subdomains with Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
 level: Intermediate
