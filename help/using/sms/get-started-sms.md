@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 ---
-# Get started with text messages (SMS/MMS) {#get-started-sms}
+# Get started with text messaging {#get-started-sms}
 
-Use [!DNL Journey Optimizer] to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS/MMS editor.
+Use [!DNL Journey Optimizer] to send text messages (SMS/MMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS/MMS editor.
 
 Text messages can be created and sent in a journey or in a campaign. For MMS and SMS, use the SMS action.
 

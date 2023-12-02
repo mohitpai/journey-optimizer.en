@@ -210,11 +210,11 @@ solution: Journey Optimizer
     + [Configure push notification channel](using/push/push-configuration.md)
     + [Mobile onboarding quick start workflow](using/push/mobile-onboarding-wf.md)
 + SMS / MMS channel{#sms}
-  + [Get started with text messages (SMS/MMS)](using/sms/get-started-sms.md)
+  + [Get started with text messaging](using/sms/get-started-sms.md)
   + [Create a text message](using/sms/create-sms.md)
   + [Create an MMS message](using/sms/create-mms.md)
   + [Check and send your text messages](using/sms/send-sms.md)
-  + [Manage message opt-out](using/sms/sms-opt-out.md) 
+  + [Manage text message opt-out](using/sms/sms-opt-out.md) 
   + [Configure SMS/MMS channel](using/sms/sms-configuration.md)
   + [Set up subdomains for text messages](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}

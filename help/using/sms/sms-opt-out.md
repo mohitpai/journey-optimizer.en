@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS opt-out management
-description: Learn how to manage opt-out with SMS messages
+title: Opt-out management for text messages
+description: Learn how to manage opt-out with SMS/MMS messages
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 ---
-# SMS opt-out management {#sms-opt-out}
+# Opt-out management for text messages {#sms-opt-out}
 
 In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. [Learn more on privacy & opt-out management](../privacy/opt-out.md)
 
