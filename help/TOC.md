@@ -13,6 +13,7 @@ solution: Journey Optimizer
   + [Early release notes](using/rn/e-release-notes.md)
   + [Latest release notes](using/rn/release-notes.md)
   + Previous release notes {#previous-rn-new}
+    + [2023 Release notes](using/rn/release-notes-2023.md)
     + [2022 Release notes](using/rn/release-notes-2022.md)
     + [2021 Release notes](using/rn/release-notes-2021.md)
   + [Documentation updates](using/rn/documentation-updates.md)

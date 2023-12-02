@@ -20,7 +20,7 @@ Sandbox tooling allows you to copy objects across multiple sandboxes by leveragi
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB Multimedia Message Service (MMS) in SMS] 
+>[!TAB Multimedia Message Service (MMS)] 
 
 With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.
 
