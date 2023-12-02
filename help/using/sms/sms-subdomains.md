@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configure SMS subdomains
-description: Learn how to configure SMS subdomains with Journey Optimizer
+title: Configure subdomains for text messages (SMS/MMS)
+description: Learn how to configure SMS/MMS subdomains with Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomains, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 ---
-# Configure SMS subdomains {#lp-subdomains}
+# Configure subdomains for text messages (SMS/MMS) {#sms-mms-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegate a SMS subdomain"
->abstract="You will be setting up your subdomain for SMS use. You can use a subdomain that is already delegated to Adobe or configure another subdomain."
+>title="Delegate an SMS/MMS subdomain"
+>abstract="Set up your subdomain for text messages (SMS/MMS). You can use a subdomain that is already delegated to Adobe, or configure a new subdomain."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegate a SMS subdomain"
->abstract="You must configure a subdomain to use for your SMS messages, as you will need this subdomain to create a SMS surface. You can use a subdomain already delegated to Adobe or configure a new subdomain."
+>title="Delegate an SMS/MMS subdomain"
+>abstract="You must configure a subdomain to use for your text messages, as you need this subdomain to create a SMS surface. You can use a subdomain already delegated to Adobe, or configure a new subdomain."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="Create SMS surfaces"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Select a SMS subdomain"
+>title="Select a SMS/MMS subdomain"
 >abstract="To be able to create a SMS surface, make sure you have previously configured at least one SMS subdomain to pick from the Subdomain name list."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="Create SMS surfaces"
 
