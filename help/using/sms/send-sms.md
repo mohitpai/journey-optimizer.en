@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Check and test your SMS message
-description: Learn how to check and send your SMS message in Journey Optimizer
+title: Check and test your text messages
+description: Learn how to check and send your text messages in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 ---
-# Check and send your SMS message {#send-sms}
+# Check and send your text message (SMS/MMS) {#send-sms}
 
-## Preview your SMS {#preview-sms}
+## Preview your text message {#preview-sms}
 
 Once your message content has been defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
@@ -21,11 +21,11 @@ To do this, click **[!UICONTROL Simulate content]** then add a test profile to c
 
 Detailed information on how to select test profiles and preview your content is available in the [Content Management](../content-management/preview-test.md) section.
 
-## Validate your SMS{#sms-validate}
+## Validate your content {#sms-validate}
 
 You must check alerts in the upper section of the editor. Some of them are simple warnings, but others can prevent you from sending the message. Two types of alerts can happen: warnings and errors.
 
-* **Warnings** refer to recommendations and best practices. For example, a warning message is displayed if your SMS message is empty.
+* **Warnings** refer to recommendations and best practices. For example, a warning message is displayed if your SMS/MMS message is empty.
 
 * **Errors** prevent you from testing or activating the journey, or publishing the campaign, as long as they are not resolved. For example, an error message warns you when the subject line is missing.
 
@@ -37,11 +37,11 @@ You must check alerts in the upper section of the editor. Some of them are simpl
 
 ## Send your SMS{#sms-send}
 
-When your SMS message is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
+When your text message is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
 
 **Related topics**
 
 * [Configure SMS channel](sms-configuration.md)
-* [SMS report](../reports/journey-global-report.md#sms-global)
-* [Create an SMS message](create-sms.md)
+* [SMS/MMS reports](../reports/journey-global-report.md#sms-global)
+* [Create a text message](create-sms.md)
 * [Add a message in a journey](../building-journeys/journeys-message.md)

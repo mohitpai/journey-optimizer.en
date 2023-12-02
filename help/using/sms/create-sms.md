@@ -9,20 +9,20 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 ---
-# Create an SMS / MMS message {#create-sms}
+# Create a text message (SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Create an SMS message"
 >abstract="Add your SMS message and start personalizing it with the Expression editor."
 
-## Add an SMS/MMS message {#create-sms-journey-campaign}
+## Add a text message {#create-sms-journey-campaign}
 
-Browse the tabs below to learn how to add an SMS message in a campaign or a journey.
+You can design and send text (SMS) and multimedia (MMS) messages with Adobe Journey Optimizer. Browse the tabs below to learn how to add a text message (SMS/MMS) in a campaign or a journey.
 
 >[!BEGINTABS]
 
->[!TAB Add an SMS message to a Journey]
+>[!TAB Add a text message to a Journey]
 
 1. Open your journey then drag and drop an SMS activity from the **Actions** section of the palette.
 
@@ -36,11 +36,11 @@ Browse the tabs below to learn how to add an SMS message in a campaign or a jour
 
     The **[!UICONTROL Surface]** field is pre-filled, by default, with the last surface used for that channel by the user.
 
-You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Define your SMS content](#sms-content)
+You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. Learn how to design your text message content in [this page](#sms-content)
 
->[!TAB Add an SMS message to a Campaign]
+>[!TAB Add a text message to a Campaign]
 
-1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL SMS]** as your action and choose the **[!UICONTROL App surface]** to use. [Learn more on SMS configuration](sms-configuration.md).
+1. Create a new scheduled or API-triggered campaign, select **[!UICONTROL SMS]** as your action and choose the **[!UICONTROL App surface]** to use. Learn more about SMS configuration in [this page](sms-configuration.md).
 
     ![](assets/sms_create_3.png)
 
@@ -69,7 +69,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
     * Weekly
     * Month
     
-You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. [Design your SMS content](#sms-content)
+You can now start designing the content of your text message from the **[!UICONTROL Edit content]** button. Learn how to design your text message content in [this page](#sms-content)
 
 >[!ENDTABS]
 
@@ -77,10 +77,10 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="Define your SMS content"
->abstract="Customize and personalize your SMS messages by using the Expression editor to define the content and incorporate dynamic elements."
+>title="Define your SMS/MMS content"
+>abstract="Customize and personalize your text messages (SMS/MMS) by using the Expression editor to define the content and incorporate dynamic elements."
 
-1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the SMS content.
+1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the text message content.
 
 1. Click the **[!UICONTROL Message]** field to open the Expression editor.
 
@@ -94,7 +94,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
     
     >[!CAUTION]
     >
-    > To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
+    > To access and edit SMS/MMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
 
     ![](assets/sms_tracking_1.png)
 
@@ -112,7 +112,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
 
 ## Define your MMS content{#mms-content}
 
-With the SMS Channel, you can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. 
+You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
 
 
 >[!NOTE]
@@ -120,6 +120,7 @@ With the SMS Channel, you can enhance your communication by sending Multimedia M
 > This feature is currently available with **Sinch** only.
 >
 > MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
+>
 
 To create MMS content, follow these steps:
 
@@ -141,18 +142,18 @@ To create MMS content, follow these steps:
 
 ## Test and send your messages {#sms-mms-test}
 
-You can now test and send your SMS message to your audience. [Learn more](send-sms.md)
-
+You can now test and send your text message to your audience. [Learn more](send-sms.md)
 
 Once sent, you can measure the impact of your SMS within the Campaign or Journey reports. For more on reporting, refer to [this section](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >
->In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>In accordance with the industry standards and regulations, all SMS/MMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Related topics**
 
-* [Preview, test and send your SMS message](send-sms.md)
+* [Preview, test and send your text message](send-sms.md)
 * [Configure SMS channel](sms-configuration.md)
-* [SMS report](../reports/journey-global-report.md#sms-global)
+* [SMS/MMS reports](../reports/journey-global-report.md#sms-global)
 * [Add a message in a journey](../building-journeys/journeys-message.md)
 * [Add a message in a campaign](../campaigns/create-campaign.md)
