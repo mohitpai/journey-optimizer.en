@@ -34,17 +34,16 @@ You can use a subdomain that is already delegated to Adobe, or you can configure
 
 >[!CAUTION]
 >
->SMS subdomain configuration is common to all environments. Therefore:
+>* SMS subdomain configuration is shared between all environments. Therefore, any modification to a SMS subdomain also impacts other production sandboxes.
 >
->* To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox.
+>* To access and edit SMS subdomains, you must have the **[!UICONTROL Manage SMS Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 >
-> * Any modification to a SMS subdomain will also impact the production sandboxes.
 
 ## Use an existing subdomain {#sms-use-existing-subdomain}
 
 To use a subdomain that is already delegated to Adobe, follow the steps below.
 
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
+1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, and select **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
 
     ![](assets/sms_access-subdomains.png)
 
@@ -97,7 +96,7 @@ To use a subdomain that is already delegated to Adobe, follow the steps below.
 
 To configure a new subdomain, follow the steps below.
 
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
+1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
 
 1. Click **[!UICONTROL Set up subdomain]**.
 
@@ -109,9 +108,9 @@ To configure a new subdomain, follow the steps below.
 
     >[!CAUTION]
     >
-    >You cannot use an existing SMS subdomain.
+    >* You cannot use an existing SMS subdomain.
     >
-    >Capital letters are not allowed in subdomains.
+    >* Capital letters are not allowed in subdomains.
     
     Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     
@@ -131,10 +130,6 @@ To configure a new subdomain, follow the steps below.
 
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-    >[!NOTE]
-    >
-    >Before being able to use that subdomain to send SMS messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).-->
+Before using a subdomain to send SMS messages, you must wait until Adobe performs the required checks, which can take up to 4 hours.<!--Learn more in [this section](#subdomain-validation).--> Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create SMS channel surfaces.
 
-1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to create SMS channel surfaces.
-
-    Note that the subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
+Note that the subdomain will be marked as **[!UICONTROL Failed]** if you fail to create the validation record on your hosting solution.
