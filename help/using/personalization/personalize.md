@@ -17,7 +17,6 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 >title="Personalize experiences"
 >abstract="Use **Adobe Journey Optimizer** to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more."
 
-
 Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more.  
 
 ➡️ [Learn how to personalize a message in these videos](#video-perso)
@@ -51,7 +50,7 @@ In addition, you can also leverage **computed attributes** to personalize your c
 
 [!DNL Journey Optimizer] provides an expression editor where you will select, arrange, customize and validate all the data to create a customized personalization for your content.
 
-Several tools are available to help build your personalization content (helper functions, pre-defined expressions library, attributes favouriting...)
+Several tools are available to help build your personalization content, such as: felper functions, pre-defined expressions library, attributes favouriting, and more.
 
 Learn more about [!DNL Journey Optimizer] expression editor in [this section](personalization-build-expressions.md)
 

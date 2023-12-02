@@ -25,17 +25,18 @@ Detailed information on how to select test profiles and preview your content is 
 
 You must check alerts in the upper section of the editor. Some of them are simple warnings, but others can prevent you from sending the message. Two types of alerts can happen: warnings and errors.
 
-* **Warnings** refer to recommendations and best practices. For example, a warning message is displayed if your SMS/MMS message is empty.
+![](assets/sms-alert-button.png)
+
+* **Warnings** refer to recommendations and best practices. For example, a warning message is displayed if your text message is empty.
 
 * **Errors** prevent you from testing or activating the journey, or publishing the campaign, as long as they are not resolved. For example, an error message warns you when the subject line is missing.
 
-![](assets/sms-alert-button.png)
 
 >[!NOTE]
 >
 > To improve your deliverability, use the phone numbers in the formats supported by the provider. For example, Twilio and Sinch only support phone numbers in E.164 format.
 
-## Send your SMS{#sms-send}
+## Send your text messages {#sms-send}
 
 When your text message is ready, complete the configuration of your [journey](../building-journeys/journey-gs.md) or [campaign](../campaigns/create-campaign.md) to send it.
 

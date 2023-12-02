@@ -13,7 +13,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 Before sending SMS or MMS, you must configure your Adobe Journey Optimizer environment. To preform this:
 
 * [Integrate the provider settings](#create-api) with Journey Optimizer
-* [Create an SMS/MMS surface](#message-preset-sms) (i.e. SMS preset). 
+* [Create an SMS surface](#message-preset-sms) (i.e. SMS preset), also used for MMS
 
 These steps must be performed by an Adobe Journey Optimizer [System Administrator](../start/path/administrator.md).
 
@@ -54,13 +54,15 @@ To configure your SMS/MMS provider with Journey Optimizer, follow these steps:
 
     ![](assets/sms_6.png)
 
-1. Configure your SMS API credentials:
+1. Configure your SMS API credentials, as detailed below.
+
+    ![](assets/sms_7.png)
 
     * For **[!DNL Sinch]**:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab.  [Learn more](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+        * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]**: access the APIs page, you can find your credentials under the SMS tab. Learn more in [Sinch Documentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
         * **[!UICONTROL Opt-In Message]**: enter the custom response that is automatically sent as your **[!UICONTROL Opt-In Message]**.
         
@@ -70,7 +72,7 @@ To configure your SMS/MMS provider with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu.  [Learn more](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
     * For **[!DNL Twilio]**:
 
@@ -78,21 +80,20 @@ To configure your SMS/MMS provider with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Account SID]** and **[!UICONTROL Auth Token]**: access the Account Info pane of your Twilio Console Dashboard page to find your credentials.
 
-        * **[!UICONTROL Message SID]**: enter the unique identifier assigned to every message created by Twilio's API. [Learn more](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+        * **[!UICONTROL Message SID]**: enter the unique identifier assigned to every message created by Twilio's API. Learn more in [Twilio Documentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
     * For **[!DNL Infobip]**:
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
-        * **[!UICONTROL API base URL]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page to find your credentials. [Learn more](https://www.infobip.com/docs/api){target="_blank"}.
+        * **[!UICONTROL API base URL]** and **[!UICONTROL API token]**: access your web interface homepage or the API key management page to find your credentials. Learn more in [Infobip Documentation](https://www.infobip.com/docs/api){target="_blank"}.
 
-    ![](assets/sms_7.png)
 
 1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
 
 After creating and configuring your API credential, you now need to create a channel surface (i.e. message preset) for SMS messages.
 
-## Create a SMS/MMS surface {#message-preset-sms}
+## Create a SMS surface {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -100,7 +101,7 @@ After creating and configuring your API credential, you now need to create a cha
 >abstract="Select the type of text messages using this surface: Marketing for promotional messages, which require user consent, or Transactional for non-commercial messages, such as password reset."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Opt-out in marketing text messages"
 
-Once your SMS/MMS channel has been configured, you must create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**.
+Once your SMS/MMS channel has been configured, you must create a channel surface to be able to send SMS messages from **[!DNL Journey Optimizer]**. 
 
 To create a channel surface, follow these steps:
 

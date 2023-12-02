@@ -215,8 +215,8 @@ solution: Journey Optimizer
   + [Create an MMS message](using/sms/create-mms.md)
   + [Check and send your text messages](using/sms/send-sms.md)
   + [Manage text message opt-out](using/sms/sms-opt-out.md) 
-  + [Configure SMS/MMS channel](using/sms/sms-configuration.md)
-  + [Set up subdomains for text messages](using/sms/sms-subdomains.md)
+  + [Configure SMS channel](using/sms/sms-configuration.md)
+  + [Set up SMS subdomains](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
   + [Get started with direct mail](using/direct-mail/get-started-direct-mail.md)
   + [Create a direct mail](using/direct-mail/create-direct-mail.md)

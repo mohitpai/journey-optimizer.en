@@ -9,7 +9,7 @@ level: Intermediate
 keywords: SMS, subdomains, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 ---
-# Configure subdomains for text messages {#sms-mms-subdomains}
+# Configure SMS subdomains {#sms-mms-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"

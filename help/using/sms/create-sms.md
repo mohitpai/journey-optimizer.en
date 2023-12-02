@@ -13,12 +13,19 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Create an SMS message"
->abstract="Add your SMS message and start personalizing it with the Expression editor."
+>title="Create a text message"
+>abstract="To create a text message (SMS/MMS), add an SMS action in a journey or a campaign and start personalizing it with the Expression editor."
+
+You can design and send text (SMS) and multimedia (MMS) messages with Adobe Journey Optimizer. You first need to add an SMS action in a journey or a campaign, and then define the content of the text message, as detailed below. Adobe Journey Optimizer also offers capabilities to test your text messages before sending, so that you can check the rendering, personalization attributes, and all other settings. 
+
+>[!NOTE]
+>
+>In accordance with the industry standards and regulations, all SMS/MMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 
 ## Add a text message {#create-sms-journey-campaign}
 
-You can design and send text (SMS) and multimedia (MMS) messages with Adobe Journey Optimizer. Browse the tabs below to learn how to add a text message (SMS/MMS) in a campaign or a journey.
+Browse the tabs below to learn how to add a text message (SMS/MMS) in a campaign or a journey.
 
 >[!BEGINTABS]
 
@@ -36,7 +43,7 @@ You can design and send text (SMS) and multimedia (MMS) messages with Adobe Jour
 
     The **[!UICONTROL Surface]** field is pre-filled, by default, with the last surface used for that channel by the user.
 
-You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button. Learn how to design your text message content in [this page](#sms-content)
+You can now start designing the content of your SMS message from the **[!UICONTROL Edit content]** button, as detailed below.
 
 >[!TAB Add a text message to a Campaign]
 
@@ -69,7 +76,7 @@ You can now start designing the content of your SMS message from the **[!UICONTR
     * Weekly
     * Month
     
-You can now start designing the content of your text message from the **[!UICONTROL Edit content]** button. Learn how to design your text message content in [this page](#sms-content)
+You can now start designing the content of your text message from the **[!UICONTROL Edit content]** button, as detailed below.
 
 >[!ENDTABS]
 
@@ -77,8 +84,10 @@ You can now start designing the content of your text message from the **[!UICONT
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="Define your SMS/MMS content"
+>title="Define your SMS content"
 >abstract="Customize and personalize your text messages (SMS/MMS) by using the Expression editor to define the content and incorporate dynamic elements."
+
+To configure your SMS content, follow the steps below. Settings for MMS are detailed in [this section](#mms-content).
 
 1. From the journey or campaign configuration screen, click the **[!UICONTROL Edit content]** button to configure the text message content.
 
@@ -86,9 +95,9 @@ You can now start designing the content of your text message from the **[!UICONT
 
     ![](assets/sms-content.png)
 
-1. Use the Expression editor to define content and add dynamic content. You can use any attribute, such as the profile name or city. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
+1. Use the Expression editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the Expression editor.
 
-1. After defining your content, you can add your track URLs to your message. To do this, access the **[!UICONTROL Helper functions]** menu and select **[!UICONTROL Helpers]**.
+1. After defining your content, you can add tracked URLs to your message. To do this, access the **[!UICONTROL Helper functions]** menu and select **[!UICONTROL Helpers]**.
 
     Note that in order to use the URL shortening function, you must first configure a subdomain which will be then linked to your surface. [Learn more](sms-subdomains.md)
     
@@ -104,10 +113,7 @@ You can now start designing the content of your text message from the **[!UICONT
 
 1. In the `originalUrl` field, paste the URL that you want to shorten and click **[!UICONTROL Save]**.
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. You can use **[!UICONTROL Simulate content]** to preview your shortened URLs or personalized content.
-
-    ![](assets/sms-content-preview.png)
-
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed in [this section](#sms-mms-test).
 
 
 ## Define your MMS content{#mms-content}
@@ -117,9 +123,9 @@ You can enhance your communication by sending Multimedia Message Service (MMS) m
 
 >[!NOTE]
 >
-> This feature is currently available with **Sinch** only.
+>* This feature is currently available with **Sinch** only.
 >
-> MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
+>* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
 >
 
 To create MMS content, follow these steps:
@@ -138,17 +144,17 @@ To create MMS content, follow these steps:
 
     ![](assets/sms_create_7.png)
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. You can use **[!UICONTROL Simulate content]** to preview your shortened URLs or personalized content.
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
 
 ## Test and send your messages {#sms-mms-test}
 
-You can now test and send your text message to your audience. [Learn more](send-sms.md)
+Use the **[!UICONTROL Simulate content]** button to preview your text message content, shortened URLs, and personalized content.
+
+![](assets/sms-content-preview.png)
+
+Once you have performed your tests and validated the content, you can send your text message to your audience. These steps are detailed in [this page](send-sms.md)
 
 Once sent, you can measure the impact of your SMS within the Campaign or Journey reports. For more on reporting, refer to [this section](../reports/campaign-global-report.md#sms-tab).
-
->[!NOTE]
->
->In accordance with the industry standards and regulations, all SMS/MMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. [Learn how to manage opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 **Related topics**
 
