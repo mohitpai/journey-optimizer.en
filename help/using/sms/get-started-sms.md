@@ -57,7 +57,7 @@ Adobe Journey Optimizer sends text messages through SMS service providers (or SM
 <img alt="Validation" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configure SMS/MMS channel</strong></a>
+<a href="sms-configuration.md"><strong>Configure SMS channel</strong></a>
 </div>
 <p>
 </td>
