@@ -51,10 +51,10 @@ With the SMS Channel, you can now enhance your communication by sending Multimed
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
