@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 
 ## What's new ?
 
-Get a glimpse of the newest enhancements in Journey Optimizer product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](using/rn/release-notes.md).  Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).
+Get a glimpse of the newest enhancements in Journey Optimizer product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](using/rn/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -78,7 +78,7 @@ With the SMS Channel, you can now enhance your communication by sending Multimed
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Content management</strong><br/><a href="using/content-management/assets-essentials.md">Assets/images</a> - <a href="using/personalization/personalize.md">Personalization</a> - <a href="using/content-management/content-templates.md">Reusable</a> & <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test & preview content</a>
+      <strong>Content management</strong><br/><a href="using/content-management/assets.md">Assets/images</a> - <a href="using/personalization/personalize.md">Personalization</a> - <a href="using/content-management/content-templates.md">Reusable</a> & <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test & preview content</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
