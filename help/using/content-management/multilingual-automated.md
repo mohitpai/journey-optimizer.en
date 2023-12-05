@@ -84,6 +84,14 @@ Start your translation project by specifying the Target Locale, indicating the s
 
 1. Select from the list your **[!UICONTROL Target locale(s)]** and choose which **[!UICONTROL Translation provider]** you want to use for each locale.
 
+    **[!UICONTROL Translation provider]** settings can be accessed from the **[!UICONTROL Translation]** menu in the **[!UICONTROL Administration]** menu section.
+
+    >[!NOTE]
+    >
+    >Contract management with the Translation Provider falls outside the scope of this feature. Please ensure that you have a valid and active contract in place with the designated Translation Partner.
+    >
+    ></br>The Translation Provider holds ownership of the translated content's quality.
+
 1. Click **[!UICONTROL Add a locale]** when you finished linking your Target locale with the correct Translation provider. Then, click **[!UICONTROL Save]**. 
 
     Note that if a provider is greyed out for a target locale, it indicates that the provider does not support that particular locale. 
