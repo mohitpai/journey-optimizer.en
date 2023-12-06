@@ -10,7 +10,7 @@ level: Intermediate
 keywords: journey, message, push, sms, email, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
-# Email, In-app, Push, SMS/MMS{#add-a-message-in-a-journey}
+# Send Email, In-app, Push, and text messages {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"

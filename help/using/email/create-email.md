@@ -38,7 +38,7 @@ To create an email in [!DNL Journey Optimizer], add an **[!UICONTROL Email]** ac
 
 >[!NOTE]
 >
->If you are sending an email from a journey, you can leverage Adobe Journey Optimizer's Send-Time Optimization feature to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
+>You can use the Send-Time Optimization option to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
 
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
