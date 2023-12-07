@@ -17,18 +17,11 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 >title="Create decision rules"
 >abstract="Decision rules allow you to define the audience for decision items by applying constraints, either directly at the decision item level or within a specific selection strategy. This enables you to precisely control which items should be presented to whom."
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * [Create decision items](items.md)
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * **[Create decision rules](rules.md)**
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) - [Create decision items](items.md) - [Manage items collections](collections.md)
+* Configure items' selection: **[Create decision rules](rules.md)** - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * [Create decision policies](create-decision.md)
 

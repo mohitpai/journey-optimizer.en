@@ -12,18 +12,11 @@ exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 ---
 # Items catalog {#catalog}
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * **[Configure the items catalog](catalogs.md)**
-    * [Create decision items](items.md)
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: **[Configure the items catalog](catalogs.md)** - [Create decision items](items.md) - [Manage items collections](collections.md)
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * [Create decision policies](create-decision.md)
 

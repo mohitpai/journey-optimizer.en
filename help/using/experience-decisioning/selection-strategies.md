@@ -25,18 +25,11 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Use decision rules"
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * [Create decision items](items.md)
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) - [Create decision items](items.md) - [Manage items collections](collections.md)
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * **[Create selection strategies](selection-strategies.md)**
 * [Create decision policies](create-decision.md)
 
@@ -77,6 +70,8 @@ To create a selection strategy, follow the steps below.
     ![](assets/strategy-create-screen.png)
 
 1. Select the [collection](collections.md) that contains the offers to consider.
+
+1. Select the offer [collection](collections.md) that contains the offers to consider.
 
 1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this selection strategy.
 

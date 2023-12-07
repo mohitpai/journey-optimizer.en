@@ -18,18 +18,11 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 >abstract="Decision policies leverage the experience decisioning engine in order to pick the best content to deliver, depending on the audience."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="About Experience decisioning"
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * [Create decision items](items.md)
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) - [Create decision items](items.md) - [Manage items collections](collections.md)
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * **[Create decision policies](create-decision.md)**
 

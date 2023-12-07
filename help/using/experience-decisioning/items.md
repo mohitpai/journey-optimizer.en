@@ -18,18 +18,11 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 >abstract="Journey Optimizer allows you to create marketing offers, known as decision items, that you can create and organize into a centralized catalog and collections. Currently, all created decision items are consolidated within a single "Offers" catalog. From this screen, you can also access the catalog's schema using the **Edit schema** button and create custom attributes for your decision items."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configure the items catalog"
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * **[Create decision items](items.md)**
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) - **[Create decision items](items.md)** - [Manage items collections](collections.md)
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * [Create decision policies](create-decision.md)
 

@@ -11,21 +11,13 @@ badge: label="Beta"
 ---
 # Experience decisioning use case {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * [Create decision items](items.md)
-    * [Manage items collections](collections.md)
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) -[Create decision items](items.md) - [Manage items collections](collections.md)
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * [Create decision policies](create-decision.md)
-* **[Learn through a use case](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
 

@@ -27,18 +27,11 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 >title="Choose a collection"
 >abstract="Select the collection that contains the offers to consider. This step is mandatory when creating a selection strategy. Collections allow you to categorize and group your decision items according to your preferences. For instance, you can create a collection that includes all decision items with the "Yoga" value in the "Category" custom attribute."
 
->[!BEGINSHADEBOX]
-
-What you'll find in this documentation guide:
+>[!BEGINSHADEBOX "What you'll find in this documentation guide"]
 
 * [Get started with Experience Decisioning](gs-experience-decisioning.md)
-* Manage your decision items
-    * [Configure the items catalog](catalogs.md)
-    * [Create decision items](items.md)
-    * **[Manage items collections](collections.md)**
-* Configure items' selection
-    * [Create decision rules](rules.md)
-    * [Create ranking methods](ranking.md)
+* Manage your decision items: [Configure the items catalog](catalogs.md) - [Create decision items](items.md) - **[Manage items collections](collections.md)**
+* Configure items' selection: [Create decision rules](rules.md) - [Create ranking methods](ranking.md)
 * [Create selection strategies](selection-strategies.md)
 * [Create decision policies](create-decision.md)
 
