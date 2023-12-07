@@ -11,6 +11,7 @@ keywords: get started, start, content, experiment
 hide: yes
 hidefromtoc: yes
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
+badge: label="Beta" type="Informative"
 ---
 # Get started with multilingual content {#multilingual-gs}
 
