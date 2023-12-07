@@ -15,13 +15,12 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Email creation"
->abstract="Define your email parameters in just three simple steps."
+>abstract="Define your email subject line, and open the Email Designer to create the content of the email."
 
-To create an email in [!DNL Journey Optimizer], follow the steps below.
 
-## Create an email in a journey or a campaign {#create-email-journey-campaign}
+## Add an email action {#email-action}
 
-Add an **[!UICONTROL Email]** action to a journey or a campaign, and follow the steps below according to your case.
+To create an email in [!DNL Journey Optimizer], add an **[!UICONTROL Email]** action to a journey or a campaign. Then follow the steps below, according to your case.
 
 >[!BEGINTABS]
 
@@ -39,7 +38,7 @@ Add an **[!UICONTROL Email]** action to a journey or a campaign, and follow the 
 
 >[!NOTE]
 >
->If you are sending an email from a journey, you can leverage Adobe Journey Optimizer's Send-Time Optimization feature to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
+>You can use the Send-Time Optimization option to predict the best time to send the message to maximize engagement based on historical open and click rates. [Learn how to work with Send-Time Optimization](../building-journeys/journeys-message.md#send-time-optimization)  
 
 For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
@@ -80,13 +79,13 @@ For more information on how to configure a campaign, refer to [this page](../cam
 
     ![](assets/email_campaign_edit_content.png)
 
-1. In the **[!UICONTROL Header]** section of the **[!UICONTROL Edit content]** screen, the **[!UICONTROL From name]**, **[!UICONTROL From email]** and **[!UICONTROL BCC]** field come from the email surface that you selected. [Learn more](email-settings.md) <!--check if same for journey-->
+    In the **[!UICONTROL Header]** section of the **[!UICONTROL Edit content]** screen, the **[!UICONTROL From name]**, **[!UICONTROL From email]** and **[!UICONTROL BCC]** field are configured in the email surface that you selected. [Learn more](email-settings.md) <!--check if same for journey-->
 
     ![](assets/email_designer_edit_content_header.png)
 
-1. You can add a subject line. Type plain text directly into the corresponding field, or use the [Expression editor](../personalization/personalization-build-expressions.md) to personalize your subject line.
+1. Add a subject line for your message. To configure and personalize the subject line with the expression editor, click the **[!UICONTROL Open personalization dialog]** icon. [Learn more](../personalization/personalization-build-expressions.md)
 
-1. Click the **[!UICONTROL Edit email body]** button to start building your content using the [!DNL Journey Optimizer] Email Designer. [Learn more](get-started-email-design.md)
+1. Click the **[!UICONTROL Edit email body]** button to access the Email Designer and  start building your content. [Learn more](get-started-email-design.md)
 
     ![](assets/email_designer_edit_email_body.png)
 
