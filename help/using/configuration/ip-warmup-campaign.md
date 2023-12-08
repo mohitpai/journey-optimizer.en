@@ -10,6 +10,7 @@ level: Intermediate
 keywords: IP, pools, deliverability
 hide: yes
 hidefromtoc: yes
+badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 ---
 # Create IP warmup campaigns {#create-ip-warmup-campaign}

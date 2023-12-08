@@ -10,16 +10,10 @@ level: Experienced
 keywords: IP, deliverability
 hide: yes
 hidefromtoc: yes
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 ---
 # Get started with IP warmup plans {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -37,6 +31,8 @@ What you'll find in this documentation guide:
 >The IP warmup feature is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
 With [!DNL Journey Optimizer], you can easily perform IP warmup workflows directly from the user interface in a standardized and efficient way that follows the best practices for optimal deliverability.
+
+➡️ [Learn how to create and execute an IP warmup plan in this video](#video)
 
 >[!CAUTION]
 >
@@ -69,3 +65,9 @@ The key steps to implement an IP warmup plan are as follows:
 1. Create an IP warmup plan in [!DNL Journey Optimizer] and upload the Excel sheet prepared with the help of your deliverability consultant. [Learn more](ip-warmup-plan.md)
 
 1. Select a campaign for each phase of your plan and activate the corresponding runs. [Learn more](ip-warmup-execution.md)
+
+## How-to video {#video}
+
+Learn how to create and execute an IP warmup plan.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

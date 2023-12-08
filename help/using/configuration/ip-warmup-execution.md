@@ -10,6 +10,7 @@ level: Experienced
 keywords: IP, group, subdomains, deliverability
 hide: yes
 hidefromtoc: yes
+badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 ---
 # Execute the IP warmup plan {#ip-warmup-running}
