@@ -53,11 +53,11 @@ In Adobe Journey Optimizer, audiences are generated from segment definitions usi
 
 The profiles list for the audience is kept up-to-date in real-time as new data flows into the system.
 
-Streaming segmentation is an ongoing data selection process that updates your audiences in response to user activity. Once a segment definition has been built and the resulting audience has been saved, the segment definition is applied against incoming data to Journey Optimizer. This means that individuals are added or removed from the audience as their profile data changes, ensuring that your target audience is always relevant. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+Streaming segmentation is an ongoing data selection process that updates your audiences in response to user activity. Once a segment definition has been built and the resulting audience has been saved, the segment definition is applied against incoming data to Journey Optimizer. This means that individuals are added or removed from the audience as their profile data changes, ensuring that your target audience is always relevant. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->Make sure to use the right events as streaming segmentation criteria. [Learn more](#open-and-send-event-guardrails)
+>Make sure to use the right events as streaming segmentation criteria. [Learn more](#streaming-segmentation-events-guardrails)
 
 +++
 
