@@ -24,7 +24,7 @@ For example, on a non-production instance, where mistakes can occur, the allowed
 
 Also, when the allowed list is active but empty, no mail will go out. Hence if you encounter some major issue, you can use this feature to stop  all outgoing communications from [!DNL Journey Optimizer] until you fix the problem. Learn more on the [allowed list logic](#logic).
 
-In addition, you can leverage Journey Optimizer **Suppression REST API** to control your outgoing messages using suppression and allow lists. [Learn how to work with the Suppression REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+In addition, you can leverage Journey Optimizer **Suppression REST API** to control your outgoing messages using suppression and allow lists. [Learn how to work with the Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Access the allowed list {#access-allowed-list}
 
