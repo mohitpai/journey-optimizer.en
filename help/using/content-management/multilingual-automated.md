@@ -176,9 +176,17 @@ Once you have set up your Translation project and Language settings, you are rea
 1. In this page, follow the status of your translation project:
 
     * **[!UICONTROL Translation in progress]**: Your service provider is actively working on the translation.
+
+        If you selected the **In-house translation** when configuring your **Language settings**, you can translate your content directly in your Translation project. [Learn more](#manage-ht-project)
+
     * **[!UICONTROL Ready for review]**: The review process is ready to begin, giving you the ability to access the translation and either reject or approve it.
-    * **[!UICONTROL Reviewed]**: Translation has been approved and ready to be sent to the campaign.
+
+        If you selected the **[!UICONTROL Enable review worflow]** in your **[!UICONTROL Translation project]**, you can review the translation directly in Journey Optimizer after completion by your selected Translation provider. [Learn more](#review-translation-project)
+
+    * **[!UICONTROL Reviewed]**: Translation has been approved and ready to be pusblished and sent to the campaign.
+
     * **[!UICONTROL Ready to publish]**: Machine translation has been completed and can now be sent to your campaign.
+
     * **[!UICONTROL Completed]**: Translation is now available in your campaign.
 
     ![](assets/multilingual-campaign-automated-6.png)
