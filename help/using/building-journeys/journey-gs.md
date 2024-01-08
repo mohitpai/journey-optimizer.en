@@ -144,7 +144,7 @@ For more information on timezone management, see [this page](../building-journey
 
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If no end date is specified, profiles can stay until the [global journey timeout](#global_timeout) (which is generally 30 days, and reduced to 7 days with Healthcare Shield and Security and Privacy Shield add-on offerings). The only exception is recurring read audience journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If no end date is specified, profiles can stay until the [global journey timeout](#global_timeout) (which is generally 30 days, and reduced to 7 days with Healthcare Shield add-on offering). The only exception is recurring read audience journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 
 ### Timeout and error in journey activities {#timeout_and_error}
 
@@ -160,7 +160,7 @@ Journeys also uses a global timeout. See the [next section](#global_timeout).
 
 In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. 
 
-This global timeout stops the progress of individuals in the journey **30 days** after they enter. This timeout is reduced to **7 days** with Healthcare Shield and Privacy and Security Shield add-on offerings. This means that an individual's journey cannot last longer than 30 days (or 7 days). After this timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will not be taken into account in reporting. You could therefore see more people entering the journey than exiting.
+This global timeout stops the progress of individuals in the journey **30 days** after they enter. This timeout is reduced to **7 days** with Healthcare Shield add-on offering. This means that an individual's journey cannot last longer than 30 days (or 7 days). After this timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will not be taken into account in reporting. You could therefore see more people entering the journey than exiting.
 
 >[!NOTE]
 >

@@ -13,6 +13,12 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## January 2024 {#jan-2024}
+
+* Journey timeout management has been detailed [in the following section](../building-journeys/journey-gs.md#global_timeout).
+* Journey Optimizer [documentation home](../../ajo-home.md) page has been redesigned.
+
+
 ## November 2023 {#nov-2023}
 
 * The guardrail that limits all custom actions has been changed from 150,000 calls over 30 seconds to 300,000 calls over one minute. In addition, the default capping no longer applies to each endpoint. It is now performed per host and per sandbox. For example, on a sandbox, if you have two endpoints with the same host (eg: `https://www.adobe.com/endpoint1` and `https://www.adobe.com/endpoint2`), the capping will apply for all endpoints under the adobe.com host. "endpoint1" and "endpoint2" will share the same capping configuration and having one endpoint reach the limit will have an impact on the other endpoint. [Read more](../action/about-custom-action-configuration.md)
