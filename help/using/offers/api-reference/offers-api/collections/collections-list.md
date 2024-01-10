@@ -10,9 +10,11 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 
 # List collections {#list-collections}
 
-Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
+Collection qualifiers (previously known as “tags”) allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the “Black Friday” collection qualifier. You can then use the search functionality in the Offer Library to easily locate all of the offers with that collection qualifier.
 
-You can view a list of all collections by performing a single GET request to the [!DNL Offer Library] API.
+Collection qualifiers can also be used to group offers together into collections.
+
+You can view a list of all collection qualifiers within a container by performing a single GET request to the Offer Library API.
 
 **API format**
 
@@ -50,60 +52,58 @@ The most common query parameters for paging include:
 | `orderBy` | Sort results by a specific property. Adding a - before name (orderby=-name) will sort items by name in descending order (Z-A). Path expressions are in the form of dot separated paths. This parameter can be repeated like so: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limit the number of entities returned. | `limit=5` |
 
+**Request**
+
+```shell
+curl -X GET 'https://platform.adobe.io/data/core/dps/tags?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
 **Response**
 
 A successful response returns a list of collections that are present within the container you have access to.
 
 ```json
 {
-        "results": [
+    "results": [
         {
-            "created": "2022-09-16T18:59:23.063+00:00",
-            "modified": "2022-09-16T18:59:23.063+00:00",
+            "created": "2022-09-16T19:00:02.070+00:00",
+            "modified": "2022-09-16T19:00:02.070+00:00",
             "etag": 1,
             "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.4"
+                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
             ],
             "createdBy": "{CREATED_BY}",
             "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerCollection1234",
-            "name": "Test Collection with tags",
-            "filterType": "any-tags",
-            "ids": [
-                "tag1234"
-            ],
-            "labels": [
-                "core/C5",
-                "custom/myLabel"
-            ]
+            "id": "tag1234",
+            "name": "Sneakers"
         },
         {
-            "created": "2023-05-15T12:50:49.887+00:00",
-            "modified": "2023-05-15T12:50:49.887+00:00",
+            "created": "2022-09-16T19:55:02.168+00:00",
+            "modified": "2022-09-16T19:55:02.168+00:00",
             "etag": 1,
             "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.4"
+                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
             ],
             "createdBy": "{CREATED_BY}",
             "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerCollection5678",
-            "name": "Test Collection with offers",
-            "filterType": "offers",
-            "ids": [
-                "personalizedOffer1234",
-                "personalizedOffer5678"
-            ]
+            "id": "tag5678",
+            "name": "Black Friday"
         }
     ],
     "count": 2,
-    "total": 9,
+    "total": 5,
     "_links": {
         "self": {
-            "href": "/offer-collections?href={SELF_HREF}&limit=2",
+            "href": "/tags?href={SELF_HREF}&limit=2",
             "type": "application/json"
         },
         "next": {
-            "href": "/offer-collections?href={NEXT_HREF}&limit=2",
+            "href": "/tags?href={NEXT_HREF}&limit=2",
             "type": "application/json"
         }
     }

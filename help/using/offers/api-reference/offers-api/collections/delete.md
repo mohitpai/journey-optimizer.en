@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 **Request**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerCollection1234' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \

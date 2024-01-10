@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/offer-collections
 **Request**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
+curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
