@@ -86,7 +86,9 @@ All the users who registered for your event will receive the confirmation email.
 
 To enable your recipients to unsubscribe from your communications, you can include a link to an opt-out landing page into your emails.
 
-Learn more on managing your recipients' consent and why this is important in [this section](../privacy/opt-out.md).
+>[!NOTE]
+>
+>Learn more on managing your recipients' consent and why this is important in [this section](../privacy/opt-out.md).
 
 ### Opt-out management {#opt-out-management}
 
@@ -97,7 +99,7 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 * Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
 * Upon clicking the opt-out button, the profile data will be updated with this information.
 
-### Configure opt-out {#configure-opt-out}
+### Configure email opt-out {#configure-opt-out}
 
 To enable the recipients of an email to unsubscribe from your communications through a landing page, follow the steps below.
 

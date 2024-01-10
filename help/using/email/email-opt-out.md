@@ -16,11 +16,15 @@ In order to provide the capability to recipients to unsubscribe from receiving e
 
 To do this, you can:
 
-* Insert a **link to an external landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. [Learn how to add an external opt-out link](#opt-out-external-lp)
+* Insert a **link to a landing page** into an email in order to enable users to unsubscribe from receiving communications from your brand. It can be:
+
+    * A **[!DNL Journey Optimizer] landing page**. [Learn how to add an opt-out landing page](../landing-pages/lp-use-cases.md#opt-out)
+    
+    * A **an external landing page**. [Learn how to add an external opt-out link](#opt-out-external-lp)
 
 * Add a **one-click opt-out link** into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process. [Learn how to add a one-click opt-out link](#one-click-opt-out)
 
-Additionally, if the **[!UICONTROL List-Unsubscribe]** option is enabled at the channel surface level, the corresponding emails sent with Journey Optimizer will include an unsubscribe link in the email header. [Learn more on opt-out in email header](#unsubscribe-header)
+* Add an unsubscribe link in the email header. If the **[!UICONTROL List-Unsubscribe]** option is enabled at the channel surface level, the corresponding emails sent with Journey Optimizer will include an unsubscribe link in the email header. [Learn more on opt-out in email header](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -155,7 +159,7 @@ Once your message is sent through a [journey](../building-journeys/journey.md), 
 >abstract="Enable List-Unsubscribe to add an unsubscribe link to the email header. To set an unsubscribe URL, insert a one-click opt-out link into the email content."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="One-click opt-out"
 
-If the [List-Unsubscribe option](../configuration/channel-surfaces.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
+If the [List-Unsubscribe option](email-settings.md#list-unsubscribe) is enabled at the channel surface level, the corresponding emails sent with [!DNL Journey Optimizer] will include an unsubscribe link in the email header.
 
 For example, the unsubscribe link will display like this in Gmail:
 
