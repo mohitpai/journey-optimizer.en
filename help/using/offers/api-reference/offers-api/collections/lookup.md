@@ -9,14 +9,12 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 ---
 # Look up a collection {#look-up-collection}
 
-Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
-
-You can look up specific collections by making a GET request to the [!DNL Offer Library] API that includes the collection `id` in the request path.
+You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the Offer Library API that includes the collection qualifier id in the request path.
 
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/offer-collections/{ID}
+GET /{ENDPOINT_PATH}/tags/{ID}
 ```
 
 | Parameter | Description | Example |
