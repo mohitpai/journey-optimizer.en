@@ -30,7 +30,7 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerC
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+-H 'x-sandbox-name: {SANDBOX_NAME}' 
 ```
 
 **Response**
