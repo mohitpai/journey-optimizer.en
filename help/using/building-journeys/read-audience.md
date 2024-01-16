@@ -29,6 +29,8 @@ Let's take as an example the "Luma app opening and checkout" audience created in
 
 * Experience event field groups can not be used in journeys starting with a Read audience, an Audience qualification or a business event activity.
 
+* As a best practice, we recommend you only use batch audiences in a **Read audience** activity. This will provide reliable and consistent count for the audiences used in a journey. Read audience is designed for batch use cases. If your use case needs real time data please use **[Audience qualification](audience-qualification-events.md)** activity.
+
 * For now, the use of audiences [imported from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) or resulting from [composition workflows](../audience/get-started-audience-orchestration.md) into journeys is available as a private beta. For more information, contact your Adobe representative.
 
 ## Configure the activity {#configuring-segment-trigger-activity}

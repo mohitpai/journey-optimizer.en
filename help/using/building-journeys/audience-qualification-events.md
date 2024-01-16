@@ -35,6 +35,8 @@ This type of event can be positioned as the first step or later in the journey.
 
 * When using an audience qualification in a journey, that audience qualification activity may take up to 10 minutes to be active and listen to profiles entering or exiting the audience.
 
+* As a best practice, we recommend you only use streaming audiences for **Audience qualification** activity. For batch use cases, please use **[Read audience](read-audience.md)** activity. 
+
 ### Configure the activity{#cnfigure-segment-qualification}
 
 1. Unfold the **[!UICONTROL Events]** category and drop an **[!UICONTROL Audience Qualification]** activity into your canvas.
