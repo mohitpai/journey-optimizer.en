@@ -9,7 +9,7 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 ---
 # Look up a collection {#look-up-collection}
 
-You can look up specific collection qualifiers (previously known as "tags") by making a GET request to the Offer Library API that includes the collection qualifier id in the request path.
+Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
 **API format**
 

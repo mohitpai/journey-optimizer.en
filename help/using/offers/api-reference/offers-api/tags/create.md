@@ -47,7 +47,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Response**
 
-A successful response returns information on the newly created collection qualifier, including its unique instance id. You can use the id in later steps to update or delete your collection qualifier. You can use your unique collection qualifier id in later tutorials to create collections and personalized offers.
+A successful response returns information on the newly created collection qualifier, including its unique `id`. You can use the `id` in later steps to update or delete your collection qualifier. You can use your unique collection qualifier `id` in later tutorials to create collections and personalized offers.
 
 ```json
 {
