@@ -10,11 +10,9 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 
 # List collections {#list-collections}
 
-Collection qualifiers (previously known as “tags”) allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the “Black Friday” collection qualifier. You can then use the search functionality in the Offer Library to easily locate all of the offers with that collection qualifier.
+Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
-Collection qualifiers can also be used to group offers together into collections.
-
-You can view a list of all collection qualifiers within a container by performing a single GET request to the Offer Library API.
+You can view a list of all collections within a container by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 

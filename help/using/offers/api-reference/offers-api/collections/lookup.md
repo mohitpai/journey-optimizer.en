@@ -14,7 +14,7 @@ Collections are subsets of offers based on predefined conditions defined by a ma
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/tags/{ID}
+GET /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
 | Parameter | Description | Example |
