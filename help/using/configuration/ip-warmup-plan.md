@@ -76,9 +76,9 @@ This activity is tipically performed with the help of a deliverability expert wh
 
 Before being able to create an IP warmup plan in the [!DNL Journey Optimizer] interface, you need to fill in an Excel template with all the data that will feed your plan.
 
-* Here you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.zip) to fill in.
+* From the user interface you can download the blank Excel IP warmup plan template to fill in.
 
-* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.zip) already filled in with some data you can use as an example.
+* You can also download a sample IP warmup plan already filled in with some data you can use as an example.
 
 >[!CAUTION]
 >
@@ -308,7 +308,7 @@ To create an IP warmup plan, follow the steps below.
 
     >[!NOTE]
     >
-    >In case the upload fails, make sure you are using the correct formatting and file format (.xls or .xlsx). Use the [template](assets/IPWarmupPlan-Template.zip) provided to you by Adobe.
+    >In case the upload fails, make sure you are using the correct formatting and file format (.xls or .xlsx). Use the template provided to you by Adobe.
 
 1. Click **[!UICONTROL Create]**. All the phases, runs, columns and their content defined in the file you uploaded are automatically displayed in the [!DNL Journey Optimizer] interface.
 
