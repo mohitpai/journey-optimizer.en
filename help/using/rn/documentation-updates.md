@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 ---
 # Documentation updates {#latest-updates}
 
-This page lists all the documentation updates for [!DNL Journey Optimizer].
+This page lists all the latest updates in [!DNL Journey Optimizer] documentation.
 
 ## January 2024 {#jan-2024}
 
