@@ -31,14 +31,17 @@ Audiences can be generated using different methods:
 * **CSV file import**: Import an audience using a CSV file. Learn how to import audiences in Adobe Experience Platform [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Audience composition**: Create a composition workflow to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activites (split, exclude...) to create new audiences. [Get started with audience composition](get-started-audience-orchestration.md)
 
-## Use audiences in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Target audiences in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 You can select in campaigns and journeys any Adobe Experience Platform audience generated using [segment definitions](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->In addition, you can also target Adobe Experience Platform audiences created using [audience compositions](../audience/get-started-audience-orchestration.md) or [uploaded from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. These capabilities are currently available as a private beta.
-
+>For now, audiences resulting from [audience compositions](../audience/get-started-audience-orchestration.md) can be targeted in campaigns only. This capability is available as a private beta for journeys.
+>
+>The use of audiences [uploaded from a CSV file](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} in campaigns and journeys is currently available as a private beta.
+>
+>For more information, contact your Adobe representative.
 
 You can leverage audiences in **[!DNL Journey Optimizer]** in different ways:
 
