@@ -55,7 +55,7 @@ To use the test mode, follow these steps:
 
 ## Important notes {#important_notes}
 
-* In test mode, you can fire events using the interface.
+* In test mode, you can fire events using the interface. Events cannot be fired from external systems using an API.
 * Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. Refer to this [section](../audience/creating-test-profiles.md). 
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
@@ -120,7 +120,7 @@ Note that when you first trigger a business event, you cannot change the busines
 >title="Test mode logs"
 >abstract="The Show log button displays test results in JSON format. These results display the number of individuals inside the journey and their status."
 
-The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
+The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey's current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey's test results.
 
 ![](assets/journeytest3.png)
 
@@ -131,9 +131,9 @@ The **[!UICONTROL Show log]** button allows you to view the test results. This p
 
 The number of individuals (technically they are called instances) currently inside the journey are displayed. Here is useful information that is displayed for each individual:
 
-* _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
+* _Id_: the individual's internal ID in the journey. This can be used for debugging purposes.
 * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
-* _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
+* _currentstep_ > phase: the status of the individual's journey (running, finished, error or timed out). See below for more information.
 * _currentstep_ > _extraInfo_: description of the error and other contextual information.
 * _currentstep_ > _fetchErrors_: information on fetch data errors that occurred during this step.
 * _externalKeys_: the value for the key formula defined in the event.

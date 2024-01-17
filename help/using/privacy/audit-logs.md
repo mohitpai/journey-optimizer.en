@@ -41,7 +41,6 @@ The following table outlines which actions on which Journey Optimizer resources 
 | AJO landing page HTML template | Create / Delete / Update |
 | AJO landing page preset | Create / Delete / Update |
 | AJO landing page subdomain | Create / Delete / Update |
-| AJO message | Create / Delete / Update / Publish |
 | AJO message preset | Create / Delete / Update |
 | AJO PTR record | Create / Delete / Update |
 | AJO saved expression template | Create / Delete / Update |
