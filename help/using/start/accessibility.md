@@ -82,10 +82,9 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
     <td>SHIFT + ARROW keys</td>
   </tr>  
   <tr>
-  <td rowspan="3">
-  
-  Configuration pane of these elements:
 
+  <td rowspan="3">
+  Configuration pane of these elements:
 <ul>
   <li>Activity in a journey</li>
   <li>Event</li>
