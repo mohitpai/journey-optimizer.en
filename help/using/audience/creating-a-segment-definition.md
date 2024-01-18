@@ -14,7 +14,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Create a rule"
->abstract="The Build rule creation method allows you to create a new audience definition using Adobe Experience Platform Audienceation Service."
+>abstract="The Build rule creation method allows you to create a new audience definition using Adobe Experience Platform Segmentation Service."
 
 In this example, we will build an audience to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980. All these customers should have opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
 

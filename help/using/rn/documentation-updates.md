@@ -18,7 +18,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * A guardrail about the journey size has been added. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 * Journey timeout management has been detailed [in the following section](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentation home](../../ajo-home.md) page has been redesigned.
-
+* Recommendations about the Update Profiles activity have been added. [Read more](../building-journeys/update-profiles.md) 
 
 ## November 2023 {#nov-2023}
 
