@@ -27,7 +27,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | The endpoint path for persistence APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
-### Paging {#paging}
+## Paging {#paging}
 
 The most common query parameters for paging include:
 
