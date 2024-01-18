@@ -2,6 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: IP warmup plan files
+description: IP warmup plan files
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
