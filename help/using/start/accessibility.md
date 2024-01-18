@@ -49,7 +49,7 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Journey canvas in draft status</td>
+    <td rowspan="8">Journey canvas in draft status</td>
     <td>Add an activity from the left palette at the first available position, from top to bottom</td>
     <td>Double-click on the activity</td>
   </tr>
