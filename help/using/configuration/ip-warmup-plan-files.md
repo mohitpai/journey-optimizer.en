@@ -9,7 +9,6 @@ role: Admin
 level: Experienced
 hide: yes
 hidefromtoc: yes
-
 ---
 # Download IP warmup plan template and sample {#ip-warmup-plan-files}
 
@@ -21,4 +20,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
 * You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.
-
