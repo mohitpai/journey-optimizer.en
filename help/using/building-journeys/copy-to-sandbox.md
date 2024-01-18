@@ -40,7 +40,7 @@ This page describes the Sandbox tooling use case in the context of Journey Optim
 
 >[!NOTE]
 >
->This feature requires the following permissions: manage-sandbox (or view-sandbox) and manage-package.
+>This feature requires the following permissions from the **Sandbox administration** capability: Manage sandboxes (or View sandboxes) and Manage packages. [Learn more](../administration/ootb-permissions.md)
 
 ## Get started with Sandbox Tooling{#sandbox-gs}
 
