@@ -351,6 +351,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
+    + [Mandatory DMARC update](using/configuration/dmarc-record-update.md)
   + [Error reasons](using/reports/error-list.md)
   + [Alerts](using/reports/alerts.md)
   + [Work with Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -522,7 +523,6 @@ solution: Journey Optimizer
     + [Add a Google TXT record](using/configuration/google-txt.md)
     + [Access and edit PTR records](using/configuration/ptr-records.md)
     + [Create IP pools](using/configuration/ip-pools.md)
-    + [DMARC record update](using/configuration/dmarc-record-update.md)
   + Implement an IP warmup plan {#implement-ip-warmup-plan}
     + [Get started with IP warmup plans](using/configuration/ip-warmup-gs.md)
     + [Create IP warmup campaigns](using/configuration/ip-warmup-campaign.md)

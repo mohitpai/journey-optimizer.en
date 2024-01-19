@@ -1,54 +1,71 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: DMARC record
-description: Learn how to set DMARC record in Journey Optimizer
+title: Mandatory DMARC update
+description: Learn why and when you must set DMARC record in Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomain, domain, mail, dmarc, record
-hide: yes
-hidefromtoc: yes
 
 ---
-# DMARC record important update{#dmarc-record}
+# Mandatory DMARC update {#dmarc-record-update}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_dmarc_banner_link"
+>title="Learn more on mandatory DMARC update"
+>abstract="As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**. <br>Consequently, Adobe strongly recommends you ensure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
+
+As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
 
 >[!CAUTION]
 >
->Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer now supports the DMARC authentication technology.
+>Failing to comply with this new requirement from Gmail and Yahoo is expected to result in emails landing into the spam folder or getting blocked.
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
+Learn more on Google and Yahoo's requirements in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-Learn more on Google and Yahoo's requirements for DMARC record in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Consequently, Adobe strongly recommends you ensure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in [!DNL Journey Optimizer]. Follow either one of the two options below:
 
-Learn more on the announced changes at Google and Yahoo on [this page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**.
 
-Next you wtill have an action or next steps for you section which will state:
+* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
 
-You have to set it up for all your subdomains
-* If you have fully delegated the domain to us, then you have two options
-    * Set up DMARC on parent domain of the delegated domain in your hosting solution, OR
-    * Set up DMARC on delegated domain using our upcoming feature in admin UI with no extra work on hosting solution
-* If you have set up CNAME for your sending domains, then you have two options
-    * Set up DMARC on subdomain OR parent domain of the subdomain in your hosting solution, OR
-    * Setup DMARC using our upcoming feature in admin UI. However, it will require not just our UI but also entry in hosting solution.
+    >[!WARNING]
+    >
+    >If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, it will also require some entry into your hosting solution. Make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January 30, 2024). <!--and be ready on February 1st, 2024-->
 
-More details on our upcoming feature come soon.
+    More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
 
-In addition, you may include the impact if not set by copying the section relevant for DMARC  from below section (copied from link above). Now, either we pull out just DMARC related things. Or here you may educate that announcement is for DMARC and one click unsub and here is the latest on timelines for both features.
+<!--
+* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
 
-Updates to timelines have been forthcoming since the original announcement in October. 
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
 
-The most recent timelines look like:
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
 
-Gmail:
+* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
+    
+-->
 
-* February 2024 – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you won't notice a thing.
-* April 2024 – Blocks will begin for senders who are not in compliance with everything except List-Unsubscribe 1-Click. Only a portion of non-compliant email will be blocked at first, with the % blocked increasing over time.
-* June 1st, 2024 – Any sender not in full compliance, including List-Unsubscribe 1-Click, will experience blocking.
+>[!NOTE]
+>
+>If you have any questions or need support, contact your Adobe Deliverability Consultant or your Adobe representative.
 
-Yahoo:
+The most recent timelines shared by Google and Yahoo are as follows:
 
-Has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+* Google:
+
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
+
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
+
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
+
+* Yahoo has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+
+>[!NOTE]
+>
+>Learn more on DMARC in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} to better understand the impact of implementing DMARC on email deliverability.

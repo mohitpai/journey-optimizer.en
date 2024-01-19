@@ -57,7 +57,7 @@ DMARC, which stands for **Domain-based Message Authentication, Reporting, and Co
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 
-[Learn more on DMARC in the Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"} to better understand the impact of DMARC on email deliverability.
+[Learn more on DMARC in the Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} to better understand the impact of DMARC on email deliverability.
 
 If you don't add DMARC, you will be put in quarantine (at least).
 
