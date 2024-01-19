@@ -8,6 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomain, domain, mail, dmarc, record
+hide: yes
+hidefromtoc: yes
 
 ---
 # Mandatory DMARC update {#dmarc-record-update}
@@ -15,7 +17,7 @@ keywords: subdomain, domain, mail, dmarc, record
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Learn more on mandatory DMARC update"
->abstract="As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**. <br>Consequently, Adobe strongly recommends you ensure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
+>abstract="As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**. <br>Consequently, you must make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
 
 As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
 
@@ -27,9 +29,9 @@ Learn more on Google and Yahoo's requirement in [this section](https://experienc
 
 Consequently, Adobe strongly recommends you ensure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in [!DNL Journey Optimizer]. Follow either one of the two options below:
 
-* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**.
+* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**. You can do it as of now.
 
-* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
+* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. This feature will be available on January 30, 2024.
 
     >[!CAUTION]
     >
