@@ -51,7 +51,7 @@ Consequently, Adobe strongly recommends you ensure that you have DMARC record se
     * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
     * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30). <!--and be ready on February 1st, 2024-->
     
-More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
+**More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.**
 
 >[!NOTE]
 >
