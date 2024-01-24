@@ -23,7 +23,7 @@ With [!DNL Journey Optimizer], you can set up channel surfaces (i.e. message pre
 >
 > * To create, edit and delete channel surfaces, you must have the [Manage messages presets](../administration/high-low-permissions.md#administration-permissions) permission.
 >
-> * You must perform the [Email configuration](../email/get-started-email-config.md), [Push configuration](../push/push-configuration.md) and [SMS configuration](../sms/sms-configuration.md) steps before creating channel surfaces.
+> * You must perform the [Email configuration](../email/get-started-email-config.md), [Push configuration](../push/push-configuration.md), [SMS configuration](../sms/sms-configuration.md) and [Direct mail configuration](../direct-mail/direct-mail-configuration.md) steps before creating channel surfaces.
 
 Once channel surfaces have been configured, you will be able to select them when creating messages from a journey or a campaign.
 
