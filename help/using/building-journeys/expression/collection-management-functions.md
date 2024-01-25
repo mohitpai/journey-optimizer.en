@@ -162,11 +162,12 @@ The result will be:
 `false`-->
 
 >[!NOTE]
+>**[!UICONTROL currentEventField]** is only available when manipulating event collections, **[!UICONTROL currentDataPackField]**
+when manipulating data source collections and **[!UICONTROL currentActionField]** when manipulating custom action response collections.
 >
->**[!UICONTROL currentEventField]** is only available when manipulating event collections and **currentDataPackField** 
->when manipulating data source collections. When processing collections with **[!UICONTROL all]**, **[!UICONTROL first]** and **[!UICONTROL last]**, we
->loop on each element of the collection one by one. **[!UICONTROL currentEventField]** and **currentDataPackField**
->correspond to the element being looped.
+>When processing collections with **[!UICONTROL all]**, **[!UICONTROL first]** and **[!UICONTROL last]**, we
+>loop on each element of the collection one by one. **[!UICONTROL currentEventField]**, **currentDataPackField** and **[!UICONTROL currentActionField]** correspond to the element being looped.
+
 
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
 
