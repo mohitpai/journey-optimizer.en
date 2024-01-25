@@ -49,7 +49,7 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Journey canvas in draft status</td>
+    <td rowspan="8">Journey canvas in draft status</td>
     <td>Add an activity from the left palette at the first available position, from top to bottom</td>
     <td>Double-click on the activity</td>
   </tr>
@@ -83,16 +83,13 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
   </tr>  
   <tr>
   <td rowspan="3">
-  
   Configuration pane of these elements:
-
 <ul>
   <li>Activity in a journey</li>
   <li>Event</li>
   <li>Data source</li>
   <li>Action</li>
 </ul>
-
   </td>
     <td>Move to the next field to be configured</td>
     <td>Tab</td>
@@ -115,11 +112,7 @@ You can use these shortcuts in specific areas of [!DNL Journey Optimizer] user i
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-  Trigger an event in an audience-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
-
-  </td>
+    <td>Trigger an event in an audience-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on</td>
     <td>P</td>
   </tr>
   <tr>

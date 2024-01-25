@@ -351,6 +351,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/reports/deliverability.md)
     + [Understand the suppression list](using/reports/suppression-list.md)
+    + [Mandatory DMARC update](using/configuration/dmarc-record-update.md)
   + [Error reasons](using/reports/error-list.md)
   + [Alerts](using/reports/alerts.md)
   + [Work with Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -527,6 +528,7 @@ solution: Journey Optimizer
     + [Create IP warmup campaigns](using/configuration/ip-warmup-campaign.md)
     + [Create an an IP warmup plan](using/configuration/ip-warmup-plan.md)
     + [Run the IP warmup plan](using/configuration/ip-warmup-execution.md)
+    + [IP warmup plan files](using/configuration/ip-warmup-plan-files.md)
   + Monitor email addresses {#monitor-reputation}
     + [Suppression list](using/configuration/manage-suppression-list.md)
     + [Retries](using/configuration/retries.md)

@@ -34,8 +34,13 @@ Your use of text messaging services is subject to additional terms and condition
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Configure your SMS/MMS provider with Journey Optimizer"
->abstract="Adobe Journey Optimizer sends text messages through SMS/MMS service providers. Select your provider, and fill in your API credentials."
+>title="Configure your SMS provider with Journey Optimizer"
+>abstract="Adobe Journey Optimizer sends text messages through SMS service providers. Select your provider, and fill in your API credentials."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mms_api_header"
+>title="Configure your MMS provider with Journey Optimizer"
+>abstract="Adobe Journey Optimizer sends media content through MMS service providers. Select your provider, and fill in your API credentials."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"

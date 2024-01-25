@@ -7,6 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 ---
+
 # Update a decision {#update-decision}
 
 You can modify or update a decision in your container by making a PATCH request to the [!DNL Offer Library] API.

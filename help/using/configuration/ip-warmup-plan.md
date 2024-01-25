@@ -76,6 +76,11 @@ This activity is tipically performed with the help of a deliverability expert wh
 
 Before being able to create an IP warmup plan in the [!DNL Journey Optimizer] interface, you need to fill in an Excel template with all the data that will feed your plan.
 
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
+
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
 * From the user interface you can download the blank Excel IP warmup plan template to fill in.
 
 * You can also download a sample IP warmup plan already filled in with some data you can use as an example.
@@ -274,7 +279,8 @@ Each domain now displays in a different column on the same row.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Specify your IP warmup plan"
->abstract="Download the CSV template and fill it with data for IP warmup phases and target number of profiles."
+>abstract="Fill in the Excel template with all the data that will feed your plan, such as IP warmup phases and target number of profiles, and upload it here."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Prepare the IP warmup plan file"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
@@ -308,7 +314,7 @@ To create an IP warmup plan, follow the steps below.
 
     >[!NOTE]
     >
-    >In case the upload fails, make sure you are using the correct formatting and file format (.xls or .xlsx). Use the template provided to you by Adobe.
+    >In case the upload fails, make sure you are using the correct formatting and file format (.xls or .xlsx). Use the template<!--assets/IPWarmupPlan-Template.xlsx--> provided to you by Adobe.
 
 1. Click **[!UICONTROL Create]**. All the phases, runs, columns and their content defined in the file you uploaded are automatically displayed in the [!DNL Journey Optimizer] interface.
 

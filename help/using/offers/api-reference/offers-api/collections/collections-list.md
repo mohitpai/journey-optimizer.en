@@ -56,7 +56,7 @@ A successful response returns a list of collections that are present within the 
 
 ```json
 {
-        "results": [
+    "results": [
         {
             "created": "2022-09-16T18:59:23.063+00:00",
             "modified": "2022-09-16T18:59:23.063+00:00",
