@@ -206,4 +206,9 @@ currentActionField.description == "abc"
 )
 ```
 
-For more information on field references, see [this section](../building-journeys/expression/field-references.md).
+## Additional resources
+
+For more information, refer to these pages:
+
+* [Field references](../building-journeys/expression/field-references.md).
+* [Collection management functions](../building-journeys/expression/collection-management-functions.md)
