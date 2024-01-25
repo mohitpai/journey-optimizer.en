@@ -41,6 +41,6 @@ Returns `["A","B","C"]`
 
 Example with an event field 'event.appVersion' with value: "20.45.2.3434"
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 Returns `["20", "45", "2", "3434"]`

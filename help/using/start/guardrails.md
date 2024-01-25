@@ -94,6 +94,10 @@ Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the la
 * External data sources can be leveraged within a customer journey to lookup external data in real time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 * Internal Adobe addresses (`.adobe.*`) are not allowed in URLs and APIs.
 
+>[!NOTE]
+>
+>As the responses are now supported, you should use custom actions instead of data sources for external data sources use-cases.
+
 ### Journeys and profile creation {#journeys-limitation-profile-creation}
  
 There is a delay associated to API based profile creation/update in Adobe Experience Platform. The Service Level Target (SLT) in terms of latency is < 1 min from ingestion to Unified Profile for 95th percentile of requests, at a volume of 20K Requests per second (RPS).

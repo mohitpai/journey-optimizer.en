@@ -48,7 +48,7 @@ Returns a decimal.
 
 ## Examples
 
-`avg(@{BarBeacon.inventory},5)`
+`avg(@event{BarBeacon.inventory},5)`
 
 `avg([10,3,8])`
 

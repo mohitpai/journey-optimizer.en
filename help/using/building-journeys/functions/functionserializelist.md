@@ -29,7 +29,6 @@ List
 | DateTimeOnly | DateTimeOnly  |
 | List      | listString       |
 | List      | listBoolean      |
-| List      | listPoint        |
 | List      | listDecimal      |
 | List      | listDuration     |
 | List      | listDateTime     |
@@ -53,8 +52,6 @@ List
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Return a string.
 

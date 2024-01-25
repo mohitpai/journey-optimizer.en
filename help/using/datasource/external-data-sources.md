@@ -23,6 +23,10 @@ External data sources allow you to define a connection to third-party systems, f
 >
 >Guardrails when working with external systems are listed in [this page](../configuration/external-systems.md).
 
+>[!NOTE]
+>
+>As the responses are now supported, you should use custom actions instead of data sources for external data sources use-cases.
+
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.
 
 Let's take the example of a weather API service that I want to use to customize my journey's behaviors according to real-time weather data.

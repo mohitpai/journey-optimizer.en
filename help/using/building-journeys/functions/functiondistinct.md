@@ -12,10 +12,6 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 
 Returns the distinct values or objects of a given list. Null entries are ignored.
 
->[!NOTE]
->
->If the target list is a listObject, this function can only be used in custom action expressions.
-
 ## Category
 
 List

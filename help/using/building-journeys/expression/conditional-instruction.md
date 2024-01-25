@@ -58,7 +58,7 @@ The conditional instruction allows you to optimize the journey workflow by reduc
 Example for an action activity (for a field that expects a string as the result of the conditional instruction):
 
    ```json
-   if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
+   if (startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
    then
       ('apns')
    else

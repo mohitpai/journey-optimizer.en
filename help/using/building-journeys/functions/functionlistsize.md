@@ -51,8 +51,6 @@ List
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 Return an integer.
 
 ## Example

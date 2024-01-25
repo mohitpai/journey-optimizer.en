@@ -99,7 +99,7 @@ From there you can add another path in your journey for when the product is not 
 This condition retrieve only the geofence events triggered in "Arlington":
 
 ```json
-        @{GeofenceEntry
+        @event{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
@@ -111,7 +111,7 @@ Explanation: This is a strict string comparison (case sensitive), equivalent to 
 The same query with `Is sensitive` unchecked will generate the following expression in advanced mode:
 
 ```json
-        equalIgnoreCase(@{GeofenceEntry
+        equalIgnoreCase(@event{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
@@ -124,13 +124,13 @@ The following expression allows you to define the CRM ID in an action personaliz
 
 ```json
 substr(
-   @{MobileAppLaunch
+   @event{MobileAppLaunch
    ._myorganization
    .identification
    .crmid},
    1, 
    lastIndexOf(
-     @{MobileAppLaunch
+     @event{MobileAppLaunch
      ._myorganization
      .identification
      .crmid},
