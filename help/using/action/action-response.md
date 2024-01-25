@@ -204,6 +204,6 @@ count(
 currentActionField.description == "abc"
 )}
 )
-````
+```
 
 For more information on field references, see [this section](../building-journeys/expression/field-references.md).
