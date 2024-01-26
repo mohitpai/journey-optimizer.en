@@ -19,7 +19,7 @@ Early release notes below are subject to change without prior notice until the r
 
 ## January 2024 early release notes {#oct-jan-2024}
 
-**Release date**: Jan 20-31, 2024
+**Release date**: Jan 30-31, 2024
 
 ### New capabilities{#jan-2024-features}
 
@@ -51,7 +51,7 @@ This release comes with the improvements listed below.
 
 **Reporting**
  
-* **Channel reports by domain** - New widgets have been added to enhance your Campaign and Journey reports. The **Bounce Reasons by domain**, **Sent & delivered by domains**, **Opens & Clicks by domain** and **Bounce & errors by domain** widgets provide a detailed breakdown at the domain level for key email delivery and tracking metrics. [Learn more](../reports/channel-report.md) 
+* **Channel reports by domain** - New widgets have been added to enhance your Campaign and Journey reports. The **Bounce Reasons by domain**, **Sent & delivered by domains**, **Opens & Clicks by domain** and **Bounce & errors by domain** widgets provide a detailed breakdown at the domain level for key email delivery and tracking metrics.
 
 **SMS Channel**
 
@@ -61,7 +61,7 @@ This release comes with the improvements listed below.
 
 **Journeys**
 
-* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Learn more](../building-journeys/reaction-events.md)
+* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30.
 
 * **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges.
 
