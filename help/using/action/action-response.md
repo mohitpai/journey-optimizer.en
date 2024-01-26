@@ -196,4 +196,19 @@ Here are a few examples:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-For more information on field references, see [this section](../building-journeys/expression/field-references.md).
+While manipulating collections in a custom action response, you can rely on "currentActionField" to access the current item:
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
+```
+
+## Additional resources
+
+For more information, refer to these pages:
+
+* [Field references](../building-journeys/expression/field-references.md).
+* [Collection management functions](../building-journeys/expression/collection-management-functions.md)
