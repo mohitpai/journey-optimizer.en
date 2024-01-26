@@ -19,6 +19,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Journey timeout management has been detailed [in the following section](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentation home](../../ajo-home.md) page has been redesigned.
 * Recommendations about the Update Profiles activity have been added. [Read more](../building-journeys/update-profiles.md) 
+* Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 
 ## November 2023 {#nov-2023}
 
