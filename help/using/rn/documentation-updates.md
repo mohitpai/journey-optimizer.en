@@ -15,11 +15,20 @@ This page lists all the latest updates in [!DNL Journey Optimizer] documentation
 
 ## January 2024 {#jan-2024}
 
+* All new features and improvements coming with [!DNL Journey Optimizer] January '24 release have been detailed in the documentation. [Read more](release-notes.md)
 * A guardrail about the journey size has been added. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 * Journey timeout management has been detailed [in the following section](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentation home](../../ajo-home.md) page has been redesigned.
 * Recommendations about the Update Profiles activity have been added. [Read more](../building-journeys/update-profiles.md) 
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
+* In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
+* More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
+* An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
+* Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
+* The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
+
+
 
 ## November 2023 {#nov-2023}
 

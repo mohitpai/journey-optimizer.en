@@ -196,7 +196,7 @@ Here are a few examples:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-While manipulating collections in a custom action response, you can rely on "currentActionField" to access the current item:
+While manipulating collections in a custom action response, you can rely on `currentActionField` to access the current item:
 
 ```json
 count(

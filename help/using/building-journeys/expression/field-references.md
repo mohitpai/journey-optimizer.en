@@ -50,7 +50,7 @@ A default value can be associated with a field name. The syntax is as follows:
 
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, @event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` is invalid because the default value is an integer whereas the expected value should be a string.
 
 Examples:
 
@@ -111,7 +111,7 @@ In order to retrieve an element in a map, we use the entry function with a given
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
+In this expression, we are getting the entry for 'Email' key of the 'IdentityMap' field of an event. The 'Email' entry is a collection, from which we take the 'id' in the first element using 'first()'. For more information, see [this page](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` function
 
