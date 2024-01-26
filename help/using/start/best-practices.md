@@ -59,3 +59,5 @@ There are a number of best practices that you can adopt, that will help you stay
 * If the same conditions are repeated across multiple journeys (consent checks, suppressions), consider moving them as part of segment definition. For example, if you have a condition to check "email address is not empty" across multiple journeys, have that condition included as part of segment definition.
 * If your journey has several conditions splitting the audience to see the numbers at each step, consider using Customer Journey Analytics or other reporting solution that are better suited for analysis.
 * If you are nearing the limit of nodes on the canvas, consider consolidation of actions with dynamic parameters or content to serve the right content instead of explicit nodes.
+
+* If you are have a **Read Audience** journey with batch segment (A) and if  you are using within the journey inAudience streaming segment (B) to exclude (i.e. perform A-B), consider moving that logic to segmentation logic and use the exclusion as part of the segmentation logic itself.
