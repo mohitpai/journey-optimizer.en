@@ -60,3 +60,5 @@ The general workflow is:
 * The **profileID** field in the associated "Journey Step Event schema for Journey Orchestration" is defined as an Identity field. In [!DNL Customer Journey Analytics], you can then link this dataset to any other dataset that has the same value as the person based identifier.
 * To use this dataset in [!DNL Customer Journey Analytics], for cross-channel journey analysis, refer to [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
+➡️ [Work with Customer Journey Analytics](cja-ajo.md){target="_blank"}
+
