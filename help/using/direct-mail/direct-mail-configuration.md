@@ -149,13 +149,7 @@ You can now [create a direct mail message](../direct-mail/create-direct-mail.md)
 
 >[!NOTE]
 >
->Duplicate rows will be automatically removed.
->
-
-<!--If the maximum number of records (i.e. rows) for each file containing profile data is too high, another file will be automatically created for the remaining records.-->
-
-
-We no longer create multiple files for direct mail, nor do we have a record threshold count. Note: we do remove duplicate rows if all the values in the row are the same.
+>Duplicate rows where all the values in the row are the same are automatically removed from the file.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
