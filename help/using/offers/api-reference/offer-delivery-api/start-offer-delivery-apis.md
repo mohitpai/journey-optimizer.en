@@ -118,7 +118,7 @@ When passing context data with an Edge Decisioning API request, data is stored i
 
 **Frequency capping counter update**
 
-If frequency capping has been enabled for some of your offers, to define how often their capping count is reset, the counter is updated and available in an Edge Decisioning API decision in less than 3 seconds. [Learn how to add constraints to an offer](../../offer-library/add-constraints.md)
+If frequency capping has been enabled for some of your offers to define how often their capping count is reset, the counter is updated and available in an Edge Decisioning API decision in less than 3 seconds. [Learn how to add constraints to an offer](../../offer-library/add-constraints.md)
 
 ## Decisioning API capabilities {#decisioning}
 
