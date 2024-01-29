@@ -8,8 +8,6 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomain, domain, mail, dmarc, record
-hide: yes
-hidefromtoc: yes
 
 ---
 # DMARC record {#dmarc-record}
