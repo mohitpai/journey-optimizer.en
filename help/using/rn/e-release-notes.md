@@ -38,7 +38,7 @@ This release brings the new capabilities listed below.
 <p>Journey Optimizer now supports the DMARC authentication technology.</p>
 <p>Starting on February 1st, 2024, Google and Yahoo! will be requiring that you have a DMARC record for any domain you use to send email to them. Make sure that you have DMARC record set up for all the subdomains that you have delegated or are delegating to Adobe in Journey Optimizer.</p>
 <!--img src="assets/channel-reports.png"/-->
-<p>For more information, refer to the <a href="../configuration/dmarc-record-update.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/dmarc-record.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -69,8 +69,7 @@ This release comes with the improvements listed below.
 
 **Frequency Rules**
 
-* **Weekly and daily frequency cap** - You can now specify the maximum number of messages sent to a customer profile in a week or a day, in addition to month. The frequency cap is based on the selected calendar period and reset at the beginning of the corresponding time frame.    
-
+* **Weekly and daily frequency cap** - You can now specify the maximum number of messages sent to a customer profile in a week or a day, in addition to month. The frequency cap is based on the selected calendar period and reset at the beginning of the corresponding time frame. [Learn more](using/configuration/frequency-rules.md#create-new-rule)
 
 **Decision management**
 
