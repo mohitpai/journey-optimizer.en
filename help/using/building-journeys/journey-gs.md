@@ -69,6 +69,10 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 In the list of journeys, you can leverage various filters to refine the list of journeys for better readability.
 
+![](assets/filter-journeys.png)
+
+Here are the various filtering operations that you can perform:
+
 * Filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**.
 
     The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**.
@@ -77,11 +81,9 @@ In the list of journeys, you can leverage various filters to refine the list of 
 
 * Use the **[!UICONTROL Publication filters]** to select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday.
 
-![](assets/filter-journeys.png)
-
 * Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
 
-* In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
+Additionally, in the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
 ![](assets/journey3bis.png)
 
