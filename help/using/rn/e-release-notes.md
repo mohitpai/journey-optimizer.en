@@ -17,11 +17,11 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 
 Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published  in the [release notes](release-notes.md), at the release date.
 
-## January 2024 early release notes {#oct-jan-2024}
+## January 2024 early release notes {#e-2024}
 
 **Release date**: Jan 20-31, 2024
 
-### New capabilities{#jan-2024-features}
+### New capabilities{#e-features}
 
 This release brings the new capabilities listed below.
 
@@ -45,7 +45,7 @@ This release brings the new capabilities listed below.
 
 
 
-### Improvements {#jan-2024-improvements}
+### Improvements {#e-improvements}
 
 This release comes with the improvements listed below.
 
