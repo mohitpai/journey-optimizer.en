@@ -79,6 +79,12 @@ To fully delegate a new subdomain to Adobe, follow the steps below:
     >
     >You can create the records and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
+1. If the subdomain does not have DMARC record, you can set it up here. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
+
+    ![](assets/dmarc-record-found.png)
+
+    <!--update screen when available-->
+
 1. Once the full subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
 
     ![](assets/subdomain-processing.png)
@@ -148,6 +154,8 @@ To delegate a subdomain using CNAMEs, follow the steps below:
     >[!NOTE]
     >
     >You can create the records later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation at this stage by opening it from the subdomains list.
+
+1. If the subdomain does not have DMARC record, you can set it up here. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
 
 1. Wait until Adobe verifies that these records are generated without errors on your hosting solution. This process can take up to 2 minutes.
 
