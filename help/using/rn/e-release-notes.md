@@ -74,4 +74,4 @@ This release comes with the improvements listed below.
 
 **Decision management**
 
-* **Frequency caping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds.
+* **Frequency capping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds.
