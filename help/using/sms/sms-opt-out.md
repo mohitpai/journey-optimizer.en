@@ -20,8 +20,16 @@ In accordance with the industry standards and regulations, all SMS marketing mes
 
 ## Native inbound keywords {#sms-native-keywords}
 
-By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Short codes, Toll-Free and Long Code messages: STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE. Note that only Sinch and Infobip support Native keywords when used with Journey Optimizer.
- 
+>[!NOTE]
+>
+> Only Sinch and Infobip support Native keywords when used with Journey Optimizer.
+
+By default, Adobe Journey Optimizer handles the following standard English-language reply messages for Short codes, Toll-Free and Long Code messages:
+
+* **Opt-Out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO.
+* **Opt-In**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN.
+* **Help**: HELP.
+
 These keywords typically trigger an automatic standard reply from your third party provider. You can confirm this directly with your provider or via their documentation site.
 
 No steps are required to ensure that SMS opt-out capabilities are working in Adobe Journey Optimizer as the keyword responses STOP, UNSTOP, START, QUIT, CANCEL, END, and UNSUBSCRIBE are automatically recognized. Profiles opt-out statuses are updated in real time in Adobe Journey Optimizer.
