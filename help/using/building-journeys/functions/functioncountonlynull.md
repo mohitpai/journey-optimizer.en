@@ -12,6 +12,8 @@ exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
 
 Counts the number of null values in the list.
 
+Note that the parameter `<listObject>` is not supported in this function.
+
 ## Category
 
 Aggregation
@@ -24,14 +26,7 @@ Aggregation
 
 | Parameter | Type             |
 |-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly|
 
 ## Signature and returned type
 

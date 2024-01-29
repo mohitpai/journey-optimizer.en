@@ -72,3 +72,7 @@ Returns `["A","B","C"]`.
 
 Returns `[3, 2, 1]`.
 
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Returns the listObject ordered by SKU attribute (ascending order)
+

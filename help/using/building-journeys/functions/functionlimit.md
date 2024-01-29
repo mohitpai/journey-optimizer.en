@@ -12,10 +12,6 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 
 Returns the first or last N elements of a list.
 
->[!NOTE]
->
->If the target list is a listObject, this function can only be used in custom action expressions.
-
 ## Category
 
 List
