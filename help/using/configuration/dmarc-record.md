@@ -106,7 +106,7 @@ To make sure that you have DMARC record set up for all the subdomains that you h
 
 1. Save your changes.
 
-## Set up DMARC for new subdomains {#set-up-dmarc}
+### Set up DMARC for new subdomains {#set-up-dmarc}
 
 When delegating new subdomains to Adobe in [!DNL Journey Optimizer], a DMARC record will be created in DNS for your domain. Follow the steps below to implement DMARC.
 
