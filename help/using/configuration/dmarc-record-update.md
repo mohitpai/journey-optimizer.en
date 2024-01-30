@@ -63,6 +63,6 @@ The most recent timelines shared by Google and Yahoo are as follows:
 **Useful links**
 
 * Learn more about DMARC in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
-* Learn more about guidance about these changes in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
+* Find more guidance about these changes in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
 * Read out [Google Gmail announcement](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * Read out [Yahoo! announcement](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
