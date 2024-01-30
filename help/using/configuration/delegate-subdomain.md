@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Delegate a subdomain
 description: Learn how to delegate your subdomains.
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
