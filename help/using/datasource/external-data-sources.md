@@ -120,9 +120,12 @@ With this authentication, the action execution is a two-step process:
 1. Call the endpoint to generate the access token.
 1. Call the REST API by injecting in the proper way the access token.
 
-This authentication has two parts.
 
-The definition of the endpoint to be called to generate the access token:
+>[!NOTE]
+>
+>**This authentication has two parts.**
+
+### Definition of the endpoint to be called to generate the access token
 
 * endpoint: URL to use to generate the endpoint
 * method of the HTTP request on the endpoint (GET or POST)
@@ -131,7 +134,7 @@ The definition of the endpoint to be called to generate the access token:
     * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key-value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
     * 'json': meaning that the content type will be application/json (charset UTF-8) and the key-value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
 
-The definition of the way the access token must be injected in the HTTP request of the action:
+### Definition of the way the access token must be injected in the HTTP request of the action
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
 
@@ -148,8 +151,6 @@ The format of this authentication is:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -161,10 +162,16 @@ The format of this authentication is:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -226,14 +233,19 @@ Here is an example for the header authentication type:
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 Here is an example of the response of the login API call:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```
