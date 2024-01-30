@@ -42,7 +42,7 @@ Consequently, Adobe strongly recommends you ensure that you have DMARC record se
     
         However, with CNAME delegation it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30). [Learn more](dmarc-record.md#implement-dmarc)
     
-**A self service interface for DMARC implementation will be available to you staring Jan, 30. Learn more in [this section](dmarc-record.md).**
+**A self service interface for DMARC implementation will be available to you staring Jan, 30. Learn more in [this section](dmarc-record.md#implement-dmarc).**
 
 The most recent timelines shared by Google and Yahoo are as follows:
 
