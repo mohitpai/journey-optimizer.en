@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Comply with new DMARC requirement
 description: Learn why and when you must set DMARC record in Journey Optimizer
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
@@ -17,33 +17,32 @@ keywords: subdomain, domain, mail, dmarc, record
 >title="Learn more on mandatory DMARC update"
 >abstract="As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**.<br>Consequently, you must make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
+Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication method that allows domain owners to protect their domain from unauthorized use. By offering a clear policy to email providers/ISPs, it helps prevent malicious actors from sending emails claiming to be from your domain. Implementing DMARC reduces the risk of legitimate emails being marked as spam or rejected, and improve your email deliverability.
 
-Learn more on Google and Yahoo's requirement in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+
+As part of their enforcing industry best practices, Google and Yahoo! are both requiring that a **DMARC record** for any domain you use to send email to them. This new requirement applies starting **February 1st, 2024**. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Failing to comply with this new requirement from Gmail and Yahoo is expected to result in emails landing into the spam folder or getting blocked.
+>Failing to comply with this new requirement from Gmail and Yahoo! is expected to result in emails landing into the spam folder or getting blocked.
 
 Consequently, Adobe strongly recommends you ensure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in [!DNL Journey Optimizer]. Follow the steps below that apply to your case:
 
-* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
+* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow one of the options below:
 
     * Set up DMARC on the parent domain of your delegated subdomains **in your hosting solution**.
+        or
+    * Set up DMARC on your delegated subdomains **in the [!DNL Journey Optimizer]** configuration user interface - with no extra work on your hosting solution. [Learn how](dmarc-record.md#implement-dmarc)
 
-    * Set up DMARC on your delegated subdomains **in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. [Learn how](dmarc-record.md#implement-dmarc)
+* If you have set up your sending subdomains with [CNAME](delegate-subdomain.md#cname-subdomain-delegation), follow one of the options below:
 
-* If you have set up your sending subdomains with [CNAME](delegate-subdomain.md#cname-subdomain-delegation), follow either one of the two options below:
     * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
-    * Set up DMARC on your delegated subdomains **in the [!DNL Journey Optimizer] administration UI**. [Learn how](dmarc-record.md#implement-dmarc)
+        or
+    * Set up DMARC on your delegated subdomains **in the [!DNL Journey Optimizer]** configuration user interface. [Learn how](dmarc-record.md#implement-dmarc)
     
         However, with CNAME delegation it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30). [Learn more](dmarc-record.md#implement-dmarc)
     
-**More details on the [!DNL Journey Optimizer] DMARC upcoming feature are available in [this section](dmarc-record.md).**
-
->[!NOTE]
->
->If you have any questions or need support, contact your Adobe Deliverability Consultant or your Adobe representative.
+**A self service interface for DMARC implementation will be available to you staring Jan, 30. Learn more in [this section](dmarc-record.md).**
 
 The most recent timelines shared by Google and Yahoo are as follows:
 
@@ -59,4 +58,11 @@ The most recent timelines shared by Google and Yahoo are as follows:
 
 >[!NOTE]
 >
->Learn more on implementing DMARC in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} to better understand the impact on email deliverability.
+>If you have any questions or need support, contact your Adobe Deliverability Consultant or your Adobe representative.
+
+**Useful links**
+
+* Learn more about DMARC in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
+* Learn more about guidance about these changes in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
+* Read out [Google Gmail announcement](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Read out [Yahoo! announcement](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
