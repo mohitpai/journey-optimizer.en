@@ -15,7 +15,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 
 [!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in the [release notes](release-notes.md). 
 
-Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published  in the [release notes](release-notes.md), at the release date.
+Early release notes below are subject to change without prior notice until the release availability date. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
 ## January 2024 early release notes {#e-2024}
 
@@ -54,7 +54,7 @@ This release brings the new capabilities listed below.
 <td>
 <p>Leverage a catalog of industry-specific use case playbooks in Real-Time CDP and Journey Optimizer to address common use cases that you can perform using Adobe Experience Platform and Adobe Journey Optimiser.</p><p>Once you have chosen the playbook that best fits your needs, you can enable it to generate the assets needed to support your use case such as journeys, messages, schemas or segments, and customize them to your schema for faster time to value.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
-<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+<!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
 </table>
