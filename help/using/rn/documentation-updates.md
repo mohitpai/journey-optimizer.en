@@ -30,6 +30,11 @@ This page lists all the latest updates in [!DNL Journey Optimizer] documentation
 * Best practices have been added when choosing an endpoint to target using a custom action. [Read more](../action/about-custom-action-configuration.md)
 * An note has been added to notify users that events cannot be fired from external systems using an API. [Read more](../building-journeys/testing-the-journey.md#important-notes)
 * Information on the **currentActionField** function has been added to the list of [collection management functions](../building-journeys/expression/collection-management-functions.md). An expression sample leveraging the function has been added in the [Use API call reponses in custom actions](../action/action-response.md) page.
+* Update custom authentication doc regarding cache duration. [Read more] (../datasource/external-data-sources.md)
+* Support of `<listObject>` has been modified in multiple functions.
+* Update the **duration** parameter in the `toString` function. [Read more](../building-journeys/functions/functiontostring.md)
+* For some external data sources use-cases, usage of custom actions is recommanded.
+* Event field syntax has been updated.
 
 ## November 2023 {#nov-2023}
 

@@ -65,6 +65,8 @@ This release comes with the improvements listed below.
 
 * **Read audience**  - The Read Audience activity now relies on the profile snapshot dataset for batch segments, which is only generated once, a day after the scheduled daily batch job is run.
 
+* **Field Groups** - Made a fix around an issue that was blocking Field Groups to be saved in certain cases.
+
 **Frequency Rules**
 
 * **Weekly and daily frequency cap** - You can now specify the maximum number of messages sent to a customer profile in a week or a day, in addition to month. The frequency cap is based on the selected calendar period and reset at the beginning of the corresponding time frame. [Learn more](../configuration/frequency-rules.md#create-new-rule)
