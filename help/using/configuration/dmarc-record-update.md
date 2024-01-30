@@ -20,7 +20,7 @@ keywords: subdomain, domain, mail, dmarc, record
 Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication method that allows domain owners to protect their domain from unauthorized use. By offering a clear policy to email providers/ISPs, it helps prevent malicious actors from sending emails claiming to be from your domain. Implementing DMARC reduces the risk of legitimate emails being marked as spam or rejected, and improve your email deliverability.
 
 
-As part of their enforcing industry best practices, Google and Yahoo! are both requiring that a **DMARC record** for any domain you use to send email to them. This new requirement applies starting **February 1st, 2024**. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+As part of their enforcing industry best practices, Google and Yahoo! are both requiring that a **DMARC record** for any domain you use to send email to them. This new requirement applies starting **February 1st, 2024**. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -42,7 +42,7 @@ Consequently, Adobe strongly recommends you ensure that you have DMARC record se
     
         However, with CNAME delegation it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30). [Learn more](dmarc-record.md#implement-dmarc)
     
-**A self service interface for DMARC implementation will be available to you staring Jan, 30. Learn more in [this section](dmarc-record.md#implement-dmarc).**
+**A self-service interface for DMARC implementation will be available to you starting Jan, 30. Learn more in [this section](dmarc-record.md#implement-dmarc).**
 
 The most recent timelines shared by Google and Yahoo are as follows:
 
