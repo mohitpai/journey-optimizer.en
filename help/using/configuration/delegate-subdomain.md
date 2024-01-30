@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Delegate a subdomain
 description: Learn how to delegate your subdomains.
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
@@ -71,21 +71,21 @@ To fully delegate a new subdomain to Adobe, follow the steps below:
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
-1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
+1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...".
 
     ![](assets/subdomain-submit.png)
+
+1. Set up DMARC record. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
+
+    ![](assets/dmarc-record-found.png)
+
+1. Click **[!UICONTROL Submit]**. 
 
     >[!NOTE]
     >
     >You can create the records and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
-
-1. If the subdomain does not have DMARC record, you can set it up here. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
-
-    ![](assets/dmarc-record-found.png)
-
-    <!--update screen when available-->
-
-1. Once the full subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
+    
+1. The subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
 
     ![](assets/subdomain-processing.png)
 
@@ -107,7 +107,7 @@ Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record
 >
 >Parallel execution of subdomains is currently not supported in [!DNL Journey Optimizer]. If you try to submit a subdomain for delegation when another one has the **[!UICONTROL Processing]** status, you will get an error message.
 
-## CNAME subdomain delegation {#cname-subdomain-delegation}
+## CNAME subdomain set up {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -121,7 +121,7 @@ Once a subdomain is delegated to Adobe in [!DNL Journey Optimizer], a PTR record
 
 If you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
 
-CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.
+CNAME subdomain set up enables you to create a subdomain and use CNAMEs to point to Adobe-specific records. Using this configuration, both you and Adobe share responsibility for maintaining DNS in order to setup environment for sending, rendering and tracking emails.
 
 >[!CAUTION]
 >
@@ -129,7 +129,7 @@ CNAME subdomain delegation enables you to create a subdomain and use CNAMEs to p
 
 ➡️ [Learn how to create a subdomain using CNAME to point to Adobe-specific records in this video](#video)
 
-To delegate a subdomain using CNAMEs, follow the steps below:
+To set up a subdomain using CNAMEs, follow the steps below:
 
 1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
 
@@ -151,13 +151,17 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 
     ![](assets/subdomain-create-dns-confirm.png)
 
+1. Set it up DMARC record. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
+
+    ![](assets/dmarc-record-found.png)
+
+1. Click **[!UICONTROL Continue]**. 
+
     >[!NOTE]
     >
     >You can create the records later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation at this stage by opening it from the subdomains list.
 
-1. If the subdomain does not have DMARC record, you can set it up here. If the subdomain has an existing DMARC record, and if it is fetched by [!DNL Journey Optimizer], you can use the same values or change them as needed. If you do not add any values, the default values will be used. [Learn more](dmarc-record.md)
-
-1. Wait until Adobe verifies that these records are generated without errors on your hosting solution. This process can take up to 2 minutes.
+1. Wait until Adobe verifies that the records are generated without errors on your hosting solution. This process can take up to 2 minutes.
 
     >[!NOTE]
     >
@@ -166,10 +170,6 @@ To delegate a subdomain using CNAMEs, follow the steps below:
 1. Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
     <!--![](assets/subdomain-cdn-url-validation.png)-->
-
-    >[!NOTE]
-    >
-    >You can also create the validation record and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
 1. Once the CNAME subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](about-subdomain-delegation.md#access-delegated-subdomains).
 
