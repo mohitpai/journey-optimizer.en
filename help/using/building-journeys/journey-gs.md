@@ -73,15 +73,17 @@ In the list of journeys, you can leverage various filters to refine the list of 
 
 Here are the various filtering operations that you can perform:
 
-* Filter journeys according to their status, type and version from the **[!UICONTROL Status and version filters]**.
+* Filter journeys according to their status, type, version and assigned tags from the **[!UICONTROL Status and version filters]**.
 
     The type can be: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** or **[!UICONTROL Burst]**.
+
+* Use the **[!UICONTROL Creation filters]** to filter journeys according to their creation date or the user who created them.
 
 * Display journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. 
 
 * Use the **[!UICONTROL Publication filters]** to select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday.
 
-* Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
+    To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.
 
 Additionally, in the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
