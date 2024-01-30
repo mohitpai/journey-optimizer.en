@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Release notes
+title: Early Release notes
 description: Journey Optimizer early Release notes
 feature: Release Notes
 topic: Content Management
