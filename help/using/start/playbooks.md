@@ -10,7 +10,9 @@ level: Beginner
 ---
 # Use Case Playbooks {#playbooks}
 
-Use Case Playbooks are pre-defined workflows addressing common use cases that you can perform using Adobe Experience Platform.
+Use Case Playbooks are pre-defined workflows addressing common use cases that you can perform using Adobe Experience Platform and Journey Optimizer.
+
+![animated image showing Use Case Playbooks](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 
 Each playbook provides a comprehensive overview, including the intent, goals, targeted personas and resources needed to implement it. Additionally, a mindmap is available in each playbook to visually represent real-life customer touchpoints associated with the playbook.
 
