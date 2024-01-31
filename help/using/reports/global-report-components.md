@@ -58,7 +58,7 @@ The tables below give you the list of metrics used in reports and their definiti
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br/> </td> 
+   <td> Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.<br/> </td> 
 </tr> 
   <tr> 
    <td> Bounce Rate<br/> </td> 
@@ -78,16 +78,16 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
   <tr> 
    <td> Errors<br/> </td> 
-   <td> Total number of errors that occurred during a delivery preventing it from being sent to profiles.<br/> </td> 
+   <td> Total number of errors that occurred during the sending process preventing it from being sent to profiles.<br/> </td> 
 </tr> 
   <tr> 
    <td> Error Rate<br/> </td> 
-   <td> Percentage of errors that occurred during a delivery preventing it from being sent compared to emails sent.<br/> </td> 
+   <td> Percentage of errors that occurred during the sending process preventing it from being sent compared to emails sent.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Error Reason<br/> </td> 
-   <td> Name of the specific original cause of the error. <a href="error-list.md">Learn more on error reasons</a>.<br/> </td> 
+   <td> Name of the specific original cause of the error. <a href="exclusion-list.md">Learn more on error reasons</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluded<br/> </td> 
@@ -334,7 +334,7 @@ The tables below give you the list of metrics used in reports and their definiti
 </tr>
   <tr> 
    <td> Error Reason<br/> </td> 
-   <td> Name of the specific original cause of the error. <a href="error-list.md">Learn more on error reasons</a>.<br/> </td> 
+   <td> Name of the specific original cause of the error. <a href="exclusion-list.md">Learn more on error reasons</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluded<br/> </td> 
