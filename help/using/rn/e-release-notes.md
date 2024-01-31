@@ -77,7 +77,7 @@ This release comes with the improvements listed below.
 
 * **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges.
 
-* **Read audience**  - The Read Audience activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run.
+* **Read audience**  - The Read Audience activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run, hence the data will be fresh up to that last daily batch job.
 
 **Frequency Rules**
 
