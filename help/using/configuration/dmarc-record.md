@@ -74,7 +74,7 @@ Consequently, Adobe strongly recommends you take the following actions:
 
 ## Implement DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
-Starting on **January 30, 2024**, the [!DNL Journey Optimizer] administration interface will allow you to set up DMARC record for all the subdomains that you have already delegated or are delegating to Adobe. The detailed steps are described below.
+The [!DNL Journey Optimizer] administration interface allows you to set up DMARC record for all the subdomains that you have already delegated or are delegating to Adobe. The detailed steps are described below.
 
 ### Check your existing subdomains for DMARC {#check-subdomains-for-dmarc}
 
