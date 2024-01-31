@@ -24,9 +24,9 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 ## January 2024 early release notes {#jan-2024}
 
-**Release date**: Jan 20-31, 2024
+**Release date**: Jan 30-31, 2024
 
-### New capabilities{#jan-2024-features}
+### New capabilities{#jan24-features}
 
 This release brings the new capabilities listed below.
 
@@ -42,16 +42,29 @@ This release brings the new capabilities listed below.
 <td>
 <p>Journey Optimizer now supports the DMARC authentication technology.</p>
 <p>Starting on February 1st, 2024, Google and Yahoo! will be requiring that you have a DMARC record for any domain you use to send email to them. Make sure that you have DMARC record set up for all the subdomains that you have delegated or are delegating to Adobe in Journey Optimizer.</p>
-<img src="assets/do-not-localize/dmarc.gif"/>
 <p>For more information, refer to the <a href="../configuration/dmarc-record-update.md">detailed documentation</a>.</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Use Case Playbooks</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Leverage a catalog of industry-specific use case playbooks in Real-Time CDP and Journey Optimizer to address common use cases that you can perform using Adobe Experience Platform and Adobe Journey Optimiser.</p><p>Once you have chosen the playbook that best fits your needs, you can enable it to generate the assets needed to support your use case such as journeys, messages, schemas or segments, and customize them to your schema for faster time to value.</p>
+<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+</tr>
+</tbody>
+</table>
 
-
-
-### Improvements {#jan-2024-improvements}
+### Improvements {#jan24-improvements}
 
 This release comes with the improvements listed below.
 
@@ -61,17 +74,19 @@ This release comes with the improvements listed below.
 
 **SMS Channel**
 
-* **Double Opt-In** - The Double Opt-In workflow for SMS guarantees that users explicitly opt-in to receive messages when the request is initiated from their device. Users initiate the consent process by sending an inbound SMS message. Upon confirming their consent, a follow-up message is sent, requesting final verification. If a user profile does not exist, it is created upon successful confirmation. 
+* **Double Opt-In** - The Double Opt-In workflow for SMS guarantees that users explicitly opt-in to receive messages when the request is initiated from their device. Users initiate the consent process by sending an inbound SMS message. Upon confirming their consent, a follow-up message is sent, requesting final verification. If a user profile does not exist, it is created upon successful confirmation. [Learn more](../sms/sms-configuration.md#create-api) 
 
-   Note that this only applies to Sinch and Infobip SMS providers.
+   Note that this capability is available with Sinch and Infobip SMS providers.
 
 **Journeys**
 
 * **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Learn more](../building-journeys/reaction-events.md)
 
-* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges.
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Read audience**  - The Read Audience activity now relies on the profile snapshot dataset for batch segments, which is only generated once, a day after the scheduled daily batch job is run.
+* **Read audience**  - The **Read Audience** activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run, hence the data will be fresh up to that last daily batch job.
+
+* **Field Groups** - This release fixes an issue which was blocking Field Groups from being saved in certain cases.
 
 **Frequency Rules**
 
@@ -80,6 +95,3 @@ This release comes with the improvements listed below.
 **Decision management**
 
 * **Frequency capping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds.
-
-
-
