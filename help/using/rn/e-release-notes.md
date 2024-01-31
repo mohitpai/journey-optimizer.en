@@ -83,6 +83,8 @@ This release comes with the improvements listed below.
 
 * **Field Groups** - Made a fix around an issue that was blocking Field Groups to be saved in certain cases.
 
+* **Expression Editor** - We are now supporting the listObject data type in all expressions and in additional functions. [More info](../building-journeys/expression/functions.md)
+
 **Frequency Rules**
 
 * **Weekly and daily frequency cap** - You can now specify the maximum number of messages sent to a customer profile in a week or a day, in addition to month. The frequency cap is based on the selected calendar period and reset at the beginning of the corresponding time frame. [Learn more](../configuration/frequency-rules.md#create-new-rule)
