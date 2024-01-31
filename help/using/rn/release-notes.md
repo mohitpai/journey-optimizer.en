@@ -30,7 +30,6 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 This release brings the new capabilities listed below.
 
-
 <table>
 <thead>
 <tr>
@@ -84,7 +83,7 @@ This release comes with the improvements listed below.
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Read audience**  - The **Read Audience** activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run, hence the data will be fresh up to that last daily batch job.
+* **Read audience**  - The **Read Audience** activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run, hence the data will be fresh up to that last daily batch job. [Learn more](../building-journeys/read-audience.md)
 
 * **Field Groups** - This release fixes an issue which was blocking Field Groups from being saved in certain cases.
 
@@ -94,4 +93,4 @@ This release comes with the improvements listed below.
 
 **Decision management**
 
-* **Frequency capping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds.
+* **Frequency capping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds. [Learn more](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
