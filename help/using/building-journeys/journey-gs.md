@@ -44,7 +44,7 @@ In order to send messages with journeys, the following configurations are requir
 >title="Journeys"
 >abstract="Design customer journeys to deliver personalized, contextual experiences. Journey Optimizer allow you to build real-time orchestration use cases with contextual data stored in events or data sources. The **Overview** tab displays a dashboard with key metrics related to your journeys. The **Browse** tab displays the list of existing journeys."
 
-### Key metrics & journeys' list {#access}
+### Key metrics & journeys' list {#access-metrics}
 
 In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
 
@@ -142,7 +142,7 @@ When the **Allow re-entrance** option is activated, the **Re-entrance wait perio
 
 Learn more about profile entrance and re-entrance management, in [this section](entry-management.md).
 
-### Manage access {#access}
+### Manage access {#manage-access}
 
 To assign custom or core data usage labels to the journey, click the **[!UICONTROL Manage access]** button. [Learn more on Object Level Access Control (OLA)](../administration/object-based-access.md)
 
