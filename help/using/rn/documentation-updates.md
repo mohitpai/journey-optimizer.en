@@ -34,7 +34,8 @@ This page lists all the latest updates in [!DNL Journey Optimizer] documentation
 * Support of `<listObject>` has been modified in multiple functions.
 * Update the **duration** parameter in the `toString` function. [Read more](../building-journeys/functions/functiontostring.md)
 * For some external data sources use-cases, usage of custom actions is recommanded.
-* Event field syntax has been updated.
+* Event field syntax has been updated. The following syntax is deprecated `@(my_event.myfield}` and replaced by `@event{my_event.myfield}`. [Read more](../building-journeys/expression/field-references.md)
+
 
 ## November 2023 {#nov-2023}
 
