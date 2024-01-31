@@ -63,7 +63,7 @@ Returns common items between profile attributes and given list of categories.
 ```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
-        @{myEvent.sport_interests}
+        @event{myEvent.sport_interests}
 )
 ```
 

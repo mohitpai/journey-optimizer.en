@@ -22,16 +22,10 @@ Aggregation
 
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | List to process. For listObject, it must be a field reference. |
+| keyAttributeName | string | This parameter is optional and only for listObject. If the parameter is not provided, an object is considered as duplicated if all the attributes have the same values. Otherwise, an object is considered as duplicated if the given attribute has the same value. |
 
 ## Signature and returned type
 
@@ -39,8 +33,23 @@ Aggregation
 
 Returns an integer.
 
+`distinctCount(<listObject>)`
+
+`distinctCount(<listObject>,<string>)`
+
+Returns a list of objects.
+
+
 ## Example
 
 `distinctCount([10,2,10,null])`
 
 Returns 2.
+
+`distinctCount(@event{my_event.productListItems})`
+
+Returns the number of strictly distinct objects in the given array of objects (listObject type).
+
+`distinctCount(@event{my_event.productListItems}, "SKU")`
+
+Returns the number of objects which have a distinct "SKU" attribute value{}.

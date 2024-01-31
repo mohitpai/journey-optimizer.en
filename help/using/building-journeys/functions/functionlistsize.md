@@ -22,16 +22,9 @@ List
 
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | List to process. For listObject, it must be a field reference. A listObject cannot contain null object. |
 
 ## Signatures and returned type
 
@@ -51,12 +44,16 @@ List
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 Return an integer.
+
+`listSize(<listObject>)`
 
 ## Example
 
 `listSize([10,2,3])`
 
 Returns 3.
+
+`listSize(@event{my_event.productListItems})`
+
+Returns the number of objects in the given array of objects (listObject type).

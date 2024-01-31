@@ -10,7 +10,7 @@ exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 ---
 # serializeList {#serializeList}
 
-Converts the list (any type) given in the first parameter to a string. The second parameter represents the separator to use. The third parameter is a boolean value indicating if each element of the expression should include quotes.
+Converts a given list (any type except listObject) into a string.
 
 ## Category
 
@@ -22,19 +22,11 @@ List
 
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| String    | String           |
-| Boolean   | Boolean          |
-| DateTimeOnly | DateTimeOnly  |
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listPoint        |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | List to convert into a string. |
+| separator | string | Separator between each list element in the output string. |
+| addQuotes | boolean | This parameter indicates if each element in the output string should include quotes (true) or not (false). |
 
 ## Signature and returned type
 
@@ -53,8 +45,6 @@ List
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Return a string.
 

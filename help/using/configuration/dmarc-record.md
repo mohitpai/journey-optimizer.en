@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: DMARC record
 description: Learn how to set DMARC record in Journey Optimizer
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
@@ -19,7 +19,7 @@ keywords: subdomain, domain, mail, dmarc, record
 
 ## What is DMARC? {#what-is-dmarc}
 
-DMARC, which stands for **Domain-based Message Authentication, Reporting, and Conformance**, is an email authentication method that allows domain owners to protect their domain from unauthorized use. By offering a clear policy to email providers/ISPs, it helps prevent malicious actors from sending emails claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected, and improve your email deliverability.
+Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication method that allows domain owners to protect their domain from unauthorized use. By offering a clear policy to email providers/ISPs, it helps prevent malicious actors from sending emails claiming to be from your domain. Implementing DMARC reduces the risk of legitimate emails being marked as spam or rejected, and improve your email deliverability.
 
 DMARC also offers reporting on messages that fail authentication, along with control over the handling of emails that do not pass DMARC validation. Depending on the implemented [DMARC policy](#dmarc-policies), these emails can be monitored, quarantined, or rejected. These capabilities empower you to take actions to mitigate and address potential errors.
 
@@ -60,7 +60,7 @@ If an email fails DMARC authentication, you can decide which action will be appl
 
 As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
 
-Learn more on Google and Yahoo's requirement in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Learn more on Google and Yahoo's requirement in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Consequently, Adobe strongly recommends you take the following actions:
 
 ## Implement DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
-Starting on **January 30, 2024**, the [!DNL Journey Optimizer] administration interface will allow you to set up DMARC record for all the subdomains that you have already delegated or are delegating to Adobe. The detailed steps are described below.
+The [!DNL Journey Optimizer] administration interface allows you to set up DMARC record for all the subdomains that you have already delegated or are delegating to Adobe. The detailed steps are described below.
 
 ### Check your existing subdomains for DMARC {#check-subdomains-for-dmarc}
 

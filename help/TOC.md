@@ -28,6 +28,7 @@ solution: Journey Optimizer
   + [User interface](using/start/user-interface.md)
   + [Search, filter, categorize](using/start/search-filter-categorize.md)
   + [Accessibility](using/start/accessibility.md)
+  + [Use Case Playbooks](using/start/playbooks.md)
   + [Integrations](using/start/ajo-integrations.md)
   + [Guardrails](using/start/guardrails.md)
   + [Best practices](using/start/best-practices.md)

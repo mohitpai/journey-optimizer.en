@@ -79,10 +79,10 @@ Returns "C"
 
 Examples with an event field 'event.appVersion' with value: "20.45.2.3434"
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 Returns `["20", "45", "2", "3434"]`
 
-`getListItem(split(@{event.appVersion}, "\\."), 0)`
+`getListItem(split(@event{event.appVersion}, "\\."), 0)`
 
 Returns "20"

@@ -32,4 +32,4 @@ Returns a boolean.
 
 ## Example
 
-`notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`
+`notEqualIgnoreCase(@event{iOSPushPermissionAllowed.device.model}, "iPad")`

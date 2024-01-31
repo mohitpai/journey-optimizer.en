@@ -11,7 +11,6 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release notes {#release-notes}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="What's new?"
@@ -19,104 +18,80 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 
 [!DNL Adobe Journey Optimizer] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated on the last week of each month in these release notes. 
 
-Previous release notes are available in [this page](release-notes-2023.md). You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
-
 [!DNL Adobe Journey Optimizer] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
 
-## October 2023 release notes {#oct-rn-2023}
+## January 2024 early release notes {#jan-2024}
 
-### New capabilities{#oct-2023-features}
+**Release date**: Jan 30-31, 2024
+
+### New capabilities{#jan24-features}
 
 This release brings the new capabilities listed below.
 
-<table>
-<thead>
-<tr>
-<th><strong>Sandbox tooling</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sandbox tooling allows you to copy objects across multiple sandboxes by leveraging package export and import. A package can consist of a single object or multiple objects. Any objects that are included in a package must be from the same sandbox.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<p>For more information, refer to the <a href="../building-journeys/copy-to-sandbox.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
+<th><strong>Deliverability Updates</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.</p>
-<img src="assets/do-not-localize/mms.gif"/>
-<p>For more information, refer to the <a href="../sms/create-sms.md#mms-content">detailed documentation</a>.</p>
+<p>Journey Optimizer now supports the DMARC authentication technology.</p>
+<p>Starting on February 1st, 2024, Google and Yahoo! will be requiring that you have a DMARC record for any domain you use to send email to them. Make sure that you have DMARC record set up for all the subdomains that you have delegated or are delegating to Adobe in Journey Optimizer.</p>
+<p>For more information, refer to the <a href="../configuration/dmarc-record-update.md">detailed documentation</a>.</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
 
-### Improvements {#oct-2023-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Use Case Playbooks</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Leverage a catalog of industry-specific use case playbooks in Real-Time CDP and Journey Optimizer to address common use cases that you can perform using Adobe Experience Platform and Adobe Journey Optimiser.</p><p>Once you have chosen the playbook that best fits your needs, you can enable it to generate the assets needed to support your use case such as journeys, messages, schemas or segments, and customize them to your schema for faster time to value.</p>
+<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#jan24-improvements}
 
 This release comes with the improvements listed below.
 
-**Audiences**
+**Reporting**
+ 
+* **New domain based breakdown widgets** - New widgets have been added to enhance your Campaign and Journey reports. The **Bounce Reasons by domain**, **Sent & delivered by domains**, **Opens & Clicks by domain** and **Bounce & errors by domain** widgets provide a detailed breakdown at the domain level for key email delivery and tracking metrics. [Learn more](../reports/channel-report.md) 
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns. [Learn more](../audience/about-audiences.md#segments-in-journey-optimizer)
-* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. [Learn more](../building-journeys/read-audience.md)
+**SMS Channel**
 
->[!AVAILABILITY]
->
->These capabilities are currently available as a private beta.
+* **Double Opt-In** - The Double Opt-In workflow for SMS guarantees that users explicitly opt-in to receive messages when the request is initiated from their device. Users initiate the consent process by sending an inbound SMS message. Upon confirming their consent, a follow-up message is sent, requesting final verification. If a user profile does not exist, it is created upon successful confirmation. [Learn more](../sms/sms-configuration.md#create-api) 
 
-<!--
-**Spam scoring for emails**
-
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.--> 
-
-**Campaigns**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* When an error occurs within one of your campaigns, a warning icon now appears in the campaigns list alongside the campaign's status. [Learn more](../campaigns/modify-stop-campaign.md#statuses)
+   Note that this capability is available with Sinch and Infobip SMS providers.
 
 **Journeys**
 
-* The maximum duration that you can define in any wait time is now 29 days instead of 30. This improvement has been introduced to prevent wait durations from exceeding the 30 days journey lifespan. This applies to:
+* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Learn more](../building-journeys/reaction-events.md)
 
-   * the **Amount of Time** field in the [wait activity](../building-journeys/wait-activity.md)
-   * the **Re-entrance wait period** in [journey properties](../building-journeys/journey-gs.md#entrance)
-   * the **Wait for** field in the timeout definition of [event activities](../building-journeys/general-events.md#events-specific-time).
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-<!--
-**Consent in channel configuration**
+* **Read audience**  - The **Read Audience** activity now relies on the profile snapshot dataset for batch segments, which is only generated once a day after the scheduled daily batch job is run, hence the data will be fresh up to that last daily batch job.
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* **Field Groups** - This release fixes an issue which was blocking Field Groups from being saved in certain cases.
+
+**Frequency Rules**
+
+* **Weekly and daily frequency cap** - You can now specify the maximum number of messages sent to a customer profile in a week or a day, in addition to month. The frequency cap is based on the selected calendar period and reset at the beginning of the corresponding time frame. [Learn more](../configuration/frequency-rules.md#create-new-rule)
 
 **Decision management**
 
-* Several labels relating to offer capping in the decision management interface have been updated. [Learn more](../offers/offer-library/add-constraints.md#capping)
-
+* **Frequency capping on Edge** - The frequency capping counter is now updated and available in an Edge Decisioning API decision in less than 3 seconds.

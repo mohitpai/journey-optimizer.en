@@ -12,9 +12,7 @@ exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 
 Counts the number of different values including the null values.
 
->[!NOTE]
->
->If the target list is a listObject, this function can only be used in custom action expressions.
+Note that the parameter `<listObject>` is not supported in this function.
 
 ## Category
 
@@ -28,14 +26,7 @@ Aggregation
 
 | Parameter | Type             |
 |-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly|
 
 ## Signature and returned type
 

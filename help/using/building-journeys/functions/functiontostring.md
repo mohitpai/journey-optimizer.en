@@ -27,8 +27,8 @@ Conversion
 |dateTime|converts the date in UTC date format|
 |dateTimeOnly|converts the date in UTC date format|
 |duration|convert into the corresponding number of milliseconds as a string|
-|integer|converts to string representation of the value (1 becomes “1”)|
-|decimal|converts to string representation of the value (1.5 becomes “1.5”)|
+|integer|converts to string representation of the value (1 becomes "1")|
+|decimal|converts to string representation of the value (1.5 becomes "1.5")|
 |boolean|convert the boolean value as 'true' if true, 'false' if false|
 
 ## Signatures and returned type
@@ -56,3 +56,7 @@ Returns "4".
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 Returns the string representation of the given dateOnly field (XDM Date field), for example "2016-08-18".
+
+`toString(toDuration(1520))`
+
+Returns "PT1.52S".

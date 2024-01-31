@@ -20,18 +20,13 @@ Aggregation
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | List to process. For listObject, it must be a field reference. A listObject cannot contain null object. |
 
 ## Signatures and returned type
 
@@ -44,3 +39,7 @@ Returns an integer.
 `count([10,2,10,null])`
 
 Returns 3.
+
+`count(@event{my_event.productListItems})`
+
+Returns the number of objects in the given array of objects (listObject type). Remark: a listObject cannot contain null object

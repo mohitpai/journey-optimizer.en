@@ -116,6 +116,10 @@ When passing context data with an Edge Decisioning API request, data is stored i
 >
 >In order for the context data to be stored, you need to have a dedicated XDM schema configured.
 
+**Frequency capping counter update**
+
+If frequency capping has been enabled for some of your offers to define how often their capping count is reset, the counter is updated and available in an Edge Decisioning API decision in less than 3 seconds. [Learn how to add constraints to an offer](../../offer-library/add-constraints.md)
+
 ## Decisioning API capabilities {#decisioning}
 
 The functionalities listed below are only available with the Decisioning API. If you need to leverage one of them to meet your requirements, use the Decisioning API. Otherwise, we recommend using the Edge Decisioning APIs.

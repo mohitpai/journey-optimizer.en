@@ -44,4 +44,4 @@ Returns a datetime without considering time zone.
 
 Returns 2010-12-25T01:11:00Z.
 
-`setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`
+`setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

@@ -252,10 +252,13 @@ The **[!UICONTROL Frequency]** section allows you to define how often the cappin
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday. Any duration you choose cannot exceed 2 years (i.e. the corresponding number of months, weeks or days).
-    
+>
+>The frequency capping counter is updated and available in an Edge Decisioning API decision in less than 3 seconds.
+
 For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the corresponding drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
 
 >[!CAUTION]

@@ -39,6 +39,6 @@ Returns a boolean.
 
 Returns true.
 
-`inLastHours(@{MyEvent.timestamp}, 4)`
+`inLastHours(@event{MyEvent.timestamp}, 4)`
 
 Returns true.

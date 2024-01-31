@@ -96,7 +96,7 @@ In this section, you need to define the **[!UICONTROL Push platform]**. The drop
 You also need to define the **[!UICONTROL Registration Token]**. The expression depends on how the token is defined in the event payload or in other [!DNL Journey Optimizer] information. It can be a simple field or a more complex expression in case the token is defined in a collection for instance:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Personalization Data]**

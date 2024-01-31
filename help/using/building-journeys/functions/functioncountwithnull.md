@@ -12,6 +12,8 @@ exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 
 Counts all the elements of the list including null values.
 
+Note that the parameter `<listObject>` is not supported in this function.
+
 ## Category
 
 Aggregation
@@ -24,14 +26,7 @@ Aggregation
 
 | Parameter | Type             |
 |-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly|
 
 ## Signature and returned type
 

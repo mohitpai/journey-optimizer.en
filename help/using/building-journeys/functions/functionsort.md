@@ -12,10 +12,6 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 
 Sorts a list of values or objects in the natural order.
 
->[!NOTE]
->
->If the target list is a listObject, this function can only be used in custom action expressions.
-
 ## Category
 
 List
@@ -75,4 +71,8 @@ Returns `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Returns `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Returns the listObject ordered by SKU attribute (ascending order)
 
