@@ -52,6 +52,18 @@ Alphanumeric Sender IDs are for one-way messaging only, and are unable to receiv
 
 ## Video {#video-sms}
 
-To learn more on how native inbound keyword support (START, STOP and UNSTOP) works for SMS, refer to the following video:
+* The video below shows how native inbound keyword support (START, STOP and UNSTOP) works for SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+    +++ See video
+
+    >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+    +++
+
+* The video below helps you learn how to configure double opt-in for SMS.
+
+    +++ See video
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+
+    +++

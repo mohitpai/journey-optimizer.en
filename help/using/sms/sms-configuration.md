@@ -75,7 +75,7 @@ To configure your SMS/MMS provider with Journey Optimizer, follow these steps:
 
         * **[!UICONTROL Help Message]**: enter the custom response that is automatically sent as your **Help Message**.
 
-        * **[!UICONTROL Double Opt-In Keywords]**: enter the keywords which trigger the double opt-in process. If a user profile does not exist, it is created upon successful confirmation. For multiple keywords, use comma-separated values.
+        * **[!UICONTROL Double Opt-In Keywords]**: enter the keywords which trigger the double opt-in process. If a user profile does not exist, it is created upon successful confirmation. For multiple keywords, use comma-separated values. [Learn more on the SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
 
         * **[!UICONTROL Double Opt-In Message]**: enter the custom response that is automatically sent in response to the double opt-in confirmation.
         +++

@@ -65,6 +65,19 @@ Adobe Journey Optimizer sends text messages through SMS service providers (or SM
 
 ## How-to video
 
-Learn how to configure, author, and include SMS messaging into your customer journeys.
+* The video below shows how to configure, author, and include SMS messaging into your customer journeys.
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+    +++
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
+    +++
+
+* The video below helps you better understand which mobile capabilities Adobe Journey Optimizer offers marketers.
+
+
+    +++See video
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
+    +++
