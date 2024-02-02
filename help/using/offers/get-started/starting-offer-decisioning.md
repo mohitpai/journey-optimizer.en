@@ -101,10 +101,6 @@ You can find below the list of the main concepts you will work with when using D
 
 ## How-to videos{#video}
 
->[!NOTE]
->
->These videos apply to the Offer Decisioning application service built on Adobe Experience Platform, and are not specific to [!DNL Adobe Journey Optimizer]. However, they provide generic guidance to use Decision Management in the context of [!DNL Journey Optimizer].
-
 ### What is Decision Management? {#what-is-offer-decisioning}
 
 The video below provides an introduction to Decision Management key capabilities, architecture and use cases:
