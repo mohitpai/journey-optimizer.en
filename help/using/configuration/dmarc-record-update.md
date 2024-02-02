@@ -15,10 +15,9 @@ keywords: subdomain, domain, mail, dmarc, record
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Learn more on mandatory DMARC update"
->abstract="As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**.<br>Consequently, you must make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
+>abstract="As part of their enforcing industry best practices, Google and Yahoo are both requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**.<br>Consequently, you must make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer."
 
 Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication method that allows domain owners to protect their domain from unauthorized use. By offering a clear policy to email providers/ISPs, it helps prevent malicious actors from sending emails claiming to be from your domain. Implementing DMARC reduces the risk of legitimate emails being marked as spam or rejected, and improve your email deliverability.
-
 
 As part of their enforcing industry best practices, Google and Yahoo! are both requiring that a **DMARC record** for any domain you use to send email to them. This new requirement applies starting **February 1st, 2024**. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -43,7 +42,7 @@ Consequently, Adobe strongly recommends you ensure that you have DMARC record se
     However, with CNAME delegation it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update detailed in [this section](dmarc-record.md#implement-dmarc).
     
 
-The most recent timelines shared by Google and Yahoo are as follows:
+The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 
@@ -53,7 +52,7 @@ The most recent timelines shared by Google and Yahoo are as follows:
 
     * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
 
 >[!NOTE]
 >

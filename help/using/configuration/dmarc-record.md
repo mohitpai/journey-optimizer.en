@@ -15,7 +15,7 @@ keywords: subdomain, domain, mail, dmarc, record
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Set DMARC record"
->abstract="DMARC is an email authentication method that allows domain owners to protect their domain from unauthorized use and avoid deliverability issues with mailbox providers.<br>As part of their enforcing industry best practices, Google and Yahoo are both requiring that you have a DMARC record for any domain you use to send email to them."
+>abstract="DMARC is an email authentication method that allows domain owners to protect their domain from unauthorized use and avoid deliverability issues with mailbox providers.<br>As part of their enforcing industry best practices, Google and Yahoo! are both requiring that you have a DMARC record for any domain you use to send email to them."
 
 ## What is DMARC? {#what-is-dmarc}
 
@@ -25,7 +25,7 @@ DMARC also offers reporting on messages that fail authentication, along with con
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-To help you prevent deliverability issues while gaining control over mail that fail authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface. [Learn more](#implement-dmarc)
+To help you prevent deliverability issues while gaining control over mail that fail authentication, [!DNL Journey Optimizer] is now supporting the DMARC technology directly in its administration interface. [Learn more](#implement-dmarc)
 
 ### How does DMARC work? {#how-dmarc-works}
 
@@ -58,19 +58,19 @@ If an email fails DMARC authentication, you can decide which action will be appl
 
 ## DMARC requirement update {#dmarc-update}
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement is starting on **February 1st, 2024**.
+As part of their enforcing industry best practices, Google and Yahoo! are both requiring that you have a **DMARC record** for any domain you use to send email to them. This new requirement applies starting **February 1st, 2024**.
 
-Learn more on Google and Yahoo's requirement in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Learn more on Google and Yahoo!'s requirement in [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Failing to comply with this new requirement from Gmail and Yahoo is expected to result in emails landing into the spam folder or getting blocked. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Failing to comply with this new requirement from Gmail and Yahoo! is expected to result in emails landing into the spam folder or getting blocked. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 Consequently, Adobe strongly recommends you take the following actions:
 
 * Make sure to have **DMARC record** set up for **all the subdomains that you have already delegated** to Adobe in [!DNL Journey Optimizer]. [Learn how](#check-subdomains-for-dmarc)
 
-* When **delegating any new subdomain** to Adobe, you will soon be able to **set up DMARC** directly **in the [!DNL Journey Optimizer] administration interface**. [Learn how](#implement-dmarc)
+* When **delegating any new subdomain** to Adobe, you can **set up DMARC** directly **in the [!DNL Journey Optimizer] administration interface**. [Learn how](#implement-dmarc)
 
 ## Implement DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -88,7 +88,7 @@ To make sure that you have DMARC record set up for all the subdomains that you h
 
     >[!CAUTION]
     >
-    >To comply with the new requirement from Gmail and Yahoo, and avoid deliverability issues with top ISPs, it is recommended to set up DMARC record for all delegated subdomains. [Learn more](dmarc-record-update.md)
+    >To comply with the new requirement from Gmail and Yahoo!, and avoid deliverability issues with top ISPs, it is recommended to set up DMARC record for all delegated subdomains. [Learn more](dmarc-record-update.md)
 
 1. Select a subdomain with no DMARC record associated and fill in the **[!UICONTROL DMARC record]** section according to your organization's needs. The steps to populate the DMARC record fields are detailed in [this section](#implement-dmarc).
 
@@ -112,9 +112,9 @@ When delegating new subdomains to Adobe in [!DNL Journey Optimizer], a DMARC rec
 
 >[!CAUTION]
 >
->To comply with the new requirement from Gmail and Yahoo, and avoid deliverability issues with top ISPs, it is recommended to set up DMARC record for all delegated subdomains. [Learn more](dmarc-record-update.md)
+>To comply with the new requirement from Gmail and Yahoo!, and avoid deliverability issues with top ISPs, it is recommended to set up DMARC record for all delegated subdomains. [Learn more](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. Set up a new subdomain. [Learn how](delegate-subdomain.md)
 
@@ -138,7 +138,7 @@ When delegating new subdomains to Adobe in [!DNL Journey Optimizer], a DMARC rec
     >
     >As a best practice, it is recommended to slowly roll out DMARC implementation by escalating your DMARC policy from **None**, to **Quarantine**, to **Reject** as you gain understanding of DMARC's potential impact.
 
-1. Optionnally, add one or more email addresses of your choice to indicate where **DMARC reports** on emails that [fail authentication](#how-dmarc-works) should go within your organization. You can add up to five addresses for each report.
+1. Optionally, add one or more email addresses of your choice to indicate where **DMARC reports** on emails that [fail authentication](#how-dmarc-works) should go within your organization. You can add up to five addresses for each report.
 
     >[!NOTE]
     >
