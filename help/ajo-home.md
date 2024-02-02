@@ -22,7 +22,7 @@ Discover new features and improvements coming with Adobe Journey Optimizer 24.1 
 
 >[!TAB Mandatory DMARC update]
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
+As part of their enforcing industry best practices, Google and Yahoo! will both be requiring that you have a **DMARC record** for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
