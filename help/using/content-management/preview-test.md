@@ -44,4 +44,4 @@ You also need to have test profiles available to be able to preview your message
 
 Learn how to test email rendering across inboxes, how to preview your personalized emails against test profiles, and send proofs.
 
->[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
