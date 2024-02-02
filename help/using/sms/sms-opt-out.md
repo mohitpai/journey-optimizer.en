@@ -64,6 +64,6 @@ Alphanumeric Sender IDs are for one-way messaging only, and are unable to receiv
 
     +++ See video
 
-    >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+    >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
     +++
