@@ -43,7 +43,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Journey]** t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="Journey Performance"
->abstract="XX"
+>abstract="The Journey Performance widget enables you to visually track the path of your targeted profiles as they progress through your journey."
 
 ![](assets/journey_performance.png)
 
@@ -54,7 +54,7 @@ The **[!UICONTROL Journey Performance]** widget allows you to visually trace the
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="Journey Statistics"
->abstract="XX"
+>abstract="The Journey Statistics Key Performance Indicators (KPIs) serve as a comprehensive dashboard, providing an in-depth analysis of essential metrics related to your journey."
 
 ![](assets/journey_statistics.png)
 
@@ -75,18 +75,18 @@ The **[!UICONTROL Journey Statistics]** Key Performance Indicators (KPIs) functi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="Action performance"
->abstract="XX"
+>abstract="The Action Performance widget illustrates the most successful actions that took place when your actions were initiated."
 
 ![](assets/journey_action_performance.png)
 
-The **[!UICONTROL Action Performance]** widget represents the most successful actions which occurred when your **[!UICONTROL Actions]** were triggered.
+The **[!UICONTROL Action Performance]** widget represents the most successful actions which occurred when your **[!UICONTROL actions]** were triggered.
 
 ### Top actions {#top-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="Top actions"
->abstract="XX"
+>abstract="The Top actions table consolidates vital information about your actions, offering concise observations on both the frequency and effectiveness of each action."
 
 ![](assets/journey_top_actions.png)
 
@@ -105,40 +105,40 @@ The **[!UICONTROL Top Actions]** table compiles essential data on your **[!UICON
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="Actions error reasons"
->abstract="XX"
+>abstract="The Actions error reasons table and graph provide a thorough summary of errors encountered during the execution of your actions, offering a comprehensive overview of issues that may have occurred."
 
 ![](assets/journey_action_error.png)
 
-The **[!UICONTROL Action Error Reasons]**  table and graph offer a comprehensive overview of errors that occurred during the execution of your **[!UICONTROL Actions]**. 
+The **[!UICONTROL Action Error Reasons]** table and graph offer a comprehensive overview of errors that occurred during the execution of your **[!UICONTROL Actions]**. 
 
 ### Events by origin {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="Events by origin"
->abstract="XX"
+>abstract="The Events by Origin table and graphs offer a view of the successful reception of your events. These visual representations allow you to precisely identify the events that were effectively received, providing valuable insights into the performance and impact of each event within your journey."
 
 ![](assets/journey_events_origin.png)
 
-The **[!UICONTROL Events by origin]** table and graphs provide a detailed perspective on the successful reception of your **[!UICONTROL Events]**. Through these visual representations, you can discern precisely which of your **[!UICONTROL Events]** were effectively received, offering valuable insights into the performance and impact of individual events within your journey.
+The **[!UICONTROL Events by origin]** table and graphs provide a detailed perspective on the successful reception of your **[!UICONTROL events]**. Through these visual representations, you can discern precisely which of your **[!UICONTROL events]** were effectively received, offering valuable insights into the performance and impact of individual events within your journey.
 
 ### Events received by event {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="Events received by event"
->abstract="XX"
+>abstract="The Events Received by Event graph empowers you to identify and analyze the specific events within your journey that was executed effectively, delivering valuable insights into the performance and success rates of individual events."
 
 ![](assets/journey_event_received.png)
 
-The **[!UICONTROL Events received by event]** graph enables you to identify and analyze which specific **[!UICONTROL Event]** within your journey was effectively executed, providing valuable insights into the performance and success rates of individual events.
+The **[!UICONTROL Events received by event]** graph enables you to identify and analyze which specific **[!UICONTROL event]** within your journey was effectively executed, providing valuable insights into the performance and success rates of individual events.
 
 ### Top events {#top-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="Top events"
->abstract="XX"
+>abstract="The Top Events table consolidates essential data about your events, offering concise observations on both the frequency and performance of each individual event."
 
 ![](assets/journey_top_events.png)
 
@@ -149,7 +149,7 @@ The **[!UICONTROL Top events]** table compiles essential data on your **[!UICONT
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="Consent policies"
->abstract="XX"
+>abstract="The Consent Policies table and graph display the quantity of profiles excluded from each policy within your custom actions. This presentation offers a clear insight into the influence of each consent policy on profile exclusions."
 
 ![](assets/journey_consent.png)
 
@@ -168,7 +168,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Email]** tab
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
 >title="Email - Sending Statistics"
->abstract="XX"
+>abstract="The Email - Sending statistics table summarizes essential data about your Email such as Targeted or Delivered."
 
 ![](assets/journey_email_statistics.png)
 
@@ -205,7 +205,7 @@ The **[!UICONTROL Email Sending Statistics]** table provides a comprehensive sum
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="Email - Tracking statistics"
->abstract="XX"
+>abstract="The Email - Tracking statistics table provides data on profile activity for your Email."
 
 ![](assets/journey_email_tracking.png)
 
@@ -238,7 +238,7 @@ The **[!UICONTROL Email - Tracking statistics]** table offers a detailed account
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="Email - Sending performance"
->abstract="XX"
+>abstract="The Email - Sending performance graph presents comprehensive data regarding sent Emails, offering insights into key metrics like delivered and bounces, allowing for a detailed analysis of the email delivery process."
 
 ![](assets/journey_email_performance.png)
 
@@ -261,7 +261,7 @@ The **[!UICONTROL Email - Sending performance]** graph provides a comprehensive 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="Email - Bounce categories and reasons"
->abstract="XX"
+>abstract="The Email - Bounce categories and reasons widgets aggregate the data concerning bounced messages, offering in-depth insights into the specific reasons and categories contributing to email bounces"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -284,7 +284,7 @@ For more information on bounces, refer to the [Suppression list](../reports/supp
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_error_reasons"
 >title="Email - Error reasons"
->abstract="XX"
+>abstract="The Email - Error reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
 
 ![](assets/journey_email_error.png)
 
@@ -295,7 +295,7 @@ The **[!UICONTROL Error Reasons]** graphs and table offer visibility into the sp
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="Email - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
 
 ![](assets/journey_email_excluded.png)
 
@@ -308,11 +308,11 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="Sent & delivered by domains"
->abstract="XX"
+>abstract="The Sent & delivered by domains table and graph deliver a breakdown of emails categorized by domains, presenting in-depth insights into the overall performance of your email communications."
 
 ![](assets/journey_email_sent_domains.png)
 
-The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of emails at the domain level, offering comprehensive insights into the performance of your emails.
+The **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of emails at the domain level, offering comprehensive insights into the performance of your emails.
 
 +++ Learn more on Sent & delivered by domains metrics
 
@@ -327,11 +327,11 @@ The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a deta
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="Open & clicks by domains"
->abstract="XX"
+>abstract="The Open & Clicks by domains graph and table offer a detailed breakdown at the domain level, presenting a comprehensive view of how your audience engages with your emails."
 
 ![](assets/journey_email_open_domains.png)
 
-The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your profiles' engagement with your email, providing valuable insights into how different domains interact with your content.
+The **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your profiles' engagement with your email, providing valuable insights into how different domains interact with your content.
 
 +++ Learn more on Open & clicks by domains metrics
 
@@ -346,11 +346,11 @@ The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="Bounces & errors by domains"
->abstract="XX"
+>abstract="The Bounces & Errors by Domains graph and table provide a granular breakdown at the domain level, offering insights into specific errors encountered during the email sending process."
 
 ![](assets/journey_email_bounce_domains.png)
 
-The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
+The **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
 
 +++ Learn more on Bounces & errors by domains metrics
 
@@ -365,18 +365,18 @@ The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="Bounces reasons by domains"
->abstract="XX"
+>abstract="The Bounce Reasons by domain graph and table provide a domain-level breakdown, offering comprehensive insights into both temporary and permanent errors. This detailed analysis gives you valuable information about the specific reasons behind bounced messages."
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
-The  **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
+The **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
 
 ### Email - Top URL {#email-top}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_top_url"
 >title="Email - Top URL"
->abstract="XX"
+>abstract="The Email - Top URL graph and table offer a comprehensive overview of the URLs within your email that receive the highest visitor traffic, allowing you to identify the most popular links."
 
 ![](assets/journey_email_top.png)
 
@@ -387,7 +387,7 @@ The **[!UICONTROL Email - Top Url]** graph and table provide a comprehensive ove
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="Email - Optimization"
->abstract="XX"
+>abstract="The Send time optimization and Optimized vs non optimized widgets provide detailed information regarding your messages, highlighting whether they have been optimized or not."
 
 ![](assets/journey_email_sto.png)
 
@@ -415,7 +415,7 @@ The **[!UICONTROL Send time optimization]** and **[!UICONTROL Optimized vs non o
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="Email - Offers"
->abstract="XX"
+>abstract="The Offers statistic and Offers detailed statistic widgets provide comprehensive insights into the performance of your offers, offering a detailed analysis of their impact over time and presenting detailed statistics for a more in-depth understanding."
 
 >[!NOTE]
 >
@@ -452,7 +452,7 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Push notific
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_statistics"
 >title="Push notification - Sending statistics"
->abstract="XX"
+>abstract="The Push Notification Sending Statistics table summarizes essential data about your push notifications such as Targeted or Delivered messages."
 
 ![](assets/journey_push_sending.png)
 
@@ -487,7 +487,7 @@ The **[!UICONTROL Push notification - Sending statistics]** table provides a con
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="Push notification - Tracking statistics"
->abstract="XX"
+>abstract="The Push Tracking Statistics provide data on profile activity for your push notification."
 
 The **[!UICONTROL Push - Tracking statistics]** widget offers a detailed snapshot of profile activity tied to your push notifications, providing essential insights into engagement and push notifications effectiveness.
 
@@ -506,7 +506,7 @@ The **[!UICONTROL Push - Tracking statistics]** widget offers a detailed snapsho
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary"
 >title="Push notification - Sending summary"
->abstract="XX"
+>abstract="The Push Notification Sending Summary graph displays the data available for sent push notifications."
 
 ![](assets/journey_push_summary.png)
 
@@ -531,7 +531,7 @@ The **[!UICONTROL Push notification - Sending summary]** graph offers a dynamic 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="Push notification - Error reasons"
->abstract="XX"
+>abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred during the sending process"
 
 ![](assets/journey_push_error.png)
 
@@ -542,7 +542,7 @@ The **[!UICONTROL Error Reasons]** table and graphs provide you with the capabil
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="Push notification - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that prevented user profiles, excluded from the targeted audience, from receiving the message."
 
 ![](assets/journey_push_excluded.png)
 
@@ -554,8 +554,8 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
->title="PPush notification - Breakdown by platform"
->abstract="XX"
+>title="Push notification - Breakdown by platform"
+>abstract="The Push notification - Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the profile's operating system."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -565,9 +565,9 @@ The **[!UICONTROL Breakdown by platform]** graph and table provide a detailed an
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets are only available if the Send-Time Optimization option is activated for your delivery. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
-The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets detail the main information relative to your message whether they are optimized or not.
+The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets detail the main information relative to your message whether they are optimized or not.
 
 +++ Learn more on Push notification - Optimization metrics
 
@@ -590,7 +590,7 @@ The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time opti
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="SMS - Sending statistics"
->abstract="XX"
+>abstract="The SMS - Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages."
 
 ![](assets/journey_sms_sending.png)
 
@@ -617,7 +617,7 @@ The **[!UICONTROL SMS - Sending statistics]** table provides a concise summary o
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="SMS - Tracking statistics"
->abstract="XX"
+>abstract="The SMS - Tracking statistics widget furnishes a comprehensive overview of essential information related to your visitors' interaction with your URL."
 
 ![](assets/journey_sms_tracking.png)
 
@@ -632,7 +632,7 @@ The **[!UICONTROL SMS - Tracking statistics]** widget provides a detailed overvi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="SMS - Performance by date"
->abstract="XX"
+>abstract="The SMS - Performance by Date widget provides key information about your messages through a graphical representation."
 
 ![](assets/journey_sms_performance.png)
 
@@ -653,7 +653,7 @@ The **[!UICONTROL SMS - Performance by date]** widget offers a detailed overview
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_reasons"
 >title="SMS - Bounces reasons"
->abstract="XX"
+>abstract="The Bounces Reasons graphs and table contain the data available related to bounced messages."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -664,7 +664,7 @@ The **[!UICONTROL Bounces Reasons]** graphs and table provide a comprehensive ov
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_reasons"
 >title="SMS - Error reasons"
->abstract="XX"
+>abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred during the sending process."
 
 ![](assets/journey_sms_error.png)
 
@@ -675,7 +675,7 @@ The **[!UICONTROL Error Reasons]** graphs and table allow you to identify the sp
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="SMS - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message."
 
 ![](assets/journey_sms_excluded.png)
 
@@ -688,7 +688,7 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="SMS - Clicks by links"
->abstract="XX"
+>abstract="The SMS - Clicks by Links widget provides essential insights into your visitors' engagement with the URLs in your messages."
 
 ![](assets/journey_sms_clicks.png)
 
@@ -703,11 +703,11 @@ From your Journey **[!UICONTROL Global report]**, the **[!UICONTROL In-app]** ta
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="In-app performance"
->abstract="XX"
+>abstract="The In-app performance KPIs provide essential insights into your visitors' engagement with In-app messages."
 
 ![](assets/journey_inapp_performance.png)
 
-The **[!UICONTROL In-app performance]**  KPIs provide essential insights into your profiles' engagement with In-app messages, providing essential metrics to assess the effectiveness and impact of the In-app messages included in your journey.
+The **[!UICONTROL In-app performance]** KPIs provide essential insights into your profiles' engagement with In-app messages, providing essential metrics to assess the effectiveness and impact of the In-app messages included in your journey.
 
 +++ Learn more on In-app - Performance by date metrics
 
@@ -731,7 +731,7 @@ The **[!UICONTROL In-app performance]**  KPIs provide essential insights into yo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary"
 >title="In-app summary"
->abstract="XX"
+>abstract="The In-app summary graph illustrates the progression of your In-app impressions and interactions over the specified period."
 
 ![](assets/journey_inapp_summary.png)
 
@@ -742,7 +742,7 @@ The **[!UICONTROL In-app summary]** graph illustrates the progression of your In
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions"
 >title="Interactions by type"
->abstract="XX"
+>abstract="The Interactions by type graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction."
 
 ![](assets/journey_inapp_interactions.png)
 

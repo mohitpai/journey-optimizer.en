@@ -251,7 +251,7 @@ The **[!UICONTROL In-app performance]** KPIs provide essential insights into you
 
 * **[!UICONTROL Impressions]**: total number of In-app messages sent to all users.
 
-* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+* **[!UICONTROL Interactions]**: total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
 +++
 
@@ -300,7 +300,7 @@ The **[!UICONTROL Push notification sending performance]** graph offers a thorou
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process  and automatic return processing.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
@@ -511,7 +511,7 @@ The **[!UICONTROL Web performance]** KPIs offer comprehensive insights into your
 
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Interactions]**:  total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
+* **[!UICONTROL Interactions]**: total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
 +++ 
 
@@ -530,7 +530,7 @@ The **[!UICONTROL Web summary]** graph shows the evolution of your web experienc
 
 * **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
-* **[!UICONTROL Interactions]**:  total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
+* **[!UICONTROL Interactions]**: total number of engagements with your Web page. This includes any actions taken by the users, such as clicks or any other interactions.
 
 +++ 
 

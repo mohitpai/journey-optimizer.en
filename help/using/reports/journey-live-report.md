@@ -43,7 +43,7 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Journey]** tab
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="Journey's performance"
->abstract="XX"
+>abstract="The Journey Performance widget enables you to visually track the path of your targeted profiles as they progress through your journey over the last 24 hours."
 
 ![](assets/journey_live_performance.png)
 
@@ -54,7 +54,7 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Journey]** tab
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="Journey's statistics"
->abstract="XX"
+>abstract="The Journey Statistics Key Performance Indicators (KPIs) serve as a comprehensive dashboard, providing an in-depth analysis of essential metrics from the last 24 hours related to your journey."
 
 ![](assets/journey_live_statistics.png)
 
@@ -74,7 +74,7 @@ The **[!UICONTROL Journey Statistics]** Key Performance Indicators (KPIs) functi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="Action executed over the last 24 hours"
->abstract="XX"
+>abstract="The Action executed over the last 24 hours widget provides a snapshot of recent performance, showcasing the effectiveness of your executed actions within the past 24 hours."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -93,11 +93,11 @@ The **[!UICONTROL Action executed over the last 24 hours]** widget represents th
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="Actions executed and errors"
->abstract="XX"
+>abstract="The Actions executed and errors widget showcases the most successful actions and any errors that occurred during the triggering of actions in the last 24 hours. This widget offers a comprehensive overview of both successful executions and encountered errors, providing valuable insights into the recent performance of your actions."
 
 ![](assets/journey_live_actions_errors.png)
 
-The **[!UICONTROL Actions executed and errors]** widget represents the most successful action and errors which occurred when your actions were triggered.
+The **[!UICONTROL Actions executed and errors]** widget represents the most successful action and errors which occurred when your actions were triggered in the last 24 hours.
 
 +++ Learn more on Actions executed and errors metrics
 
@@ -112,7 +112,7 @@ The **[!UICONTROL Actions executed and errors]** widget represents the most succ
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="Actions error reasons"
->abstract="XX"
+>abstract="The Actions error reasons table and graph provide a thorough summary of errors encountered during the execution of your actions, offering a comprehensive overview of issues that may have occurred in the last 24 hours."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Action error reasons]** table and graph offer a comprehensive 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Error type by actions"
->abstract="XX"
+>abstract="The Error type by actions table and graph provide a thorough overview of errors that occurred during each execution of your actions within the last 24 hours."
 
 ![](assets/journey_live_error_type.png)
 
@@ -134,7 +134,7 @@ The **[!UICONTROL Error type by actions]** table and graph offer a comprehensive
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="Event executed over the last 24 hours"
->abstract="XX"
+>abstract="The Event executed over the last 24 hours widget allows you to identify which of your events was successfully executed within the past 24 hours. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -145,7 +145,7 @@ The **[!UICONTROL Event executed over the last 24 hours]** widget enables you to
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Events"
->abstract="XX"
+>abstract="The Events widget provides a comprehensive view of which of your events were successfully executed, offering a summary number, graph, and table for detailed insights from the last 24 hours."
 
 ![](assets/journey_live_events.png)
 
@@ -156,7 +156,7 @@ The **[!UICONTROL Events]** widget allows you to see which one of your events wa
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Events by origin"
->abstract="XX"
+>abstract="The Events by Origin table and graphs offer a view of the successful reception of your events in the last 24 hours. These visual representations allow you to precisely identify the events that were effectively received, providing valuable insights into the performance and impact of each event within your journey."
 
 ![](assets/journey_events_origin.png)
 
@@ -171,7 +171,7 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Email]** tab d
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="Email - Sending performance"
->abstract="XX"
+>abstract="The Email - Sending statistics graph summarizes essential data about your email such as Targeted or Delivered from the last 24 hours."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -194,7 +194,7 @@ The **[!UICONTROL Email - Sending performance]** graph provides a comprehensive 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="Email - Statistics"
->abstract="XX"
+>abstract="The Email - Statistics table provides data on profile activity for your email from the last 24 hours."
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -231,7 +231,7 @@ The **[!UICONTROL Email - Statistics]** table provides a comprehensive summary o
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="Email - Performance by date"
->abstract="XX"
+>abstract="The Email - Performance by date graph presents comprehensive data from the last 24 hours regarding sent emails, offering insights into key metrics like delivered and bounces, allowing for a detailed analysis of the email sending process."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -245,7 +245,7 @@ The **[!UICONTROL Email - Performance by date]** widget offers a detailed overvi
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process  preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
 * **[!UICONTROL Opens]**: Number of times your emails were opened.
 
@@ -285,7 +285,7 @@ For more information on bounces, refer to the [Suppression list](../reports/supp
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
 >title="Email - Error reasons"
->abstract="XX"
+>abstract="The Email - Error reasons graphs and table enable you to identify the specific errors that occurred during the sending process in the last 24 hours."
 
 ![](assets/journey_live_email_error_reasons.png)
 
@@ -296,7 +296,7 @@ The **[!UICONTROL Error Reasons]** graphs and table offer visibility into the sp
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="Email - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -309,7 +309,7 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="Email - Best recipient domain"
->abstract="XX"
+>abstract="The Email - Best recipient domain graph and table provide a detailed breakdown of the domains that recipients most frequently use to open the email, offering valuable insights into recipient behavior from the last 24 hours."
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -320,7 +320,7 @@ The **[!UICONTROL Email - Best recipient domain]** graph and table offer a detai
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="Email - Offers"
->abstract="XX"
+>abstract=""he Offers statistic and Offers detailed statistic widgets provide comprehensive insights into the performance of your offers in the last 24 hours, offering a detailed analysis of their impact over time and presenting detailed statistics for a more in-depth understanding."
 
 >[!NOTE]
 >
@@ -343,7 +343,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics over t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="Email - Optimization"
->abstract="XX"
+>abstract="The Send time optimization and Optimized vs non optimized widgets provide detailed information from the last 24 hours regarding your messages, highlighting whether they have been optimized or not."
 
 ![](assets/journey_email_sto.png)
 
@@ -385,7 +385,7 @@ The **[!UICONTROL Push notification sending performance]** graph offers a thorou
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process  and automatic return processing.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
@@ -396,7 +396,7 @@ The **[!UICONTROL Push notification sending performance]** graph offers a thorou
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_statistics_live"
 >title="Push notification - Statistics"
->abstract="XX"
+>abstract="The Push Statistics table provides data on recipient activity for your push notification from the last 24 hours."
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -424,7 +424,7 @@ The **[!UICONTROL Push notification sending performance]** graph offers a thorou
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
 >title="Push notification - Breakdown by platform"
->abstract="XX"
+>abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications in the last 24 hours based on the recipient's operating system."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -435,7 +435,7 @@ The **[!UICONTROL Push notification - Breakdown by platform]** graph and table p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
 >title="Push notification - Sending summary"
->abstract="XX"
+>abstract="The Push Notification Sending Summary graph displays the data available for sent push notifications from the last 24 hours."
 
 ![](assets/journey_live_push_sending.png)
 
@@ -462,7 +462,7 @@ The **[!UICONTROL Push notification summary]** graph offers a dynamic representa
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
 >title="Push notification - Error reasons"
->abstract="XX"
+>abstract="The Error Reasons graphs and table enable you to identify the specific errors that occurred the last 24 hours during the sending process."
 
 ![](assets/journey_live_push_error.png)
 
@@ -473,7 +473,7 @@ The **[!UICONTROL Error Reasons]** table and graphs provide you with the capabil
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="Push notification - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -488,7 +488,7 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
 >title="SMS - Statistics"
->abstract="XX"
+>abstract="The SMS Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages from the last 24 hours."
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -506,7 +506,7 @@ The **[!UICONTROL SMS - Statistics]** table provides a concise summary of essent
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked on in your SMS messages.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process the sending process  and automatic return processing.
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process the sending process and automatic return processing.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
@@ -517,7 +517,7 @@ The **[!UICONTROL SMS - Statistics]** table provides a concise summary of essent
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="SMS - Performance by date"
->abstract="XX"
+>abstract="The SMS Performance by Date widget provides key information from the last 24 hours about your messages through a graphical representation."
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -538,7 +538,7 @@ The **[!UICONTROL SMS - Performance by date]** widget offers a detailed overview
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
 >title="SMS - Bounces reasons"
->abstract="XX"
+>abstract="The Bounces Reasons graphs and table contain the data available from the last 24 hours related to bounced messages."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -549,7 +549,7 @@ The **[!UICONTROL SMS - Bounces reasons]** graphs and table provide a comprehens
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
 >title="SMS - Error reasons"
->abstract="XX"
+>abstract="The SMS - Error Reasons graphs and table enable you to identify the specific errors that occurred in the last 24 hours during the sending process."
 
 ![](assets/journey_sms_error.png)
 
@@ -560,7 +560,7 @@ The **[!UICONTROL SMS - Error Reasons]** graphs and table allow you to identify 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS - Excluded reasons"
->abstract="XX"
+>abstract="The Excluded Reasons graphs and table illustrate the various factors that led to user profiles, excluded from the targeted audience, not receiving the message in the last 24 hours."
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -583,7 +583,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="In-app performance"
->abstract="XX"
+>abstract="The In-app performance KPIs provide essential insights into your visitors' engagement with In-app messages in the last 24 hours.'"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -610,7 +610,7 @@ The **[!UICONTROL In-app performance]** KPIs provide essential insights into you
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary_live"
 >title="In-app summary"
->abstract="XX"
+>abstract="The In-app summary graph illustrates the progression of your In-app impressions and interactions over the last 24 hours."
 
 ![](assets/journey_live_inapp_summary.png)
 
@@ -628,7 +628,7 @@ The **[!UICONTROL In-app summary]** graph illustrates the progression of your In
     > 
     >Due to the second criterion, there may be notable variations between the number of targeted profiles and the count of unique impressions.
 
-* **[!UICONTROL Interactions]**:  total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
+* **[!UICONTROL Interactions]**: total number of engagements with your In-app message. This includes any actions taken by the users, such as clicks, dismissals, or any other interactions.
 
 +++
 
@@ -637,7 +637,7 @@ The **[!UICONTROL In-app summary]** graph illustrates the progression of your In
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
 >title="Interactions by type"
->abstract="XX"
+>abstract="The Interactions by type graphs and table details how users interacted with your in-app message by tracking any click, dismiss, or interaction from the last 24 hours."
 
 ![](assets/journey_live_inapp_interactions.png)
 

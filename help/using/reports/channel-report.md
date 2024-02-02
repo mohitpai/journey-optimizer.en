@@ -64,7 +64,7 @@ The **[!UICONTROL Email Total Sending Statistics]** widget offers a comprehensiv
 
 * **[!UICONTROL Bounce Rate]**: Percentage of emails that bounced compared to emails sent.
 
-* **[!UICONTROL Errors]**:  Total number of errors that occurred preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred preventing it from being sent to profiles.
 
 * **[!UICONTROL Error Rate]**: Percentage of errors that occurred preventing it from being sent compared to emails sent.
 
@@ -208,7 +208,7 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 
 ![](assets/channel_email_sent_domains.png)
 
-The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of email deliveries at the domain level, offering comprehensive insights into the performance of your emails.
+The **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of email deliveries at the domain level, offering comprehensive insights into the performance of your emails.
 
 +++ Learn more on Sent & delivered by domains metrics
 
@@ -227,7 +227,7 @@ The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a deta
 
 ![](assets/channel_email_bounces_domain.png)
 
-The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
+The **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
 
 +++ Learn more on Bounces & errors by domains metrics
 
@@ -246,7 +246,7 @@ The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain
 
 ![](assets/channel_email_open_domains.png)
 
-The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your visitors' engagement with your email, providing valuable insights into how different domains interact with your content.
+The **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your visitors' engagement with your email, providing valuable insights into how different domains interact with your content.
 
 +++ Learn more on Open & clicks by domains metrics
 
@@ -265,7 +265,7 @@ The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain
 
 ![](assets/channel_email_bounce_domain.png)
 
-The  **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
+The **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
 
 For more information on bounces, refer to the [Suppression list](../reports/suppression-list.md) page.
 

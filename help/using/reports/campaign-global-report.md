@@ -264,9 +264,14 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 
 ### Sent & delivered by domains {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="Sent & delivered by domains"
+>abstract="The Sent & delivered by domains table and graph deliver a breakdown of emails categorized by domains, presenting in-depth insights into the overall performance of your email communications."
+
 ![](assets/campaign_email_sent_domains.png)
 
-The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of emails at the domain level, offering comprehensive insights into the performance of your emails.
+The **[!UICONTROL Sent & delivered by domains]** table and graph provide a detailed breakdown of emails at the domain level, offering comprehensive insights into the performance of your emails.
 
 +++ Learn more on Sent & delivered by domains metrics
 
@@ -278,9 +283,14 @@ The  **[!UICONTROL Sent & delivered by domains]** table and graph provide a deta
 
 ### Bounces & errors by domains {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="Bounces & errors by domains"
+>abstract="The Bounces & Errors by Domains graph and table provide a granular breakdown at the domain level, offering insights into specific errors encountered during the email sending process."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
+The **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain-level breakdown of specific errors encountered during the sending process, providing a detailed analysis of issues that occurred.
 
 +++ Learn more on Bounces & errors by domains metrics
 
@@ -292,9 +302,14 @@ The  **[!UICONTROL Bounces & errors by domains]** graph and table offer a domain
 
 ### Open & clicks by domains {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="Open & clicks by domains"
+>abstract="The Open & Clicks by domains graph and table offer a detailed breakdown at the domain level, presenting a comprehensive view of how your audience engages with your emails."
+
 ![](assets/campaign_email_open_domains.png)
 
-The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your profiles' engagement with your email, providing valuable insights into how different domains interact with your content.
+The **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain-level breakdown of your profiles' engagement with your email, providing valuable insights into how different domains interact with your content.
 
 +++ Learn more on Open & clicks by domains metrics
 
@@ -306,9 +321,14 @@ The  **[!UICONTROL Open & clicks by domains]** graph and table showcase a domain
 
 ### Bounce reasons by domain {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="Bounce reasons by domain"
+>abstract="The Bounce Reasons by domain graph and table provide a domain-level breakdown, offering comprehensive insights into both temporary and permanent errors. This detailed analysis gives you valuable information about the specific reasons behind bounced messages."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-The  **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
+The **[!UICONTROL Bounce reasons by domain]** graph and table offer a domain-level breakdown of data concerning both temporary and permanent errors, providing detailed insights into the reasons behind bounced messages.
 
 +++ Learn more on Bounce reasons by domain metrics
 
@@ -360,7 +380,7 @@ The **[!UICONTROL Email - Best recipient domain]** graph and table offer a detai
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your email. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets are only available if the Send-Time Optimization option is activated for your email. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets details the main information relative to your message whether they are optimized or not.
 
@@ -548,7 +568,7 @@ The **[!UICONTROL Push notification - Sending summary]** graph offers a dynamic 
 
 >[!NOTE]
 >
->The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]**  widgets are only available if the Send-Time Optimization option is activated for your push notification. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
+>The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets are only available if the Send-Time Optimization option is activated for your push notification. For more information on Send-Time Optimization, refer to [this page](../building-journeys/journeys-message.md#send-time-optimization).
 
 The **[!UICONTROL Optimized vs non optimized]** and **[!UICONTROL Send time optimization]** widgets details the main information relative to your message whether they are optimized or not.
 
@@ -593,7 +613,7 @@ Refer to [this page](exclusion-list.md) for the comprehensive list of exclusion 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Push notification - Breakdown by platform"
->abstract="The Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the profile's operating system."
+>abstract="The Push notification - Breakdown by Platform graphs and table provide a breakdown of the success of your push notifications based on the profile's operating system."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -626,7 +646,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL SMS]** tab 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - Sending statistics"
->abstract="The SMS Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages."
+>abstract="The SMS - Sending Statistics table summarizes essential data about your SMS messages such as Targeted or Delivered messages."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -650,6 +670,11 @@ The **[!UICONTROL SMS - Sending statistics]** table provides a concise summary o
 
 ### SMS - Tracking statistics {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS - Tracking statistics"
+>abstract="The SMS - Tracking statistics widget furnishes a comprehensive overview of essential information related to your visitors' interaction with your URL."
+
 ![](assets/campaign_sms_tracking.png)
 
 The **[!UICONTROL SMS - Tracking statistics]** widget provides a detailed overview of key information related to your visitors' engagement with your URLs, offering insights into the effectiveness of your SMS messages.
@@ -667,7 +692,7 @@ The **[!UICONTROL SMS - Tracking statistics]** widget provides a detailed overvi
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS - Performance by date"
->abstract="The SMS Performance by Date widget provides key information about your messages through a graphical representation."
+>abstract="The - SMS Performance by Date widget provides key information about your messages through a graphical representation."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -721,7 +746,7 @@ The **[!UICONTROL Bounces Reasons]** graphs and table provide a comprehensive ov
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - Clicks by links"
->abstract="The SMS - Clicks by Links widget provides essential insights into your visitors' engagement with the URLs in your messages"
+>abstract="The SMS - Clicks by Links widget provides essential insights into your visitors' engagement with the URLs in your messages."
 
 ![](assets/campaign_sms_clicks.png)
 
