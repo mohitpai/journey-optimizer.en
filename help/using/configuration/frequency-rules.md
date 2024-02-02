@@ -168,14 +168,14 @@ You can combine several message frequency rules, such as described in the exampl
 1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
 
    * Select Email and Push channels.
-   * Set capping to 12.
+   * Set capping to 12 monthly.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Push Marketing Cap*:
 
    * Select Push channel.
-   * Set capping to 4.
+   * Set capping to 4 monthly.
 
    ![](assets/message-rules-ex-push-cap.png)
 
