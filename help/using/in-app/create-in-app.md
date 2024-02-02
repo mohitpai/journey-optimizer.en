@@ -17,6 +17,8 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 
 You can add an In-app message in a campaign or in a journey. Follow the steps detailed below to create an In-app message in both contexts.
 
+Note that In-app messages are not impacted by the user's choice to opt-in or opt-out of push notifications at the operating system.
+
 >[!BEGINTABS]
 
 >[!TAB Add an In-app message to a journey]
