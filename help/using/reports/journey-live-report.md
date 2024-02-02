@@ -320,7 +320,7 @@ The **[!UICONTROL Email - Best recipient domain]** graph and table offer a detai
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="Email - Offers"
->abstract=""he Offers statistic and Offers detailed statistic widgets provide comprehensive insights into the performance of your offers in the last 24 hours, offering a detailed analysis of their impact over time and presenting detailed statistics for a more in-depth understanding."
+>abstract="The Offers statistic and Offers detailed statistic widgets provide comprehensive insights into the performance of your offers in the last 24 hours, offering a detailed analysis of their impact over time and presenting detailed statistics for a more in-depth understanding."
 
 >[!NOTE]
 >
