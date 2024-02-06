@@ -15,7 +15,7 @@ This page lists all the latest updates in [!DNL Journey Optimizer] documentation
 
 ## February 2024 (#feb-2024)
 
-* Information has been added on how to personalize offers' representations based on context data [Read more](../offers/offer-library/add-representations.md#context-data)
+* Information has been added on how to personalize offers' representations based on context data. [Read more](../offers/offer-library/add-representations.md#context-data)
 
 ## January 2024 {#jan-2024}
 
